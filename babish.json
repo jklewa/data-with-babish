@@ -61,7 +61,7 @@
         "method": "Method:\u00a0Chocolate Strawberry Oasis Pie",
         "ingredients": [
           [
-            7.0,
+            25.0,
             null,
             "Oreos",
             "25 oreos, finely processed"
@@ -97,7 +97,7 @@
             "1 tsp cinnamon"
           ],
           [
-            2.0,
+            11.0,
             "ounce",
             "Quality Chocolate",
             "11 ounces quality chocolate, chopped"
@@ -174,7 +174,7 @@
             "2 \u00bd pounds of full fat cream cheese, cut"
           ],
           [
-            2.0,
+            11.0,
             "ounce",
             "Sugar",
             "11 ounces of sugar, divided"
@@ -1222,7 +1222,7 @@
             "3 cups of sugar"
           ],
           [
-            45.0,
+            450.0,
             "g",
             "Cake Flour",
             "450g of cake flour"
@@ -1252,7 +1252,7 @@
             "1 \u00bd cup of butter"
           ],
           [
-            492.0,
+            487.5,
             "g",
             "Sugar",
             "487.5g of sugar"
@@ -1390,7 +1390,7 @@
             "Small Pork Shoulder (appetizing pork), cubed"
           ],
           [
-            56.0,
+            560.0,
             "g",
             "Masa Harina",
             "560g of masa harina"
@@ -1402,7 +1402,7 @@
             "700ml hot water"
           ],
           [
-            42.0,
+            375.0,
             "g",
             "Lard",
             "375g of lard"
@@ -1444,7 +1444,7 @@
         "method": "Method",
         "ingredients": [
           [
-            5.0,
+            14.0,
             "ounce",
             "Dark Chocolate",
             "14 ounces dark chocolate"
@@ -1456,7 +1456,7 @@
             "\u00bd cup heavy cream"
           ],
           [
-            3.0,
+            12.0,
             "Tbsp",
             "Butter",
             "12 Tbsp butter"
@@ -1743,7 +1743,7 @@
             "\u00bc cup dried non-fat milk"
           ],
           [
-            6.0,
+            15.0,
             "g",
             "Sugar",
             "15g of sugar"
@@ -1761,7 +1761,7 @@
             "1 tsp kosher salt"
           ],
           [
-            50.0,
+            500.0,
             "g",
             "All Purpose Flour",
             "500g of all purpose flour"
@@ -1969,7 +1969,7 @@
         "method": "Method",
         "ingredients": [
           [
-            40.0,
+            400.0,
             null,
             "Ml Water",
             "400 ml water"
@@ -1981,13 +1981,13 @@
             "Packet of instant yeast"
           ],
           [
-            65.0,
+            650.0,
             "g",
             "All Purpose Flour",
             "650g all purpose flour, divided"
           ],
           [
-            5.0,
+            50.0,
             "g",
             "Sugar",
             "50g sugar"
@@ -1999,7 +1999,7 @@
             "5g salt"
           ],
           [
-            9.0,
+            90.0,
             "g",
             "Unsalted Butter",
             "90g unsalted butter, divided"
@@ -2359,7 +2359,7 @@
             "Generous jostling of turmeric"
           ],
           [
-            10.0,
+            28.0,
             "ounce",
             "Whole Tomatoes",
             "28 ounce can of whole tomatoes"
@@ -3192,7 +3192,7 @@
             "2 sugar pie pumpkins"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Heavy Cream",
             "1/2 cup heavy cream"
@@ -3269,7 +3269,7 @@
             "\u00bc cup vodka"
           ],
           [
-            16.0,
+            11.5,
             "ounce",
             "All Purpose Flour",
             "11.5 ounces all purpose flour"
@@ -3293,7 +3293,7 @@
             "2 \u00bd sticks of semi frozen unsalted butter"
           ],
           [
-            3.0,
+            12.0,
             null,
             "Inch Removable-bottom Tart Pan",
             "12 inch removable-bottom tart pan"
@@ -4116,7 +4116,7 @@
             "3 cloves garlic, grated"
           ],
           [
-            "1/4",
+            0.25,
             "teaspoon",
             "Cinnamon",
             "1/4 teaspoon cinnamon"
@@ -4128,43 +4128,43 @@
             "2 teaspoons chili powder"
           ],
           [
-            "1/2",
+            0.5,
             "teaspoon",
             "Mustard Seed",
             "1/2 teaspoon mustard seed"
           ],
           [
-            "1/2",
+            0.5,
             "teaspoon",
             "Ground Cumin",
             "1/2 teaspoon ground cumin"
           ],
           [
-            "1/2",
+            0.5,
             "teaspoon",
             "Ground Coriander",
             "1/2 teaspoon ground coriander"
           ],
           [
-            "1/2",
+            0.5,
             "teaspoon",
             "Nigella Seed",
             "1/2 teaspoon nigella seed"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Malt Vinegar",
             "1/2 cup malt vinegar"
           ],
           [
-            10.0,
+            28.0,
             "ounce",
             "Can Crushed Tomatoes",
             "28 ounce can crushed tomatoes"
           ],
           [
-            "1/3",
+            0.3333333333333333,
             "cup",
             "Brown Sugar",
             "1/3 cup brown sugar"
@@ -4188,13 +4188,13 @@
         "method": "Method",
         "ingredients": [
           [
-            "1/4",
+            0.25,
             "tsp",
             "Yeast",
             "1/4 tsp yeast"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Room Temperature Water",
             "1/2 cup room temperature water"
@@ -4206,31 +4206,31 @@
             "5 ounces all purpose flour"
           ],
           [
-            1.0,
+            10.0,
             "ounce",
             "All Purpose Flour",
             "10 ounces all purpose flour"
           ],
           [
-            "1/2",
+            0.5,
             "tsp",
             "Instant Yeast",
             "1/2 tsp instant yeast"
           ],
           [
-            "1 1/2",
+            1.5,
             "tsp",
             "Kosher Salt",
             "1 1/2 tsp kosher salt"
           ],
           [
-            "3/4",
+            0.75,
             "cup",
             "Room Temperature Water",
             "3/4 cup room temperature water"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Room Temperature Milk",
             "1/4 cup room temperature milk"
@@ -4272,7 +4272,7 @@
             "1 cup water"
           ],
           [
-            "3/4",
+            0.75,
             "cup",
             "Butter",
             "3/4 cup butter, divided"
@@ -4284,7 +4284,7 @@
             "4 eggs"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Sugar",
             "1/4 cup sugar"
@@ -4296,7 +4296,7 @@
             "1 Tbsp flour"
           ],
           [
-            "1 1/2",
+            1.5,
             "Tbsp",
             "Cornstarch",
             "1 1/2 Tbsp cornstarch"
@@ -4326,7 +4326,7 @@
             "3 cups confectioner\u2019s sugar, divided"
           ],
           [
-            3.0,
+            12.0,
             null,
             "Cocoa Beans",
             "12 cocoa beans"
@@ -4386,13 +4386,13 @@
             "8 allspice berries"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Orange Juice",
             "1/2 cup orange juice"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "White Vinegar",
             "1/2 cup white vinegar"
@@ -4500,7 +4500,7 @@
             "6 ounces white chocolate"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Corn Syrup",
             "1/4 cup corn syrup"
@@ -4512,7 +4512,7 @@
             "Violet food coloring/ube extract"
           ],
           [
-            "2 1/2",
+            2.5,
             "cup",
             "All Purpose Flour",
             "2 1/2 cups all purpose flour"
@@ -4524,7 +4524,7 @@
             "3 tsp baking powder"
           ],
           [
-            "3/4",
+            0.75,
             "cup",
             "Sugar",
             "3/4 cup sugar"
@@ -4542,13 +4542,13 @@
             "7 large eggs, separated"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Vegetable Oil",
             "1/2 cup vegetable oil"
           ],
           [
-            "3/4",
+            0.75,
             "cup",
             "Whole Milk",
             "3/4 cup whole milk"
@@ -4572,7 +4572,7 @@
             "Violet food coloring as necessary"
           ],
           [
-            "3/4",
+            0.75,
             "cup",
             "Sugar",
             "3/4 cup sugar"
@@ -4638,13 +4638,13 @@
             "1 Tbsp lemon-pepper seasoning (see below to make seasoning from scratch)"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Buffalo Sauce",
             "1/4 cup buffalo sauce (for JR Crickets version)"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Clarified Butter",
             "1/4 cup clarified butter (for American Deli version)"
@@ -4685,13 +4685,13 @@
             "1 Tbsp lemon-pepper seasoning (see below to make seasoning from scratch)"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Buffalo Sauce",
             "1/4 cup buffalo sauce (for JR Crickets version)"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Clarified Butter",
             "1/4 cup clarified butter (for American Deli version)"
@@ -4792,7 +4792,7 @@
         "method": "Method",
         "ingredients": [
           [
-            "8 1/2",
+            8.5,
             "ounce",
             "All Purpose Flour",
             "8 1/2 ounces all purpose flour"
@@ -4816,7 +4816,7 @@
             "1 tspn salt"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Butter",
             "1/2 cup butter"
@@ -4852,7 +4852,7 @@
             "1 cup sugar"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Water",
             "1/2 cup water"
@@ -4870,7 +4870,7 @@
             "1 cup fresh lemon juice"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Sugar",
             "1/2 cup sugar"
@@ -5026,7 +5026,7 @@
             "3 cloves garlic, crushed"
           ],
           [
-            "1/2",
+            0.5,
             null,
             "Vidalia Onion",
             "1/2 vidalia onion, diced and saut\u00e9ed"
@@ -5050,31 +5050,31 @@
             "2 Tbsp finely chopped thyme"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Dried Cherries",
             "1/4 cup dried cherries, soaked in madeira wine"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Sliced Mushrooms",
             "1/2 cup sliced mushrooms, saut\u00e9ed in butter"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Apple",
             "1/4 cup apple, finely chopped, saut\u00e9ed in butter"
           ],
           [
-            7.0,
+            16.0,
             "ounce",
             "All Purpose Flour",
             "16 ounces all purpose flour"
           ],
           [
-            "3 1/2",
+            3.5,
             "ounce",
             "Bread Flour",
             "3 1/2 ounces bread flour"
@@ -5200,13 +5200,13 @@
             "3 large eggs, separated"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Melted Butter",
             "1/2 cup melted butter, cooled"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Buttermilk",
             "1/2 cup buttermilk (more as needed)"
@@ -5266,7 +5266,7 @@
             "3 Tbsp flour"
           ],
           [
-            "3/4",
+            0.75,
             "cup",
             "Whole Milk",
             "3/4 cup whole milk (more as needed)"
@@ -5320,7 +5320,7 @@
             "2 ounces vodka"
           ],
           [
-            "1 1/2",
+            1.5,
             "ounce",
             "Kahl\u00faa",
             "1 1/2 ounces Kahl\u00faa"
@@ -5401,7 +5401,7 @@
             "2 ounces bourbon"
           ],
           [
-            "1/2",
+            0.5,
             "ounce",
             "Seltzer",
             "1/2 ounce seltzer"
@@ -5424,7 +5424,7 @@
             "1 ounce vodka"
           ],
           [
-            "1/2",
+            0.5,
             "ounce",
             "Kina Lillet",
             "1/2 ounce Kina Lillet"
@@ -5447,7 +5447,7 @@
             "1 ounce gin"
           ],
           [
-            "1/2",
+            0.5,
             "ounce",
             "Fresh Lemon Juice",
             "1/2 ounce fresh lemon juice"
@@ -5494,7 +5494,7 @@
             "2 tablespoons bacon grease"
           ],
           [
-            7.0,
+            16.0,
             "ounce",
             "Surge",
             "16 ounces Surge"
@@ -5530,19 +5530,19 @@
             "1 Bartlett pear, peeled, cored, and minced"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Pineapple",
             "1/2 cup pineapple, minced"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Roasted Pistachios",
             "1/4 cup roasted pistachios, finely chopped"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Halved Walnuts",
             "1/4 cup halved walnuts, toasted, finely chopped"
@@ -5596,7 +5596,7 @@
             "2 cups heavy cream"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Butter",
             "1/2 cup butter"
@@ -5716,13 +5716,13 @@
             "2 cups tomato puree (sub with 1 1/2 cups ketchup for oven method)"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Dark Brown Sugar",
             "1/4 cup dark brown sugar (increase to 3/4 cup for oven method)"
           ],
           [
-            "1/2",
+            0.5,
             "tsp",
             "Paprika",
             "1/2 tsp paprika"
@@ -5758,7 +5758,7 @@
             "2 tsp Worcestershire sauce"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Smoky Bourbon",
             "1/2 cup smoky bourbon"
@@ -5806,7 +5806,7 @@
             "3 cups sugar"
           ],
           [
-            "1 1/2",
+            1.5,
             "cup",
             "Unsweetened Cocoa Powder",
             "1 1/2 cups unsweetened cocoa powder"
@@ -5830,7 +5830,7 @@
             "1 tsp salt"
           ],
           [
-            "1 1/2",
+            1.5,
             "cup",
             "Buttermilk",
             "1 1/2 cups buttermilk"
@@ -5842,7 +5842,7 @@
             "4 large eggs"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Vegetable Oil",
             "1/2 cup vegetable oil"
@@ -5854,7 +5854,7 @@
             "8 ounces cream cheese"
           ],
           [
-            3.0,
+            12.0,
             "ounce",
             "Butter",
             "12 ounces butter"
@@ -5866,13 +5866,13 @@
             "1 cup unsweetened cocoa powder"
           ],
           [
-            "1 1/2",
+            1.5,
             "pound",
             "Powdered Sugar",
             "1 1/2 pound powdered sugar"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Milk",
             "1/4 cup milk (optional)"
@@ -6088,7 +6088,7 @@
             "2 teaspoons baking powder"
           ],
           [
-            "1/2",
+            0.5,
             "teaspoon",
             "Baking Soda",
             "1/2 teaspoon baking soda"
@@ -6178,7 +6178,7 @@
             "1 tablespoon vegetable oil"
           ],
           [
-            "1/2",
+            0.5,
             "pound",
             "Guanciale",
             "1/2 pound guanciale (or pancetta/bacon)"
@@ -6249,13 +6249,13 @@
             "2-3 cloves garlic, minced"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Grated Rennet-free Parmesan",
             "1/2 cup grated rennet-free parmesan (plus more for sprinkling)"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Smoked Provolone",
             "1/2 cup smoked provolone"
@@ -6279,7 +6279,7 @@
         "method": "Method",
         "ingredients": [
           [
-            "1/2",
+            0.5,
             "cup",
             "Whole Milk",
             "1/2 cup whole milk"
@@ -6291,13 +6291,13 @@
             "1 packet instant yeast"
           ],
           [
-            "2 1/2",
+            2.5,
             "ounce",
             "Sugar Plus A Pinch",
             "2 1/2 ounces sugar plus a pinch"
           ],
           [
-            9.0,
+            18.0,
             "ounce",
             "Flour",
             "18 ounces flour"
@@ -6321,7 +6321,7 @@
             "4 large eggs, lightly beaten"
           ],
           [
-            3.0,
+            12.0,
             "tablespoon",
             "Unsalted Butter",
             "12 tablespoons unsalted butter, cut into tablespoons, plus more for greasing"
@@ -6357,13 +6357,13 @@
             "3 ounces dried porcini mushrooms"
           ],
           [
-            12.0,
+            48.0,
             "ounce",
             "Homemade Chicken Stock",
             "48 ounces homemade chicken stock"
           ],
           [
-            "3/4",
+            0.75,
             "cup",
             "Olive Oil",
             "3/4 cup olive oil, divided, plus more for drizzling"
@@ -6399,7 +6399,7 @@
             "1 medium onion, diced"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Dry Sherry",
             "1/2 cup dry sherry"
@@ -6423,7 +6423,7 @@
             "Zest of two lemons"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Cr\u00e8me Fra\u00eeche",
             "1/2 cup cr\u00e8me fra\u00eeche"
@@ -7103,25 +7103,25 @@
             "2 cups water"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Rice Wine Vinegar",
             "1/2 cup rice wine vinegar"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Spiced Rum",
             "1/2 cup spiced rum"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Kosher Salt",
             "1/2 cup kosher salt"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Dark Brown Sugar",
             "1/4 cup dark brown sugar"
@@ -7163,7 +7163,7 @@
             "3 bay leaves"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Olive Oil",
             "1/2 cup olive oil"
@@ -7187,13 +7187,13 @@
             "2 stems oregano, roughly chopped"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Chopped Cilantro",
             "1/2 cup chopped cilantro"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Chopped Mint Leaves",
             "1/4 cup chopped mint leaves"
@@ -7241,7 +7241,7 @@
             "8 ounces thick deli ham"
           ],
           [
-            3.0,
+            12.0,
             null,
             "Slices Swiss Cheese",
             "12 slices swiss cheese"
@@ -7319,7 +7319,7 @@
             "3 egg yolks"
           ],
           [
-            "1/2",
+            0.5,
             "pound",
             "Bacon",
             "1/2 pound bacon"
@@ -7367,7 +7367,7 @@
             "1 egg, hard boiled, peeled, and sliced"
           ],
           [
-            1.0,
+            10.0,
             null,
             "Cucumber",
             "10 thin slices of cucumber"
@@ -7598,7 +7598,7 @@
             "1 green bell pepper, seeded and minced"
           ],
           [
-            3.0,
+            12.0,
             "ounce",
             "Dried Black Beans",
             "12 ounces dried black beans, soaked overnight, 1/2 cup soaking liquid reserved"
@@ -7646,13 +7646,13 @@
             "2 red bell peppers, seeded and left whole"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Vegetable Stock",
             "1/2 cup vegetable stock"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Water",
             "1/2 cup water"
@@ -7676,7 +7676,7 @@
             "1 clove garlic"
           ],
           [
-            "1/2",
+            0.5,
             "small",
             "Onion",
             "1/2 small onion"
@@ -8104,7 +8104,7 @@
             "1 tablespoon dried oregano"
           ],
           [
-            5.0,
+            32.0,
             "ounce",
             "Chicken Stock",
             "32 ounces chicken stock, divided"
@@ -8146,7 +8146,7 @@
             "4 large cloves of garlic, crushed"
           ],
           [
-            3.0,
+            12.0,
             "ounce",
             "Mexican Lager",
             "12 ounces Mexican lager"
@@ -8164,7 +8164,7 @@
             "2 tablespoons brown sugar"
           ],
           [
-            3.0,
+            12.0,
             "ounce",
             "Can Red Kidney Beans",
             "12 ounce can red kidney beans, rinsed and drained"
@@ -8200,7 +8200,7 @@
         "method": "Method",
         "ingredients": [
           [
-            7.0,
+            16.0,
             "oz",
             "Dried Black Beans",
             "16 oz of dried black beans"
@@ -8272,13 +8272,13 @@
             "King's Hawaiian roll, toasted in butter"
           ],
           [
-            "1/2",
+            0.5,
             "tablespoon",
             "Ketchup",
             "1/2 tablespoon ketchup"
           ],
           [
-            "1/2",
+            0.5,
             "tablespoon",
             "Teriyaki Sauce",
             "1/2 tablespoon teriyaki sauce"
@@ -8518,7 +8518,7 @@
             "1 tablespoon tomato paste"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Red Wine",
             "1/2 cup red wine"
@@ -8554,7 +8554,7 @@
             "3 pounds durum semolina pasta, cooked al dente"
           ],
           [
-            "1/2",
+            0.5,
             "tablespoon",
             "Olive Oil Or Butter For Finishing",
             "1/2 tablespoon Olive oil or butter for finishing (optional)"
@@ -8714,7 +8714,7 @@
             "6 stalks celery, chopped"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Minced Fresh Sage",
             "1/4 cup minced fresh sage"
@@ -8767,13 +8767,13 @@
             "1 cup sugar"
           ],
           [
-            "1/4",
+            0.25,
             "cup",
             "Red Wine",
             "1/4 cup red wine"
           ],
           [
-            "1 1/2",
+            1.5,
             "cup",
             "Water",
             "1 1/2 cups water"
@@ -8785,7 +8785,7 @@
             "1 cinnamon stick"
           ],
           [
-            "1/2",
+            0.5,
             "teaspoon",
             "Freshly Grated Nutmeg",
             "1/2 teaspoon freshly grated nutmeg"
@@ -8917,7 +8917,7 @@
         "method": "Method",
         "ingredients": [
           [
-            7.0,
+            16.0,
             "ounce",
             "Bread Flour",
             "16 ounces bread flour, plus more for dusting"
@@ -9007,19 +9007,19 @@
         "method": "Method",
         "ingredients": [
           [
-            "1/2",
+            0.5,
             null,
             "Head Garlic",
             "1/2 head garlic, separated and peeled"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Flat-leaf Parsley",
             "1/2 cup flat-leaf parsley, rinsed and finely chopped"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Good Quality Olive Oil",
             "1/2 cup good quality olive oil"
@@ -9031,13 +9031,13 @@
             "1 teaspoon red pepper flakes"
           ],
           [
-            "1/2",
+            0.5,
             "pound",
             "Dry Linguine",
             "1/2 pound dry linguine"
           ],
           [
-            "1/2",
+            0.5,
             null,
             "Lemon",
             "1/2 lemon"
@@ -9325,7 +9325,7 @@
             "1 pound ground chuck"
           ],
           [
-            "1/2",
+            0.5,
             "pound",
             "Ground Short Rib",
             "1/2 pound ground short rib"
@@ -9349,7 +9349,7 @@
             "3 ounces torn Italian bread"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Buttermilk",
             "1/2 cup buttermilk, plus more as needed"
@@ -9373,19 +9373,19 @@
             "4 ounces parmesan cheese, grated"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Loosely Packed Fresh Parsley Leaves",
             "1/2 cup loosely packed fresh parsley leaves, minced"
           ],
           [
-            "1/2",
+            0.5,
             "tablespoon",
             "Kosher Salt",
             "1/2 tablespoon kosher salt"
           ],
           [
-            "1/4",
+            0.25,
             "tablespoon",
             "Freshly Ground Black Pepper",
             "1/4 tablespoon freshly ground black pepper"
@@ -9409,7 +9409,7 @@
             "1 tablespoon fresh minced oregano"
           ],
           [
-            "1/2",
+            0.5,
             "cup",
             "Homemade Veal Demi Glace",
             "1/2 cup homemade veal demi glace (or chicken stock with 4 packets unflavored gelatin)"
@@ -9426,7 +9426,7 @@
         "method": "Method: Garganelli",
         "ingredients": [
           [
-            1.0,
+            10.0,
             "ounce",
             "Tipo 00 Flour",
             "10 ounces tipo 00 flour (or all-purpose), plus more for dusting"
@@ -9449,7 +9449,7 @@
         "method": "Method: Timpano",
         "ingredients": [
           [
-            6.0,
+            15.0,
             "ounce",
             "Tipo 00 Flour",
             "15 ounces tipo 00 flour"
@@ -9485,7 +9485,7 @@
             "1 pound genoa salami, sliced into 1/2\u201d rounds"
           ],
           [
-            "1/2",
+            0.5,
             "pound",
             "Grated Aged Provolone",
             "1/2 pound grated aged provolone"
@@ -9497,7 +9497,7 @@
             "1 pound low-moisture mozzarella, cut into 1\u201d cubes"
           ],
           [
-            3.0,
+            12.0,
             null,
             "Hard-boiled Eggs",
             "12 hard-boiled eggs, sliced in half"
@@ -9509,7 +9509,7 @@
             "1 recipe Italian red sauce (see Prison Sauce )"
           ],
           [
-            6.0,
+            24.0,
             null,
             "Meatballs",
             "24 meatballs (see above)"
