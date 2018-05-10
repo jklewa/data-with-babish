@@ -1,0 +1,4 @@
+measurement
+pyfunctional
+beautifulsoup4
+requests
