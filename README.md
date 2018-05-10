@@ -15,6 +15,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
     {
       "episode_name": "Episode Name",
       "episode_link": "https://www.bingingwithbabish.com/recipes/...",
+      "youtube_link": "https://www.youtube.com/watch?v=...",
       "recipes": [
         {
           "method": "Method Name (from Episode Name)",
