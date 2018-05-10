@@ -1396,9 +1396,9 @@
             "560g of masa harina"
           ],
           [
-            null,
-            null,
-            "700ml Hot Water",
+            700.0,
+            "ml",
+            "Hot Water",
             "700ml hot water"
           ],
           [
@@ -1970,8 +1970,8 @@
         "ingredients": [
           [
             400.0,
-            null,
-            "Ml Water",
+            "ml",
+            "Water",
             "400 ml water"
           ],
           [
@@ -3224,7 +3224,7 @@
           [
             1.0,
             "tsp",
-            "Vanilla Paste.",
+            "Vanilla Paste",
             "1 tsp vanilla paste."
           ],
           [
@@ -6671,7 +6671,7 @@
           [
             8.0,
             "oz",
-            ". Chocolate",
+            "Chocolate",
             "8 oz. chocolate"
           ],
           [
@@ -6861,7 +6861,7 @@
           [
             4.0,
             "oz",
-            ". Crumbled Goat Cheese",
+            "Crumbled Goat Cheese",
             "4 oz. crumbled goat cheese"
           ],
           [
@@ -6957,7 +6957,7 @@
           [
             1.0,
             "oz",
-            ". Red Dried Chinese Chilis",
+            "Red Dried Chinese Chilis",
             "1 oz. red dried chinese chilis"
           ],
           [
@@ -7339,7 +7339,7 @@
           [
             1.0,
             "large",
-            ", Long Sourdough Loaf",
+            "Long Sourdough Loaf",
             "1 large, long sourdough loaf"
           ],
           [
@@ -8817,7 +8817,7 @@
           [
             12.5,
             "oz",
-            ". All Purpose Flour",
+            "All Purpose Flour",
             "12\u00bd oz. all purpose flour"
           ],
           [
@@ -8841,7 +8841,7 @@
           [
             "6-8",
             "oz",
-            ". Ice Water",
+            "Ice Water",
             "6-8 oz. ice water"
           ]
         ]
