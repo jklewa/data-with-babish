@@ -2,3 +2,6 @@ measurement
 pyfunctional
 beautifulsoup4
 requests
+plotly
+cufflinks
+pandas
