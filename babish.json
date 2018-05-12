@@ -68,7 +68,7 @@
           ],
           [
             8.0,
-            "Tbsp",
+            "tablespoon",
             "Melted Unsalted Butter",
             "8 Tbsp melted unsalted butter, divided"
           ],
@@ -80,19 +80,19 @@
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Instant Espresso Powder",
             "1 tsp of instant espresso powder"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Allspice",
             "1 tsp allspice"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Cinnamon",
             "1 tsp cinnamon"
           ],
@@ -104,7 +104,7 @@
           ],
           [
             4.0,
-            "Tbsp",
+            "tablespoon",
             "Unsalted Butter",
             "4 Tbsp unsalted butter"
           ],
@@ -116,14 +116,14 @@
           ],
           [
             3.0,
-            "Tbsp",
-            "Hot Butter",
+            "tablespoon",
+            "Butter",
             "3 Tbsp hot butter"
           ],
           [
             1.0,
-            "Tbsp",
-            "Hot Water",
+            "tablespoon",
+            "Water",
             "1 Tbsp hot water"
           ],
           [
@@ -163,7 +163,7 @@
           ],
           [
             7.0,
-            "Tbsp",
+            "tablespoon",
             "Melted Butter",
             "7 Tbsp melted butter"
           ],
@@ -181,7 +181,7 @@
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Salt",
             "1 tsp salt"
           ],
@@ -199,7 +199,7 @@
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Vanilla Extract",
             "1 tsp vanilla extract"
           ],
@@ -247,19 +247,19 @@
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Cumin",
             "2 tsp cumin"
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Ground Coriander",
             "2 tsp ground coriander"
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Paprika",
             "2 tsp paprika"
           ],
@@ -337,7 +337,7 @@
           ],
           [
             3.0,
-            "Tbsp",
+            "tablespoon",
             "Hungarian Sweet Paprika",
             "3 Tbsp Hungarian sweet paprika, plus more for garnish"
           ],
@@ -552,7 +552,7 @@
           [
             null,
             null,
-            "Whole Garlic Clove",
+            "Garlic Clove",
             "Whole garlic clove"
           ],
           [
@@ -623,31 +623,31 @@
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Ground Sumac",
             "1 tsp ground sumac"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Cumin",
             "1 tsp cumin"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Coriander",
             "1 tsp coriander"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Cinnamon",
             "1 tsp cinnamon"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Allspice",
             "1 tsp allspice"
           ],
@@ -798,7 +798,7 @@
           [
             1.0,
             null,
-            "Can Peeled Whole Tomatoes",
+            "Can Peeled Tomatoes",
             "1 (28-ounce; 800g) can peeled whole tomatoes"
           ],
           [
@@ -1061,31 +1061,31 @@
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Coriander Seeds",
             "1 tsp coriander seeds"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Cardamom",
             "1 tsp cardamom"
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Cumin Seed",
             "2 tsp cumin seed"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Mustard Seeds",
             "1 tsp mustard seeds"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Peppercorns",
             "1 tsp peppercorns"
           ],
@@ -1097,13 +1097,13 @@
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Grated Ginger",
             "1 Tbsp grated ginger"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Grated Turmeric",
             "1 Tbsp grated turmeric"
           ],
@@ -1163,25 +1163,25 @@
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Rice Wine Vinegar",
             "1 Tbsp rice wine vinegar"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Fish Sauce",
             "1 Tbsp fish sauce"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Sesame Oil",
             "1 Tbsp sesame oil"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Soy Sauce",
             "1 Tbsp soy sauce"
           ],
@@ -1223,25 +1223,25 @@
           ],
           [
             450.0,
-            "g",
+            "gram",
             "Cake Flour",
             "450g of cake flour"
           ],
           [
             1.5,
-            "tsp",
+            "teaspoon",
             "Salt",
             "1 \u00bd tsp salt"
           ],
           [
             0.75,
-            "tsp",
+            "teaspoon",
             "Baking Powder",
             "\u00be tsp of baking powder"
           ],
           [
             0.75,
-            "tsp",
+            "teaspoon",
             "Baking Soda",
             "\u00be tsp baking soda"
           ],
@@ -1253,7 +1253,7 @@
           ],
           [
             487.5,
-            "g",
+            "gram",
             "Sugar",
             "487.5g of sugar"
           ],
@@ -1265,7 +1265,7 @@
           ],
           [
             3.0,
-            "tsp",
+            "teaspoon",
             "Vanilla Extract",
             "3 tsp vanilla extract"
           ],
@@ -1349,7 +1349,7 @@
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Cumin",
             "2 tsp of cumin"
           ],
@@ -1391,25 +1391,25 @@
           ],
           [
             560.0,
-            "g",
+            "gram",
             "Masa Harina",
             "560g of masa harina"
           ],
           [
             700.0,
             "ml",
-            "Hot Water",
+            "Water",
             "700ml hot water"
           ],
           [
             375.0,
-            "g",
+            "gram",
             "Lard",
             "375g of lard"
           ],
           [
             1.5,
-            "tsp",
+            "teaspoon",
             "Baking Powder",
             "1 \u00bd tsp baking powder"
           ],
@@ -1457,7 +1457,7 @@
           ],
           [
             12.0,
-            "Tbsp",
+            "tablespoon",
             "Butter",
             "12 Tbsp butter"
           ],
@@ -1475,19 +1475,19 @@
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Vanilla Extract",
             "1 tsp vanilla extract"
           ],
           [
             2.0,
-            "Tbsp",
+            "tablespoon",
             "Grand Marnier",
             "2 Tbsp Grand Marnier"
           ],
           [
             6.0,
-            "Tbsp",
+            "tablespoon",
             "All Purpose Flour",
             "6 Tbsp all purpose flour"
           ],
@@ -1541,13 +1541,13 @@
           ],
           [
             "3-4",
-            "Tbsp",
+            "tablespoon",
             "Kosher Salt",
             "3-4 Tbsp Kosher Salt"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Baking Powder",
             "1 tsp Baking Powder"
           ],
@@ -1744,31 +1744,31 @@
           ],
           [
             15.0,
-            "g",
+            "gram",
             "Sugar",
             "15g of sugar"
           ],
           [
             1.5,
             "cup",
-            "Warm Water",
+            "Water",
             "1 \u00bd cup warm water"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Kosher Salt",
             "1 tsp kosher salt"
           ],
           [
             500.0,
-            "g",
+            "gram",
             "All Purpose Flour",
             "500g of all purpose flour"
           ],
           [
             2.0,
-            "Tbsp",
+            "tablespoon",
             "Vegetable Oil",
             "2 Tbsp vegetable oil, plus an additional \u2153 cup vegetable oil"
           ],
@@ -1780,25 +1780,25 @@
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Onion Powder",
             "1 Tbsp onion powder"
           ],
           [
             2.0,
-            "Tbsp",
+            "tablespoon",
             "Garlic Powder",
             "2 Tbsp garlic powder"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Dried Oregano",
             "1 Tbsp dried oregano"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Dried Basil",
             "1 Tbsp dried basil"
           ],
@@ -1839,7 +1839,7 @@
           ],
           [
             2.0,
-            "Tbsp",
+            "tablespoon",
             "Vegetable Oil",
             "2 Tbsp vegetable oil"
           ],
@@ -1982,25 +1982,25 @@
           ],
           [
             650.0,
-            "g",
+            "gram",
             "All Purpose Flour",
             "650g all purpose flour, divided"
           ],
           [
             50.0,
-            "g",
+            "gram",
             "Sugar",
             "50g sugar"
           ],
           [
             5.0,
-            "g",
+            "gram",
             "Salt",
             "5g salt"
           ],
           [
             90.0,
-            "g",
+            "gram",
             "Unsalted Butter",
             "90g unsalted butter, divided"
           ],
@@ -2067,7 +2067,7 @@
           [
             0.3333333333333333,
             "cup",
-            "Warm Whole Milk",
+            "Milk",
             "\u2153 cup of warm whole milk"
           ],
           [
@@ -2090,7 +2090,7 @@
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Kosher Salt",
             "2 tsp kosher salt"
           ],
@@ -2126,7 +2126,7 @@
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Butter",
             "1 Tbsp butter"
           ]
@@ -2211,7 +2211,7 @@
           [
             null,
             null,
-            "Whole Onion",
+            "Onion",
             "Whole onion, chopped"
           ],
           [
@@ -2361,7 +2361,7 @@
           [
             28.0,
             "ounce",
-            "Whole Tomatoes",
+            "Tomatoes",
             "28 ounce can of whole tomatoes"
           ],
           [
@@ -2504,7 +2504,7 @@
           ],
           [
             2.0,
-            "Tbsp",
+            "tablespoon",
             "Green Curry Paste",
             "2 Tbsp green curry paste"
           ],
@@ -2625,7 +2625,7 @@
           [
             4.0,
             "cup",
-            "Whole Milk",
+            "Milk",
             "4 cups of whole milk"
           ],
           [
@@ -2655,7 +2655,7 @@
           [
             null,
             null,
-            "Hot Sauce",
+            "Sauce",
             "Hot sauce"
           ]
         ]
@@ -2677,7 +2677,7 @@
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Vegetable Oil",
             "1 Tbsp of vegetable oil"
           ],
@@ -2767,7 +2767,7 @@
           ],
           [
             2.0,
-            "Tbsp",
+            "tablespoon",
             "Honey",
             "2 Tbsp honey"
           ],
@@ -2785,25 +2785,25 @@
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Seasoned Rice Vinegar",
             "2 tsp seasoned rice vinegar"
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Sesame Seed Oil",
             "2 tsp sesame seed oil"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Chili-garlic Sauce",
             "1 Tbsp chili-garlic sauce"
           ],
           [
             2.0,
-            "Tbsp",
+            "tablespoon",
             "Smooth Peanut Butter",
             "2 Tbsp smooth peanut butter"
           ],
@@ -2852,7 +2852,7 @@
           [
             null,
             null,
-            "Whole Milk",
+            "Milk",
             "Whole milk"
           ],
           [
@@ -2905,7 +2905,7 @@
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Instant Coffee",
             "1 tsp of instant coffee (optional)"
           ],
@@ -2959,7 +2959,7 @@
           ],
           [
             3.0,
-            "Tbsp",
+            "tablespoon",
             "Chopped Butter",
             "3 Tbsp chopped butter"
           ],
@@ -3037,43 +3037,43 @@
           ],
           [
             0.25,
-            "tsp",
+            "teaspoon",
             "Ground Cloves",
             "\u00bc tsp ground cloves"
           ],
           [
             0.25,
-            "tsp",
+            "teaspoon",
             "Cinnamon",
             "\u00bc tsp cinnamon"
           ],
           [
             0.25,
-            "tsp",
+            "teaspoon",
             "Allspice",
             "\u00bc tsp allspice"
           ],
           [
             0.25,
-            "tsp",
+            "teaspoon",
             "Cayenne Pepper",
             "\u00bc tsp cayenne pepper"
           ],
           [
             0.25,
-            "tsp",
+            "teaspoon",
             "Ground Cumin",
             "\u00bc tsp ground cumin"
           ],
           [
             0.25,
-            "tsp",
+            "teaspoon",
             "Paprika",
             "\u00bc tsp paprika"
           ],
           [
             0.25,
-            "tsp",
+            "teaspoon",
             "Garlic Powder",
             "\u00bc tsp garlic powder"
           ],
@@ -3098,7 +3098,7 @@
           [
             null,
             null,
-            "One Whole Chuck Roast",
+            "One Chuck Roast",
             "One whole chuck roast"
           ],
           [
@@ -3139,25 +3139,25 @@
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Thyme",
             "1 tsp thyme"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Rosemary",
             "1 tsp rosemary"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Sage",
             "1 tsp sage"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Tomato Paste",
             "1 Tbsp tomato paste"
           ],
@@ -3211,7 +3211,7 @@
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Cinnamon",
             "1 tsp cinnamon"
           ],
@@ -3223,7 +3223,7 @@
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Vanilla Paste",
             "1 tsp vanilla paste."
           ],
@@ -3282,7 +3282,7 @@
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Kosher Salt",
             "1 tsp kosher salt"
           ],
@@ -3383,19 +3383,19 @@
           ],
           [
             0.5,
-            "tsp",
+            "teaspoon",
             "Baking Soda",
             "\u00bd tsp baking soda"
           ],
           [
             0.5,
-            "tsp",
+            "teaspoon",
             "Salt",
             "\u00bd tsp salt"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "White Sugar",
             "1 tsp white sugar"
           ],
@@ -3449,7 +3449,7 @@
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "White Sugar",
             "2 tsp white sugar"
           ],
@@ -3462,7 +3462,7 @@
           [
             null,
             null,
-            "Hot Fudge Sauce",
+            "Fudge Sauce",
             "Hot fudge sauce (from Michael Scott Pretzel Episode )"
           ],
           [
@@ -3606,7 +3606,7 @@
           [
             2.0,
             "cup",
-            "Whole Milk",
+            "Milk",
             "2 cups whole milk"
           ],
           [
@@ -3617,7 +3617,7 @@
           ],
           [
             6.0,
-            "Tbsp",
+            "tablespoon",
             "Brown Sugar",
             "6 Tbsp brown sugar"
           ],
@@ -3635,20 +3635,20 @@
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Salt",
             "2 tsp salt"
           ],
           [
             4.0,
-            "Tbsp",
+            "tablespoon",
             "Cooled Melted Butter",
             "4 Tbsp cooled melted butter"
           ],
           [
             4.0,
             "cup",
-            "Hot Water Combined With \u00bd Cup Baking Soda",
+            "Water Combined With \u00bd Cup Baking Soda",
             "4 cups hot water combined with \u00bd cup baking soda"
           ],
           [
@@ -3724,31 +3724,31 @@
           ],
           [
             "2-3",
-            "Tbsp",
+            "tablespoon",
             "Cream",
             "2-3 Tbsp cream"
           ],
           [
             "3-4",
-            "Tbsp",
+            "tablespoon",
             "White Wine Vinegar",
             "3-4 Tbsp white wine vinegar"
           ],
           [
             "1-2",
-            "Tbsp",
+            "tablespoon",
             "Lemon Juice",
             "1-2 Tbsp lemon juice"
           ],
           [
             "1-2",
-            "tsp",
+            "teaspoon",
             "White Sugar",
             "1-2 tsp white sugar"
           ],
           [
             "2-3",
-            "Tbsp",
+            "tablespoon",
             "Greek Yogurt",
             "2-3 Tbsp greek yogurt"
           ],
@@ -3849,7 +3849,7 @@
           [
             null,
             null,
-            "Whole Chicken",
+            "Chicken",
             "Whole chicken"
           ],
           [
@@ -3873,18 +3873,18 @@
           [
             null,
             null,
-            "Half A Lemon",
+            "A Lemon",
             "Juice of half a lemon"
           ],
           [
             0.5,
-            "tsp",
+            "teaspoon",
             "Cardamom",
             "\u00bd tsp cardamom"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Sumac",
             "1 tsp sumac"
           ],
@@ -4015,31 +4015,31 @@
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Apple Cider Vinegar",
             "1 Tbsp apple cider vinegar"
           ],
           [
             0.5,
-            "tsp",
+            "teaspoon",
             "Sesame Seed Oil",
             "\u00bd tsp sesame seed oil"
           ],
           [
             0.25,
-            "tsp",
+            "teaspoon",
             "Garlic Powder",
             "\u00bc tsp garlic powder"
           ],
           [
             0.25,
-            "tsp",
+            "teaspoon",
             "Onion Powder",
             "\u00bc tsp onion powder"
           ],
           [
             0.25,
-            "tsp",
+            "teaspoon",
             "Ground Ginger",
             "\u00bc tsp ground ginger"
           ],
@@ -4063,13 +4063,13 @@
           ],
           [
             2.0,
-            "Tbsp",
+            "tablespoon",
             "Cornstarch",
             "2 Tbsp cornstarch"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Xanthan Gum",
             "1 tsp xanthan gum"
           ]
@@ -4078,12 +4078,53 @@
     ]
   },
   {
-    "episode_name": "Himalayan Ketchup Inspired by Regular Show",
-    "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/29/himalayan-ketchup",
+    "episode_name": "The Ultimeatum from Regular Show",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/ultimeatum",
     "youtube_link": "https://www.youtube.com/watch?v=S7eUmZ4Sp3U",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Method: Ultimeatum",
+        "ingredients": [
+          [
+            null,
+            null,
+            "American Cheese",
+            "American cheese"
+          ],
+          [
+            null,
+            null,
+            "Cooked Bacon",
+            "Cooked bacon"
+          ],
+          [
+            2.0,
+            "pound",
+            "Ground Beef",
+            "2 pounds of ground beef"
+          ],
+          [
+            null,
+            null,
+            "Pepperjack Cheese",
+            "Pepperjack cheese"
+          ],
+          [
+            null,
+            null,
+            "Pastrami",
+            "Pastrami"
+          ],
+          [
+            null,
+            null,
+            "Hamburger Buns",
+            "Hamburger buns"
+          ]
+        ]
+      },
+      {
+        "method": "Method: Himalayan Ketchup",
         "ingredients": [
           [
             1.0,
@@ -4189,7 +4230,7 @@
         "ingredients": [
           [
             0.25,
-            "tsp",
+            "teaspoon",
             "Yeast",
             "1/4 tsp yeast"
           ],
@@ -4213,13 +4254,13 @@
           ],
           [
             0.5,
-            "tsp",
+            "teaspoon",
             "Instant Yeast",
             "1/2 tsp instant yeast"
           ],
           [
             1.5,
-            "tsp",
+            "teaspoon",
             "Kosher Salt",
             "1 1/2 tsp kosher salt"
           ],
@@ -4291,13 +4332,13 @@
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Flour",
             "1 Tbsp flour"
           ],
           [
             1.5,
-            "Tbsp",
+            "tablespoon",
             "Cornstarch",
             "1 1/2 Tbsp cornstarch"
           ],
@@ -4310,7 +4351,7 @@
           [
             3.0,
             "cup",
-            "Whole Milk",
+            "Milk",
             "3 cups whole milk, divided"
           ],
           [
@@ -4357,25 +4398,25 @@
         "ingredients": [
           [
             5.0,
-            "Tbsp",
+            "tablespoon",
             "Annatto Seeds",
             "5 Tbsp annatto seeds"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Black Peppercorns",
             "1 Tbsp black peppercorns"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Cloves",
             "1 tsp cloves"
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Cumin Seed",
             "2 tsp cumin seed"
           ],
@@ -4417,7 +4458,7 @@
           ],
           [
             2.0,
-            "Tbsp",
+            "tablespoon",
             "Salt",
             "2 Tbsp salt"
           ],
@@ -4471,7 +4512,7 @@
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Mustard Seeds",
             "1 Tbsp mustard seeds"
           ],
@@ -4519,7 +4560,7 @@
           ],
           [
             3.0,
-            "tsp",
+            "teaspoon",
             "Baking Powder",
             "3 tsp baking powder"
           ],
@@ -4531,7 +4572,7 @@
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Salt",
             "1 tsp salt"
           ],
@@ -4550,7 +4591,7 @@
           [
             0.75,
             "cup",
-            "Whole Milk",
+            "Milk",
             "3/4 cup whole milk"
           ],
           [
@@ -4561,7 +4602,7 @@
           ],
           [
             "3-4",
-            "tsp",
+            "teaspoon",
             "Ube Extract",
             "3-4 tsp ube extract"
           ],
@@ -4597,7 +4638,7 @@
           ],
           [
             "1-2",
-            "tsp",
+            "teaspoon",
             "Ube Extract/violet Food Coloring",
             "1-2 tsp ube extract/violet food coloring"
           ],
@@ -4633,7 +4674,7 @@
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Lemon-pepper Seasoning",
             "1 Tbsp lemon-pepper seasoning (see below to make seasoning from scratch)"
           ],
@@ -4668,19 +4709,19 @@
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Kosher Salt",
             "2 tsp kosher salt"
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Baking Powder",
             "2 tsp baking powder"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Lemon-pepper Seasoning",
             "1 Tbsp lemon-pepper seasoning (see below to make seasoning from scratch)"
           ],
@@ -4709,31 +4750,31 @@
           ],
           [
             2.0,
-            "Tbsp",
+            "tablespoon",
             "Pepper",
             "2 Tbsp pepper"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Sugar",
             "1 tsp sugar"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Garlic Powder",
             "1 tsp garlic powder"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Onion Powder",
             "1 tsp onion powder"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Celery Salt",
             "1 tsp celery salt"
           ]
@@ -4769,13 +4810,13 @@
           ],
           [
             2.0,
-            "Tbsp",
+            "tablespoon",
             "Vegetable Oil",
             "2 Tbsp vegetable oil"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Kosher Salt",
             "1 tsp kosher salt"
           ]
@@ -4799,13 +4840,13 @@
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Baking Powder",
             "1 tsp baking powder"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Baking Soda",
             "1 tsp baking soda"
           ],
@@ -4883,7 +4924,7 @@
           ],
           [
             6.0,
-            "Tbsp",
+            "tablespoon",
             "Butter",
             "6 Tbsp butter, cut into pieces"
           ]
@@ -4907,7 +4948,7 @@
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Kosher Salt",
             "1 tsp kosher salt"
           ],
@@ -4919,7 +4960,7 @@
           ],
           [
             "2-3",
-            "Tbsp",
+            "tablespoon",
             "Ice Water",
             "2-3 Tbsp ice water"
           ],
@@ -4937,31 +4978,31 @@
           ],
           [
             2.0,
-            "Tbsp",
+            "tablespoon",
             "Rolled Oats",
             "2 Tbsp rolled oats"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Smoked Paprika",
             "1 Tbsp smoked paprika"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Paprika",
             "1 tsp paprika"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Allspice",
             "1 tsp allspice"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Freshly Grated Nutmeg",
             "1 tsp freshly grated nutmeg"
           ],
@@ -5033,19 +5074,19 @@
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Finely Chopped Sage",
             "2 tsp finely chopped sage"
           ],
           [
             2.0,
-            "Tbsp",
+            "tablespoon",
             "Finely Chopped Rosemary",
             "2 Tbsp finely chopped rosemary"
           ],
           [
             2.0,
-            "Tbsp",
+            "tablespoon",
             "Finely Chopped Thyme",
             "2 Tbsp finely chopped thyme"
           ],
@@ -5081,7 +5122,7 @@
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Salt",
             "1 tsp salt"
           ],
@@ -5147,31 +5188,31 @@
           ],
           [
             2.0,
-            "tsp",
-            "Hot Sauce",
+            "teaspoon",
+            "Sauce",
             "2 tsp hot sauce"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Paprika",
             "1 tsp paprika"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Garlic Powder",
             "1 tsp garlic powder"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Onion Powder",
             "1 tsp onion powder"
           ],
           [
             3.0,
-            "Tbsp",
+            "tablespoon",
             "Salt",
             "3 Tbsp salt"
           ],
@@ -5189,7 +5230,7 @@
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Baking Soda",
             "2 tsp baking soda"
           ],
@@ -5225,13 +5266,13 @@
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Baking Powder",
             "2 tsp baking powder"
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Baking Soda",
             "2 tsp baking soda"
           ],
@@ -5261,14 +5302,14 @@
           ],
           [
             3.0,
-            "Tbsp",
+            "tablespoon",
             "Flour",
             "3 Tbsp flour"
           ],
           [
             0.75,
             "cup",
-            "Whole Milk",
+            "Milk",
             "3/4 cup whole milk (more as needed)"
           ],
           [
@@ -5561,7 +5602,7 @@
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Grated Ginger",
             "1 Tbsp grated ginger"
           ],
@@ -5633,67 +5674,67 @@
         "ingredients": [
           [
             3.0,
-            "Tbsp",
+            "tablespoon",
             "Chili Powder",
             "3 Tbsp chili powder"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Garlic Powder",
             "1 Tbsp garlic powder"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Onion Powder",
             "1 Tbsp onion powder"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Paprika",
             "1 Tbsp paprika (sub with smoked paprika for oven method)"
           ],
           [
             2.0,
-            "Tbsp",
+            "tablespoon",
             "Ground Mustard",
             "2 Tbsp ground mustard"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Dried Oregano",
             "1 Tbsp dried oregano"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Kosher Salt",
             "1 Tbsp kosher salt"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Black Pepper",
             "1 Tbsp black pepper"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "White Pepper",
             "1 Tbsp white pepper"
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Cumin",
             "1 Tbsp cumin (optional, omit for oven method)"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Cayenne Pepper",
             "1 tsp cayenne pepper (optional)"
           ],
@@ -5723,37 +5764,37 @@
           ],
           [
             0.5,
-            "tsp",
+            "teaspoon",
             "Paprika",
             "1/2 tsp paprika"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Garlic Powder",
             "1 tsp garlic powder"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Onion Powder",
             "1 tsp onion powder"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Salt",
             "1 tsp salt"
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Ground Mustard",
             "2 tsp ground mustard (sub with 1/4 cup yellow mustard for oven method)"
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Worcestershire Sauce",
             "2 tsp Worcestershire sauce"
           ],
@@ -5765,7 +5806,7 @@
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Liquid Smoke",
             "1 Tbsp liquid smoke"
           ],
@@ -5789,7 +5830,7 @@
         "ingredients": [
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Butter",
             "1 Tbsp butter"
           ],
@@ -5813,19 +5854,19 @@
           ],
           [
             1.0,
-            "Tbsp",
+            "tablespoon",
             "Baking Powder",
             "1 Tbsp baking powder"
           ],
           [
             2.0,
-            "tsp",
+            "teaspoon",
             "Baking Soda",
             "2 tsp baking soda"
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Salt",
             "1 tsp salt"
           ],
@@ -6132,7 +6173,7 @@
           [
             null,
             null,
-            "Warm Maple Syrup",
+            "Maple Syrup",
             "Warm maple syrup"
           ]
         ]
@@ -6281,7 +6322,7 @@
           [
             0.5,
             "cup",
-            "Whole Milk",
+            "Milk",
             "1/2 cup whole milk"
           ],
           [
@@ -6574,7 +6615,7 @@
           ],
           [
             8.0,
-            "oz",
+            "ounce",
             "Halved Mushrooms",
             "8 oz of halved mushrooms"
           ],
@@ -6640,19 +6681,19 @@
           ],
           [
             1.5,
-            "tsp",
+            "teaspoon",
             "Baking Powder",
             "1 \u00bd tsp baking powder"
           ],
           [
             1.5,
-            "tsp",
+            "teaspoon",
             "Kosher Salt",
             "1 \u00bd tsp kosher salt"
           ],
           [
             0.5,
-            "tsp",
+            "teaspoon",
             "Vanilla Extract",
             "\u00bd tsp vanilla extract"
           ],
@@ -6670,14 +6711,14 @@
           ],
           [
             8.0,
-            "oz",
+            "ounce",
             "Chocolate",
             "8 oz. chocolate"
           ],
           [
             0.5,
             "cup",
-            "Whole Milk",
+            "Milk",
             "\u00bd cup whole milk"
           ]
         ]
@@ -6777,7 +6818,7 @@
           ],
           [
             "2 - 14",
-            "oz",
+            "ounce",
             "Chopped Tomatoes",
             "2 - 14 oz. cans of chopped tomatoes"
           ],
@@ -6860,7 +6901,7 @@
           ],
           [
             4.0,
-            "oz",
+            "ounce",
             "Crumbled Goat Cheese",
             "4 oz. crumbled goat cheese"
           ],
@@ -6956,7 +6997,7 @@
         "ingredients": [
           [
             1.0,
-            "oz",
+            "ounce",
             "Red Dried Chinese Chilis",
             "1 oz. red dried chinese chilis"
           ],
@@ -7784,7 +7825,7 @@
         "ingredients": [
           [
             2.0,
-            "oz",
+            "ounce",
             "Grain Alcohol",
             "2 oz of grain alcohol"
           ],
@@ -7843,7 +7884,7 @@
           ],
           [
             3.0,
-            "oz",
+            "ounce",
             "Simple Syrup",
             "3 oz Simple syrup"
           ]
@@ -7998,7 +8039,7 @@
           [
             0.25,
             "cup",
-            "Warm Water",
+            "Water",
             "\u00bc cup of warm water (approx. 110 degrees fahrenheit)"
           ],
           [
@@ -8201,7 +8242,7 @@
         "ingredients": [
           [
             16.0,
-            "oz",
+            "ounce",
             "Dried Black Beans",
             "16 oz of dried black beans"
           ],
@@ -8423,19 +8464,19 @@
           ],
           [
             5.0,
-            "oz",
-            "Whole Wheat Flour",
+            "ounce",
+            "Wheat Flour",
             "5 oz of whole wheat flour (approx. 1 \u00bc cup)"
           ],
           [
             5.0,
-            "oz",
+            "ounce",
             "Bread Flour",
             "5 oz of bread flour (approx. 1 \u00bc cup)"
           ],
           [
             19.25,
-            "oz",
+            "ounce",
             "Bread Flour",
             "19 \u00bc oz bread flour (approx. 4 \u00be cup)"
           ],
@@ -8447,7 +8488,7 @@
           ],
           [
             2.5,
-            "oz",
+            "ounce",
             "Rye Flour",
             "2 \u00bd oz rye flour (approx. \u2154 cup)"
           ],
@@ -8657,7 +8698,7 @@
           [
             1.0,
             "tablespoon",
-            "Whole Black Peppercorns",
+            "Black Peppercorns",
             "1 tablespoon whole black peppercorns"
           ],
           [
@@ -8816,7 +8857,7 @@
         "ingredients": [
           [
             12.5,
-            "oz",
+            "ounce",
             "All Purpose Flour",
             "12\u00bd oz. all purpose flour"
           ],
@@ -8828,7 +8869,7 @@
           ],
           [
             1.0,
-            "tsp",
+            "teaspoon",
             "Salt",
             "1 tsp salt"
           ],
@@ -8840,7 +8881,7 @@
           ],
           [
             "6-8",
-            "oz",
+            "ounce",
             "Ice Water",
             "6-8 oz. ice water"
           ]
@@ -8883,7 +8924,7 @@
           [
             2.0,
             "ounce",
-            "Sliced Sweet And Hot Peppers",
+            "Sliced Sweet And Peppers",
             "2 ounces sliced sweet and hot peppers"
           ],
           [
@@ -8955,7 +8996,7 @@
           [
             null,
             null,
-            "One 28-ounce Can Whole Peeled Tomatoes",
+            "One 28-ounce Can Peeled Tomatoes",
             "One 28-ounce can whole peeled tomatoes"
           ],
           [
@@ -9523,7 +9564,7 @@
           [
             null,
             null,
-            "Whole Nutmeg",
+            "Nutmeg",
             "Whole nutmeg"
           ]
         ]
@@ -9612,13 +9653,13 @@
           ],
           [
             3.0,
-            "oz",
+            "ounce",
             "Fontina Cheese",
             "3oz fontina cheese"
           ],
           [
             3.0,
-            "oz",
+            "ounce",
             "Parmesan Cheese",
             "3oz parmesan cheese"
           ],
