@@ -1,5 +1,77 @@
 [
   {
+    "episode_name": "Cheesy Blasters inspired by 30 Rock",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/cheesyblasters",
+    "youtube_link": "https://www.youtube.com/watch?v=atLL2Yzi3bg",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Pizza Dough",
+            "Pizza dough"
+          ],
+          [
+            null,
+            null,
+            "Flour",
+            "Flour"
+          ],
+          [
+            null,
+            null,
+            "Spicy Italian Sausage",
+            "Spicy Italian Sausage"
+          ],
+          [
+            null,
+            null,
+            "Pepperoni",
+            "Pepperoni"
+          ],
+          [
+            null,
+            null,
+            "Genoa Salami",
+            "Genoa salami"
+          ],
+          [
+            null,
+            null,
+            "Hard Salami",
+            "Hard salami"
+          ],
+          [
+            null,
+            null,
+            "Low Moisture Mozzarella",
+            "Low moisture mozzarella"
+          ],
+          [
+            null,
+            null,
+            "Pizza Sauce",
+            "Pizza sauce"
+          ],
+          [
+            null,
+            null,
+            "Ricotta Cheese",
+            "Ricotta cheese"
+          ],
+          [
+            null,
+            null,
+            "Eggs",
+            "Eggs"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Pies from Waitress",
     "episode_link": "https://www.bingingwithbabish.com/recipes/piesfromwaitress",
     "youtube_link": "https://www.youtube.com/watch?v=NgloGi5xEa8",
@@ -9573,7 +9645,7 @@
   },
   {
     "episode_name": "Parks & Rec Burger Cookoff",
-    "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/parksandrecburger",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/parksandrecburger",
     "youtube_link": "https://www.youtube.com/watch?v=MP_nWuLYpJw",
     "recipes": [
       {
@@ -9649,37 +9721,37 @@
             1.0,
             "cup",
             "Canola Oil",
-            "1 cup of canola oil"
+            "1 cup canola oil"
           ],
           [
             3.0,
             "ounce",
             "Fontina Cheese",
-            "3oz fontina cheese"
+            "3 ounces fontina cheese"
           ],
           [
             3.0,
             "ounce",
             "Parmesan Cheese",
-            "3oz parmesan cheese"
+            "3 ounces parmesan cheese"
           ],
           [
             3.0,
-            "lb",
+            "pound",
             "Turkey Breast",
-            "3lb turkey breast"
+            "3 pounds turkey breast"
           ],
           [
             2.0,
             "tablespoon",
             "Soy Sauce",
-            "2 tablespoons of soy sauce"
+            "2 Tbsp soy sauce"
           ],
           [
             0.25,
             "teaspoon",
             "Marmite",
-            "\u00bc teaspoon of marmite"
+            "\u00bc tsp marmite"
           ],
           [
             1.0,
@@ -9691,7 +9763,7 @@
             2.0,
             "tablespoon",
             "Safflower Oil",
-            "2 tablespoons of safflower oil"
+            "2 Tbsp of safflower oil"
           ],
           [
             null,
