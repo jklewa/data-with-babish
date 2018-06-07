@@ -1,5 +1,375 @@
 [
   {
+    "episode_name": "Cannolis inspired by The Godfather",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/thegodfathercannolis",
+    "youtube_link": "https://www.youtube.com/watch?v=44fjX-rgJ7s",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            48.0,
+            "ounce",
+            "Milk Ricotta",
+            "48 ounces whole milk ricotta, drained"
+          ],
+          [
+            250.0,
+            "gram",
+            "All Purpose Flour",
+            "250g of all purpose flour (plus more for rolling out dough)"
+          ],
+          [
+            155.0,
+            "gram",
+            "Powdered Sugar",
+            "155g powdered sugar, sifted, divided"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Cocoa Powder",
+            "2 tsp cocoa powder"
+          ],
+          [
+            1.5,
+            "teaspoon",
+            "Ground Cinnamon",
+            "1 \u00bd tsp ground cinnamon, divided"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Instant Espresso Powder",
+            "\u00bd tsp instant espresso powder"
+          ],
+          [
+            30.0,
+            "ml",
+            "Marsala Wine",
+            "30ml Marsala wine"
+          ],
+          [
+            30.0,
+            "ml",
+            "White Wine Vinegar",
+            "30ml white wine vinegar"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Butter",
+            "2 Tbsp butter"
+          ],
+          [
+            1.0,
+            "whole",
+            "Egg",
+            "1 whole egg"
+          ],
+          [
+            null,
+            null,
+            "Pam Spray Or Vegetable Oil",
+            "Pam spray or vegetable oil"
+          ],
+          [
+            1.0,
+            null,
+            "Egg White",
+            "1 egg white"
+          ],
+          [
+            null,
+            null,
+            "Lard",
+            "Lard"
+          ],
+          [
+            null,
+            null,
+            "Pistachios",
+            "Pistachios, finely chopped"
+          ],
+          [
+            null,
+            null,
+            "Melted Chocolate",
+            "Melted chocolate"
+          ],
+          [
+            null,
+            null,
+            "Chocolate Chips",
+            "Chocolate chips"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Arrested Development Special (feat. Sean Evans)",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/arresteddevelopmentspecial",
+    "youtube_link": "https://www.youtube.com/watch?v=2U_0OlCizx0",
+    "recipes": [
+      {
+        "method": "Method: Bluth Frozen Bananas",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Milk Chocolate",
+            "Milk chocolate"
+          ],
+          [
+            null,
+            null,
+            "Coconut Oil",
+            "Coconut oil"
+          ],
+          [
+            null,
+            null,
+            "Frozen Bananas",
+            "Frozen bananas"
+          ],
+          [
+            null,
+            null,
+            "Skewers",
+            "Skewers"
+          ],
+          [
+            null,
+            null,
+            "Your Choice",
+            "Toppings of your choice"
+          ]
+        ]
+      },
+      {
+        "method": "Method:\u00a0Hot Ham Water (Babish Version)",
+        "ingredients": [
+          [
+            4.0,
+            "pound",
+            "Pigs Feet",
+            "4 pounds of pigs feet, cut into 1 inch thick pieces"
+          ],
+          [
+            1.0,
+            null,
+            "Onion",
+            "1 onion, cut into quarters"
+          ],
+          [
+            "6-8",
+            null,
+            "Scallions",
+            "6-8 scallions, chopped"
+          ],
+          [
+            "3-",
+            null,
+            "Inch Knob Fresh Ginger",
+            "3-inch knob fresh ginger, chopped"
+          ]
+        ]
+      },
+      {
+        "method": "Method:\u00a0The Cornballer (Hushpuppies)",
+        "ingredients": [
+          [
+            120.0,
+            "gram",
+            "Corn Flour",
+            "120g corn flour"
+          ],
+          [
+            85.0,
+            "gram",
+            "All Purpose Flour",
+            "85g all purpose flour"
+          ],
+          [
+            1.5,
+            "teaspoon",
+            "Baking Powder",
+            "1 \u00bd tsp baking powder"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Baking Soda",
+            "\u00bd tsp baking soda"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Kosher Salt",
+            "1 tsp kosher salt"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Paprika",
+            "\u00bd tsp paprika"
+          ],
+          [
+            0.75,
+            "cup",
+            "Buttermilk",
+            "\u00be cup buttermilk"
+          ],
+          [
+            2.0,
+            "whole",
+            "Eggs",
+            "2 whole eggs"
+          ],
+          [
+            1.0,
+            null,
+            "Jalapeno",
+            "1 jalapeno, chopped"
+          ],
+          [
+            1.0,
+            null,
+            "Scallion",
+            "1 scallion, chopped"
+          ],
+          [
+            1.0,
+            "cup",
+            "Corn",
+            "1 cup of whole corn"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Bubble Bass' Order inspired by Spongebob Squarepants",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/bubblebass",
+    "youtube_link": "https://www.youtube.com/watch?v=Y8hi6A5MPVY",
+    "recipes": [
+      {
+        "method": "Method: Babish Version",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Onions",
+            "Onions"
+          ],
+          [
+            null,
+            null,
+            "Texas Toast",
+            "Texas toast"
+          ],
+          [
+            null,
+            null,
+            "Pickles",
+            "Pickles"
+          ],
+          [
+            null,
+            null,
+            "Tomatoes",
+            "Tomatoes"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Iceberg Lettuce",
+            "Iceberg lettuce"
+          ],
+          [
+            null,
+            null,
+            "Caramelized Onions",
+            "Caramelized onions"
+          ],
+          [
+            null,
+            null,
+            "Ketchup",
+            "Ketchup"
+          ],
+          [
+            null,
+            null,
+            "Mayonnaise",
+            "Mayonnaise"
+          ],
+          [
+            null,
+            null,
+            "Garlic Powder",
+            "Garlic powder"
+          ],
+          [
+            null,
+            null,
+            "Onion Powder",
+            "Onion powder"
+          ],
+          [
+            null,
+            null,
+            "Paprika",
+            "Paprika"
+          ],
+          [
+            null,
+            null,
+            "Pickle Juice",
+            "Pickle juice"
+          ],
+          [
+            null,
+            null,
+            "Ground Beef",
+            "Ground beef"
+          ],
+          [
+            null,
+            null,
+            "Himalayan Salt",
+            "Himalayan salt"
+          ],
+          [
+            null,
+            null,
+            "Butter",
+            "Butter"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "Olive oil"
+          ],
+          [
+            null,
+            null,
+            "Cheese",
+            "Cheese (the fancier the better)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Cheesy Blasters inspired by 30 Rock",
     "episode_link": "https://www.bingingwithbabish.com/recipes/cheesyblasters",
     "youtube_link": "https://www.youtube.com/watch?v=atLL2Yzi3bg",
