@@ -1,5 +1,143 @@
 [
   {
+    "episode_name": "Pizza inspired by Deadpool",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/deadpoolpizza",
+    "youtube_link": "https://www.youtube.com/watch?v=95M8W1JgH_0",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            250.0,
+            "gram",
+            "Bread Flour",
+            "250g bread flour"
+          ],
+          [
+            250.0,
+            "gram",
+            "00 Italian Flour",
+            "250g 00 Italian Flour"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Active Yeast",
+            "2 tsp active yeast"
+          ],
+          [
+            8.0,
+            "gram",
+            "Kosher Salt",
+            "8g kosher salt"
+          ],
+          [
+            325.0,
+            null,
+            "Ml Water",
+            "325 mL water"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Or Olive Oil",
+            "Vegetable or olive oil"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Pasta Puttanesca inspired by Lemony Snicket's A Series of Unfortunate Events",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/pastaputtanesca",
+    "youtube_link": "https://www.youtube.com/watch?v=uwV9cq9DRTY&t=311s",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            7.5,
+            "ounce",
+            "Semolina Flour",
+            "7 \u00bd ounces Semolina flour, separated"
+          ],
+          [
+            2.5,
+            "ounce",
+            "All Purpose Flour",
+            "2 \u00bd ounces all purpose flour"
+          ],
+          [
+            2.3,
+            "ounce",
+            "Eggs",
+            "2.3 ounces eggs (remove white as needed)"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Kosher salt"
+          ],
+          [
+            2.0,
+            "ounce",
+            "Water",
+            "2 ounces water"
+          ],
+          [
+            4.0,
+            "ounce",
+            "Black Olives",
+            "4 ounces black olives, pitted"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Capers",
+            "2 Tbsp capers"
+          ],
+          [
+            1.0,
+            null,
+            "Can Anchovies",
+            "1 can anchovies"
+          ],
+          [
+            0.5,
+            "cup",
+            "Minced Parsley",
+            "\u00bd cup minced parsley"
+          ],
+          [
+            "3-4",
+            "tablespoon",
+            "Olive Oil",
+            "3-4 Tbsp olive oil"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Butter",
+            "2 Tbsp butter"
+          ],
+          [
+            1.0,
+            null,
+            "San Marzano Tomatoes",
+            "1 can of whole San Marzano tomatoes"
+          ],
+          [
+            null,
+            null,
+            "Parmesan Cheese",
+            "Parmesan cheese (optional)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Cannolis inspired by The Godfather",
     "episode_link": "https://www.bingingwithbabish.com/recipes/thegodfathercannolis",
     "youtube_link": "https://www.youtube.com/watch?v=44fjX-rgJ7s",
