@@ -1,5 +1,365 @@
 [
   {
+    "episode_name": "Fried Green Tomatoes inspired by...Fried Green Tomatoes",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/friedgreentomatoes",
+    "youtube_link": "https://www.youtube.com/watch?v=KKBkY-7TCw0",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            4.0,
+            null,
+            "Green Tomatoes",
+            "4 green tomatoes"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Kosher salt"
+          ],
+          [
+            0.75,
+            "cup",
+            "Mayonnaise",
+            "\u00be cup mayonnaise"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Dijon Mustard",
+            "1 Tbsp dijon mustard"
+          ],
+          [
+            null,
+            null,
+            "\u00bc A Lemon",
+            "Juice of \u00bc a lemon"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Grain Mustard",
+            "1 tsp whole grain mustard"
+          ],
+          [
+            2.0,
+            null,
+            "Cloves Garlic",
+            "2 cloves garlic, finely minced"
+          ],
+          [
+            null,
+            null,
+            "Scallions",
+            "Scallions, finely chopped"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Capers",
+            "1 Tbsp capers, chopped"
+          ],
+          [
+            null,
+            null,
+            "Worcestershire Sauce",
+            "Worcestershire sauce (to taste)"
+          ],
+          [
+            null,
+            null,
+            "Sauce",
+            "Hot sauce (to taste)"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Cayenne Pepper",
+            "1 tsp cayenne pepper"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Smoked Paprika",
+            "1 tsp smoked paprika"
+          ],
+          [
+            1.0,
+            "cup",
+            "Cornmeal",
+            "1 cup cornmeal"
+          ],
+          [
+            0.5,
+            "cup",
+            "Breadcrumbs",
+            "\u00bd cup breadcrumbs"
+          ],
+          [
+            1.5,
+            "cup",
+            "White Flour",
+            "1 \u00bd cups white flour"
+          ],
+          [
+            null,
+            null,
+            "Onion Powder",
+            "Onion powder"
+          ],
+          [
+            null,
+            null,
+            "White Pepper",
+            "White pepper"
+          ],
+          [
+            null,
+            null,
+            "Garlic Powder",
+            "Garlic powder"
+          ],
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs"
+          ],
+          [
+            1.0,
+            "cup",
+            "Buttermilk",
+            "1 cup buttermilk"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Okonomiyaki inspired by Sweetness & Lightning",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/okonomiyaki",
+    "youtube_link": "https://www.youtube.com/watch?v=DNg7Obo-DDM",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            1.0,
+            "tablespoon",
+            "White Sugar",
+            "1 Tbsp white sugar"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Oyster Sauce",
+            "2 Tbsp oyster sauce"
+          ],
+          [
+            4.0,
+            "tablespoon",
+            "Ketchup",
+            "4 Tbsp ketchup"
+          ],
+          [
+            3.5,
+            "tablespoon",
+            "Worcestershire Sauce",
+            "3 \u00bd Tbsp worcestershire sauce"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Car Panini inspired by Family Guy",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/carpanini",
+    "youtube_link": "https://www.youtube.com/watch?v=4Rz8BPRFeiA",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            null,
+            null,
+            "White Bread",
+            "White bread"
+          ],
+          [
+            null,
+            null,
+            "Butter",
+            "Butter"
+          ],
+          [
+            1.0,
+            "small",
+            "Vienna Sausages",
+            "1 small can of vienna sausages"
+          ],
+          [
+            1.0,
+            null,
+            "Doritos",
+            "1 bag of Doritos"
+          ],
+          [
+            1.0,
+            null,
+            "Cadbury Egg",
+            "1 Cadbury Egg"
+          ],
+          [
+            4.0,
+            null,
+            "Reese's Peanut Butter Cups",
+            "4 Reese\u2019s Peanut Butter Cups"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Shrimp inspired by Forrest Gump | Part 1",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/forrestgumpshrimp",
+    "youtube_link": "https://www.youtube.com/watch?v=6HBPHRDEt_Q",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            1.0,
+            "pound",
+            "Uncooked Shrimp",
+            "1 pound (or more) whole uncooked shrimp"
+          ],
+          [
+            null,
+            null,
+            "Baking Powder",
+            "Baking powder"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Congee inspired by Mulan",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/mulancongee",
+    "youtube_link": "https://www.youtube.com/watch?v=VGsIsfIyz4E",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Long Grain Jasmine Rice",
+            "1 cup long grain jasmine rice"
+          ],
+          [
+            6.0,
+            "cup",
+            "Chicken Stock",
+            "6 cups chicken stock"
+          ],
+          [
+            1.0,
+            null,
+            "Ginger",
+            "1 inch knob of ginger, chopped"
+          ],
+          [
+            2.0,
+            null,
+            "Cloves Garlic",
+            "2 cloves garlic, divided"
+          ],
+          [
+            1.0,
+            null,
+            "Shallot",
+            "1 shallot, finely chopped"
+          ],
+          [
+            1.0,
+            null,
+            "Green Onion",
+            "1 green onion"
+          ],
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs"
+          ],
+          [
+            3.0,
+            null,
+            "Slices Bacon",
+            "3 slices bacon"
+          ],
+          [
+            null,
+            null,
+            "Shiitake Mushrooms",
+            "Shiitake mushrooms"
+          ],
+          [
+            null,
+            null,
+            "Sesame Seeds",
+            "Sesame seeds"
+          ],
+          [
+            null,
+            null,
+            "Peanuts",
+            "Peanuts"
+          ],
+          [
+            null,
+            null,
+            "Sriracha",
+            "Sriracha"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Pizza inspired by Deadpool",
     "episode_link": "https://www.bingingwithbabish.com/recipes/deadpoolpizza",
     "youtube_link": "https://www.youtube.com/watch?v=95M8W1JgH_0",
@@ -580,7 +940,7 @@
     ]
   },
   {
-    "episode_name": "Pies from Waitress",
+    "episode_name": "Pies inspired by Waitress",
     "episode_link": "https://www.bingingwithbabish.com/recipes/piesfromwaitress",
     "youtube_link": "https://www.youtube.com/watch?v=NgloGi5xEa8",
     "recipes": [
@@ -812,7 +1172,7 @@
     ]
   },
   {
-    "episode_name": "The Sloppy Jessica from Brooklyn Nine-Nine",
+    "episode_name": "The Sloppy Jessica inspired by Brooklyn Nine-Nine",
     "episode_link": "https://www.bingingwithbabish.com/recipes/thesloppyjessica",
     "youtube_link": "https://www.youtube.com/watch?v=KKoOIyhJwA4",
     "recipes": [
@@ -890,7 +1250,7 @@
     ]
   },
   {
-    "episode_name": "Chicken Paprikash from Captain America: Civil War",
+    "episode_name": "Chicken Paprikash inspired by Captain America: Civil War",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/chickenpaprikash",
     "youtube_link": "https://www.youtube.com/watch?v=baG767jr8c8",
     "recipes": [
@@ -956,7 +1316,7 @@
     ]
   },
   {
-    "episode_name": "Chateaubriand Steak from The Matrix",
+    "episode_name": "Chateaubriand Steak inspired by The Matrix",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/chateaubriandsteak",
     "youtube_link": "https://www.youtube.com/watch?v=eA6uLMsl9w0",
     "recipes": [
@@ -1176,7 +1536,7 @@
     ]
   },
   {
-    "episode_name": "Shawarma from The Avengers",
+    "episode_name": "Shawarma inspired by The Avengers",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/shawarma",
     "youtube_link": "https://www.youtube.com/watch?v=iErqWGwso7o",
     "recipes": [
@@ -1260,7 +1620,7 @@
     ]
   },
   {
-    "episode_name": "Cr\u00e8me Br\u00fbl\u00e9e from Amelie",
+    "episode_name": "Cr\u00e8me Br\u00fbl\u00e9e inspired by Amelie",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/cremebrule",
     "youtube_link": "https://www.youtube.com/watch?v=dn_aaxZIA2o",
     "recipes": [
@@ -1302,7 +1662,7 @@
     ]
   },
   {
-    "episode_name": "Lasagna from Garfield (feat. It's Alive with Brad)",
+    "episode_name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna",
     "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
     "recipes": [
@@ -1464,7 +1824,7 @@
     ]
   },
   {
-    "episode_name": "Parm Heros from Lots of Things",
+    "episode_name": "Parm Heros inspired by Lots of Things",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/parmhero",
     "youtube_link": "https://www.youtube.com/watch?v=DkiyT-dnmv8",
     "recipes": [
@@ -1626,7 +1986,7 @@
     ]
   },
   {
-    "episode_name": "Pineapple-Curry Fried Rice from Food Wars!: Shokugeki no Soma",
+    "episode_name": "Pineapple-Curry Fried Rice inspired by Food Wars!: Shokugeki no Soma",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/pineapplecurryfriedrice",
     "youtube_link": "https://www.youtube.com/watch?v=WRA3a7c4Qt4",
     "recipes": [
@@ -1782,7 +2142,7 @@
     ]
   },
   {
-    "episode_name": "Clementine Cake from The Secret Life of Walter Mitty",
+    "episode_name": "Clementine Cake inspired by The Secret Life of Walter Mitty",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/clementinecake",
     "youtube_link": "https://www.youtube.com/watch?v=cr2wUlNSFg0",
     "recipes": [
@@ -1884,7 +2244,7 @@
     ]
   },
   {
-    "episode_name": "Tamales from Coco",
+    "episode_name": "Tamales inspired by Coco",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/tamalesfromcoco",
     "youtube_link": "https://www.youtube.com/watch?v=akA_Z9Xmnvc",
     "recipes": [
@@ -2016,7 +2376,7 @@
     ]
   },
   {
-    "episode_name": "Chocolate Lava Cakes from Chef with Jon Favreau and Roy Choi",
+    "episode_name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/chocolatelavacakes",
     "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ",
     "recipes": [
@@ -2106,7 +2466,7 @@
     ]
   },
   {
-    "episode_name": "Fraiser Special",
+    "episode_name": "Frasier Special",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/fraiserspecial",
     "youtube_link": "https://www.youtube.com/watch?v=AwS_DIMeVoM&t=7s",
     "recipes": [
@@ -2541,7 +2901,7 @@
     ]
   },
   {
-    "episode_name": "Eggs in a Nest from Lots of Stuff",
+    "episode_name": "Eggs in a Nest inspired by Lots of Stuff",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/egginanest",
     "youtube_link": "https://www.youtube.com/watch?v=4QDDxmtbUsw&feature=youtu.be",
     "recipes": [
@@ -2631,7 +2991,7 @@
     ]
   },
   {
-    "episode_name": "Rum French Toast from Mad Men",
+    "episode_name": "Rum French Toast inspired by Mad Men",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/rumfrenchtoast",
     "youtube_link": "https://www.youtube.com/watch?v=evzWEXpW1pM",
     "recipes": [
@@ -2715,12 +3075,12 @@
     ]
   },
   {
-    "episode_name": "The Every-Meat Burrito from Regular Show: 2 Million Subscriber Special",
+    "episode_name": "The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/everymeatburrito",
     "youtube_link": "https://www.youtube.com/watch?v=Mf4wwXM2o_M",
     "recipes": [
       {
-        "method": "Default - The Every-Meat Burrito from Regular Show: 2 Million Subscriber Special",
+        "method": "Default - The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special",
         "ingredients": [
           [
             null,
@@ -2865,7 +3225,7 @@
     ]
   },
   {
-    "episode_name": "Moroccan Pasta from Peep Show",
+    "episode_name": "Moroccan Pasta inspired by Peep Show",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/moroccanpasta",
     "youtube_link": "https://www.youtube.com/watch?v=kBo7FK3NO6s&t=1s",
     "recipes": [
@@ -2973,7 +3333,7 @@
     ]
   },
   {
-    "episode_name": "Skinner's Stew from The Simpsons",
+    "episode_name": "Skinner's Stew inspired by The Simpsons",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/skinnersstew",
     "youtube_link": "https://www.youtube.com/watch?v=y3PoXXoGVj0&t=215s",
     "recipes": [
@@ -3296,7 +3656,7 @@
     ]
   },
   {
-    "episode_name": "Peking Duck from A Christmas Story",
+    "episode_name": "Peking Duck inspired by A Christmas Story",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/pekingduck",
     "youtube_link": "https://www.youtube.com/watch?v=Hez55mhB8UA",
     "recipes": [
@@ -3422,7 +3782,7 @@
     ]
   },
   {
-    "episode_name": "Flanders' Hot Chocolate from The Simpsons Movie",
+    "episode_name": "Flanders' Hot Chocolate inspired by The Simpsons Movie",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/flandershotcocoa",
     "youtube_link": "https://www.youtube.com/watch?v=UCZVSr2Xt2k",
     "recipes": [
@@ -3518,7 +3878,7 @@
     ]
   },
   {
-    "episode_name": "Quatro Quesos Dos Fritos from Psych",
+    "episode_name": "Quatro Quesos Dos Fritos inspired by Psych",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/quatroquesodosfritos",
     "youtube_link": "https://www.youtube.com/watch?v=O-H_Ybmtu_U",
     "recipes": [
@@ -3590,7 +3950,7 @@
     ]
   },
   {
-    "episode_name": "The Garbage Plate from The Place Beyond The Pines (sort of)",
+    "episode_name": "The Garbage Plate inspired by The Place Beyond The Pines (sort of)",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/garbageplate",
     "youtube_link": "https://www.youtube.com/watch?v=wjoeVwJTUTA",
     "recipes": [
@@ -3668,7 +4028,7 @@
     ]
   },
   {
-    "episode_name": "Rachel's Trifle from Friends",
+    "episode_name": "Rachel's Trifle inspired by Friends",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/racheltrifle",
     "youtube_link": "https://www.youtube.com/watch?v=G4BxOhJOmUw",
     "recipes": [
@@ -3930,7 +4290,7 @@
     ]
   },
   {
-    "episode_name": "Triple-Decker Eggo Extravaganza from Stranger Things",
+    "episode_name": "Triple-Decker Eggo Extravaganza inspired by Stranger Things",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/tripledeckereggo",
     "youtube_link": "https://www.youtube.com/watch?v=L1kgO1I9NvQ",
     "recipes": [
@@ -3951,15 +4311,15 @@
           ],
           [
             2.0,
-            null,
-            "Tbps Cornmeal",
-            "2 Tbps cornmeal"
+            "tablespoon",
+            "Cornmeal",
+            "2 Tbsp cornmeal"
           ],
           [
             2.0,
-            null,
-            "Tbps Buttermilk Powder",
-            "2 Tbps buttermilk powder"
+            "tablespoon",
+            "Buttermilk Powder",
+            "2 Tbsp buttermilk powder"
           ],
           [
             0.5,
@@ -4056,7 +4416,7 @@
     ]
   },
   {
-    "episode_name": "Clay-Roasted Thigh from Hannibal",
+    "episode_name": "Clay-Roasted Thigh inspired by Hannibal",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/clayroastedthigh",
     "youtube_link": "https://www.youtube.com/watch?v=lnB7svFAZBs&t=2s",
     "recipes": [
@@ -4176,7 +4536,7 @@
     ]
   },
   {
-    "episode_name": "Michael Scott\u2019s Pretzel from The Office",
+    "episode_name": "Michael Scott\u2019s Pretzel inspired by The Office",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/michaelscottpretzel",
     "youtube_link": "https://www.youtube.com/watch?v=NHA9Ffaal2M&t=252s",
     "recipes": [
@@ -4491,7 +4851,7 @@
     ]
   },
   {
-    "episode_name": "Room Service from Mad Men",
+    "episode_name": "Room Service inspired by Mad Men",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/madmen",
     "youtube_link": "https://www.youtube.com/watch?v=BagY2Mnz-TU&t=278s",
     "recipes": [
@@ -4538,7 +4898,7 @@
     ]
   },
   {
-    "episode_name": "Movie Theater Popcorn & Raisinets from Whiplash",
+    "episode_name": "Movie Theater Popcorn & Raisinets inspired by Whiplash",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/raisinets",
     "youtube_link": "https://www.youtube.com/watch?v=FoztKuXEYnQ",
     "recipes": [
@@ -4658,7 +5018,7 @@
     ]
   },
   {
-    "episode_name": "The Ultimeatum from Regular Show",
+    "episode_name": "The Ultimeatum inspired by Regular Show",
     "episode_link": "https://www.bingingwithbabish.com/recipes/ultimeatum",
     "youtube_link": "https://www.youtube.com/watch?v=S7eUmZ4Sp3U",
     "recipes": [
@@ -6512,15 +6872,15 @@
         "ingredients": [
           [
             1.0,
-            "lb",
+            "pound",
             "Chuck Steak",
-            "1 lb chuck steak"
+            "1 pound chuck steak"
           ],
           [
             1.0,
-            "lb",
+            "pound",
             "Bone-in Short Ribs",
-            "1 lb bone-in short ribs"
+            "1 pound bone-in short ribs"
           ],
           [
             null,
@@ -6532,13 +6892,13 @@
             2.0,
             "teaspoon",
             "Msg",
-            "2 teaspoons MSG"
+            "2 tsp MSG"
           ],
           [
             2.0,
             "tablespoon",
             "Vegetable Oil",
-            "2 tablespoons vegetable oil"
+            "2 Tbsp vegetable oil"
           ],
           [
             2.0,
@@ -6622,13 +6982,13 @@
             0.5,
             "teaspoon",
             "Vanilla Paste",
-            "\u00bd teaspoon of vanilla paste"
+            "\u00bd tsp of vanilla paste"
           ],
           [
             0.75,
             "cup",
-            "White Flour",
-            "\u00be cup white flour"
+            "All Purpose Flour",
+            "\u00be cup all purpose flour"
           ],
           [
             0.75,
@@ -6645,14 +7005,14 @@
           [
             3.0,
             "tablespoon",
-            "Cocoa Nibs",
-            "3 tablespoons of cocoa nibs"
+            "Cacao Nibs",
+            "3 Tbsp of cacao nibs"
           ],
           [
             2.0,
             "tablespoon",
             "Arrowroot Powder",
-            "2 tablespoons of arrowroot powder"
+            "2 Tbsp of arrowroot powder"
           ],
           [
             0.5,
@@ -6693,32 +7053,32 @@
           [
             7.0,
             "ounce",
-            "All-purpose Flour",
-            "7 ounces all-purpose flour"
+            "All Purpose Flour",
+            "7 ounces all purpose flour"
           ],
           [
             2.0,
             "tablespoon",
             "Sugar",
-            "2 tablespoons sugar"
+            "2 Tbsp sugar"
           ],
           [
             2.0,
             "teaspoon",
             "Baking Powder",
-            "2 teaspoons baking powder"
+            "2 tsp baking powder"
           ],
           [
             0.5,
             "teaspoon",
             "Baking Soda",
-            "1/2 teaspoon baking soda"
+            "1/2 tsp baking soda"
           ],
           [
             1.0,
             "teaspoon",
             "Kosher Salt",
-            "1 teaspoon kosher salt"
+            "1 tsp kosher salt"
           ],
           [
             2.0,
@@ -6736,13 +7096,13 @@
             3.0,
             "tablespoon",
             "Melted Butter",
-            "3 tablespoons melted butter, cooled (plus more for plating)"
+            "3 Tbsp melted butter, cooled (plus more for plating)"
           ],
           [
             1.0,
             "tablespoon",
             "Vegetable Oil",
-            "1 tablespoon vegetable oil"
+            "1 Tbsp vegetable oil"
           ],
           [
             1.0,
@@ -6771,8 +7131,8 @@
           [
             7.0,
             "ounce",
-            "All-purpose Flour",
-            "7 ounces all-purpose flour (plus more for dusting)"
+            "All Purpose Flour",
+            "7 ounces all purpose flour (plus more for dusting)"
           ],
           [
             7.0,
@@ -6790,13 +7150,13 @@
             1.0,
             "teaspoon",
             "Salt",
-            "1 teaspoon salt"
+            "1 tsp salt"
           ],
           [
             1.0,
             "tablespoon",
             "Vegetable Oil",
-            "1 tablespoon vegetable oil"
+            "1 Tbsp vegetable oil"
           ],
           [
             0.5,
@@ -6830,8 +7190,8 @@
           [
             7.0,
             "ounce",
-            "All-purpose Flour",
-            "7 ounces all-purpose flour (plus more for dusting)"
+            "All Purpose Flour",
+            "7 ounces all purpose flour (plus more for dusting)"
           ],
           [
             7.0,
@@ -6849,13 +7209,13 @@
             1.0,
             "teaspoon",
             "Salt",
-            "1 teaspoon salt"
+            "1 tsp salt"
           ],
           [
             2.0,
             "tablespoon",
             "Vegetable Oil",
-            "2 tablespoons vegetable oil"
+            "2 Tbsp vegetable oil"
           ],
           [
             6.0,
@@ -6927,7 +7287,7 @@
             1.0,
             "teaspoon",
             "Kosher Salt",
-            "1 teaspoon kosher salt"
+            "1 tsp kosher salt"
           ],
           [
             null,
@@ -6945,7 +7305,7 @@
             12.0,
             "tablespoon",
             "Unsalted Butter",
-            "12 tablespoons unsalted butter, cut into tablespoons, plus more for greasing"
+            "12 Tbsp unsalted butter, cut into tablespoons, plus more for greasing"
           ],
           [
             1.0,
@@ -6999,7 +7359,7 @@
             1.0,
             "teaspoon",
             "Chopped Fresh Thyme",
-            "1 teaspoon chopped fresh thyme"
+            "1 tsp chopped fresh thyme"
           ],
           [
             3.0,
@@ -7074,10 +7434,10 @@
             "Some store bought batter"
           ],
           [
+            1.0,
             null,
-            null,
-            "Store Bought Waffle Batter",
-            "Store bought waffle batter"
+            "Butter",
+            "1 stick of butter"
           ],
           [
             null,
@@ -7099,9 +7459,9 @@
         "ingredients": [
           [
             3.0,
-            "lb",
-            "Chuck Roast Cut Into 2in. Cubes",
-            "3lbs of chuck roast cut into 2in. cubes"
+            "pound",
+            "Chuck Roast Cut Into 2-inch Cubes",
+            "3 pounds of chuck roast cut into 2-inch cubes"
           ],
           [
             null,
@@ -7119,7 +7479,7 @@
             1.0,
             "tablespoon",
             "Vegetable Oil",
-            "1 tablespoon of vegetable oil"
+            "1 Tbsp vegetable oil"
           ],
           [
             1.0,
@@ -7137,13 +7497,13 @@
             3.0,
             "cup",
             "Burgundy",
-            "3 cups of burgundy"
+            "3 cups burgundy"
           ],
           [
             0.25,
             "cup",
-            "All-purpose Flour",
-            "\u00bc cup of all-purpose flour"
+            "All Purpose Flour",
+            "\u00bc cup all purpose flour"
           ],
           [
             3.0,
@@ -7155,7 +7515,7 @@
             1.0,
             "tablespoon",
             "Chopped Thyme",
-            "1 tablespoon of chopped thyme"
+            "1 Tbsp of chopped thyme"
           ],
           [
             1.0,
@@ -7164,46 +7524,46 @@
             "1 bay leaf"
           ],
           [
-            null,
-            null,
+            "2-3",
+            "tablespoon",
             "Tomato Paste",
-            "A few tablespoons of tomato paste"
+            "2-3 Tbsp tomato paste"
           ],
           [
             1.0,
-            "lb",
+            "pound",
             "Pearl Onions",
-            "1lb of pearl onions"
+            "1 pound pearl onions"
           ],
           [
             1.0,
             "tablespoon",
             "Vegetable Oil",
-            "1 tablespoon of vegetable oil"
+            "1 Tbsp of vegetable oil"
           ],
           [
             1.0,
             "cup",
             "Beef Stock",
-            "1 cup of beef stock"
+            "1 cup beef stock"
           ],
           [
             2.0,
             "tablespoon",
             "Butter",
-            "2 tablespoons of butter"
+            "2 Tbsp of butter"
           ],
           [
             8.0,
             "ounce",
-            "Halved Mushrooms",
-            "8 oz of halved mushrooms"
+            "Mushrooms",
+            "8 ounces mushrooms, halved"
           ],
           [
             1.0,
             "teaspoon",
             "Chopped Thyme",
-            "1 teaspoon of chopped thyme"
+            "1 tsp chopped thyme"
           ],
           [
             null,
@@ -7239,7 +7599,7 @@
             2.0,
             "cup",
             "Sugar",
-            "2 cups of sugar"
+            "2 cups sugar"
           ],
           [
             3.0,
@@ -7251,7 +7611,7 @@
             1.0,
             "cup",
             "Flour",
-            "1 cup of flour"
+            "1 cup flour"
           ],
           [
             0.5,
@@ -7293,7 +7653,7 @@
             8.0,
             "ounce",
             "Chocolate",
-            "8 oz. chocolate"
+            "8 ounces chocolate"
           ],
           [
             0.5,
@@ -7309,8 +7669,8 @@
           [
             null,
             null,
-            "Cascabella Chilies",
-            "Cascabella chilies"
+            "Cascabella Chiles",
+            "Cascabella chiles"
           ],
           [
             null,
@@ -7328,31 +7688,31 @@
             3.0,
             "cup",
             "Chicken Stock",
-            "3 cups of chicken stock"
+            "3 cups chicken stock"
           ],
           [
             0.5,
             "cup",
             "Corn Flour",
-            "\u00bd cup of corn flour"
+            "\u00bd cup corn flour"
           ],
           [
             1.0,
-            null,
-            "Tbs Dried Oregano",
-            "1 tbs dried oregano"
+            "tablespoon",
+            "Dried Oregano",
+            "1 Tbsp dried oregano"
           ],
           [
             2.0,
-            null,
+            "tablespoon",
             "Unsweetened Cocoa Powder",
-            "2 tbs of unsweetened cocoa powder"
+            "2 Tbsp unsweetened cocoa powder"
           ],
           [
             1.0,
-            null,
-            "Tbs Ground Cumin",
-            "1 tbs ground cumin"
+            "tablespoon",
+            "Ground Cumin",
+            "1 Tbsp ground cumin"
           ],
           [
             1.0,
@@ -7397,10 +7757,10 @@
             "1 Mexican beer"
           ],
           [
-            "2 - 14",
+            14.0,
             "ounce",
             "Chopped Tomatoes",
-            "2 - 14 oz. cans of chopped tomatoes"
+            "(2)14 ounce cans of chopped tomatoes"
           ],
           [
             null,
@@ -7434,8 +7794,8 @@
           [
             0.5,
             null,
-            "Dozen Shallots Shaved Thinly",
-            "\u00bd dozen shallots shaved thinly"
+            "Dozen Shallots",
+            "\u00bd dozen shallots"
           ],
           [
             3.0,
@@ -7445,15 +7805,15 @@
           ],
           [
             2.0,
-            null,
-            "Tbs Butter",
-            "2 tbs butter"
+            "tablespoon",
+            "Butter",
+            "2 Tbsp butter"
           ],
           [
             2.0,
-            null,
-            "Tbs Olive Oil",
-            "2 tbs olive oil"
+            "tablespoon",
+            "Olive Oil",
+            "2 Tbsp olive oil"
           ],
           [
             6.0,
@@ -7465,7 +7825,7 @@
             1.0,
             "cup",
             "Milk",
-            "1 cup of milk"
+            "1 cup milk"
           ],
           [
             null,
@@ -7483,13 +7843,13 @@
             4.0,
             "ounce",
             "Crumbled Goat Cheese",
-            "4 oz. crumbled goat cheese"
+            "4 ounces crumbled goat cheese"
           ],
           [
             1.0,
             null,
-            "Garlic",
-            "1 clove of garlic"
+            "Clove Garlic",
+            "1 clove garlic"
           ]
         ]
       }
@@ -7505,21 +7865,21 @@
         "ingredients": [
           [
             1.0,
-            "lb",
+            "pound",
             "Chicken Feet",
-            "1lb chicken feet"
+            "1 pound chicken feet"
           ],
           [
             0.25,
-            "lb",
+            "pound",
             "Pork Spare Ribs",
-            "\u00bc lb pork spare ribs"
+            "\u00bc pound pork spare ribs"
           ],
           [
             2.0,
-            "lb",
+            "pound",
             "Chicken Wings",
-            "2lb chicken wings"
+            "2 pounds chicken wings"
           ],
           [
             1.0,
@@ -7531,7 +7891,7 @@
             1.0,
             "large",
             "Scallion",
-            "1 large scallion, cut into 6in pieces"
+            "1 large scallion, cut into 6-inch pieces"
           ],
           [
             1.0,
@@ -7579,7 +7939,7 @@
             1.0,
             "ounce",
             "Red Dried Chinese Chilis",
-            "1 oz. red dried chinese chilis"
+            "1 ounce red dried Chinese chilis"
           ],
           [
             null,
@@ -7601,9 +7961,9 @@
           ],
           [
             1.0,
-            null,
-            "Tbs Sesame Seed Oil",
-            "1 tbs Sesame seed oil"
+            "tablespoon",
+            "Sesame Seed Oil",
+            "1 Tbsp Sesame seed oil"
           ],
           [
             null,
@@ -7614,14 +7974,14 @@
           [
             null,
             null,
-            "Soy Sauce",
-            "A few tbs of soy sauce"
+            "A Few Tbsp Soy Sauce",
+            "A few Tbsp soy sauce"
           ],
           [
             1.0,
-            null,
-            "Tbs Brown Sugar",
-            "1 tbs brown sugar"
+            "tablespoon",
+            "Brown Sugar",
+            "1 Tbsp brown sugar"
           ]
         ]
       },
@@ -7650,7 +8010,7 @@
             null,
             null,
             "Plum Sake",
-            "A few tbs of plum sake"
+            "A few Tbsp of plum sake"
           ],
           [
             null,
@@ -7660,9 +8020,9 @@
           ],
           [
             4.0,
-            null,
+            "tablespoon",
             "Brown Sugar",
-            "4 tbs of brown sugar"
+            "4 Tbsp of brown sugar"
           ],
           [
             null,
@@ -7829,31 +8189,31 @@
             1.0,
             "tablespoon",
             "Kosher Salt",
-            "1 tablespoon kosher salt"
+            "1 Tbsp kosher salt"
           ],
           [
             1.0,
             "tablespoon",
             "Freshly Ground Pepper",
-            "1 tablespoon freshly ground pepper"
+            "1 Tbsp freshly ground pepper"
           ],
           [
             2.0,
             "tablespoon",
             "Toasted And Freshly Ground Cumin",
-            "2 tablespoons toasted and freshly ground cumin"
+            "2 Tbsp toasted and freshly ground cumin"
           ],
           [
             1.0,
             null,
-            "Loaf Pan Cubano",
-            "1 loaf pan cubano"
+            "Pan Cubano",
+            "1 loaf of pan Cubano"
           ],
           [
             4.0,
             "tablespoon",
             "Butter",
-            "4 tablespoons butter, at room temperature"
+            "4 Tbsp butter, at room temperature"
           ],
           [
             8.0,
@@ -7877,7 +8237,7 @@
             4.0,
             "tablespoon",
             "Mustard",
-            "4 tablespoons mustard"
+            "4 Tbsp mustard"
           ]
         ]
       }
@@ -7967,13 +8327,13 @@
             3.0,
             "tablespoon",
             "Cream Cheese",
-            "3 tablespoons cream cheese"
+            "3 Tbsp cream cheese"
           ],
           [
             3.0,
             "tablespoon",
             "Fresh Dill",
-            "3 tablespoons fresh dill, picked"
+            "3 Tbsp fresh dill, picked"
           ],
           [
             1.0,
@@ -8003,7 +8363,7 @@
             2.0,
             "teaspoon",
             "Tears",
-            "2 teaspoon tears"
+            "2 tsp tears"
           ]
         ]
       }
@@ -8015,7 +8375,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=basFyoMSjds",
     "recipes": [
       {
-        "method": "Method: Beef Wellington",
+        "method": "Method: Burger Patties",
         "ingredients": [
           [
             3.0,
@@ -8125,8 +8485,8 @@
           [
             0.3333333333333333,
             "cup",
-            "H Eavy Whipping Cream",
-            "\u2153 cup h eavy whipping cream"
+            "Heavy Whipping Cream",
+            "\u2153 cup heavy whipping cream"
           ]
         ]
       }
@@ -8162,37 +8522,37 @@
             1.0,
             "teaspoon",
             "Ground Cumin",
-            "1 teaspoon ground cumin"
+            "1 tsp ground cumin"
           ],
           [
             1.0,
             "teaspoon",
             "Cayenne",
-            "1 teaspoon cayenne"
+            "1 tsp cayenne"
           ],
           [
             3.0,
             "teaspoon",
             "Salt",
-            "3 teaspoons salt, divided"
+            "3 tsp salt, divided"
           ],
           [
             1.0,
             "teaspoon",
             "Freshly Ground Pepper",
-            "1 teaspoon freshly ground pepper"
+            "1 tsp freshly ground pepper"
           ],
           [
             2.0,
             "tablespoon",
             "Olive Oil",
-            "2 tablespoons olive oil, divided"
+            "2 Tbsp olive oil, divided"
           ],
           [
             2.0,
             "cup",
             "Long-grain Dried White Rice",
-            "2 cup long-grain dried white rice"
+            "2 cups long-grain dried white rice"
           ],
           [
             1.0,
@@ -8228,7 +8588,7 @@
             2.0,
             "tablespoon",
             "Vegetable Oil",
-            "2 tablespoons vegetable oil"
+            "2 Tbsp vegetable oil"
           ],
           [
             1.0,
@@ -8240,7 +8600,7 @@
             2.0,
             "tablespoon",
             "Fresh Cilantro",
-            "2 tablespoons fresh cilantro, chopped"
+            "2 Tbsp fresh cilantro, chopped"
           ]
         ]
       }
@@ -8306,7 +8666,7 @@
             3.0,
             "tablespoon",
             "Olive Oil",
-            "3 tablespoons olive oil, divided"
+            "3 Tbsp olive oil, divided"
           ],
           [
             2.0,
@@ -8324,19 +8684,19 @@
             2.0,
             "medium",
             "Japanese Eggplants",
-            "2 medium japanese eggplants"
+            "2 medium Japanese eggplants"
           ],
           [
             1.0,
             "teaspoon",
             "Kosher Salt",
-            "1 teaspoon kosher salt"
+            "1 tsp kosher salt"
           ],
           [
             1.0,
             "teaspoon",
             "Freshly Ground Pepper",
-            "1 teaspoon freshly ground pepper"
+            "1 tsp freshly ground pepper"
           ],
           [
             5.0,
@@ -8384,19 +8744,19 @@
             1.5,
             "tablespoon",
             "Butter",
-            "1 \u00bd tablespoons Butter"
+            "1 \u00bd Tbsp butter"
           ],
           [
             0.5,
             "cup",
             "Pineapple",
-            "\u00bd cup of pineapple"
+            "\u00bd cup pineapple"
           ],
           [
             0.5,
             "cup",
             "Rum",
-            "\u00bd cup of rum"
+            "\u00bd cup rum"
           ]
         ]
       },
@@ -8407,19 +8767,19 @@
             2.0,
             "ounce",
             "Grain Alcohol",
-            "2 oz of grain alcohol"
+            "2 ounces grain alcohol"
           ],
           [
             null,
             null,
-            "Blue Curacao",
-            "Two shots of blue curacao"
+            "Two Shots Blue Curacao",
+            "Two shots blue curacao"
           ],
           [
             0.5,
             "cup",
             "Pineapple Juice",
-            "\u00bd cup of pineapple juice"
+            "\u00bd cup pineapple juice"
           ]
         ]
       },
@@ -8429,8 +8789,8 @@
           [
             1.0,
             null,
-            "Vodka",
-            "1 shot of vodka"
+            "Shot Vodka",
+            "1 shot vodka"
           ],
           [
             2.0,
@@ -8442,7 +8802,7 @@
             1.0,
             "cup",
             "Milk",
-            "1 cup of milk"
+            "1 cup milk"
           ],
           [
             0.5,
@@ -8466,7 +8826,7 @@
             3.0,
             "ounce",
             "Simple Syrup",
-            "3 oz Simple syrup"
+            "3 ounces simple syrup"
           ]
         ]
       },
@@ -8512,13 +8872,13 @@
             0.5,
             "pound",
             "Bacon",
-            "\u00bd pound of bacon"
+            "\u00bd pound bacon"
           ],
           [
             0.25,
             "cup",
             "Water",
-            "\u00bc cup of water"
+            "\u00bc cup water"
           ],
           [
             2.0,
@@ -8548,13 +8908,13 @@
             2.0,
             "cup",
             "Milk",
-            "2 cups of milk"
+            "2 cups milk"
           ],
           [
             2.0,
             null,
-            "Garlic",
-            "2 cloves of garlic"
+            "Cloves Garlic",
+            "2 cloves garlic"
           ],
           [
             null,
@@ -8579,7 +8939,7 @@
     ]
   },
   {
-    "episode_name": "Strudel from Inglourious Basterds",
+    "episode_name": "Strudel inspired by Inglourious Basterds",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/ingloriousbasterds",
     "youtube_link": "https://www.youtube.com/watch?v=7H3z3J50XCs",
     "recipes": [
@@ -8590,13 +8950,13 @@
             1.5,
             "cup",
             "Bread Flour",
-            "1\u00bd cups bread flour"
+            "1 \u00bd cups bread flour"
           ],
           [
             4.0,
             "tablespoon",
             "Vegetable Oil",
-            "4 tablespoons of vegetable oil"
+            "4 Tbsp vegetable oil"
           ],
           [
             2.0,
@@ -8608,25 +8968,25 @@
             0.25,
             "teaspoon",
             "Salt",
-            "\u00bc teaspoon salt"
+            "\u00bc tsp salt"
           ],
           [
             0.5,
             "tablespoon",
             "Lemon Juice",
-            "\u00bd tablespoon of lemon juice"
+            "\u00bd Tbsp of lemon juice"
           ],
           [
             0.25,
             "cup",
             "Water",
-            "\u00bc cup of warm water (approx. 110 degrees fahrenheit)"
+            "\u00bc cup of warm water (approximately 110\u00b0F)"
           ],
           [
             4.0,
             null,
-            "Good Baking Apples Peeled",
-            "4 good baking apples peeled (such as granny smith)"
+            "Good Baking Apples",
+            "4 good baking apples, peeled (such as granny smith)"
           ],
           [
             0.5,
@@ -8638,13 +8998,13 @@
             1.0,
             "tablespoon",
             "Cinnamon",
-            "1 tablespoon of cinnamon"
+            "1 Tbsp cinnamon"
           ],
           [
             0.5,
             "cup",
             "Raisins",
-            "\u00bd cup of raisins"
+            "\u00bd cup raisins"
           ],
           [
             null,
@@ -8662,7 +9022,7 @@
             2.0,
             "tablespoon",
             "Melted Butter",
-            "2 tablespoons of melted butter"
+            "2 Tbsp melted butter"
           ],
           [
             0.5,
@@ -8704,25 +9064,25 @@
             1.0,
             "tablespoon",
             "Cocoa Powder",
-            "1 tablespoon cocoa powder"
+            "1 Tbsp cocoa powder"
           ],
           [
             3.0,
             "tablespoon",
             "Cornmeal",
-            "3 tablespoons cornmeal"
+            "3 Tbsp cornmeal"
           ],
           [
             1.0,
             "tablespoon",
             "Toasted & Freshly Ground Cumin",
-            "1 tablespoon toasted & freshly ground cumin"
+            "1 Tbsp toasted & freshly ground cumin"
           ],
           [
             1.0,
             "tablespoon",
             "Dried Oregano",
-            "1 tablespoon dried oregano"
+            "1 Tbsp dried oregano"
           ],
           [
             32.0,
@@ -8734,7 +9094,7 @@
             2.0,
             "tablespoon",
             "Vegetable Oil",
-            "2 tablespoons vegetable oil"
+            "2 Tbsp vegetable oil"
           ],
           [
             3.0,
@@ -8763,8 +9123,8 @@
           [
             4.0,
             "large",
-            "Garlic",
-            "4 large cloves of garlic, crushed"
+            "Cloves Garlic",
+            "4 large cloves garlic, crushed"
           ],
           [
             12.0,
@@ -8782,13 +9142,13 @@
             2.0,
             "tablespoon",
             "Brown Sugar",
-            "2 tablespoons brown sugar"
+            "2 Tbsp brown sugar"
           ],
           [
-            12.0,
+            "12-",
             "ounce",
             "Can Red Kidney Beans",
-            "12 ounce can red kidney beans, rinsed and drained"
+            "12-ounce can red kidney beans, rinsed and drained"
           ],
           [
             null,
@@ -8797,10 +9157,10 @@
             "Salt & pepper to taste"
           ],
           [
-            6.0,
+            "6-",
             null,
-            "' Length Low-quality Polyfiber Carpet",
-            "6\u2019 length low-quality polyfiber carpet (optional)"
+            "Foot Length Low-quality Poly Fiber Carpet",
+            "6-foot length low-quality poly fiber carpet (optional)"
           ],
           [
             null,
@@ -8824,7 +9184,7 @@
             16.0,
             "ounce",
             "Dried Black Beans",
-            "16 oz of dried black beans"
+            "16 ounces dried black beans"
           ],
           [
             1.0,
@@ -8860,7 +9220,7 @@
             2.0,
             "tablespoon",
             "Butter",
-            "2 tablespoon butter, divided"
+            "2 Tbsp butter, divided"
           ],
           [
             3.0,
@@ -8872,7 +9232,7 @@
             1.0,
             "tablespoon",
             "Vegetable Oil",
-            "1 tablespoon vegetable oil"
+            "1 Tbsp vegetable oil"
           ],
           [
             4.0,
@@ -8896,13 +9256,13 @@
             0.5,
             "tablespoon",
             "Ketchup",
-            "1/2 tablespoon ketchup"
+            "1/2 Tbsp ketchup"
           ],
           [
             0.5,
             "tablespoon",
             "Teriyaki Sauce",
-            "1/2 tablespoon teriyaki sauce"
+            "1/2 Tbsp teriyaki sauce"
           ]
         ]
       }
@@ -8943,8 +9303,8 @@
           [
             1.0,
             null,
-            "Fudge Poptart",
-            "1 fudge poptart"
+            "Fudge Pop-tart",
+            "1 fudge Pop-Tart"
           ],
           [
             null,
@@ -8992,25 +9352,25 @@
             1.0,
             "cup",
             "Spinach",
-            "1 cup of spinach"
+            "1 cup spinach"
           ],
           [
             3.0,
             "tablespoon",
             "Butter",
-            "3 tablespoons of butter"
+            "3 Tbsp butter"
           ],
           [
             3.0,
             "tablespoon",
             "Flour",
-            "3 tablespoons of flour"
+            "3 Tbsp flour"
           ],
           [
             0.5,
             "cup",
             "Milk",
-            "\u00bd cup of milk"
+            "\u00bd cup milk"
           ],
           [
             null,
@@ -9034,31 +9394,31 @@
             1.0,
             "cup",
             "Room Temperature Water",
-            "1 cup of room temperature water"
+            "1 cup room temperature water"
           ],
           [
             0.5,
             "teaspoon",
             "Instant Yeast",
-            "\u00bd teaspoon of instant yeast"
+            "\u00bd tsp instant yeast"
           ],
           [
             5.0,
             "ounce",
             "Wheat Flour",
-            "5 oz of whole wheat flour (approx. 1 \u00bc cup)"
+            "5 ounces whole wheat flour (approximately 1 \u00bc cup)"
           ],
           [
             5.0,
             "ounce",
             "Bread Flour",
-            "5 oz of bread flour (approx. 1 \u00bc cup)"
+            "5 ounces bread flour (approximately 1 \u00bc cup)"
           ],
           [
             19.25,
             "ounce",
             "Bread Flour",
-            "19 \u00bc oz bread flour (approx. 4 \u00be cup)"
+            "19 \u00bc ounces bread flour (approximately 4 \u00be cup)"
           ],
           [
             1.3333333333333333,
@@ -9070,13 +9430,13 @@
             2.5,
             "ounce",
             "Rye Flour",
-            "2 \u00bd oz rye flour (approx. \u2154 cup)"
+            "2 \u00bd ounces rye flour (approximately \u2154 cup)"
           ],
           [
             2.0,
             "tablespoon",
             "Honey",
-            "2 tablespoons honey"
+            "2 Tbsp honey"
           ]
         ]
       }
@@ -9094,13 +9454,13 @@
             1.0,
             "tablespoon",
             "Vegetable Oil",
-            "1 tablespoon vegetable oil"
+            "1 Tbsp vegetable oil"
           ],
           [
             1.0,
             "pound",
-            "Each Sweet And Spicy Italian Sausage",
-            "1 pound each sweet and spicy Italian sausage"
+            "Sweet And 1 Pound Spicy Italian Sausage",
+            "1 pound sweet and 1 pound spicy Italian sausage"
           ],
           [
             1.0,
@@ -9118,7 +9478,7 @@
             1.0,
             "tablespoon",
             "Olive Oil",
-            "1 tablespoon olive oil"
+            "1 Tbsp olive oil"
           ],
           [
             3.0,
@@ -9129,14 +9489,14 @@
           [
             3.0,
             "small",
-            "Onions Chopped",
-            "3 small onions (keyword: small) chopped"
+            "Onions",
+            "3 small onions (keyword: small), chopped"
           ],
           [
             1.0,
             "tablespoon",
             "Tomato Paste",
-            "1 tablespoon tomato paste"
+            "1 Tbsp tomato paste"
           ],
           [
             0.5,
@@ -9145,10 +9505,10 @@
             "1/2 cup red wine"
           ],
           [
-            null,
-            null,
-            "Three 28 Oz Cans Dop San Marzano Tomatoes",
-            "Three 28 oz cans DOP San Marzano tomatoes"
+            "28-",
+            "ounce",
+            "Cans Dop San Marzano Tomatoes",
+            "(3) 28-ounce cans DOP San Marzano tomatoes"
           ],
           [
             2.0,
@@ -9178,7 +9538,7 @@
             0.5,
             "tablespoon",
             "Olive Oil Or Butter For Finishing",
-            "1/2 tablespoon Olive oil or butter for finishing (optional)"
+            "1/2 Tbsp olive oil or butter for finishing (optional)"
           ],
           [
             null,
@@ -9191,7 +9551,7 @@
     ]
   },
   {
-    "episode_name": "The Moistmaker from Friends",
+    "episode_name": "The Moistmaker inspired by Friends",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/moistmaker",
     "youtube_link": "https://www.youtube.com/watch?v=vjZXcapkFEU",
     "recipes": [
@@ -9214,7 +9574,7 @@
             1.0,
             "tablespoon",
             "Baking Powder",
-            "1 tablespoon baking powder"
+            "1 Tbsp baking powder"
           ],
           [
             6.0,
@@ -9231,19 +9591,19 @@
             1.0,
             "tablespoon",
             "Vegetable Oil",
-            "1 tablespoon vegetable oil"
+            "1 Tbsp vegetable oil"
           ],
           [
             null,
             null,
             "Turkey Spine",
-            "Turkey spine (see above), cut into 2\" lengths"
+            "Turkey spine (see above), cut into 2-inch lengths"
           ],
           [
             2.0,
             "large",
             "Carrots",
-            "2 large carrots, peeled and cut into 3\" segments"
+            "2 large carrots, peeled and cut into 3-inch segments"
           ],
           [
             1.0,
@@ -9255,7 +9615,7 @@
             2.0,
             null,
             "Stalks Celery",
-            "2 stalks celery, cut into 3\" segments"
+            "2 stalks celery, cut into 3-inch segments"
           ],
           [
             "5-10",
@@ -9279,7 +9639,7 @@
             1.0,
             "tablespoon",
             "Black Peppercorns",
-            "1 tablespoon whole black peppercorns"
+            "1 Tbsp whole black peppercorns"
           ],
           [
             null,
@@ -9308,7 +9668,7 @@
             2.0,
             null,
             "Loaves White Country Bread",
-            "2 loaves white country bread, cut into 1/2-1\" cubes"
+            "2 loaves white country bread, cut into 1/2-1-inch cubes"
           ],
           [
             1.0,
@@ -9320,7 +9680,7 @@
             2.0,
             "tablespoon",
             "Bacon Fat",
-            "2 tablespoons bacon fat (optional)"
+            "2 Tbsp bacon fat (optional)"
           ],
           [
             1.0,
@@ -9344,7 +9704,7 @@
             2.0,
             "tablespoon",
             "Minced Thyme",
-            "2 tablespoons minced thyme"
+            "2 Tbsp minced thyme"
           ],
           [
             null,
@@ -9368,18 +9728,18 @@
             1.0,
             "tablespoon",
             "Butter",
-            "1 tablespoon butter"
+            "1 Tbsp butter"
           ]
         ]
       },
       {
-        "method": "Default - The Moistmaker from Friends",
+        "method": "Default - The Moistmaker inspired by Friends",
         "ingredients": [
           [
             1.0,
-            "lb",
+            "pound",
             "Cranberries",
-            "1 lb cranberries"
+            "1 pound cranberries"
           ],
           [
             1.0,
@@ -9409,7 +9769,7 @@
             0.5,
             "teaspoon",
             "Freshly Grated Nutmeg",
-            "1/2 teaspoon freshly grated nutmeg"
+            "1/2 tsp freshly grated nutmeg"
           ],
           [
             null,
@@ -9418,10 +9778,10 @@
             "Juice of 1/2 orange"
           ],
           [
-            3.0,
+            "3-",
             null,
             "Orange Peel",
-            "3\" segment of orange peel"
+            "3-inch segment of orange peel"
           ]
         ]
       }
@@ -9439,13 +9799,13 @@
             12.5,
             "ounce",
             "All Purpose Flour",
-            "12\u00bd oz. all purpose flour"
+            "12\u00bd ounces all purpose flour"
           ],
           [
             2.0,
-            null,
-            "Tbs Sugar",
-            "2 tbs sugar"
+            "tablespoon",
+            "Sugar",
+            "2 Tbsp sugar"
           ],
           [
             1.0,
@@ -9463,7 +9823,7 @@
             "6-8",
             "ounce",
             "Ice Water",
-            "6-8 oz. ice water"
+            "6-8 ounces ice water"
           ]
         ]
       }
@@ -9480,20 +9840,20 @@
           [
             null,
             null,
-            "One 24 Ounce Boneless Ribeye",
-            "One 24 ounce boneless ribeye"
+            "One 24-ounce Boneless Ribeye",
+            "One 24-ounce boneless ribeye"
           ],
           [
             1.0,
             "teaspoon",
             "Kosher Salt",
-            "1 teaspoon kosher salt"
+            "1 tsp kosher salt"
           ],
           [
             2.0,
             "tablespoon",
             "Vegetable Oil",
-            "2 tablespoon vegetable oil"
+            "2 Tbsp vegetable oil"
           ],
           [
             4.0,
@@ -9504,20 +9864,20 @@
           [
             2.0,
             "ounce",
-            "Sliced Sweet And Peppers",
-            "2 ounces sliced sweet and hot peppers"
+            "Sweet And Peppers",
+            "2 ounces sweet and hot peppers, sliced"
           ],
           [
             2.0,
             "tablespoon",
             "Ketchup",
-            "2 tablespoons ketchup"
+            "2 Tbsp ketchup"
           ],
           [
             2.0,
             "tablespoon",
             "Mayonnaise",
-            "2 tablespoons mayonnaise"
+            "2 Tbsp mayonnaise"
           ],
           [
             1.0,
@@ -9546,20 +9906,20 @@
           [
             1.0,
             "tablespoon",
-            "Plus \u00bd Teaspoon Sugar",
-            "1 tablespoon plus \u00bd teaspoon sugar, divided"
+            "Plus \u00bd Tsp Sugar",
+            "1 Tbsp plus \u00bd tsp sugar, divided"
           ],
           [
             3.0,
             "teaspoon",
             "Kosher Salt",
-            "3 teaspoons kosher salt, divided"
+            "3 tsp kosher salt, divided"
           ],
           [
             0.5,
             "teaspoon",
             "Instant Yeast",
-            "\u00bd teaspoon instant yeast"
+            "\u00bd tsp instant yeast"
           ],
           [
             1.25,
@@ -9571,7 +9931,7 @@
             1.0,
             "tablespoon",
             "Vegetable Oil",
-            "1 tablespoon vegetable oil, plus more for oiling"
+            "1 Tbsp vegetable oil, plus more for oiling"
           ],
           [
             null,
@@ -9589,19 +9949,19 @@
             1.0,
             "teaspoon",
             "Dried Oregano",
-            "1 teaspoon dried oregano"
+            "1 tsp dried oregano"
           ],
           [
             0.5,
             "teaspoon",
             "Red Pepper Flakes",
-            "\u00bd teaspoon red pepper flakes"
+            "\u00bd tsp red pepper flakes"
           ],
           [
             0.5,
             "teaspoon",
             "Dried Basil",
-            "\u00bd teaspoon dried basil"
+            "\u00bd tsp dried basil"
           ],
           [
             0.25,
@@ -9649,7 +10009,7 @@
             1.0,
             "teaspoon",
             "Red Pepper Flakes",
-            "1 teaspoon red pepper flakes"
+            "1 tsp red pepper flakes"
           ],
           [
             0.5,
@@ -9697,25 +10057,25 @@
             1.0,
             "teaspoon",
             "Baking Powder",
-            "1 teaspoon baking powder"
+            "1 tsp baking powder"
           ],
           [
             1.0,
             "tablespoon",
             "Garlic Powder",
-            "1 tablespoon garlic powder"
+            "1 Tbsp garlic powder"
           ],
           [
             2.0,
             "teaspoon",
             "Cayenne",
-            "2 teaspoons cayenne"
+            "2 tsp cayenne"
           ],
           [
             1.0,
             "tablespoon",
             "Paprika",
-            "1 tablespoon paprika"
+            "1 Tbsp paprika"
           ],
           [
             2.0,
@@ -9775,7 +10135,7 @@
             2.0,
             "tablespoon",
             "Beef Lard",
-            "2 tablespoons of beef lard"
+            "2 Tbsp beef lard"
           ],
           [
             2.0,
@@ -9811,13 +10171,13 @@
             2.0,
             "tablespoon",
             "Butter",
-            "2 tablespoons butter"
+            "2 Tbsp butter"
           ],
           [
             2.0,
             "tablespoon",
             "Flour",
-            "2 tablespoons flour"
+            "2 Tbsp flour"
           ],
           [
             1.25,
@@ -9847,7 +10207,7 @@
             1.0,
             "tablespoon",
             "Melted Butter",
-            "1 tablespoon of melted butter"
+            "1 Tbsp melted butter"
           ],
           [
             null,
@@ -9865,7 +10225,7 @@
             0.5,
             "cup",
             "Shredded Gruyere Cheese",
-            "\u00bd cup of shredded gruyere cheese"
+            "\u00bd cup shredded gruyere cheese"
           ],
           [
             2.0,
@@ -9889,13 +10249,13 @@
             2.0,
             null,
             "Crisp Apples",
-            "2 crisp apples (ex. Gala or McIntosh)"
+            "2 crisp apples (like Gala or McIntosh)"
           ],
           [
             null,
             null,
             "Nonfat Greek Yogurt",
-            "Approx. \u00bd cup of nonfat greek yogurt"
+            "Approximately \u00bd cup of nonfat greek yogurt"
           ],
           [
             null,
@@ -10003,13 +10363,13 @@
             0.5,
             "tablespoon",
             "Kosher Salt",
-            "1/2 tablespoon kosher salt"
+            "1/2 Tbsp kosher salt"
           ],
           [
             0.25,
             "tablespoon",
             "Freshly Ground Black Pepper",
-            "1/4 tablespoon freshly ground black pepper"
+            "1/4 Tbsp freshly ground black pepper"
           ],
           [
             4.0,
@@ -10027,19 +10387,19 @@
             1.0,
             "tablespoon",
             "Fresh Minced Oregano",
-            "1 tablespoon fresh minced oregano"
+            "1 Tbsp fresh minced oregano"
           ],
           [
             0.5,
             "cup",
-            "Homemade Veal Demi Glace",
-            "1/2 cup homemade veal demi glace (or chicken stock with 4 packets unflavored gelatin)"
+            "Homemade Veal Demi-glace",
+            "1/2 cup homemade veal demi-glace (or chicken stock with 4 packets unflavored gelatin)"
           ],
           [
             3.0,
             "tablespoon",
             "Leaf Lard",
-            "3 tablespoons leaf lard"
+            "3 Tbsp leaf lard"
           ]
         ]
       },
@@ -10062,7 +10422,7 @@
             1.0,
             "teaspoon",
             "Kosher Salt",
-            "1 teaspoon kosher salt"
+            "1 tsp kosher salt"
           ]
         ]
       },
@@ -10091,13 +10451,13 @@
             2.0,
             "teaspoon",
             "Kosher Salt",
-            "2 teaspoons kosher salt"
+            "2 tsp kosher salt"
           ],
           [
             2.0,
             "tablespoon",
             "Butter",
-            "2 tablespoons butter"
+            "2 Tbsp butter"
           ],
           [
             1.0,
@@ -10115,7 +10475,7 @@
             1.0,
             "pound",
             "Low-moisture Mozzarella",
-            "1 pound low-moisture mozzarella, cut into 1\u201d cubes"
+            "1 pound low-moisture mozzarella, cut into 1-inch cubes"
           ],
           [
             12.0,
