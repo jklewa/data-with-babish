@@ -1,5 +1,635 @@
 [
   {
+    "episode_name": "Full Breakfast inspired by Phantom Thread",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/phantomthread-l42pw",
+    "youtube_link": "https://www.youtube.com/watch?v=yiElOt9cI8k",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            2.0,
+            "cup",
+            "Raspberries",
+            "2 cups raspberries"
+          ],
+          [
+            2.0,
+            "cup",
+            "Sugar",
+            "2 cups sugar"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Johnny Cakes inspired by The Sopranos",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/johnnycakes",
+    "youtube_link": "https://www.youtube.com/watch?v=DdFKKZe73Pk",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            4.0,
+            "pound",
+            "Pork Butt",
+            "4 pounds pork butt"
+          ],
+          [
+            "2-3",
+            "teaspoon",
+            "Fresh Sage",
+            "2-3 tsp fresh sage"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Fresh Thyme",
+            "2 tsp fresh thyme"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Fresh Rosemary",
+            "2 tsp fresh rosemary"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Dark Brown Sugar",
+            "1 Tbsp dark brown sugar"
+          ],
+          [
+            0.5,
+            "tablespoon",
+            "Maple Syrup",
+            "\u00bd Tbsp maple syrup"
+          ],
+          [
+            null,
+            null,
+            "Marjoram",
+            "A shake of marjoram"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Cayenne Pepper",
+            "2 tsp cayenne pepper"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Red Pepper Flakes",
+            "1 tsp red pepper flakes"
+          ],
+          [
+            null,
+            null,
+            "Freshly Grated Nutmeg",
+            "Freshly grated nutmeg"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Smoked Paprika",
+            "\u00bd tsp smoked paprika"
+          ],
+          [
+            null,
+            null,
+            "Sausage Casings",
+            "Sausage casings"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "#BabishPanini Winning Recipe - Car Panini inspired by Family Guy",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/babishpaniniwinner",
+    "youtube_link": "https://youtu.be/ImoP-Apzrsg?t=11m22s",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Pasilla Dried Chilis",
+            "Pasilla dried chilis"
+          ],
+          [
+            null,
+            null,
+            "Guajillo Dried Chilis",
+            "Guajillo dried chilis"
+          ],
+          [
+            null,
+            null,
+            "Ancho Dried Chilis",
+            "Ancho dried chilis"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Cloves",
+            "1 tsp whole cloves"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Peppercorn",
+            "1 tsp peppercorn"
+          ],
+          [
+            3.0,
+            null,
+            "Bay Leaves",
+            "3 bay leaves, crumbled"
+          ],
+          [
+            1.0,
+            null,
+            "Cinnamon Stick",
+            "1 cinnamon stick"
+          ],
+          [
+            1.0,
+            null,
+            "Corn Tortilla",
+            "1 corn tortilla"
+          ],
+          [
+            1.0,
+            null,
+            "White Bread",
+            "1 slice of white bread"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Peanuts",
+            "\u2153 cup peanuts"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Pumpkin Seeds",
+            "\u2153 cup pumpkin seeds"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Almonds",
+            "\u2153 cup almonds"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Raisins",
+            "\u2153 cup raisins"
+          ],
+          [
+            0.25,
+            "cup",
+            "Sesame Seeds",
+            "\u00bc cup sesame seeds"
+          ],
+          [
+            1.0,
+            "large",
+            "Tomato",
+            "1 large tomato, quartered"
+          ],
+          [
+            1.0,
+            "large",
+            "Onion",
+            "1 large onion"
+          ],
+          [
+            4.0,
+            null,
+            "Garlic",
+            "4 cloves of garlic"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Dried Thyme",
+            "\u00bc tsp dried thyme"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Marjoram",
+            "\u00bc tsp marjoram"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Aniseed",
+            "\u00bc tsp aniseed"
+          ],
+          [
+            4.0,
+            "cup",
+            "Chicken Stock",
+            "4 cups chicken stock, hot"
+          ],
+          [
+            4.0,
+            "ounce",
+            "Bittersweet Chocolate",
+            "4 ounces bittersweet chocolate, chopped"
+          ],
+          [
+            null,
+            null,
+            "Sugar",
+            "Sugar (if necessary)"
+          ],
+          [
+            null,
+            null,
+            "Tomatillos",
+            "Tomatillos (optional)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "3 Million Subscriber Special: The Eggscellent Challenge inspired by Regular Show",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/eggscellentchallenge",
+    "youtube_link": "https://www.youtube.com/watch?v=ImoP-Apzrsg",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Spanish Onion",
+            "1 spanish onion, diced"
+          ],
+          [
+            1.0,
+            null,
+            "Green Pepper",
+            "1 green pepper, diced"
+          ],
+          [
+            4.0,
+            null,
+            "Cloves Garlic",
+            "4 cloves garlic, minced"
+          ],
+          [
+            1.0,
+            "lb",
+            "Ground Chuck",
+            "1 lb ground chuck"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Chili Powder",
+            "2 Tbsp chili powder"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "White Pepper",
+            "1 Tbsp white pepper"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Cumin",
+            "1 Tbsp cumin"
+          ],
+          [
+            "1 14.5",
+            "ounce",
+            "Can Crushed Tomatoes",
+            "1 14.5 ounce can crushed tomatoes"
+          ],
+          [
+            14.5,
+            "ounce",
+            "Water",
+            "14.5 ounces of water"
+          ],
+          [
+            1.0,
+            null,
+            "Kidney Beans",
+            "1 can of kidney beans"
+          ],
+          [
+            1.0,
+            null,
+            "Chipotles In Adobo",
+            "1 can of chipotles in adobo, peppers removed (we\u2019ll be using the sauce)"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Smoked Paprika",
+            "1 tsp smoked paprika"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Oregano",
+            "1 tsp oregano"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Spinach Puffs inspired by The Emperor's New Groove",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/spinachpuffs",
+    "youtube_link": "https://www.youtube.com/watch?v=x5-QoCicNfI",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            "2-3",
+            "cup",
+            "Spinach",
+            "2-3 cups spinach, roughly chopped"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Dill",
+            "3 Tbsp dill"
+          ],
+          [
+            1.0,
+            null,
+            "Shallot",
+            "1 shallot, finely minced"
+          ],
+          [
+            3.0,
+            "large",
+            "Cloves Garlic",
+            "3 large cloves garlic, crushed"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "Olive oil"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs, separated"
+          ],
+          [
+            4.0,
+            "ounce",
+            "Full Fat Cream Cheese",
+            "4 ounces full fat cream cheese"
+          ],
+          [
+            0.5,
+            "cup",
+            "Feta Cheese",
+            "\u00bd cup feta cheese"
+          ],
+          [
+            "2-4",
+            "ounce",
+            "Parmesan",
+            "2-4 ounces parmesan, grated"
+          ],
+          [
+            "2-3",
+            null,
+            "Slices Bacon",
+            "2-3 slices bacon, finely chopped"
+          ],
+          [
+            1.0,
+            null,
+            "Packet Puff Pastry",
+            "1 packet puff pastry"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Beignets inspired by Chef (and Princess and the Frog)",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/beignetsfromchef",
+    "youtube_link": "https://www.youtube.com/watch?v=DnuHzHHwqAw&t=142s",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            1.5,
+            "cup",
+            "Buttermilk",
+            "1 \u00bd cups buttermilk"
+          ],
+          [
+            0.5,
+            "cup",
+            "Boiling Milk",
+            "\u00bd cup boiling milk"
+          ],
+          [
+            4.0,
+            "teaspoon",
+            "Dry Yeast",
+            "4 tsp dry yeast"
+          ],
+          [
+            2.5,
+            "tablespoon",
+            "Sugar",
+            "2 \u00bd Tbsp sugar"
+          ],
+          [
+            22.0,
+            "ounce",
+            "Bread Flour",
+            "22 ounces of bread flour"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Baking Soda",
+            "\u00bd tsp baking soda"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Kosher Salt",
+            "\u00bd tsp kosher salt"
+          ],
+          [
+            null,
+            null,
+            "Flour",
+            "Flour"
+          ],
+          [
+            2.0,
+            null,
+            "Vegetable Oil",
+            "2 quarts of vegetable oil"
+          ],
+          [
+            null,
+            null,
+            "Honey",
+            "Honey (optional)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Teamster Sandwich inspired by 30 Rock",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/teamstersandwich",
+    "youtube_link": "https://www.youtube.com/watch?v=tmUximhgYnI",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Standing Rib Roast",
+            "1 standing rib roast"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Dried Rosemary",
+            "1 Tbsp dried rosemary"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Dried Thyme",
+            "1 Tbsp dried thyme"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            null,
+            null,
+            "Garlic Powder",
+            "Garlic powder (optional)"
+          ],
+          [
+            null,
+            null,
+            "Onion Powder",
+            "Onion powder (optional)"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "Olive oil"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Leftover Fat",
+            "\u2153 cup of leftover fat"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "All Purpose Flour",
+            "1 Tbsp all purpose flour"
+          ],
+          [
+            32.0,
+            "ounce",
+            "High Quality Beef Stock",
+            "32 ounces high quality beef stock"
+          ],
+          [
+            1.0,
+            null,
+            "Short Baguette",
+            "1 short baguette"
+          ],
+          [
+            null,
+            null,
+            "Fresh Mozzarella",
+            "Fresh mozzarella"
+          ],
+          [
+            1.0,
+            null,
+            "Roasted Red Peppers",
+            "1 jar of roasted red peppers"
+          ],
+          [
+            "3-4",
+            null,
+            "Fresh Garlic",
+            "3-4 cloves of fresh garlic"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Fried Green Tomatoes inspired by...Fried Green Tomatoes",
     "episode_link": "https://www.bingingwithbabish.com/recipes/friedgreentomatoes",
     "youtube_link": "https://www.youtube.com/watch?v=KKBkY-7TCw0",
