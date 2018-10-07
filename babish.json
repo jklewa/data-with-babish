@@ -1,5 +1,371 @@
 [
   {
+    "episode_name": "The Naco inspired by Kim Possible",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/the-naco",
+    "youtube_link": "https://www.youtube.com/watch?v=hf5cl-AGYbg",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Avocados",
+            "2 avocados"
+          ],
+          [
+            0.75,
+            null,
+            "Red Onion",
+            "\u00be red onion, chopped, separated"
+          ],
+          [
+            3.0,
+            null,
+            "Cloves Garlic",
+            "3 cloves garlic, separated"
+          ],
+          [
+            null,
+            null,
+            "\u00bd Lime",
+            "Juice of \u00bd lime"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Cumin",
+            "2 tsp cumin"
+          ],
+          [
+            1.5,
+            null,
+            "Jalape\u00f1os",
+            "1 \u00bd jalape\u00f1os, chopped, separated"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            null,
+            null,
+            "Cilantro",
+            "Handful of cilantro"
+          ],
+          [
+            4.0,
+            "small",
+            "Tomatoes",
+            "4 small tomatoes"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Butter",
+            "1 Tbsp butter"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "All Purpose Flour",
+            "1 Tbsp all purpose flour"
+          ],
+          [
+            1.0,
+            "cup",
+            "Milk",
+            "1 cup whole milk"
+          ],
+          [
+            4.0,
+            "cup",
+            "Shredded Cheddar Cheese",
+            "4 cups shredded cheddar cheese"
+          ],
+          [
+            0.5,
+            null,
+            "Can Diced Chilis And Tomatoes",
+            "\u00bd can diced chilis and tomatoes"
+          ],
+          [
+            null,
+            null,
+            "Tortilla Chips",
+            "Tortilla chips"
+          ],
+          [
+            null,
+            null,
+            "Soft Flour Tortillas",
+            "Soft flour tortillas"
+          ],
+          [
+            null,
+            null,
+            "Sour Cream",
+            "Sour cream"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/direwolfbread",
+    "youtube_link": "https://www.youtube.com/watch?v=6nuEgc2RVWo&t=336s",
+    "recipes": [
+      {
+        "method": "Method: Binging With Babish\u2019s Direwolf Bread",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Butter",
+            "\u00bd cup butter"
+          ],
+          [
+            85.0,
+            "gram",
+            "Wheat Flour",
+            "85g whole wheat flour"
+          ],
+          [
+            85.0,
+            "gram",
+            "All Purpose Flour",
+            "85g all purpose flour"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Salt",
+            "\u00bd tsp salt"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Baking Powder",
+            "1 tsp baking powder"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Baking Soda",
+            "\u00bc tsp baking soda"
+          ],
+          [
+            0.25,
+            "cup",
+            "White Sugar",
+            "\u00bc cup white sugar"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Sage",
+            "2 Tbsp sage, chopped"
+          ],
+          [
+            1.5,
+            "cup",
+            "Toasted Pecans",
+            "1 \u00bd cups toasted pecans"
+          ],
+          [
+            0.5,
+            "cup",
+            "Buttermilk",
+            "\u00bd cup buttermilk"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            null,
+            null,
+            "Honey",
+            "Honey"
+          ],
+          [
+            null,
+            null,
+            "Butter",
+            "Butter"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Banana Pudding Pizza inspired by Doug",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/bananapuddingpizza",
+    "youtube_link": "https://www.youtube.com/watch?v=wcJS3nQjhqM",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            3.0,
+            "tablespoon",
+            "Cornstarch",
+            "3 Tbsp cornstarch"
+          ],
+          [
+            0.75,
+            "cup",
+            "Plain White Sugar",
+            "\u00be cup plain white sugar"
+          ],
+          [
+            2.5,
+            "cup",
+            "Milk",
+            "2 \u00bd cups whole milk"
+          ],
+          [
+            3.0,
+            null,
+            "Beaten Egg Yolks",
+            "3 beaten egg yolks"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Butter",
+            "1 Tbsp butter"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Vanilla Paste",
+            "2 Tbsp vanilla paste"
+          ],
+          [
+            null,
+            null,
+            "Bananas",
+            "Bananas"
+          ],
+          [
+            null,
+            null,
+            "Pepperoni",
+            "Pepperoni"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Adventure Time Special",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/adventuretimespecial",
+    "youtube_link": "https://www.youtube.com/watch?v=SjeS6gtPq8E",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            4.0,
+            "cup",
+            "Water",
+            "4 cups water, separated"
+          ],
+          [
+            2.0,
+            "cup",
+            "White Vinegar",
+            "2 cups white vinegar"
+          ],
+          [
+            125.0,
+            "gram",
+            "Kosher Salt",
+            "125g kosher salt, separated"
+          ],
+          [
+            100.0,
+            "gram",
+            "Plain White Sugar",
+            "100g plain white sugar"
+          ],
+          [
+            6.0,
+            null,
+            "Kirby Cucumbers",
+            "6 kirby cucumbers, halved"
+          ],
+          [
+            1.0,
+            null,
+            "Garlic",
+            "1 head of garlic"
+          ],
+          [
+            1.0,
+            null,
+            "Habanero Pepper",
+            "1 habanero pepper"
+          ],
+          [
+            null,
+            null,
+            "Fresh Dill",
+            "Fresh dill"
+          ],
+          [
+            null,
+            null,
+            "Bay Leaves",
+            "Bay leaves"
+          ],
+          [
+            null,
+            null,
+            "Allspice Berries",
+            "Allspice berries"
+          ],
+          [
+            null,
+            null,
+            "Mustard Seeds",
+            "Mustard seeds"
+          ],
+          [
+            null,
+            null,
+            "Cloves",
+            "Whole cloves"
+          ],
+          [
+            null,
+            null,
+            "Peppercorns",
+            "Whole peppercorns"
+          ],
+          [
+            null,
+            null,
+            "Red Pepper Flakes",
+            "Red pepper flakes"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Full Breakfast inspired by Phantom Thread",
     "episode_link": "https://www.bingingwithbabish.com/recipes/phantomthread-l42pw",
     "youtube_link": "https://www.youtube.com/watch?v=yiElOt9cI8k",
