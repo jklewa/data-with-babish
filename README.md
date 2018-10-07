@@ -1,10 +1,10 @@
-# _Data is Babish (and Beautiful)_
+# _Data with Babish_
 
-This project aims to analyze the recipes of the popular YouTube channel [Binging With Babish](http://bingingwithbabish.com) and convert them into beautiful data.
+This project aims to analyze the recipes of the popular YouTube channel [Binging with Babish](http://bingingwithbabish.com) and convert them into beautiful data.
 
-## The Babish
+## Datasets
 
- * [babish.json](#babishjson)
+ * [babish.json](#babishjson) - Parsed recipe ingredients, grouped by episode
 
 ### babish.json
 
