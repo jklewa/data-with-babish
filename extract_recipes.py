@@ -13,14 +13,6 @@ from functional import seq
 from string import capwords
 from unicodedata import numeric
 
-## Sample data for validation
-
-raw_episode = requests.get('https://www.bingingwithbabish.com/recipes/parksandrecburger')
-soup = bs4.BeautifulSoup(raw_episode.content, 'html.parser')
-recipe_locations = soup.find_all(['h1','h2','h3','h4','h5'], string='Ingredients')
-loc1 = recipe_locations[0]
-method = loc1.find_next(['h1','h2','h3','h4','h5']).string
-
 Ingredient = namedtuple('Ingredient', 'qty unit name raw')
 units_pattern = r'(?:(\s?mg|g|kg|ml|L|oz|ounce|tbsp|Tbsp|tablespoon|tsp|teaspoon|cup|lb|pound|small|medium|large|whole|half)?(?:s|es)?\.?\b)'
 
@@ -115,6 +107,7 @@ def parse_ingredient(i):
     return Ingredient(qty, unit, name, raw)
 
 # Tests to validate parse_ingredient()!!!
+# TODO: Separate tests from the file, probably use pytest to test functions in this module
 tests = [
     'Bread', (None, None, 'Bread'),
     '6 stalks celery', (6.0, None, 'Stalks Celery'),
