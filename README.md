@@ -52,5 +52,12 @@ Required tools: **Python 3**, [Jupyter Notebook](http://ipython.org/notebook.htm
 
 **NOTE:** Be aware that `Babish Recipe Extract.ipynb` will make **LOTS** of network calls to the official bingingwithbabish.com website. Calls are cached and rate limited but please be very considerate and only run those notebook sections if absolutely necessary.
 
+### Tests
+Tests covering [extract_recipes.py](./extract_recipes.py) are located in the [tests/](tests/) directory and can be run using [pytest](https://docs.pytest.org/en/latest/).
+
+```bash
+pytest tests/ # directory is optional
+```
+
 ### Docs
 * [Code of Conduct](./CODE_OF_CONDUCT.md), [GNU General Public License v3.0](./LICENSE)
