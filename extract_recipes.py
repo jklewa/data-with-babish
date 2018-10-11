@@ -6,6 +6,7 @@ import re
 import requests
 import os
 import time
+import logging
 
 from collections import namedtuple
 from fractions import Fraction
@@ -13,201 +14,261 @@ from functional import seq
 from string import capwords
 from unicodedata import numeric
 
-Ingredient = namedtuple('Ingredient', 'qty unit name raw')
-units_pattern = r'(?:(\s?mg|g|kg|ml|L|oz|ounce|tbsp|Tbsp|tablespoon|tsp|teaspoon|cup|lb|pound|small|medium|large|whole|half)?(?:s|es)?\.?\b)'
 
-full_pattern = r'^(?:([-\.\/\s0-9\u2150-\u215E\u00BC-\u00BE]+)?{UNITS_PATTERN})?(?:.*\sof\s)?\s?(.+?)(?:,|$)'    .format(UNITS_PATTERN=units_pattern)
-    
-pattern = re.compile(full_pattern, flags=re.UNICODE)
+class Recipe:
 
-def normalize_qty(qty):
-    if qty is not None:
-        qty = qty.strip() # whitespace
+    Ingredient = namedtuple('Ingredient', 'qty unit name raw')
+    units_pattern = r'(?:(\s?mg|g|kg|ml|L|oz|ounce|tbsp|Tbsp|tablespoon|tsp|teaspoon|cup|lb|pound|small|medium|large|whole|half)?(?:s|es)?\.?\b)'
 
-        if len(qty) == 1:
-            qty = numeric(qty)
-        else:
-            try:
-                if '/' in qty:
-                    # 2 1/2
-                    qty = float(sum(Fraction(s) for s in qty.split()))
-                elif qty[-1].isdigit():
-                    # normal number, ending in [0-9]
-                    qty = float(qty)
-                else:
-                    # Assume the last character is a vulgar fraction
-                    qty = float(qty[:-1]) + numeric(qty[-1])
-            except ValueError:
-                pass # let it be a string
-    return qty
+    full_pattern = r'^(?:([-\.\/\s0-9\u2150-\u215E\u00BC-\u00BE]+)?{UNITS_PATTERN})?(?:.*\sof\s)?\s?(.+?)(?:,|$)'.format(
+        UNITS_PATTERN=units_pattern)
 
-# https://en.wikipedia.org/wiki/Cooking_weights_and_measures#United_States_measures
-measures = {
-    'drop': {'abrv': 'dr gt gtt', 'oz':1.0/576},
-    'smidgen': {'abrv': 'smdg smi', 'oz': 1.0/256},
-    'pinch': {'abrv': 'pn', 'oz': 1.0/128},
-    'dash': {'abrv': 'ds', 'oz': 1.0/64},
-    'saltspoon': {'abrv': 'ssp scruple', 'oz': 1.0/32},
-    'coffeespoon': {'abrv': 'csp', 'oz': 1.0/16},
-    'dram': {'abrv': 'dr', 'oz': 1.0/8},
-    'teaspoon': {'abrv': 'tsp t', 'oz': 1.0/6},
-    'tablespoon': {'abrv': 'Tbsp T', 'oz': 1.0/2},
-    'ounce': {'abrv': 'oz fl.oz', 'oz': 1.0},
-    'wineglass': {'abrv': 'wgf', 'oz': 2.0},
-    'teacup': {'abrv': 'tcf gill', 'oz': 4.0},
-    'cup': {'abrv': 'C', 'oz': 8.0},
-    'pint': {'abrv': 'pt', 'oz': 16.0},
-    'quart': {'abrv': 'qt', 'oz': 32.0},
-    'pottle': {'abrv': 'pot', 'oz': 64.0},
-    'gallon': {'abrv': 'gal', 'oz': 128.0},
-    'pound': {'abrv': 'lbs', 'oz': 16.0},
-    'gram': {'abrv': 'g', 'oz': 0.035274},
-    'kilogram': {'abrv': 'kg', 'oz': 35.274},
-}
+    pattern = re.compile(full_pattern, flags=re.UNICODE)
 
-def normalize_unit(unit):
-    if unit is not None:
-        for u, d in measures.items():
-            if unit.lower() == u:
-                return u
-            if unit in d['abrv'].split(' '):
-                return u
-    return unit
-
-def normalize_name(name):
-    return capwords(name)        .strip(' \t\n\r,.')        .replace('Whole ', '')        .replace('Half ', '')        .replace('Hot ', '')        .replace('Warm ', '')        .replace('Cold ', '').strip()
-
-def parse_ingredient(i):
-    if type(i) is not str:
-        if i.string is None:
-            # multiple tags in child,
-            # bs4 gets confused per https://www.crummy.com/software/BeautifulSoup/bs4/doc/#string
-            s = ' '.join(i.stripped_strings)
-        else:
-            s = i.string.strip()
-    else:
-        s = i
-    raw = s.replace('\xa0','').strip()
-    
-    clean = re.sub(r'\(.+?\)', '', raw).replace('’',"'")
-
-    parsed = pattern.match(clean)
-    if parsed:
-        qty, unit, name = parsed.groups()
-    else:
-        print("WARN: Unable to parse ingredient '{}'".format(raw))
-        return Ingredient(None, None, None, raw)
-    
-    qty = normalize_qty(qty)
-            
-    unit = normalize_unit(unit)
-
-    name = normalize_name(name)
-
-    return Ingredient(qty, unit, name, raw)
-
-# Tests to validate parse_ingredient()!!!
-# TODO: Separate tests from the file, probably use pytest to test functions in this module
-tests = [
-    'Bread', (None, None, 'Bread'),
-    '6 stalks celery', (6.0, None, 'Stalks Celery'),
-    '4 eggs', (4.0, None, 'Eggs'),
-    '2 ½ pounds of full fat cream cheese, cut', (2.5, 'pound', 'Full Fat Cream Cheese'),
-    '25 oreos, finely processed', (25.0, None, 'Oreos'),
-    '1-2 variable ingredients', ('1-2', None, 'Variable Ingredients'),
-    '2 1/2 things', (2.5, None, 'Things'),
-    '1/2 things', (0.5, None, 'Things'),
-    '1 large, long sourdough loaf', (1.0, 'large', 'Long Sourdough Loaf'),
-    '100ml Water', (100.0, 'ml', 'Water'),
-    '1L Water', (1.0, 'L', 'Water')
-]
-
-assert len(tests) % 2 == 0, 'A test is missing its expected output'
-
-for (i, v) in zip(tests[::2], tests[1::2]):
-    actual = parse_ingredient(i)
-    expected = Ingredient(*v, i)
-    assert actual == expected, "parse_ingredient() incorrectly parsed '{}'\nExpected:\n{}\nActual:\n{}".format(i, expected, actual)
-
-ingredients = seq(loc1.find_next_sibling(['ul','ol']).children).map(parse_ingredient)
-
-
-## Fetch the current list of BWB episodes
-
-raw_episode_list = requests.get('https://www.bingingwithbabish.com/recipes/')
-soup = bs4.BeautifulSoup(raw_episode_list.content, 'html5lib')
-
-episode_links = seq(soup.find('div', class_='recipe-row').select('.main-image-wrapper a'))    .map(lambda atag: atag.get('href'))
-
-
-## Cache episodes/recipes content locally
-
-for link in episode_links:
-    filename = 'tmp/raw-episodes/'+link.lstrip('/')
-    
-    if os.path.isfile(filename):
-        continue # skip, already cached
-
-    retries = 3
-    for t in range(retries):
-        r = requests.get('https://www.bingingwithbabish.com'+link)
-        if r.status_code == 200:
-            episodeHTML = r.content
-            os.makedirs(os.path.dirname(filename), exist_ok=True)
-            with open(filename, "wb") as f:
-                f.write(episodeHTML)
-            break # success
-        else:
-            print("WARN: {0} returned bad status code ({1})".format(link, r.status_code))
-            time.sleep(10)
-    else:
-        print("ERROR: Too many retries on {0}".format(link))
-    time.sleep(3)
-
-
-## Parse all episodes into babish.json
-
-episodes = []
-for link in episode_links:
-    path = 'tmp/raw-episodes/'+link.lstrip('/')
-    with open(path, 'rb') as f:
-        soup = bs4.BeautifulSoup(f, 'html.parser')
-
-    episode_name = soup.title.string.strip().replace(' — Binging With Babish','')
-    
-    youtube_link = json.loads(soup.find('div', class_='video-block')['data-block-json'])['url']
-    
-    ep = {
-        'episode_name': episode_name,
-        'episode_link': 'https://www.bingingwithbabish.com'+link,
-        'youtube_link': youtube_link,
-        'recipes': []
+    # https://en.wikipedia.org/wiki/Cooking_weights_and_measures#United_States_measures
+    measures = {
+        'drop': {'abrv': 'dr gt gtt', 'oz': 1.0 / 576},
+        'smidgen': {'abrv': 'smdg smi', 'oz': 1.0 / 256},
+        'pinch': {'abrv': 'pn', 'oz': 1.0 / 128},
+        'dash': {'abrv': 'ds', 'oz': 1.0 / 64},
+        'saltspoon': {'abrv': 'ssp scruple', 'oz': 1.0 / 32},
+        'coffeespoon': {'abrv': 'csp', 'oz': 1.0 / 16},
+        'dram': {'abrv': 'dr', 'oz': 1.0 / 8},
+        'teaspoon': {'abrv': 'tsp t', 'oz': 1.0 / 6},
+        'tablespoon': {'abrv': 'Tbsp T', 'oz': 1.0 / 2},
+        'ounce': {'abrv': 'oz fl.oz', 'oz': 1.0},
+        'wineglass': {'abrv': 'wgf', 'oz': 2.0},
+        'teacup': {'abrv': 'tcf gill', 'oz': 4.0},
+        'cup': {'abrv': 'C', 'oz': 8.0},
+        'pint': {'abrv': 'pt', 'oz': 16.0},
+        'quart': {'abrv': 'qt', 'oz': 32.0},
+        'pottle': {'abrv': 'pot', 'oz': 64.0},
+        'gallon': {'abrv': 'gal', 'oz': 128.0},
+        'pound': {'abrv': 'lbs', 'oz': 16.0},
+        'gram': {'abrv': 'g', 'oz': 0.035274},
+        'kilogram': {'abrv': 'kg', 'oz': 35.274},
     }
 
-    recipe_locations = soup.find_all(['h1','h2','h3','h4','h5'], string=re.compile('Ingredients'))
-    
-    for loc in recipe_locations:
-        method = loc.find_next(['h1','h2','h3','h4','h5'])
-        if method:
-            method = method.string.strip()
+    @classmethod
+    def parse_ingredient(cls, i):
+        if not isinstance(i, str):
+            if i.string is None:
+                # multiple tags in child,
+                # bs4 gets confused per https://www.crummy.com/software/BeautifulSoup/bs4/doc/#string
+                s = ' '.join(i.stripped_strings)
+            else:
+                s = i.string.strip()
         else:
-            method = 'Default - {}'.format(episode_name)
+            s = i
+        raw = s.replace('\xa0', '').strip()
 
-        ingredients = list(loc.find_next_sibling(['ul','ol']).children)
-        
-        if len(ingredients) > 0:
-            ingredients = list(seq(ingredients).map(parse_ingredient))
+        clean = re.sub(r'\(.+?\)', '', raw).replace('’', "'")
+
+        parsed = cls.pattern.match(clean)
+        if parsed:
+            qty, unit, name = parsed.groups()
         else:
-            print("WARN: Could not location ingredients for {0} (Episode {1})".format(method, episode_name))
-            
-        recipe = {
-            'method': method,
-            'ingredients': ingredients,
-        }
-        
-        ep['recipes'].append(recipe)
-    
-    episodes.append(ep)
+            print("WARN: Unable to parse ingredient '{}'".format(raw))
+            return cls.Ingredient(None, None, None, raw)
 
-with open('babish.json', 'w') as f:
-    json.dump(episodes, f, indent=2)
+        qty = cls.normalize_qty(qty)
+
+        unit = cls.normalize_unit(unit)
+
+        name = cls.normalize_name(name)
+
+        return cls.Ingredient(qty, unit, name, raw)
+
+    @classmethod
+    def normalize_qty(cls, qty):
+        if qty is not None:
+            qty = qty.strip()  # whitespace
+
+            if len(qty) == 1:
+                qty = numeric(qty)
+            else:
+                try:
+                    if '/' in qty:
+                        # 2 1/2
+                        qty = float(sum(Fraction(s) for s in qty.split()))
+                    elif qty[-1].isdigit():
+                        # normal number, ending in [0-9]
+                        qty = float(qty)
+                    else:
+                        # Assume the last character is a vulgar fraction
+                        qty = float(qty[:-1]) + numeric(qty[-1])
+                except ValueError:
+                    pass  # let it be a string
+        return qty
+
+    @classmethod
+    def normalize_unit(cls, unit):
+        if unit is not None:
+            for u, d in cls.measures.items():
+                if unit.lower() == u:
+                    return u
+                if unit in d['abrv'].split(' '):
+                    return u
+        return unit
+
+    @classmethod
+    def normalize_name(cls, name):
+        return capwords(name)        .strip(' \t\n\r,.')        .replace('Whole ', '')        .replace(
+            'Half ', '')        .replace('Hot ', '')        .replace('Warm ', '')        .replace('Cold ', '').strip()
+
+
+def timeit(method):
+    def timed(*args, **kw):
+        ts = time.time()
+        result = method(*args, **kw)
+        te = time.time()
+        if 'log_time' in kw:
+            name = kw.get('log_name', method.__name__.upper())
+            kw['log_time'][name] = int((te - ts) * 1000)
+        else:
+            logging.info('Time taken in %s  %2.2f ms' %
+                         (method.__name__, (te - ts) * 1000))
+        return result
+    return timed
+
+
+class Stats(object):
+
+    def __init__(self, d):
+        self.__dict__ = d
+
+    def __repr__(self):
+        return 'Stats:\n{0}'.format('\n'.join(' {0}: {1}'.format(stat, val) for stat, val in self.__dict__.items()))
+
+
+class BabishSync:
+
+    def __init__(self):
+        self.stats = Stats({
+            'episodes': 0,
+
+            'episodes_fetched': 0,
+            'episodes_already_cached': 0,
+            'requests_made': 0,
+            'requests_retried': 0,
+            'requests_failed': 0,
+
+            'bytes_written': 0,
+        })
+
+    @timeit
+    def fetch_episode_list(self):
+        # Fetch the current list of BWB episodes
+
+        raw_episode_list = requests.get('https://www.bingingwithbabish.com/recipes/')
+        soup = bs4.BeautifulSoup(raw_episode_list.content, 'html5lib')
+
+        self.episode_links = seq(soup.find('div', class_='recipe-row').select('.main-image-wrapper a')
+                                 ).map(lambda atag: atag.get('href'))
+        self.stats.episodes = sum(1 for x in self.episode_links)
+
+        logging.info('Fetched episode list, %s episodes', self.stats.episodes)
+
+    @timeit
+    def fetch_missing_episodes(self):
+        # Cache episodes/recipes content locally
+
+        for link in self.episode_links:
+            filename = 'tmp/raw-episodes/' + link.lstrip('/')
+
+            if os.path.isfile(filename):
+                self.stats.episodes_already_cached += 1
+                continue  # skip, already cached
+
+            self.stats.episodes_fetched += 1
+
+            retries = 3
+            for t in range(retries):
+                self.stats.requests_made += 1
+                r = requests.get('https://www.bingingwithbabish.com' + link)
+                if r.status_code == 200:
+                    episodeHTML = r.content
+                    os.makedirs(os.path.dirname(filename), exist_ok=True)
+                    with open(filename, "wb") as f:
+                        f.write(episodeHTML)
+                    break  # success
+                else:
+                    print("WARN: {0} returned bad status code ({1})".format(link, r.status_code))
+                    self.stats.requests_retried += 1
+                    time.sleep(10)
+            else:
+                print("ERROR: Too many retries on {0}".format(link))
+                self.stats.requests_failed += 1
+            time.sleep(3)
+
+        logging.info(
+            'Episode fetch complete - {episodes_fetched} fetched, {episodes_already_cached} already cached - {requests_made} requests, {requests_retried} retries {requests_failed} failed'.format(
+                **self.stats.__dict__))
+
+    @timeit
+    def generate_babish_json(self):
+        # Parse all episodes into babish.json
+
+        episodes = []
+        for link in self.episode_links:
+            path = 'tmp/raw-episodes/' + link.lstrip('/')
+            with open(path, 'rb') as f:
+                soup = bs4.BeautifulSoup(f, 'html.parser')
+
+            episode_name = soup.title.string.strip().replace(' — Binging With Babish', '')
+
+            youtube_link = json.loads(soup.find('div', class_='video-block')['data-block-json'])['url']
+
+            ep = {
+                'episode_name': episode_name,
+                'episode_link': 'https://www.bingingwithbabish.com' + link,
+                'youtube_link': youtube_link,
+                'recipes': []
+            }
+
+            recipe_locations = soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5'], string=re.compile('Ingredients'))
+
+            for loc in recipe_locations:
+                method = loc.find_next(['h1', 'h2', 'h3', 'h4', 'h5'])
+                if method:
+                    method = method.string.strip()
+                else:
+                    method = 'Default - {}'.format(episode_name)
+
+                ingredients = list(loc.find_next_sibling(['ul', 'ol']).children)
+
+                if len(ingredients) > 0:
+                    ingredients = list(map(Recipe.parse_ingredient, seq(ingredients)))
+                else:
+                    print("WARN: Could not location ingredients for {0} (Episode {1})".format(method, episode_name))
+
+                recipe = {
+                    'method': method,
+                    'ingredients': ingredients,
+                }
+
+                ep['recipes'].append(recipe)
+
+            episodes.append(ep)
+
+        with open('babish.json', 'w') as f:
+            json.dump(episodes, f, indent=2)
+
+        self.stats.bytes_written = os.path.getsize('babish.json')
+
+        logging.info('Wrote babish.json successfully, %s bytes written', self.stats.bytes_written)
+
+    def show_stats(self):
+        print(self.stats)
+
+
+if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+
+    babish = BabishSync()
+
+    babish.fetch_episode_list()
+    babish.fetch_missing_episodes()
+    babish.generate_babish_json()
+
+    babish.show_stats()

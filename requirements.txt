@@ -1,7 +1,9 @@
 measurement
 pyfunctional
 beautifulsoup4
+html5lib
 requests
 plotly
 cufflinks
 pandas
+pytest
