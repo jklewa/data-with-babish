@@ -1,5 +1,5 @@
 ## Description
-A breif description of the proposed change
+A brief description of the proposed change
 
 * Bullet points about what you changed
 * ...

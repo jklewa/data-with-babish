@@ -6,6 +6,7 @@ import re
 import requests
 import os
 import time
+import logging
 
 from collections import namedtuple
 from fractions import Fraction
@@ -116,8 +117,46 @@ class Recipe:
             'Half ', '')        .replace('Hot ', '')        .replace('Warm ', '')        .replace('Cold ', '').strip()
 
 
+def timeit(method):
+    def timed(*args, **kw):
+        ts = time.time()
+        result = method(*args, **kw)
+        te = time.time()
+        if 'log_time' in kw:
+            name = kw.get('log_name', method.__name__.upper())
+            kw['log_time'][name] = int((te - ts) * 1000)
+        else:
+            logging.info('Time taken in %s  %2.2f ms' %
+                         (method.__name__, (te - ts) * 1000))
+        return result
+    return timed
+
+
+class Stats(object):
+
+    def __init__(self, d):
+        self.__dict__ = d
+
+    def __repr__(self):
+        return 'Stats:\n{0}'.format('\n'.join(' {0}: {1}'.format(stat, val) for stat, val in self.__dict__.items()))
+
+
 class BabishSync:
 
+    def __init__(self):
+        self.stats = Stats({
+            'episodes': 0,
+
+            'episodes_fetched': 0,
+            'episodes_already_cached': 0,
+            'requests_made': 0,
+            'requests_retried': 0,
+            'requests_failed': 0,
+
+            'bytes_written': 0,
+        })
+
+    @timeit
     def fetch_episode_list(self):
         # Fetch the current list of BWB episodes
 
@@ -125,8 +164,12 @@ class BabishSync:
         soup = bs4.BeautifulSoup(raw_episode_list.content, 'html5lib')
 
         self.episode_links = seq(soup.find('div', class_='recipe-row').select('.main-image-wrapper a')
-                                 )    .map(lambda atag: atag.get('href'))
+                                 ).map(lambda atag: atag.get('href'))
+        self.stats.episodes = sum(1 for x in self.episode_links)
 
+        logging.info('Fetched episode list, %s episodes', self.stats.episodes)
+
+    @timeit
     def fetch_missing_episodes(self):
         # Cache episodes/recipes content locally
 
@@ -134,10 +177,14 @@ class BabishSync:
             filename = 'tmp/raw-episodes/' + link.lstrip('/')
 
             if os.path.isfile(filename):
+                self.stats.episodes_already_cached += 1
                 continue  # skip, already cached
+
+            self.stats.episodes_fetched += 1
 
             retries = 3
             for t in range(retries):
+                self.stats.requests_made += 1
                 r = requests.get('https://www.bingingwithbabish.com' + link)
                 if r.status_code == 200:
                     episodeHTML = r.content
@@ -147,11 +194,18 @@ class BabishSync:
                     break  # success
                 else:
                     print("WARN: {0} returned bad status code ({1})".format(link, r.status_code))
+                    self.stats.requests_retried += 1
                     time.sleep(10)
             else:
                 print("ERROR: Too many retries on {0}".format(link))
+                self.stats.requests_failed += 1
             time.sleep(3)
 
+        logging.info(
+            'Episode fetch complete - {episodes_fetched} fetched, {episodes_already_cached} already cached - {requests_made} requests, {requests_retried} retries {requests_failed} failed'.format(
+                **self.stats.__dict__))
+
+    @timeit
     def generate_babish_json(self):
         # Parse all episodes into babish.json
 
@@ -184,7 +238,7 @@ class BabishSync:
                 ingredients = list(loc.find_next_sibling(['ul', 'ol']).children)
 
                 if len(ingredients) > 0:
-                    ingredients = list(seq(ingredients).map(parse_ingredient))
+                    ingredients = list(map(Recipe.parse_ingredient, seq(ingredients)))
                 else:
                     print("WARN: Could not location ingredients for {0} (Episode {1})".format(method, episode_name))
 
@@ -199,3 +253,22 @@ class BabishSync:
 
         with open('babish.json', 'w') as f:
             json.dump(episodes, f, indent=2)
+
+        self.stats.bytes_written = os.path.getsize('babish.json')
+
+        logging.info('Wrote babish.json successfully, %s bytes written', self.stats.bytes_written)
+
+    def show_stats(self):
+        print(self.stats)
+
+
+if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+
+    babish = BabishSync()
+
+    babish.fetch_episode_list()
+    babish.fetch_missing_episodes()
+    babish.generate_babish_json()
+
+    babish.show_stats()
