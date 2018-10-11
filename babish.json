@@ -1,5 +1,89 @@
 [
   {
+    "episode_name": "Backpack Recipes inspired by Marvel's Spider-Man",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/spidermanbackpackrecipes",
+    "youtube_link": "https://www.youtube.com/watch?v=NlIiIv-XKhs",
+    "recipes": [
+      {
+        "method": "Method",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Wheat Flour",
+            "1 cup whole wheat flour"
+          ],
+          [
+            1.0,
+            "cup",
+            "Buckwheat Flour",
+            "1 cup buckwheat flour, sifted"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Baking Powder",
+            "2 tsp baking powder"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Baking Soda",
+            "1 tsp baking soda"
+          ],
+          [
+            2.0,
+            "cup",
+            "Buttermilk",
+            "2 cups buttermilk"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Molasses",
+            "2 tsp molasses"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Salt",
+            "1 tsp salt"
+          ],
+          [
+            2.0,
+            null,
+            "Egg Whites",
+            "2 egg whites, whipped"
+          ],
+          [
+            2.0,
+            null,
+            "Egg Yolks",
+            "2 egg yolks, beaten"
+          ],
+          [
+            0.25,
+            "cup",
+            "Melted Butter",
+            "\u00bc cup melted butter"
+          ],
+          [
+            null,
+            null,
+            "Bacon Grease",
+            "Bacon grease"
+          ],
+          [
+            null,
+            null,
+            "Maple Syrup",
+            "Maple syrup"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "The Naco inspired by Kim Possible",
     "episode_link": "https://www.bingingwithbabish.com/recipes/the-naco",
     "youtube_link": "https://www.youtube.com/watch?v=hf5cl-AGYbg",
