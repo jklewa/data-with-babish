@@ -113,8 +113,11 @@ class Recipe:
 
     @classmethod
     def normalize_name(cls, name):
-        return capwords(name)        .strip(' \t\n\r,.')        .replace('Whole ', '')        .replace(
-            'Half ', '')        .replace('Hot ', '')        .replace('Warm ', '')        .replace('Cold ', '').strip()
+        return capwords(name) \
+               .strip(' \t\n\r,.') \
+               .replace('Whole ', '').replace('Half ', '') \
+               .replace('Hot ', '').replace('Warm ', '').replace('Cold ', '') \
+               .strip()
 
 
 def timeit(method):
