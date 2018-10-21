@@ -7,6 +7,7 @@ import requests
 import os
 import time
 import logging
+import string
 
 from collections import namedtuple
 from fractions import Fraction
@@ -116,11 +117,9 @@ class Recipe:
     @classmethod
     def normalize_name(cls, name):
         return capwords(name) \
-               .strip(',.') \
-               .strip() \
                .replace('Whole ', '').replace('Half ', '') \
                .replace('Hot ', '').replace('Warm ', '').replace('Cold ', '') \
-               .strip()
+               .strip(string.whitespace + ',.')
 
 
 def timeit(method):
@@ -246,14 +245,14 @@ class BabishSync:
                     # Get method name, usually right before the list itself
                     method_name = iloc.find_previous_sibling(['p', 'h2', 'h3'])
                     if method_name is not None:
-                        method_name = method_name.get_text().replace('Ingredients', '').strip('\u00a0:,').strip()
+                        method_name = method_name.get_text().replace('Ingredients', '').strip(string.whitespace + '\u00a0:,')
 
                     if method_name is None or method_name == '':
                         # Look for the method name above the recipe instead
                         h = iloc.parent.find_next(['h1', 'h2'])
                         if h:
                             method_name = h.get_text().strip()
-                            method_name = re.sub('^(Method)', '', method_name).strip('\u00a0:,').strip()
+                            method_name = re.sub('^(Method)', '', method_name).strip(string.whitespace + '\u00a0:,')
                         else:
                             # No luck, fall back to default
                             method_name = ''
