@@ -278,8 +278,8 @@ class BabishSync:
 
             episodes.append(ep)
 
-        with open('babish.json', 'w') as f:
-            json.dump(episodes, f, indent=2)
+        with open('babish.json', 'w', encoding='utf8') as f:
+            json.dump(episodes, f, indent=2, ensure_ascii=False)
 
         self.stats.bytes_written = os.path.getsize('babish.json')
 

@@ -46,7 +46,7 @@
             0.5,
             "cup",
             "Bread Crumbs",
-            "\u00bd cup bread crumbs"
+            "½ cup bread crumbs"
           ],
           [
             null,
@@ -135,7 +135,7 @@
             0.5,
             "pound",
             "Brown Sugar",
-            "\u00bd pound brown sugar"
+            "½ pound brown sugar"
           ],
           [
             1.0,
@@ -147,19 +147,19 @@
             0.5,
             "teaspoon",
             "Ground Ginger",
-            "\u00bd tsp ground ginger"
+            "½ tsp ground ginger"
           ],
           [
             0.25,
             "teaspoon",
             "Ground Allspice",
-            "\u00bc tsp ground allspice"
+            "¼ tsp ground allspice"
           ],
           [
             0.125,
             "teaspoon",
             "Ground Cloves",
-            "\u215b tsp ground cloves"
+            "⅛ tsp ground cloves"
           ],
           [
             10.0,
@@ -189,7 +189,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=NlIiIv-XKhs",
     "recipes": [
       {
-        "method": "Aunt May\u2019s Wheatcakes",
+        "method": "Aunt May’s Wheatcakes",
         "ingredients": [
           [
             1.0,
@@ -249,7 +249,7 @@
             0.25,
             "cup",
             "Melted Butter",
-            "\u00bc cup melted butter"
+            "¼ cup melted butter"
           ],
           [
             null,
@@ -272,7 +272,7 @@
             0.5,
             "cup",
             "Soy Sauce",
-            "\u00bd cup soy sauce"
+            "½ cup soy sauce"
           ],
           [
             1.0,
@@ -284,7 +284,7 @@
             2.0,
             "tablespoon",
             "Chinese Chives",
-            "2 Tbsp Chinese chives (or regular chives if you can\u2019t find them)"
+            "2 Tbsp Chinese chives (or regular chives if you can’t find them)"
           ],
           [
             null,
@@ -372,7 +372,7 @@
             0.5,
             "cup",
             "Water",
-            "\u00bd cup water"
+            "½ cup water"
           ]
         ]
       }
@@ -396,7 +396,7 @@
             0.75,
             null,
             "Red Onion",
-            "\u00be red onion, chopped, separated"
+            "¾ red onion, chopped, separated"
           ],
           [
             3.0,
@@ -407,8 +407,8 @@
           [
             null,
             null,
-            "\u00bd Lime",
-            "Juice of \u00bd lime"
+            "½ Lime",
+            "Juice of ½ lime"
           ],
           [
             2.0,
@@ -419,8 +419,8 @@
           [
             1.5,
             null,
-            "Jalape\u00f1os",
-            "1 \u00bd jalape\u00f1os, chopped, separated"
+            "Jalapeños",
+            "1 ½ jalapeños, chopped, separated"
           ],
           [
             null,
@@ -474,7 +474,7 @@
             0.5,
             null,
             "Can Diced Chilis And Tomatoes",
-            "\u00bd can diced chilis and tomatoes"
+            "½ can diced chilis and tomatoes"
           ],
           [
             null,
@@ -504,13 +504,13 @@
     "youtube_link": "https://www.youtube.com/watch?v=6nuEgc2RVWo&t=336s",
     "recipes": [
       {
-        "method": "Binging With Babish\u2019s Direwolf Bread",
+        "method": "Binging With Babish’s Direwolf Bread",
         "ingredients": [
           [
             0.5,
             "cup",
             "Butter",
-            "\u00bd cup butter"
+            "½ cup butter"
           ],
           [
             85.0,
@@ -528,7 +528,7 @@
             0.5,
             "teaspoon",
             "Salt",
-            "\u00bd tsp salt"
+            "½ tsp salt"
           ],
           [
             1.0,
@@ -540,13 +540,13 @@
             0.25,
             "teaspoon",
             "Baking Soda",
-            "\u00bc tsp baking soda"
+            "¼ tsp baking soda"
           ],
           [
             0.25,
             "cup",
             "White Sugar",
-            "\u00bc cup white sugar"
+            "¼ cup white sugar"
           ],
           [
             2.0,
@@ -558,13 +558,13 @@
             1.5,
             "cup",
             "Toasted Pecans",
-            "1 \u00bd cups toasted pecans"
+            "1 ½ cups toasted pecans"
           ],
           [
             0.5,
             "cup",
             "Buttermilk",
-            "\u00bd cup buttermilk"
+            "½ cup buttermilk"
           ],
           [
             1.0,
@@ -606,13 +606,13 @@
             0.75,
             "cup",
             "Plain White Sugar",
-            "\u00be cup plain white sugar"
+            "¾ cup plain white sugar"
           ],
           [
             2.5,
             "cup",
             "Milk",
-            "2 \u00bd cups whole milk"
+            "2 ½ cups whole milk"
           ],
           [
             3.0,
@@ -682,7 +682,7 @@
             0.25,
             "teaspoon",
             "Baking Soda",
-            "\u00bc tsp baking soda"
+            "¼ tsp baking soda"
           ],
           [
             null,
@@ -730,7 +730,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=SjeS6gtPq8E",
     "recipes": [
       {
-        "method": "Prismo\u2019s Artisanal Pickles",
+        "method": "Prismo’s Artisanal Pickles",
         "ingredients": [
           [
             4.0,
@@ -819,7 +819,7 @@
         ]
       },
       {
-        "method": "Prismo\u2019s Sentient Sandwich",
+        "method": "Prismo’s Sentient Sandwich",
         "ingredients": [
           [
             1.0,
@@ -849,7 +849,7 @@
             0.25,
             "cup",
             "Brown Sugar",
-            "\u00bc cup brown sugar"
+            "¼ cup brown sugar"
           ],
           [
             "1-2",
@@ -861,7 +861,7 @@
             0.3333333333333333,
             "cup",
             "Apple Cider Vinegar",
-            "\u2153 cup apple cider vinegar"
+            "⅓ cup apple cider vinegar"
           ],
           [
             1.0,
@@ -956,13 +956,13 @@
             1.5,
             "teaspoon",
             "Baking Powder",
-            "1 \u00bd tsp baking powder"
+            "1 ½ tsp baking powder"
           ],
           [
             1.5,
             "teaspoon",
             "Baking Soda",
-            "1 \u00bd tsp baking soda"
+            "1 ½ tsp baking soda"
           ],
           [
             null,
@@ -974,7 +974,7 @@
             2.5,
             "cup",
             "Buttermilk",
-            "2 \u00bd cups buttermilk"
+            "2 ½ cups buttermilk"
           ],
           [
             2.0,
@@ -1033,7 +1033,7 @@
             3.5,
             "cup",
             "Heavy Cream",
-            "3 \u00bd cups heavy cream"
+            "3 ½ cups heavy cream"
           ],
           [
             2.0,
@@ -1080,7 +1080,7 @@
             0.3333333333333333,
             "cup",
             "Sugar",
-            "\u2153 cup sugar"
+            "⅓ cup sugar"
           ],
           [
             6.0,
@@ -1092,7 +1092,7 @@
             0.6666666666666666,
             "cup",
             "Buttermilk",
-            "\u2154 cup buttermilk"
+            "⅔ cup buttermilk"
           ],
           [
             1.0,
@@ -1228,7 +1228,7 @@
             0.5,
             "tablespoon",
             "Maple Syrup",
-            "\u00bd Tbsp maple syrup"
+            "½ Tbsp maple syrup"
           ],
           [
             null,
@@ -1258,7 +1258,7 @@
             0.5,
             "teaspoon",
             "Smoked Paprika",
-            "\u00bd tsp smoked paprika"
+            "½ tsp smoked paprika"
           ],
           [
             null,
@@ -1287,7 +1287,7 @@
             0.3333333333333333,
             "cup",
             "Milk",
-            "\u2153 cup milk, room temperature"
+            "⅓ cup milk, room temperature"
           ],
           [
             null,
@@ -1371,31 +1371,31 @@
             0.3333333333333333,
             "cup",
             "Peanuts",
-            "\u2153 cup peanuts"
+            "⅓ cup peanuts"
           ],
           [
             0.3333333333333333,
             "cup",
             "Pumpkin Seeds",
-            "\u2153 cup pumpkin seeds"
+            "⅓ cup pumpkin seeds"
           ],
           [
             0.3333333333333333,
             "cup",
             "Almonds",
-            "\u2153 cup almonds"
+            "⅓ cup almonds"
           ],
           [
             0.3333333333333333,
             "cup",
             "Raisins",
-            "\u2153 cup raisins"
+            "⅓ cup raisins"
           ],
           [
             0.25,
             "cup",
             "Sesame Seeds",
-            "\u00bc cup sesame seeds"
+            "¼ cup sesame seeds"
           ],
           [
             1.0,
@@ -1419,19 +1419,19 @@
             0.25,
             "teaspoon",
             "Dried Thyme",
-            "\u00bc tsp dried thyme"
+            "¼ tsp dried thyme"
           ],
           [
             0.25,
             "teaspoon",
             "Marjoram",
-            "\u00bc tsp marjoram"
+            "¼ tsp marjoram"
           ],
           [
             0.25,
             "teaspoon",
             "Aniseed",
-            "\u00bc tsp aniseed"
+            "¼ tsp aniseed"
           ],
           [
             4.0,
@@ -1584,7 +1584,7 @@
             1.0,
             null,
             "Chipotles In Adobo",
-            "1 can of chipotles in adobo, peppers removed (we\u2019ll be using the sauce)"
+            "1 can of chipotles in adobo, peppers removed (we’ll be using the sauce)"
           ],
           [
             1.0,
@@ -1767,7 +1767,7 @@
             0.5,
             "cup",
             "Feta Cheese",
-            "\u00bd cup feta cheese"
+            "½ cup feta cheese"
           ],
           [
             "2-4",
@@ -1803,13 +1803,13 @@
             1.5,
             "cup",
             "Buttermilk",
-            "1 \u00bd cups buttermilk"
+            "1 ½ cups buttermilk"
           ],
           [
             0.5,
             "cup",
             "Boiling Milk",
-            "\u00bd cup boiling milk"
+            "½ cup boiling milk"
           ],
           [
             4.0,
@@ -1821,7 +1821,7 @@
             2.5,
             "tablespoon",
             "Sugar",
-            "2 \u00bd Tbsp sugar"
+            "2 ½ Tbsp sugar"
           ],
           [
             22.0,
@@ -1833,13 +1833,13 @@
             0.5,
             "teaspoon",
             "Baking Soda",
-            "\u00bd tsp baking soda"
+            "½ tsp baking soda"
           ],
           [
             0.5,
             "teaspoon",
             "Kosher Salt",
-            "\u00bd tsp kosher salt"
+            "½ tsp kosher salt"
           ],
           [
             null,
@@ -1923,7 +1923,7 @@
             0.3333333333333333,
             "cup",
             "Leftover Fat",
-            "\u2153 cup of leftover fat"
+            "⅓ cup of leftover fat"
           ],
           [
             1.0,
@@ -1989,7 +1989,7 @@
             0.75,
             "cup",
             "Mayonnaise",
-            "\u00be cup mayonnaise"
+            "¾ cup mayonnaise"
           ],
           [
             1.0,
@@ -2000,8 +2000,8 @@
           [
             null,
             null,
-            "\u00bc A Lemon",
-            "Juice of \u00bc a lemon"
+            "¼ A Lemon",
+            "Juice of ¼ a lemon"
           ],
           [
             1.0,
@@ -2061,13 +2061,13 @@
             0.5,
             "cup",
             "Breadcrumbs",
-            "\u00bd cup breadcrumbs"
+            "½ cup breadcrumbs"
           ],
           [
             1.5,
             "cup",
             "White Flour",
-            "1 \u00bd cups white flour"
+            "1 ½ cups white flour"
           ],
           [
             null,
@@ -2139,7 +2139,7 @@
             3.5,
             "tablespoon",
             "Worcestershire Sauce",
-            "3 \u00bd Tbsp worcestershire sauce"
+            "3 ½ Tbsp worcestershire sauce"
           ]
         ]
       },
@@ -2173,7 +2173,7 @@
             0.25,
             "cup",
             "Pickled Red Ginger",
-            "\u00bc cup pickled red ginger"
+            "¼ cup pickled red ginger"
           ],
           [
             "3-4",
@@ -2185,7 +2185,7 @@
             0.5,
             null,
             "Cabbage",
-            "\u00bd head of cabbage, shredded"
+            "½ head of cabbage, shredded"
           ],
           [
             1.0,
@@ -2197,7 +2197,7 @@
             1.5,
             "teaspoon",
             "Baking Powder",
-            "1 \u00bd tsp baking powder"
+            "1 ½ tsp baking powder"
           ],
           [
             1.0,
@@ -2209,7 +2209,7 @@
             1.0,
             null,
             "Japanese Mountain Yam",
-            "1 Japanese mountain yam, grated (if you can\u2019t find this, you can use \u00bd cup of milk combined with 1 tsp baking powder)"
+            "1 Japanese mountain yam, grated (if you can’t find this, you can use ½ cup of milk combined with 1 tsp baking powder)"
           ],
           [
             4.0,
@@ -2221,7 +2221,7 @@
             0.5,
             "cup",
             "Tenkasu",
-            "\u00bd cup tenkasu (fried tempura scraps)"
+            "½ cup tenkasu (fried tempura scraps)"
           ],
           [
             null,
@@ -2293,7 +2293,7 @@
             4.0,
             null,
             "Reese's Peanut Butter Cups",
-            "4 Reese\u2019s Peanut Butter Cups"
+            "4 Reese’s Peanut Butter Cups"
           ]
         ]
       }
@@ -2798,13 +2798,13 @@
             7.5,
             "ounce",
             "Semolina Flour",
-            "7 \u00bd ounces Semolina flour, separated"
+            "7 ½ ounces Semolina flour, separated"
           ],
           [
             2.5,
             "ounce",
             "All Purpose Flour",
-            "2 \u00bd ounces all purpose flour"
+            "2 ½ ounces all purpose flour"
           ],
           [
             2.3,
@@ -2846,7 +2846,7 @@
             0.5,
             "cup",
             "Minced Parsley",
-            "\u00bd cup minced parsley"
+            "½ cup minced parsley"
           ],
           [
             "3-4",
@@ -2912,13 +2912,13 @@
             1.5,
             "teaspoon",
             "Ground Cinnamon",
-            "1 \u00bd tsp ground cinnamon, divided"
+            "1 ½ tsp ground cinnamon, divided"
           ],
           [
             0.5,
             "teaspoon",
             "Instant Espresso Powder",
-            "\u00bd tsp instant espresso powder"
+            "½ tsp instant espresso powder"
           ],
           [
             30.0,
@@ -3072,13 +3072,13 @@
             1.5,
             "teaspoon",
             "Baking Powder",
-            "1 \u00bd tsp baking powder"
+            "1 ½ tsp baking powder"
           ],
           [
             0.5,
             "teaspoon",
             "Baking Soda",
-            "\u00bd tsp baking soda"
+            "½ tsp baking soda"
           ],
           [
             1.0,
@@ -3090,13 +3090,13 @@
             0.5,
             "teaspoon",
             "Paprika",
-            "\u00bd tsp paprika"
+            "½ tsp paprika"
           ],
           [
             0.75,
             "cup",
             "Buttermilk",
-            "\u00be cup buttermilk"
+            "¾ cup buttermilk"
           ],
           [
             2.0,
@@ -3348,7 +3348,7 @@
             0.5,
             "cup",
             "Heavy Cream",
-            "\u00bd cup heavy cream"
+            "½ cup heavy cream"
           ],
           [
             null,
@@ -3395,7 +3395,7 @@
             1.25,
             "cup",
             "Heavy Cream",
-            "1 \u00bc cups heavy cream"
+            "1 ¼ cups heavy cream"
           ],
           [
             1.0,
@@ -3466,13 +3466,13 @@
             2.3333333333333335,
             "ounce",
             "Brown Sugar",
-            "2 \u2153 ounces brown sugar"
+            "2 ⅓ ounces brown sugar"
           ],
           [
             2.5,
             "ounce",
             "All Purpose Flour",
-            "2 \u00bd ounces all purpose flour"
+            "2 ½ ounces all purpose flour"
           ],
           [
             null,
@@ -3490,7 +3490,7 @@
             2.5,
             "pound",
             "Full Fat Cream Cheese",
-            "2 \u00bd pounds of full fat cream cheese, cut"
+            "2 ½ pounds of full fat cream cheese, cut"
           ],
           [
             11.0,
@@ -3508,13 +3508,13 @@
             0.3333333333333333,
             "cup",
             "Sour Cream",
-            "\u2153 cup sour cream"
+            "⅓ cup sour cream"
           ],
           [
             null,
             null,
-            "\u00bd A Lemon",
-            "Juice of \u00bd a lemon"
+            "½ A Lemon",
+            "Juice of ½ a lemon"
           ],
           [
             1.0,
@@ -3781,7 +3781,7 @@
             0.25,
             "cup",
             "Lard Or Canola Oil",
-            "\u00bc cup lard or canola oil"
+            "¼ cup lard or canola oil"
           ],
           [
             1.0,
@@ -3823,7 +3823,7 @@
             0.25,
             "cup",
             "Sour Cream",
-            "\u00bc cup sour cream, for serving"
+            "¼ cup sour cream, for serving"
           ],
           [
             null,
@@ -3864,7 +3864,7 @@
             0.75,
             "cup",
             "Flour",
-            "\u00be cup of flour"
+            "¾ cup of flour"
           ]
         ]
       }
@@ -3936,7 +3936,7 @@
             null,
             null,
             "Butcher's Twine",
-            "Butcher\u2019s twine"
+            "Butcher’s twine"
           ]
         ]
       },
@@ -4013,7 +4013,7 @@
             null,
             null,
             "Butcher's Twine",
-            "Butcher\u2019s twine"
+            "Butcher’s twine"
           ]
         ]
       },
@@ -4108,7 +4108,7 @@
             0.5,
             "cup",
             "Extra Virgin Olive Oil",
-            "\u00bd cup extra virgin olive oil"
+            "½ cup extra virgin olive oil"
           ],
           [
             8.0,
@@ -4168,7 +4168,7 @@
             null,
             null,
             "Chicken Thighs",
-            "Chicken thighs (as many as you\u2019d like to make/marinate)"
+            "Chicken thighs (as many as you’d like to make/marinate)"
           ]
         ]
       },
@@ -4203,7 +4203,7 @@
             0.25,
             "cup",
             "Finely Minced Dill",
-            "\u00bc cup finely minced dill"
+            "¼ cup finely minced dill"
           ],
           [
             null,
@@ -4243,7 +4243,7 @@
             0.75,
             "lb",
             "Cherry Tomatoes",
-            "\u00be lb cherry tomatoes (save tomato juice)"
+            "¾ lb cherry tomatoes (save tomato juice)"
           ],
           [
             1.0,
@@ -4309,13 +4309,13 @@
             0.25,
             "cup",
             "Bulgur Wheat",
-            "\u00bc cup bulgur wheat"
+            "¼ cup bulgur wheat"
           ],
           [
             0.25,
             "cup",
             "Reserved Tomato Juice",
-            "\u00bc cup reserved tomato juice"
+            "¼ cup reserved tomato juice"
           ],
           [
             null,
@@ -4349,32 +4349,32 @@
           [
             1.0,
             "cup",
-            "All Purpose Flour Plus 1\u00be Cup Flour",
-            "1 cup all purpose flour plus 1\u00be cup flour (divided)"
+            "All Purpose Flour Plus 1¾ Cup Flour",
+            "1 cup all purpose flour plus 1¾ cup flour (divided)"
           ],
           [
             1.5,
             "tablespoon",
             "Olive Oil",
-            "1 \u00bd Tbsp olive oil"
+            "1 ½ Tbsp olive oil"
           ],
           [
             1.75,
             "teaspoon",
             "Salt",
-            "1 \u00be tsp salt"
+            "1 ¾ tsp salt"
           ]
         ]
       }
     ]
   },
   {
-    "episode_name": "Cr\u00e8me Br\u00fbl\u00e9e inspired by Amelie",
+    "episode_name": "Crème Brûlée inspired by Amelie",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/cremebrule",
     "youtube_link": "https://www.youtube.com/watch?v=dn_aaxZIA2o",
     "recipes": [
       {
-        "method": "Cr\u00e8me Br\u00fbl\u00e9e inspired by Amelie",
+        "method": "Crème Brûlée inspired by Amelie",
         "ingredients": [
           [
             null,
@@ -4512,7 +4512,7 @@
             1.5,
             "cup",
             "Milk",
-            "1 \u00bd cups of milk"
+            "1 ½ cups of milk"
           ],
           [
             2.0,
@@ -4524,13 +4524,13 @@
             0.5,
             "cup",
             "Freshly Chopped Basil",
-            "\u00bd cup freshly chopped basil"
+            "½ cup freshly chopped basil"
           ],
           [
             0.5,
             "cup",
             "Heavy Cream",
-            "\u00bd cup heavy cream"
+            "½ cup heavy cream"
           ],
           [
             3.0,
@@ -4638,13 +4638,13 @@
             0.25,
             "cup",
             "Basil",
-            "\u00bc cup of basil"
+            "¼ cup of basil"
           ],
           [
             0.25,
             "cup",
             "Parsley",
-            "\u00bc cup of parsley"
+            "¼ cup of parsley"
           ],
           [
             null,
@@ -4674,7 +4674,7 @@
             0.5,
             "cup",
             "Chicken Stock",
-            "\u00bd cup of chicken stock"
+            "½ cup of chicken stock"
           ],
           [
             1.0,
@@ -4836,7 +4836,7 @@
             1.0,
             null,
             "Bird's Eye Chili",
-            "1 bird\u2019s eye chili (optional)"
+            "1 bird’s eye chili (optional)"
           ],
           [
             1.0,
@@ -4920,25 +4920,25 @@
             1.5,
             "teaspoon",
             "Salt",
-            "1 \u00bd tsp salt"
+            "1 ½ tsp salt"
           ],
           [
             0.75,
             "teaspoon",
             "Baking Powder",
-            "\u00be tsp of baking powder"
+            "¾ tsp of baking powder"
           ],
           [
             0.75,
             "teaspoon",
             "Baking Soda",
-            "\u00be tsp baking soda"
+            "¾ tsp baking soda"
           ],
           [
             1.5,
             "cup",
             "Butter",
-            "1 \u00bd cup of butter"
+            "1 ½ cup of butter"
           ],
           [
             487.5,
@@ -4962,7 +4962,7 @@
             0.75,
             "cup",
             "Clementine Juice",
-            "\u00be cup clementine juice"
+            "¾ cup clementine juice"
           ],
           [
             null,
@@ -4974,7 +4974,7 @@
             1.25,
             "cup",
             "Buttermilk",
-            "1 \u00bc cup buttermilk"
+            "1 ¼ cup buttermilk"
           ],
           [
             null,
@@ -5056,8 +5056,8 @@
           [
             null,
             null,
-            "\u00bd An Orange",
-            "Juice of \u00bd an orange"
+            "½ An Orange",
+            "Juice of ½ an orange"
           ],
           [
             2.0,
@@ -5123,7 +5123,7 @@
             1.5,
             "teaspoon",
             "Baking Powder",
-            "1 \u00bd tsp baking powder"
+            "1 ½ tsp baking powder"
           ],
           [
             1.0,
@@ -5165,7 +5165,7 @@
             0.5,
             "cup",
             "Heavy Cream",
-            "\u00bd cup heavy cream"
+            "½ cup heavy cream"
           ],
           [
             12.0,
@@ -5183,7 +5183,7 @@
             0.5,
             "cup",
             "Light Brown Sugar",
-            "\u00bd cup of light brown sugar"
+            "½ cup of light brown sugar"
           ],
           [
             1.0,
@@ -5422,7 +5422,7 @@
             0.5,
             "cup",
             "Olive Oil",
-            "\u00bd cup of olive oil"
+            "½ cup of olive oil"
           ],
           [
             null,
@@ -5452,7 +5452,7 @@
             0.25,
             "cup",
             "Dried Non-fat Milk",
-            "\u00bc cup dried non-fat milk"
+            "¼ cup dried non-fat milk"
           ],
           [
             15.0,
@@ -5464,7 +5464,7 @@
             1.5,
             "cup",
             "Water",
-            "1 \u00bd cup warm water"
+            "1 ½ cup warm water"
           ],
           [
             1.0,
@@ -5482,7 +5482,7 @@
             2.0,
             "tablespoon",
             "Vegetable Oil",
-            "2 Tbsp vegetable oil, plus an additional \u2153 cup vegetable oil"
+            "2 Tbsp vegetable oil, plus an additional ⅓ cup vegetable oil"
           ],
           [
             null,
@@ -5530,7 +5530,7 @@
             0.25,
             "cup",
             "Shredded Parmesan Cheese",
-            "\u00bc cup shredded parmesan cheese"
+            "¼ cup shredded parmesan cheese"
           ],
           [
             null,
@@ -5547,7 +5547,7 @@
             null,
             null,
             "Stock From Skinner's Stew Episode",
-            "Stock From Skinner\u2019s Stew Episode"
+            "Stock From Skinner’s Stew Episode"
           ],
           [
             2.0,
@@ -5571,7 +5571,7 @@
             0.5,
             "cup",
             "Dry White Wine",
-            "\u00bd cup dry white wine"
+            "½ cup dry white wine"
           ],
           [
             null,
@@ -5654,7 +5654,7 @@
             1.25,
             "cup",
             "Light Corn Syrup",
-            "1 \u00bc cups light corn syrup"
+            "1 ¼ cups light corn syrup"
           ],
           [
             null,
@@ -5780,13 +5780,13 @@
             0.3333333333333333,
             "cup",
             "Milk",
-            "\u2153 cup of warm whole milk"
+            "⅓ cup of warm whole milk"
           ],
           [
             3.5,
             "cup",
             "Flour",
-            "3 \u00bd cups of flour"
+            "3 ½ cups of flour"
           ],
           [
             1.0,
@@ -5798,7 +5798,7 @@
             0.3333333333333333,
             "cup",
             "Sugar",
-            "\u2153 cup of sugar"
+            "⅓ cup of sugar"
           ],
           [
             2.0,
@@ -5816,7 +5816,7 @@
             1.5,
             null,
             "Unsalted Butter",
-            "1 \u00bd sticks of unsalted butter"
+            "1 ½ sticks of unsalted butter"
           ],
           [
             1.0,
@@ -5851,7 +5851,7 @@
             0.5,
             "cup",
             "Maple Syrup",
-            "\u00bd cup maple syrup"
+            "½ cup maple syrup"
           ],
           [
             1.0,
@@ -5863,13 +5863,13 @@
             0.25,
             "cup",
             "Dark Rum",
-            "\u00bc cup dark rum"
+            "¼ cup dark rum"
           ],
           [
             0.25,
             "cup",
             "Heavy Cream",
-            "\u00bc cup of heavy cream"
+            "¼ cup of heavy cream"
           ]
         ]
       },
@@ -5915,7 +5915,7 @@
             0.5,
             "cup",
             "Heavy Cream",
-            "\u00bd cup of heavy cream"
+            "½ cup of heavy cream"
           ],
           [
             null,
@@ -5927,19 +5927,19 @@
             0.25,
             "teaspoon",
             "Nutmeg",
-            "\u00bc tsp of nutmeg"
+            "¼ tsp of nutmeg"
           ],
           [
             0.25,
             "teaspoon",
             "Cinnamon",
-            "\u00bc tsp of cinnamon"
+            "¼ tsp of cinnamon"
           ],
           [
             0.25,
             "teaspoon",
             "Vanilla",
-            "\u00bc tsp of vanilla"
+            "¼ tsp of vanilla"
           ],
           [
             3.0,
@@ -6238,7 +6238,7 @@
             0.5,
             "cup",
             "Feta Cheese",
-            "\u00bd cup feta cheese"
+            "½ cup feta cheese"
           ],
           [
             null,
@@ -6764,19 +6764,19 @@
             0.5,
             "cup",
             "Ghirardelli Cocoa Powder",
-            "\u00bd cup of Ghirardelli cocoa powder"
+            "½ cup of Ghirardelli cocoa powder"
           ],
           [
             0.5,
             "cup",
             "70% Dark Baking Chocolate",
-            "\u00bd cup of 70% dark baking chocolate"
+            "½ cup of 70% dark baking chocolate"
           ],
           [
             0.5,
             "cup",
             "Sugar",
-            "\u00bd cup of sugar"
+            "½ cup of sugar"
           ],
           [
             null,
@@ -6943,43 +6943,43 @@
             0.25,
             "teaspoon",
             "Ground Cloves",
-            "\u00bc tsp ground cloves"
+            "¼ tsp ground cloves"
           ],
           [
             0.25,
             "teaspoon",
             "Cinnamon",
-            "\u00bc tsp cinnamon"
+            "¼ tsp cinnamon"
           ],
           [
             0.25,
             "teaspoon",
             "Allspice",
-            "\u00bc tsp allspice"
+            "¼ tsp allspice"
           ],
           [
             0.25,
             "teaspoon",
             "Cayenne Pepper",
-            "\u00bc tsp cayenne pepper"
+            "¼ tsp cayenne pepper"
           ],
           [
             0.25,
             "teaspoon",
             "Ground Cumin",
-            "\u00bc tsp ground cumin"
+            "¼ tsp ground cumin"
           ],
           [
             0.25,
             "teaspoon",
             "Paprika",
-            "\u00bc tsp paprika"
+            "¼ tsp paprika"
           ],
           [
             0.25,
             "teaspoon",
             "Garlic Powder",
-            "\u00bc tsp garlic powder"
+            "¼ tsp garlic powder"
           ],
           [
             2.0,
@@ -7061,13 +7061,13 @@
             0.5,
             "cup",
             "Cut Celery",
-            "\u00bd cup cut celery"
+            "½ cup cut celery"
           ],
           [
             0.5,
             "cup",
             "Chopped Green Onion",
-            "\u00bd cup chopped green onion"
+            "½ cup chopped green onion"
           ],
           [
             1.0,
@@ -7079,13 +7079,13 @@
             0.5,
             "cup",
             "Peppadew Peppers",
-            "\u00bd cup peppadew peppers"
+            "½ cup peppadew peppers"
           ],
           [
             0.5,
             "teaspoon",
             "Garlic Powder",
-            "\u00bd tsp garlic powder"
+            "½ tsp garlic powder"
           ],
           [
             1.0,
@@ -7186,13 +7186,13 @@
             0.5,
             "cup",
             "Red Wine",
-            "\u00bd cup red wine"
+            "½ cup red wine"
           ],
           [
-            "\u00bd -1",
+            "½ -1",
             "cup",
             "Beef Stock",
-            "\u00bd -1 cup beef stock"
+            "½ -1 cup beef stock"
           ],
           [
             1.0,
@@ -7251,7 +7251,7 @@
             2.5,
             "cup",
             "Milk",
-            "2 \u00bd cups whole milk"
+            "2 ½ cups whole milk"
           ],
           [
             null,
@@ -7280,13 +7280,13 @@
             0.5,
             null,
             "Pint Raspberries",
-            "\u00bd pint raspberries"
+            "½ pint raspberries"
           ],
           [
             0.5,
             "cup",
             "Wine",
-            "\u00bd cup of wine"
+            "½ cup of wine"
           ],
           [
             null,
@@ -7363,7 +7363,7 @@
             0.5,
             "cup",
             "Milk",
-            "\u00bd cup whole milk"
+            "½ cup whole milk"
           ],
           [
             1.0,
@@ -7435,13 +7435,13 @@
             0.5,
             "cup",
             "Brown Sugar",
-            "\u00bd cup brown sugar"
+            "½ cup brown sugar"
           ],
           [
             0.25,
             "cup",
             "Maple Syrup",
-            "\u00bc cup maple syrup"
+            "¼ cup maple syrup"
           ],
           [
             1.0,
@@ -7464,13 +7464,13 @@
             0.25,
             "cup",
             "Water",
-            "\u00bc cup water"
+            "¼ cup water"
           ],
           [
             0.25,
             "cup",
             "Vodka",
-            "\u00bc cup vodka"
+            "¼ cup vodka"
           ],
           [
             11.5,
@@ -7494,7 +7494,7 @@
             2.5,
             null,
             "Semi Frozen Unsalted Butter",
-            "2 \u00bd sticks of semi frozen unsalted butter"
+            "2 ½ sticks of semi frozen unsalted butter"
           ]
         ]
       },
@@ -7505,13 +7505,13 @@
             0.25,
             "cup",
             "Water",
-            "\u00bc cup water"
+            "¼ cup water"
           ],
           [
             0.25,
             "cup",
             "Vodka",
-            "\u00bc cup vodka"
+            "¼ cup vodka"
           ],
           [
             11.5,
@@ -7535,7 +7535,7 @@
             2.5,
             null,
             "Semi Frozen Unsalted Butter",
-            "2 \u00bd sticks of semi frozen unsalted butter"
+            "2 ½ sticks of semi frozen unsalted butter"
           ],
           [
             12.0,
@@ -7570,7 +7570,7 @@
             0.25,
             "cup",
             "Bread Crumbs",
-            "\u00bc cup bread crumbs"
+            "¼ cup bread crumbs"
           ],
           [
             1.0,
@@ -7611,7 +7611,7 @@
             0.5,
             "ounce",
             "Simple Syrup",
-            "\u00bd ounces simple syrup"
+            "½ ounces simple syrup"
           ],
           [
             null,
@@ -7641,13 +7641,13 @@
             2.5,
             "cup",
             "Pastry Flour",
-            "2 \u00bd cups pastry flour"
+            "2 ½ cups pastry flour"
           ],
           [
             0.5,
             "cup",
             "Malt Powder",
-            "\u00bd cup malt powder"
+            "½ cup malt powder"
           ],
           [
             2.0,
@@ -7665,13 +7665,13 @@
             0.5,
             "teaspoon",
             "Baking Soda",
-            "\u00bd tsp baking soda"
+            "½ tsp baking soda"
           ],
           [
             0.5,
             "teaspoon",
             "Salt",
-            "\u00bd tsp salt"
+            "½ tsp salt"
           ],
           [
             1.0,
@@ -7689,13 +7689,13 @@
             2.6666666666666665,
             "cup",
             "Milk",
-            "2 \u2154 cups milk"
+            "2 ⅔ cups milk"
           ],
           [
             0.5,
             "cup",
             "Canola Oil",
-            "\u00bd cup canola oil"
+            "½ cup canola oil"
           ],
           [
             2.0,
@@ -7766,7 +7766,7 @@
             0.5,
             "cup",
             "Heavy Cream",
-            "\u00bd cup heavy cream"
+            "½ cup heavy cream"
           ],
           [
             2.0,
@@ -7808,7 +7808,7 @@
             0.5,
             "cup",
             "Dong Quai",
-            "\u00bd cup dong quai"
+            "½ cup dong quai"
           ],
           [
             4.0,
@@ -7826,13 +7826,13 @@
             0.5,
             "cup",
             "Dried Longan Flesh",
-            "\u00bd cup dried longan flesh"
+            "½ cup dried longan flesh"
           ],
           [
             0.5,
             "cup",
             "Dried Gocce Berries",
-            "\u00bd cup dried gocce berries"
+            "½ cup dried gocce berries"
           ],
           [
             1.0,
@@ -7874,19 +7874,19 @@
             0.25,
             "cup",
             "Parsley",
-            "\u00bc cup parsley"
+            "¼ cup parsley"
           ],
           [
             0.25,
             "cup",
             "Olive Oil",
-            "\u00bc cup olive oil"
+            "¼ cup olive oil"
           ],
           [
             0.25,
             "cup",
             "White Wine Vinegar",
-            "\u00bc cup white wine vinegar"
+            "¼ cup white wine vinegar"
           ],
           [
             null,
@@ -7899,7 +7899,7 @@
     ]
   },
   {
-    "episode_name": "Michael Scott\u2019s Pretzel inspired by The Office",
+    "episode_name": "Michael Scott’s Pretzel inspired by The Office",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/michaelscottpretzel",
     "youtube_link": "https://www.youtube.com/watch?v=NHA9Ffaal2M&t=252s",
     "recipes": [
@@ -7928,7 +7928,7 @@
             3.25,
             "cup",
             "All Purpose Flour",
-            "3 \u00bc cups all purpose flour"
+            "3 ¼ cups all purpose flour"
           ],
           [
             1.0,
@@ -7951,14 +7951,14 @@
           [
             4.0,
             "cup",
-            "Water Combined With \u00bd Cup Baking Soda",
-            "4 cups hot water combined with \u00bd cup baking soda"
+            "Water Combined With ½ Cup Baking Soda",
+            "4 cups hot water combined with ½ cup baking soda"
           ],
           [
             null,
             null,
             "Rock Salt Or Cinnamon Sugar",
-            "Rock salt or cinnamon sugar (\u00bd cup sugar and 2 Tbsp of cinnamon combined)"
+            "Rock salt or cinnamon sugar (½ cup sugar and 2 Tbsp of cinnamon combined)"
           ],
           [
             null,
@@ -7969,13 +7969,13 @@
         ]
       },
       {
-        "method": "Caramel Topping (From \u201cHomer Simpson's Patented Space Age Out-Of-This-World Moon Waffles\u201d)",
+        "method": "Caramel Topping (From “Homer Simpson's Patented Space Age Out-Of-This-World Moon Waffles”)",
         "ingredients": [
           [
             0.5,
             "cup",
             "Water",
-            "\u00bd cup water"
+            "½ cup water"
           ],
           [
             1.0,
@@ -7993,7 +7993,7 @@
             0.5,
             "teaspoon",
             "Vanilla Extract",
-            "\u00bd tsp vanilla extract (optional)"
+            "½ tsp vanilla extract (optional)"
           ]
         ]
       },
@@ -8010,13 +8010,13 @@
             0.5,
             "cup",
             "Cocoa Powder",
-            "\u00bd cup cocoa powder"
+            "½ cup cocoa powder"
           ],
           [
             0.6666666666666666,
             "cup",
             "Chocolate Chips",
-            "\u2154 cup chocolate chips"
+            "⅔ cup chocolate chips"
           ],
           [
             2.0,
@@ -8039,19 +8039,19 @@
             0.5,
             "cup",
             "Heavy Cream",
-            "\u00bd cup heavy cream"
+            "½ cup heavy cream"
           ],
           [
             0.25,
             "cup",
             "Sugar",
-            "\u00bc cup sugar"
+            "¼ cup sugar"
           ],
           [
             0.25,
             "cup",
             "Light Corn Syrup",
-            "\u00bc cup light corn syrup"
+            "¼ cup light corn syrup"
           ],
           [
             2.0,
@@ -8069,7 +8069,7 @@
             0.5,
             "cup",
             "Smooth Peanut Butter",
-            "\u00bd cup smooth peanut butter"
+            "½ cup smooth peanut butter"
           ]
         ]
       },
@@ -8080,7 +8080,7 @@
             1.5,
             "cup",
             "Powdered Sugar",
-            "1 \u00bd cups powdered sugar, sifted to remove lumps"
+            "1 ½ cups powdered sugar, sifted to remove lumps"
           ],
           [
             "3-4",
@@ -8240,7 +8240,7 @@
             0.5,
             "cup",
             "Mayo",
-            "\u00bd cup mayo"
+            "½ cup mayo"
           ],
           [
             "2-3",
@@ -8305,19 +8305,19 @@
             0.5,
             "cup",
             "Horseradish Sauce",
-            "\u00bd cup horseradish sauce"
+            "½ cup horseradish sauce"
           ],
           [
             0.5,
             "cup",
             "Mayo",
-            "\u00bd cup mayo"
+            "½ cup mayo"
           ],
           [
             0.25,
             "cup",
             "Ketchup",
-            "\u00bc cup ketchup"
+            "¼ cup ketchup"
           ],
           [
             null,
@@ -8335,7 +8335,7 @@
             0.5,
             null,
             "Of A Small",
-            "\u00bd of a small, finely chopped onion"
+            "½ of a small, finely chopped onion"
           ]
         ]
       },
@@ -8375,13 +8375,13 @@
             0.5,
             null,
             "Head Iceberg Lettuce",
-            "\u00bd head iceberg lettuce, chopped"
+            "½ head iceberg lettuce, chopped"
           ],
           [
             0.5,
             null,
             "Bunch Watercress",
-            "\u00bd bunch watercress, chopped"
+            "½ bunch watercress, chopped"
           ],
           [
             1.0,
@@ -8457,14 +8457,14 @@
           [
             1.0,
             "teaspoon",
-            "\u201ci Don't Want To Say It\u201d Sauce",
-            "1 tsp of \u201cI don\u2019t want to say it\u201d (Worcestershire) sauce"
+            "“i Don't Want To Say It” Sauce",
+            "1 tsp of “I don’t want to say it” (Worcestershire) sauce"
           ],
           [
             0.5,
             "teaspoon",
             "Ground Mustard",
-            "\u00bd tsp ground mustard"
+            "½ tsp ground mustard"
           ],
           [
             2.0,
@@ -8488,7 +8488,7 @@
             0.75,
             "cup",
             "Canola Oil",
-            "\u00be cup canola oil"
+            "¾ cup canola oil"
           ]
         ]
       },
@@ -8529,7 +8529,7 @@
             0.5,
             "teaspoon",
             "Cardamom",
-            "\u00bd tsp cardamom"
+            "½ tsp cardamom"
           ],
           [
             1.0,
@@ -8576,7 +8576,7 @@
             0.25,
             "cup",
             "Lemon Juice",
-            "\u00bc cup lemon juice"
+            "¼ cup lemon juice"
           ]
         ]
       }
@@ -8629,7 +8629,7 @@
             0.25,
             "pound",
             "Prosciutto",
-            "\u00bc pound prosciutto"
+            "¼ pound prosciutto"
           ],
           [
             3.0,
@@ -8716,7 +8716,7 @@
             0.5,
             "cup",
             "Cornstarch",
-            "\u00bd cup cornstarch"
+            "½ cup cornstarch"
           ],
           [
             2.0,
@@ -8728,7 +8728,7 @@
             0.5,
             "cup",
             "Sugar",
-            "\u00bd cup sugar"
+            "½ cup sugar"
           ],
           [
             2.0,
@@ -8822,7 +8822,7 @@
             0.3333333333333333,
             "cup",
             "Popcorn Kernels",
-            "\u2153 cup popcorn kernels"
+            "⅓ cup popcorn kernels"
           ]
         ]
       }
@@ -8840,25 +8840,25 @@
             0.5,
             "cup",
             "Water",
-            "\u00bd cup water"
+            "½ cup water"
           ],
           [
             0.5,
             "cup",
             "White Vinegar",
-            "\u00bd cup white vinegar"
+            "½ cup white vinegar"
           ],
           [
             0.5,
             "cup",
             "White Sugar",
-            "\u00bd cup white sugar"
+            "½ cup white sugar"
           ],
           [
             0.5,
             "cup",
             "Soy Sauce",
-            "\u00bd cup soy sauce"
+            "½ cup soy sauce"
           ],
           [
             1.0,
@@ -8870,37 +8870,37 @@
             0.5,
             "teaspoon",
             "Sesame Seed Oil",
-            "\u00bd tsp sesame seed oil"
+            "½ tsp sesame seed oil"
           ],
           [
             0.25,
             "teaspoon",
             "Garlic Powder",
-            "\u00bc tsp garlic powder"
+            "¼ tsp garlic powder"
           ],
           [
             0.25,
             "teaspoon",
             "Onion Powder",
-            "\u00bc tsp onion powder"
+            "¼ tsp onion powder"
           ],
           [
             0.25,
             "teaspoon",
             "Ground Ginger",
-            "\u00bc tsp ground ginger"
+            "¼ tsp ground ginger"
           ],
           [
             0.25,
             null,
             "Yeast Extract",
-            "\u00bc yeast extract (marmite)"
+            "¼ yeast extract (marmite)"
           ],
           [
             0.25,
             null,
             "Dextrose",
-            "\u00bc dextrose (corn syrup)"
+            "¼ dextrose (corn syrup)"
           ],
           [
             null,
@@ -8935,19 +8935,19 @@
             0.5,
             "teaspoon",
             "Garlic Powder",
-            "\u00bd tsp garlic powder"
+            "½ tsp garlic powder"
           ],
           [
             0.5,
             "teaspoon",
             "Onion Powder",
-            "\u00bd tsp onion powder"
+            "½ tsp onion powder"
           ],
           [
             0.5,
             "teaspoon",
             "White Pepper",
-            "\u00bd tsp white pepper"
+            "½ tsp white pepper"
           ],
           [
             2.0,
@@ -8982,13 +8982,13 @@
             0.5,
             "cup",
             "Cornstarch",
-            "\u00bd cup cornstarch"
+            "½ cup cornstarch"
           ],
           [
             0.5,
             "cup",
             "Corn Flour",
-            "\u00bd cup corn flour"
+            "½ cup corn flour"
           ],
           [
             1.0,
@@ -9107,7 +9107,7 @@
             1.0,
             null,
             "Bird's Eye Chili",
-            "1 bird\u2019s eye chili, chopped"
+            "1 bird’s eye chili, chopped"
           ],
           [
             3.0,
@@ -9405,7 +9405,7 @@
             3.0,
             "cup",
             "Confectioner's Sugar",
-            "3 cups confectioner\u2019s sugar, divided"
+            "3 cups confectioner’s sugar, divided"
           ],
           [
             12.0,
@@ -10135,13 +10135,13 @@
             4.0,
             "ounce",
             "Baby Bella Mushrooms",
-            "4 ounces baby bella mushrooms, saut\u00e9ed in butter"
+            "4 ounces baby bella mushrooms, sautéed in butter"
           ],
           [
             "12-",
             null,
             "Inch Frozen Meat-lover's Pizza",
-            "12-inch frozen meat-lover\u2019s pizza, baked according to package directions"
+            "12-inch frozen meat-lover’s pizza, baked according to package directions"
           ],
           [
             "1.5-2",
@@ -10237,7 +10237,7 @@
             2.0,
             null,
             "Lemons",
-            "2 Lemons, sliced 1/8\u201d thick, seeded"
+            "2 Lemons, sliced 1/8” thick, seeded"
           ],
           [
             1.0,
@@ -10351,13 +10351,13 @@
             2.0,
             "cup",
             "Pig's Blood",
-            "2 cups pig\u2019s blood"
+            "2 cups pig’s blood"
           ],
           [
             4.0,
             "ounce",
             "Goat's Cheese",
-            "4 ounces goat\u2019s cheese"
+            "4 ounces goat’s cheese"
           ],
           [
             2.0,
@@ -10405,7 +10405,7 @@
             0.5,
             null,
             "Vidalia Onion",
-            "1/2 vidalia onion, diced and saut\u00e9ed"
+            "1/2 vidalia onion, diced and sautéed"
           ],
           [
             2.0,
@@ -10435,13 +10435,13 @@
             0.5,
             "cup",
             "Sliced Mushrooms",
-            "1/2 cup sliced mushrooms, saut\u00e9ed in butter"
+            "1/2 cup sliced mushrooms, sautéed in butter"
           ],
           [
             0.25,
             "cup",
             "Apple",
-            "1/4 cup apple, finely chopped, saut\u00e9ed in butter"
+            "1/4 cup apple, finely chopped, sautéed in butter"
           ],
           [
             16.0,
@@ -10698,8 +10698,8 @@
           [
             1.5,
             "ounce",
-            "Kahl\u00faa",
-            "1 1/2 ounces Kahl\u00faa"
+            "Kahlúa",
+            "1 1/2 ounces Kahlúa"
           ],
           [
             1.0,
@@ -10791,7 +10791,7 @@
             3.0,
             "ounce",
             "Gordon's Gin",
-            "3 ounces Gordon\u2019s gin"
+            "3 ounces Gordon’s gin"
           ],
           [
             1.0,
@@ -10843,7 +10843,7 @@
         ]
       },
       {
-        "method": "Barney Stinson\u2019s Hangover Fixer Elixir",
+        "method": "Barney Stinson’s Hangover Fixer Elixir",
         "ingredients": [
           [
             1.0,
@@ -11406,7 +11406,7 @@
             0.25,
             "cup",
             "Coconut Oil",
-            "\u00bc cup of coconut oil"
+            "¼ cup of coconut oil"
           ],
           [
             1.0,
@@ -11424,25 +11424,25 @@
             0.5,
             "teaspoon",
             "Vanilla Paste",
-            "\u00bd tsp of vanilla paste"
+            "½ tsp of vanilla paste"
           ],
           [
             0.75,
             "cup",
             "All Purpose Flour",
-            "\u00be cup all purpose flour"
+            "¾ cup all purpose flour"
           ],
           [
             0.75,
             "cup",
             "Acorn Flour",
-            "\u00be cup acorn flour"
+            "¾ cup acorn flour"
           ],
           [
             0.25,
             "cup",
             "Brown Sugar",
-            "\u00bc cup brown sugar"
+            "¼ cup brown sugar"
           ],
           [
             3.0,
@@ -11460,7 +11460,7 @@
             0.5,
             "cup",
             "Chocolate Chips",
-            "\u00bd cup of chocolate chips"
+            "½ cup of chocolate chips"
           ],
           [
             1.0,
@@ -11472,7 +11472,7 @@
             0.3333333333333333,
             "cup",
             "Sugar",
-            "\u2153 cup sugar"
+            "⅓ cup sugar"
           ],
           [
             null,
@@ -11906,8 +11906,8 @@
           [
             0.5,
             "cup",
-            "Cr\u00e8me Fra\u00eeche",
-            "1/2 cup cr\u00e8me fra\u00eeche"
+            "Crème Fraîche",
+            "1/2 cup crème fraîche"
           ]
         ]
       }
@@ -11965,7 +11965,7 @@
             0.5,
             null,
             "Of Water",
-            "\u00bd of water"
+            "½ of water"
           ],
           [
             1.0,
@@ -11983,7 +11983,7 @@
             0.5,
             "teaspoon",
             "Vanilla Extract",
-            "\u00bd tsp of vanilla extract (optional)"
+            "½ tsp of vanilla extract (optional)"
           ]
         ]
       },
@@ -11994,7 +11994,7 @@
             1.75,
             "cup",
             "All-purpose Flour",
-            "1 \u00be cups all-purpose flour"
+            "1 ¾ cups all-purpose flour"
           ],
           [
             1.0,
@@ -12024,13 +12024,13 @@
             1.75,
             "cup",
             "Buttermilk",
-            "1 \u00be cups buttermilk"
+            "1 ¾ cups buttermilk"
           ],
           [
             0.25,
             "cup",
             "Browned Butter",
-            "\u00bc cup browned butter (you can also use vegetable oil)"
+            "¼ cup browned butter (you can also use vegetable oil)"
           ],
           [
             null,
@@ -12096,7 +12096,7 @@
             0.25,
             "cup",
             "All Purpose Flour",
-            "\u00bc cup all purpose flour"
+            "¼ cup all purpose flour"
           ],
           [
             3.0,
@@ -12210,37 +12210,37 @@
             0.5,
             "cup",
             "Unsweetened Cocoa Powder",
-            "\u00bd cup unsweetened cocoa powder"
+            "½ cup unsweetened cocoa powder"
           ],
           [
             1.5,
             "teaspoon",
             "Baking Powder",
-            "1 \u00bd tsp baking powder"
+            "1 ½ tsp baking powder"
           ],
           [
             1.5,
             "teaspoon",
             "Kosher Salt",
-            "1 \u00bd tsp kosher salt"
+            "1 ½ tsp kosher salt"
           ],
           [
             0.5,
             "teaspoon",
             "Vanilla Extract",
-            "\u00bd tsp vanilla extract"
+            "½ tsp vanilla extract"
           ],
           [
             0.5,
             "cup",
             "Buttermilk",
-            "\u00bd cup buttermilk"
+            "½ cup buttermilk"
           ],
           [
             0.25,
             "cup",
             "Vegetable Oil",
-            "\u00bc cup vegetable oil"
+            "¼ cup vegetable oil"
           ],
           [
             8.0,
@@ -12252,7 +12252,7 @@
             0.5,
             "cup",
             "Milk",
-            "\u00bd cup whole milk"
+            "½ cup whole milk"
           ]
         ]
       },
@@ -12287,7 +12287,7 @@
             0.5,
             "cup",
             "Corn Flour",
-            "\u00bd cup corn flour"
+            "½ cup corn flour"
           ],
           [
             1.0,
@@ -12388,7 +12388,7 @@
             0.5,
             null,
             "Dozen Shallots",
-            "\u00bd dozen shallots"
+            "½ dozen shallots"
           ],
           [
             3.0,
@@ -12483,7 +12483,7 @@
             0.25,
             "pound",
             "Pork Spare Ribs",
-            "\u00bc pound pork spare ribs"
+            "¼ pound pork spare ribs"
           ],
           [
             2.0,
@@ -12548,7 +12548,7 @@
             0.5,
             "cup",
             "Soy Sauce",
-            "\u00bd cup soy sauce"
+            "½ cup soy sauce"
           ],
           [
             1.0,
@@ -12589,7 +12589,7 @@
             0.5,
             "cup",
             "Dried Anchovies",
-            "\u00bd cup dried anchovies"
+            "½ cup dried anchovies"
           ],
           [
             2.0,
@@ -12607,13 +12607,13 @@
             0.5,
             "cup",
             "Bonito Flakes",
-            "\u00bd cup bonito flakes"
+            "½ cup bonito flakes"
           ],
           [
             0.25,
             "cup",
             "Sake",
-            "\u00bc cup sake"
+            "¼ cup sake"
           ],
           [
             4.0,
@@ -12648,19 +12648,19 @@
             0.5,
             "cup",
             "Water",
-            "\u00bd cup warm water"
+            "½ cup warm water"
           ],
           [
             8.5,
             "ounce",
             "Bread Flour",
-            "8 \u00bd ounces bread flour (about 2 cups)"
+            "8 ½ ounces bread flour (about 2 cups)"
           ],
           [
             1.0,
             "ounce",
             "Vital Wheat Gluten",
-            "1 ounce of vital wheat gluten (about \u00bc cup)"
+            "1 ounce of vital wheat gluten (about ¼ cup)"
           ]
         ]
       },
@@ -12808,7 +12808,7 @@
             null,
             null,
             "Chili Paste",
-            "Chili paste (if you\u2019re looking for heat)"
+            "Chili paste (if you’re looking for heat)"
           ]
         ]
       },
@@ -12819,13 +12819,13 @@
             null,
             null,
             "Mcdonald's Sweet And Sour Sauce",
-            "McDonald\u2019s Sweet and Sour Sauce"
+            "McDonald’s Sweet and Sour Sauce"
           ],
           [
             null,
             null,
             "Mcdonald's Tangy Barbeque Sauce",
-            "McDonald\u2019s Tangy Barbeque Sauce"
+            "McDonald’s Tangy Barbeque Sauce"
           ]
         ]
       }
@@ -13231,13 +13231,13 @@
             0.5,
             "cup",
             "Sour Cream",
-            "\u00bd cup sour cream"
+            "½ cup sour cream"
           ],
           [
             0.25,
             "cup",
             "Dijon Mustard",
-            "\u00bc cup dijon mustard"
+            "¼ cup dijon mustard"
           ],
           [
             null,
@@ -13266,7 +13266,7 @@
             0.5,
             "cup",
             "Mayonaise",
-            "\u00bd cup mayonaise"
+            "½ cup mayonaise"
           ],
           [
             null,
@@ -13307,13 +13307,13 @@
             0.25,
             "cup",
             "Brandy",
-            "\u00bc cup of brandy"
+            "¼ cup of brandy"
           ],
           [
             0.3333333333333333,
             "cup",
             "Heavy Whipping Cream",
-            "\u2153 cup heavy whipping cream"
+            "⅓ cup heavy whipping cream"
           ]
         ]
       },
@@ -13618,19 +13618,19 @@
             1.5,
             "tablespoon",
             "Butter",
-            "1 \u00bd Tbsp butter"
+            "1 ½ Tbsp butter"
           ],
           [
             0.5,
             "cup",
             "Pineapple",
-            "\u00bd cup pineapple"
+            "½ cup pineapple"
           ],
           [
             0.5,
             "cup",
             "Rum",
-            "\u00bd cup rum"
+            "½ cup rum"
           ]
         ]
       },
@@ -13653,7 +13653,7 @@
             0.5,
             "cup",
             "Pineapple Juice",
-            "\u00bd cup pineapple juice"
+            "½ cup pineapple juice"
           ]
         ]
       },
@@ -13682,19 +13682,19 @@
             0.5,
             "teaspoon",
             "Allspice",
-            "\u00bd teaspoon allspice"
+            "½ teaspoon allspice"
           ],
           [
             0.5,
             "teaspoon",
             "Cinnamon",
-            "\u00bd teaspoon cinnamon"
+            "½ teaspoon cinnamon"
           ],
           [
             0.5,
             "teaspoon",
             "Nutmeg",
-            "\u00bd teaspoon nutmeg"
+            "½ teaspoon nutmeg"
           ],
           [
             3.0,
@@ -13746,13 +13746,13 @@
             0.5,
             "pound",
             "Bacon",
-            "\u00bd pound bacon"
+            "½ pound bacon"
           ],
           [
             0.25,
             "cup",
             "Water",
-            "\u00bc cup water"
+            "¼ cup water"
           ],
           [
             2.0,
@@ -13817,7 +13817,7 @@
             0.25,
             "pound",
             "Bacon",
-            "\u00bc pound of bacon"
+            "¼ pound of bacon"
           ],
           [
             "1-2",
@@ -13859,7 +13859,7 @@
             1.5,
             "cup",
             "Bread Flour",
-            "1 \u00bd cups bread flour"
+            "1 ½ cups bread flour"
           ],
           [
             4.0,
@@ -13877,19 +13877,19 @@
             0.25,
             "teaspoon",
             "Salt",
-            "\u00bc tsp salt"
+            "¼ tsp salt"
           ],
           [
             0.5,
             "tablespoon",
             "Lemon Juice",
-            "\u00bd Tbsp of lemon juice"
+            "½ Tbsp of lemon juice"
           ],
           [
             0.25,
             "cup",
             "Water",
-            "\u00bc cup of warm water (approximately 110\u00b0F)"
+            "¼ cup of warm water (approximately 110°F)"
           ],
           [
             4.0,
@@ -13901,7 +13901,7 @@
             0.5,
             "cup",
             "Sugar",
-            "\u00bd cup sugar"
+            "½ cup sugar"
           ],
           [
             1.0,
@@ -13913,7 +13913,7 @@
             0.5,
             "cup",
             "Raisins",
-            "\u00bd cup raisins"
+            "½ cup raisins"
           ],
           [
             null,
@@ -13937,7 +13937,7 @@
             0.5,
             "cup",
             "Finely Chopped Hazelnuts And Walnuts",
-            "\u00bd cup finely chopped hazelnuts and walnuts"
+            "½ cup finely chopped hazelnuts and walnuts"
           ],
           [
             1.0,
@@ -14037,8 +14037,8 @@
           [
             2.0,
             null,
-            "Jalape\u00f1os",
-            "2 jalape\u00f1os, seeded and chopped"
+            "Jalapeños",
+            "2 jalapeños, seeded and chopped"
           ],
           [
             1.0,
@@ -14139,19 +14139,19 @@
             0.5,
             null,
             "An Onion",
-            "\u00bd an onion, diced"
+            "½ an onion, diced"
           ],
           [
             0.25,
             "cup",
             "Fresh Minced Cilantro",
-            "\u00bc cup fresh minced cilantro"
+            "¼ cup fresh minced cilantro"
           ],
           [
             0.5,
             null,
             "Jalapeno",
-            "\u00bd jalapeno, diced (take out seeds if you don\u2019t want it to be too spicy)"
+            "½ jalapeno, diced (take out seeds if you don’t want it to be too spicy)"
           ],
           [
             null,
@@ -14180,19 +14180,19 @@
             0.5,
             null,
             "An Onion",
-            "\u00bd an onion, diced"
+            "½ an onion, diced"
           ],
           [
             0.25,
             "cup",
             "Cilantro",
-            "\u00bc cup cilantro, minced"
+            "¼ cup cilantro, minced"
           ],
           [
             0.5,
             null,
             "A Jalapeno",
-            "\u00bd a jalapeno, minced"
+            "½ a jalapeno, minced"
           ],
           [
             null,
@@ -14221,13 +14221,13 @@
             0.5,
             null,
             "Jalapeno",
-            "\u00bd jalapeno, seeded (can also be unseeded for less heat)"
+            "½ jalapeno, seeded (can also be unseeded for less heat)"
           ],
           [
             0.25,
             null,
             "Spanish Onion",
-            "\u00bc Spanish onion, chopped"
+            "¼ Spanish onion, chopped"
           ],
           [
             null,
@@ -14256,7 +14256,7 @@
             8.5,
             "ounce",
             "All Purpose Flour",
-            "8 \u00bd ounces all purpose flour (about 1 \u00be cup)"
+            "8 ½ ounces all purpose flour (about 1 ¾ cup)"
           ],
           [
             1.0,
@@ -14280,7 +14280,7 @@
             0.75,
             "cup",
             "Water",
-            "\u00be cup warm water (110\u00b0)"
+            "¾ cup warm water (110°)"
           ]
         ]
       },
@@ -14393,7 +14393,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=PsuoXi2D6tM",
     "recipes": [
       {
-        "method": "For Buddy\u2019s Pasta",
+        "method": "For Buddy’s Pasta",
         "ingredients": [
           [
             null,
@@ -14452,7 +14452,7 @@
         ]
       },
       {
-        "method": "For Babish\u2019s Pasta",
+        "method": "For Babish’s Pasta",
         "ingredients": [
           [
             null,
@@ -14524,7 +14524,7 @@
             0.5,
             "cup",
             "Milk",
-            "\u00bd cup milk"
+            "½ cup milk"
           ],
           [
             null,
@@ -14575,8 +14575,8 @@
           [
             null,
             null,
-            "Sliced Ib\u00e9rico Ham",
-            "Sliced Ib\u00e9rico ham"
+            "Sliced Ibérico Ham",
+            "Sliced Ibérico ham"
           ],
           [
             null,
@@ -14624,37 +14624,37 @@
             0.5,
             "teaspoon",
             "Instant Yeast",
-            "\u00bd tsp instant yeast"
+            "½ tsp instant yeast"
           ],
           [
             5.0,
             "ounce",
             "Wheat Flour",
-            "5 ounces whole wheat flour (approximately 1 \u00bc cup)"
+            "5 ounces whole wheat flour (approximately 1 ¼ cup)"
           ],
           [
             5.0,
             "ounce",
             "Bread Flour",
-            "5 ounces bread flour (approximately 1 \u00bc cup)"
+            "5 ounces bread flour (approximately 1 ¼ cup)"
           ],
           [
             19.25,
             "ounce",
             "Bread Flour",
-            "19 \u00bc ounces bread flour (approximately 4 \u00be cup)"
+            "19 ¼ ounces bread flour (approximately 4 ¾ cup)"
           ],
           [
             1.3333333333333333,
             "cup",
             "Room Temperature Water",
-            "1 \u2153 cup room temperature water"
+            "1 ⅓ cup room temperature water"
           ],
           [
             2.5,
             "ounce",
             "Rye Flour",
-            "2 \u00bd ounces rye flour (approximately \u2154 cup)"
+            "2 ½ ounces rye flour (approximately ⅔ cup)"
           ],
           [
             2.0,
@@ -15099,7 +15099,7 @@
             12.5,
             "ounce",
             "All Purpose Flour",
-            "12\u00bd ounces all purpose flour"
+            "12½ ounces all purpose flour"
           ],
           [
             2.0,
@@ -15134,37 +15134,37 @@
             2.5,
             "pound",
             "Apples",
-            "2\u00bd pounds apples"
+            "2½ pounds apples"
           ],
           [
             0.75,
             "cup",
             "Sugar",
-            "\u00be cup sugar"
+            "¾ cup sugar"
           ],
           [
             0.25,
             "teaspoon",
             "Cinnamon",
-            "\u00bc tsp cinnamon"
+            "¼ tsp cinnamon"
           ],
           [
             0.25,
             "teaspoon",
             "Allspice",
-            "\u00bc tsp allspice"
+            "¼ tsp allspice"
           ],
           [
             0.25,
             "teaspoon",
             "Nutmeg",
-            "\u00bc tsp nutmeg"
+            "¼ tsp nutmeg"
           ],
           [
             0.25,
             "teaspoon",
             "Ginger",
-            "\u00bc tsp ginger"
+            "¼ tsp ginger"
           ],
           [
             2.0,
@@ -15253,8 +15253,8 @@
           [
             1.0,
             "tablespoon",
-            "Plus \u00bd Tsp Sugar",
-            "1 Tbsp plus \u00bd tsp sugar, divided"
+            "Plus ½ Tsp Sugar",
+            "1 Tbsp plus ½ tsp sugar, divided"
           ],
           [
             3.0,
@@ -15266,13 +15266,13 @@
             0.5,
             "teaspoon",
             "Instant Yeast",
-            "\u00bd tsp instant yeast"
+            "½ tsp instant yeast"
           ],
           [
             1.25,
             "cup",
             "Ice Water",
-            "1\u00bc cups ice water, plus more as necessary"
+            "1¼ cups ice water, plus more as necessary"
           ],
           [
             1.0,
@@ -15302,19 +15302,19 @@
             0.5,
             "teaspoon",
             "Red Pepper Flakes",
-            "\u00bd tsp red pepper flakes"
+            "½ tsp red pepper flakes"
           ],
           [
             0.5,
             "teaspoon",
             "Dried Basil",
-            "\u00bd tsp dried basil"
+            "½ tsp dried basil"
           ],
           [
             0.25,
             "cup",
             "Semolina Flour",
-            "\u00bc cup semolina flour"
+            "¼ cup semolina flour"
           ],
           [
             8.0,
@@ -15530,7 +15530,7 @@
             1.25,
             "cup",
             "Milk",
-            "1 \u00bc cups milk"
+            "1 ¼ cups milk"
           ],
           [
             null,
@@ -15572,7 +15572,7 @@
             0.5,
             "cup",
             "Shredded Gruyere Cheese",
-            "\u00bd cup shredded gruyere cheese"
+            "½ cup shredded gruyere cheese"
           ],
           [
             2.0,
@@ -15602,7 +15602,7 @@
             null,
             null,
             "Nonfat Greek Yogurt",
-            "Approximately \u00bd cup of nonfat greek yogurt"
+            "Approximately ½ cup of nonfat greek yogurt"
           ],
           [
             null,
@@ -15810,7 +15810,7 @@
             1.0,
             "pound",
             "Genoa Salami",
-            "1 pound genoa salami, sliced into 1/2\u201d rounds"
+            "1 pound genoa salami, sliced into 1/2” rounds"
           ],
           [
             0.5,
@@ -15900,13 +15900,13 @@
             0.3333333333333333,
             "cup",
             "Apple Cider Vinegar",
-            "\u2153 cup apple cider vinegar"
+            "⅓ cup apple cider vinegar"
           ],
           [
             0.3333333333333333,
             "cup",
             "Golden Raisins",
-            "\u2153 cup golden raisins"
+            "⅓ cup golden raisins"
           ],
           [
             null,
@@ -15930,7 +15930,7 @@
             0.25,
             "cup",
             "Black Truffle Oil",
-            "\u00bc cup black truffle oil"
+            "¼ cup black truffle oil"
           ],
           [
             1.0,
@@ -15966,7 +15966,7 @@
             0.25,
             "teaspoon",
             "Marmite",
-            "\u00bc tsp marmite"
+            "¼ tsp marmite"
           ],
           [
             1.0,
