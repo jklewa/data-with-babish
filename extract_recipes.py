@@ -225,10 +225,13 @@ class BabishSync:
 
             youtube_link = json.loads(soup.find('div', class_='video-block')['data-block-json'])['url']
 
+            published = soup.find('time', class_='published')['datetime']
+
             ep = {
                 'episode_name': episode_name,
                 'episode_link': 'https://www.bingingwithbabish.com' + link,
                 'youtube_link': youtube_link,
+                'published': published,
                 'recipes': []
             }
 
