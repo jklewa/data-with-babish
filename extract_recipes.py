@@ -82,9 +82,11 @@ class Recipe:
     @classmethod
     def normalize_qty(cls, qty):
         if qty is not None:
-            qty = qty.strip()  # whitespace
+            qty = qty.strip()
 
-            if len(qty) == 1:
+            if len(qty) == 0:
+                qty = None
+            elif len(qty) == 1:
                 qty = numeric(qty)
             else:
                 try:
@@ -114,7 +116,8 @@ class Recipe:
     @classmethod
     def normalize_name(cls, name):
         return capwords(name) \
-               .strip(' \t\n\r,.') \
+               .strip(',.') \
+               .strip() \
                .replace('Whole ', '').replace('Half ', '') \
                .replace('Hot ', '').replace('Warm ', '').replace('Cold ', '') \
                .strip()
@@ -232,25 +235,46 @@ class BabishSync:
             recipe_locations = soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5'], string=re.compile('Ingredients'))
 
             for loc in recipe_locations:
-                method = loc.find_next(['h1', 'h2', 'h3', 'h4', 'h5'])
-                if method:
-                    method = method.string.strip()
-                else:
-                    method = 'Default - {}'.format(episode_name)
+                ingredient_lists = loc.parent.find_all(['ul'])
 
-                ingredients = list(loc.find_next_sibling(['ul', 'ol']).children)
+                for iloc in ingredient_lists:
+                    # Get method name, usually right before the list itself
+                    method_name = iloc.previous_sibling.get_text().strip('\u00a0:,').strip()
 
-                if len(ingredients) > 0:
-                    ingredients = list(map(Recipe.parse_ingredient, seq(ingredients)))
-                else:
-                    print("WARN: Could not location ingredients for {0} (Episode {1})".format(method, episode_name))
+                    if method_name == '' or 'Ingredients' in method_name:
+                        # Look for the method name above the recipe instead
+                        h = iloc.parent.find_next(['h1', 'h2'])
+                        if h:
+                            method_name = h.get_text().strip()
+                            method_name = re.sub('^(Method)', '', method_name).strip('\u00a0:,').strip()
+                        else:
+                            # No luck, fall back to default
+                            method_name = ''
 
-                recipe = {
-                    'method': method,
-                    'ingredients': ingredients,
-                }
+                    # Default to the episode name
+                    if method_name == '':
+                        method_name = episode_name
 
-                ep['recipes'].append(recipe)
+                    # Convert the ul to parsed Ingredients
+                    try:
+                        ingredients = [Recipe.parse_ingredient(i.get_text()) for i in iloc.children]
+                    except Exception:
+                        print("ERROR: Failed to parse ingredients from ep: {0} method: {1} raw_list: {2}".format(
+                            episode_name,
+                            method_name,
+                            list(iloc.children)
+                        ))
+                        raise
+
+                    if len(ingredients) == 0:
+                        print("WARN: Could not find ingredients for {0} (Episode {1})".format(method_name, episode_name))
+
+                    recipe = {
+                        'method': method_name,
+                        'ingredients': ingredients,
+                    }
+
+                    ep['recipes'].append(recipe)
 
             episodes.append(ep)
 

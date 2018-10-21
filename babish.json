@@ -1,11 +1,195 @@
 [
   {
+    "episode_name": "King of the Hill Special",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/kingofthehillspecial",
+    "youtube_link": "https://www.youtube.com/watch?v=iq6_iUhLHo4",
+    "recipes": [
+      {
+        "method": "Frito Chili Pie",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Cans Chili",
+            "2 cans chili"
+          ],
+          [
+            1.0,
+            null,
+            "Fritos",
+            "1 bag of Fritos"
+          ],
+          [
+            null,
+            null,
+            "Shredded Cheese",
+            "Shredded cheese"
+          ]
+        ]
+      },
+      {
+        "method": "Spa-Peggy and Meatballs",
+        "ingredients": [
+          [
+            1.0,
+            "pound",
+            "Ground Beef",
+            "1 pound ground beef"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            0.5,
+            "cup",
+            "Bread Crumbs",
+            "\u00bd cup bread crumbs"
+          ],
+          [
+            null,
+            null,
+            "Milk",
+            "Splash of milk"
+          ],
+          [
+            null,
+            null,
+            "Garlic Powder",
+            "Garlic powder"
+          ],
+          [
+            null,
+            null,
+            "Onion Powder",
+            "Onion powder"
+          ],
+          [
+            null,
+            null,
+            "Oregano",
+            "Oregano"
+          ],
+          [
+            null,
+            null,
+            "Dried Basil",
+            "Dried basil"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            null,
+            null,
+            "Parmesan Cheese",
+            "Parmesan cheese"
+          ],
+          [
+            null,
+            null,
+            "Spaghetti",
+            "Spaghetti"
+          ],
+          [
+            1.0,
+            null,
+            "Onion",
+            "1 onion"
+          ],
+          [
+            1.0,
+            null,
+            "Clove Garlic",
+            "1 clove garlic"
+          ],
+          [
+            1.0,
+            null,
+            "Can Crushed Tomatoes",
+            "1 can crushed tomatoes"
+          ],
+          [
+            null,
+            null,
+            "Sugar",
+            "Pinch of sugar"
+          ]
+        ]
+      },
+      {
+        "method": "Apple Brown Betty",
+        "ingredients": [
+          [
+            0.5,
+            "pound",
+            "Brown Sugar",
+            "\u00bd pound brown sugar"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Ground Cinnamon",
+            "1 tsp ground cinnamon"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Ground Ginger",
+            "\u00bd tsp ground ginger"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Ground Allspice",
+            "\u00bc tsp ground allspice"
+          ],
+          [
+            0.125,
+            "teaspoon",
+            "Ground Cloves",
+            "\u215b tsp ground cloves"
+          ],
+          [
+            10.0,
+            null,
+            "Granny Smith Apples",
+            "10 granny smith apples, cored and sliced"
+          ],
+          [
+            null,
+            null,
+            "Breadcrumbs",
+            "Breadcrumbs"
+          ],
+          [
+            1.0,
+            null,
+            "Butter",
+            "1 stick of butter"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Backpack Recipes inspired by Marvel's Spider-Man",
     "episode_link": "https://www.bingingwithbabish.com/recipes/spidermanbackpackrecipes",
     "youtube_link": "https://www.youtube.com/watch?v=NlIiIv-XKhs",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Aunt May\u2019s Wheatcakes",
         "ingredients": [
           [
             1.0,
@@ -80,6 +264,117 @@
             "Maple syrup"
           ]
         ]
+      },
+      {
+        "method": "Dipping Sauce",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Soy Sauce",
+            "\u00bd cup soy sauce"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Seasoned Rice Vinegar",
+            "1 Tbsp seasoned rice vinegar"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Chinese Chives",
+            "2 Tbsp Chinese chives (or regular chives if you can\u2019t find them)"
+          ],
+          [
+            null,
+            null,
+            "Fresh Garlic",
+            "Fresh garlic, minced"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Sesame Seeds",
+            "1 Tbsp sesame seeds"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Garlic Chili Sauce",
+            "1 Tbsp garlic chili sauce"
+          ]
+        ]
+      },
+      {
+        "method": "Dumplings",
+        "ingredients": [
+          [
+            1.0,
+            "pound",
+            "Ground Pork",
+            "1 pound of ground pork"
+          ]
+        ]
+      },
+      {
+        "method": "1 pound of ground pork",
+        "ingredients": [
+          [
+            3.0,
+            "large",
+            "Cloves Garlic",
+            "3 large cloves garlic, minced"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg, beaten"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Chinese Chives",
+            "2 Tbsp Chinese chives, finely minced"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Soy Sauce",
+            "2 Tbsp soy sauce"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Sesame Oil",
+            "2 Tbsp sesame oil"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Fresh Ginger",
+            "1 Tbsp fresh ginger, minced"
+          ],
+          [
+            null,
+            null,
+            "Dumpling Wrappers",
+            "Dumpling wrappers"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            0.5,
+            "cup",
+            "Water",
+            "\u00bd cup water"
+          ]
+        ]
       }
     ]
   },
@@ -89,7 +384,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=hf5cl-AGYbg",
     "recipes": [
       {
-        "method": "Method",
+        "method": "The Naco inspired by Kim Possible",
         "ingredients": [
           [
             2.0,
@@ -209,7 +504,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=6nuEgc2RVWo&t=336s",
     "recipes": [
       {
-        "method": "Method: Binging With Babish\u2019s Direwolf Bread",
+        "method": "Binging With Babish\u2019s Direwolf Bread",
         "ingredients": [
           [
             0.5,
@@ -299,7 +594,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=wcJS3nQjhqM",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Banana Pudding Pizza",
         "ingredients": [
           [
             3.0,
@@ -350,6 +645,82 @@
             "Pepperoni"
           ]
         ]
+      },
+      {
+        "method": "Swedish Pizza",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Bananas",
+            "Bananas"
+          ],
+          [
+            null,
+            null,
+            "Peanuts",
+            "Peanuts"
+          ],
+          [
+            null,
+            null,
+            "Ham",
+            "Ham"
+          ],
+          [
+            null,
+            null,
+            "Curry Powder",
+            "Curry powder"
+          ]
+        ]
+      },
+      {
+        "method": "Plantain Pizza",
+        "ingredients": [
+          [
+            0.25,
+            "teaspoon",
+            "Baking Soda",
+            "\u00bc tsp baking soda"
+          ],
+          [
+            null,
+            null,
+            "Italian Seasoning",
+            "Italian seasoning"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Olive Oil",
+            "2 Tbsp olive oil"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Plantains",
+            "Plantains"
+          ],
+          [
+            null,
+            null,
+            "Mozzarella",
+            "Mozzarella"
+          ],
+          [
+            null,
+            null,
+            "Parmesan Cheese",
+            "Parmesan cheese, grated"
+          ]
+        ]
       }
     ]
   },
@@ -359,7 +730,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=SjeS6gtPq8E",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Prismo\u2019s Artisanal Pickles",
         "ingredients": [
           [
             4.0,
@@ -446,6 +817,190 @@
             "Red pepper flakes"
           ]
         ]
+      },
+      {
+        "method": "Prismo\u2019s Sentient Sandwich",
+        "ingredients": [
+          [
+            1.0,
+            "small",
+            "Onion",
+            "1 small onion, diced"
+          ],
+          [
+            5.0,
+            null,
+            "Cloves Garlic",
+            "5 cloves garlic, diced"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "Olive oil"
+          ],
+          [
+            28.0,
+            "ounce",
+            "Can Crushed Tomatoes",
+            "28 ounce can crushed tomatoes"
+          ],
+          [
+            0.25,
+            "cup",
+            "Brown Sugar",
+            "\u00bc cup brown sugar"
+          ],
+          [
+            "1-2",
+            "tablespoon",
+            "Molasses",
+            "1-2 Tbsp molasses"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Apple Cider Vinegar",
+            "\u2153 cup apple cider vinegar"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Worcestershire Sauce",
+            "1 Tbsp Worcestershire sauce"
+          ],
+          [
+            null,
+            null,
+            "Allspice",
+            "Allspice"
+          ],
+          [
+            null,
+            null,
+            "Cinnamon",
+            "Cinnamon"
+          ],
+          [
+            null,
+            null,
+            "Chili Powder",
+            "Chili powder"
+          ],
+          [
+            null,
+            null,
+            "Ground Ginger",
+            "Ground ginger"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            null,
+            null,
+            "Fresh Ground Pepper",
+            "Fresh ground pepper"
+          ],
+          [
+            null,
+            null,
+            "Cheddar Cheese",
+            "Cheddar cheese"
+          ],
+          [
+            1.0,
+            null,
+            "Sprig Parsley",
+            "1 sprig parsley"
+          ],
+          [
+            2.0,
+            null,
+            "Slices White Bread",
+            "2 slices white bread"
+          ],
+          [
+            null,
+            null,
+            "Bacon",
+            "Bacon (optional)"
+          ]
+        ]
+      },
+      {
+        "method": "Bacon Pancakes",
+        "ingredients": [
+          [
+            285.0,
+            "gram",
+            "All Purpose Flour",
+            "285g all purpose flour"
+          ],
+          [
+            35.0,
+            "gram",
+            "Sugar",
+            "35g sugar"
+          ],
+          [
+            1.5,
+            "teaspoon",
+            "Baking Powder",
+            "1 \u00bd tsp baking powder"
+          ],
+          [
+            1.5,
+            "teaspoon",
+            "Baking Soda",
+            "1 \u00bd tsp baking soda"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Kosher salt"
+          ],
+          [
+            2.5,
+            "cup",
+            "Buttermilk",
+            "2 \u00bd cups buttermilk"
+          ],
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Melted Butter",
+            "3 Tbsp melted butter"
+          ],
+          [
+            null,
+            null,
+            "Bacon",
+            "Bacon"
+          ],
+          [
+            null,
+            null,
+            "Maple Syrup",
+            "Maple Syrup"
+          ]
+        ]
       }
     ]
   },
@@ -455,7 +1010,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=yiElOt9cI8k",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Raspberry Jam",
         "ingredients": [
           [
             2.0,
@@ -470,6 +1025,152 @@
             "2 cups sugar"
           ]
         ]
+      },
+      {
+        "method": "Cultured Butter",
+        "ingredients": [
+          [
+            3.5,
+            "cup",
+            "Heavy Cream",
+            "3 \u00bd cups heavy cream"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Yogurt",
+            "2 Tbsp yogurt"
+          ],
+          [
+            null,
+            null,
+            "Ice Water",
+            "Ice water"
+          ],
+          [
+            null,
+            null,
+            "Sea Salt Or Table Salt",
+            "Sea salt or table salt"
+          ]
+        ]
+      },
+      {
+        "method": "Scones",
+        "ingredients": [
+          [
+            10.0,
+            "ounce",
+            "Flour",
+            "10 ounces flour"
+          ],
+          [
+            4.0,
+            "teaspoon",
+            "Baking Powder",
+            "4 tsp baking powder"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Kosher Salt",
+            "2 tsp kosher salt"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Sugar",
+            "\u2153 cup sugar"
+          ],
+          [
+            6.0,
+            "tablespoon",
+            "Cultured Butter",
+            "6 Tbsp (3 ounces) cultured butter"
+          ],
+          [
+            0.6666666666666666,
+            "cup",
+            "Buttermilk",
+            "\u2154 cup buttermilk"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ]
+        ]
+      },
+      {
+        "method": "Welsh Rarebit",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Butter And Flour",
+            "Butter and flour (basic roux)"
+          ],
+          [
+            null,
+            null,
+            "English Cheddar",
+            "English cheddar"
+          ],
+          [
+            null,
+            null,
+            "Stout Beer",
+            "Stout beer"
+          ],
+          [
+            null,
+            null,
+            "Worcestershire Sauce",
+            "Worcestershire sauce"
+          ],
+          [
+            null,
+            null,
+            "English Mustard Powder",
+            "English mustard powder"
+          ]
+        ]
+      },
+      {
+        "method": "For Serving",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Sliced Bread",
+            "Sliced bread"
+          ],
+          [
+            null,
+            null,
+            "Sausage Links",
+            "Sausage links"
+          ],
+          [
+            null,
+            null,
+            "Bacon",
+            "Slices of bacon"
+          ],
+          [
+            null,
+            null,
+            "Poached Eggs",
+            "Poached eggs"
+          ],
+          [
+            null,
+            null,
+            "Lapsang Tea",
+            "Lapsang tea"
+          ]
+        ]
       }
     ]
   },
@@ -479,7 +1180,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=DdFKKZe73Pk",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Sausage",
         "ingredients": [
           [
             4.0,
@@ -566,6 +1267,41 @@
             "Sausage casings"
           ]
         ]
+      },
+      {
+        "method": "Johnny Cakes",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Cornmeal",
+            "1 cup cornmeal"
+          ],
+          [
+            1.0,
+            "cup",
+            "Water",
+            "1 cup water, boiling"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Milk",
+            "\u2153 cup milk, room temperature"
+          ],
+          [
+            null,
+            null,
+            "Bacon Fat",
+            "Bacon fat"
+          ],
+          [
+            null,
+            null,
+            "Maple Syrup And Butter",
+            "Maple syrup and butter, for serving"
+          ]
+        ]
       }
     ]
   },
@@ -575,7 +1311,7 @@
     "youtube_link": "https://youtu.be/ImoP-Apzrsg?t=11m22s",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Mole Sauce",
         "ingredients": [
           [
             null,
@@ -722,6 +1458,57 @@
             "Tomatillos (optional)"
           ]
         ]
+      },
+      {
+        "method": "Cheddar Crisps",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Shredded Mild Cheddar Cheese",
+            "Shredded mild cheddar cheese"
+          ]
+        ]
+      },
+      {
+        "method": "Goat Cheese Cream",
+        "ingredients": [
+          [
+            5.0,
+            "ounce",
+            "Goat Cheese",
+            "5 ounces goat cheese"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Honey",
+            "1 Tbsp honey"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Heavy Cream",
+            "2 Tbsp heavy cream"
+          ]
+        ]
+      },
+      {
+        "method": "Sandwich Stuff",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "White Bread",
+            "2 slices of white bread"
+          ],
+          [
+            null,
+            null,
+            "Chorizo",
+            "Chorizo"
+          ]
+        ]
       }
     ]
   },
@@ -731,7 +1518,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=ImoP-Apzrsg",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Chili",
         "ingredients": [
           [
             1.0,
@@ -812,6 +1599,105 @@
             "1 tsp oregano"
           ]
         ]
+      },
+      {
+        "method": "Omelette",
+        "ingredients": [
+          [
+            12.0,
+            null,
+            "Eggs",
+            "12 eggs"
+          ],
+          [
+            1.0,
+            null,
+            "Red Pepper",
+            "1 red pepper"
+          ],
+          [
+            1.0,
+            null,
+            "Green Pepper",
+            "1 green pepper"
+          ],
+          [
+            16.0,
+            "ounce",
+            "Mushrooms",
+            "16 ounces mushrooms"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ]
+        ]
+      },
+      {
+        "method": "Fruit",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Watermelon",
+            "1 watermelon"
+          ],
+          [
+            1.0,
+            null,
+            "Cantaloupe",
+            "1 cantaloupe"
+          ],
+          [
+            1.0,
+            null,
+            "Honeydew Melon",
+            "1 honeydew melon"
+          ]
+        ]
+      },
+      {
+        "method": "Biscuits",
+        "ingredients": [
+          [
+            675.0,
+            "gram",
+            "Flour",
+            "675g flour"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Baking Powder",
+            "2 Tbsp baking powder"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Baking Soda",
+            "1 Tbsp baking soda"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Table Salt",
+            "1 tsp table salt (or 2 tsp kosher salt)"
+          ],
+          [
+            1.0,
+            null,
+            "Stick Butter",
+            "1 stick butter (8 Tbsp)"
+          ],
+          [
+            2.0,
+            "cup",
+            "Buttermilk",
+            "2 cups buttermilk"
+          ]
+        ]
       }
     ]
   },
@@ -821,7 +1707,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=x5-QoCicNfI",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Spinach Puffs inspired by The Emperor's New Groove",
         "ingredients": [
           [
             "2-3",
@@ -911,7 +1797,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=DnuHzHHwqAw&t=142s",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Beignets inspired by Chef (and Princess and the Frog)",
         "ingredients": [
           [
             1.5,
@@ -983,7 +1869,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=tmUximhgYnI",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Teamster Sandwich inspired by 30 Rock",
         "ingredients": [
           [
             1.0,
@@ -1085,7 +1971,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=KKBkY-7TCw0",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Fried Green Tomatoes inspired by...Fried Green Tomatoes",
         "ingredients": [
           [
             4.0,
@@ -1229,7 +2115,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=DNg7Obo-DDM",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Okonomiyaki Sauce",
         "ingredients": [
           [
             1.0,
@@ -1256,6 +2142,112 @@
             "3 \u00bd Tbsp worcestershire sauce"
           ]
         ]
+      },
+      {
+        "method": "Japanese Mayo",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Mayo",
+            "1 cup mayo"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Sugar",
+            "1 Tbsp sugar"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Rice Wine Vinegar",
+            "1 Tbsp rice wine vinegar"
+          ]
+        ]
+      },
+      {
+        "method": "Okonomiyaki",
+        "ingredients": [
+          [
+            0.25,
+            "cup",
+            "Pickled Red Ginger",
+            "\u00bc cup pickled red ginger"
+          ],
+          [
+            "3-4",
+            null,
+            "Scallions",
+            "3-4 scallions, chopped"
+          ],
+          [
+            0.5,
+            null,
+            "Cabbage",
+            "\u00bd head of cabbage, shredded"
+          ],
+          [
+            1.0,
+            "cup",
+            "Cake Flour",
+            "1 cup cake flour"
+          ],
+          [
+            1.5,
+            "teaspoon",
+            "Baking Powder",
+            "1 \u00bd tsp baking powder"
+          ],
+          [
+            1.0,
+            "cup",
+            "Dashi Broth",
+            "1 cup dashi broth"
+          ],
+          [
+            1.0,
+            null,
+            "Japanese Mountain Yam",
+            "1 Japanese mountain yam, grated (if you can\u2019t find this, you can use \u00bd cup of milk combined with 1 tsp baking powder)"
+          ],
+          [
+            4.0,
+            "large",
+            "Eggs",
+            "4 large eggs"
+          ],
+          [
+            0.5,
+            "cup",
+            "Tenkasu",
+            "\u00bd cup tenkasu (fried tempura scraps)"
+          ],
+          [
+            null,
+            null,
+            "Pork Belly",
+            "Slices of pork belly (or bacon)"
+          ],
+          [
+            null,
+            null,
+            "Dried Bonito Flakes",
+            "Dried bonito flakes (for garnish)"
+          ],
+          [
+            null,
+            null,
+            "Aonori",
+            "Aonori (dried green seaweed, for garnish)"
+          ],
+          [
+            null,
+            null,
+            "Any Toppings/fillings You Desire",
+            "Any toppings/fillings you desire"
+          ]
+        ]
       }
     ]
   },
@@ -1265,7 +2257,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=4Rz8BPRFeiA",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Car Panini inspired by Family Guy",
         "ingredients": [
           [
             null,
@@ -1313,7 +2305,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=6HBPHRDEt_Q",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Shrimp inspired by Forrest Gump | Part 1",
         "ingredients": [
           [
             1.0,
@@ -1340,6 +2332,278 @@
             "Pepper"
           ]
         ]
+      },
+      {
+        "method": "Shrimp inspired by Forrest Gump | Part 1",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Prepared Shrimp",
+            "Prepared shrimp"
+          ],
+          [
+            null,
+            null,
+            "Baking Powder",
+            "Baking powder"
+          ],
+          [
+            null,
+            null,
+            "Salt Pepper",
+            "Salt Pepper"
+          ],
+          [
+            null,
+            null,
+            "Compound Butter",
+            "Compound butter (butter mixed with parsley and garlic)"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ]
+        ]
+      },
+      {
+        "method": "Shrimp inspired by Forrest Gump | Part 1",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Shrimp",
+            "Shrimp"
+          ],
+          [
+            null,
+            null,
+            "Unsweetened Coconut",
+            "Unsweetened coconut"
+          ],
+          [
+            null,
+            null,
+            "Panko Bread Crumbs",
+            "Panko bread crumbs"
+          ],
+          [
+            1.0,
+            "cup",
+            "Flour",
+            "1 cup flour"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            null,
+            null,
+            "Baking Powder",
+            "Baking powder"
+          ],
+          [
+            1.0,
+            null,
+            "Mexican Beer",
+            "1 Mexican beer"
+          ],
+          [
+            null,
+            null,
+            "Fresh Lime",
+            "Fresh lime"
+          ],
+          [
+            null,
+            null,
+            "Peanut Oil",
+            "Peanut oil"
+          ]
+        ]
+      },
+      {
+        "method": "Shrimp inspired by Forrest Gump | Part 1",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Shrimp",
+            "Shrimp (boiled/poached and tailless)"
+          ],
+          [
+            0.25,
+            "cup",
+            "Mayonnaise",
+            "1/4 cup mayonnaise"
+          ],
+          [
+            null,
+            null,
+            "Lemon Juice",
+            "Lemon juice"
+          ],
+          [
+            null,
+            null,
+            "Dill",
+            "Dill, chopped"
+          ],
+          [
+            null,
+            null,
+            "Parsley",
+            "Parsley, chopped"
+          ],
+          [
+            null,
+            null,
+            "Celery",
+            "Celery, chopped"
+          ],
+          [
+            null,
+            null,
+            "Green Onions",
+            "Green onions, chopped"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Sandwich Bread",
+            "Sandwich bread"
+          ],
+          [
+            null,
+            null,
+            "Butter Lettuce",
+            "Butter lettuce"
+          ],
+          [
+            null,
+            null,
+            "Tomatoes",
+            "Tomatoes"
+          ]
+        ]
+      },
+      {
+        "method": "Shrimp inspired by Forrest Gump | Part 1",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Celery",
+            "Celery, diced"
+          ],
+          [
+            null,
+            null,
+            "Green Pepper",
+            "Green pepper, diced"
+          ],
+          [
+            null,
+            null,
+            "White Onion",
+            "White onion, diced"
+          ],
+          [
+            6.0,
+            null,
+            "Cloves Garlic",
+            "6 cloves garlic, minced"
+          ],
+          [
+            1.0,
+            "cup",
+            "Okra",
+            "1 cup okra, sliced"
+          ],
+          [
+            null,
+            null,
+            "Shrimp Shells",
+            "Shrimp shells (or any kind of stock if you aren't making your own)"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            null,
+            null,
+            "All Purpose Flour",
+            "All purpose flour"
+          ],
+          [
+            null,
+            null,
+            "Paprika",
+            "Paprika"
+          ],
+          [
+            null,
+            null,
+            "Cayenne Pepper",
+            "Cayenne pepper"
+          ],
+          [
+            null,
+            null,
+            "Andouille Sausage",
+            "Andouille sausage (or kielbasa)"
+          ],
+          [
+            null,
+            null,
+            "Bay Leaves",
+            "Bay leaves"
+          ],
+          [
+            null,
+            null,
+            "Shrimp",
+            "Shrimp"
+          ],
+          [
+            null,
+            null,
+            "Parsley",
+            "Parsley, chopped"
+          ],
+          [
+            null,
+            null,
+            "White Rice",
+            "White rice (to serve with)"
+          ]
+        ]
       }
     ]
   },
@@ -1349,7 +2613,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=VGsIsfIyz4E",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Congee inspired by Mulan",
         "ingredients": [
           [
             1.0,
@@ -1445,7 +2709,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=95M8W1JgH_0",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For the Dough",
         "ingredients": [
           [
             250.0,
@@ -1484,6 +2748,41 @@
             "Vegetable or olive oil"
           ]
         ]
+      },
+      {
+        "method": "Toppings",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Fresh Mozzarella",
+            "Fresh mozzarella"
+          ],
+          [
+            null,
+            null,
+            "Olives",
+            "Olives"
+          ],
+          [
+            null,
+            null,
+            "Pineapple",
+            "Pineapple"
+          ],
+          [
+            null,
+            null,
+            "Parmesan",
+            "Parmesan"
+          ],
+          [
+            null,
+            null,
+            "Tomato Sauce",
+            "Tomato sauce"
+          ]
+        ]
       }
     ]
   },
@@ -1493,7 +2792,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=uwV9cq9DRTY&t=311s",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Pasta Puttanesca inspired by Lemony Snicket's A Series of Unfortunate Events",
         "ingredients": [
           [
             7.5,
@@ -1583,7 +2882,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=44fjX-rgJ7s",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Cannolis inspired by The Godfather",
         "ingredients": [
           [
             48.0,
@@ -1691,7 +2990,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=2U_0OlCizx0",
     "recipes": [
       {
-        "method": "Method: Bluth Frozen Bananas",
+        "method": "Bluth Frozen Bananas",
         "ingredients": [
           [
             null,
@@ -1726,7 +3025,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Hot Ham Water (Babish Version)",
+        "method": "Hot Ham Water (Babish Version)",
         "ingredients": [
           [
             4.0,
@@ -1755,7 +3054,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0The Cornballer (Hushpuppies)",
+        "method": "The Cornballer (Hushpuppies)",
         "ingredients": [
           [
             120.0,
@@ -1833,7 +3132,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=Y8hi6A5MPVY",
     "recipes": [
       {
-        "method": "Method: Babish Version",
+        "method": "Babish Version",
         "ingredients": [
           [
             null,
@@ -1953,7 +3252,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=atLL2Yzi3bg",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Cheesy Blasters inspired by 30 Rock",
         "ingredients": [
           [
             null,
@@ -2025,7 +3324,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=NgloGi5xEa8",
     "recipes": [
       {
-        "method": "Method: Quiche",
+        "method": "Quiche",
         "ingredients": [
           [
             null,
@@ -2078,7 +3377,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Chocolate Strawberry Oasis Pie",
+        "method": "Chocolate Strawberry Oasis Pie",
         "ingredients": [
           [
             25.0,
@@ -2155,7 +3454,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0NY Style Cheesecake",
+        "method": "NY Style Cheesecake",
         "ingredients": [
           [
             6.0,
@@ -2257,7 +3556,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=KKoOIyhJwA4",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Chili",
         "ingredients": [
           [
             null,
@@ -2326,6 +3625,147 @@
             "Pepper"
           ]
         ]
+      },
+      {
+        "method": "Red Sauce",
+        "ingredients": [
+          [
+            1.0,
+            "small",
+            "Diced Onion",
+            "1 small diced onion"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "Olive oil"
+          ],
+          [
+            "1-2",
+            null,
+            "Garlic",
+            "1-2 cloves of garlic"
+          ],
+          [
+            1.0,
+            null,
+            "Can Pureed Tomatoes",
+            "1 can pureed tomatoes"
+          ],
+          [
+            1.0,
+            null,
+            "Can Diced Tomatoes",
+            "1 can diced tomatoes"
+          ],
+          [
+            null,
+            null,
+            "Dried Oregano",
+            "Dried oregano"
+          ],
+          [
+            1.0,
+            null,
+            "Basil",
+            "1 sprig of basil"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ]
+        ]
+      },
+      {
+        "method": "Mac and cheese",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Box Ziti Noodles",
+            "1 box ziti noodles"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Butter",
+            "3 Tbsp butter"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Flour",
+            "3 Tbsp flour"
+          ],
+          [
+            3.0,
+            "cup",
+            "Milk",
+            "3 cups of whole milk"
+          ],
+          [
+            null,
+            null,
+            "Dried Mustard",
+            "Dried mustard"
+          ],
+          [
+            null,
+            null,
+            "Sauce",
+            "Hot sauce"
+          ],
+          [
+            1.0,
+            "lb",
+            "Grated Yellow Cheddar Cheese",
+            "1 lb grated yellow cheddar cheese"
+          ],
+          [
+            "4-5",
+            "ounce",
+            "Grated Parmesan",
+            "4-5 ounces of grated parmesan"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ]
+        ]
+      },
+      {
+        "method": "The Sloppy Jessica inspired by Brooklyn Nine-Nine",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Mozzarella Cheese",
+            "Mozzarella cheese"
+          ],
+          [
+            null,
+            null,
+            "French Bread",
+            "French bread"
+          ]
+        ]
       }
     ]
   },
@@ -2335,7 +3775,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=baG767jr8c8",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Chicken Paprikash inspired by Captain America: Civil War",
         "ingredients": [
           [
             0.25,
@@ -2392,6 +3832,41 @@
             "Kosher salt and freshly ground black pepper, to taste"
           ]
         ]
+      },
+      {
+        "method": "Dumplings",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Sour Cream",
+            "1 Tbsp sour cream"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            0.75,
+            "cup",
+            "Flour",
+            "\u00be cup of flour"
+          ]
+        ]
       }
     ]
   },
@@ -2401,7 +3876,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=eA6uLMsl9w0",
     "recipes": [
       {
-        "method": "Method: Beef Tenderloin Sear",
+        "method": "Beef Tenderloin Sear",
         "ingredients": [
           [
             1.0,
@@ -2466,7 +3941,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Beef Tenderloin Reverse Sear",
+        "method": "Beef Tenderloin Reverse Sear",
         "ingredients": [
           [
             1.0,
@@ -2543,7 +4018,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Filet Mignon",
+        "method": "Filet Mignon",
         "ingredients": [
           [
             1.0,
@@ -2621,7 +4096,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=iErqWGwso7o",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Palestinian Chicken",
         "ingredients": [
           [
             2.0,
@@ -2696,6 +4171,200 @@
             "Chicken thighs (as many as you\u2019d like to make/marinate)"
           ]
         ]
+      },
+      {
+        "method": "Tzatziki Sauce",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Greek Yogurt",
+            "1 cup of greek yogurt"
+          ],
+          [
+            1.0,
+            null,
+            "Cucumber",
+            "1 cucumber, seeded"
+          ],
+          [
+            2.0,
+            null,
+            "Garlic",
+            "2 cloves of garlic"
+          ],
+          [
+            null,
+            null,
+            "One Lemon",
+            "Juice of one lemon"
+          ],
+          [
+            0.25,
+            "cup",
+            "Finely Minced Dill",
+            "\u00bc cup finely minced dill"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ]
+        ]
+      },
+      {
+        "method": "Tahini",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Sesame Seeds",
+            "Sesame seeds"
+          ],
+          [
+            null,
+            null,
+            "Grapeseed Or Sesame Oil",
+            "Grapeseed or sesame oil"
+          ]
+        ]
+      },
+      {
+        "method": "Tabouleh Salad",
+        "ingredients": [
+          [
+            0.75,
+            "lb",
+            "Cherry Tomatoes",
+            "\u00be lb cherry tomatoes (save tomato juice)"
+          ],
+          [
+            1.0,
+            "cup",
+            "Parsley",
+            "1 cup of parsley"
+          ],
+          [
+            1.0,
+            null,
+            "Cucumber",
+            "1 cucumber"
+          ],
+          [
+            2.0,
+            null,
+            "Green Onions",
+            "2 green onions"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "Olive oil"
+          ],
+          [
+            null,
+            null,
+            "Fresh Ground Pepper",
+            "Fresh ground pepper"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Ground Coriander Seed",
+            "A dash of ground coriander seed"
+          ],
+          [
+            null,
+            null,
+            "Allspice",
+            "A dash of allspice"
+          ],
+          [
+            null,
+            null,
+            "Cinnamon",
+            "A dash of cinnamon"
+          ],
+          [
+            null,
+            null,
+            "Cumin",
+            "A dash of cumin"
+          ],
+          [
+            0.25,
+            "cup",
+            "Bulgur Wheat",
+            "\u00bc cup bulgur wheat"
+          ],
+          [
+            0.25,
+            "cup",
+            "Reserved Tomato Juice",
+            "\u00bc cup reserved tomato juice"
+          ],
+          [
+            null,
+            null,
+            "Mint",
+            "Mint"
+          ],
+          [
+            null,
+            null,
+            "One Lemon",
+            "Juice of one lemon (to taste)"
+          ]
+        ]
+      },
+      {
+        "method": "Pita Bread",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Package Active Dry Yeast",
+            "1 package active dry yeast"
+          ],
+          [
+            1.0,
+            "cup",
+            "Water",
+            "1 cup warm water"
+          ],
+          [
+            1.0,
+            "cup",
+            "All Purpose Flour Plus 1\u00be Cup Flour",
+            "1 cup all purpose flour plus 1\u00be cup flour (divided)"
+          ],
+          [
+            1.5,
+            "tablespoon",
+            "Olive Oil",
+            "1 \u00bd Tbsp olive oil"
+          ],
+          [
+            1.75,
+            "teaspoon",
+            "Salt",
+            "1 \u00be tsp salt"
+          ]
+        ]
       }
     ]
   },
@@ -2705,7 +4374,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=dn_aaxZIA2o",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Cr\u00e8me Br\u00fbl\u00e9e inspired by Amelie",
         "ingredients": [
           [
             null,
@@ -2747,7 +4416,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Lasagna inspired by Garfield (feat. It's Alive with Brad)",
         "ingredients": [
           [
             1.0,
@@ -2891,13 +4560,13 @@
             null,
             null,
             "Ricotta Cheese",
-            "Ricotta cheese ( Recipe here )"
+            "Ricotta cheese (Recipe here)"
           ],
           [
             null,
             null,
             "Pasta",
-            "Pasta ( Recipe here )"
+            "Pasta (Recipe here)"
           ]
         ]
       }
@@ -2909,7 +4578,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=DkiyT-dnmv8",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Parm Heros inspired by Lots of Things",
         "ingredients": [
           [
             1.0,
@@ -3071,7 +4740,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=WRA3a7c4Qt4",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Pineapple-Curry Fried Rice inspired by Food Wars!: Shokugeki no Soma",
         "ingredients": [
           [
             null,
@@ -3227,7 +4896,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=cr2wUlNSFg0",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Clementine Cake inspired by The Secret Life of Walter Mitty",
         "ingredients": [
           [
             null,
@@ -3320,6 +4989,29 @@
             "Parchment paper"
           ]
         ]
+      },
+      {
+        "method": "Clementine Glaze",
+        "ingredients": [
+          [
+            150.0,
+            "gram",
+            "Sifted Powdered Sugar",
+            "150g sifted powdered sugar"
+          ],
+          [
+            "30-45",
+            "ml",
+            "Clementine Juice",
+            "30-45 ml of clementine juice"
+          ],
+          [
+            null,
+            null,
+            "1 Clementine",
+            "Zest of 1 clementine"
+          ]
+        ]
       }
     ]
   },
@@ -3329,7 +5021,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=akA_Z9Xmnvc",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Tamales inspired by Coco",
         "ingredients": [
           [
             null,
@@ -3461,7 +5153,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi",
         "ingredients": [
           [
             14.0,
@@ -3551,7 +5243,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=AwS_DIMeVoM&t=7s",
     "recipes": [
       {
-        "method": "Method: Cornish Game Hens",
+        "method": "Cornish Game Hens",
         "ingredients": [
           [
             null,
@@ -3688,7 +5380,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Carpaccio",
+        "method": "Carpaccio",
         "ingredients": [
           [
             null,
@@ -3748,7 +5440,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=ZY63ZSUdywY",
     "recipes": [
       {
-        "method": "Method: Dippin' Sticks",
+        "method": "Dippin' Sticks",
         "ingredients": [
           [
             1.0,
@@ -3849,7 +5541,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Paella Marina",
+        "method": "Paella Marina",
         "ingredients": [
           [
             null,
@@ -3944,7 +5636,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Candy Meth",
+        "method": "Candy Meth",
         "ingredients": [
           [
             1.0,
@@ -3986,7 +5678,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=4QDDxmtbUsw&feature=youtu.be",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Eggs in a Nest inspired by Lots of Stuff",
         "ingredients": [
           [
             400.0,
@@ -4076,7 +5768,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=evzWEXpW1pM",
     "recipes": [
       {
-        "method": "Method",
+        "method": "French toast",
         "ingredients": [
           [
             1.0,
@@ -4151,6 +5843,117 @@
             "1 Tbsp butter"
           ]
         ]
+      },
+      {
+        "method": "Rum maple syrup",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Maple Syrup",
+            "\u00bd cup maple syrup"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Butter",
+            "1 Tbsp butter"
+          ],
+          [
+            0.25,
+            "cup",
+            "Dark Rum",
+            "\u00bc cup dark rum"
+          ],
+          [
+            0.25,
+            "cup",
+            "Heavy Cream",
+            "\u00bc cup of heavy cream"
+          ]
+        ]
+      },
+      {
+        "method": "Rum whipped cream",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Heavy Cream",
+            "Heavy cream"
+          ],
+          [
+            null,
+            null,
+            "Sugar",
+            "Sugar"
+          ],
+          [
+            null,
+            null,
+            "Vanilla",
+            "Vanilla"
+          ],
+          [
+            null,
+            null,
+            "Rum",
+            "Rum"
+          ]
+        ]
+      },
+      {
+        "method": "Custard",
+        "ingredients": [
+          [
+            3.0,
+            null,
+            "Eggs",
+            "3 eggs"
+          ],
+          [
+            0.5,
+            "cup",
+            "Heavy Cream",
+            "\u00bd cup of heavy cream"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Pinch of salt"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Nutmeg",
+            "\u00bc tsp of nutmeg"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Cinnamon",
+            "\u00bc tsp of cinnamon"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Vanilla",
+            "\u00bc tsp of vanilla"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Sugar",
+            "3 Tbsp sugar"
+          ],
+          [
+            null,
+            null,
+            "Dark Rum",
+            "Splash of dark rum"
+          ]
+        ]
       }
     ]
   },
@@ -4160,7 +5963,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=Mf4wwXM2o_M",
     "recipes": [
       {
-        "method": "Default - The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special",
+        "method": "The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special",
         "ingredients": [
           [
             null,
@@ -4301,6 +6104,53 @@
             "Monterey jack cheese"
           ]
         ]
+      },
+      {
+        "method": "Spice Paste",
+        "ingredients": [
+          [
+            5.0,
+            null,
+            "Guajillo Chiles",
+            "5 guajillo chiles"
+          ],
+          [
+            5.0,
+            null,
+            "Pasilla Chiles",
+            "5 pasilla chiles"
+          ],
+          [
+            null,
+            null,
+            "Onion Powder",
+            "Onion powder"
+          ],
+          [
+            null,
+            null,
+            "Garlic",
+            "A few cloves of garlic"
+          ],
+          [
+            null,
+            null,
+            "Cumin",
+            "Shake of cumin"
+          ],
+          [
+            null,
+            null,
+            "Mexican Oregano",
+            "Mexican oregano"
+          ],
+          [
+            null,
+            null,
+            "Ground Annatto Seeds",
+            "Ground annatto seeds"
+          ]
+        ]
       }
     ]
   },
@@ -4310,7 +6160,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=kBo7FK3NO6s&t=1s",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Moroccan Pasta inspired by Peep Show",
         "ingredients": [
           [
             1.0,
@@ -4418,7 +6268,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=y3PoXXoGVj0&t=215s",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Skinner's Stew inspired by The Simpsons",
         "ingredients": [
           [
             null,
@@ -4598,7 +6448,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=mnT4MDdEazs",
     "recipes": [
       {
-        "method": "Method: Fish Dish",
+        "method": "Fish Dish",
         "ingredients": [
           [
             2.0,
@@ -4681,7 +6531,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Pit Beef",
+        "method": "Pit Beef",
         "ingredients": [
           [
             1.0,
@@ -4741,7 +6591,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=Hez55mhB8UA",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Peking Duck inspired by A Christmas Story",
         "ingredients": [
           [
             null,
@@ -4858,6 +6708,23 @@
             "Scallions"
           ]
         ]
+      },
+      {
+        "method": "For Mandarin Style Pancakes",
+        "ingredients": [
+          [
+            10.0,
+            "ounce",
+            "All Purpose Flour",
+            "10 ounces all purpose flour"
+          ],
+          [
+            null,
+            null,
+            "Sesame Oil",
+            "Sesame oil"
+          ]
+        ]
       }
     ]
   },
@@ -4867,7 +6734,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=UCZVSr2Xt2k",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Flanders' Hot Chocolate inspired by The Simpsons Movie",
         "ingredients": [
           [
             null,
@@ -4963,7 +6830,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=O-H_Ybmtu_U",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Potatoes",
         "ingredients": [
           [
             3.0,
@@ -5026,6 +6893,23 @@
             "Crispy bacon"
           ]
         ]
+      },
+      {
+        "method": "Sour Cream",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Sour Cream",
+            "Sour Cream"
+          ],
+          [
+            null,
+            null,
+            "Dried Ancho Chili Powder",
+            "Dried Ancho Chili powder"
+          ]
+        ]
       }
     ]
   },
@@ -5035,7 +6919,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=wjoeVwJTUTA",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Mysterious Meat Sauce",
         "ingredients": [
           [
             1.0,
@@ -5104,6 +6988,159 @@
             "2 pinches salt and pepper"
           ]
         ]
+      },
+      {
+        "method": "Diner Style Home Fries",
+        "ingredients": [
+          [
+            3.0,
+            null,
+            "Peeled Potatoes",
+            "3 peeled potatoes"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "White Vinegar",
+            "3 Tbsp white vinegar"
+          ],
+          [
+            3.0,
+            null,
+            "Pinches Kosher Salt",
+            "3 pinches kosher salt"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Vegetable Oil",
+            "1 Tbsp vegetable oil"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Butter",
+            "1 Tbsp butter"
+          ],
+          [
+            1.0,
+            null,
+            "Pinch Osalt",
+            "1 pinch osalt"
+          ],
+          [
+            null,
+            null,
+            "A Teaspoon Paprika",
+            "A teaspoon paprika (if desired)"
+          ],
+          [
+            1.0,
+            null,
+            "Pinch Pepper",
+            "1 pinch pepper"
+          ]
+        ]
+      },
+      {
+        "method": "Macaroni Salad",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Cooked And Rinsed Pasta",
+            "Cooked and rinsed pasta"
+          ],
+          [
+            1.0,
+            "cup",
+            "Cut Carrots",
+            "1 cup cut carrots"
+          ],
+          [
+            0.5,
+            "cup",
+            "Cut Celery",
+            "\u00bd cup cut celery"
+          ],
+          [
+            0.5,
+            "cup",
+            "Chopped Green Onion",
+            "\u00bd cup chopped green onion"
+          ],
+          [
+            1.0,
+            "cup",
+            "Parsley",
+            "1 cup parsley"
+          ],
+          [
+            0.5,
+            "cup",
+            "Peppadew Peppers",
+            "\u00bd cup peppadew peppers"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Garlic Powder",
+            "\u00bd tsp garlic powder"
+          ],
+          [
+            1.0,
+            null,
+            "Pinch Kosher Salt",
+            "1 pinch kosher salt"
+          ],
+          [
+            1.0,
+            null,
+            "Pinch Freshly Ground Pepper",
+            "1 pinch freshly ground pepper"
+          ],
+          [
+            null,
+            null,
+            "Two Spoonfuls Mayonnaise",
+            "Two spoonfuls mayonnaise"
+          ],
+          [
+            1.0,
+            null,
+            "Spoonful Sour Cream",
+            "1 spoonful sour cream"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Dijon Mustard",
+            "1 Tbsp Dijon mustard"
+          ]
+        ]
+      },
+      {
+        "method": "The Garbage Plate inspired by The Place Beyond The Pines (sort of)",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Dogs",
+            "Hot dogs"
+          ],
+          [
+            null,
+            null,
+            "Ketchup",
+            "Ketchup"
+          ],
+          [
+            null,
+            null,
+            "Yellow Mustard",
+            "Yellow mustard"
+          ]
+        ]
       }
     ]
   },
@@ -5113,7 +7150,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=G4BxOhJOmUw",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Rachel's Trifle inspired by Friends",
         "ingredients": [
           [
             null,
@@ -5194,6 +7231,153 @@
             "Plantains"
           ]
         ]
+      },
+      {
+        "method": "Custard",
+        "ingredients": [
+          [
+            4.0,
+            "tablespoon",
+            "Butter",
+            "4 Tbsp butter"
+          ],
+          [
+            4.0,
+            "tablespoon",
+            "Flour",
+            "4 Tbsp flour"
+          ],
+          [
+            2.5,
+            "cup",
+            "Milk",
+            "2 \u00bd cups whole milk"
+          ],
+          [
+            null,
+            null,
+            "Nutmeg",
+            "Nutmeg"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Eggs",
+            "Eggs"
+          ]
+        ]
+      },
+      {
+        "method": "Raspberry Jam Surrogate",
+        "ingredients": [
+          [
+            0.5,
+            null,
+            "Pint Raspberries",
+            "\u00bd pint raspberries"
+          ],
+          [
+            0.5,
+            "cup",
+            "Wine",
+            "\u00bd cup of wine"
+          ],
+          [
+            null,
+            null,
+            "Balsamic Vinegar",
+            "Splash of balsamic vinegar"
+          ],
+          [
+            null,
+            null,
+            "Sugar",
+            "Pinch of sugar"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Pinch of salt"
+          ]
+        ]
+      },
+      {
+        "method": "Cornbread",
+        "ingredients": [
+          [
+            2.0,
+            "tablespoon",
+            "Vegetable Oil",
+            "2 Tbsp vegetable oil"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Butter",
+            "2 Tbsp butter"
+          ],
+          [
+            11.5,
+            "ounce",
+            "Cornmeal",
+            "11.5 ounces cornmeal"
+          ],
+          [
+            2.0,
+            "ounce",
+            "All Purpose Flour",
+            "2 ounces all purpose flour"
+          ],
+          [
+            null,
+            null,
+            "Sugar",
+            "Pinch of sugar"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Pinch of salt"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Baking Powder",
+            "2 tsp baking powder"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Baking Soda",
+            "1 tsp baking soda"
+          ],
+          [
+            0.5,
+            "cup",
+            "Milk",
+            "\u00bd cup whole milk"
+          ],
+          [
+            1.0,
+            "cup",
+            "Buttermilk",
+            "1 cup of buttermilk"
+          ],
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs"
+          ]
+        ]
       }
     ]
   },
@@ -5203,7 +7387,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=LXDAu8DnALw",
     "recipes": [
       {
-        "method": "Method: Pumpkin Pastry",
+        "method": "Pumpkin Pastry",
         "ingredients": [
           [
             2.0,
@@ -5274,7 +7458,48 @@
         ]
       },
       {
-        "method": "Method:\u00a0Treacle Tart",
+        "method": "For Crust",
+        "ingredients": [
+          [
+            0.25,
+            "cup",
+            "Water",
+            "\u00bc cup water"
+          ],
+          [
+            0.25,
+            "cup",
+            "Vodka",
+            "\u00bc cup vodka"
+          ],
+          [
+            11.5,
+            "ounce",
+            "All Purpose Flour",
+            "11.5 ounces all purpose flour"
+          ],
+          [
+            1.0,
+            "ounce",
+            "Sugar",
+            "1 ounce sugar"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Kosher Salt",
+            "1 tsp kosher salt"
+          ],
+          [
+            2.5,
+            null,
+            "Semi Frozen Unsalted Butter",
+            "2 \u00bd sticks of semi frozen unsalted butter"
+          ]
+        ]
+      },
+      {
+        "method": "Treacle Tart",
         "ingredients": [
           [
             0.25,
@@ -5321,7 +7546,42 @@
         ]
       },
       {
-        "method": "Method:\u00a0Butterbeer",
+        "method": "For Tart Filling",
+        "ingredients": [
+          [
+            16.0,
+            "ounce",
+            "Light Molasses",
+            "16 ounces light molasses"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Butter",
+            "2 Tbsp butter"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Heavy Cream",
+            "3 Tbsp heavy cream"
+          ],
+          [
+            0.25,
+            "cup",
+            "Bread Crumbs",
+            "\u00bc cup bread crumbs"
+          ],
+          [
+            1.0,
+            "large",
+            "Egg",
+            "1 large egg"
+          ]
+        ]
+      },
+      {
+        "method": "Butterbeer",
         "ingredients": [
           [
             1.0,
@@ -5375,7 +7635,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=L1kgO1I9NvQ",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For Waffles",
         "ingredients": [
           [
             2.5,
@@ -5483,13 +7743,36 @@
             null,
             null,
             "Fudge Sauce",
-            "Hot fudge sauce (from Michael Scott Pretzel Episode )"
+            "Hot fudge sauce (from Michael Scott Pretzel Episode)"
           ],
           [
             null,
             null,
             "Peanut Butter Drizzle",
-            "Peanut butter drizzle (from Michael Scott Pretzel Episode )"
+            "Peanut butter drizzle (from Michael Scott Pretzel Episode)"
+          ]
+        ]
+      },
+      {
+        "method": "Triple-Decker Eggo Extravaganza inspired by Stranger Things",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Maple Syrup",
+            "1 cup maple syrup"
+          ],
+          [
+            0.5,
+            "cup",
+            "Heavy Cream",
+            "\u00bd cup heavy cream"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Butter",
+            "2 Tbsp butter"
           ]
         ]
       }
@@ -5501,7 +7784,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=lnB7svFAZBs&t=2s",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Clay-Roasted Thigh inspired by Hannibal",
         "ingredients": [
           [
             4.0,
@@ -5621,7 +7904,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=NHA9Ffaal2M&t=252s",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For Pretzels",
         "ingredients": [
           [
             2.0,
@@ -5684,6 +7967,223 @@
             "Melted butter"
           ]
         ]
+      },
+      {
+        "method": "Caramel Topping (From \u201cHomer Simpson's Patented Space Age Out-Of-This-World Moon Waffles\u201d)",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Water",
+            "\u00bd cup water"
+          ],
+          [
+            1.0,
+            "cup",
+            "Sugar",
+            "1 cup sugar"
+          ],
+          [
+            1.0,
+            "cup",
+            "Heavy Cream",
+            "1 cup heavy cream"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Vanilla Extract",
+            "\u00bd tsp vanilla extract (optional)"
+          ]
+        ]
+      },
+      {
+        "method": "Hot Fudge Sauce",
+        "ingredients": [
+          [
+            4.0,
+            "tablespoon",
+            "Butter",
+            "4 Tbsp butter"
+          ],
+          [
+            0.5,
+            "cup",
+            "Cocoa Powder",
+            "\u00bd cup cocoa powder"
+          ],
+          [
+            0.6666666666666666,
+            "cup",
+            "Chocolate Chips",
+            "\u2154 cup chocolate chips"
+          ],
+          [
+            2.0,
+            "cup",
+            "Sugar",
+            "2 cups sugar"
+          ],
+          [
+            1.0,
+            null,
+            "Can Sweetened Condensed Milk",
+            "1 can sweetened condensed milk"
+          ]
+        ]
+      },
+      {
+        "method": "Peanut Butter Drizzle",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Heavy Cream",
+            "\u00bd cup heavy cream"
+          ],
+          [
+            0.25,
+            "cup",
+            "Sugar",
+            "\u00bc cup sugar"
+          ],
+          [
+            0.25,
+            "cup",
+            "Light Corn Syrup",
+            "\u00bc cup light corn syrup"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Unsalted Butter",
+            "2 Tbsp unsalted butter"
+          ],
+          [
+            null,
+            null,
+            "Vanilla Paste",
+            "A little bit of vanilla paste (optional)"
+          ],
+          [
+            0.5,
+            "cup",
+            "Smooth Peanut Butter",
+            "\u00bd cup smooth peanut butter"
+          ]
+        ]
+      },
+      {
+        "method": "Sweet Glaze",
+        "ingredients": [
+          [
+            1.5,
+            "cup",
+            "Powdered Sugar",
+            "1 \u00bd cups powdered sugar, sifted to remove lumps"
+          ],
+          [
+            "3-4",
+            "tablespoon",
+            "Milk",
+            "3-4 Tbsp milk"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Vanilla Extract",
+            "2 tsp vanilla extract (optional)"
+          ]
+        ]
+      },
+      {
+        "method": "Other Toppings",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Cinnamon Sugar",
+            "Cinnamon sugar"
+          ],
+          [
+            null,
+            null,
+            "Melted Chocolate",
+            "Melted chocolate"
+          ],
+          [
+            null,
+            null,
+            "Melted White Chocolate",
+            "Melted white chocolate"
+          ],
+          [
+            null,
+            null,
+            "M&ms",
+            "M&Ms"
+          ],
+          [
+            null,
+            null,
+            "Mint Chips",
+            "Mint chips"
+          ],
+          [
+            null,
+            null,
+            "Chocolate Chips",
+            "Chocolate chips"
+          ],
+          [
+            null,
+            null,
+            "Miniature Marshmallows",
+            "Miniature marshmallows"
+          ],
+          [
+            null,
+            null,
+            "Nuts",
+            "Nuts (peanuts)"
+          ],
+          [
+            null,
+            null,
+            "Toffee Nuts",
+            "Toffee Nuts (candied pecans)"
+          ],
+          [
+            null,
+            null,
+            "Sweetened Coconut Flakes",
+            "Sweetened coconut flakes"
+          ],
+          [
+            null,
+            null,
+            "Crushed Oreos",
+            "Crushed Oreos"
+          ],
+          [
+            null,
+            null,
+            "Multi-colored Sprinkles",
+            "Multi-colored sprinkles"
+          ],
+          [
+            null,
+            null,
+            "Cotton Candy Bits",
+            "Cotton candy bits"
+          ],
+          [
+            null,
+            null,
+            "Powdered Sugar",
+            "Powdered sugar"
+          ]
+        ]
       }
     ]
   },
@@ -5693,7 +8193,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=XIZxT7iI-QI",
     "recipes": [
       {
-        "method": "Method: The Larry David Sandwich",
+        "method": "The Larry David Sandwich",
         "ingredients": [
           [
             1.0,
@@ -5734,7 +8234,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0The Ted Danson Sandwich",
+        "method": "For Coleslaw",
         "ingredients": [
           [
             0.5,
@@ -5799,7 +8299,77 @@
         ]
       },
       {
-        "method": "Method: Cobb Salad",
+        "method": "For Russian Dressing",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Horseradish Sauce",
+            "\u00bd cup horseradish sauce"
+          ],
+          [
+            0.5,
+            "cup",
+            "Mayo",
+            "\u00bd cup mayo"
+          ],
+          [
+            0.25,
+            "cup",
+            "Ketchup",
+            "\u00bc cup ketchup"
+          ],
+          [
+            null,
+            null,
+            "Sauce And Worcestershire Sauce",
+            "A few dashes of hot sauce and Worcestershire sauce"
+          ],
+          [
+            null,
+            null,
+            "Paprika",
+            "A generous sprinkle of paprika"
+          ],
+          [
+            0.5,
+            null,
+            "Of A Small",
+            "\u00bd of a small, finely chopped onion"
+          ]
+        ]
+      },
+      {
+        "method": "For Sandwich",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Bread",
+            "2 slices of bread"
+          ],
+          [
+            null,
+            null,
+            "Mayo",
+            "Mayo"
+          ],
+          [
+            null,
+            null,
+            "Turkey",
+            "Turkey"
+          ],
+          [
+            null,
+            null,
+            "Swiss Cheese",
+            "Swiss cheese"
+          ]
+        ]
+      },
+      {
+        "method": "Cobb Salad",
         "ingredients": [
           [
             0.5,
@@ -5864,7 +8434,66 @@
         ]
       },
       {
-        "method": "Method:\u00a0Palestinian Chicken",
+        "method": "For Dressing",
+        "ingredients": [
+          [
+            2.0,
+            "tablespoon",
+            "Water",
+            "2 Tbsp water"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Red Wine Vinegar",
+            "2 Tbsp red wine vinegar"
+          ],
+          [
+            null,
+            null,
+            "1 Lemon",
+            "Juice of 1 lemon"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "\u201ci Don't Want To Say It\u201d Sauce",
+            "1 tsp of \u201cI don\u2019t want to say it\u201d (Worcestershire) sauce"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Ground Mustard",
+            "\u00bd tsp ground mustard"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Sugar",
+            "2 tsp sugar (optional)"
+          ],
+          [
+            null,
+            null,
+            "Salt And Pepper To Taste",
+            "Salt and pepper to taste"
+          ],
+          [
+            1.0,
+            null,
+            "Clove Minced Garlic",
+            "1 clove minced (not pressed) garlic"
+          ],
+          [
+            0.75,
+            "cup",
+            "Canola Oil",
+            "\u00be cup canola oil"
+          ]
+        ]
+      },
+      {
+        "method": "For chicken",
         "ingredients": [
           [
             null,
@@ -5927,6 +8556,29 @@
             "A generous drizzle of olive oil"
           ]
         ]
+      },
+      {
+        "method": "For garlic sauce (toum)",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Heads Garlic",
+            "2 heads garlic"
+          ],
+          [
+            1.0,
+            "cup",
+            "Canola Oil",
+            "1 cup canola oil"
+          ],
+          [
+            0.25,
+            "cup",
+            "Lemon Juice",
+            "\u00bc cup lemon juice"
+          ]
+        ]
       }
     ]
   },
@@ -5936,7 +8588,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=BagY2Mnz-TU&t=278s",
     "recipes": [
       {
-        "method": "Method: Beef Wellington",
+        "method": "For the puff pastry",
         "ingredients": [
           [
             2.0,
@@ -5965,13 +8617,165 @@
         ]
       },
       {
-        "method": "Method: Napoleon Cakes",
+        "method": "For the beef tenderloin",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Beef Tenderloin",
+            "1 beef tenderloin"
+          ],
+          [
+            0.25,
+            "pound",
+            "Prosciutto",
+            "\u00bc pound prosciutto"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "English Mustard",
+            "3 Tbsp English Mustard"
+          ],
+          [
+            null,
+            null,
+            "Salt And Pepper",
+            "Salt and pepper"
+          ]
+        ]
+      },
+      {
+        "method": "For the mushroom duxelles",
+        "ingredients": [
+          [
+            10.0,
+            null,
+            "Mushrooms",
+            "10 mushrooms (chopped in food processor)"
+          ],
+          [
+            1.0,
+            null,
+            "Clove Freshly Crushed Garlic",
+            "1 clove freshly crushed garlic"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Thyme",
+            "1 Tbsp thyme"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Butter",
+            "2 Tbsp butter"
+          ],
+          [
+            null,
+            null,
+            "Cognac",
+            "Cognac"
+          ],
+          [
+            null,
+            null,
+            "Heavy Cream",
+            "Heavy cream"
+          ],
+          [
+            null,
+            null,
+            "Salt And Pepper",
+            "Salt and pepper"
+          ]
+        ]
+      },
+      {
+        "method": "Napoleon Cakes",
         "ingredients": [
           [
             1.0,
             null,
             "Puff Pastry",
             "1 sheet of puff pastry"
+          ]
+        ]
+      },
+      {
+        "method": "For Custard (aka Creme Patisserie)",
+        "ingredients": [
+          [
+            4.0,
+            null,
+            "Egg Yolks",
+            "4 egg yolks"
+          ],
+          [
+            0.5,
+            "cup",
+            "Cornstarch",
+            "\u00bd cup cornstarch"
+          ],
+          [
+            2.0,
+            "cup",
+            "Milk",
+            "2 cups milk"
+          ],
+          [
+            0.5,
+            "cup",
+            "Sugar",
+            "\u00bd cup sugar"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Vanilla Paste",
+            "2 tsp vanilla paste (or vanilla extract)"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Crumbled Butter",
+            "2 Tbsp crumbled butter"
+          ]
+        ]
+      },
+      {
+        "method": "For decorative icing",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Powder Sugar",
+            "1 cup powder sugar"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Corn Syrup",
+            "2 tsp corn syrup"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Milk",
+            "2 Tbsp whole milk"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Melted Butter",
+            "2 Tbsp of melted butter"
+          ],
+          [
+            null,
+            null,
+            "Melted Chocolate Or Cocoa Powder",
+            "Melted chocolate or cocoa powder"
           ]
         ]
       }
@@ -5983,7 +8787,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=FoztKuXEYnQ",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For homemade Raisinets",
         "ingredients": [
           [
             3.0,
@@ -5998,6 +8802,29 @@
             "Raisins (and other dried fruits, if you want)"
           ]
         ]
+      },
+      {
+        "method": "For popcorn",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Heaping Teaspoon Flavacol",
+            "1 heaping teaspoon Flavacol (You can get this on Amazon. It lasts forever)"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Coconut Oil",
+            "3 Tbsp coconut oil"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Popcorn Kernels",
+            "\u2153 cup popcorn kernels"
+          ]
+        ]
       }
     ]
   },
@@ -6007,7 +8834,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=lhc_bXGvmp0",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For Sauce",
         "ingredients": [
           [
             0.5,
@@ -6094,6 +8921,118 @@
             "1 tsp xanthan gum"
           ]
         ]
+      },
+      {
+        "method": "For Chicken Nuggets",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Chicken Breast Skins",
+            "2 chicken breast skins"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Garlic Powder",
+            "\u00bd tsp garlic powder"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Onion Powder",
+            "\u00bd tsp onion powder"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "White Pepper",
+            "\u00bd tsp white pepper"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Kosher Salt",
+            "2 Tbsp kosher salt"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "White Sugar",
+            "2 Tbsp white sugar"
+          ],
+          [
+            1.0,
+            "pound",
+            "Ground Chicken",
+            "1 pound ground chicken"
+          ]
+        ]
+      },
+      {
+        "method": "For Batter and Oil",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "White Flour",
+            "1 cup white flour"
+          ],
+          [
+            0.5,
+            "cup",
+            "Cornstarch",
+            "\u00bd cup cornstarch"
+          ],
+          [
+            0.5,
+            "cup",
+            "Corn Flour",
+            "\u00bd cup corn flour"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            1.0,
+            "cup",
+            "Water",
+            "1 cup water"
+          ],
+          [
+            1.0,
+            "cup",
+            "Vodka",
+            "1 cup vodka"
+          ],
+          [
+            null,
+            null,
+            "Black Pepper To Taste",
+            "Black pepper to taste"
+          ],
+          [
+            null,
+            null,
+            "Canola Oil",
+            "Canola oil"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            null,
+            null,
+            "Beef Fat Tallow",
+            "Beef fat tallow"
+          ]
+        ]
       }
     ]
   },
@@ -6103,7 +9042,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=S7eUmZ4Sp3U",
     "recipes": [
       {
-        "method": "Method: Ultimeatum",
+        "method": "Ultimeatum",
         "ingredients": [
           [
             null,
@@ -6144,7 +9083,7 @@
         ]
       },
       {
-        "method": "Method: Himalayan Ketchup",
+        "method": "Himalayan Ketchup",
         "ingredients": [
           [
             1.0,
@@ -6246,7 +9185,7 @@
     "youtube_link": "https://youtu.be/xugufifsB4s",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For the biga",
         "ingredients": [
           [
             0.25,
@@ -6297,6 +9236,88 @@
             "1/4 cup room temperature milk"
           ]
         ]
+      },
+      {
+        "method": "For the pesto and pesto aioli",
+        "ingredients": [
+          [
+            0.25,
+            "cup",
+            "Toasted Pine Nuts",
+            "1/4 cup toasted pine nuts"
+          ],
+          [
+            1.0,
+            "cup",
+            "Packed Basil Leaves",
+            "1 cup packed basil leaves"
+          ],
+          [
+            1.0,
+            null,
+            "Garlic Clove",
+            "1 garlic clove"
+          ],
+          [
+            "3-4",
+            "tablespoon",
+            "Olive Oil",
+            "3-4 Tbsp olive oil"
+          ],
+          [
+            null,
+            null,
+            "Salt & Pepper To Taste",
+            "Salt & pepper to taste"
+          ],
+          [
+            1.0,
+            null,
+            "Egg Yolk",
+            "1 egg yolk"
+          ],
+          [
+            3.0,
+            null,
+            "Cloves Garlic",
+            "3 cloves garlic, grated"
+          ],
+          [
+            "1/4-1/2",
+            "cup",
+            "Extra Virgin Olive Oil",
+            "1/4-1/2 cup extra virgin olive oil"
+          ]
+        ]
+      },
+      {
+        "method": "For building the sandwich",
+        "ingredients": [
+          [
+            1.0,
+            "pound",
+            "San Daniele Prosciutto",
+            "1 pound San Daniele prosciutto"
+          ],
+          [
+            2.0,
+            null,
+            "Buffalo Mozzarella",
+            "2 six-ounce balls of buffalo mozzarella, sliced"
+          ],
+          [
+            1.0,
+            null,
+            "Beefsteak Tomato",
+            "1 beefsteak tomato, sliced"
+          ],
+          [
+            4.0,
+            "ounce",
+            "Baby Arugula",
+            "4 ounces baby arugula (rocket)"
+          ]
+        ]
       }
     ]
   },
@@ -6306,7 +9327,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=GO5P3fLTwA0",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Courtesan au Chocolat inspired by Grand Budapest Hotel",
         "ingredients": [
           [
             1.0,
@@ -6414,7 +9435,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=5_sdhAFGmbw",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Puerco Pibil inspired by Once Upon a Time in Mexico",
         "ingredients": [
           [
             5.0,
@@ -6552,7 +9573,7 @@
     "youtube_link": "https://youtu.be/VgtpaBOkvrA?t=2m29s",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Monster Cake inspired by Zelda: Breath of the Wild",
         "ingredients": [
           [
             6.0,
@@ -6684,7 +9705,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=Enan6eEmtqM",
     "recipes": [
       {
-        "method": "Method: Deep Fry Version",
+        "method": "Deep Fry Version",
         "ingredients": [
           [
             2.0,
@@ -6719,7 +9740,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Oven Fry Version",
+        "method": "Oven Fry Version",
         "ingredients": [
           [
             2.0,
@@ -6760,7 +9781,7 @@
         ]
       },
       {
-        "method": "Method: Lemon Pepper Seasoning",
+        "method": "Lemon Pepper Seasoning",
         "ingredients": [
           [
             3.0,
@@ -6808,7 +9829,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=UvIkojfQDxA",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For the crepe batter",
         "ingredients": [
           [
             2.0,
@@ -6841,6 +9862,300 @@
             "1 tsp kosher salt"
           ]
         ]
+      },
+      {
+        "method": "For the blueberry pancake",
+        "ingredients": [
+          [
+            0.75,
+            "cup",
+            "Milk",
+            "3/4 cup milk"
+          ],
+          [
+            1.0,
+            "cup",
+            "All Purpose Flour",
+            "1 cup all purpose flour"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Sugar",
+            "1 Tbsp sugar"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Baking Powder",
+            "1 tsp baking powder"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Baking Soda",
+            "1/2 tsp baking soda"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Butter",
+            "2 Tbsp butter, melted"
+          ],
+          [
+            0.5,
+            "cup",
+            "Frozen Blueberries",
+            "1/2 cup frozen blueberries, thawed"
+          ]
+        ]
+      },
+      {
+        "method": "For the pico de gallo",
+        "ingredients": [
+          [
+            0.25,
+            "cup",
+            "Chopped Tomatoes",
+            "1/4 cup chopped tomatoes"
+          ],
+          [
+            0.25,
+            "cup",
+            "Chopped Onion",
+            "1/4 cup chopped onion"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Salt",
+            "1/2 tsp salt"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Lime Juice",
+            "1 tsp lime juice"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Chopped Cilantro",
+            "1 Tbsp chopped cilantro"
+          ]
+        ]
+      },
+      {
+        "method": "For the beer batter",
+        "ingredients": [
+          [
+            3.0,
+            "cup",
+            "All Purpose Flour",
+            "3 cups all purpose flour"
+          ],
+          [
+            3.0,
+            "cup",
+            "Corn Starch",
+            "3 cups corn starch"
+          ],
+          [
+            3.0,
+            null,
+            "Cans Light Beer",
+            "3 cans light beer"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Salt",
+            "3 Tbsp salt"
+          ],
+          [
+            4.0,
+            null,
+            "Eggs",
+            "4 eggs"
+          ]
+        ]
+      },
+      {
+        "method": "For the Southwestern sauce",
+        "ingredients": [
+          [
+            1.0,
+            "tablespoon",
+            "Sour Cream",
+            "1 Tbsp sour cream"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Mayo",
+            "1 Tbsp mayo"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Paprika",
+            "1 tsp paprika"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Cayenne Pepper",
+            "1 tsp cayenne pepper"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Chili Powder",
+            "1 tsp chili powder"
+          ]
+        ]
+      },
+      {
+        "method": "For the guacamolito",
+        "ingredients": [
+          [
+            0.25,
+            "cup",
+            "Smooth Guacamole",
+            "1/4 cup smooth guacamole"
+          ],
+          [
+            0.25,
+            "cup",
+            "Sour Cream",
+            "1/4 cup sour cream"
+          ]
+        ]
+      },
+      {
+        "method": "Other ingredients",
+        "ingredients": [
+          [
+            2.0,
+            "ounce",
+            "Ground Beef",
+            "2 ounces ground beef"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Taco Seasoning",
+            "2 tsp taco seasoning"
+          ],
+          [
+            1.0,
+            null,
+            "Hard Shell Taco",
+            "1 hard shell taco"
+          ],
+          [
+            1.0,
+            "ounce",
+            "Shredded Lettuce",
+            "1 ounce shredded lettuce"
+          ],
+          [
+            1.0,
+            "ounce",
+            "Chopped Tomatoes",
+            "1 ounce chopped tomatoes"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Nacho Cheese",
+            "1 Tbsp nacho cheese"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Refried Beans",
+            "2 Tbsp refried beans"
+          ],
+          [
+            1.0,
+            "small",
+            "Flour Tortilla",
+            "1 small flour tortilla"
+          ],
+          [
+            2.0,
+            "ounce",
+            "Shredded Monterey Jack Cheese",
+            "2 ounces shredded monterey jack cheese"
+          ],
+          [
+            1.0,
+            "medium",
+            "Corn Tortilla",
+            "1 medium corn tortilla"
+          ],
+          [
+            1.0,
+            null,
+            "Chalupa Shell",
+            "1 chalupa shell"
+          ],
+          [
+            1.0,
+            "large",
+            "Corn Husk",
+            "1 large corn husk"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg, scrambled"
+          ],
+          [
+            3.0,
+            "ounce",
+            "Gruyere",
+            "3 ounces gruyere, shredded"
+          ],
+          [
+            1.0,
+            null,
+            "Merguez Sausage",
+            "1 merguez sausage, cooked and sliced"
+          ],
+          [
+            4.0,
+            "ounce",
+            "Baby Bella Mushrooms",
+            "4 ounces baby bella mushrooms, saut\u00e9ed in butter"
+          ],
+          [
+            "12-",
+            null,
+            "Inch Frozen Meat-lover's Pizza",
+            "12-inch frozen meat-lover\u2019s pizza, baked according to package directions"
+          ],
+          [
+            "1.5-2",
+            null,
+            "Gallons Vegetable Oil",
+            "1.5-2 gallons vegetable oil"
+          ],
+          [
+            8.0,
+            null,
+            "Cans Vegetarian Chili",
+            "8 cans vegetarian chili, heated"
+          ]
+        ]
       }
     ]
   },
@@ -6850,7 +10165,7 @@
     "youtube_link": "https://youtu.be/Y_hc07rAQlc?t=6m23s",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Lemon Cakes inspired by Game of Thrones",
         "ingredients": [
           [
             8.5,
@@ -6958,7 +10273,7 @@
     "youtube_link": "https://youtu.be/Y_hc07rAQlc?t=4m17s",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Blood Pie inspired by Game of Thrones",
         "ingredients": [
           [
             7.0,
@@ -7060,7 +10375,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=Y_hc07rAQlc",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Pigeon Pie with Wild Game inspired by Game of Thrones",
         "ingredients": [
           [
             2.0,
@@ -7186,7 +10501,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=VnXu22HZBNQ",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Fried Chicken & Waffle Breakfast Lasagna inspired by The Boondocks",
         "ingredients": [
           [
             2.0,
@@ -7372,7 +10687,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
     "recipes": [
       {
-        "method": "Method: White Russian",
+        "method": "White Russian",
         "ingredients": [
           [
             2.0,
@@ -7395,7 +10710,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Sweet Vermouth, Rocks, with a Twist",
+        "method": "Sweet Vermouth, Rocks, with a Twist",
         "ingredients": [
           [
             3.0,
@@ -7412,7 +10727,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Old Fashioned",
+        "method": "Old Fashioned",
         "ingredients": [
           [
             1.0,
@@ -7441,7 +10756,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Mint Julep",
+        "method": "Mint Julep",
         "ingredients": [
           [
             4.0,
@@ -7470,7 +10785,7 @@
         ]
       },
       {
-        "method": "Method: Vesper",
+        "method": "Vesper",
         "ingredients": [
           [
             3.0,
@@ -7499,7 +10814,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0French 75",
+        "method": "French 75",
         "ingredients": [
           [
             1.0,
@@ -7528,7 +10843,7 @@
         ]
       },
       {
-        "method": "Method: Barney Stinson\u2019s Hangover Fixer Elixir",
+        "method": "Barney Stinson\u2019s Hangover Fixer Elixir",
         "ingredients": [
           [
             1.0,
@@ -7570,7 +10885,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=6uIK3o32hig",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Tomate du Saltambique inspired by The West Wing",
         "ingredients": [
           [
             1.0,
@@ -7690,7 +11005,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=2uHhKAjnvNc",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Freddy's Ribs inspired by House of Cards",
         "ingredients": [
           [
             3.0,
@@ -7846,7 +11161,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=exQ6oGefSiA",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Chocolate Cake inspired by Matilda",
         "ingredients": [
           [
             1.0,
@@ -7948,7 +11263,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=7EnWiGYT1g4&feature=em-uploademail",
     "recipes": [
       {
-        "method": "OPTIONAL (MSG-FREE)",
+        "method": "Krabby Patty inspired by SpongeBob SquarePants",
         "ingredients": [
           [
             1.0,
@@ -8029,6 +11344,53 @@
             "4 sesame seed hamburger buns"
           ]
         ]
+      },
+      {
+        "method": "OPTIONAL (MSG-FREE)",
+        "ingredients": [
+          [
+            3.0,
+            null,
+            "Dried Shiitake Mushrooms",
+            "3 dried shiitake mushrooms"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Bonito Flakes",
+            "1 Tbsp bonito flakes"
+          ],
+          [
+            0.5,
+            "ounce",
+            "Dried Kombu",
+            "1/2 ounce dried kombu"
+          ],
+          [
+            1.0,
+            null,
+            "Dried Anchovy",
+            "1 dried anchovy"
+          ],
+          [
+            0.5,
+            "cup",
+            "Pureed Sun-dried Tomatoes",
+            "1/2 cup pureed sun-dried tomatoes"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Yellow Miso",
+            "1 Tbsp yellow miso"
+          ],
+          [
+            0.5,
+            "cup",
+            "Shredded Parmesan",
+            "1/2 cup shredded parmesan"
+          ]
+        ]
       }
     ]
   },
@@ -8038,7 +11400,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=6PTuUMJ2Uh8",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)",
         "ingredients": [
           [
             0.25,
@@ -8128,7 +11490,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=nEoSBL25RO4",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Buttermilk Pancakes inspired by Twin Peaks",
         "ingredients": [
           [
             7.0,
@@ -8206,7 +11568,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=MbRm5s3i2ik",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Spaghetti Carbonara inspired by Master of None",
         "ingredients": [
           [
             7.0,
@@ -8265,7 +11627,7 @@
         ]
       },
       {
-        "method": "Method",
+        "method": "Spaghetti Carbonara inspired by Master of None",
         "ingredients": [
           [
             7.0,
@@ -8337,7 +11699,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=pw2A03Z91FI&feature=youtu.be&t=5m48s",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Babka inspired by Seinfeld",
         "ingredients": [
           [
             0.5,
@@ -8400,6 +11762,64 @@
             "1 cup water"
           ]
         ]
+      },
+      {
+        "method": "FOR CHOCOLATE BABKA",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Butter",
+            "1/2 cup butter"
+          ],
+          [
+            9.0,
+            "ounce",
+            "Chocolate",
+            "9 ounces chocolate"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Espresso Powder",
+            "2 tsp espresso powder"
+          ],
+          [
+            0.6666666666666666,
+            "cup",
+            "Cocoa Powder",
+            "2/3 cup cocoa powder"
+          ],
+          [
+            0.6666666666666666,
+            "cup",
+            "Powdered Sugar",
+            "2/3 cup powdered sugar"
+          ]
+        ]
+      },
+      {
+        "method": "FOR CINNAMON BABKA",
+        "ingredients": [
+          [
+            4.0,
+            "tablespoon",
+            "Ground Cinnamon",
+            "4 Tbsp ground cinnamon"
+          ],
+          [
+            1.0,
+            "cup",
+            "Brown Sugar",
+            "1 cup brown sugar"
+          ],
+          [
+            1.0,
+            "cup",
+            "Unsalted Butter",
+            "1 cup unsalted butter, melted"
+          ]
+        ]
       }
     ]
   },
@@ -8409,7 +11829,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=pw2A03Z91FI",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Wild Mushroom Soup inspired by Seinfeld",
         "ingredients": [
           [
             3.0,
@@ -8499,7 +11919,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=27mUWs2wjPs",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For Homer's Version",
         "ingredients": [
           [
             1.0,
@@ -8526,6 +11946,99 @@
             "A few dashes of liquid smoke"
           ]
         ]
+      },
+      {
+        "method": "For browned butter topping",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Butter",
+            "1 stick of butter"
+          ]
+        ]
+      },
+      {
+        "method": "For caramel sauce",
+        "ingredients": [
+          [
+            0.5,
+            null,
+            "Of Water",
+            "\u00bd of water"
+          ],
+          [
+            1.0,
+            "cup",
+            "Sugar",
+            "1 cup of sugar"
+          ],
+          [
+            1.0,
+            "cup",
+            "Heavy Cream",
+            "1 cup of heavy cream"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Vanilla Extract",
+            "\u00bd tsp of vanilla extract (optional)"
+          ]
+        ]
+      },
+      {
+        "method": "For waffles",
+        "ingredients": [
+          [
+            1.75,
+            "cup",
+            "All-purpose Flour",
+            "1 \u00be cups all-purpose flour"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Corn Meal",
+            "1 Tbsp corn meal"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Baking Powder",
+            "1 tsp baking powder"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Kosher Salt",
+            "1 tsp kosher salt"
+          ],
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs, yolks and whites separated"
+          ],
+          [
+            1.75,
+            "cup",
+            "Buttermilk",
+            "1 \u00be cups buttermilk"
+          ],
+          [
+            0.25,
+            "cup",
+            "Browned Butter",
+            "\u00bc cup browned butter (you can also use vegetable oil)"
+          ],
+          [
+            null,
+            null,
+            "Smoked Sea Salt",
+            "Smoked sea salt (for topping)"
+          ]
+        ]
       }
     ]
   },
@@ -8535,7 +12048,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=8DCw_eR_iPA",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Boeuf Bourguignon from Julie & Julia",
         "ingredients": [
           [
             3.0,
@@ -8667,7 +12180,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=KxPgrGdSHh8&t=194s",
     "recipes": [
       {
-        "method": "Method: Chef's Chocolate Salty Balls",
+        "method": "Chef's Chocolate Salty Balls",
         "ingredients": [
           [
             1.0,
@@ -8744,7 +12257,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Mr. and Mrs. Tenorman Chili",
+        "method": "Mr. and Mrs. Tenorman Chili",
         "ingredients": [
           [
             null,
@@ -8869,7 +12382,7 @@
         ]
       },
       {
-        "method": "Method: Randy's Fritata",
+        "method": "Randy's Fritata",
         "ingredients": [
           [
             0.5,
@@ -8932,6 +12445,23 @@
             "1 clove garlic"
           ]
         ]
+      },
+      {
+        "method": "For Creme Fraiche",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Pint Heavy Cream",
+            "1 pint heavy cream"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Buttermilk",
+            "2 Tbsp buttermilk"
+          ]
+        ]
       }
     ]
   },
@@ -8941,7 +12471,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=GXDQOSbcmv4",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For broth (note: broth needs to be chilled overnight)",
         "ingredients": [
           [
             1.0,
@@ -9004,6 +12534,170 @@
             "1 cup dried anchovies"
           ]
         ]
+      },
+      {
+        "method": "For pork",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Pork Belly And/or Pork Shoulder",
+            "Pork belly and/or pork shoulder"
+          ],
+          [
+            0.5,
+            "cup",
+            "Soy Sauce",
+            "\u00bd cup soy sauce"
+          ],
+          [
+            1.0,
+            "cup",
+            "Mirin",
+            "1 cup mirin"
+          ],
+          [
+            1.0,
+            "cup",
+            "Sake",
+            "1 cup sake"
+          ],
+          [
+            1.0,
+            "whole",
+            "Shallot",
+            "1 whole shallot, halved"
+          ],
+          [
+            "2-",
+            null,
+            "Ginger",
+            "2-inch knob of ginger, peeled and chopped"
+          ],
+          [
+            6.0,
+            null,
+            "Garlic",
+            "6 cloves of garlic, crushed"
+          ]
+        ]
+      },
+      {
+        "method": "For tare sauce",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Dried Anchovies",
+            "\u00bd cup dried anchovies"
+          ],
+          [
+            2.0,
+            "cup",
+            "Soy Sauce",
+            "2 cups soy sauce"
+          ],
+          [
+            null,
+            null,
+            "Several Kombu Leaves",
+            "Several kombu leaves"
+          ],
+          [
+            0.5,
+            "cup",
+            "Bonito Flakes",
+            "\u00bd cup bonito flakes"
+          ],
+          [
+            0.25,
+            "cup",
+            "Sake",
+            "\u00bc cup sake"
+          ],
+          [
+            4.0,
+            "tablespoon",
+            "Mirin",
+            "4 Tbsp of mirin"
+          ],
+          [
+            "1-2",
+            "tablespoon",
+            "Brown Sugar",
+            "1-2 Tbsp of brown sugar"
+          ]
+        ]
+      },
+      {
+        "method": "For noodles (can also be store bought)",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Baking Soda",
+            "1 cup baking soda"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Additional Baking Soda",
+            "1 Tbsp of additional baking soda"
+          ],
+          [
+            0.5,
+            "cup",
+            "Water",
+            "\u00bd cup warm water"
+          ],
+          [
+            8.5,
+            "ounce",
+            "Bread Flour",
+            "8 \u00bd ounces bread flour (about 2 cups)"
+          ],
+          [
+            1.0,
+            "ounce",
+            "Vital Wheat Gluten",
+            "1 ounce of vital wheat gluten (about \u00bc cup)"
+          ]
+        ]
+      },
+      {
+        "method": "Also needed for soup",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Sesame Oil",
+            "Sesame oil"
+          ],
+          [
+            null,
+            null,
+            "Kamaboko",
+            "Kamaboko (Japanese fish cake)"
+          ],
+          [
+            null,
+            null,
+            "Chopped Scallions",
+            "Chopped scallions"
+          ],
+          [
+            null,
+            null,
+            "Menma",
+            "Menma (braised bamboo shoots)"
+          ],
+          [
+            1.0,
+            null,
+            "Nori",
+            "1 sheet of nori (dried seaweed)"
+          ]
+        ]
       }
     ]
   },
@@ -9013,7 +12707,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=wBhhlE92mIQ",
     "recipes": [
       {
-        "method": "Method: Standard Szechuan Sauce",
+        "method": "Standard Szechuan Sauce",
         "ingredients": [
           [
             1.0,
@@ -9066,7 +12760,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Fan Recipe Szechuan Sauce",
+        "method": "Fan Recipe Szechuan Sauce",
         "ingredients": [
           [
             null,
@@ -9119,7 +12813,7 @@
         ]
       },
       {
-        "method": "Method: McDonald's Sauce Method",
+        "method": "McDonald's Sauce Method",
         "ingredients": [
           [
             null,
@@ -9143,7 +12837,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=hXYoduN0kWs",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Cubanos inspired by Chef",
         "ingredients": [
           [
             1.0,
@@ -9329,7 +13023,7 @@
     "youtube_link": "https://youtu.be/HsxBw6ls7Z0",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Jake's Perfect Sandwich inspired by Adventure Time",
         "ingredients": [
           [
             1.0,
@@ -9455,7 +13149,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=basFyoMSjds",
     "recipes": [
       {
-        "method": "Method: Burger Patties",
+        "method": "For all burgers",
         "ingredients": [
           [
             3.0,
@@ -9472,7 +13166,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Baby You Can Chive My Car",
+        "method": "For Fried Pickles",
         "ingredients": [
           [
             1.0,
@@ -9507,7 +13201,60 @@
         ]
       },
       {
-        "method": "Method:\u00a0Bet It All On Black Garlic Burger",
+        "method": "For burger",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Ground Meat",
+            "Ground meat"
+          ],
+          [
+            null,
+            null,
+            "Feta Cheese",
+            "Feta cheese"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Kosher salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            0.5,
+            "cup",
+            "Sour Cream",
+            "\u00bd cup sour cream"
+          ],
+          [
+            0.25,
+            "cup",
+            "Dijon Mustard",
+            "\u00bc cup dijon mustard"
+          ],
+          [
+            null,
+            null,
+            "Hamburger Buns",
+            "Hamburger buns"
+          ],
+          [
+            null,
+            null,
+            "Minced Chives",
+            "Minced chives"
+          ]
+        ]
+      },
+      {
+        "method": "Bet It All On Black Garlic Burger",
         "ingredients": [
           [
             null,
@@ -9536,7 +13283,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Meatsiah",
+        "method": "For Duxelle",
         "ingredients": [
           [
             null,
@@ -9569,6 +13316,53 @@
             "\u2153 cup heavy whipping cream"
           ]
         ]
+      },
+      {
+        "method": "For Burger",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Filet Mingon",
+            "Filet mingon"
+          ],
+          [
+            null,
+            null,
+            "Puff Pastry",
+            "Puff pastry"
+          ],
+          [
+            null,
+            null,
+            "Flour",
+            "Flour"
+          ],
+          [
+            null,
+            null,
+            "Minced Cornichon",
+            "Minced cornichon"
+          ],
+          [
+            null,
+            null,
+            "English Mustard",
+            "English mustard"
+          ],
+          [
+            null,
+            null,
+            "Pruscuitto",
+            "Pruscuitto"
+          ],
+          [
+            1.0,
+            null,
+            "Beaten Egg",
+            "1 beaten egg"
+          ]
+        ]
       }
     ]
   },
@@ -9578,7 +13372,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=ZsBWgeQHjnM",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Pollo a la Plancha inspired by Moonlight",
         "ingredients": [
           [
             4.0,
@@ -9692,7 +13486,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=roCX0AfBseQ",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Confit Byaldi inspired by Ratatouille",
         "ingredients": [
           [
             6.0,
@@ -9794,7 +13588,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=Q2ezpExQ_k0",
     "recipes": [
       {
-        "method": "Method: Rum Ham",
+        "method": "Rum Ham",
         "ingredients": [
           [
             1.0,
@@ -9841,7 +13635,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Riot Juice",
+        "method": "Riot Juice",
         "ingredients": [
           [
             2.0,
@@ -9864,7 +13658,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Fight Milk",
+        "method": "Fight Milk",
         "ingredients": [
           [
             1.0,
@@ -9911,7 +13705,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Grilled Charlie",
+        "method": "Grilled Charlie",
         "ingredients": [
           [
             2.0,
@@ -9946,7 +13740,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Milk Steak",
+        "method": "Milk Steak",
         "ingredients": [
           [
             0.5,
@@ -10015,6 +13809,41 @@
             "Polenta"
           ]
         ]
+      },
+      {
+        "method": "For Bacon Gravy",
+        "ingredients": [
+          [
+            0.25,
+            "pound",
+            "Bacon",
+            "\u00bc pound of bacon"
+          ],
+          [
+            "1-2",
+            null,
+            "Flour",
+            "1-2 tbs of flour"
+          ],
+          [
+            null,
+            null,
+            "Milk",
+            "Milk"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ]
+        ]
       }
     ]
   },
@@ -10024,7 +13853,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=7H3z3J50XCs",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For strudel",
         "ingredients": [
           [
             1.5,
@@ -10117,6 +13946,23 @@
             "1 beaten egg"
           ]
         ]
+      },
+      {
+        "method": "For whipped cream",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Heavy Cream",
+            "1 cup heavy cream"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Sugar",
+            "1 Tbsp sugar"
+          ]
+        ]
       }
     ]
   },
@@ -10126,7 +13972,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=eQ9eY0_DoEk",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Kevin's Famous Chili inspired by The Office",
         "ingredients": [
           [
             3.0,
@@ -10258,7 +14104,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=Izvd-iztaQk",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For refried beans",
         "ingredients": [
           [
             16.0,
@@ -10279,6 +14125,199 @@
             "1 clove crushed garlic"
           ]
         ]
+      },
+      {
+        "method": "For pico de gallo",
+        "ingredients": [
+          [
+            4.0,
+            null,
+            "Tomatoes",
+            "4 tomatoes, diced"
+          ],
+          [
+            0.5,
+            null,
+            "An Onion",
+            "\u00bd an onion, diced"
+          ],
+          [
+            0.25,
+            "cup",
+            "Fresh Minced Cilantro",
+            "\u00bc cup fresh minced cilantro"
+          ],
+          [
+            0.5,
+            null,
+            "Jalapeno",
+            "\u00bd jalapeno, diced (take out seeds if you don\u2019t want it to be too spicy)"
+          ],
+          [
+            null,
+            null,
+            "1 Lime",
+            "Juice of 1 lime"
+          ]
+        ]
+      },
+      {
+        "method": "For tomatillo salsa (aka salsa verde)",
+        "ingredients": [
+          [
+            10.0,
+            null,
+            "Tomatillos",
+            "10 tomatillos"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "A drizzle of olive oil"
+          ],
+          [
+            0.5,
+            null,
+            "An Onion",
+            "\u00bd an onion, diced"
+          ],
+          [
+            0.25,
+            "cup",
+            "Cilantro",
+            "\u00bc cup cilantro, minced"
+          ],
+          [
+            0.5,
+            null,
+            "A Jalapeno",
+            "\u00bd a jalapeno, minced"
+          ],
+          [
+            null,
+            null,
+            "1 Lime",
+            "Juice of 1 lime"
+          ],
+          [
+            null,
+            null,
+            "Salt And Pepper To Taste",
+            "Salt and pepper to taste"
+          ]
+        ]
+      },
+      {
+        "method": "For guacamole",
+        "ingredients": [
+          [
+            4.0,
+            "medium",
+            "Avocados",
+            "4 medium avocados"
+          ],
+          [
+            0.5,
+            null,
+            "Jalapeno",
+            "\u00bd jalapeno, seeded (can also be unseeded for less heat)"
+          ],
+          [
+            0.25,
+            null,
+            "Spanish Onion",
+            "\u00bc Spanish onion, chopped"
+          ],
+          [
+            null,
+            null,
+            "A Lime",
+            "Juice of half a lime"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Cilantro",
+            "2 Tbsp cilantro"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt, pepper, and cumin to taste"
+          ]
+        ]
+      },
+      {
+        "method": "For homemade tortillas",
+        "ingredients": [
+          [
+            8.5,
+            "ounce",
+            "All Purpose Flour",
+            "8 \u00bd ounces all purpose flour (about 1 \u00be cup)"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Salt",
+            "1 tsp of salt"
+          ],
+          [
+            6.0,
+            "teaspoon",
+            "Baking Powder",
+            "6 tsp of baking powder"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Lard",
+            "3 Tbsp of lard"
+          ],
+          [
+            0.75,
+            "cup",
+            "Water",
+            "\u00be cup warm water (110\u00b0)"
+          ]
+        ]
+      },
+      {
+        "method": "For fish",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Mahi Mahi Fish Fillets",
+            "Mahi mahi fish fillets"
+          ],
+          [
+            null,
+            null,
+            "1 Lime",
+            "Juice of 1 lime"
+          ],
+          [
+            null,
+            null,
+            "Salt And Pepper",
+            "Salt and pepper"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "Olive oil"
+          ],
+          [
+            null,
+            null,
+            "Freshly Ground Toasted Cumin",
+            "Freshly ground toasted cumin"
+          ]
+        ]
       }
     ]
   },
@@ -10288,7 +14327,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=OmwE0aJqkdA",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Big Kahuna Burger inspired by Pulp Fiction",
         "ingredients": [
           [
             1.0,
@@ -10354,7 +14393,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=PsuoXi2D6tM",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For Buddy\u2019s Pasta",
         "ingredients": [
           [
             null,
@@ -10411,6 +14450,41 @@
             "Chocolate sauce"
           ]
         ]
+      },
+      {
+        "method": "For Babish\u2019s Pasta",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Salt",
+            "A pinch of salt"
+          ],
+          [
+            null,
+            null,
+            "Spaghetti",
+            "Spaghetti"
+          ],
+          [
+            null,
+            null,
+            "Tomato Sauce",
+            "Tomato sauce"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Butter",
+            "1 Tbsp butter"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "A drizzle of olive oil"
+          ]
+        ]
       }
     ]
   },
@@ -10420,7 +14494,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=eVgmI-YF16g",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For creamed spinach",
         "ingredients": [
           [
             null,
@@ -10459,6 +14533,76 @@
             "Salt and pepper"
           ]
         ]
+      },
+      {
+        "method": "For hollandaise",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Egg Yolks",
+            "2 egg yolks"
+          ],
+          [
+            null,
+            null,
+            "Lemon Juice",
+            "Squeeze of lemon juice"
+          ],
+          [
+            1.0,
+            null,
+            "Stick Melted Butter",
+            "1 stick melted butter"
+          ]
+        ]
+      },
+      {
+        "method": "For Eggs Woodhouse",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Artichoke Hearts",
+            "2 warm artichoke hearts"
+          ],
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs"
+          ],
+          [
+            null,
+            null,
+            "Sliced Ib\u00e9rico Ham",
+            "Sliced Ib\u00e9rico ham"
+          ],
+          [
+            null,
+            null,
+            "Black Truffle",
+            "Black truffle"
+          ],
+          [
+            null,
+            null,
+            "Paprika",
+            "A sprinkle of paprika"
+          ],
+          [
+            null,
+            null,
+            "Kashmiri Saffron",
+            "A sprinkle of kashmiri saffron"
+          ],
+          [
+            null,
+            null,
+            "Beluga Caviar",
+            "A generous spoonful of beluga caviar (or white sturgeon caviar)"
+          ]
+        ]
       }
     ]
   },
@@ -10468,7 +14612,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=A_l8_C-EO38",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For bread",
         "ingredients": [
           [
             1.0,
@@ -10519,6 +14663,47 @@
             "2 Tbsp honey"
           ]
         ]
+      },
+      {
+        "method": "For sandwich",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Slices Monterey Jack Cheese",
+            "2 slices Monterey Jack cheese"
+          ],
+          [
+            null,
+            null,
+            "Mayo",
+            "A heaping spoonful of mayo"
+          ],
+          [
+            4.0,
+            null,
+            "Bacon",
+            "4 slices of bacon"
+          ],
+          [
+            4.0,
+            null,
+            "Tomato",
+            "4 slices of tomato"
+          ],
+          [
+            1.0,
+            null,
+            "Fried Egg",
+            "1 fried egg, sunny side up"
+          ],
+          [
+            3.0,
+            null,
+            "Butter Leaf Lettuce",
+            "3 leaves of butter leaf lettuce"
+          ]
+        ]
       }
     ]
   },
@@ -10528,7 +14713,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=uEjMyHccX8U",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Prison Sauce inspired by Goodfellas",
         "ingredients": [
           [
             1.0,
@@ -10606,7 +14791,7 @@
             1.0,
             "pound",
             "Meatballs",
-            "1 pound meatballs (see Timpano recipe )"
+            "1 pound meatballs (see Timpano recipe)"
           ],
           [
             3.0,
@@ -10636,7 +14821,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=vjZXcapkFEU",
     "recipes": [
       {
-        "method": "Method:",
+        "method": "For Turkey",
         "ingredients": [
           [
             1.0,
@@ -10665,7 +14850,42 @@
         ]
       },
       {
-        "method": "Method:\u00a0Turkey Stock",
+        "method": "For Turkey Gravy",
+        "ingredients": [
+          [
+            3.0,
+            "tablespoon",
+            "Butter",
+            "3 Tbsp butter"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Flour",
+            "3 Tbsp flour"
+          ],
+          [
+            2.0,
+            "cup",
+            "Turkey Stock",
+            "2 cups turkey stock"
+          ],
+          [
+            null,
+            null,
+            "Salt & Freshly Ground Pepper",
+            "Salt & freshly ground pepper"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Soy Sauce",
+            "1 Tbsp soy sauce"
+          ]
+        ]
+      },
+      {
+        "method": "Turkey Stock",
         "ingredients": [
           [
             1.0,
@@ -10742,7 +14962,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Cranberry Sauce",
+        "method": "Cranberry Sauce",
         "ingredients": [
           [
             2.0,
@@ -10813,7 +15033,7 @@
         ]
       },
       {
-        "method": "Default - The Moistmaker inspired by Friends",
+        "method": "The Moistmaker inspired by Friends",
         "ingredients": [
           [
             1.0,
@@ -10873,7 +15093,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=-Vy12e0LjX4",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For Dough",
         "ingredients": [
           [
             12.5,
@@ -10906,6 +15126,53 @@
             "6-8 ounces ice water"
           ]
         ]
+      },
+      {
+        "method": "For Apples",
+        "ingredients": [
+          [
+            2.5,
+            "pound",
+            "Apples",
+            "2\u00bd pounds apples"
+          ],
+          [
+            0.75,
+            "cup",
+            "Sugar",
+            "\u00be cup sugar"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Cinnamon",
+            "\u00bc tsp cinnamon"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Allspice",
+            "\u00bc tsp allspice"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Nutmeg",
+            "\u00bc tsp nutmeg"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Ginger",
+            "\u00bc tsp ginger"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Flour",
+            "2 Tbsp flour"
+          ]
+        ]
       }
     ]
   },
@@ -10915,7 +15182,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=Zru1yk--rGQ",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Philly Cheesesteaks inspired by Creed",
         "ingredients": [
           [
             null,
@@ -10975,7 +15242,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=KUu2gJn1dzc",
     "recipes": [
       {
-        "method": "Method",
+        "method": "New York-Style Pizza inspired by TMNT II: Secret of the Ooze",
         "ingredients": [
           [
             16.0,
@@ -11065,7 +15332,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=bJUiWdM__Qw",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Pasta Aglio e Olio inspired by Chef",
         "ingredients": [
           [
             0.5,
@@ -11119,7 +15386,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=7UEIBdMyj9g",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Fried Chicken inspired by Louie",
         "ingredients": [
           [
             1.0,
@@ -11197,7 +15464,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=akO6D_tc0lo",
     "recipes": [
       {
-        "method": "Method",
+        "method": "How To Reverse-Sear A Steak",
         "ingredients": [
           [
             2.0,
@@ -11245,7 +15512,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=dVRl1aP28BI",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Croque Madame: The Ultimate Breakfast Sandwich",
         "ingredients": [
           [
             2.0,
@@ -11323,7 +15590,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=mv1z2p3to0U",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Apple Pie Smoothie",
         "ingredients": [
           [
             2.0,
@@ -11377,7 +15644,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=PIsIE0oHGgo",
     "recipes": [
       {
-        "method": "Method: Meatballs",
+        "method": "Meatballs",
         "ingredients": [
           [
             1.0,
@@ -11484,7 +15751,7 @@
         ]
       },
       {
-        "method": "Method: Garganelli",
+        "method": "Garganelli",
         "ingredients": [
           [
             10.0,
@@ -11507,7 +15774,7 @@
         ]
       },
       {
-        "method": "Method: Timpano",
+        "method": "Timpano",
         "ingredients": [
           [
             15.0,
@@ -11567,7 +15834,7 @@
             1.0,
             null,
             "Recipe Italian Red Sauce",
-            "1 recipe Italian red sauce (see Prison Sauce )"
+            "1 recipe Italian red sauce (see Prison Sauce)"
           ],
           [
             24.0,
@@ -11597,7 +15864,7 @@
     "youtube_link": "https://www.youtube.com/watch?v=MP_nWuLYpJw",
     "recipes": [
       {
-        "method": "Method: Chris Traeger's East Meets West Turkey Burger",
+        "method": "Chris Traeger's East Meets West Turkey Burger",
         "ingredients": [
           [
             1.0,
@@ -11734,7 +16001,7 @@
         ]
       },
       {
-        "method": "Method: Ron Swanson's Burger",
+        "method": "Ron Swanson's Burger",
         "ingredients": [
           [
             null,

@@ -32,6 +32,7 @@ class TestRecipe(object):
 
         # Test the special case for None
         assert Recipe.normalize_qty(None) is None
+        assert Recipe.normalize_qty('') is None
 
         # Numeric conversions
         tests = [
