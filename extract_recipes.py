@@ -56,7 +56,7 @@ class Recipe:
             if i.string is None:
                 # multiple tags in child,
                 # bs4 gets confused per https://www.crummy.com/software/BeautifulSoup/bs4/doc/#string
-                s = ' '.join(i.stripped_strings)
+                s = i.get_text().strip()
             else:
                 s = i.string.strip()
         else:
@@ -263,7 +263,7 @@ class BabishSync:
 
                     # Convert the ul to parsed Ingredients
                     try:
-                        ingredients = [Recipe.parse_ingredient(i.get_text()) for i in iloc.children]
+                        ingredients = [Recipe.parse_ingredient(i) for i in iloc.children]
                     except Exception:
                         print("ERROR: Failed to parse ingredients from ep: {0} method: {1} raw_list: {2}".format(
                             episode_name,
