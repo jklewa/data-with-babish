@@ -7,6 +7,7 @@ import requests
 import os
 import time
 import logging
+import string
 
 from collections import namedtuple
 from fractions import Fraction
@@ -82,9 +83,11 @@ class Recipe:
     @classmethod
     def normalize_qty(cls, qty):
         if qty is not None:
-            qty = qty.strip()  # whitespace
+            qty = qty.strip()
 
-            if len(qty) == 1:
+            if len(qty) == 0:
+                qty = None
+            elif len(qty) == 1:
                 qty = numeric(qty)
             else:
                 try:
@@ -114,10 +117,9 @@ class Recipe:
     @classmethod
     def normalize_name(cls, name):
         return capwords(name) \
-               .strip(' \t\n\r,.') \
                .replace('Whole ', '').replace('Half ', '') \
                .replace('Hot ', '').replace('Warm ', '').replace('Cold ', '') \
-               .strip()
+               .strip(string.whitespace + ',.')
 
 
 def timeit(method):
@@ -222,40 +224,68 @@ class BabishSync:
 
             youtube_link = json.loads(soup.find('div', class_='video-block')['data-block-json'])['url']
 
+            published = soup.find('time', class_='published')['datetime']
+
             ep = {
                 'episode_name': episode_name,
                 'episode_link': 'https://www.bingingwithbabish.com' + link,
                 'youtube_link': youtube_link,
+                'published': published,
                 'recipes': []
             }
 
             recipe_locations = soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5'], string=re.compile('Ingredients'))
 
             for loc in recipe_locations:
-                method = loc.find_next(['h1', 'h2', 'h3', 'h4', 'h5'])
-                if method:
-                    method = method.string.strip()
-                else:
-                    method = 'Default - {}'.format(episode_name)
+                ingredient_lists = loc.parent.find_all(['ul'])
 
-                ingredients = list(loc.find_next_sibling(['ul', 'ol']).children)
+                for iloc in ingredient_lists:
+                    # TODO: This logic is messy and brittle. Refactor it.
 
-                if len(ingredients) > 0:
-                    ingredients = list(map(Recipe.parse_ingredient, seq(ingredients)))
-                else:
-                    print("WARN: Could not location ingredients for {0} (Episode {1})".format(method, episode_name))
+                    # Get method name, usually right before the list itself
+                    method_name = iloc.find_previous_sibling(['p', 'h2', 'h3'])
+                    if method_name is not None:
+                        method_name = method_name.get_text().replace('Ingredients', '').strip(string.whitespace + '\u00a0:,')
 
-                recipe = {
-                    'method': method,
-                    'ingredients': ingredients,
-                }
+                    if method_name is None or method_name == '':
+                        # Look for the method name above the recipe instead
+                        h = iloc.parent.find_next(['h1', 'h2'])
+                        if h:
+                            method_name = h.get_text().strip()
+                            method_name = re.sub('^(Method)', '', method_name).strip(string.whitespace + '\u00a0:,')
+                        else:
+                            # No luck, fall back to default
+                            method_name = ''
 
-                ep['recipes'].append(recipe)
+                    # Default to the episode name
+                    if method_name == '':
+                        method_name = episode_name
+
+                    # Convert the ul to parsed Ingredients
+                    try:
+                        ingredients = [Recipe.parse_ingredient(i.get_text()) for i in iloc.children]
+                    except Exception:
+                        print("ERROR: Failed to parse ingredients from ep: {0} method: {1} raw_list: {2}".format(
+                            episode_name,
+                            method_name,
+                            list(iloc.children)
+                        ))
+                        raise
+
+                    if len(ingredients) == 0:
+                        print("WARN: Could not find ingredients for {0} (Episode {1})".format(method_name, episode_name))
+
+                    recipe = {
+                        'method': method_name,
+                        'ingredients': ingredients,
+                    }
+
+                    ep['recipes'].append(recipe)
 
             episodes.append(ep)
 
-        with open('babish.json', 'w') as f:
-            json.dump(episodes, f, indent=2)
+        with open('babish.json', 'w', encoding='utf8') as f:
+            json.dump(episodes, f, indent=2, ensure_ascii=False)
 
         self.stats.bytes_written = os.path.getsize('babish.json')
 

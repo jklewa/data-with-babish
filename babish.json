@@ -1,11 +1,197 @@
 [
   {
+    "episode_name": "King of the Hill Special",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/kingofthehillspecial",
+    "youtube_link": "https://www.youtube.com/watch?v=iq6_iUhLHo4",
+    "published": "2018-10-16",
+    "recipes": [
+      {
+        "method": "Frito Chili Pie",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Cans Chili",
+            "2 cans chili"
+          ],
+          [
+            1.0,
+            null,
+            "Fritos",
+            "1 bag of Fritos"
+          ],
+          [
+            null,
+            null,
+            "Shredded Cheese",
+            "Shredded cheese"
+          ]
+        ]
+      },
+      {
+        "method": "Spa-Peggy and Meatballs",
+        "ingredients": [
+          [
+            1.0,
+            "pound",
+            "Ground Beef",
+            "1 pound ground beef"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            0.5,
+            "cup",
+            "Bread Crumbs",
+            "½ cup bread crumbs"
+          ],
+          [
+            null,
+            null,
+            "Milk",
+            "Splash of milk"
+          ],
+          [
+            null,
+            null,
+            "Garlic Powder",
+            "Garlic powder"
+          ],
+          [
+            null,
+            null,
+            "Onion Powder",
+            "Onion powder"
+          ],
+          [
+            null,
+            null,
+            "Oregano",
+            "Oregano"
+          ],
+          [
+            null,
+            null,
+            "Dried Basil",
+            "Dried basil"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            null,
+            null,
+            "Parmesan Cheese",
+            "Parmesan cheese"
+          ],
+          [
+            null,
+            null,
+            "Spaghetti",
+            "Spaghetti"
+          ],
+          [
+            1.0,
+            null,
+            "Onion",
+            "1 onion"
+          ],
+          [
+            1.0,
+            null,
+            "Clove Garlic",
+            "1 clove garlic"
+          ],
+          [
+            1.0,
+            null,
+            "Can Crushed Tomatoes",
+            "1 can crushed tomatoes"
+          ],
+          [
+            null,
+            null,
+            "Sugar",
+            "Pinch of sugar"
+          ]
+        ]
+      },
+      {
+        "method": "Apple Brown Betty",
+        "ingredients": [
+          [
+            0.5,
+            "pound",
+            "Brown Sugar",
+            "½ pound brown sugar"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Ground Cinnamon",
+            "1 tsp ground cinnamon"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Ground Ginger",
+            "½ tsp ground ginger"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Ground Allspice",
+            "¼ tsp ground allspice"
+          ],
+          [
+            0.125,
+            "teaspoon",
+            "Ground Cloves",
+            "⅛ tsp ground cloves"
+          ],
+          [
+            10.0,
+            null,
+            "Granny Smith Apples",
+            "10 granny smith apples, cored and sliced"
+          ],
+          [
+            null,
+            null,
+            "Breadcrumbs",
+            "Breadcrumbs"
+          ],
+          [
+            1.0,
+            null,
+            "Butter",
+            "1 stick of butter"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Backpack Recipes inspired by Marvel's Spider-Man",
     "episode_link": "https://www.bingingwithbabish.com/recipes/spidermanbackpackrecipes",
     "youtube_link": "https://www.youtube.com/watch?v=NlIiIv-XKhs",
+    "published": "2018-10-09",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Aunt May’s Wheatcakes",
         "ingredients": [
           [
             1.0,
@@ -65,7 +251,7 @@
             0.25,
             "cup",
             "Melted Butter",
-            "\u00bc cup melted butter"
+            "¼ cup melted butter"
           ],
           [
             null,
@@ -80,6 +266,117 @@
             "Maple syrup"
           ]
         ]
+      },
+      {
+        "method": "Dipping Sauce",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Soy Sauce",
+            "½ cup soy sauce"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Seasoned Rice Vinegar",
+            "1 Tbsp seasoned rice vinegar"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Chinese Chives",
+            "2 Tbsp Chinese chives (or regular chives if you can’t find them)"
+          ],
+          [
+            null,
+            null,
+            "Fresh Garlic",
+            "Fresh garlic, minced"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Sesame Seeds",
+            "1 Tbsp sesame seeds"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Garlic Chili Sauce",
+            "1 Tbsp garlic chili sauce"
+          ]
+        ]
+      },
+      {
+        "method": "Dumplings",
+        "ingredients": [
+          [
+            1.0,
+            "pound",
+            "Ground Pork",
+            "1 pound of ground pork"
+          ]
+        ]
+      },
+      {
+        "method": "Dumplings",
+        "ingredients": [
+          [
+            3.0,
+            "large",
+            "Cloves Garlic",
+            "3 large cloves garlic, minced"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg, beaten"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Chinese Chives",
+            "2 Tbsp Chinese chives, finely minced"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Soy Sauce",
+            "2 Tbsp soy sauce"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Sesame Oil",
+            "2 Tbsp sesame oil"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Fresh Ginger",
+            "1 Tbsp fresh ginger, minced"
+          ],
+          [
+            null,
+            null,
+            "Dumpling Wrappers",
+            "Dumpling wrappers"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            0.5,
+            "cup",
+            "Water",
+            "½ cup water"
+          ]
+        ]
       }
     ]
   },
@@ -87,9 +384,10 @@
     "episode_name": "The Naco inspired by Kim Possible",
     "episode_link": "https://www.bingingwithbabish.com/recipes/the-naco",
     "youtube_link": "https://www.youtube.com/watch?v=hf5cl-AGYbg",
+    "published": "2018-10-02",
     "recipes": [
       {
-        "method": "Method",
+        "method": "The Naco inspired by Kim Possible",
         "ingredients": [
           [
             2.0,
@@ -101,7 +399,7 @@
             0.75,
             null,
             "Red Onion",
-            "\u00be red onion, chopped, separated"
+            "¾ red onion, chopped, separated"
           ],
           [
             3.0,
@@ -112,8 +410,8 @@
           [
             null,
             null,
-            "\u00bd Lime",
-            "Juice of \u00bd lime"
+            "½ Lime",
+            "Juice of ½ lime"
           ],
           [
             2.0,
@@ -124,8 +422,8 @@
           [
             1.5,
             null,
-            "Jalape\u00f1os",
-            "1 \u00bd jalape\u00f1os, chopped, separated"
+            "Jalapeños",
+            "1 ½ jalapeños, chopped, separated"
           ],
           [
             null,
@@ -179,7 +477,7 @@
             0.5,
             null,
             "Can Diced Chilis And Tomatoes",
-            "\u00bd can diced chilis and tomatoes"
+            "½ can diced chilis and tomatoes"
           ],
           [
             null,
@@ -207,15 +505,16 @@
     "episode_name": "Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)",
     "episode_link": "https://www.bingingwithbabish.com/recipes/direwolfbread",
     "youtube_link": "https://www.youtube.com/watch?v=6nuEgc2RVWo&t=336s",
+    "published": "2018-09-25",
     "recipes": [
       {
-        "method": "Method: Binging With Babish\u2019s Direwolf Bread",
+        "method": "Binging With Babish’s Direwolf Bread",
         "ingredients": [
           [
             0.5,
             "cup",
             "Butter",
-            "\u00bd cup butter"
+            "½ cup butter"
           ],
           [
             85.0,
@@ -233,7 +532,7 @@
             0.5,
             "teaspoon",
             "Salt",
-            "\u00bd tsp salt"
+            "½ tsp salt"
           ],
           [
             1.0,
@@ -245,13 +544,13 @@
             0.25,
             "teaspoon",
             "Baking Soda",
-            "\u00bc tsp baking soda"
+            "¼ tsp baking soda"
           ],
           [
             0.25,
             "cup",
             "White Sugar",
-            "\u00bc cup white sugar"
+            "¼ cup white sugar"
           ],
           [
             2.0,
@@ -263,13 +562,13 @@
             1.5,
             "cup",
             "Toasted Pecans",
-            "1 \u00bd cups toasted pecans"
+            "1 ½ cups toasted pecans"
           ],
           [
             0.5,
             "cup",
             "Buttermilk",
-            "\u00bd cup buttermilk"
+            "½ cup buttermilk"
           ],
           [
             1.0,
@@ -297,9 +596,10 @@
     "episode_name": "Banana Pudding Pizza inspired by Doug",
     "episode_link": "https://www.bingingwithbabish.com/recipes/bananapuddingpizza",
     "youtube_link": "https://www.youtube.com/watch?v=wcJS3nQjhqM",
+    "published": "2018-09-18",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Banana Pudding Pizza",
         "ingredients": [
           [
             3.0,
@@ -311,13 +611,13 @@
             0.75,
             "cup",
             "Plain White Sugar",
-            "\u00be cup plain white sugar"
+            "¾ cup plain white sugar"
           ],
           [
             2.5,
             "cup",
             "Milk",
-            "2 \u00bd cups whole milk"
+            "2 ½ cups whole milk"
           ],
           [
             3.0,
@@ -350,6 +650,82 @@
             "Pepperoni"
           ]
         ]
+      },
+      {
+        "method": "Swedish Pizza",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Bananas",
+            "Bananas"
+          ],
+          [
+            null,
+            null,
+            "Peanuts",
+            "Peanuts"
+          ],
+          [
+            null,
+            null,
+            "Ham",
+            "Ham"
+          ],
+          [
+            null,
+            null,
+            "Curry Powder",
+            "Curry powder"
+          ]
+        ]
+      },
+      {
+        "method": "Plantain Pizza",
+        "ingredients": [
+          [
+            0.25,
+            "teaspoon",
+            "Baking Soda",
+            "¼ tsp baking soda"
+          ],
+          [
+            null,
+            null,
+            "Italian Seasoning",
+            "Italian seasoning"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Olive Oil",
+            "2 Tbsp olive oil"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Plantains",
+            "Plantains"
+          ],
+          [
+            null,
+            null,
+            "Mozzarella",
+            "Mozzarella"
+          ],
+          [
+            null,
+            null,
+            "Parmesan Cheese",
+            "Parmesan cheese, grated"
+          ]
+        ]
       }
     ]
   },
@@ -357,9 +733,10 @@
     "episode_name": "Adventure Time Special",
     "episode_link": "https://www.bingingwithbabish.com/recipes/adventuretimespecial",
     "youtube_link": "https://www.youtube.com/watch?v=SjeS6gtPq8E",
+    "published": "2018-09-11",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Prismo’s Artisanal Pickles",
         "ingredients": [
           [
             4.0,
@@ -446,6 +823,190 @@
             "Red pepper flakes"
           ]
         ]
+      },
+      {
+        "method": "Prismo’s Sentient Sandwich",
+        "ingredients": [
+          [
+            1.0,
+            "small",
+            "Onion",
+            "1 small onion, diced"
+          ],
+          [
+            5.0,
+            null,
+            "Cloves Garlic",
+            "5 cloves garlic, diced"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "Olive oil"
+          ],
+          [
+            28.0,
+            "ounce",
+            "Can Crushed Tomatoes",
+            "28 ounce can crushed tomatoes"
+          ],
+          [
+            0.25,
+            "cup",
+            "Brown Sugar",
+            "¼ cup brown sugar"
+          ],
+          [
+            "1-2",
+            "tablespoon",
+            "Molasses",
+            "1-2 Tbsp molasses"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Apple Cider Vinegar",
+            "⅓ cup apple cider vinegar"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Worcestershire Sauce",
+            "1 Tbsp Worcestershire sauce"
+          ],
+          [
+            null,
+            null,
+            "Allspice",
+            "Allspice"
+          ],
+          [
+            null,
+            null,
+            "Cinnamon",
+            "Cinnamon"
+          ],
+          [
+            null,
+            null,
+            "Chili Powder",
+            "Chili powder"
+          ],
+          [
+            null,
+            null,
+            "Ground Ginger",
+            "Ground ginger"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            null,
+            null,
+            "Fresh Ground Pepper",
+            "Fresh ground pepper"
+          ],
+          [
+            null,
+            null,
+            "Cheddar Cheese",
+            "Cheddar cheese"
+          ],
+          [
+            1.0,
+            null,
+            "Sprig Parsley",
+            "1 sprig parsley"
+          ],
+          [
+            2.0,
+            null,
+            "Slices White Bread",
+            "2 slices white bread"
+          ],
+          [
+            null,
+            null,
+            "Bacon",
+            "Bacon (optional)"
+          ]
+        ]
+      },
+      {
+        "method": "Bacon Pancakes",
+        "ingredients": [
+          [
+            285.0,
+            "gram",
+            "All Purpose Flour",
+            "285g all purpose flour"
+          ],
+          [
+            35.0,
+            "gram",
+            "Sugar",
+            "35g sugar"
+          ],
+          [
+            1.5,
+            "teaspoon",
+            "Baking Powder",
+            "1 ½ tsp baking powder"
+          ],
+          [
+            1.5,
+            "teaspoon",
+            "Baking Soda",
+            "1 ½ tsp baking soda"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Kosher salt"
+          ],
+          [
+            2.5,
+            "cup",
+            "Buttermilk",
+            "2 ½ cups buttermilk"
+          ],
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Melted Butter",
+            "3 Tbsp melted butter"
+          ],
+          [
+            null,
+            null,
+            "Bacon",
+            "Bacon"
+          ],
+          [
+            null,
+            null,
+            "Maple Syrup",
+            "Maple Syrup"
+          ]
+        ]
       }
     ]
   },
@@ -453,9 +1014,10 @@
     "episode_name": "Full Breakfast inspired by Phantom Thread",
     "episode_link": "https://www.bingingwithbabish.com/recipes/phantomthread-l42pw",
     "youtube_link": "https://www.youtube.com/watch?v=yiElOt9cI8k",
+    "published": "2018-09-04",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Raspberry Jam",
         "ingredients": [
           [
             2.0,
@@ -470,6 +1032,152 @@
             "2 cups sugar"
           ]
         ]
+      },
+      {
+        "method": "Cultured Butter",
+        "ingredients": [
+          [
+            3.5,
+            "cup",
+            "Heavy Cream",
+            "3 ½ cups heavy cream"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Yogurt",
+            "2 Tbsp yogurt"
+          ],
+          [
+            null,
+            null,
+            "Ice Water",
+            "Ice water"
+          ],
+          [
+            null,
+            null,
+            "Sea Salt Or Table Salt",
+            "Sea salt or table salt"
+          ]
+        ]
+      },
+      {
+        "method": "Scones",
+        "ingredients": [
+          [
+            10.0,
+            "ounce",
+            "Flour",
+            "10 ounces flour"
+          ],
+          [
+            4.0,
+            "teaspoon",
+            "Baking Powder",
+            "4 tsp baking powder"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Kosher Salt",
+            "2 tsp kosher salt"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Sugar",
+            "⅓ cup sugar"
+          ],
+          [
+            6.0,
+            "tablespoon",
+            "Cultured Butter",
+            "6 Tbsp (3 ounces) cultured butter"
+          ],
+          [
+            0.6666666666666666,
+            "cup",
+            "Buttermilk",
+            "⅔ cup buttermilk"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ]
+        ]
+      },
+      {
+        "method": "Welsh Rarebit",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Butter And Flour",
+            "Butter and flour (basic roux)"
+          ],
+          [
+            null,
+            null,
+            "English Cheddar",
+            "English cheddar"
+          ],
+          [
+            null,
+            null,
+            "Stout Beer",
+            "Stout beer"
+          ],
+          [
+            null,
+            null,
+            "Worcestershire Sauce",
+            "Worcestershire sauce"
+          ],
+          [
+            null,
+            null,
+            "English Mustard Powder",
+            "English mustard powder"
+          ]
+        ]
+      },
+      {
+        "method": "For Serving",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Sliced Bread",
+            "Sliced bread"
+          ],
+          [
+            null,
+            null,
+            "Sausage Links",
+            "Sausage links"
+          ],
+          [
+            null,
+            null,
+            "Bacon",
+            "Slices of bacon"
+          ],
+          [
+            null,
+            null,
+            "Poached Eggs",
+            "Poached eggs"
+          ],
+          [
+            null,
+            null,
+            "Lapsang Tea",
+            "Lapsang tea"
+          ]
+        ]
       }
     ]
   },
@@ -477,9 +1185,10 @@
     "episode_name": "Johnny Cakes inspired by The Sopranos",
     "episode_link": "https://www.bingingwithbabish.com/recipes/johnnycakes",
     "youtube_link": "https://www.youtube.com/watch?v=DdFKKZe73Pk",
+    "published": "2018-08-28",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Sausage",
         "ingredients": [
           [
             4.0,
@@ -527,7 +1236,7 @@
             0.5,
             "tablespoon",
             "Maple Syrup",
-            "\u00bd Tbsp maple syrup"
+            "½ Tbsp maple syrup"
           ],
           [
             null,
@@ -557,13 +1266,48 @@
             0.5,
             "teaspoon",
             "Smoked Paprika",
-            "\u00bd tsp smoked paprika"
+            "½ tsp smoked paprika"
           ],
           [
             null,
             null,
             "Sausage Casings",
             "Sausage casings"
+          ]
+        ]
+      },
+      {
+        "method": "Johnny Cakes",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Cornmeal",
+            "1 cup cornmeal"
+          ],
+          [
+            1.0,
+            "cup",
+            "Water",
+            "1 cup water, boiling"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Milk",
+            "⅓ cup milk, room temperature"
+          ],
+          [
+            null,
+            null,
+            "Bacon Fat",
+            "Bacon fat"
+          ],
+          [
+            null,
+            null,
+            "Maple Syrup And Butter",
+            "Maple syrup and butter, for serving"
           ]
         ]
       }
@@ -573,9 +1317,10 @@
     "episode_name": "#BabishPanini Winning Recipe - Car Panini inspired by Family Guy",
     "episode_link": "https://www.bingingwithbabish.com/recipes/babishpaniniwinner",
     "youtube_link": "https://youtu.be/ImoP-Apzrsg?t=11m22s",
+    "published": "2018-08-21",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Mole Sauce",
         "ingredients": [
           [
             null,
@@ -635,31 +1380,31 @@
             0.3333333333333333,
             "cup",
             "Peanuts",
-            "\u2153 cup peanuts"
+            "⅓ cup peanuts"
           ],
           [
             0.3333333333333333,
             "cup",
             "Pumpkin Seeds",
-            "\u2153 cup pumpkin seeds"
+            "⅓ cup pumpkin seeds"
           ],
           [
             0.3333333333333333,
             "cup",
             "Almonds",
-            "\u2153 cup almonds"
+            "⅓ cup almonds"
           ],
           [
             0.3333333333333333,
             "cup",
             "Raisins",
-            "\u2153 cup raisins"
+            "⅓ cup raisins"
           ],
           [
             0.25,
             "cup",
             "Sesame Seeds",
-            "\u00bc cup sesame seeds"
+            "¼ cup sesame seeds"
           ],
           [
             1.0,
@@ -683,19 +1428,19 @@
             0.25,
             "teaspoon",
             "Dried Thyme",
-            "\u00bc tsp dried thyme"
+            "¼ tsp dried thyme"
           ],
           [
             0.25,
             "teaspoon",
             "Marjoram",
-            "\u00bc tsp marjoram"
+            "¼ tsp marjoram"
           ],
           [
             0.25,
             "teaspoon",
             "Aniseed",
-            "\u00bc tsp aniseed"
+            "¼ tsp aniseed"
           ],
           [
             4.0,
@@ -722,6 +1467,57 @@
             "Tomatillos (optional)"
           ]
         ]
+      },
+      {
+        "method": "Cheddar Crisps",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Shredded Mild Cheddar Cheese",
+            "Shredded mild cheddar cheese"
+          ]
+        ]
+      },
+      {
+        "method": "Goat Cheese Cream",
+        "ingredients": [
+          [
+            5.0,
+            "ounce",
+            "Goat Cheese",
+            "5 ounces goat cheese"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Honey",
+            "1 Tbsp honey"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Heavy Cream",
+            "2 Tbsp heavy cream"
+          ]
+        ]
+      },
+      {
+        "method": "Sandwich Stuff",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "White Bread",
+            "2 slices of white bread"
+          ],
+          [
+            null,
+            null,
+            "Chorizo",
+            "Chorizo"
+          ]
+        ]
       }
     ]
   },
@@ -729,9 +1525,10 @@
     "episode_name": "3 Million Subscriber Special: The Eggscellent Challenge inspired by Regular Show",
     "episode_link": "https://www.bingingwithbabish.com/recipes/eggscellentchallenge",
     "youtube_link": "https://www.youtube.com/watch?v=ImoP-Apzrsg",
+    "published": "2018-08-21",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Chili",
         "ingredients": [
           [
             1.0,
@@ -797,7 +1594,7 @@
             1.0,
             null,
             "Chipotles In Adobo",
-            "1 can of chipotles in adobo, peppers removed (we\u2019ll be using the sauce)"
+            "1 can of chipotles in adobo, peppers removed (we’ll be using the sauce)"
           ],
           [
             1.0,
@@ -812,6 +1609,105 @@
             "1 tsp oregano"
           ]
         ]
+      },
+      {
+        "method": "Omelette",
+        "ingredients": [
+          [
+            12.0,
+            null,
+            "Eggs",
+            "12 eggs"
+          ],
+          [
+            1.0,
+            null,
+            "Red Pepper",
+            "1 red pepper"
+          ],
+          [
+            1.0,
+            null,
+            "Green Pepper",
+            "1 green pepper"
+          ],
+          [
+            16.0,
+            "ounce",
+            "Mushrooms",
+            "16 ounces mushrooms"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ]
+        ]
+      },
+      {
+        "method": "Fruit",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Watermelon",
+            "1 watermelon"
+          ],
+          [
+            1.0,
+            null,
+            "Cantaloupe",
+            "1 cantaloupe"
+          ],
+          [
+            1.0,
+            null,
+            "Honeydew Melon",
+            "1 honeydew melon"
+          ]
+        ]
+      },
+      {
+        "method": "Biscuits",
+        "ingredients": [
+          [
+            675.0,
+            "gram",
+            "Flour",
+            "675g flour"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Baking Powder",
+            "2 Tbsp baking powder"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Baking Soda",
+            "1 Tbsp baking soda"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Table Salt",
+            "1 tsp table salt (or 2 tsp kosher salt)"
+          ],
+          [
+            1.0,
+            null,
+            "Stick Butter",
+            "1 stick butter (8 Tbsp)"
+          ],
+          [
+            2.0,
+            "cup",
+            "Buttermilk",
+            "2 cups buttermilk"
+          ]
+        ]
       }
     ]
   },
@@ -819,9 +1715,10 @@
     "episode_name": "Spinach Puffs inspired by The Emperor's New Groove",
     "episode_link": "https://www.bingingwithbabish.com/recipes/spinachpuffs",
     "youtube_link": "https://www.youtube.com/watch?v=x5-QoCicNfI",
+    "published": "2018-08-14",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Spinach Puffs inspired by The Emperor's New Groove",
         "ingredients": [
           [
             "2-3",
@@ -881,7 +1778,7 @@
             0.5,
             "cup",
             "Feta Cheese",
-            "\u00bd cup feta cheese"
+            "½ cup feta cheese"
           ],
           [
             "2-4",
@@ -909,21 +1806,22 @@
     "episode_name": "Beignets inspired by Chef (and Princess and the Frog)",
     "episode_link": "https://www.bingingwithbabish.com/recipes/beignetsfromchef",
     "youtube_link": "https://www.youtube.com/watch?v=DnuHzHHwqAw&t=142s",
+    "published": "2018-08-07",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Beignets inspired by Chef (and Princess and the Frog)",
         "ingredients": [
           [
             1.5,
             "cup",
             "Buttermilk",
-            "1 \u00bd cups buttermilk"
+            "1 ½ cups buttermilk"
           ],
           [
             0.5,
             "cup",
             "Boiling Milk",
-            "\u00bd cup boiling milk"
+            "½ cup boiling milk"
           ],
           [
             4.0,
@@ -935,7 +1833,7 @@
             2.5,
             "tablespoon",
             "Sugar",
-            "2 \u00bd Tbsp sugar"
+            "2 ½ Tbsp sugar"
           ],
           [
             22.0,
@@ -947,13 +1845,13 @@
             0.5,
             "teaspoon",
             "Baking Soda",
-            "\u00bd tsp baking soda"
+            "½ tsp baking soda"
           ],
           [
             0.5,
             "teaspoon",
             "Kosher Salt",
-            "\u00bd tsp kosher salt"
+            "½ tsp kosher salt"
           ],
           [
             null,
@@ -981,9 +1879,10 @@
     "episode_name": "Teamster Sandwich inspired by 30 Rock",
     "episode_link": "https://www.bingingwithbabish.com/recipes/teamstersandwich",
     "youtube_link": "https://www.youtube.com/watch?v=tmUximhgYnI",
+    "published": "2018-07-31",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Teamster Sandwich inspired by 30 Rock",
         "ingredients": [
           [
             1.0,
@@ -1037,7 +1936,7 @@
             0.3333333333333333,
             "cup",
             "Leftover Fat",
-            "\u2153 cup of leftover fat"
+            "⅓ cup of leftover fat"
           ],
           [
             1.0,
@@ -1083,9 +1982,10 @@
     "episode_name": "Fried Green Tomatoes inspired by...Fried Green Tomatoes",
     "episode_link": "https://www.bingingwithbabish.com/recipes/friedgreentomatoes",
     "youtube_link": "https://www.youtube.com/watch?v=KKBkY-7TCw0",
+    "published": "2018-07-24",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Fried Green Tomatoes inspired by...Fried Green Tomatoes",
         "ingredients": [
           [
             4.0,
@@ -1103,7 +2003,7 @@
             0.75,
             "cup",
             "Mayonnaise",
-            "\u00be cup mayonnaise"
+            "¾ cup mayonnaise"
           ],
           [
             1.0,
@@ -1114,8 +2014,8 @@
           [
             null,
             null,
-            "\u00bc A Lemon",
-            "Juice of \u00bc a lemon"
+            "¼ A Lemon",
+            "Juice of ¼ a lemon"
           ],
           [
             1.0,
@@ -1175,13 +2075,13 @@
             0.5,
             "cup",
             "Breadcrumbs",
-            "\u00bd cup breadcrumbs"
+            "½ cup breadcrumbs"
           ],
           [
             1.5,
             "cup",
             "White Flour",
-            "1 \u00bd cups white flour"
+            "1 ½ cups white flour"
           ],
           [
             null,
@@ -1227,9 +2127,10 @@
     "episode_name": "Okonomiyaki inspired by Sweetness & Lightning",
     "episode_link": "https://www.bingingwithbabish.com/recipes/okonomiyaki",
     "youtube_link": "https://www.youtube.com/watch?v=DNg7Obo-DDM",
+    "published": "2018-07-17",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Okonomiyaki Sauce",
         "ingredients": [
           [
             1.0,
@@ -1253,7 +2154,113 @@
             3.5,
             "tablespoon",
             "Worcestershire Sauce",
-            "3 \u00bd Tbsp worcestershire sauce"
+            "3 ½ Tbsp worcestershire sauce"
+          ]
+        ]
+      },
+      {
+        "method": "Japanese Mayo",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Mayo",
+            "1 cup mayo"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Sugar",
+            "1 Tbsp sugar"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Rice Wine Vinegar",
+            "1 Tbsp rice wine vinegar"
+          ]
+        ]
+      },
+      {
+        "method": "Okonomiyaki",
+        "ingredients": [
+          [
+            0.25,
+            "cup",
+            "Pickled Red Ginger",
+            "¼ cup pickled red ginger"
+          ],
+          [
+            "3-4",
+            null,
+            "Scallions",
+            "3-4 scallions, chopped"
+          ],
+          [
+            0.5,
+            null,
+            "Cabbage",
+            "½ head of cabbage, shredded"
+          ],
+          [
+            1.0,
+            "cup",
+            "Cake Flour",
+            "1 cup cake flour"
+          ],
+          [
+            1.5,
+            "teaspoon",
+            "Baking Powder",
+            "1 ½ tsp baking powder"
+          ],
+          [
+            1.0,
+            "cup",
+            "Dashi Broth",
+            "1 cup dashi broth"
+          ],
+          [
+            1.0,
+            null,
+            "Japanese Mountain Yam",
+            "1 Japanese mountain yam, grated (if you can’t find this, you can use ½ cup of milk combined with 1 tsp baking powder)"
+          ],
+          [
+            4.0,
+            "large",
+            "Eggs",
+            "4 large eggs"
+          ],
+          [
+            0.5,
+            "cup",
+            "Tenkasu",
+            "½ cup tenkasu (fried tempura scraps)"
+          ],
+          [
+            null,
+            null,
+            "Pork Belly",
+            "Slices of pork belly (or bacon)"
+          ],
+          [
+            null,
+            null,
+            "Dried Bonito Flakes",
+            "Dried bonito flakes (for garnish)"
+          ],
+          [
+            null,
+            null,
+            "Aonori",
+            "Aonori (dried green seaweed, for garnish)"
+          ],
+          [
+            null,
+            null,
+            "Any Toppings/fillings You Desire",
+            "Any toppings/fillings you desire"
           ]
         ]
       }
@@ -1263,9 +2270,10 @@
     "episode_name": "Car Panini inspired by Family Guy",
     "episode_link": "https://www.bingingwithbabish.com/recipes/carpanini",
     "youtube_link": "https://www.youtube.com/watch?v=4Rz8BPRFeiA",
+    "published": "2018-07-10",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Car Panini inspired by Family Guy",
         "ingredients": [
           [
             null,
@@ -1301,7 +2309,7 @@
             4.0,
             null,
             "Reese's Peanut Butter Cups",
-            "4 Reese\u2019s Peanut Butter Cups"
+            "4 Reese’s Peanut Butter Cups"
           ]
         ]
       }
@@ -1311,9 +2319,10 @@
     "episode_name": "Shrimp inspired by Forrest Gump | Part 1",
     "episode_link": "https://www.bingingwithbabish.com/recipes/forrestgumpshrimp",
     "youtube_link": "https://www.youtube.com/watch?v=6HBPHRDEt_Q",
+    "published": "2018-07-03",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Shrimp Prep",
         "ingredients": [
           [
             1.0,
@@ -1340,6 +2349,278 @@
             "Pepper"
           ]
         ]
+      },
+      {
+        "method": "Pan Fried Shrimp",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Prepared Shrimp",
+            "Prepared shrimp"
+          ],
+          [
+            null,
+            null,
+            "Baking Powder",
+            "Baking powder"
+          ],
+          [
+            null,
+            null,
+            "Salt Pepper",
+            "Salt Pepper"
+          ],
+          [
+            null,
+            null,
+            "Compound Butter",
+            "Compound butter (butter mixed with parsley and garlic)"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ]
+        ]
+      },
+      {
+        "method": "Coconut Shrimp",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Shrimp",
+            "Shrimp"
+          ],
+          [
+            null,
+            null,
+            "Unsweetened Coconut",
+            "Unsweetened coconut"
+          ],
+          [
+            null,
+            null,
+            "Panko Bread Crumbs",
+            "Panko bread crumbs"
+          ],
+          [
+            1.0,
+            "cup",
+            "Flour",
+            "1 cup flour"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            null,
+            null,
+            "Baking Powder",
+            "Baking powder"
+          ],
+          [
+            1.0,
+            null,
+            "Mexican Beer",
+            "1 Mexican beer"
+          ],
+          [
+            null,
+            null,
+            "Fresh Lime",
+            "Fresh lime"
+          ],
+          [
+            null,
+            null,
+            "Peanut Oil",
+            "Peanut oil"
+          ]
+        ]
+      },
+      {
+        "method": "Shrimp Salad Sandwich",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Shrimp",
+            "Shrimp (boiled/poached and tailless)"
+          ],
+          [
+            0.25,
+            "cup",
+            "Mayonnaise",
+            "1/4 cup mayonnaise"
+          ],
+          [
+            null,
+            null,
+            "Lemon Juice",
+            "Lemon juice"
+          ],
+          [
+            null,
+            null,
+            "Dill",
+            "Dill, chopped"
+          ],
+          [
+            null,
+            null,
+            "Parsley",
+            "Parsley, chopped"
+          ],
+          [
+            null,
+            null,
+            "Celery",
+            "Celery, chopped"
+          ],
+          [
+            null,
+            null,
+            "Green Onions",
+            "Green onions, chopped"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Sandwich Bread",
+            "Sandwich bread"
+          ],
+          [
+            null,
+            null,
+            "Butter Lettuce",
+            "Butter lettuce"
+          ],
+          [
+            null,
+            null,
+            "Tomatoes",
+            "Tomatoes"
+          ]
+        ]
+      },
+      {
+        "method": "Shrimp Gumbo",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Celery",
+            "Celery, diced"
+          ],
+          [
+            null,
+            null,
+            "Green Pepper",
+            "Green pepper, diced"
+          ],
+          [
+            null,
+            null,
+            "White Onion",
+            "White onion, diced"
+          ],
+          [
+            6.0,
+            null,
+            "Cloves Garlic",
+            "6 cloves garlic, minced"
+          ],
+          [
+            1.0,
+            "cup",
+            "Okra",
+            "1 cup okra, sliced"
+          ],
+          [
+            null,
+            null,
+            "Shrimp Shells",
+            "Shrimp shells (or any kind of stock if you aren't making your own)"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            null,
+            null,
+            "All Purpose Flour",
+            "All purpose flour"
+          ],
+          [
+            null,
+            null,
+            "Paprika",
+            "Paprika"
+          ],
+          [
+            null,
+            null,
+            "Cayenne Pepper",
+            "Cayenne pepper"
+          ],
+          [
+            null,
+            null,
+            "Andouille Sausage",
+            "Andouille sausage (or kielbasa)"
+          ],
+          [
+            null,
+            null,
+            "Bay Leaves",
+            "Bay leaves"
+          ],
+          [
+            null,
+            null,
+            "Shrimp",
+            "Shrimp"
+          ],
+          [
+            null,
+            null,
+            "Parsley",
+            "Parsley, chopped"
+          ],
+          [
+            null,
+            null,
+            "White Rice",
+            "White rice (to serve with)"
+          ]
+        ]
       }
     ]
   },
@@ -1347,9 +2628,10 @@
     "episode_name": "Congee inspired by Mulan",
     "episode_link": "https://www.bingingwithbabish.com/recipes/mulancongee",
     "youtube_link": "https://www.youtube.com/watch?v=VGsIsfIyz4E",
+    "published": "2018-06-26",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Congee inspired by Mulan",
         "ingredients": [
           [
             1.0,
@@ -1443,9 +2725,10 @@
     "episode_name": "Pizza inspired by Deadpool",
     "episode_link": "https://www.bingingwithbabish.com/recipes/deadpoolpizza",
     "youtube_link": "https://www.youtube.com/watch?v=95M8W1JgH_0",
+    "published": "2018-06-19",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For the Dough",
         "ingredients": [
           [
             250.0,
@@ -1484,6 +2767,41 @@
             "Vegetable or olive oil"
           ]
         ]
+      },
+      {
+        "method": "Toppings",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Fresh Mozzarella",
+            "Fresh mozzarella"
+          ],
+          [
+            null,
+            null,
+            "Olives",
+            "Olives"
+          ],
+          [
+            null,
+            null,
+            "Pineapple",
+            "Pineapple"
+          ],
+          [
+            null,
+            null,
+            "Parmesan",
+            "Parmesan"
+          ],
+          [
+            null,
+            null,
+            "Tomato Sauce",
+            "Tomato sauce"
+          ]
+        ]
       }
     ]
   },
@@ -1491,21 +2809,22 @@
     "episode_name": "Pasta Puttanesca inspired by Lemony Snicket's A Series of Unfortunate Events",
     "episode_link": "https://www.bingingwithbabish.com/recipes/pastaputtanesca",
     "youtube_link": "https://www.youtube.com/watch?v=uwV9cq9DRTY&t=311s",
+    "published": "2018-06-12",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Pasta Puttanesca inspired by Lemony Snicket's A Series of Unfortunate Events",
         "ingredients": [
           [
             7.5,
             "ounce",
             "Semolina Flour",
-            "7 \u00bd ounces Semolina flour, separated"
+            "7 ½ ounces Semolina flour, separated"
           ],
           [
             2.5,
             "ounce",
             "All Purpose Flour",
-            "2 \u00bd ounces all purpose flour"
+            "2 ½ ounces all purpose flour"
           ],
           [
             2.3,
@@ -1547,7 +2866,7 @@
             0.5,
             "cup",
             "Minced Parsley",
-            "\u00bd cup minced parsley"
+            "½ cup minced parsley"
           ],
           [
             "3-4",
@@ -1581,9 +2900,10 @@
     "episode_name": "Cannolis inspired by The Godfather",
     "episode_link": "https://www.bingingwithbabish.com/recipes/thegodfathercannolis",
     "youtube_link": "https://www.youtube.com/watch?v=44fjX-rgJ7s",
+    "published": "2018-06-05",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Cannolis inspired by The Godfather",
         "ingredients": [
           [
             48.0,
@@ -1613,13 +2933,13 @@
             1.5,
             "teaspoon",
             "Ground Cinnamon",
-            "1 \u00bd tsp ground cinnamon, divided"
+            "1 ½ tsp ground cinnamon, divided"
           ],
           [
             0.5,
             "teaspoon",
             "Instant Espresso Powder",
-            "\u00bd tsp instant espresso powder"
+            "½ tsp instant espresso powder"
           ],
           [
             30.0,
@@ -1689,9 +3009,10 @@
     "episode_name": "Arrested Development Special (feat. Sean Evans)",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/arresteddevelopmentspecial",
     "youtube_link": "https://www.youtube.com/watch?v=2U_0OlCizx0",
+    "published": "2018-05-29",
     "recipes": [
       {
-        "method": "Method: Bluth Frozen Bananas",
+        "method": "Bluth Frozen Bananas",
         "ingredients": [
           [
             null,
@@ -1726,7 +3047,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Hot Ham Water (Babish Version)",
+        "method": "Hot Ham Water (Babish Version)",
         "ingredients": [
           [
             4.0,
@@ -1755,7 +3076,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0The Cornballer (Hushpuppies)",
+        "method": "The Cornballer (Hushpuppies)",
         "ingredients": [
           [
             120.0,
@@ -1773,13 +3094,13 @@
             1.5,
             "teaspoon",
             "Baking Powder",
-            "1 \u00bd tsp baking powder"
+            "1 ½ tsp baking powder"
           ],
           [
             0.5,
             "teaspoon",
             "Baking Soda",
-            "\u00bd tsp baking soda"
+            "½ tsp baking soda"
           ],
           [
             1.0,
@@ -1791,13 +3112,13 @@
             0.5,
             "teaspoon",
             "Paprika",
-            "\u00bd tsp paprika"
+            "½ tsp paprika"
           ],
           [
             0.75,
             "cup",
             "Buttermilk",
-            "\u00be cup buttermilk"
+            "¾ cup buttermilk"
           ],
           [
             2.0,
@@ -1831,9 +3152,10 @@
     "episode_name": "Bubble Bass' Order inspired by Spongebob Squarepants",
     "episode_link": "https://www.bingingwithbabish.com/recipes/bubblebass",
     "youtube_link": "https://www.youtube.com/watch?v=Y8hi6A5MPVY",
+    "published": "2018-05-22",
     "recipes": [
       {
-        "method": "Method: Babish Version",
+        "method": "Babish Version",
         "ingredients": [
           [
             null,
@@ -1951,9 +3273,10 @@
     "episode_name": "Cheesy Blasters inspired by 30 Rock",
     "episode_link": "https://www.bingingwithbabish.com/recipes/cheesyblasters",
     "youtube_link": "https://www.youtube.com/watch?v=atLL2Yzi3bg",
+    "published": "2018-05-15",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Cheesy Blasters inspired by 30 Rock",
         "ingredients": [
           [
             null,
@@ -2023,9 +3346,10 @@
     "episode_name": "Pies inspired by Waitress",
     "episode_link": "https://www.bingingwithbabish.com/recipes/piesfromwaitress",
     "youtube_link": "https://www.youtube.com/watch?v=NgloGi5xEa8",
+    "published": "2018-05-08",
     "recipes": [
       {
-        "method": "Method: Quiche",
+        "method": "Quiche",
         "ingredients": [
           [
             null,
@@ -2049,7 +3373,7 @@
             0.5,
             "cup",
             "Heavy Cream",
-            "\u00bd cup heavy cream"
+            "½ cup heavy cream"
           ],
           [
             null,
@@ -2078,7 +3402,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Chocolate Strawberry Oasis Pie",
+        "method": "Chocolate Strawberry Oasis Pie",
         "ingredients": [
           [
             25.0,
@@ -2096,7 +3420,7 @@
             1.25,
             "cup",
             "Heavy Cream",
-            "1 \u00bc cups heavy cream"
+            "1 ¼ cups heavy cream"
           ],
           [
             1.0,
@@ -2155,7 +3479,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0NY Style Cheesecake",
+        "method": "NY Style Cheesecake",
         "ingredients": [
           [
             6.0,
@@ -2167,13 +3491,13 @@
             2.3333333333333335,
             "ounce",
             "Brown Sugar",
-            "2 \u2153 ounces brown sugar"
+            "2 ⅓ ounces brown sugar"
           ],
           [
             2.5,
             "ounce",
             "All Purpose Flour",
-            "2 \u00bd ounces all purpose flour"
+            "2 ½ ounces all purpose flour"
           ],
           [
             null,
@@ -2191,7 +3515,7 @@
             2.5,
             "pound",
             "Full Fat Cream Cheese",
-            "2 \u00bd pounds of full fat cream cheese, cut"
+            "2 ½ pounds of full fat cream cheese, cut"
           ],
           [
             11.0,
@@ -2209,13 +3533,13 @@
             0.3333333333333333,
             "cup",
             "Sour Cream",
-            "\u2153 cup sour cream"
+            "⅓ cup sour cream"
           ],
           [
             null,
             null,
-            "\u00bd A Lemon",
-            "Juice of \u00bd a lemon"
+            "½ A Lemon",
+            "Juice of ½ a lemon"
           ],
           [
             1.0,
@@ -2255,9 +3579,10 @@
     "episode_name": "The Sloppy Jessica inspired by Brooklyn Nine-Nine",
     "episode_link": "https://www.bingingwithbabish.com/recipes/thesloppyjessica",
     "youtube_link": "https://www.youtube.com/watch?v=KKoOIyhJwA4",
+    "published": "2018-05-01",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Chili",
         "ingredients": [
           [
             null,
@@ -2326,6 +3651,147 @@
             "Pepper"
           ]
         ]
+      },
+      {
+        "method": "Red Sauce",
+        "ingredients": [
+          [
+            1.0,
+            "small",
+            "Diced Onion",
+            "1 small diced onion"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "Olive oil"
+          ],
+          [
+            "1-2",
+            null,
+            "Garlic",
+            "1-2 cloves of garlic"
+          ],
+          [
+            1.0,
+            null,
+            "Can Pureed Tomatoes",
+            "1 can pureed tomatoes"
+          ],
+          [
+            1.0,
+            null,
+            "Can Diced Tomatoes",
+            "1 can diced tomatoes"
+          ],
+          [
+            null,
+            null,
+            "Dried Oregano",
+            "Dried oregano"
+          ],
+          [
+            1.0,
+            null,
+            "Basil",
+            "1 sprig of basil"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ]
+        ]
+      },
+      {
+        "method": "Mac and cheese",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Box Ziti Noodles",
+            "1 box ziti noodles"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Butter",
+            "3 Tbsp butter"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Flour",
+            "3 Tbsp flour"
+          ],
+          [
+            3.0,
+            "cup",
+            "Milk",
+            "3 cups of whole milk"
+          ],
+          [
+            null,
+            null,
+            "Dried Mustard",
+            "Dried mustard"
+          ],
+          [
+            null,
+            null,
+            "Sauce",
+            "Hot sauce"
+          ],
+          [
+            1.0,
+            "lb",
+            "Grated Yellow Cheddar Cheese",
+            "1 lb grated yellow cheddar cheese"
+          ],
+          [
+            "4-5",
+            "ounce",
+            "Grated Parmesan",
+            "4-5 ounces of grated parmesan"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ]
+        ]
+      },
+      {
+        "method": "Other",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Mozzarella Cheese",
+            "Mozzarella cheese"
+          ],
+          [
+            null,
+            null,
+            "French Bread",
+            "French bread"
+          ]
+        ]
       }
     ]
   },
@@ -2333,15 +3799,16 @@
     "episode_name": "Chicken Paprikash inspired by Captain America: Civil War",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/chickenpaprikash",
     "youtube_link": "https://www.youtube.com/watch?v=baG767jr8c8",
+    "published": "2018-04-24",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Chicken Paprikash inspired by Captain America: Civil War",
         "ingredients": [
           [
             0.25,
             "cup",
             "Lard Or Canola Oil",
-            "\u00bc cup lard or canola oil"
+            "¼ cup lard or canola oil"
           ],
           [
             1.0,
@@ -2383,13 +3850,48 @@
             0.25,
             "cup",
             "Sour Cream",
-            "\u00bc cup sour cream, for serving"
+            "¼ cup sour cream, for serving"
           ],
           [
             null,
             null,
             "Kosher Salt And Freshly Ground Black Pepper",
             "Kosher salt and freshly ground black pepper, to taste"
+          ]
+        ]
+      },
+      {
+        "method": "Dumplings",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Sour Cream",
+            "1 Tbsp sour cream"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            0.75,
+            "cup",
+            "Flour",
+            "¾ cup of flour"
           ]
         ]
       }
@@ -2399,9 +3901,10 @@
     "episode_name": "Chateaubriand Steak inspired by The Matrix",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/chateaubriandsteak",
     "youtube_link": "https://www.youtube.com/watch?v=eA6uLMsl9w0",
+    "published": "2018-04-17",
     "recipes": [
       {
-        "method": "Method: Beef Tenderloin Sear",
+        "method": "Beef Tenderloin Sear",
         "ingredients": [
           [
             1.0,
@@ -2461,12 +3964,12 @@
             null,
             null,
             "Butcher's Twine",
-            "Butcher\u2019s twine"
+            "Butcher’s twine"
           ]
         ]
       },
       {
-        "method": "Method:\u00a0Beef Tenderloin Reverse Sear",
+        "method": "Beef Tenderloin Reverse Sear",
         "ingredients": [
           [
             1.0,
@@ -2538,12 +4041,12 @@
             null,
             null,
             "Butcher's Twine",
-            "Butcher\u2019s twine"
+            "Butcher’s twine"
           ]
         ]
       },
       {
-        "method": "Method:\u00a0Filet Mignon",
+        "method": "Filet Mignon",
         "ingredients": [
           [
             1.0,
@@ -2619,9 +4122,10 @@
     "episode_name": "Shawarma inspired by The Avengers",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/shawarma",
     "youtube_link": "https://www.youtube.com/watch?v=iErqWGwso7o",
+    "published": "2018-04-10",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Palestinian Chicken",
         "ingredients": [
           [
             2.0,
@@ -2633,7 +4137,7 @@
             0.5,
             "cup",
             "Extra Virgin Olive Oil",
-            "\u00bd cup extra virgin olive oil"
+            "½ cup extra virgin olive oil"
           ],
           [
             8.0,
@@ -2693,19 +4197,214 @@
             null,
             null,
             "Chicken Thighs",
-            "Chicken thighs (as many as you\u2019d like to make/marinate)"
+            "Chicken thighs (as many as you’d like to make/marinate)"
+          ]
+        ]
+      },
+      {
+        "method": "Tzatziki Sauce",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Greek Yogurt",
+            "1 cup of greek yogurt"
+          ],
+          [
+            1.0,
+            null,
+            "Cucumber",
+            "1 cucumber, seeded"
+          ],
+          [
+            2.0,
+            null,
+            "Garlic",
+            "2 cloves of garlic"
+          ],
+          [
+            null,
+            null,
+            "One Lemon",
+            "Juice of one lemon"
+          ],
+          [
+            0.25,
+            "cup",
+            "Finely Minced Dill",
+            "¼ cup finely minced dill"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ]
+        ]
+      },
+      {
+        "method": "Tahini",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Sesame Seeds",
+            "Sesame seeds"
+          ],
+          [
+            null,
+            null,
+            "Grapeseed Or Sesame Oil",
+            "Grapeseed or sesame oil"
+          ]
+        ]
+      },
+      {
+        "method": "Tabouleh Salad",
+        "ingredients": [
+          [
+            0.75,
+            "lb",
+            "Cherry Tomatoes",
+            "¾ lb cherry tomatoes (save tomato juice)"
+          ],
+          [
+            1.0,
+            "cup",
+            "Parsley",
+            "1 cup of parsley"
+          ],
+          [
+            1.0,
+            null,
+            "Cucumber",
+            "1 cucumber"
+          ],
+          [
+            2.0,
+            null,
+            "Green Onions",
+            "2 green onions"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "Olive oil"
+          ],
+          [
+            null,
+            null,
+            "Fresh Ground Pepper",
+            "Fresh ground pepper"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Ground Coriander Seed",
+            "A dash of ground coriander seed"
+          ],
+          [
+            null,
+            null,
+            "Allspice",
+            "A dash of allspice"
+          ],
+          [
+            null,
+            null,
+            "Cinnamon",
+            "A dash of cinnamon"
+          ],
+          [
+            null,
+            null,
+            "Cumin",
+            "A dash of cumin"
+          ],
+          [
+            0.25,
+            "cup",
+            "Bulgur Wheat",
+            "¼ cup bulgur wheat"
+          ],
+          [
+            0.25,
+            "cup",
+            "Reserved Tomato Juice",
+            "¼ cup reserved tomato juice"
+          ],
+          [
+            null,
+            null,
+            "Mint",
+            "Mint"
+          ],
+          [
+            null,
+            null,
+            "One Lemon",
+            "Juice of one lemon (to taste)"
+          ]
+        ]
+      },
+      {
+        "method": "Pita Bread",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Package Active Dry Yeast",
+            "1 package active dry yeast"
+          ],
+          [
+            1.0,
+            "cup",
+            "Water",
+            "1 cup warm water"
+          ],
+          [
+            1.0,
+            "cup",
+            "All Purpose Flour Plus 1¾ Cup Flour",
+            "1 cup all purpose flour plus 1¾ cup flour (divided)"
+          ],
+          [
+            1.5,
+            "tablespoon",
+            "Olive Oil",
+            "1 ½ Tbsp olive oil"
+          ],
+          [
+            1.75,
+            "teaspoon",
+            "Salt",
+            "1 ¾ tsp salt"
           ]
         ]
       }
     ]
   },
   {
-    "episode_name": "Cr\u00e8me Br\u00fbl\u00e9e inspired by Amelie",
+    "episode_name": "Crème Brûlée inspired by Amelie",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/cremebrule",
     "youtube_link": "https://www.youtube.com/watch?v=dn_aaxZIA2o",
+    "published": "2018-04-03",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Crème Brûlée inspired by Amelie",
         "ingredients": [
           [
             null,
@@ -2745,9 +4444,10 @@
     "episode_name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna",
     "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
+    "published": "2018-03-27",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Lasagna inspired by Garfield (feat. It's Alive with Brad)",
         "ingredients": [
           [
             1.0,
@@ -2843,7 +4543,7 @@
             1.5,
             "cup",
             "Milk",
-            "1 \u00bd cups of milk"
+            "1 ½ cups of milk"
           ],
           [
             2.0,
@@ -2855,13 +4555,13 @@
             0.5,
             "cup",
             "Freshly Chopped Basil",
-            "\u00bd cup freshly chopped basil"
+            "½ cup freshly chopped basil"
           ],
           [
             0.5,
             "cup",
             "Heavy Cream",
-            "\u00bd cup heavy cream"
+            "½ cup heavy cream"
           ],
           [
             3.0,
@@ -2891,13 +4591,13 @@
             null,
             null,
             "Ricotta Cheese",
-            "Ricotta cheese ( Recipe here )"
+            "Ricotta cheese (Recipe here)"
           ],
           [
             null,
             null,
             "Pasta",
-            "Pasta ( Recipe here )"
+            "Pasta (Recipe here)"
           ]
         ]
       }
@@ -2907,9 +4607,10 @@
     "episode_name": "Parm Heros inspired by Lots of Things",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/parmhero",
     "youtube_link": "https://www.youtube.com/watch?v=DkiyT-dnmv8",
+    "published": "2018-03-20",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Parm Heros inspired by Lots of Things",
         "ingredients": [
           [
             1.0,
@@ -2969,13 +4670,13 @@
             0.25,
             "cup",
             "Basil",
-            "\u00bc cup of basil"
+            "¼ cup of basil"
           ],
           [
             0.25,
             "cup",
             "Parsley",
-            "\u00bc cup of parsley"
+            "¼ cup of parsley"
           ],
           [
             null,
@@ -3005,7 +4706,7 @@
             0.5,
             "cup",
             "Chicken Stock",
-            "\u00bd cup of chicken stock"
+            "½ cup of chicken stock"
           ],
           [
             1.0,
@@ -3069,9 +4770,10 @@
     "episode_name": "Pineapple-Curry Fried Rice inspired by Food Wars!: Shokugeki no Soma",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/pineapplecurryfriedrice",
     "youtube_link": "https://www.youtube.com/watch?v=WRA3a7c4Qt4",
+    "published": "2018-03-13",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Pineapple-Curry Fried Rice inspired by Food Wars!: Shokugeki no Soma",
         "ingredients": [
           [
             null,
@@ -3167,7 +4869,7 @@
             1.0,
             null,
             "Bird's Eye Chili",
-            "1 bird\u2019s eye chili (optional)"
+            "1 bird’s eye chili (optional)"
           ],
           [
             1.0,
@@ -3225,9 +4927,10 @@
     "episode_name": "Clementine Cake inspired by The Secret Life of Walter Mitty",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/clementinecake",
     "youtube_link": "https://www.youtube.com/watch?v=cr2wUlNSFg0",
+    "published": "2018-03-06",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Clementine Cake inspired by The Secret Life of Walter Mitty",
         "ingredients": [
           [
             null,
@@ -3251,25 +4954,25 @@
             1.5,
             "teaspoon",
             "Salt",
-            "1 \u00bd tsp salt"
+            "1 ½ tsp salt"
           ],
           [
             0.75,
             "teaspoon",
             "Baking Powder",
-            "\u00be tsp of baking powder"
+            "¾ tsp of baking powder"
           ],
           [
             0.75,
             "teaspoon",
             "Baking Soda",
-            "\u00be tsp baking soda"
+            "¾ tsp baking soda"
           ],
           [
             1.5,
             "cup",
             "Butter",
-            "1 \u00bd cup of butter"
+            "1 ½ cup of butter"
           ],
           [
             487.5,
@@ -3293,7 +4996,7 @@
             0.75,
             "cup",
             "Clementine Juice",
-            "\u00be cup clementine juice"
+            "¾ cup clementine juice"
           ],
           [
             null,
@@ -3305,7 +5008,7 @@
             1.25,
             "cup",
             "Buttermilk",
-            "1 \u00bc cup buttermilk"
+            "1 ¼ cup buttermilk"
           ],
           [
             null,
@@ -3320,6 +5023,29 @@
             "Parchment paper"
           ]
         ]
+      },
+      {
+        "method": "Clementine Glaze",
+        "ingredients": [
+          [
+            150.0,
+            "gram",
+            "Sifted Powdered Sugar",
+            "150g sifted powdered sugar"
+          ],
+          [
+            "30-45",
+            "ml",
+            "Clementine Juice",
+            "30-45 ml of clementine juice"
+          ],
+          [
+            null,
+            null,
+            "1 Clementine",
+            "Zest of 1 clementine"
+          ]
+        ]
       }
     ]
   },
@@ -3327,9 +5053,10 @@
     "episode_name": "Tamales inspired by Coco",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/tamalesfromcoco",
     "youtube_link": "https://www.youtube.com/watch?v=akA_Z9Xmnvc",
+    "published": "2018-02-27",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Tamales inspired by Coco",
         "ingredients": [
           [
             null,
@@ -3364,8 +5091,8 @@
           [
             null,
             null,
-            "\u00bd An Orange",
-            "Juice of \u00bd an orange"
+            "½ An Orange",
+            "Juice of ½ an orange"
           ],
           [
             2.0,
@@ -3431,7 +5158,7 @@
             1.5,
             "teaspoon",
             "Baking Powder",
-            "1 \u00bd tsp baking powder"
+            "1 ½ tsp baking powder"
           ],
           [
             1.0,
@@ -3459,9 +5186,10 @@
     "episode_name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/chocolatelavacakes",
     "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ",
+    "published": "2018-02-20",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi",
         "ingredients": [
           [
             14.0,
@@ -3473,7 +5201,7 @@
             0.5,
             "cup",
             "Heavy Cream",
-            "\u00bd cup heavy cream"
+            "½ cup heavy cream"
           ],
           [
             12.0,
@@ -3491,7 +5219,7 @@
             0.5,
             "cup",
             "Light Brown Sugar",
-            "\u00bd cup of light brown sugar"
+            "½ cup of light brown sugar"
           ],
           [
             1.0,
@@ -3549,9 +5277,10 @@
     "episode_name": "Frasier Special",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/fraiserspecial",
     "youtube_link": "https://www.youtube.com/watch?v=AwS_DIMeVoM&t=7s",
+    "published": "2018-02-13",
     "recipes": [
       {
-        "method": "Method: Cornish Game Hens",
+        "method": "Cornish Game Hens",
         "ingredients": [
           [
             null,
@@ -3688,7 +5417,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Carpaccio",
+        "method": "Carpaccio",
         "ingredients": [
           [
             null,
@@ -3730,7 +5459,7 @@
             0.5,
             "cup",
             "Olive Oil",
-            "\u00bd cup of olive oil"
+            "½ cup of olive oil"
           ],
           [
             null,
@@ -3746,9 +5475,10 @@
     "episode_name": "Breaking Bad Special",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/breakingbadspecial",
     "youtube_link": "https://www.youtube.com/watch?v=ZY63ZSUdywY",
+    "published": "2018-02-06",
     "recipes": [
       {
-        "method": "Method: Dippin' Sticks",
+        "method": "Dippin' Sticks",
         "ingredients": [
           [
             1.0,
@@ -3760,7 +5490,7 @@
             0.25,
             "cup",
             "Dried Non-fat Milk",
-            "\u00bc cup dried non-fat milk"
+            "¼ cup dried non-fat milk"
           ],
           [
             15.0,
@@ -3772,7 +5502,7 @@
             1.5,
             "cup",
             "Water",
-            "1 \u00bd cup warm water"
+            "1 ½ cup warm water"
           ],
           [
             1.0,
@@ -3790,7 +5520,7 @@
             2.0,
             "tablespoon",
             "Vegetable Oil",
-            "2 Tbsp vegetable oil, plus an additional \u2153 cup vegetable oil"
+            "2 Tbsp vegetable oil, plus an additional ⅓ cup vegetable oil"
           ],
           [
             null,
@@ -3838,7 +5568,7 @@
             0.25,
             "cup",
             "Shredded Parmesan Cheese",
-            "\u00bc cup shredded parmesan cheese"
+            "¼ cup shredded parmesan cheese"
           ],
           [
             null,
@@ -3849,13 +5579,13 @@
         ]
       },
       {
-        "method": "Method:\u00a0Paella Marina",
+        "method": "Paella Marina",
         "ingredients": [
           [
             null,
             null,
             "Stock From Skinner's Stew Episode",
-            "Stock From Skinner\u2019s Stew Episode"
+            "Stock From Skinner’s Stew Episode"
           ],
           [
             2.0,
@@ -3879,7 +5609,7 @@
             0.5,
             "cup",
             "Dry White Wine",
-            "\u00bd cup dry white wine"
+            "½ cup dry white wine"
           ],
           [
             null,
@@ -3944,7 +5674,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Candy Meth",
+        "method": "Candy Meth",
         "ingredients": [
           [
             1.0,
@@ -3962,7 +5692,7 @@
             1.25,
             "cup",
             "Light Corn Syrup",
-            "1 \u00bc cups light corn syrup"
+            "1 ¼ cups light corn syrup"
           ],
           [
             null,
@@ -3984,9 +5714,10 @@
     "episode_name": "Eggs in a Nest inspired by Lots of Stuff",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/egginanest",
     "youtube_link": "https://www.youtube.com/watch?v=4QDDxmtbUsw&feature=youtu.be",
+    "published": "2018-01-30",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Eggs in a Nest inspired by Lots of Stuff",
         "ingredients": [
           [
             400.0,
@@ -4074,9 +5805,10 @@
     "episode_name": "Rum French Toast inspired by Mad Men",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/rumfrenchtoast",
     "youtube_link": "https://www.youtube.com/watch?v=evzWEXpW1pM",
+    "published": "2018-01-23",
     "recipes": [
       {
-        "method": "Method",
+        "method": "French toast",
         "ingredients": [
           [
             1.0,
@@ -4088,13 +5820,13 @@
             0.3333333333333333,
             "cup",
             "Milk",
-            "\u2153 cup of warm whole milk"
+            "⅓ cup of warm whole milk"
           ],
           [
             3.5,
             "cup",
             "Flour",
-            "3 \u00bd cups of flour"
+            "3 ½ cups of flour"
           ],
           [
             1.0,
@@ -4106,7 +5838,7 @@
             0.3333333333333333,
             "cup",
             "Sugar",
-            "\u2153 cup of sugar"
+            "⅓ cup of sugar"
           ],
           [
             2.0,
@@ -4124,7 +5856,7 @@
             1.5,
             null,
             "Unsalted Butter",
-            "1 \u00bd sticks of unsalted butter"
+            "1 ½ sticks of unsalted butter"
           ],
           [
             1.0,
@@ -4151,6 +5883,117 @@
             "1 Tbsp butter"
           ]
         ]
+      },
+      {
+        "method": "Rum maple syrup",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Maple Syrup",
+            "½ cup maple syrup"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Butter",
+            "1 Tbsp butter"
+          ],
+          [
+            0.25,
+            "cup",
+            "Dark Rum",
+            "¼ cup dark rum"
+          ],
+          [
+            0.25,
+            "cup",
+            "Heavy Cream",
+            "¼ cup of heavy cream"
+          ]
+        ]
+      },
+      {
+        "method": "Rum whipped cream",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Heavy Cream",
+            "Heavy cream"
+          ],
+          [
+            null,
+            null,
+            "Sugar",
+            "Sugar"
+          ],
+          [
+            null,
+            null,
+            "Vanilla",
+            "Vanilla"
+          ],
+          [
+            null,
+            null,
+            "Rum",
+            "Rum"
+          ]
+        ]
+      },
+      {
+        "method": "Custard",
+        "ingredients": [
+          [
+            3.0,
+            null,
+            "Eggs",
+            "3 eggs"
+          ],
+          [
+            0.5,
+            "cup",
+            "Heavy Cream",
+            "½ cup of heavy cream"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Pinch of salt"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Nutmeg",
+            "¼ tsp of nutmeg"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Cinnamon",
+            "¼ tsp of cinnamon"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Vanilla",
+            "¼ tsp of vanilla"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Sugar",
+            "3 Tbsp sugar"
+          ],
+          [
+            null,
+            null,
+            "Dark Rum",
+            "Splash of dark rum"
+          ]
+        ]
       }
     ]
   },
@@ -4158,9 +6001,10 @@
     "episode_name": "The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/everymeatburrito",
     "youtube_link": "https://www.youtube.com/watch?v=Mf4wwXM2o_M",
+    "published": "2018-01-16",
     "recipes": [
       {
-        "method": "Default - The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special",
+        "method": "The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special",
         "ingredients": [
           [
             null,
@@ -4301,6 +6145,53 @@
             "Monterey jack cheese"
           ]
         ]
+      },
+      {
+        "method": "Spice Paste",
+        "ingredients": [
+          [
+            5.0,
+            null,
+            "Guajillo Chiles",
+            "5 guajillo chiles"
+          ],
+          [
+            5.0,
+            null,
+            "Pasilla Chiles",
+            "5 pasilla chiles"
+          ],
+          [
+            null,
+            null,
+            "Onion Powder",
+            "Onion powder"
+          ],
+          [
+            null,
+            null,
+            "Garlic",
+            "A few cloves of garlic"
+          ],
+          [
+            null,
+            null,
+            "Cumin",
+            "Shake of cumin"
+          ],
+          [
+            null,
+            null,
+            "Mexican Oregano",
+            "Mexican oregano"
+          ],
+          [
+            null,
+            null,
+            "Ground Annatto Seeds",
+            "Ground annatto seeds"
+          ]
+        ]
       }
     ]
   },
@@ -4308,9 +6199,10 @@
     "episode_name": "Moroccan Pasta inspired by Peep Show",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/moroccanpasta",
     "youtube_link": "https://www.youtube.com/watch?v=kBo7FK3NO6s&t=1s",
+    "published": "2018-01-09",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Moroccan Pasta inspired by Peep Show",
         "ingredients": [
           [
             1.0,
@@ -4388,7 +6280,7 @@
             0.5,
             "cup",
             "Feta Cheese",
-            "\u00bd cup feta cheese"
+            "½ cup feta cheese"
           ],
           [
             null,
@@ -4416,9 +6308,10 @@
     "episode_name": "Skinner's Stew inspired by The Simpsons",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/skinnersstew",
     "youtube_link": "https://www.youtube.com/watch?v=y3PoXXoGVj0&t=215s",
+    "published": "2018-01-09",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Skinner's Stew inspired by The Simpsons",
         "ingredients": [
           [
             null,
@@ -4596,9 +6489,10 @@
     "episode_name": "The Wire Special",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/thewirespecial",
     "youtube_link": "https://www.youtube.com/watch?v=mnT4MDdEazs",
+    "published": "2017-12-26",
     "recipes": [
       {
-        "method": "Method: Fish Dish",
+        "method": "Fish Dish",
         "ingredients": [
           [
             2.0,
@@ -4681,7 +6575,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Pit Beef",
+        "method": "Pit Beef",
         "ingredients": [
           [
             1.0,
@@ -4739,9 +6633,10 @@
     "episode_name": "Peking Duck inspired by A Christmas Story",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/pekingduck",
     "youtube_link": "https://www.youtube.com/watch?v=Hez55mhB8UA",
+    "published": "2017-12-19",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Peking Duck inspired by A Christmas Story",
         "ingredients": [
           [
             null,
@@ -4858,6 +6753,23 @@
             "Scallions"
           ]
         ]
+      },
+      {
+        "method": "For Mandarin Style Pancakes",
+        "ingredients": [
+          [
+            10.0,
+            "ounce",
+            "All Purpose Flour",
+            "10 ounces all purpose flour"
+          ],
+          [
+            null,
+            null,
+            "Sesame Oil",
+            "Sesame oil"
+          ]
+        ]
       }
     ]
   },
@@ -4865,9 +6777,10 @@
     "episode_name": "Flanders' Hot Chocolate inspired by The Simpsons Movie",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/flandershotcocoa",
     "youtube_link": "https://www.youtube.com/watch?v=UCZVSr2Xt2k",
+    "published": "2017-12-12",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Flanders' Hot Chocolate inspired by The Simpsons Movie",
         "ingredients": [
           [
             null,
@@ -4897,19 +6810,19 @@
             0.5,
             "cup",
             "Ghirardelli Cocoa Powder",
-            "\u00bd cup of Ghirardelli cocoa powder"
+            "½ cup of Ghirardelli cocoa powder"
           ],
           [
             0.5,
             "cup",
             "70% Dark Baking Chocolate",
-            "\u00bd cup of 70% dark baking chocolate"
+            "½ cup of 70% dark baking chocolate"
           ],
           [
             0.5,
             "cup",
             "Sugar",
-            "\u00bd cup of sugar"
+            "½ cup of sugar"
           ],
           [
             null,
@@ -4961,9 +6874,10 @@
     "episode_name": "Quatro Quesos Dos Fritos inspired by Psych",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/quatroquesodosfritos",
     "youtube_link": "https://www.youtube.com/watch?v=O-H_Ybmtu_U",
+    "published": "2017-12-05",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Potatoes",
         "ingredients": [
           [
             3.0,
@@ -5026,6 +6940,23 @@
             "Crispy bacon"
           ]
         ]
+      },
+      {
+        "method": "Sour Cream",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Sour Cream",
+            "Sour Cream"
+          ],
+          [
+            null,
+            null,
+            "Dried Ancho Chili Powder",
+            "Dried Ancho Chili powder"
+          ]
+        ]
       }
     ]
   },
@@ -5033,9 +6964,10 @@
     "episode_name": "The Garbage Plate inspired by The Place Beyond The Pines (sort of)",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/garbageplate",
     "youtube_link": "https://www.youtube.com/watch?v=wjoeVwJTUTA",
+    "published": "2017-11-28",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Mysterious Meat Sauce",
         "ingredients": [
           [
             1.0,
@@ -5059,49 +6991,202 @@
             0.25,
             "teaspoon",
             "Ground Cloves",
-            "\u00bc tsp ground cloves"
+            "¼ tsp ground cloves"
           ],
           [
             0.25,
             "teaspoon",
             "Cinnamon",
-            "\u00bc tsp cinnamon"
+            "¼ tsp cinnamon"
           ],
           [
             0.25,
             "teaspoon",
             "Allspice",
-            "\u00bc tsp allspice"
+            "¼ tsp allspice"
           ],
           [
             0.25,
             "teaspoon",
             "Cayenne Pepper",
-            "\u00bc tsp cayenne pepper"
+            "¼ tsp cayenne pepper"
           ],
           [
             0.25,
             "teaspoon",
             "Ground Cumin",
-            "\u00bc tsp ground cumin"
+            "¼ tsp ground cumin"
           ],
           [
             0.25,
             "teaspoon",
             "Paprika",
-            "\u00bc tsp paprika"
+            "¼ tsp paprika"
           ],
           [
             0.25,
             "teaspoon",
             "Garlic Powder",
-            "\u00bc tsp garlic powder"
+            "¼ tsp garlic powder"
           ],
           [
             2.0,
             null,
             "Pinches Salt And Pepper",
             "2 pinches salt and pepper"
+          ]
+        ]
+      },
+      {
+        "method": "Diner Style Home Fries",
+        "ingredients": [
+          [
+            3.0,
+            null,
+            "Peeled Potatoes",
+            "3 peeled potatoes"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "White Vinegar",
+            "3 Tbsp white vinegar"
+          ],
+          [
+            3.0,
+            null,
+            "Pinches Kosher Salt",
+            "3 pinches kosher salt"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Vegetable Oil",
+            "1 Tbsp vegetable oil"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Butter",
+            "1 Tbsp butter"
+          ],
+          [
+            1.0,
+            null,
+            "Pinch Osalt",
+            "1 pinch osalt"
+          ],
+          [
+            null,
+            null,
+            "A Teaspoon Paprika",
+            "A teaspoon paprika (if desired)"
+          ],
+          [
+            1.0,
+            null,
+            "Pinch Pepper",
+            "1 pinch pepper"
+          ]
+        ]
+      },
+      {
+        "method": "Macaroni Salad",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Cooked And Rinsed Pasta",
+            "Cooked and rinsed pasta"
+          ],
+          [
+            1.0,
+            "cup",
+            "Cut Carrots",
+            "1 cup cut carrots"
+          ],
+          [
+            0.5,
+            "cup",
+            "Cut Celery",
+            "½ cup cut celery"
+          ],
+          [
+            0.5,
+            "cup",
+            "Chopped Green Onion",
+            "½ cup chopped green onion"
+          ],
+          [
+            1.0,
+            "cup",
+            "Parsley",
+            "1 cup parsley"
+          ],
+          [
+            0.5,
+            "cup",
+            "Peppadew Peppers",
+            "½ cup peppadew peppers"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Garlic Powder",
+            "½ tsp garlic powder"
+          ],
+          [
+            1.0,
+            null,
+            "Pinch Kosher Salt",
+            "1 pinch kosher salt"
+          ],
+          [
+            1.0,
+            null,
+            "Pinch Freshly Ground Pepper",
+            "1 pinch freshly ground pepper"
+          ],
+          [
+            null,
+            null,
+            "Two Spoonfuls Mayonnaise",
+            "Two spoonfuls mayonnaise"
+          ],
+          [
+            1.0,
+            null,
+            "Spoonful Sour Cream",
+            "1 spoonful sour cream"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Dijon Mustard",
+            "1 Tbsp Dijon mustard"
+          ]
+        ]
+      },
+      {
+        "method": "Other",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Dogs",
+            "Hot dogs"
+          ],
+          [
+            null,
+            null,
+            "Ketchup",
+            "Ketchup"
+          ],
+          [
+            null,
+            null,
+            "Yellow Mustard",
+            "Yellow mustard"
           ]
         ]
       }
@@ -5111,9 +7196,10 @@
     "episode_name": "Rachel's Trifle inspired by Friends",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/racheltrifle",
     "youtube_link": "https://www.youtube.com/watch?v=G4BxOhJOmUw",
+    "published": "2017-11-21",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Rachel's Trifle inspired by Friends",
         "ingredients": [
           [
             null,
@@ -5149,13 +7235,13 @@
             0.5,
             "cup",
             "Red Wine",
-            "\u00bd cup red wine"
+            "½ cup red wine"
           ],
           [
-            "\u00bd -1",
+            "½ -1",
             "cup",
             "Beef Stock",
-            "\u00bd -1 cup beef stock"
+            "½ -1 cup beef stock"
           ],
           [
             1.0,
@@ -5194,6 +7280,153 @@
             "Plantains"
           ]
         ]
+      },
+      {
+        "method": "Custard",
+        "ingredients": [
+          [
+            4.0,
+            "tablespoon",
+            "Butter",
+            "4 Tbsp butter"
+          ],
+          [
+            4.0,
+            "tablespoon",
+            "Flour",
+            "4 Tbsp flour"
+          ],
+          [
+            2.5,
+            "cup",
+            "Milk",
+            "2 ½ cups whole milk"
+          ],
+          [
+            null,
+            null,
+            "Nutmeg",
+            "Nutmeg"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Eggs",
+            "Eggs"
+          ]
+        ]
+      },
+      {
+        "method": "Raspberry Jam Surrogate",
+        "ingredients": [
+          [
+            0.5,
+            null,
+            "Pint Raspberries",
+            "½ pint raspberries"
+          ],
+          [
+            0.5,
+            "cup",
+            "Wine",
+            "½ cup of wine"
+          ],
+          [
+            null,
+            null,
+            "Balsamic Vinegar",
+            "Splash of balsamic vinegar"
+          ],
+          [
+            null,
+            null,
+            "Sugar",
+            "Pinch of sugar"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Pinch of salt"
+          ]
+        ]
+      },
+      {
+        "method": "Cornbread",
+        "ingredients": [
+          [
+            2.0,
+            "tablespoon",
+            "Vegetable Oil",
+            "2 Tbsp vegetable oil"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Butter",
+            "2 Tbsp butter"
+          ],
+          [
+            11.5,
+            "ounce",
+            "Cornmeal",
+            "11.5 ounces cornmeal"
+          ],
+          [
+            2.0,
+            "ounce",
+            "All Purpose Flour",
+            "2 ounces all purpose flour"
+          ],
+          [
+            null,
+            null,
+            "Sugar",
+            "Pinch of sugar"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Pinch of salt"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Baking Powder",
+            "2 tsp baking powder"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Baking Soda",
+            "1 tsp baking soda"
+          ],
+          [
+            0.5,
+            "cup",
+            "Milk",
+            "½ cup whole milk"
+          ],
+          [
+            1.0,
+            "cup",
+            "Buttermilk",
+            "1 cup of buttermilk"
+          ],
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs"
+          ]
+        ]
       }
     ]
   },
@@ -5201,9 +7434,10 @@
     "episode_name": "Harry Potter Special",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/harrypotterspecial",
     "youtube_link": "https://www.youtube.com/watch?v=LXDAu8DnALw",
+    "published": "2017-11-14",
     "recipes": [
       {
-        "method": "Method: Pumpkin Pastry",
+        "method": "Pumpkin Pastry",
         "ingredients": [
           [
             2.0,
@@ -5251,13 +7485,13 @@
             0.5,
             "cup",
             "Brown Sugar",
-            "\u00bd cup brown sugar"
+            "½ cup brown sugar"
           ],
           [
             0.25,
             "cup",
             "Maple Syrup",
-            "\u00bc cup maple syrup"
+            "¼ cup maple syrup"
           ],
           [
             1.0,
@@ -5274,19 +7508,19 @@
         ]
       },
       {
-        "method": "Method:\u00a0Treacle Tart",
+        "method": "For Crust",
         "ingredients": [
           [
             0.25,
             "cup",
             "Water",
-            "\u00bc cup water"
+            "¼ cup water"
           ],
           [
             0.25,
             "cup",
             "Vodka",
-            "\u00bc cup vodka"
+            "¼ cup vodka"
           ],
           [
             11.5,
@@ -5310,7 +7544,48 @@
             2.5,
             null,
             "Semi Frozen Unsalted Butter",
-            "2 \u00bd sticks of semi frozen unsalted butter"
+            "2 ½ sticks of semi frozen unsalted butter"
+          ]
+        ]
+      },
+      {
+        "method": "Treacle Tart",
+        "ingredients": [
+          [
+            0.25,
+            "cup",
+            "Water",
+            "¼ cup water"
+          ],
+          [
+            0.25,
+            "cup",
+            "Vodka",
+            "¼ cup vodka"
+          ],
+          [
+            11.5,
+            "ounce",
+            "All Purpose Flour",
+            "11.5 ounces all purpose flour"
+          ],
+          [
+            1.0,
+            "ounce",
+            "Sugar",
+            "1 ounce sugar"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Kosher Salt",
+            "1 tsp kosher salt"
+          ],
+          [
+            2.5,
+            null,
+            "Semi Frozen Unsalted Butter",
+            "2 ½ sticks of semi frozen unsalted butter"
           ],
           [
             12.0,
@@ -5321,7 +7596,42 @@
         ]
       },
       {
-        "method": "Method:\u00a0Butterbeer",
+        "method": "For Tart Filling",
+        "ingredients": [
+          [
+            16.0,
+            "ounce",
+            "Light Molasses",
+            "16 ounces light molasses"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Butter",
+            "2 Tbsp butter"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Heavy Cream",
+            "3 Tbsp heavy cream"
+          ],
+          [
+            0.25,
+            "cup",
+            "Bread Crumbs",
+            "¼ cup bread crumbs"
+          ],
+          [
+            1.0,
+            "large",
+            "Egg",
+            "1 large egg"
+          ]
+        ]
+      },
+      {
+        "method": "Butterbeer",
         "ingredients": [
           [
             1.0,
@@ -5351,7 +7661,7 @@
             0.5,
             "ounce",
             "Simple Syrup",
-            "\u00bd ounces simple syrup"
+            "½ ounces simple syrup"
           ],
           [
             null,
@@ -5373,21 +7683,22 @@
     "episode_name": "Triple-Decker Eggo Extravaganza inspired by Stranger Things",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/tripledeckereggo",
     "youtube_link": "https://www.youtube.com/watch?v=L1kgO1I9NvQ",
+    "published": "2017-11-07",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For Waffles",
         "ingredients": [
           [
             2.5,
             "cup",
             "Pastry Flour",
-            "2 \u00bd cups pastry flour"
+            "2 ½ cups pastry flour"
           ],
           [
             0.5,
             "cup",
             "Malt Powder",
-            "\u00bd cup malt powder"
+            "½ cup malt powder"
           ],
           [
             2.0,
@@ -5405,13 +7716,13 @@
             0.5,
             "teaspoon",
             "Baking Soda",
-            "\u00bd tsp baking soda"
+            "½ tsp baking soda"
           ],
           [
             0.5,
             "teaspoon",
             "Salt",
-            "\u00bd tsp salt"
+            "½ tsp salt"
           ],
           [
             1.0,
@@ -5429,13 +7740,13 @@
             2.6666666666666665,
             "cup",
             "Milk",
-            "2 \u2154 cups milk"
+            "2 ⅔ cups milk"
           ],
           [
             0.5,
             "cup",
             "Canola Oil",
-            "\u00bd cup canola oil"
+            "½ cup canola oil"
           ],
           [
             2.0,
@@ -5483,13 +7794,36 @@
             null,
             null,
             "Fudge Sauce",
-            "Hot fudge sauce (from Michael Scott Pretzel Episode )"
+            "Hot fudge sauce (from Michael Scott Pretzel Episode)"
           ],
           [
             null,
             null,
             "Peanut Butter Drizzle",
-            "Peanut butter drizzle (from Michael Scott Pretzel Episode )"
+            "Peanut butter drizzle (from Michael Scott Pretzel Episode)"
+          ]
+        ]
+      },
+      {
+        "method": "for syrup",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Maple Syrup",
+            "1 cup maple syrup"
+          ],
+          [
+            0.5,
+            "cup",
+            "Heavy Cream",
+            "½ cup heavy cream"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Butter",
+            "2 Tbsp butter"
           ]
         ]
       }
@@ -5499,9 +7833,10 @@
     "episode_name": "Clay-Roasted Thigh inspired by Hannibal",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/clayroastedthigh",
     "youtube_link": "https://www.youtube.com/watch?v=lnB7svFAZBs&t=2s",
+    "published": "2017-10-31",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Clay-Roasted Thigh inspired by Hannibal",
         "ingredients": [
           [
             4.0,
@@ -5525,7 +7860,7 @@
             0.5,
             "cup",
             "Dong Quai",
-            "\u00bd cup dong quai"
+            "½ cup dong quai"
           ],
           [
             4.0,
@@ -5543,13 +7878,13 @@
             0.5,
             "cup",
             "Dried Longan Flesh",
-            "\u00bd cup dried longan flesh"
+            "½ cup dried longan flesh"
           ],
           [
             0.5,
             "cup",
             "Dried Gocce Berries",
-            "\u00bd cup dried gocce berries"
+            "½ cup dried gocce berries"
           ],
           [
             1.0,
@@ -5591,19 +7926,19 @@
             0.25,
             "cup",
             "Parsley",
-            "\u00bc cup parsley"
+            "¼ cup parsley"
           ],
           [
             0.25,
             "cup",
             "Olive Oil",
-            "\u00bc cup olive oil"
+            "¼ cup olive oil"
           ],
           [
             0.25,
             "cup",
             "White Wine Vinegar",
-            "\u00bc cup white wine vinegar"
+            "¼ cup white wine vinegar"
           ],
           [
             null,
@@ -5616,12 +7951,13 @@
     ]
   },
   {
-    "episode_name": "Michael Scott\u2019s Pretzel inspired by The Office",
+    "episode_name": "Michael Scott’s Pretzel inspired by The Office",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/michaelscottpretzel",
     "youtube_link": "https://www.youtube.com/watch?v=NHA9Ffaal2M&t=252s",
+    "published": "2017-10-17",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For Pretzels",
         "ingredients": [
           [
             2.0,
@@ -5645,7 +7981,7 @@
             3.25,
             "cup",
             "All Purpose Flour",
-            "3 \u00bc cups all purpose flour"
+            "3 ¼ cups all purpose flour"
           ],
           [
             1.0,
@@ -5668,20 +8004,237 @@
           [
             4.0,
             "cup",
-            "Water Combined With \u00bd Cup Baking Soda",
-            "4 cups hot water combined with \u00bd cup baking soda"
+            "Water Combined With ½ Cup Baking Soda",
+            "4 cups hot water combined with ½ cup baking soda"
           ],
           [
             null,
             null,
             "Rock Salt Or Cinnamon Sugar",
-            "Rock salt or cinnamon sugar (\u00bd cup sugar and 2 Tbsp of cinnamon combined)"
+            "Rock salt or cinnamon sugar (½ cup sugar and 2 Tbsp of cinnamon combined)"
           ],
           [
             null,
             null,
             "Melted Butter",
             "Melted butter"
+          ]
+        ]
+      },
+      {
+        "method": "Caramel Topping (From “Homer Simpson's Patented Space Age Out-Of-This-World Moon Waffles”)",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Water",
+            "½ cup water"
+          ],
+          [
+            1.0,
+            "cup",
+            "Sugar",
+            "1 cup sugar"
+          ],
+          [
+            1.0,
+            "cup",
+            "Heavy Cream",
+            "1 cup heavy cream"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Vanilla Extract",
+            "½ tsp vanilla extract (optional)"
+          ]
+        ]
+      },
+      {
+        "method": "Hot Fudge Sauce",
+        "ingredients": [
+          [
+            4.0,
+            "tablespoon",
+            "Butter",
+            "4 Tbsp butter"
+          ],
+          [
+            0.5,
+            "cup",
+            "Cocoa Powder",
+            "½ cup cocoa powder"
+          ],
+          [
+            0.6666666666666666,
+            "cup",
+            "Chocolate Chips",
+            "⅔ cup chocolate chips"
+          ],
+          [
+            2.0,
+            "cup",
+            "Sugar",
+            "2 cups sugar"
+          ],
+          [
+            1.0,
+            null,
+            "Can Sweetened Condensed Milk",
+            "1 can sweetened condensed milk"
+          ]
+        ]
+      },
+      {
+        "method": "Peanut Butter Drizzle",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Heavy Cream",
+            "½ cup heavy cream"
+          ],
+          [
+            0.25,
+            "cup",
+            "Sugar",
+            "¼ cup sugar"
+          ],
+          [
+            0.25,
+            "cup",
+            "Light Corn Syrup",
+            "¼ cup light corn syrup"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Unsalted Butter",
+            "2 Tbsp unsalted butter"
+          ],
+          [
+            null,
+            null,
+            "Vanilla Paste",
+            "A little bit of vanilla paste (optional)"
+          ],
+          [
+            0.5,
+            "cup",
+            "Smooth Peanut Butter",
+            "½ cup smooth peanut butter"
+          ]
+        ]
+      },
+      {
+        "method": "Sweet Glaze",
+        "ingredients": [
+          [
+            1.5,
+            "cup",
+            "Powdered Sugar",
+            "1 ½ cups powdered sugar, sifted to remove lumps"
+          ],
+          [
+            "3-4",
+            "tablespoon",
+            "Milk",
+            "3-4 Tbsp milk"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Vanilla Extract",
+            "2 tsp vanilla extract (optional)"
+          ]
+        ]
+      },
+      {
+        "method": "Other Toppings",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Cinnamon Sugar",
+            "Cinnamon sugar"
+          ],
+          [
+            null,
+            null,
+            "Melted Chocolate",
+            "Melted chocolate"
+          ],
+          [
+            null,
+            null,
+            "Melted White Chocolate",
+            "Melted white chocolate"
+          ],
+          [
+            null,
+            null,
+            "M&ms",
+            "M&Ms"
+          ],
+          [
+            null,
+            null,
+            "Mint Chips",
+            "Mint chips"
+          ],
+          [
+            null,
+            null,
+            "Chocolate Chips",
+            "Chocolate chips"
+          ],
+          [
+            null,
+            null,
+            "Miniature Marshmallows",
+            "Miniature marshmallows"
+          ],
+          [
+            null,
+            null,
+            "Nuts",
+            "Nuts (peanuts)"
+          ],
+          [
+            null,
+            null,
+            "Toffee Nuts",
+            "Toffee Nuts (candied pecans)"
+          ],
+          [
+            null,
+            null,
+            "Sweetened Coconut Flakes",
+            "Sweetened coconut flakes"
+          ],
+          [
+            null,
+            null,
+            "Crushed Oreos",
+            "Crushed Oreos"
+          ],
+          [
+            null,
+            null,
+            "Multi-colored Sprinkles",
+            "Multi-colored sprinkles"
+          ],
+          [
+            null,
+            null,
+            "Cotton Candy Bits",
+            "Cotton candy bits"
+          ],
+          [
+            null,
+            null,
+            "Powdered Sugar",
+            "Powdered sugar"
           ]
         ]
       }
@@ -5691,9 +8244,10 @@
     "episode_name": "Curb Your Enthusiasm Special",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/curbyourenthusiasm",
     "youtube_link": "https://www.youtube.com/watch?v=XIZxT7iI-QI",
+    "published": "2017-10-10",
     "recipes": [
       {
-        "method": "Method: The Larry David Sandwich",
+        "method": "The Larry David Sandwich",
         "ingredients": [
           [
             1.0,
@@ -5734,13 +8288,13 @@
         ]
       },
       {
-        "method": "Method:\u00a0The Ted Danson Sandwich",
+        "method": "For Coleslaw",
         "ingredients": [
           [
             0.5,
             "cup",
             "Mayo",
-            "\u00bd cup mayo"
+            "½ cup mayo"
           ],
           [
             "2-3",
@@ -5799,19 +8353,89 @@
         ]
       },
       {
-        "method": "Method: Cobb Salad",
+        "method": "For Russian Dressing",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Horseradish Sauce",
+            "½ cup horseradish sauce"
+          ],
+          [
+            0.5,
+            "cup",
+            "Mayo",
+            "½ cup mayo"
+          ],
+          [
+            0.25,
+            "cup",
+            "Ketchup",
+            "¼ cup ketchup"
+          ],
+          [
+            null,
+            null,
+            "Sauce And Worcestershire Sauce",
+            "A few dashes of hot sauce and Worcestershire sauce"
+          ],
+          [
+            null,
+            null,
+            "Paprika",
+            "A generous sprinkle of paprika"
+          ],
+          [
+            0.5,
+            null,
+            "Of A Small",
+            "½ of a small, finely chopped onion"
+          ]
+        ]
+      },
+      {
+        "method": "For Sandwich",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Bread",
+            "2 slices of bread"
+          ],
+          [
+            null,
+            null,
+            "Mayo",
+            "Mayo"
+          ],
+          [
+            null,
+            null,
+            "Turkey",
+            "Turkey"
+          ],
+          [
+            null,
+            null,
+            "Swiss Cheese",
+            "Swiss cheese"
+          ]
+        ]
+      },
+      {
+        "method": "Cobb Salad",
         "ingredients": [
           [
             0.5,
             null,
             "Head Iceberg Lettuce",
-            "\u00bd head iceberg lettuce, chopped"
+            "½ head iceberg lettuce, chopped"
           ],
           [
             0.5,
             null,
             "Bunch Watercress",
-            "\u00bd bunch watercress, chopped"
+            "½ bunch watercress, chopped"
           ],
           [
             1.0,
@@ -5864,7 +8488,66 @@
         ]
       },
       {
-        "method": "Method:\u00a0Palestinian Chicken",
+        "method": "For Dressing",
+        "ingredients": [
+          [
+            2.0,
+            "tablespoon",
+            "Water",
+            "2 Tbsp water"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Red Wine Vinegar",
+            "2 Tbsp red wine vinegar"
+          ],
+          [
+            null,
+            null,
+            "1 Lemon",
+            "Juice of 1 lemon"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "“i Don't Want To Say It” Sauce",
+            "1 tsp of “I don’t want to say it” (Worcestershire) sauce"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Ground Mustard",
+            "½ tsp ground mustard"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Sugar",
+            "2 tsp sugar (optional)"
+          ],
+          [
+            null,
+            null,
+            "Salt And Pepper To Taste",
+            "Salt and pepper to taste"
+          ],
+          [
+            1.0,
+            null,
+            "Clove Minced Garlic",
+            "1 clove minced (not pressed) garlic"
+          ],
+          [
+            0.75,
+            "cup",
+            "Canola Oil",
+            "¾ cup canola oil"
+          ]
+        ]
+      },
+      {
+        "method": "For chicken",
         "ingredients": [
           [
             null,
@@ -5900,7 +8583,7 @@
             0.5,
             "teaspoon",
             "Cardamom",
-            "\u00bd tsp cardamom"
+            "½ tsp cardamom"
           ],
           [
             1.0,
@@ -5927,6 +8610,29 @@
             "A generous drizzle of olive oil"
           ]
         ]
+      },
+      {
+        "method": "For garlic sauce (toum)",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Heads Garlic",
+            "2 heads garlic"
+          ],
+          [
+            1.0,
+            "cup",
+            "Canola Oil",
+            "1 cup canola oil"
+          ],
+          [
+            0.25,
+            "cup",
+            "Lemon Juice",
+            "¼ cup lemon juice"
+          ]
+        ]
       }
     ]
   },
@@ -5934,9 +8640,10 @@
     "episode_name": "Room Service inspired by Mad Men",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/madmen",
     "youtube_link": "https://www.youtube.com/watch?v=BagY2Mnz-TU&t=278s",
+    "published": "2017-09-26",
     "recipes": [
       {
-        "method": "Method: Beef Wellington",
+        "method": "For the puff pastry",
         "ingredients": [
           [
             2.0,
@@ -5965,13 +8672,165 @@
         ]
       },
       {
-        "method": "Method: Napoleon Cakes",
+        "method": "For the beef tenderloin",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Beef Tenderloin",
+            "1 beef tenderloin"
+          ],
+          [
+            0.25,
+            "pound",
+            "Prosciutto",
+            "¼ pound prosciutto"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "English Mustard",
+            "3 Tbsp English Mustard"
+          ],
+          [
+            null,
+            null,
+            "Salt And Pepper",
+            "Salt and pepper"
+          ]
+        ]
+      },
+      {
+        "method": "For the mushroom duxelles",
+        "ingredients": [
+          [
+            10.0,
+            null,
+            "Mushrooms",
+            "10 mushrooms (chopped in food processor)"
+          ],
+          [
+            1.0,
+            null,
+            "Clove Freshly Crushed Garlic",
+            "1 clove freshly crushed garlic"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Thyme",
+            "1 Tbsp thyme"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Butter",
+            "2 Tbsp butter"
+          ],
+          [
+            null,
+            null,
+            "Cognac",
+            "Cognac"
+          ],
+          [
+            null,
+            null,
+            "Heavy Cream",
+            "Heavy cream"
+          ],
+          [
+            null,
+            null,
+            "Salt And Pepper",
+            "Salt and pepper"
+          ]
+        ]
+      },
+      {
+        "method": "Napoleon Cakes",
         "ingredients": [
           [
             1.0,
             null,
             "Puff Pastry",
             "1 sheet of puff pastry"
+          ]
+        ]
+      },
+      {
+        "method": "For Custard (aka Creme Patisserie)",
+        "ingredients": [
+          [
+            4.0,
+            null,
+            "Egg Yolks",
+            "4 egg yolks"
+          ],
+          [
+            0.5,
+            "cup",
+            "Cornstarch",
+            "½ cup cornstarch"
+          ],
+          [
+            2.0,
+            "cup",
+            "Milk",
+            "2 cups milk"
+          ],
+          [
+            0.5,
+            "cup",
+            "Sugar",
+            "½ cup sugar"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Vanilla Paste",
+            "2 tsp vanilla paste (or vanilla extract)"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Crumbled Butter",
+            "2 Tbsp crumbled butter"
+          ]
+        ]
+      },
+      {
+        "method": "For decorative icing",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Powder Sugar",
+            "1 cup powder sugar"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Corn Syrup",
+            "2 tsp corn syrup"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Milk",
+            "2 Tbsp whole milk"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Melted Butter",
+            "2 Tbsp of melted butter"
+          ],
+          [
+            null,
+            null,
+            "Melted Chocolate Or Cocoa Powder",
+            "Melted chocolate or cocoa powder"
           ]
         ]
       }
@@ -5981,9 +8840,10 @@
     "episode_name": "Movie Theater Popcorn & Raisinets inspired by Whiplash",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/raisinets",
     "youtube_link": "https://www.youtube.com/watch?v=FoztKuXEYnQ",
+    "published": "2017-09-19",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For homemade Raisinets",
         "ingredients": [
           [
             3.0,
@@ -5998,6 +8858,29 @@
             "Raisins (and other dried fruits, if you want)"
           ]
         ]
+      },
+      {
+        "method": "For popcorn",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Heaping Teaspoon Flavacol",
+            "1 heaping teaspoon Flavacol (You can get this on Amazon. It lasts forever)"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Coconut Oil",
+            "3 Tbsp coconut oil"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Popcorn Kernels",
+            "⅓ cup popcorn kernels"
+          ]
+        ]
       }
     ]
   },
@@ -6005,33 +8888,34 @@
     "episode_name": "Szechuan Sauce Revisited (From Real Sample!)",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/29/szechuansaucerevisited",
     "youtube_link": "https://www.youtube.com/watch?v=lhc_bXGvmp0",
+    "published": "2017-09-12",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For Sauce",
         "ingredients": [
           [
             0.5,
             "cup",
             "Water",
-            "\u00bd cup water"
+            "½ cup water"
           ],
           [
             0.5,
             "cup",
             "White Vinegar",
-            "\u00bd cup white vinegar"
+            "½ cup white vinegar"
           ],
           [
             0.5,
             "cup",
             "White Sugar",
-            "\u00bd cup white sugar"
+            "½ cup white sugar"
           ],
           [
             0.5,
             "cup",
             "Soy Sauce",
-            "\u00bd cup soy sauce"
+            "½ cup soy sauce"
           ],
           [
             1.0,
@@ -6043,37 +8927,37 @@
             0.5,
             "teaspoon",
             "Sesame Seed Oil",
-            "\u00bd tsp sesame seed oil"
+            "½ tsp sesame seed oil"
           ],
           [
             0.25,
             "teaspoon",
             "Garlic Powder",
-            "\u00bc tsp garlic powder"
+            "¼ tsp garlic powder"
           ],
           [
             0.25,
             "teaspoon",
             "Onion Powder",
-            "\u00bc tsp onion powder"
+            "¼ tsp onion powder"
           ],
           [
             0.25,
             "teaspoon",
             "Ground Ginger",
-            "\u00bc tsp ground ginger"
+            "¼ tsp ground ginger"
           ],
           [
             0.25,
             null,
             "Yeast Extract",
-            "\u00bc yeast extract (marmite)"
+            "¼ yeast extract (marmite)"
           ],
           [
             0.25,
             null,
             "Dextrose",
-            "\u00bc dextrose (corn syrup)"
+            "¼ dextrose (corn syrup)"
           ],
           [
             null,
@@ -6094,6 +8978,118 @@
             "1 tsp xanthan gum"
           ]
         ]
+      },
+      {
+        "method": "For Chicken Nuggets",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Chicken Breast Skins",
+            "2 chicken breast skins"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Garlic Powder",
+            "½ tsp garlic powder"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Onion Powder",
+            "½ tsp onion powder"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "White Pepper",
+            "½ tsp white pepper"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Kosher Salt",
+            "2 Tbsp kosher salt"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "White Sugar",
+            "2 Tbsp white sugar"
+          ],
+          [
+            1.0,
+            "pound",
+            "Ground Chicken",
+            "1 pound ground chicken"
+          ]
+        ]
+      },
+      {
+        "method": "For Batter and Oil",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "White Flour",
+            "1 cup white flour"
+          ],
+          [
+            0.5,
+            "cup",
+            "Cornstarch",
+            "½ cup cornstarch"
+          ],
+          [
+            0.5,
+            "cup",
+            "Corn Flour",
+            "½ cup corn flour"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            1.0,
+            "cup",
+            "Water",
+            "1 cup water"
+          ],
+          [
+            1.0,
+            "cup",
+            "Vodka",
+            "1 cup vodka"
+          ],
+          [
+            null,
+            null,
+            "Black Pepper To Taste",
+            "Black pepper to taste"
+          ],
+          [
+            null,
+            null,
+            "Canola Oil",
+            "Canola oil"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            null,
+            null,
+            "Beef Fat Tallow",
+            "Beef fat tallow"
+          ]
+        ]
       }
     ]
   },
@@ -6101,9 +9097,10 @@
     "episode_name": "The Ultimeatum inspired by Regular Show",
     "episode_link": "https://www.bingingwithbabish.com/recipes/ultimeatum",
     "youtube_link": "https://www.youtube.com/watch?v=S7eUmZ4Sp3U",
+    "published": "2017-08-29",
     "recipes": [
       {
-        "method": "Method: Ultimeatum",
+        "method": "Ultimeatum",
         "ingredients": [
           [
             null,
@@ -6144,7 +9141,7 @@
         ]
       },
       {
-        "method": "Method: Himalayan Ketchup",
+        "method": "Himalayan Ketchup",
         "ingredients": [
           [
             1.0,
@@ -6168,7 +9165,7 @@
             1.0,
             null,
             "Bird's Eye Chili",
-            "1 bird\u2019s eye chili, chopped"
+            "1 bird’s eye chili, chopped"
           ],
           [
             3.0,
@@ -6244,9 +9241,10 @@
     "episode_name": "The Fitz Sandwich inspired by Agents of S.H.I.E.L.D.",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/fitz-sandwich",
     "youtube_link": "https://youtu.be/xugufifsB4s",
+    "published": "2017-08-22",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For the biga",
         "ingredients": [
           [
             0.25,
@@ -6297,6 +9295,88 @@
             "1/4 cup room temperature milk"
           ]
         ]
+      },
+      {
+        "method": "For the pesto and pesto aioli",
+        "ingredients": [
+          [
+            0.25,
+            "cup",
+            "Toasted Pine Nuts",
+            "1/4 cup toasted pine nuts"
+          ],
+          [
+            1.0,
+            "cup",
+            "Packed Basil Leaves",
+            "1 cup packed basil leaves"
+          ],
+          [
+            1.0,
+            null,
+            "Garlic Clove",
+            "1 garlic clove"
+          ],
+          [
+            "3-4",
+            "tablespoon",
+            "Olive Oil",
+            "3-4 Tbsp olive oil"
+          ],
+          [
+            null,
+            null,
+            "Salt & Pepper To Taste",
+            "Salt & pepper to taste"
+          ],
+          [
+            1.0,
+            null,
+            "Egg Yolk",
+            "1 egg yolk"
+          ],
+          [
+            3.0,
+            null,
+            "Cloves Garlic",
+            "3 cloves garlic, grated"
+          ],
+          [
+            "1/4-1/2",
+            "cup",
+            "Extra Virgin Olive Oil",
+            "1/4-1/2 cup extra virgin olive oil"
+          ]
+        ]
+      },
+      {
+        "method": "For building the sandwich",
+        "ingredients": [
+          [
+            1.0,
+            "pound",
+            "San Daniele Prosciutto",
+            "1 pound San Daniele prosciutto"
+          ],
+          [
+            2.0,
+            null,
+            "Buffalo Mozzarella",
+            "2 six-ounce balls of buffalo mozzarella, sliced"
+          ],
+          [
+            1.0,
+            null,
+            "Beefsteak Tomato",
+            "1 beefsteak tomato, sliced"
+          ],
+          [
+            4.0,
+            "ounce",
+            "Baby Arugula",
+            "4 ounces baby arugula (rocket)"
+          ]
+        ]
       }
     ]
   },
@@ -6304,9 +9384,10 @@
     "episode_name": "Courtesan au Chocolat inspired by Grand Budapest Hotel",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/15/ccourtesan-au-chocolat",
     "youtube_link": "https://www.youtube.com/watch?v=GO5P3fLTwA0",
+    "published": "2017-08-15",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Courtesan au Chocolat inspired by Grand Budapest Hotel",
         "ingredients": [
           [
             1.0,
@@ -6384,7 +9465,7 @@
             3.0,
             "cup",
             "Confectioner's Sugar",
-            "3 cups confectioner\u2019s sugar, divided"
+            "3 cups confectioner’s sugar, divided"
           ],
           [
             12.0,
@@ -6412,9 +9493,10 @@
     "episode_name": "Puerco Pibil inspired by Once Upon a Time in Mexico",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/08/puerco-pibil",
     "youtube_link": "https://www.youtube.com/watch?v=5_sdhAFGmbw",
+    "published": "2017-08-08",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Puerco Pibil inspired by Once Upon a Time in Mexico",
         "ingredients": [
           [
             5.0,
@@ -6550,9 +9632,10 @@
     "episode_name": "Monster Cake inspired by Zelda: Breath of the Wild",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/01/zelda-monster-cake",
     "youtube_link": "https://youtu.be/VgtpaBOkvrA?t=2m29s",
+    "published": "2017-08-01",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Monster Cake inspired by Zelda: Breath of the Wild",
         "ingredients": [
           [
             6.0,
@@ -6682,9 +9765,10 @@
     "episode_name": "Lemon Pepper Wet inspired by Atlanta",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/7/25/lemon-pepper-wet",
     "youtube_link": "https://www.youtube.com/watch?v=Enan6eEmtqM",
+    "published": "2017-07-25",
     "recipes": [
       {
-        "method": "Method: Deep Fry Version",
+        "method": "Deep Fry Version",
         "ingredients": [
           [
             2.0,
@@ -6719,7 +9803,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Oven Fry Version",
+        "method": "Oven Fry Version",
         "ingredients": [
           [
             2.0,
@@ -6760,7 +9844,7 @@
         ]
       },
       {
-        "method": "Method: Lemon Pepper Seasoning",
+        "method": "Lemon Pepper Seasoning",
         "ingredients": [
           [
             3.0,
@@ -6806,9 +9890,10 @@
     "episode_name": "Taco Town 15-Flavor Taco inspired by SNL",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/7/18/taco-town",
     "youtube_link": "https://www.youtube.com/watch?v=UvIkojfQDxA",
+    "published": "2017-07-18",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For the crepe batter",
         "ingredients": [
           [
             2.0,
@@ -6841,6 +9926,300 @@
             "1 tsp kosher salt"
           ]
         ]
+      },
+      {
+        "method": "For the blueberry pancake",
+        "ingredients": [
+          [
+            0.75,
+            "cup",
+            "Milk",
+            "3/4 cup milk"
+          ],
+          [
+            1.0,
+            "cup",
+            "All Purpose Flour",
+            "1 cup all purpose flour"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Sugar",
+            "1 Tbsp sugar"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Baking Powder",
+            "1 tsp baking powder"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Baking Soda",
+            "1/2 tsp baking soda"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Butter",
+            "2 Tbsp butter, melted"
+          ],
+          [
+            0.5,
+            "cup",
+            "Frozen Blueberries",
+            "1/2 cup frozen blueberries, thawed"
+          ]
+        ]
+      },
+      {
+        "method": "For the pico de gallo",
+        "ingredients": [
+          [
+            0.25,
+            "cup",
+            "Chopped Tomatoes",
+            "1/4 cup chopped tomatoes"
+          ],
+          [
+            0.25,
+            "cup",
+            "Chopped Onion",
+            "1/4 cup chopped onion"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Salt",
+            "1/2 tsp salt"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Lime Juice",
+            "1 tsp lime juice"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Chopped Cilantro",
+            "1 Tbsp chopped cilantro"
+          ]
+        ]
+      },
+      {
+        "method": "For the beer batter",
+        "ingredients": [
+          [
+            3.0,
+            "cup",
+            "All Purpose Flour",
+            "3 cups all purpose flour"
+          ],
+          [
+            3.0,
+            "cup",
+            "Corn Starch",
+            "3 cups corn starch"
+          ],
+          [
+            3.0,
+            null,
+            "Cans Light Beer",
+            "3 cans light beer"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Salt",
+            "3 Tbsp salt"
+          ],
+          [
+            4.0,
+            null,
+            "Eggs",
+            "4 eggs"
+          ]
+        ]
+      },
+      {
+        "method": "For the Southwestern sauce",
+        "ingredients": [
+          [
+            1.0,
+            "tablespoon",
+            "Sour Cream",
+            "1 Tbsp sour cream"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Mayo",
+            "1 Tbsp mayo"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Paprika",
+            "1 tsp paprika"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Cayenne Pepper",
+            "1 tsp cayenne pepper"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Chili Powder",
+            "1 tsp chili powder"
+          ]
+        ]
+      },
+      {
+        "method": "For the guacamolito",
+        "ingredients": [
+          [
+            0.25,
+            "cup",
+            "Smooth Guacamole",
+            "1/4 cup smooth guacamole"
+          ],
+          [
+            0.25,
+            "cup",
+            "Sour Cream",
+            "1/4 cup sour cream"
+          ]
+        ]
+      },
+      {
+        "method": "Other ingredients",
+        "ingredients": [
+          [
+            2.0,
+            "ounce",
+            "Ground Beef",
+            "2 ounces ground beef"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Taco Seasoning",
+            "2 tsp taco seasoning"
+          ],
+          [
+            1.0,
+            null,
+            "Hard Shell Taco",
+            "1 hard shell taco"
+          ],
+          [
+            1.0,
+            "ounce",
+            "Shredded Lettuce",
+            "1 ounce shredded lettuce"
+          ],
+          [
+            1.0,
+            "ounce",
+            "Chopped Tomatoes",
+            "1 ounce chopped tomatoes"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Nacho Cheese",
+            "1 Tbsp nacho cheese"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Refried Beans",
+            "2 Tbsp refried beans"
+          ],
+          [
+            1.0,
+            "small",
+            "Flour Tortilla",
+            "1 small flour tortilla"
+          ],
+          [
+            2.0,
+            "ounce",
+            "Shredded Monterey Jack Cheese",
+            "2 ounces shredded monterey jack cheese"
+          ],
+          [
+            1.0,
+            "medium",
+            "Corn Tortilla",
+            "1 medium corn tortilla"
+          ],
+          [
+            1.0,
+            null,
+            "Chalupa Shell",
+            "1 chalupa shell"
+          ],
+          [
+            1.0,
+            "large",
+            "Corn Husk",
+            "1 large corn husk"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg, scrambled"
+          ],
+          [
+            3.0,
+            "ounce",
+            "Gruyere",
+            "3 ounces gruyere, shredded"
+          ],
+          [
+            1.0,
+            null,
+            "Merguez Sausage",
+            "1 merguez sausage, cooked and sliced"
+          ],
+          [
+            4.0,
+            "ounce",
+            "Baby Bella Mushrooms",
+            "4 ounces baby bella mushrooms, sautéed in butter"
+          ],
+          [
+            "12-",
+            null,
+            "Inch Frozen Meat-lover's Pizza",
+            "12-inch frozen meat-lover’s pizza, baked according to package directions"
+          ],
+          [
+            "1.5-2",
+            null,
+            "Gallons Vegetable Oil",
+            "1.5-2 gallons vegetable oil"
+          ],
+          [
+            8.0,
+            null,
+            "Cans Vegetarian Chili",
+            "8 cans vegetarian chili, heated"
+          ]
+        ]
       }
     ]
   },
@@ -6848,9 +10227,10 @@
     "episode_name": "Lemon Cakes inspired by Game of Thrones",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/7/11/lemon-cakes-inspired-by-game-of-thrones",
     "youtube_link": "https://youtu.be/Y_hc07rAQlc?t=6m23s",
+    "published": "2017-07-11",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Lemon Cakes inspired by Game of Thrones",
         "ingredients": [
           [
             8.5,
@@ -6922,7 +10302,7 @@
             2.0,
             null,
             "Lemons",
-            "2 Lemons, sliced 1/8\u201d thick, seeded"
+            "2 Lemons, sliced 1/8” thick, seeded"
           ],
           [
             1.0,
@@ -6956,9 +10336,10 @@
     "episode_name": "Blood Pie inspired by Game of Thrones",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/7/14/blood-pie-inspired-by-game-of-thrones",
     "youtube_link": "https://youtu.be/Y_hc07rAQlc?t=4m17s",
+    "published": "2017-07-11",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Blood Pie inspired by Game of Thrones",
         "ingredients": [
           [
             7.0,
@@ -7036,13 +10417,13 @@
             2.0,
             "cup",
             "Pig's Blood",
-            "2 cups pig\u2019s blood"
+            "2 cups pig’s blood"
           ],
           [
             4.0,
             "ounce",
             "Goat's Cheese",
-            "4 ounces goat\u2019s cheese"
+            "4 ounces goat’s cheese"
           ],
           [
             2.0,
@@ -7058,9 +10439,10 @@
     "episode_name": "Pigeon Pie with Wild Game inspired by Game of Thrones",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/7/14/pigeon-pie-with-wild-game-inspired-by-game-of-thrones",
     "youtube_link": "https://www.youtube.com/watch?v=Y_hc07rAQlc",
+    "published": "2017-07-11",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Pigeon Pie with Wild Game inspired by Game of Thrones",
         "ingredients": [
           [
             2.0,
@@ -7090,7 +10472,7 @@
             0.5,
             null,
             "Vidalia Onion",
-            "1/2 vidalia onion, diced and saut\u00e9ed"
+            "1/2 vidalia onion, diced and sautéed"
           ],
           [
             2.0,
@@ -7120,13 +10502,13 @@
             0.5,
             "cup",
             "Sliced Mushrooms",
-            "1/2 cup sliced mushrooms, saut\u00e9ed in butter"
+            "1/2 cup sliced mushrooms, sautéed in butter"
           ],
           [
             0.25,
             "cup",
             "Apple",
-            "1/4 cup apple, finely chopped, saut\u00e9ed in butter"
+            "1/4 cup apple, finely chopped, sautéed in butter"
           ],
           [
             16.0,
@@ -7184,9 +10566,10 @@
     "episode_name": "Fried Chicken & Waffle Breakfast Lasagna inspired by The Boondocks",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/7/4/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks",
     "youtube_link": "https://www.youtube.com/watch?v=VnXu22HZBNQ",
+    "published": "2017-07-04",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Fried Chicken & Waffle Breakfast Lasagna inspired by The Boondocks",
         "ingredients": [
           [
             2.0,
@@ -7370,9 +10753,10 @@
     "episode_name": "Cocktail Special",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special",
     "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
+    "published": "2017-06-27",
     "recipes": [
       {
-        "method": "Method: White Russian",
+        "method": "White Russian",
         "ingredients": [
           [
             2.0,
@@ -7383,8 +10767,8 @@
           [
             1.5,
             "ounce",
-            "Kahl\u00faa",
-            "1 1/2 ounces Kahl\u00faa"
+            "Kahlúa",
+            "1 1/2 ounces Kahlúa"
           ],
           [
             1.0,
@@ -7395,7 +10779,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Sweet Vermouth, Rocks, with a Twist",
+        "method": "Sweet Vermouth, Rocks, with a Twist",
         "ingredients": [
           [
             3.0,
@@ -7412,7 +10796,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Old Fashioned",
+        "method": "Old Fashioned",
         "ingredients": [
           [
             1.0,
@@ -7441,7 +10825,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Mint Julep",
+        "method": "Mint Julep",
         "ingredients": [
           [
             4.0,
@@ -7470,13 +10854,13 @@
         ]
       },
       {
-        "method": "Method: Vesper",
+        "method": "Vesper",
         "ingredients": [
           [
             3.0,
             "ounce",
             "Gordon's Gin",
-            "3 ounces Gordon\u2019s gin"
+            "3 ounces Gordon’s gin"
           ],
           [
             1.0,
@@ -7499,7 +10883,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0French 75",
+        "method": "French 75",
         "ingredients": [
           [
             1.0,
@@ -7528,7 +10912,7 @@
         ]
       },
       {
-        "method": "Method: Barney Stinson\u2019s Hangover Fixer Elixir",
+        "method": "Barney Stinson’s Hangover Fixer Elixir",
         "ingredients": [
           [
             1.0,
@@ -7568,9 +10952,10 @@
     "episode_name": "Tomate du Saltambique inspired by The West Wing",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/20/tomate-du-saltambique-inspired-by-the-west-wing",
     "youtube_link": "https://www.youtube.com/watch?v=6uIK3o32hig",
+    "published": "2017-06-20",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Tomate du Saltambique inspired by The West Wing",
         "ingredients": [
           [
             1.0,
@@ -7688,9 +11073,10 @@
     "episode_name": "Freddy's Ribs inspired by House of Cards",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/13/freddys-ribs-inspired-by-house-of-cards",
     "youtube_link": "https://www.youtube.com/watch?v=2uHhKAjnvNc",
+    "published": "2017-06-13",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Freddy's Ribs inspired by House of Cards",
         "ingredients": [
           [
             3.0,
@@ -7844,9 +11230,10 @@
     "episode_name": "Chocolate Cake inspired by Matilda",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/6/chocolate-cake-inspired-by-matilda",
     "youtube_link": "https://www.youtube.com/watch?v=exQ6oGefSiA",
+    "published": "2017-06-06",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Chocolate Cake inspired by Matilda",
         "ingredients": [
           [
             1.0,
@@ -7946,9 +11333,10 @@
     "episode_name": "Krabby Patty inspired by SpongeBob SquarePants",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/5/31/krabby-patty-inspired-by-spongebob-squarepants",
     "youtube_link": "https://www.youtube.com/watch?v=7EnWiGYT1g4&feature=em-uploademail",
+    "published": "2017-05-31",
     "recipes": [
       {
-        "method": "OPTIONAL (MSG-FREE)",
+        "method": "Krabby Patty inspired by SpongeBob SquarePants",
         "ingredients": [
           [
             1.0,
@@ -8029,6 +11417,53 @@
             "4 sesame seed hamburger buns"
           ]
         ]
+      },
+      {
+        "method": "OPTIONAL (MSG-FREE)",
+        "ingredients": [
+          [
+            3.0,
+            null,
+            "Dried Shiitake Mushrooms",
+            "3 dried shiitake mushrooms"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Bonito Flakes",
+            "1 Tbsp bonito flakes"
+          ],
+          [
+            0.5,
+            "ounce",
+            "Dried Kombu",
+            "1/2 ounce dried kombu"
+          ],
+          [
+            1.0,
+            null,
+            "Dried Anchovy",
+            "1 dried anchovy"
+          ],
+          [
+            0.5,
+            "cup",
+            "Pureed Sun-dried Tomatoes",
+            "1/2 cup pureed sun-dried tomatoes"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Yellow Miso",
+            "1 Tbsp yellow miso"
+          ],
+          [
+            0.5,
+            "cup",
+            "Shredded Parmesan",
+            "1/2 cup shredded parmesan"
+          ]
+        ]
       }
     ]
   },
@@ -8036,15 +11471,16 @@
     "episode_name": "Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/beetandacorncookies",
     "youtube_link": "https://www.youtube.com/watch?v=6PTuUMJ2Uh8",
+    "published": "2017-05-23",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)",
         "ingredients": [
           [
             0.25,
             "cup",
             "Coconut Oil",
-            "\u00bc cup of coconut oil"
+            "¼ cup of coconut oil"
           ],
           [
             1.0,
@@ -8062,25 +11498,25 @@
             0.5,
             "teaspoon",
             "Vanilla Paste",
-            "\u00bd tsp of vanilla paste"
+            "½ tsp of vanilla paste"
           ],
           [
             0.75,
             "cup",
             "All Purpose Flour",
-            "\u00be cup all purpose flour"
+            "¾ cup all purpose flour"
           ],
           [
             0.75,
             "cup",
             "Acorn Flour",
-            "\u00be cup acorn flour"
+            "¾ cup acorn flour"
           ],
           [
             0.25,
             "cup",
             "Brown Sugar",
-            "\u00bc cup brown sugar"
+            "¼ cup brown sugar"
           ],
           [
             3.0,
@@ -8098,7 +11534,7 @@
             0.5,
             "cup",
             "Chocolate Chips",
-            "\u00bd cup of chocolate chips"
+            "½ cup of chocolate chips"
           ],
           [
             1.0,
@@ -8110,7 +11546,7 @@
             0.3333333333333333,
             "cup",
             "Sugar",
-            "\u2153 cup sugar"
+            "⅓ cup sugar"
           ],
           [
             null,
@@ -8126,9 +11562,10 @@
     "episode_name": "Buttermilk Pancakes inspired by Twin Peaks",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/5/18/buttermilk-pancakes-inspired-by-twin-peaks",
     "youtube_link": "https://www.youtube.com/watch?v=nEoSBL25RO4",
+    "published": "2017-05-18",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Buttermilk Pancakes inspired by Twin Peaks",
         "ingredients": [
           [
             7.0,
@@ -8204,9 +11641,10 @@
     "episode_name": "Spaghetti Carbonara inspired by Master of None",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/5/16/spaghetti-carbonara-inspired-by-master-of-none",
     "youtube_link": "https://www.youtube.com/watch?v=MbRm5s3i2ik",
+    "published": "2017-05-16",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Spaghetti Carbonara inspired by Master of None",
         "ingredients": [
           [
             7.0,
@@ -8265,7 +11703,7 @@
         ]
       },
       {
-        "method": "Method",
+        "method": "Spaghetti Carbonara inspired by Master of None",
         "ingredients": [
           [
             7.0,
@@ -8335,9 +11773,10 @@
     "episode_name": "Babka inspired by Seinfeld",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/5/09/babka-inspired-by-seinfeld",
     "youtube_link": "https://www.youtube.com/watch?v=pw2A03Z91FI&feature=youtu.be&t=5m48s",
+    "published": "2017-05-09",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Babka inspired by Seinfeld",
         "ingredients": [
           [
             0.5,
@@ -8400,6 +11839,64 @@
             "1 cup water"
           ]
         ]
+      },
+      {
+        "method": "FOR CHOCOLATE BABKA",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Butter",
+            "1/2 cup butter"
+          ],
+          [
+            9.0,
+            "ounce",
+            "Chocolate",
+            "9 ounces chocolate"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Espresso Powder",
+            "2 tsp espresso powder"
+          ],
+          [
+            0.6666666666666666,
+            "cup",
+            "Cocoa Powder",
+            "2/3 cup cocoa powder"
+          ],
+          [
+            0.6666666666666666,
+            "cup",
+            "Powdered Sugar",
+            "2/3 cup powdered sugar"
+          ]
+        ]
+      },
+      {
+        "method": "FOR CINNAMON BABKA",
+        "ingredients": [
+          [
+            4.0,
+            "tablespoon",
+            "Ground Cinnamon",
+            "4 Tbsp ground cinnamon"
+          ],
+          [
+            1.0,
+            "cup",
+            "Brown Sugar",
+            "1 cup brown sugar"
+          ],
+          [
+            1.0,
+            "cup",
+            "Unsalted Butter",
+            "1 cup unsalted butter, melted"
+          ]
+        ]
       }
     ]
   },
@@ -8407,9 +11904,10 @@
     "episode_name": "Wild Mushroom Soup inspired by Seinfeld",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/5/9/wild-mushroom-soup-inspired-by-seinfeld",
     "youtube_link": "https://www.youtube.com/watch?v=pw2A03Z91FI",
+    "published": "2017-05-09",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Wild Mushroom Soup inspired by Seinfeld",
         "ingredients": [
           [
             3.0,
@@ -8486,8 +11984,8 @@
           [
             0.5,
             "cup",
-            "Cr\u00e8me Fra\u00eeche",
-            "1/2 cup cr\u00e8me fra\u00eeche"
+            "Crème Fraîche",
+            "1/2 cup crème fraîche"
           ]
         ]
       }
@@ -8497,9 +11995,10 @@
     "episode_name": "Homer Simpson's Patented Space Age Out-Of-This-World Moon Waffles",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/29/moonwaffles",
     "youtube_link": "https://www.youtube.com/watch?v=27mUWs2wjPs",
+    "published": "2017-05-02",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For Homer's Version",
         "ingredients": [
           [
             1.0,
@@ -8526,6 +12025,99 @@
             "A few dashes of liquid smoke"
           ]
         ]
+      },
+      {
+        "method": "For browned butter topping",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Butter",
+            "1 stick of butter"
+          ]
+        ]
+      },
+      {
+        "method": "For caramel sauce",
+        "ingredients": [
+          [
+            0.5,
+            null,
+            "Of Water",
+            "½ of water"
+          ],
+          [
+            1.0,
+            "cup",
+            "Sugar",
+            "1 cup of sugar"
+          ],
+          [
+            1.0,
+            "cup",
+            "Heavy Cream",
+            "1 cup of heavy cream"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Vanilla Extract",
+            "½ tsp of vanilla extract (optional)"
+          ]
+        ]
+      },
+      {
+        "method": "For waffles",
+        "ingredients": [
+          [
+            1.75,
+            "cup",
+            "All-purpose Flour",
+            "1 ¾ cups all-purpose flour"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Corn Meal",
+            "1 Tbsp corn meal"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Baking Powder",
+            "1 tsp baking powder"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Kosher Salt",
+            "1 tsp kosher salt"
+          ],
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs, yolks and whites separated"
+          ],
+          [
+            1.75,
+            "cup",
+            "Buttermilk",
+            "1 ¾ cups buttermilk"
+          ],
+          [
+            0.25,
+            "cup",
+            "Browned Butter",
+            "¼ cup browned butter (you can also use vegetable oil)"
+          ],
+          [
+            null,
+            null,
+            "Smoked Sea Salt",
+            "Smoked sea salt (for topping)"
+          ]
+        ]
       }
     ]
   },
@@ -8533,9 +12125,10 @@
     "episode_name": "Boeuf Bourguignon from Julie & Julia",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/29/boeufbourguignon",
     "youtube_link": "https://www.youtube.com/watch?v=8DCw_eR_iPA",
+    "published": "2017-04-27",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Boeuf Bourguignon from Julie & Julia",
         "ingredients": [
           [
             3.0,
@@ -8583,7 +12176,7 @@
             0.25,
             "cup",
             "All Purpose Flour",
-            "\u00bc cup all purpose flour"
+            "¼ cup all purpose flour"
           ],
           [
             3.0,
@@ -8665,9 +12258,10 @@
     "episode_name": "South Park Special",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/southparkspecial",
     "youtube_link": "https://www.youtube.com/watch?v=KxPgrGdSHh8&t=194s",
+    "published": "2017-04-19",
     "recipes": [
       {
-        "method": "Method: Chef's Chocolate Salty Balls",
+        "method": "Chef's Chocolate Salty Balls",
         "ingredients": [
           [
             1.0,
@@ -8697,37 +12291,37 @@
             0.5,
             "cup",
             "Unsweetened Cocoa Powder",
-            "\u00bd cup unsweetened cocoa powder"
+            "½ cup unsweetened cocoa powder"
           ],
           [
             1.5,
             "teaspoon",
             "Baking Powder",
-            "1 \u00bd tsp baking powder"
+            "1 ½ tsp baking powder"
           ],
           [
             1.5,
             "teaspoon",
             "Kosher Salt",
-            "1 \u00bd tsp kosher salt"
+            "1 ½ tsp kosher salt"
           ],
           [
             0.5,
             "teaspoon",
             "Vanilla Extract",
-            "\u00bd tsp vanilla extract"
+            "½ tsp vanilla extract"
           ],
           [
             0.5,
             "cup",
             "Buttermilk",
-            "\u00bd cup buttermilk"
+            "½ cup buttermilk"
           ],
           [
             0.25,
             "cup",
             "Vegetable Oil",
-            "\u00bc cup vegetable oil"
+            "¼ cup vegetable oil"
           ],
           [
             8.0,
@@ -8739,12 +12333,12 @@
             0.5,
             "cup",
             "Milk",
-            "\u00bd cup whole milk"
+            "½ cup whole milk"
           ]
         ]
       },
       {
-        "method": "Method:\u00a0Mr. and Mrs. Tenorman Chili",
+        "method": "Mr. and Mrs. Tenorman Chili",
         "ingredients": [
           [
             null,
@@ -8774,7 +12368,7 @@
             0.5,
             "cup",
             "Corn Flour",
-            "\u00bd cup corn flour"
+            "½ cup corn flour"
           ],
           [
             1.0,
@@ -8869,13 +12463,13 @@
         ]
       },
       {
-        "method": "Method: Randy's Fritata",
+        "method": "Randy's Fritata",
         "ingredients": [
           [
             0.5,
             null,
             "Dozen Shallots",
-            "\u00bd dozen shallots"
+            "½ dozen shallots"
           ],
           [
             3.0,
@@ -8932,6 +12526,23 @@
             "1 clove garlic"
           ]
         ]
+      },
+      {
+        "method": "For Creme Fraiche",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Pint Heavy Cream",
+            "1 pint heavy cream"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Buttermilk",
+            "2 Tbsp buttermilk"
+          ]
+        ]
       }
     ]
   },
@@ -8939,9 +12550,10 @@
     "episode_name": "Tampopo Ramen",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/tampoporamen",
     "youtube_link": "https://www.youtube.com/watch?v=GXDQOSbcmv4",
+    "published": "2017-04-11",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For broth (note: broth needs to be chilled overnight)",
         "ingredients": [
           [
             1.0,
@@ -8953,7 +12565,7 @@
             0.25,
             "pound",
             "Pork Spare Ribs",
-            "\u00bc pound pork spare ribs"
+            "¼ pound pork spare ribs"
           ],
           [
             2.0,
@@ -9004,6 +12616,170 @@
             "1 cup dried anchovies"
           ]
         ]
+      },
+      {
+        "method": "For pork",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Pork Belly And/or Pork Shoulder",
+            "Pork belly and/or pork shoulder"
+          ],
+          [
+            0.5,
+            "cup",
+            "Soy Sauce",
+            "½ cup soy sauce"
+          ],
+          [
+            1.0,
+            "cup",
+            "Mirin",
+            "1 cup mirin"
+          ],
+          [
+            1.0,
+            "cup",
+            "Sake",
+            "1 cup sake"
+          ],
+          [
+            1.0,
+            "whole",
+            "Shallot",
+            "1 whole shallot, halved"
+          ],
+          [
+            "2-",
+            null,
+            "Ginger",
+            "2-inch knob of ginger, peeled and chopped"
+          ],
+          [
+            6.0,
+            null,
+            "Garlic",
+            "6 cloves of garlic, crushed"
+          ]
+        ]
+      },
+      {
+        "method": "For tare sauce",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Dried Anchovies",
+            "½ cup dried anchovies"
+          ],
+          [
+            2.0,
+            "cup",
+            "Soy Sauce",
+            "2 cups soy sauce"
+          ],
+          [
+            null,
+            null,
+            "Several Kombu Leaves",
+            "Several kombu leaves"
+          ],
+          [
+            0.5,
+            "cup",
+            "Bonito Flakes",
+            "½ cup bonito flakes"
+          ],
+          [
+            0.25,
+            "cup",
+            "Sake",
+            "¼ cup sake"
+          ],
+          [
+            4.0,
+            "tablespoon",
+            "Mirin",
+            "4 Tbsp of mirin"
+          ],
+          [
+            "1-2",
+            "tablespoon",
+            "Brown Sugar",
+            "1-2 Tbsp of brown sugar"
+          ]
+        ]
+      },
+      {
+        "method": "For noodles (can also be store bought)",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Baking Soda",
+            "1 cup baking soda"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Additional Baking Soda",
+            "1 Tbsp of additional baking soda"
+          ],
+          [
+            0.5,
+            "cup",
+            "Water",
+            "½ cup warm water"
+          ],
+          [
+            8.5,
+            "ounce",
+            "Bread Flour",
+            "8 ½ ounces bread flour (about 2 cups)"
+          ],
+          [
+            1.0,
+            "ounce",
+            "Vital Wheat Gluten",
+            "1 ounce of vital wheat gluten (about ¼ cup)"
+          ]
+        ]
+      },
+      {
+        "method": "Also needed for soup",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Sesame Oil",
+            "Sesame oil"
+          ],
+          [
+            null,
+            null,
+            "Kamaboko",
+            "Kamaboko (Japanese fish cake)"
+          ],
+          [
+            null,
+            null,
+            "Chopped Scallions",
+            "Chopped scallions"
+          ],
+          [
+            null,
+            null,
+            "Menma",
+            "Menma (braised bamboo shoots)"
+          ],
+          [
+            1.0,
+            null,
+            "Nori",
+            "1 sheet of nori (dried seaweed)"
+          ]
+        ]
       }
     ]
   },
@@ -9011,9 +12787,10 @@
     "episode_name": "Rick & Morty Szechuan Sauce",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/szechuansauce",
     "youtube_link": "https://www.youtube.com/watch?v=wBhhlE92mIQ",
+    "published": "2017-04-04",
     "recipes": [
       {
-        "method": "Method: Standard Szechuan Sauce",
+        "method": "Standard Szechuan Sauce",
         "ingredients": [
           [
             1.0,
@@ -9066,7 +12843,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Fan Recipe Szechuan Sauce",
+        "method": "Fan Recipe Szechuan Sauce",
         "ingredients": [
           [
             null,
@@ -9114,24 +12891,24 @@
             null,
             null,
             "Chili Paste",
-            "Chili paste (if you\u2019re looking for heat)"
+            "Chili paste (if you’re looking for heat)"
           ]
         ]
       },
       {
-        "method": "Method: McDonald's Sauce Method",
+        "method": "McDonald's Sauce Method",
         "ingredients": [
           [
             null,
             null,
             "Mcdonald's Sweet And Sour Sauce",
-            "McDonald\u2019s Sweet and Sour Sauce"
+            "McDonald’s Sweet and Sour Sauce"
           ],
           [
             null,
             null,
             "Mcdonald's Tangy Barbeque Sauce",
-            "McDonald\u2019s Tangy Barbeque Sauce"
+            "McDonald’s Tangy Barbeque Sauce"
           ]
         ]
       }
@@ -9141,9 +12918,10 @@
     "episode_name": "Cubanos inspired by Chef",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/3/28/cubanos-inspired-by-chef",
     "youtube_link": "https://www.youtube.com/watch?v=hXYoduN0kWs",
+    "published": "2017-03-28",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Cubanos inspired by Chef",
         "ingredients": [
           [
             1.0,
@@ -9327,9 +13105,10 @@
     "episode_name": "Jake's Perfect Sandwich inspired by Adventure Time",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/3/18/adventure-time-sandwich",
     "youtube_link": "https://youtu.be/HsxBw6ls7Z0",
+    "published": "2017-03-18",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Jake's Perfect Sandwich inspired by Adventure Time",
         "ingredients": [
           [
             1.0,
@@ -9453,9 +13232,10 @@
     "episode_name": "Bob's Burgers",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/bobsburgers",
     "youtube_link": "https://www.youtube.com/watch?v=basFyoMSjds",
+    "published": "2017-03-14",
     "recipes": [
       {
-        "method": "Method: Burger Patties",
+        "method": "For all burgers",
         "ingredients": [
           [
             3.0,
@@ -9472,7 +13252,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Baby You Can Chive My Car",
+        "method": "For Fried Pickles",
         "ingredients": [
           [
             1.0,
@@ -9507,7 +13287,60 @@
         ]
       },
       {
-        "method": "Method:\u00a0Bet It All On Black Garlic Burger",
+        "method": "For burger",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Ground Meat",
+            "Ground meat"
+          ],
+          [
+            null,
+            null,
+            "Feta Cheese",
+            "Feta cheese"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Kosher salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            0.5,
+            "cup",
+            "Sour Cream",
+            "½ cup sour cream"
+          ],
+          [
+            0.25,
+            "cup",
+            "Dijon Mustard",
+            "¼ cup dijon mustard"
+          ],
+          [
+            null,
+            null,
+            "Hamburger Buns",
+            "Hamburger buns"
+          ],
+          [
+            null,
+            null,
+            "Minced Chives",
+            "Minced chives"
+          ]
+        ]
+      },
+      {
+        "method": "Bet It All On Black Garlic Burger",
         "ingredients": [
           [
             null,
@@ -9519,7 +13352,7 @@
             0.5,
             "cup",
             "Mayonaise",
-            "\u00bd cup mayonaise"
+            "½ cup mayonaise"
           ],
           [
             null,
@@ -9536,7 +13369,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Meatsiah",
+        "method": "For Duxelle",
         "ingredients": [
           [
             null,
@@ -9560,13 +13393,60 @@
             0.25,
             "cup",
             "Brandy",
-            "\u00bc cup of brandy"
+            "¼ cup of brandy"
           ],
           [
             0.3333333333333333,
             "cup",
             "Heavy Whipping Cream",
-            "\u2153 cup heavy whipping cream"
+            "⅓ cup heavy whipping cream"
+          ]
+        ]
+      },
+      {
+        "method": "For Burger",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Filet Mingon",
+            "Filet mingon"
+          ],
+          [
+            null,
+            null,
+            "Puff Pastry",
+            "Puff pastry"
+          ],
+          [
+            null,
+            null,
+            "Flour",
+            "Flour"
+          ],
+          [
+            null,
+            null,
+            "Minced Cornichon",
+            "Minced cornichon"
+          ],
+          [
+            null,
+            null,
+            "English Mustard",
+            "English mustard"
+          ],
+          [
+            null,
+            null,
+            "Pruscuitto",
+            "Pruscuitto"
+          ],
+          [
+            1.0,
+            null,
+            "Beaten Egg",
+            "1 beaten egg"
           ]
         ]
       }
@@ -9576,9 +13456,10 @@
     "episode_name": "Pollo a la Plancha inspired by Moonlight",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/5/4/pollo-a-la-plancha",
     "youtube_link": "https://www.youtube.com/watch?v=ZsBWgeQHjnM",
+    "published": "2017-03-06",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Pollo a la Plancha inspired by Moonlight",
         "ingredients": [
           [
             4.0,
@@ -9690,9 +13571,10 @@
     "episode_name": "Confit Byaldi inspired by Ratatouille",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/5/5/ratatouille",
     "youtube_link": "https://www.youtube.com/watch?v=roCX0AfBseQ",
+    "published": "2017-03-02",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Confit Byaldi inspired by Ratatouille",
         "ingredients": [
           [
             6.0,
@@ -9792,9 +13674,10 @@
     "episode_name": "It's Always Sunny in Philadelphia Special",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/itsalwayssunnyspecial",
     "youtube_link": "https://www.youtube.com/watch?v=Q2ezpExQ_k0",
+    "published": "2017-02-20",
     "recipes": [
       {
-        "method": "Method: Rum Ham",
+        "method": "Rum Ham",
         "ingredients": [
           [
             1.0,
@@ -9824,24 +13707,24 @@
             1.5,
             "tablespoon",
             "Butter",
-            "1 \u00bd Tbsp butter"
+            "1 ½ Tbsp butter"
           ],
           [
             0.5,
             "cup",
             "Pineapple",
-            "\u00bd cup pineapple"
+            "½ cup pineapple"
           ],
           [
             0.5,
             "cup",
             "Rum",
-            "\u00bd cup rum"
+            "½ cup rum"
           ]
         ]
       },
       {
-        "method": "Method:\u00a0Riot Juice",
+        "method": "Riot Juice",
         "ingredients": [
           [
             2.0,
@@ -9859,12 +13742,12 @@
             0.5,
             "cup",
             "Pineapple Juice",
-            "\u00bd cup pineapple juice"
+            "½ cup pineapple juice"
           ]
         ]
       },
       {
-        "method": "Method:\u00a0Fight Milk",
+        "method": "Fight Milk",
         "ingredients": [
           [
             1.0,
@@ -9888,19 +13771,19 @@
             0.5,
             "teaspoon",
             "Allspice",
-            "\u00bd teaspoon allspice"
+            "½ teaspoon allspice"
           ],
           [
             0.5,
             "teaspoon",
             "Cinnamon",
-            "\u00bd teaspoon cinnamon"
+            "½ teaspoon cinnamon"
           ],
           [
             0.5,
             "teaspoon",
             "Nutmeg",
-            "\u00bd teaspoon nutmeg"
+            "½ teaspoon nutmeg"
           ],
           [
             3.0,
@@ -9911,7 +13794,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Grilled Charlie",
+        "method": "Grilled Charlie",
         "ingredients": [
           [
             2.0,
@@ -9946,19 +13829,19 @@
         ]
       },
       {
-        "method": "Method:\u00a0Milk Steak",
+        "method": "Milk Steak",
         "ingredients": [
           [
             0.5,
             "pound",
             "Bacon",
-            "\u00bd pound bacon"
+            "½ pound bacon"
           ],
           [
             0.25,
             "cup",
             "Water",
-            "\u00bc cup water"
+            "¼ cup water"
           ],
           [
             2.0,
@@ -10015,6 +13898,41 @@
             "Polenta"
           ]
         ]
+      },
+      {
+        "method": "For Bacon Gravy",
+        "ingredients": [
+          [
+            0.25,
+            "pound",
+            "Bacon",
+            "¼ pound of bacon"
+          ],
+          [
+            "1-2",
+            null,
+            "Flour",
+            "1-2 tbs of flour"
+          ],
+          [
+            null,
+            null,
+            "Milk",
+            "Milk"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ]
+        ]
       }
     ]
   },
@@ -10022,15 +13940,16 @@
     "episode_name": "Strudel inspired by Inglourious Basterds",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/ingloriousbasterds",
     "youtube_link": "https://www.youtube.com/watch?v=7H3z3J50XCs",
+    "published": "2017-01-23",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For strudel",
         "ingredients": [
           [
             1.5,
             "cup",
             "Bread Flour",
-            "1 \u00bd cups bread flour"
+            "1 ½ cups bread flour"
           ],
           [
             4.0,
@@ -10048,19 +13967,19 @@
             0.25,
             "teaspoon",
             "Salt",
-            "\u00bc tsp salt"
+            "¼ tsp salt"
           ],
           [
             0.5,
             "tablespoon",
             "Lemon Juice",
-            "\u00bd Tbsp of lemon juice"
+            "½ Tbsp of lemon juice"
           ],
           [
             0.25,
             "cup",
             "Water",
-            "\u00bc cup of warm water (approximately 110\u00b0F)"
+            "¼ cup of warm water (approximately 110°F)"
           ],
           [
             4.0,
@@ -10072,7 +13991,7 @@
             0.5,
             "cup",
             "Sugar",
-            "\u00bd cup sugar"
+            "½ cup sugar"
           ],
           [
             1.0,
@@ -10084,7 +14003,7 @@
             0.5,
             "cup",
             "Raisins",
-            "\u00bd cup raisins"
+            "½ cup raisins"
           ],
           [
             null,
@@ -10108,13 +14027,30 @@
             0.5,
             "cup",
             "Finely Chopped Hazelnuts And Walnuts",
-            "\u00bd cup finely chopped hazelnuts and walnuts"
+            "½ cup finely chopped hazelnuts and walnuts"
           ],
           [
             1.0,
             null,
             "Beaten Egg",
             "1 beaten egg"
+          ]
+        ]
+      },
+      {
+        "method": "For whipped cream",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Heavy Cream",
+            "1 cup heavy cream"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Sugar",
+            "1 Tbsp sugar"
           ]
         ]
       }
@@ -10124,9 +14060,10 @@
     "episode_name": "Kevin's Famous Chili inspired by The Office",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/1/18/kevinschili",
     "youtube_link": "https://www.youtube.com/watch?v=eQ9eY0_DoEk",
+    "published": "2017-01-18",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Kevin's Famous Chili inspired by The Office",
         "ingredients": [
           [
             3.0,
@@ -10191,8 +14128,8 @@
           [
             2.0,
             null,
-            "Jalape\u00f1os",
-            "2 jalape\u00f1os, seeded and chopped"
+            "Jalapeños",
+            "2 jalapeños, seeded and chopped"
           ],
           [
             1.0,
@@ -10256,9 +14193,10 @@
     "episode_name": "Fish Tacos from I Love You, Man",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/iloveyoumanfishtacos",
     "youtube_link": "https://www.youtube.com/watch?v=Izvd-iztaQk",
+    "published": "2017-01-12",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For refried beans",
         "ingredients": [
           [
             16.0,
@@ -10279,6 +14217,199 @@
             "1 clove crushed garlic"
           ]
         ]
+      },
+      {
+        "method": "For pico de gallo",
+        "ingredients": [
+          [
+            4.0,
+            null,
+            "Tomatoes",
+            "4 tomatoes, diced"
+          ],
+          [
+            0.5,
+            null,
+            "An Onion",
+            "½ an onion, diced"
+          ],
+          [
+            0.25,
+            "cup",
+            "Fresh Minced Cilantro",
+            "¼ cup fresh minced cilantro"
+          ],
+          [
+            0.5,
+            null,
+            "Jalapeno",
+            "½ jalapeno, diced (take out seeds if you don’t want it to be too spicy)"
+          ],
+          [
+            null,
+            null,
+            "1 Lime",
+            "Juice of 1 lime"
+          ]
+        ]
+      },
+      {
+        "method": "For tomatillo salsa (aka salsa verde)",
+        "ingredients": [
+          [
+            10.0,
+            null,
+            "Tomatillos",
+            "10 tomatillos"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "A drizzle of olive oil"
+          ],
+          [
+            0.5,
+            null,
+            "An Onion",
+            "½ an onion, diced"
+          ],
+          [
+            0.25,
+            "cup",
+            "Cilantro",
+            "¼ cup cilantro, minced"
+          ],
+          [
+            0.5,
+            null,
+            "A Jalapeno",
+            "½ a jalapeno, minced"
+          ],
+          [
+            null,
+            null,
+            "1 Lime",
+            "Juice of 1 lime"
+          ],
+          [
+            null,
+            null,
+            "Salt And Pepper To Taste",
+            "Salt and pepper to taste"
+          ]
+        ]
+      },
+      {
+        "method": "For guacamole",
+        "ingredients": [
+          [
+            4.0,
+            "medium",
+            "Avocados",
+            "4 medium avocados"
+          ],
+          [
+            0.5,
+            null,
+            "Jalapeno",
+            "½ jalapeno, seeded (can also be unseeded for less heat)"
+          ],
+          [
+            0.25,
+            null,
+            "Spanish Onion",
+            "¼ Spanish onion, chopped"
+          ],
+          [
+            null,
+            null,
+            "A Lime",
+            "Juice of half a lime"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Cilantro",
+            "2 Tbsp cilantro"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt, pepper, and cumin to taste"
+          ]
+        ]
+      },
+      {
+        "method": "For homemade tortillas",
+        "ingredients": [
+          [
+            8.5,
+            "ounce",
+            "All Purpose Flour",
+            "8 ½ ounces all purpose flour (about 1 ¾ cup)"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Salt",
+            "1 tsp of salt"
+          ],
+          [
+            6.0,
+            "teaspoon",
+            "Baking Powder",
+            "6 tsp of baking powder"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Lard",
+            "3 Tbsp of lard"
+          ],
+          [
+            0.75,
+            "cup",
+            "Water",
+            "¾ cup warm water (110°)"
+          ]
+        ]
+      },
+      {
+        "method": "For fish",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Mahi Mahi Fish Fillets",
+            "Mahi mahi fish fillets"
+          ],
+          [
+            null,
+            null,
+            "1 Lime",
+            "Juice of 1 lime"
+          ],
+          [
+            null,
+            null,
+            "Salt And Pepper",
+            "Salt and pepper"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "Olive oil"
+          ],
+          [
+            null,
+            null,
+            "Freshly Ground Toasted Cumin",
+            "Freshly ground toasted cumin"
+          ]
+        ]
       }
     ]
   },
@@ -10286,9 +14417,10 @@
     "episode_name": "Big Kahuna Burger inspired by Pulp Fiction",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/5/4/bigkahunaburger",
     "youtube_link": "https://www.youtube.com/watch?v=OmwE0aJqkdA",
+    "published": "2017-01-03",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Big Kahuna Burger inspired by Pulp Fiction",
         "ingredients": [
           [
             1.0,
@@ -10352,9 +14484,10 @@
     "episode_name": "Breakfast Dessert Pasta from Elf",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/dessertpasta",
     "youtube_link": "https://www.youtube.com/watch?v=PsuoXi2D6tM",
+    "published": "2016-12-20",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For Buddy’s Pasta",
         "ingredients": [
           [
             null,
@@ -10411,6 +14544,41 @@
             "Chocolate sauce"
           ]
         ]
+      },
+      {
+        "method": "For Babish’s Pasta",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Salt",
+            "A pinch of salt"
+          ],
+          [
+            null,
+            null,
+            "Spaghetti",
+            "Spaghetti"
+          ],
+          [
+            null,
+            null,
+            "Tomato Sauce",
+            "Tomato sauce"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Butter",
+            "1 Tbsp butter"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "A drizzle of olive oil"
+          ]
+        ]
       }
     ]
   },
@@ -10418,9 +14586,10 @@
     "episode_name": "Eggs Woodhouse For Good from Archer",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/eggswoodhouse",
     "youtube_link": "https://www.youtube.com/watch?v=eVgmI-YF16g",
+    "published": "2016-12-13",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For creamed spinach",
         "ingredients": [
           [
             null,
@@ -10450,13 +14619,83 @@
             0.5,
             "cup",
             "Milk",
-            "\u00bd cup milk"
+            "½ cup milk"
           ],
           [
             null,
             null,
             "Salt And Pepper",
             "Salt and pepper"
+          ]
+        ]
+      },
+      {
+        "method": "For hollandaise",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Egg Yolks",
+            "2 egg yolks"
+          ],
+          [
+            null,
+            null,
+            "Lemon Juice",
+            "Squeeze of lemon juice"
+          ],
+          [
+            1.0,
+            null,
+            "Stick Melted Butter",
+            "1 stick melted butter"
+          ]
+        ]
+      },
+      {
+        "method": "For Eggs Woodhouse",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Artichoke Hearts",
+            "2 warm artichoke hearts"
+          ],
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs"
+          ],
+          [
+            null,
+            null,
+            "Sliced Ibérico Ham",
+            "Sliced Ibérico ham"
+          ],
+          [
+            null,
+            null,
+            "Black Truffle",
+            "Black truffle"
+          ],
+          [
+            null,
+            null,
+            "Paprika",
+            "A sprinkle of paprika"
+          ],
+          [
+            null,
+            null,
+            "Kashmiri Saffron",
+            "A sprinkle of kashmiri saffron"
+          ],
+          [
+            null,
+            null,
+            "Beluga Caviar",
+            "A generous spoonful of beluga caviar (or white sturgeon caviar)"
           ]
         ]
       }
@@ -10466,9 +14705,10 @@
     "episode_name": "World's Greatest Sandwich from Spanglish",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/worldsgreatestsandwich",
     "youtube_link": "https://www.youtube.com/watch?v=A_l8_C-EO38",
+    "published": "2016-12-05",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For bread",
         "ingredients": [
           [
             1.0,
@@ -10480,43 +14720,84 @@
             0.5,
             "teaspoon",
             "Instant Yeast",
-            "\u00bd tsp instant yeast"
+            "½ tsp instant yeast"
           ],
           [
             5.0,
             "ounce",
             "Wheat Flour",
-            "5 ounces whole wheat flour (approximately 1 \u00bc cup)"
+            "5 ounces whole wheat flour (approximately 1 ¼ cup)"
           ],
           [
             5.0,
             "ounce",
             "Bread Flour",
-            "5 ounces bread flour (approximately 1 \u00bc cup)"
+            "5 ounces bread flour (approximately 1 ¼ cup)"
           ],
           [
             19.25,
             "ounce",
             "Bread Flour",
-            "19 \u00bc ounces bread flour (approximately 4 \u00be cup)"
+            "19 ¼ ounces bread flour (approximately 4 ¾ cup)"
           ],
           [
             1.3333333333333333,
             "cup",
             "Room Temperature Water",
-            "1 \u2153 cup room temperature water"
+            "1 ⅓ cup room temperature water"
           ],
           [
             2.5,
             "ounce",
             "Rye Flour",
-            "2 \u00bd ounces rye flour (approximately \u2154 cup)"
+            "2 ½ ounces rye flour (approximately ⅔ cup)"
           ],
           [
             2.0,
             "tablespoon",
             "Honey",
             "2 Tbsp honey"
+          ]
+        ]
+      },
+      {
+        "method": "For sandwich",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Slices Monterey Jack Cheese",
+            "2 slices Monterey Jack cheese"
+          ],
+          [
+            null,
+            null,
+            "Mayo",
+            "A heaping spoonful of mayo"
+          ],
+          [
+            4.0,
+            null,
+            "Bacon",
+            "4 slices of bacon"
+          ],
+          [
+            4.0,
+            null,
+            "Tomato",
+            "4 slices of tomato"
+          ],
+          [
+            1.0,
+            null,
+            "Fried Egg",
+            "1 fried egg, sunny side up"
+          ],
+          [
+            3.0,
+            null,
+            "Butter Leaf Lettuce",
+            "3 leaves of butter leaf lettuce"
           ]
         ]
       }
@@ -10526,9 +14807,10 @@
     "episode_name": "Prison Sauce inspired by Goodfellas",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/15/goodfellasprisonsauce",
     "youtube_link": "https://www.youtube.com/watch?v=uEjMyHccX8U",
+    "published": "2016-11-30",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Prison Sauce inspired by Goodfellas",
         "ingredients": [
           [
             1.0,
@@ -10606,7 +14888,7 @@
             1.0,
             "pound",
             "Meatballs",
-            "1 pound meatballs (see Timpano recipe )"
+            "1 pound meatballs (see Timpano recipe)"
           ],
           [
             3.0,
@@ -10634,9 +14916,10 @@
     "episode_name": "The Moistmaker inspired by Friends",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/moistmaker",
     "youtube_link": "https://www.youtube.com/watch?v=vjZXcapkFEU",
+    "published": "2016-11-14",
     "recipes": [
       {
-        "method": "Method:",
+        "method": "For Turkey",
         "ingredients": [
           [
             1.0,
@@ -10665,7 +14948,42 @@
         ]
       },
       {
-        "method": "Method:\u00a0Turkey Stock",
+        "method": "For Turkey Gravy",
+        "ingredients": [
+          [
+            3.0,
+            "tablespoon",
+            "Butter",
+            "3 Tbsp butter"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Flour",
+            "3 Tbsp flour"
+          ],
+          [
+            2.0,
+            "cup",
+            "Turkey Stock",
+            "2 cups turkey stock"
+          ],
+          [
+            null,
+            null,
+            "Salt & Freshly Ground Pepper",
+            "Salt & freshly ground pepper"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Soy Sauce",
+            "1 Tbsp soy sauce"
+          ]
+        ]
+      },
+      {
+        "method": "Turkey Stock",
         "ingredients": [
           [
             1.0,
@@ -10742,7 +15060,7 @@
         ]
       },
       {
-        "method": "Method:\u00a0Cranberry Sauce",
+        "method": "Cranberry Sauce",
         "ingredients": [
           [
             2.0,
@@ -10813,7 +15131,7 @@
         ]
       },
       {
-        "method": "Default - The Moistmaker inspired by Friends",
+        "method": "The Moistmaker inspired by Friends",
         "ingredients": [
           [
             1.0,
@@ -10871,15 +15189,16 @@
     "episode_name": "How To Make Apple Pie",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/applepie",
     "youtube_link": "https://www.youtube.com/watch?v=-Vy12e0LjX4",
+    "published": "2016-09-23",
     "recipes": [
       {
-        "method": "Method",
+        "method": "For Dough",
         "ingredients": [
           [
             12.5,
             "ounce",
             "All Purpose Flour",
-            "12\u00bd ounces all purpose flour"
+            "12½ ounces all purpose flour"
           ],
           [
             2.0,
@@ -10906,6 +15225,53 @@
             "6-8 ounces ice water"
           ]
         ]
+      },
+      {
+        "method": "For Apples",
+        "ingredients": [
+          [
+            2.5,
+            "pound",
+            "Apples",
+            "2½ pounds apples"
+          ],
+          [
+            0.75,
+            "cup",
+            "Sugar",
+            "¾ cup sugar"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Cinnamon",
+            "¼ tsp cinnamon"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Allspice",
+            "¼ tsp allspice"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Nutmeg",
+            "¼ tsp nutmeg"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Ginger",
+            "¼ tsp ginger"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Flour",
+            "2 Tbsp flour"
+          ]
+        ]
       }
     ]
   },
@@ -10913,9 +15279,10 @@
     "episode_name": "Philly Cheesesteaks inspired by Creed",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/5/4/cheesesteak",
     "youtube_link": "https://www.youtube.com/watch?v=Zru1yk--rGQ",
+    "published": "2016-08-21",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Philly Cheesesteaks inspired by Creed",
         "ingredients": [
           [
             null,
@@ -10973,9 +15340,10 @@
     "episode_name": "New York-Style Pizza inspired by TMNT II: Secret of the Ooze",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/5/16/nypizzatmnt",
     "youtube_link": "https://www.youtube.com/watch?v=KUu2gJn1dzc",
+    "published": "2016-04-30",
     "recipes": [
       {
-        "method": "Method",
+        "method": "New York-Style Pizza inspired by TMNT II: Secret of the Ooze",
         "ingredients": [
           [
             16.0,
@@ -10986,8 +15354,8 @@
           [
             1.0,
             "tablespoon",
-            "Plus \u00bd Tsp Sugar",
-            "1 Tbsp plus \u00bd tsp sugar, divided"
+            "Plus ½ Tsp Sugar",
+            "1 Tbsp plus ½ tsp sugar, divided"
           ],
           [
             3.0,
@@ -10999,13 +15367,13 @@
             0.5,
             "teaspoon",
             "Instant Yeast",
-            "\u00bd tsp instant yeast"
+            "½ tsp instant yeast"
           ],
           [
             1.25,
             "cup",
             "Ice Water",
-            "1\u00bc cups ice water, plus more as necessary"
+            "1¼ cups ice water, plus more as necessary"
           ],
           [
             1.0,
@@ -11035,19 +15403,19 @@
             0.5,
             "teaspoon",
             "Red Pepper Flakes",
-            "\u00bd tsp red pepper flakes"
+            "½ tsp red pepper flakes"
           ],
           [
             0.5,
             "teaspoon",
             "Dried Basil",
-            "\u00bd tsp dried basil"
+            "½ tsp dried basil"
           ],
           [
             0.25,
             "cup",
             "Semolina Flour",
-            "\u00bc cup semolina flour"
+            "¼ cup semolina flour"
           ],
           [
             8.0,
@@ -11063,9 +15431,10 @@
     "episode_name": "Pasta Aglio e Olio inspired by Chef",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/5/4/aglioeolio",
     "youtube_link": "https://www.youtube.com/watch?v=bJUiWdM__Qw",
+    "published": "2016-03-26",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Pasta Aglio e Olio inspired by Chef",
         "ingredients": [
           [
             0.5,
@@ -11117,9 +15486,10 @@
     "episode_name": "Fried Chicken inspired by Louie",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2016/3/16/louiefriedchicken",
     "youtube_link": "https://www.youtube.com/watch?v=7UEIBdMyj9g",
+    "published": "2016-03-16",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Fried Chicken inspired by Louie",
         "ingredients": [
           [
             1.0,
@@ -11195,9 +15565,10 @@
     "episode_name": "How To Reverse-Sear A Steak",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/reversesearsteak",
     "youtube_link": "https://www.youtube.com/watch?v=akO6D_tc0lo",
+    "published": "2016-03-14",
     "recipes": [
       {
-        "method": "Method",
+        "method": "How To Reverse-Sear A Steak",
         "ingredients": [
           [
             2.0,
@@ -11243,9 +15614,10 @@
     "episode_name": "Croque Madame: The Ultimate Breakfast Sandwich",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/croquemadame",
     "youtube_link": "https://www.youtube.com/watch?v=dVRl1aP28BI",
+    "published": "2016-03-13",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Croque Madame: The Ultimate Breakfast Sandwich",
         "ingredients": [
           [
             2.0,
@@ -11263,7 +15635,7 @@
             1.25,
             "cup",
             "Milk",
-            "1 \u00bc cups milk"
+            "1 ¼ cups milk"
           ],
           [
             null,
@@ -11305,7 +15677,7 @@
             0.5,
             "cup",
             "Shredded Gruyere Cheese",
-            "\u00bd cup shredded gruyere cheese"
+            "½ cup shredded gruyere cheese"
           ],
           [
             2.0,
@@ -11321,9 +15693,10 @@
     "episode_name": "Apple Pie Smoothie",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/applepiesmoothie",
     "youtube_link": "https://www.youtube.com/watch?v=mv1z2p3to0U",
+    "published": "2016-03-13",
     "recipes": [
       {
-        "method": "Method",
+        "method": "Apple Pie Smoothie",
         "ingredients": [
           [
             2.0,
@@ -11335,7 +15708,7 @@
             null,
             null,
             "Nonfat Greek Yogurt",
-            "Approximately \u00bd cup of nonfat greek yogurt"
+            "Approximately ½ cup of nonfat greek yogurt"
           ],
           [
             null,
@@ -11375,9 +15748,10 @@
     "episode_name": "Il Timpano inspired by Big Night",
     "episode_link": "https://www.bingingwithbabish.com/recipes/2017/2/20/il-timpano-inspired-by-big-night",
     "youtube_link": "https://www.youtube.com/watch?v=PIsIE0oHGgo",
+    "published": "2016-02-20",
     "recipes": [
       {
-        "method": "Method: Meatballs",
+        "method": "Meatball",
         "ingredients": [
           [
             1.0,
@@ -11484,7 +15858,7 @@
         ]
       },
       {
-        "method": "Method: Garganelli",
+        "method": "Garganelli",
         "ingredients": [
           [
             10.0,
@@ -11507,7 +15881,7 @@
         ]
       },
       {
-        "method": "Method: Timpano",
+        "method": "Timpano",
         "ingredients": [
           [
             15.0,
@@ -11543,7 +15917,7 @@
             1.0,
             "pound",
             "Genoa Salami",
-            "1 pound genoa salami, sliced into 1/2\u201d rounds"
+            "1 pound genoa salami, sliced into 1/2” rounds"
           ],
           [
             0.5,
@@ -11567,7 +15941,7 @@
             1.0,
             null,
             "Recipe Italian Red Sauce",
-            "1 recipe Italian red sauce (see Prison Sauce )"
+            "1 recipe Italian red sauce (see Prison Sauce)"
           ],
           [
             24.0,
@@ -11595,9 +15969,10 @@
     "episode_name": "Parks & Rec Burger Cookoff",
     "episode_link": "https://www.bingingwithbabish.com/recipes/parksandrecburger",
     "youtube_link": "https://www.youtube.com/watch?v=MP_nWuLYpJw",
+    "published": "2016-02-10",
     "recipes": [
       {
-        "method": "Method: Chris Traeger's East Meets West Turkey Burger",
+        "method": "Chris Traeger's East Meets West Turkey Burger",
         "ingredients": [
           [
             1.0,
@@ -11633,13 +16008,13 @@
             0.3333333333333333,
             "cup",
             "Apple Cider Vinegar",
-            "\u2153 cup apple cider vinegar"
+            "⅓ cup apple cider vinegar"
           ],
           [
             0.3333333333333333,
             "cup",
             "Golden Raisins",
-            "\u2153 cup golden raisins"
+            "⅓ cup golden raisins"
           ],
           [
             null,
@@ -11663,7 +16038,7 @@
             0.25,
             "cup",
             "Black Truffle Oil",
-            "\u00bc cup black truffle oil"
+            "¼ cup black truffle oil"
           ],
           [
             1.0,
@@ -11699,7 +16074,7 @@
             0.25,
             "teaspoon",
             "Marmite",
-            "\u00bc tsp marmite"
+            "¼ tsp marmite"
           ],
           [
             1.0,
@@ -11734,7 +16109,7 @@
         ]
       },
       {
-        "method": "Method: Ron Swanson's Burger",
+        "method": "Ron Swanson's Burger",
         "ingredients": [
           [
             null,
