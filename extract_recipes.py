@@ -243,9 +243,9 @@ class BabishSync:
                     # Get method name, usually right before the list itself
                     method_name = iloc.find_previous_sibling(['p', 'h2', 'h3'])
                     if method_name is not None:
-                        method_name = method_name.get_text().strip('\u00a0:,').strip()
+                        method_name = method_name.get_text().replace('Ingredients', '').strip('\u00a0:,').strip()
 
-                    if method_name is None or method_name == '' or 'Ingredients' in method_name:
+                    if method_name is None or method_name == '':
                         # Look for the method name above the recipe instead
                         h = iloc.parent.find_next(['h1', 'h2'])
                         if h:
