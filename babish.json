@@ -1,5 +1,113 @@
 [
   {
+    "episode_name": "Cinnamon Rolls inspired by Jim Gaffigan's Stand Up (sort of)",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/cinnamonrolls",
+    "youtube_link": "https://www.youtube.com/watch?v=jFYi2QRVFOc",
+    "published": "2018-10-23",
+    "recipes": [
+      {
+        "method": "Cinnamon Rolls",
+        "ingredients": [
+          [
+            3.25,
+            "ounce",
+            "Granulated Sugar",
+            "3 ¼ ounces granulated sugar"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Salt",
+            "½ tsp salt"
+          ],
+          [
+            3.0,
+            "ounce",
+            "Butter",
+            "3 ounces butter, soft"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            null,
+            null,
+            "1 Lemon",
+            "Zest of 1 lemon"
+          ],
+          [
+            16.0,
+            "ounce",
+            "Bread Flour",
+            "16 ounces bread flour"
+          ],
+          [
+            1.0,
+            null,
+            "Packet Instant Yeast",
+            "1 packet instant yeast"
+          ],
+          [
+            8.0,
+            "ounce",
+            "Buttermilk",
+            "8 ounces of buttermilk"
+          ],
+          [
+            0.5,
+            "cup",
+            "White Sugar",
+            "½ cup white sugar"
+          ],
+          [
+            1.5,
+            "tablespoon",
+            "Cinnamon",
+            "1 ½ Tbsp cinnamon"
+          ],
+          [
+            0.25,
+            "cup",
+            "Brown Sugar",
+            "¼ cup brown sugar"
+          ]
+        ]
+      },
+      {
+        "method": "Frosting",
+        "ingredients": [
+          [
+            2.0,
+            "cup",
+            "Powdered Sugar",
+            "2 cups powdered sugar, sifted"
+          ],
+          [
+            8.0,
+            "ounce",
+            "Cream Cheese",
+            "8 ounces of cream cheese, room temperature"
+          ],
+          [
+            4.0,
+            "ounce",
+            "Butter",
+            "4 ounces of butter, room temperature"
+          ],
+          [
+            null,
+            null,
+            "Heavy Cream",
+            "Heavy cream (if needed to thin out frosting)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "King of the Hill Special",
     "episode_link": "https://www.bingingwithbabish.com/recipes/kingofthehillspecial",
     "youtube_link": "https://www.youtube.com/watch?v=iq6_iUhLHo4",
