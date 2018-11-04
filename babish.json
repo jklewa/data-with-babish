@@ -1,5 +1,126 @@
 [
   {
+    "episode_name": "Binging with Babish: Takoyaki from Kill la Kill",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/takoyaki",
+    "youtube_link": "https://www.youtube.com/watch?v=eD5C8ryTd1A",
+    "published": "2018-10-30",
+    "recipes": [
+      {
+        "method": "Binging with Babish: Takoyaki from Kill la Kill",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Octopus",
+            "Octopus, cooked"
+          ],
+          [
+            null,
+            null,
+            "Baby Shrimp",
+            "Baby shrimp"
+          ],
+          [
+            null,
+            null,
+            "Sweet Corn",
+            "Sweet corn"
+          ],
+          [
+            null,
+            null,
+            "Kimchi",
+            "Kimchi"
+          ],
+          [
+            null,
+            null,
+            "Edamame",
+            "Edamame"
+          ],
+          [
+            120.0,
+            "gram",
+            "All-purpose Flour",
+            "120g all-purpose flour"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Baking Powder",
+            "2 tsp baking powder"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Salt",
+            "½ tsp salt"
+          ],
+          [
+            2.0,
+            "large",
+            "Eggs",
+            "2 large eggs"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Low Sodium Soy Sauce",
+            "1 Tbsp low sodium soy sauce"
+          ],
+          [
+            1.5,
+            "cup",
+            "Dashi Broth",
+            "1 ½ cups dashi broth"
+          ],
+          [
+            null,
+            null,
+            "Chives",
+            "Chives, chopped"
+          ],
+          [
+            null,
+            null,
+            "Bonito Flakes",
+            "Bonito flakes, powdered"
+          ],
+          [
+            null,
+            null,
+            "Red Pickled Ginger",
+            "Red pickled ginger, chopped"
+          ],
+          [
+            null,
+            null,
+            "Tenkasu",
+            "Tenkasu"
+          ],
+          [
+            null,
+            null,
+            "Okonomiyaki Sauce",
+            "Okonomiyaki sauce"
+          ],
+          [
+            null,
+            null,
+            "Japanese Mayo",
+            "Japanese mayo"
+          ],
+          [
+            null,
+            null,
+            "Aonori",
+            "Aonori"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Cinnamon Rolls inspired by Jim Gaffigan's Stand Up (sort of)",
     "episode_link": "https://www.bingingwithbabish.com/recipes/cinnamonrolls",
     "youtube_link": "https://www.youtube.com/watch?v=jFYi2QRVFOc",
