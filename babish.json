@@ -1,5 +1,108 @@
 [
   {
+    "episode_name": "Bear Stew inspired by Red Dead Redemption 2",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/bearstew",
+    "youtube_link": "https://www.youtube.com/watch?v=wMxKbkWrvDc",
+    "published": "2018-11-06",
+    "recipes": [
+      {
+        "method": "Bear Stew inspired by Red Dead Redemption 2",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Onion",
+            "1 onion"
+          ],
+          [
+            1.0,
+            null,
+            "Celery",
+            "1 bunch of celery"
+          ],
+          [
+            "3-4",
+            null,
+            "Carrots",
+            "3-4 carrots, peeled and chopped"
+          ],
+          [
+            1.0,
+            null,
+            "Potato",
+            "1 potato, chopped"
+          ],
+          [
+            4.0,
+            null,
+            "Garlic",
+            "4 cloves of garlic, chopped"
+          ],
+          [
+            1.0,
+            null,
+            "Bay Leaf",
+            "1 bay leaf"
+          ],
+          [
+            null,
+            null,
+            "Thyme",
+            "A few sprigs of thyme"
+          ],
+          [
+            null,
+            null,
+            "Venison",
+            "Venison, cut into stew sized pieces"
+          ],
+          [
+            null,
+            null,
+            "Rabbit Meat",
+            "Rabbit meat, cut into stew sized pieces"
+          ],
+          [
+            null,
+            null,
+            "Bear Meat",
+            "Bear meat, cut into stew sized pieces"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            null,
+            null,
+            "Flour",
+            "A few tablespoons of flour"
+          ],
+          [
+            4.0,
+            "cup",
+            "Beef Broth",
+            "4 cups beef broth, separated"
+          ],
+          [
+            2.0,
+            "cup",
+            "Crushed Tomatoes",
+            "2 cups crushed tomatoes"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Binging with Babish: Takoyaki from Kill la Kill",
     "episode_link": "https://www.bingingwithbabish.com/recipes/takoyaki",
     "youtube_link": "https://www.youtube.com/watch?v=eD5C8ryTd1A",
