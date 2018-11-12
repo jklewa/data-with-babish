@@ -2,6 +2,10 @@
 
 This project aims to analyze the recipes of the popular YouTube channel [Binging with Babish](http://bingingwithbabish.com) and convert them into beautiful data.
 
+## Visualizations
+
+* [jklewa/data-with-babish-example](https://github.com/jklewa/data-with-babish-example) - An interactive episode data viewer [Demo](https://jklewa.github.io/data-with-babish-example/)
+
 ## Datasets
 
  * [babish.json](#babishjson) - Parsed recipe ingredients, grouped by episode
