@@ -1,5 +1,416 @@
 [
   {
+    "episode_name": "Seinfeld Volume II",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/seinfeldspecial2",
+    "youtube_link": "https://www.youtube.com/watch?v=b5msQpny05I&t=310s",
+    "published": "2018-12-11",
+    "recipes": [
+      {
+        "method": "Pudding Skin Singles",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Can Coconut Milk",
+            "1 can coconut milk"
+          ],
+          [
+            2.0,
+            null,
+            "Packets Gelatin",
+            "2 packets gelatin"
+          ],
+          [
+            0.5,
+            "cup",
+            "Unsweetened Cocoa Powder",
+            "½ cup unsweetened cocoa powder"
+          ],
+          [
+            0.5,
+            "cup",
+            "Sugar",
+            "½ cup sugar"
+          ]
+        ]
+      },
+      {
+        "method": "Marble Rye Bread",
+        "ingredients": [
+          [
+            7.5,
+            "ounce",
+            "Rye Flour",
+            "7 ½ ounces rye flour, halved"
+          ],
+          [
+            8.0,
+            "teaspoon",
+            "Plain White Sugar",
+            "8 tsp plain white sugar, halved"
+          ],
+          [
+            2.0,
+            null,
+            "Packets Instant Yeast",
+            "2 packets instant yeast"
+          ],
+          [
+            2.0,
+            "cup",
+            "Lukewarm Water",
+            "2 cups lukewarm water, halved"
+          ],
+          [
+            8.0,
+            "ounce",
+            "Sour Cream",
+            "8 ounces sour cream, halved"
+          ],
+          [
+            20.0,
+            "ounce",
+            "Bread Flour",
+            "20 ounces of bread flour, halved"
+          ],
+          [
+            3.0,
+            "teaspoon",
+            "Salt",
+            "3 tsp salt, separated"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Wheat Gluten",
+            "2 Tbsp wheat gluten, halved (optional)"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Unsweetened Cocoa Powder",
+            "2 Tbsp unsweetened cocoa powder"
+          ],
+          [
+            null,
+            null,
+            "Butter",
+            "Butter, melted"
+          ]
+        ]
+      },
+      {
+        "method": "Lobster Scrambled Eggs",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Lobster Tail",
+            "Lobster tail"
+          ],
+          [
+            3.0,
+            null,
+            "Eggs",
+            "3 eggs"
+          ],
+          [
+            "4-5",
+            null,
+            "Chives",
+            "4-5 chives, finely minced"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Butter",
+            "2 Tbsp butter"
+          ],
+          [
+            "2-3",
+            "tablespoon",
+            "Sour Cream",
+            "2-3 Tbsp sour cream"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "3-Day Potato Salad from SpongeBob SquarePants",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/3daypotatosalad",
+    "youtube_link": "https://www.youtube.com/watch?v=5Ugrgl9tB2s&t=138s",
+    "published": "2018-12-04",
+    "recipes": [
+      {
+        "method": "Standard Potato Salad",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "And 1 ½ Tbsp Kosher Salt",
+            "2 and 1 ½ Tbsp kosher salt"
+          ],
+          [
+            null,
+            null,
+            "Water",
+            "Water"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Kosher salt"
+          ],
+          [
+            0.5,
+            null,
+            "White Onion",
+            "½ white onion, minced"
+          ],
+          [
+            1.0,
+            null,
+            "Rib Celery",
+            "1 rib celery, minced"
+          ],
+          [
+            0.5,
+            "cup",
+            "Mayonnaise",
+            "½ cup mayonnaise"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "White Wine Vinegar",
+            "2 Tbsp white wine vinegar"
+          ],
+          [
+            null,
+            null,
+            "Sugar",
+            "A pinch of sugar"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Garlic Powder",
+            "1 tsp garlic powder"
+          ],
+          [
+            1.0,
+            null,
+            "Hard Boiled Egg",
+            "1 hard boiled egg, chopped"
+          ],
+          [
+            null,
+            null,
+            "Black Pepper",
+            "Black pepper"
+          ],
+          [
+            1.0,
+            null,
+            "Cabbage",
+            "1 head of cabbage"
+          ],
+          [
+            "2-3",
+            "cup",
+            "Cubed Russet Potatoes",
+            "2-3 cups cubed russet potatoes (skinned)"
+          ]
+        ]
+      },
+      {
+        "method": "Sophisticated Potato Salad",
+        "ingredients": [
+          [
+            4.0,
+            "cup",
+            "Red And Gold Baby Potatoes",
+            "4 cups red and gold baby potatoes, halved"
+          ],
+          [
+            null,
+            null,
+            "Water",
+            "Water"
+          ],
+          [
+            1.0,
+            null,
+            "Cabbage",
+            "1 head of cabbage"
+          ],
+          [
+            0.5,
+            null,
+            "Red Onion",
+            "½ red onion, chopped"
+          ],
+          [
+            "2-3",
+            "tablespoon",
+            "Sour Cream",
+            "2-3 Tbsp sour cream"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Freshly Chopped Dill",
+            "3 Tbsp freshly chopped dill"
+          ],
+          [
+            "1-2",
+            "tablespoon",
+            "White Wine Vinegar",
+            "1-2 Tbsp white wine vinegar"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Kosher salt"
+          ],
+          [
+            null,
+            null,
+            "Freshly Ground Pepper",
+            "Freshly ground pepper"
+          ],
+          [
+            null,
+            null,
+            "Scallions",
+            "Scallions, sliced"
+          ],
+          [
+            null,
+            null,
+            "Chives",
+            "Chives, finely chopped"
+          ],
+          [
+            1.5,
+            "tablespoon",
+            "Olive Oil",
+            "1½ Tbsp olive oil"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Grain Mustard",
+            "1 Tbsp whole grain mustard"
+          ]
+        ]
+      },
+      {
+        "method": "Papatas Bravas",
+        "ingredients": [
+          [
+            4.0,
+            "cup",
+            "Red And Gold Baby Potatoes",
+            "4 cups red and gold baby potatoes, halved"
+          ],
+          [
+            null,
+            null,
+            "Water",
+            "Water"
+          ],
+          [
+            1.0,
+            null,
+            "Cabbage",
+            "1 head of cabbage"
+          ],
+          [
+            2.0,
+            null,
+            "Garlic",
+            "2 cloves of garlic"
+          ],
+          [
+            2.0,
+            null,
+            "Egg Yolks",
+            "2 egg yolks"
+          ],
+          [
+            null,
+            null,
+            "Neutral Flavored Oil",
+            "Neutral flavored oil (canola or vegetable)"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "Olive oil"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Kosher salt"
+          ],
+          [
+            null,
+            null,
+            "Paprika",
+            "Paprika"
+          ],
+          [
+            null,
+            null,
+            "Scallions",
+            "Scallions"
+          ]
+        ]
+      },
+      {
+        "method": "Pickled French Fries",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Russet Potatoes",
+            "2 russet potatoes, peeled and sliced into fry-like sticks"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Kosher salt"
+          ],
+          [
+            null,
+            null,
+            "Water",
+            "Water"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Chilean Sea Bass inspired by Jurassic Park",
     "episode_link": "https://www.bingingwithbabish.com/recipes/chileanseabass",
     "youtube_link": "https://www.youtube.com/watch?v=p73kqpqGqqQ",
