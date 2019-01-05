@@ -1,5 +1,439 @@
 [
   {
+    "episode_name": "The Grey Stuff & Other Hors d’Oeuvres inspired by Beauty & the Beast",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/thegreystuff",
+    "youtube_link": "https://www.youtube.com/watch?v=0TvBiF9S89Q",
+    "published": "2019-01-03",
+    "recipes": [
+      {
+        "method": "Chicken Liver Mousse (“The Grey Stuff”)",
+        "ingredients": [
+          [
+            0.5,
+            "pound",
+            "Chicken Livers",
+            "½ pound chicken livers"
+          ],
+          [
+            1.0,
+            null,
+            "Shallot",
+            "1 shallot"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Fresh Thyme",
+            "1 tsp fresh thyme"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            0.25,
+            "cup",
+            "Cognac",
+            "¼ cup cognac"
+          ],
+          [
+            null,
+            null,
+            "½ Lemon",
+            "Zest of ½ lemon"
+          ],
+          [
+            0.25,
+            "cup",
+            "Heavy Cream",
+            "¼ cup heavy cream"
+          ],
+          [
+            1.5,
+            null,
+            "Sticks Unsalted Butter",
+            "1 ½ sticks unsalted butter, cut into chunks"
+          ],
+          [
+            null,
+            null,
+            "Hearty Cracker",
+            "Hearty cracker, for serving"
+          ]
+        ]
+      },
+      {
+        "method": "Salmon Mousse",
+        "ingredients": [
+          [
+            "3-4",
+            "ounce",
+            "Smoked Salmon",
+            "3-4 ounces smoked salmon"
+          ],
+          [
+            null,
+            null,
+            "½ A Lemon",
+            "Juice of ½ a lemon"
+          ],
+          [
+            null,
+            null,
+            "Cucumber",
+            "Cucumber, sliced (for garnish)"
+          ],
+          [
+            4.0,
+            "ounce",
+            "Neufchatel Cheese",
+            "4 ounces Neufchatel Cheese (or cream cheese)"
+          ]
+        ]
+      },
+      {
+        "method": "Pigs In A Blanket",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Cocktail Weiners",
+            "Cocktail weiners"
+          ],
+          [
+            null,
+            null,
+            "Dates",
+            "Dates"
+          ],
+          [
+            null,
+            null,
+            "Bleu Cheese",
+            "Bleu cheese"
+          ],
+          [
+            null,
+            null,
+            "Puff Pastry",
+            "Puff pastry"
+          ],
+          [
+            null,
+            null,
+            "Flour",
+            "Flour"
+          ],
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs, beaten"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ]
+        ]
+      },
+      {
+        "method": "Buckwheat Blini for Salmon Mousse and Salmon Roe",
+        "ingredients": [
+          [
+            75.0,
+            null,
+            "Grams All Purpose Flour",
+            "75 grams all purpose flour"
+          ],
+          [
+            60.0,
+            null,
+            "Grams Buckwheat Flour",
+            "60 grams buckwheat flour"
+          ],
+          [
+            15.0,
+            null,
+            "Grams Sugar",
+            "15 grams sugar"
+          ],
+          [
+            5.0,
+            null,
+            "Grams Yeast",
+            "5 grams yeast"
+          ],
+          [
+            1.0,
+            "cup",
+            "Milk",
+            "1 cup whole milk"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Melted Butter",
+            "2 Tbsp melted butter (not hot, just melted)"
+          ]
+        ]
+      },
+      {
+        "method": "Meat & Cheese Rolls",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Mortadella",
+            "Mortadella, thinly sliced (or your preferred meat)"
+          ],
+          [
+            null,
+            null,
+            "Gruyere Cheese",
+            "Gruyere cheese (or your preferred cheese)"
+          ],
+          [
+            null,
+            null,
+            "Roasted Red Peppers",
+            "Roasted red peppers"
+          ]
+        ]
+      },
+      {
+        "method": "Cucumber Tea Sandwich",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Your Choice",
+            "Sliced bread of your choice"
+          ],
+          [
+            null,
+            null,
+            "Neufchatel Cheese",
+            "Neufchatel Cheese"
+          ],
+          [
+            null,
+            null,
+            "Fresh Dill",
+            "Fresh Dill"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ]
+        ]
+      },
+      {
+        "method": "Goat Cheese & Fig Tea Sandwich",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Your Choice",
+            "Sliced bread of your choice"
+          ],
+          [
+            null,
+            null,
+            "Goat Cheese",
+            "Goat cheese"
+          ],
+          [
+            null,
+            null,
+            "Fig Jam",
+            "Fig jam"
+          ]
+        ]
+      },
+      {
+        "method": "Salmon Roe",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Buckwheat Blini",
+            "Buckwheat blini"
+          ],
+          [
+            null,
+            null,
+            "Salmon Roe",
+            "Salmon roe"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Dutch Baby inspired by Bob's Burgers",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/dutchbaby",
+    "youtube_link": "https://www.youtube.com/watch?v=RwlYqnO9DSE",
+    "published": "2019-01-03",
+    "recipes": [
+      {
+        "method": "Dutch Baby inspired by Bob's Burgers",
+        "ingredients": [
+          [
+            3.0,
+            null,
+            "Eggs",
+            "3 eggs"
+          ],
+          [
+            0.5,
+            "cup",
+            "Flour",
+            "½ cup flour"
+          ],
+          [
+            0.5,
+            "cup",
+            "Milk",
+            "½ cup milk"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Sugar",
+            "1 Tbsp sugar"
+          ],
+          [
+            0.75,
+            "cup",
+            "Butter",
+            "¾ cup butter, divided"
+          ],
+          [
+            0.5,
+            "cup",
+            "Sugar",
+            "½ cup sugar"
+          ],
+          [
+            1.5,
+            "teaspoon",
+            "Cinnamon",
+            "1 ½ tsp cinnamon"
+          ],
+          [
+            "1-2",
+            "tablespoon",
+            "Molasses",
+            "1-2 Tbsp molasses"
+          ],
+          [
+            1.0,
+            "cup",
+            "Powdered Sugar",
+            "1 cup powdered sugar"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "And Half",
+            "2 Tbsp half and half"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Roast Beast inspired by How The Grinch Stole Christmas",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/roastbeast",
+    "youtube_link": "https://www.youtube.com/watch?v=_szug5_YkD4",
+    "published": "2018-12-18",
+    "recipes": [
+      {
+        "method": "Roast Beast inspired by How The Grinch Stole Christmas",
+        "ingredients": [
+          [
+            1.0,
+            "pound",
+            "Pork Sausage",
+            "1 pound pork sausage"
+          ],
+          [
+            0.25,
+            "cup",
+            "Red Onion",
+            "¼ cup red onion, diced"
+          ],
+          [
+            0.5,
+            "cup",
+            "Celery",
+            "½ cup celery, diced"
+          ],
+          [
+            5.0,
+            "cup",
+            "Cornbread",
+            "5 cups of cornbread"
+          ],
+          [
+            1.0,
+            "whole",
+            "Turkey",
+            "1 whole turkey"
+          ],
+          [
+            0.5,
+            "cup",
+            "Cranberries",
+            "½ cup cranberries"
+          ],
+          [
+            1.5,
+            "cup",
+            "Chicken Stock",
+            "1 ½ cups chicken Stock"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Seinfeld Volume II",
     "episode_link": "https://www.bingingwithbabish.com/recipes/seinfeldspecial2",
     "youtube_link": "https://www.youtube.com/watch?v=b5msQpny05I&t=310s",
@@ -149,7 +583,7 @@
     ]
   },
   {
-    "episode_name": "3-Day Potato Salad from SpongeBob SquarePants",
+    "episode_name": "3-Day Potato Salad inspired by SpongeBob SquarePants",
     "episode_link": "https://www.bingingwithbabish.com/recipes/3daypotatosalad",
     "youtube_link": "https://www.youtube.com/watch?v=5Ugrgl9tB2s&t=138s",
     "published": "2018-12-04",
@@ -1078,13 +1512,13 @@
     ]
   },
   {
-    "episode_name": "Binging with Babish: Takoyaki from Kill la Kill",
+    "episode_name": "Takoyaki inspired by Kill la Kill",
     "episode_link": "https://www.bingingwithbabish.com/recipes/takoyaki",
     "youtube_link": "https://www.youtube.com/watch?v=eD5C8ryTd1A",
     "published": "2018-10-30",
     "recipes": [
       {
-        "method": "Binging with Babish: Takoyaki from Kill la Kill",
+        "method": "Takoyaki inspired by Kill la Kill",
         "ingredients": [
           [
             null,
