@@ -1,5 +1,120 @@
 [
   {
+    "episode_name": "Coq au Vin inspired by Donnie Brasco",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/coqauvin",
+    "youtube_link": "https://www.youtube.com/watch?v=VP1uTgikarU",
+    "published": "2019-01-15",
+    "recipes": [
+      {
+        "method": "Coq au Vin inspired by Donnie Brasco",
+        "ingredients": [
+          [
+            1.0,
+            "whole",
+            "Chicken",
+            "1 whole chicken, broken down into pieces"
+          ],
+          [
+            null,
+            null,
+            "Flour",
+            "Flour"
+          ],
+          [
+            3.0,
+            null,
+            "Slices Thick-cut Bacon",
+            "3 slices thick-cut bacon"
+          ],
+          [
+            1.0,
+            null,
+            "Carrot",
+            "1 carrot, chopped"
+          ],
+          [
+            1.0,
+            null,
+            "Stalk Celery",
+            "1 stalk celery, chopped"
+          ],
+          [
+            3.0,
+            null,
+            "Cloves Garlic",
+            "3 cloves garlic, chopped"
+          ],
+          [
+            0.5,
+            null,
+            "Onion",
+            "½ onion, chopped"
+          ],
+          [
+            0.25,
+            "cup",
+            "Water",
+            "¼ cup water"
+          ],
+          [
+            null,
+            null,
+            "E&j Brandy",
+            "E&J brandy"
+          ],
+          [
+            1.25,
+            "cup",
+            "Chicken Broth",
+            "1 ¼ cups chicken broth"
+          ],
+          [
+            0.5,
+            null,
+            "Bottle Full Bodied Red Wine",
+            "½ bottle full bodied red wine"
+          ],
+          [
+            1.0,
+            null,
+            "Can San Marzano Tomatoes",
+            "1 can whole San Marzano tomatoes"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Thyme",
+            "2 tsp thyme"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Rosemary",
+            "2 tsp rosemary"
+          ],
+          [
+            null,
+            null,
+            "Egg Noodles",
+            "Egg noodles"
+          ],
+          [
+            null,
+            null,
+            "Butter",
+            "Butter"
+          ],
+          [
+            null,
+            null,
+            "Parsley",
+            "Parsley, chopped"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Pizza Ball inspired by The Eric Andre Show",
     "episode_link": "https://www.bingingwithbabish.com/recipes/pizzaball",
     "youtube_link": "https://www.youtube.com/watch?v=U3LFI2mI8Y0",
