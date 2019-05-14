@@ -1,5 +1,2432 @@
 [
   {
+    "episode_name": "Good Morning Burger inspired by The Simpsons",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/goodmorningburger",
+    "youtube_link": "https://www.youtube.com/watch?v=hzAgFNh4vRY&t=153s",
+    "published": "2019-05-07",
+    "recipes": [
+      {
+        "method": "Good Morning Burger",
+        "ingredients": [
+          [
+            18.0,
+            "ounce",
+            "Ground Beef",
+            "18 ounces ground beef"
+          ],
+          [
+            1.0,
+            null,
+            "Ham",
+            "1 slice of ham"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            3.0,
+            null,
+            "Bacon",
+            "3 slices of bacon, cooked"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            null,
+            null,
+            "Butter",
+            "Butter"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            null,
+            null,
+            "Hamburger Buns",
+            "Hamburger buns"
+          ]
+        ]
+      },
+      {
+        "method": "Butter Burger",
+        "ingredients": [
+          [
+            1.5,
+            "cup",
+            "Heavy Cream",
+            "1 ½ cups heavy cream"
+          ],
+          [
+            1.5,
+            "cup",
+            "Milk",
+            "1 ½ cups milk"
+          ],
+          [
+            0.5,
+            "cup",
+            "And 2 Tbsp Sugar",
+            "½ cup and 2 Tbsp sugar"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Light Corn Syrup",
+            "⅓ cup light corn syrup"
+          ],
+          [
+            5.0,
+            null,
+            "Egg Yolks",
+            "5 egg yolks"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Cocoa Powder",
+            "3 Tbsp cocoa powder"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Instant Coffee",
+            "1 Tbsp instant coffee"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Vanilla Extract",
+            "1 Tbsp vanilla extract"
+          ],
+          [
+            3.0,
+            "ounce",
+            "Unsweetened Chocolate",
+            "3 ounces unsweetened chocolate, chopped"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Ice Cream Flavors inspired by Avengers: Infinity War",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/avengersicecream",
+    "youtube_link": "https://www.youtube.com/watch?v=Ukjat70Iyt4",
+    "published": "2019-04-30",
+    "recipes": [
+      {
+        "method": "Stark Raving Hazelnuts",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Hazelnuts",
+            "Hazelnuts, blanched and peeled"
+          ],
+          [
+            1.5,
+            "cup",
+            "Sugar",
+            "1 ½ cups sugar, divided"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Water",
+            "3 Tbsp water"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            24.0,
+            "ounce",
+            "Greek Yogurt",
+            "24 ounces greek yogurt, strained"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Cocoa Powder",
+            "⅓ cup cocoa powder, sifted"
+          ],
+          [
+            1.0,
+            "cup",
+            "Low Fat Milk",
+            "1 cup low fat milk"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Vanilla Extract",
+            "1 Tbsp vanilla extract"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Instant Coffee",
+            "1 Tbsp Instant coffee"
+          ]
+        ]
+      },
+      {
+        "method": "Hunka Hulka Burning Fudge",
+        "ingredients": [
+          [
+            1.5,
+            "cup",
+            "Heavy Cream",
+            "1 ½ cups heavy cream"
+          ],
+          [
+            1.5,
+            "cup",
+            "Milk",
+            "1 ½ cups milk"
+          ],
+          [
+            0.5,
+            "cup",
+            "And 2 Tbsp Sugar",
+            "½ cup and 2 Tbsp sugar"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Light Corn Syrup",
+            "⅓ cup light corn syrup"
+          ],
+          [
+            5.0,
+            null,
+            "Egg Yolks",
+            "5 egg yolks"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Cocoa Powder",
+            "3 Tbsp cocoa powder"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Instant Coffee",
+            "1 Tbsp instant coffee"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Vanilla Extract",
+            "1 Tbsp vanilla extract"
+          ],
+          [
+            3.0,
+            "ounce",
+            "Unsweetened Chocolate",
+            "3 ounces unsweetened chocolate, chopped"
+          ]
+        ]
+      },
+      {
+        "method": "Fudge Swirl",
+        "ingredients": [
+          [
+            0.6666666666666666,
+            "cup",
+            "Milk",
+            "⅔ cup of milk"
+          ],
+          [
+            1.5,
+            "cup",
+            "Granulated Sugar",
+            "1 ½ cups granulated sugar"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Cocoa Powder",
+            "⅓ cup cocoa powder"
+          ],
+          [
+            3.0,
+            "ounce",
+            "Unsweetened Chocolate",
+            "3 ounces unsweetened chocolate"
+          ],
+          [
+            4.0,
+            "tablespoon",
+            "Unsalted Butter",
+            "4 Tbsp unsalted butter"
+          ]
+        ]
+      },
+      {
+        "method": "Raspberry Thorbet",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Water",
+            "1 cup water"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Sure Jell Pectin",
+            "1 tsp Sure Jell pectin"
+          ],
+          [
+            20.0,
+            "ounce",
+            "Raspberries",
+            "20 ounces raspberries"
+          ],
+          [
+            0.6666666666666666,
+            "cup",
+            "Sugar",
+            "⅔ cup sugar, granulated"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Shrimp inspired by Forrest Gump Part II",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/bubbashrimp2",
+    "youtube_link": "https://www.youtube.com/watch?v=mF6JUfczaO8",
+    "published": "2019-04-23",
+    "recipes": [
+      {
+        "method": "BBQ Shrimp",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Worcestershire Sauce",
+            "½ cup Worcestershire Sauce"
+          ],
+          [
+            1.0,
+            null,
+            "Lemon",
+            "1 lemon"
+          ],
+          [
+            "2-3",
+            null,
+            "Garlic",
+            "2-3 cloves of garlic, crushed"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Rosemary",
+            "1 tsp rosemary, chopped"
+          ],
+          [
+            2.0,
+            null,
+            "Butter",
+            "2 sticks of butter"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Fresh Parsley",
+            "1 Tbsp fresh parsley, chopped"
+          ],
+          [
+            null,
+            null,
+            "White Rice",
+            "White rice"
+          ],
+          [
+            null,
+            null,
+            "Shrimp",
+            "Shrimp (unpeeled, head on)"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            null,
+            null,
+            "Pepper Ground Up In A Mortar And Pestle",
+            "Pepper ground up in a mortar and pestle"
+          ]
+        ]
+      },
+      {
+        "method": "Creole Seasoning",
+        "ingredients": [
+          [
+            2.0,
+            "teaspoon",
+            "Paprika",
+            "2 tsp paprika"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Kosher Salt",
+            "2 tsp kosher salt"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Pepper",
+            "1 tsp pepper"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Garlic Powder",
+            "1 tsp garlic powder"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Onion Powder",
+            "1 tsp onion powder"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Cayenne Pepper",
+            "1 tsp cayenne pepper"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Thyme",
+            "1 tsp thyme"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Dried Oregano",
+            "1 tsp dried oregano"
+          ]
+        ]
+      },
+      {
+        "method": "Pineapple Shrimp Stir Fry",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Uncooked Rice",
+            "1 cup uncooked rice"
+          ],
+          [
+            null,
+            null,
+            "Shrimp",
+            "Shrimp, peeled and deveined"
+          ],
+          [
+            1.0,
+            null,
+            "Pineapple",
+            "1 pineapple, halved"
+          ],
+          [
+            null,
+            null,
+            "Cashews",
+            "Cashews"
+          ],
+          [
+            null,
+            null,
+            "Red Pepper Flakes",
+            "Red pepper flakes"
+          ],
+          [
+            0.5,
+            "small",
+            "White Onion",
+            "½ small white onion, finely chopped"
+          ],
+          [
+            0.5,
+            "small",
+            "Bell Pepper",
+            "½ small bell pepper, finely chopped"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Soy Sauce",
+            "2 Tbsp soy sauce"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Fish Sauce",
+            "1 Tbsp fish sauce"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Garam Masala",
+            "1 Tbsp garam masala (or curry powder)"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            1.0,
+            null,
+            "Scallion",
+            "1 scallion, chopped"
+          ]
+        ]
+      },
+      {
+        "method": "Shrimp Burger",
+        "ingredients": [
+          [
+            3.0,
+            null,
+            "Scallions",
+            "3 scallions, chopped"
+          ],
+          [
+            0.6666666666666666,
+            "cup",
+            "Mayonnaise",
+            "⅔ cup mayonnaise, divided into ⅓ cup and ⅓ cup"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Pepper",
+            "1 tsp pepper"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Creole Seasoning",
+            "1 tsp creole seasoning"
+          ],
+          [
+            null,
+            null,
+            "½ A Lemon",
+            "Juice and zest of ½ a lemon"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Louisiana Style Sauce",
+            "1 tsp Louisiana Style hot sauce"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Grain Mustard",
+            "1 tsp whole grain mustard"
+          ],
+          [
+            2.3333333333333335,
+            "tablespoon",
+            "Fresh Parsley",
+            "2 ⅓ Tbsp fresh parsley, chopped, divided"
+          ],
+          [
+            1.0,
+            null,
+            "White Bread",
+            "1 slice of white bread"
+          ],
+          [
+            1.0,
+            "pound",
+            "Shrimp",
+            "1 pound of shrimp, peeled and deveined"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Old Bay",
+            "1 tsp Old Bay"
+          ],
+          [
+            null,
+            null,
+            "Hamburger Buns",
+            "Hamburger buns"
+          ],
+          [
+            null,
+            null,
+            "Iceberg Lettuce",
+            "Iceberg lettuce"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Grilled Cheese Deluxe inspired by Regular Show",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/grilledcheesedeluxe",
+    "youtube_link": "https://www.youtube.com/watch?v=NFAN6L7xnvY",
+    "published": "2019-04-16",
+    "recipes": [
+      {
+        "method": "Bread",
+        "ingredients": [
+          [
+            400.0,
+            "ml",
+            "Water",
+            "400 ml of water"
+          ],
+          [
+            null,
+            null,
+            "Instant Yeast",
+            "Packet of instant yeast"
+          ],
+          [
+            650.0,
+            "gram",
+            "All Purpose Flour",
+            "650g of all purpose flour"
+          ],
+          [
+            50.0,
+            "gram",
+            "Sugar",
+            "50g of sugar"
+          ],
+          [
+            5.0,
+            "gram",
+            "Salt",
+            "5g of salt"
+          ],
+          [
+            90.0,
+            "gram",
+            "Unsalted Butter",
+            "90g of unsalted butter"
+          ],
+          [
+            null,
+            null,
+            "Plastic Wrap",
+            "Plastic wrap"
+          ],
+          [
+            null,
+            null,
+            "Parchment Paper",
+            "Parchment paper"
+          ],
+          [
+            null,
+            null,
+            "A Little Oil",
+            "A little oil"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            null,
+            null,
+            "Bacon Fat",
+            "Bacon fat"
+          ]
+        ]
+      },
+      {
+        "method": "Sliced Cheese",
+        "ingredients": [
+          [
+            0.25,
+            "ounce",
+            "Powdered Gelatin",
+            "1/4 ounce (about 1 tablespoon) powdered gelatin"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Water",
+            "1 tablespoon water"
+          ],
+          [
+            4.0,
+            "ounce",
+            "Evaporated Milk",
+            "4 ounces (about 1/2 cup) evaporated milk"
+          ],
+          [
+            12.0,
+            "ounce",
+            "Cheese",
+            "12 ounces cheese, fresh grated (I used 4 ounces sharp cheddar, 3 ounces of guiere, 3 ounces young gouda, and 2 ounces of parmesan)"
+          ]
+        ]
+      },
+      {
+        "method": "Grilled Cheese",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Sliced Bread",
+            "Sliced bread"
+          ],
+          [
+            null,
+            null,
+            "Butter",
+            "Butter"
+          ],
+          [
+            null,
+            null,
+            "Sliced Cheese",
+            "Sliced cheese"
+          ],
+          [
+            null,
+            null,
+            "Olives",
+            "Olives"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/deathsandwich",
+    "youtube_link": "https://www.youtube.com/watch?v=o5XNzsf78KE",
+    "published": "2019-04-09",
+    "recipes": [
+      {
+        "method": "Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show",
+        "ingredients": [
+          [
+            5.0,
+            null,
+            "Cloves Fresh Garlic. Separated",
+            "5 cloves fresh garlic. separated"
+          ],
+          [
+            1.0,
+            "medium",
+            "Yellow Onion",
+            "1 medium yellow onion, minced"
+          ],
+          [
+            "2-3",
+            "tablespoon",
+            "Olive Oil",
+            "2-3 Tbsp olive oil"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Dried Red Pepper Flakes",
+            "¼ tsp dried red pepper flakes"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Tomato Paste",
+            "3 Tbsp tomato paste"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Dried Oregano",
+            "½ tsp dried oregano"
+          ],
+          [
+            28.0,
+            "ounce",
+            "Can San Marzano Tomatoes",
+            "28 ounce can whole San Marzano tomatoes"
+          ],
+          [
+            7.0,
+            "ounce",
+            "Water",
+            "7 ounces of water"
+          ],
+          [
+            null,
+            null,
+            "Fresh Basil",
+            "Fresh basil"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            null,
+            null,
+            "Fresh Parsley",
+            "Fresh parsley"
+          ],
+          [
+            null,
+            null,
+            "Fresh Basil",
+            "Fresh basil"
+          ],
+          [
+            0.5,
+            "cup",
+            "Ricotta Cheese",
+            "½ cup ricotta cheese"
+          ],
+          [
+            0.5,
+            "cup",
+            "Panko Bread Crumbs",
+            "½ cup panko bread crumbs"
+          ],
+          [
+            null,
+            null,
+            "1 Lemon",
+            "Zest of 1 lemon"
+          ],
+          [
+            1.0,
+            "large",
+            "Egg",
+            "1 large egg"
+          ],
+          [
+            2.0,
+            "ounce",
+            "Parmesan Cheese",
+            "2 ounces parmesan cheese"
+          ],
+          [
+            1.0,
+            "pound",
+            "Ground Pork",
+            "1 pound ground pork"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            null,
+            null,
+            "Submarine Sandwich Roll",
+            "Submarine sandwich roll"
+          ],
+          [
+            null,
+            null,
+            "Deli Ham",
+            "Deli ham"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Brock's Onigiri inspired by Pokémon",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/brocksonigiri",
+    "youtube_link": "https://www.youtube.com/watch?v=gW4PCfLzTYA",
+    "published": "2019-04-02",
+    "recipes": [
+      {
+        "method": "Brock's Onigiri inspired by Pokémon",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Kelp",
+            "Kelp"
+          ],
+          [
+            2.0,
+            "cup",
+            "Water",
+            "2 cups water, divided"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Rice Wine Vinegar",
+            "3 Tbsp rice wine vinegar, separated"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Soy Sauce",
+            "3 Tbsp soy sauce"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Mirin",
+            "1 Tbsp mirin"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Sake",
+            "1 Tbsp sake"
+          ],
+          [
+            null,
+            null,
+            "Sesame Seeds",
+            "Sesame seeds"
+          ],
+          [
+            null,
+            null,
+            "Sour Pickled Japanese Plums",
+            "Sour pickled Japanese plums, pitted (umeboshi)"
+          ],
+          [
+            1.0,
+            "cup",
+            "Rice",
+            "1 cup rice"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Sugar",
+            "2 Tbsp sugar, separated"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Salt",
+            "1 tsp salt"
+          ],
+          [
+            null,
+            null,
+            "Seaweed",
+            "Seaweed"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Brock's Donuts inspired by Pokémon",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/brocksdonuts",
+    "youtube_link": "https://www.youtube.com/watch?v=RentKWlhUXc&t=1s",
+    "published": "2019-04-02",
+    "recipes": [
+      {
+        "method": "Donut",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Milk",
+            "1 cup whole milk"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Granulated Sugar",
+            "1 tsp granulated sugar (for the yeast)"
+          ],
+          [
+            1.0,
+            null,
+            "Packet Active Dry Yeast",
+            "1 packet active dry yeast"
+          ],
+          [
+            350.0,
+            "gram",
+            "All Purpose Flour",
+            "350g all purpose flour"
+          ],
+          [
+            75.0,
+            "gram",
+            "White Sugar",
+            "75g white sugar"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Table Salt",
+            "1 tsp table salt"
+          ],
+          [
+            3.0,
+            "large",
+            "Egg Yolks",
+            "3 large egg yolks"
+          ],
+          [
+            null,
+            null,
+            "Additional Flour For Work Surface",
+            "Additional flour for work surface"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            null,
+            null,
+            "Additional Sugar",
+            "Additional sugar (optional for coating)"
+          ]
+        ]
+      },
+      {
+        "method": "Marzipan",
+        "ingredients": [
+          [
+            100.0,
+            "gram",
+            "Almond Flour",
+            "100g almond flour"
+          ],
+          [
+            150.0,
+            "gram",
+            "Powdered Sugar",
+            "150g powdered sugar"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Corn Syrup",
+            "1 Tbsp corn syrup"
+          ],
+          [
+            null,
+            null,
+            "Green And Black Food Coloring",
+            "A little bit of green and black food coloring"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Water",
+            "2 Tbsp water"
+          ]
+        ]
+      },
+      {
+        "method": "Glaze",
+        "ingredients": [
+          [
+            2.0,
+            "cup",
+            "Powdered Sugar",
+            "2 cups powdered sugar"
+          ],
+          [
+            0.25,
+            "cup",
+            "Skim Milk",
+            "¼ cup skim milk (add more if needed)"
+          ]
+        ]
+      },
+      {
+        "method": "Other ingredients",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Jelly",
+            "Jelly"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            null,
+            null,
+            "Coconut Shavings",
+            "Coconut shavings"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "The Swanson inspired by Parks and Recreation",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/theswanson",
+    "youtube_link": "https://www.youtube.com/watch?v=aLpPZlVsny0",
+    "published": "2019-03-26",
+    "recipes": [
+      {
+        "method": "The Swanson inspired by Parks and Recreation",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Turkey Legs",
+            "2 turkey legs"
+          ],
+          [
+            2.0,
+            null,
+            "Turkey Wings",
+            "2 turkey wings"
+          ],
+          [
+            1.5,
+            "cup",
+            "Distilled Water",
+            "1 ½ cups distilled water"
+          ],
+          [
+            4.5,
+            "teaspoon",
+            "Kosher Salt",
+            "4 ½ tsp kosher salt"
+          ],
+          [
+            1.5,
+            "teaspoon",
+            "Pink Curing Salt",
+            "1 ½ tsp pink curing salt"
+          ],
+          [
+            4.5,
+            "tablespoon",
+            "Dark Brown Sugar",
+            "4 ½ Tbsp dark brown sugar"
+          ],
+          [
+            null,
+            null,
+            "Bacon",
+            "Bacon"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "The Cake inspired by Portal",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/portalcake",
+    "youtube_link": "https://www.youtube.com/watch?v=Y9l8iu5J6rs&t=10s",
+    "published": "2019-03-19",
+    "recipes": [
+      {
+        "method": "The Cake inspired by Portal",
+        "ingredients": [
+          [
+            8.0,
+            "medium",
+            "Eggs",
+            "8 medium eggs (6 large eggs)"
+          ],
+          [
+            5.5,
+            "ounce",
+            "Granulated Sugar",
+            "5 ½ ounces granulated sugar"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Vanilla Extract",
+            "2 tsp vanilla extract"
+          ],
+          [
+            3.5,
+            "ounce",
+            "All Purpose Flour",
+            "3 ½ ounces all purpose flour"
+          ],
+          [
+            2.0,
+            "ounce",
+            "Cocoa Powder",
+            "2 ounces cocoa powder"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Butter",
+            "3 Tbsp butter, melted"
+          ],
+          [
+            1.0,
+            null,
+            "Jar Morello Cherries",
+            "1 jar morello cherries, stemmed and halved"
+          ],
+          [
+            1.5,
+            "cup",
+            "Powdered Sugar",
+            "1 ½ cups powdered sugar, divided"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Cornstarch",
+            "2 Tbsp cornstarch"
+          ],
+          [
+            0.25,
+            "cup",
+            "Kirsch",
+            "¼ cup Kirsch"
+          ],
+          [
+            2.0,
+            null,
+            "Pints Heavy Cream",
+            "2 pints heavy cream"
+          ],
+          [
+            2.0,
+            "cup",
+            "Shaved Chocolate",
+            "2 cups shaved chocolate"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Ribwich inspired by The Simpsons",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/ribwich",
+    "youtube_link": "https://www.youtube.com/watch?v=Yj07347rEqo",
+    "published": "2019-03-12",
+    "recipes": [
+      {
+        "method": "Dry Rub",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Dark Brown Sugar",
+            "1 cup dark brown sugar"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Chili Powder",
+            "1 Tbsp chili powder"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Dry Mustard",
+            "1 tsp dry mustard"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Cayenne Pepper",
+            "½ tsp cayenne pepper"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Smoked Paprika",
+            "1 tsp smoked paprika"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Garlic Powder",
+            "1 tsp garlic powder"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Paprika",
+            "1 tsp paprika"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ]
+        ]
+      },
+      {
+        "method": "Wet Rub",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Mustard",
+            "1 cup mustard"
+          ],
+          [
+            0.25,
+            "cup",
+            "Ketchup",
+            "¼ cup ketchup"
+          ],
+          [
+            0.25,
+            "cup",
+            "Liquid Smoke",
+            "¼ cup liquid smoke"
+          ]
+        ]
+      },
+      {
+        "method": "Barbecue Sauce",
+        "ingredients": [
+          [
+            0.5,
+            null,
+            "Onion",
+            "½ onion, grated"
+          ],
+          [
+            3.0,
+            null,
+            "Cloves Garlic",
+            "3 cloves garlic, crushed"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Chili Powder",
+            "1 Tbsp chili powder"
+          ],
+          [
+            1.0,
+            "cup",
+            "Ketchup",
+            "1 cup ketchup"
+          ],
+          [
+            "2-3",
+            "tablespoon",
+            "Molasses",
+            "2-3 Tbsp molasses"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Dijon Mustard",
+            "2 Tbsp dijon mustard"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Worcestershire Sauce",
+            "1 tsp Worcestershire sauce"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Cayenne Pepper",
+            "1 tsp cayenne pepper"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Apple Cider Vinegar",
+            "2 Tbsp apple cider vinegar"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Smoked Paprika",
+            "2 tsp smoked paprika"
+          ]
+        ]
+      },
+      {
+        "method": "Everything Else",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Ribs",
+            "Ribs"
+          ],
+          [
+            null,
+            null,
+            "Buns",
+            "Buns"
+          ],
+          [
+            0.5,
+            null,
+            "Onion",
+            "½ onion, chopped"
+          ],
+          [
+            null,
+            null,
+            "Pickles",
+            "Pickles, chopped"
+          ],
+          [
+            6.0,
+            null,
+            "Bags Lapsang Tea",
+            "6 bags lapsang tea"
+          ],
+          [
+            1.0,
+            null,
+            "Beer",
+            "1 beer"
+          ],
+          [
+            null,
+            null,
+            "Aluminum Foil",
+            "Aluminum foil"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Krabby Supreme inspired by Spongebob Squarepants",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/krabbysupreme",
+    "youtube_link": "https://www.youtube.com/watch?v=Rzd0mLf366I",
+    "published": "2019-02-26",
+    "recipes": [
+      {
+        "method": "Special Sauce",
+        "ingredients": [
+          [
+            0.3333333333333333,
+            "cup",
+            "Mayo",
+            "⅓ cup mayo"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Ketchup",
+            "⅓ cup ketchup"
+          ],
+          [
+            1.0,
+            null,
+            "Pickle",
+            "1 pickle, finely chopped"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Paprika",
+            "1 tsp paprika"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Garlic Powder",
+            "1 tsp garlic powder"
+          ],
+          [
+            0.25,
+            "small",
+            "Onion",
+            "¼ small onion, finely minced"
+          ],
+          [
+            "1-2",
+            "tablespoon",
+            "Yellow Mustard",
+            "1-2 Tbsp yellow mustard"
+          ]
+        ]
+      },
+      {
+        "method": "Krabby Patty",
+        "ingredients": [
+          [
+            1.0,
+            "lb",
+            "Ground Beef",
+            "1 lb. ground beef"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            null,
+            null,
+            "American Cheese",
+            "American cheese"
+          ],
+          [
+            null,
+            null,
+            "Lettuce",
+            "Lettuce"
+          ],
+          [
+            null,
+            null,
+            "Tomato",
+            "Tomato"
+          ],
+          [
+            null,
+            null,
+            "Pickle",
+            "Pickle"
+          ],
+          [
+            null,
+            null,
+            "Onion",
+            "Onion"
+          ],
+          [
+            null,
+            null,
+            "Special Sauce",
+            "Special sauce"
+          ],
+          [
+            0.5,
+            "cup",
+            "Corn Starch",
+            "½ cup corn starch"
+          ],
+          [
+            0.5,
+            "cup",
+            "All Purpose Flour",
+            "½ cup all purpose flour"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Baking Powder",
+            "1 tsp baking powder"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Kosher Salt",
+            "1 tsp kosher salt"
+          ],
+          [
+            0.75,
+            "cup",
+            "Lager Beer",
+            "¾ cup lager beer"
+          ],
+          [
+            0.25,
+            "cup",
+            "Vodka",
+            "¼ cup vodka"
+          ],
+          [
+            null,
+            null,
+            "Bacon",
+            "Bacon"
+          ],
+          [
+            2.0,
+            null,
+            "Quarts Peanut Oil",
+            "2 quarts peanut oil"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Bao inspired by Pixar's Bao",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/baobuns",
+    "youtube_link": "https://www.youtube.com/watch?v=OFt3SThGi7M&t=46s",
+    "published": "2019-02-19",
+    "recipes": [
+      {
+        "method": "Dough",
+        "ingredients": [
+          [
+            4.0,
+            "cup",
+            "Flour",
+            "4 cups flour"
+          ],
+          [
+            0.75,
+            "teaspoon",
+            "Dry Yeast",
+            "¾ tsp dry yeast"
+          ],
+          [
+            500.0,
+            "ml",
+            "Water",
+            "500 ml water"
+          ]
+        ]
+      },
+      {
+        "method": "Filling",
+        "ingredients": [
+          [
+            1.0,
+            "pound",
+            "Ground Pork",
+            "1 pound ground pork"
+          ],
+          [
+            1.0,
+            "pound",
+            "Chinese Cabbage",
+            "1 pound Chinese cabbage, minced"
+          ],
+          [
+            1.0,
+            null,
+            "Carrot",
+            "1 carrot, minced"
+          ],
+          [
+            "2-3",
+            null,
+            "Green Onion Stalks",
+            "2-3 green onion stalks, chopped"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            "1-2",
+            "teaspoon",
+            "Ground Ginger",
+            "1-2 tsp ground ginger"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Olive Oil",
+            "1 tsp olive oil"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Chicken Bouillon Powder",
+            "½ tsp chicken bouillon powder"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Oyster Sauce",
+            "1 tsp oyster sauce"
+          ],
+          [
+            "2-3",
+            "teaspoon",
+            "Cooking Wine",
+            "2-3 tsp cooking wine"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            null,
+            null,
+            "Pepper",
+            "Pepper"
+          ]
+        ]
+      },
+      {
+        "method": "Dough",
+        "ingredients": [
+          [
+            300.0,
+            "gram",
+            "All Purpose Flour",
+            "300g all purpose flour"
+          ],
+          [
+            40.0,
+            "gram",
+            "White Sugar",
+            "40g white sugar"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Yeast",
+            "2 tsp yeast"
+          ],
+          [
+            185.0,
+            "ml",
+            "Milk",
+            "185ml whole milk"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Vegetable Oil",
+            "1 Tbsp vegetable oil"
+          ]
+        ]
+      },
+      {
+        "method": "Filling",
+        "ingredients": [
+          [
+            2.0,
+            "tablespoon",
+            "White Sugar",
+            "2 Tbsp white sugar"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Hoisin Sauce",
+            "2 Tbsp hoisin sauce"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Fermented Red Bean Paste",
+            "1 Tbsp fermented red bean paste"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Soy Sauce",
+            "1 Tbsp soy sauce"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Chinese Cooking Wine",
+            "1 Tbsp Chinese cooking wine"
+          ],
+          [
+            4.0,
+            null,
+            "Garlic",
+            "4 cloves of garlic, crushed"
+          ],
+          [
+            null,
+            null,
+            "Ginger",
+            "Ginger"
+          ],
+          [
+            null,
+            null,
+            "Pork Belly",
+            "Pork Belly"
+          ]
+        ]
+      },
+      {
+        "method": "Char Siu Sauce",
+        "ingredients": [
+          [
+            2.0,
+            "tablespoon",
+            "Oyster Sauce",
+            "2 Tbsp oyster sauce"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Hoisin Sauce",
+            "2 Tbsp hoisin sauce"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Honey",
+            "1 Tbsp honey"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Chinese Five Spice Powder",
+            "1 tsp Chinese five spice powder"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Soy Sauce",
+            "1 Tbsp soy sauce"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Chinese Cooking Wine",
+            "1 Tbsp Chinese cooking wine"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Fermented Red Bean Paste",
+            "1 Tbsp fermented red bean paste"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Steak au Poivre inspired by Archer",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/steak-au-poivre",
+    "youtube_link": "https://www.youtube.com/watch?v=tCJ_VV0FEZM",
+    "published": "2019-02-12",
+    "recipes": [
+      {
+        "method": "Steak au Poivre inspired by Archer",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Black Peppercorns",
+            "Black peppercorns, crushed"
+          ],
+          [
+            2.0,
+            null,
+            "Filet Mignons",
+            "2 filet mignons"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Kosher salt"
+          ],
+          [
+            1.0,
+            "pound",
+            "Baby Carrots",
+            "1 pound baby carrots"
+          ],
+          [
+            2.0,
+            null,
+            "Sticks And 2 Tbsp Butter",
+            "2 sticks and 2 Tbsp butter, divided"
+          ],
+          [
+            0.5,
+            "cup",
+            "Bourbon",
+            "½ cup bourbon"
+          ],
+          [
+            0.25,
+            "cup",
+            "Orange Juice",
+            "¼ cup orange juice"
+          ],
+          [
+            "2-3",
+            "tablespoon",
+            "Brown Sugar",
+            "2-3 Tbsp brown sugar"
+          ],
+          [
+            null,
+            null,
+            "Thyme",
+            "Thyme"
+          ],
+          [
+            null,
+            null,
+            "Black Pepper",
+            "Black pepper"
+          ],
+          [
+            1.0,
+            "pound",
+            "Peas",
+            "1 pound peas"
+          ],
+          [
+            1.0,
+            null,
+            "Shallot",
+            "1 shallot"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Mint",
+            "2 Tbsp mint"
+          ],
+          [
+            null,
+            null,
+            "1 Lemon",
+            "Zest of 1 lemon"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Cognac",
+            "⅓ cup cognac"
+          ],
+          [
+            0.5,
+            "cup",
+            "Beef Stock",
+            "½ cup beef stock"
+          ],
+          [
+            0.5,
+            "cup",
+            "Heavy Cream",
+            "½ cup heavy cream"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Spaghetti Tacos inspired by iCarly",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/spaghettitaco",
+    "youtube_link": "https://www.youtube.com/watch?v=teQmpOtjCjY",
+    "published": "2019-02-05",
+    "recipes": [
+      {
+        "method": "Spaghetti Tacos inspired by iCarly",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Basil",
+            "Basil"
+          ],
+          [
+            4.0,
+            null,
+            "Cloves Garlic",
+            "4 cloves garlic, chopped"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Red Pepper Flakes",
+            "1 tsp red pepper flakes"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Dried Oregano",
+            "2 tsp dried oregano, divided in half"
+          ],
+          [
+            0.5,
+            "small",
+            "Onion",
+            "½ small onion, minced"
+          ],
+          [
+            1.0,
+            null,
+            "Can San Marzano Tomatoes",
+            "1 can San Marzano tomatoes"
+          ],
+          [
+            4.0,
+            "tablespoon",
+            "Tomato Paste",
+            "4 Tbsp tomato paste"
+          ],
+          [
+            null,
+            null,
+            "Olive Oil",
+            "Olive oil"
+          ],
+          [
+            1.0,
+            "pound",
+            "Ground Beef",
+            "1 pound ground beef"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            1.0,
+            "cup",
+            "Panko Bread Crumbs",
+            "1 cup panko bread crumbs, divided"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Garlic Powder",
+            "1 tsp garlic powder"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Milk",
+            "1 tsp milk"
+          ],
+          [
+            1.0,
+            null,
+            "Box Spaghetti",
+            "1 box spaghetti"
+          ],
+          [
+            1.0,
+            null,
+            "Quart Vegetable Oil",
+            "1 quart vegetable oil"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Butter",
+            "2 Tbsp butter"
+          ],
+          [
+            null,
+            null,
+            "Parmesan Cheese",
+            "Parmesan cheese, shredded"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Sandy Frye's Appetizers inspired by Bob's Burgers",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/sandyfryesappetizers",
+    "youtube_link": "https://www.youtube.com/watch?v=3LXTGVN3ZOg",
+    "published": "2019-01-29",
+    "recipes": [
+      {
+        "method": "Puff Pastry #1",
+        "ingredients": [
+          [
+            8.5,
+            "ounce",
+            "All Purpose Flour",
+            "8 ½ ounces all purpose flour"
+          ],
+          [
+            1.0,
+            null,
+            "Stick And 4 Ounces Butter",
+            "1 stick and 4 ounces cold butter, cubed"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            0.75,
+            "cup",
+            "Ice Water",
+            "¾ cup ice water"
+          ]
+        ]
+      },
+      {
+        "method": "Puff Pastry #2",
+        "ingredients": [
+          [
+            8.5,
+            "ounce",
+            "All Purpose Flour",
+            "8 ½ ounces all purpose flour"
+          ],
+          [
+            8.0,
+            "ounce",
+            "Butter",
+            "8 ounces cold butter, cubed"
+          ],
+          [
+            0.5,
+            "cup",
+            "Sour Cream",
+            "½ cup sour cream"
+          ]
+        ]
+      },
+      {
+        "method": "Sesame Cheddar Blasts",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Puff Pastry #2",
+            "Puff Pastry #2"
+          ],
+          [
+            null,
+            null,
+            "Cheddar Cheese",
+            "Cheddar cheese"
+          ],
+          [
+            null,
+            null,
+            "Sesame Oil",
+            "Sesame oil"
+          ]
+        ]
+      },
+      {
+        "method": "Toasted Jalapeño Points",
+        "ingredients": [
+          [
+            8.0,
+            "ounce",
+            "Cream Cheese",
+            "8 ounces cream cheese, softened"
+          ],
+          [
+            "5-6",
+            null,
+            "Jalapeños",
+            "5-6 jalapeños, seeded and diced (with additional slices for garnish)"
+          ],
+          [
+            6.0,
+            "ounce",
+            "Mozzarella",
+            "6 ounces mozzarella, shredded"
+          ],
+          [
+            null,
+            null,
+            "Store Bought Puff Pastry",
+            "Store bought puff pastry"
+          ],
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs"
+          ]
+        ]
+      },
+      {
+        "method": "Mozzarella Volcano",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Puff Pastry #1",
+            "Puff Pastry #1"
+          ],
+          [
+            null,
+            null,
+            "Parmesan Cheese",
+            "Parmesan cheese, grated"
+          ],
+          [
+            null,
+            null,
+            "Romano Cheese",
+            "Romano cheese, grated"
+          ],
+          [
+            null,
+            null,
+            "Mozzarella Cheese",
+            "Mozzarella cheese, grated"
+          ],
+          [
+            null,
+            null,
+            "Egg",
+            "Egg"
+          ],
+          [
+            null,
+            null,
+            "Tomato Sauce",
+            "Warm tomato sauce"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Crème de la Crème à la Edgar inspired by The Aristocats",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/aristocats",
+    "youtube_link": "https://www.youtube.com/watch?v=zNY-qzp7pD0",
+    "published": "2019-01-23",
+    "recipes": [
+      {
+        "method": "Cracker",
+        "ingredients": [
+          [
+            10.0,
+            "ounce",
+            "All Purpose Flour",
+            "10 ounces all purpose flour"
+          ],
+          [
+            3.0,
+            "teaspoon",
+            "Baking Powder",
+            "3 tsp baking powder"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Kosher Salt",
+            "½ tsp kosher salt"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Granulated Sugar",
+            "1 Tbsp granulated sugar"
+          ],
+          [
+            6.0,
+            "tablespoon",
+            "Butter",
+            "6 Tbsp cold butter"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Vegetable Oil",
+            "2 Tbsp vegetable oil"
+          ],
+          [
+            0.6666666666666666,
+            "cup",
+            "Ice Water",
+            "⅔ cup ice water"
+          ]
+        ]
+      },
+      {
+        "method": "Crème de la Crème à la Edgar",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Pint Heavy Cream",
+            "1 pint heavy cream"
+          ],
+          [
+            1.0,
+            null,
+            "Pint Milk",
+            "1 pint whole milk"
+          ],
+          [
+            1.0,
+            null,
+            "Vanilla Bean",
+            "1 vanilla bean"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Sugar",
+            "⅓ cup sugar"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Ground Cinnamon",
+            "¼ tsp ground cinnamon"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Ground Nutmeg",
+            "¼ tsp ground nutmeg"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Pinch of salt"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Coq au Vin inspired by Donnie Brasco",
     "episode_link": "https://www.bingingwithbabish.com/recipes/coqauvin",
     "youtube_link": "https://www.youtube.com/watch?v=VP1uTgikarU",
