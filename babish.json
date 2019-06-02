@@ -1,5 +1,510 @@
 [
   {
+    "episode_name": "Orange Mocha Frappuccinos inspired by Zoolander",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/orangemochafrapp",
+    "youtube_link": "https://www.youtube.com/watch?v=exe_I-tnxpU",
+    "published": "2019-05-29",
+    "recipes": [
+      {
+        "method": "For the simple syrup frappuccino base",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "White Sugar",
+            "1 cup white sugar"
+          ],
+          [
+            1.0,
+            "cup",
+            "Water",
+            "1 cup water"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Xanthan Gum",
+            "1 Tbsp xanthan gum"
+          ]
+        ]
+      },
+      {
+        "method": "For the homemade cold brew",
+        "ingredients": [
+          [
+            5.0,
+            "ounce",
+            "Coarsely Ground Dark Roast Coffee",
+            "5 ounces coarsely ground dark roast coffee"
+          ],
+          [
+            24.0,
+            "ounce",
+            "Water",
+            "24 ounces water"
+          ]
+        ]
+      },
+      {
+        "method": "For the chocolate syrup",
+        "ingredients": [
+          [
+            1.5,
+            "cup",
+            "Sugar",
+            "1 ½ cups sugar"
+          ],
+          [
+            1.5,
+            "cup",
+            "Water",
+            "1 ½ cups water"
+          ],
+          [
+            1.0,
+            "cup",
+            "Good Cocoa Powder",
+            "1 cup good cocoa powder"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Kosher salt"
+          ],
+          [
+            null,
+            null,
+            "Instant Coffee",
+            "Instant coffee (a pinch)"
+          ],
+          [
+            null,
+            null,
+            "Vanilla Extract",
+            "Vanilla extract, to taste"
+          ]
+        ]
+      },
+      {
+        "method": "For the whipped cream",
+        "ingredients": [
+          [
+            2.0,
+            "cup",
+            "Heavy Cream",
+            "2 cups heavy cream"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Powdered Sugar",
+            "2 Tbsp powdered sugar"
+          ],
+          [
+            1.0,
+            null,
+            "Vanilla Bean Pod",
+            "1 vanilla bean pod, insides scraped"
+          ],
+          [
+            null,
+            null,
+            "Orange Extract",
+            "Dash of orange extract"
+          ]
+        ]
+      },
+      {
+        "method": "For the Orange Mocha Frappuccino",
+        "ingredients": [
+          [
+            2.0,
+            "cup",
+            "Ice",
+            "2 cups ice"
+          ],
+          [
+            6.0,
+            "tablespoon",
+            "Frappuccino Base Syrup",
+            "6 Tbsp frappuccino base syrup"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Homemade Chocolate Syrup",
+            "1 Tbsp homemade chocolate syrup"
+          ],
+          [
+            1.0,
+            "cup",
+            "Homemade Brew",
+            "1 cup homemade cold brew"
+          ],
+          [
+            0.75,
+            "cup",
+            "Milk",
+            "¾ cup milk"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "The Good Place Special",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/thegoodplace",
+    "youtube_link": "https://www.youtube.com/watch?v=f428glyXdY4",
+    "published": "2019-05-21",
+    "recipes": [
+      {
+        "method": "Peeps and M&M’s Chili (Champorado)",
+        "ingredients": [
+          [
+            1.5,
+            "cup",
+            "Rice",
+            "1 ½ cups rice (sticky, sushi or arborio)"
+          ],
+          [
+            2.5,
+            "cup",
+            "Water",
+            "2 ½ cups water"
+          ],
+          [
+            2.5,
+            "cup",
+            "Evaporated Milk",
+            "2 ½ cups evaporated milk"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Unsweetened Cocoa Powder",
+            "⅓ cup unsweetened cocoa powder"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Salt"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "Granulated Sugar",
+            "⅓ cup granulated sugar"
+          ],
+          [
+            4.0,
+            "ounce",
+            "Dark Chocolate",
+            "4 ounces dark chocolate"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Vanilla Extract",
+            "1 tsp vanilla extract"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Espresso Powder",
+            "1 tsp espresso powder"
+          ],
+          [
+            null,
+            null,
+            "Sweetened Condensed Milk",
+            "Sweetened condensed milk"
+          ],
+          [
+            null,
+            null,
+            "Peeps",
+            "Peeps, chopped (optional)"
+          ],
+          [
+            null,
+            null,
+            "M&m's",
+            "M&M’s (optional)"
+          ]
+        ]
+      },
+      {
+        "method": "White Chocolate Shrimp",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 Egg"
+          ],
+          [
+            1.0,
+            "cup",
+            "Milk",
+            "1 cup milk"
+          ],
+          [
+            1.0,
+            "cup",
+            "Flour",
+            "1 cup flour"
+          ],
+          [
+            1.0,
+            "cup",
+            "Breadcrumbs",
+            "1 cup breadcrumbs"
+          ],
+          [
+            null,
+            null,
+            "Shrimp",
+            "Shrimp, peeled and deveined"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            1.0,
+            "small",
+            "Shallot",
+            "1 small shallot, minced"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "White Wine",
+            "2 Tbsp white wine"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "White Wine Vinegar",
+            "2 Tbsp white wine vinegar"
+          ],
+          [
+            "1-2",
+            "tablespoon",
+            "Heavy Cream",
+            "1-2 Tbsp heavy cream"
+          ],
+          [
+            1.0,
+            "cup",
+            "Butter",
+            "1 cup butter, cut into chunks"
+          ],
+          [
+            4.0,
+            "ounce",
+            "White Chocolate",
+            "4 ounces white chocolate"
+          ]
+        ]
+      },
+      {
+        "method": "Jalapeno Poppers",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Jalapenos",
+            "Jalapenos, halved and hallowed"
+          ],
+          [
+            8.0,
+            "ounce",
+            "Cream Cheese",
+            "8 ounces cream cheese"
+          ],
+          [
+            8.0,
+            "ounce",
+            "Pepper Jack Cheese",
+            "8 ounces pepper jack cheese, shredded"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 Egg"
+          ],
+          [
+            1.0,
+            "cup",
+            "Milk",
+            "1 cup milk"
+          ],
+          [
+            1.0,
+            "cup",
+            "Flour",
+            "1 cup flour"
+          ],
+          [
+            1.0,
+            "cup",
+            "Breadcrumbs",
+            "1 cup breadcrumbs"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Teddy Brûlée inspired by Bob's Burgers",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/teddybrulee",
+    "youtube_link": "https://www.youtube.com/watch?v=6pXjR0JyV0s",
+    "published": "2019-05-14",
+    "recipes": [
+      {
+        "method": "Graham Crackers",
+        "ingredients": [
+          [
+            4.5,
+            "ounce",
+            "Wheat Flour",
+            "4 ½ ounces whole wheat flour"
+          ],
+          [
+            4.0,
+            "ounce",
+            "All Purpose Flour",
+            "4 ounces all purpose flour"
+          ],
+          [
+            1.5,
+            "ounce",
+            "White Granulated Sugar",
+            "1 ½ ounces of white granulated sugar"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Salt",
+            "1 tsp salt"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Baking Powder",
+            "1 tsp baking powder"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Cinnamon",
+            "1 tsp cinnamon"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            1.5,
+            "ounce",
+            "Vegetable Oil",
+            "1 ½ ounces vegetable oil"
+          ],
+          [
+            3.0,
+            "ounce",
+            "Honey",
+            "3 ounces honey"
+          ],
+          [
+            1.0,
+            "ounce",
+            "Milk And 2 Tbsp Milk",
+            "1 ounce milk and 2 tbsp milk"
+          ]
+        ]
+      },
+      {
+        "method": "Marshmallows",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Water",
+            "½ cup water"
+          ],
+          [
+            3.0,
+            null,
+            "Packets Powdered Gelatin",
+            "3 packets powdered gelatin"
+          ],
+          [
+            1.5,
+            "cup",
+            "White Granulated Sugar",
+            "1 ½ cups white granulated sugar"
+          ],
+          [
+            0.5,
+            "cup",
+            "Water",
+            "½ cup water"
+          ],
+          [
+            1.0,
+            "cup",
+            "Light Corn Syrup",
+            "1 cup light corn syrup"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Vanilla Extract",
+            "2 tsp vanilla extract"
+          ]
+        ]
+      },
+      {
+        "method": "Teddy Brulee Assembly",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Marshmallows",
+            "Marshmallows"
+          ],
+          [
+            null,
+            null,
+            "Your Choice",
+            "Chocolate of your choice"
+          ],
+          [
+            null,
+            null,
+            "Graham Crackers",
+            "Graham crackers"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Good Morning Burger inspired by The Simpsons",
     "episode_link": "https://www.bingingwithbabish.com/recipes/goodmorningburger",
     "youtube_link": "https://www.youtube.com/watch?v=hzAgFNh4vRY&t=153s",
