@@ -1,5 +1,95 @@
 [
   {
+    "episode_name": "Bacon and Eggs Breakfast inspired by Howl's Moving Castle",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/orangemochafrapp-fpm9l",
+    "youtube_link": "https://www.youtube.com/watch?v=UPccIAVvQA4",
+    "published": "2019-06-04",
+    "recipes": [
+      {
+        "method": "For the homemade bacon",
+        "ingredients": [
+          [
+            1.0,
+            "large",
+            "Pork Belly",
+            "1 large piece of pork belly (about 3 lbs), skin removed"
+          ],
+          [
+            4.5,
+            "teaspoon",
+            "Kosher Salt",
+            "4 ½ tsp kosher salt"
+          ],
+          [
+            4.5,
+            "teaspoon",
+            "Coarsely Ground Black Pepper",
+            "4 ½ tsp coarsely ground black pepper"
+          ],
+          [
+            6.0,
+            null,
+            "Packed Tbsp Brown Sugar",
+            "6 packed Tbsp brown sugar"
+          ],
+          [
+            0.75,
+            "cup",
+            "Distilled Water",
+            "¾ cup distilled water"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Pink Curing Salt",
+            "1 tsp pink curing salt (Prague Powder #1)"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Applewood",
+            "2 Tbsp applewood"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Cherrywood",
+            "2 Tbsp cherrywood"
+          ]
+        ]
+      },
+      {
+        "method": "To complete the breakfast",
+        "ingredients": [
+          [
+            4.0,
+            null,
+            "Eggs",
+            "4 eggs"
+          ],
+          [
+            null,
+            null,
+            "Sliced Bread",
+            "Sliced bread"
+          ],
+          [
+            null,
+            null,
+            "Cheese",
+            "Cheese"
+          ],
+          [
+            null,
+            null,
+            "Salt And Pepper",
+            "Salt and pepper"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Orange Mocha Frappuccinos inspired by Zoolander",
     "episode_link": "https://www.bingingwithbabish.com/recipes/orangemochafrapp",
     "youtube_link": "https://www.youtube.com/watch?v=exe_I-tnxpU",
