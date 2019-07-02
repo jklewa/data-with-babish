@@ -1,5 +1,272 @@
 [
   {
+    "episode_name": "Ube Roll inspired by Steven Universe",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/uberollcake",
+    "youtube_link": "https://www.youtube.com/watch?v=cYRG5rkmr-s",
+    "published": "2019-06-25",
+    "recipes": [
+      {
+        "method": "For the cake",
+        "ingredients": [
+          [
+            3.0,
+            "tablespoon",
+            "Powdered Ube",
+            "3 Tbsp powdered ube"
+          ],
+          [
+            0.5,
+            "cup",
+            "Water",
+            "½ cup water"
+          ],
+          [
+            4.0,
+            null,
+            "Eggs",
+            "4 eggs"
+          ],
+          [
+            0.5,
+            "cup",
+            "Granulated Sugar",
+            "½ cup granulated sugar"
+          ],
+          [
+            40.0,
+            null,
+            "Grams Cake Flour",
+            "40 grams cake flour"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Ube Flavoring",
+            "½ tsp ube flavoring"
+          ],
+          [
+            0.25,
+            "teaspoon",
+            "Violet Food Coloring",
+            "¼ tsp violet food coloring"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Vegetable Oil",
+            "2 Tbsp vegetable oil"
+          ]
+        ]
+      },
+      {
+        "method": "For the buttercream icing",
+        "ingredients": [
+          [
+            6.5,
+            "ounce",
+            "Egg Whites",
+            "6 ½ ounces egg whites"
+          ],
+          [
+            1.0,
+            "cup",
+            "Sugar",
+            "1 cup sugar"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Vanilla Extract",
+            "2 tsp vanilla extract"
+          ],
+          [
+            4.0,
+            null,
+            "Sticks Butter; Softened",
+            "4 sticks butter; softened"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Huevos Rancheros inspired by Breaking Bad",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/huevosrancheros",
+    "youtube_link": "https://youtu.be/pdNm4ug9PpE",
+    "published": "2019-06-20",
+    "recipes": [
+      {
+        "method": "For the corn tortillas",
+        "ingredients": [
+          [
+            9.5,
+            "ounce",
+            "Masa Harina",
+            "9.5 ounces masa harina"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Kosher Salt",
+            "2 tsp kosher salt"
+          ],
+          [
+            1.0,
+            "cup",
+            "Plus 2 Tbsp Water",
+            "1 cup plus 2 Tbsp water"
+          ]
+        ]
+      },
+      {
+        "method": "For the crema",
+        "ingredients": [
+          [
+            0.5,
+            "cup",
+            "Sour Cream",
+            "½ cup sour cream"
+          ],
+          [
+            1.0,
+            null,
+            "Lime",
+            "1 lime"
+          ]
+        ]
+      },
+      {
+        "method": "For the fancy tomato sauce",
+        "ingredients": [
+          [
+            1.0,
+            "large",
+            "Dried Ancho Chile",
+            "1 large dried ancho chile"
+          ],
+          [
+            "2-3",
+            "tablespoon",
+            "Cumin Seeds",
+            "2-3 Tbsp cumin seeds"
+          ],
+          [
+            1.0,
+            "small",
+            "Onion",
+            "1 small onion"
+          ],
+          [
+            1.0,
+            null,
+            "Jalapeno",
+            "1 jalapeno"
+          ],
+          [
+            0.5,
+            null,
+            "Green Bell Pepper",
+            "½ green bell pepper"
+          ],
+          [
+            0.5,
+            null,
+            "Red Bell Pepper",
+            "½ red bell pepper"
+          ],
+          [
+            1.0,
+            null,
+            "Clove Garlic",
+            "1 clove garlic"
+          ],
+          [
+            "1-2",
+            "tablespoon",
+            "Vegetable Oil",
+            "1-2 Tbsp vegetable oil"
+          ],
+          [
+            1.0,
+            null,
+            "Chipotle In Adobo Sauce",
+            "1 chipotle in adobo sauce (from can)"
+          ],
+          [
+            14.0,
+            "ounce",
+            "Can Fire Roasted Crushed Tomatoes",
+            "14 ounce can fire roasted crushed tomatoes"
+          ]
+        ]
+      },
+      {
+        "method": "For the beans",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Black Beans",
+            "Can of black beans"
+          ],
+          [
+            "1-2",
+            "tablespoon",
+            "Olive Oil",
+            "1-2 Tbsp olive oil"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Kosher salt"
+          ],
+          [
+            null,
+            null,
+            "Freshly Ground Pepper",
+            "Freshly ground pepper"
+          ],
+          [
+            1.0,
+            null,
+            "Lime",
+            "1 lime"
+          ]
+        ]
+      },
+      {
+        "method": "Additional ingredients",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Eggs",
+            "2 eggs"
+          ],
+          [
+            null,
+            null,
+            "Avocado",
+            "Avocado"
+          ],
+          [
+            null,
+            null,
+            "Extra Onion",
+            "Extra onion"
+          ],
+          [
+            null,
+            null,
+            "Cilantro",
+            "Cilantro"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "It's Always Sunny in Philadelphia Special (Part II)",
     "episode_link": "https://www.bingingwithbabish.com/recipes/alwayssunny",
     "youtube_link": "https://www.youtube.com/watch?v=_fnhy5xO9vQ",
