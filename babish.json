@@ -1,5 +1,635 @@
 [
   {
+    "episode_name": "Squid Ink Pasta inspired by JoJo's Bizarre Adventure",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/squidinkpasta",
+    "youtube_link": "https://www.youtube.com/watch?v=rPdln-PUZuE",
+    "published": "2019-07-31",
+    "recipes": [
+      {
+        "method": "For the pasta",
+        "ingredients": [
+          [
+            2.5,
+            "cup",
+            "Flour",
+            "2 ½ cups flour"
+          ],
+          [
+            4.0,
+            "large",
+            "Eggs",
+            "4 large eggs"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Black Squid Ink",
+            "1 Tbsp black squid ink"
+          ]
+        ]
+      },
+      {
+        "method": "For the pasta sauce",
+        "ingredients": [
+          [
+            2.0,
+            "tablespoon",
+            "Olive Oil",
+            "2 Tbsp olive oil"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Tomato Puree",
+            "2 Tbsp tomato puree"
+          ],
+          [
+            0.5,
+            null,
+            "Shallot",
+            "½ shallot"
+          ],
+          [
+            1.0,
+            "large",
+            "Clove Garlic",
+            "1 large clove garlic"
+          ],
+          [
+            null,
+            null,
+            "Red Pepper Flakes",
+            "Red pepper flakes (optional)"
+          ],
+          [
+            0.25,
+            "cup",
+            "Dry White Wine",
+            "¼ cup dry white wine"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Black Squid Ink",
+            "2 Tbsp black squid ink"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Bagel Sandwiches inspired by Steven Universe",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/bagelsandwiches",
+    "youtube_link": "https://www.youtube.com/watch?v=wv43IN_cnyw",
+    "published": "2019-07-23",
+    "recipes": [
+      {
+        "method": "For the bagel dough",
+        "ingredients": [
+          [
+            650.0,
+            null,
+            "Grams Bread Flour",
+            "650 grams bread flour"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Active Dry Yeast",
+            "1 tsp active dry yeast"
+          ],
+          [
+            350.0,
+            null,
+            "Grams Water",
+            "350 grams water"
+          ],
+          [
+            25.0,
+            null,
+            "Grams Granulated Sugar",
+            "25 grams granulated sugar"
+          ],
+          [
+            25.0,
+            null,
+            "Grams Diastatic Malt Powder",
+            "25 grams diastatic malt powder"
+          ],
+          [
+            10.0,
+            null,
+            "Grams Kosher Salt",
+            "10 grams kosher salt"
+          ]
+        ]
+      },
+      {
+        "method": "For boiling the bagels",
+        "ingredients": [
+          [
+            1.5,
+            null,
+            "Gallons Water",
+            "1 ½ gallons water"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Barley Syrup",
+            "1 Tbsp barley syrup"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Baking Soda",
+            "2 tsp baking soda"
+          ]
+        ]
+      },
+      {
+        "method": "For “everything” seasoning",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Dried Onion",
+            "Dried onion"
+          ],
+          [
+            null,
+            null,
+            "Garlic Flakes",
+            "Garlic flakes"
+          ],
+          [
+            null,
+            null,
+            "White Sesame Seeds",
+            "White sesame seeds"
+          ],
+          [
+            null,
+            null,
+            "Black Sesame Seeds",
+            "Black sesame seeds"
+          ],
+          [
+            null,
+            null,
+            "Poppy Seeds",
+            "Poppy seeds"
+          ],
+          [
+            null,
+            null,
+            "Caraway Seeds",
+            "Caraway seeds"
+          ],
+          [
+            null,
+            null,
+            "Flaky Maldon Salt",
+            "Flaky Maldon salt"
+          ]
+        ]
+      },
+      {
+        "method": "For Fried Egg & Turkey Sandwich",
+        "ingredients": [
+          [
+            2.0,
+            null,
+            "Slices Turkey",
+            "2 slices turkey"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            2.0,
+            null,
+            "Slices Cheese",
+            "2 slices cheese"
+          ],
+          [
+            null,
+            null,
+            "Bagel",
+            "Bagel"
+          ]
+        ]
+      },
+      {
+        "method": "For Canadian Bacon & Egg Sandwich",
+        "ingredients": [
+          [
+            1.0,
+            null,
+            "Or 2 Pieces Canadian Bacon",
+            "1 or 2 pieces canadian bacon"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            1.0,
+            null,
+            "Slice Cheese",
+            "1 slice cheese"
+          ],
+          [
+            null,
+            null,
+            "Bagel",
+            "Bagel"
+          ]
+        ]
+      },
+      {
+        "method": "For Lox & Cream Cheese Sandwich",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Smoked Scottish Salmon",
+            "Smoked scottish salmon"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            null,
+            null,
+            "Cream Cheese",
+            "Cream cheese"
+          ],
+          [
+            null,
+            null,
+            "Bagel",
+            "Bagel"
+          ]
+        ]
+      },
+      {
+        "method": "For Babish Breakfast Sandwich",
+        "ingredients": [
+          [
+            1.0,
+            "pound",
+            "Ground Pork",
+            "1 pound ground pork"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Chopped Sage",
+            "1 Tbsp chopped sage"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "Chopped Thyme",
+            "1 Tbsp chopped thyme"
+          ],
+          [
+            null,
+            null,
+            "Sprinkle Ogarlic Powder",
+            "Sprinkle ogarlic powder"
+          ],
+          [
+            null,
+            null,
+            "Sprinkle Onion Powder",
+            "Sprinkle onion powder"
+          ],
+          [
+            null,
+            null,
+            "Sprinkle Red Chili Flakes",
+            "Sprinkle red chili flakes (optional)"
+          ],
+          [
+            null,
+            null,
+            "Sprinkle Chili Powder",
+            "Sprinkle chili powder"
+          ],
+          [
+            null,
+            null,
+            "Sprinkle Smoked Paprika",
+            "Sprinkle smoked paprika"
+          ],
+          [
+            null,
+            null,
+            "Maple Syrup Or 2 Tbsp Brown Sugar",
+            "Maple syrup or 2 Tbsp brown sugar"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Generous pinch of Kosher salt"
+          ],
+          [
+            null,
+            null,
+            "Freshly Ground Black Pepper",
+            "Few twists of freshly ground black pepper"
+          ],
+          [
+            1.0,
+            null,
+            "Egg",
+            "1 egg"
+          ],
+          [
+            1.0,
+            null,
+            "Slice Pepper Jack Cheese",
+            "1 slice pepper jack cheese"
+          ],
+          [
+            null,
+            null,
+            "Bagel",
+            "Bagel"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Inferno Wings inspired by Regular Show",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/infernowings",
+    "youtube_link": "https://www.youtube.com/watch?v=dRLCZqEfJFA",
+    "published": "2019-07-16",
+    "recipes": [
+      {
+        "method": "For the sauce",
+        "ingredients": [
+          [
+            "10-15",
+            null,
+            "Fresno Chili Peppers",
+            "10-15 fresno chili peppers"
+          ],
+          [
+            null,
+            null,
+            "About 40 Habanero Peppers",
+            "About 40 habanero peppers"
+          ],
+          [
+            4.0,
+            null,
+            "Cloves Garlic",
+            "4 cloves garlic"
+          ],
+          [
+            1.0,
+            "cup",
+            "White Vinegar",
+            "1 cup white vinegar"
+          ],
+          [
+            null,
+            null,
+            "Salt",
+            "Pinch of salt"
+          ],
+          [
+            null,
+            null,
+            "Sugar",
+            "Pinch of sugar"
+          ],
+          [
+            null,
+            null,
+            "Msg",
+            "Pinch of MSG"
+          ]
+        ]
+      },
+      {
+        "method": "For the chicken",
+        "ingredients": [
+          [
+            null,
+            null,
+            "About 20 Chicken Wings",
+            "About 20 chicken wings"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil For Frying",
+            "A lot of vegetable oil for frying"
+          ]
+        ]
+      },
+      {
+        "method": "For the blue cheese dressing",
+        "ingredients": [
+          [
+            1.0,
+            "cup",
+            "Mayonnaise",
+            "1 cup mayonnaise"
+          ],
+          [
+            0.75,
+            "cup",
+            "Sour Cream",
+            "¾ cup sour cream"
+          ],
+          [
+            null,
+            null,
+            "Garlic Powder",
+            "Sprinkle of garlic powder"
+          ],
+          [
+            1.0,
+            "tablespoon",
+            "White Wine Vinegar",
+            "1 Tbsp white wine vinegar"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Sprinkle of kosher salt"
+          ],
+          [
+            null,
+            null,
+            "Freshly Ground Black Pepper",
+            "Sprinkle of freshly ground black pepper"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "White Sugar",
+            "½ tsp white sugar"
+          ],
+          [
+            null,
+            null,
+            "Lemon Juice",
+            "Squeeze of lemon juice"
+          ],
+          [
+            4.0,
+            "ounce",
+            "Crumbled Blue Cheese",
+            "4 ounces crumbled blue cheese"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Lettuce Wraps & Mango Sticky Rice inspired by Spider-Man: Homecoming",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/larbstickyrice",
+    "youtube_link": "https://www.youtube.com/watch?v=VweTeaGwiXQ",
+    "published": "2019-07-10",
+    "recipes": [
+      {
+        "method": "For the lettuce wraps",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Thai Glutinous Rice",
+            "Thai glutinous rice"
+          ],
+          [
+            1.0,
+            "small",
+            "Shallot",
+            "1 small shallot"
+          ],
+          [
+            3.0,
+            null,
+            "Scallions",
+            "3 scallions"
+          ],
+          [
+            null,
+            null,
+            "Fresh Mint",
+            "Fresh mint"
+          ],
+          [
+            null,
+            null,
+            "Cilantro",
+            "Cilantro"
+          ],
+          [
+            null,
+            null,
+            "Lemongrass",
+            "Lemongrass"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Vegetable Oil",
+            "3 Tbsp vegetable oil"
+          ],
+          [
+            1.0,
+            "pound",
+            "Ground Pork",
+            "1 pound ground pork"
+          ],
+          [
+            2.0,
+            null,
+            "Generous Pinches Thai Chili Powder",
+            "2 generous pinches Thai chili powder"
+          ],
+          [
+            0.3333333333333333,
+            "teaspoon",
+            "Sugar",
+            "⅓ tsp sugar"
+          ],
+          [
+            0.5,
+            "tablespoon",
+            "Fish Sauce",
+            "½ Tbsp fish sauce"
+          ],
+          [
+            1.0,
+            null,
+            "Lime",
+            "1 lime"
+          ],
+          [
+            null,
+            null,
+            "Large Lettuce Leaves",
+            "Large lettuce leaves"
+          ]
+        ]
+      },
+      {
+        "method": "For the mango sticky rice",
+        "ingredients": [
+          [
+            3.0,
+            "cup",
+            "Sweet Sticky Rice",
+            "3 cups sweet sticky rice"
+          ],
+          [
+            16.0,
+            "ounce",
+            "Coconut Milk",
+            "16 ounces coconut milk"
+          ],
+          [
+            0.75,
+            "cup",
+            "Sugar",
+            "¾ cup sugar"
+          ],
+          [
+            1.0,
+            null,
+            "Mango",
+            "1 mango"
+          ],
+          [
+            null,
+            null,
+            "Mint Garnish",
+            "Mint garnish (optional)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Ube Roll inspired by Steven Universe",
     "episode_link": "https://www.bingingwithbabish.com/recipes/uberollcake",
     "youtube_link": "https://www.youtube.com/watch?v=cYRG5rkmr-s",
