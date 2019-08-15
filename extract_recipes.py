@@ -117,9 +117,9 @@ class Recipe:
     @classmethod
     def normalize_name(cls, name):
         return capwords(name) \
-               .replace('Whole ', '').replace('Half ', '') \
-               .replace('Hot ', '').replace('Warm ', '').replace('Cold ', '') \
-               .strip(string.whitespace + ',.')
+            .replace('Whole ', '').replace('Half ', '') \
+            .replace('Hot ', '').replace('Warm ', '').replace('Cold ', '') \
+            .strip(string.whitespace + ',.')
 
 
 def timeit(method):
@@ -261,9 +261,21 @@ class BabishSync:
                     if method_name == '':
                         method_name = episode_name
 
+                    def flatten(loc):
+                        out = []
+                        for i in loc.children:
+                            # flatten nested lists
+                            if isinstance(i, bs4.element.Tag) and i.select('ul,ol'):
+                                for i2 in i.select('ul,ol'):
+                                    out += flatten(i2)
+                            else:
+                                out.append(i)
+                        return out
+
                     # Convert the ul to parsed Ingredients
                     try:
-                        ingredients = [Recipe.parse_ingredient(i) for i in iloc.children]
+                        raw_ingredients = flatten(iloc)
+                        ingredients = [Recipe.parse_ingredient(i) for i in raw_ingredients]
                     except Exception:
                         print("ERROR: Failed to parse ingredients from ep: {0} method: {1} raw_list: {2}".format(
                             episode_name,
@@ -273,7 +285,9 @@ class BabishSync:
                         raise
 
                     if len(ingredients) == 0:
-                        print("WARN: Could not find ingredients for {0} (Episode {1})".format(method_name, episode_name))
+                        print(
+                            "WARN: Could not find ingredients for {0} (Episode {1})".format(
+                                method_name, episode_name))
 
                     recipe = {
                         'method': method_name,

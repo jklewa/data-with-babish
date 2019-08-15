@@ -1,5 +1,612 @@
 [
   {
+    "episode_name": "White Castle sliders inspired by Harold & Kumar",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/whitecastlesliders",
+    "youtube_link": "https://www.youtube.com/watch?v=pTk9HnIwEYU",
+    "published": "2019-08-13",
+    "recipes": [
+      {
+        "method": "For the White Castle Classic (makes 6 sliders)",
+        "ingredients": [
+          [
+            6.0,
+            "ounce",
+            "Ground Beef",
+            "6 ounces ground beef"
+          ],
+          [
+            6.0,
+            null,
+            "Potato Slider Buns",
+            "6 potato slider buns"
+          ],
+          [
+            2.0,
+            null,
+            "White Onions",
+            "2 white onions, diced"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Kosher salt"
+          ],
+          [
+            6.0,
+            null,
+            "Slider",
+            "6 slices American cheese, trimmed to size of slider"
+          ],
+          [
+            6.0,
+            null,
+            "Dill Pickle Chips",
+            "6 dill pickle chips (or more to taste)"
+          ]
+        ]
+      },
+      {
+        "method": "For the Babish Version",
+        "ingredients": [
+          [
+            6.0,
+            "ounce",
+            "Each Chuck And Short Rib",
+            "6 ounces each chuck and short rib"
+          ],
+          [
+            2.0,
+            null,
+            "White Onions",
+            "2 white onions, diced"
+          ],
+          [
+            null,
+            null,
+            "Potato Slider Buns",
+            "Potato slider buns"
+          ],
+          [
+            1.0,
+            "cup",
+            "Cheddar Cheese",
+            "1 cup cheddar cheese, shredded"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt And Freshly Ground Pepper",
+            "Kosher salt and freshly ground pepper"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "KFC Bucket Meal inspired by Stranger Things",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/kfcmeal",
+    "youtube_link": "https://www.youtube.com/watch?v=WtAoc3_1Ido",
+    "published": "2019-08-07",
+    "recipes": [
+      {
+        "method": "Buttermilk Fried Chicken (Babish Style)",
+        "ingredients": [
+          [
+            1.0,
+            "whole",
+            "Chicken",
+            "1 whole chicken"
+          ],
+          [
+            16.0,
+            "ounce",
+            "Buttermilk",
+            "16 oz of buttermilk"
+          ],
+          [
+            0.6666666666666666,
+            "teaspoon",
+            "Salt",
+            "⅔ tsp salt"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Thyme",
+            "½ tsp thyme"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Basil",
+            "½ tsp basil"
+          ],
+          [
+            0.3333333333333333,
+            "teaspoon",
+            "Oregano",
+            "⅓ tsp oregano"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Celery Salt",
+            "1 tsp celery salt"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Black Pepper",
+            "1 tsp black pepper"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Dried Mustard",
+            "1 tsp dried mustard"
+          ],
+          [
+            4.0,
+            "teaspoon",
+            "Paprika",
+            "4 tsp paprika"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Garlic Salt",
+            "2 tsp garlic salt"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Ground Ginger",
+            "1 tsp ground ginger"
+          ],
+          [
+            3.0,
+            "teaspoon",
+            "White Pepper",
+            "3 tsp white pepper"
+          ],
+          [
+            0.75,
+            "teaspoon",
+            "Msg",
+            "¾ tsp MSG"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Kosher Salt",
+            "1 tsp kosher salt"
+          ],
+          [
+            0.5,
+            "cup",
+            "Corn Starch",
+            "½ cup of corn starch"
+          ],
+          [
+            null,
+            null,
+            "Canola And Peanut Oil",
+            "Canola and Peanut oil, for frying"
+          ]
+        ]
+      },
+      {
+        "method": "12 herbs and spices",
+        "ingredients": [
+          [
+            0.6666666666666666,
+            "teaspoon",
+            "Salt",
+            "⅔ tsp salt"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Thyme",
+            "½ tsp thyme"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Basil",
+            "½ tsp basil"
+          ],
+          [
+            0.3333333333333333,
+            "teaspoon",
+            "Oregano",
+            "⅓ tsp oregano"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Celery Salt",
+            "1 tsp celery salt"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Black Pepper",
+            "1 tsp black pepper"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Dried Mustard",
+            "1 tsp dried mustard"
+          ],
+          [
+            4.0,
+            "teaspoon",
+            "Paprika",
+            "4 tsp paprika"
+          ],
+          [
+            2.0,
+            "teaspoon",
+            "Garlic Salt",
+            "2 tsp garlic salt"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Ground Ginger",
+            "1 tsp ground ginger"
+          ],
+          [
+            3.0,
+            "teaspoon",
+            "White Pepper",
+            "3 tsp white pepper"
+          ],
+          [
+            0.75,
+            "teaspoon",
+            "Msg",
+            "¾ tsp MSG"
+          ]
+        ]
+      },
+      {
+        "method": "Chicken Stock",
+        "ingredients": [
+          [
+            null,
+            null,
+            "Chicken Wings And Spine Pieces",
+            "Chicken wings and spine pieces"
+          ],
+          [
+            null,
+            null,
+            "Vegetable Oil",
+            "Vegetable oil"
+          ],
+          [
+            null,
+            null,
+            "Onion",
+            "Onion"
+          ],
+          [
+            null,
+            null,
+            "Carrots",
+            "Carrots"
+          ],
+          [
+            null,
+            null,
+            "Celery",
+            "Celery"
+          ],
+          [
+            null,
+            null,
+            "Fresh Thyme",
+            "Fresh thyme"
+          ],
+          [
+            null,
+            null,
+            "Garlic",
+            "Halved head of garlic"
+          ],
+          [
+            8.0,
+            "cup",
+            "Water",
+            "8 cups cold water"
+          ]
+        ]
+      },
+      {
+        "method": "Creamy Mashed Potatoes & Homemade Gravy",
+        "ingredients": [
+          [
+            6.0,
+            "tbsp",
+            "Butter",
+            "6 tbsps butter"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "All Purpose Flour",
+            "⅓ cup all purpose flour"
+          ],
+          [
+            null,
+            null,
+            "Soy Sauce",
+            "Soy sauce"
+          ],
+          [
+            3.0,
+            "cup",
+            "Chicken Stock",
+            "3 cups chicken stock"
+          ],
+          [
+            4.0,
+            "lb",
+            "Russet Potatoes",
+            "4 lbs russet potatoes"
+          ],
+          [
+            1.0,
+            null,
+            "Stick Unsalted Butter",
+            "1 stick unsalted butter, cut into 1-inch pieces"
+          ],
+          [
+            2.0,
+            "cup",
+            "Milk",
+            "2 cups warm milk"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Kosher salt"
+          ],
+          [
+            null,
+            null,
+            "White Pepper",
+            "White pepper"
+          ]
+        ]
+      },
+      {
+        "method": "Gravy",
+        "ingredients": [
+          [
+            6.0,
+            "tbsp",
+            "Butter",
+            "6 tbsps butter"
+          ],
+          [
+            0.3333333333333333,
+            "cup",
+            "All Purpose Flour",
+            "⅓ cup all purpose flour"
+          ],
+          [
+            null,
+            null,
+            "Soy Sauce",
+            "Soy sauce"
+          ],
+          [
+            3.0,
+            "cup",
+            "Chicken Stock",
+            "3 cups chicken stock"
+          ]
+        ]
+      },
+      {
+        "method": "Mashed potatoes",
+        "ingredients": [
+          [
+            4.0,
+            "lb",
+            "Russet Potatoes",
+            "4 lbs russet potatoes"
+          ],
+          [
+            1.0,
+            null,
+            "Stick Unsalted Butter",
+            "1 stick unsalted butter, cut into 1-inch pieces"
+          ],
+          [
+            2.0,
+            "cup",
+            "Milk",
+            "2 cups warm milk"
+          ],
+          [
+            null,
+            null,
+            "Kosher Salt",
+            "Kosher salt"
+          ],
+          [
+            null,
+            null,
+            "White Pepper",
+            "White pepper"
+          ]
+        ]
+      },
+      {
+        "method": "Buttermilk Biscuits",
+        "ingredients": [
+          [
+            13.5,
+            "ounce",
+            "All Purpose Flour",
+            "13 ½ ounces all purpose flour"
+          ],
+          [
+            2.0,
+            "tablespoon",
+            "Sugar",
+            "2 Tbsp sugar"
+          ],
+          [
+            4.0,
+            "teaspoon",
+            "Baking Powder",
+            "4 tsp baking powder"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Baking Soda",
+            "½ tsp baking soda"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Kosher Salt",
+            "½ tsp kosher salt"
+          ],
+          [
+            2.0,
+            null,
+            "Sticks Frozen Butter",
+            "2 sticks frozen butter"
+          ],
+          [
+            1.25,
+            "cup",
+            "Buttermilk",
+            "1 ¼ cups buttermilk"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "episode_name": "Sea Salt Ice Cream inspired by Kingdom Hearts",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/seasalticecream",
+    "youtube_link": "https://www.youtube.com/watch?v=5fTd1aYzNHI",
+    "published": "2019-08-06",
+    "recipes": [
+      {
+        "method": "For the churn version",
+        "ingredients": [
+          [
+            1.5,
+            "cup",
+            "Milk",
+            "1 ½ cup milk"
+          ],
+          [
+            1.5,
+            "cup",
+            "Cream",
+            "1 ½ cup cream"
+          ],
+          [
+            0.75,
+            "cup",
+            "Sugar",
+            "¾ cup sugar"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Cornstarch",
+            "3 Tbsp cornstarch"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Sea Salt",
+            "1 tsp sea salt"
+          ],
+          [
+            null,
+            null,
+            "Teal Gel-based Food Coloring",
+            "Teal gel-based food coloring"
+          ]
+        ]
+      },
+      {
+        "method": "For the no-churn version",
+        "ingredients": [
+          [
+            1.5,
+            "cup",
+            "Milk",
+            "1 ½ cup milk"
+          ],
+          [
+            1.5,
+            "cup",
+            "Cream",
+            "1 ½ cup cream"
+          ],
+          [
+            0.75,
+            "cup",
+            "Sugar",
+            "¾ cup sugar"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Cornstarch",
+            "3 Tbsp cornstarch"
+          ],
+          [
+            null,
+            null,
+            "Gelatin",
+            "Packet of gelatin"
+          ],
+          [
+            7.5,
+            "ounce",
+            "Glucose",
+            "7 ½ ounces glucose"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Sea Salt",
+            "1 tsp sea salt"
+          ],
+          [
+            null,
+            null,
+            "Teal Gel-based Food Coloring",
+            "Teal gel-based food coloring"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "Squid Ink Pasta inspired by JoJo's Bizarre Adventure",
     "episode_link": "https://www.bingingwithbabish.com/recipes/squidinkpasta",
     "youtube_link": "https://www.youtube.com/watch?v=rPdln-PUZuE",
