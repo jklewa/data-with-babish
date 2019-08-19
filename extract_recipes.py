@@ -188,7 +188,7 @@ class BabishSync:
             self.stats.episodes_fetched += 1
 
             retries = 3
-            for t in range(retries):
+            for _ in range(retries):
                 self.stats.requests_made += 1
                 r = requests.get('https://www.bingingwithbabish.com' + link)
                 if r.status_code == 200:
@@ -312,10 +312,10 @@ class BabishSync:
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
-    babish = BabishSync()
+    BABISH = BabishSync()
 
-    babish.fetch_episode_list()
-    babish.fetch_missing_episodes()
-    babish.generate_babish_json()
+    BABISH.fetch_episode_list()
+    BABISH.fetch_missing_episodes()
+    BABISH.generate_babish_json()
 
-    babish.show_stats()
+    BABISH.show_stats()
