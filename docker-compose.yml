@@ -1,8 +1,8 @@
-version: "3.1"
+version: "3.7"
 services:
   db:
-    image: "postgres:11"
-    container_name: "babish-ibdb"
+    image: postgres:11
+    container_name: babish-ibdb
     ports:
       - "54320:5432"
     volumes:
@@ -10,3 +10,14 @@ services:
     # environment:
     #   POSTGRES_USER: postgres
     #   POSTGRES_PASSWORD: <unset>
+  api:
+    build:
+      context: ./ibdb
+      dockerfile: Dockerfile-api
+    volumes: ["./ibdb:/app"]
+    image: babish-ibdb-api:latest
+    container_name: babish-ibdb-api
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
