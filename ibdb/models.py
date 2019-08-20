@@ -62,6 +62,12 @@ class Show(Base):
         return {
             'show_id': self.id,
             'name': self.name,
+            **({
+                'episodes': [
+                    e.serialize(False)
+                    for e in self.episodes
+                ]
+            } if related else {})
         }
 
 
@@ -76,7 +82,8 @@ class Episode(Base):
     show_id = Column(ForeignKey('show.id'), nullable=False)
     image_link = Column(String)
 
-    show = relationship('Show')
+    show = relationship('Show',
+                        backref='episodes')
     guests = relationship('Guest', secondary='guest_appearances',
                           backref='appearances')
     references = relationship('Reference', secondary='episode_inspired_by',
@@ -88,6 +95,7 @@ class Episode(Base):
         return {
             'episode_id': self.id,
             'name': self.name,
+            'published_date': self.published_date.isoformat(),
             'youtube_link': self.youtube_link,
             'official_link': self.official_link,
             'image_link': self.image_link,

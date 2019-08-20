@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IBDB - Episodes</title>
+
+    <style>
+        .preview {
+            max-width: 200px;
+        }
+        form {
+            width: 500px;
+        }
+        form > div {
+            display: flex;
+            padding-bottom: 4px;
+        }
+        input[type=text] {
+            flex-grow: 1;
+            margin-left: 7px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Add Episode</h1>
+    <form method="POST" action="/episodes">
+        <div>Episode ID: <input type="text" name="episode_id" required></div>
+        <div>Name: <input type="text" name="name" required></div>
+        <div>Youtube Link: <input type="text" name="youtube_link" required></div>
+        <div>Official Link: <input type="text" name="official_link" required></div>
+        <div>Image Link: <input type="text" name="image_link" required></div>
+        <div>Published Date: <input type="date" name="published_date" required></div>
+        <div>Show: <select name="show_id">
+            <option value="1" selected>Binging with Babish</option>
+            <option value="2">Basics With Babish</option>
+        </select></div>
+        <input type="submit" value="Add">
+    </form>
+
+    <h1>Episodes</h1>
+    {% for ep in episodes %}
+      <h3>{{ep.name}} <small>(id: {{ep.id}})</small></h3>
+      Published: {{ep.published_date.strftime('%Y-%m-%d')}} |
+      <a href="{{ep.youtube_link}}">Youtube</a> |
+      <a href="{{ep.official_link}}">Official</a> | {{ep.show.name}}
+      <br>
+      <a href="{{ep.image_link}}"><img src="{{ep.image_link}}" class="preview"></a>
+      <br>
+      guests:
+      <div>
+      {% for guest in ep.guests %}
+        <pre>{{ guest.serialize(False) }}</pre>
+      {% endfor %}
+      </div>
+
+      inspired by:
+      <div>
+      {% for ref in ep.inspired_by %}
+        <pre>{{ ref.serialize(False) }}</pre>
+      {% endfor %}
+      </div>
+
+      recipes:
+      <div>
+      {% for recipe in ep.recipes %}
+        <pre>{{ recipe.serialize(False) }}</pre>
+      {% endfor %}
+      </div>
+    {% endfor %}
+  </body>
+</html>
+</body>
+</html>
