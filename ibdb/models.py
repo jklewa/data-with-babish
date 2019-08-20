@@ -86,8 +86,8 @@ class Episode(Base):
                         backref='episodes')
     guests = relationship('Guest', secondary='guest_appearances',
                           backref='appearances')
-    references = relationship('Reference', secondary='episode_inspired_by',
-                              backref='episodes_inspired')
+    inspired_by = relationship('Reference', secondary='episode_inspired_by',
+                               backref='episodes_inspired')
     recipes = relationship('Recipe',
                            backref='episode')
 
@@ -108,7 +108,7 @@ class Episode(Base):
                     ],
                     'inspired_by': [
                         r.serialize(False)
-                        for r in self.references
+                        for r in self.inspired_by
                     ],
                     'recipes': [
                         r.serialize(False)

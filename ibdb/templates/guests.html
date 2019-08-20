@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IBDB - Guests</title>
+
+    <style>
+        .preview {
+            max-width: 200px;
+        }
+        form {
+            width: 500px;
+        }
+        form > div {
+            display: flex;
+            padding-bottom: 4px;
+        }
+        input[type=text], textarea, select {
+            flex-grow: 1;
+            margin-left: 7px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Add Guest</h1>
+    <form method="POST" action="/guests">
+        <div>Name: <input type="text" name="name" required></div>
+        <div>Appearance: <select name="appearance_episode_id">
+        {% for ep in episodes %}
+            <option value="{{ ep.id }}">{{ ep.published_date.strftime('%Y-%m-%d') }} | {{ ep.name }}</option>
+        {% endfor %}
+        </select></div>
+        <input type="submit" value="Add">
+    </form>
+
+    <h1>Guests</h1>
+    {% for g in guests %}
+      <h3>{{ g.name }} <small>(id: {{ g.id }})</small></h3>
+      appearances:
+      <ul>
+      {% for ep in g.appearances %}
+        <li>{{ ep.published_date.strftime('%Y-%m-%d') }} | {{ ep.name }}</li>
+      {% endfor %}
+      </ul>
+    {% endfor %}
+  </body>
+</html>
+</body>
+</html>

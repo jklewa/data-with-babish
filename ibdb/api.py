@@ -1,6 +1,7 @@
 from flask import (
     Flask,
     jsonify,
+    redirect,
     request,
     render_template,
 )
@@ -49,7 +50,7 @@ def episode_new():
     )
     db.session.add(new)
     db.session.commit()
-    return jsonify(new.serialize())
+    return redirect('/episodes')
 
 
 @app.route('/episode/<id>')
@@ -74,7 +75,7 @@ def recipe_new():
     )
     db.session.add(new)
     db.session.commit()
-    return jsonify(new.serialize())
+    return redirect('/recipes')
 
 
 @app.route('/recipe/<id>')
@@ -86,7 +87,11 @@ def recipe_by(id):
 @app.route('/guests')
 def guests():
     guests = Guest.query.order_by(Guest.name).all()
-    return jsonify([g.serialize() for g in guests])
+    if request.args.get('format', None) == 'json':
+        return jsonify([g.serialize() for g in guests])
+    else:
+        episodes = Episode.query.order_by(Episode.published_date.desc()).all()
+        return render_template('guests.html', guests=guests, episodes=episodes)
 
 
 @app.route('/guests', methods=['POST'])
@@ -94,9 +99,14 @@ def guest_new():
     new = Guest(
         name=request.form.get("name"),
     )
+    appearance = Episode.query.get(
+        request.form.get("appearance_episode_id")
+    )
+    if appearance:
+        new.appearances.append(appearance)
     db.session.add(new)
     db.session.commit()
-    return jsonify(new.serialize())
+    return redirect('/guests')
 
 
 @app.route('/guest/<id>')
@@ -130,7 +140,7 @@ def reference_new():
         new.episodes_inspired.append(inspired)
     db.session.add(new)
     db.session.commit()
-    return jsonify(new.serialize())
+    return redirect('/references')
 
 
 @app.route('/reference/<id>')

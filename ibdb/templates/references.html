@@ -14,7 +14,7 @@
             display: flex;
             padding-bottom: 4px;
         }
-        input[type=text] {
+        input[type=text], textarea, select {
             flex-grow: 1;
             margin-left: 7px;
         }
@@ -32,7 +32,7 @@
           </select>
         </div>
         <div>Name: <input type="text" name="name" required></div>
-        <div>Description: <input type="text" name="description" required></div>
+        <div>Description: <textarea name="description" row="3" cols="30" required></textarea></div>
         <div>External Link: <input type="text" name="external_link" required></div>
         <div>Inspired: <select name="inspired_episode_id">
         {% for ep in episodes %}
@@ -44,10 +44,9 @@
 
     <h1>References</h1>
     {% for ref in references %}
-      <h3>{{ ref.name }} <small>(id: {{ ref.id }})</small></h3>
-      <a href="{{ref.external_link}}">External</a>
-      <div>{{ ref.description }}</div>
-      <br>
+      <h3>{{ ref.name }} <small>({{ ref.type }})</small></h3>
+      <a href="{{ ref.external_link }}">External</a>
+      <pre>{{ ref.description }}</pre>
       inspired:
       <ul>
       {% for ep in ref.episodes_inspired %}
