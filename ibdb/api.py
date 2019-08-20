@@ -62,7 +62,11 @@ def episode_by(id):
 @app.route('/recipes')
 def recipes():
     recipes = Recipe.query.order_by(Recipe.name).all()
-    return jsonify([r.serialize() for r in recipes])
+    if request.args.get('format', None) == 'json':
+        return jsonify([r.serialize() for r in recipes])
+    else:
+        episodes = Episode.query.order_by(Episode.published_date.desc()).all()
+        return render_template('recipes.html', recipes=recipes, episodes=episodes)
 
 
 @app.route('/recipes', methods=['POST'])
@@ -71,7 +75,7 @@ def recipe_new():
         name=request.form.get("name"),
         raw_ingredient_list=request.form.get("raw_ingredient_list"),
         raw_procedure=request.form.get("raw_procedure"),
-        episode_id=request.form.get("episode_id"),
+        episode_id=request.form.get("source_episode_id"),
     )
     db.session.add(new)
     db.session.commit()

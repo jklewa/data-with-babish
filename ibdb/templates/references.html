@@ -4,6 +4,9 @@
     <title>IBDB - References</title>
 
     <style>
+        h1 a {
+          font-size: 1rem;
+        }
         .preview {
             max-width: 200px;
         }
@@ -42,7 +45,7 @@
         <input type="submit" value="Add">
     </form>
 
-    <h1>References</h1>
+    <h1>References <a href="?format=json">JSON</a></h1>
     {% for ref in references %}
       <h3>{{ ref.name }} <small>({{ ref.type }})</small></h3>
       <a href="{{ ref.external_link }}">External</a>

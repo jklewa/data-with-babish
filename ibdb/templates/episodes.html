@@ -4,6 +4,9 @@
     <title>IBDB - Episodes</title>
 
     <style>
+        h1 a {
+          font-size: 1rem;
+        }
         .preview {
             max-width: 200px;
         }
@@ -36,7 +39,7 @@
         <input type="submit" value="Add">
     </form>
 
-    <h1>Episodes</h1>
+    <h1>Episodes <a href="?format=json">JSON</a></h1>
     {% for ep in episodes %}
       <h3>{{ep.name}} <small>(id: {{ep.id}})</small></h3>
       Published: {{ep.published_date.strftime('%Y-%m-%d')}} |
