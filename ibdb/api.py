@@ -11,6 +11,7 @@ from models import (
     Recipe,
     Guest,
     Reference,
+    t_episode_inspired_by,
     Show,
     db,
 )
@@ -24,7 +25,7 @@ db.init_app(app)
 def index():
     return jsonify({
         'description': 'Internet Babish DataBase (IBDB) API',
-        'routes': sorted([f'{request.base_url[:-1]}{rule}' for rule in app.url_map.iter_rules()])[:-1]
+        'routes': sorted([f'{request.base_url[:-1]}{rule}' for rule in app.url_map.iter_rules()])[:-1],
     })
 
 
@@ -34,7 +35,8 @@ def episodes():
     if request.args.get('format', None) == 'json':
         return jsonify([e.serialize() for e in episodes])
     else:
-        return render_template('episodes.html', episodes=episodes)
+        references = Reference.query.order_by(Reference.name).all()
+        return render_template('episodes.html', episodes=episodes, references=references)
 
 
 @app.route('/episodes', methods=['POST'])
@@ -50,7 +52,17 @@ def episode_new():
     )
     db.session.add(new)
     db.session.commit()
-    return redirect('/episodes')
+    return redirect('/episodes#' + str(new.id))
+
+
+@app.route('/episode/<id>/inspired_by', methods=['POST'])
+def episode_inspired_by(id):
+    ep = Episode.query.get(id)
+    ref = Reference.query.get(request.form.get("inspiration_reference_id"))
+    ep.inspired_by.append(ref)
+    db.session.add(ep)
+    db.session.commit()
+    return redirect('/episodes#' + str(ep.id))
 
 
 @app.route('/episode/<id>')
@@ -79,7 +91,7 @@ def recipe_new():
     )
     db.session.add(new)
     db.session.commit()
-    return redirect('/recipes')
+    return redirect('/recipes#' + str(new.id))
 
 
 @app.route('/recipe/<id>')
@@ -110,7 +122,17 @@ def guest_new():
         new.appearances.append(appearance)
     db.session.add(new)
     db.session.commit()
-    return redirect('/guests')
+    return redirect('/guests#g' + str(new.id))
+
+
+@app.route('/guest/<id>/appearances', methods=['POST'])
+def guest_appearances(id):
+    guest = Guest.query.get(id)
+    appearance = Episode.query.get(request.form.get("appearance_episode_id"))
+    guest.appearances.append(appearance)
+    db.session.add(guest)
+    db.session.commit()
+    return redirect('/guests#g' + str(guest.id))
 
 
 @app.route('/guest/<id>')
@@ -125,7 +147,11 @@ def references():
     if request.args.get('format', None) == 'json':
         return jsonify([r.serialize() for r in references])
     else:
-        episodes = Episode.query.order_by(Episode.published_date.desc()).all()
+        episodes = Episode.query.outerjoin(t_episode_inspired_by).order_by(
+            Episode.show_id,
+            t_episode_inspired_by.c.reference_id.nullsfirst(),
+            Episode.published_date.desc(),
+        ).all()
         return render_template('references.html', references=references, episodes=episodes)
 
 
@@ -145,6 +171,17 @@ def reference_new():
     db.session.add(new)
     db.session.commit()
     return redirect('/references')
+    # return redirect('/references#r' + str(new.id))
+
+
+@app.route('/reference/<id>/episodes_inspired', methods=['POST'])
+def reference_episodes_inspired(id):
+    ref = Reference.query.get(id)
+    inspired = Episode.query.get(request.form.get("inspired_episode_id"))
+    ref.episodes_inspired.append(inspired)
+    db.session.add(ref)
+    db.session.commit()
+    return redirect('/references#r' + str(ref.id))
 
 
 @app.route('/reference/<id>')

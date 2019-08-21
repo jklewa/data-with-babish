@@ -11,7 +11,7 @@
             max-width: 200px;
         }
         form {
-            width: 500px;
+            width: 600px;
         }
         form > div {
             display: flex;
@@ -20,6 +20,13 @@
         input[type=text], textarea, select {
             flex-grow: 1;
             margin-left: 7px;
+        }
+        .inline {
+          display: inline-flex;
+          justify-content: space-between;
+        }
+        .details {
+          margin-left: 15px;
         }
     </style>
 </head>
@@ -31,7 +38,7 @@
         <div>Procedure: <textarea name="raw_procedure" row="3" cols="30" required></textarea></div>
         <div>Episode: <select name="source_episode_id">
         {% for ep in episodes %}
-            <option value="{{ ep.id }}">{{ ep.published_date.strftime('%Y-%m-%d') }} | {{ ep.name }}</option>
+            <option value="{{ ep.id }}">{{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</option>
         {% endfor %}
         </select></div>
         <input type="submit" value="Add">
@@ -39,12 +46,15 @@
 
     <h1>Recipes <a href="?format=json">JSON</a></h1>
     {% for r in recipes %}
+      <a name="r{{r.id}}">
       <h3>{{ r.name }} <small>(id: {{ r.id }})</small></h3>
-      ingredients:
-      <pre>{{ r.raw_ingredient_list }}</pre>
-      procedure:
-      <pre>{{ r.raw_procedure }}</pre>
-      source: {{ r.episode.published_date.strftime('%Y-%m-%d') }} | {{ r.episode.name }}
+      <div class="details">
+        ingredients:
+        <pre>{{ r.raw_ingredient_list }}</pre>
+        procedure:
+        <pre>{{ r.raw_procedure }}</pre>
+        source: {{ r.episode.name }} | {{ r.episode.published_date.strftime('%Y-%m-%d') }}
+      </div>
     {% endfor %}
   </body>
 </html>

@@ -11,7 +11,7 @@
             max-width: 200px;
         }
         form {
-            width: 500px;
+            width: 600px;
         }
         form > div {
             display: flex;
@@ -20,6 +20,13 @@
         input[type=text] {
             flex-grow: 1;
             margin-left: 7px;
+        }
+        .inline {
+          display: inline-flex;
+          justify-content: space-between;
+        }
+        .details {
+          margin-left: 15px;
         }
     </style>
 </head>
@@ -41,33 +48,50 @@
 
     <h1>Episodes <a href="?format=json">JSON</a></h1>
     {% for ep in episodes %}
+      <a name="{{ep.id}}">
       <h3>{{ep.name}} <small>(id: {{ep.id}})</small></h3>
       Published: {{ep.published_date.strftime('%Y-%m-%d')}} |
       <a href="{{ep.youtube_link}}">Youtube</a> |
       <a href="{{ep.official_link}}">Official</a> |
+      <a href="{{ep.image_link}}">Image</a> |
       {{ep.show.name}}
-      <br>
-      <a href="{{ep.image_link}}"><img src="{{ep.image_link}}" class="preview"></a>
-      <br>
-      guests:
-      <div>
-      {% for guest in ep.guests %}
-        <pre>{{ guest.serialize(False) }}</pre>
-      {% endfor %}
-      </div>
+      <div class="details">
+        <p>
+          guests:
+          <ul>
+          {% for guest in ep.guests %}
+            <li><a href="/guests#g{{ guest.id }}">{{ guest.name }}</a></li>
+          {% endfor %}
+          </ul>
+        </p>
 
-      inspired by:
-      <div>
-      {% for ref in ep.inspired_by %}
-        <pre>{{ ref.serialize(False) }}</pre>
-      {% endfor %}
-      </div>
+        <p>
+          inspired by:
+          <ul>
+          {% for ref in ep.inspired_by %}
+            <li><a href="/references#r{{ ref.id }}">{{ ref.name }}</a> ({{ ref.type }})</li>
+          {% endfor %}
+          </ul>
 
-      recipes:
-      <div>
-      {% for recipe in ep.recipes %}
-        <pre>{{ recipe.serialize(False) }}</pre>
-      {% endfor %}
+          <form method="POST" action="/episode/{{ ep.id }}/inspired_by" class="inline">
+            <select name="inspiration_reference_id">
+              <option value="">Select reference</option>
+            {% for ref in references %}
+              <option value="{{ ref.id }}">{{ ref.name }}</option>
+            {% endfor %}
+            </select>
+            <input type="submit" value="Add">
+          </form>
+        </p>
+
+        <p>
+          recipes:
+          <ul>
+          {% for recipe in ep.recipes %}
+            <li><a href="/recipes#r{{ recipe.id }}">{{ recipe.name }}</a></li>
+          {% endfor %}
+          </ul>
+        </p>
       </div>
     {% endfor %}
   </body>
