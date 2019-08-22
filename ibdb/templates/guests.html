@@ -44,7 +44,7 @@
 
     <h1>Guests <a href="?format=json">JSON</a></h1>
     {% for g in guests %}
-      <a name="g{{g.id}}">
+      <a name="g{{g.id}}"></a>
       <h3>{{ g.name }} <small>(id: {{ g.id }})</small></h3>
       <div class="details">
         appearances:

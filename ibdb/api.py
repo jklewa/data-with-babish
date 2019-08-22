@@ -16,6 +16,10 @@ from models import (
     db,
 )
 
+from utils import (
+    normalize_raw_list
+)
+
 app = Flask(__name__, template_folder='/app/templates')
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2://postgres@db:5432/babish_db"
 db.init_app(app)
@@ -36,7 +40,8 @@ def episodes():
         return jsonify([e.serialize() for e in episodes])
     else:
         references = Reference.query.order_by(Reference.name).all()
-        return render_template('episodes.html', episodes=episodes, references=references)
+        shows = Show.query.order_by(Show.id).all()
+        return render_template('episodes.html', episodes=episodes, references=references, shows=shows)
 
 
 @app.route('/episodes', methods=['POST'])
@@ -85,8 +90,10 @@ def recipes():
 def recipe_new():
     new = Recipe(
         name=request.form.get("name"),
-        raw_ingredient_list=request.form.get("raw_ingredient_list"),
-        raw_procedure=request.form.get("raw_procedure"),
+        raw_ingredient_list=normalize_raw_list(
+            request.form.get("raw_ingredient_list")),
+        raw_procedure=normalize_raw_list(
+            request.form.get("raw_procedure")),
         episode_id=request.form.get("source_episode_id"),
     )
     db.session.add(new)

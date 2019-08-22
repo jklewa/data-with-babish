@@ -40,15 +40,16 @@
         <div>Image Link: <input type="text" name="image_link" required></div>
         <div>Published Date: <input type="date" name="published_date" required></div>
         <div>Show: <select name="show_id">
-            <option value="1" selected>Binging with Babish</option>
-            <option value="2">Basics With Babish</option>
+        {% for show in shows %}
+            <option value="{{show.id}}">{{show.name}}</option>
+        {% endfor %}
         </select></div>
         <input type="submit" value="Add">
     </form>
 
     <h1>Episodes <a href="?format=json">JSON</a></h1>
     {% for ep in episodes %}
-      <a name="{{ep.id}}">
+      <a name="{{ep.id}}"></a>
       <h3>{{ep.name}} <small>(id: {{ep.id}})</small></h3>
       Published: {{ep.published_date.strftime('%Y-%m-%d')}} |
       <a href="{{ep.youtube_link}}">Youtube</a> |
@@ -60,7 +61,7 @@
           guests:
           <ul>
           {% for guest in ep.guests %}
-            <li><a href="/guests#g{{ guest.id }}">{{ guest.name }}</a></li>
+            <li>{{ guest.name }} <a href="/guests#g{{ guest.id }}">Link</a></li>
           {% endfor %}
           </ul>
         </p>
@@ -69,7 +70,7 @@
           inspired by:
           <ul>
           {% for ref in ep.inspired_by %}
-            <li><a href="/references#r{{ ref.id }}">{{ ref.name }}</a> ({{ ref.type }})</li>
+            <li>{{ ref.name }} ({{ ref.type }}) <a href="/references#r{{ ref.id }}">Link</a></li>
           {% endfor %}
           </ul>
 
@@ -88,7 +89,7 @@
           recipes:
           <ul>
           {% for recipe in ep.recipes %}
-            <li><a href="/recipes#r{{ recipe.id }}">{{ recipe.name }}</a></li>
+            <li>{{ recipe.name }} <a href="/recipes#r{{ recipe.id }}">Link</a></li>
           {% endfor %}
           </ul>
         </p>

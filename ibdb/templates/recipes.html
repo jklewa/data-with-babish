@@ -38,7 +38,7 @@
         <div>Procedure: <textarea name="raw_procedure" row="3" cols="30" required></textarea></div>
         <div>Episode: <select name="source_episode_id">
         {% for ep in episodes %}
-            <option value="{{ ep.id }}">{{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</option>
+            <option value="{{ ep.id }}">{{ loop.index }}. {{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</option>
         {% endfor %}
         </select></div>
         <input type="submit" value="Add">
@@ -46,7 +46,7 @@
 
     <h1>Recipes <a href="?format=json">JSON</a></h1>
     {% for r in recipes %}
-      <a name="r{{r.id}}">
+      <a name="r{{r.id}}"></a>
       <h3>{{ r.name }} <small>(id: {{ r.id }})</small></h3>
       <div class="details">
         ingredients:
