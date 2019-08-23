@@ -53,7 +53,7 @@
         <pre>{{ r.raw_ingredient_list }}</pre>
         procedure:
         <pre>{{ r.raw_procedure }}</pre>
-        source: {{ r.episode.name }} | {{ r.episode.published_date.strftime('%Y-%m-%d') }}
+        source: {{ r.episode.name }} | {{ r.episode.published_date.strftime('%Y-%m-%d') }} <a href="/episodes#{{ r.episode.id }}">Link</a>
       </div>
     {% endfor %}
   </body>

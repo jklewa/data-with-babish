@@ -50,7 +50,7 @@
         appearances:
         <ul>
         {% for ep in g.appearances %}
-          <li>{{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</li>
+          <li>{{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }} <a href="/episodes#{{ ep.id }}">Link</a></li>
         {% endfor %}
         </ul>
         <form method="POST" action="/guest/{{ g.id }}/appearances" class="inline">

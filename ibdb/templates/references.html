@@ -65,7 +65,7 @@
         inspired:
         <ul>
         {% for ep in ref.episodes_inspired %}
-          <li>{{ ep.published_date.strftime('%Y-%m-%d') }} | {{ ep.name }}</li>
+          <li>{{ ep.published_date.strftime('%Y-%m-%d') }} | {{ ep.name }} <a href="/episodes#{{ ep.id }}">Link</a></li>
         {% endfor %}
         </ul>
         <form method="POST" action="/reference/{{ ref.id }}/episodes_inspired" class="inline">
