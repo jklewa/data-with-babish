@@ -620,6 +620,17 @@ parksandrecburger	19
 buttermilk-pancakes-inspired-by-twin-peaks	112
 clayroastedthigh	113
 chocolate-cake-inspired-by-matilda	114
+applepiesmoothie	115
+applepie	96
+applepie	116
+applepie	117
+cocktail-special	118
+cocktail-special	119
+cocktail-special	120
+cocktail-special	121
+cocktail-special	122
+cocktail-special	123
+cocktail-special	124
 \.
 
 
@@ -1332,6 +1343,16 @@ COPY public.reference (id, type, name, description, external_link) FROM stdin;
 110	tv_show	Louie	The life of Louie C.K., a divorced comedian living in New York with two kids. IMDb.	https://www.imdb.com/title/tt1492966/
 111	movie	Big Night	New Jersey, 1950s. Two brothers run an Italian restaurant. Business is not going well as a rival Italian restaurant is out-competing them. In a final effort to save the restaurant, the brothers plan to put on an evening of incredible food. IMDb.	https://www.imdb.com/title/tt0115678/
 2	movie	Harold & Kumar Go to White Castle	A Korean-American office worker and his Indian-American stoner friend embark on a quest to satisfy their desire for White Castle burgers. IMDb.	https://www.imdb.com/title/tt0366551/
+115	movie	American Pie	Four teenage boys enter a pact to lose their virginity by prom night. IMDb.	https://www.imdb.com/title/tt0163651/
+116	movie	Stand by Me	After the death of one of his friends, a writer recounts a boyhood journey with his friends to find the body of a missing boy.	https://www.imdb.com/title/tt0092005/
+117	movie	True Romance	In Detroit, a lonely pop culture geek marries a call girl, steals cocaine from her pimp, and tries to sell it in Hollywood. Meanwhile, the owners of the cocaine, the Mob, track them down in an attempt to reclaim it.	https://www.imdb.com/title/tt0108399/
+118	movie	The Big Lebowski	Jeff "The Dude" Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and enlists his bowling buddies to help get it. IMDb.	https://www.imdb.com/title/tt0118715/
+119	movie	Groudhog Day	A weatherman finds himself inexplicably living the same day over and over again. IMDb.	https://www.imdb.com/title/tt0107048/
+120	movie	Crazy, Stupid, Love	A middle-aged husband's life changes dramatically when his wife asks him for a divorce. He seeks to rediscover his manhood with the help of a newfound friend, Jacob, learning to pick up girls at bars. IMDb.	https://www.imdb.com/title/tt1570728/
+121	movie	Thank You for Smoking	Satirical comedy follows the machinations of Big Tobacco's chief spokesman, Nick Naylor, who spins on behalf of cigarettes while trying to remain a role model for his twelve-year-old son. IMDb.	https://www.imdb.com/title/tt0427944/
+122	movie	Casino Royale	Armed with a license to kill, Secret Agent James Bond sets out on his first mission as 007, and must defeat a private banker to terrorists in a high stakes game of poker at Casino Royale, Montenegro, but things are not what they seem. IMDb.	https://www.imdb.com/title/tt0381061/
+123	movie	Casablanca	A cynical American expatriate struggles to decide whether or not he should help his former lover and her fugitive husband escape French Morocco. IMDb.	https://www.imdb.com/title/tt0034583/
+124	tv_show	 How I Met Your Mother	A father recounts to his children, through a series of flashbacks, the journey he and his four best friends took leading up to him meeting their mother. IMDb.	https://www.imdb.com/title/tt0460649/
 \.
 
 
@@ -1365,7 +1386,7 @@ SELECT pg_catalog.setval('public.recipe_id_seq', 517, true);
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 114, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 124, true);
 
 
 --

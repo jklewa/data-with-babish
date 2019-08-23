@@ -38,7 +38,7 @@
         <div>Procedure: <textarea name="raw_procedure" row="3" cols="30" required></textarea></div>
         <div>Episode: <select name="source_episode_id">
         {% for ep in episodes %}
-            <option value="{{ ep.id }}">{{ loop.index }}. {{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</option>
+            <option value="{{ ep.id }}">{{ loop.revindex }}. {{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</option>
         {% endfor %}
         </select></div>
         <input type="submit" value="Add">

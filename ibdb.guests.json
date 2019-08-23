@@ -1,400 +1,400 @@
 [
   {
-    "guest_id": 11,
-    "name": "Ashwin Ramdas",
+    "guest_id": 11, 
+    "name": "Ashwin Ramdas", 
     "appearances": [
       {
-        "episode_id": "beetandacorncookies",
-        "name": "Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)",
-        "published_date": "2017-05-23T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=6PTuUMJ2Uh8",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/beetandacorncookies",
+        "episode_id": "beetandacorncookies", 
+        "name": "Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)", 
+        "published_date": "2017-05-23T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=6PTuUMJ2Uh8", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/beetandacorncookies", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a00b9a30d9297223fc55052/1531948025184/Screen+Shot+2017-11-08+at+2.42.50+PM.png"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 6,
-    "name": "Brad Leone",
+    "guest_id": 6, 
+    "name": "Brad Leone", 
     "appearances": [
       {
-        "episode_id": "lasagna",
-        "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)",
-        "published_date": "2018-03-27T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna",
+        "episode_id": "lasagna", 
+        "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)", 
+        "published_date": "2018-03-27T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5abab27b03ce64285139e69f/1531775869560/Screen+Shot+2018-03-27+at+3.35.58+PM.png"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 15,
-    "name": "Dan Pashman",
+    "guest_id": 15, 
+    "name": "Dan Pashman", 
     "appearances": [
       {
-        "episode_id": "chocolate-cake-inspired-by-matilda",
-        "name": "Chocolate Cake inspired by Matilda",
-        "published_date": "2017-06-06T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=exQ6oGefSiA",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/6/chocolate-cake-inspired-by-matilda",
+        "episode_id": "chocolate-cake-inspired-by-matilda", 
+        "name": "Chocolate Cake inspired by Matilda", 
+        "published_date": "2017-06-06T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=exQ6oGefSiA", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/6/chocolate-cake-inspired-by-matilda", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5937174ddb29d602a8df22c1/1531947927292/cake3.jpg"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 4,
-    "name": "Dan Souza",
+    "guest_id": 4, 
+    "name": "Dan Souza", 
     "appearances": [
       {
-        "episode_id": "classicpancakes",
-        "name": "Classic Pancakes inspired by Uncle Buck",
-        "published_date": "2019-08-20T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=WMj7G-U3LW8",
-        "official_link": "https://www.bingingwithbabish.com/recipes/classicpancakes",
+        "episode_id": "classicpancakes", 
+        "name": "Classic Pancakes inspired by Uncle Buck", 
+        "published_date": "2019-08-20T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=WMj7G-U3LW8", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/classicpancakes", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d5bfd5b9fb0170001004f02/1566310049299/Screen+Shot+2019-08-20+at+8.48.31+AM.png"
-      },
+      }, 
       {
-        "episode_id": "bagels",
-        "name": "BAGELS",
-        "published_date": "2019-01-24T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=ZrJtpCTZk38",
-        "official_link": "https://basicswithbabish.co/basicsepisodes/bagels",
+        "episode_id": "bagels", 
+        "name": "BAGELS", 
+        "published_date": "2019-01-24T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=ZrJtpCTZk38", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/bagels", 
         "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5c4a23342b6a28456b2d8fcf/1554399377906/Screen+Shot+2019-01-24+at+2.44.56+PM.png"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 16,
-    "name": "David Wasman",
+    "guest_id": 16, 
+    "name": "David Wasman", 
     "appearances": [
       {
-        "episode_id": "being-with-babish-1",
-        "name": "Giving Back to a Fan in Need",
-        "published_date": "2019-03-22T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=YUDogDKMJbE",
-        "official_link": "https://www.youtube.com/watch?v=YUDogDKMJbE",
+        "episode_id": "being-with-babish-1", 
+        "name": "Giving Back to a Fan in Need", 
+        "published_date": "2019-03-22T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=YUDogDKMJbE", 
+        "official_link": "https://www.youtube.com/watch?v=YUDogDKMJbE", 
         "image_link": "#"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 25,
-    "name": "Erika Vonie",
+    "guest_id": 25, 
+    "name": "Erika Vonie", 
     "appearances": [
       {
-        "episode_id": "coffee",
-        "name": "COFFEE",
-        "published_date": "2019-05-31T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=6yItCQB4V9A",
-        "official_link": "https://basicswithbabish.co/basicsepisodes/coffee",
+        "episode_id": "coffee", 
+        "name": "COFFEE", 
+        "published_date": "2019-05-31T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=6yItCQB4V9A", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/coffee", 
         "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5cf13d4eff78a700014152b8/1560463517127/Basics_Coffee_Assembly.00_42_06_05.Still001.png"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 19,
-    "name": "Gabrielle Hufford",
+    "guest_id": 19, 
+    "name": "Gabrielle Hufford", 
     "appearances": [
       {
-        "episode_id": "being-with-babish-2",
-        "name": "Surprising a Fan with a Vegas Hotel Suite",
-        "published_date": "2019-04-05T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4",
-        "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4",
+        "episode_id": "being-with-babish-2", 
+        "name": "Surprising a Fan with a Vegas Hotel Suite", 
+        "published_date": "2019-04-05T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
+        "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
         "image_link": "#"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 5,
-    "name": "Giant Robot",
+    "guest_id": 5, 
+    "name": "Giant Robot", 
     "appearances": [
       {
-        "episode_id": "classicpancakes",
-        "name": "Classic Pancakes inspired by Uncle Buck",
-        "published_date": "2019-08-20T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=WMj7G-U3LW8",
-        "official_link": "https://www.bingingwithbabish.com/recipes/classicpancakes",
+        "episode_id": "classicpancakes", 
+        "name": "Classic Pancakes inspired by Uncle Buck", 
+        "published_date": "2019-08-20T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=WMj7G-U3LW8", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/classicpancakes", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d5bfd5b9fb0170001004f02/1566310049299/Screen+Shot+2019-08-20+at+8.48.31+AM.png"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 24,
-    "name": "Greg Johnson",
+    "guest_id": 24, 
+    "name": "Greg Johnson", 
     "appearances": [
       {
-        "episode_id": "being-with-babish-5",
-        "name": "Whiskey Basics | Being with Babish Double Feature",
-        "published_date": "2019-07-12T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=32Qlof81vcM",
-        "official_link": "https://www.youtube.com/watch?v=32Qlof81vcM",
+        "episode_id": "being-with-babish-5", 
+        "name": "Whiskey Basics | Being with Babish Double Feature", 
+        "published_date": "2019-07-12T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=32Qlof81vcM", 
+        "official_link": "https://www.youtube.com/watch?v=32Qlof81vcM", 
         "image_link": "#"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 8,
-    "name": "Jon Favreau",
+    "guest_id": 8, 
+    "name": "Jon Favreau", 
     "appearances": [
       {
-        "episode_id": "chocolatelavacakes",
-        "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi",
-        "published_date": "2018-02-20T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/chocolatelavacakes",
+        "episode_id": "chocolatelavacakes", 
+        "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi", 
+        "published_date": "2018-02-20T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/chocolatelavacakes", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a8db1f2419202a3ccf0e483/1531777960506/Screen+Shot+2018-02-21+at+11.54.06+AM.png"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 10,
-    "name": "Maisie Williams",
+    "guest_id": 10, 
+    "name": "Maisie Williams", 
     "appearances": [
       {
-        "episode_id": "direwolfbread",
-        "name": "Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)",
-        "published_date": "2018-09-25T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=6nuEgc2RVWo&t=336s",
-        "official_link": "https://www.bingingwithbabish.com/recipes/direwolfbread",
+        "episode_id": "direwolfbread", 
+        "name": "Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)", 
+        "published_date": "2018-09-25T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=6nuEgc2RVWo&t=336s", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/direwolfbread", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5baa7ed0e4966b3aa7372193/1538504683434/Screen+Shot+2018-09-25+at+1.31.51+PM.png"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 13,
-    "name": "Masaharu Morimoto",
+    "guest_id": 13, 
+    "name": "Masaharu Morimoto", 
     "appearances": [
       {
-        "episode_id": "deathsandwich",
-        "name": "Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show",
-        "published_date": "2019-04-09T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=o5XNzsf78KE",
-        "official_link": "https://www.bingingwithbabish.com/recipes/deathsandwich",
+        "episode_id": "deathsandwich", 
+        "name": "Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show", 
+        "published_date": "2019-04-09T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=o5XNzsf78KE", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/deathsandwich", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5cad13d3eb393151890bfcf7/1554846885850/Screen+Shot+2019-04-09+at+4.52.45+PM.png"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 14,
-    "name": "Mel",
+    "guest_id": 14, 
+    "name": "Mel", 
     "appearances": [
       {
-        "episode_id": "clayroastedthigh",
-        "name": "Clay-Roasted Thigh inspired by Hannibal",
-        "published_date": "2017-10-31T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=lnB7svFAZBs&t=2s",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/clayroastedthigh",
+        "episode_id": "clayroastedthigh", 
+        "name": "Clay-Roasted Thigh inspired by Hannibal", 
+        "published_date": "2017-10-31T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=lnB7svFAZBs&t=2s", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/clayroastedthigh", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a0a13360d9297197857005f/1531857906810/Screen+Shot+2017-11-13+at+3.50.26+PM.png"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 12,
-    "name": "Nick Fisher",
+    "guest_id": 12, 
+    "name": "Nick Fisher", 
     "appearances": [
       {
-        "episode_id": "buttermilk-pancakes-inspired-by-twin-peaks",
-        "name": "Buttermilk Pancakes inspired by Twin Peaks",
-        "published_date": "2017-05-18T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=nEoSBL25RO4",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/18/buttermilk-pancakes-inspired-by-twin-peaks",
+        "episode_id": "buttermilk-pancakes-inspired-by-twin-peaks", 
+        "name": "Buttermilk Pancakes inspired by Twin Peaks", 
+        "published_date": "2017-05-18T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=nEoSBL25RO4", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/18/buttermilk-pancakes-inspired-by-twin-peaks", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/591dc0b9f7e0abb8563b1bd4/1531948074553/pancakes2.jpg"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 21,
-    "name": "Rashid Duroseau",
+    "guest_id": 21, 
+    "name": "Rashid Duroseau", 
     "appearances": [
       {
-        "episode_id": "being-with-babish-3",
-        "name": "Surprising Rashid",
-        "published_date": "2019-04-26T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw",
-        "official_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw",
+        "episode_id": "being-with-babish-3", 
+        "name": "Surprising Rashid", 
+        "published_date": "2019-04-26T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
+        "official_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
         "image_link": "#"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 9,
-    "name": "Roy Choi",
+    "guest_id": 9, 
+    "name": "Roy Choi", 
     "appearances": [
       {
-        "episode_id": "chocolatelavacakes",
-        "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi",
-        "published_date": "2018-02-20T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/chocolatelavacakes",
+        "episode_id": "chocolatelavacakes", 
+        "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi", 
+        "published_date": "2018-02-20T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/chocolatelavacakes", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a8db1f2419202a3ccf0e483/1531777960506/Screen+Shot+2018-02-21+at+11.54.06+AM.png"
-      },
+      }, 
       {
-        "episode_id": "being-with-babish-2",
-        "name": "Surprising a Fan with a Vegas Hotel Suite",
-        "published_date": "2019-04-05T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4",
-        "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4",
+        "episode_id": "being-with-babish-2", 
+        "name": "Surprising a Fan with a Vegas Hotel Suite", 
+        "published_date": "2019-04-05T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
+        "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
         "image_link": "#"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 23,
-    "name": "Sarah and Stefan",
+    "guest_id": 23, 
+    "name": "Sarah and Stefan", 
     "appearances": [
       {
-        "episode_id": "being-with-babish-4",
-        "name": "Training like Kratos for 30 Days | Body by Babish",
-        "published_date": "2019-06-07T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA",
-        "official_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA",
+        "episode_id": "being-with-babish-4", 
+        "name": "Training like Kratos for 30 Days | Body by Babish", 
+        "published_date": "2019-06-07T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA", 
+        "official_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA", 
         "image_link": "#"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 17,
-    "name": "Sawyer Jacobs",
+    "guest_id": 17, 
+    "name": "Sawyer Jacobs", 
     "appearances": [
       {
-        "episode_id": "being-with-babish-2",
-        "name": "Surprising a Fan with a Vegas Hotel Suite",
-        "published_date": "2019-04-05T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4",
-        "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4",
+        "episode_id": "being-with-babish-2", 
+        "name": "Surprising a Fan with a Vegas Hotel Suite", 
+        "published_date": "2019-04-05T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
+        "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
         "image_link": "#"
-      },
+      }, 
       {
-        "episode_id": "being-with-babish-3",
-        "name": "Surprising Rashid",
-        "published_date": "2019-04-26T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw",
-        "official_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw",
+        "episode_id": "being-with-babish-3", 
+        "name": "Surprising Rashid", 
+        "published_date": "2019-04-26T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
+        "official_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
         "image_link": "#"
-      },
+      }, 
       {
-        "episode_id": "being-with-babish-1",
-        "name": "Giving Back to a Fan in Need",
-        "published_date": "2019-03-22T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=YUDogDKMJbE",
-        "official_link": "https://www.youtube.com/watch?v=YUDogDKMJbE",
+        "episode_id": "being-with-babish-1", 
+        "name": "Giving Back to a Fan in Need", 
+        "published_date": "2019-03-22T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=YUDogDKMJbE", 
+        "official_link": "https://www.youtube.com/watch?v=YUDogDKMJbE", 
         "image_link": "#"
-      },
+      }, 
       {
-        "episode_id": "being-with-babish-4",
-        "name": "Training like Kratos for 30 Days | Body by Babish",
-        "published_date": "2019-06-07T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA",
-        "official_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA",
+        "episode_id": "being-with-babish-4", 
+        "name": "Training like Kratos for 30 Days | Body by Babish", 
+        "published_date": "2019-06-07T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA", 
+        "official_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA", 
         "image_link": "#"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 22,
-    "name": "Sean Conley",
+    "guest_id": 22, 
+    "name": "Sean Conley", 
     "appearances": [
       {
-        "episode_id": "being-with-babish-3",
-        "name": "Surprising Rashid",
-        "published_date": "2019-04-26T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw",
-        "official_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw",
+        "episode_id": "being-with-babish-3", 
+        "name": "Surprising Rashid", 
+        "published_date": "2019-04-26T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
+        "official_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
         "image_link": "#"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 3,
-    "name": "Sean Evans",
+    "guest_id": 3, 
+    "name": "Sean Evans", 
     "appearances": [
       {
-        "episode_id": "arresteddevelopmentspecial",
-        "name": "Arrested Development Special (feat. Sean Evans)",
-        "published_date": "2018-05-29T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=2U_0OlCizx0",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/arresteddevelopmentspecial",
+        "episode_id": "arresteddevelopmentspecial", 
+        "name": "Arrested Development Special (feat. Sean Evans)", 
+        "published_date": "2018-05-29T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=2U_0OlCizx0", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/arresteddevelopmentspecial", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5b0dba9f88251b5b752ef4e7/1531769639141/Screen+Shot+2018-05-29+at+3.10.29+PM.png"
-      },
+      }, 
       {
-        "episode_id": "fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks",
-        "name": "Fried Chicken & Waffle Breakfast Lasagna inspired by The Boondocks",
-        "published_date": "2017-07-04T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=VnXu22HZBNQ",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/4/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks",
+        "episode_id": "fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks", 
+        "name": "Fried Chicken & Waffle Breakfast Lasagna inspired by The Boondocks", 
+        "published_date": "2017-07-04T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=VnXu22HZBNQ", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/4/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/59604fc21b631b78567a9988/1531943714487/Screen+Shot+2017-07-07+at+10.00.16+PM-2.jpg"
-      },
+      }, 
       {
-        "episode_id": "infernowings",
-        "name": "Inferno Wings inspired by Regular Show",
-        "published_date": "2019-07-16T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=dRLCZqEfJFA",
-        "official_link": "https://www.bingingwithbabish.com/recipes/infernowings",
+        "episode_id": "infernowings", 
+        "name": "Inferno Wings inspired by Regular Show", 
+        "published_date": "2019-07-16T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=dRLCZqEfJFA", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/infernowings", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d2e0602f71063000172baad/1563297583155/Screen+Shot+2019-07-16+at+9.39.32+AM.png"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 26,
-    "name": "Steve (buddy)",
+    "guest_id": 26, 
+    "name": "Steve (buddy)", 
     "appearances": [
       {
-        "episode_id": "theswanson",
-        "name": "The Swanson inspired by Parks and Recreation",
-        "published_date": "2019-03-26T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=aLpPZlVsny0",
-        "official_link": "https://www.bingingwithbabish.com/recipes/theswanson",
+        "episode_id": "theswanson", 
+        "name": "The Swanson inspired by Parks and Recreation", 
+        "published_date": "2019-03-26T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=aLpPZlVsny0", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/theswanson", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5c9a7937e5e5f0cdb961f54b/1554241104288/Screen+Shot+2019-03-26+at+2.11.56+PM.png"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 18,
-    "name": "Sukki Hufford",
+    "guest_id": 18, 
+    "name": "Sukki Hufford", 
     "appearances": [
       {
-        "episode_id": "being-with-babish-2",
-        "name": "Surprising a Fan with a Vegas Hotel Suite",
-        "published_date": "2019-04-05T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4",
-        "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4",
+        "episode_id": "being-with-babish-2", 
+        "name": "Surprising a Fan with a Vegas Hotel Suite", 
+        "published_date": "2019-04-05T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
+        "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
         "image_link": "#"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 20,
-    "name": "The Rae Family",
+    "guest_id": 20, 
+    "name": "The Rae Family", 
     "appearances": [
       {
-        "episode_id": "being-with-babish-2",
-        "name": "Surprising a Fan with a Vegas Hotel Suite",
-        "published_date": "2019-04-05T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4",
-        "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4",
+        "episode_id": "being-with-babish-2", 
+        "name": "Surprising a Fan with a Vegas Hotel Suite", 
+        "published_date": "2019-04-05T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
+        "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
         "image_link": "#"
       }
     ]
-  },
+  }, 
   {
-    "guest_id": 7,
-    "name": "Vincent \"Vinny\" Cross",
+    "guest_id": 7, 
+    "name": "Vincent \"Vinny\" Cross", 
     "appearances": [
       {
-        "episode_id": "lasagna",
-        "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)",
-        "published_date": "2018-03-27T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna",
+        "episode_id": "lasagna", 
+        "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)", 
+        "published_date": "2018-03-27T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5abab27b03ce64285139e69f/1531775869560/Screen+Shot+2018-03-27+at+3.35.58+PM.png"
-      },
+      }, 
       {
-        "episode_id": "being-with-babish-3",
-        "name": "Surprising Rashid",
-        "published_date": "2019-04-26T00:00:00+00:00",
-        "youtube_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw",
-        "official_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw",
+        "episode_id": "being-with-babish-3", 
+        "name": "Surprising Rashid", 
+        "published_date": "2019-04-26T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
+        "official_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
         "image_link": "#"
       }
     ]

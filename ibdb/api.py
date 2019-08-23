@@ -160,11 +160,7 @@ def references():
     if request.args.get('format', None) == 'json':
         return jsonify([r.serialize() for r in references])
     else:
-        episodes = Episode.query.outerjoin(t_episode_inspired_by).order_by(
-            Episode.show_id,
-            t_episode_inspired_by.c.reference_id.nullsfirst(),
-            Episode.published_date.desc(),
-        ).all()
+        episodes = Episode.query.order_by(Episode.published_date.desc()).all()
         return render_template('references.html', references=references, episodes=episodes)
 
 

@@ -36,7 +36,7 @@
         <div>Name: <input type="text" name="name" required></div>
         <div>Appearance: <select name="appearance_episode_id">
         {% for ep in episodes %}
-            <option value="{{ ep.id }}">{{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</option>
+            <option value="{{ ep.id }}">{{ loop.revindex }}. {{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</option>
         {% endfor %}
         </select></div>
         <input type="submit" value="Add">
@@ -57,7 +57,7 @@
           <select name="appearance_episode_id">
             <option value="">Select episode</option>
           {% for ep in episodes %}
-            <option value="{{ ep.id }}">{{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</option>
+            <option value="{{ ep.id }}">{{ loop.revindex }}. {{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</option>
           {% endfor %}
           </select>
           <input type="submit" value="Add">

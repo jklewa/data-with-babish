@@ -78,7 +78,7 @@
             <select name="inspiration_reference_id">
               <option value="">Select reference</option>
             {% for ref in references %}
-              <option value="{{ ref.id }}">{{ ref.name }}</option>
+              <option value="{{ ref.id }}">{{ loop.index }}. {{ ref.name }}</option>
             {% endfor %}
             </select>
             <input type="submit" value="Add">
