@@ -13,7 +13,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
  * [ibdb.recipes.json](#ibdbrecipesjson) - Recipe list
  * [ibdb.references.json](#ibdbreferencesjson) - Reference list
  * [ibdb.shows.json](#ibdbshowsjson) - Show list
- * [babish.json](#babishjson) - Parsed recipe ingredients, grouped by episode
+ * [babish.json](#babishjson) - **(Deprecated)** Parsed recipe ingredients, grouped by episode
 
 ### ibdb.episodes.json
 
@@ -162,6 +162,8 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
   ```
 
 ### babish.json
+
+  **(Deprecated)**
 
   Contains ingredients from [BWB Recipes](http://bingingwithbabish.com/recipes) in the format:
 

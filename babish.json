@@ -1,5 +1,78 @@
 [
   {
+    "episode_name": "Classic Pancakes inspired by Uncle Buck",
+    "episode_link": "https://www.bingingwithbabish.com/recipes/classicpancakes",
+    "youtube_link": "https://www.youtube.com/watch?v=WMj7G-U3LW8",
+    "published": "2019-08-20",
+    "recipes": [
+      {
+        "method": "Classic Pancakes inspired by Uncle Buck",
+        "ingredients": [
+          [
+            10.0,
+            "ounce",
+            "Flour",
+            "10 ounces flour"
+          ],
+          [
+            3.0,
+            "tablespoon",
+            "Sugar",
+            "3 Tbsp sugar"
+          ],
+          [
+            4.0,
+            "teaspoon",
+            "Baking Powder",
+            "4 tsp baking powder"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Baking Soda",
+            "½ tsp baking soda"
+          ],
+          [
+            1.0,
+            "teaspoon",
+            "Salt",
+            "1 tsp salt"
+          ],
+          [
+            2.0,
+            "large",
+            "Eggs",
+            "2 large eggs"
+          ],
+          [
+            0.25,
+            "cup",
+            "Vegetable Oil",
+            "¼ cup vegetable oil, plus more for the pan"
+          ],
+          [
+            1.5,
+            "cup",
+            "Milk",
+            "1 ½ cups whole milk"
+          ],
+          [
+            0.5,
+            "teaspoon",
+            "Vanilla Extract",
+            "½ tsp vanilla extract (optional)"
+          ],
+          [
+            null,
+            null,
+            "Butter And Syrup For Serving",
+            "Butter and syrup for serving"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "episode_name": "White Castle sliders inspired by Harold & Kumar",
     "episode_link": "https://www.bingingwithbabish.com/recipes/whitecastlesliders",
     "youtube_link": "https://www.youtube.com/watch?v=pTk9HnIwEYU",
