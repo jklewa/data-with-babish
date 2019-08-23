@@ -8,16 +8,16 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
 
 ## Datasets
 
- * [ibdb.episodes.json](#ibdbepisodesjson) - Episode list
- * [ibdb.guests.json](#ibdbguestsjson) - Guest list
- * [ibdb.recipes.json](#ibdbrecipesjson) - Recipe list
- * [ibdb.references.json](#ibdbreferencesjson) - Reference list
- * [ibdb.shows.json](#ibdbshowsjson) - Show list
- * [babish.json](#babishjson) - **(Deprecated)** Parsed recipe ingredients, grouped by episode
+ * [ibdb.episodes.json](#ibdbepisodesjson) - Episodes and related guests, recipes and inspiration
+ * [ibdb.guests.json](#ibdbguestsjson) - Guests and their appearances
+ * [ibdb.recipes.json](#ibdbrecipesjson) - Recipes and their origin episode
+ * [ibdb.references.json](#ibdbreferencesjson) - TV Shows, Movies, etc. and when they were referenced
+ * [ibdb.shows.json](#ibdbshowsjson) - Babish's Shows and their episode lists
+ * [babish.json](#babishjson) - Parsed recipe ingredients, grouped by episode (Deprecated)
 
 ### ibdb.episodes.json
 
-  Contains [Episode](ibdb/models.py#L74-119) metadata in the format:
+  **Episodes** and related guests, recipes and inspiration in the format:
 
   ```python
   [
@@ -64,7 +64,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
 
 ### ibdb.guests.json
 
-  Contains [Guest](ibdb/models.py#L11-27) metadata in the format:
+  **Guests** and their appearances in the format:
 
   ```python
   [
@@ -88,7 +88,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
 
 ### ibdb.recipes.json
 
-  Contains [Recipe](ibdb/models.py#L136-154) metadata in the format:
+  **Recipes** and their origin episode in the format:
 
   ```python
   [
@@ -112,7 +112,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
 
 ### ibdb.references.json
 
-  Contains [Reference](idbd/models.py#L30-52) metadata in the format:
+  TV Shows, Movies, etc. **References** and when they were referenced in the format:
 
   ```python
   [
@@ -139,7 +139,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
 
 ### ibdb.shows.json
 
-  Contains [Show](idbd/models.py#L55-71) metadata in the format:
+  **Babish's Shows** and their episode lists in the format:
 
   ```python
   [
