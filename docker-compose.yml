@@ -6,7 +6,8 @@ services:
     ports:
       - "54320:5432"
     volumes:
-      - ./pgdb_data:/var/lib/postgresql/data
+      - ./ibdb/db_dump.sql:/docker-entrypoint-initdb.d/db_dump.sql
+    #   - ./pgdb_data:/var/lib/postgresql/data
     # environment:
     #   POSTGRES_USER: postgres
     #   POSTGRES_PASSWORD: <unset>
