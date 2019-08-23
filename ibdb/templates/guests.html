@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IBDB - Guests</title>
+
+    <style>
+        h1 a {
+          font-size: 1rem;
+        }
+        .preview {
+            max-width: 200px;
+        }
+        form {
+            width: 600px;
+        }
+        form > div {
+            display: flex;
+            padding-bottom: 4px;
+        }
+        input[type=text], textarea, select {
+            flex-grow: 1;
+            margin-left: 7px;
+        }
+        .inline {
+          display: inline-flex;
+          justify-content: space-between;
+        }
+        .details {
+          margin-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Add Guest</h1>
+    <form method="POST" action="/guests">
+        <div>Name: <input type="text" name="name" required></div>
+        <div>Appearance: <select name="appearance_episode_id">
+        {% for ep in episodes %}
+            <option value="{{ ep.id }}">{{ loop.revindex }}. {{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</option>
+        {% endfor %}
+        </select></div>
+        <input type="submit" value="Add">
+    </form>
+
+    <h1>Guests <a href="?format=json">JSON</a></h1>
+    {% for g in guests %}
+      <a name="g{{g.id}}"></a>
+      <h3>{{ g.name }} <small>(id: {{ g.id }})</small></h3>
+      <div class="details">
+        appearances:
+        <ul>
+        {% for ep in g.appearances %}
+          <li>{{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }} <a href="/episodes#{{ ep.id }}">Link</a></li>
+        {% endfor %}
+        </ul>
+        <form method="POST" action="/guest/{{ g.id }}/appearances" class="inline">
+          <select name="appearance_episode_id">
+            <option value="">Select episode</option>
+          {% for ep in episodes %}
+            <option value="{{ ep.id }}">{{ loop.revindex }}. {{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</option>
+          {% endfor %}
+          </select>
+          <input type="submit" value="Add">
+        </form>
+      </div>
+    {% endfor %}
+  </body>
+</html>
+</body>
+</html>
