@@ -22,6 +22,7 @@ from utils import (
 
 app = Flask(__name__, template_folder='/app/templates')
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2://postgres@db:5432/babish_db"
+app.config['JSON_SORT_KEYS'] = False
 db.init_app(app)
 
 
@@ -29,7 +30,12 @@ db.init_app(app)
 def index():
     return jsonify({
         'description': 'Internet Babish DataBase (IBDB) API',
-        'routes': sorted([f'{request.base_url[:-1]}{rule}' for rule in app.url_map.iter_rules()])[:-1],
+        'routes': sorted(
+            set(
+                f'{request.base_url[:-1]}{rule}'
+                for rule in app.url_map.iter_rules()
+            )
+        )[:-1],
     })
 
 

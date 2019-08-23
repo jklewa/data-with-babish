@@ -8,7 +8,158 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
 
 ## Datasets
 
+ * [ibdb.episodes.json](#ibdbepisodesjson) - Episode list
+ * [ibdb.guests.json](#ibdbguestsjson) - Guest list
+ * [ibdb.recipes.json](#ibdbrecipesjson) - Recipe list
+ * [ibdb.references.json](#ibdbreferencesjson) - Reference list
+ * [ibdb.shows.json](#ibdbshowsjson) - Show list
  * [babish.json](#babishjson) - Parsed recipe ingredients, grouped by episode
+
+### ibdb.episodes.json
+
+  Contains [Episode](ibdb/models.py#L74-119) metadata in the format:
+
+  ```python
+  [
+    {
+      "episode_id": "epid",
+      "name": "Episode Name",
+      "published_date": "YYYY-MM-DDT00:00:00+00:00",
+      "youtube_link": "https://www.youtube.com/watch?v=...",
+      "official_link": "https://www.bingingwithbabish.com/recipes/...",
+      "image_link": "https://preview.image.host/image.png",
+      "related": {
+        "show": {
+          "show_id": 1,
+          "name": "Binging with Babish"
+        },
+        "guests": [
+          {
+            "guest_id": 1,
+            "name": "Guest Name"
+          }
+        ],
+        "inspired_by": [
+          {
+            "reference_id": 1,
+            "type": "tv_show|movie|youtube_channel|video_game|other",
+            "name": "Reference Name",
+            "description": "A description of the reference.",
+            "external_link": "https://link.to.more/"
+          }
+        ],
+        "recipes": [
+          {
+            "recipe_id": 1,
+            "name": "Recipe Name",
+            "raw_ingredient_list": "Ingedient 1\nIngredient 2\n...",
+            "raw_procedure": "Step 1.\nStep 2.\n..."
+          }
+        ]
+      }
+    },
+    # ...
+  ]
+  ```
+
+### ibdb.guests.json
+
+  Contains [Guest](ibdb/models.py#L11-27) metadata in the format:
+
+  ```python
+  [
+    {
+      "guest_id": 1,
+      "name": "Guest Name",
+      "appearances": [
+        {
+          "episode_id": "epid",
+          "name": "Episide Name",
+          "published_date": "YYYY-MM-DDT00:00:00+00:00",
+          "youtube_link": "https://www.youtube.com/watch?v=...",
+          "official_link": "https://www.bingingwithbabish.com/recipes/...",
+          "image_link": "https://preview.image.host/image.png"
+        }
+      ]
+    },
+    # ...
+  ]
+  ```
+
+### ibdb.recipes.json
+
+  Contains [Recipe](ibdb/models.py#L136-154) metadata in the format:
+
+  ```python
+  [
+    {
+      "recipe_id": 1,
+      "name": "Recipe Name",
+      "raw_ingredient_list": "Ingedient 1\nIngredient 2\n...",
+      "raw_procedure": "Step 1.\nStep 2.\n...",
+      "source": {
+        "episode_id": "epid",
+        "name": "Episide Name",
+        "published_date": "YYYY-MM-DDT00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=...",
+        "official_link": "https://www.bingingwithbabish.com/recipes/...",
+        "image_link": "https://preview.image.host/image.png"
+      }
+    },
+    # ...
+  ]
+  ```
+
+### ibdb.references.json
+
+  Contains [Reference](idbd/models.py#L30-52) metadata in the format:
+
+  ```python
+  [
+    {
+      "reference_id": 1,
+      "type": "tv_show|movie|youtube_channel|video_game|other",
+      "name": "Reference Name",
+      "description": "A description of the reference.",
+      "external_link": "https://link.to.more/",
+      "episodes_inspired": [
+        {
+          "episode_id": "epid",
+          "name": "Episide Name",
+          "published_date": "YYYY-MM-DDT00:00:00+00:00",
+          "youtube_link": "https://www.youtube.com/watch?v=...",
+          "official_link": "https://www.bingingwithbabish.com/recipes/...",
+          "image_link": "https://preview.image.host/image.png"
+        }
+      ]
+    },
+    # ...
+  ]
+  ```
+
+### ibdb.shows.json
+
+  Contains [Show](idbd/models.py#L55-71) metadata in the format:
+
+  ```python
+  [
+    {
+      "show_id": 1,
+      "name": "Binging with Babish",
+      "episodes": [
+        {
+          "episode_id": "epid",
+          "name": "Episide Name",
+          "published_date": "YYYY-MM-DDT00:00:00+00:00",
+          "youtube_link": "https://www.youtube.com/watch?v=...",
+          "official_link": "https://www.bingingwithbabish.com/recipes/...",
+          "image_link": "https://preview.image.host/image.png"
+        }
+      ]
+    },
+    # ...
+  ]
+  ```
 
 ### babish.json
 
