@@ -2,6 +2,9 @@
 from sqlalchemy import Column, DateTime, ForeignKey, Integer, String, Table, Text, text
 from sqlalchemy.orm import relationship
 from flask_sqlalchemy import SQLAlchemy
+from flask import request
+
+from recipe_parser import RecipeParser
 
 db = SQLAlchemy()
 Base = db.Model
@@ -16,6 +19,7 @@ class Guest(Base):
 
     def serialize(self, related=True):
         return {
+            'self': f'{request.host_url[:-1]}/guest/{self.id}',
             'guest_id': self.id,
             'name': self.name,
             **({
@@ -38,6 +42,7 @@ class Reference(Base):
 
     def serialize(self, related=True):
         return {
+            'self': f'{request.host_url[:-1]}/reference/{self.id}',
             'reference_id': self.id,
             'type': self.type,
             'name': self.name,
@@ -60,6 +65,7 @@ class Show(Base):
 
     def serialize(self, related=True):
         return {
+            'self': f'{request.host_url[:-1]}/show/{self.id}',
             'show_id': self.id,
             'name': self.name,
             **({
@@ -93,6 +99,7 @@ class Episode(Base):
 
     def serialize(self, related=True):
         return {
+            'self': f'{request.host_url[:-1]}/episode/{self.id}',
             'episode_id': self.id,
             'name': self.name,
             'published_date': self.published_date.isoformat(),
@@ -144,11 +151,15 @@ class Recipe(Base):
 
     def serialize(self, related=True):
         return {
+            'self': f'{request.host_url[:-1]}/recipe/{self.id}',
             'recipe_id': self.id,
             'name': self.name,
             'raw_ingredient_list': self.raw_ingredient_list,
             'raw_procedure': self.raw_procedure,
             **({
-                'source': self.episode.serialize(False)
+                'source': self.episode.serialize(False),
+                'ingredient_list': [
+                    RecipeParser.parse_ingredient(i) for i in self.raw_ingredient_list.splitlines() if not 'For the' in i
+                ]
             } if related else {})
         }

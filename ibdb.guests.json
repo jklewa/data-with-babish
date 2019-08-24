@@ -1,9 +1,11 @@
 [
   {
+    "self": "http://localhost:5000/guest/11", 
     "guest_id": 11, 
     "name": "Ashwin Ramdas", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/beetandacorncookies", 
         "episode_id": "beetandacorncookies", 
         "name": "Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)", 
         "published_date": "2017-05-23T00:00:00+00:00", 
@@ -14,10 +16,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/6", 
     "guest_id": 6, 
     "name": "Brad Leone", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/lasagna", 
         "episode_id": "lasagna", 
         "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)", 
         "published_date": "2018-03-27T00:00:00+00:00", 
@@ -28,10 +32,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/15", 
     "guest_id": 15, 
     "name": "Dan Pashman", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/chocolate-cake-inspired-by-matilda", 
         "episode_id": "chocolate-cake-inspired-by-matilda", 
         "name": "Chocolate Cake inspired by Matilda", 
         "published_date": "2017-06-06T00:00:00+00:00", 
@@ -42,10 +48,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/4", 
     "guest_id": 4, 
     "name": "Dan Souza", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/classicpancakes", 
         "episode_id": "classicpancakes", 
         "name": "Classic Pancakes inspired by Uncle Buck", 
         "published_date": "2019-08-20T00:00:00+00:00", 
@@ -54,6 +62,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d5bfd5b9fb0170001004f02/1566310049299/Screen+Shot+2019-08-20+at+8.48.31+AM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/bagels", 
         "episode_id": "bagels", 
         "name": "BAGELS", 
         "published_date": "2019-01-24T00:00:00+00:00", 
@@ -64,10 +73,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/16", 
     "guest_id": 16, 
     "name": "David Wasman", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/being-with-babish-1", 
         "episode_id": "being-with-babish-1", 
         "name": "Giving Back to a Fan in Need", 
         "published_date": "2019-03-22T00:00:00+00:00", 
@@ -78,10 +89,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/25", 
     "guest_id": 25, 
     "name": "Erika Vonie", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/coffee", 
         "episode_id": "coffee", 
         "name": "COFFEE", 
         "published_date": "2019-05-31T00:00:00+00:00", 
@@ -92,10 +105,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/19", 
     "guest_id": 19, 
     "name": "Gabrielle Hufford", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/being-with-babish-2", 
         "episode_id": "being-with-babish-2", 
         "name": "Surprising a Fan with a Vegas Hotel Suite", 
         "published_date": "2019-04-05T00:00:00+00:00", 
@@ -106,10 +121,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/5", 
     "guest_id": 5, 
     "name": "Giant Robot", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/classicpancakes", 
         "episode_id": "classicpancakes", 
         "name": "Classic Pancakes inspired by Uncle Buck", 
         "published_date": "2019-08-20T00:00:00+00:00", 
@@ -120,10 +137,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/24", 
     "guest_id": 24, 
     "name": "Greg Johnson", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/being-with-babish-5", 
         "episode_id": "being-with-babish-5", 
         "name": "Whiskey Basics | Being with Babish Double Feature", 
         "published_date": "2019-07-12T00:00:00+00:00", 
@@ -134,10 +153,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/8", 
     "guest_id": 8, 
     "name": "Jon Favreau", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/chocolatelavacakes", 
         "episode_id": "chocolatelavacakes", 
         "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi", 
         "published_date": "2018-02-20T00:00:00+00:00", 
@@ -148,10 +169,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/10", 
     "guest_id": 10, 
     "name": "Maisie Williams", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/direwolfbread", 
         "episode_id": "direwolfbread", 
         "name": "Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)", 
         "published_date": "2018-09-25T00:00:00+00:00", 
@@ -162,10 +185,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/13", 
     "guest_id": 13, 
     "name": "Masaharu Morimoto", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/deathsandwich", 
         "episode_id": "deathsandwich", 
         "name": "Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show", 
         "published_date": "2019-04-09T00:00:00+00:00", 
@@ -176,10 +201,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/14", 
     "guest_id": 14, 
     "name": "Mel", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/clayroastedthigh", 
         "episode_id": "clayroastedthigh", 
         "name": "Clay-Roasted Thigh inspired by Hannibal", 
         "published_date": "2017-10-31T00:00:00+00:00", 
@@ -190,10 +217,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/12", 
     "guest_id": 12, 
     "name": "Nick Fisher", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/buttermilk-pancakes-inspired-by-twin-peaks", 
         "episode_id": "buttermilk-pancakes-inspired-by-twin-peaks", 
         "name": "Buttermilk Pancakes inspired by Twin Peaks", 
         "published_date": "2017-05-18T00:00:00+00:00", 
@@ -204,10 +233,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/21", 
     "guest_id": 21, 
     "name": "Rashid Duroseau", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/being-with-babish-3", 
         "episode_id": "being-with-babish-3", 
         "name": "Surprising Rashid", 
         "published_date": "2019-04-26T00:00:00+00:00", 
@@ -218,10 +249,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/9", 
     "guest_id": 9, 
     "name": "Roy Choi", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/chocolatelavacakes", 
         "episode_id": "chocolatelavacakes", 
         "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi", 
         "published_date": "2018-02-20T00:00:00+00:00", 
@@ -230,6 +263,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a8db1f2419202a3ccf0e483/1531777960506/Screen+Shot+2018-02-21+at+11.54.06+AM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/being-with-babish-2", 
         "episode_id": "being-with-babish-2", 
         "name": "Surprising a Fan with a Vegas Hotel Suite", 
         "published_date": "2019-04-05T00:00:00+00:00", 
@@ -240,10 +274,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/23", 
     "guest_id": 23, 
     "name": "Sarah and Stefan", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/being-with-babish-4", 
         "episode_id": "being-with-babish-4", 
         "name": "Training like Kratos for 30 Days | Body by Babish", 
         "published_date": "2019-06-07T00:00:00+00:00", 
@@ -254,10 +290,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/17", 
     "guest_id": 17, 
     "name": "Sawyer Jacobs", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/being-with-babish-2", 
         "episode_id": "being-with-babish-2", 
         "name": "Surprising a Fan with a Vegas Hotel Suite", 
         "published_date": "2019-04-05T00:00:00+00:00", 
@@ -266,6 +304,7 @@
         "image_link": "#"
       }, 
       {
+        "self": "http://localhost:5000/episode/being-with-babish-3", 
         "episode_id": "being-with-babish-3", 
         "name": "Surprising Rashid", 
         "published_date": "2019-04-26T00:00:00+00:00", 
@@ -274,6 +313,7 @@
         "image_link": "#"
       }, 
       {
+        "self": "http://localhost:5000/episode/being-with-babish-1", 
         "episode_id": "being-with-babish-1", 
         "name": "Giving Back to a Fan in Need", 
         "published_date": "2019-03-22T00:00:00+00:00", 
@@ -282,6 +322,7 @@
         "image_link": "#"
       }, 
       {
+        "self": "http://localhost:5000/episode/being-with-babish-4", 
         "episode_id": "being-with-babish-4", 
         "name": "Training like Kratos for 30 Days | Body by Babish", 
         "published_date": "2019-06-07T00:00:00+00:00", 
@@ -292,10 +333,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/22", 
     "guest_id": 22, 
     "name": "Sean Conley", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/being-with-babish-3", 
         "episode_id": "being-with-babish-3", 
         "name": "Surprising Rashid", 
         "published_date": "2019-04-26T00:00:00+00:00", 
@@ -306,10 +349,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/3", 
     "guest_id": 3, 
     "name": "Sean Evans", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/arresteddevelopmentspecial", 
         "episode_id": "arresteddevelopmentspecial", 
         "name": "Arrested Development Special (feat. Sean Evans)", 
         "published_date": "2018-05-29T00:00:00+00:00", 
@@ -318,6 +363,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5b0dba9f88251b5b752ef4e7/1531769639141/Screen+Shot+2018-05-29+at+3.10.29+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks", 
         "episode_id": "fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks", 
         "name": "Fried Chicken & Waffle Breakfast Lasagna inspired by The Boondocks", 
         "published_date": "2017-07-04T00:00:00+00:00", 
@@ -326,6 +372,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/59604fc21b631b78567a9988/1531943714487/Screen+Shot+2017-07-07+at+10.00.16+PM-2.jpg"
       }, 
       {
+        "self": "http://localhost:5000/episode/infernowings", 
         "episode_id": "infernowings", 
         "name": "Inferno Wings inspired by Regular Show", 
         "published_date": "2019-07-16T00:00:00+00:00", 
@@ -336,10 +383,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/26", 
     "guest_id": 26, 
     "name": "Steve (buddy)", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/theswanson", 
         "episode_id": "theswanson", 
         "name": "The Swanson inspired by Parks and Recreation", 
         "published_date": "2019-03-26T00:00:00+00:00", 
@@ -350,10 +399,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/18", 
     "guest_id": 18, 
     "name": "Sukki Hufford", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/being-with-babish-2", 
         "episode_id": "being-with-babish-2", 
         "name": "Surprising a Fan with a Vegas Hotel Suite", 
         "published_date": "2019-04-05T00:00:00+00:00", 
@@ -364,10 +415,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/20", 
     "guest_id": 20, 
     "name": "The Rae Family", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/being-with-babish-2", 
         "episode_id": "being-with-babish-2", 
         "name": "Surprising a Fan with a Vegas Hotel Suite", 
         "published_date": "2019-04-05T00:00:00+00:00", 
@@ -378,10 +431,12 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/7", 
     "guest_id": 7, 
     "name": "Vincent \"Vinny\" Cross", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/lasagna", 
         "episode_id": "lasagna", 
         "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)", 
         "published_date": "2018-03-27T00:00:00+00:00", 
@@ -390,6 +445,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5abab27b03ce64285139e69f/1531775869560/Screen+Shot+2018-03-27+at+3.35.58+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/being-with-babish-3", 
         "episode_id": "being-with-babish-3", 
         "name": "Surprising Rashid", 
         "published_date": "2019-04-26T00:00:00+00:00", 

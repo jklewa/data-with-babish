@@ -1,5 +1,6 @@
 [
   {
+    "self": "http://localhost:5000/reference/50", 
     "reference_id": 50, 
     "type": "tv_show", 
     "name": "30 Rock", 
@@ -7,6 +8,7 @@
     "external_link": "https://www.imdb.com/title/tt0496424/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/teamstersandwich", 
         "episode_id": "teamstersandwich", 
         "name": "Teamster Sandwich inspired by 30 Rock", 
         "published_date": "2018-07-31T00:00:00+00:00", 
@@ -15,6 +17,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5b6086900e2e72e41d11f801/1533654620801/Screen+Shot+2018-07-31+at+10.58.18+AM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/cheesyblasters", 
         "episode_id": "cheesyblasters", 
         "name": "Cheesy Blasters inspired by 30 Rock", 
         "published_date": "2018-05-15T00:00:00+00:00", 
@@ -25,6 +28,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/71", 
     "reference_id": 71, 
     "type": "movie", 
     "name": "A Christmas Story", 
@@ -32,6 +36,7 @@
     "external_link": "https://www.imdb.com/title/tt0085334/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/pekingduck", 
         "episode_id": "pekingduck", 
         "name": "Peking Duck inspired by A Christmas Story", 
         "published_date": "2017-12-19T00:00:00+00:00", 
@@ -42,6 +47,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/49", 
     "reference_id": 49, 
     "type": "tv_show", 
     "name": "Adventure Time", 
@@ -49,6 +55,7 @@
     "external_link": "https://www.imdb.com/title/tt1305826/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/adventure-time-sandwich", 
         "episode_id": "adventure-time-sandwich", 
         "name": "Jake's Perfect Sandwich inspired by Adventure Time", 
         "published_date": "2017-03-18T00:00:00+00:00", 
@@ -57,6 +64,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/599264d8db29d645980c1199/1532028947975/adventuretime.jpg"
       }, 
       {
+        "self": "http://localhost:5000/episode/adventuretimespecial", 
         "episode_id": "adventuretimespecial", 
         "name": "Adventure Time Special", 
         "published_date": "2018-09-11T00:00:00+00:00", 
@@ -67,6 +75,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/63", 
     "reference_id": 63, 
     "type": "movie", 
     "name": "Am\u00e9lie", 
@@ -74,6 +83,7 @@
     "external_link": "https://www.imdb.com/title/tt0211915/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/cremebrule", 
         "episode_id": "cremebrule", 
         "name": "Cr\u00e8me Br\u00fbl\u00e9e inspired by Amelie", 
         "published_date": "2018-04-03T00:00:00+00:00", 
@@ -84,6 +94,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/115", 
     "reference_id": 115, 
     "type": "movie", 
     "name": "American Pie", 
@@ -91,6 +102,7 @@
     "external_link": "https://www.imdb.com/title/tt0163651/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/applepiesmoothie", 
         "episode_id": "applepiesmoothie", 
         "name": "Apple Pie Smoothie", 
         "published_date": "2016-03-13T00:00:00+00:00", 
@@ -101,6 +113,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/23", 
     "reference_id": 23, 
     "type": "tv_show", 
     "name": "Archer", 
@@ -108,6 +121,7 @@
     "external_link": "https://www.imdb.com/title/tt1486217/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/steak-au-poivre", 
         "episode_id": "steak-au-poivre", 
         "name": "Steak au Poivre inspired by Archer", 
         "published_date": "2019-02-12T00:00:00+00:00", 
@@ -116,6 +130,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5c632028fa0d6056201e03a3/1550000535595/Screen+Shot+2019-02-12+at+1.37.23+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/eggswoodhouse", 
         "episode_id": "eggswoodhouse", 
         "name": "Eggs Woodhouse For Good from Archer", 
         "published_date": "2016-12-13T00:00:00+00:00", 
@@ -126,6 +141,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/57", 
     "reference_id": 57, 
     "type": "tv_show", 
     "name": "Arrested Development", 
@@ -133,6 +149,7 @@
     "external_link": "https://www.imdb.com/title/tt0367279/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/arresteddevelopmentspecial", 
         "episode_id": "arresteddevelopmentspecial", 
         "name": "Arrested Development Special (feat. Sean Evans)", 
         "published_date": "2018-05-29T00:00:00+00:00", 
@@ -143,6 +160,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/55", 
     "reference_id": 55, 
     "type": "tv_show", 
     "name": "A Series of Unfortunate Events", 
@@ -150,6 +168,7 @@
     "external_link": "https://www.imdb.com/title/tt4834206/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/pastaputtanesca", 
         "episode_id": "pastaputtanesca", 
         "name": "Pasta Puttanesca inspired by Lemony Snicket's A Series of Unfortunate Events", 
         "published_date": "2018-06-12T00:00:00+00:00", 
@@ -160,6 +179,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/94", 
     "reference_id": 94, 
     "type": "youtube_channel", 
     "name": "Ashwin Enjoys Nature", 
@@ -167,6 +187,7 @@
     "external_link": "https://www.youtube.com/channel/UCU_VPBYVgNnf_52S0_JmcXg", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/beetandacorncookies", 
         "episode_id": "beetandacorncookies", 
         "name": "Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)", 
         "published_date": "2017-05-23T00:00:00+00:00", 
@@ -177,6 +198,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/88", 
     "reference_id": 88, 
     "type": "tv_show", 
     "name": "Atlanta", 
@@ -184,6 +206,7 @@
     "external_link": "https://www.imdb.com/title/tt4288182/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/lemon-pepper-wet", 
         "episode_id": "lemon-pepper-wet", 
         "name": "Lemon Pepper Wet inspired by Atlanta", 
         "published_date": "2017-07-25T00:00:00+00:00", 
@@ -194,6 +217,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/16", 
     "reference_id": 16, 
     "type": "movie", 
     "name": "Avengers: Infinity War", 
@@ -201,6 +225,7 @@
     "external_link": "https://www.imdb.com/title/tt4154756/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/avengersicecream", 
         "episode_id": "avengersicecream", 
         "name": "Ice Cream Flavors inspired by Avengers: Infinity War", 
         "published_date": "2019-04-30T00:00:00+00:00", 
@@ -211,6 +236,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/28", 
     "reference_id": 28, 
     "type": "movie", 
     "name": "Beauty and the Beast", 
@@ -218,6 +244,7 @@
     "external_link": "https://www.imdb.com/title/tt0101414/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/thegreystuff", 
         "episode_id": "thegreystuff", 
         "name": "The Grey Stuff & Other Hors d\u2019Oeuvres inspired by Beauty & the Beast", 
         "published_date": "2019-01-03T00:00:00+00:00", 
@@ -228,6 +255,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/111", 
     "reference_id": 111, 
     "type": "movie", 
     "name": "Big Night", 
@@ -235,6 +263,7 @@
     "external_link": "https://www.imdb.com/title/tt0115678/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/il-timpano-inspired-by-big-night", 
         "episode_id": "il-timpano-inspired-by-big-night", 
         "name": "Il Timpano inspired by Big Night", 
         "published_date": "2016-02-20T00:00:00+00:00", 
@@ -245,6 +274,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/14", 
     "reference_id": 14, 
     "type": "tv_show", 
     "name": "Bob's Burgers", 
@@ -252,6 +282,7 @@
     "external_link": "https://www.imdb.com/title/tt1561755/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/bobsburgers", 
         "episode_id": "bobsburgers", 
         "name": "Bob's Burgers", 
         "published_date": "2017-03-14T00:00:00+00:00", 
@@ -260,6 +291,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a0a0fb171c10b6a45629dfa/1532029026012/Screen+Shot+2017-11-13+at+3.44.33+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/dutchbaby", 
         "episode_id": "dutchbaby", 
         "name": "Dutch Baby inspired by Bob's Burgers", 
         "published_date": "2019-01-03T00:00:00+00:00", 
@@ -268,6 +300,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5c2e3b9f758d46b4704ea5cf/1546973433662/Screen+Shot+2019-01-03+at+10.47.33+AM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/sandyfryesappetizers", 
         "episode_id": "sandyfryesappetizers", 
         "name": "Sandy Frye's Appetizers inspired by Bob's Burgers", 
         "published_date": "2019-01-29T00:00:00+00:00", 
@@ -276,6 +309,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5c50ba4088251bc68fe2c36d/1550609483922/Screen+Shot+2019-01-29+at+2.36.53+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/teddybrulee", 
         "episode_id": "teddybrulee", 
         "name": "Teddy Br\u00fbl\u00e9e inspired by Bob's Burgers", 
         "published_date": "2019-05-14T00:00:00+00:00", 
@@ -286,6 +320,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/77", 
     "reference_id": 77, 
     "type": "other", 
     "name": "Bon App\u00e9tit's It's Alive With Brad", 
@@ -293,6 +328,7 @@
     "external_link": "https://video.bonappetit.com/series/it-s-alive-with-brad", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/lasagna", 
         "episode_id": "lasagna", 
         "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)", 
         "published_date": "2018-03-27T00:00:00+00:00", 
@@ -303,6 +339,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/9", 
     "reference_id": 9, 
     "type": "tv_show", 
     "name": "Breaking Bad", 
@@ -310,6 +347,7 @@
     "external_link": "https://www.imdb.com/title/tt0903747/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/breakingbadspecial", 
         "episode_id": "breakingbadspecial", 
         "name": "Breaking Bad Special", 
         "published_date": "2018-02-06T00:00:00+00:00", 
@@ -318,6 +356,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a7b357653450a72ddd6595a/1524605626315/Screen+Shot+2018-02-07+at+11.21.50+AM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/huevosrancheros", 
         "episode_id": "huevosrancheros", 
         "name": "Huevos Rancheros inspired by Breaking Bad", 
         "published_date": "2019-06-20T00:00:00+00:00", 
@@ -328,6 +367,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/59", 
     "reference_id": 59, 
     "type": "movie", 
     "name": "Brooklyn Nine-Nine", 
@@ -335,6 +375,7 @@
     "external_link": "https://www.imdb.com/title/tt2467372/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/thesloppyjessica", 
         "episode_id": "thesloppyjessica", 
         "name": "The Sloppy Jessica inspired by Brooklyn Nine-Nine", 
         "published_date": "2018-05-01T00:00:00+00:00", 
@@ -345,6 +386,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/123", 
     "reference_id": 123, 
     "type": "movie", 
     "name": "Casablanca", 
@@ -352,6 +394,7 @@
     "external_link": "https://www.imdb.com/title/tt0034583/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/cocktail-special", 
         "episode_id": "cocktail-special", 
         "name": "Cocktail Special", 
         "published_date": "2017-06-27T00:00:00+00:00", 
@@ -362,6 +405,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/122", 
     "reference_id": 122, 
     "type": "movie", 
     "name": "Casino Royale", 
@@ -369,6 +413,7 @@
     "external_link": "https://www.imdb.com/title/tt0381061/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/cocktail-special", 
         "episode_id": "cocktail-special", 
         "name": "Cocktail Special", 
         "published_date": "2017-06-27T00:00:00+00:00", 
@@ -379,6 +424,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/32", 
     "reference_id": 32, 
     "type": "tv_show", 
     "name": "Charlie Brown Thanksgiving", 
@@ -386,6 +432,7 @@
     "external_link": "https://www.imdb.com/title/tt0068359/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/charliebrownthanksgiving", 
         "episode_id": "charliebrownthanksgiving", 
         "name": "Charlie Brown Thanksgiving", 
         "published_date": "2018-11-20T00:00:00+00:00", 
@@ -396,6 +443,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/47", 
     "reference_id": 47, 
     "type": "movie", 
     "name": "Chef", 
@@ -403,6 +451,7 @@
     "external_link": "https://www.imdb.com/title/tt2883512/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/chocolatelavacakes", 
         "episode_id": "chocolatelavacakes", 
         "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi", 
         "published_date": "2018-02-20T00:00:00+00:00", 
@@ -411,6 +460,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a8db1f2419202a3ccf0e483/1531777960506/Screen+Shot+2018-02-21+at+11.54.06+AM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/aglioeolio", 
         "episode_id": "aglioeolio", 
         "name": "Pasta Aglio e Olio inspired by Chef", 
         "published_date": "2016-03-26T00:00:00+00:00", 
@@ -419,6 +469,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/590bef7620099e8a5501a958/1532031345391/aglio2.jpg"
       }, 
       {
+        "self": "http://localhost:5000/episode/beignetsfromchef", 
         "episode_id": "beignetsfromchef", 
         "name": "Beignets inspired by Chef (and Princess and the Frog)", 
         "published_date": "2018-08-07T00:00:00+00:00", 
@@ -427,6 +478,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5b69b65c562fa775299c6d4f/1534264677664/Screen+Shot+2018-08-07+at+9.49.46+AM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/cubanos-inspired-by-chef", 
         "episode_id": "cubanos-inspired-by-chef", 
         "name": "Cubanos inspired by Chef", 
         "published_date": "2017-03-28T00:00:00+00:00", 
@@ -437,6 +489,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/112", 
     "reference_id": 112, 
     "type": "youtube_channel", 
     "name": "Cocktail Chemistry", 
@@ -444,6 +497,7 @@
     "external_link": "https://www.youtube.com/channel/UC-o0CfpOyFJOfyWKtqS1hZQ", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/buttermilk-pancakes-inspired-by-twin-peaks", 
         "episode_id": "buttermilk-pancakes-inspired-by-twin-peaks", 
         "name": "Buttermilk Pancakes inspired by Twin Peaks", 
         "published_date": "2017-05-18T00:00:00+00:00", 
@@ -454,6 +508,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/67", 
     "reference_id": 67, 
     "type": "movie", 
     "name": "Coco", 
@@ -461,6 +516,7 @@
     "external_link": "https://www.imdb.com/title/tt2380307/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/tamalesfromcoco", 
         "episode_id": "tamalesfromcoco", 
         "name": "Tamales inspired by Coco", 
         "published_date": "2018-02-27T00:00:00+00:00", 
@@ -471,6 +527,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/120", 
     "reference_id": 120, 
     "type": "movie", 
     "name": "Crazy, Stupid, Love", 
@@ -478,6 +535,7 @@
     "external_link": "https://www.imdb.com/title/tt1570728/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/cocktail-special", 
         "episode_id": "cocktail-special", 
         "name": "Cocktail Special", 
         "published_date": "2017-06-27T00:00:00+00:00", 
@@ -488,6 +546,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/108", 
     "reference_id": 108, 
     "type": "movie", 
     "name": "Creed", 
@@ -495,6 +554,7 @@
     "external_link": "https://www.imdb.com/title/tt3076658/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/cheesesteak", 
         "episode_id": "cheesesteak", 
         "name": "Philly Cheesesteaks inspired by Creed", 
         "published_date": "2016-08-21T00:00:00+00:00", 
@@ -505,6 +565,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/81", 
     "reference_id": 81, 
     "type": "tv_show", 
     "name": "Curb Your Enthusiasm", 
@@ -512,6 +573,7 @@
     "external_link": "https://www.imdb.com/title/tt0264235/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/curbyourenthusiasm", 
         "episode_id": "curbyourenthusiasm", 
         "name": "Curb Your Enthusiasm Special", 
         "published_date": "2017-10-10T00:00:00+00:00", 
@@ -522,6 +584,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/54", 
     "reference_id": 54, 
     "type": "movie", 
     "name": "Deadpool", 
@@ -529,6 +592,7 @@
     "external_link": "https://www.imdb.com/title/tt1431045/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/deadpoolpizza", 
         "episode_id": "deadpoolpizza", 
         "name": "Pizza inspired by Deadpool", 
         "published_date": "2018-06-19T00:00:00+00:00", 
@@ -539,6 +603,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/26", 
     "reference_id": 26, 
     "type": "movie", 
     "name": "Donnie Brasco", 
@@ -546,6 +611,7 @@
     "external_link": "https://www.imdb.com/title/tt0119008/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/coqauvin", 
         "episode_id": "coqauvin", 
         "name": "Coq au Vin inspired by Donnie Brasco", 
         "published_date": "2019-01-15T00:00:00+00:00", 
@@ -556,6 +622,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/41", 
     "reference_id": 41, 
     "type": "tv_show", 
     "name": "Doug", 
@@ -563,6 +630,7 @@
     "external_link": "https://www.imdb.com/title/tt0101084/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/bananapuddingpizza", 
         "episode_id": "bananapuddingpizza", 
         "name": "Banana Pudding Pizza inspired by Doug", 
         "published_date": "2018-09-18T00:00:00+00:00", 
@@ -573,6 +641,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/105", 
     "reference_id": 105, 
     "type": "movie", 
     "name": "Elf", 
@@ -580,6 +649,7 @@
     "external_link": "https://www.imdb.com/title/tt0319343/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/dessertpasta", 
         "episode_id": "dessertpasta", 
         "name": "Breakfast Dessert Pasta from Elf", 
         "published_date": "2016-12-20T00:00:00+00:00", 
@@ -590,6 +660,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/45", 
     "reference_id": 45, 
     "type": "tv_show", 
     "name": "Family Guy", 
@@ -597,6 +668,7 @@
     "external_link": "https://www.imdb.com/title/tt0182576/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/carpanini", 
         "episode_id": "carpanini", 
         "name": "Car Panini inspired by Family Guy", 
         "published_date": "2018-07-10T00:00:00+00:00", 
@@ -605,6 +677,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5b44cdbaf950b755901a91d9/1531846357073/Screen+Shot+2018-07-10+at+10.18.23+AM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/babishpaniniwinner", 
         "episode_id": "babishpaniniwinner", 
         "name": "#BabishPanini Winning Recipe - Car Panini inspired by Family Guy", 
         "published_date": "2018-08-21T00:00:00+00:00", 
@@ -615,6 +688,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/65", 
     "reference_id": 65, 
     "type": "tv_show", 
     "name": "Food Wars: Shokugeki no Soma", 
@@ -622,6 +696,7 @@
     "external_link": "https://www.imdb.com/title/tt4731072/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/pineapplecurryfriedrice", 
         "episode_id": "pineapplecurryfriedrice", 
         "name": "Pineapple-Curry Fried Rice inspired by Food Wars!: Shokugeki no Soma", 
         "published_date": "2018-03-13T00:00:00+00:00", 
@@ -632,6 +707,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/17", 
     "reference_id": 17, 
     "type": "movie", 
     "name": "Forrest Gump", 
@@ -639,6 +715,7 @@
     "external_link": "https://www.imdb.com/title/tt0109830/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/forrestgumpshrimp", 
         "episode_id": "forrestgumpshrimp", 
         "name": "Shrimp inspired by Forrest Gump | Part 1", 
         "published_date": "2018-07-03T00:00:00+00:00", 
@@ -647,6 +724,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5b3bcb6d352f536b751276cd/1531768050781/Screen+Shot+2018-07-03+at+3.10.12+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/bubbashrimp2", 
         "episode_id": "bubbashrimp2", 
         "name": "Shrimp inspired by Forrest Gump Part II", 
         "published_date": "2019-04-23T00:00:00+00:00", 
@@ -657,6 +735,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/33", 
     "reference_id": 33, 
     "type": "tv_show", 
     "name": "Frasier", 
@@ -664,6 +743,7 @@
     "external_link": "https://www.imdb.com/title/tt0106004/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/eggsflorentine", 
         "episode_id": "eggsflorentine", 
         "name": "Eggs Florentine inspired by Frasier", 
         "published_date": "2018-11-13T00:00:00+00:00", 
@@ -672,6 +752,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5beb268040ec9a145dbe2c07/1543345197208/Screen+Shot+2018-11-13+at+1.25.34+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/fraiserspecial", 
         "episode_id": "fraiserspecial", 
         "name": "Frasier Special", 
         "published_date": "2018-02-13T00:00:00+00:00", 
@@ -682,6 +763,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/51", 
     "reference_id": 51, 
     "type": "movie", 
     "name": "Fried Green Tomatoes", 
@@ -689,6 +771,7 @@
     "external_link": "https://www.imdb.com/title/tt0101921/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/friedgreentomatoes", 
         "episode_id": "friedgreentomatoes", 
         "name": "Fried Green Tomatoes inspired by...Fried Green Tomatoes", 
         "published_date": "2018-07-24T00:00:00+00:00", 
@@ -699,6 +782,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/78", 
     "reference_id": 78, 
     "type": "tv_show", 
     "name": "Friends", 
@@ -706,6 +790,7 @@
     "external_link": "https://www.imdb.com/title/tt0108778/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/moistmaker", 
         "episode_id": "moistmaker", 
         "name": "The Moistmaker inspired by Friends", 
         "published_date": "2016-11-14T00:00:00+00:00", 
@@ -714,6 +799,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a036eb38165f57d74254bdb/1532030998814/Screen+Shot+2017-11-08+at+2.47.35+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/racheltrifle", 
         "episode_id": "racheltrifle", 
         "name": "Rachel's Trifle inspired by Friends", 
         "published_date": "2017-11-21T00:00:00+00:00", 
@@ -724,6 +810,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/40", 
     "reference_id": 40, 
     "type": "tv_show", 
     "name": "Game of Thrones", 
@@ -731,6 +818,7 @@
     "external_link": "https://www.imdb.com/title/tt0944947/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/lemon-cakes-inspired-by-game-of-thrones", 
         "episode_id": "lemon-cakes-inspired-by-game-of-thrones", 
         "name": "Lemon Cakes inspired by Game of Thrones", 
         "published_date": "2017-07-11T00:00:00+00:00", 
@@ -739,6 +827,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5968bac4cd0f68bddc9aae1a/1531943365670/lemoncakes.jpg"
       }, 
       {
+        "self": "http://localhost:5000/episode/pigeon-pie-with-wild-game-inspired-by-game-of-thrones", 
         "episode_id": "pigeon-pie-with-wild-game-inspired-by-game-of-thrones", 
         "name": "Pigeon Pie with Wild Game inspired by Game of Thrones", 
         "published_date": "2017-07-11T00:00:00+00:00", 
@@ -747,6 +836,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5968b81ce45a7c330fcd7f97/1531943627309/pigeonpie.jpg"
       }, 
       {
+        "self": "http://localhost:5000/episode/blood-pie-inspired-by-game-of-thrones", 
         "episode_id": "blood-pie-inspired-by-game-of-thrones", 
         "name": "Blood Pie inspired by Game of Thrones", 
         "published_date": "2017-07-11T00:00:00+00:00", 
@@ -755,6 +845,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5968b9ab3e00be71f9336613/1531943431832/dothrakibloodpie.jpg"
       }, 
       {
+        "self": "http://localhost:5000/episode/direwolfbread", 
         "episode_id": "direwolfbread", 
         "name": "Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)", 
         "published_date": "2018-09-25T00:00:00+00:00", 
@@ -765,6 +856,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/64", 
     "reference_id": 64, 
     "type": "movie", 
     "name": "Garfield", 
@@ -772,6 +864,7 @@
     "external_link": "https://www.imdb.com/title/tt0356634/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/lasagna", 
         "episode_id": "lasagna", 
         "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)", 
         "published_date": "2018-03-27T00:00:00+00:00", 
@@ -782,6 +875,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/107", 
     "reference_id": 107, 
     "type": "movie", 
     "name": "Goodfellas", 
@@ -789,6 +883,7 @@
     "external_link": "https://www.imdb.com/title/tt0099685/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/goodfellasprisonsauce", 
         "episode_id": "goodfellasprisonsauce", 
         "name": "Prison Sauce inspired by Goodfellas", 
         "published_date": "2016-11-30T00:00:00+00:00", 
@@ -799,6 +894,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/85", 
     "reference_id": 85, 
     "type": "movie", 
     "name": "Grand Budapest Hotel", 
@@ -806,6 +902,7 @@
     "external_link": "https://www.imdb.com/title/tt2278388/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/ccourtesan-au-chocolat", 
         "episode_id": "ccourtesan-au-chocolat", 
         "name": "Courtesan au Chocolat inspired by Grand Budapest Hotel", 
         "published_date": "2017-08-15T00:00:00+00:00", 
@@ -816,6 +913,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/119", 
     "reference_id": 119, 
     "type": "movie", 
     "name": "Groudhog Day", 
@@ -823,6 +921,7 @@
     "external_link": "https://www.imdb.com/title/tt0107048/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/cocktail-special", 
         "episode_id": "cocktail-special", 
         "name": "Cocktail Special", 
         "published_date": "2017-06-27T00:00:00+00:00", 
@@ -833,6 +932,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/79", 
     "reference_id": 79, 
     "type": "movie", 
     "name": "Hannibal", 
@@ -840,6 +940,7 @@
     "external_link": "https://www.imdb.com/title/tt2243973/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/clayroastedthigh", 
         "episode_id": "clayroastedthigh", 
         "name": "Clay-Roasted Thigh inspired by Hannibal", 
         "published_date": "2017-10-31T00:00:00+00:00", 
@@ -850,6 +951,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/2", 
     "reference_id": 2, 
     "type": "movie", 
     "name": "Harold & Kumar Go to White Castle", 
@@ -857,6 +959,7 @@
     "external_link": "https://www.imdb.com/title/tt0366551/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/whitecastlesliders", 
         "episode_id": "whitecastlesliders", 
         "name": "White Castle sliders inspired by Harold & Kumar", 
         "published_date": "2019-08-13T00:00:00+00:00", 
@@ -867,6 +970,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/75", 
     "reference_id": 75, 
     "type": "movie", 
     "name": "Harry Potter", 
@@ -874,6 +978,7 @@
     "external_link": "https://www.imdb.com/find?q=Harry%20Potter&s=tt&ttype=ft", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/harrypotterspecial", 
         "episode_id": "harrypotterspecial", 
         "name": "Harry Potter Special", 
         "published_date": "2017-11-14T00:00:00+00:00", 
@@ -884,6 +989,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/92", 
     "reference_id": 92, 
     "type": "tv_show", 
     "name": "House of Cards", 
@@ -891,6 +997,7 @@
     "external_link": "https://www.imdb.com/title/tt1856010/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/freddys-ribs-inspired-by-house-of-cards", 
         "episode_id": "freddys-ribs-inspired-by-house-of-cards", 
         "name": "Freddy's Ribs inspired by House of Cards", 
         "published_date": "2017-06-13T00:00:00+00:00", 
@@ -901,6 +1008,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/124", 
     "reference_id": 124, 
     "type": "tv_show", 
     "name": " How I Met Your Mother", 
@@ -908,6 +1016,7 @@
     "external_link": "https://www.imdb.com/title/tt0460649/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/cocktail-special", 
         "episode_id": "cocktail-special", 
         "name": "Cocktail Special", 
         "published_date": "2017-06-27T00:00:00+00:00", 
@@ -918,6 +1027,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/11", 
     "reference_id": 11, 
     "type": "movie", 
     "name": "Howl's Moving Castle", 
@@ -925,6 +1035,7 @@
     "external_link": "https://www.imdb.com/title/tt0347149/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/orangemochafrapp-fpm9l", 
         "episode_id": "orangemochafrapp-fpm9l", 
         "name": "Bacon and Eggs Breakfast inspired by Howl's Moving Castle", 
         "published_date": "2019-06-04T00:00:00+00:00", 
@@ -935,6 +1046,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/29", 
     "reference_id": 29, 
     "type": "tv_show", 
     "name": "How The Grinch Stole Christmas", 
@@ -942,6 +1054,7 @@
     "external_link": "https://www.imdb.com/title/tt0060345/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/roastbeast", 
         "episode_id": "roastbeast", 
         "name": "Roast Beast inspired by How The Grinch Stole Christmas", 
         "published_date": "2018-12-18T00:00:00+00:00", 
@@ -952,6 +1065,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/24", 
     "reference_id": 24, 
     "type": "tv_show", 
     "name": "iCarly", 
@@ -959,6 +1073,7 @@
     "external_link": "https://www.imdb.com/title/tt0972534/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/spaghettitaco", 
         "episode_id": "spaghettitaco", 
         "name": "Spaghetti Tacos inspired by iCarly", 
         "published_date": "2019-02-05T00:00:00+00:00", 
@@ -969,6 +1084,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/103", 
     "reference_id": 103, 
     "type": "movie", 
     "name": "I Love You, Man", 
@@ -976,6 +1092,7 @@
     "external_link": "https://www.imdb.com/title/tt1155056/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/iloveyoumanfishtacos", 
         "episode_id": "iloveyoumanfishtacos", 
         "name": "Fish Tacos from I Love You, Man", 
         "published_date": "2017-01-12T00:00:00+00:00", 
@@ -986,6 +1103,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/102", 
     "reference_id": 102, 
     "type": "movie", 
     "name": "Inglourious Basterds", 
@@ -993,6 +1111,7 @@
     "external_link": "https://www.imdb.com/title/tt0361748/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/ingloriousbasterds", 
         "episode_id": "ingloriousbasterds", 
         "name": "Strudel inspired by Inglourious Basterds", 
         "published_date": "2017-01-23T00:00:00+00:00", 
@@ -1003,6 +1122,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/10", 
     "reference_id": 10, 
     "type": "tv_show", 
     "name": "It's Always Sunny in Philadelphia", 
@@ -1010,6 +1130,7 @@
     "external_link": "https://www.imdb.com/title/tt0472954/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/itsalwayssunnyspecial", 
         "episode_id": "itsalwayssunnyspecial", 
         "name": "It's Always Sunny in Philadelphia Special", 
         "published_date": "2017-02-20T00:00:00+00:00", 
@@ -1018,6 +1139,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a0b428ac83025982034230d/1532029562654/Screen+Shot+2017-11-14+at+1.31.07+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/alwayssunny", 
         "episode_id": "alwayssunny", 
         "name": "It's Always Sunny in Philadelphia Special (Part II)", 
         "published_date": "2019-06-12T00:00:00+00:00", 
@@ -1028,6 +1150,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/42", 
     "reference_id": 42, 
     "type": "comedy_special", 
     "name": "Jim Gaffigan's Stand Up", 
@@ -1035,6 +1158,7 @@
     "external_link": "https://www.imdb.com/name/nm0300712/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/cinnamonrolls", 
         "episode_id": "cinnamonrolls", 
         "name": "Cinnamon Rolls inspired by Jim Gaffigan's Stand Up (sort of)", 
         "published_date": "2018-10-23T00:00:00+00:00", 
@@ -1045,6 +1169,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/5", 
     "reference_id": 5, 
     "type": "tv_show", 
     "name": "JoJo's Bizarre Adventure", 
@@ -1052,6 +1177,7 @@
     "external_link": "https://www.imdb.com/title/tt2359704/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/squidinkpasta", 
         "episode_id": "squidinkpasta", 
         "name": "Squid Ink Pasta inspired by JoJo's Bizarre Adventure", 
         "published_date": "2019-07-31T00:00:00+00:00", 
@@ -1062,6 +1188,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/98", 
     "reference_id": 98, 
     "type": "movie", 
     "name": "Julie and Julia", 
@@ -1069,6 +1196,7 @@
     "external_link": "https://www.imdb.com/title/tt1135503/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/boeufbourguignon", 
         "episode_id": "boeufbourguignon", 
         "name": "Boeuf Bourguignon from Julie & Julia", 
         "published_date": "2017-04-27T00:00:00+00:00", 
@@ -1079,6 +1207,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/31", 
     "reference_id": 31, 
     "type": "movie", 
     "name": "Jurassic Park", 
@@ -1086,6 +1215,7 @@
     "external_link": "https://www.imdb.com/title/tt0107290/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/chileanseabass", 
         "episode_id": "chileanseabass", 
         "name": "Chilean Sea Bass inspired by Jurassic Park", 
         "published_date": "2018-11-27T00:00:00+00:00", 
@@ -1096,6 +1226,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/35", 
     "reference_id": 35, 
     "type": "tv_show", 
     "name": "Kill la Kill", 
@@ -1103,6 +1234,7 @@
     "external_link": "https://www.imdb.com/title/tt3114390/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/takoyaki", 
         "episode_id": "takoyaki", 
         "name": "Takoyaki inspired by Kill la Kill", 
         "published_date": "2018-10-30T00:00:00+00:00", 
@@ -1113,6 +1245,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/39", 
     "reference_id": 39, 
     "type": "tv_show", 
     "name": "Kim Possible", 
@@ -1120,6 +1253,7 @@
     "external_link": "https://www.imdb.com/title/tt0278866/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/the-naco", 
         "episode_id": "the-naco", 
         "name": "The Naco inspired by Kim Possible", 
         "published_date": "2018-10-02T00:00:00+00:00", 
@@ -1130,6 +1264,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/4", 
     "reference_id": 4, 
     "type": "video_game", 
     "name": "Kingdom Hearts", 
@@ -1137,6 +1272,7 @@
     "external_link": "https://www.kingdomhearts.com/home/us/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/seasalticecream", 
         "episode_id": "seasalticecream", 
         "name": "Sea Salt Ice Cream inspired by Kingdom Hearts", 
         "published_date": "2019-08-06T00:00:00+00:00", 
@@ -1147,6 +1283,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/37", 
     "reference_id": 37, 
     "type": "tv_show", 
     "name": "King of the Hill", 
@@ -1154,6 +1291,7 @@
     "external_link": "https://www.imdb.com/title/tt0118375/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/kingofthehillspecial", 
         "episode_id": "kingofthehillspecial", 
         "name": "King of the Hill Special", 
         "published_date": "2018-10-16T00:00:00+00:00", 
@@ -1164,6 +1302,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/110", 
     "reference_id": 110, 
     "type": "tv_show", 
     "name": "Louie", 
@@ -1171,6 +1310,7 @@
     "external_link": "https://www.imdb.com/title/tt1492966/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/louiefriedchicken", 
         "episode_id": "louiefriedchicken", 
         "name": "Fried Chicken inspired by Louie", 
         "published_date": "2016-03-16T00:00:00+00:00", 
@@ -1181,6 +1321,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/68", 
     "reference_id": 68, 
     "type": "tv_show", 
     "name": "Mad Men", 
@@ -1188,6 +1329,7 @@
     "external_link": "https://www.imdb.com/title/tt0804503/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/rumfrenchtoast", 
         "episode_id": "rumfrenchtoast", 
         "name": "Rum French Toast inspired by Mad Men", 
         "published_date": "2018-01-23T00:00:00+00:00", 
@@ -1196,6 +1338,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a68b8ddf9619a2531bb5fd3/1531846278484/Screen+Shot+2018-01-24+at+10.53.03+AM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/madmen", 
         "episode_id": "madmen", 
         "name": "Room Service inspired by Mad Men", 
         "published_date": "2017-09-26T00:00:00+00:00", 
@@ -1206,6 +1349,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/84", 
     "reference_id": 84, 
     "type": "tv_show", 
     "name": "Marvel's Agents of S.H.I.E.L.D.", 
@@ -1213,6 +1357,7 @@
     "external_link": "https://www.imdb.com/title/tt2364582/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/fitz-sandwich", 
         "episode_id": "fitz-sandwich", 
         "name": "The Fitz Sandwich inspired by Agents of S.H.I.E.L.D.", 
         "published_date": "2017-08-22T00:00:00+00:00", 
@@ -1223,6 +1368,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/60", 
     "reference_id": 60, 
     "type": "movie", 
     "name": "Marvel's Captain America: Civil War", 
@@ -1230,6 +1376,7 @@
     "external_link": "https://www.imdb.com/title/tt3498820/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/chickenpaprikash", 
         "episode_id": "chickenpaprikash", 
         "name": "Chicken Paprikash inspired by Captain America: Civil War", 
         "published_date": "2018-04-24T00:00:00+00:00", 
@@ -1240,6 +1387,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/38", 
     "reference_id": 38, 
     "type": "video_game", 
     "name": "Marvel's Spider-Man", 
@@ -1247,6 +1395,7 @@
     "external_link": "https://www.imdb.com/title/tt5807780/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/spidermanbackpackrecipes", 
         "episode_id": "spidermanbackpackrecipes", 
         "name": "Backpack Recipes inspired by Marvel's Spider-Man", 
         "published_date": "2018-10-09T00:00:00+00:00", 
@@ -1257,6 +1406,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/62", 
     "reference_id": 62, 
     "type": "movie", 
     "name": "Marvel's The Avengers", 
@@ -1264,6 +1414,7 @@
     "external_link": "https://www.imdb.com/title/tt0848228/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/shawarma", 
         "episode_id": "shawarma", 
         "name": "Shawarma inspired by The Avengers", 
         "published_date": "2018-04-10T00:00:00+00:00", 
@@ -1274,6 +1425,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/97", 
     "reference_id": 97, 
     "type": "tv_show", 
     "name": "Master of None", 
@@ -1281,6 +1433,7 @@
     "external_link": "https://www.imdb.com/title/tt4635276/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/spaghetti-carbonara-inspired-by-master-of-none", 
         "episode_id": "spaghetti-carbonara-inspired-by-master-of-none", 
         "name": "Spaghetti Carbonara inspired by Master of None", 
         "published_date": "2017-05-16T00:00:00+00:00", 
@@ -1291,6 +1444,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/93", 
     "reference_id": 93, 
     "type": "movie", 
     "name": "Matilda", 
@@ -1298,6 +1452,7 @@
     "external_link": "https://www.imdb.com/title/tt0117008/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/chocolate-cake-inspired-by-matilda", 
         "episode_id": "chocolate-cake-inspired-by-matilda", 
         "name": "Chocolate Cake inspired by Matilda", 
         "published_date": "2017-06-06T00:00:00+00:00", 
@@ -1308,6 +1463,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/100", 
     "reference_id": 100, 
     "type": "movie", 
     "name": "Moonlight", 
@@ -1315,6 +1471,7 @@
     "external_link": "https://www.imdb.com/title/tt4975722/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/pollo-a-la-plancha", 
         "episode_id": "pollo-a-la-plancha", 
         "name": "Pollo a la Plancha inspired by Moonlight", 
         "published_date": "2017-03-06T00:00:00+00:00", 
@@ -1325,6 +1482,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/53", 
     "reference_id": 53, 
     "type": "movie", 
     "name": "Mulan", 
@@ -1332,6 +1490,7 @@
     "external_link": "https://www.imdb.com/title/tt0120762/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/mulancongee", 
         "episode_id": "mulancongee", 
         "name": "Congee inspired by Mulan", 
         "published_date": "2018-06-26T00:00:00+00:00", 
@@ -1342,6 +1501,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/86", 
     "reference_id": 86, 
     "type": "movie", 
     "name": "Once Upon a Time in Mexico", 
@@ -1349,6 +1509,7 @@
     "external_link": "https://www.imdb.com/title/tt0285823/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/puerco-pibil", 
         "episode_id": "puerco-pibil", 
         "name": "Puerco Pibil inspired by Once Upon a Time in Mexico", 
         "published_date": "2017-08-08T00:00:00+00:00", 
@@ -1359,6 +1520,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/19", 
     "reference_id": 19, 
     "type": "tv_show", 
     "name": "Parks and Recreation", 
@@ -1366,6 +1528,7 @@
     "external_link": "https://www.imdb.com/title/tt1266020/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/parksandrecburger", 
         "episode_id": "parksandrecburger", 
         "name": "Parks & Rec Burger Cookoff", 
         "published_date": "2016-02-10T00:00:00+00:00", 
@@ -1374,6 +1537,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a037bbde2c483e53cae60de/1532031732542/Screen+Shot+2017-11-08+at+3.56.56+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/theswanson", 
         "episode_id": "theswanson", 
         "name": "The Swanson inspired by Parks and Recreation", 
         "published_date": "2019-03-26T00:00:00+00:00", 
@@ -1384,6 +1548,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/69", 
     "reference_id": 69, 
     "type": "tv_show", 
     "name": "Peep Show", 
@@ -1391,6 +1556,7 @@
     "external_link": "https://www.imdb.com/title/tt0387764/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/moroccanpasta", 
         "episode_id": "moroccanpasta", 
         "name": "Moroccan Pasta inspired by Peep Show", 
         "published_date": "2018-01-09T00:00:00+00:00", 
@@ -1401,6 +1567,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/43", 
     "reference_id": 43, 
     "type": "movie", 
     "name": "Phantom Thread", 
@@ -1408,6 +1575,7 @@
     "external_link": "https://www.imdb.com/title/tt5776858/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/phantomthread-l42pw", 
         "episode_id": "phantomthread-l42pw", 
         "name": "Full Breakfast inspired by Phantom Thread", 
         "published_date": "2018-09-04T00:00:00+00:00", 
@@ -1418,6 +1586,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/22", 
     "reference_id": 22, 
     "type": "movie", 
     "name": "Pixar's Bao", 
@@ -1425,6 +1594,7 @@
     "external_link": "https://www.imdb.com/title/tt8075496/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/baobuns", 
         "episode_id": "baobuns", 
         "name": "Bao inspired by Pixar's Bao", 
         "published_date": "2019-02-19T00:00:00+00:00", 
@@ -1435,6 +1605,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/101", 
     "reference_id": 101, 
     "type": "movie", 
     "name": "Pixar's Ratatouille", 
@@ -1442,6 +1613,7 @@
     "external_link": "https://www.imdb.com/title/tt0382932/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/ratatouille", 
         "episode_id": "ratatouille", 
         "name": "Confit Byaldi inspired by Ratatouille", 
         "published_date": "2017-03-02T00:00:00+00:00", 
@@ -1452,6 +1624,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/18", 
     "reference_id": 18, 
     "type": "tv_show", 
     "name": "Pok\u00e9mon", 
@@ -1459,6 +1632,7 @@
     "external_link": "https://www.imdb.com/title/tt0168366/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/brocksdonuts", 
         "episode_id": "brocksdonuts", 
         "name": "Brock's Donuts inspired by Pok\u00e9mon", 
         "published_date": "2019-04-02T00:00:00+00:00", 
@@ -1467,6 +1641,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5ca3d561a4222fdbc87605d9/1556046209895/Screen+Shot+2019-04-02+at+4.36.00+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/brocksonigiri", 
         "episode_id": "brocksonigiri", 
         "name": "Brock's Onigiri inspired by Pok\u00e9mon", 
         "published_date": "2019-04-02T00:00:00+00:00", 
@@ -1477,6 +1652,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/20", 
     "reference_id": 20, 
     "type": "video_game", 
     "name": "Portal", 
@@ -1484,6 +1660,7 @@
     "external_link": "https://www.imdb.com/title/tt1127708/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/portalcake", 
         "episode_id": "portalcake", 
         "name": "The Cake inspired by Portal", 
         "published_date": "2019-03-19T00:00:00+00:00", 
@@ -1494,6 +1671,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/73", 
     "reference_id": 73, 
     "type": "tv_show", 
     "name": "Psych", 
@@ -1501,6 +1679,7 @@
     "external_link": "https://www.imdb.com/title/tt0491738/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/quatroquesodosfritos", 
         "episode_id": "quatroquesodosfritos", 
         "name": "Quatro Quesos Dos Fritos inspired by Psych", 
         "published_date": "2017-12-05T00:00:00+00:00", 
@@ -1511,6 +1690,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/104", 
     "reference_id": 104, 
     "type": "movie", 
     "name": "Pulp Fiction", 
@@ -1518,6 +1698,7 @@
     "external_link": "https://www.imdb.com/title/tt0110912/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/bigkahunaburger", 
         "episode_id": "bigkahunaburger", 
         "name": "Big Kahuna Burger inspired by Pulp Fiction", 
         "published_date": "2017-01-03T00:00:00+00:00", 
@@ -1528,6 +1709,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/34", 
     "reference_id": 34, 
     "type": "video_game", 
     "name": "Red Dead Redemption 2", 
@@ -1535,6 +1717,7 @@
     "external_link": "https://www.imdb.com/title/tt6161168/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/bearstew", 
         "episode_id": "bearstew", 
         "name": "Bear Stew inspired by Red Dead Redemption 2", 
         "published_date": "2018-11-06T00:00:00+00:00", 
@@ -1545,6 +1728,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/7", 
     "reference_id": 7, 
     "type": "tv_show", 
     "name": "Regular Show", 
@@ -1552,6 +1736,7 @@
     "external_link": "https://www.imdb.com/title/tt1710308/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/everymeatburrito", 
         "episode_id": "everymeatburrito", 
         "name": "The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special", 
         "published_date": "2018-01-16T00:00:00+00:00", 
@@ -1560,6 +1745,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a554a9d24a694a260a3ec81/1526313644052/Screen+Shot+2018-01-17+at+10.31.35+AM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/ultimeatum", 
         "episode_id": "ultimeatum", 
         "name": "The Ultimeatum inspired by Regular Show", 
         "published_date": "2017-08-29T00:00:00+00:00", 
@@ -1568,6 +1754,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5af5c7b170a6adc5dcddf5ea/1531858297186/Screen+Shot+2018-05-11+at+11.45.01+AM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/infernowings", 
         "episode_id": "infernowings", 
         "name": "Inferno Wings inspired by Regular Show", 
         "published_date": "2019-07-16T00:00:00+00:00", 
@@ -1576,6 +1763,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d2e0602f71063000172baad/1563297583155/Screen+Shot+2019-07-16+at+9.39.32+AM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/deathsandwich", 
         "episode_id": "deathsandwich", 
         "name": "Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show", 
         "published_date": "2019-04-09T00:00:00+00:00", 
@@ -1584,6 +1772,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5cad13d3eb393151890bfcf7/1554846885850/Screen+Shot+2019-04-09+at+4.52.45+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/grilledcheesedeluxe", 
         "episode_id": "grilledcheesedeluxe", 
         "name": "Grilled Cheese Deluxe inspired by Regular Show", 
         "published_date": "2019-04-16T00:00:00+00:00", 
@@ -1592,6 +1781,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5cb6338c971a1852597d308f/1555444922610/Screen+Shot+2019-04-16+at+3.01.37+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/eggscellentchallenge", 
         "episode_id": "eggscellentchallenge", 
         "name": "3 Million Subscriber Special: The Eggscellent Challenge inspired by Regular Show", 
         "published_date": "2018-08-21T00:00:00+00:00", 
@@ -1602,6 +1792,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/83", 
     "reference_id": 83, 
     "type": "tv_show", 
     "name": "Rick and Morty", 
@@ -1609,6 +1800,7 @@
     "external_link": "https://www.imdb.com/title/tt2861424/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/szechuansaucerevisited", 
         "episode_id": "szechuansaucerevisited", 
         "name": "Szechuan Sauce Revisited (From Real Sample!)", 
         "published_date": "2017-09-12T00:00:00+00:00", 
@@ -1617,6 +1809,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a036264e4966b1a48b6cf4a/1531858204313/Screen+Shot+2017-11-08+at+2.12.34+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/szechuansauce", 
         "episode_id": "szechuansauce", 
         "name": "Rick & Morty Szechuan Sauce", 
         "published_date": "2017-04-04T00:00:00+00:00", 
@@ -1627,6 +1820,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/89", 
     "reference_id": 89, 
     "type": "tv_show", 
     "name": "Saturday Night Live", 
@@ -1634,6 +1828,7 @@
     "external_link": "https://www.imdb.com/title/tt0072562/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/taco-town", 
         "episode_id": "taco-town", 
         "name": "Taco Town 15-Flavor Taco inspired by SNL", 
         "published_date": "2017-07-18T00:00:00+00:00", 
@@ -1644,6 +1839,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/30", 
     "reference_id": 30, 
     "type": "tv_show", 
     "name": "Seinfeld", 
@@ -1651,6 +1847,7 @@
     "external_link": "https://www.imdb.com/title/tt0098904/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/seinfeldspecial2", 
         "episode_id": "seinfeldspecial2", 
         "name": "Seinfeld Volume II", 
         "published_date": "2018-12-11T00:00:00+00:00", 
@@ -1659,6 +1856,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5c1014654d7a9c14bf443a12/1546534171862/Screen+Shot+2018-12-11+at+1.43.47+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/wild-mushroom-soup-inspired-by-seinfeld", 
         "episode_id": "wild-mushroom-soup-inspired-by-seinfeld", 
         "name": "Wild Mushroom Soup inspired by Seinfeld", 
         "published_date": "2017-05-09T00:00:00+00:00", 
@@ -1667,6 +1865,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5911a8d2893fc011d4ed2f1a/1531948291925/soupnazi.jpg"
       }, 
       {
+        "self": "http://localhost:5000/episode/babka-inspired-by-seinfeld", 
         "episode_id": "babka-inspired-by-seinfeld", 
         "name": "Babka inspired by Seinfeld", 
         "published_date": "2017-05-09T00:00:00+00:00", 
@@ -1677,6 +1876,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/99", 
     "reference_id": 99, 
     "type": "tv_show", 
     "name": "South Park", 
@@ -1684,6 +1884,7 @@
     "external_link": "https://www.imdb.com/title/tt0121955/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/southparkspecial", 
         "episode_id": "southparkspecial", 
         "name": "South Park Special", 
         "published_date": "2017-04-19T00:00:00+00:00", 
@@ -1694,6 +1895,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/106", 
     "reference_id": 106, 
     "type": "movie", 
     "name": "Spanglish", 
@@ -1701,6 +1903,7 @@
     "external_link": "https://www.imdb.com/title/tt0371246/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/worldsgreatestsandwich", 
         "episode_id": "worldsgreatestsandwich", 
         "name": "World's Greatest Sandwich from Spanglish", 
         "published_date": "2016-12-05T00:00:00+00:00", 
@@ -1711,6 +1914,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/8", 
     "reference_id": 8, 
     "type": "movie", 
     "name": "Spider-Man: Homecoming", 
@@ -1718,6 +1922,7 @@
     "external_link": "https://www.imdb.com/title/tt2250912/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/larbstickyrice", 
         "episode_id": "larbstickyrice", 
         "name": "Lettuce Wraps & Mango Sticky Rice inspired by Spider-Man: Homecoming", 
         "published_date": "2019-07-10T00:00:00+00:00", 
@@ -1728,6 +1933,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/21", 
     "reference_id": 21, 
     "type": "tv_show", 
     "name": "Spongebob Squarepants", 
@@ -1735,6 +1941,7 @@
     "external_link": "https://www.imdb.com/title/tt0206512/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/3daypotatosalad", 
         "episode_id": "3daypotatosalad", 
         "name": "3-Day Potato Salad inspired by SpongeBob SquarePants", 
         "published_date": "2018-12-04T00:00:00+00:00", 
@@ -1743,6 +1950,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5c06f1ad898583408a464c8e/1545158434347/Screen+Shot+2018-12-04+at+2.53.34+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/bubblebass", 
         "episode_id": "bubblebass", 
         "name": "Bubble Bass' Order inspired by Spongebob Squarepants", 
         "published_date": "2018-05-22T00:00:00+00:00", 
@@ -1751,6 +1959,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5b04732488251b9e5e8c7192/1531771798216/Screen+Shot+2018-05-22+at+2.46.54+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/krabbysupreme", 
         "episode_id": "krabbysupreme", 
         "name": "Krabby Supreme inspired by Spongebob Squarepants", 
         "published_date": "2019-02-26T00:00:00+00:00", 
@@ -1759,6 +1968,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5c759bc7f4e1fce8e7375943/1551211671079/Screen+Shot+2019-02-26+at+2.05.11+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/krabby-patty-inspired-by-spongebob-squarepants", 
         "episode_id": "krabby-patty-inspired-by-spongebob-squarepants", 
         "name": "Krabby Patty inspired by SpongeBob SquarePants", 
         "published_date": "2017-05-31T00:00:00+00:00", 
@@ -1769,6 +1979,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/116", 
     "reference_id": 116, 
     "type": "movie", 
     "name": "Stand by Me", 
@@ -1776,6 +1987,7 @@
     "external_link": "https://www.imdb.com/title/tt0092005/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/applepie", 
         "episode_id": "applepie", 
         "name": "How To Make Apple Pie", 
         "published_date": "2016-09-23T00:00:00+00:00", 
@@ -1786,6 +1998,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/6", 
     "reference_id": 6, 
     "type": "tv_show", 
     "name": "Steven Universe", 
@@ -1793,6 +2006,7 @@
     "external_link": "https://www.imdb.com/title/tt3061046/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/bagelsandwiches", 
         "episode_id": "bagelsandwiches", 
         "name": "Bagel Sandwiches inspired by Steven Universe", 
         "published_date": "2019-07-23T00:00:00+00:00", 
@@ -1801,6 +2015,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d376d9e3982090001b86a54/1563914248439/Screen+Shot+2019-07-23+at+9.47.53+AM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/uberollcake", 
         "episode_id": "uberollcake", 
         "name": "Ube Roll inspired by Steven Universe", 
         "published_date": "2019-06-25T00:00:00+00:00", 
@@ -1811,6 +2026,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/3", 
     "reference_id": 3, 
     "type": "tv_show", 
     "name": "Stranger Things", 
@@ -1818,6 +2034,7 @@
     "external_link": "https://www.imdb.com/title/tt4574334/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/tripledeckereggo", 
         "episode_id": "tripledeckereggo", 
         "name": "Triple-Decker Eggo Extravaganza inspired by Stranger Things", 
         "published_date": "2017-11-07T00:00:00+00:00", 
@@ -1826,6 +2043,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a0cbbaf24a6948050dff1a7/1531857843296/Screen+Shot+2017-11-15+at+4.15.17+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/kfcmeal", 
         "episode_id": "kfcmeal", 
         "name": "KFC Bucket Meal inspired by Stranger Things", 
         "published_date": "2019-08-07T00:00:00+00:00", 
@@ -1836,6 +2054,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/52", 
     "reference_id": 52, 
     "type": "tv_show", 
     "name": "Sweetness and Lightning", 
@@ -1843,6 +2062,7 @@
     "external_link": "https://www.imdb.com/title/tt5853222/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/okonomiyaki", 
         "episode_id": "okonomiyaki", 
         "name": "Okonomiyaki inspired by Sweetness & Lightning", 
         "published_date": "2018-07-17T00:00:00+00:00", 
@@ -1853,6 +2073,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/109", 
     "reference_id": 109, 
     "type": "movie", 
     "name": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze", 
@@ -1860,6 +2081,7 @@
     "external_link": "https://www.imdb.com/title/tt0103060/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/nypizzatmnt", 
         "episode_id": "nypizzatmnt", 
         "name": "New York-Style Pizza inspired by TMNT II: Secret of the Ooze", 
         "published_date": "2016-04-30T00:00:00+00:00", 
@@ -1870,6 +2092,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/121", 
     "reference_id": 121, 
     "type": "movie", 
     "name": "Thank You for Smoking", 
@@ -1877,6 +2100,7 @@
     "external_link": "https://www.imdb.com/title/tt0427944/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/cocktail-special", 
         "episode_id": "cocktail-special", 
         "name": "Cocktail Special", 
         "published_date": "2017-06-27T00:00:00+00:00", 
@@ -1887,6 +2111,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/25", 
     "reference_id": 25, 
     "type": "movie", 
     "name": "The Aristocats", 
@@ -1894,6 +2119,7 @@
     "external_link": "https://www.imdb.com/title/tt0065421/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/aristocats", 
         "episode_id": "aristocats", 
         "name": "Cr\u00e8me de la Cr\u00e8me \u00e0 la Edgar inspired by The Aristocats", 
         "published_date": "2019-01-23T00:00:00+00:00", 
@@ -1904,6 +2130,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/118", 
     "reference_id": 118, 
     "type": "movie", 
     "name": "The Big Lebowski", 
@@ -1911,6 +2138,7 @@
     "external_link": "https://www.imdb.com/title/tt0118715/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/cocktail-special", 
         "episode_id": "cocktail-special", 
         "name": "Cocktail Special", 
         "published_date": "2017-06-27T00:00:00+00:00", 
@@ -1921,6 +2149,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/90", 
     "reference_id": 90, 
     "type": "tv_show", 
     "name": "The Boondocks", 
@@ -1928,6 +2157,7 @@
     "external_link": "https://www.imdb.com/title/tt0373732/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks", 
         "episode_id": "fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks", 
         "name": "Fried Chicken & Waffle Breakfast Lasagna inspired by The Boondocks", 
         "published_date": "2017-07-04T00:00:00+00:00", 
@@ -1938,6 +2168,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/46", 
     "reference_id": 46, 
     "type": "movie", 
     "name": "The Emperor's New Groove", 
@@ -1945,6 +2176,7 @@
     "external_link": "https://www.imdb.com/title/tt0120917/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/spinachpuffs", 
         "episode_id": "spinachpuffs", 
         "name": "Spinach Puffs inspired by The Emperor's New Groove", 
         "published_date": "2018-08-14T00:00:00+00:00", 
@@ -1955,6 +2187,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/27", 
     "reference_id": 27, 
     "type": "tv_show", 
     "name": "The Eric Andre Show", 
@@ -1962,6 +2195,7 @@
     "external_link": "https://www.imdb.com/title/tt2244495/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/pizzaball", 
         "episode_id": "pizzaball", 
         "name": "Pizza Ball inspired by The Eric Andre Show", 
         "published_date": "2019-01-08T00:00:00+00:00", 
@@ -1972,6 +2206,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/56", 
     "reference_id": 56, 
     "type": "movie", 
     "name": "The Godfather", 
@@ -1979,6 +2214,7 @@
     "external_link": "https://www.imdb.com/title/tt0068646/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/thegodfathercannolis", 
         "episode_id": "thegodfathercannolis", 
         "name": "Cannolis inspired by The Godfather", 
         "published_date": "2018-06-05T00:00:00+00:00", 
@@ -1989,6 +2225,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/13", 
     "reference_id": 13, 
     "type": "tv_show", 
     "name": "The Good Place", 
@@ -1996,6 +2233,7 @@
     "external_link": "https://www.imdb.com/title/tt4955642/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/thegoodplace", 
         "episode_id": "thegoodplace", 
         "name": "The Good Place Special", 
         "published_date": "2019-05-21T00:00:00+00:00", 
@@ -2006,6 +2244,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/87", 
     "reference_id": 87, 
     "type": "video_game", 
     "name": "The Legend of Zelda: Breath of the Wild", 
@@ -2013,6 +2252,7 @@
     "external_link": "https://www.imdb.com/title/tt3253986/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/zelda-monster-cake", 
         "episode_id": "zelda-monster-cake", 
         "name": "Monster Cake inspired by Zelda: Breath of the Wild", 
         "published_date": "2017-08-01T00:00:00+00:00", 
@@ -2023,6 +2263,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/61", 
     "reference_id": 61, 
     "type": "movie", 
     "name": "The Matrix", 
@@ -2030,6 +2271,7 @@
     "external_link": "https://www.imdb.com/title/tt0133093/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/chateaubriandsteak", 
         "episode_id": "chateaubriandsteak", 
         "name": "Chateaubriand Steak inspired by The Matrix", 
         "published_date": "2018-04-17T00:00:00+00:00", 
@@ -2040,6 +2282,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/80", 
     "reference_id": 80, 
     "type": "tv_show", 
     "name": "The Office", 
@@ -2047,6 +2290,7 @@
     "external_link": "https://www.imdb.com/title/tt0386676/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/michaelscottpretzel", 
         "episode_id": "michaelscottpretzel", 
         "name": "Michael Scott\u2019s Pretzel inspired by The Office", 
         "published_date": "2017-10-17T00:00:00+00:00", 
@@ -2055,6 +2299,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a0cbd73e2c483206c19f5b9/1531857948024/Screen+Shot+2017-11-15+at+4.23.25+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/kevinschili", 
         "episode_id": "kevinschili", 
         "name": "Kevin's Famous Chili inspired by The Office", 
         "published_date": "2017-01-18T00:00:00+00:00", 
@@ -2065,6 +2310,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/74", 
     "reference_id": 74, 
     "type": "movie", 
     "name": "The Place Beyond the Pines", 
@@ -2072,6 +2318,7 @@
     "external_link": "https://www.imdb.com/title/tt1817273/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/garbageplate", 
         "episode_id": "garbageplate", 
         "name": "The Garbage Plate inspired by The Place Beyond The Pines (sort of)", 
         "published_date": "2017-11-28T00:00:00+00:00", 
@@ -2082,6 +2329,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/48", 
     "reference_id": 48, 
     "type": "movie", 
     "name": "The Princess and the Frog", 
@@ -2089,6 +2337,7 @@
     "external_link": "https://www.imdb.com/title/tt0780521/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/beignetsfromchef", 
         "episode_id": "beignetsfromchef", 
         "name": "Beignets inspired by Chef (and Princess and the Frog)", 
         "published_date": "2018-08-07T00:00:00+00:00", 
@@ -2099,6 +2348,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/66", 
     "reference_id": 66, 
     "type": "movie", 
     "name": "The Secret Life of Walter Mitty", 
@@ -2106,6 +2356,7 @@
     "external_link": "https://www.imdb.com/title/tt0359950/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/clementinecake", 
         "episode_id": "clementinecake", 
         "name": "Clementine Cake inspired by The Secret Life of Walter Mitty", 
         "published_date": "2018-03-06T00:00:00+00:00", 
@@ -2116,6 +2367,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/15", 
     "reference_id": 15, 
     "type": "tv_show", 
     "name": "The Simpsons", 
@@ -2123,6 +2375,7 @@
     "external_link": "https://www.imdb.com/title/tt0096697/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/skinnersstew", 
         "episode_id": "skinnersstew", 
         "name": "Skinner's Stew inspired by The Simpsons", 
         "published_date": "2018-01-09T00:00:00+00:00", 
@@ -2131,6 +2384,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a5f7a25419202a037f3a095/1531857445145/Screen+Shot+2018-01-24+at+10.46.02+AM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/ribwich", 
         "episode_id": "ribwich", 
         "name": "Ribwich inspired by The Simpsons", 
         "published_date": "2019-03-12T00:00:00+00:00", 
@@ -2139,6 +2393,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5c8809d5419202bce158b662/1554240865475/Screen+Shot+2019-03-19+at+2.46.39+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/goodmorningburger", 
         "episode_id": "goodmorningburger", 
         "name": "Good Morning Burger inspired by The Simpsons", 
         "published_date": "2019-05-07T00:00:00+00:00", 
@@ -2147,6 +2402,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5cd1eea11905f4ba9d7e7983/1557262296856/Screen+Shot+2019-05-07+at+3.42.23+PM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/moonwaffles", 
         "episode_id": "moonwaffles", 
         "name": "Homer Simpson's Patented Space Age Out-Of-This-World Moon Waffles", 
         "published_date": "2017-05-02T00:00:00+00:00", 
@@ -2157,6 +2413,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/72", 
     "reference_id": 72, 
     "type": "movie", 
     "name": "The Simpsons Movie", 
@@ -2164,6 +2421,7 @@
     "external_link": "https://www.imdb.com/title/tt0462538/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/flandershotcocoa", 
         "episode_id": "flandershotcocoa", 
         "name": "Flanders' Hot Chocolate inspired by The Simpsons Movie", 
         "published_date": "2017-12-12T00:00:00+00:00", 
@@ -2174,6 +2432,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/44", 
     "reference_id": 44, 
     "type": "tv_show", 
     "name": "The Sopranos", 
@@ -2181,6 +2440,7 @@
     "external_link": "https://www.imdb.com/title/tt0141842/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/johnnycakes", 
         "episode_id": "johnnycakes", 
         "name": "Johnny Cakes inspired by The Sopranos", 
         "published_date": "2018-08-28T00:00:00+00:00", 
@@ -2191,6 +2451,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/95", 
     "reference_id": 95, 
     "type": "tv_show", 
     "name": "The Walking Dead", 
@@ -2198,6 +2459,7 @@
     "external_link": "https://www.imdb.com/title/tt1520211/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/beetandacorncookies", 
         "episode_id": "beetandacorncookies", 
         "name": "Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)", 
         "published_date": "2017-05-23T00:00:00+00:00", 
@@ -2208,6 +2470,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/91", 
     "reference_id": 91, 
     "type": "tv_show", 
     "name": "The West Wing", 
@@ -2215,6 +2478,7 @@
     "external_link": "https://www.imdb.com/title/tt0200276/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/tomate-du-saltambique-inspired-by-the-west-wing", 
         "episode_id": "tomate-du-saltambique-inspired-by-the-west-wing", 
         "name": "Tomate du Saltambique inspired by The West Wing", 
         "published_date": "2017-06-20T00:00:00+00:00", 
@@ -2225,6 +2489,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/70", 
     "reference_id": 70, 
     "type": "tv_show", 
     "name": "The Wire", 
@@ -2232,6 +2497,7 @@
     "external_link": "https://www.imdb.com/title/tt0306414/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/thewirespecial", 
         "episode_id": "thewirespecial", 
         "name": "The Wire Special", 
         "published_date": "2017-12-26T00:00:00+00:00", 
@@ -2242,6 +2508,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/117", 
     "reference_id": 117, 
     "type": "movie", 
     "name": "True Romance", 
@@ -2249,6 +2516,7 @@
     "external_link": "https://www.imdb.com/title/tt0108399/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/applepie", 
         "episode_id": "applepie", 
         "name": "How To Make Apple Pie", 
         "published_date": "2016-09-23T00:00:00+00:00", 
@@ -2259,6 +2527,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/96", 
     "reference_id": 96, 
     "type": "tv_show", 
     "name": "Twin Peaks", 
@@ -2266,6 +2535,7 @@
     "external_link": "https://www.imdb.com/title/tt0098936/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/buttermilk-pancakes-inspired-by-twin-peaks", 
         "episode_id": "buttermilk-pancakes-inspired-by-twin-peaks", 
         "name": "Buttermilk Pancakes inspired by Twin Peaks", 
         "published_date": "2017-05-18T00:00:00+00:00", 
@@ -2274,6 +2544,7 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/591dc0b9f7e0abb8563b1bd4/1531948074553/pancakes2.jpg"
       }, 
       {
+        "self": "http://localhost:5000/episode/applepie", 
         "episode_id": "applepie", 
         "name": "How To Make Apple Pie", 
         "published_date": "2016-09-23T00:00:00+00:00", 
@@ -2284,6 +2555,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/76", 
     "reference_id": 76, 
     "type": "movie", 
     "name": "Uncle Buck", 
@@ -2291,6 +2563,7 @@
     "external_link": "https://www.imdb.com/title/tt0098554/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/classicpancakes", 
         "episode_id": "classicpancakes", 
         "name": "Classic Pancakes inspired by Uncle Buck", 
         "published_date": "2019-08-20T00:00:00+00:00", 
@@ -2301,6 +2574,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/58", 
     "reference_id": 58, 
     "type": "movie", 
     "name": "Waitress", 
@@ -2308,6 +2582,7 @@
     "external_link": "https://www.imdb.com/title/tt0473308/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/piesfromwaitress", 
         "episode_id": "piesfromwaitress", 
         "name": "Pies inspired by Waitress", 
         "published_date": "2018-05-08T00:00:00+00:00", 
@@ -2318,6 +2593,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/82", 
     "reference_id": 82, 
     "type": "movie", 
     "name": "Whiplash", 
@@ -2325,6 +2601,7 @@
     "external_link": "https://www.imdb.com/title/tt2582802/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/raisinets", 
         "episode_id": "raisinets", 
         "name": "Movie Theater Popcorn & Raisinets inspired by Whiplash", 
         "published_date": "2017-09-19T00:00:00+00:00", 
@@ -2335,6 +2612,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/114", 
     "reference_id": 114, 
     "type": "tv_show", 
     "name": "You're Eating It Wrong", 
@@ -2342,6 +2620,7 @@
     "external_link": "https://www.imdb.com/title/tt5195594/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/chocolate-cake-inspired-by-matilda", 
         "episode_id": "chocolate-cake-inspired-by-matilda", 
         "name": "Chocolate Cake inspired by Matilda", 
         "published_date": "2017-06-06T00:00:00+00:00", 
@@ -2352,6 +2631,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/113", 
     "reference_id": 113, 
     "type": "youtube_channel", 
     "name": "You Suck at Cooking", 
@@ -2359,6 +2639,7 @@
     "external_link": "https://www.youtube.com/channel/UCekQr9znsk2vWxBo3YiLq2w", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/clayroastedthigh", 
         "episode_id": "clayroastedthigh", 
         "name": "Clay-Roasted Thigh inspired by Hannibal", 
         "published_date": "2017-10-31T00:00:00+00:00", 
@@ -2369,6 +2650,7 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/12", 
     "reference_id": 12, 
     "type": "movie", 
     "name": "Zoolander", 
@@ -2376,6 +2658,7 @@
     "external_link": "https://www.imdb.com/title/tt0196229/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/orangemochafrapp", 
         "episode_id": "orangemochafrapp", 
         "name": "Orange Mocha Frappuccinos inspired by Zoolander", 
         "published_date": "2019-05-29T00:00:00+00:00", 
