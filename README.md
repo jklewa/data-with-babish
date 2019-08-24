@@ -104,7 +104,16 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
         "youtube_link": "https://www.youtube.com/watch?v=...",
         "official_link": "https://www.bingingwithbabish.com/recipes/...",
         "image_link": "https://preview.image.host/image.png"
-      }
+      },
+      "ingredient_list": [
+        [
+          1.0,                   # quantity
+          "tablespoon",          # unit
+          "Butter",              # name
+          "1 tablespoon butter"  # raw text from recipe
+        ],
+        # ...
+      ]
     },
     # ...
   ]
