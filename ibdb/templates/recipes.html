@@ -49,11 +49,28 @@
       <a name="r{{r.id}}"></a>
       <h3>{{ r.name }} <small>(id: {{ r.id }})</small></h3>
       <div class="details">
-        ingredients:
-        <pre>{{ r.raw_ingredient_list }}</pre>
-        procedure:
-        <pre>{{ r.raw_procedure }}</pre>
-        source: {{ r.episode.name }} | {{ r.episode.published_date.strftime('%Y-%m-%d') }} <a href="/episodes#{{ r.episode.id }}">Link</a>
+        <p>
+          source: {{ r.episode.name }} | {{ r.episode.published_date.strftime('%Y-%m-%d') }} <a href="/episodes#{{ r.episode.id }}">Link</a>
+        </p>
+
+        <p>
+          procedure:
+          <pre>{{ r.raw_procedure }}</pre>
+        </p>
+
+        <p>
+          ingredients:
+          <pre>{{ r.raw_ingredient_list }}</pre>
+        </p>
+
+        <p>
+          parsed ingredients:
+          <ul>
+          {% for i in r.ingredient_list() %}
+            <li>{{ i | tojson }}</li>
+          {% endfor %}
+          </ul>
+        </p>
       </div>
     {% endfor %}
   </body>

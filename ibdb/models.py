@@ -158,8 +158,13 @@ class Recipe(Base):
             'raw_procedure': self.raw_procedure,
             **({
                 'source': self.episode.serialize(False),
-                'ingredient_list': [
-                    RecipeParser.parse_ingredient(i) for i in self.raw_ingredient_list.splitlines() if not 'For the' in i
-                ]
+                'ingredient_list': self.ingredient_list(),
             } if related else {})
         }
+
+    def ingredient_list(self):
+        return [
+            RecipeParser.parse_ingredient(i)
+            for i in self.raw_ingredient_list.splitlines()
+            if not 'For the ' in i
+        ]
