@@ -4,6 +4,8 @@ from sqlalchemy.orm import relationship
 from flask_sqlalchemy import SQLAlchemy
 from flask import request
 
+from recipe_parser import RecipeParser
+
 db = SQLAlchemy()
 Base = db.Model
 metadata = Base.metadata
@@ -155,6 +157,9 @@ class Recipe(Base):
             'raw_ingredient_list': self.raw_ingredient_list,
             'raw_procedure': self.raw_procedure,
             **({
-                'source': self.episode.serialize(False)
+                'source': self.episode.serialize(False),
+                'ingredient_list': [
+                    RecipeParser.parse_ingredient(i) for i in self.raw_ingredient_list.splitlines() if not 'For the' in i
+                ]
             } if related else {})
         }
