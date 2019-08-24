@@ -50,7 +50,7 @@
     <h1>Episodes <a href="?format=json">JSON</a></h1>
     {% for ep in episodes %}
       <a name="{{ep.id}}"></a>
-      <h3>{{ep.name}} <small>(id: {{ep.id}})</small></h3>
+      <h3>{{loop.revindex}}. {{ep.name}} <small>(id: {{ep.id}})</small></h3>
       Published: {{ep.published_date.strftime('%Y-%m-%d')}} |
       <a href="{{ep.youtube_link}}">Youtube</a> |
       <a href="{{ep.official_link}}">Official</a> |
