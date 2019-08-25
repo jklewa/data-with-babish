@@ -156,9 +156,9 @@ class Recipe(Base):
             'name': self.name,
             'raw_ingredient_list': self.raw_ingredient_list,
             'raw_procedure': self.raw_procedure,
+            'ingredient_list': self.ingredient_list(),
             **({
                 'source': self.episode.serialize(False),
-                'ingredient_list': self.ingredient_list(),
             } if related else {})
         }
 

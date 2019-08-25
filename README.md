@@ -53,7 +53,16 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
             "recipe_id": 1,
             "name": "Recipe Name",
             "raw_ingredient_list": "Ingedient 1\nIngredient 2\n...",
-            "raw_procedure": "Step 1.\nStep 2.\n..."
+            "raw_procedure": "Step 1.\nStep 2.\n...",
+            "ingredient_list": [
+              [
+                1.0,                   # quantity
+                "tablespoon",          # unit
+                "Butter",              # name
+                "1 tablespoon butter"  # raw text from recipe
+              ],
+              # ...
+            ]
           }
         ]
       }
