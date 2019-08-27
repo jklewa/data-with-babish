@@ -20391,7 +20391,53 @@
           "external_link": "https://www.imdb.com/title/tt2883512/"
         }
       ], 
-      "recipes": []
+      "recipes": [
+        {
+          "self": "http://localhost:5000/recipe/520", 
+          "recipe_id": 520, 
+          "name": "Chef Carl Casper's Grilled Cheese", 
+          "raw_ingredient_list": "Gruyere Cheese\nCheddar Cheese\nParmesan Cheese\nButter\nSourdough Bread\nPatience", 
+          "raw_procedure": "See https://www.youtube.com/watch?v=hwjdXBxeWsc", 
+          "ingredient_list": [
+            [
+              null, 
+              null, 
+              "Gruyere Cheese", 
+              "Gruyere Cheese"
+            ], 
+            [
+              null, 
+              null, 
+              "Cheddar Cheese", 
+              "Cheddar Cheese"
+            ], 
+            [
+              null, 
+              null, 
+              "Parmesan Cheese", 
+              "Parmesan Cheese"
+            ], 
+            [
+              null, 
+              null, 
+              "Butter", 
+              "Butter"
+            ], 
+            [
+              null, 
+              null, 
+              "Sourdough Bread", 
+              "Sourdough Bread"
+            ], 
+            [
+              null, 
+              null, 
+              "Patience", 
+              "Patience"
+            ]
+          ]
+        }
+      ]
     }
   }, 
   {
@@ -34156,6 +34202,43 @@
               "\u00bd cup rum"
             ]
           ]
+        }
+      ]
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/episode/loversdelightsundae", 
+    "episode_id": "loversdelightsundae", 
+    "name": "Lovers' Delight Sundae from 30 Rock", 
+    "published_date": "2017-02-06T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=iX7Dzr2whWQ", 
+    "official_link": "https://www.youtube.com/watch?v=iX7Dzr2whWQ", 
+    "image_link": " ", 
+    "related": {
+      "show": {
+        "self": "http://localhost:5000/show/1", 
+        "show_id": 1, 
+        "name": "Binging with Babish"
+      }, 
+      "guests": [], 
+      "inspired_by": [
+        {
+          "self": "http://localhost:5000/reference/50", 
+          "reference_id": 50, 
+          "type": "tv_show", 
+          "name": "30 Rock", 
+          "description": "Liz Lemon, head writer of the sketch comedy show \"TGS with Tracy Jordan\", must deal with an arrogant new boss and a crazy new star, all while trying to run a successful television show without losing her mind. IMDb.", 
+          "external_link": "https://www.imdb.com/title/tt0496424/"
+        }
+      ], 
+      "recipes": [
+        {
+          "self": "http://localhost:5000/recipe/519", 
+          "recipe_id": 519, 
+          "name": "Lovers' Delight Sundae", 
+          "raw_ingredient_list": "", 
+          "raw_procedure": "", 
+          "ingredient_list": []
         }
       ]
     }

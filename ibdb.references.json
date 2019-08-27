@@ -24,6 +24,15 @@
         "youtube_link": "https://www.youtube.com/watch?v=atLL2Yzi3bg", 
         "official_link": "https://www.bingingwithbabish.com/recipes/cheesyblasters", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5afb4309352f53356e3beefa/1531771950498/Screen+Shot+2018-05-15+at+3.30.41+PM.png"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/loversdelightsundae", 
+        "episode_id": "loversdelightsundae", 
+        "name": "Lovers' Delight Sundae from 30 Rock", 
+        "published_date": "2017-02-06T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=iX7Dzr2whWQ", 
+        "official_link": "https://www.youtube.com/watch?v=iX7Dzr2whWQ", 
+        "image_link": " "
       }
     ]
   }, 

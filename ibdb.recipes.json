@@ -6898,6 +6898,60 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/520", 
+    "recipe_id": 520, 
+    "name": "Chef Carl Casper's Grilled Cheese", 
+    "raw_ingredient_list": "Gruyere Cheese\nCheddar Cheese\nParmesan Cheese\nButter\nSourdough Bread\nPatience", 
+    "raw_procedure": "See https://www.youtube.com/watch?v=hwjdXBxeWsc", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Gruyere Cheese", 
+        "Gruyere Cheese"
+      ], 
+      [
+        null, 
+        null, 
+        "Cheddar Cheese", 
+        "Cheddar Cheese"
+      ], 
+      [
+        null, 
+        null, 
+        "Parmesan Cheese", 
+        "Parmesan Cheese"
+      ], 
+      [
+        null, 
+        null, 
+        "Butter", 
+        "Butter"
+      ], 
+      [
+        null, 
+        null, 
+        "Sourdough Bread", 
+        "Sourdough Bread"
+      ], 
+      [
+        null, 
+        null, 
+        "Patience", 
+        "Patience"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/grilledcheesevidcon", 
+      "episode_id": "grilledcheesevidcon", 
+      "name": "National Grilled Cheese Day + VidCon Announcement", 
+      "published_date": "2018-04-11T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=hwjdXBxeWsc", 
+      "official_link": "https://www.youtube.com/watch?v=hwjdXBxeWsc", 
+      "image_link": " "
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/450", 
     "recipe_id": 450, 
     "name": "Chef's Chocolate Salty Balls", 
@@ -19206,6 +19260,23 @@
       "youtube_link": "https://www.youtube.com/watch?v=8ckxhlDFNkg&t=1s", 
       "official_link": "https://basicswithbabish.co/basicsepisodes/biggamesnacks", 
       "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5bc8ddedb208fc3230d6f276/1550177839629/basicsbiggame.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/519", 
+    "recipe_id": 519, 
+    "name": "Lovers' Delight Sundae", 
+    "raw_ingredient_list": "", 
+    "raw_procedure": "", 
+    "ingredient_list": [], 
+    "source": {
+      "self": "http://localhost:5000/episode/loversdelightsundae", 
+      "episode_id": "loversdelightsundae", 
+      "name": "Lovers' Delight Sundae from 30 Rock", 
+      "published_date": "2017-02-06T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=iX7Dzr2whWQ", 
+      "official_link": "https://www.youtube.com/watch?v=iX7Dzr2whWQ", 
+      "image_link": " "
     }
   }, 
   {
