@@ -41,11 +41,11 @@ def index():
 
 @app.route('/episodes')
 def episodes():
-    episodes = Episode.query.order_by(Episode.published_date.desc()).all()
+    episodes = Episode.query.order_by(Episode.published_date.desc(), Episode.id).all()
     if request.args.get('format', None) == 'json':
         return jsonify([e.serialize() for e in episodes])
     else:
-        references = Reference.query.order_by(Reference.name).all()
+        references = Reference.query.order_by(Reference.name, Reference.id).all()
         shows = Show.query.order_by(Show.id).all()
         return render_template('episodes.html', episodes=episodes, references=references, shows=shows)
 
@@ -84,11 +84,11 @@ def episode_by(id):
 
 @app.route('/recipes')
 def recipes():
-    recipes = Recipe.query.order_by(Recipe.name).all()
+    recipes = Recipe.query.order_by(Recipe.name, Recipe.id).all()
     if request.args.get('format', None) == 'json':
         return jsonify([r.serialize() for r in recipes])
     else:
-        episodes = Episode.query.order_by(Episode.published_date.desc()).all()
+        episodes = Episode.query.order_by(Episode.published_date.desc(), Episode.id).all()
         return render_template('recipes.html', recipes=recipes, episodes=episodes)
 
 
@@ -119,7 +119,7 @@ def guests():
     if request.args.get('format', None) == 'json':
         return jsonify([g.serialize() for g in guests])
     else:
-        episodes = Episode.query.order_by(Episode.published_date.desc()).all()
+        episodes = Episode.query.order_by(Episode.published_date.desc(), Episode.id).all()
         return render_template('guests.html', guests=guests, episodes=episodes)
 
 
@@ -156,11 +156,11 @@ def guest_by(id):
 
 @app.route('/references')
 def references():
-    references = Reference.query.order_by(Reference.name).all()
+    references = Reference.query.order_by(Reference.name, Reference.id).all()
     if request.args.get('format', None) == 'json':
         return jsonify([r.serialize() for r in references])
     else:
-        episodes = Episode.query.order_by(Episode.published_date.desc()).all()
+        episodes = Episode.query.order_by(Episode.published_date.desc(), Episode.id).all()
         return render_template('references.html', references=references, episodes=episodes)
 
 

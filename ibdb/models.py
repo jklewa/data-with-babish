@@ -1,6 +1,6 @@
 # coding: utf-8
 from sqlalchemy import Column, DateTime, ForeignKey, Integer, String, Table, Text, text
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import relationship, backref
 from flask_sqlalchemy import SQLAlchemy
 from flask import request
 
@@ -88,14 +88,25 @@ class Episode(Base):
     show_id = Column(ForeignKey('show.id'), nullable=False)
     image_link = Column(String)
 
+    _backref_order_by = 'Episode.published_date.desc(),Episode.id'
+
     show = relationship('Show',
-                        backref='episodes')
-    guests = relationship('Guest', secondary='guest_appearances',
-                          backref='appearances')
-    inspired_by = relationship('Reference', secondary='episode_inspired_by',
-                               backref='episodes_inspired')
-    recipes = relationship('Recipe',
-                           backref='episode')
+                        order_by='Show.id',
+                        backref=backref('episodes',
+                                        order_by=_backref_order_by))
+    guests = relationship('Guest',
+                          secondary='guest_appearances',
+                          order_by='Guest.name,Guest.id',
+                          backref=backref('appearances',
+                                          order_by=_backref_order_by))
+    inspired_by = relationship('Reference',
+                               secondary='episode_inspired_by',
+                               order_by='Reference.name,Reference.id',
+                               backref=backref('episodes_inspired',
+                                               order_by=_backref_order_by))
+    recipes = relationship('Recipe', order_by='Recipe.name,Recipe.id',
+                           backref=backref('episode',
+                                           order_by=_backref_order_by))
 
     def serialize(self, related=True):
         return {

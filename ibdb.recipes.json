@@ -959,78 +959,6 @@
     }
   }, 
   {
-    "self": "http://localhost:5000/recipe/126", 
-    "recipe_id": 126, 
-    "name": "Bagels", 
-    "raw_ingredient_list": "1 cup plus 2 tablespoons ice water (9 ounces)\n2 tablespoons malt syrup\n2 \u2154 cups (14 2/3 ounces) bread flour\n4 teaspoons vital wheat gluten\n2 teaspoons instant or rapid-rise yeast\n2 teaspoons salt\n\u00bc cup (1 1/4 ounces) cornmeal\n\u00bc cup (1 3/4 ounces) sugar\n1 tablespoon baking soda", 
-    "raw_procedure": "In a food processor add: 14.66 ounces of bread flour, 4 tsp of vital wheat gluten, and 2 tsp of instant yeast. Pulse to combine.\nNext combine 9 ounces of cold water and 2 Tbsp of malt syrup in a bowl. Whisk to mix. Turn food processor on low and add the cold water and malt syrup mixture. Mix for about 20 seconds, stop, and let it sit for 10 minutes. Once it has rested for 10 minutes, add 2 tsp of salt. Turn the food processor on medium to high for about 90 seconds.\nRemove dough from food processor and knead for about a minute. Next, divide dough into 3.5 ounce pieces. Roll the pieces into tight balls and cover with plastic wrap and let rest for 15 minutes. Once they have rested, decide which method you will use to turn your balls of dough into bagels. For the best tutorial, watch the episode to see the difference in the methods.\nOption 1 - Twist Method: Roll out a piece of dough with a rolling pin until it\u2019s roughly 5 inches across. Next, start from one end of the circle and start rolling the dough onto itself. Once it is rolled into a tight roll that is 9-10 inches long, it\u2019s time to twist the dough. Place one hand on each side of the dough roll and then roll the ends in opposite directions to create the \u201ctwist\u201d. Wrap the dough around your hand and then pinch the ends together. With the ring of dough still wrapped around your hand, roll the dough on your work surface to seal together.\nOption 2 - Punch Method: Take a ball of dough and place it on your work surface. Stick one finger into the center and shake the dough around your finger until a round hole forms. Pick up the dough and shape it with two fingers, coaxing it into a bagel shape. This method is easier, but doesn\u2019t yield as great of a bagel texture as the twist method.\nPlace the bagels on a baking sheet covered in cornmeal. Cover that with plastic wrap and let sit for an hour. Once they\u2019ve sat for an hour, place them in the fridge overnight or for 24 hours.\nBring water in a pot to a boil and add \u00bc cup of sugar and 1 Tbsp of baking soda. Add the bagels to the water and boil for about 20 seconds on each side.\nRemove and place them on a wire rimmed baking sheet, making sure the cornmeal side is down. If you\u2019d like to add toppings, now is the time to do it.\nAdd \u00bd cup of boiling water to the bottom of the pan and then place in the oven at 450\u00b0F for 20 to 25 minutes flipping them halfway through.\nLet cool, serve, and enjoy!", 
-    "ingredient_list": [
-      [
-        1.0, 
-        "cup", 
-        "Plus 2 Tablespoons Ice Water", 
-        "1 cup plus 2 tablespoons ice water (9 ounces)"
-      ], 
-      [
-        2.0, 
-        "tablespoon", 
-        "Malt Syrup", 
-        "2 tablespoons malt syrup"
-      ], 
-      [
-        2.6666666666666665, 
-        "cup", 
-        "Bread Flour", 
-        "2 \u2154 cups (14 2/3 ounces) bread flour"
-      ], 
-      [
-        4.0, 
-        "teaspoon", 
-        "Vital Wheat Gluten", 
-        "4 teaspoons vital wheat gluten"
-      ], 
-      [
-        2.0, 
-        "teaspoon", 
-        "Instant Or Rapid-rise Yeast", 
-        "2 teaspoons instant or rapid-rise yeast"
-      ], 
-      [
-        2.0, 
-        "teaspoon", 
-        "Salt", 
-        "2 teaspoons salt"
-      ], 
-      [
-        0.25, 
-        "cup", 
-        "Cornmeal", 
-        "\u00bc cup (1 1/4 ounces) cornmeal"
-      ], 
-      [
-        0.25, 
-        "cup", 
-        "Sugar", 
-        "\u00bc cup (1 3/4 ounces) sugar"
-      ], 
-      [
-        1.0, 
-        "tablespoon", 
-        "Baking Soda", 
-        "1 tablespoon baking soda"
-      ]
-    ], 
-    "source": {
-      "self": "http://localhost:5000/episode/bagels", 
-      "episode_id": "bagels", 
-      "name": "BAGELS", 
-      "published_date": "2019-01-24T00:00:00+00:00", 
-      "youtube_link": "https://www.youtube.com/watch?v=ZrJtpCTZk38", 
-      "official_link": "https://basicswithbabish.co/basicsepisodes/bagels", 
-      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5c4a23342b6a28456b2d8fcf/1554399377906/Screen+Shot+2019-01-24+at+2.44.56+PM.png"
-    }
-  }, 
-  {
     "self": "http://localhost:5000/recipe/18", 
     "recipe_id": 18, 
     "name": "Bagels", 
@@ -1106,6 +1034,78 @@
       "youtube_link": "https://www.youtube.com/watch?v=wv43IN_cnyw", 
       "official_link": "https://www.bingingwithbabish.com/recipes/bagelsandwiches", 
       "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d376d9e3982090001b86a54/1563914248439/Screen+Shot+2019-07-23+at+9.47.53+AM.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/126", 
+    "recipe_id": 126, 
+    "name": "Bagels", 
+    "raw_ingredient_list": "1 cup plus 2 tablespoons ice water (9 ounces)\n2 tablespoons malt syrup\n2 \u2154 cups (14 2/3 ounces) bread flour\n4 teaspoons vital wheat gluten\n2 teaspoons instant or rapid-rise yeast\n2 teaspoons salt\n\u00bc cup (1 1/4 ounces) cornmeal\n\u00bc cup (1 3/4 ounces) sugar\n1 tablespoon baking soda", 
+    "raw_procedure": "In a food processor add: 14.66 ounces of bread flour, 4 tsp of vital wheat gluten, and 2 tsp of instant yeast. Pulse to combine.\nNext combine 9 ounces of cold water and 2 Tbsp of malt syrup in a bowl. Whisk to mix. Turn food processor on low and add the cold water and malt syrup mixture. Mix for about 20 seconds, stop, and let it sit for 10 minutes. Once it has rested for 10 minutes, add 2 tsp of salt. Turn the food processor on medium to high for about 90 seconds.\nRemove dough from food processor and knead for about a minute. Next, divide dough into 3.5 ounce pieces. Roll the pieces into tight balls and cover with plastic wrap and let rest for 15 minutes. Once they have rested, decide which method you will use to turn your balls of dough into bagels. For the best tutorial, watch the episode to see the difference in the methods.\nOption 1 - Twist Method: Roll out a piece of dough with a rolling pin until it\u2019s roughly 5 inches across. Next, start from one end of the circle and start rolling the dough onto itself. Once it is rolled into a tight roll that is 9-10 inches long, it\u2019s time to twist the dough. Place one hand on each side of the dough roll and then roll the ends in opposite directions to create the \u201ctwist\u201d. Wrap the dough around your hand and then pinch the ends together. With the ring of dough still wrapped around your hand, roll the dough on your work surface to seal together.\nOption 2 - Punch Method: Take a ball of dough and place it on your work surface. Stick one finger into the center and shake the dough around your finger until a round hole forms. Pick up the dough and shape it with two fingers, coaxing it into a bagel shape. This method is easier, but doesn\u2019t yield as great of a bagel texture as the twist method.\nPlace the bagels on a baking sheet covered in cornmeal. Cover that with plastic wrap and let sit for an hour. Once they\u2019ve sat for an hour, place them in the fridge overnight or for 24 hours.\nBring water in a pot to a boil and add \u00bc cup of sugar and 1 Tbsp of baking soda. Add the bagels to the water and boil for about 20 seconds on each side.\nRemove and place them on a wire rimmed baking sheet, making sure the cornmeal side is down. If you\u2019d like to add toppings, now is the time to do it.\nAdd \u00bd cup of boiling water to the bottom of the pan and then place in the oven at 450\u00b0F for 20 to 25 minutes flipping them halfway through.\nLet cool, serve, and enjoy!", 
+    "ingredient_list": [
+      [
+        1.0, 
+        "cup", 
+        "Plus 2 Tablespoons Ice Water", 
+        "1 cup plus 2 tablespoons ice water (9 ounces)"
+      ], 
+      [
+        2.0, 
+        "tablespoon", 
+        "Malt Syrup", 
+        "2 tablespoons malt syrup"
+      ], 
+      [
+        2.6666666666666665, 
+        "cup", 
+        "Bread Flour", 
+        "2 \u2154 cups (14 2/3 ounces) bread flour"
+      ], 
+      [
+        4.0, 
+        "teaspoon", 
+        "Vital Wheat Gluten", 
+        "4 teaspoons vital wheat gluten"
+      ], 
+      [
+        2.0, 
+        "teaspoon", 
+        "Instant Or Rapid-rise Yeast", 
+        "2 teaspoons instant or rapid-rise yeast"
+      ], 
+      [
+        2.0, 
+        "teaspoon", 
+        "Salt", 
+        "2 teaspoons salt"
+      ], 
+      [
+        0.25, 
+        "cup", 
+        "Cornmeal", 
+        "\u00bc cup (1 1/4 ounces) cornmeal"
+      ], 
+      [
+        0.25, 
+        "cup", 
+        "Sugar", 
+        "\u00bc cup (1 3/4 ounces) sugar"
+      ], 
+      [
+        1.0, 
+        "tablespoon", 
+        "Baking Soda", 
+        "1 tablespoon baking soda"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/bagels", 
+      "episode_id": "bagels", 
+      "name": "BAGELS", 
+      "published_date": "2019-01-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=ZrJtpCTZk38", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/bagels", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5c4a23342b6a28456b2d8fcf/1554399377906/Screen+Shot+2019-01-24+at+2.44.56+PM.png"
     }
   }, 
   {
@@ -3539,6 +3539,96 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/93", 
+    "recipe_id": 93, 
+    "name": "Bread", 
+    "raw_ingredient_list": "400 ml of water\nPacket of instant yeast\n650g of all purpose flour\n50g of sugar\n5g of salt\n90g of unsalted butter\nPlastic wrap\nParchment paper\nA little oil\nSalt\nPepper\nBacon fat", 
+    "raw_procedure": "Combine 100 ml of water, at 110\u00b0F, with one packet of instant yeast and 325g of all purpose flour along with 50g of sugar, 5g of salt, and 45g of unsalted butter at room temperature.\nStir to combine before adding 300 ml of water and stirring to create a pancake batter like paste, and then add the remaining 325g of flour and stir until a shaggy dough forms.\nTurn out onto a counter top and knead for 7-9 minutes until a smooth supple dough forms.\nGenerously oil a large bowl and place the dough inside. Roll the dough around a little to make sure it\u2019s evenly coated in oil.\nCover with plastic wrap and let sit at room temperature for 45 minutes to an hour until the dough has doubled in size.\nTurn out onto a lightly floured countertop and punch down until it\u2019s back to its original size and then start forming into a loaf. Make sure to tuck it under itself to make sure it gets that nice loaf top.\nPlace in a loaf pan that is coated with butter and parchment paper and loosely cover with plastic wrap. Let sit at room temperature for one hour until it has doubled in size.\nBrush the loaf down with butter and place in a 400\u00b0 oven for 25-35 minutes.\nRemove from the oven and brush it down again with some more butter and let sit overnight.", 
+    "ingredient_list": [
+      [
+        400.0, 
+        "ml", 
+        "Water", 
+        "400 ml of water"
+      ], 
+      [
+        null, 
+        null, 
+        "Instant Yeast", 
+        "Packet of instant yeast"
+      ], 
+      [
+        650.0, 
+        "gram", 
+        "All Purpose Flour", 
+        "650g of all purpose flour"
+      ], 
+      [
+        50.0, 
+        "gram", 
+        "Sugar", 
+        "50g of sugar"
+      ], 
+      [
+        5.0, 
+        "gram", 
+        "Salt", 
+        "5g of salt"
+      ], 
+      [
+        90.0, 
+        "gram", 
+        "Unsalted Butter", 
+        "90g of unsalted butter"
+      ], 
+      [
+        null, 
+        null, 
+        "Plastic Wrap", 
+        "Plastic wrap"
+      ], 
+      [
+        null, 
+        null, 
+        "Parchment Paper", 
+        "Parchment paper"
+      ], 
+      [
+        null, 
+        null, 
+        "A Little Oil", 
+        "A little oil"
+      ], 
+      [
+        null, 
+        null, 
+        "Salt", 
+        "Salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Pepper", 
+        "Pepper"
+      ], 
+      [
+        null, 
+        null, 
+        "Bacon Fat", 
+        "Bacon fat"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/grilledcheesedeluxe", 
+      "episode_id": "grilledcheesedeluxe", 
+      "name": "Grilled Cheese Deluxe inspired by Regular Show", 
+      "published_date": "2019-04-16T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=NFAN6L7xnvY", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/grilledcheesedeluxe", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5cb6338c971a1852597d308f/1555444922610/Screen+Shot+2019-04-16+at+3.01.37+PM.png"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/327", 
     "recipe_id": 327, 
     "name": "Bread", 
@@ -3674,96 +3764,6 @@
       "youtube_link": "https://www.youtube.com/watch?v=A_l8_C-EO38", 
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/worldsgreatestsandwich", 
       "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a09f96d9140b7f3b7daca8f/1532030586458/Screen+Shot+2017-11-13+at+2.17.32+PM.png"
-    }
-  }, 
-  {
-    "self": "http://localhost:5000/recipe/93", 
-    "recipe_id": 93, 
-    "name": "Bread", 
-    "raw_ingredient_list": "400 ml of water\nPacket of instant yeast\n650g of all purpose flour\n50g of sugar\n5g of salt\n90g of unsalted butter\nPlastic wrap\nParchment paper\nA little oil\nSalt\nPepper\nBacon fat", 
-    "raw_procedure": "Combine 100 ml of water, at 110\u00b0F, with one packet of instant yeast and 325g of all purpose flour along with 50g of sugar, 5g of salt, and 45g of unsalted butter at room temperature.\nStir to combine before adding 300 ml of water and stirring to create a pancake batter like paste, and then add the remaining 325g of flour and stir until a shaggy dough forms.\nTurn out onto a counter top and knead for 7-9 minutes until a smooth supple dough forms.\nGenerously oil a large bowl and place the dough inside. Roll the dough around a little to make sure it\u2019s evenly coated in oil.\nCover with plastic wrap and let sit at room temperature for 45 minutes to an hour until the dough has doubled in size.\nTurn out onto a lightly floured countertop and punch down until it\u2019s back to its original size and then start forming into a loaf. Make sure to tuck it under itself to make sure it gets that nice loaf top.\nPlace in a loaf pan that is coated with butter and parchment paper and loosely cover with plastic wrap. Let sit at room temperature for one hour until it has doubled in size.\nBrush the loaf down with butter and place in a 400\u00b0 oven for 25-35 minutes.\nRemove from the oven and brush it down again with some more butter and let sit overnight.", 
-    "ingredient_list": [
-      [
-        400.0, 
-        "ml", 
-        "Water", 
-        "400 ml of water"
-      ], 
-      [
-        null, 
-        null, 
-        "Instant Yeast", 
-        "Packet of instant yeast"
-      ], 
-      [
-        650.0, 
-        "gram", 
-        "All Purpose Flour", 
-        "650g of all purpose flour"
-      ], 
-      [
-        50.0, 
-        "gram", 
-        "Sugar", 
-        "50g of sugar"
-      ], 
-      [
-        5.0, 
-        "gram", 
-        "Salt", 
-        "5g of salt"
-      ], 
-      [
-        90.0, 
-        "gram", 
-        "Unsalted Butter", 
-        "90g of unsalted butter"
-      ], 
-      [
-        null, 
-        null, 
-        "Plastic Wrap", 
-        "Plastic wrap"
-      ], 
-      [
-        null, 
-        null, 
-        "Parchment Paper", 
-        "Parchment paper"
-      ], 
-      [
-        null, 
-        null, 
-        "A Little Oil", 
-        "A little oil"
-      ], 
-      [
-        null, 
-        null, 
-        "Salt", 
-        "Salt"
-      ], 
-      [
-        null, 
-        null, 
-        "Pepper", 
-        "Pepper"
-      ], 
-      [
-        null, 
-        null, 
-        "Bacon Fat", 
-        "Bacon fat"
-      ]
-    ], 
-    "source": {
-      "self": "http://localhost:5000/episode/grilledcheesedeluxe", 
-      "episode_id": "grilledcheesedeluxe", 
-      "name": "Grilled Cheese Deluxe inspired by Regular Show", 
-      "published_date": "2019-04-16T00:00:00+00:00", 
-      "youtube_link": "https://www.youtube.com/watch?v=NFAN6L7xnvY", 
-      "official_link": "https://www.bingingwithbabish.com/recipes/grilledcheesedeluxe", 
-      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5cb6338c971a1852597d308f/1555444922610/Screen+Shot+2019-04-16+at+3.01.37+PM.png"
     }
   }, 
   {
@@ -5986,60 +5986,6 @@
     }
   }, 
   {
-    "self": "http://localhost:5000/recipe/243", 
-    "recipe_id": 243, 
-    "name": "Car Panini", 
-    "raw_ingredient_list": "White bread\nButter\n1 small can of vienna sausages\n1 bag of Doritos\n1 Cadbury Egg\n4 Reese\u2019s Peanut Butter Cups", 
-    "raw_procedure": "Start by draining your can of vienna sausages and setting them aside. Butter each slice of bread on 1 side and then start layering.\nStart with 1 layer of sausage, followed by 4 Reese\u2019s Peanut Butter Cups, some crushed Doritos and 1 Cadbury Egg.\nCover with the non buttered side of bread, and place on your panini press. Cook until golden brown and the chocolate has melted inside.\nServe and enjoy!", 
-    "ingredient_list": [
-      [
-        null, 
-        null, 
-        "White Bread", 
-        "White bread"
-      ], 
-      [
-        null, 
-        null, 
-        "Butter", 
-        "Butter"
-      ], 
-      [
-        1.0, 
-        "small", 
-        "Vienna Sausages", 
-        "1 small can of vienna sausages"
-      ], 
-      [
-        1.0, 
-        null, 
-        "Doritos", 
-        "1 bag of Doritos"
-      ], 
-      [
-        1.0, 
-        null, 
-        "Cadbury Egg", 
-        "1 Cadbury Egg"
-      ], 
-      [
-        4.0, 
-        null, 
-        "Reese's Peanut Butter Cups", 
-        "4 Reese\u2019s Peanut Butter Cups"
-      ]
-    ], 
-    "source": {
-      "self": "http://localhost:5000/episode/carpanini", 
-      "episode_id": "carpanini", 
-      "name": "Car Panini inspired by Family Guy", 
-      "published_date": "2018-07-10T00:00:00+00:00", 
-      "youtube_link": "https://www.youtube.com/watch?v=4Rz8BPRFeiA", 
-      "official_link": "https://www.bingingwithbabish.com/recipes/carpanini", 
-      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5b44cdbaf950b755901a91d9/1531846357073/Screen+Shot+2018-07-10+at+10.18.23+AM.png"
-    }
-  }, 
-  {
     "self": "http://localhost:5000/recipe/226", 
     "recipe_id": 226, 
     "name": "Car Panini", 
@@ -6259,6 +6205,60 @@
       "youtube_link": "https://youtu.be/ImoP-Apzrsg?t=11m22s", 
       "official_link": "https://www.bingingwithbabish.com/recipes/babishpaniniwinner", 
       "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5b73056588251be526a188e4/1534879199034/Screen+Shot+2018-08-21+at+2.03.19+PM.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/243", 
+    "recipe_id": 243, 
+    "name": "Car Panini", 
+    "raw_ingredient_list": "White bread\nButter\n1 small can of vienna sausages\n1 bag of Doritos\n1 Cadbury Egg\n4 Reese\u2019s Peanut Butter Cups", 
+    "raw_procedure": "Start by draining your can of vienna sausages and setting them aside. Butter each slice of bread on 1 side and then start layering.\nStart with 1 layer of sausage, followed by 4 Reese\u2019s Peanut Butter Cups, some crushed Doritos and 1 Cadbury Egg.\nCover with the non buttered side of bread, and place on your panini press. Cook until golden brown and the chocolate has melted inside.\nServe and enjoy!", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "White Bread", 
+        "White bread"
+      ], 
+      [
+        null, 
+        null, 
+        "Butter", 
+        "Butter"
+      ], 
+      [
+        1.0, 
+        "small", 
+        "Vienna Sausages", 
+        "1 small can of vienna sausages"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Doritos", 
+        "1 bag of Doritos"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Cadbury Egg", 
+        "1 Cadbury Egg"
+      ], 
+      [
+        4.0, 
+        null, 
+        "Reese's Peanut Butter Cups", 
+        "4 Reese\u2019s Peanut Butter Cups"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/carpanini", 
+      "episode_id": "carpanini", 
+      "name": "Car Panini inspired by Family Guy", 
+      "published_date": "2018-07-10T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=4Rz8BPRFeiA", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/carpanini", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5b44cdbaf950b755901a91d9/1531846357073/Screen+Shot+2018-07-10+at+10.18.23+AM.png"
     }
   }, 
   {
@@ -7641,6 +7641,72 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/11", 
+    "recipe_id": 11, 
+    "name": "Chicken Stock", 
+    "raw_ingredient_list": "Chicken wings and spine pieces\nVegetable oil\nOnion\nCarrots\nCelery\nFresh thyme\nHalved head of garlic\n8 cups cold water", 
+    "raw_procedure": "Add chicken bones and vegetables to a large saucepan with oil. Brown all of the pieces.\nOnce the chicken has some color on it, deglaze the pot with 8 cups of cold water.\nBring the whole thing to simmer lower heat until it reaches a bare simmer, and keep it there for about 4 hours.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Chicken Wings And Spine Pieces", 
+        "Chicken wings and spine pieces"
+      ], 
+      [
+        null, 
+        null, 
+        "Vegetable Oil", 
+        "Vegetable oil"
+      ], 
+      [
+        null, 
+        null, 
+        "Onion", 
+        "Onion"
+      ], 
+      [
+        null, 
+        null, 
+        "Carrots", 
+        "Carrots"
+      ], 
+      [
+        null, 
+        null, 
+        "Celery", 
+        "Celery"
+      ], 
+      [
+        null, 
+        null, 
+        "Fresh Thyme", 
+        "Fresh thyme"
+      ], 
+      [
+        null, 
+        null, 
+        "Garlic", 
+        "Halved head of garlic"
+      ], 
+      [
+        8.0, 
+        "cup", 
+        "Water", 
+        "8 cups cold water"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/kfcmeal", 
+      "episode_id": "kfcmeal", 
+      "name": "KFC Bucket Meal inspired by Stranger Things", 
+      "published_date": "2019-08-07T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=WtAoc3_1Ido", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/kfcmeal", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d24fbe191dadb00014eb138/1565196335964/Screen+Shot+2019-07-09+at+4.09.07+PM.png"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/340", 
     "recipe_id": 340, 
     "name": "Chicken Stock", 
@@ -7776,72 +7842,6 @@
       "youtube_link": "https://www.youtube.com/watch?v=74tZ-yOOPy0", 
       "official_link": "https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr", 
       "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5a57932f085229f556d5f843/1516896363226/ChickenNoodles.png"
-    }
-  }, 
-  {
-    "self": "http://localhost:5000/recipe/11", 
-    "recipe_id": 11, 
-    "name": "Chicken Stock", 
-    "raw_ingredient_list": "Chicken wings and spine pieces\nVegetable oil\nOnion\nCarrots\nCelery\nFresh thyme\nHalved head of garlic\n8 cups cold water", 
-    "raw_procedure": "Add chicken bones and vegetables to a large saucepan with oil. Brown all of the pieces.\nOnce the chicken has some color on it, deglaze the pot with 8 cups of cold water.\nBring the whole thing to simmer lower heat until it reaches a bare simmer, and keep it there for about 4 hours.", 
-    "ingredient_list": [
-      [
-        null, 
-        null, 
-        "Chicken Wings And Spine Pieces", 
-        "Chicken wings and spine pieces"
-      ], 
-      [
-        null, 
-        null, 
-        "Vegetable Oil", 
-        "Vegetable oil"
-      ], 
-      [
-        null, 
-        null, 
-        "Onion", 
-        "Onion"
-      ], 
-      [
-        null, 
-        null, 
-        "Carrots", 
-        "Carrots"
-      ], 
-      [
-        null, 
-        null, 
-        "Celery", 
-        "Celery"
-      ], 
-      [
-        null, 
-        null, 
-        "Fresh Thyme", 
-        "Fresh thyme"
-      ], 
-      [
-        null, 
-        null, 
-        "Garlic", 
-        "Halved head of garlic"
-      ], 
-      [
-        8.0, 
-        "cup", 
-        "Water", 
-        "8 cups cold water"
-      ]
-    ], 
-    "source": {
-      "self": "http://localhost:5000/episode/kfcmeal", 
-      "episode_id": "kfcmeal", 
-      "name": "KFC Bucket Meal inspired by Stranger Things", 
-      "published_date": "2019-08-07T00:00:00+00:00", 
-      "youtube_link": "https://www.youtube.com/watch?v=WtAoc3_1Ido", 
-      "official_link": "https://www.bingingwithbabish.com/recipes/kfcmeal", 
-      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d24fbe191dadb00014eb138/1565196335964/Screen+Shot+2019-07-09+at+4.09.07+PM.png"
     }
   }, 
   {
@@ -9527,7 +9527,7 @@
       "published_date": "2019-08-20T00:00:00+00:00", 
       "youtube_link": "https://www.youtube.com/watch?v=WMj7G-U3LW8", 
       "official_link": "https://www.bingingwithbabish.com/recipes/classicpancakes", 
-      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d5bfd5b9fb0170001004f02/1566310049299/Screen+Shot+2019-08-20+at+8.48.31+AM.png"
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d5bfd5b9fb0170001004f02/1566920784562/Screen+Shot+2019-08-20+at+8.48.31+AM.png"
     }
   }, 
   {
@@ -10635,36 +10635,6 @@
     }
   }, 
   {
-    "self": "http://localhost:5000/recipe/219", 
-    "recipe_id": 219, 
-    "name": "Corn Tortillas", 
-    "raw_ingredient_list": "2 cups masa harina\n1 \u00bc cups water", 
-    "raw_procedure": "In a mixing bowl, combine 2 cups of masa harina with 1 \u00bc cups of water. Mix gently by hand and pad into a ball. Cover and let sit for 20 minutes.\nNext, take a plastic food storage bag and cut it open like a book and place it on your tortilla press. If you don\u2019t have a tortilla press, you can use a large flat pan. Take a piece of your dough and roll it into a golf ball sized piece. Place it between the plastic and using either the tortilla press or the pan, flatten your tortilla.\nPreheat a non stick or a cast iron skillet on medium-high heat. Place your freshly pressed tortilla down and let cook for about 30 seconds to 1 minute and then flip and cook for about 20 seconds. Keep your tortillas warm in a tortilla warmer or in a low oven wrapped in foil.", 
-    "ingredient_list": [
-      [
-        2.0, 
-        "cup", 
-        "Masa Harina", 
-        "2 cups masa harina"
-      ], 
-      [
-        1.25, 
-        "cup", 
-        "Water", 
-        "1 \u00bc cups water"
-      ]
-    ], 
-    "source": {
-      "self": "http://localhost:5000/episode/tacos", 
-      "episode_id": "tacos", 
-      "name": "TACOS", 
-      "published_date": "2018-08-23T00:00:00+00:00", 
-      "youtube_link": "https://www.youtube.com/watch?v=Zghe7SNmhOs", 
-      "official_link": "https://basicswithbabish.co/basicsepisodes/tacos", 
-      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5b7ef81c0ebbe8d5b49599c4/1536263146674/tacos.jpg"
-    }
-  }, 
-  {
     "self": "http://localhost:5000/recipe/38", 
     "recipe_id": 38, 
     "name": "Corn Tortillas", 
@@ -10698,6 +10668,36 @@
       "youtube_link": "https://youtu.be/pdNm4ug9PpE", 
       "official_link": "https://www.bingingwithbabish.com/recipes/huevosrancheros", 
       "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d0bd6b2af13220001e6043d/1561492886970/Screen+Shot+2019-06-20+at+2.00.14+PM.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/219", 
+    "recipe_id": 219, 
+    "name": "Corn Tortillas", 
+    "raw_ingredient_list": "2 cups masa harina\n1 \u00bc cups water", 
+    "raw_procedure": "In a mixing bowl, combine 2 cups of masa harina with 1 \u00bc cups of water. Mix gently by hand and pad into a ball. Cover and let sit for 20 minutes.\nNext, take a plastic food storage bag and cut it open like a book and place it on your tortilla press. If you don\u2019t have a tortilla press, you can use a large flat pan. Take a piece of your dough and roll it into a golf ball sized piece. Place it between the plastic and using either the tortilla press or the pan, flatten your tortilla.\nPreheat a non stick or a cast iron skillet on medium-high heat. Place your freshly pressed tortilla down and let cook for about 30 seconds to 1 minute and then flip and cook for about 20 seconds. Keep your tortillas warm in a tortilla warmer or in a low oven wrapped in foil.", 
+    "ingredient_list": [
+      [
+        2.0, 
+        "cup", 
+        "Masa Harina", 
+        "2 cups masa harina"
+      ], 
+      [
+        1.25, 
+        "cup", 
+        "Water", 
+        "1 \u00bc cups water"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/tacos", 
+      "episode_id": "tacos", 
+      "name": "TACOS", 
+      "published_date": "2018-08-23T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=Zghe7SNmhOs", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/tacos", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5b7ef81c0ebbe8d5b49599c4/1536263146674/tacos.jpg"
     }
   }, 
   {
@@ -12792,6 +12792,126 @@
       "youtube_link": "https://www.youtube.com/watch?v=OFt3SThGi7M&t=46s", 
       "official_link": "https://www.bingingwithbabish.com/recipes/baobuns", 
       "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5c6c6c4b7817f7b5c43394b0/1551211463712/Screen+Shot+2019-02-19+at+2.50.36+PM.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/518", 
+    "recipe_id": 518, 
+    "name": "Double-Glazed Apple Fritters", 
+    "raw_ingredient_list": "1 \u00be cup milk (heated to 110\u00b0F)\n2 \u00bc  tsp active dry yeast\n\u00bc cup sugar\n2 Tbsp honey\n3 eggs\n22 \u2153 ounces all purpose flour\n1 \u00bd sticks unsalted butter (room temperature), plus an additional \u00bd stick\n4 large Granny Smith apples\n\u00bd cup brown sugar\n\u00bc tsp cloves\n\u00bd tsp ground ginger\n1 tsp cinnamon\n\u00bc tsp allspice\n1 tsp cornstarch\n1 \u00bd quarts vegetable oil\n2 \u00bd cups powdered sugar (or more, if you want an extra thick glaze)\n\u00bc cup milk", 
+    "raw_procedure": "In the bowl of a stand mixer, combine warmed milk, active dry yeast, sugar, and honey. Whisk and let sit for 10 minutes.\nLightly beat 3 eggs and add to the stand mixer bowl along with the flour.\nCut butter into cubes and add to the stand mixer.\nUsing the dough hook, slowly beat the dough for a minute or two, then increase the speed to medium high and let it mix for 6 minutes. Scrape down sides of bowl halfway through the 6 minutes.\nScrape down the sides one last time and cover the bowl with plastic wrap. Let it rise at room temperature for one hour.\nWhile the dough is rising, prepare your apples. Peel all 4 apples and then dice into half-inch, bite sized cubes.\nToss the apple cubes in a bowl with the juice of one lemon.\nIn a large nonstick pan, melt \u00bd stick of unsalted butter over medium heat to lightly brown it.\nOnce you see the milk fats start to separate and change colors, add the cubed apples. Stir. Add the brown sugar and stir again.\nAdd the spices (cloves, ginger, cinnamon, and allspice) and stir to combine. Simmer, tossing occasionally, for 4-5 minutes.\nMix \u00bc cup warm water with 1 tsp cornstarch. Pour the slurry into the apples to thicken up. Stir and cook for an additional minute and then set aside.\nGenerously flour your work surface. Scrape every last bit of dough out of the bowl and onto your floured counter.\nCoax the dough into a rectangle, stretching and patting it. Dump the cooled (yes, cooled) apples onto the top of the rectangle. Spread them across the dough evenly.\nFold the dough on top of itself into thirds, like a pamphlet. This laminates the dough and apples.\nCoax the dough back into a ball, making sure the apples are evenly distributed throughout. Put back in the bowl, cover with plastic wrap, and let rest for 1 hour at room temperature again.\nRe-flour your work surface and dump the dough back out. Apples will spill out but that\u2019s okay! Liberally flour the top of the dough and then roll it out with a rolling pin to a 1-inch thickness.\nUsing a biscuit cutter, cut rounds out of the dough.\nPlace the cutout fritters onto a well floured baking sheet. Pull out the scraps and re-roll to make another round of dough.\nHeat 1 \u00bd quarts vegetable oil to 375\u00b0F. Pat each donut a little and stretch them before dropping into oil.\nCook for 90 seconds, then flip each donut. Cook for 90 seconds more, until golden brown and crisp. Remove and let dry on a wire rimmed baking sheet.\nDo this in batches until all of your fritters are cooked.\nTime to make the glaze! Combine a lot of powdered sugar (about 2 \u00bd cups) and a little bit of milk (about \u00bc cup) and whisk until smooth.\nDunk each fritter into the glaze and let rest back on the rack. Once the first coat has hardened, go in and dunk each fritter again for a double glaze.\nIf you want to make a thicker glaze, double the amount of powdered sugar and use the same amount of milk for an extra thick honey bun-esque glaze.\nServe and enjoy!", 
+    "ingredient_list": [
+      [
+        1.75, 
+        "cup", 
+        "Milk", 
+        "1 \u00be cup milk (heated to 110\u00b0F)"
+      ], 
+      [
+        2.25, 
+        "teaspoon", 
+        "Active Dry Yeast", 
+        "2 \u00bc  tsp active dry yeast"
+      ], 
+      [
+        0.25, 
+        "cup", 
+        "Sugar", 
+        "\u00bc cup sugar"
+      ], 
+      [
+        2.0, 
+        "tablespoon", 
+        "Honey", 
+        "2 Tbsp honey"
+      ], 
+      [
+        3.0, 
+        null, 
+        "Eggs", 
+        "3 eggs"
+      ], 
+      [
+        22.333333333333332, 
+        "ounce", 
+        "All Purpose Flour", 
+        "22 \u2153 ounces all purpose flour"
+      ], 
+      [
+        1.5, 
+        null, 
+        "Sticks Unsalted Butter", 
+        "1 \u00bd sticks unsalted butter (room temperature), plus an additional \u00bd stick"
+      ], 
+      [
+        4.0, 
+        "large", 
+        "Granny Smith Apples", 
+        "4 large Granny Smith apples"
+      ], 
+      [
+        0.5, 
+        "cup", 
+        "Brown Sugar", 
+        "\u00bd cup brown sugar"
+      ], 
+      [
+        0.25, 
+        "teaspoon", 
+        "Cloves", 
+        "\u00bc tsp cloves"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Ground Ginger", 
+        "\u00bd tsp ground ginger"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Cinnamon", 
+        "1 tsp cinnamon"
+      ], 
+      [
+        0.25, 
+        "teaspoon", 
+        "Allspice", 
+        "\u00bc tsp allspice"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Cornstarch", 
+        "1 tsp cornstarch"
+      ], 
+      [
+        1.5, 
+        null, 
+        "Quarts Vegetable Oil", 
+        "1 \u00bd quarts vegetable oil"
+      ], 
+      [
+        2.5, 
+        "cup", 
+        "Powdered Sugar", 
+        "2 \u00bd cups powdered sugar (or more, if you want an extra thick glaze)"
+      ], 
+      [
+        0.25, 
+        "cup", 
+        "Milk", 
+        "\u00bc cup milk"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/applefritters", 
+      "episode_id": "applefritters", 
+      "name": "Double-Glazed Apple Fritters inspired by Regular Show", 
+      "published_date": "2019-08-27T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=YYSP1D6GJ30", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/applefritters", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d65505036b62f00018310c2/1566920989246/Screen+Shot+2019-08-27+at+9.39.41+AM.png"
     }
   }, 
   {
@@ -23403,60 +23523,6 @@
     }
   }, 
   {
-    "self": "http://localhost:5000/recipe/366", 
-    "recipe_id": 366, 
-    "name": "Pie Crust", 
-    "raw_ingredient_list": "\u00bc cup water\n\u00bc cup vodka\n11.5 ounces all purpose flour\n1 ounce sugar\n1 tsp kosher salt\n2 \u00bd sticks of semi frozen unsalted butter", 
-    "raw_procedure": "Mix the \u00bc cup of water and the \u00bc cup of vodka together in small bowl and place in freezer until it\u2019s almost frozen.\nPlace \u2154 of your flour into the food processor with an ounce of sugar and a tsp of salt.\nPulse to combine before adding 2 \u00bd sticks of semi-frozen unsalted butter.\nProcess for 10 seconds or until it's a pebbly texture.\nTransfer to a large mixing bowl and fold in water/vodka mixture a couple of tablespoons at a time.\nThen add the rest of the flour and water/vodka mixture and continue to fold until mixture becomes a shaggy dough.\nWrap in plastic wrap and refrigerate for an hour or more.", 
-    "ingredient_list": [
-      [
-        0.25, 
-        "cup", 
-        "Water", 
-        "\u00bc cup water"
-      ], 
-      [
-        0.25, 
-        "cup", 
-        "Vodka", 
-        "\u00bc cup vodka"
-      ], 
-      [
-        11.5, 
-        "ounce", 
-        "All Purpose Flour", 
-        "11.5 ounces all purpose flour"
-      ], 
-      [
-        1.0, 
-        "ounce", 
-        "Sugar", 
-        "1 ounce sugar"
-      ], 
-      [
-        1.0, 
-        "teaspoon", 
-        "Kosher Salt", 
-        "1 tsp kosher salt"
-      ], 
-      [
-        2.5, 
-        null, 
-        "Semi Frozen Unsalted Butter", 
-        "2 \u00bd sticks of semi frozen unsalted butter"
-      ]
-    ], 
-    "source": {
-      "self": "http://localhost:5000/episode/harrypotterspecial", 
-      "episode_id": "harrypotterspecial", 
-      "name": "Harry Potter Special", 
-      "published_date": "2017-11-14T00:00:00+00:00", 
-      "youtube_link": "https://www.youtube.com/watch?v=LXDAu8DnALw", 
-      "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/harrypotterspecial", 
-      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a0099649140b76460eeb76d/1531857796818/Screen+Shot+2017-11-15+at+4.50.36+PM.png"
-    }
-  }, 
-  {
     "self": "http://localhost:5000/recipe/160", 
     "recipe_id": 160, 
     "name": "Pie Crust", 
@@ -23508,6 +23574,60 @@
       "youtube_link": "https://www.youtube.com/watch?v=5FyKxVJmsdE&t=1s", 
       "official_link": "https://www.bingingwithbabish.com/recipes/charliebrownthanksgiving", 
       "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5bf46ac0352f536c17b6ac14/1542750773355/thanksgivingbabish.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/366", 
+    "recipe_id": 366, 
+    "name": "Pie Crust", 
+    "raw_ingredient_list": "\u00bc cup water\n\u00bc cup vodka\n11.5 ounces all purpose flour\n1 ounce sugar\n1 tsp kosher salt\n2 \u00bd sticks of semi frozen unsalted butter", 
+    "raw_procedure": "Mix the \u00bc cup of water and the \u00bc cup of vodka together in small bowl and place in freezer until it\u2019s almost frozen.\nPlace \u2154 of your flour into the food processor with an ounce of sugar and a tsp of salt.\nPulse to combine before adding 2 \u00bd sticks of semi-frozen unsalted butter.\nProcess for 10 seconds or until it's a pebbly texture.\nTransfer to a large mixing bowl and fold in water/vodka mixture a couple of tablespoons at a time.\nThen add the rest of the flour and water/vodka mixture and continue to fold until mixture becomes a shaggy dough.\nWrap in plastic wrap and refrigerate for an hour or more.", 
+    "ingredient_list": [
+      [
+        0.25, 
+        "cup", 
+        "Water", 
+        "\u00bc cup water"
+      ], 
+      [
+        0.25, 
+        "cup", 
+        "Vodka", 
+        "\u00bc cup vodka"
+      ], 
+      [
+        11.5, 
+        "ounce", 
+        "All Purpose Flour", 
+        "11.5 ounces all purpose flour"
+      ], 
+      [
+        1.0, 
+        "ounce", 
+        "Sugar", 
+        "1 ounce sugar"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Kosher Salt", 
+        "1 tsp kosher salt"
+      ], 
+      [
+        2.5, 
+        null, 
+        "Semi Frozen Unsalted Butter", 
+        "2 \u00bd sticks of semi frozen unsalted butter"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/harrypotterspecial", 
+      "episode_id": "harrypotterspecial", 
+      "name": "Harry Potter Special", 
+      "published_date": "2017-11-14T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=LXDAu8DnALw", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/harrypotterspecial", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a0099649140b76460eeb76d/1531857796818/Screen+Shot+2017-11-15+at+4.50.36+PM.png"
     }
   }, 
   {
@@ -26847,6 +26967,78 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/279", 
+    "recipe_id": 279, 
+    "name": "Red Sauce", 
+    "raw_ingredient_list": "1 small diced onion\nOlive oil\n1-2 cloves of garlic\n1 can pureed tomatoes\n1 can diced tomatoes\nDried oregano\n1 sprig of basil\nSalt\nPepper", 
+    "raw_procedure": "In a pan, heat some olive oil before adding 1 small chopped onion and cook for a few minutes until soft and translucent. Add 1-2 cloves of garlic and cook briefly.\nAdd a 50:50 mix of diced and pureed tomatoes along with a few pinches of dried oregano and 1 sprig of basil. Simmer for 45 minutes to an hour or until mixture has slightly thickened.\nSeason with salt and pepper, and set aside.", 
+    "ingredient_list": [
+      [
+        1.0, 
+        "small", 
+        "Diced Onion", 
+        "1 small diced onion"
+      ], 
+      [
+        null, 
+        null, 
+        "Olive Oil", 
+        "Olive oil"
+      ], 
+      [
+        "1-2", 
+        null, 
+        "Garlic", 
+        "1-2 cloves of garlic"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Can Pureed Tomatoes", 
+        "1 can pureed tomatoes"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Can Diced Tomatoes", 
+        "1 can diced tomatoes"
+      ], 
+      [
+        null, 
+        null, 
+        "Dried Oregano", 
+        "Dried oregano"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Basil", 
+        "1 sprig of basil"
+      ], 
+      [
+        null, 
+        null, 
+        "Salt", 
+        "Salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Pepper", 
+        "Pepper"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/thesloppyjessica", 
+      "episode_id": "thesloppyjessica", 
+      "name": "The Sloppy Jessica inspired by Brooklyn Nine-Nine", 
+      "published_date": "2018-05-01T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=KKoOIyhJwA4", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/thesloppyjessica", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5ae8c86788251bc31e96fcb1/1531772121797/Screen+Shot+2018-05-01+at+3.25.08+PM.png"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/376", 
     "recipe_id": 376, 
     "name": "Red Sauce", 
@@ -26922,78 +27114,6 @@
       "youtube_link": "https://www.youtube.com/watch?v=Upqp21Dm5vg&t=197s", 
       "official_link": "https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces", 
       "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/59ee408929f1872629cbaa01/1509988065485/Basics+Ep2+Thumb.png"
-    }
-  }, 
-  {
-    "self": "http://localhost:5000/recipe/279", 
-    "recipe_id": 279, 
-    "name": "Red Sauce", 
-    "raw_ingredient_list": "1 small diced onion\nOlive oil\n1-2 cloves of garlic\n1 can pureed tomatoes\n1 can diced tomatoes\nDried oregano\n1 sprig of basil\nSalt\nPepper", 
-    "raw_procedure": "In a pan, heat some olive oil before adding 1 small chopped onion and cook for a few minutes until soft and translucent. Add 1-2 cloves of garlic and cook briefly.\nAdd a 50:50 mix of diced and pureed tomatoes along with a few pinches of dried oregano and 1 sprig of basil. Simmer for 45 minutes to an hour or until mixture has slightly thickened.\nSeason with salt and pepper, and set aside.", 
-    "ingredient_list": [
-      [
-        1.0, 
-        "small", 
-        "Diced Onion", 
-        "1 small diced onion"
-      ], 
-      [
-        null, 
-        null, 
-        "Olive Oil", 
-        "Olive oil"
-      ], 
-      [
-        "1-2", 
-        null, 
-        "Garlic", 
-        "1-2 cloves of garlic"
-      ], 
-      [
-        1.0, 
-        null, 
-        "Can Pureed Tomatoes", 
-        "1 can pureed tomatoes"
-      ], 
-      [
-        1.0, 
-        null, 
-        "Can Diced Tomatoes", 
-        "1 can diced tomatoes"
-      ], 
-      [
-        null, 
-        null, 
-        "Dried Oregano", 
-        "Dried oregano"
-      ], 
-      [
-        1.0, 
-        null, 
-        "Basil", 
-        "1 sprig of basil"
-      ], 
-      [
-        null, 
-        null, 
-        "Salt", 
-        "Salt"
-      ], 
-      [
-        null, 
-        null, 
-        "Pepper", 
-        "Pepper"
-      ]
-    ], 
-    "source": {
-      "self": "http://localhost:5000/episode/thesloppyjessica", 
-      "episode_id": "thesloppyjessica", 
-      "name": "The Sloppy Jessica inspired by Brooklyn Nine-Nine", 
-      "published_date": "2018-05-01T00:00:00+00:00", 
-      "youtube_link": "https://www.youtube.com/watch?v=KKoOIyhJwA4", 
-      "official_link": "https://www.bingingwithbabish.com/recipes/thesloppyjessica", 
-      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5ae8c86788251bc31e96fcb1/1531772121797/Screen+Shot+2018-05-01+at+3.25.08+PM.png"
     }
   }, 
   {
@@ -34836,36 +34956,6 @@
     }
   }, 
   {
-    "self": "http://localhost:5000/recipe/480", 
-    "recipe_id": 480, 
-    "name": "Whipped Cream", 
-    "raw_ingredient_list": "1 cup heavy cream\n1 Tbsp sugar", 
-    "raw_procedure": "Place heavy cream and sugar into a bowl. Using a hand mixer, whip the cream and sugar together.\nIf you desire, place the whipped cream into a piping bag and pipe into a bowl, making a nice little mountain of cream. Spoon on top of the pastry.", 
-    "ingredient_list": [
-      [
-        1.0, 
-        "cup", 
-        "Heavy Cream", 
-        "1 cup heavy cream"
-      ], 
-      [
-        1.0, 
-        "tablespoon", 
-        "Sugar", 
-        "1 Tbsp sugar"
-      ]
-    ], 
-    "source": {
-      "self": "http://localhost:5000/episode/ingloriousbasterds", 
-      "episode_id": "ingloriousbasterds", 
-      "name": "Strudel inspired by Inglourious Basterds", 
-      "published_date": "2017-01-23T00:00:00+00:00", 
-      "youtube_link": "https://www.youtube.com/watch?v=7H3z3J50XCs", 
-      "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/ingloriousbasterds", 
-      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a038c00f9619a5b8062cac1/1532029647654/Screen+Shot+2017-11-08+at+4.56.07+PM.png"
-    }
-  }, 
-  {
     "self": "http://localhost:5000/recipe/29", 
     "recipe_id": 29, 
     "name": "Whipped Cream", 
@@ -34935,6 +35025,36 @@
       "youtube_link": "https://www.youtube.com/watch?v=5FyKxVJmsdE&t=1s", 
       "official_link": "https://www.bingingwithbabish.com/recipes/charliebrownthanksgiving", 
       "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5bf46ac0352f536c17b6ac14/1542750773355/thanksgivingbabish.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/480", 
+    "recipe_id": 480, 
+    "name": "Whipped Cream", 
+    "raw_ingredient_list": "1 cup heavy cream\n1 Tbsp sugar", 
+    "raw_procedure": "Place heavy cream and sugar into a bowl. Using a hand mixer, whip the cream and sugar together.\nIf you desire, place the whipped cream into a piping bag and pipe into a bowl, making a nice little mountain of cream. Spoon on top of the pastry.", 
+    "ingredient_list": [
+      [
+        1.0, 
+        "cup", 
+        "Heavy Cream", 
+        "1 cup heavy cream"
+      ], 
+      [
+        1.0, 
+        "tablespoon", 
+        "Sugar", 
+        "1 Tbsp sugar"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/ingloriousbasterds", 
+      "episode_id": "ingloriousbasterds", 
+      "name": "Strudel inspired by Inglourious Basterds", 
+      "published_date": "2017-01-23T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=7H3z3J50XCs", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/ingloriousbasterds", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a038c00f9619a5b8062cac1/1532029647654/Screen+Shot+2017-11-08+at+4.56.07+PM.png"
     }
   }, 
   {

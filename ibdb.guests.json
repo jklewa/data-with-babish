@@ -32,6 +32,22 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/27", 
+    "guest_id": 27, 
+    "name": "Dadish", 
+    "appearances": [
+      {
+        "self": "http://localhost:5000/episode/friedgreentomatoes", 
+        "episode_id": "friedgreentomatoes", 
+        "name": "Fried Green Tomatoes inspired by...Fried Green Tomatoes", 
+        "published_date": "2018-07-24T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=KKBkY-7TCw0", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/friedgreentomatoes", 
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5b574bb4aa4a997ca1daa8f2/1533052560057/Screen+Shot+2018-07-24+at+10.02.11+AM.png"
+      }
+    ]
+  }, 
+  {
     "self": "http://localhost:5000/guest/15", 
     "guest_id": 15, 
     "name": "Dan Pashman", 
@@ -59,7 +75,7 @@
         "published_date": "2019-08-20T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=WMj7G-U3LW8", 
         "official_link": "https://www.bingingwithbabish.com/recipes/classicpancakes", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d5bfd5b9fb0170001004f02/1566310049299/Screen+Shot+2019-08-20+at+8.48.31+AM.png"
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d5bfd5b9fb0170001004f02/1566920784562/Screen+Shot+2019-08-20+at+8.48.31+AM.png"
       }, 
       {
         "self": "http://localhost:5000/episode/bagels", 
@@ -132,7 +148,7 @@
         "published_date": "2019-08-20T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=WMj7G-U3LW8", 
         "official_link": "https://www.bingingwithbabish.com/recipes/classicpancakes", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d5bfd5b9fb0170001004f02/1566310049299/Screen+Shot+2019-08-20+at+8.48.31+AM.png"
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d5bfd5b9fb0170001004f02/1566920784562/Screen+Shot+2019-08-20+at+8.48.31+AM.png"
       }
     ]
   }, 
@@ -254,15 +270,6 @@
     "name": "Roy Choi", 
     "appearances": [
       {
-        "self": "http://localhost:5000/episode/chocolatelavacakes", 
-        "episode_id": "chocolatelavacakes", 
-        "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi", 
-        "published_date": "2018-02-20T00:00:00+00:00", 
-        "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ", 
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/chocolatelavacakes", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a8db1f2419202a3ccf0e483/1531777960506/Screen+Shot+2018-02-21+at+11.54.06+AM.png"
-      }, 
-      {
         "self": "http://localhost:5000/episode/being-with-babish-2", 
         "episode_id": "being-with-babish-2", 
         "name": "Surprising a Fan with a Vegas Hotel Suite", 
@@ -270,6 +277,15 @@
         "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
         "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
         "image_link": "#"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/chocolatelavacakes", 
+        "episode_id": "chocolatelavacakes", 
+        "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi", 
+        "published_date": "2018-02-20T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/chocolatelavacakes", 
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a8db1f2419202a3ccf0e483/1531777960506/Screen+Shot+2018-02-21+at+11.54.06+AM.png"
       }
     ]
   }, 
@@ -295,12 +311,12 @@
     "name": "Sawyer Jacobs", 
     "appearances": [
       {
-        "self": "http://localhost:5000/episode/being-with-babish-2", 
-        "episode_id": "being-with-babish-2", 
-        "name": "Surprising a Fan with a Vegas Hotel Suite", 
-        "published_date": "2019-04-05T00:00:00+00:00", 
-        "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
-        "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
+        "self": "http://localhost:5000/episode/being-with-babish-4", 
+        "episode_id": "being-with-babish-4", 
+        "name": "Training like Kratos for 30 Days | Body by Babish", 
+        "published_date": "2019-06-07T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA", 
+        "official_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA", 
         "image_link": "#"
       }, 
       {
@@ -313,6 +329,15 @@
         "image_link": "#"
       }, 
       {
+        "self": "http://localhost:5000/episode/being-with-babish-2", 
+        "episode_id": "being-with-babish-2", 
+        "name": "Surprising a Fan with a Vegas Hotel Suite", 
+        "published_date": "2019-04-05T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
+        "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
+        "image_link": "#"
+      }, 
+      {
         "self": "http://localhost:5000/episode/being-with-babish-1", 
         "episode_id": "being-with-babish-1", 
         "name": "Giving Back to a Fan in Need", 
@@ -322,13 +347,13 @@
         "image_link": "#"
       }, 
       {
-        "self": "http://localhost:5000/episode/being-with-babish-4", 
-        "episode_id": "being-with-babish-4", 
-        "name": "Training like Kratos for 30 Days | Body by Babish", 
-        "published_date": "2019-06-07T00:00:00+00:00", 
-        "youtube_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA", 
-        "official_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA", 
-        "image_link": "#"
+        "self": "http://localhost:5000/episode/friedgreentomatoes", 
+        "episode_id": "friedgreentomatoes", 
+        "name": "Fried Green Tomatoes inspired by...Fried Green Tomatoes", 
+        "published_date": "2018-07-24T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=KKBkY-7TCw0", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/friedgreentomatoes", 
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5b574bb4aa4a997ca1daa8f2/1533052560057/Screen+Shot+2018-07-24+at+10.02.11+AM.png"
       }
     ]
   }, 
@@ -354,6 +379,15 @@
     "name": "Sean Evans", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/infernowings", 
+        "episode_id": "infernowings", 
+        "name": "Inferno Wings inspired by Regular Show", 
+        "published_date": "2019-07-16T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=dRLCZqEfJFA", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/infernowings", 
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d2e0602f71063000172baad/1563297583155/Screen+Shot+2019-07-16+at+9.39.32+AM.png"
+      }, 
+      {
         "self": "http://localhost:5000/episode/arresteddevelopmentspecial", 
         "episode_id": "arresteddevelopmentspecial", 
         "name": "Arrested Development Special (feat. Sean Evans)", 
@@ -370,15 +404,6 @@
         "youtube_link": "https://www.youtube.com/watch?v=VnXu22HZBNQ", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/4/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/59604fc21b631b78567a9988/1531943714487/Screen+Shot+2017-07-07+at+10.00.16+PM-2.jpg"
-      }, 
-      {
-        "self": "http://localhost:5000/episode/infernowings", 
-        "episode_id": "infernowings", 
-        "name": "Inferno Wings inspired by Regular Show", 
-        "published_date": "2019-07-16T00:00:00+00:00", 
-        "youtube_link": "https://www.youtube.com/watch?v=dRLCZqEfJFA", 
-        "official_link": "https://www.bingingwithbabish.com/recipes/infernowings", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d2e0602f71063000172baad/1563297583155/Screen+Shot+2019-07-16+at+9.39.32+AM.png"
       }
     ]
   }, 
@@ -436,15 +461,6 @@
     "name": "Vincent \"Vinny\" Cross", 
     "appearances": [
       {
-        "self": "http://localhost:5000/episode/lasagna", 
-        "episode_id": "lasagna", 
-        "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)", 
-        "published_date": "2018-03-27T00:00:00+00:00", 
-        "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4", 
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5abab27b03ce64285139e69f/1531775869560/Screen+Shot+2018-03-27+at+3.35.58+PM.png"
-      }, 
-      {
         "self": "http://localhost:5000/episode/being-with-babish-3", 
         "episode_id": "being-with-babish-3", 
         "name": "Surprising Rashid", 
@@ -452,6 +468,15 @@
         "youtube_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
         "official_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
         "image_link": "#"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/lasagna", 
+        "episode_id": "lasagna", 
+        "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)", 
+        "published_date": "2018-03-27T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna", 
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5abab27b03ce64285139e69f/1531775869560/Screen+Shot+2018-03-27+at+3.35.58+PM.png"
       }
     ]
   }

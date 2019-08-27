@@ -83,7 +83,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
       "appearances": [
         {
           "episode_id": "epid",
-          "name": "Episide Name",
+          "name": "Episode Name",
           "published_date": "YYYY-MM-DDT00:00:00+00:00",
           "youtube_link": "https://www.youtube.com/watch?v=...",
           "official_link": "https://www.bingingwithbabish.com/recipes/...",
@@ -108,7 +108,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
       "raw_procedure": "Step 1.\nStep 2.\n...",
       "source": {
         "episode_id": "epid",
-        "name": "Episide Name",
+        "name": "Episode Name",
         "published_date": "YYYY-MM-DDT00:00:00+00:00",
         "youtube_link": "https://www.youtube.com/watch?v=...",
         "official_link": "https://www.bingingwithbabish.com/recipes/...",
@@ -143,7 +143,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
       "episodes_inspired": [
         {
           "episode_id": "epid",
-          "name": "Episide Name",
+          "name": "Episode Name",
           "published_date": "YYYY-MM-DDT00:00:00+00:00",
           "youtube_link": "https://www.youtube.com/watch?v=...",
           "official_link": "https://www.bingingwithbabish.com/recipes/...",
@@ -167,7 +167,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
       "episodes": [
         {
           "episode_id": "epid",
-          "name": "Episide Name",
+          "name": "Episode Name",
           "published_date": "YYYY-MM-DDT00:00:00+00:00",
           "youtube_link": "https://www.youtube.com/watch?v=...",
           "official_link": "https://www.bingingwithbabish.com/recipes/...",
