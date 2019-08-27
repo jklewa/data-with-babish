@@ -122,6 +122,25 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/131", 
+    "reference_id": 131, 
+    "type": "movie", 
+    "name": "A Quiet Place", 
+    "description": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing. IMDb.", 
+    "external_link": "https://www.imdb.com/title/tt6644200/", 
+    "episodes_inspired": [
+      {
+        "self": "http://localhost:5000/episode/quiet-place-bonus", 
+        "episode_id": "quiet-place-bonus", 
+        "name": "A Quiet Place Bonus Episode", 
+        "published_date": "2018-12-15T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=0PyTpUIn4ks", 
+        "official_link": "https://www.youtube.com/watch?v=0PyTpUIn4ks", 
+        "image_link": " "
+      }
+    ]
+  }, 
+  {
     "self": "http://localhost:5000/reference/23", 
     "reference_id": 23, 
     "type": "tv_show", 
@@ -241,6 +260,25 @@
         "youtube_link": "https://www.youtube.com/watch?v=Ukjat70Iyt4", 
         "official_link": "https://www.bingingwithbabish.com/recipes/avengersicecream", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5cc8a118e5e5f006b11c8879/1557261985488/Screen+Shot+2019-04-30+at+2.24.23+PM.png"
+      }
+    ]
+  }, 
+  {
+    "self": "http://localhost:5000/reference/132", 
+    "reference_id": 132, 
+    "type": "movie", 
+    "name": "Babette's Feast", 
+    "description": "refugee from the Franco-Prussian War as a servant to the late pastor's daughters. IMDb.", 
+    "external_link": "https://www.imdb.com/title/tt0092603/", 
+    "episodes_inspired": [
+      {
+        "self": "http://localhost:5000/episode/caillesensarchophage", 
+        "episode_id": "caillesensarchophage", 
+        "name": "Cailles en Sarchophage inspired by Babette's Feast", 
+        "published_date": "2017-10-03T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=Bz1IXK6ahu0", 
+        "official_link": "https://www.youtube.com/watch?v=Bz1IXK6ahu0", 
+        "image_link": " "
       }
     ]
   }, 

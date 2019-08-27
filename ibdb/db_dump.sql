@@ -260,6 +260,8 @@ ALTER TABLE ONLY public.show ALTER COLUMN id SET DEFAULT nextval('public.show_id
 COPY public.episode (id, name, youtube_link, official_link, published_date, show_id, image_link) FROM stdin;
 grilledcheesevidcon	National Grilled Cheese Day + VidCon Announcement	https://www.youtube.com/watch?v=hwjdXBxeWsc	https://www.youtube.com/watch?v=hwjdXBxeWsc	2018-04-11 00:00:00+00	1	 
 loversdelightsundae	Lovers' Delight Sundae from 30 Rock	https://www.youtube.com/watch?v=iX7Dzr2whWQ	https://www.youtube.com/watch?v=iX7Dzr2whWQ	2017-02-06 00:00:00+00	1	 
+quiet-place-bonus	A Quiet Place Bonus Episode	https://www.youtube.com/watch?v=0PyTpUIn4ks	https://www.youtube.com/watch?v=0PyTpUIn4ks	2018-12-15 00:00:00+00	1	 
+caillesensarchophage	Cailles en Sarchophage inspired by Babette's Feast	https://www.youtube.com/watch?v=Bz1IXK6ahu0	https://www.youtube.com/watch?v=Bz1IXK6ahu0	2017-10-03 00:00:00+00	1	 
 introductiontools	INTRODUCTION/TOOLS	https://www.youtube.com/watch?v=1AxLzMJIgxM	https://basicswithbabish.co/basicsepisodes/2017/10/11/introductiontools	2017-10-11 00:00:00+00	2	https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/59de3fba49fc2bf4afde6bdd/1509988072409/Babish+Knife.jpg
 grilling-5j345	GRILLING BASICS	https://www.youtube.com/watch?v=u0feM_2mLvo	https://basicswithbabish.co/basicsepisodes/grilling-5j345	2018-05-11 00:00:00+00	2	https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5af5b6c4f950b78767023052/1526935710148/grilling.jpg
 being-with-babish-2	Surprising a Fan with a Vegas Hotel Suite	https://www.youtube.com/watch?v=QphHaVaAeG4	https://www.youtube.com/watch?v=QphHaVaAeG4	2019-04-05 00:00:00+00	4	#
@@ -648,6 +650,8 @@ egginanest	128
 egginanest	129
 egginanest	130
 loversdelightsundae	50
+quiet-place-bonus	131
+caillesensarchophage	132
 \.
 
 
@@ -723,6 +727,7 @@ bagels	4
 theswanson	26
 friedgreentomatoes	17
 friedgreentomatoes	27
+quiet-place-bonus	17
 \.
 
 
@@ -1246,6 +1251,8 @@ COPY public.recipe (id, name, raw_ingredient_list, raw_procedure, episode_id) FR
 518	Double-Glazed Apple Fritters	1 ¾ cup milk (heated to 110°F)\n2 ¼  tsp active dry yeast\n¼ cup sugar\n2 Tbsp honey\n3 eggs\n22 ⅓ ounces all purpose flour\n1 ½ sticks unsalted butter (room temperature), plus an additional ½ stick\n4 large Granny Smith apples\n½ cup brown sugar\n¼ tsp cloves\n½ tsp ground ginger\n1 tsp cinnamon\n¼ tsp allspice\n1 tsp cornstarch\n1 ½ quarts vegetable oil\n2 ½ cups powdered sugar (or more, if you want an extra thick glaze)\n¼ cup milk	In the bowl of a stand mixer, combine warmed milk, active dry yeast, sugar, and honey. Whisk and let sit for 10 minutes.\nLightly beat 3 eggs and add to the stand mixer bowl along with the flour.\nCut butter into cubes and add to the stand mixer.\nUsing the dough hook, slowly beat the dough for a minute or two, then increase the speed to medium high and let it mix for 6 minutes. Scrape down sides of bowl halfway through the 6 minutes.\nScrape down the sides one last time and cover the bowl with plastic wrap. Let it rise at room temperature for one hour.\nWhile the dough is rising, prepare your apples. Peel all 4 apples and then dice into half-inch, bite sized cubes.\nToss the apple cubes in a bowl with the juice of one lemon.\nIn a large nonstick pan, melt ½ stick of unsalted butter over medium heat to lightly brown it.\nOnce you see the milk fats start to separate and change colors, add the cubed apples. Stir. Add the brown sugar and stir again.\nAdd the spices (cloves, ginger, cinnamon, and allspice) and stir to combine. Simmer, tossing occasionally, for 4-5 minutes.\nMix ¼ cup warm water with 1 tsp cornstarch. Pour the slurry into the apples to thicken up. Stir and cook for an additional minute and then set aside.\nGenerously flour your work surface. Scrape every last bit of dough out of the bowl and onto your floured counter.\nCoax the dough into a rectangle, stretching and patting it. Dump the cooled (yes, cooled) apples onto the top of the rectangle. Spread them across the dough evenly.\nFold the dough on top of itself into thirds, like a pamphlet. This laminates the dough and apples.\nCoax the dough back into a ball, making sure the apples are evenly distributed throughout. Put back in the bowl, cover with plastic wrap, and let rest for 1 hour at room temperature again.\nRe-flour your work surface and dump the dough back out. Apples will spill out but that’s okay! Liberally flour the top of the dough and then roll it out with a rolling pin to a 1-inch thickness.\nUsing a biscuit cutter, cut rounds out of the dough.\nPlace the cutout fritters onto a well floured baking sheet. Pull out the scraps and re-roll to make another round of dough.\nHeat 1 ½ quarts vegetable oil to 375°F. Pat each donut a little and stretch them before dropping into oil.\nCook for 90 seconds, then flip each donut. Cook for 90 seconds more, until golden brown and crisp. Remove and let dry on a wire rimmed baking sheet.\nDo this in batches until all of your fritters are cooked.\nTime to make the glaze! Combine a lot of powdered sugar (about 2 ½ cups) and a little bit of milk (about ¼ cup) and whisk until smooth.\nDunk each fritter into the glaze and let rest back on the rack. Once the first coat has hardened, go in and dunk each fritter again for a double glaze.\nIf you want to make a thicker glaze, double the amount of powdered sugar and use the same amount of milk for an extra thick honey bun-esque glaze.\nServe and enjoy!	applefritters
 519	Lovers' Delight Sundae			loversdelightsundae
 520	Chef Carl Casper's Grilled Cheese	Gruyere Cheese\nCheddar Cheese\nParmesan Cheese\nButter\nSourdough Bread\nPatience	See https://www.youtube.com/watch?v=hwjdXBxeWsc	grilledcheesevidcon
+521	Rainbow Trout & Tomato Salad			quiet-place-bonus
+522	Cailles en Sarchophage			caillesensarchophage
 \.
 
 
@@ -1382,6 +1389,8 @@ COPY public.reference (id, type, name, description, external_link) FROM stdin;
 128	movie	Moon over Miami	Sisters Kay and Barbara arrive in Miami from Texas looking for rich husbands. IMDb.	https://www.imdb.com/title/tt0033918/
 129	movie	The Meddler	An aging widow from New York City follows her daughter to Los Angeles in hopes of starting a new life after her husband passes away. IMDb.	https://www.imdb.com/title/tt4501454/
 130	tv_show	Lucifer	Lucifer Morningstar has decided he's had enough of being the dutiful servant in Hell and decides to spend some time on Earth to better understand humanity. He settles in Los Angeles - the City of Angels. IMDb.	https://www.imdb.com/title/tt4052886/
+131	movie	A Quiet Place	In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing. IMDb.	https://www.imdb.com/title/tt6644200/
+132	movie	Babette's Feast	refugee from the Franco-Prussian War as a servant to the late pastor's daughters. IMDb.	https://www.imdb.com/title/tt0092603/
 \.
 
 
@@ -1408,14 +1417,14 @@ SELECT pg_catalog.setval('public.guest_id_seq', 27, true);
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 520, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 522, true);
 
 
 --
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 130, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 132, true);
 
 
 --

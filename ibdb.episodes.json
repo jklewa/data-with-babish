@@ -9724,6 +9724,49 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/episode/quiet-place-bonus", 
+    "episode_id": "quiet-place-bonus", 
+    "name": "A Quiet Place Bonus Episode", 
+    "published_date": "2018-12-15T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=0PyTpUIn4ks", 
+    "official_link": "https://www.youtube.com/watch?v=0PyTpUIn4ks", 
+    "image_link": " ", 
+    "related": {
+      "show": {
+        "self": "http://localhost:5000/show/1", 
+        "show_id": 1, 
+        "name": "Binging with Babish"
+      }, 
+      "guests": [
+        {
+          "self": "http://localhost:5000/guest/17", 
+          "guest_id": 17, 
+          "name": "Sawyer Jacobs"
+        }
+      ], 
+      "inspired_by": [
+        {
+          "self": "http://localhost:5000/reference/131", 
+          "reference_id": 131, 
+          "type": "movie", 
+          "name": "A Quiet Place", 
+          "description": "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing. IMDb.", 
+          "external_link": "https://www.imdb.com/title/tt6644200/"
+        }
+      ], 
+      "recipes": [
+        {
+          "self": "http://localhost:5000/recipe/521", 
+          "recipe_id": 521, 
+          "name": "Rainbow Trout & Tomato Salad", 
+          "raw_ingredient_list": "", 
+          "raw_procedure": "", 
+          "ingredient_list": []
+        }
+      ]
+    }
+  }, 
+  {
     "self": "http://localhost:5000/episode/holidaycocktails", 
     "episode_id": "holidaycocktails", 
     "name": "HOLIDAY COCKTAILS", 
@@ -27562,6 +27605,43 @@
               "Swiss cheese"
             ]
           ]
+        }
+      ]
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/episode/caillesensarchophage", 
+    "episode_id": "caillesensarchophage", 
+    "name": "Cailles en Sarchophage inspired by Babette's Feast", 
+    "published_date": "2017-10-03T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=Bz1IXK6ahu0", 
+    "official_link": "https://www.youtube.com/watch?v=Bz1IXK6ahu0", 
+    "image_link": " ", 
+    "related": {
+      "show": {
+        "self": "http://localhost:5000/show/1", 
+        "show_id": 1, 
+        "name": "Binging with Babish"
+      }, 
+      "guests": [], 
+      "inspired_by": [
+        {
+          "self": "http://localhost:5000/reference/132", 
+          "reference_id": 132, 
+          "type": "movie", 
+          "name": "Babette's Feast", 
+          "description": "refugee from the Franco-Prussian War as a servant to the late pastor's daughters. IMDb.", 
+          "external_link": "https://www.imdb.com/title/tt0092603/"
+        }
+      ], 
+      "recipes": [
+        {
+          "self": "http://localhost:5000/recipe/522", 
+          "recipe_id": 522, 
+          "name": "Cailles en Sarchophage", 
+          "raw_ingredient_list": "", 
+          "raw_procedure": "", 
+          "ingredient_list": []
         }
       ]
     }

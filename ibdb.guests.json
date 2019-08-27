@@ -347,6 +347,15 @@
         "image_link": "#"
       }, 
       {
+        "self": "http://localhost:5000/episode/quiet-place-bonus", 
+        "episode_id": "quiet-place-bonus", 
+        "name": "A Quiet Place Bonus Episode", 
+        "published_date": "2018-12-15T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=0PyTpUIn4ks", 
+        "official_link": "https://www.youtube.com/watch?v=0PyTpUIn4ks", 
+        "image_link": " "
+      }, 
+      {
         "self": "http://localhost:5000/episode/friedgreentomatoes", 
         "episode_id": "friedgreentomatoes", 
         "name": "Fried Green Tomatoes inspired by...Fried Green Tomatoes", 

@@ -5351,6 +5351,23 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/522", 
+    "recipe_id": 522, 
+    "name": "Cailles en Sarchophage", 
+    "raw_ingredient_list": "", 
+    "raw_procedure": "", 
+    "ingredient_list": [], 
+    "source": {
+      "self": "http://localhost:5000/episode/caillesensarchophage", 
+      "episode_id": "caillesensarchophage", 
+      "name": "Cailles en Sarchophage inspired by Babette's Feast", 
+      "published_date": "2017-10-03T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=Bz1IXK6ahu0", 
+      "official_link": "https://www.youtube.com/watch?v=Bz1IXK6ahu0", 
+      "image_link": " "
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/323", 
     "recipe_id": 323, 
     "name": "Calzone", 
@@ -26633,6 +26650,23 @@
       "youtube_link": "https://www.youtube.com/watch?v=G4BxOhJOmUw", 
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/racheltrifle", 
       "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a383a519140b76437258bae/1531857750772/Screen+Shot+2017-12-18+at+4.05.50+PM.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/521", 
+    "recipe_id": 521, 
+    "name": "Rainbow Trout & Tomato Salad", 
+    "raw_ingredient_list": "", 
+    "raw_procedure": "", 
+    "ingredient_list": [], 
+    "source": {
+      "self": "http://localhost:5000/episode/quiet-place-bonus", 
+      "episode_id": "quiet-place-bonus", 
+      "name": "A Quiet Place Bonus Episode", 
+      "published_date": "2018-12-15T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=0PyTpUIn4ks", 
+      "official_link": "https://www.youtube.com/watch?v=0PyTpUIn4ks", 
+      "image_link": " "
     }
   }, 
   {

@@ -338,6 +338,15 @@
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5c193d6b0e2e72c93203ee42/1546533791558/Screen+Shot+2018-12-18+at+11.33.00+AM.png"
       }, 
       {
+        "self": "http://localhost:5000/episode/quiet-place-bonus", 
+        "episode_id": "quiet-place-bonus", 
+        "name": "A Quiet Place Bonus Episode", 
+        "published_date": "2018-12-15T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=0PyTpUIn4ks", 
+        "official_link": "https://www.youtube.com/watch?v=0PyTpUIn4ks", 
+        "image_link": " "
+      }, 
+      {
         "self": "http://localhost:5000/episode/seinfeldspecial2", 
         "episode_id": "seinfeldspecial2", 
         "name": "Seinfeld Volume II", 
@@ -903,6 +912,15 @@
         "youtube_link": "https://www.youtube.com/watch?v=XIZxT7iI-QI", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/curbyourenthusiasm", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/59f8c032e31d19a2a260a6c9/1531858031287/Screen+Shot+2017-10-31+at+1.39.53+PM.png"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/caillesensarchophage", 
+        "episode_id": "caillesensarchophage", 
+        "name": "Cailles en Sarchophage inspired by Babette's Feast", 
+        "published_date": "2017-10-03T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=Bz1IXK6ahu0", 
+        "official_link": "https://www.youtube.com/watch?v=Bz1IXK6ahu0", 
+        "image_link": " "
       }, 
       {
         "self": "http://localhost:5000/episode/madmen", 

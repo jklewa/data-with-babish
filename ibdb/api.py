@@ -104,7 +104,7 @@ def recipe_new():
     )
     db.session.add(new)
     db.session.commit()
-    return redirect('/recipes#' + str(new.id))
+    return redirect('/recipes#r' + str(new.id))
 
 
 @app.route('/recipe/<id>')
@@ -179,8 +179,7 @@ def reference_new():
         new.episodes_inspired.append(inspired)
     db.session.add(new)
     db.session.commit()
-    return redirect('/references')
-    # return redirect('/references#r' + str(new.id))
+    return redirect('/references#r' + str(new.id))
 
 
 @app.route('/reference/<id>/episodes_inspired', methods=['POST'])
