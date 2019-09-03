@@ -1425,6 +1425,15 @@
     "name": "Basics with Babish", 
     "episodes": [
       {
+        "self": "http://localhost:5000/episode/panpizza", 
+        "episode_id": "panpizza", 
+        "name": "PAN PIZZA", 
+        "published_date": "2019-08-29T00:00:00+00:00", 
+        "youtube_link": "https://youtu.be/J_3v7DEkjsk", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/panpizza", 
+        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d67f0cdaf72b0000154887c/1567095359053/Pan+Pizza+3no+text.png"
+      }, 
+      {
         "self": "http://localhost:5000/episode/carbonara", 
         "episode_id": "carbonara", 
         "name": "CARBONARA", 
@@ -1449,7 +1458,7 @@
         "published_date": "2019-07-08T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=iIDXc6xZ0X8", 
         "official_link": "https://basicswithbabish.co/basicsepisodes/treslechescake", 
-        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d23670b9813d80001de157c/1563470292777/Tres+Leches+1.png"
+        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d23670b9813d80001de157c/1567093583734/Tres+Leches+1.png"
       }, 
       {
         "self": "http://localhost:5000/episode/brownies", 

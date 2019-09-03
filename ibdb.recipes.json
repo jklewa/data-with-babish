@@ -13120,7 +13120,7 @@
       "published_date": "2019-07-08T00:00:00+00:00", 
       "youtube_link": "https://www.youtube.com/watch?v=iIDXc6xZ0X8", 
       "official_link": "https://basicswithbabish.co/basicsepisodes/treslechescake", 
-      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d23670b9813d80001de157c/1563470292777/Tres+Leches+1.png"
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d23670b9813d80001de157c/1567093583734/Tres+Leches+1.png"
     }
   }, 
   {
@@ -22357,6 +22357,366 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/526", 
+    "recipe_id": 526, 
+    "name": "Pan Pizza - Cast Iron Skillet Method", 
+    "raw_ingredient_list": "For the pizza dough (makes two 10-inch crusts or one baking sheet crust):\n16 ounces flour, plus more for work surface\n2 tsp kosher salt\n2 1/4 tsp active dry yeast\n11 ounces room temperature water\nOlive oil\nFor the tomato sauce\n1 28-ounce can of peeled San Marzano tomatoes\n2-3 cloves garlic\nDried oregano and basil\nRed pepper flakes\nKosher salt\nFreshly ground pepper\nOlive oil (optional)\nAdditional toppings:\nNatural casing pepperoni, thinly sliced\nLow moisture, full fat mozzarella\nFresh basil\nFreshly grated parmesan, for serving", 
+    "raw_procedure": "Start by making your pizza dough. Combine flour, kosher salt, and active dry yeast in a big bowl.\nAdd room temperature water and mix with a wooden spoon until a shaggy dough forms and no dry clumps remain.\nGenerously oil a medium bowl with olive oil. Put the ball of dough into the bowl and cover with plastic wrap. Let rest for 18-24 hours.\nOnce rested, turn the dough out onto a well-floured work surface. Cut the dough in half, as this will make 2 crusts for the cast iron skillet.\nOil the skillet with olive oil. Place the dough in the plate and gently coax the it to the edges using your fingers.\nCover the pan with plastic wrap and let rest for at least one hour or until doubled in size. Now is also the time to preheat your oven - turn it on to its max heat setting and put a pizza stone in the oven as well.\nWhile your dough rises, make tomato sauce. Combine tomatoes, garlic cloves, oregano, basil, red pepper flakes, salt, and pepper in a food processor or large cup for an immersion blender. Pulse a few times until smooth. Optionally, add a dash of olive oil for extra flavor.\nPrepare your other toppings - I love to use natural casing pepperoni, thinly sliced, as well as low moisture (full fat) mozzarella and fresh basil.\nNow that the dough is ready, top it with sauce edge to edge, then add the shredded mozzarella. Top with pepperoni and basil.\nBake for about 11-12 minutes.\nTop with freshly grated parmesan and let rest for at least 5 minutes so you don\u2019t burn your mouth. Serve and enjoy!", 
+    "ingredient_list": [
+      [
+        16.0, 
+        "ounce", 
+        "Flour", 
+        "16 ounces flour, plus more for work surface"
+      ], 
+      [
+        2.0, 
+        "teaspoon", 
+        "Kosher Salt", 
+        "2 tsp kosher salt"
+      ], 
+      [
+        2.25, 
+        "teaspoon", 
+        "Active Dry Yeast", 
+        "2 1/4 tsp active dry yeast"
+      ], 
+      [
+        11.0, 
+        "ounce", 
+        "Room Temperature Water", 
+        "11 ounces room temperature water"
+      ], 
+      [
+        null, 
+        null, 
+        "Olive Oil", 
+        "Olive oil"
+      ], 
+      [
+        "1 28-", 
+        "ounce", 
+        "Peeled San Marzano Tomatoes", 
+        "1 28-ounce can of peeled San Marzano tomatoes"
+      ], 
+      [
+        "2-3", 
+        null, 
+        "Cloves Garlic", 
+        "2-3 cloves garlic"
+      ], 
+      [
+        null, 
+        null, 
+        "Dried Oregano And Basil", 
+        "Dried oregano and basil"
+      ], 
+      [
+        null, 
+        null, 
+        "Red Pepper Flakes", 
+        "Red pepper flakes"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Pepper", 
+        "Freshly ground pepper"
+      ], 
+      [
+        null, 
+        null, 
+        "Olive Oil", 
+        "Olive oil (optional)"
+      ], 
+      [
+        null, 
+        null, 
+        "Additional Toppings:", 
+        "Additional toppings:"
+      ], 
+      [
+        null, 
+        null, 
+        "Natural Casing Pepperoni", 
+        "Natural casing pepperoni, thinly sliced"
+      ], 
+      [
+        null, 
+        null, 
+        "Low Moisture", 
+        "Low moisture, full fat mozzarella"
+      ], 
+      [
+        null, 
+        null, 
+        "Fresh Basil", 
+        "Fresh basil"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Grated Parmesan", 
+        "Freshly grated parmesan, for serving"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/panpizza", 
+      "episode_id": "panpizza", 
+      "name": "PAN PIZZA", 
+      "published_date": "2019-08-29T00:00:00+00:00", 
+      "youtube_link": "https://youtu.be/J_3v7DEkjsk", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/panpizza", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d67f0cdaf72b0000154887c/1567095359053/Pan+Pizza+3no+text.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/525", 
+    "recipe_id": 525, 
+    "name": "Pan Pizza - Glass Pie Plate Method", 
+    "raw_ingredient_list": "For the pizza dough (makes two 10-inch crusts or one baking sheet crust):\n16 ounces flour, plus more for work surface\n2 tsp kosher salt\n2 1/4 tsp active dry yeast\n11 ounces room temperature water\nOlive oil\nFor the tomato sauce\n1 28-ounce can of peeled San Marzano tomatoes\n2-3 cloves garlic\nDried oregano and basil\nRed pepper flakes\nKosher salt\nFreshly ground pepper\nOlive oil (optional)\nAdditional toppings:\nNatural casing pepperoni, thinly sliced\nLow moisture, full fat mozzarella\nFresh basil\nFreshly grated parmesan, for serving", 
+    "raw_procedure": "Start by making your pizza dough. Combine flour, kosher salt, and active dry yeast in a big bowl.\nAdd room temperature water and mix with a wooden spoon until a shaggy dough forms and no dry clumps remain.\nGenerously oil a medium bowl with olive oil. Put the ball of dough into the bowl and cover with plastic wrap. Let rest for 18-24 hours.\nOnce rested, turn the dough out onto a well-floured work surface. Cut the dough in half, as this will make 2 crusts for the glass pie plate.\nOil the pie plate with olive oil. Place the dough in the plate and gently coax the it to the edges using your fingers.\nCover the pan with plastic wrap and let rest for at least one hour or until doubled in size. Now is also the time to preheat your oven - turn it on to its max heat setting and put a pizza stone in the oven as well.\nWhile your dough rises, make tomato sauce. Combine tomatoes, garlic cloves, oregano, basil, red pepper flakes, salt, and pepper in a food processor or large cup for an immersion blender. Pulse a few times until smooth. Optionally, add a dash of olive oil for extra flavor.\nPrepare your other toppings - I love to use natural casing pepperoni, thinly sliced, as well as low moisture (full fat) mozzarella and fresh basil.\nNow that the dough is ready, top it with sauce edge to edge, then add the shredded mozzarella. Top with pepperoni and basil.\nBake for about 15 minutes.\nTop with freshly grated parmesan and let rest for at least 5 minutes so you don\u2019t burn your mouth. Serve and enjoy!", 
+    "ingredient_list": [
+      [
+        16.0, 
+        "ounce", 
+        "Flour", 
+        "16 ounces flour, plus more for work surface"
+      ], 
+      [
+        2.0, 
+        "teaspoon", 
+        "Kosher Salt", 
+        "2 tsp kosher salt"
+      ], 
+      [
+        2.25, 
+        "teaspoon", 
+        "Active Dry Yeast", 
+        "2 1/4 tsp active dry yeast"
+      ], 
+      [
+        11.0, 
+        "ounce", 
+        "Room Temperature Water", 
+        "11 ounces room temperature water"
+      ], 
+      [
+        null, 
+        null, 
+        "Olive Oil", 
+        "Olive oil"
+      ], 
+      [
+        "1 28-", 
+        "ounce", 
+        "Peeled San Marzano Tomatoes", 
+        "1 28-ounce can of peeled San Marzano tomatoes"
+      ], 
+      [
+        "2-3", 
+        null, 
+        "Cloves Garlic", 
+        "2-3 cloves garlic"
+      ], 
+      [
+        null, 
+        null, 
+        "Dried Oregano And Basil", 
+        "Dried oregano and basil"
+      ], 
+      [
+        null, 
+        null, 
+        "Red Pepper Flakes", 
+        "Red pepper flakes"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Pepper", 
+        "Freshly ground pepper"
+      ], 
+      [
+        null, 
+        null, 
+        "Olive Oil", 
+        "Olive oil (optional)"
+      ], 
+      [
+        null, 
+        null, 
+        "Additional Toppings:", 
+        "Additional toppings:"
+      ], 
+      [
+        null, 
+        null, 
+        "Natural Casing Pepperoni", 
+        "Natural casing pepperoni, thinly sliced"
+      ], 
+      [
+        null, 
+        null, 
+        "Low Moisture", 
+        "Low moisture, full fat mozzarella"
+      ], 
+      [
+        null, 
+        null, 
+        "Fresh Basil", 
+        "Fresh basil"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Grated Parmesan", 
+        "Freshly grated parmesan, for serving"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/panpizza", 
+      "episode_id": "panpizza", 
+      "name": "PAN PIZZA", 
+      "published_date": "2019-08-29T00:00:00+00:00", 
+      "youtube_link": "https://youtu.be/J_3v7DEkjsk", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/panpizza", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d67f0cdaf72b0000154887c/1567095359053/Pan+Pizza+3no+text.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/527", 
+    "recipe_id": 527, 
+    "name": "Pan Pizza - Rimmed Baking Sheet Method", 
+    "raw_ingredient_list": "For the pizza dough (makes two 10-inch crusts or one baking sheet crust):\n16 ounces flour, plus more for work surface\n2 tsp kosher salt\n2 1/4 tsp active dry yeast\n11 ounces room temperature water\nOlive oil\nFor the tomato sauce\n1 28-ounce can of peeled San Marzano tomatoes\n2-3 cloves garlic\nDried oregano and basil\nRed pepper flakes\nKosher salt\nFreshly ground pepper\nOlive oil (optional)\nAdditional toppings:\nNatural casing pepperoni, thinly sliced\nLow moisture, full fat mozzarella\nFresh basil\nFreshly grated parmesan, for serving", 
+    "raw_procedure": "Start by making your pizza dough. Combine flour, kosher salt, and active dry yeast in a big bowl.\nAdd room temperature water and mix with a wooden spoon until a shaggy dough forms and no dry clumps remain.\nGenerously oil a medium bowl with olive oil. Put the ball of dough into the bowl and cover with plastic wrap. Let rest for 18-24 hours.\nOnce rested, turn the dough out onto a well-floured work surface.\nOil the baking sheet with olive oil. Place the dough in the plate and gently coax the it to the edges as best as you can using your fingers.\nCover the pan with plastic wrap and let rest for at least one hour or until doubled in size. Now is also the time to preheat your oven to 450\u00b0F.\nWhile your dough rises, make tomato sauce. Combine tomatoes, garlic cloves, oregano, basil, red pepper flakes, salt, and pepper in a food processor or large cup for an immersion blender. Pulse a few times until smooth. Optionally, add a dash of olive oil for extra flavor.\nPrepare your other toppings - I love to use natural casing pepperoni, thinly sliced, as well as low moisture (full fat) mozzarella and fresh basil.\nNow that the dough is ready, top it with sauce edge to edge, then add the shredded mozzarella. Top with pepperoni and basil.\nBake for about 20 minutes, but start checking it around 16 minutes.\nTop with freshly grated parmesan and let rest for at least 5 minutes so you don\u2019t burn your mouth. Serve and enjoy!", 
+    "ingredient_list": [
+      [
+        16.0, 
+        "ounce", 
+        "Flour", 
+        "16 ounces flour, plus more for work surface"
+      ], 
+      [
+        2.0, 
+        "teaspoon", 
+        "Kosher Salt", 
+        "2 tsp kosher salt"
+      ], 
+      [
+        2.25, 
+        "teaspoon", 
+        "Active Dry Yeast", 
+        "2 1/4 tsp active dry yeast"
+      ], 
+      [
+        11.0, 
+        "ounce", 
+        "Room Temperature Water", 
+        "11 ounces room temperature water"
+      ], 
+      [
+        null, 
+        null, 
+        "Olive Oil", 
+        "Olive oil"
+      ], 
+      [
+        "1 28-", 
+        "ounce", 
+        "Peeled San Marzano Tomatoes", 
+        "1 28-ounce can of peeled San Marzano tomatoes"
+      ], 
+      [
+        "2-3", 
+        null, 
+        "Cloves Garlic", 
+        "2-3 cloves garlic"
+      ], 
+      [
+        null, 
+        null, 
+        "Dried Oregano And Basil", 
+        "Dried oregano and basil"
+      ], 
+      [
+        null, 
+        null, 
+        "Red Pepper Flakes", 
+        "Red pepper flakes"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Pepper", 
+        "Freshly ground pepper"
+      ], 
+      [
+        null, 
+        null, 
+        "Olive Oil", 
+        "Olive oil (optional)"
+      ], 
+      [
+        null, 
+        null, 
+        "Additional Toppings:", 
+        "Additional toppings:"
+      ], 
+      [
+        null, 
+        null, 
+        "Natural Casing Pepperoni", 
+        "Natural casing pepperoni, thinly sliced"
+      ], 
+      [
+        null, 
+        null, 
+        "Low Moisture", 
+        "Low moisture, full fat mozzarella"
+      ], 
+      [
+        null, 
+        null, 
+        "Fresh Basil", 
+        "Fresh basil"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Grated Parmesan", 
+        "Freshly grated parmesan, for serving"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/panpizza", 
+      "episode_id": "panpizza", 
+      "name": "PAN PIZZA", 
+      "published_date": "2019-08-29T00:00:00+00:00", 
+      "youtube_link": "https://youtu.be/J_3v7DEkjsk", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/panpizza", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d67f0cdaf72b0000154887c/1567095359053/Pan+Pizza+3no+text.png"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/205", 
     "recipe_id": 205, 
     "name": "Panzanella", 
@@ -24574,6 +24934,54 @@
       "youtube_link": "https://www.youtube.com/watch?v=KUu2gJn1dzc", 
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/16/nypizzatmnt", 
       "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/591bba3503596e312ae1b4b5/1533145184625/pizza.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/523", 
+    "recipe_id": 523, 
+    "name": "Pizza Dough", 
+    "raw_ingredient_list": "16 ounces flour, plus more for work surface\n2 tsp kosher salt\n2 1/4 tsp active dry yeast\n11 ounces room temperature water\nOlive oil", 
+    "raw_procedure": "Combine flour, kosher salt, and active dry yeast in a big bowl.\nAdd room temperature water and mix with a wooden spoon until a shaggy dough forms and no dry clumps remain.\nGenerously oil a medium bowl with olive oil. Put the ball of dough into the bowl and cover with plastic wrap. Let rest for 18-24 hours.", 
+    "ingredient_list": [
+      [
+        16.0, 
+        "ounce", 
+        "Flour", 
+        "16 ounces flour, plus more for work surface"
+      ], 
+      [
+        2.0, 
+        "teaspoon", 
+        "Kosher Salt", 
+        "2 tsp kosher salt"
+      ], 
+      [
+        2.25, 
+        "teaspoon", 
+        "Active Dry Yeast", 
+        "2 1/4 tsp active dry yeast"
+      ], 
+      [
+        11.0, 
+        "ounce", 
+        "Room Temperature Water", 
+        "11 ounces room temperature water"
+      ], 
+      [
+        null, 
+        null, 
+        "Olive Oil", 
+        "Olive oil"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/panpizza", 
+      "episode_id": "panpizza", 
+      "name": "PAN PIZZA", 
+      "published_date": "2019-08-29T00:00:00+00:00", 
+      "youtube_link": "https://youtu.be/J_3v7DEkjsk", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/panpizza", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d67f0cdaf72b0000154887c/1567095359053/Pan+Pizza+3no+text.png"
     }
   }, 
   {
@@ -33531,6 +33939,66 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/524", 
+    "recipe_id": 524, 
+    "name": "Tomato Pizza Sauce", 
+    "raw_ingredient_list": "1 28-ounce can of peeled San Marzano tomatoes\n2-3 cloves garlic\nDried oregano and basil\nRed pepper flakes\nKosher salt\nFreshly ground pepper\nOlive oil (optional)", 
+    "raw_procedure": "Combine tomatoes, garlic cloves, oregano, basil, red pepper flakes, salt, and pepper in a food processor or large cup for an immersion blender. Pulse a few times until smooth. Optionally, add a dash of olive oil for extra flavor.", 
+    "ingredient_list": [
+      [
+        "1 28-", 
+        "ounce", 
+        "Peeled San Marzano Tomatoes", 
+        "1 28-ounce can of peeled San Marzano tomatoes"
+      ], 
+      [
+        "2-3", 
+        null, 
+        "Cloves Garlic", 
+        "2-3 cloves garlic"
+      ], 
+      [
+        null, 
+        null, 
+        "Dried Oregano And Basil", 
+        "Dried oregano and basil"
+      ], 
+      [
+        null, 
+        null, 
+        "Red Pepper Flakes", 
+        "Red pepper flakes"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Pepper", 
+        "Freshly ground pepper"
+      ], 
+      [
+        null, 
+        null, 
+        "Olive Oil", 
+        "Olive oil (optional)"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/panpizza", 
+      "episode_id": "panpizza", 
+      "name": "PAN PIZZA", 
+      "published_date": "2019-08-29T00:00:00+00:00", 
+      "youtube_link": "https://youtu.be/J_3v7DEkjsk", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/panpizza", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d67f0cdaf72b0000154887c/1567095359053/Pan+Pizza+3no+text.png"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/40", 
     "recipe_id": 40, 
     "name": "Tomato Sauce, Fancy", 
@@ -34103,7 +34571,7 @@
       "published_date": "2019-07-08T00:00:00+00:00", 
       "youtube_link": "https://www.youtube.com/watch?v=iIDXc6xZ0X8", 
       "official_link": "https://basicswithbabish.co/basicsepisodes/treslechescake", 
-      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d23670b9813d80001de157c/1563470292777/Tres+Leches+1.png"
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d23670b9813d80001de157c/1567093583734/Tres+Leches+1.png"
     }
   }, 
   {
@@ -35093,7 +35561,7 @@
       "published_date": "2019-07-08T00:00:00+00:00", 
       "youtube_link": "https://www.youtube.com/watch?v=iIDXc6xZ0X8", 
       "official_link": "https://basicswithbabish.co/basicsepisodes/treslechescake", 
-      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d23670b9813d80001de157c/1563470292777/Tres+Leches+1.png"
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d23670b9813d80001de157c/1567093583734/Tres+Leches+1.png"
     }
   }, 
   {
