@@ -254,6 +254,15 @@
     "name": "Rashid Duroseau", 
     "appearances": [
       {
+        "self": "http://localhost:5000/episode/5mill-special", 
+        "episode_id": "5mill-special", 
+        "name": "5 Million Subscriber Special: Recreating Homer Simpson's NOLA Food Tour", 
+        "published_date": "2019-09-10T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=oM8c31ru92A", 
+        "official_link": "https://www.youtube.com/watch?v=oM8c31ru92A", 
+        "image_link": "#"
+      }, 
+      {
         "self": "http://localhost:5000/episode/being-with-babish-3", 
         "episode_id": "being-with-babish-3", 
         "name": "Surprising Rashid", 
@@ -310,6 +319,15 @@
     "guest_id": 17, 
     "name": "Sawyer Jacobs", 
     "appearances": [
+      {
+        "self": "http://localhost:5000/episode/5mill-special", 
+        "episode_id": "5mill-special", 
+        "name": "5 Million Subscriber Special: Recreating Homer Simpson's NOLA Food Tour", 
+        "published_date": "2019-09-10T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=oM8c31ru92A", 
+        "official_link": "https://www.youtube.com/watch?v=oM8c31ru92A", 
+        "image_link": "#"
+      }, 
       {
         "self": "http://localhost:5000/episode/being-with-babish-4", 
         "episode_id": "being-with-babish-4", 

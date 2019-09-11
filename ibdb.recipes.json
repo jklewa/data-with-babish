@@ -12982,7 +12982,7 @@
       "published_date": "2019-08-27T00:00:00+00:00", 
       "youtube_link": "https://www.youtube.com/watch?v=YYSP1D6GJ30", 
       "official_link": "https://www.bingingwithbabish.com/recipes/applefritters", 
-      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d65505036b62f00018310c2/1566920989246/Screen+Shot+2019-08-27+at+9.39.41+AM.png"
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d65505036b62f00018310c2/1567609321221/Screen+Shot+2019-08-27+at+9.39.41+AM.png"
     }
   }, 
   {
@@ -31516,6 +31516,90 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/528", 
+    "recipe_id": 528, 
+    "name": "Sumbitches", 
+    "raw_ingredient_list": "8 \u00bd ounces flour\n1 teaspoon baking soda\n1 teaspoon kosher salt\n2 sticks unsalted butter (room temperature)\n\u00be cup granulated sugar\n\u00be cup brown sugar\n1 teaspoon vanilla extract\n2 large eggs\nChocolate chips\nPeanut butter chips\nCaramel squares", 
+    "raw_procedure": "Unwrap caramel squares and cut each square into fours. Then, roll each small caramel square into a ball.\nWhisk 8 \u00bd ounces of flour, 1 teaspoon of baking soda, and 1 teaspoon of kosher salt. Set aside for later.\nIn a separate bowl, place 2 sticks of unsalted butter (room temperature), \u00be cup of granulated sugar, and a firmly packed \u00be cup of brown sugar. Using a stand mixer, mix the ingredients together and add 1 teaspoon of vanilla extract.\nAfter about one minute or after all of the ingredients are mixed together, add 2 large eggs to the mixture.\nScrape down the sides of the bowl and mix for about 1-2 minutes or until the mixture is a creamy texture.\nScrape down the sides of the bowl one last time and then add the dry ingredients to the mixture. Mix for no more than 30-45 seconds. Be sure not to over mix unless you want tough cookies.\nAdd your chopped up caramel squares, chocolate chips, and peanut butter chips to the mixture. Make sure to scrape the cookie dough out of the paddle attachment.\nUse a tiny ice cream scoop or melon baller to scoop out uniform little nubbins (1 Tablespoon worth) of the cookie dough and space out the scoops evenly on a parchment lined baking sheet.\nPlace into a 375\u00b0F oven for 10-12 minutes.\nAfter taking the cookies out of the oven, make sure not to try and scrape the cookies off the parchment paper until they are cooled completely as the molten caramel will make the cookies stick to the paper like glue.\nServe and enjoy!", 
+    "ingredient_list": [
+      [
+        8.5, 
+        "ounce", 
+        "Flour", 
+        "8 \u00bd ounces flour"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Baking Soda", 
+        "1 teaspoon baking soda"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Kosher Salt", 
+        "1 teaspoon kosher salt"
+      ], 
+      [
+        2.0, 
+        null, 
+        "Sticks Unsalted Butter", 
+        "2 sticks unsalted butter (room temperature)"
+      ], 
+      [
+        0.75, 
+        "cup", 
+        "Granulated Sugar", 
+        "\u00be cup granulated sugar"
+      ], 
+      [
+        0.75, 
+        "cup", 
+        "Brown Sugar", 
+        "\u00be cup brown sugar"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Vanilla Extract", 
+        "1 teaspoon vanilla extract"
+      ], 
+      [
+        2.0, 
+        "large", 
+        "Eggs", 
+        "2 large eggs"
+      ], 
+      [
+        null, 
+        null, 
+        "Chocolate Chips", 
+        "Chocolate chips"
+      ], 
+      [
+        null, 
+        null, 
+        "Peanut Butter Chips", 
+        "Peanut butter chips"
+      ], 
+      [
+        null, 
+        null, 
+        "Caramel Squares", 
+        "Caramel squares"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/sumbitches", 
+      "episode_id": "sumbitches", 
+      "name": "Sumbitches and Peanut Butter Cookies inspired by How I Met Your Mother", 
+      "published_date": "2019-09-04T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=i9MMCCd-MSI", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/sumbitches", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d6fd1e90a59c300011eea19/1567609948017/Screen+Shot+2019-09-03+at+9.51.15+AM.png"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/309", 
     "recipe_id": 309, 
     "name": "Sunny-Side Up Eggs", 
@@ -34374,6 +34458,90 @@
       "youtube_link": "https://www.youtube.com/watch?v=svPa8Rd8dsU", 
       "official_link": "https://basicswithbabish.co/basicsepisodes/pasta2", 
       "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5c37c0a0cd8366ff5aafedb4/1548362548787/ravioli.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/529", 
+    "recipe_id": 529, 
+    "name": "Tosi-Inspired Peanut Butter Cookies", 
+    "raw_ingredient_list": "50 grams glucose\n225 grams bread flour\n2 grams baking powder\n1 gram baking soda\n9 grams kosher salt\n1 \u00bd sticks unsalted butter (room temperature)\n300 grams granulated sugar\n260 grams creamy peanut butter\n2 large eggs\n\u00bd gram vanilla extract\n4-6 ounces high-quality dark chocolate or chocolate chips", 
+    "raw_procedure": "Combine 50 grams of glucose, 225 grams of bread flour, 2 grams of baking powder, 1 gram of baking soda, and 9 grams of kosher salt. Whisk dry ingredients together and set aside.\nPlace 1 \u00bd sticks of unsalted butter (room temperature), 300 grams of granulated sugar, and 50 grams of glucose syrup. If you are unable to access glucose syrup, you can use light corn syrup, but it will not have the same consistency in the end.\nBeat this mixture together with a stand-up mixer on medium-high speed for 2-3 minutes or until the texture is light and fluffy.\nScrape down the sides of the bowl and add 260 grams of creamy peanut butter and beat on medium-high speed for 30 seconds or until combined.\nWith the mixer running on slow, add 2 large eggs one at a time until being combined for about 30 seconds.\nAdd \u00bd gram of vanilla extract before beating on high-speed for 3 minutes until the mixture is light, creamy, and doubled in volume.\nAdd your pre-combined dry ingredients after scraping down the bowl one more time. Mix minimally on low-speed for about 30 seconds.\nCaramelize some granulated sugar over medium-low heat until amber in color. Pour it on parchment paper and allow to cool completely before peeling away from the parchment and smashing into tiny bits. None of the bits should be larger than a grain of rice. Dump into the cookie dough mixture.\nChop up about 4-6 ounces of high quality dark chocolate and add to the mixture. Slowly and gently mix together to evenly incorporate the mix-ins.\nUse a tiny ice cream scoop or melon baller to scoop out uniform little nubbins (2-3 tablespoons worth) of the cookie dough. Space out your scoops evenly on a parchment lined baking sheet.\nPat down the tops of the scoops a little bit to make the scoops into evenly proportioned chubby little disks.\nStack and wrap the cookie dough in plastic wrap and let sit in the fridge for as little as three hours and as much as three days. The longer you let the cookie dough sit, the better it is going to look and taste.\nOnce finished chilling, unwrap and place in a 375\u00b0F oven for 15-18 minutes until they are golden brown and crisp.", 
+    "ingredient_list": [
+      [
+        50.0, 
+        null, 
+        "Grams Glucose", 
+        "50 grams glucose"
+      ], 
+      [
+        225.0, 
+        null, 
+        "Grams Bread Flour", 
+        "225 grams bread flour"
+      ], 
+      [
+        2.0, 
+        null, 
+        "Grams Baking Powder", 
+        "2 grams baking powder"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Gram Baking Soda", 
+        "1 gram baking soda"
+      ], 
+      [
+        9.0, 
+        null, 
+        "Grams Kosher Salt", 
+        "9 grams kosher salt"
+      ], 
+      [
+        1.5, 
+        null, 
+        "Sticks Unsalted Butter", 
+        "1 \u00bd sticks unsalted butter (room temperature)"
+      ], 
+      [
+        300.0, 
+        null, 
+        "Grams Granulated Sugar", 
+        "300 grams granulated sugar"
+      ], 
+      [
+        260.0, 
+        null, 
+        "Grams Creamy Peanut Butter", 
+        "260 grams creamy peanut butter"
+      ], 
+      [
+        2.0, 
+        "large", 
+        "Eggs", 
+        "2 large eggs"
+      ], 
+      [
+        0.5, 
+        null, 
+        "Gram Vanilla Extract", 
+        "\u00bd gram vanilla extract"
+      ], 
+      [
+        "4-6", 
+        "ounce", 
+        "High-quality Dark Chocolate Or Chocolate Chips", 
+        "4-6 ounces high-quality dark chocolate or chocolate chips"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/sumbitches", 
+      "episode_id": "sumbitches", 
+      "name": "Sumbitches and Peanut Butter Cookies inspired by How I Met Your Mother", 
+      "published_date": "2019-09-04T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=i9MMCCd-MSI", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/sumbitches", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d6fd1e90a59c300011eea19/1567609948017/Screen+Shot+2019-09-03+at+9.51.15+AM.png"
     }
   }, 
   {

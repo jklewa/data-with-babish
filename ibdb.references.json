@@ -1099,6 +1099,15 @@
     "external_link": "https://www.imdb.com/title/tt0460649/", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/sumbitches", 
+        "episode_id": "sumbitches", 
+        "name": "Sumbitches and Peanut Butter Cookies inspired by How I Met Your Mother", 
+        "published_date": "2019-09-04T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=i9MMCCd-MSI", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/sumbitches", 
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d6fd1e90a59c300011eea19/1567609948017/Screen+Shot+2019-09-03+at+9.51.15+AM.png"
+      }, 
+      {
         "self": "http://localhost:5000/episode/cocktail-special", 
         "episode_id": "cocktail-special", 
         "name": "Cocktail Special", 
@@ -1901,7 +1910,7 @@
         "published_date": "2019-08-27T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=YYSP1D6GJ30", 
         "official_link": "https://www.bingingwithbabish.com/recipes/applefritters", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d65505036b62f00018310c2/1566920989246/Screen+Shot+2019-08-27+at+9.39.41+AM.png"
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d65505036b62f00018310c2/1567609321221/Screen+Shot+2019-08-27+at+9.39.41+AM.png"
       }, 
       {
         "self": "http://localhost:5000/episode/infernowings", 
@@ -2570,6 +2579,15 @@
     "description": "The satiric adventures of a working-class family in the misfit city of Springfield. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0096697/", 
     "episodes_inspired": [
+      {
+        "self": "http://localhost:5000/episode/5mill-special", 
+        "episode_id": "5mill-special", 
+        "name": "5 Million Subscriber Special: Recreating Homer Simpson's NOLA Food Tour", 
+        "published_date": "2019-09-10T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=oM8c31ru92A", 
+        "official_link": "https://www.youtube.com/watch?v=oM8c31ru92A", 
+        "image_link": "#"
+      }, 
       {
         "self": "http://localhost:5000/episode/goodmorningburger", 
         "episode_id": "goodmorningburger", 
