@@ -169,6 +169,22 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/28", 
+    "guest_id": 28, 
+    "name": "Isaac Toups", 
+    "appearances": [
+      {
+        "self": "http://localhost:5000/episode/cajunfood", 
+        "episode_id": "cajunfood", 
+        "name": "CAJUN FOOD", 
+        "published_date": "2019-09-13T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=nORg_aXMsmA", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/cajunfood", 
+        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d7bdcccf491747c78a205d6/1568400570183/Basics+Cajun2+%281%29.png"
+      }
+    ]
+  }, 
+  {
     "self": "http://localhost:5000/guest/8", 
     "guest_id": 8, 
     "name": "Jon Favreau", 

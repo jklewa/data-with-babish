@@ -1,5 +1,316 @@
 [
   {
+    "self": "http://localhost:5000/episode/cajunfood", 
+    "episode_id": "cajunfood", 
+    "name": "CAJUN FOOD", 
+    "published_date": "2019-09-13T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=nORg_aXMsmA", 
+    "official_link": "https://basicswithbabish.co/basicsepisodes/cajunfood", 
+    "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d7bdcccf491747c78a205d6/1568400570183/Basics+Cajun2+%281%29.png", 
+    "related": {
+      "show": {
+        "self": "http://localhost:5000/show/2", 
+        "show_id": 2, 
+        "name": "Basics with Babish"
+      }, 
+      "guests": [
+        {
+          "self": "http://localhost:5000/guest/28", 
+          "guest_id": 28, 
+          "name": "Isaac Toups"
+        }
+      ], 
+      "inspired_by": [], 
+      "recipes": [
+        {
+          "self": "http://localhost:5000/recipe/530", 
+          "recipe_id": 530, 
+          "name": "Chicken & Sausage Gumbo", 
+          "raw_ingredient_list": "1 small green bell pepper, diced\n2 ribs celery, diced\n1 small white onion, diced\n6 garlic cloves, minced\n1/2 cup vegetable oil\n1/2 cup all purpose flour\n2 bay leaves\n8 ounces beer (just not a light beer!)\n4 cups chicken stock\n1 lb andouille sausage, cut into coins (or smoked kielbasa)\n1 lb boneless, skinless, chicken thighs\nKosher salt and freshly ground black pepper\n1 tbsp cayenne pepper\n1 tbsp smoked paprika\nCooked white rice, for serving\nSliced scallions, for garnish", 
+          "raw_procedure": "Take 1 small green bell pepper, 2 ribs of celery, and 1 small white onion (also known as the \u201choly trinity\u201d) and dice them into medium-sized pieces. Set aside for later.\nMince 6 garlic cloves and set aside for later.\nFor the roux, add \u00bd cup of vegetable oil to a pot and allow it to get smoking hot before adding \u00bd cup of all purpose flour. Using a wooden spoon or preferably a whisk, mix together until the consistency is similar to wet sand.\nWithin 30 seconds, the roux should be the color of milk chocolate. The darker the roux gets, the more you need to stir it, but let it sit for a few seconds before continuing to stir. After about 5-6 minutes, the color of the roux should be nice and dark or similar to the color of a Hershey\u2019s chocolate bar. Set aside some of the roux to use later.\nAdd 2 bay leaves as well as your \u201choly trinity\u201d to the pot. Make sure to set aside some of the holy trinity mix for later.\nOnce the mixture calms down a bit, add the minced garlic to the pot. Let the roux sit for 30 seconds.\nAdd 8 ounces of beer and stir it in and whisk to prevent the mixture from becoming clumpy. Then, add 4 cups of chicken stock and whisk using the same procedure as the beer.\nTake 1 lb of andouille sausage or smoked kielbasa and cut into coins.\nAdd kosher salt and freshly ground black pepper to both sides of 1 lb of boneless, skinless chicken thighs. Sear the chicken thighs in a smoking hot pan with oil.\nAdd 1 tbsp of cayenne pepper and a pinch of salt to the roux.\nTurn the stovetop temperature to the lowest simmer possible and add a generous amount of black pepper to the roux. Then, add 1 tbsp of smoked paprika and stir.\nAfter browning the chicken, add it straight to the pot and set aside the remaining oil from the chicken. Next, add the chopped up sausage or smoked kielbasa to the pot.\nBring the roux to a bare simmer, cover it, and let sit for a couple of hours.\nServe with cooked white rice, garnish with scallions, and enjoy!", 
+          "ingredient_list": [
+            [
+              1.0, 
+              "small", 
+              "Green Bell Pepper", 
+              "1 small green bell pepper, diced"
+            ], 
+            [
+              2.0, 
+              null, 
+              "Ribs Celery", 
+              "2 ribs celery, diced"
+            ], 
+            [
+              1.0, 
+              "small", 
+              "White Onion", 
+              "1 small white onion, diced"
+            ], 
+            [
+              6.0, 
+              null, 
+              "Garlic Cloves", 
+              "6 garlic cloves, minced"
+            ], 
+            [
+              0.5, 
+              "cup", 
+              "Vegetable Oil", 
+              "1/2 cup vegetable oil"
+            ], 
+            [
+              0.5, 
+              "cup", 
+              "All Purpose Flour", 
+              "1/2 cup all purpose flour"
+            ], 
+            [
+              2.0, 
+              null, 
+              "Bay Leaves", 
+              "2 bay leaves"
+            ], 
+            [
+              8.0, 
+              "ounce", 
+              "Beer", 
+              "8 ounces beer (just not a light beer!)"
+            ], 
+            [
+              4.0, 
+              "cup", 
+              "Chicken Stock", 
+              "4 cups chicken stock"
+            ], 
+            [
+              1.0, 
+              "lb", 
+              "Andouille Sausage", 
+              "1 lb andouille sausage, cut into coins (or smoked kielbasa)"
+            ], 
+            [
+              1.0, 
+              "lb", 
+              "Boneless", 
+              "1 lb boneless, skinless, chicken thighs"
+            ], 
+            [
+              null, 
+              null, 
+              "Kosher Salt And Freshly Ground Black Pepper", 
+              "Kosher salt and freshly ground black pepper"
+            ], 
+            [
+              1.0, 
+              "tbsp", 
+              "Cayenne Pepper", 
+              "1 tbsp cayenne pepper"
+            ], 
+            [
+              1.0, 
+              "tbsp", 
+              "Smoked Paprika", 
+              "1 tbsp smoked paprika"
+            ], 
+            [
+              null, 
+              null, 
+              "Cooked White Rice", 
+              "Cooked white rice, for serving"
+            ], 
+            [
+              null, 
+              null, 
+              "Sliced Scallions", 
+              "Sliced scallions, for garnish"
+            ]
+          ]
+        }, 
+        {
+          "self": "http://localhost:5000/recipe/532", 
+          "recipe_id": 532, 
+          "name": "Dirty Rice", 
+          "raw_ingredient_list": "1 lb ground beef\nKosher salt and fresh black pepper\nCumin, to taste\nCayenne, to taste\n1 Tbsp vegetable oil", 
+          "raw_procedure": "Add a generous amount of fresh black pepper as well as cumin and cayenne (to taste) to 1 lb of ground beef. Place the meat into a pan with 1 tbsp of hot vegetable oil. Once both sides are seared, give it a good chop.\nAdd leftover trinity and 4 cloves of crushed garlic to the pan. After the vegetables finish cooking, add leftover roux and let it warm up for a minute before adding \u2153 cup of beer and 2 cups of chicken stock to the pan. Let simmer for about 45 minutes or until the consistency is a bit thicker.\nAdd 3 cups of cooked white rice, a few pinches of salt, garnish with scallions, and enjoy!", 
+          "ingredient_list": [
+            [
+              1.0, 
+              "lb", 
+              "Ground Beef", 
+              "1 lb ground beef"
+            ], 
+            [
+              null, 
+              null, 
+              "Kosher Salt And Fresh Black Pepper", 
+              "Kosher salt and fresh black pepper"
+            ], 
+            [
+              null, 
+              null, 
+              "Cumin", 
+              "Cumin, to taste"
+            ], 
+            [
+              null, 
+              null, 
+              "Cayenne", 
+              "Cayenne, to taste"
+            ], 
+            [
+              1.0, 
+              "tablespoon", 
+              "Vegetable Oil", 
+              "1 Tbsp vegetable oil"
+            ]
+          ]
+        }, 
+        {
+          "self": "http://localhost:5000/recipe/533", 
+          "recipe_id": 533, 
+          "name": "Jambalaya", 
+          "raw_ingredient_list": "Dirty rice (see ingredients above)\n1 pound andouille sausage, sliced into coins\n4 boneless chicken thighs\nScallions, for garnish", 
+          "raw_procedure": "Reheat the leftover dirty rice and add 1 lb of andouille sausage (sliced into coins) as well as 4 boneless chicken thighs (whole or cut up).\nGarnish with scallions and enjoy!", 
+          "ingredient_list": [
+            [
+              null, 
+              null, 
+              "Dirty Rice", 
+              "Dirty rice (see ingredients above)"
+            ], 
+            [
+              1.0, 
+              "pound", 
+              "Andouille Sausage", 
+              "1 pound andouille sausage, sliced into coins"
+            ], 
+            [
+              4.0, 
+              null, 
+              "Boneless Chicken Thighs", 
+              "4 boneless chicken thighs"
+            ], 
+            [
+              null, 
+              null, 
+              "Scallions", 
+              "Scallions, for garnish"
+            ]
+          ]
+        }, 
+        {
+          "self": "http://localhost:5000/recipe/531", 
+          "recipe_id": 531, 
+          "name": "Rillons", 
+          "raw_ingredient_list": "2 lbs pork belly, skin removed\nKosher salt\n2 cups red wine (full bodied like Malbec or Cabernet Sauvignon)\n2 cups sugar\nFresh thyme", 
+          "raw_procedure": "Remove all of the skin from 2 lbs of pork belly and add the skin to the roux.\nTake the fat from the pork belly and cut into chunks. Add the pork belly to a baking pan and season it with a few pinches of salt. Lightly mix to let the salt soak in. Set it aside and start preparing the red wine caramel.\nAdd 2 cups of sugar and 2 cups of red wine to a pot. Bring to a rolling boil and whisk to create a syrup-like consistency.\nSprinkle fresh thyme onto the pork belly.\nTake the pot of red wine caramel and pour it straight on top of the pork belly. Make sure that the mixture is compact before placing it into a 400 degree Fahrenheit oven for 25-35 minutes and stir occasionally.", 
+          "ingredient_list": [
+            [
+              2.0, 
+              "lb", 
+              "Pork Belly", 
+              "2 lbs pork belly, skin removed"
+            ], 
+            [
+              null, 
+              null, 
+              "Kosher Salt", 
+              "Kosher salt"
+            ], 
+            [
+              2.0, 
+              "cup", 
+              "Red Wine", 
+              "2 cups red wine (full bodied like Malbec or Cabernet Sauvignon)"
+            ], 
+            [
+              2.0, 
+              "cup", 
+              "Sugar", 
+              "2 cups sugar"
+            ], 
+            [
+              null, 
+              null, 
+              "Fresh Thyme", 
+              "Fresh thyme"
+            ]
+          ]
+        }, 
+        {
+          "self": "http://localhost:5000/recipe/534", 
+          "recipe_id": 534, 
+          "name": "Roux and \"holy trinity\" ingredients", 
+          "raw_ingredient_list": "1/4 cup vegetable oil\n1/4 cup all purpose flour\n1/2 cup diced onion\n1/2 cup diced green bell pepper\n1/3 cup diced celery\n4 cloves garlic, crushed\n1/3 cup beer (not a light one!)\n2 cups chicken stock\n3 cups cooked white rice\nScallions, for garnish", 
+          "raw_procedure": "", 
+          "ingredient_list": [
+            [
+              0.25, 
+              "cup", 
+              "Vegetable Oil", 
+              "1/4 cup vegetable oil"
+            ], 
+            [
+              0.25, 
+              "cup", 
+              "All Purpose Flour", 
+              "1/4 cup all purpose flour"
+            ], 
+            [
+              0.5, 
+              "cup", 
+              "Diced Onion", 
+              "1/2 cup diced onion"
+            ], 
+            [
+              0.5, 
+              "cup", 
+              "Diced Green Bell Pepper", 
+              "1/2 cup diced green bell pepper"
+            ], 
+            [
+              0.3333333333333333, 
+              "cup", 
+              "Diced Celery", 
+              "1/3 cup diced celery"
+            ], 
+            [
+              4.0, 
+              null, 
+              "Cloves Garlic", 
+              "4 cloves garlic, crushed"
+            ], 
+            [
+              0.3333333333333333, 
+              "cup", 
+              "Beer", 
+              "1/3 cup beer (not a light one!)"
+            ], 
+            [
+              2.0, 
+              "cup", 
+              "Chicken Stock", 
+              "2 cups chicken stock"
+            ], 
+            [
+              3.0, 
+              "cup", 
+              "Cooked White Rice", 
+              "3 cups cooked white rice"
+            ], 
+            [
+              null, 
+              null, 
+              "Scallions", 
+              "Scallions, for garnish"
+            ]
+          ]
+        }
+      ]
+    }
+  }, 
+  {
     "self": "http://localhost:5000/episode/5mill-special", 
     "episode_id": "5mill-special", 
     "name": "5 Million Subscriber Special: Recreating Homer Simpson's NOLA Food Tour", 
@@ -45,7 +356,7 @@
     "published_date": "2019-09-04T00:00:00+00:00", 
     "youtube_link": "https://www.youtube.com/watch?v=i9MMCCd-MSI", 
     "official_link": "https://www.bingingwithbabish.com/recipes/sumbitches", 
-    "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d6fd1e90a59c300011eea19/1567609948017/Screen+Shot+2019-09-03+at+9.51.15+AM.png", 
+    "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d6fd1e90a59c300011eea19/1568313544637/Screen+Shot+2019-09-03+at+9.51.15+AM.png", 
     "related": {
       "show": {
         "self": "http://localhost:5000/show/1", 

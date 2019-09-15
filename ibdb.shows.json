@@ -20,7 +20,7 @@
         "published_date": "2019-09-04T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=i9MMCCd-MSI", 
         "official_link": "https://www.bingingwithbabish.com/recipes/sumbitches", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d6fd1e90a59c300011eea19/1567609948017/Screen+Shot+2019-09-03+at+9.51.15+AM.png"
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d6fd1e90a59c300011eea19/1568313544637/Screen+Shot+2019-09-03+at+9.51.15+AM.png"
       }, 
       {
         "self": "http://localhost:5000/episode/applefritters", 
@@ -1442,6 +1442,15 @@
     "show_id": 2, 
     "name": "Basics with Babish", 
     "episodes": [
+      {
+        "self": "http://localhost:5000/episode/cajunfood", 
+        "episode_id": "cajunfood", 
+        "name": "CAJUN FOOD", 
+        "published_date": "2019-09-13T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=nORg_aXMsmA", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/cajunfood", 
+        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d7bdcccf491747c78a205d6/1568400570183/Basics+Cajun2+%281%29.png"
+      }, 
       {
         "self": "http://localhost:5000/episode/panpizza", 
         "episode_id": "panpizza", 
