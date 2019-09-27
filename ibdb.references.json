@@ -1105,7 +1105,7 @@
         "published_date": "2019-09-04T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=i9MMCCd-MSI", 
         "official_link": "https://www.bingingwithbabish.com/recipes/sumbitches", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d6fd1e90a59c300011eea19/1568313544637/Screen+Shot+2019-09-03+at+9.51.15+AM.png"
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d6fd1e90a59c300011eea19/1568991624950/Screen+Shot+2019-09-03+at+9.51.15+AM.png"
       }, 
       {
         "self": "http://localhost:5000/episode/cocktail-special", 
@@ -2354,6 +2354,25 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/133", 
+    "reference_id": 133, 
+    "type": "tv_show", 
+    "name": "The Disastrous Life of Saiki K.", 
+    "description": "Saiki Kusuo is a powerful psychic who hates attracting attention, yet he is surrounded by colorful characters who always find a way to remove him from his everyday life. IMDb.", 
+    "external_link": "https://www.imdb.com/title/tt6354518/", 
+    "episodes_inspired": [
+      {
+        "self": "http://localhost:5000/episode/coffeejelly", 
+        "episode_id": "coffeejelly", 
+        "name": "Coffee Jelly inspired by The Disastrous Life of Saiki K.", 
+        "published_date": "2019-09-24T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=YxEcd_wTf5c", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/coffeejelly", 
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d8a604ad8b9443f42a64b12/1569350307969/Screen+Shot+2019-09-24+at+10.07.44+AM.png"
+      }
+    ]
+  }, 
+  {
     "self": "http://localhost:5000/reference/46", 
     "reference_id": 46, 
     "type": "movie", 
@@ -2653,6 +2672,15 @@
     "description": "New Jersey mob boss Tony Soprano deals with personal and professional issues in his home and business life that affect his mental state, leading him to seek professional psychiatric counseling. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0141842/", 
     "episodes_inspired": [
+      {
+        "self": "http://localhost:5000/episode/ziti-lasagna", 
+        "episode_id": "ziti-lasagna", 
+        "name": "Baked Ziti and Lasagna inspired by The Sopranos", 
+        "published_date": "2019-09-20T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=c_BGPTK3GQk", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/ziti-lasagna", 
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d84e9882eb9d87e8d5a6fa9/1569349706781/Screen+Shot+2019-09-20+at+9.59.24+AM.png"
+      }, 
       {
         "self": "http://localhost:5000/episode/johnnycakes", 
         "episode_id": "johnnycakes", 

@@ -5,6 +5,24 @@
     "name": "Binging with Babish", 
     "episodes": [
       {
+        "self": "http://localhost:5000/episode/coffeejelly", 
+        "episode_id": "coffeejelly", 
+        "name": "Coffee Jelly inspired by The Disastrous Life of Saiki K.", 
+        "published_date": "2019-09-24T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=YxEcd_wTf5c", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/coffeejelly", 
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d8a604ad8b9443f42a64b12/1569350307969/Screen+Shot+2019-09-24+at+10.07.44+AM.png"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/ziti-lasagna", 
+        "episode_id": "ziti-lasagna", 
+        "name": "Baked Ziti and Lasagna inspired by The Sopranos", 
+        "published_date": "2019-09-20T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=c_BGPTK3GQk", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/ziti-lasagna", 
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d84e9882eb9d87e8d5a6fa9/1569349706781/Screen+Shot+2019-09-20+at+9.59.24+AM.png"
+      }, 
+      {
         "self": "http://localhost:5000/episode/5mill-special", 
         "episode_id": "5mill-special", 
         "name": "5 Million Subscriber Special: Recreating Homer Simpson's NOLA Food Tour", 
@@ -20,7 +38,7 @@
         "published_date": "2019-09-04T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=i9MMCCd-MSI", 
         "official_link": "https://www.bingingwithbabish.com/recipes/sumbitches", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d6fd1e90a59c300011eea19/1568313544637/Screen+Shot+2019-09-03+at+9.51.15+AM.png"
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d6fd1e90a59c300011eea19/1568991624950/Screen+Shot+2019-09-03+at+9.51.15+AM.png"
       }, 
       {
         "self": "http://localhost:5000/episode/applefritters", 
@@ -1442,6 +1460,15 @@
     "show_id": 2, 
     "name": "Basics with Babish", 
     "episodes": [
+      {
+        "self": "http://localhost:5000/episode/poutine", 
+        "episode_id": "poutine", 
+        "name": "POUTINE", 
+        "published_date": "2019-09-26T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=uc-_KXfHcXQ", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/poutine", 
+        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d8ce406c6586d7a3b204752/1569515812075/Screen+Shot+2019-09-26+at+11.11.45+AM.png"
+      }, 
       {
         "self": "http://localhost:5000/episode/cajunfood", 
         "episode_id": "cajunfood", 

@@ -515,6 +515,84 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/546", 
+    "recipe_id": 546, 
+    "name": "Babish's Baked Rigatoni", 
+    "raw_ingredient_list": "1 pound rigatoni noodles\n8 ounces low moisture, full fat mozzarella cheese (\u00bd inch chunks)\n\u00bd pound low moisture full fat mozzarella cheese (shredded)\n16 ounces cottage cheese\n2 whole eggs\n3 ounces parmesan cheese, grated\nNutmeg, grated\nBasil, chopped\nTomato sauce (see above)\nB\u00e9chamel sauce (see below)", 
+    "raw_procedure": "Boil 1 pound of ziti noodles until cooked al dente.\nIn a bowl, add 16 ounces of cottage cheese, 2 whole eggs, 2 ounces of grated parmesan cheese, and optionally, add some freshly grated nutmeg. Mix accordingly.\nAdd some chopped basil in bite-size pieces to the bowl and mix. Set aside for later.\nPour 1-2 cups of tomato sauce (method above), your pan of B\u00e9chamel sauce (see below), and your cottage cheese, egg, parmesan, and basil mixture to the pasta. Stir.\nThen, add 8 ounces of low moisture full fat mozzarella cheese (\u00bd inch chunks) and mix until all of the ingredients are evenly dispersed.\nPour into an aluminum pan and top with 1-2 cups of tomato sauce. Top it off with \u00bd pound of shredded low moisture full fat mozzarella cheese and 1 oz of grated parmesan cheese.\nCover the pan tightly with aluminum foil and place in a 350\u00b0F oven for 30 minutes.\nOnce 30 minutes has passed, take the rigatoni out of the oven, uncover the pan, and place back into the oven for 15-20 minutes until browned, crispy, and bubbly around the edges.", 
+    "ingredient_list": [
+      [
+        1.0, 
+        "pound", 
+        "Rigatoni Noodles", 
+        "1 pound rigatoni noodles"
+      ], 
+      [
+        8.0, 
+        "ounce", 
+        "Low Moisture", 
+        "8 ounces low moisture, full fat mozzarella cheese (\u00bd inch chunks)"
+      ], 
+      [
+        0.5, 
+        "pound", 
+        "Low Moisture Full Fat Mozzarella Cheese", 
+        "\u00bd pound low moisture full fat mozzarella cheese (shredded)"
+      ], 
+      [
+        16.0, 
+        "ounce", 
+        "Cottage Cheese", 
+        "16 ounces cottage cheese"
+      ], 
+      [
+        2.0, 
+        "whole", 
+        "Eggs", 
+        "2 whole eggs"
+      ], 
+      [
+        3.0, 
+        "ounce", 
+        "Parmesan Cheese", 
+        "3 ounces parmesan cheese, grated"
+      ], 
+      [
+        null, 
+        null, 
+        "Nutmeg", 
+        "Nutmeg, grated"
+      ], 
+      [
+        null, 
+        null, 
+        "Basil", 
+        "Basil, chopped"
+      ], 
+      [
+        null, 
+        null, 
+        "Tomato Sauce", 
+        "Tomato sauce (see above)"
+      ], 
+      [
+        null, 
+        null, 
+        "B\u00e9chamel Sauce", 
+        "B\u00e9chamel sauce (see below)"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/ziti-lasagna", 
+      "episode_id": "ziti-lasagna", 
+      "name": "Baked Ziti and Lasagna inspired by The Sopranos", 
+      "published_date": "2019-09-20T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=c_BGPTK3GQk", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/ziti-lasagna", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d84e9882eb9d87e8d5a6fa9/1569349706781/Screen+Shot+2019-09-20+at+9.59.24+AM.png"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/447", 
     "recipe_id": 447, 
     "name": "Babish's Moon Waffles", 
@@ -1970,6 +2048,42 @@
       "youtube_link": "https://www.youtube.com/watch?v=Upqp21Dm5vg&t=197s", 
       "official_link": "https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces", 
       "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/59ee408929f1872629cbaa01/1509988065485/Basics+Ep2+Thumb.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/547", 
+    "recipe_id": 547, 
+    "name": "Bechamel Sauce", 
+    "raw_ingredient_list": "3 Tbsp butter (melted)\n3 Tbsp flour\n2 cups milk", 
+    "raw_procedure": "Into a medium saucepan, add 3 tablespoons of melted butter and 3 tablespoons of flour. Whisk together and cook for 1 minute before slowly streaming in 2 cups of milk.\nWhisk constantly and cook for an additional 1-2 minutes until you end up with a thick and creamy B\u00e9chamel sauce.", 
+    "ingredient_list": [
+      [
+        3.0, 
+        "tablespoon", 
+        "Butter", 
+        "3 Tbsp butter (melted)"
+      ], 
+      [
+        3.0, 
+        "tablespoon", 
+        "Flour", 
+        "3 Tbsp flour"
+      ], 
+      [
+        2.0, 
+        "cup", 
+        "Milk", 
+        "2 cups milk"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/ziti-lasagna", 
+      "episode_id": "ziti-lasagna", 
+      "name": "Baked Ziti and Lasagna inspired by The Sopranos", 
+      "published_date": "2019-09-20T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=c_BGPTK3GQk", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/ziti-lasagna", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d84e9882eb9d87e8d5a6fa9/1569349706781/Screen+Shot+2019-09-20+at+9.59.24+AM.png"
     }
   }, 
   {
@@ -5833,6 +5947,120 @@
       "youtube_link": "https://www.youtube.com/watch?v=_fnhy5xO9vQ", 
       "official_link": "https://www.bingingwithbabish.com/recipes/alwayssunny", 
       "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d00f9a2be4f0200015cddef/1561056946852/Screen+Shot+2019-06-12+at+8.14.54+AM.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/545", 
+    "recipe_id": 545, 
+    "name": "Carmella's Baked Ziti", 
+    "raw_ingredient_list": "1  pound ziti noodles\nTomato sauce (see above)\nMozzarella cheese (\u00bd inch chunks)\nRicotta cheese\nParmesan cheese, grated", 
+    "raw_procedure": "Cook 1 pound of ziti noodles to very al dente for no more than 5 minutes. Pour your pasta into a large bowl and toss with a cup or two of your tomato sauce and mix accordingly.\nInto an aluminum pan, pour and spread about half of your pasta over the bottom of the pan.\nSpread some ricotta cheese on top of the pasta as evenly as possible and add your \u00bd inch chunks of mozzarella cheese on top. Then, add about 1 to 1 \u00bd oz of grated parmesan cheese.\nAdd the remaining half of your ziti and spread it out nice and even. Make sure none of the cheese is exposed.\nTop the pan off with a cup or two of sauce and 1 to \u00bd oz of grated parmesan cheese.\nCover the pan tightly with aluminum foil and place in a 350\u00b0F oven for 30 minutes.\nOnce 30 minutes has passed, take the lasagna out of the oven, uncover the pan, and place back into the oven for 15-20 minutes until browned, crispy, and bubbly on top.", 
+    "ingredient_list": [
+      [
+        1.0, 
+        "pound", 
+        "Ziti Noodles", 
+        "1  pound ziti noodles"
+      ], 
+      [
+        null, 
+        null, 
+        "Tomato Sauce", 
+        "Tomato sauce (see above)"
+      ], 
+      [
+        null, 
+        null, 
+        "Mozzarella Cheese", 
+        "Mozzarella cheese (\u00bd inch chunks)"
+      ], 
+      [
+        null, 
+        null, 
+        "Ricotta Cheese", 
+        "Ricotta cheese"
+      ], 
+      [
+        null, 
+        null, 
+        "Parmesan Cheese", 
+        "Parmesan cheese, grated"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/ziti-lasagna", 
+      "episode_id": "ziti-lasagna", 
+      "name": "Baked Ziti and Lasagna inspired by The Sopranos", 
+      "published_date": "2019-09-20T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=c_BGPTK3GQk", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/ziti-lasagna", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d84e9882eb9d87e8d5a6fa9/1569349706781/Screen+Shot+2019-09-20+at+9.59.24+AM.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/544", 
+    "recipe_id": 544, 
+    "name": "Carmella's Lasagna", 
+    "raw_ingredient_list": "1 package lasagna noodles\nTomato sauce (see above)\nRicotta cheese\n\u00bd ounce parmesan cheese, grated\nBasil leaves\nThinly sliced fresh mozzarella cheese\nKosher salt\nFreshly ground black pepper", 
+    "raw_procedure": "The pasta should be slightly undercooked and almost crunchy, so boil your lasagna noodles for no more than 4 minutes. Then, immediately move them into a pot or bowl of nice and cool water to pause the cooking process.\nLay each noodle out on a lint-free kitchen towel. Set aside for later.\nTake an aluminum foil lasagna pan and fill with a healthy layer of sauce to prevent noodles from sticking to the bottom of the pan.\nLay down your first layer of pasta and make sure that all of the gaps are filled. In addition, make sure to flip the pattern every layer to maintain the lasagna\u2019s structure.\nSpread a generous amount of ricotta cheese on top of the noodles and add \u00bd ounce of grated parmesan cheese.\nNext, add a layer of basil leaves and a layer of thinly sliced fresh mozzarella cheese.\nTop it off with another layer of sauce and then repeat steps 4-6 until the pan is completely full.\nOn the final layer, spread a generous coating of sauce and a generous grating of parmesan cheese. Then, add a little bit of kosher salt and freshly ground black pepper.\nCover the pan tightly with aluminum foil and place in a 350\u00b0F oven for 30 minutes.\nOnce 30 minutes has passed, take the lasagna out of the oven, uncover the pan, and place back into the oven for 15-30 minutes, or until brown and bubbly on top.\nLet sit for at least 15 minutes before digging in.", 
+    "ingredient_list": [
+      [
+        1.0, 
+        null, 
+        "Package Lasagna Noodles", 
+        "1 package lasagna noodles"
+      ], 
+      [
+        null, 
+        null, 
+        "Tomato Sauce", 
+        "Tomato sauce (see above)"
+      ], 
+      [
+        null, 
+        null, 
+        "Ricotta Cheese", 
+        "Ricotta cheese"
+      ], 
+      [
+        0.5, 
+        "ounce", 
+        "Parmesan Cheese", 
+        "\u00bd ounce parmesan cheese, grated"
+      ], 
+      [
+        null, 
+        null, 
+        "Basil Leaves", 
+        "Basil leaves"
+      ], 
+      [
+        null, 
+        null, 
+        "Thinly Sliced Fresh Mozzarella Cheese", 
+        "Thinly sliced fresh mozzarella cheese"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Black Pepper", 
+        "Freshly ground black pepper"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/ziti-lasagna", 
+      "episode_id": "ziti-lasagna", 
+      "name": "Baked Ziti and Lasagna inspired by The Sopranos", 
+      "published_date": "2019-09-20T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=c_BGPTK3GQk", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/ziti-lasagna", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d84e9882eb9d87e8d5a6fa9/1569349706781/Screen+Shot+2019-09-20+at+9.59.24+AM.png"
     }
   }, 
   {
@@ -10247,6 +10475,120 @@
       "youtube_link": "https://www.youtube.com/watch?v=6HBPHRDEt_Q", 
       "official_link": "https://www.bingingwithbabish.com/recipes/forrestgumpshrimp", 
       "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5b3bcb6d352f536b751276cd/1531768050781/Screen+Shot+2018-07-03+at+3.10.12+PM.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/539", 
+    "recipe_id": 539, 
+    "name": "Coffee Jelly - Level 1 (Easiest)", 
+    "raw_ingredient_list": "2 cups of coffee (instant or store-bought canned Japanese coffee)\n1 pack of gelatin\nCanned whipped cream", 
+    "raw_procedure": "Measure out 2 cups of coffee and deposit into a medium saucepan, saving about \u00be cup of coffee in a dish on the side. Dissolve one pack of gelatin into the coffee on the side and give a tiny whisk.\nTake the saucepan to the stove on a medium low flame until it reaches a rolling boil and then dump in the gelatin coffee mixture. Tiny whisk over medium low until the mixture is completely incorporated. Turn off heat and let cool for about 5 minutes.\nOnce it\u2019s cooled down, ladle into serving vessel of choice and gently place into fridge for at least 3 hours until gelatinous.\nRemove from fridge and add canned whipped cream on top.", 
+    "ingredient_list": [
+      [
+        2.0, 
+        "cup", 
+        "Coffee", 
+        "2 cups of coffee (instant or store-bought canned Japanese coffee)"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Gelatin", 
+        "1 pack of gelatin"
+      ], 
+      [
+        null, 
+        null, 
+        "Canned Whipped Cream", 
+        "Canned whipped cream"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/coffeejelly", 
+      "episode_id": "coffeejelly", 
+      "name": "Coffee Jelly inspired by The Disastrous Life of Saiki K.", 
+      "published_date": "2019-09-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=YxEcd_wTf5c", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/coffeejelly", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d8a604ad8b9443f42a64b12/1569350307969/Screen+Shot+2019-09-24+at+10.07.44+AM.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/540", 
+    "recipe_id": 540, 
+    "name": "Coffee Jelly - Level 2 (Espresso Based)", 
+    "raw_ingredient_list": "Make \u2154 cup of espresso.\nAdd 1 \u2153 cup of water, 1 \u00bd teaspoons (or half a packet) of agar agar, and \u00bc cup of sugar into a medium saucepan. Tiny whisk agar agar and sugar to dissolve until no crystals remain. Turn off heat and allow to cool for about 5 minutes before adding \u2154 cup of espresso to the saucepan.\nTaste for sweetness and adjust accordingly before ladling into desired serving vessels. Place vessels into fridge for around an hour, depending on size, until jelly-like. If placing into a different vessel, loosen around edges with a knife, and invert onto the new vessel.\nMake whipped cream by mixing about a cup of cream with a tablespoon or two of sugar. Mix until you see stiff peaks or big chunks and drop into pastry bag with a decorative tip. Squeeze whipped cream onto coffee jelly in a fun pattern.", 
+    "raw_procedure": "\u2154 cup of espresso\n1 \u2153 cup of water\n1 \u00bd teaspoons or half a packet of agar agar\n\u00bc cup sugar", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Espresso", 
+        "Make \u2154 cup of espresso."
+      ], 
+      [
+        null, 
+        null, 
+        "Espresso To The Saucepan", 
+        "Add 1 \u2153 cup of water, 1 \u00bd teaspoons (or half a packet) of agar agar, and \u00bc cup of sugar into a medium saucepan. Tiny whisk agar agar and sugar to dissolve until no crystals remain. Turn off heat and allow to cool for about 5 minutes before adding \u2154 cup of espresso to the saucepan."
+      ], 
+      [
+        null, 
+        null, 
+        "Taste For Sweetness And Adjust Accordingly Before Ladling Into Desired Serving Vessels. Place Vessels Into Fridge For Around An Hour", 
+        "Taste for sweetness and adjust accordingly before ladling into desired serving vessels. Place vessels into fridge for around an hour, depending on size, until jelly-like. If placing into a different vessel, loosen around edges with a knife, and invert onto the new vessel."
+      ], 
+      [
+        null, 
+        null, 
+        "Sugar. Mix Until You See Stiff Peaks Or Big Chunks And Drop Into Pastry Bag With A Decorative Tip. Squeeze Whipped Cream Onto Coffee Jelly In A Fun Pattern", 
+        "Make whipped cream by mixing about a cup of cream with a tablespoon or two of sugar. Mix until you see stiff peaks or big chunks and drop into pastry bag with a decorative tip. Squeeze whipped cream onto coffee jelly in a fun pattern."
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/coffeejelly", 
+      "episode_id": "coffeejelly", 
+      "name": "Coffee Jelly inspired by The Disastrous Life of Saiki K.", 
+      "published_date": "2019-09-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=YxEcd_wTf5c", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/coffeejelly", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d8a604ad8b9443f42a64b12/1569350307969/Screen+Shot+2019-09-24+at+10.07.44+AM.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/541", 
+    "recipe_id": 541, 
+    "name": "Coffee Jelly - Level 3 (Fancy)", 
+    "raw_ingredient_list": "37g coffee beans, medium grind (I used Kopi Luwak)\n1 \u00bd teaspoons or half a packet of agar agar\n1 \u2153 cup of water", 
+    "raw_procedure": "Set coffee grinder to 7 for a medium coffee grind appropriate for a pour-over method. Make sure your grounds are are medium, assuming you are using a pour over method.\nHeat water to 205\u00b0F, wet pour over paper filter, and dump excess water. Fill filter with 37g of ground coffee.\nPre dissolve \u00bd teaspoons or half a packet of agar agar in a medium saucepan with 1 \u2153 cup of water and \u00bc cup of sugar. Pour dissolved agar agar into gooseneck kettle and slowly start pouring over the filter, straight down the center at first. Once water rises up, pour to the sides of the coffee in a sort of elliptical massaging pattern. Let sit for 1-2 minutes until all the water has filtered through. Use hot water to knock the grounds off the sides of the filter and continue the elliptical pattern until there is 500g of coffee. Let sit for another 1-2 minutes and remove the filter.\nPour mixture into desired mold and leave in fridge for at least 2 hours before extracting onto a plate. Decorate with whipped cream. Alternatively, cut gelatin into cubes and place into a decorative bowl. Top with lightly whipped, lightly sweetened heavy cream.", 
+    "ingredient_list": [
+      [
+        37.0, 
+        "gram", 
+        "Coffee Beans", 
+        "37g coffee beans, medium grind (I used Kopi Luwak)"
+      ], 
+      [
+        1.5, 
+        "teaspoon", 
+        "Agar Agar", 
+        "1 \u00bd teaspoons or half a packet of agar agar"
+      ], 
+      [
+        1.3333333333333333, 
+        "cup", 
+        "Water", 
+        "1 \u2153 cup of water"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/coffeejelly", 
+      "episode_id": "coffeejelly", 
+      "name": "Coffee Jelly inspired by The Disastrous Life of Saiki K.", 
+      "published_date": "2019-09-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=YxEcd_wTf5c", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/coffeejelly", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d8a604ad8b9443f42a64b12/1569350307969/Screen+Shot+2019-09-24+at+10.07.44+AM.png"
     }
   }, 
   {
@@ -15710,6 +16052,48 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/535", 
+    "recipe_id": 535, 
+    "name": "Fries", 
+    "raw_ingredient_list": "2-3 lbs russet potatoes\nKosher salt\nFreshly ground pepper\nVegetable oil, for frying", 
+    "raw_procedure": "Slice 2-3 pounds of Russet potatoes into french fry shapes, leaving the skin on for a more rustic presentation. Rinse all the starch off the potatoes by tossing them in a bowl until the water runs clear. Very thoroughly dry potatoes using a lint free cloth. Wet food in hot oil can cause the oil to bubble and potentially burn you!\nIn batches, put extra dry potatoes into a vat of vegetable oil heated to 350 degrees Fahrenheit for about 5-7 minutes until potatoes start to turn light blonde. Put onto a paper towel lined baking sheet until they cool to room temperature. Place in the freezer for at least 4 hours.\nTake fries out of the freezer and throw into 400 degree Fahrenheit oil until they are crisp and golden brown. Cooking time will vary, so keep an eye on them. Drain on a wire rack and then dump into a bowl to season with Kosher salt. Toss thoroughly to ensure all fries are salted.", 
+    "ingredient_list": [
+      [
+        "2-3", 
+        "lb", 
+        "Russet Potatoes", 
+        "2-3 lbs russet potatoes"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Pepper", 
+        "Freshly ground pepper"
+      ], 
+      [
+        null, 
+        null, 
+        "Vegetable Oil", 
+        "Vegetable oil, for frying"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/poutine", 
+      "episode_id": "poutine", 
+      "name": "POUTINE", 
+      "published_date": "2019-09-26T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=uc-_KXfHcXQ", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/poutine", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d8ce406c6586d7a3b204752/1569515812075/Screen+Shot+2019-09-26+at+11.11.45+AM.png"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/183", 
     "recipe_id": 183, 
     "name": "Frito Chili Pie", 
@@ -16517,6 +16901,42 @@
       "youtube_link": "https://www.youtube.com/watch?v=6pXjR0JyV0s", 
       "official_link": "https://www.bingingwithbabish.com/recipes/teddybrulee", 
       "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5cdb2caf24a694dde767baf4/1558470503511/Screen+Shot+2019-05-14+at+4.00.11+PM.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/537", 
+    "recipe_id": 537, 
+    "name": "Gravy", 
+    "raw_ingredient_list": "3 Tbsp unsalted butter\n3 Tbsp all purpose flour\n2-3 cups homemade stock", 
+    "raw_procedure": "Put 3 tbsp of unsalted butter into a clean saucepan and bring to a bubble before adding 3 tbsp of all purpose flour. Whisk and cook for about a minute until a light-blonde roux is formed.\nSlowly stream stock into the roux, whisking constantly to make sure no lumps or clumps can form. Once all of the stock is in the saucepan, add in a few splashes of soy sauce and Worcestershire sauce. Season with salt and pepper to taste.\nSimmer and cook down until a gravy-like consistency is reached.", 
+    "ingredient_list": [
+      [
+        3.0, 
+        "tablespoon", 
+        "Unsalted Butter", 
+        "3 Tbsp unsalted butter"
+      ], 
+      [
+        3.0, 
+        "tablespoon", 
+        "All Purpose Flour", 
+        "3 Tbsp all purpose flour"
+      ], 
+      [
+        "2-3", 
+        "cup", 
+        "Homemade Stock", 
+        "2-3 cups homemade stock"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/poutine", 
+      "episode_id": "poutine", 
+      "name": "POUTINE", 
+      "published_date": "2019-09-26T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=uc-_KXfHcXQ", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/poutine", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d8ce406c6586d7a3b204752/1569515812075/Screen+Shot+2019-09-26+at+11.11.45+AM.png"
     }
   }, 
   {
@@ -25909,6 +26329,42 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/538", 
+    "recipe_id": 538, 
+    "name": "Poutine", 
+    "raw_ingredient_list": "Fries\nCheese Curds\nGravy", 
+    "raw_procedure": "Place fries onto plate.\nTop fries with cheese curds (or tear off little chunks of mozzarella and roll into balls if cheese curds are not available).\nPour gravy over the fries and cheese. Enjoy!", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Fries", 
+        "Fries"
+      ], 
+      [
+        null, 
+        null, 
+        "Cheese Curds", 
+        "Cheese Curds"
+      ], 
+      [
+        null, 
+        null, 
+        "Gravy", 
+        "Gravy"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/poutine", 
+      "episode_id": "poutine", 
+      "name": "POUTINE", 
+      "published_date": "2019-09-26T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=uc-_KXfHcXQ", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/poutine", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d8ce406c6586d7a3b204752/1569515812075/Screen+Shot+2019-09-26+at+11.11.45+AM.png"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/378", 
     "recipe_id": 378, 
     "name": "Pretzels", 
@@ -30334,6 +30790,84 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/536", 
+    "recipe_id": 536, 
+    "name": "Sorta-Homemade Stock", 
+    "raw_ingredient_list": "1 carton of store-bought stock\n1 carrot, chopped into large pieces\n1 large onion, halved\n1 shallot, halved\n1 head garlic, halved\n1 two-inch piece of ginger, peeled\n\u00bd bunch parsley\n4 sprigs thyme\nSoy sauce (to taste)\nWorcestershire sauce (to taste)", 
+    "raw_procedure": "Pour a glug of your cooking oil of choice into a saucepan and heat over medium high heat until shimmering. Add vegetables to brown. The more dark brown color on the vegetables, the more flavor that will be added to the stock. Once nice and brown, add a carton of store bought stock and some fresh herbs like parsley and thyme. Cook for one hour and strain.", 
+    "ingredient_list": [
+      [
+        1.0, 
+        null, 
+        "Store-bought Stock", 
+        "1 carton of store-bought stock"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Carrot", 
+        "1 carrot, chopped into large pieces"
+      ], 
+      [
+        1.0, 
+        "large", 
+        "Onion", 
+        "1 large onion, halved"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Shallot", 
+        "1 shallot, halved"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Head Garlic", 
+        "1 head garlic, halved"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Ginger", 
+        "1 two-inch piece of ginger, peeled"
+      ], 
+      [
+        0.5, 
+        null, 
+        "Bunch Parsley", 
+        "\u00bd bunch parsley"
+      ], 
+      [
+        4.0, 
+        null, 
+        "Sprigs Thyme", 
+        "4 sprigs thyme"
+      ], 
+      [
+        null, 
+        null, 
+        "Soy Sauce", 
+        "Soy sauce (to taste)"
+      ], 
+      [
+        null, 
+        null, 
+        "Worcestershire Sauce", 
+        "Worcestershire sauce (to taste)"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/poutine", 
+      "episode_id": "poutine", 
+      "name": "POUTINE", 
+      "published_date": "2019-09-26T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=uc-_KXfHcXQ", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/poutine", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d8ce406c6586d7a3b204752/1569515812075/Screen+Shot+2019-09-26+at+11.11.45+AM.png"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/175", 
     "recipe_id": 175, 
     "name": "Sour Cream Donuts", 
@@ -31926,7 +32460,7 @@
       "published_date": "2019-09-04T00:00:00+00:00", 
       "youtube_link": "https://www.youtube.com/watch?v=i9MMCCd-MSI", 
       "official_link": "https://www.bingingwithbabish.com/recipes/sumbitches", 
-      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d6fd1e90a59c300011eea19/1568313544637/Screen+Shot+2019-09-03+at+9.51.15+AM.png"
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d6fd1e90a59c300011eea19/1568991624950/Screen+Shot+2019-09-03+at+9.51.15+AM.png"
     }
   }, 
   {
@@ -34413,6 +34947,96 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/543", 
+    "recipe_id": 543, 
+    "name": "Tomato Sauce", 
+    "raw_ingredient_list": "Extra virgin olive oil\n1 large onion, chopped\n6 cloves crushed garlic\n1 pound ground beef\n1 pound sweet italian sausage (casing removed)\nTomato paste (1-2 Tbsp)\n(4) 28oz cans San Marzano tomatoes (lightly crushed)\n1 parmesan cheese rind\n1 whole stem basil\nChopped basil, to taste\nKosher salt\nFreshly ground black pepper", 
+    "raw_procedure": "In a dutch oven, give a generous pour of extra virgin olive oil and bring to a simmer over medium heat.\nAdd 1 large chopped onion and stir until soft and translucent.\nAdd 6 cloves of crushed garlic and saut\u00e9 for an additional minute until fragrant.\nNext, set aside your onion and garlic and cook your beef and sausage in batches until it is brown and crumbly.\nDrain off most of the fat and add the garlic and onion back into the pot. Then, add a few tablespoons of tomato paste.\nAdd (4) 28oz cans of San Marzano tomatoes (lightly crushed) to the pot. Stir to combine.\nFor moisture, fill one of your tomato cans with water and add to the pot.\nAdd 1 parmesan cheese rind as well as 1 whole stem of basil to the pot. Cover the pot and bring to a simmer.\nOnce the sauce is bubbling, stir and partially cover the pot and reduce the heat to about as low as your stove will go. Simmer for 1 \u00bd hours, keep the sauce bubbling, and stir occasionally.\nOnce the sauce is melded, scrape down the sides of the pot to add more flavor.\nAdd some chopped basil to the pot and season to taste with kosher salt and freshly ground black pepper. Cover and set aside the sauce for later recipes.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Extra Virgin Olive Oil", 
+        "Extra virgin olive oil"
+      ], 
+      [
+        1.0, 
+        "large", 
+        "Onion", 
+        "1 large onion, chopped"
+      ], 
+      [
+        6.0, 
+        null, 
+        "Cloves Crushed Garlic", 
+        "6 cloves crushed garlic"
+      ], 
+      [
+        1.0, 
+        "pound", 
+        "Ground Beef", 
+        "1 pound ground beef"
+      ], 
+      [
+        1.0, 
+        "pound", 
+        "Sweet Italian Sausage", 
+        "1 pound sweet italian sausage (casing removed)"
+      ], 
+      [
+        null, 
+        null, 
+        "Tomato Paste", 
+        "Tomato paste (1-2 Tbsp)"
+      ], 
+      [
+        28.0, 
+        "ounce", 
+        "Cans San Marzano Tomatoes", 
+        "(4) 28oz cans San Marzano tomatoes (lightly crushed)"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Parmesan Cheese Rind", 
+        "1 parmesan cheese rind"
+      ], 
+      [
+        1.0, 
+        "whole", 
+        "Stem Basil", 
+        "1 whole stem basil"
+      ], 
+      [
+        null, 
+        null, 
+        "Chopped Basil", 
+        "Chopped basil, to taste"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Black Pepper", 
+        "Freshly ground black pepper"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/ziti-lasagna", 
+      "episode_id": "ziti-lasagna", 
+      "name": "Baked Ziti and Lasagna inspired by The Sopranos", 
+      "published_date": "2019-09-20T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=c_BGPTK3GQk", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/ziti-lasagna", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d84e9882eb9d87e8d5a6fa9/1569349706781/Screen+Shot+2019-09-20+at+9.59.24+AM.png"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/40", 
     "recipe_id": 40, 
     "name": "Tomato Sauce, Fancy", 
@@ -34871,7 +35495,7 @@
       "published_date": "2019-09-04T00:00:00+00:00", 
       "youtube_link": "https://www.youtube.com/watch?v=i9MMCCd-MSI", 
       "official_link": "https://www.bingingwithbabish.com/recipes/sumbitches", 
-      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d6fd1e90a59c300011eea19/1568313544637/Screen+Shot+2019-09-03+at+9.51.15+AM.png"
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d6fd1e90a59c300011eea19/1568991624950/Screen+Shot+2019-09-03+at+9.51.15+AM.png"
     }
   }, 
   {
@@ -36126,6 +36750,36 @@
       "youtube_link": "https://www.youtube.com/watch?v=7H3z3J50XCs", 
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/ingloriousbasterds", 
       "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a038c00f9619a5b8062cac1/1532029647654/Screen+Shot+2017-11-08+at+4.56.07+PM.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/542", 
+    "recipe_id": 542, 
+    "name": "Whipped Cream", 
+    "raw_ingredient_list": "1 cup cream\n1-2 Tbsp sugar", 
+    "raw_procedure": "Make whipped cream by mixing about a cup of cream with a tablespoon or two of sugar. Mix until you see stiff peaks or big chunks.", 
+    "ingredient_list": [
+      [
+        1.0, 
+        "cup", 
+        "Cream", 
+        "1 cup cream"
+      ], 
+      [
+        "1-2", 
+        "tablespoon", 
+        "Sugar", 
+        "1-2 Tbsp sugar"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/coffeejelly", 
+      "episode_id": "coffeejelly", 
+      "name": "Coffee Jelly inspired by The Disastrous Life of Saiki K.", 
+      "published_date": "2019-09-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=YxEcd_wTf5c", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/coffeejelly", 
+      "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d8a604ad8b9443f42a64b12/1569350307969/Screen+Shot+2019-09-24+at+10.07.44+AM.png"
     }
   }, 
   {
