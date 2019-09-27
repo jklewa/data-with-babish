@@ -232,32 +232,32 @@
           "self": "http://localhost:5000/recipe/540", 
           "recipe_id": 540, 
           "name": "Coffee Jelly - Level 2 (Espresso Based)", 
-          "raw_ingredient_list": "Make \u2154 cup of espresso.\nAdd 1 \u2153 cup of water, 1 \u00bd teaspoons (or half a packet) of agar agar, and \u00bc cup of sugar into a medium saucepan. Tiny whisk agar agar and sugar to dissolve until no crystals remain. Turn off heat and allow to cool for about 5 minutes before adding \u2154 cup of espresso to the saucepan.\nTaste for sweetness and adjust accordingly before ladling into desired serving vessels. Place vessels into fridge for around an hour, depending on size, until jelly-like. If placing into a different vessel, loosen around edges with a knife, and invert onto the new vessel.\nMake whipped cream by mixing about a cup of cream with a tablespoon or two of sugar. Mix until you see stiff peaks or big chunks and drop into pastry bag with a decorative tip. Squeeze whipped cream onto coffee jelly in a fun pattern.", 
-          "raw_procedure": "\u2154 cup of espresso\n1 \u2153 cup of water\n1 \u00bd teaspoons or half a packet of agar agar\n\u00bc cup sugar", 
+          "raw_ingredient_list": "\u2154 cup of espresso\n1 \u2153 cup of water\n1 \u00bd teaspoons or half a packet of agar agar\n\u00bc cup sugar", 
+          "raw_procedure": "Make \u2154 cup of espresso.\nAdd 1 \u2153 cup of water, 1 \u00bd teaspoons (or half a packet) of agar agar, and \u00bc cup of sugar into a medium saucepan. Tiny whisk agar agar and sugar to dissolve until no crystals remain. Turn off heat and allow to cool for about 5 minutes before adding \u2154 cup of espresso to the saucepan.\nTaste for sweetness and adjust accordingly before ladling into desired serving vessels. Place vessels into fridge for around an hour, depending on size, until jelly-like. If placing into a different vessel, loosen around edges with a knife, and invert onto the new vessel.\nMake whipped cream by mixing about a cup of cream with a tablespoon or two of sugar. Mix until you see stiff peaks or big chunks and drop into pastry bag with a decorative tip. Squeeze whipped cream onto coffee jelly in a fun pattern.", 
           "ingredient_list": [
             [
-              null, 
-              null, 
+              0.6666666666666666, 
+              "cup", 
               "Espresso", 
-              "Make \u2154 cup of espresso."
+              "\u2154 cup of espresso"
             ], 
             [
-              null, 
-              null, 
-              "Espresso To The Saucepan", 
-              "Add 1 \u2153 cup of water, 1 \u00bd teaspoons (or half a packet) of agar agar, and \u00bc cup of sugar into a medium saucepan. Tiny whisk agar agar and sugar to dissolve until no crystals remain. Turn off heat and allow to cool for about 5 minutes before adding \u2154 cup of espresso to the saucepan."
+              1.3333333333333333, 
+              "cup", 
+              "Water", 
+              "1 \u2153 cup of water"
             ], 
             [
-              null, 
-              null, 
-              "Taste For Sweetness And Adjust Accordingly Before Ladling Into Desired Serving Vessels. Place Vessels Into Fridge For Around An Hour", 
-              "Taste for sweetness and adjust accordingly before ladling into desired serving vessels. Place vessels into fridge for around an hour, depending on size, until jelly-like. If placing into a different vessel, loosen around edges with a knife, and invert onto the new vessel."
+              1.5, 
+              "teaspoon", 
+              "Agar Agar", 
+              "1 \u00bd teaspoons or half a packet of agar agar"
             ], 
             [
-              null, 
-              null, 
-              "Sugar. Mix Until You See Stiff Peaks Or Big Chunks And Drop Into Pastry Bag With A Decorative Tip. Squeeze Whipped Cream Onto Coffee Jelly In A Fun Pattern", 
-              "Make whipped cream by mixing about a cup of cream with a tablespoon or two of sugar. Mix until you see stiff peaks or big chunks and drop into pastry bag with a decorative tip. Squeeze whipped cream onto coffee jelly in a fun pattern."
+              0.25, 
+              "cup", 
+              "Sugar", 
+              "\u00bc cup sugar"
             ]
           ]
         }, 
