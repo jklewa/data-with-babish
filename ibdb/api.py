@@ -6,6 +6,8 @@ from flask import (
     render_template,
 )
 
+from flask_graphql import GraphQLView
+
 from models import (
     Episode,
     Recipe,
@@ -15,6 +17,8 @@ from models import (
     Show,
     db,
 )
+
+from schema import schema
 
 from utils import (
     normalize_raw_list
@@ -37,6 +41,15 @@ def index():
             )
         )[:-1],
     })
+
+app.add_url_rule(
+    '/graphql',
+    view_func=GraphQLView.as_view(
+        'graphql',
+        schema=schema,
+        graphiql=True  # for having the GraphiQL interface
+    )
+)
 
 
 @app.route('/episodes')

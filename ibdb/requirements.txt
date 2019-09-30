@@ -1,4 +1,6 @@
 flask
 flask-sqlalchemy
+flask-graphql
 furl
 psycopg2-binary
+graphene_sqlalchemy>2.0
