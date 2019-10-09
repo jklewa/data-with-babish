@@ -1,5 +1,242 @@
 [
   {
+    "self": "http://localhost:5000/episode/deepdishpizza", 
+    "episode_id": "deepdishpizza", 
+    "name": "Chicago-Style Pizza from The Daily Show", 
+    "published_date": "2019-10-08T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=hyUnGjykNwg", 
+    "official_link": "#", 
+    "image_link": "#", 
+    "related": {
+      "show": {
+        "self": "http://localhost:5000/show/1", 
+        "show_id": 1, 
+        "name": "Binging with Babish"
+      }, 
+      "guests": [], 
+      "inspired_by": [
+        {
+          "self": "http://localhost:5000/reference/135", 
+          "reference_id": 135, 
+          "type": "tv_show", 
+          "name": "The Daily Show", 
+          "description": "Providing comedy/news in the tradition of TV Nation and SNL's Weekend Update, Comedy Central's Daily Show reports on the foibles and of the real world with a satirical edge. Sam Hayes, IMDb.", 
+          "external_link": "https://www.imdb.com/title/tt0115147/"
+        }
+      ], 
+      "recipes": []
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/episode/pullednoodles", 
+    "episode_id": "pullednoodles", 
+    "name": "Special Ingredient Soup inspired by Kung Fu Panda", 
+    "published_date": "2019-10-01T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=cee6883w2Nk", 
+    "official_link": "https://www.bingingwithbabish.com/recipes/pullednoodles", 
+    "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d93a3e1a6347f3e8cfc99c8/1569957065897/Screen+Shot+2019-10-01+at+9.29.16+AM.png", 
+    "related": {
+      "show": {
+        "self": "http://localhost:5000/show/1", 
+        "show_id": 1, 
+        "name": "Binging with Babish"
+      }, 
+      "guests": [], 
+      "inspired_by": [
+        {
+          "self": "http://localhost:5000/reference/134", 
+          "reference_id": 134, 
+          "type": "movie", 
+          "name": "Kung Fu Panda", 
+          "description": "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts. IMDb.", 
+          "external_link": "https://www.imdb.com/title/tt0441773/"
+        }
+      ], 
+      "recipes": [
+        {
+          "self": "http://localhost:5000/recipe/550", 
+          "recipe_id": 550, 
+          "name": "Chili Oil", 
+          "raw_ingredient_list": "Szechuan peppercorns\nStar anise pods\nCassia bark\nKnob of peeled ginger\n3 lightly crushed cloves of garlic\nCanola oil (or any neutral flavored oil)\nSichuan chili", 
+          "raw_procedure": "In a small saucepan, throw a handful of Szechuan peppercorns, star anise pods, cassia bark, a knob of peeled ginger, and 3 lightly crushed cloves of garlic.\nPour 2-3 cups of canola oil over the top and gently swirl over medium heat until the oil reaches about 325\u00b0F.\nStrain and pour over about a cup of Sichuan chili flakes into a heat-proof bowl. Give a little mix and set aside for about 30 minutes to cool.", 
+          "ingredient_list": [
+            [
+              null, 
+              null, 
+              "Szechuan Peppercorns", 
+              "Szechuan peppercorns"
+            ], 
+            [
+              null, 
+              null, 
+              "Star Anise Pods", 
+              "Star anise pods"
+            ], 
+            [
+              null, 
+              null, 
+              "Cassia Bark", 
+              "Cassia bark"
+            ], 
+            [
+              null, 
+              null, 
+              "Peeled Ginger", 
+              "Knob of peeled ginger"
+            ], 
+            [
+              3.0, 
+              null, 
+              "Garlic", 
+              "3 lightly crushed cloves of garlic"
+            ], 
+            [
+              null, 
+              null, 
+              "Canola Oil", 
+              "Canola oil (or any neutral flavored oil)"
+            ], 
+            [
+              null, 
+              null, 
+              "Sichuan Chili", 
+              "Sichuan chili"
+            ]
+          ]
+        }, 
+        {
+          "self": "http://localhost:5000/recipe/549", 
+          "recipe_id": 549, 
+          "name": "Hand Pulled Noodles", 
+          "raw_ingredient_list": "500g bread flour\n306g water\n4g store-bought potassium carbonate and sodium bicarbonate mix\n5g Salt", 
+          "raw_procedure": "Combine the four elements of hand-pulled noodles: 500g of bread flour, 306g of water, 5g of salt, and 4g of a mix of potassium carbonate and sodium bicarbonate (Note: there are countless ratios that can vary based on a number of factors such as altitude. This is the one that worked best for the video). Mix ingredients until just combined in a stand mixer. Knead for 40 minutes, ideally until dough resembles chewed gum but no need to keep going past 40 minutes if it hasn\u2019t quite reached that consistency. Cover with plastic wrap and let rest for 15-20 minutes.\nGently tug the dough until it\u2019s elongated, fold it over on top of itself, and repeat. This process can take anywhere from 20 minutes to 2 hours until the dough resembles chewing gum texture. Pounding the dough against the table as you stretch also helps. Keep the dough hydrated by patting it down and brushing with water every 4-6 tugs. It should be between a very hydrated bread dough and pasta dough. Alternatively, laminate and flatten the dough until it becomes supple enough to pass through a pasta roller and spaghetti cutter.\nCut the dough in half to make it easier to work with, keeping the other half covered with plastic. Stretch and give the dough a few slaps on the tabletop to prevent tearing. Give it an even roll, then evenly dust with flour to prevent sticking. It should look like a rope. Fold, stretch, and repeat until noodles form. Alternatively, stretch out each noodle one at a time, resulting in flatter and less uniform noodles. I recommend just putting the dough through a pasta roller and spaghetti cutter if you are ever going to try to make these noodles at home.", 
+          "ingredient_list": [
+            [
+              500.0, 
+              "gram", 
+              "Bread Flour", 
+              "500g bread flour"
+            ], 
+            [
+              306.0, 
+              "gram", 
+              "Water", 
+              "306g water"
+            ], 
+            [
+              4.0, 
+              "gram", 
+              "Store-bought Potassium Carbonate And Sodium Bicarbonate Mix", 
+              "4g store-bought potassium carbonate and sodium bicarbonate mix"
+            ], 
+            [
+              5.0, 
+              "gram", 
+              "Salt", 
+              "5g Salt"
+            ]
+          ]
+        }, 
+        {
+          "self": "http://localhost:5000/recipe/548", 
+          "recipe_id": 548, 
+          "name": "Pork Broth", 
+          "raw_ingredient_list": "Pork bones\nPieces of short rib\n1 pig\u2019s tail\nAromatics of choice (licorice root, cassia bark/Chinese cinnamon/cinnamon, dried tangerine peel, dried longan fruit, dried star anise pods, whole onion (quartered), fresh ginger, 2 carrots)\n4 dried Chinese scallops\n1 Daikon radish\nChinese chives/scallions", 
+          "raw_procedure": "Put pork bone, short rib, and pig\u2019s tail into a tall, narrow stock pot, then cover with cold water. Put pot on the stove and bring it to a simmer to pull impurities out of the meat. Skim the gray foamy layer of impurities off the top of the water, drain the water out, and scrub the bones and meat clean.\nPlace clean bones and meat into the empty clean stockpot, adding your choice of aromatics. I used a little handful of licorice root, a healthy-sized chunk of cassia bark (aka Chinese cinnamon or just cinnamon), a few pieces of dried tangerine peel, a handful of dried longan fruit, a handful of dried star anise pods, a whole onion quartered, a handful of fresh ginger freshly peeled, and two carrots. I also threw in 4 dried Chinese scallops, which are expensive but are a huge umami booster.\nCover with cold water and put it on the stove, bringing the pot to a bare simmer. At the beginning of the boil, skim off any scum.\nKeep it on the stove slow and low for 4-12 hours, just barely bubbling so the broth stays clear. Once flavors and colors are nice and deep, strain cool in an ice bath and refrigerate overnight.", 
+          "ingredient_list": [
+            [
+              null, 
+              null, 
+              "Pork Bones", 
+              "Pork bones"
+            ], 
+            [
+              null, 
+              null, 
+              "Short Rib", 
+              "Pieces of short rib"
+            ], 
+            [
+              1.0, 
+              null, 
+              "Pig's Tail", 
+              "1 pig\u2019s tail"
+            ], 
+            [
+              null, 
+              null, 
+              "Choice", 
+              "Aromatics of choice (licorice root, cassia bark/Chinese cinnamon/cinnamon, dried tangerine peel, dried longan fruit, dried star anise pods, whole onion (quartered), fresh ginger, 2 carrots)"
+            ], 
+            [
+              4.0, 
+              null, 
+              "Dried Chinese Scallops", 
+              "4 dried Chinese scallops"
+            ], 
+            [
+              1.0, 
+              null, 
+              "Daikon Radish", 
+              "1 Daikon radish"
+            ], 
+            [
+              null, 
+              null, 
+              "Chinese Chives/scallions", 
+              "Chinese chives/scallions"
+            ]
+          ]
+        }, 
+        {
+          "self": "http://localhost:5000/recipe/551", 
+          "recipe_id": 551, 
+          "name": "Special Ingredient Soup", 
+          "raw_ingredient_list": "Water\nHand pulled noodles\nDaikon radish\nPork broth\nChinese chives or scallions\nHomemade chili oil", 
+          "raw_procedure": "In a pot of water, cook noodles quickly and gently for no more than 90 seconds.\nAdd peeled and sliced Daikon radish to the broth as it is being heated up. Let simmer for about 20 minutes until soft. Check the broth for taste and add seasoning as necessary.\nScoop out the noodles with a sieve, dump into an empty bowl, and ladle broth over the top. Make sure there\u2019s a radish slice and add a handful of Chinese chives or scallions with a dollop of chili oil on top. Enjoy!", 
+          "ingredient_list": [
+            [
+              null, 
+              null, 
+              "Water", 
+              "Water"
+            ], 
+            [
+              null, 
+              null, 
+              "Hand Pulled Noodles", 
+              "Hand pulled noodles"
+            ], 
+            [
+              null, 
+              null, 
+              "Daikon Radish", 
+              "Daikon radish"
+            ], 
+            [
+              null, 
+              null, 
+              "Pork Broth", 
+              "Pork broth"
+            ], 
+            [
+              null, 
+              null, 
+              "Chinese Chives Or Scallions", 
+              "Chinese chives or scallions"
+            ], 
+            [
+              null, 
+              null, 
+              "Homemade Chili Oil", 
+              "Homemade chili oil"
+            ]
+          ]
+        }
+      ]
+    }
+  }, 
+  {
     "self": "http://localhost:5000/episode/poutine", 
     "episode_id": "poutine", 
     "name": "POUTINE", 
