@@ -1394,6 +1394,25 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/134", 
+    "reference_id": 134, 
+    "type": "movie", 
+    "name": "Kung Fu Panda", 
+    "description": "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts. IMDb.", 
+    "external_link": "https://www.imdb.com/title/tt0441773/", 
+    "episodes_inspired": [
+      {
+        "self": "http://localhost:5000/episode/pullednoodles", 
+        "episode_id": "pullednoodles", 
+        "name": "Special Ingredient Soup inspired by Kung Fu Panda", 
+        "published_date": "2019-10-01T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=cee6883w2Nk", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/pullednoodles", 
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d93a3e1a6347f3e8cfc99c8/1569957065897/Screen+Shot+2019-10-01+at+9.29.16+AM.png"
+      }
+    ]
+  }, 
+  {
     "self": "http://localhost:5000/reference/110", 
     "reference_id": 110, 
     "type": "tv_show", 
@@ -2350,6 +2369,25 @@
         "youtube_link": "https://www.youtube.com/watch?v=VnXu22HZBNQ", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/4/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks", 
         "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/59604fc21b631b78567a9988/1531943714487/Screen+Shot+2017-07-07+at+10.00.16+PM-2.jpg"
+      }
+    ]
+  }, 
+  {
+    "self": "http://localhost:5000/reference/135", 
+    "reference_id": 135, 
+    "type": "tv_show", 
+    "name": "The Daily Show", 
+    "description": "Providing comedy/news in the tradition of TV Nation and SNL's Weekend Update, Comedy Central's Daily Show reports on the foibles and of the real world with a satirical edge. Sam Hayes, IMDb.", 
+    "external_link": "https://www.imdb.com/title/tt0115147/", 
+    "episodes_inspired": [
+      {
+        "self": "http://localhost:5000/episode/deepdishpizza", 
+        "episode_id": "deepdishpizza", 
+        "name": "Chicago-Style Pizza from The Daily Show", 
+        "published_date": "2019-10-08T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=hyUnGjykNwg", 
+        "official_link": "#", 
+        "image_link": "#"
       }
     ]
   }, 
