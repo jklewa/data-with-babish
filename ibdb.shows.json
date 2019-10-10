@@ -7,11 +7,11 @@
       {
         "self": "http://localhost:5000/episode/deepdishpizza", 
         "episode_id": "deepdishpizza", 
-        "name": "Chicago-Style Pizza from The Daily Show", 
-        "published_date": "2019-10-08T00:00:00+00:00", 
+        "name": "Deep Dish Pizza inspired by The Daily Show", 
+        "published_date": "2019-10-09T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=hyUnGjykNwg", 
-        "official_link": "#", 
-        "image_link": "#"
+        "official_link": "https://www.bingingwithbabish.com/recipes/deepdishpizza", 
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d9e09d42012f3103130b672/1570641491626/Screen+Shot+2019-10-08+at+4.27.08+PM.png"
       }, 
       {
         "self": "http://localhost:5000/episode/pullednoodles", 
@@ -20,7 +20,7 @@
         "published_date": "2019-10-01T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=cee6883w2Nk", 
         "official_link": "https://www.bingingwithbabish.com/recipes/pullednoodles", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d93a3e1a6347f3e8cfc99c8/1569957065897/Screen+Shot+2019-10-01+at+9.29.16+AM.png"
+        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d93a3e1a6347f3e8cfc99c8/1570638292849/Screen+Shot+2019-10-01+at+9.29.16+AM.png"
       }, 
       {
         "self": "http://localhost:5000/episode/coffeejelly", 
