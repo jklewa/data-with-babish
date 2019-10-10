@@ -11,7 +11,7 @@
         "published_date": "2017-05-23T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=6PTuUMJ2Uh8", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/beetandacorncookies", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a00b9a30d9297223fc55052/1531948025184/Screen+Shot+2017-11-08+at+2.42.50+PM.png"
+        "image_link": "https://img.youtube.com/vi/6PTuUMJ2Uh8/mqdefault.jpg"
       }
     ]
   }, 
@@ -27,7 +27,7 @@
         "published_date": "2018-03-27T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5abab27b03ce64285139e69f/1531775869560/Screen+Shot+2018-03-27+at+3.35.58+PM.png"
+        "image_link": "https://img.youtube.com/vi/TkWmK-cplV4/mqdefault.jpg"
       }
     ]
   }, 
@@ -43,7 +43,7 @@
         "published_date": "2018-07-24T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=KKBkY-7TCw0", 
         "official_link": "https://www.bingingwithbabish.com/recipes/friedgreentomatoes", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5b574bb4aa4a997ca1daa8f2/1533052560057/Screen+Shot+2018-07-24+at+10.02.11+AM.png"
+        "image_link": "https://img.youtube.com/vi/KKBkY-7TCw0/mqdefault.jpg"
       }
     ]
   }, 
@@ -59,7 +59,7 @@
         "published_date": "2017-06-06T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=exQ6oGefSiA", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/6/chocolate-cake-inspired-by-matilda", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5937174ddb29d602a8df22c1/1531947927292/cake3.jpg"
+        "image_link": "https://img.youtube.com/vi/exQ6oGefSiA/mqdefault.jpg"
       }
     ]
   }, 
@@ -75,7 +75,7 @@
         "published_date": "2019-08-20T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=WMj7G-U3LW8", 
         "official_link": "https://www.bingingwithbabish.com/recipes/classicpancakes", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d5bfd5b9fb0170001004f02/1566920784562/Screen+Shot+2019-08-20+at+8.48.31+AM.png"
+        "image_link": "https://img.youtube.com/vi/WMj7G-U3LW8/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/bagels", 
@@ -84,7 +84,7 @@
         "published_date": "2019-01-24T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=ZrJtpCTZk38", 
         "official_link": "https://basicswithbabish.co/basicsepisodes/bagels", 
-        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5c4a23342b6a28456b2d8fcf/1554399377906/Screen+Shot+2019-01-24+at+2.44.56+PM.png"
+        "image_link": "https://img.youtube.com/vi/ZrJtpCTZk38/mqdefault.jpg"
       }
     ]
   }, 
@@ -100,7 +100,7 @@
         "published_date": "2019-03-22T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=YUDogDKMJbE", 
         "official_link": "https://www.youtube.com/watch?v=YUDogDKMJbE", 
-        "image_link": "#"
+        "image_link": "https://img.youtube.com/vi/YUDogDKMJbE/mqdefault.jpg"
       }
     ]
   }, 
@@ -116,7 +116,7 @@
         "published_date": "2019-05-31T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=6yItCQB4V9A", 
         "official_link": "https://basicswithbabish.co/basicsepisodes/coffee", 
-        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5cf13d4eff78a700014152b8/1560463517127/Basics_Coffee_Assembly.00_42_06_05.Still001.png"
+        "image_link": "https://img.youtube.com/vi/6yItCQB4V9A/mqdefault.jpg"
       }
     ]
   }, 
@@ -132,7 +132,7 @@
         "published_date": "2019-04-05T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
         "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
-        "image_link": "#"
+        "image_link": "https://img.youtube.com/vi/QphHaVaAeG4/mqdefault.jpg"
       }
     ]
   }, 
@@ -148,7 +148,7 @@
         "published_date": "2019-08-20T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=WMj7G-U3LW8", 
         "official_link": "https://www.bingingwithbabish.com/recipes/classicpancakes", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d5bfd5b9fb0170001004f02/1566920784562/Screen+Shot+2019-08-20+at+8.48.31+AM.png"
+        "image_link": "https://img.youtube.com/vi/WMj7G-U3LW8/mqdefault.jpg"
       }
     ]
   }, 
@@ -164,7 +164,7 @@
         "published_date": "2019-07-12T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=32Qlof81vcM", 
         "official_link": "https://www.youtube.com/watch?v=32Qlof81vcM", 
-        "image_link": "#"
+        "image_link": "https://img.youtube.com/vi/32Qlof81vcM/mqdefault.jpg"
       }
     ]
   }, 
@@ -180,7 +180,7 @@
         "published_date": "2019-09-13T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=nORg_aXMsmA", 
         "official_link": "https://basicswithbabish.co/basicsepisodes/cajunfood", 
-        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5d7bdcccf491747c78a205d6/1568400570183/Basics+Cajun2+%281%29.png"
+        "image_link": "https://img.youtube.com/vi/nORg_aXMsmA/mqdefault.jpg"
       }
     ]
   }, 
@@ -196,7 +196,7 @@
         "published_date": "2018-02-20T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/chocolatelavacakes", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a8db1f2419202a3ccf0e483/1531777960506/Screen+Shot+2018-02-21+at+11.54.06+AM.png"
+        "image_link": "https://img.youtube.com/vi/qbMTukAJskQ/mqdefault.jpg"
       }
     ]
   }, 
@@ -210,9 +210,9 @@
         "episode_id": "direwolfbread", 
         "name": "Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)", 
         "published_date": "2018-09-25T00:00:00+00:00", 
-        "youtube_link": "https://www.youtube.com/watch?v=6nuEgc2RVWo&t=336s", 
+        "youtube_link": "https://www.youtube.com/watch?v=6nuEgc2RVWo", 
         "official_link": "https://www.bingingwithbabish.com/recipes/direwolfbread", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5baa7ed0e4966b3aa7372193/1538504683434/Screen+Shot+2018-09-25+at+1.31.51+PM.png"
+        "image_link": "https://img.youtube.com/vi/6nuEgc2RVWo/mqdefault.jpg"
       }
     ]
   }, 
@@ -228,7 +228,7 @@
         "published_date": "2019-04-09T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=o5XNzsf78KE", 
         "official_link": "https://www.bingingwithbabish.com/recipes/deathsandwich", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5cad13d3eb393151890bfcf7/1554846885850/Screen+Shot+2019-04-09+at+4.52.45+PM.png"
+        "image_link": "https://img.youtube.com/vi/o5XNzsf78KE/mqdefault.jpg"
       }
     ]
   }, 
@@ -242,9 +242,9 @@
         "episode_id": "clayroastedthigh", 
         "name": "Clay-Roasted Thigh inspired by Hannibal", 
         "published_date": "2017-10-31T00:00:00+00:00", 
-        "youtube_link": "https://www.youtube.com/watch?v=lnB7svFAZBs&t=2s", 
+        "youtube_link": "https://www.youtube.com/watch?v=lnB7svFAZBs", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/clayroastedthigh", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a0a13360d9297197857005f/1531857906810/Screen+Shot+2017-11-13+at+3.50.26+PM.png"
+        "image_link": "https://img.youtube.com/vi/lnB7svFAZBs/mqdefault.jpg"
       }
     ]
   }, 
@@ -260,7 +260,7 @@
         "published_date": "2017-05-18T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=nEoSBL25RO4", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/18/buttermilk-pancakes-inspired-by-twin-peaks", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/591dc0b9f7e0abb8563b1bd4/1531948074553/pancakes2.jpg"
+        "image_link": "https://img.youtube.com/vi/nEoSBL25RO4/mqdefault.jpg"
       }
     ]
   }, 
@@ -276,7 +276,7 @@
         "published_date": "2019-09-10T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=oM8c31ru92A", 
         "official_link": "https://www.youtube.com/watch?v=oM8c31ru92A", 
-        "image_link": "#"
+        "image_link": "https://img.youtube.com/vi/oM8c31ru92A/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/being-with-babish-3", 
@@ -285,7 +285,7 @@
         "published_date": "2019-04-26T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
         "official_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
-        "image_link": "#"
+        "image_link": "https://img.youtube.com/vi/DApDGZ1AkFw/mqdefault.jpg"
       }
     ]
   }, 
@@ -301,7 +301,7 @@
         "published_date": "2019-04-05T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
         "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
-        "image_link": "#"
+        "image_link": "https://img.youtube.com/vi/QphHaVaAeG4/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/chocolatelavacakes", 
@@ -310,7 +310,7 @@
         "published_date": "2018-02-20T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/chocolatelavacakes", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5a8db1f2419202a3ccf0e483/1531777960506/Screen+Shot+2018-02-21+at+11.54.06+AM.png"
+        "image_link": "https://img.youtube.com/vi/qbMTukAJskQ/mqdefault.jpg"
       }
     ]
   }, 
@@ -326,7 +326,7 @@
         "published_date": "2019-06-07T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA", 
         "official_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA", 
-        "image_link": "#"
+        "image_link": "https://img.youtube.com/vi/n_aq5TVb0HA/mqdefault.jpg"
       }
     ]
   }, 
@@ -342,7 +342,7 @@
         "published_date": "2019-09-10T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=oM8c31ru92A", 
         "official_link": "https://www.youtube.com/watch?v=oM8c31ru92A", 
-        "image_link": "#"
+        "image_link": "https://img.youtube.com/vi/oM8c31ru92A/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/being-with-babish-4", 
@@ -351,7 +351,7 @@
         "published_date": "2019-06-07T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA", 
         "official_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA", 
-        "image_link": "#"
+        "image_link": "https://img.youtube.com/vi/n_aq5TVb0HA/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/being-with-babish-3", 
@@ -360,7 +360,7 @@
         "published_date": "2019-04-26T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
         "official_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
-        "image_link": "#"
+        "image_link": "https://img.youtube.com/vi/DApDGZ1AkFw/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/being-with-babish-2", 
@@ -369,7 +369,7 @@
         "published_date": "2019-04-05T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
         "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
-        "image_link": "#"
+        "image_link": "https://img.youtube.com/vi/QphHaVaAeG4/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/being-with-babish-1", 
@@ -378,7 +378,7 @@
         "published_date": "2019-03-22T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=YUDogDKMJbE", 
         "official_link": "https://www.youtube.com/watch?v=YUDogDKMJbE", 
-        "image_link": "#"
+        "image_link": "https://img.youtube.com/vi/YUDogDKMJbE/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/quiet-place-bonus", 
@@ -387,7 +387,7 @@
         "published_date": "2018-12-15T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=0PyTpUIn4ks", 
         "official_link": "https://www.youtube.com/watch?v=0PyTpUIn4ks", 
-        "image_link": " "
+        "image_link": "https://img.youtube.com/vi/0PyTpUIn4ks/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/friedgreentomatoes", 
@@ -396,7 +396,7 @@
         "published_date": "2018-07-24T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=KKBkY-7TCw0", 
         "official_link": "https://www.bingingwithbabish.com/recipes/friedgreentomatoes", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5b574bb4aa4a997ca1daa8f2/1533052560057/Screen+Shot+2018-07-24+at+10.02.11+AM.png"
+        "image_link": "https://img.youtube.com/vi/KKBkY-7TCw0/mqdefault.jpg"
       }
     ]
   }, 
@@ -412,7 +412,7 @@
         "published_date": "2019-04-26T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
         "official_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
-        "image_link": "#"
+        "image_link": "https://img.youtube.com/vi/DApDGZ1AkFw/mqdefault.jpg"
       }
     ]
   }, 
@@ -428,7 +428,7 @@
         "published_date": "2019-07-16T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=dRLCZqEfJFA", 
         "official_link": "https://www.bingingwithbabish.com/recipes/infernowings", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5d2e0602f71063000172baad/1563297583155/Screen+Shot+2019-07-16+at+9.39.32+AM.png"
+        "image_link": "https://img.youtube.com/vi/dRLCZqEfJFA/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/arresteddevelopmentspecial", 
@@ -437,7 +437,7 @@
         "published_date": "2018-05-29T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=2U_0OlCizx0", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/arresteddevelopmentspecial", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5b0dba9f88251b5b752ef4e7/1531769639141/Screen+Shot+2018-05-29+at+3.10.29+PM.png"
+        "image_link": "https://img.youtube.com/vi/2U_0OlCizx0/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks", 
@@ -446,7 +446,7 @@
         "published_date": "2017-07-04T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=VnXu22HZBNQ", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/4/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/59604fc21b631b78567a9988/1531943714487/Screen+Shot+2017-07-07+at+10.00.16+PM-2.jpg"
+        "image_link": "https://img.youtube.com/vi/VnXu22HZBNQ/mqdefault.jpg"
       }
     ]
   }, 
@@ -462,7 +462,7 @@
         "published_date": "2019-03-26T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=aLpPZlVsny0", 
         "official_link": "https://www.bingingwithbabish.com/recipes/theswanson", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5c9a7937e5e5f0cdb961f54b/1554241104288/Screen+Shot+2019-03-26+at+2.11.56+PM.png"
+        "image_link": "https://img.youtube.com/vi/aLpPZlVsny0/mqdefault.jpg"
       }
     ]
   }, 
@@ -478,7 +478,7 @@
         "published_date": "2019-04-05T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
         "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
-        "image_link": "#"
+        "image_link": "https://img.youtube.com/vi/QphHaVaAeG4/mqdefault.jpg"
       }
     ]
   }, 
@@ -494,7 +494,7 @@
         "published_date": "2019-04-05T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
         "official_link": "https://www.youtube.com/watch?v=QphHaVaAeG4", 
-        "image_link": "#"
+        "image_link": "https://img.youtube.com/vi/QphHaVaAeG4/mqdefault.jpg"
       }
     ]
   }, 
@@ -510,7 +510,7 @@
         "published_date": "2019-04-26T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
         "official_link": "https://www.youtube.com/watch?v=DApDGZ1AkFw", 
-        "image_link": "#"
+        "image_link": "https://img.youtube.com/vi/DApDGZ1AkFw/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/lasagna", 
@@ -519,7 +519,7 @@
         "published_date": "2018-03-27T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna", 
-        "image_link": "https://static1.squarespace.com/static/590be7fd15d5dbc6bf3e22d0/590bef6f46c3c4d418c28dac/5abab27b03ce64285139e69f/1531775869560/Screen+Shot+2018-03-27+at+3.35.58+PM.png"
+        "image_link": "https://img.youtube.com/vi/TkWmK-cplV4/mqdefault.jpg"
       }
     ]
   }

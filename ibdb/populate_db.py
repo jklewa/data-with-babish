@@ -12,6 +12,9 @@ from datetime import datetime
 from functional import seq
 from furl import furl
 
+YOUTUBE_ID_MATCHER = re.compile(
+    r'^.*(?:(?:youtu\.be\/|v\/|vi\/|u\/\w\/|embed\/)|(?:(?:watch)?\?v(?:i)?=|\&v(?:i)?=))([^#\&\?]+).*')
+
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 
@@ -38,6 +41,27 @@ def extract_youtube_link(post_body):
     soup = bs4.BeautifulSoup(post_body, 'html.parser')
     youtube_link = json.loads(soup.find('div', class_='video-block')['data-block-json'])['url']
     return youtube_link
+
+
+def extract_youtube_id(youtube_link):
+    m = YOUTUBE_ID_MATCHER.match(youtube_link)
+    return m.group(1) if m else ''
+
+
+def add_youtube_resources(raw):
+    raw_youtube_link = extract_youtube_link(raw['body'])
+    youtube_id = extract_youtube_id(raw_youtube_link)
+
+    if youtube_id:
+        raw['youtube_id'] = youtube_id
+        raw['youtube_link'] = f'https://www.youtube.com/watch?v={youtube_id}'
+        raw['youtube_image_link'] = f'https://img.youtube.com/vi/{youtube_id}/mqdefault.jpg'
+    else:
+        raw['youtube_id'] = None
+        raw['youtube_link'] = raw_youtube_link
+        raw['youtube_image_link'] = None
+
+    return raw
 
 
 # def extract_recipe_method_names(post_body):
@@ -79,12 +103,12 @@ def fetch_binging_episode_list():
 
     raw_episode_list = fetch_paginated_seq(base_url, route)
 
-    episodes = raw_episode_list.map(lambda raw: {
+    episodes = raw_episode_list.map(add_youtube_resources).map(lambda raw: {
         'id': raw.get('urlId', None).split('/')[-1],
         'name': html.unescape(raw.get('title', '')),
         'official_link': base_url + raw.get('fullUrl', ''),
-        'youtube_link': extract_youtube_link(raw['body']),
-        'image_link': raw.get('assetUrl', None),
+        'youtube_link': raw['youtube_link'],
+        'image_link': raw['youtube_image_link'] or raw.get('assetUrl', None),
         'published_date': timestamp_to_date(raw.get('publishOn', None)),
         'body': raw['body'],
     })
@@ -102,12 +126,12 @@ def fetch_basics_episode_list():
 
     raw_episode_list = fetch_paginated_seq(base_url, route)
 
-    episodes = raw_episode_list.map(lambda raw: {
+    episodes = raw_episode_list.map(add_youtube_resources).map(lambda raw: {
         'id': raw.get('urlId', None).split('/')[-1],
         'name': html.unescape(raw.get('title', '')),
         'official_link': base_url + raw.get('fullUrl', ''),
-        'youtube_link': extract_youtube_link(raw['body']),
-        'image_link': raw.get('assetUrl', None),
+        'youtube_link': raw['youtube_link'],
+        'image_link': raw['youtube_image_link'] or raw.get('assetUrl', None),
         'published_date': timestamp_to_date(raw.get('publishOn', None)),
         'body': raw['body'],
     })
