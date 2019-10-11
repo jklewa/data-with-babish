@@ -39,13 +39,19 @@ def timestamp_to_date(ts_in_milli):
 
 def extract_youtube_link(post_body):
     soup = bs4.BeautifulSoup(post_body, 'html.parser')
-    youtube_link = json.loads(soup.find('div', class_='video-block')['data-block-json'])['url']
-    return youtube_link
+    try:
+        youtube_link = json.loads(soup.find('div', class_='video-block')['data-block-json'])['url']
+        return youtube_link
+    except Exception:
+        return ''
 
 
 def extract_youtube_id(youtube_link):
-    m = YOUTUBE_ID_MATCHER.match(youtube_link)
-    return m.group(1) if m else ''
+    if youtube_link:
+        m = YOUTUBE_ID_MATCHER.match(youtube_link)
+        return m.group(1) if m else ''
+    else:
+        return ''
 
 
 def add_youtube_resources(raw):

@@ -1479,6 +1479,15 @@
     "name": "Basics with Babish", 
     "episodes": [
       {
+        "self": "http://localhost:5000/episode/indianbreads", 
+        "episode_id": "indianbreads", 
+        "name": "INDIAN BREADS", 
+        "published_date": "2019-10-10T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=RnApthldLPY", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/indianbreads", 
+        "image_link": "https://img.youtube.com/vi/RnApthldLPY/mqdefault.jpg"
+      }, 
+      {
         "self": "http://localhost:5000/episode/poutine", 
         "episode_id": "poutine", 
         "name": "POUTINE", 
