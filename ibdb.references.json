@@ -1896,6 +1896,25 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/136", 
+    "reference_id": 136, 
+    "type": "movie", 
+    "name": "Pulp Fiction", 
+    "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption. IMDb.", 
+    "external_link": "https://www.imdb.com/title/tt0110912/", 
+    "episodes_inspired": [
+      {
+        "self": "http://localhost:5000/episode/mostexpensiveshake", 
+        "episode_id": "mostexpensiveshake", 
+        "name": "$5 Milkshake inspired by Pulp Fiction", 
+        "published_date": "2019-10-16T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=SfNgpLkV6KE", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/mostexpensiveshake", 
+        "image_link": "https://img.youtube.com/vi/SfNgpLkV6KE/mqdefault.jpg"
+      }
+    ]
+  }, 
+  {
     "self": "http://localhost:5000/reference/34", 
     "reference_id": 34, 
     "type": "video_game", 

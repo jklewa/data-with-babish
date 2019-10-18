@@ -201,6 +201,22 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/30", 
+    "guest_id": 30, 
+    "name": "Jess", 
+    "appearances": [
+      {
+        "self": "http://localhost:5000/episode/mostexpensiveshake", 
+        "episode_id": "mostexpensiveshake", 
+        "name": "$5 Milkshake inspired by Pulp Fiction", 
+        "published_date": "2019-10-16T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=SfNgpLkV6KE", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/mostexpensiveshake", 
+        "image_link": "https://img.youtube.com/vi/SfNgpLkV6KE/mqdefault.jpg"
+      }
+    ]
+  }, 
+  {
     "self": "http://localhost:5000/guest/8", 
     "guest_id": 8, 
     "name": "Jon Favreau", 

@@ -1655,6 +1655,60 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/557", 
+    "recipe_id": 557, 
+    "name": "Basic Boozy Shake", 
+    "raw_ingredient_list": "12 ounces ice cream\n6 ounces milk\nBourbon of choice\nCherry (for garnish)\nWhipped cream (for garnish)\nChocolate shavings (for garnish)", 
+    "raw_procedure": "Combine 12 ounces ice cream, a shot of bourbon, and 6 ounces milk in a blender. Blend until desired consistency. Top with whipped cream, chocolate shavings, and a cherry.", 
+    "ingredient_list": [
+      [
+        12.0, 
+        "ounce", 
+        "Ice Cream", 
+        "12 ounces ice cream"
+      ], 
+      [
+        6.0, 
+        "ounce", 
+        "Milk", 
+        "6 ounces milk"
+      ], 
+      [
+        null, 
+        null, 
+        "Choice", 
+        "Bourbon of choice"
+      ], 
+      [
+        null, 
+        null, 
+        "Cherry", 
+        "Cherry (for garnish)"
+      ], 
+      [
+        null, 
+        null, 
+        "Whipped Cream", 
+        "Whipped cream (for garnish)"
+      ], 
+      [
+        null, 
+        null, 
+        "Chocolate Shavings", 
+        "Chocolate shavings (for garnish)"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/mostexpensiveshake", 
+      "episode_id": "mostexpensiveshake", 
+      "name": "$5 Milkshake inspired by Pulp Fiction", 
+      "published_date": "2019-10-16T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=SfNgpLkV6KE", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/mostexpensiveshake", 
+      "image_link": "https://img.youtube.com/vi/SfNgpLkV6KE/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/401", 
     "recipe_id": 401, 
     "name": "Batter and Oil", 
@@ -21604,6 +21658,114 @@
       "youtube_link": "https://www.youtube.com/watch?v=iZUfPIKbgUM", 
       "official_link": "https://basicswithbabish.co/basicsepisodes/2017/10/23/baressentials", 
       "image_link": "https://img.youtube.com/vi/iZUfPIKbgUM/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/558", 
+    "recipe_id": 558, 
+    "name": "Most Expensive Shake", 
+    "raw_ingredient_list": "1 \u00bd cups high-quality milk\n1 \u00bd cups high-quality heavy cream\n6 Tbsp sugar\n1/3 cup corn syrup\nTahitian vanilla beans\nKosher salt\n6 local cage-free eggs\n1/4 cup granulated sugar\n12 ounces high-quality, high butterfat milk\n3 ounces Devonshire clotted cream\nMadagascar vanilla beans\nEdible gold leaf\nLouis XIII Cognac (or other high-quality spirit)\nDonkey caramel sauce (for garnish)\nChocolate shavings (for garnish)", 
+    "raw_procedure": "Combine 1 \u00bd cups each of the best milk and heavy cream that can be found in a large saucepan. Add 6 tablespoons of sugar and 1/3 cup corn syrup. Split Tahitian vanilla beans down the side with a paring knife and use the back of the knife (or a small spoon) to scrape out the beans. Deposit both the beans and the casing into the milk and cream mixture. Add a pinch of kosher salt. Put the saucepan on medium-low heat until it reaches 175\u00b0F.\nSeparate the yolks from 6 cage-free eggs and place them into a medium bowl with a moist paper towel underneath the bowl. Add 1/4 cup granulated sugar and whisk until combined. Remove cream mixture from the saucepan on the stove. Whisking constantly, slowly ladle in one full ladle of the hot mixture into the eggs to temper them. Then, dump egg mixture into the saucepan and cook over medium-low heat, whisking constantly until thickened and at 185\u00b0F. Be sure not to rush over too high of a flame or there will be little dots in the custard and scrambling on the bottom of the pan. Once it reaches temperature, pour immediately into a heatproof bowl and let the bowl sit for 15-20 minutes until it stops steaming. Cover with plastic wrap, pressing the wrap directly onto the surface of the custard. Place into the fridge for 4-24 hours.\nOnce the custard is chilled, dig out pieces of the vanilla pod, and churn custard using method of choice. The custard should be 21\u00b0F, which can take 15-30 minutes depending on the device. Start taking its temperature when the mixture starts to resemble soft serve. Dump into a pre-frozen metal container, such as a loaf pan, and spread out evenly. Cover with plastic wrap and put in the freezer for at least 4 hours.\nAdd 12 ounces of high-quality high butterfat milk and 3 ounces of Devonshire clotted cream to a blender. Dig out Madagascar vanilla beans from pods and add to blender. Scoop out approximately 18 ounces of the homemade Tahitian vanilla ice cream and top with edible gold leaf before dumping into the blender. Very gently pour in the bare minimum amount of Louis XIII (or other high-quality spirit). Blend for about 30 seconds until completely smooth and studded with bits of gold. Pour into a milkshake glass. Top with whipped cream, edible gold, a maraschino cherry, and donkey caramel sauce.", 
+    "ingredient_list": [
+      [
+        1.5, 
+        "cup", 
+        "High-quality Milk", 
+        "1 \u00bd cups high-quality milk"
+      ], 
+      [
+        1.5, 
+        "cup", 
+        "High-quality Heavy Cream", 
+        "1 \u00bd cups high-quality heavy cream"
+      ], 
+      [
+        6.0, 
+        "tablespoon", 
+        "Sugar", 
+        "6 Tbsp sugar"
+      ], 
+      [
+        0.3333333333333333, 
+        "cup", 
+        "Corn Syrup", 
+        "1/3 cup corn syrup"
+      ], 
+      [
+        null, 
+        null, 
+        "Tahitian Vanilla Beans", 
+        "Tahitian vanilla beans"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        6.0, 
+        null, 
+        "Local Cage-free Eggs", 
+        "6 local cage-free eggs"
+      ], 
+      [
+        0.25, 
+        "cup", 
+        "Granulated Sugar", 
+        "1/4 cup granulated sugar"
+      ], 
+      [
+        12.0, 
+        "ounce", 
+        "High-quality", 
+        "12 ounces high-quality, high butterfat milk"
+      ], 
+      [
+        3.0, 
+        "ounce", 
+        "Devonshire Clotted Cream", 
+        "3 ounces Devonshire clotted cream"
+      ], 
+      [
+        null, 
+        null, 
+        "Madagascar Vanilla Beans", 
+        "Madagascar vanilla beans"
+      ], 
+      [
+        null, 
+        null, 
+        "Edible Gold Leaf", 
+        "Edible gold leaf"
+      ], 
+      [
+        null, 
+        null, 
+        "Louis Xiii Cognac", 
+        "Louis XIII Cognac (or other high-quality spirit)"
+      ], 
+      [
+        null, 
+        null, 
+        "Donkey Caramel Sauce", 
+        "Donkey caramel sauce (for garnish)"
+      ], 
+      [
+        null, 
+        null, 
+        "Chocolate Shavings", 
+        "Chocolate shavings (for garnish)"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/mostexpensiveshake", 
+      "episode_id": "mostexpensiveshake", 
+      "name": "$5 Milkshake inspired by Pulp Fiction", 
+      "published_date": "2019-10-16T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=SfNgpLkV6KE", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/mostexpensiveshake", 
+      "image_link": "https://img.youtube.com/vi/SfNgpLkV6KE/mqdefault.jpg"
     }
   }, 
   {

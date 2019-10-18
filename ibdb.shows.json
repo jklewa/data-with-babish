@@ -5,6 +5,15 @@
     "name": "Binging with Babish", 
     "episodes": [
       {
+        "self": "http://localhost:5000/episode/mostexpensiveshake", 
+        "episode_id": "mostexpensiveshake", 
+        "name": "$5 Milkshake inspired by Pulp Fiction", 
+        "published_date": "2019-10-16T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=SfNgpLkV6KE", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/mostexpensiveshake", 
+        "image_link": "https://img.youtube.com/vi/SfNgpLkV6KE/mqdefault.jpg"
+      }, 
+      {
         "self": "http://localhost:5000/episode/deepdishpizza", 
         "episode_id": "deepdishpizza", 
         "name": "Deep Dish Pizza inspired by The Daily Show", 
@@ -1478,6 +1487,15 @@
     "show_id": 2, 
     "name": "Basics with Babish", 
     "episodes": [
+      {
+        "self": "http://localhost:5000/episode/espressodrinks", 
+        "episode_id": "espressodrinks", 
+        "name": "ESPRESSO DRINKS", 
+        "published_date": "2019-10-17T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
+        "official_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
+        "image_link": "https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg"
+      }, 
       {
         "self": "http://localhost:5000/episode/indianbreads", 
         "episode_id": "indianbreads", 
