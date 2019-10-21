@@ -31,6 +31,8 @@
     </style>
 </head>
 <body>
+    {% include 'header.html' %}
+
     <h1>Add Reference</h1>
     <form method="POST" action="/references">
         <div>Type:
@@ -46,6 +48,7 @@
         <div>Name: <input type="text" name="name" required></div>
         <div>Description: <textarea name="description" row="3" cols="30" required></textarea></div>
         <div>External Link: <input type="text" name="external_link" required></div>
+        <div>Image Link: <input type="text" name="image_link"></div>
         <div>Inspired: <select name="inspired_episode_id">
           <option value="">Select episode</option>
         {% for ep in episodes %}

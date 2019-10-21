@@ -31,6 +31,8 @@
     </style>
 </head>
 <body>
+    {% include 'header.html' %}
+
     <h1>Add Guest</h1>
     <form method="POST" action="/guests">
         <div>Name: <input type="text" name="name" required></div>
@@ -39,6 +41,7 @@
             <option value="{{ ep.id }}">{{ loop.revindex }}. {{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</option>
         {% endfor %}
         </select></div>
+        <div>Image Link: <input type="text" name="image_link"></div>
         <input type="submit" value="Add">
     </form>
 

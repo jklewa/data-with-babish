@@ -16,12 +16,14 @@ class Guest(Base):
 
     id = Column(Integer, primary_key=True, server_default=text("nextval('guest_id_seq'::regclass)"))
     name = Column(String, nullable=False)
+    image_link = Column(String)
 
     def serialize(self, related=True):
         return {
             'self': f'{request.host_url[:-1]}/guest/{self.id}',
             'guest_id': self.id,
             'name': self.name,
+            'image_link': self.image_link,
             **({
                 'appearances': [
                     e.serialize(False)
@@ -39,6 +41,7 @@ class Reference(Base):
     name = Column(String)
     description = Column(Text)
     external_link = Column(String)
+    image_link = Column(String)
 
     def serialize(self, related=True):
         return {
@@ -48,6 +51,7 @@ class Reference(Base):
             'name': self.name,
             'description': self.description,
             'external_link': self.external_link,
+            'image_link': self.image_link,
             **({
                 'episodes_inspired': [
                     e.serialize(False)
@@ -62,12 +66,14 @@ class Show(Base):
 
     id = Column(Integer, primary_key=True, server_default=text("nextval('show_id_seq'::regclass)"))
     name = Column(String, nullable=False, unique=True)
+    image_link = Column(String)
 
     def serialize(self, related=True):
         return {
             'self': f'{request.host_url[:-1]}/show/{self.id}',
             'show_id': self.id,
             'name': self.name,
+            'image_link': self.image_link,
             **({
                 'episodes': [
                     e.serialize(False)
@@ -84,9 +90,9 @@ class Episode(Base):
     name = Column(String, nullable=False)
     youtube_link = Column(String, nullable=False)
     official_link = Column(String, nullable=False)
+    image_link = Column(String)
     published_date = Column(DateTime(True))
     show_id = Column(ForeignKey('show.id'), nullable=False)
-    image_link = Column(String)
 
     _backref_order_by = 'Episode.published_date.desc(),Episode.id'
 
@@ -156,6 +162,7 @@ class Recipe(Base):
 
     id = Column(Integer, primary_key=True, server_default=text("nextval('recipe_id_seq'::regclass)"))
     name = Column(String, nullable=False)
+    image_link = Column(String)
     raw_ingredient_list = Column(Text, nullable=False)
     raw_procedure = Column(Text, nullable=False)
     episode_id = Column(ForeignKey('episode.id'), nullable=False)
@@ -165,6 +172,7 @@ class Recipe(Base):
             'self': f'{request.host_url[:-1]}/recipe/{self.id}',
             'recipe_id': self.id,
             'name': self.name,
+            'image_link': self.image_link,
             'raw_ingredient_list': self.raw_ingredient_list,
             'raw_procedure': self.raw_procedure,
             'ingredient_list': self.ingredient_list(),

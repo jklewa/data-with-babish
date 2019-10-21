@@ -31,6 +31,8 @@
     </style>
 </head>
 <body>
+    {% include 'header.html' %}
+
     <h1>Add Episode</h1>
     <form method="POST" action="/episodes">
         <div>Episode ID: <input type="text" name="episode_id" required></div>
