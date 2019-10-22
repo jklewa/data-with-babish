@@ -64,7 +64,7 @@
     "name": "Adventure Time", 
     "description": "A 12-year-old boy and his best friend, wise 28-year-old dog with magical powers, go on a series of surreal adventures with each other. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt1305826/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/Ah2GBgnPk0jlfMmNQogcbw/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/adventuretimespecial", 
@@ -93,7 +93,7 @@
     "name": "Am\u00e9lie", 
     "description": "Am\u00e9lie is an innocent and naive girl in Paris with her own sense of justice. She decides to help those around her and, along the way, discovers love. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0211915/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/ApmwOOjadYI/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/cremebrule", 
@@ -478,7 +478,7 @@
     "name": "Casino Royale", 
     "description": "Armed with a license to kill, Secret Agent James Bond sets out on his first mission as 007, and must defeat a private banker to terrorists in a high stakes game of poker at Casino Royale, Montenegro, but things are not what they seem. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0381061/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/deA2fR9iFZw/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/cocktail-special", 
@@ -498,7 +498,7 @@
     "name": "Charlie Brown Thanksgiving", 
     "description": "Peppermint Patty invites herself and her friends over to Charlie Brown's for Thanksgiving, and with Linus, Snoopy, and Woodstock, he attempts to throw together a Thanksgiving dinner. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0068359/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/-VIx1y5YTsc/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/charliebrownthanksgiving", 
@@ -574,7 +574,7 @@
     "name": "Cocktail Chemistry", 
     "description": "A YouTube channel hosted by Nick Fisher, showcasing unique ways to create and present cocktails using inexpensive equipment.", 
     "external_link": "https://www.youtube.com/channel/UC-o0CfpOyFJOfyWKtqS1hZQ", 
-    "image_link": null, 
+    "image_link": "https://yt3.ggpht.com/a/AGF-l78-BRkdFjNeierLPXi1HDOnmGcuL2BtYHVE6A=s176-c-k-c0x00ffffff-no-rj-mo", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/buttermilk-pancakes-inspired-by-twin-peaks", 
@@ -594,7 +594,7 @@
     "name": "Coco", 
     "description": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt2380307/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/UVFVtJcxXWE/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/tamalesfromcoco", 
@@ -614,7 +614,7 @@
     "name": "Crazy, Stupid, Love", 
     "description": "A middle-aged husband's life changes dramatically when his wife asks him for a divorce. He seeks to rediscover his manhood with the help of a newfound friend, Jacob, learning to pick up girls at bars. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt1570728/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/WHYt3OaNlFo/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/cocktail-special", 
@@ -634,7 +634,7 @@
     "name": "Creed", 
     "description": "The former World Heavyweight Champion Rocky Balboa serves as a trainer and mentor to Adonis Johnson, the son of his late friend and former rival Apollo Creed. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt3076658/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/vhIZcWdX_mk/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/cheesesteak", 
@@ -654,7 +654,7 @@
     "name": "Curb Your Enthusiasm", 
     "description": "The life and times of Larry David and the predicaments he gets himself into with his friends and complete strangers. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0264235/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/DnjNjnMPxVM--wsZ0QOTBg/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/curbyourenthusiasm", 
@@ -674,7 +674,7 @@
     "name": "Deadpool", 
     "description": "A wisecracking mercenary gets experimented on and becomes immortal but ugly, and sets out to track down the man who ruined his looks. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt1431045/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/AEIKS4IbfNk/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/deadpoolpizza", 
@@ -694,7 +694,7 @@
     "name": "Donnie Brasco", 
     "description": "An FBI undercover agent infiltrates the mob and finds himself identifying more with the mafia life, at the expense of his regular one. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0119008/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/WLfjB3bCMxU/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/coqauvin", 
@@ -714,7 +714,7 @@
     "name": "Doug", 
     "description": "The life of a young boy as he meets friends, falls in love, maneuvers his way through grade 6 and writes all about it in his journal. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0101084/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/mZO1JKbEM88RHM6xvGrc4w/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/bananapuddingpizza", 
@@ -734,7 +734,7 @@
     "name": "Elf", 
     "description": "After discovering he is a human, a man raised as an elf at the North Pole decides to travel to New York City to locate his real father. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0319343/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/VrSdH0jsMnM/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/dessertpasta", 
@@ -754,7 +754,7 @@
     "name": "Family Guy", 
     "description": "In a wacky Rhode Island town, a dysfunctional family strive to cope with everyday life as they are thrown from one crazy scenario to another. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0182576/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/Pps0J6WLq4_-2FbnpEEFVw/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/babishpaniniwinner", 
@@ -783,7 +783,7 @@
     "name": "Food Wars: Shokugeki no Soma", 
     "description": "Yukihira Soma is a teen with a great enthusiasm for cooking. He dreams of surpassing his father, a great chef and restaurant owner, and so attends Totsuki Culinary Academy, a legendary and formidable cooking school for the greatest teenage chefs in Japan. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt4731072/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/G_ZLpStlorE/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/pineapplecurryfriedrice", 
@@ -803,7 +803,7 @@
     "name": "Forrest Gump", 
     "description": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0109830/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/EtYNngO7eq4/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/bubbashrimp2", 
@@ -832,7 +832,7 @@
     "name": "Frasier", 
     "description": "Dr. Frasier Crane moves back to his hometown of Seattle, where he lives with his father, and works as a radio psychiatrist. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0106004/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/koCmZ_N11DfbyKki37fJSA/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/eggsflorentine", 
@@ -870,7 +870,7 @@
     "name": "Fried Green Tomatoes", 
     "description": "A housewife who is unhappy with her life befriends an old lady in a nursing home and is enthralled by the tales she tells of people she used to know. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0101921/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/CiGg0sBlMbA/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/friedgreentomatoes", 
@@ -984,7 +984,7 @@
     "name": "Garfield", 
     "description": "Jon Arbuckle buys a second pet, a dog named Odie. However, Odie is then abducted and it is up to Jon's cat, Garfield, to find and rescue the canine. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0356634/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/ggBf8_YhQVU/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/lasagna", 
@@ -1004,7 +1004,7 @@
     "name": "Goodfellas", 
     "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0099685/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/iAJUzPIIvGs/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/goodfellasprisonsauce", 
@@ -1024,7 +1024,7 @@
     "name": "Grand Budapest Hotel", 
     "description": "The adventures of Gustave H, a legendary concierge at a famous hotel from the fictional Republic of Zubrowka between the first and second World Wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt2278388/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/uC4n3_EK_kA/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/ccourtesan-au-chocolat", 
@@ -1044,7 +1044,7 @@
     "name": "Groudhog Day", 
     "description": "A weatherman finds himself inexplicably living the same day over and over again. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0107048/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/8skEQx5w8Cs/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/cocktail-special", 
@@ -1064,7 +1064,7 @@
     "name": "Hannibal", 
     "description": "Explores the early relationship between the renowned psychiatrist and his patient, a young FBI criminal profiler, who is haunted by his ability to empathize with serial killers. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt2243973/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/uBl48Y-3tI8/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/clayroastedthigh", 
@@ -1084,7 +1084,7 @@
     "name": "Harold & Kumar Go to White Castle", 
     "description": "A Korean-American office worker and his Indian-American stoner friend embark on a quest to satisfy their desire for White Castle burgers. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0366551/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/vauN2wA5pFw/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/whitecastlesliders", 
@@ -1104,7 +1104,7 @@
     "name": "Harry Potter", 
     "description": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world. IMDb.", 
     "external_link": "https://www.imdb.com/find?q=Harry%20Potter&s=tt&ttype=ft", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/RzCjI3Jy7E8/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/harrypotterspecial", 
@@ -1124,7 +1124,7 @@
     "name": "House of Cards", 
     "description": "A Congressman works with his equally conniving wife to exact revenge on the people who betrayed him. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt1856010/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/k1GFjpYrYOEIvrE2aQyTdA/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/freddys-ribs-inspired-by-house-of-cards", 
@@ -1144,7 +1144,7 @@
     "name": " How I Met Your Mother", 
     "description": "A father recounts to his children, through a series of flashbacks, the journey he and his four best friends took leading up to him meeting their mother. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0460649/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/nS5ZZknwMNMvpBoMbhVkHQ/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/sumbitches", 
@@ -1173,7 +1173,7 @@
     "name": "Howl's Moving Castle", 
     "description": "When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0347149/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/HMGetv40FkI/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/orangemochafrapp-fpm9l", 
@@ -1193,7 +1193,7 @@
     "name": "How The Grinch Stole Christmas", 
     "description": "A grumpy hermit hatches a plan to steal Christmas from the Whos of Whoville. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0060345/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/rSiT8bGhI68/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/roastbeast", 
@@ -1213,7 +1213,7 @@
     "name": "iCarly", 
     "description": "Carly hosts her own home-grown web show, iCarly, Carly and sidekick Sam's regular Web casts ultimately feature everything from comedy sketches and talent contests to interviews, recipes, and problem-solving. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0972534/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/xM-7BHFpypu1T5rFi1egVg/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/spaghettitaco", 
@@ -1233,7 +1233,7 @@
     "name": "I Love You, Man", 
     "description": "Friendless Peter Klaven goes on a series of man-dates to find a Best Man for his wedding. But, when his insta-bond with his new B.F.F. puts a strain on his relationship with his fianc\u00e9e, can the trio learn to live happily ever after? IMDb.", 
     "external_link": "https://www.imdb.com/title/tt1155056/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/1RYUfEowXgc/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/iloveyoumanfishtacos", 
@@ -1253,7 +1253,7 @@
     "name": "Inglourious Basterds", 
     "description": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0361748/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/GoCwsMoQW1I/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/ingloriousbasterds", 
@@ -1273,7 +1273,7 @@
     "name": "It's Always Sunny in Philadelphia", 
     "description": "Five friends with big egos and slightly arrogant attitudes are the proprietors of an Irish pub in Philadelphia. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0472954/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/7D01nDpcPH0v9jgEFxCykg/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/alwayssunny", 
@@ -1302,7 +1302,7 @@
     "name": "Jim Gaffigan's Stand Up", 
     "description": "Indiana native Jim Gaffigan arrived in New York City in 1990 at the age of 24. Officially, he had relocated to work in advertising, but his real fascination with New York had a lot more to do with pursuing his dream of making people laugh as an actor and stand-up comic, a dream he would eventually realize through hard work and ample talent. IMDb.", 
     "external_link": "https://www.imdb.com/name/nm0300712/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/-o-u4IwXkbE/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/cinnamonrolls", 
@@ -1322,7 +1322,7 @@
     "name": "JoJo's Bizarre Adventure", 
     "description": "The story of the Joestar family, who are possessed with intense psychic strength, and the adventures each member encounters throughout their lives. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt2359704/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/PAI47-HSKtGki5BTEpKz8g/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/squidinkpasta", 
@@ -1342,7 +1342,7 @@
     "name": "Julie and Julia", 
     "description": "Julia Child's story of her start in the cooking profession is intertwined with blogger Julie Powell's 2002 challenge to cook all the recipes in Child's first book. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt1135503/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/X2TStmuTxb8/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/boeufbourguignon", 
@@ -1362,7 +1362,7 @@
     "name": "Jurassic Park", 
     "description": "During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0107290/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/f5C7dqrAItM/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/chileanseabass", 
@@ -1382,7 +1382,7 @@
     "name": "Kill la Kill", 
     "description": "A young girl arrives at a school of superhumans to find out the truth behind her father's murder. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt3114390/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/B98NY8Hfo7I/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/takoyaki", 
@@ -1402,7 +1402,7 @@
     "name": "Kim Possible", 
     "description": "A high school cheerleader and her accident-prone best friend balance their duties as global crime-fighters with the typical challenges of adolescence. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0278866/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/GIgLqN_rAXU/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/the-naco", 
@@ -1422,7 +1422,7 @@
     "name": "Kingdom Hearts", 
     "description": "KINGDOM HEARTS is a series of action role-playing games developed and published by Square Enix under the direction of Tetsuya Nomura. The series is a collaboration between Square Enix and Disney.", 
     "external_link": "https://www.kingdomhearts.com/home/us/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/LMph2hAGj7k/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/seasalticecream", 
@@ -1442,7 +1442,7 @@
     "name": "King of the Hill", 
     "description": "A straight laced propane salesman in Arlen, Texas tries to deal with the wacky antics of his family and friends, while also trying to keep his son in line. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0118375/", 
-    "image_link": null, 
+    "image_link": "https://yt3.ggpht.com/rEz9pe87zWHaKJUJd2-GJHBkrDlqXgk4GX28GGfSizrnRZX4F-hMAuiNT5MAUTiphZUdt-Mt8Q=s288-c-k-c0xffffffff-no-rj-mo", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/kingofthehillspecial", 
@@ -1462,7 +1462,7 @@
     "name": "Kung Fu Panda", 
     "description": "The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0441773/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/tuOA5WZVQRQ/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/pullednoodles", 
@@ -1482,7 +1482,7 @@
     "name": "Louie", 
     "description": "The life of Louie C.K., a divorced comedian living in New York with two kids. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt1492966/", 
-    "image_link": null, 
+    "image_link": "https://yt3.ggpht.com/a/AGF-l79dubvARq0YspIkAmiYQrxZPFyfkaWmjr7hhA=s288-c-k-c0xffffffff-no-rj-mo", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/louiefriedchicken", 
@@ -1502,7 +1502,7 @@
     "name": "Lucifer", 
     "description": "Lucifer Morningstar has decided he's had enough of being the dutiful servant in Hell and decides to spend some time on Earth to better understand humanity. He settles in Los Angeles - the City of Angels. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt4052886/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/S0b_FdZo4vIzVd4qhf8Hfg/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/egginanest", 
@@ -1522,7 +1522,7 @@
     "name": "Mad Men", 
     "description": "A drama about one of New York's most prestigious ad agencies at the beginning of the 1960s, focusing on one of the firm's most mysterious but extremely talented ad executives, Donald Draper. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0804503/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/JtH-rbXuIWCffTt5FKWMhA/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/rumfrenchtoast", 
@@ -1551,7 +1551,7 @@
     "name": "Marvel's Agents of S.H.I.E.L.D.", 
     "description": "The missions of the Strategic Homeland Intervention, Enforcement and Logistics Division. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt2364582/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/5rIh4K2rdv-MsocEuB4oqQ/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/fitz-sandwich", 
@@ -1571,7 +1571,7 @@
     "name": "Marvel's Captain America: Civil War", 
     "description": "Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt3498820/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/efBgXjbd2uQ/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/chickenpaprikash", 
@@ -1591,7 +1591,7 @@
     "name": "Marvel's Spider-Man", 
     "description": "When a new villain threatens New York City, Peter Parker and Spider-Man's worlds collide. To save the city and those he loves, he must rise up and be greater. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt5807780/", 
-    "image_link": null, 
+    "image_link": "https://yt3.ggpht.com/c3ynpDktI_tZUzsXdyeujdP8TjIPPex03wALk_G5mcAZqjS27ssd0XvhN5Sl3jySIg48SK_EvA=w390-h540-nd", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/spidermanbackpackrecipes", 
@@ -1611,7 +1611,7 @@
     "name": "Marvel's The Avengers", 
     "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0848228/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/W9ZnpIGvZUo/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/shawarma", 
@@ -1631,7 +1631,7 @@
     "name": "Mary Jane's Pa", 
     "description": "Sam Preston is a small-town newspaper publisher who suffers from wanderlust. Leaving his family (wife Ellen, two daughters and a son,) he thinks well-provided for, he packs a suitcase and hits the road. Ten years later he comes back to find the newspaper shuttered and his family gone. He wanders from town to town searching for them and, finally, comes upon a little lost girl named Mary James, takes her to her home, and discovers she is his youngest daughter. Ellen is now running another newspaper, and is interested in politics...and another man. But after he pleads to remain with his children, she allows him to stay incognito as a housekeeper. Then, the town gossips go to work. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0026689/", 
-    "image_link": null, 
+    "image_link": "https://m.media-amazon.com/images/M/MV5BZDQzYjA2OTctM2M4YS00Y2I5LWExNjUtODQ4MmFlOTA3ZDg1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTY0ODExODc@._V1_UY268_CR15,0,182,268_AL_.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/egginanest", 
@@ -1651,7 +1651,7 @@
     "name": "Master of None", 
     "description": "The personal and professional life of Dev, a 30-year-old actor in New York. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt4635276/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/8JCBvAb240I/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/spaghetti-carbonara-inspired-by-master-of-none", 
@@ -1671,7 +1671,7 @@
     "name": "Matilda", 
     "description": "Story of a wonderful little girl, who happens to be a genius, and her wonderful teacher vs. the worst parents ever and the worst school principal imaginable. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0117008/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/dFBYH6GHNzE/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/chocolate-cake-inspired-by-matilda", 
@@ -1691,7 +1691,7 @@
     "name": "Moonlight", 
     "description": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt4975722/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/q1CRTX8Kdag/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/pollo-a-la-plancha", 
@@ -1711,7 +1711,7 @@
     "name": "Moon over Miami", 
     "description": "Sisters Kay and Barbara arrive in Miami from Texas looking for rich husbands. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0033918/", 
-    "image_link": null, 
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMjEzNjE0ODA1OV5BMl5BanBnXkFtZTgwNDE1Mjg2MjE@._V1_UX182_CR0,0,182,268_AL_.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/egginanest", 
@@ -1731,7 +1731,7 @@
     "name": "Moonstruck", 
     "description": "Loretta Castorini, a bookkeeper from Brooklyn, New York, finds herself in a difficult situation when she falls for the brother of the man she has agreed to marry. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0093565/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/q9WDbb_OoSo/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/egginanest", 
@@ -1751,7 +1751,7 @@
     "name": "Mulan", 
     "description": "To save her father from death in the army, a young maiden secretly goes in his place and becomes one of China's greatest heroines in the process. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0120762/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/TjEREWejqic/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/mulancongee", 
@@ -1771,7 +1771,7 @@
     "name": "Once Upon a Time in Mexico", 
     "description": "Hitman \"El Mariachi\" becomes involved in international espionage involving a psychotic CIA agent and a corrupt Mexican general. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0285823/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/bO0uoutZZZs/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/puerco-pibil", 
@@ -1791,7 +1791,7 @@
     "name": "Parks and Recreation", 
     "description": "The absurd antics of an Indiana town's public officials as they pursue sundry projects to make their city a better place. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt1266020/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/nUzFbxsSUUJSKlrWTyN0pg/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/theswanson", 
@@ -1820,7 +1820,7 @@
     "name": "Peep Show", 
     "description": "Mark and Jez are a couple of twenty-something roommates who have nothing in common - except for the fact that their lives are anything but normal. Mayhem ensues as the pair strive to cope with day-to-day life. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0387764/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/OfKewRzqh8I/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/moroccanpasta", 
@@ -1840,7 +1840,7 @@
     "name": "Phantom Thread", 
     "description": "Set in 1950s London, Reynolds Woodcock is a renowned dressmaker whose fastidious life is disrupted by a young, strong-willed woman, Alma, who becomes his muse and lover. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt5776858/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/YxZLW26ESWU/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/phantomthread-l42pw", 
@@ -1860,7 +1860,7 @@
     "name": "Pixar's Bao", 
     "description": "A Chinese-Canadian woman suffering from empty nest syndrome gets a second shot at motherhood when one of her handmade dumplings comes alive. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt8075496/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/ypEuSSwB1Rk/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/baobuns", 
@@ -1880,7 +1880,7 @@
     "name": "Pixar's Ratatouille", 
     "description": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0382932/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/eh62Ri60lXI/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/ratatouille", 
@@ -1900,7 +1900,7 @@
     "name": "Pok\u00e9mon", 
     "description": "Follows the adventure of Satoshi with his Pokemon, Pikachu and his friends to become the Pokemon master. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0168366/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/4bgqxQYF1YfDZQfSfcg98Q/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/brocksdonuts", 
@@ -1929,7 +1929,7 @@
     "name": "Portal", 
     "description": "A test subject wakes up in a scientific facility controlled by a sadistic artificial intelligence and must escape with the help of the only instrument she has--a gun that makes portals. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt1127708/", 
-    "image_link": null, 
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMmFjNTQzYzItZWRlNC00OTY2LTliZTUtZDU1MTBkNWIyNGUxXkEyXkFqcGdeQXVyNTMxMjgxMzA@._V1_UY268_CR16,0,182,268_AL_.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/portalcake", 
@@ -1949,7 +1949,7 @@
     "name": "Psych", 
     "description": "A novice sleuth is hired by the police after he cons them into thinking he has psychic powers which help solve crimes. With the assistance of his reluctant best friend, the duo take on a series of complicated cases. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0491738/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/fInJknty93Vk82gW0z2NCQ/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/quatroquesodosfritos", 
@@ -1969,8 +1969,17 @@
     "name": "Pulp Fiction", 
     "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0110912/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/hhMtO1MVFSo/mqdefault.jpg", 
     "episodes_inspired": [
+      {
+        "self": "http://localhost:5000/episode/mostexpensiveshake", 
+        "episode_id": "mostexpensiveshake", 
+        "name": "$5 Milkshake inspired by Pulp Fiction", 
+        "published_date": "2019-10-16T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=SfNgpLkV6KE", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/mostexpensiveshake", 
+        "image_link": "https://img.youtube.com/vi/SfNgpLkV6KE/mqdefault.jpg"
+      }, 
       {
         "self": "http://localhost:5000/episode/bigkahunaburger", 
         "episode_id": "bigkahunaburger", 
@@ -1983,33 +1992,13 @@
     ]
   }, 
   {
-    "self": "http://localhost:5000/reference/136", 
-    "reference_id": 136, 
-    "type": "movie", 
-    "name": "Pulp Fiction", 
-    "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption. IMDb.", 
-    "external_link": "https://www.imdb.com/title/tt0110912/", 
-    "image_link": null, 
-    "episodes_inspired": [
-      {
-        "self": "http://localhost:5000/episode/mostexpensiveshake", 
-        "episode_id": "mostexpensiveshake", 
-        "name": "$5 Milkshake inspired by Pulp Fiction", 
-        "published_date": "2019-10-16T00:00:00+00:00", 
-        "youtube_link": "https://www.youtube.com/watch?v=SfNgpLkV6KE", 
-        "official_link": "https://www.bingingwithbabish.com/recipes/mostexpensiveshake", 
-        "image_link": "https://img.youtube.com/vi/SfNgpLkV6KE/mqdefault.jpg"
-      }
-    ]
-  }, 
-  {
     "self": "http://localhost:5000/reference/34", 
     "reference_id": 34, 
     "type": "video_game", 
     "name": "Red Dead Redemption 2", 
     "description": "Amidst the decline of the Wild West at the turn of the 19th century, outlaw Arthur Morgan and his gang struggle to cope with the loss of their way of life. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt6161168/", 
-    "image_link": null, 
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMThiMGJkNDUtYjIxYy00ZTRhLWE5NmUtNzI4NTJlOGI4ZTMwXkEyXkFqcGdeQXVyNTk1ODMyNjA@._V1_UY268_CR17,0,182,268_AL_.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/bearstew", 
@@ -2103,7 +2092,7 @@
     "name": "Rick and Morty", 
     "description": "An animated series that follows the exploits of a super scientist and his not-so-bright grandson. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt2861424/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/qLtmSUCkl5zI2sjyNj7uig/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/szechuansaucerevisited", 
@@ -2132,7 +2121,7 @@
     "name": "Saturday Night Live", 
     "description": "A famous guest host stars in parodies and sketches created by the cast of this witty show. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0072562/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/t5sPe62DPS-vj8-cYU12hQ/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/taco-town", 
@@ -2152,7 +2141,7 @@
     "name": "Seinfeld", 
     "description": "The continuing misadventures of neurotic New York City stand-up comedian Jerry Seinfeld and his equally neurotic New York City friends. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0098904/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/jFHEp6oZxSb5mUWzTVlzDQ/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/seinfeldspecial2", 
@@ -2190,7 +2179,7 @@
     "name": "South Park", 
     "description": "Follows the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0121955/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/n4ixrTeRoCHD8fyAW6_nlQ/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/southparkspecial", 
@@ -2210,7 +2199,7 @@
     "name": "Spanglish", 
     "description": "A woman and her daughter emigrate from Mexico for a better life in America, where they start working for a family where the patriarch is a newly celebrated chef with an insecure wife. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0371246/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/5ZBk8KhToJI/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/worldsgreatestsandwich", 
@@ -2230,7 +2219,7 @@
     "name": "Spider-Man: Homecoming", 
     "description": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt2250912/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/RO014qcVkJc/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/larbstickyrice", 
@@ -2306,7 +2295,7 @@
     "name": "Stand by Me", 
     "description": "After the death of one of his friends, a writer recounts a boyhood journey with his friends to find the body of a missing boy.", 
     "external_link": "https://www.imdb.com/title/tt0092005/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/WuxxjACRiNI/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/applepie", 
@@ -2326,7 +2315,7 @@
     "name": "Steven Universe", 
     "description": "A team of intergalactic warriors fights to protect the universe, but the combination of three highly trained beings and one quirky young boy leaves the team struggling to overcome the dangerous scenarios that are put in front of them. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt3061046/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/ofmKD13ObSYXEV-HkjVTGQ/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/bagelsandwiches", 
@@ -2355,7 +2344,7 @@
     "name": "Stranger Things", 
     "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying supernatural forces in order to get him back. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt4574334/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/aXWG_kKDZlY/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/kfcmeal", 
@@ -2384,7 +2373,7 @@
     "name": "Sweetness and Lightning", 
     "description": "Six months after his wife's death, a highschool teacher struggles to raise his daughter due to his inability to cook. When he meets an introverted student, who's also a part-time cook, he decides to learn to cook good meals for his daughter. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt5853222/", 
-    "image_link": null, 
+    "image_link": "https://m.media-amazon.com/images/M/MV5BY2ZiNzA0M2QtYjE2NC00ZTJjLWIyMDMtN2Q2ZmUwNjFmNjhmXkEyXkFqcGdeQXVyNTc3MDU1MTU@._V1_UX182_CR0,0,182,268_AL_.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/okonomiyaki", 
@@ -2404,7 +2393,7 @@
     "name": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze", 
     "description": "The Turtles and the Shredder battle once again, this time for the last canister of the ooze that created the Turtles, with which Shredder wants to unleash an army of new mutants. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0103060/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/NIb0yG_xjp4/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/nypizzatmnt", 
@@ -2424,7 +2413,7 @@
     "name": "Thank You for Smoking", 
     "description": "Satirical comedy follows the machinations of Big Tobacco's chief spokesman, Nick Naylor, who spins on behalf of cigarettes while trying to remain a role model for his twelve-year-old son. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0427944/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/RcPeQCj07hc/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/cocktail-special", 
@@ -2444,7 +2433,7 @@
     "name": "The Aristocats", 
     "description": "With the help of a smooth talking tomcat, a family of Parisian felines set to inherit a fortune from their owner try to make it back home after a jealous butler kidnaps them and leaves them in the country. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0065421/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/G2DWoc4PdvE/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/aristocats", 
@@ -2464,7 +2453,7 @@
     "name": "The Big Lebowski", 
     "description": "Jeff \"The Dude\" Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and enlists his bowling buddies to help get it. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0118715/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/tgKhPObZeaw/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/cocktail-special", 
@@ -2484,7 +2473,7 @@
     "name": "The Boondocks", 
     "description": "Based on the comic strip, Huey and Riley move away from the city and out to the suburbs with their irascible grandfather. Biting socio-political commentary ensues. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0373732/", 
-    "image_link": null, 
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMjA5OTNhNDQtODU0ZS00MmMyLWJkZmMtZmIyNjRhOTFlODMwXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY268_CR3,0,182,268_AL_.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks", 
@@ -2504,7 +2493,7 @@
     "name": "The Daily Show", 
     "description": "Providing comedy/news in the tradition of TV Nation and SNL's Weekend Update, Comedy Central's Daily Show reports on the foibles and of the real world with a satirical edge. Sam Hayes, IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0115147/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/lPgZfhnCAdI/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/deepdishpizza", 
@@ -2524,7 +2513,7 @@
     "name": "The Disastrous Life of Saiki K.", 
     "description": "Saiki Kusuo is a powerful psychic who hates attracting attention, yet he is surrounded by colorful characters who always find a way to remove him from his everyday life. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt6354518/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/gewcH4tkqpWDZWHuLbdEAw/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/coffeejelly", 
@@ -2544,7 +2533,7 @@
     "name": "The Emperor's New Groove", 
     "description": "Emperor Kuzco is turned into a llama by his ex-administrator Yzma, and must now regain his throne with the help of Pacha, the gentle llama herder. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0120917/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/PaKn5-o6a6s/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/spinachpuffs", 
@@ -2564,7 +2553,7 @@
     "name": "The Eric Andre Show", 
     "description": "Eric Andre tries to host a talk show in a bizarre environment, where he is sometimes the player of pranks and sometimes the victim. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt2244495/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/Sh_L6ZYYlioTzyqSmp59_w/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/pizzaball", 
@@ -2584,7 +2573,7 @@
     "name": "The Godfather", 
     "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0068646/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/vdQi6Ebjm8c/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/thegodfathercannolis", 
@@ -2604,7 +2593,7 @@
     "name": "The Good Place", 
     "description": "Four people and their otherworldly frienemy struggle in the afterlife to define what it means to be good. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt4955642/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/cPYWudB6IMGItbGzBsO5mA/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/thegoodplace", 
@@ -2624,7 +2613,7 @@
     "name": "The Legend of Zelda: Breath of the Wild", 
     "description": "After a century of hibernation, Link reawakens to once again save a ruined Hyrule from a great evil. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt3253986/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/2As_DjNkwiI/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/zelda-monster-cake", 
@@ -2644,7 +2633,7 @@
     "name": "The Matrix", 
     "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0133093/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/qEXv-rVWAu8/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/chateaubriandsteak", 
@@ -2664,7 +2653,7 @@
     "name": "The Meddler", 
     "description": "An aging widow from New York City follows her daughter to Los Angeles in hopes of starting a new life after her husband passes away. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt4501454/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/6Oy15TO8voQ/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/egginanest", 
@@ -2684,7 +2673,7 @@
     "name": "The Office", 
     "description": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0386676/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/VCVm3mKpo1XgvNdO5ruXXQ/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/michaelscottpretzel", 
@@ -2713,7 +2702,7 @@
     "name": "The Place Beyond the Pines", 
     "description": "A motorcycle stunt rider turns to robbing banks as a way to provide for his lover and their newborn child, a decision that puts him on a collision course with an ambitious rookie cop navigating a department ruled by a corrupt detective. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt1817273/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/o2YuRzviXMc/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/garbageplate", 
@@ -2733,7 +2722,7 @@
     "name": "The Princess and the Frog", 
     "description": "A waitress, desperate to fulfill her dreams as a restaurant owner, is set on a journey to turn a frog prince back into a human being, but she has to face the same problem after she kisses him. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0780521/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/80xxB0FrmWY/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/beignetsfromchef", 
@@ -2753,7 +2742,7 @@
     "name": "The Secret Life of Walter Mitty", 
     "description": "When his job along with that of his co-worker are threatened, Walter takes action in the real world embarking on a global journey that turns into an adventure more extraordinary than anything he could have ever imagined. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0359950/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/5I6T_WztBXg/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/clementinecake", 
@@ -2829,7 +2818,7 @@
     "name": "The Simpsons Movie", 
     "description": "After Homer accidentally pollutes the town's water supply, Springfield is encased in a gigantic dome by the EPA and the family are declared fugitives. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0462538/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/kgOLxXx0KUw/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/flandershotcocoa", 
@@ -2849,7 +2838,7 @@
     "name": "The Sopranos", 
     "description": "New Jersey mob boss Tony Soprano deals with personal and professional issues in his home and business life that affect his mental state, leading him to seek professional psychiatric counseling. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0141842/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/Vw63r4PYcKe_xKfvCLP_uw/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/ziti-lasagna", 
@@ -2887,7 +2876,7 @@
     "name": "The Walking Dead", 
     "description": "Sheriff Deputy Rick Grimes wakes up from a coma to learn the world is in ruins, and must lead a group of survivors to stay alive. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt1520211/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/_cK0nmWFWWgWejxGvKfQ-A/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/beetandacorncookies", 
@@ -2907,7 +2896,7 @@
     "name": "The West Wing", 
     "description": "Inside the lives of staffers in the West Wing of the White House. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0200276/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/bkPkh7QAf_b-brmM75uDIA/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/tomate-du-saltambique-inspired-by-the-west-wing", 
@@ -2927,7 +2916,7 @@
     "name": "The Wire", 
     "description": "Baltimore drug scene, seen through the eyes of drug dealers and law enforcement. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0306414/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/jsmtb8CxQeRwqJsMtDqplQ/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/thewirespecial", 
@@ -2947,7 +2936,7 @@
     "name": "True Romance", 
     "description": "In Detroit, a lonely pop culture geek marries a call girl, steals cocaine from her pimp, and tries to sell it in Hollywood. Meanwhile, the owners of the cocaine, the Mob, track them down in an attempt to reclaim it.", 
     "external_link": "https://www.imdb.com/title/tt0108399/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/liiSsgEvwnc/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/applepie", 
@@ -2967,7 +2956,7 @@
     "name": "Twin Peaks", 
     "description": "An idiosyncratic FBI agent investigates the murder of a young woman in the even more idiosyncratic town of Twin Peaks. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0098936/", 
-    "image_link": null, 
+    "image_link": "https://i.ytimg.com/sh/U33rt1ck1Pvgm2dv5g-2dw/market.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/buttermilk-pancakes-inspired-by-twin-peaks", 
@@ -2996,7 +2985,7 @@
     "name": "Uncle Buck", 
     "description": "Bachelor and all round slob, Buck, babysits his brother's rebellious teenage daughter and her cute younger brother and sister. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0098554/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/Y89NT00spBY/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/classicpancakes", 
@@ -3016,7 +3005,7 @@
     "name": "V for Vendetta", 
     "description": "In a future British tyranny, a shadowy freedom fighter, known only by the alias of \"V\", plots to overthrow it with the help of a young woman. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0434409/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/Et6M2r3yTAw/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/egginanest", 
@@ -3036,7 +3025,7 @@
     "name": "Waitress", 
     "description": "Jenna is a pregnant, unhappily married waitress in the deep south. She meets a newcomer to her town and falls into an unlikely relationship as a last attempt at happiness. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0473308/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/TTHznuN-DOI/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/piesfromwaitress", 
@@ -3056,7 +3045,7 @@
     "name": "Whiplash", 
     "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt2582802/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/Oe2aD3Px9wg/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/raisinets", 
@@ -3076,7 +3065,7 @@
     "name": "You're Eating It Wrong", 
     "description": "This is a web series from Cooking Channel. They also combined episodes and broadcast on TV. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt5195594/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/--B_ENKrG-8/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/chocolate-cake-inspired-by-matilda", 
@@ -3096,7 +3085,7 @@
     "name": "You Suck at Cooking", 
     "description": "Being taught to cook by a professional chef is everybody's dream. And if not everybody's dream, mostlybody's dream. But chasing your dreams is overrated and often leads to heartbreak. That's why you should throw your dreams in the garbage and learn to cook here, instead. In these cooking tutorial videos youre learn next to nothing, and you'll like it.", 
     "external_link": "https://www.youtube.com/channel/UCekQr9znsk2vWxBo3YiLq2w", 
-    "image_link": null, 
+    "image_link": "https://yt3.ggpht.com/a/AGF-l7_wVfJ2wHSX9nB-fMjIS7X4nX76KP0oSn3YrQ=s288-c-k-c0xffffffff-no-rj-mo", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/clayroastedthigh", 
@@ -3116,7 +3105,7 @@
     "name": "Zoolander", 
     "description": "At the end of his career, a clueless fashion model is brainwashed to kill the Prime Minister of Malaysia. IMDb.", 
     "external_link": "https://www.imdb.com/title/tt0196229/", 
-    "image_link": null, 
+    "image_link": "https://img.youtube.com/vi/yYdBv8S_nzw/mqdefault.jpg", 
     "episodes_inspired": [
       {
         "self": "http://localhost:5000/episode/orangemochafrapp", 
