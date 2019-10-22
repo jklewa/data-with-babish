@@ -66,6 +66,19 @@ def episode_new():
     return redirect('/episodes#' + str(new.id))
 
 
+@app.route('/episode/<id>', methods=['GET'])
+def episode_by(id):
+    ep = Episode.query.filter_by(id=id).first_or_404()
+    return jsonify(ep.serialize())
+
+
+@app.route('/episode/<id>', methods=['POST'])
+def episode_update(id):
+    Episode.query.filter_by(id=id).update(request.form.to_dict())
+    db.session.commit()
+    redirect('/episodes#' + str(id))
+
+
 @app.route('/episode/<id>/inspired_by', methods=['POST'])
 def episode_inspired_by(id):
     ep = Episode.query.get(id)
@@ -74,12 +87,6 @@ def episode_inspired_by(id):
     db.session.add(ep)
     db.session.commit()
     return redirect('/episodes#' + str(ep.id))
-
-
-@app.route('/episode/<id>')
-def episode_by(id):
-    ep = Episode.query.filter_by(id=id).first_or_404()
-    return jsonify(ep.serialize())
 
 
 @app.route('/recipes')
@@ -96,6 +103,7 @@ def recipes():
 def recipe_new():
     new = Recipe(
         name=request.form.get("name"),
+        image_link=request.form.get("image_link"),
         raw_ingredient_list=normalize_raw_list(
             request.form.get("raw_ingredient_list")),
         raw_procedure=normalize_raw_list(
@@ -113,6 +121,13 @@ def recipe_by(id):
     return jsonify(r.serialize())
 
 
+@app.route('/recipe/<id>', methods=['POST'])
+def recipe_update(id):
+    Recipe.query.filter_by(id=id).update(request.form.to_dict())
+    db.session.commit()
+    return redirect('/recipes#r' + str(id))
+
+
 @app.route('/guests')
 def guests():
     guests = Guest.query.order_by(Guest.name).all()
@@ -127,6 +142,7 @@ def guests():
 def guest_new():
     new = Guest(
         name=request.form.get("name"),
+        image_link=request.form.get("image_link"),
     )
     appearance = Episode.query.get(
         request.form.get("appearance_episode_id")
@@ -154,6 +170,13 @@ def guest_by(id):
     return jsonify(g.serialize())
 
 
+@app.route('/guest/<id>', methods=['POST'])
+def guest_update(id):
+    Guest.query.filter_by(id=id).update(request.form.to_dict())
+    db.session.commit()
+    return redirect('/guests#g' + str(id))
+
+
 @app.route('/references')
 def references():
     references = Reference.query.order_by(Reference.name, Reference.id).all()
@@ -169,6 +192,7 @@ def reference_new():
     new = Reference(
         type=request.form.get("type"),
         name=request.form.get("name"),
+        image_link=request.form.get("image_link"),
         description=request.form.get("description"),
         external_link=request.form.get("external_link"),
     )
@@ -198,6 +222,13 @@ def reference_by(id):
     return jsonify(r.serialize())
 
 
+@app.route('/reference/<id>', methods=['POST'])
+def reference_update(id):
+    Reference.query.filter_by(id=id).update(request.form.to_dict())
+    db.session.commit()
+    return redirect('/references#r' + str(id))
+
+
 @app.route('/shows')
 def shows():
     shows = Show.query.order_by(Show.id).all()
@@ -208,6 +239,14 @@ def shows():
 def show_by(id):
     s = Show.query.filter_by(id=id).first_or_404()
     return jsonify(s.serialize())
+
+
+@app.route('/show/<id>', methods=['POST'])
+def show_update(id):
+    Show.query.filter_by(id=id).update(request.form.to_dict())
+    db.session.commit()
+    updated = Show.query.filter_by(id=id).first()
+    return jsonify(updated.serialize())
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')

@@ -31,9 +31,12 @@
     </style>
 </head>
 <body>
+    {% include '_header.html' %}
+
     <h1>Add Recipe</h1>
     <form method="POST" action="/recipes">
         <div>Name: <input type="text" name="name" required></div>
+        <div>Image Link: <input type="text" name="image_link"></div>
         <div>Ingredient List: <textarea name="raw_ingredient_list" row="3" cols="30" required></textarea></div>
         <div>Procedure: <textarea name="raw_procedure" row="3" cols="30" required></textarea></div>
         <div>Episode: <select name="source_episode_id">
