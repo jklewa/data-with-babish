@@ -97,6 +97,7 @@ class Episode(Base):
     _backref_order_by = 'Episode.published_date.desc(),Episode.id'
 
     show = relationship('Show',
+                        uselist=False,
                         order_by='Show.id',
                         backref=backref('episodes',
                                         order_by=_backref_order_by))
@@ -112,6 +113,7 @@ class Episode(Base):
                                                order_by=_backref_order_by))
     recipes = relationship('Recipe', order_by='Recipe.name,Recipe.id',
                            backref=backref('episode',
+                                           uselist=False,
                                            order_by=_backref_order_by))
 
     def serialize(self, related=True):

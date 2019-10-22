@@ -76,8 +76,7 @@ def episode_by(id):
 def episode_update(id):
     Episode.query.filter_by(id=id).update(request.form.to_dict())
     db.session.commit()
-    updated = Episode.query.filter_by(id=id).first()
-    return jsonify(updated.serialize())
+    redirect('/episodes#' + str(id))
 
 
 @app.route('/episode/<id>/inspired_by', methods=['POST'])
@@ -126,8 +125,7 @@ def recipe_by(id):
 def recipe_update(id):
     Recipe.query.filter_by(id=id).update(request.form.to_dict())
     db.session.commit()
-    updated = Recipe.query.filter_by(id=id).first()
-    return jsonify(updated.serialize())
+    return redirect('/recipes#r' + str(id))
 
 
 @app.route('/guests')
@@ -176,8 +174,7 @@ def guest_by(id):
 def guest_update(id):
     Guest.query.filter_by(id=id).update(request.form.to_dict())
     db.session.commit()
-    updated = Guest.query.filter_by(id=id).first()
-    return jsonify(updated.serialize())
+    return redirect('/guests#g' + str(id))
 
 
 @app.route('/references')
@@ -229,8 +226,7 @@ def reference_by(id):
 def reference_update(id):
     Reference.query.filter_by(id=id).update(request.form.to_dict())
     db.session.commit()
-    updated = Reference.query.filter_by(id=id).first()
-    return jsonify(updated.serialize())
+    return redirect('/references#r' + str(id))
 
 
 @app.route('/shows')

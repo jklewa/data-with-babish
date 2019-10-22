@@ -60,27 +60,42 @@
 
     <h1>References <a href="?format=json">JSON</a></h1>
     {% for ref in references %}
+    <form method="POST" action="/reference/{{ref.id}}">
       <a name="r{{ref.id}}"></a>
       <h3>{{ ref.name }} <small>({{ ref.type }})</small></h3>
-      <a href="{{ ref.external_link }}">External</a>
-      <pre>{{ ref.description }}</pre>
-      <div class="details">
-        inspired:
-        <ul>
+      <div>Type:
+        <select name="type">
+          <option value="movie" {{ "selected" if ref.type == "movie" }}>Movie</option>
+          <option value="tv_show" {{ "selected" if ref.type == "tv_show" }}>TV Show</option>
+          <option value="video_game" {{ "selected" if ref.type == "video_game" }}>Video Game</option>
+          <option value="youtube_channel" {{ "selected" if ref.type == "youtube_channel" }}>Youtube Channel</option>
+          <option value="comedy_special" {{ "selected" if ref.type == "comedy_special" }}>Comedy Special</option>
+          <option value="other" {{ "selected" if ref.type == "other" }}>Other</option>
+        </select>
+      </div>
+      <div>Name: <input type="text" name="name" required value="{{ref.name or ''}}"></div>
+      <div>Description: <textarea name="description" row="3" cols="30" required>{{ref.description or ''}}</textarea></div>
+      <div>External Link: <input type="text" name="external_link" required value="{{ref.external_link or ''}}"></div>
+      <div>Image Link: <input type="text" name="image_link" value="{{ref.image_link or ''}}"></div>
+      <input type="submit" value="Update">
+    </form>
+    <div class="details">
+      inspired:
+      <ul>
         {% for ep in ref.episodes_inspired %}
           <li>{{ ep.published_date.strftime('%Y-%m-%d') }} | {{ ep.name }} <a href="/episodes#{{ ep.id }}">Link</a></li>
         {% endfor %}
-        </ul>
-        <form method="POST" action="/reference/{{ ref.id }}/episodes_inspired" class="inline">
-          <select name="inspired_episode_id">
-            <option value="">Select episode</option>
-          {% for ep in episodes %}
-            <option value="{{ ep.id }}">{{ loop.revindex }}. {{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</option>
-          {% endfor %}
-          </select>
-          <input type="submit" value="Add">
-        </form>
-      </div>
+      </ul>
+    </div>
+    <form method="POST" action="/reference/{{ ref.id }}/episodes_inspired" class="inline">
+      <select name="inspired_episode_id">
+        <option value="">Select episode</option>
+        {% for ep in episodes %}
+          <option value="{{ ep.id }}">{{ loop.revindex }}. {{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</option>
+        {% endfor %}
+      </select>
+      <input type="submit" value="Add">
+    </form>
     {% endfor %}
   </body>
 </html>
