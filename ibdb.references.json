@@ -2387,6 +2387,26 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/137", 
+    "reference_id": 137, 
+    "type": "movie", 
+    "name": "Talladega Nights: The Ballad of Ricky Bobby", 
+    "description": "Number one NASCAR driver Ricky Bobby stays atop the heap thanks to a pact with his best friend and teammate, Cal Naughton, Jr. But when a French Formula One driver, makes his way up the ladder, Ricky Bobby's talent and devotion are put to the test.", 
+    "external_link": "https://www.imdb.com/title/tt0415306/", 
+    "image_link": "https://img.youtube.com/vi/8cWRHcl5GFI/mqdefault.jpg", 
+    "episodes_inspired": [
+      {
+        "self": "http://localhost:5000/episode/crepessuzette", 
+        "episode_id": "crepessuzette", 
+        "name": "Cr\u00eapes Suzette inspired by Talladega Nights", 
+        "published_date": "2019-10-24T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=Z1kR6SIr1XA", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/crepessuzette", 
+        "image_link": "https://img.youtube.com/vi/Z1kR6SIr1XA/mqdefault.jpg"
+      }
+    ]
+  }, 
+  {
     "self": "http://localhost:5000/reference/109", 
     "reference_id": 109, 
     "type": "movie", 

@@ -6,6 +6,15 @@
     "image_link": null, 
     "episodes": [
       {
+        "self": "http://localhost:5000/episode/crepessuzette", 
+        "episode_id": "crepessuzette", 
+        "name": "Cr\u00eapes Suzette inspired by Talladega Nights", 
+        "published_date": "2019-10-24T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=Z1kR6SIr1XA", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/crepessuzette", 
+        "image_link": "https://img.youtube.com/vi/Z1kR6SIr1XA/mqdefault.jpg"
+      }, 
+      {
         "self": "http://localhost:5000/episode/mostexpensiveshake", 
         "episode_id": "mostexpensiveshake", 
         "name": "$5 Milkshake inspired by Pulp Fiction", 
@@ -1493,9 +1502,9 @@
         "self": "http://localhost:5000/episode/espressodrinks", 
         "episode_id": "espressodrinks", 
         "name": "ESPRESSO DRINKS", 
-        "published_date": "2019-10-17T00:00:00+00:00", 
+        "published_date": "2019-10-24T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
-        "official_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/espressodrinks", 
         "image_link": "https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg"
       }, 
       {
@@ -1972,6 +1981,15 @@
     "name": "Being with Babish", 
     "image_link": null, 
     "episodes": [
+      {
+        "self": "http://localhost:5000/episode/being-with-babish-6", 
+        "episode_id": "being-with-babish-6", 
+        "name": "I Surprised My Brother with a Tesla", 
+        "published_date": "2019-10-26T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=N44XgSRE-gY", 
+        "official_link": "https://www.youtube.com/watch?v=N44XgSRE-gY", 
+        "image_link": "https://img.youtube.com/vi/N44XgSRE-gY/mqdefault.jpg"
+      }, 
       {
         "self": "http://localhost:5000/episode/being-with-babish-5", 
         "episode_id": "being-with-babish-5", 

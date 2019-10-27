@@ -94,6 +94,23 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/guest/31", 
+    "guest_id": 31, 
+    "name": "David (Brother)", 
+    "image_link": "", 
+    "appearances": [
+      {
+        "self": "http://localhost:5000/episode/being-with-babish-6", 
+        "episode_id": "being-with-babish-6", 
+        "name": "I Surprised My Brother with a Tesla", 
+        "published_date": "2019-10-26T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=N44XgSRE-gY", 
+        "official_link": "https://www.youtube.com/watch?v=N44XgSRE-gY", 
+        "image_link": "https://img.youtube.com/vi/N44XgSRE-gY/mqdefault.jpg"
+      }
+    ]
+  }, 
+  {
     "self": "http://localhost:5000/guest/16", 
     "guest_id": 16, 
     "name": "David Wasman", 
@@ -389,6 +406,15 @@
     "name": "Sawyer Jacobs", 
     "image_link": null, 
     "appearances": [
+      {
+        "self": "http://localhost:5000/episode/being-with-babish-6", 
+        "episode_id": "being-with-babish-6", 
+        "name": "I Surprised My Brother with a Tesla", 
+        "published_date": "2019-10-26T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=N44XgSRE-gY", 
+        "official_link": "https://www.youtube.com/watch?v=N44XgSRE-gY", 
+        "image_link": "https://img.youtube.com/vi/N44XgSRE-gY/mqdefault.jpg"
+      }, 
       {
         "self": "http://localhost:5000/episode/5mill-special", 
         "episode_id": "5mill-special", 

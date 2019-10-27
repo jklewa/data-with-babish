@@ -25,6 +25,37 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/566", 
+    "recipe_id": 566, 
+    "name": "Affogato", 
+    "image_link": "", 
+    "raw_ingredient_list": "Espresso (double shot)\nVanilla ice cream", 
+    "raw_procedure": "Take a single scoop or a few scoops of vanilla ice cream topped with a double shot of espresso.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Espresso", 
+        "Espresso (double shot)"
+      ], 
+      [
+        null, 
+        null, 
+        "Vanilla Ice Cream", 
+        "Vanilla ice cream"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/espressodrinks", 
+      "episode_id": "espressodrinks", 
+      "name": "ESPRESSO DRINKS", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/espressodrinks", 
+      "image_link": "https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/335", 
     "recipe_id": 335, 
     "name": "Al Pastor", 
@@ -40,6 +71,37 @@
       "youtube_link": "https://www.youtube.com/watch?v=Mf4wwXM2o_M", 
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/everymeatburrito", 
       "image_link": "https://img.youtube.com/vi/Mf4wwXM2o_M/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/560", 
+    "recipe_id": 560, 
+    "name": "Americano", 
+    "image_link": "", 
+    "raw_ingredient_list": "Espresso (double shot)\nHot water", 
+    "raw_procedure": "This is an approximation of American-style drip coffee by adding hot water to a double shot of espresso.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Espresso", 
+        "Espresso (double shot)"
+      ], 
+      [
+        null, 
+        null, 
+        "Water", 
+        "Hot water"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/espressodrinks", 
+      "episode_id": "espressodrinks", 
+      "name": "ESPRESSO DRINKS", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/espressodrinks", 
+      "image_link": "https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg"
     }
   }, 
   {
@@ -3996,6 +4058,61 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/575", 
+    "recipe_id": 575, 
+    "name": "Breakfast Cr\u00eapes", 
+    "image_link": "", 
+    "raw_ingredient_list": "1 egg\nSwiss cheese, grated\nKosher salt\nFreshly ground pepper\nFreshly minced chives\nHomemade chili oil (ingredients below)", 
+    "raw_procedure": "For making the actual cr\u00eapes, follow either the classic cr\u00eape recipe or the buckwheat cr\u00eape recipe, which are both listed above.\nOnce you flip the cr\u00eape, add a generous grating of swiss cheese to the top of the cr\u00eape.\nCoat a pan with butter and fry one egg sunny-side up. Once the egg is fried, add it on top center of the cr\u00eape.\nFold four edges up around the center to make a square. Season with kosher salt, freshly ground pepper, and freshly minced chives.\nIf desired, add some homemade chili oil (recipe listed below) to top everything off.", 
+    "ingredient_list": [
+      [
+        1.0, 
+        null, 
+        "Egg", 
+        "1 egg"
+      ], 
+      [
+        null, 
+        null, 
+        "Swiss Cheese", 
+        "Swiss cheese, grated"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Pepper", 
+        "Freshly ground pepper"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Minced Chives", 
+        "Freshly minced chives"
+      ], 
+      [
+        null, 
+        null, 
+        "Homemade Chili Oil", 
+        "Homemade chili oil (ingredients below)"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/crepessuzette", 
+      "episode_id": "crepessuzette", 
+      "name": "Cr\u00eapes Suzette inspired by Talladega Nights", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=Z1kR6SIr1XA", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/crepessuzette", 
+      "image_link": "https://img.youtube.com/vi/Z1kR6SIr1XA/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/98", 
     "recipe_id": 98, 
     "name": "Brock's \"Donut\"", 
@@ -4692,6 +4809,61 @@
       "youtube_link": "https://www.youtube.com/watch?v=0TvBiF9S89Q", 
       "official_link": "https://www.bingingwithbabish.com/recipes/thegreystuff", 
       "image_link": "https://img.youtube.com/vi/0TvBiF9S89Q/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/574", 
+    "recipe_id": 574, 
+    "name": "Buckwheat Cr\u00eapes", 
+    "image_link": "", 
+    "raw_ingredient_list": "2 large eggs\n\u00bd cup water\n\u00be cup milk\n3 Tbsp melted butter\nSalt\n1 cup buckwheat flour", 
+    "raw_procedure": "In a blender, combine 2 large eggs, \u00bd cup of water. \u00be cup of milk, 3 Tbsp of melted butter, a pinch of salt, and 1 cup of buckwheat flour.\nPulse the mixture 10-12 times on low power until combined and then scrape down the sides for any loose bits of flour. Pulse a couple more times until you have a thin pancake batter. Let the mixture sit in the refrigerator for one hour to get rid of any bubbles.\nUsing a non-stick skillet or a cr\u00eape maker that is coated with butter, pour your batter in and slowly rotate the pan until the entire surface is covered with batter and it is nice and thin.\nLet cook for 30-60 seconds over medium high heat until it is dappled brown. Flip the cr\u00eape and let cook for an additional 15-30 seconds until it is cooked through.", 
+    "ingredient_list": [
+      [
+        2.0, 
+        "large", 
+        "Eggs", 
+        "2 large eggs"
+      ], 
+      [
+        0.5, 
+        "cup", 
+        "Water", 
+        "\u00bd cup water"
+      ], 
+      [
+        0.75, 
+        "cup", 
+        "Milk", 
+        "\u00be cup milk"
+      ], 
+      [
+        3.0, 
+        "tablespoon", 
+        "Melted Butter", 
+        "3 Tbsp melted butter"
+      ], 
+      [
+        null, 
+        null, 
+        "Salt", 
+        "Salt"
+      ], 
+      [
+        1.0, 
+        "cup", 
+        "Buckwheat Flour", 
+        "1 cup buckwheat flour"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/crepessuzette", 
+      "episode_id": "crepessuzette", 
+      "name": "Cr\u00eapes Suzette inspired by Talladega Nights", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=Z1kR6SIr1XA", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/crepessuzette", 
+      "image_link": "https://img.youtube.com/vi/Z1kR6SIr1XA/mqdefault.jpg"
     }
   }, 
   {
@@ -5860,6 +6032,43 @@
       "youtube_link": "https://www.youtube.com/watch?v=44fjX-rgJ7s", 
       "official_link": "https://www.bingingwithbabish.com/recipes/thegodfathercannolis", 
       "image_link": "https://img.youtube.com/vi/44fjX-rgJ7s/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/561", 
+    "recipe_id": 561, 
+    "name": "Cappuccino", 
+    "image_link": "", 
+    "raw_ingredient_list": "Espresso (double shot)\nSteamed milk\nFoam (large layer)", 
+    "raw_procedure": "This is a double shot of espresso and equal parts steamed milk and very frothy foam. Pour from up high to allow the steamed milk to mix with the coffee and then move closer while you get to the foam, which allows it to settle on top. The foam should be thick and form a clearly defined layer on top of the coffee.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Espresso", 
+        "Espresso (double shot)"
+      ], 
+      [
+        null, 
+        null, 
+        "Steamed Milk", 
+        "Steamed milk"
+      ], 
+      [
+        null, 
+        null, 
+        "Foam", 
+        "Foam (large layer)"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/espressodrinks", 
+      "episode_id": "espressodrinks", 
+      "name": "ESPRESSO DRINKS", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/espressodrinks", 
+      "image_link": "https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg"
     }
   }, 
   {
@@ -9032,6 +9241,67 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/576", 
+    "recipe_id": 576, 
+    "name": "Chili Oil", 
+    "image_link": "", 
+    "raw_ingredient_list": "Szechuan peppercorns\nStar anise pods\nCassia bark\nKnob of peeled ginger\n3 lightly crushed cloves of garlic\nCanola oil (or any neutral flavored oil)\nSichuan chili", 
+    "raw_procedure": "In a small saucepan, throw a handful of Szechuan peppercorns, star anise pods, cassia bark, a knob of peeled ginger, and 3 lightly crushed cloves of garlic.\nPour 2-3 cups of canola oil over the top and gently swirl over medium heat until the oil reaches about 325 degrees Fahrenheit. Strain and pour over about a cup of Sichuan chili flakes into a heat-proof bowl. Give a little mix and set aside for about 30 minutes to cool.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Szechuan Peppercorns", 
+        "Szechuan peppercorns"
+      ], 
+      [
+        null, 
+        null, 
+        "Star Anise Pods", 
+        "Star anise pods"
+      ], 
+      [
+        null, 
+        null, 
+        "Cassia Bark", 
+        "Cassia bark"
+      ], 
+      [
+        null, 
+        null, 
+        "Peeled Ginger", 
+        "Knob of peeled ginger"
+      ], 
+      [
+        3.0, 
+        null, 
+        "Garlic", 
+        "3 lightly crushed cloves of garlic"
+      ], 
+      [
+        null, 
+        null, 
+        "Canola Oil", 
+        "Canola oil (or any neutral flavored oil)"
+      ], 
+      [
+        null, 
+        null, 
+        "Sichuan Chili", 
+        "Sichuan chili"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/crepessuzette", 
+      "episode_id": "crepessuzette", 
+      "name": "Cr\u00eapes Suzette inspired by Talladega Nights", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=Z1kR6SIr1XA", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/crepessuzette", 
+      "image_link": "https://img.youtube.com/vi/Z1kR6SIr1XA/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/59", 
     "recipe_id": 59, 
     "name": "Choclate Syrup", 
@@ -11502,6 +11772,43 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/564", 
+    "recipe_id": 564, 
+    "name": "Cortado", 
+    "image_link": "", 
+    "raw_ingredient_list": "Espresso\nSteamed milk\nDollop of foam", 
+    "raw_procedure": "This is a single shot of espresso to which you will add an equal amount or more of steamed milk and topped with a little dollop of foam.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Espresso", 
+        "Espresso"
+      ], 
+      [
+        null, 
+        null, 
+        "Steamed Milk", 
+        "Steamed milk"
+      ], 
+      [
+        null, 
+        null, 
+        "Foam", 
+        "Dollop of foam"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/espressodrinks", 
+      "episode_id": "espressodrinks", 
+      "name": "ESPRESSO DRINKS", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/espressodrinks", 
+      "image_link": "https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/148", 
     "recipe_id": 148, 
     "name": "Country Bumpkin Eggnog", 
@@ -12231,6 +12538,110 @@
       "youtube_link": "https://www.youtube.com/watch?v=UvIkojfQDxA", 
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/18/taco-town", 
       "image_link": "https://img.youtube.com/vi/UvIkojfQDxA/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/573", 
+    "recipe_id": 573, 
+    "name": "Cr\u00eapes", 
+    "image_link": "", 
+    "raw_ingredient_list": "2 large eggs\n\u00bd cup water\n\u00be cup milk\n3 Tbsp melted butter\nSalt\n1 cup flour", 
+    "raw_procedure": "In a blender, combine 2 large eggs, \u00bd cup of water. \u00be cup of milk, 3 Tbsp of melted butter, a pinch of salt, and 1 cup of flour.\nPulse the mixture 10-12 times on low power until combined and then scrape down the sides for any loose bits of flour. Pulse a couple more times until you have a thin pancake batter. Let the mixture sit in the refrigerator for one hour to get rid of any bubbles.\nUsing a non-stick skillet or a cr\u00eape maker that is coated with butter, pour your batter in and slowly rotate the pan until the entire surface is covered with batter and it is nice and thin.\nLet cook for 30-60 seconds over medium high heat until it is dappled brown. Flip the cr\u00eape and let cook for an additional 15-30 seconds until it is cooked through.", 
+    "ingredient_list": [
+      [
+        2.0, 
+        "large", 
+        "Eggs", 
+        "2 large eggs"
+      ], 
+      [
+        0.5, 
+        "cup", 
+        "Water", 
+        "\u00bd cup water"
+      ], 
+      [
+        0.75, 
+        "cup", 
+        "Milk", 
+        "\u00be cup milk"
+      ], 
+      [
+        3.0, 
+        "tablespoon", 
+        "Melted Butter", 
+        "3 Tbsp melted butter"
+      ], 
+      [
+        null, 
+        null, 
+        "Salt", 
+        "Salt"
+      ], 
+      [
+        1.0, 
+        "cup", 
+        "Flour", 
+        "1 cup flour"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/crepessuzette", 
+      "episode_id": "crepessuzette", 
+      "name": "Cr\u00eapes Suzette inspired by Talladega Nights", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=Z1kR6SIr1XA", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/crepessuzette", 
+      "image_link": "https://img.youtube.com/vi/Z1kR6SIr1XA/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/579", 
+    "recipe_id": 579, 
+    "name": "Cr\u00eapes Suzette", 
+    "image_link": "", 
+    "raw_ingredient_list": "3 Tbsp butter\nSugar\n1 orange\nDry sherry or cognac\nVanilla ice cream", 
+    "raw_procedure": "For making the actual cr\u00eapes, follow either the classic cr\u00eape recipe or the buckwheat cr\u00eape recipe, which are both listed above.\nMelt 3 tablespoons of butter in a large saut\u00e9 pan and add at least 2 tablespoons of sugar. Then, add the zest and juice from any type of orange of your choice.\nBring the mixture to a simmer and gently swirl to incorporate all of the sugar.\nBegin dunking your pre-prepared cr\u00eapes into the liquid and make sure that it is nicely coated on both sides of the bottom half of the cr\u00eape.\nLay the cr\u00eape down in the liquid and fold it in half double quesadilla style.\nRinse and repeat with two additional cr\u00eapes and arrange them into a quadrant. Cook for about one minute on the first side before flipping to make sure that they are nice and evenly coated.\nLet the cr\u00eapes sit in the pan for 3-5 minutes over medium heat until they are nice and caramelized on one side. Arrange the cr\u00eapes on a plate.\nFlambe over the stovetop with either dry sherry or cognac.\nGently pour over the cr\u00eapes or add one scoop of vanilla ice cream to top everything off.", 
+    "ingredient_list": [
+      [
+        3.0, 
+        "tablespoon", 
+        "Butter", 
+        "3 Tbsp butter"
+      ], 
+      [
+        null, 
+        null, 
+        "Sugar", 
+        "Sugar"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Orange", 
+        "1 orange"
+      ], 
+      [
+        null, 
+        null, 
+        "Dry Sherry Or Cognac", 
+        "Dry sherry or cognac"
+      ], 
+      [
+        null, 
+        null, 
+        "Vanilla Ice Cream", 
+        "Vanilla ice cream"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/crepessuzette", 
+      "episode_id": "crepessuzette", 
+      "name": "Cr\u00eapes Suzette inspired by Talladega Nights", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=Z1kR6SIr1XA", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/crepessuzette", 
+      "image_link": "https://img.youtube.com/vi/Z1kR6SIr1XA/mqdefault.jpg"
     }
   }, 
   {
@@ -14683,6 +15094,136 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/568", 
+    "recipe_id": 568, 
+    "name": "Espresso - AeroPress", 
+    "image_link": "", 
+    "raw_ingredient_list": "Espresso beans\nWater", 
+    "raw_procedure": "The brewing ratio should be 20g of finely ground coffee and 55g of nearly boiling water at about 205 degrees Fahrenheit.\nAgain, there is no distinctive layer of crema floating over the coffee, but it is a decent shot of espresso.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Espresso Beans", 
+        "Espresso beans"
+      ], 
+      [
+        null, 
+        null, 
+        "Water", 
+        "Water"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/espressodrinks", 
+      "episode_id": "espressodrinks", 
+      "name": "ESPRESSO DRINKS", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/espressodrinks", 
+      "image_link": "https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/567", 
+    "recipe_id": 567, 
+    "name": "Espresso - Moka Pot", 
+    "image_link": "", 
+    "raw_ingredient_list": "Espresso beans\nWater", 
+    "raw_procedure": "Unscrew the top chamber of the mocha pot and remove the brewing basket. Fill the basket to the top without pressing it down with a medium to fine grind of coffee.\nFill the chamber below with hot water up to the valve and replace the filter basket over the top. Screw the brewing chamber on and you are ready to make some espresso.\nPlace the mocha pot directly on a stovetop or induction burner on medium to high heat. In 1-2 minutes the pressure and heat should build up in the chamber below and press its way up through the coffee, which will brew a single shot of espresso.\nWhile it does not have the distinctive crema floating over the coffee, the mocha pot is the least expensive and most accessible way to make a cup of espresso at home.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Espresso Beans", 
+        "Espresso beans"
+      ], 
+      [
+        null, 
+        null, 
+        "Water", 
+        "Water"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/espressodrinks", 
+      "episode_id": "espressodrinks", 
+      "name": "ESPRESSO DRINKS", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/espressodrinks", 
+      "image_link": "https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/559", 
+    "recipe_id": 559, 
+    "name": "Espresso Romano", 
+    "image_link": "", 
+    "raw_ingredient_list": "Lemon\nEspresso\nSugar", 
+    "raw_procedure": "Take your pre-made shot of espresso served with a little squeeze of lemon and a lemon wedge. This significantly increases the acidity of the coffee, so add a \u00bd tsp of sugar if needed.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Lemon", 
+        "Lemon"
+      ], 
+      [
+        null, 
+        null, 
+        "Espresso", 
+        "Espresso"
+      ], 
+      [
+        null, 
+        null, 
+        "Sugar", 
+        "Sugar"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/espressodrinks", 
+      "episode_id": "espressodrinks", 
+      "name": "ESPRESSO DRINKS", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/espressodrinks", 
+      "image_link": "https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/569", 
+    "recipe_id": 569, 
+    "name": "Espresso - The Flair", 
+    "image_link": "", 
+    "raw_ingredient_list": "Espresso beans\nWater", 
+    "raw_procedure": "This method uses a great illustration of how espresso is made with heat and pressure. In addition, it is a great example of how important grind size is and why you cannot use a blade grinder instead of a conical bur.\nThe grinds need to be consistent and a very specific size. If the grind is too coarse, all the extra space between the grinds lets the water pass through too quickly, which will leave you with a semi-strong cup of coffee instead of espresso.\nGrind the coffee a little finer, but not too fine. If there is too little space between the grinds makes it almost impossible to press the coffee through and you\u2019ll most likely break your machine before pulling a single decent shot. It will have the crema you are looking for, but not quite enough coffee.\nThis will be a matter of trial and error until you find the sweet spot. For Babish\u2019s favorite method, take 16g of coffee that is ground between levels one and 1 and 2 on your grinder and tamped with about 20lbs of force.\nFill up the cylinder with 60mL of 200 degree Fahrenheit water and extract with about 35lbs of force.\nFor knowing how much pressure you are putting on the machine, you can use a bathroom scale. Press down on it without putting your entire body weight on it and the extraction should take about 35 seconds.\nA good espresso shot will separate into three parts with a thick creamy crema on top, a  mysterious dark orange body below that that slowly disappears into the crema, and finally, the deep chocolate-y brown coffee underneath it all.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Espresso Beans", 
+        "Espresso beans"
+      ], 
+      [
+        null, 
+        null, 
+        "Water", 
+        "Water"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/espressodrinks", 
+      "episode_id": "espressodrinks", 
+      "name": "ESPRESSO DRINKS", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/espressodrinks", 
+      "image_link": "https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/19", 
     "recipe_id": 19, 
     "name": "Everything Seasoning", 
@@ -16606,6 +17147,56 @@
       "youtube_link": "https://www.youtube.com/watch?v=kDdUdvNQndo", 
       "official_link": "https://basicswithbabish.co/basicsepisodes/brownies", 
       "image_link": "https://img.youtube.com/vi/kDdUdvNQndo/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/570", 
+    "recipe_id": 570, 
+    "name": "Frothed Milk - Automatic Milk Frother", 
+    "image_link": "", 
+    "raw_ingredient_list": "Milk", 
+    "raw_procedure": "Add milk, hit the button, and in a few minutes, you will have some nice and hot foamy milk.\nThe machine produces a lot of foam and not that much steamed milk. This is great for some drinks like cappuccinos, but not great for others.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Milk", 
+        "Milk"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/espressodrinks", 
+      "episode_id": "espressodrinks", 
+      "name": "ESPRESSO DRINKS", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/espressodrinks", 
+      "image_link": "https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/572", 
+    "recipe_id": 572, 
+    "name": "Frothed Milk - French Press", 
+    "image_link": "", 
+    "raw_ingredient_list": "Milk", 
+    "raw_procedure": "Heat up the milk to 145 degrees Fahrenheit and pour directly into your french press. Froth the milk using the metal filter by jamming it up and down a few times. This will produce steamed milk and foam that much more closely resembles what you would get with a steam wand than most other at home solutions.\nSwirl the milk, tap it on the counter, and let it rest for about 30 seconds. This will get rid of any larger bubbles and makes the foam nice and glossy.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Milk", 
+        "Milk"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/espressodrinks", 
+      "episode_id": "espressodrinks", 
+      "name": "ESPRESSO DRINKS", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/espressodrinks", 
+      "image_link": "https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg"
     }
   }, 
   {
@@ -20116,6 +20707,43 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/562", 
+    "recipe_id": 562, 
+    "name": "Latte", 
+    "image_link": "", 
+    "raw_ingredient_list": "Espresso\nSteamed milk\nFoam (small layer)", 
+    "raw_procedure": "Similar to the cappuccino, pour from up high to allow the steamed milk to mix with the coffee and then move closer while you get to the foam, which allows it to settle on top. The foam should be very light and creamy and not too bubbly and frothy. There is a much less defined layer than with the cappuccino.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Espresso", 
+        "Espresso"
+      ], 
+      [
+        null, 
+        null, 
+        "Steamed Milk", 
+        "Steamed milk"
+      ], 
+      [
+        null, 
+        null, 
+        "Foam", 
+        "Foam (small layer)"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/espressodrinks", 
+      "episode_id": "espressodrinks", 
+      "name": "ESPRESSO DRINKS", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/espressodrinks", 
+      "image_link": "https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/421", 
     "recipe_id": 421, 
     "name": "Lemon Cakes", 
@@ -20666,6 +21294,37 @@
       "youtube_link": "https://www.youtube.com/watch?v=wjoeVwJTUTA", 
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/garbageplate", 
       "image_link": "https://img.youtube.com/vi/wjoeVwJTUTA/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/565", 
+    "recipe_id": 565, 
+    "name": "Macchiato", 
+    "image_link": "", 
+    "raw_ingredient_list": "Espresso (double shot)\nFoam", 
+    "raw_procedure": "This is a double shot of espresso with a big dot of foam on top.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Espresso", 
+        "Espresso (double shot)"
+      ], 
+      [
+        null, 
+        null, 
+        "Foam", 
+        "Foam"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/espressodrinks", 
+      "episode_id": "espressodrinks", 
+      "name": "ESPRESSO DRINKS", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/espressodrinks", 
+      "image_link": "https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg"
     }
   }, 
   {
@@ -21645,6 +22304,43 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/563", 
+    "recipe_id": 563, 
+    "name": "Mocha", 
+    "image_link": "", 
+    "raw_ingredient_list": "Espresso (double shot)\nSteamed milk\nChocolate sauce", 
+    "raw_procedure": "Start with a double shot of espresso and add to it an equal amount of chocolate sauce. This is a similar deal to the latte with a whole lot of steamed milk and a little bit of foam. Top the drink off with some whipped cream, cocoa powder, chocolate drizzle, a cinnamon stick if desired.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Espresso", 
+        "Espresso (double shot)"
+      ], 
+      [
+        null, 
+        null, 
+        "Steamed Milk", 
+        "Steamed milk"
+      ], 
+      [
+        null, 
+        null, 
+        "Chocolate Sauce", 
+        "Chocolate sauce"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/espressodrinks", 
+      "episode_id": "espressodrinks", 
+      "name": "ESPRESSO DRINKS", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/espressodrinks", 
+      "image_link": "https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/305", 
     "recipe_id": 305, 
     "name": "Mojito", 
@@ -22276,6 +22972,67 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/577", 
+    "recipe_id": 577, 
+    "name": "Mushroom and Gruyere Cr\u00eapes", 
+    "image_link": "", 
+    "raw_ingredient_list": "5-6 oz mushrooms\n\u00bc small Spanish onion, diced\n1 single garlic clove\n1 Tbsp butter\nDry sherry or cognac\nGruyere cheese\nFreshly picked thyme", 
+    "raw_procedure": "Finely chop up \u00bc of a small Spanish onion as well as 1 single clove of garlic.\nOn the stovetop, coat a pan with 1 tablespoon of butter and let melt over medium heat. Then, add the onion and mushrooms and let them saut\u00e9 for 5-7 minutes. Toss occasionally and add salt to draw any excess moisture out of the mushrooms and cook until brown and soft.\nAdd the garlic and saut\u00e9 for an additional 30 seconds. Season with freshly ground pepper and optionally flambe with a bit of dry sherry or cognac.\nFor making the actual cr\u00eapes, follow either the classic cr\u00eape recipe or the buckwheat cr\u00eape recipe, which are both listed above.\nTop off your cr\u00eape with a generous amount of grated Gruyere cheese as well as your mushroom mixture. Fold the cr\u00eape and roll it up like a flat wide open-ended burrito.\nGrate a little bit of extra cheese on top and garnish with freshly picked thyme.", 
+    "ingredient_list": [
+      [
+        "5-6", 
+        "ounce", 
+        "Mushrooms", 
+        "5-6 oz mushrooms"
+      ], 
+      [
+        0.25, 
+        "small", 
+        "Spanish Onion", 
+        "\u00bc small Spanish onion, diced"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Single Garlic Clove", 
+        "1 single garlic clove"
+      ], 
+      [
+        1.0, 
+        "tablespoon", 
+        "Butter", 
+        "1 Tbsp butter"
+      ], 
+      [
+        null, 
+        null, 
+        "Dry Sherry Or Cognac", 
+        "Dry sherry or cognac"
+      ], 
+      [
+        null, 
+        null, 
+        "Gruyere Cheese", 
+        "Gruyere cheese"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Picked Thyme", 
+        "Freshly picked thyme"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/crepessuzette", 
+      "episode_id": "crepessuzette", 
+      "name": "Cr\u00eapes Suzette inspired by Talladega Nights", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=Z1kR6SIr1XA", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/crepessuzette", 
+      "image_link": "https://img.youtube.com/vi/Z1kR6SIr1XA/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/392", 
     "recipe_id": 392, 
     "name": "Mushroom Duxelles", 
@@ -22615,6 +23372,49 @@
       "youtube_link": "https://www.youtube.com/watch?v=Jizr6LR83Kk", 
       "official_link": "https://basicswithbabish.co/basicsepisodes/bread", 
       "image_link": "https://img.youtube.com/vi/Jizr6LR83Kk/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/578", 
+    "recipe_id": 578, 
+    "name": "Nutella and Strawberry Cr\u00eapes", 
+    "image_link": "", 
+    "raw_ingredient_list": "Strawberries\nNutella\nWhipped cream\nChocolate syrup", 
+    "raw_procedure": "For making the actual cr\u00eapes, follow either the classic cr\u00eape recipe or the buckwheat cr\u00eape recipe, which are both listed above.\nSlice up some fresh strawberries and set aside for later. To the top of your cr\u00eape, add a generous dollop of Nutella and evenly spread it out to the edges.\nAdd the strawberries to the top of the cr\u00eape. Fold the cr\u00eape in half like a quesadilla and then fold in half one more time. Add some whipped cream and chocolate syrup to top everything off.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Strawberries", 
+        "Strawberries"
+      ], 
+      [
+        null, 
+        null, 
+        "Nutella", 
+        "Nutella"
+      ], 
+      [
+        null, 
+        null, 
+        "Whipped Cream", 
+        "Whipped cream"
+      ], 
+      [
+        null, 
+        null, 
+        "Chocolate Syrup", 
+        "Chocolate syrup"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/crepessuzette", 
+      "episode_id": "crepessuzette", 
+      "name": "Cr\u00eapes Suzette inspired by Talladega Nights", 
+      "published_date": "2019-10-24T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=Z1kR6SIr1XA", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/crepessuzette", 
+      "image_link": "https://img.youtube.com/vi/Z1kR6SIr1XA/mqdefault.jpg"
     }
   }, 
   {
