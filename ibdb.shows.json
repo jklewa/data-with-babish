@@ -6,6 +6,78 @@
     "image_link": null, 
     "episodes": [
       {
+        "self": "http://localhost:5000/episode/beer-steamed-chili-dogs", 
+        "episode_id": "beer-steamed-chili-dogs", 
+        "name": "Chili Dogs inspired by The Irishman", 
+        "published_date": "2019-12-17T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=c0A1bkF4mKM", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/beer-steamed-chili-dogs", 
+        "image_link": "https://img.youtube.com/vi/c0A1bkF4mKM/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/bone-broth", 
+        "episode_id": "bone-broth", 
+        "name": "Bone Broth inspired by The Mandalorian", 
+        "published_date": "2019-12-11T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=6GHwG1y-NE0", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/bone-broth", 
+        "image_link": "https://img.youtube.com/vi/6GHwG1y-NE0/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/ossobuco", 
+        "episode_id": "ossobuco", 
+        "name": "Osso Buco inspired by The Office", 
+        "published_date": "2019-12-04T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=Jr9Is6NsFck", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/ossobuco", 
+        "image_link": "https://img.youtube.com/vi/Jr9Is6NsFck/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/turturkeykey", 
+        "episode_id": "turturkeykey", 
+        "name": "Turturkeykey inspired by How I Met Your Mother", 
+        "published_date": "2019-11-26T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=FWQKc6idm64", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/turturkeykey", 
+        "image_link": "https://img.youtube.com/vi/FWQKc6idm64/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/seinfeldcalzone-z38zn", 
+        "episode_id": "seinfeldcalzone-z38zn", 
+        "name": "Calzones inspired by Seinfeld", 
+        "published_date": "2019-11-22T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=zWuWrdaYMlY", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/seinfeldcalzone-z38zn", 
+        "image_link": "https://img.youtube.com/vi/zWuWrdaYMlY/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/tiramisu", 
+        "episode_id": "tiramisu", 
+        "name": "Tiramisu inspired by Superbad", 
+        "published_date": "2019-11-12T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=J719grjgS-I", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/tiramisu", 
+        "image_link": "https://img.youtube.com/vi/J719grjgS-I/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/nachos", 
+        "episode_id": "nachos", 
+        "name": "Nachos inspired by The Good Place (plus Naco Redemption)", 
+        "published_date": "2019-11-07T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=LgzudBvmd08", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/nachos", 
+        "image_link": "https://img.youtube.com/vi/LgzudBvmd08/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/mirages-pork-chops", 
+        "episode_id": "mirages-pork-chops", 
+        "name": "Mirage's Pork Chops inspired by Apex Legends", 
+        "published_date": "2019-10-31T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=SZcUJuXjCsw", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/mirages-pork-chops", 
+        "image_link": "https://img.youtube.com/vi/SZcUJuXjCsw/mqdefault.jpg"
+      }, 
+      {
         "self": "http://localhost:5000/episode/crepessuzette", 
         "episode_id": "crepessuzette", 
         "name": "Cr\u00eapes Suzette inspired by Talladega Nights", 
@@ -1498,6 +1570,51 @@
     "name": "Basics with Babish", 
     "image_link": null, 
     "episodes": [
+      {
+        "self": "http://localhost:5000/episode/porchetta", 
+        "episode_id": "porchetta", 
+        "name": "PORCHETTA", 
+        "published_date": "2019-12-19T00:00:00+00:00", 
+        "youtube_link": "", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/porchetta", 
+        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5dfbec45b4462c0f7dfb791a/1576793001560/INSTA.jpeg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/cornbread", 
+        "episode_id": "cornbread", 
+        "name": "CORNBREAD", 
+        "published_date": "2019-12-12T00:00:00+00:00", 
+        "youtube_link": "", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/cornbread", 
+        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5de93b7e864be248174b8bf2/1576793099334/Screen+Shot+2019-12-05+at+10.45.40+AM+%282%29.png"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/thanksgivingleftovers", 
+        "episode_id": "thanksgivingleftovers", 
+        "name": "THANKSGIVING LEFTOVERS", 
+        "published_date": "2019-11-28T00:00:00+00:00", 
+        "youtube_link": "", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/thanksgivingleftovers", 
+        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5ddd7a23238a18316c528df2/1575584577512/Thanksgiving+Leftovers_v1_1.png"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/healthymeals2", 
+        "episode_id": "healthymeals2", 
+        "name": "HEALTHIER VERSIONS OF UNHEALTHY FOOD", 
+        "published_date": "2019-11-14T00:00:00+00:00", 
+        "youtube_link": "", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/healthymeals2", 
+        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5dcda60abc3504519f276f70/1575584541302/Screen+Shot+2019-11-14+at+1.06.35+PM.png"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/pies", 
+        "episode_id": "pies", 
+        "name": "PIES", 
+        "published_date": "2019-10-31T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=i7648rZpdck", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/pies", 
+        "image_link": "https://img.youtube.com/vi/i7648rZpdck/mqdefault.jpg"
+      }, 
       {
         "self": "http://localhost:5000/episode/espressodrinks", 
         "episode_id": "espressodrinks", 

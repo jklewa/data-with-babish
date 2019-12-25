@@ -127,6 +127,26 @@
     ]
   }, 
   {
+    "self": "http://localhost:5000/reference/138", 
+    "reference_id": 138, 
+    "type": "video_game", 
+    "name": "Apex Legends", 
+    "description": "A battle Royale set in the Titanfall universe, focusing on hero and team based combat.", 
+    "external_link": "https://www.imdb.com/title/tt9730966/", 
+    "image_link": "https://yt3.ggpht.com/a/AGF-l786BLMhktKs-Fp6sombx-HCMmRCb1Ei-6dCZw=s288-c-k-c0xffffffff-no-rj-mo", 
+    "episodes_inspired": [
+      {
+        "self": "http://localhost:5000/episode/mirages-pork-chops", 
+        "episode_id": "mirages-pork-chops", 
+        "name": "Mirage's Pork Chops inspired by Apex Legends", 
+        "published_date": "2019-10-31T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=SZcUJuXjCsw", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/mirages-pork-chops", 
+        "image_link": "https://img.youtube.com/vi/SZcUJuXjCsw/mqdefault.jpg"
+      }
+    ]
+  }, 
+  {
     "self": "http://localhost:5000/reference/131", 
     "reference_id": 131, 
     "type": "movie", 
@@ -1147,6 +1167,15 @@
     "image_link": "https://i.ytimg.com/sh/nS5ZZknwMNMvpBoMbhVkHQ/market.jpg", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/turturkeykey", 
+        "episode_id": "turturkeykey", 
+        "name": "Turturkeykey inspired by How I Met Your Mother", 
+        "published_date": "2019-11-26T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=FWQKc6idm64", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/turturkeykey", 
+        "image_link": "https://img.youtube.com/vi/FWQKc6idm64/mqdefault.jpg"
+      }, 
+      {
         "self": "http://localhost:5000/episode/sumbitches", 
         "episode_id": "sumbitches", 
         "name": "Sumbitches and Peanut Butter Cookies inspired by How I Met Your Mother", 
@@ -2144,6 +2173,15 @@
     "image_link": "https://i.ytimg.com/sh/jFHEp6oZxSb5mUWzTVlzDQ/market.jpg", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/seinfeldcalzone-z38zn", 
+        "episode_id": "seinfeldcalzone-z38zn", 
+        "name": "Calzones inspired by Seinfeld", 
+        "published_date": "2019-11-22T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=zWuWrdaYMlY", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/seinfeldcalzone-z38zn", 
+        "image_link": "https://img.youtube.com/vi/zWuWrdaYMlY/mqdefault.jpg"
+      }, 
+      {
         "self": "http://localhost:5000/episode/seinfeldspecial2", 
         "episode_id": "seinfeldspecial2", 
         "name": "Seinfeld Volume II", 
@@ -2363,6 +2401,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=L1kgO1I9NvQ", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/tripledeckereggo", 
         "image_link": "https://img.youtube.com/vi/L1kgO1I9NvQ/mqdefault.jpg"
+      }
+    ]
+  }, 
+  {
+    "self": "http://localhost:5000/reference/139", 
+    "reference_id": 139, 
+    "type": "movie", 
+    "name": "Superbad", 
+    "description": "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.", 
+    "external_link": "https://www.imdb.com/title/tt0829482/", 
+    "image_link": "https://img.youtube.com/vi/4qnGIr3dvHk/mqdefault.jpg", 
+    "episodes_inspired": [
+      {
+        "self": "http://localhost:5000/episode/tiramisu", 
+        "episode_id": "tiramisu", 
+        "name": "Tiramisu inspired by Superbad", 
+        "published_date": "2019-11-12T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=J719grjgS-I", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/tiramisu", 
+        "image_link": "https://img.youtube.com/vi/J719grjgS-I/mqdefault.jpg"
       }
     ]
   }, 
@@ -2616,6 +2674,15 @@
     "image_link": "https://i.ytimg.com/sh/cPYWudB6IMGItbGzBsO5mA/market.jpg", 
     "episodes_inspired": [
       {
+        "self": "http://localhost:5000/episode/nachos", 
+        "episode_id": "nachos", 
+        "name": "Nachos inspired by The Good Place (plus Naco Redemption)", 
+        "published_date": "2019-11-07T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=LgzudBvmd08", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/nachos", 
+        "image_link": "https://img.youtube.com/vi/LgzudBvmd08/mqdefault.jpg"
+      }, 
+      {
         "self": "http://localhost:5000/episode/thegoodplace", 
         "episode_id": "thegoodplace", 
         "name": "The Good Place Special", 
@@ -2623,6 +2690,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=f428glyXdY4", 
         "official_link": "https://www.bingingwithbabish.com/recipes/thegoodplace", 
         "image_link": "https://img.youtube.com/vi/f428glyXdY4/mqdefault.jpg"
+      }
+    ]
+  }, 
+  {
+    "self": "http://localhost:5000/reference/141", 
+    "reference_id": 141, 
+    "type": "movie", 
+    "name": "The Irishman", 
+    "description": "A mob hitman recalls his possible involvement with the slaying of Jimmy Hoffa. IMBb.", 
+    "external_link": "https://www.imdb.com/title/tt1302006/", 
+    "image_link": "https://img.youtube.com/vi/WHXxVmeGQUc/mqdefault.jpg", 
+    "episodes_inspired": [
+      {
+        "self": "http://localhost:5000/episode/beer-steamed-chili-dogs", 
+        "episode_id": "beer-steamed-chili-dogs", 
+        "name": "Chili Dogs inspired by The Irishman", 
+        "published_date": "2019-12-17T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=c0A1bkF4mKM", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/beer-steamed-chili-dogs", 
+        "image_link": "https://img.youtube.com/vi/c0A1bkF4mKM/mqdefault.jpg"
       }
     ]
   }, 
@@ -2643,6 +2730,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=VgtpaBOkvrA", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/01/zelda-monster-cake", 
         "image_link": "https://img.youtube.com/vi/VgtpaBOkvrA/mqdefault.jpg"
+      }
+    ]
+  }, 
+  {
+    "self": "http://localhost:5000/reference/140", 
+    "reference_id": 140, 
+    "type": "tv_show", 
+    "name": "The Mandalorian", 
+    "description": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic. IMBb.", 
+    "external_link": "https://www.imdb.com/title/tt8111088/", 
+    "image_link": "https://img.youtube.com/vi/aOC8E8z_ifw/mqdefault.jpg", 
+    "episodes_inspired": [
+      {
+        "self": "http://localhost:5000/episode/bone-broth", 
+        "episode_id": "bone-broth", 
+        "name": "Bone Broth inspired by The Mandalorian", 
+        "published_date": "2019-12-11T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=6GHwG1y-NE0", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/bone-broth", 
+        "image_link": "https://img.youtube.com/vi/6GHwG1y-NE0/mqdefault.jpg"
       }
     ]
   }, 
@@ -2695,6 +2802,15 @@
     "external_link": "https://www.imdb.com/title/tt0386676/", 
     "image_link": "https://i.ytimg.com/sh/VCVm3mKpo1XgvNdO5ruXXQ/market.jpg", 
     "episodes_inspired": [
+      {
+        "self": "http://localhost:5000/episode/ossobuco", 
+        "episode_id": "ossobuco", 
+        "name": "Osso Buco inspired by The Office", 
+        "published_date": "2019-12-04T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=Jr9Is6NsFck", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/ossobuco", 
+        "image_link": "https://img.youtube.com/vi/Jr9Is6NsFck/mqdefault.jpg"
+      }, 
       {
         "self": "http://localhost:5000/episode/michaelscottpretzel", 
         "episode_id": "michaelscottpretzel", 

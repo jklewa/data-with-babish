@@ -258,6 +258,200 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/583", 
+    "recipe_id": 583, 
+    "name": "Apple Pie", 
+    "image_link": "", 
+    "raw_ingredient_list": "3 pounds Honey Crisp or Granny Smith apples\nLemon juice\n\u00be cup sugar\n2-3 Tbsp all-purpose flour\nLemon zest\nKosher salt\n\u00bd tsp freshly grated nutmeg\n\u00bd tsp ground ginger\n1 tsp cinnamon\nAllspice\nGround cloves", 
+    "raw_procedure": "Start out by following the instructions above for the double homemade pie crust.\nPeel your apples and cut the apple flesh off of the core and slice into half-inch pieces. Then, place the apples into a large bowl and toss them with a little squeeze of lemon juice to prevent the apples from turning brown.\nIn a bowl, combine \u00be cup of sugar, 2 to 3 tablespoons of all-purpose flour, lemon zest, a pinch of kosher salt, \u00bd teaspoon of freshly grated nutmeg, \u00bd teaspoon of ground ginger, 1 teaspoon of cinnamon, and a little sprinkling of both allspice and ground cloves.\nUse a tiny whisk and whisk together separately from the apples before pouring the mixture on top of the apples and tossing.Make sure that all of the apples are evenly coated in the mixture. Fill the pre-made pie crust (instructions above) with the apple filling.\nFor a double-crusted apple pie, follow steps 5 through 15 under the pie crust recipe listed above.", 
+    "ingredient_list": [
+      [
+        3.0, 
+        "pound", 
+        "Honey Crisp Or Granny Smith Apples", 
+        "3 pounds Honey Crisp or Granny Smith apples"
+      ], 
+      [
+        null, 
+        null, 
+        "Lemon Juice", 
+        "Lemon juice"
+      ], 
+      [
+        0.75, 
+        "cup", 
+        "Sugar", 
+        "\u00be cup sugar"
+      ], 
+      [
+        "2-3", 
+        "tablespoon", 
+        "All-purpose Flour", 
+        "2-3 Tbsp all-purpose flour"
+      ], 
+      [
+        null, 
+        null, 
+        "Lemon Zest", 
+        "Lemon zest"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Freshly Grated Nutmeg", 
+        "\u00bd tsp freshly grated nutmeg"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Ground Ginger", 
+        "\u00bd tsp ground ginger"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Cinnamon", 
+        "1 tsp cinnamon"
+      ], 
+      [
+        null, 
+        null, 
+        "Allspice", 
+        "Allspice"
+      ], 
+      [
+        null, 
+        null, 
+        "Ground Cloves", 
+        "Ground cloves"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/pies", 
+      "episode_id": "pies", 
+      "name": "PIES", 
+      "published_date": "2019-10-31T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=i7648rZpdck", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/pies", 
+      "image_link": "https://img.youtube.com/vi/i7648rZpdck/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/584", 
+    "recipe_id": 584, 
+    "name": "Apple Pie", 
+    "image_link": "", 
+    "raw_ingredient_list": "\u00bd cup ogranulated sugar\n\u00bd cup light brown sugar\n1 tbsp flour\n\u00bd tsp ground ginger\n\u00bd tsp ground allspice\n\u00bd tsp freshly grated nutmeg\n1 tsp cinnamon\n1 can pumpkin puree\n3 eggs\n1 cup heavy whipping cream\nCloves\nKosher salt\nFreshly ground pepper\nMaple syrup\nWhipped cream", 
+    "raw_procedure": "Into a large bowl, combine \u00bd a cup of granulated sugar, \u00bd cup of light brown sugar, 1 tablespoon of flour, a pinch of kosher salt, \u00bd teaspoon of ground ginger, \u00bd teaspoon of ground allspice, \u00bd teaspoon of freshly grated nutmeg, a little sprinkling of cloves, 1 teaspoon of cinnamon, and a few twists of freshly ground pepper.\nIn a separate bowl, whisk together 1 can of pumpkin puree to the mix along with 3 eggs and 1 cup of heavy whipping cream.\nNext, add your premade pumpkin pie spice and mix together. For taste, add a little glug of maple syrup.\nPour the mixture into the standard pie crust and place into a 400\u00b0F oven for 45 to 55 minutes. To prevent from burning, take the pie out of the oven at 25 minutes and wrap the edges of the crust in a thin strip of aluminum foil.\nAnother 20 minutes later, the pie should be perfectly brown. To prevent the pie from cracking, take the pie out of the oven when the filling is only set around the outside two inches. The center should still be wobbly. Let it cool before digging in. Add a little bit of whipped cream to the top of the pie and enjoy!", 
+    "ingredient_list": [
+      [
+        0.5, 
+        "cup", 
+        "Ogranulated Sugar", 
+        "\u00bd cup ogranulated sugar"
+      ], 
+      [
+        0.5, 
+        "cup", 
+        "Light Brown Sugar", 
+        "\u00bd cup light brown sugar"
+      ], 
+      [
+        1.0, 
+        "tbsp", 
+        "Flour", 
+        "1 tbsp flour"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Ground Ginger", 
+        "\u00bd tsp ground ginger"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Ground Allspice", 
+        "\u00bd tsp ground allspice"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Freshly Grated Nutmeg", 
+        "\u00bd tsp freshly grated nutmeg"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Cinnamon", 
+        "1 tsp cinnamon"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Can Pumpkin Puree", 
+        "1 can pumpkin puree"
+      ], 
+      [
+        3.0, 
+        null, 
+        "Eggs", 
+        "3 eggs"
+      ], 
+      [
+        1.0, 
+        "cup", 
+        "Heavy Whipping Cream", 
+        "1 cup heavy whipping cream"
+      ], 
+      [
+        null, 
+        null, 
+        "Cloves", 
+        "Cloves"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Pepper", 
+        "Freshly ground pepper"
+      ], 
+      [
+        null, 
+        null, 
+        "Maple Syrup", 
+        "Maple syrup"
+      ], 
+      [
+        null, 
+        null, 
+        "Whipped Cream", 
+        "Whipped cream"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/pies", 
+      "episode_id": "pies", 
+      "name": "PIES", 
+      "published_date": "2019-10-31T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=i7648rZpdck", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/pies", 
+      "image_link": "https://img.youtube.com/vi/i7648rZpdck/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/503", 
     "recipe_id": 503, 
     "name": "Apple Pie Filling", 
@@ -2791,6 +2985,109 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/621", 
+    "recipe_id": 621, 
+    "name": "Beer Steamed Chili Dog", 
+    "image_link": "", 
+    "raw_ingredient_list": "Hot dog (recipe above)\nBeer (lager or something similar)\nChili (recipe above)\nHot dog buns (recipe above)\n1 yellow onion, diced\n4 cloves garlic, minced\n1 Tbsp salt\n1 28-ounce can crushed tomatoes\n2 Tbsp chili powder\n1 Tbsp cumin\n\u00bd Tbsp brown sugar\n1 cup beef broth\n1 can kidney beans, drained and rinsed (optional)\n1 drop Tough Sauce (optional)", 
+    "raw_procedure": "Add your hot dogs to a hot cast iron skillet. Lightly pour beer over the hot dogs, and cook until desired temperature is reached and hot dogs have a nice color.\nAdd hot dogs to hot dog bun, and top with a generous serving of chili.\nServe and enjoy!", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Dog", 
+        "Hot dog (recipe above)"
+      ], 
+      [
+        null, 
+        null, 
+        "Beer", 
+        "Beer (lager or something similar)"
+      ], 
+      [
+        null, 
+        null, 
+        "Chili", 
+        "Chili (recipe above)"
+      ], 
+      [
+        null, 
+        null, 
+        "Dog Buns", 
+        "Hot dog buns (recipe above)"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Yellow Onion", 
+        "1 yellow onion, diced"
+      ], 
+      [
+        4.0, 
+        null, 
+        "Cloves Garlic", 
+        "4 cloves garlic, minced"
+      ], 
+      [
+        1.0, 
+        "tablespoon", 
+        "Salt", 
+        "1 Tbsp salt"
+      ], 
+      [
+        "1 28-", 
+        "ounce", 
+        "Can Crushed Tomatoes", 
+        "1 28-ounce can crushed tomatoes"
+      ], 
+      [
+        2.0, 
+        "tablespoon", 
+        "Chili Powder", 
+        "2 Tbsp chili powder"
+      ], 
+      [
+        1.0, 
+        "tablespoon", 
+        "Cumin", 
+        "1 Tbsp cumin"
+      ], 
+      [
+        0.5, 
+        "tablespoon", 
+        "Brown Sugar", 
+        "\u00bd Tbsp brown sugar"
+      ], 
+      [
+        1.0, 
+        "cup", 
+        "Beef Broth", 
+        "1 cup beef broth"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Can Kidney Beans", 
+        "1 can kidney beans, drained and rinsed (optional)"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Drop Tough Sauce", 
+        "1 drop Tough Sauce (optional)"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/beer-steamed-chili-dogs", 
+      "episode_id": "beer-steamed-chili-dogs", 
+      "name": "Chili Dogs inspired by The Irishman", 
+      "published_date": "2019-12-17T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=c0A1bkF4mKM", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/beer-steamed-chili-dogs", 
+      "image_link": "https://img.youtube.com/vi/c0A1bkF4mKM/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/232", 
     "recipe_id": 232, 
     "name": "Beignets", 
@@ -3517,6 +3814,49 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/585", 
+    "recipe_id": 585, 
+    "name": "Blueberry Pie", 
+    "image_link": "", 
+    "raw_ingredient_list": "Fresh or frozen blueberries\n\u00bd cup sugar\n\u00bc cup corn starch\nLemon zest", 
+    "raw_procedure": "In a small bowl, whisk together \u00bd cup of sugar, \u00bc cup of corn starch, and the zest of one lemon. Combine this mixture with the bowl of blueberries and toss accordingly.\nAdd the blueberry mixture to your standard pie crust.\nFollow the steps for the lattice pie crust above.\nBake at 400\u00b0F for 30 to 45 minutes until deeply golden brown. Allow to cool for at least four hours before digging in.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Fresh Or Frozen Blueberries", 
+        "Fresh or frozen blueberries"
+      ], 
+      [
+        0.5, 
+        "cup", 
+        "Sugar", 
+        "\u00bd cup sugar"
+      ], 
+      [
+        0.25, 
+        "cup", 
+        "Corn Starch", 
+        "\u00bc cup corn starch"
+      ], 
+      [
+        null, 
+        null, 
+        "Lemon Zest", 
+        "Lemon zest"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/pies", 
+      "episode_id": "pies", 
+      "name": "PIES", 
+      "published_date": "2019-10-31T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=i7648rZpdck", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/pies", 
+      "image_link": "https://img.youtube.com/vi/i7648rZpdck/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/25", 
     "recipe_id": 25, 
     "name": "Blue Cheese Dressing", 
@@ -3824,6 +4164,170 @@
       "youtube_link": "https://www.youtube.com/watch?v=6HBPHRDEt_Q", 
       "official_link": "https://www.bingingwithbabish.com/recipes/forrestgumpshrimp", 
       "image_link": "https://img.youtube.com/vi/6HBPHRDEt_Q/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/615", 
+    "recipe_id": 615, 
+    "name": "Bone Broth - Pressure Cooker", 
+    "image_link": "", 
+    "raw_ingredient_list": "5 lbs beef bones\n1 large yellow onion\n4 carrots\n1 stalk of celery\n1 leek\n1 bunch parsley\n\u00bd head garlic\n2 Tbsp black peppercorns\n2 dried bay leaves\n1 Tbsp apple cider vinegar\n5-6 chicken feet", 
+    "raw_procedure": "Clean all of the bone marrow out of the bones that you can. Marrow usually gives the broth a metallic taste when marrow is left in.\nArrange the bones across some racks set in rimmed baking sheets.\nDrizzle with a little oil to assist with browning then roast the bones in a 400\u00b0F oven for 40 minutes to 1 hour, or until the bones are deeply browned and haven\u2019t given up much of their fat.\nPrep the veggies: quarter 1 whole onion, peel 4 carrots and cut them in half, and cut the stalk of celery in half. Lastly, thoroughly wash and trim the leeks so they fit in the pot.\nIn one big pot (as narrow and tall as you have), place the vegetables and bones in along with half a head of garlic, 2 Tbsp of peppercorns, and 2 dried bay leaves.\nTrim the claws off of 5-6 chicken feet - this helps with adding fat and gelatin to the broth.\nFill pressure cooker with water to the max capacity with 1 Tbsp of apple cider vinegar.\nSet to high pressure for 60 minutes - but you can go as long as 4 hours. Let the pressure release naturally.\nRemove all the solid ingredients and strain (preferably through a cheesecloth).\nPortion the broth into jars. Rapidly chill them in an ice bath and then refrigerate.", 
+    "ingredient_list": [
+      [
+        5.0, 
+        "lb", 
+        "Beef Bones", 
+        "5 lbs beef bones"
+      ], 
+      [
+        1.0, 
+        "large", 
+        "Yellow Onion", 
+        "1 large yellow onion"
+      ], 
+      [
+        4.0, 
+        null, 
+        "Carrots", 
+        "4 carrots"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Celery", 
+        "1 stalk of celery"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Leek", 
+        "1 leek"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Bunch Parsley", 
+        "1 bunch parsley"
+      ], 
+      [
+        0.5, 
+        null, 
+        "Head Garlic", 
+        "\u00bd head garlic"
+      ], 
+      [
+        2.0, 
+        "tablespoon", 
+        "Black Peppercorns", 
+        "2 Tbsp black peppercorns"
+      ], 
+      [
+        2.0, 
+        null, 
+        "Dried Bay Leaves", 
+        "2 dried bay leaves"
+      ], 
+      [
+        1.0, 
+        "tablespoon", 
+        "Apple Cider Vinegar", 
+        "1 Tbsp apple cider vinegar"
+      ], 
+      [
+        "5-6", 
+        null, 
+        "Chicken Feet", 
+        "5-6 chicken feet"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/bone-broth", 
+      "episode_id": "bone-broth", 
+      "name": "Bone Broth inspired by The Mandalorian", 
+      "published_date": "2019-12-11T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=6GHwG1y-NE0", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/bone-broth", 
+      "image_link": "https://img.youtube.com/vi/6GHwG1y-NE0/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/614", 
+    "recipe_id": 614, 
+    "name": "Bone Broth - Stovetop", 
+    "image_link": "", 
+    "raw_ingredient_list": "5 lbs beef bones\n1 large yellow onion\n4 carrots\n1 stalk of celery\n1 leek\n1 bunch parsley\n\u00bd head garlic\n2 Tbsp black peppercorns\n2 dried bay leaves\n2 Tbsp apple cider vinegar", 
+    "raw_procedure": "Clean all of the bone marrow out of the bones that you can. Marrow usually gives the broth a metallic taste when marrow is left in.\nArrange the bones across some racks set in rimmed baking sheets.\nDrizzle with a little oil to assist with browning then roast the bones in a 400\u00b0F oven for 40 minutes to 1 hour, or until the bones are deeply browned and haven\u2019t given up much of their fat.\nPrep the veggies: quarter 1 whole onion, peel 4 carrots and cut them in half, and cut the stalk of celery in half. Lastly, thoroughly wash and trim the leeks so they fit in the pot.\nIn one big pot (as narrow and tall as you have), place the vegetables and bones in along with half a head of garlic, 2 Tbsp of peppercorns, and 2 dried bay leaves.\nFill the pot with water and add 2 Tbsp of apple cider vinegar then bring the water/broth to and keep at a bare simmer.\nIn the first hour of cooking, skim any and all scum that floats to the top of the broth.\nStir and then let simmer for 24-48hrs.\nAfter sitting for 24-48hrs, it is time to defat the broth by skimming all of the fat that has formed at the top.\nTake a small sample in a cup and place in the refrigerator for 1 hour to make sure it fully gels.\nFilter through a cheesecloth or coffee filter and enjoy.  You can also freeze it in portions and save for later.", 
+    "ingredient_list": [
+      [
+        5.0, 
+        "lb", 
+        "Beef Bones", 
+        "5 lbs beef bones"
+      ], 
+      [
+        1.0, 
+        "large", 
+        "Yellow Onion", 
+        "1 large yellow onion"
+      ], 
+      [
+        4.0, 
+        null, 
+        "Carrots", 
+        "4 carrots"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Celery", 
+        "1 stalk of celery"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Leek", 
+        "1 leek"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Bunch Parsley", 
+        "1 bunch parsley"
+      ], 
+      [
+        0.5, 
+        null, 
+        "Head Garlic", 
+        "\u00bd head garlic"
+      ], 
+      [
+        2.0, 
+        "tablespoon", 
+        "Black Peppercorns", 
+        "2 Tbsp black peppercorns"
+      ], 
+      [
+        2.0, 
+        null, 
+        "Dried Bay Leaves", 
+        "2 dried bay leaves"
+      ], 
+      [
+        2.0, 
+        "tablespoon", 
+        "Apple Cider Vinegar", 
+        "2 Tbsp apple cider vinegar"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/bone-broth", 
+      "episode_id": "bone-broth", 
+      "name": "Bone Broth inspired by The Mandalorian", 
+      "published_date": "2019-12-11T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=6GHwG1y-NE0", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/bone-broth", 
+      "image_link": "https://img.youtube.com/vi/6GHwG1y-NE0/mqdefault.jpg"
     }
   }, 
   {
@@ -5834,6 +6338,201 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/605", 
+    "recipe_id": 605, 
+    "name": "Calzone", 
+    "image_link": "", 
+    "raw_ingredient_list": "Fresh mozzarella cheese (thinly sliced)\nEggplant\nKosher salt\nFreshly ground pepper\nOlive oil\nRicotta cheese\nPepperoni\nCoarsely ground cornmeal\nFull fat low moisture mozzarella cheese (shredded)", 
+    "raw_procedure": "Slice an eggplant and place the slices on a rack set and rimmed baking sheet and season both sides with some light sprinklings of kosher salt.\nAfter about 30 minutes, you will begin to notice that a brown liquid has materialized on top of the eggplant slices. Use a paper towel to dab the liquid off of both sides of the eggplant slices.\nLine a sheet pan with aluminum foil and place the rack of eggplant slices on top. Season the slices with a little bit of freshly ground black pepper and a few healthy glugs of olive oil for flavor and coloring. Place in a 400\u00b0F oven for 20 to 25 minutes until the slices are nicely browned and soft. Set aside to cool off.\nOnce the eggplant slices are cooled off, chop them into smaller pieces.\nTo your cold fermented dough, add a generous amount of ricotta cheese and spread it out. Make sure to leave a 2 to 3 inch gap on the outside. Then, add some pepperonis as well as your chopped roasted eggplant slices. To top everything off, add some thinly sliced mozzarella cheese.\nFold the dough over while trying to drape instead of stretch. Seal the dough shut and use a pizza cutter to trim off the excess dough. Pinch the edge shut to make sure that it is completely sealed and tuck in the calzone tips to make sure it will fit on the pizza peel.\nDust the pizza peel with ground cornmeal and place the calzone on top and make any last minute adjustments. Make sure that the thicker part of the calzone is facing the hotter part of the oven.\nPlace into the oven (after it has been maxed out and preheating for one hour) between the two pizza stones for 5 to 15 minutes. Once it is finished, immediately slice the calzone in half to prevent the steam from making the crust soggy from the inside out.\nTo reduce the moisture inside of your calzone, line a sieve with four layers of cheesecloth and set into a bowl. Dump in your ricotta cheese, cover the bowl with plastic wrap, and drain overnight. Alternatively, you could weigh everything down with something heavy and let it sit for 20 to 30 minutes. Use shredded full fat low moisture mozzarella cheese, layer the other toppings, and fold using the same method as before. Place into the oven (after it has been maxed out and preheating for one hour) between the two pizza stones for 5 to 15 minutes. Once it is finished, immediately slice the calzone in half to prevent the steam from making the crust soggy from the inside out.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Fresh Mozzarella Cheese", 
+        "Fresh mozzarella cheese (thinly sliced)"
+      ], 
+      [
+        null, 
+        null, 
+        "Eggplant", 
+        "Eggplant"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Pepper", 
+        "Freshly ground pepper"
+      ], 
+      [
+        null, 
+        null, 
+        "Olive Oil", 
+        "Olive oil"
+      ], 
+      [
+        null, 
+        null, 
+        "Ricotta Cheese", 
+        "Ricotta cheese"
+      ], 
+      [
+        null, 
+        null, 
+        "Pepperoni", 
+        "Pepperoni"
+      ], 
+      [
+        null, 
+        null, 
+        "Coarsely Ground Cornmeal", 
+        "Coarsely ground cornmeal"
+      ], 
+      [
+        null, 
+        null, 
+        "Full Fat Low Moisture Mozzarella Cheese", 
+        "Full fat low moisture mozzarella cheese (shredded)"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/seinfeldcalzone-z38zn", 
+      "episode_id": "seinfeldcalzone-z38zn", 
+      "name": "Calzones inspired by Seinfeld", 
+      "published_date": "2019-11-22T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=zWuWrdaYMlY", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/seinfeldcalzone-z38zn", 
+      "image_link": "https://img.youtube.com/vi/zWuWrdaYMlY/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/603", 
+    "recipe_id": 603, 
+    "name": "Calzone Dough", 
+    "image_link": "", 
+    "raw_ingredient_list": "360 ml tepid water\n1 tsp dry yeast\n\u00bd tsp plain white sugar\n600g bread flour\n1 tsp kosher salt\nCoarsely ground cornmeal", 
+    "raw_procedure": "In a maxed-out oven, preheat two pizza stones or one pizza stone and one pizza steel at 550\u00b0F for one hour.\nInto the bowl of a stand mixer, add 360 ml of tepid water, 1 teaspoon of dry yeast, and \u00bd teaspoon of plain white sugar. Let it bloom for 10 minutes before adding 600 grams of bread flour to give the dough a hydration of about 60%. Next, add 1 teaspoon of kosher salt and knead on medium speed for about 5 minutes.\nPre-divide the dough into your desired portions. Since we are making calzones, make sure that you are using a double portion of dough. Then, stretch each divided portion into a taut ball. The rounder and more taut the ball is, the easier everything will be later on. Place each portion of dough into individual well-oiled bowls, cover with plastic wrap, and refrigerate for 3 days.\nFor cold fermented pizza dough, allow your pre-made dough to proof at room temperature for two hours. Start by generously flouring the dough as well as your work surface.\nRoll out the two ends of the dough and leave a sort of mound of unrolled dough in the middle, which you can then rotate and roll from the center. Pass the dough repeatedly over your knuckles until gravity stretches it out to about a 10-inch round.\nPrep your pizza peel by dusting it with a bit of coarsely ground cornmeal, which is going to allow the pizza to slide off into the oven with ease. Take care of any final shaping and stretching.", 
+    "ingredient_list": [
+      [
+        360.0, 
+        "ml", 
+        "Tepid Water", 
+        "360 ml tepid water"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Dry Yeast", 
+        "1 tsp dry yeast"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Plain White Sugar", 
+        "\u00bd tsp plain white sugar"
+      ], 
+      [
+        600.0, 
+        "gram", 
+        "Bread Flour", 
+        "600g bread flour"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Kosher Salt", 
+        "1 tsp kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Coarsely Ground Cornmeal", 
+        "Coarsely ground cornmeal"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/seinfeldcalzone-z38zn", 
+      "episode_id": "seinfeldcalzone-z38zn", 
+      "name": "Calzones inspired by Seinfeld", 
+      "published_date": "2019-11-22T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=zWuWrdaYMlY", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/seinfeldcalzone-z38zn", 
+      "image_link": "https://img.youtube.com/vi/zWuWrdaYMlY/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/604", 
+    "recipe_id": 604, 
+    "name": "Calzone Sauce", 
+    "image_link": "", 
+    "raw_ingredient_list": "1 28-ounce can of San Marzano tomatoes\n\u00bd small onion, chopped\n2 cloves garlic\nDried oregano\nDried basil\nCrushed red pepper flake (Optional)\nKosher salt\nFreshly ground pepper", 
+    "raw_procedure": "Into a blender, add one 28 ounce can of San Marzano tomatoes, \u00bd of a small chopped onion, 2 cloves of garlic, a few sprinkles each of dried oregano, dried basil, and crushed red pepper flake. Hit the mixture with one second pulses until it is relatively smooth. Season with kosher salt and freshly ground pepper.\nIn a saucepan, add your pizza sauce as well as a little splash of water to prevent the sauce from getting too thick. On a stovetop, cook the sauce for about 30 minutes. Set aside for later.", 
+    "ingredient_list": [
+      [
+        "1 28-", 
+        "ounce", 
+        "San Marzano Tomatoes", 
+        "1 28-ounce can of San Marzano tomatoes"
+      ], 
+      [
+        0.5, 
+        "small", 
+        "Onion", 
+        "\u00bd small onion, chopped"
+      ], 
+      [
+        2.0, 
+        null, 
+        "Cloves Garlic", 
+        "2 cloves garlic"
+      ], 
+      [
+        null, 
+        null, 
+        "Dried Oregano", 
+        "Dried oregano"
+      ], 
+      [
+        null, 
+        null, 
+        "Dried Basil", 
+        "Dried basil"
+      ], 
+      [
+        null, 
+        null, 
+        "Crushed Red Pepper Flake", 
+        "Crushed red pepper flake (Optional)"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Pepper", 
+        "Freshly ground pepper"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/seinfeldcalzone-z38zn", 
+      "episode_id": "seinfeldcalzone-z38zn", 
+      "name": "Calzones inspired by Seinfeld", 
+      "published_date": "2019-11-22T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=zWuWrdaYMlY", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/seinfeldcalzone-z38zn", 
+      "image_link": "https://img.youtube.com/vi/zWuWrdaYMlY/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/119", 
     "recipe_id": 119, 
     "name": "Candied Bacon", 
@@ -6963,6 +7662,291 @@
       "youtube_link": "https://www.youtube.com/watch?v=APwwGy4GzK8", 
       "official_link": "https://basicswithbabish.co/basicsepisodes/healthymeals", 
       "image_link": "https://img.youtube.com/vi/APwwGy4GzK8/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/601", 
+    "recipe_id": 601, 
+    "name": "Cauliflower Fried Rice", 
+    "image_link": "", 
+    "raw_ingredient_list": "Cauliflower\nVegetable oil\n1 egg\n6 ounces sliced shiitake mushrooms\nChopped ham\nFrozen edamame\n1 crushed clove of garlic\n3 Tbsp soy sauce\n3 Tbsp oyster sauce\n3 Tbsp sesame oil\nSesame seeds\nScallions", 
+    "raw_procedure": "Use a cheese grater to dismantle your head of cauliflower into tiny granules until you end up with a consistency that is similar to rice.\nIn a large non-stick pan that is coated with vegetable oil, scramble 1 egg and set it aside for later. Wipe down the pan and use the same pan to heat up another small amount of vegetable oil for saut\u00e9ing.\nSaut\u00e9 6 ounces of sliced shiitake mushrooms and let them brown up for 3 to 4 minutes before adding chopped ham and frozen edamame. Saut\u00e9 for an additional 2 to 3 minutes until cooked and heated through. Then, add 1 crushed clove of garlic and saut\u00e9 for one additional minute.\nFinally, add your cauliflower rice to the pan and saut\u00e9 for 1 to 2 minutes before adding 3 tablespoons each of soy sauce, oyster sauce, and sesame oil. Saut\u00e9 and cook everything together for another 1 to 2 minutes and add your scrambled egg to the pan and chop it up for even distribution. Top everything off with a generous sprinkling of sesame seeds.\nGarnish your rice with some thinly sliced scallions and one last sprinkling of sesame seeds.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Cauliflower", 
+        "Cauliflower"
+      ], 
+      [
+        null, 
+        null, 
+        "Vegetable Oil", 
+        "Vegetable oil"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Egg", 
+        "1 egg"
+      ], 
+      [
+        6.0, 
+        "ounce", 
+        "Sliced Shiitake Mushrooms", 
+        "6 ounces sliced shiitake mushrooms"
+      ], 
+      [
+        null, 
+        null, 
+        "Chopped Ham", 
+        "Chopped ham"
+      ], 
+      [
+        null, 
+        null, 
+        "Frozen Edamame", 
+        "Frozen edamame"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Garlic", 
+        "1 crushed clove of garlic"
+      ], 
+      [
+        3.0, 
+        "tablespoon", 
+        "Soy Sauce", 
+        "3 Tbsp soy sauce"
+      ], 
+      [
+        3.0, 
+        "tablespoon", 
+        "Oyster Sauce", 
+        "3 Tbsp oyster sauce"
+      ], 
+      [
+        3.0, 
+        "tablespoon", 
+        "Sesame Oil", 
+        "3 Tbsp sesame oil"
+      ], 
+      [
+        null, 
+        null, 
+        "Sesame Seeds", 
+        "Sesame seeds"
+      ], 
+      [
+        null, 
+        null, 
+        "Scallions", 
+        "Scallions"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/healthymeals2", 
+      "episode_id": "healthymeals2", 
+      "name": "HEALTHIER VERSIONS OF UNHEALTHY FOOD", 
+      "published_date": "2019-11-14T00:00:00+00:00", 
+      "youtube_link": "", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/healthymeals2", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5dcda60abc3504519f276f70/1575584541302/Screen+Shot+2019-11-14+at+1.06.35+PM.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/602", 
+    "recipe_id": 602, 
+    "name": "Cauliflower Macaroni & Cheese", 
+    "image_link": "", 
+    "raw_ingredient_list": "Cauliflower\n1\u00bd cups water\n4 Tbsp (\u00bd stick) of unsalted butter\nPanko breadcrumbs\n\u00bd small onion, roughly chopped\nFresh thyme leaves\n1 garlic clove, chopped\n1-1 \u00bd tsp dijon mustard\nGround white pepper\nCayenne pepper\n2 ounces grated parmesan cheese\n5 ounces shredded yellow cheddar cheese\nKosher salt", 
+    "raw_procedure": "Separate the head and the cauliflower florets and finely chop them up before placing each pile into individual bowls. Set aside the core as well as the stem pieces for later.\nIn a dutch oven, add 1 \u00bd cups of water, the cauliflower core pieces and stems, and 4 tablespoons (\u00bd stick) of unsalted butter. Cover and bring to a simmer before adding in a steamer basket as well as the cauliflower florets. Cover and steam for about 10 minutes.\nIn one saut\u00e9 pan, toast up some panko breadcrumbs and butter. In another saut\u00e9 pan, add \u00bd of a small roughly chopped onion. Saut\u00e9 each pan for a few minutes until the breadcrumbs are toasted and golden brown. Add a few freshly picked thyme leaves to the breadcrumbs and set aside to cool. Add 1 chopped garlic clove to the roughly chopped onion during their last minute of cooking.\nOnce 10 to 12 minutes has passed, the florets should be easy to pierce with a knife. Set aside the florets for later and add the onion and garlic mixture to the cauliflower stems and cores. Cover and let it sit for another 10 minutes until the cauliflower stems and cores are soft and easy to puree.\nAfter 10 minutes, add the mixture to a blender along with 1 to 1\u00bd teaspoons of dijon mustard, a generous sprinkling of ground white pepper, a dash of cayenne pepper, 1 ounce of grated parmesan cheese, and 3 ounces of shredded yellow cheddar cheese.\nBlend on high-speed until you end up with a smooth puree. Season with kosher salt as necessary and add it to the steamed cauliflower florets. Dump everything into a baking vessel of your choice and smooth it out evenly. Top it off with 2 more ounces of shredded yellow cheddar cheese as well as some more of the panko breadcrumbs that are tossed in 1 additional ounce of parmesan cheese.\nPlace into a 400\u00b0F oven for 15 minutes.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Cauliflower", 
+        "Cauliflower"
+      ], 
+      [
+        1.5, 
+        "cup", 
+        "Water", 
+        "1\u00bd cups water"
+      ], 
+      [
+        4.0, 
+        "tablespoon", 
+        "Unsalted Butter", 
+        "4 Tbsp (\u00bd stick) of unsalted butter"
+      ], 
+      [
+        null, 
+        null, 
+        "Panko Breadcrumbs", 
+        "Panko breadcrumbs"
+      ], 
+      [
+        0.5, 
+        "small", 
+        "Onion", 
+        "\u00bd small onion, roughly chopped"
+      ], 
+      [
+        null, 
+        null, 
+        "Fresh Thyme Leaves", 
+        "Fresh thyme leaves"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Garlic Clove", 
+        "1 garlic clove, chopped"
+      ], 
+      [
+        "1-1 \u00bd", 
+        "teaspoon", 
+        "Dijon Mustard", 
+        "1-1 \u00bd tsp dijon mustard"
+      ], 
+      [
+        null, 
+        null, 
+        "Ground White Pepper", 
+        "Ground white pepper"
+      ], 
+      [
+        null, 
+        null, 
+        "Cayenne Pepper", 
+        "Cayenne pepper"
+      ], 
+      [
+        2.0, 
+        "ounce", 
+        "Grated Parmesan Cheese", 
+        "2 ounces grated parmesan cheese"
+      ], 
+      [
+        5.0, 
+        "ounce", 
+        "Shredded Yellow Cheddar Cheese", 
+        "5 ounces shredded yellow cheddar cheese"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/healthymeals2", 
+      "episode_id": "healthymeals2", 
+      "name": "HEALTHIER VERSIONS OF UNHEALTHY FOOD", 
+      "published_date": "2019-11-14T00:00:00+00:00", 
+      "youtube_link": "", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/healthymeals2", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5dcda60abc3504519f276f70/1575584541302/Screen+Shot+2019-11-14+at+1.06.35+PM.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/600", 
+    "recipe_id": 600, 
+    "name": "Cauliflower Pizza", 
+    "image_link": "", 
+    "raw_ingredient_list": "Cauliflower\n2 eggs\n2 ounces low-moisture hand-shredded mozzarella cheese\n1 ounce finely grated parmesan cheese\n1 14\u00bd ounce can of chopped tomatoes\nDry basil\nDry oregano\nRed pepper flakes\n1 clove garlic\n1-2 Tbsp  chopped onion\nKosher salt\nPepperoni\nFresh basil", 
+    "raw_procedure": "Peel off all of the green parts from the top of the cauliflower and slice it in half. To remove the core, take a knife and cut around the top, bottom, and sides of the core and peel it right out. Set aside the core to cook separately later.\nSeparate the cauliflower into individual florets by cutting it into thick pieces. This will make it easier to trim out the stems of the cauliflower. Then, separate the florets by breaking them up by hand until you end up with bite-sized pieces. Set aside the stems to cook separately with the core later.\nBlend the cauliflower florets and ensure that every individual piece is being chopped up in between pulses. Blend until you end up with a fine porridge-like texture that is not too smooth.\nTo get the most possible moisture out of the cauliflower, cook it in a shallow wide saut\u00e9 pan until it is soft and dry. Dump the cooked cauliflower out onto some paper towels and spread it out until it is flat and allow as much steam to escape as possible. Allow it to cool for 10 to 15 minutes.\nOnce the cauliflower is cool, continue to get the moisture out firmly pressing the surface with paper towels. After placing the crust into a large mixing bowl, add 2 eggs, 2 ounces of low-moisture hand-shredded mozzarella cheese, and 1 ounce of finely grated parmesan. Mix to combine.\nDump the crust onto a parchment lined baking sheet and form it into two rough individual pizzas. Par bake in a 400\u00b0F oven for 15 to 20 minutes until they are golden brown.\nFor the pizza sauce, use a blender to combine, 1 14 \u00bd ounce can of chopped tomatoes, a few sprinkles each of dry basil and dry oregano, 1 clove of garlic, 1 to 2 tablespoons of chopped onion, and a little sprinkle of red pepper flakes. Gently and quickly pulse a few times until the sauce is slightly smooth but still chunky.\nFor seasoning, add kosher salt along with any other spices or seasonings of your choice. Pulse to fully combine.\nTop the cauliflower crust off with a thin and even layer of your pizza sauce and a healthy portion of grated mozzarella cheese and an optional portion of pepperoni. Place the pizzas back into the oven for another 8 to 12 minutes. Add fresh parmesan and basil if desired.\nAllow the pizzas to cool off for 5 to 10 minutes before attempting to remove them from the parchment paper. Slice the pizza as desired and enjoy.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Cauliflower", 
+        "Cauliflower"
+      ], 
+      [
+        2.0, 
+        null, 
+        "Eggs", 
+        "2 eggs"
+      ], 
+      [
+        2.0, 
+        "ounce", 
+        "Low-moisture Hand-shredded Mozzarella Cheese", 
+        "2 ounces low-moisture hand-shredded mozzarella cheese"
+      ], 
+      [
+        1.0, 
+        "ounce", 
+        "Finely Grated Parmesan Cheese", 
+        "1 ounce finely grated parmesan cheese"
+      ], 
+      [
+        "1 14\u00bd", 
+        "ounce", 
+        "Chopped Tomatoes", 
+        "1 14\u00bd ounce can of chopped tomatoes"
+      ], 
+      [
+        null, 
+        null, 
+        "Dry Basil", 
+        "Dry basil"
+      ], 
+      [
+        null, 
+        null, 
+        "Dry Oregano", 
+        "Dry oregano"
+      ], 
+      [
+        null, 
+        null, 
+        "Red Pepper Flakes", 
+        "Red pepper flakes"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Clove Garlic", 
+        "1 clove garlic"
+      ], 
+      [
+        "1-2", 
+        "tablespoon", 
+        "Chopped Onion", 
+        "1-2 Tbsp  chopped onion"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Pepperoni", 
+        "Pepperoni"
+      ], 
+      [
+        null, 
+        null, 
+        "Fresh Basil", 
+        "Fresh basil"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/healthymeals2", 
+      "episode_id": "healthymeals2", 
+      "name": "HEALTHIER VERSIONS OF UNHEALTHY FOOD", 
+      "published_date": "2019-11-14T00:00:00+00:00", 
+      "youtube_link": "", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/healthymeals2", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5dcda60abc3504519f276f70/1575584541302/Screen+Shot+2019-11-14+at+1.06.35+PM.png"
     }
   }, 
   {
@@ -11625,6 +12609,316 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/625", 
+    "recipe_id": 625, 
+    "name": "Cornbread - Brown Butter", 
+    "image_link": "", 
+    "raw_ingredient_list": "5 oz of finely ground cornmeal\n5 oz of all-purpose flour\n\u00bd tsp of baking powder\n\u00bd tsp of baking soda\n1 tsp of kosher salt\n3 tbsp of sugar\n1 \u00bd cups of buttermilk\n2 large eggs\nHoney\nSea salt", 
+    "raw_procedure": "In a mixing bowl, combine 5 ounces of finely ground cornmeal and 5 ounces of all-purpose flour. Add \u00bd a teaspoon of baking powder, \u00bd a teaspoon of baking soda, 1 teaspoon of kosher salt, and 3 tablespoons of sugar. Whisk together accordingly.\nIn a separate mixing bowl, whisk 2 large eggs and 1 \u00bd cups of buttermilk together.\nMelt 1 stick of butter in a cast iron skillet over medium heat while swirling constantly to prevent it from overheating and exploding. Swirl until the milk fats separate and begin to turn brown.\nPour the butter into a heat-proof container and add 2 ice cubes to allow it to cool down rapidly. Give it a little mix for 1 to 2 minutes or until the ice cubes are fully melted.\nCombine the butter with the egg and buttermilk mixture and then pour to combine with your dry ingredients. Gently paddle to combine until you end up with a pancake batter consistency.\nUsing the same cast iron skillet that is still lubed up with about 1 tablespoon of the brown butter, add the cornbread batter and smooth it out on the top. Place the skillet into a 425\u00b0F oven for 20 to 25 minutes until deep golden brown around the edges.\nEnsure that the cornbread is cooked by using a toothpick and making sure that there are only a few moist crumbs remaining on the toothpick. After allowing the cornbread to cool in the skillet for about 5 to 10 minutes, give it a drizzle of honey and brush it on for even coverage to create a shiny and sticky glaze. Then, give it a sprinkling of flaky sea salt.\nCarefully remove the cornbread from the skillet and allow it to cool on a wire rack for about 10 to 15 minutes before slicing and serving while it is still warm.", 
+    "ingredient_list": [
+      [
+        5.0, 
+        "ounce", 
+        "Finely Ground Cornmeal", 
+        "5 oz of finely ground cornmeal"
+      ], 
+      [
+        5.0, 
+        "ounce", 
+        "All-purpose Flour", 
+        "5 oz of all-purpose flour"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Baking Powder", 
+        "\u00bd tsp of baking powder"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Baking Soda", 
+        "\u00bd tsp of baking soda"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Kosher Salt", 
+        "1 tsp of kosher salt"
+      ], 
+      [
+        3.0, 
+        "tbsp", 
+        "Sugar", 
+        "3 tbsp of sugar"
+      ], 
+      [
+        1.5, 
+        "cup", 
+        "Buttermilk", 
+        "1 \u00bd cups of buttermilk"
+      ], 
+      [
+        2.0, 
+        "large", 
+        "Eggs", 
+        "2 large eggs"
+      ], 
+      [
+        null, 
+        null, 
+        "Honey", 
+        "Honey"
+      ], 
+      [
+        null, 
+        null, 
+        "Sea Salt", 
+        "Sea salt"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/cornbread", 
+      "episode_id": "cornbread", 
+      "name": "CORNBREAD", 
+      "published_date": "2019-12-12T00:00:00+00:00", 
+      "youtube_link": "", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/cornbread", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5de93b7e864be248174b8bf2/1576793099334/Screen+Shot+2019-12-05+at+10.45.40+AM+%282%29.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/622", 
+    "recipe_id": 622, 
+    "name": "Cornbread - Classic Southern-Style", 
+    "image_link": "", 
+    "raw_ingredient_list": "2 cups of coarsely ground cornmeal\n1 tsp of kosher salt\n\u00bd tsp of baking powder\n\u00bd tsp of baking soda\n2 large eggs\n1 \u00bd cups of buttermilk\n\u00bd cup of lard", 
+    "raw_procedure": "Start out by pouring 2 cups of coarsely ground cornmeal into a mixing bowl. Then, add 1 teaspoon of kosher salt, \u00bd a teaspoon of baking powder, and \u00bd a teaspoon of baking soda. Whisk together accordingly.\nIn a separate mixing bowl, whisk 2 large eggs and 1 \u00bd cups of buttermilk together. Pour your cornmeal mixture into the bowl and whisk everything together. To adjust for texture and consistency, gradually add more cornmeal if needed. Use a spatula to mix together until the batter reaches your desired thickness.\nIn a cast iron skillet, melt \u00bd a cup of lard over medium flame. When it is melted, without being too hot, add about half of it to your cornbread batter and whisk to combine.\nPlace the skillet with the remaining lard over medium-high heat until shimmering and very hot for a super crisp crust on the bottom of your cornbread. Carefully dump the batter into the skillet, where it should begin to sizzle. Smooth out the top of the batter and place the skillet into a preheated 425 degree-Fahrenheit oven for about 20 to 25 minutes until set, light brown in the center, and deep golden brown around the edges.\nCarefully remove the cornbread from the skillet and allow it to cool on a wire rack for about 10 to 15 minutes before slicing and serving.", 
+    "ingredient_list": [
+      [
+        2.0, 
+        "cup", 
+        "Coarsely Ground Cornmeal", 
+        "2 cups of coarsely ground cornmeal"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Kosher Salt", 
+        "1 tsp of kosher salt"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Baking Powder", 
+        "\u00bd tsp of baking powder"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Baking Soda", 
+        "\u00bd tsp of baking soda"
+      ], 
+      [
+        2.0, 
+        "large", 
+        "Eggs", 
+        "2 large eggs"
+      ], 
+      [
+        1.5, 
+        "cup", 
+        "Buttermilk", 
+        "1 \u00bd cups of buttermilk"
+      ], 
+      [
+        0.5, 
+        "cup", 
+        "Lard", 
+        "\u00bd cup of lard"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/cornbread", 
+      "episode_id": "cornbread", 
+      "name": "CORNBREAD", 
+      "published_date": "2019-12-12T00:00:00+00:00", 
+      "youtube_link": "", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/cornbread", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5de93b7e864be248174b8bf2/1576793099334/Screen+Shot+2019-12-05+at+10.45.40+AM+%282%29.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/623", 
+    "recipe_id": 623, 
+    "name": "Cornbread - Delicate Southern-Style", 
+    "image_link": "", 
+    "raw_ingredient_list": "2 cups of finely ground cornmeal\n1 tsp of kosher salt\n\u00bd tsp of baking powder\n\u00bd tsp of baking soda\n2 large eggs\n1 \u00bd cups of buttermilk\n\u00bd cup of lard", 
+    "raw_procedure": "Start out by pouring 2 cups of finely ground cornmeal into a mixing bowl. Then, add 1 teaspoon of kosher salt, \u00bd a teaspoon of baking powder, and \u00bd a teaspoon of baking soda. Whisk together accordingly.\nIn a separate mixing bowl, whisk 2 large eggs and 1 \u00bd cups of buttermilk together. Pour your cornmeal mixture into the bowl and whisk everything together until you end up with a thin and cake-like batter.\nIn a cast iron skillet, melt \u00bd a cup of lard over medium flame. When it is melted, without being too hot, add about half of it to your cornbread batter and whisk to combine.\nPlace the skillet with the remaining lard over medium-high heat until shimmering and very hot for a super crisp crust on the bottom of your cornbread. Carefully dump the batter into the skillet, where it should begin to sizzle. Smooth out the top of the batter and place the skillet into a preheated 425 degree-Fahrenheit oven for about 20 to 25 minutes until set, light brown in the center, and deep golden brown around the edges.\nEnsure that the cornbread is cooked by using a toothpick and making sure that there are only a few moist crumbs remaining on the toothpick. Carefully remove the cornbread from the skillet and allow it to cool on a wire rack for about 10 to 15 minutes before slicing and serving while it is still warm.", 
+    "ingredient_list": [
+      [
+        2.0, 
+        "cup", 
+        "Finely Ground Cornmeal", 
+        "2 cups of finely ground cornmeal"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Kosher Salt", 
+        "1 tsp of kosher salt"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Baking Powder", 
+        "\u00bd tsp of baking powder"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Baking Soda", 
+        "\u00bd tsp of baking soda"
+      ], 
+      [
+        2.0, 
+        "large", 
+        "Eggs", 
+        "2 large eggs"
+      ], 
+      [
+        1.5, 
+        "cup", 
+        "Buttermilk", 
+        "1 \u00bd cups of buttermilk"
+      ], 
+      [
+        0.5, 
+        "cup", 
+        "Lard", 
+        "\u00bd cup of lard"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/cornbread", 
+      "episode_id": "cornbread", 
+      "name": "CORNBREAD", 
+      "published_date": "2019-12-12T00:00:00+00:00", 
+      "youtube_link": "", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/cornbread", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5de93b7e864be248174b8bf2/1576793099334/Screen+Shot+2019-12-05+at+10.45.40+AM+%282%29.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/624", 
+    "recipe_id": 624, 
+    "name": "Cornbread - Jalape\u00f1o Cheddar", 
+    "image_link": "", 
+    "raw_ingredient_list": "5 oz of finely ground cornmeal\n5 oz of all-purpose flour\n\u00bd tsp of baking powder\n\u00bd tsp of baking soda\n1 tsp of kosher salt\n\u00bd tsp of cayenne pepper\n4 oz of grated cheddar cheese\n\u00bd cup of fresh corn kernels\n1 \u00bd cups of buttermilk\n2 tbsp of honey or sweetener of choice\nJalape\u00f1o pepper\n2 large eggs\n1 stick of melted butter\nHoney\nSea salt", 
+    "raw_procedure": "In a mixing bowl, combine 5 ounces of finely ground cornmeal and 5 ounces of all-purpose flour. Add \u00bd a teaspoon of baking powder, \u00bd a teaspoon of baking soda, 1 teaspoon of kosher salt, and \u00bd a teaspoon of cayenne pepper. Whisk together accordingly. Next, add 4 ounces of grated cheddar cheese and toss to coat with the dry ingredients so that nothing sticks together.\nUse a food processor to pulse together \u00bd a cup of fresh corn kernels, 1 \u00bd cups of buttermilk, and 2 tablespoons of honey or sweetener of choice. Then, add 1 jalape\u00f1o pepper that is cored and quartered. Give it 6 to 8 pulses until the jalape\u00f1o is nicely chopped.\nNext, add 2 large eggs as well as 1 stick of melted butter that is completely cooled off to prevent the eggs from scrambling. Pulse 4 to 5 times to combine.\nTake your mixing bowl of dry ingredients and dig a well in the center. Pour in your wet mixture from the food processor and gently mix together with a paddle. If the batter is over mixed, it can become tough.\nCoat a cast iron skillet with butter and carefully add your cornbread batter. Smooth out the top of the batter and garnish with a few slices of jalape\u00f1o pepper. Place the skillet into a 425 degree-Fahrenheit oven for 20 to 25 minutes.\nEnsure that the cornbread is cooked by using a toothpick and making sure that there are only a few moist crumbs remaining on the toothpick. After allowing the cornbread to cool in the skillet for about 5 to 10 minutes, give it a drizzle of honey and brush it on for even coverage to create a shiny and sticky glaze. Then, give it a sprinkling of flaky sea salt.\nCarefully remove the cornbread from the skillet and allow it to cool on a wire rack for about 10 to 15 minutes before slicing and serving while it is still warm.", 
+    "ingredient_list": [
+      [
+        5.0, 
+        "ounce", 
+        "Finely Ground Cornmeal", 
+        "5 oz of finely ground cornmeal"
+      ], 
+      [
+        5.0, 
+        "ounce", 
+        "All-purpose Flour", 
+        "5 oz of all-purpose flour"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Baking Powder", 
+        "\u00bd tsp of baking powder"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Baking Soda", 
+        "\u00bd tsp of baking soda"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Kosher Salt", 
+        "1 tsp of kosher salt"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Cayenne Pepper", 
+        "\u00bd tsp of cayenne pepper"
+      ], 
+      [
+        4.0, 
+        "ounce", 
+        "Grated Cheddar Cheese", 
+        "4 oz of grated cheddar cheese"
+      ], 
+      [
+        0.5, 
+        "cup", 
+        "Fresh Corn Kernels", 
+        "\u00bd cup of fresh corn kernels"
+      ], 
+      [
+        1.5, 
+        "cup", 
+        "Buttermilk", 
+        "1 \u00bd cups of buttermilk"
+      ], 
+      [
+        2.0, 
+        "tbsp", 
+        "Choice", 
+        "2 tbsp of honey or sweetener of choice"
+      ], 
+      [
+        null, 
+        null, 
+        "Jalape\u00f1o Pepper", 
+        "Jalape\u00f1o pepper"
+      ], 
+      [
+        2.0, 
+        "large", 
+        "Eggs", 
+        "2 large eggs"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Melted Butter", 
+        "1 stick of melted butter"
+      ], 
+      [
+        null, 
+        null, 
+        "Honey", 
+        "Honey"
+      ], 
+      [
+        null, 
+        null, 
+        "Sea Salt", 
+        "Sea salt"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/cornbread", 
+      "episode_id": "cornbread", 
+      "name": "CORNBREAD", 
+      "published_date": "2019-12-12T00:00:00+00:00", 
+      "youtube_link": "", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/cornbread", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5de93b7e864be248174b8bf2/1576793099334/Screen+Shot+2019-12-05+at+10.45.40+AM+%282%29.png"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/315", 
     "recipe_id": 315, 
     "name": "Cornish Game Hens", 
@@ -13131,6 +14425,49 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/598", 
+    "recipe_id": 598, 
+    "name": "Custard", 
+    "image_link": "", 
+    "raw_ingredient_list": "4 egg yolks\n\u00bd cup sugar\n\u00be cup heavy cream\n8 ounces of room-temperature mascarpone cheese", 
+    "raw_procedure": "Into the bowl of a stand mixer, add 4 egg yolks and \u00bc cup of sugar and whisk for about 3 minutes on medium-high speed until tripled in volume. Set aside for later and clean off your whisk attachment.\nInto another bowl of a stand mixer, beat \u00be cup of heavy cream and \u00bc cup of sugar for about 1 to 2 minutes on medium-high speed until you end up with whipped cream. Add 8 ounces of room-temperature mascarpone cheese and beat for about 30 seconds to 1 minute until it is thick and spreadable. Add the egg yolk mixture to the whipped cream mixture and stir until combined.", 
+    "ingredient_list": [
+      [
+        4.0, 
+        null, 
+        "Egg Yolks", 
+        "4 egg yolks"
+      ], 
+      [
+        0.5, 
+        "cup", 
+        "Sugar", 
+        "\u00bd cup sugar"
+      ], 
+      [
+        0.75, 
+        "cup", 
+        "Heavy Cream", 
+        "\u00be cup heavy cream"
+      ], 
+      [
+        8.0, 
+        "ounce", 
+        "Room-temperature Mascarpone Cheese", 
+        "8 ounces of room-temperature mascarpone cheese"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/tiramisu", 
+      "episode_id": "tiramisu", 
+      "name": "Tiramisu inspired by Superbad", 
+      "published_date": "2019-11-12T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=J719grjgS-I", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/tiramisu", 
+      "image_link": "https://img.youtube.com/vi/J719grjgS-I/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/394", 
     "recipe_id": 394, 
     "name": "Custard (aka Creme Patisserie)", 
@@ -13681,6 +15018,55 @@
       "youtube_link": "https://www.youtube.com/watch?v=Enan6eEmtqM", 
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/25/lemon-pepper-wet", 
       "image_link": "https://img.youtube.com/vi/Enan6eEmtqM/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/617", 
+    "recipe_id": 617, 
+    "name": "Demi-Glace", 
+    "image_link": "", 
+    "raw_ingredient_list": "2 quarts bone broth\n2-3 Tbsp tomato paste\n1 cup dry red wine\n2 Tbsp chopped dill\n2 pinches Kosher salt", 
+    "raw_procedure": "Strain (cheesecloth or coffee filter) 2 quarts of bone broth in the widest stock pot you have.\nAdd 2-3 Tbsp of tomato paste and 1 cup of dry red wine.\nBring up to a simmer and let reduce up to 75% so all that remains is thick syrupy sauce.\nOnce it is thick enough to cover the back of spoon, place in a bowl and let cool. Divy it up into portions using a cupcake tin.\nLet portions solidify in the fridge and then wrap in plastic wrap and tin foil or vacuum seal.\nPlace in freezer for up to 6 months.  It makes a great pan sauce!", 
+    "ingredient_list": [
+      [
+        2.0, 
+        null, 
+        "Quarts Bone Broth", 
+        "2 quarts bone broth"
+      ], 
+      [
+        "2-3", 
+        "tablespoon", 
+        "Tomato Paste", 
+        "2-3 Tbsp tomato paste"
+      ], 
+      [
+        1.0, 
+        "cup", 
+        "Dry Red Wine", 
+        "1 cup dry red wine"
+      ], 
+      [
+        2.0, 
+        "tablespoon", 
+        "Chopped Dill", 
+        "2 Tbsp chopped dill"
+      ], 
+      [
+        2.0, 
+        null, 
+        "Pinches Kosher Salt", 
+        "2 pinches Kosher salt"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/bone-broth", 
+      "episode_id": "bone-broth", 
+      "name": "Bone Broth inspired by The Mandalorian", 
+      "published_date": "2019-12-11T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=6GHwG1y-NE0", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/bone-broth", 
+      "image_link": "https://img.youtube.com/vi/6GHwG1y-NE0/mqdefault.jpg"
     }
   }, 
   {
@@ -18124,6 +19510,43 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/613", 
+    "recipe_id": 613, 
+    "name": "Gremolata", 
+    "image_link": "", 
+    "raw_ingredient_list": "Finely chopped parsley\nGrated lemon zest\nGrated garlic", 
+    "raw_procedure": "Combine some freshly chopped parsley, grated lemon zest, and grated garlic. Mix all of it up and add enough fresh parsley to make sure that it is easy to sprinkle.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Finely Chopped Parsley", 
+        "Finely chopped parsley"
+      ], 
+      [
+        null, 
+        null, 
+        "Grated Lemon Zest", 
+        "Grated lemon zest"
+      ], 
+      [
+        null, 
+        null, 
+        "Grated Garlic", 
+        "Grated garlic"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/ossobuco", 
+      "episode_id": "ossobuco", 
+      "name": "Osso Buco inspired by The Office", 
+      "published_date": "2019-12-04T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=Jr9Is6NsFck", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/ossobuco", 
+      "image_link": "https://img.youtube.com/vi/Jr9Is6NsFck/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/476", 
     "recipe_id": 476, 
     "name": "Grilled Charlie", 
@@ -18566,6 +19989,79 @@
       "youtube_link": "https://www.youtube.com/watch?v=Izvd-iztaQk", 
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/iloveyoumanfishtacos", 
       "image_link": "https://img.youtube.com/vi/Izvd-iztaQk/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/590", 
+    "recipe_id": 590, 
+    "name": "Guacamole", 
+    "image_link": "", 
+    "raw_ingredient_list": "3 small ripe avocados\n1 clove fresh garlic\n\u00bd small red onion, minced\n1 lime\n1 tsp toasted and freshly ground cumin\nKosher salt\nFreshly ground pepper\n\u00bd jalape\u00f1o , finely choped\n2 Tbsp cilantro, finely chopped", 
+    "raw_procedure": "In a medium bowl, combine 3 small ripe avocados, 1 clove of crushed garlic, \u00bd of a small minced red onion, the juice from 1 lime, 1 teaspoon of toasted and freshly ground cumin, a pinch of kosher salt, a few twists of freshly ground pepper, \u00bd of a finely chopped jalape\u00f1o, and 2 finely chopped tablespoons of cilantro.\nUsing a fork, mash the combination together until it is relatively smooth. Scrape down the sides of the bowl and cover with plastic wrap, making sure to press it down directly onto the surface to prevent browning. Place in the refrigerator for later.", 
+    "ingredient_list": [
+      [
+        3.0, 
+        "small", 
+        "Ripe Avocados", 
+        "3 small ripe avocados"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Clove Fresh Garlic", 
+        "1 clove fresh garlic"
+      ], 
+      [
+        0.5, 
+        "small", 
+        "Red Onion", 
+        "\u00bd small red onion, minced"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Lime", 
+        "1 lime"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Toasted And Freshly Ground Cumin", 
+        "1 tsp toasted and freshly ground cumin"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Pepper", 
+        "Freshly ground pepper"
+      ], 
+      [
+        0.5, 
+        null, 
+        "Jalape\u00f1o", 
+        "\u00bd jalape\u00f1o , finely choped"
+      ], 
+      [
+        2.0, 
+        "tablespoon", 
+        "Cilantro", 
+        "2 Tbsp cilantro, finely chopped"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/nachos", 
+      "episode_id": "nachos", 
+      "name": "Nachos inspired by The Good Place (plus Naco Redemption)", 
+      "published_date": "2019-11-07T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=LgzudBvmd08", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/nachos", 
+      "image_link": "https://img.youtube.com/vi/LgzudBvmd08/mqdefault.jpg"
     }
   }, 
   {
@@ -19333,6 +20829,37 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/626", 
+    "recipe_id": 626, 
+    "name": "Honey Butter", 
+    "image_link": "", 
+    "raw_ingredient_list": "\u00bc cup of honey\n2 sticks of unsalted room temperature butter", 
+    "raw_procedure": "In a stand mixer, combine 2 sticks of unsalted room temperature butter with \u00bc a cup of honey. Mix until it is light and fluffy with no lumps remaining.", 
+    "ingredient_list": [
+      [
+        0.25, 
+        "cup", 
+        "Honey", 
+        "\u00bc cup of honey"
+      ], 
+      [
+        2.0, 
+        null, 
+        "Unsalted Room Temperature Butter", 
+        "2 sticks of unsalted room temperature butter"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/cornbread", 
+      "episode_id": "cornbread", 
+      "name": "CORNBREAD", 
+      "published_date": "2019-12-12T00:00:00+00:00", 
+      "youtube_link": "", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/cornbread", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5de93b7e864be248174b8bf2/1576793099334/Screen+Shot+2019-12-05+at+10.45.40+AM+%282%29.png"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/146", 
     "recipe_id": 146, 
     "name": "Hot Buttered Rum", 
@@ -19385,6 +20912,164 @@
       "youtube_link": "https://www.youtube.com/watch?v=LftLcYM6Fzw", 
       "official_link": "https://basicswithbabish.co/basicsepisodes/holidaycocktails", 
       "image_link": "https://img.youtube.com/vi/LftLcYM6Fzw/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/618", 
+    "recipe_id": 618, 
+    "name": "Hot Dog", 
+    "image_link": "", 
+    "raw_ingredient_list": "100g lean beef, cubed\n150g beef fat, cubed\n23g fine sea salt\n10g paprika\n5g garlic powder\n4g white pepper\n4g onion powder\n1.5g pink curing salt\n230g crushed ice\nNatural sheep hot dog casing\nMesquite and hickory wood chips (for smoking)", 
+    "raw_procedure": "Lay out cubes of beef and fat on a parchment-lined baking sheet and place in the freezer for about 15 minutes. Also put your meat grinder attachment and grinding plates in the freezer.\nTo assemble cure seasoning mixture, combine sea salt, paprika, garlic powder, ground white pepper, onion powder and pink curing salt.\nWith the grinder running on medium speed, feed the beef and fat through using the finest grinding plates. Every 4 cubes of beef, run a cube of fat through so that the mixture is marbled.\nAdd the cure/spice mixture to the ground beef and mix it together quickly to prevent heating up the beef.\nPut half of your beef mixture and half of your ice into a food processor. Pulse to combine until it is a paste like consistency. The ice and beef should emulsify together. Repeat with the second half of beef and ice. This beef mixture is now \u2018farce.\u2019 Before leaving it to cure, pan fry a little bit of the farce in oil so that you can make sure the salt and seasoning is good. If it is, move on to curing.\nTo cure the farce, put the meat in a bowl and cover with plastic wrap pressed directly up against the surface of the meat. Keep it in the fridge for 24 hours.\nThread the natural sheep hotdog casing onto the sausage stuffer and stuff with the cold farce and twist into hotdogs. Watch the episode to see how I do this!\nLet the hot dogs sit uncovered in the fridge for a couple hours.\nUsing a stove-top smoker (or your preferred smoking method), smoke the hotdogs with mesquite and hickory wood chips over medium-high heat. Once you see whisps of smoke coming out, lower the heat to medium low and keep the smoker at about  170\u00b0F for 45 minutes. Snip them apart into individual hot dogs.", 
+    "ingredient_list": [
+      [
+        100.0, 
+        "gram", 
+        "Lean Beef", 
+        "100g lean beef, cubed"
+      ], 
+      [
+        150.0, 
+        "gram", 
+        "Beef Fat", 
+        "150g beef fat, cubed"
+      ], 
+      [
+        23.0, 
+        "gram", 
+        "Fine Sea Salt", 
+        "23g fine sea salt"
+      ], 
+      [
+        10.0, 
+        "gram", 
+        "Paprika", 
+        "10g paprika"
+      ], 
+      [
+        5.0, 
+        "gram", 
+        "Garlic Powder", 
+        "5g garlic powder"
+      ], 
+      [
+        4.0, 
+        "gram", 
+        "White Pepper", 
+        "4g white pepper"
+      ], 
+      [
+        4.0, 
+        "gram", 
+        "Onion Powder", 
+        "4g onion powder"
+      ], 
+      [
+        1.5, 
+        "gram", 
+        "Pink Curing Salt", 
+        "1.5g pink curing salt"
+      ], 
+      [
+        230.0, 
+        "gram", 
+        "Crushed Ice", 
+        "230g crushed ice"
+      ], 
+      [
+        null, 
+        null, 
+        "Natural Sheep Dog Casing", 
+        "Natural sheep hot dog casing"
+      ], 
+      [
+        null, 
+        null, 
+        "Mesquite And Hickory Wood Chips", 
+        "Mesquite and hickory wood chips (for smoking)"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/beer-steamed-chili-dogs", 
+      "episode_id": "beer-steamed-chili-dogs", 
+      "name": "Chili Dogs inspired by The Irishman", 
+      "published_date": "2019-12-17T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=c0A1bkF4mKM", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/beer-steamed-chili-dogs", 
+      "image_link": "https://img.youtube.com/vi/c0A1bkF4mKM/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/619", 
+    "recipe_id": 619, 
+    "name": "Hot Dog Buns", 
+    "image_link": "", 
+    "raw_ingredient_list": "\u00bd cup milk\n\u00be cup water\n2 Tbsp butter\nOne packet active dry yeast\n1 Tbsp sugar\n250g bread flour\n250g all-purpose flour\n1 \u00bd tsp kosher salt\n2 large eggs", 
+    "raw_procedure": "Add \u00bd cup milk, \u00be cup water and 2 Tbsp butter to a saucepan. Heat it to 110\u00b0F and then add to the bowl of your stand mixer. Next add one packet of active dry yeast and 1 Tbsp sugar. Let them bloom for 10 minutes.\nAdd 250g bread flour, 250g all-purpose flour and 1 \u00bd tsp of kosher salt into a bowl and give a tiny whisk to combine.\nAdd one large beaten egg to the wet ingredients, then pour the dry ingredients into the bowl.\nUsing the stand mixer with a dough hook, mix on low speed for about 1 minute until everything is combined and then on to medium speed for 5 to 8 minutes, until a smooth, tacky, supple, ball of dough forms.\nClean out and lightly oil a bowl and place the dough inside. Let it rise for about one hour or until doubled in size.\nPlace the dough onto the work surface and flour well on both sides. Roll out, divide and shape hotdog buns. Watch the episode for my method!\nPlace them on a parchment-lined baking sheet at least 1 inch apart and spray with nonstick cooking spray. Loosely cover with plastic wrap.\nLet sit until doubled in size.\nBrush down the tops of each bun with a beaten egg.\nBake them in a 350\u00b0F oven for 15 to 25 minutes, or until they emerge golden brown and puffed.\nAllow to cool completely on a wire rack.\nTo assemble cure seasoning mixture, combine sea salt, paprika, garlic powder, ground white pepper, onion powder and pink curing salt.\nWith the grinder running on medium speed, feed the beef and fat through using the finest grinding plates. Every 4 cubes of beef, run a cube of fat through so that the mixture is marbled.\nAdd the cure/spice mixture to the ground beef and mix it together quickly to prevent heating up the beef.\nPut half of your beef mixture and half of your ice into a food processor. Pulse to combine until it is a paste like consistency. The ice and beef should emulsify together. Repeat with the second half of beef and ice. This beef mixture is now \u2018farce.\u2019 Before leaving it to cure, pan fry a little bit of the farce in oil so that you can make sure the salt and seasoning is good. If it is, move on to curing.\nTo cure the farce, put the meat in a bowl and cover with plastic wrap pressed directly up against the surface of the meat. Keep it in the fridge for 24 hours.\nThread the natural sheep hotdog casing onto the sausage stuffer and stuff with the cold farce and twist into hotdogs. Watch the episode to see how I do this!\nLet the hot dogs sit uncovered in the fridge for a couple hours.\nUsing a stove-top smoker (or your preferred smoking method), smoke the hotdogs with mesquite and hickory wood chips over medium-high heat. Once you see whisps of smoke coming out, lower the heat to medium low and keep the smoker at about  170\u00b0F for 45 minutes. Snip them apart into individual hot dogs.", 
+    "ingredient_list": [
+      [
+        0.5, 
+        "cup", 
+        "Milk", 
+        "\u00bd cup milk"
+      ], 
+      [
+        0.75, 
+        "cup", 
+        "Water", 
+        "\u00be cup water"
+      ], 
+      [
+        2.0, 
+        "tablespoon", 
+        "Butter", 
+        "2 Tbsp butter"
+      ], 
+      [
+        null, 
+        null, 
+        "One Packet Active Dry Yeast", 
+        "One packet active dry yeast"
+      ], 
+      [
+        1.0, 
+        "tablespoon", 
+        "Sugar", 
+        "1 Tbsp sugar"
+      ], 
+      [
+        250.0, 
+        "gram", 
+        "Bread Flour", 
+        "250g bread flour"
+      ], 
+      [
+        250.0, 
+        "gram", 
+        "All-purpose Flour", 
+        "250g all-purpose flour"
+      ], 
+      [
+        1.5, 
+        "teaspoon", 
+        "Kosher Salt", 
+        "1 \u00bd tsp kosher salt"
+      ], 
+      [
+        2.0, 
+        "large", 
+        "Eggs", 
+        "2 large eggs"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/beer-steamed-chili-dogs", 
+      "episode_id": "beer-steamed-chili-dogs", 
+      "name": "Chili Dogs inspired by The Irishman", 
+      "published_date": "2019-12-17T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=c0A1bkF4mKM", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/beer-steamed-chili-dogs", 
+      "image_link": "https://img.youtube.com/vi/c0A1bkF4mKM/mqdefault.jpg"
     }
   }, 
   {
@@ -19799,6 +21484,85 @@
       "youtube_link": "https://www.youtube.com/watch?v=dRLCZqEfJFA", 
       "official_link": "https://www.bingingwithbabish.com/recipes/infernowings", 
       "image_link": "https://img.youtube.com/vi/dRLCZqEfJFA/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/629", 
+    "recipe_id": 629, 
+    "name": "Italian Salsa Verde", 
+    "image_link": "", 
+    "raw_ingredient_list": "1 cup packed fresh parsley\nZest and juice of one lemon\n2 Tbsp capers, drained\nSplash of white wine vinegar\n2 anchovies, finely minced\n2-3 cloves fresh garlic, roughly chopped\n1/\u00bd cup high quality olive oil\nChili flakes\nSalt\nBlack pepper", 
+    "raw_procedure": "Combine the ingredients in a food process or immersion blender bowl. Chop everything up, but don\u2019t totally puree it so that the sauce has some texture.\nTaste for seasoning and add salt/pepper as needed.", 
+    "ingredient_list": [
+      [
+        1.0, 
+        "cup", 
+        "Packed Fresh Parsley", 
+        "1 cup packed fresh parsley"
+      ], 
+      [
+        null, 
+        null, 
+        "One Lemon", 
+        "Zest and juice of one lemon"
+      ], 
+      [
+        2.0, 
+        "tablespoon", 
+        "Capers", 
+        "2 Tbsp capers, drained"
+      ], 
+      [
+        null, 
+        null, 
+        "White Wine Vinegar", 
+        "Splash of white wine vinegar"
+      ], 
+      [
+        2.0, 
+        null, 
+        "Anchovies", 
+        "2 anchovies, finely minced"
+      ], 
+      [
+        "2-3", 
+        null, 
+        "Cloves Fresh Garlic", 
+        "2-3 cloves fresh garlic, roughly chopped"
+      ], 
+      [
+        "1/\u00bd", 
+        "cup", 
+        "High Quality Olive Oil", 
+        "1/\u00bd cup high quality olive oil"
+      ], 
+      [
+        null, 
+        null, 
+        "Chili Flakes", 
+        "Chili flakes"
+      ], 
+      [
+        null, 
+        null, 
+        "Salt", 
+        "Salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Black Pepper", 
+        "Black pepper"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/porchetta", 
+      "episode_id": "porchetta", 
+      "name": "PORCHETTA", 
+      "published_date": "2019-12-19T00:00:00+00:00", 
+      "youtube_link": "", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/porchetta", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5dfbec45b4462c0f7dfb791a/1576793001560/INSTA.jpeg"
     }
   }, 
   {
@@ -20538,6 +22302,55 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/597", 
+    "recipe_id": 597, 
+    "name": "Ladyfingers", 
+    "image_link": "", 
+    "raw_ingredient_list": "3 large egg yolks\n\u00bd cup sugar\nFlavoring extract of choice\n4 egg whites\n1 cup (or 4 \u00bd ounces of all-purpose flour)", 
+    "raw_procedure": "Into the bowl of a stand mixer, add 3 large egg yolks and \u00bc cup of sugar and whisk together on half speed for about 2 minutes or until pale, yellow, and ribbony. While the mixer is running, add \u00bd teaspoon of any extract of your choice such as vanilla or almond. Set this mixture aside for later.\nInto another bowl of a stand mixer, whisk 4 egg whites on medium speed until they start to get light and foamy. Slowly stream in \u00bc cup of sugar and continue whisking for about 2 to 3 minutes until it holds stiff peaks.\nAdd the egg yolk mixture to the egg white mixture and gently fold together until almost combined, but still streaky. Add 1 cup or about 4 \u00bd ounces of all-purpose flour that is sifted to prevent lumps. Gently fold together and make sure not to release all of the air out of the batter.\nUsing a piping bag or a Ziploc bag with the corner cut off, pipe the batter onto a parchment lined baking sheet and bake at 375\u00b0F for about 14 minutes. Make sure to carefully rotate them once while they are baking. Once the baking is completed, they should be light, crisp, and golden brown.\nOnce the ladyfingers are fully cooled, gently pull them off the parchment paper.", 
+    "ingredient_list": [
+      [
+        3.0, 
+        "large", 
+        "Egg Yolks", 
+        "3 large egg yolks"
+      ], 
+      [
+        0.5, 
+        "cup", 
+        "Sugar", 
+        "\u00bd cup sugar"
+      ], 
+      [
+        null, 
+        null, 
+        "Choice", 
+        "Flavoring extract of choice"
+      ], 
+      [
+        4.0, 
+        null, 
+        "Egg Whites", 
+        "4 egg whites"
+      ], 
+      [
+        1.0, 
+        "cup", 
+        "", 
+        "1 cup (or 4 \u00bd ounces of all-purpose flour)"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/tiramisu", 
+      "episode_id": "tiramisu", 
+      "name": "Tiramisu inspired by Superbad", 
+      "published_date": "2019-11-12T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=J719grjgS-I", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/tiramisu", 
+      "image_link": "https://img.youtube.com/vi/J719grjgS-I/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/296", 
     "recipe_id": 296, 
     "name": "Lasagna", 
@@ -20741,6 +22554,140 @@
       "youtube_link": "https://www.youtube.com/watch?v=W-osWU1WJuM", 
       "official_link": "https://basicswithbabish.co/basicsepisodes/espressodrinks", 
       "image_link": "https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/609", 
+    "recipe_id": 609, 
+    "name": "Leftovers Sandwich", 
+    "image_link": "", 
+    "raw_ingredient_list": "1 leftover turkey breast, with skin\n3 slices white bread\n1 Tbsp vegetable oil\n1 Tbsp butter\nLeftover stuffing\nLeftover mashed potatoes\nLeftover cranberry sauce\nLeftover gravy\nLeftover sweet potatoes", 
+    "raw_procedure": "Remove the skin from the turkey breast. Fry the skin in 1 Tbsp vegetable oil until dark brown and crisp. You can use a heavy-bottomed saucepan to help flatten the skin if needed.\nNext, prepare your bread. Melt 1 Tbsp butter in a skillet over medium heat. Add 2 slices of white bread and toast only one side - trust me!\nPlace the third slice of bread into hot gravy to soak.\nAssemble the sandwich on a wire rack to prevent toast sweat.\nWith toast side up, start assembling. First do a layer of sliced turkey, then a thin layer of stuffing (pressed into a patty).\nTop the stuffing with a layer of cranberry sauce. On top of that, put your slice of gravy-soaked bread.\nTop the \u201cmoistmaker\u201d with more turkey, more stuffing, and more cranberry sauce.\nOn the final slice of bread, smear the toasted side with a little leftover sweet potatoes.\nTop the sandwich with the final piece of bread (white side up). Skewer both sides and cut in half. Look at what you\u2019ve accomplished!", 
+    "ingredient_list": [
+      [
+        1.0, 
+        null, 
+        "Leftover Turkey Breast", 
+        "1 leftover turkey breast, with skin"
+      ], 
+      [
+        3.0, 
+        null, 
+        "Slices White Bread", 
+        "3 slices white bread"
+      ], 
+      [
+        1.0, 
+        "tablespoon", 
+        "Vegetable Oil", 
+        "1 Tbsp vegetable oil"
+      ], 
+      [
+        1.0, 
+        "tablespoon", 
+        "Butter", 
+        "1 Tbsp butter"
+      ], 
+      [
+        null, 
+        null, 
+        "Leftover Stuffing", 
+        "Leftover stuffing"
+      ], 
+      [
+        null, 
+        null, 
+        "Leftover Mashed Potatoes", 
+        "Leftover mashed potatoes"
+      ], 
+      [
+        null, 
+        null, 
+        "Leftover Cranberry Sauce", 
+        "Leftover cranberry sauce"
+      ], 
+      [
+        null, 
+        null, 
+        "Leftover Gravy", 
+        "Leftover gravy"
+      ], 
+      [
+        null, 
+        null, 
+        "Leftover Sweet Potatoes", 
+        "Leftover sweet potatoes"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/thanksgivingleftovers", 
+      "episode_id": "thanksgivingleftovers", 
+      "name": "THANKSGIVING LEFTOVERS", 
+      "published_date": "2019-11-28T00:00:00+00:00", 
+      "youtube_link": "", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/thanksgivingleftovers", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5ddd7a23238a18316c528df2/1575584577512/Thanksgiving+Leftovers_v1_1.png"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/608", 
+    "recipe_id": 608, 
+    "name": "Leftover Waffles", 
+    "image_link": "", 
+    "raw_ingredient_list": "For the Stuffing Waffle:\nLeftover stuffing (as much as you can press into your waffle iron)\nFor the Mashed Potato Waffle (1 waffle):\n2 cups leftover mashed potatoes\n3 ounces cheddar cheese, grated\n1 egg\nFor the Sweet Potato Waffle:\n2 cups leftover sweet potatoes\n1 egg\n2 Tbsp all purpose flour", 
+    "raw_procedure": "Preheat your your waffle iron and spray with with cooking spray.\nTo make a stuffing waffle, spread a layer of stuffing onto the bottom plate of the waffle iron. Press down and cook as normal.\nTo make a mashed potato waffle, combine 2 cups leftover mashed potatoes with 1 beaten egg and 3 ounces grated cheddar cheese. Pour mixture onto waffle iron and cook as normal.\nTo make a sweet potato waffle, combine 2 cups leftover sweet potatoes with 1 beaten egg and 2 Tbsp all purpose flour. Pour mixture onto waffle iron and cook as normal.\nI recommend serving the waffles with leftover turkey and cranberry sauce, topped with some gravy.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Leftover Stuffing", 
+        "Leftover stuffing (as much as you can press into your waffle iron)"
+      ], 
+      [
+        2.0, 
+        "cup", 
+        "Leftover Mashed Potatoes", 
+        "2 cups leftover mashed potatoes"
+      ], 
+      [
+        3.0, 
+        "ounce", 
+        "Cheddar Cheese", 
+        "3 ounces cheddar cheese, grated"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Egg", 
+        "1 egg"
+      ], 
+      [
+        2.0, 
+        "cup", 
+        "Leftover Sweet Potatoes", 
+        "2 cups leftover sweet potatoes"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Egg", 
+        "1 egg"
+      ], 
+      [
+        2.0, 
+        "tablespoon", 
+        "All Purpose Flour", 
+        "2 Tbsp all purpose flour"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/thanksgivingleftovers", 
+      "episode_id": "thanksgivingleftovers", 
+      "name": "THANKSGIVING LEFTOVERS", 
+      "published_date": "2019-11-28T00:00:00+00:00", 
+      "youtube_link": "", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/thanksgivingleftovers", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5ddd7a23238a18316c528df2/1575584577512/Thanksgiving+Leftovers_v1_1.png"
     }
   }, 
   {
@@ -22161,6 +24108,267 @@
       "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU", 
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special", 
       "image_link": "https://img.youtube.com/vi/v5tJBLfeurU/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/586", 
+    "recipe_id": 586, 
+    "name": "Mirage's Pork Chops - Babish Version", 
+    "image_link": "", 
+    "raw_ingredient_list": "Double cut bone-in pork chop\nSweet potato puree:\n2 medium sweet potatoes\n\u00be stick unsalted butter\nKosher salt\nHoney\nMaple syrup\nGlaze:\n50g brown sugar\n20ml white wine vinegar\n20g dijon mustard\n10ml maple syrup\nPinch of ground cloves\nPinch of cinnamon\nCayenne pepper\n15ml hand squeezed pineapple juice", 
+    "raw_procedure": "Prepare sous-vide pork chop, heavily seasoning with kosher salt and frsehly ground pepper on all sides.\nVacuum seal the bag with pork chop, and put into 140 \u00b0F sous-vide device for at least one hour.\nPeel and thinly slice sweet potato.\nPut sliced potato into a medium saucepan, and add half a cup of water and \u00be stick of unsalted butter.\nPlace on the stove over medium-high heat until it starts to shimmer and reduce heat to medium-low, and let them cook until they are completely soft and fall apart (10 to 20 minutes).\nBlend the sweet potatoes until they get smooth and add kosher salt, a little drop of honey and maple syrup. Blend them until it\u2019s completely combined.\nTo prepare the glaze, add 50g of brown sugar, 20 ml white wine vinegar, 20g dijon mustard, 10ml maple syrup, a pinch of ground cloves, a pinch of cinnamon, sprinkle of cayenne pepper, and 15ml of hand squeezed pineapple juice into a bowl.\nRemove pork chop from the sealed bag and place into a preheated pan.\nCook until it has a brown crust all sides\nPlace the glaze into a small saucepan and reduce it for 5-10 minutes until it\u2019s syrupy.\nCarve the pork chop off the bone and cut into thick pieces.\nPut the sweet potato puree on the plate, arrange the pork chop on top, and drizzle with glaze. Serve and enjoy!", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Double Cut Bone-in Pork Chop", 
+        "Double cut bone-in pork chop"
+      ], 
+      [
+        null, 
+        null, 
+        "Sweet Potato Puree:", 
+        "Sweet potato puree:"
+      ], 
+      [
+        2.0, 
+        "medium", 
+        "Sweet Potatoes", 
+        "2 medium sweet potatoes"
+      ], 
+      [
+        0.75, 
+        null, 
+        "Stick Unsalted Butter", 
+        "\u00be stick unsalted butter"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Honey", 
+        "Honey"
+      ], 
+      [
+        null, 
+        null, 
+        "Maple Syrup", 
+        "Maple syrup"
+      ], 
+      [
+        null, 
+        null, 
+        "Glaze:", 
+        "Glaze:"
+      ], 
+      [
+        50.0, 
+        "gram", 
+        "Brown Sugar", 
+        "50g brown sugar"
+      ], 
+      [
+        20.0, 
+        "ml", 
+        "White Wine Vinegar", 
+        "20ml white wine vinegar"
+      ], 
+      [
+        20.0, 
+        "gram", 
+        "Dijon Mustard", 
+        "20g dijon mustard"
+      ], 
+      [
+        10.0, 
+        "ml", 
+        "Maple Syrup", 
+        "10ml maple syrup"
+      ], 
+      [
+        null, 
+        null, 
+        "Ground Cloves", 
+        "Pinch of ground cloves"
+      ], 
+      [
+        null, 
+        null, 
+        "Cinnamon", 
+        "Pinch of cinnamon"
+      ], 
+      [
+        null, 
+        null, 
+        "Cayenne Pepper", 
+        "Cayenne pepper"
+      ], 
+      [
+        15.0, 
+        "ml", 
+        "Hand Squeezed Pineapple Juice", 
+        "15ml hand squeezed pineapple juice"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/mirages-pork-chops", 
+      "episode_id": "mirages-pork-chops", 
+      "name": "Mirage's Pork Chops inspired by Apex Legends", 
+      "published_date": "2019-10-31T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=SZcUJuXjCsw", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/mirages-pork-chops", 
+      "image_link": "https://img.youtube.com/vi/SZcUJuXjCsw/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/587", 
+    "recipe_id": 587, 
+    "name": "Mirage's Pork Chops - In-Game Version", 
+    "image_link": "", 
+    "raw_ingredient_list": "2 Bone-in pork chops\n80ml dijon mustard\n100ml honey\n30ml maple syrup\n15g cinnamon\n15g ground cloves\nCayenne pepper\nKosher salt\nFreshly ground pepper\nVegetable oil", 
+    "raw_procedure": "Add 80ml dijon mustard, 100ml honey, 30ml maple syrup, 15g cinnamon, 15g ground cloves and cayenne pepper into a bowl and mix together.\nSeason pork chop with kosher salt and freshly ground pepper.\nPreheat a large stainless steel skillet with few tablespoons of vegetable oil over medium high heat.\nWhen it starts smoking, place pork chop into the skillet and cook 2-4 minutes until it\u2019s seared.\nAdd the glaze to the pork chops and coat evenly.\nPut into the oven for 10 to 12 minutes until the pork registers 100-145 \u00b0F internally.", 
+    "ingredient_list": [
+      [
+        2.0, 
+        null, 
+        "Bone-in Pork Chops", 
+        "2 Bone-in pork chops"
+      ], 
+      [
+        80.0, 
+        "ml", 
+        "Dijon Mustard", 
+        "80ml dijon mustard"
+      ], 
+      [
+        100.0, 
+        "ml", 
+        "Honey", 
+        "100ml honey"
+      ], 
+      [
+        30.0, 
+        "ml", 
+        "Maple Syrup", 
+        "30ml maple syrup"
+      ], 
+      [
+        15.0, 
+        "gram", 
+        "Cinnamon", 
+        "15g cinnamon"
+      ], 
+      [
+        15.0, 
+        "gram", 
+        "Ground Cloves", 
+        "15g ground cloves"
+      ], 
+      [
+        null, 
+        null, 
+        "Cayenne Pepper", 
+        "Cayenne pepper"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Pepper", 
+        "Freshly ground pepper"
+      ], 
+      [
+        null, 
+        null, 
+        "Vegetable Oil", 
+        "Vegetable oil"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/mirages-pork-chops", 
+      "episode_id": "mirages-pork-chops", 
+      "name": "Mirage's Pork Chops inspired by Apex Legends", 
+      "published_date": "2019-10-31T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=SZcUJuXjCsw", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/mirages-pork-chops", 
+      "image_link": "https://img.youtube.com/vi/SZcUJuXjCsw/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/588", 
+    "recipe_id": 588, 
+    "name": "Mirage's Pork Chops - Writer's Version", 
+    "image_link": "", 
+    "raw_ingredient_list": "90ml dijon mustard\n110ml honey\n30ml maple syrup\nPinch of cinnamon\nPinch of clovers\n15ml hand squeeze pineapple juice\nBrown sugar\n2 bone-in pork chops", 
+    "raw_procedure": "Add 90ml dijon mustard, 110ml honey, 30ml maple syrup, a pinch of cinnamon, a pinch of clovers and 15ml hand squeezed pineapple juice and mix it together.\nTo prevent chop curling, place two shallow cuts in the fat cap of each chop.\nSeason the pork chops with kosher salt, ground pepper, cayenne pepper and sprinkles of brown sugar.\nPreheat the pan and place the pork chop inside. Sear the one side of pork chop for 2 to 4 minutes.\nPour glaze in and let it cook one side of chop before flipping.\nPlace into a preheated 375\u00b0F oven for 10 to 12 minutes until internal temperature 145 \u00b0F  is reached.", 
+    "ingredient_list": [
+      [
+        90.0, 
+        "ml", 
+        "Dijon Mustard", 
+        "90ml dijon mustard"
+      ], 
+      [
+        110.0, 
+        "ml", 
+        "Honey", 
+        "110ml honey"
+      ], 
+      [
+        30.0, 
+        "ml", 
+        "Maple Syrup", 
+        "30ml maple syrup"
+      ], 
+      [
+        null, 
+        null, 
+        "Cinnamon", 
+        "Pinch of cinnamon"
+      ], 
+      [
+        null, 
+        null, 
+        "Clovers", 
+        "Pinch of clovers"
+      ], 
+      [
+        15.0, 
+        "ml", 
+        "Hand Squeeze Pineapple Juice", 
+        "15ml hand squeeze pineapple juice"
+      ], 
+      [
+        null, 
+        null, 
+        "Brown Sugar", 
+        "Brown sugar"
+      ], 
+      [
+        2.0, 
+        null, 
+        "Bone-in Pork Chops", 
+        "2 bone-in pork chops"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/mirages-pork-chops", 
+      "episode_id": "mirages-pork-chops", 
+      "name": "Mirage's Pork Chops inspired by Apex Legends", 
+      "published_date": "2019-10-31T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=SZcUJuXjCsw", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/mirages-pork-chops", 
+      "image_link": "https://img.youtube.com/vi/SZcUJuXjCsw/mqdefault.jpg"
     }
   }, 
   {
@@ -24085,6 +26293,127 @@
       "youtube_link": "https://www.youtube.com/watch?v=exe_I-tnxpU", 
       "official_link": "https://www.bingingwithbabish.com/recipes/orangemochafrapp", 
       "image_link": "https://img.youtube.com/vi/exe_I-tnxpU/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/611", 
+    "recipe_id": 611, 
+    "name": "Osso Buco", 
+    "image_link": "", 
+    "raw_ingredient_list": "2 medium carrots\n1 medium onion\n2 stalks celery\nFlour\nKosher salt\nFreshly ground pepper\n6 veal shanks\nButcher\u2019s twine\nGrapeseed oil\n1-2 Tbsp of tomato paste\n6 whole crushed cloves of garlic\n2 \u00bd cups dry white wine\nFresh rosemary\nFresh thyme\n2 cups beef stock\n2 dried bay leaves\n28-oz can San Marzano tomatoes", 
+    "raw_procedure": "First, make a mirepoix. To make a mirepoix, take 2 medium carrots, 1 medium onion, and 2 stalks of celery, and chop them into manageable bite-sized pieces.\nHeavily season your flour with kosher salt and freshly ground pepper. Then use it to coat 6 veal shanks. Pat it down into the meat and flip to repeat on the other sides of each shank. To ensure the shanks\u2019 structural integrity, tie each shank with a length of butcher\u2019s twine.\nInto a large dutch oven, heat some grapeseed oil over medium-high heat until shimmering before dropping in the veal shanks. Give each shank 3 to 5 minutes per side until you end up with a nice brown color on both sides. It is best to perform this step in two batches so that the shanks do not become overcrowded. After searing, you will end up with leftover browned food residue (fond) that will serve as the basis of great flavor when you are braising.\nPour your mirepoix into the dutch oven and saut\u00e9 for about 5 minutes until it begins to soften and turn brown. Then, add 1 to 2 tablespoons of tomato paste and 6 whole crushed cloves of garlic. Once you have let that saut\u00e9 for an additional minute or until fragrant, deglaze the pot using about 2 \u00bd cups of dry white wine. For a darker and more robust stew, use a dry red wine instead.\nScrape off all of the residue from the bottom of the pot. Add a couple sprigs each of fresh rosemary and thyme, 2 cups of high quality or homemade beef stock, and 2 dried bay leaves.\nPour the entirety of one 28-oz can of San Marzano tomatoes into a mixing bowl and crush them by hand. Then, add the crushed tomatoes to the braising liquid on medium-high heat, attempting to bring it up to a simmer as you begin to add your veal shanks into the pot side-by-side. Add a few extra marrow bones to the pot as well.\nBring the mixture up to a rolling simmer and partially cover the pot. Place the pot into a 325\u00b0F oven for 2 to 3 hours.\nOnce finished, take it out of the oven and allow it to cool for about 10 minutes. The veal shanks should be tender enough to the point where you can easily pierce them with a paring knife. Get the marrow bones out of the pot and scoop out their soft rich interiors. Finely chop the interiors until it is almost a paste and add it to your risotto.\nRemove the veal shanks from the pot and set them aside. Strain the leftover sauce into a medium saucepan, making sure to stir up and press down on the solids to extract every drop of the liquid. You should end up with a thin and oily sauce. Allow it to cool for a few minutes, skim all of the fat off of the top, and reduce for about 30 minutes until it is thick and syrupy.\nFor assembling, lay down a bed of risotto on a plate, place your veal shank over top and remove the string, and ladle the braising liquid along with some of the aromatic vegetables over top before garnishing with gremolata.", 
+    "ingredient_list": [
+      [
+        2.0, 
+        "medium", 
+        "Carrots", 
+        "2 medium carrots"
+      ], 
+      [
+        1.0, 
+        "medium", 
+        "Onion", 
+        "1 medium onion"
+      ], 
+      [
+        2.0, 
+        null, 
+        "Stalks Celery", 
+        "2 stalks celery"
+      ], 
+      [
+        null, 
+        null, 
+        "Flour", 
+        "Flour"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Pepper", 
+        "Freshly ground pepper"
+      ], 
+      [
+        6.0, 
+        null, 
+        "Veal Shanks", 
+        "6 veal shanks"
+      ], 
+      [
+        null, 
+        null, 
+        "Butcher's Twine", 
+        "Butcher\u2019s twine"
+      ], 
+      [
+        null, 
+        null, 
+        "Grapeseed Oil", 
+        "Grapeseed oil"
+      ], 
+      [
+        "1-2", 
+        "tablespoon", 
+        "Tomato Paste", 
+        "1-2 Tbsp of tomato paste"
+      ], 
+      [
+        6.0, 
+        "whole", 
+        "Garlic", 
+        "6 whole crushed cloves of garlic"
+      ], 
+      [
+        2.5, 
+        "cup", 
+        "Dry White Wine", 
+        "2 \u00bd cups dry white wine"
+      ], 
+      [
+        null, 
+        null, 
+        "Fresh Rosemary", 
+        "Fresh rosemary"
+      ], 
+      [
+        null, 
+        null, 
+        "Fresh Thyme", 
+        "Fresh thyme"
+      ], 
+      [
+        2.0, 
+        "cup", 
+        "Beef Stock", 
+        "2 cups beef stock"
+      ], 
+      [
+        2.0, 
+        null, 
+        "Dried Bay Leaves", 
+        "2 dried bay leaves"
+      ], 
+      [
+        "28-", 
+        "ounce", 
+        "Can San Marzano Tomatoes", 
+        "28-oz can San Marzano tomatoes"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/ossobuco", 
+      "episode_id": "ossobuco", 
+      "name": "Osso Buco inspired by The Office", 
+      "published_date": "2019-12-04T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=Jr9Is6NsFck", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/ossobuco", 
+      "image_link": "https://img.youtube.com/vi/Jr9Is6NsFck/mqdefault.jpg"
     }
   }, 
   {
@@ -26080,6 +28409,61 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/591", 
+    "recipe_id": 591, 
+    "name": "Pickled Jalape\u00f1os", 
+    "image_link": "", 
+    "raw_ingredient_list": "8 jalape\u00f1os\n2 cups white vinegar\n2 cups water\n4 smashed garlic cloves\n3 Tbsp kosher salt\n\u00bd cup plain white sugar", 
+    "raw_procedure": "Cut 8 jalape\u00f1os into thick slices. For a quick pickling brine, into a medium saucepan, combine 2 cups of plain white vinegar, 2 cups of water, 4 smashed cloves of garlic, 3 tablespoons of kosher salt, and \u00bc cup of plain white sugar.\nBring the mixture to a boil over medium-high heat and whisk until the sugar and salt are dissolved. Add the jalape\u00f1os, turn off the stove, and give the mix a stir. If you happen to see any garlic cloves that have turned blue, don\u2019t fret because it is totally normal. Set aside and allow the jalape\u00f1os to cool.", 
+    "ingredient_list": [
+      [
+        8.0, 
+        null, 
+        "Jalape\u00f1os", 
+        "8 jalape\u00f1os"
+      ], 
+      [
+        2.0, 
+        "cup", 
+        "White Vinegar", 
+        "2 cups white vinegar"
+      ], 
+      [
+        2.0, 
+        "cup", 
+        "Water", 
+        "2 cups water"
+      ], 
+      [
+        4.0, 
+        null, 
+        "Smashed Garlic Cloves", 
+        "4 smashed garlic cloves"
+      ], 
+      [
+        3.0, 
+        "tablespoon", 
+        "Kosher Salt", 
+        "3 Tbsp kosher salt"
+      ], 
+      [
+        0.5, 
+        "cup", 
+        "Plain White Sugar", 
+        "\u00bd cup plain white sugar"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/nachos", 
+      "episode_id": "nachos", 
+      "name": "Nachos inspired by The Good Place (plus Naco Redemption)", 
+      "published_date": "2019-11-07T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=LgzudBvmd08", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/nachos", 
+      "image_link": "https://img.youtube.com/vi/LgzudBvmd08/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/224", 
     "recipe_id": 224, 
     "name": "Pickled Radishes", 
@@ -26322,6 +28706,159 @@
       "youtube_link": "https://www.youtube.com/watch?v=LXDAu8DnALw", 
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/harrypotterspecial", 
       "image_link": "https://img.youtube.com/vi/LXDAu8DnALw/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/581", 
+    "recipe_id": 581, 
+    "name": "Pie Crust - Double", 
+    "image_link": "", 
+    "raw_ingredient_list": "10 ounces all-purpose flour\n1 tsp kosher salt\n2 sticks unsalted butter, frozen\nIce water\n1 beaten egg white\nGranulated sugar", 
+    "raw_procedure": "Combine 10 ounces of all-purpose flour with 1 teaspoon of kosher salt and dump it into a food processor using the blade attachment. Pulse a few times to combine.\nUsing the grating attachment and allowing it to spin, press two sticks of thoroughly frozen unsalted butter through the feed tube and into the flour mixture. Remove from processor and add mixture to a bowl. Toss to make sure that all of the butter is coated in flour.\nSlowly begin to add 1 tablespoon of ice water at a time to the mixture. The amount will depend on many different factors, so continue adding the ice water slowly and mixing the dough together until it just starts to hold its shape. It took about 16 tablespoons for me.\nTurn the dough out onto a flat work surface and gently knead it into one cohesive mass. Don\u2019t worry if the dough looks a little dry and crumbly because it will continue to hydrate once it is placed in the fridge. Take a knife and divide the dough into two slices.\nWrap the dough in plastic and pat it out into a thick round disc so that the dough is easier to roll out later. Place the dough into the fridge and let sit for at least 30 minutes.\nAfter 30 minutes has passed, the dough should be nice and firm and should look like it has hydrated nicely. In addition, it should be visibly dappled with little bits of butter. Take half of the dough, wrap with plastic, and place it back into the fridge for later.\nOn a flat work surface that is covered with flour, and adding flour as needed, roll the dough out to a diameter that is one to two inches wider than the pie plate you intend to use.\nOnce the dough is rolled out to your desired specifications, use your rolling pin to lift it up over countertop and transfer it over to your pie plate.\nInstead of pressing the pie dough into the corners, lift and drop it into the corners to avoid stretching the pie dough. Make sure that the dough is generously hanging over the sides of the plate. Place it into the fridge and let sit for 30 minutes.\nOnce 30 minutes has passed, line the pie dough with aluminum foil and fill it with the pie weight of your choice, such as rice. Place in a 400 degree Fahrenheit oven for 12 to 15 minutes until lightly brown. Remove the foil and \u201cdock\u201d the crust by poking several little holes in the bottom of the crust using a fork. Place back into the oven for another 7 to 9 minutes until a little more golden brown.\nAfter the crust is removed from the oven, let it cool for a few minutes before using a fork to poke and deflate any puff ups. Trim off the excess pie dough around the circumference.\nTo make the additional layer of crust, roll out the other half of your dough to the same thinness and cover the filling making sure that it is evenly distributed. Trim off any excess dough and tuck it in gently underneath the par baked crust.\nCut a couple of vents in the top of the dough and brush the entire thing down with a beaten egg white and sprinkle with a few pinches of granulated sugar.\nPlace into a 425\u00b0F oven for 35 to 50 minutes. Let it cool for at least 4 hours.", 
+    "ingredient_list": [
+      [
+        10.0, 
+        "ounce", 
+        "All-purpose Flour", 
+        "10 ounces all-purpose flour"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Kosher Salt", 
+        "1 tsp kosher salt"
+      ], 
+      [
+        2.0, 
+        null, 
+        "Sticks Unsalted Butter", 
+        "2 sticks unsalted butter, frozen"
+      ], 
+      [
+        null, 
+        null, 
+        "Ice Water", 
+        "Ice water"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Beaten Egg White", 
+        "1 beaten egg white"
+      ], 
+      [
+        null, 
+        null, 
+        "Granulated Sugar", 
+        "Granulated sugar"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/pies", 
+      "episode_id": "pies", 
+      "name": "PIES", 
+      "published_date": "2019-10-31T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=i7648rZpdck", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/pies", 
+      "image_link": "https://img.youtube.com/vi/i7648rZpdck/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/582", 
+    "recipe_id": 582, 
+    "name": "Pie Crust - Lattice", 
+    "image_link": "", 
+    "raw_ingredient_list": "10 ounces all-purpose flour\n1 tsp kosher salt\n2 sticks unsalted butter (frozen)\nIce water\n1 beaten egg white\nGranulated sugar", 
+    "raw_procedure": "Combine 10 ounces of all-purpose flour with 1 teaspoon of kosher salt and dump it into a food processor using the blade attachment. Pulse a few times to combine. Set aside in a mixing bowl for later.\nUsing the grating attachment and allowing it to spin, press two sticks of thoroughly frozen unsalted butter through the feed tube and into the flour mixture. Toss to make sure that all of the butter is coated in flour.\nSlowly begin to add 1 tablespoon of ice water at a time to the mixture. The amount will depend on many different factors, so continue adding the ice water slowly and mixing the dough together until it just starts to hold its shape.\nTurn the dough out onto a flat work surface and gently knead it into one cohesive mass. Don\u2019t worry if the dough looks a little dry and crumbly because it will continue to hydrate once it is placed in the fridge.\nWrap the dough in plastic and pat it out into a thick round disc so that the dough is easier to roll out later. Place the dough into the fridge and let sit for at least 30 minutes.\nAfter 30 minutes has passed, the dough should be nice and firm and should look like it has hydrated nicely. In addition, it should be visibly dappled with little bits of butter. Take half of the dough, wrap with plastic, and place it back into the fridge for later.\nOn a flat work surface that is covered with flour, and adding flour as needed, roll the dough out into a large rectangle and cut into 10 equally sized strips and add it to an additional pie crust that has been refrigerated and not baked just yet.\nAdd your mixture to the crust and then lay 5 of your strips evenly and parallel to one another across the top of the pie. 1 in the center, 2 each to the right, and 2 each to the left.\nLift up 2 of the strips and snake another strip in underneath them perpendicular. Then, lay those 2 strips back down on top of the new strip and repeat the process with the 3 strips that you didn\u2019t pull back during the last round.\nTrim the edges, tuck them underneath the bottom crust nice and tight, and brush the surface down with 1 beaten egg white and a few sprinkles of granulated sugar. Place in a 400\u00b0F oven for 30 to 45 minutes until deeply golden brown. Let cool completely before digging in.", 
+    "ingredient_list": [
+      [
+        10.0, 
+        "ounce", 
+        "All-purpose Flour", 
+        "10 ounces all-purpose flour"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Kosher Salt", 
+        "1 tsp kosher salt"
+      ], 
+      [
+        2.0, 
+        null, 
+        "Sticks Unsalted Butter", 
+        "2 sticks unsalted butter (frozen)"
+      ], 
+      [
+        null, 
+        null, 
+        "Ice Water", 
+        "Ice water"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Beaten Egg White", 
+        "1 beaten egg white"
+      ], 
+      [
+        null, 
+        null, 
+        "Granulated Sugar", 
+        "Granulated sugar"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/pies", 
+      "episode_id": "pies", 
+      "name": "PIES", 
+      "published_date": "2019-10-31T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=i7648rZpdck", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/pies", 
+      "image_link": "https://img.youtube.com/vi/i7648rZpdck/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/580", 
+    "recipe_id": 580, 
+    "name": "Pie Crust - Standard", 
+    "image_link": "", 
+    "raw_ingredient_list": "10 ounces all-purpose flour\n1 tsp kosher salt\n2 sticks unsalted butter, frozen\nIce water", 
+    "raw_procedure": "Combine 10 ounces of all-purpose flour with 1 teaspoon of kosher salt and dump it into a food processor using the blade attachment. Pulse a few times to combine.\nUsing the grating attachment and allowing it to spin, press two sticks of thoroughly frozen unsalted butter through the feed tube and into the flour mixture. Add mixture to a bowl. Toss to make sure that all of the butter is coated in flour.\nSlowly begin to add 1 tablespoon of ice water at a time to the mixture. The amount will depend on many different factors, so continue adding the ice water slowly and mixing the dough together until it just starts to hold its shape. It took about 15 tablespoons for me.\nTurn the dough out onto a flat, floured work surface and gently knead it into one cohesive mass. Don\u2019t worry if the dough looks a little dry and crumbly because it will continue to hydrate once it is placed in the fridge.\nWrap the dough in plastic wrap and pat it out into a thick round disc so that the dough is easier to roll out later. Place the dough into the fridge and let sit for at least 30 minutes.\nAfter 30 minutes has passed, the dough should be nice and firm and should look like it has hydrated nicely. In addition, it should be visibly dappled with little bits of butter. Take half of the dough, wrap with plastic, and place it back into the fridge for later.\nOn a flat work surface that is covered with flour, and adding flour as needed, roll the dough out to a diameter that is one to two inches wider than the pie plate you intend to use.\nOnce the dough is rolled out to your desired specifications, use your rolling pin to lift it up over countertop and transfer it over to your pie plate.\nInstead of pressing the pie dough into the corners, lift and drop it into the corners to avoid stretching the pie dough. Make sure that the dough is generously hanging over the sides of the plate. Trim off any excess dough on the edge of the pie plate and and wrap up the excess dough for later.\n\u201cFlute\u201d the edge of the pie crust by placing your finger and thumb on the crust and and pressing the dough up between them repeating around the circumference of the crust until you have achieved a pattern. Let sit in the fridge for at least 30 minutes.\nOnce 30 minutes has passed, line the pie dough with aluminum foil and fill it with the pie weight of your choice, such as rice or dry beans. Place in a 400\u00b0F oven for 12 to 15 minutes until lightly brown. Remove the foil and \u201cdock\u201d the crust by poking several little holes in the bottom of the crust using a fork. Place back into the oven for another 7 to 9 minutes until a little more golden brown.", 
+    "ingredient_list": [
+      [
+        10.0, 
+        "ounce", 
+        "All-purpose Flour", 
+        "10 ounces all-purpose flour"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Kosher Salt", 
+        "1 tsp kosher salt"
+      ], 
+      [
+        2.0, 
+        null, 
+        "Sticks Unsalted Butter", 
+        "2 sticks unsalted butter, frozen"
+      ], 
+      [
+        null, 
+        null, 
+        "Ice Water", 
+        "Ice water"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/pies", 
+      "episode_id": "pies", 
+      "name": "PIES", 
+      "published_date": "2019-10-31T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=i7648rZpdck", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/pies", 
+      "image_link": "https://img.youtube.com/vi/i7648rZpdck/mqdefault.jpg"
     }
   }, 
   {
@@ -27557,6 +30094,134 @@
       "youtube_link": "https://www.youtube.com/watch?v=FoztKuXEYnQ", 
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/raisinets", 
       "image_link": "https://img.youtube.com/vi/FoztKuXEYnQ/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/627", 
+    "recipe_id": 627, 
+    "name": "Porchetta Roast", 
+    "image_link": "", 
+    "raw_ingredient_list": "1 large piece of pork belly (about \u00bd pound per person)\nGrated nutmeg\nOrange zest\nSage, finely chopped\nRosemary, finely chopped\nFennel fronds (or fennel seeds)\nToasted pine nuts\nKosher salt\nBlack pepper\nChili flakes\n12 garlic cloves, crushed", 
+    "raw_procedure": "Remove the skin of the pork belly that will be inside the roll. Click the image above to watch the episode and see how I did it.\nDeeply score the meat inside the belly with cuts roughly two inches apart and about an inch deep. Do it in both directions to make a cross hatch pattern.\nTrim the edges of pork belly to make a perfect rectangle.\nTime to spice things up. Use the spices according to your preference and how big your roast is. I added grated nutmeg, orange zest, sage, rosemary, fennel fronds, toasted pine nuts, salt, black pepper, red pepper flakes, and crushed garlic.\nPress the seasonings into the cuts you slit and make sure it\u2019s all evenly distributed.\nRoll up the roast as tight as you can. Using a sharp knife, make lots of lateral cuts on the outside of the roast - just deep enough that they go through the skin, but not so deep that they go into the fat.\nTie the roast with butcher\u2019s twine every 2-3 inches.\nPlace the roast on a rack set in a wire-rimmed baking sheet. Refrigerate overnight uncovered.\nLine your baking sheet with foil, and put the wire rack and roast back inside. Set your oven to 250\u00b0F. Insert a temperature probe into the thickest part of the roast so you can monitor it.\nRoast slow and low for 3-8 hours, depending on the size of your roast. You\u2019re waiting on it to hit an internal temperature of 160\u00b0F.\nCarefully remove from the oven - there will be a lot of liquid fat!\nCrank the oven up to 500\u00b0F. Put the roast back in and keep a close eye on it to make sure it doesn\u2019t burn.\nLet rest for 30 minutes before slicing.", 
+    "ingredient_list": [
+      [
+        1.0, 
+        "large", 
+        "Pork Belly", 
+        "1 large piece of pork belly (about \u00bd pound per person)"
+      ], 
+      [
+        null, 
+        null, 
+        "Grated Nutmeg", 
+        "Grated nutmeg"
+      ], 
+      [
+        null, 
+        null, 
+        "Orange Zest", 
+        "Orange zest"
+      ], 
+      [
+        null, 
+        null, 
+        "Sage", 
+        "Sage, finely chopped"
+      ], 
+      [
+        null, 
+        null, 
+        "Rosemary", 
+        "Rosemary, finely chopped"
+      ], 
+      [
+        null, 
+        null, 
+        "Fennel Fronds", 
+        "Fennel fronds (or fennel seeds)"
+      ], 
+      [
+        null, 
+        null, 
+        "Toasted Pine Nuts", 
+        "Toasted pine nuts"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Black Pepper", 
+        "Black pepper"
+      ], 
+      [
+        null, 
+        null, 
+        "Chili Flakes", 
+        "Chili flakes"
+      ], 
+      [
+        12.0, 
+        null, 
+        "Garlic Cloves", 
+        "12 garlic cloves, crushed"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/porchetta", 
+      "episode_id": "porchetta", 
+      "name": "PORCHETTA", 
+      "published_date": "2019-12-19T00:00:00+00:00", 
+      "youtube_link": "", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/porchetta", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5dfbec45b4462c0f7dfb791a/1576793001560/INSTA.jpeg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/628", 
+    "recipe_id": 628, 
+    "name": "Porchetta Sandwich", 
+    "image_link": "", 
+    "raw_ingredient_list": "Leftover porchetta (recipe above)\nFocaccia or another sturdy bread\nSalsa verde (recipe below)\nArugula", 
+    "raw_procedure": "Slice porchetta as thinly as you can.\nStack sliced porchetta on top of a piece of focaccia or another robust bread.\nSpread salsa verde (recipe below) on top.\nTop with a big handful of arugula.\nSecure with skewers, slice and serve!", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Leftover Porchetta", 
+        "Leftover porchetta (recipe above)"
+      ], 
+      [
+        null, 
+        null, 
+        "Focaccia Or Another Sturdy Bread", 
+        "Focaccia or another sturdy bread"
+      ], 
+      [
+        null, 
+        null, 
+        "Salsa Verde", 
+        "Salsa verde (recipe below)"
+      ], 
+      [
+        null, 
+        null, 
+        "Arugula", 
+        "Arugula"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/porchetta", 
+      "episode_id": "porchetta", 
+      "name": "PORCHETTA", 
+      "published_date": "2019-12-19T00:00:00+00:00", 
+      "youtube_link": "", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/porchetta", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5dfbec45b4462c0f7dfb791a/1576793001560/INSTA.jpeg"
     }
   }, 
   {
@@ -29281,6 +31946,67 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/594", 
+    "recipe_id": 594, 
+    "name": "Queso", 
+    "image_link": "", 
+    "raw_ingredient_list": "2 lbs sharp cheddar cheese, grated\n2 lbs pepper jack cheese, grated\n2 Tbsp butter\n2 Tbsp flour\n1 \u00bd cups cold milk\n8 ounces sharp cheddar cheese\n\u00bd can Rotel tomatoes and chiles", 
+    "raw_procedure": "In a large bowl, hand shred 2 pounds of sharp cheddar cheese and 2 pounds of pepper jack cheese. Avoid using pre shredded cheese because it will prevent maximum melting.\nTo make a roux, in a large saucepan on low-medium heat, add 2 tablespoons of butter and 2 tablespoons of flour once the butter is foamy. Whisk and cook together for about 1 minute before slowly starting to stream in 1-1 \u00bd cups of cold milk to prevent lumps.\nOnce it has cooked for about 2 minutes and it is a thick consistency, add 8 ounces of sharp cheddar cheese and whisk until melted. Drain a can of Rotel tomatoes and chilies and then add \u00bd of the can to the mixture for some color as well as a nice kick. Season generously with kosher salt and make sure the mixture is melted and smooth.", 
+    "ingredient_list": [
+      [
+        2.0, 
+        "lb", 
+        "Sharp Cheddar Cheese", 
+        "2 lbs sharp cheddar cheese, grated"
+      ], 
+      [
+        2.0, 
+        "lb", 
+        "Pepper Jack Cheese", 
+        "2 lbs pepper jack cheese, grated"
+      ], 
+      [
+        2.0, 
+        "tablespoon", 
+        "Butter", 
+        "2 Tbsp butter"
+      ], 
+      [
+        2.0, 
+        "tablespoon", 
+        "Flour", 
+        "2 Tbsp flour"
+      ], 
+      [
+        1.5, 
+        "cup", 
+        "Milk", 
+        "1 \u00bd cups cold milk"
+      ], 
+      [
+        8.0, 
+        "ounce", 
+        "Sharp Cheddar Cheese", 
+        "8 ounces sharp cheddar cheese"
+      ], 
+      [
+        0.5, 
+        null, 
+        "Can Rotel Tomatoes And Chiles", 
+        "\u00bd can Rotel tomatoes and chiles"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/nachos", 
+      "episode_id": "nachos", 
+      "name": "Nachos inspired by The Good Place (plus Naco Redemption)", 
+      "published_date": "2019-11-07T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=LgzudBvmd08", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/nachos", 
+      "image_link": "https://img.youtube.com/vi/LgzudBvmd08/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/77", 
     "recipe_id": 77, 
     "name": "Queso Fundido", 
@@ -30365,6 +33091,85 @@
       "youtube_link": "https://www.youtube.com/watch?v=E_8wQsmjn0A", 
       "official_link": "https://basicswithbabish.co/basicsepisodes/risotto", 
       "image_link": "https://img.youtube.com/vi/E_8wQsmjn0A/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/612", 
+    "recipe_id": 612, 
+    "name": "Risotto alla Milanese", 
+    "image_link": "", 
+    "raw_ingredient_list": "1 small onion\n4 cups high-quality chicken stock\nSaffron threads\n3 Tbsp butter\n2 cups Arborio or carnaroli rice\n1 cup dry white wine\nFreshly grated parmigiano-reggiano cheese\n2-3 Tbsp of unsalted butter\nKosher salt\nFreshly ground pepper", 
+    "raw_procedure": "Begin by finely mincing 1 small onion. Pour 4 cups of high-quality chicken stock into a small saucepan, bring it to a bare simmer, and add a pinch of saffron threads.\nInto a larger saucepan, add 3 tablespoons of butter and place over medium-high heat until it is foaming. Then, add the finely minced onion to the pan. Use a flat wooden spoon or a rubber spatula and allow it to sweat for 1 to 2 minutes until it is just beginning to turn translucent.\nTo the large saucepan, add 2 cups of Arborio or carnaroli rice and toast it in the pan with the onion for 1 to 2 minutes until the edges of the grains of rice turn translucent. At this point, add 1 cup of dry white wine and cook for about 2 to 3 minutes until the alcohol is cooked off.\nStart adding your stock, which should be a golden brown color, 1 to 2 ladlefuls at a time. Once you have added enough stock to mostly saturate the rice, stir relatively frequently until you can drag your spoon across the bottom of the pot and leave a trail. Add 1 to 2 more ladlefuls of hot stock and repeat the process over medium heat until you have added anywhere from 3 to 3 \u00bd cups worth of stock and the rice is creamy and tender, but slightly al dente.\nTurn off the heat and add a gracious amount of freshly grated parmigiano-reggiano cheese as well as 2 to 3 tablespoons of unsalted butter.\nAfter adding the bone marrow interiors to the pan, season with kosher salt and freshly ground pepper.  Stir to combine.", 
+    "ingredient_list": [
+      [
+        1.0, 
+        "small", 
+        "Onion", 
+        "1 small onion"
+      ], 
+      [
+        4.0, 
+        "cup", 
+        "High-quality Chicken Stock", 
+        "4 cups high-quality chicken stock"
+      ], 
+      [
+        null, 
+        null, 
+        "Saffron Threads", 
+        "Saffron threads"
+      ], 
+      [
+        3.0, 
+        "tablespoon", 
+        "Butter", 
+        "3 Tbsp butter"
+      ], 
+      [
+        2.0, 
+        "cup", 
+        "Arborio Or Carnaroli Rice", 
+        "2 cups Arborio or carnaroli rice"
+      ], 
+      [
+        1.0, 
+        "cup", 
+        "Dry White Wine", 
+        "1 cup dry white wine"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Grated Parmigiano-reggiano Cheese", 
+        "Freshly grated parmigiano-reggiano cheese"
+      ], 
+      [
+        "2-3", 
+        "tablespoon", 
+        "Unsalted Butter", 
+        "2-3 Tbsp of unsalted butter"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Pepper", 
+        "Freshly ground pepper"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/ossobuco", 
+      "episode_id": "ossobuco", 
+      "name": "Osso Buco inspired by The Office", 
+      "published_date": "2019-12-04T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=Jr9Is6NsFck", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/ossobuco", 
+      "image_link": "https://img.youtube.com/vi/Jr9Is6NsFck/mqdefault.jpg"
     }
   }, 
   {
@@ -34913,6 +37718,110 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/592", 
+    "recipe_id": 592, 
+    "name": "Taco Beef", 
+    "image_link": "", 
+    "raw_ingredient_list": "1 lb ground beef\n\u00bd onion, finely chopped\n\u00bd cup chicken stock\nKosher salt\nFreshly ground pepper", 
+    "raw_procedure": "In a saut\u00e9 pan, brown 1 pound of ground beef until it is barely pink in the center. Let the fat pool on one side of the pan and add \u00bd of a small finely chopped onion into the fat. Sweat the onions for about 2 minutes prior to tossing with the beef and seasoning it (see seasoning method below).\nAllow the spices to mix for about 1 minute before pouring in \u00bd cup of chicken stock. Season generously with kosher salt and freshly ground pepper. Let it reduce for another 2 to 3 minutes until it is thick.", 
+    "ingredient_list": [
+      [
+        1.0, 
+        "lb", 
+        "Ground Beef", 
+        "1 lb ground beef"
+      ], 
+      [
+        0.5, 
+        null, 
+        "Onion", 
+        "\u00bd onion, finely chopped"
+      ], 
+      [
+        0.5, 
+        "cup", 
+        "Chicken Stock", 
+        "\u00bd cup chicken stock"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Pepper", 
+        "Freshly ground pepper"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/nachos", 
+      "episode_id": "nachos", 
+      "name": "Nachos inspired by The Good Place (plus Naco Redemption)", 
+      "published_date": "2019-11-07T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=LgzudBvmd08", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/nachos", 
+      "image_link": "https://img.youtube.com/vi/LgzudBvmd08/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/593", 
+    "recipe_id": 593, 
+    "name": "Taco Seasoning", 
+    "image_link": "", 
+    "raw_ingredient_list": "1 \u00bd Tbsp chili powder\n\u00bd tsp ground cumin\n\u00bd tsp ground coriander\n\u00bd tsp ground garlic\n\u00bd tsp dried oregano\n\u00bc tsp cayenne pepper", 
+    "raw_procedure": "On top of the beef, add 1 \u00bd tablespoons of chili powder, \u00bd teaspoon of ground cumin, \u00bd teaspoon of ground coriander, \u00bd teaspoon of ground garlic, \u00bd teaspoon of dried oregano, and \u00bc teaspoon of cayenne pepper.", 
+    "ingredient_list": [
+      [
+        1.5, 
+        "tablespoon", 
+        "Chili Powder", 
+        "1 \u00bd Tbsp chili powder"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Ground Cumin", 
+        "\u00bd tsp ground cumin"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Ground Coriander", 
+        "\u00bd tsp ground coriander"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Ground Garlic", 
+        "\u00bd tsp ground garlic"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Dried Oregano", 
+        "\u00bd tsp dried oregano"
+      ], 
+      [
+        0.25, 
+        "teaspoon", 
+        "Cayenne Pepper", 
+        "\u00bc tsp cayenne pepper"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/nachos", 
+      "episode_id": "nachos", 
+      "name": "Nachos inspired by The Good Place (plus Naco Redemption)", 
+      "published_date": "2019-11-07T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=LgzudBvmd08", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/nachos", 
+      "image_link": "https://img.youtube.com/vi/LgzudBvmd08/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/420", 
     "recipe_id": 420, 
     "name": "Taco Town 15-Flavor Taco", 
@@ -36135,6 +39044,85 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/595", 
+    "recipe_id": 595, 
+    "name": "The Nachos", 
+    "image_link": "", 
+    "raw_ingredient_list": "Homemade tortilla chips\nHand-shredded cheese\nTaco beef\nHomemade queso\nBlack beans\nChopped white onion\nChopped tomato\nHomemade pickled jalape\u00f1os\nHomemade guacamole\nSour cream", 
+    "raw_procedure": "On top of the first layer of chips, add a generous sprinkling of your hand-shredded cheeses, a cautious sprinkling of your taco meat, and a drizzle of your queso. Then, add a sprinkling of black beans, chopped white onion, chopped tomato, and a few of your homemade pickled jalape\u00f1os. Repeat this step three times on top of each layer of chips.\nPlace your plate of nachos onto a rimmed baking sheet and bake for 20 minutes at 350\u00b0F. Once 20 minutes has passed, top everything off with sour cream and your homemade guacamole.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Homemade Tortilla Chips", 
+        "Homemade tortilla chips"
+      ], 
+      [
+        null, 
+        null, 
+        "Hand-shredded Cheese", 
+        "Hand-shredded cheese"
+      ], 
+      [
+        null, 
+        null, 
+        "Taco Beef", 
+        "Taco beef"
+      ], 
+      [
+        null, 
+        null, 
+        "Homemade Queso", 
+        "Homemade queso"
+      ], 
+      [
+        null, 
+        null, 
+        "Black Beans", 
+        "Black beans"
+      ], 
+      [
+        null, 
+        null, 
+        "Chopped White Onion", 
+        "Chopped white onion"
+      ], 
+      [
+        null, 
+        null, 
+        "Chopped Tomato", 
+        "Chopped tomato"
+      ], 
+      [
+        null, 
+        null, 
+        "Homemade Pickled Jalape\u00f1os", 
+        "Homemade pickled jalape\u00f1os"
+      ], 
+      [
+        null, 
+        null, 
+        "Homemade Guacamole", 
+        "Homemade guacamole"
+      ], 
+      [
+        null, 
+        null, 
+        "Sour Cream", 
+        "Sour cream"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/nachos", 
+      "episode_id": "nachos", 
+      "name": "Nachos inspired by The Good Place (plus Naco Redemption)", 
+      "published_date": "2019-11-07T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=LgzudBvmd08", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/nachos", 
+      "image_link": "https://img.youtube.com/vi/LgzudBvmd08/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/197", 
     "recipe_id": 197, 
     "name": "The Naco", 
@@ -36259,6 +39247,67 @@
       "youtube_link": "https://www.youtube.com/watch?v=hf5cl-AGYbg", 
       "official_link": "https://www.bingingwithbabish.com/recipes/the-naco", 
       "image_link": "https://img.youtube.com/vi/hf5cl-AGYbg/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/596", 
+    "recipe_id": 596, 
+    "name": "The Naco Redemption", 
+    "image_link": "", 
+    "raw_ingredient_list": "8 ounces sharp cheddar cheese, grated\n1 Tbsp corn starch\n1 cup evaporated milk\n\u00bd cup pickled jalapeno brine\nTortilla chips\nTortilla\nTaco beef", 
+    "raw_procedure": "In a separate bowl, combine 8 ounces of hand-shredded sharp cheddar cheese with 1 tablespoon of corn starch.\nThen, to a small saucepan, add 1 cup of evaporated milk and \u00bd cup of pickled jalape\u00f1o brine. Stir constantly over medium heat until the cheese is melted and starts to resemble a thick nacho cheese. It may look a bit lumpy at first, but just keep stirring and it will eventually smooth out. Note that the cheese will coagulate quickly, so move as fast as possible.\nPlace a few broken tortilla chips on top of a tortilla. Cover the broken chips with cheese sauce, taco beef, and more cheese sauce.", 
+    "ingredient_list": [
+      [
+        8.0, 
+        "ounce", 
+        "Sharp Cheddar Cheese", 
+        "8 ounces sharp cheddar cheese, grated"
+      ], 
+      [
+        1.0, 
+        "tablespoon", 
+        "Corn Starch", 
+        "1 Tbsp corn starch"
+      ], 
+      [
+        1.0, 
+        "cup", 
+        "Evaporated Milk", 
+        "1 cup evaporated milk"
+      ], 
+      [
+        0.5, 
+        "cup", 
+        "Pickled Jalapeno Brine", 
+        "\u00bd cup pickled jalapeno brine"
+      ], 
+      [
+        null, 
+        null, 
+        "Tortilla Chips", 
+        "Tortilla chips"
+      ], 
+      [
+        null, 
+        null, 
+        "Tortilla", 
+        "Tortilla"
+      ], 
+      [
+        null, 
+        null, 
+        "Taco Beef", 
+        "Taco beef"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/nachos", 
+      "episode_id": "nachos", 
+      "name": "Nachos inspired by The Good Place (plus Naco Redemption)", 
+      "published_date": "2019-11-07T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=LgzudBvmd08", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/nachos", 
+      "image_link": "https://img.youtube.com/vi/LgzudBvmd08/mqdefault.jpg"
     }
   }, 
   {
@@ -36486,6 +39535,55 @@
       "youtube_link": "https://www.youtube.com/watch?v=mnT4MDdEazs", 
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/thewirespecial", 
       "image_link": "https://img.youtube.com/vi/mnT4MDdEazs/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/599", 
+    "recipe_id": 599, 
+    "name": "Tiramisu", 
+    "image_link": "", 
+    "raw_ingredient_list": "Ladyfingers\nCustard\nCooled espresso\nDark rum or amaretto (optional)\nCocoa powder", 
+    "raw_procedure": "Spread a little bit of custard in the bottom of a ring mold or a springform pan. Line the inside rim with ladyfingers rounded side out.\nFor layering, dunk some smaller ladyfingers into some cooled off espresso with an optional splash of dark rum or amaretto and arrange as many of them as possible in a single layer lined up in the bottom of the pan. If necessary, cut up the ladyfingers if there are any large gaps that need to be filled in.\nAdd just enough custard to cover the coffee soaked ladyfingers and repeat until the mold is nearly filled to the top. Top it off with a little dusting of cocoa powder. Cover and refrigerate for at least 4 to 24 hours until it is nice and firm.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Ladyfingers", 
+        "Ladyfingers"
+      ], 
+      [
+        null, 
+        null, 
+        "Custard", 
+        "Custard"
+      ], 
+      [
+        null, 
+        null, 
+        "Cooled Espresso", 
+        "Cooled espresso"
+      ], 
+      [
+        null, 
+        null, 
+        "Dark Rum Or Amaretto", 
+        "Dark rum or amaretto (optional)"
+      ], 
+      [
+        null, 
+        null, 
+        "Cocoa Powder", 
+        "Cocoa powder"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/tiramisu", 
+      "episode_id": "tiramisu", 
+      "name": "Tiramisu inspired by Superbad", 
+      "published_date": "2019-11-12T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=J719grjgS-I", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/tiramisu", 
+      "image_link": "https://img.youtube.com/vi/J719grjgS-I/mqdefault.jpg"
     }
   }, 
   {
@@ -37425,6 +40523,43 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/589", 
+    "recipe_id": 589, 
+    "name": "Tortilla Chips", 
+    "image_link": "", 
+    "raw_ingredient_list": "Corn tortillas\n1 gallon canola oil\nKosher salt", 
+    "raw_procedure": "Carefully cut the corn tortillas into tortilla chip shapes.\nDry the tortillas in a 200\u00b0F oven for about 10 minutes. After 5 minutes has passed, take the tortillas out of the oven and flip each tortilla for maximum dryness. Alternatively, let the tortillas sit out out overnight until they are thoroughly stale.\nOnce dry, place the chips into one gallon of canola oil at 350\u00b0F on the stovetop for 1 to 2 minutes. The chips will continue to darken after cooking. While the chips are still hot, season them with kosher salt. Repeat this step with the remaining tortillas. Then, drain the chips on paper towel lined baking sheets.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Corn Tortillas", 
+        "Corn tortillas"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Gallon Canola Oil", 
+        "1 gallon canola oil"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/nachos", 
+      "episode_id": "nachos", 
+      "name": "Nachos inspired by The Good Place (plus Naco Redemption)", 
+      "published_date": "2019-11-07T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=LgzudBvmd08", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/nachos", 
+      "image_link": "https://img.youtube.com/vi/LgzudBvmd08/mqdefault.jpg"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/529", 
     "recipe_id": 529, 
     "name": "Tosi-Inspired Peanut Butter Cookies", 
@@ -38088,6 +41223,73 @@
     }
   }, 
   {
+    "self": "http://localhost:5000/recipe/610", 
+    "recipe_id": 610, 
+    "name": "Turkey Pot Pie", 
+    "image_link": "", 
+    "raw_ingredient_list": "Leftover turkey, shredded\nRoasted potatoes, chopped into bite-sized pieces\nAssorted leftover vegetables, chopped\n3 cups gravy\n\u00bd cup chicken stock\n1 sheet puff pastry\n1 egg, beaten\nFlaky sea salt", 
+    "raw_procedure": "Chop and prepare your fillings. You can use leftover shredded turkey along with whatever veggies you have on hand.\nThin your gravy (3 cups) with \u00bd cup of chicken stock.\nAdd the turkey and vegetables to the gravy and stir to combine.\nDefrost a sheet of puff pastry. Lightly flour it and roll it out until no folds remain.\nCut rounds out of the pastry - about half an inch larger than the diameter of your intended pot pie vessel - I use ramekins.\nFill ramekins to about half an inch from the top to account for bubbling.\nTop each ramekin with a round of puff pastry and press to seal.\nIf you want to freeze them, wrap each ramekin in plastic wrap twice and then foil once.\nIf you want to cook immediately, brush the tops of puff pastry with 1 beaten egg. Top with flaky sea salt.\nBake at 375\u00b0F for 40-60 minutes, depending on the size of your cooking dish.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Leftover Turkey", 
+        "Leftover turkey, shredded"
+      ], 
+      [
+        null, 
+        null, 
+        "Roasted Potatoes", 
+        "Roasted potatoes, chopped into bite-sized pieces"
+      ], 
+      [
+        null, 
+        null, 
+        "Assorted Leftover Vegetables", 
+        "Assorted leftover vegetables, chopped"
+      ], 
+      [
+        3.0, 
+        "cup", 
+        "Gravy", 
+        "3 cups gravy"
+      ], 
+      [
+        0.5, 
+        "cup", 
+        "Chicken Stock", 
+        "\u00bd cup chicken stock"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Sheet Puff Pastry", 
+        "1 sheet puff pastry"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Egg", 
+        "1 egg, beaten"
+      ], 
+      [
+        null, 
+        null, 
+        "Flaky Sea Salt", 
+        "Flaky sea salt"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/thanksgivingleftovers", 
+      "episode_id": "thanksgivingleftovers", 
+      "name": "THANKSGIVING LEFTOVERS", 
+      "published_date": "2019-11-28T00:00:00+00:00", 
+      "youtube_link": "", 
+      "official_link": "https://basicswithbabish.co/basicsepisodes/thanksgivingleftovers", 
+      "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5ddd7a23238a18316c528df2/1575584577512/Thanksgiving+Leftovers_v1_1.png"
+    }
+  }, 
+  {
     "self": "http://localhost:5000/recipe/499", 
     "recipe_id": 499, 
     "name": "Turkey Stock", 
@@ -38176,6 +41378,164 @@
       "youtube_link": "https://www.youtube.com/watch?v=vjZXcapkFEU", 
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/moistmaker", 
       "image_link": "https://img.youtube.com/vi/vjZXcapkFEU/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/606", 
+    "recipe_id": 606, 
+    "name": "Turkey Stock", 
+    "image_link": "", 
+    "raw_ingredient_list": "Turkey trimmings (bones and other pieces)\nVegetable oil\nCelery\nCarrots\nGarlic\nOnion\nFresh rosemary\nFresh thyme\nParsley\nBlack peppercorns\nBay leaves", 
+    "raw_procedure": "Lay out the turkey trimmings on a wire rack that is set on top of a rimmed baking sheet. Drizzle the trimmings with a bit of vegetable oil and place into a 450\u00b0F oven for 30 to 45 minutes until the trimmings are deeply golden brown.\nPlace the trimmings into a tall and narrow stockpot. The more narrow the pot, the less evaporation there will be and the longer you can allow it to simmer without having to top off with extra water. To the pot, add some chopped celery, chopped carrots, one whole head of garlic that is chopped in half, one whole onion that is quartered, a few sprigs each of fresh rosemary and fresh thyme, a little handful of parsley, a few whole black peppercorns, and two bay leaves.\nBring it to a bare simmer, partially cover the pot, and allow to simmer anywhere from 4 to 24 hours. You may use an induction burner if you do not want to keep the stove on all night.", 
+    "ingredient_list": [
+      [
+        null, 
+        null, 
+        "Turkey Trimmings", 
+        "Turkey trimmings (bones and other pieces)"
+      ], 
+      [
+        null, 
+        null, 
+        "Vegetable Oil", 
+        "Vegetable oil"
+      ], 
+      [
+        null, 
+        null, 
+        "Celery", 
+        "Celery"
+      ], 
+      [
+        null, 
+        null, 
+        "Carrots", 
+        "Carrots"
+      ], 
+      [
+        null, 
+        null, 
+        "Garlic", 
+        "Garlic"
+      ], 
+      [
+        null, 
+        null, 
+        "Onion", 
+        "Onion"
+      ], 
+      [
+        null, 
+        null, 
+        "Fresh Rosemary", 
+        "Fresh rosemary"
+      ], 
+      [
+        null, 
+        null, 
+        "Fresh Thyme", 
+        "Fresh thyme"
+      ], 
+      [
+        null, 
+        null, 
+        "Parsley", 
+        "Parsley"
+      ], 
+      [
+        null, 
+        null, 
+        "Black Peppercorns", 
+        "Black peppercorns"
+      ], 
+      [
+        null, 
+        null, 
+        "Bay Leaves", 
+        "Bay leaves"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/turturkeykey", 
+      "episode_id": "turturkeykey", 
+      "name": "Turturkeykey inspired by How I Met Your Mother", 
+      "published_date": "2019-11-26T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=FWQKc6idm64", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/turturkeykey", 
+      "image_link": "https://img.youtube.com/vi/FWQKc6idm64/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/607", 
+    "recipe_id": 607, 
+    "name": "Turturkeykey", 
+    "image_link": "", 
+    "raw_ingredient_list": "1 Tbsp sage\n\u00bd tsp thyme, finely minced\n1 tsp rosemary, finely minced\nKosher salt\nFreshly ground pepper\nFreshly grated nutmeg\nFreshly grated garlic\nOlive oil\nWhole turkey", 
+    "raw_procedure": "Begin by not only de-boning the turkey, but removing the meat and trying to keep as much of the skin as intact as possible. This will ease the process of making a turkey roulade, which will allow us to stuff the turkey with even more turkey. Follow the video if you want to try to do this!\nTaking the dark meat, trim off the gristle and fat from the thigh as well as the drumstick. Cut into 1-inch cubes and place on a parchment lined baking sheet or plate to be chilled in the freezer for 15 to 25 minutes until just starting to turn firm around the edges. Put your food processor blade in the freezer as well. This will make the meat a whole lot easier to grind.\nPlace the blade and the dark meat into the food processor and pulse repeatedly until you end up with a nice and finely textured dark meat ground turkey sausage mixture. Dump the meat out into a bowl.\nFor flavor, add some finely chopped fresh herbs including a packed tablespoon of sage, \u00bd a teaspoon of finely minced thyme, and a teaspoon of finely minced rosemary. Season with kosher salt and freshly ground pepper and then add a little bit of freshly grated nutmeg and a clove or two of freshly grated garlic. Mix together with your hands until all of the herbs and spices are evenly distributed.\nTaking the breast, remove the tender from the bottom and trim off any fat or gristle. \u201cButterfly\u201d the breast so that it is nice and thin for the roulade. Cover with plastic wrap and pound it with either a meat mallet or a frying pan until it is completely flat. For the resemblance of a rectangle, trim and \u201cbutterfly\u201d the tender and use it to patch the corner of the breast.\nEvenly spread the turkey sausage mixture over the top of the flat tender, pat it down, and begin rolling it up starting with the side that has been patched so that it all stays together.\nFlatten out the skin until it is as flat and stretched as possible. Place the roulade in the very center with the seam facing upward. Wrap it in the skin, trim off any excess, and begin to tie. Tie it every 1 to 2 inches and make sure to tie it tighter towards the thicker part of the breast for a more even roulade that cooks more evenly. Rub the roulade down with olive oil, season with kosher salt and freshly ground pepper.\nOnce the roulade is nice and evenly seasoned, roast at 400\u00b0F until the thickest part of the roulade registers to about 160\u00b0F. Allow it to rest uncovered for 20 minutes to prevent the skin from getting flabby.\nCarve and serve as desired, top it off with some gravy that is made from the homemade stock, and add a sprinkle of freshly chopped parsley. Enjoy!", 
+    "ingredient_list": [
+      [
+        1.0, 
+        "tablespoon", 
+        "Sage", 
+        "1 Tbsp sage"
+      ], 
+      [
+        0.5, 
+        "teaspoon", 
+        "Thyme", 
+        "\u00bd tsp thyme, finely minced"
+      ], 
+      [
+        1.0, 
+        "teaspoon", 
+        "Rosemary", 
+        "1 tsp rosemary, finely minced"
+      ], 
+      [
+        null, 
+        null, 
+        "Kosher Salt", 
+        "Kosher salt"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Ground Pepper", 
+        "Freshly ground pepper"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Grated Nutmeg", 
+        "Freshly grated nutmeg"
+      ], 
+      [
+        null, 
+        null, 
+        "Freshly Grated Garlic", 
+        "Freshly grated garlic"
+      ], 
+      [
+        null, 
+        null, 
+        "Olive Oil", 
+        "Olive oil"
+      ], 
+      [
+        null, 
+        null, 
+        "Turkey", 
+        "Whole turkey"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/turturkeykey", 
+      "episode_id": "turturkeykey", 
+      "name": "Turturkeykey inspired by How I Met Your Mother", 
+      "published_date": "2019-11-26T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=FWQKc6idm64", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/turturkeykey", 
+      "image_link": "https://img.youtube.com/vi/FWQKc6idm64/mqdefault.jpg"
     }
   }, 
   {
@@ -38813,6 +42173,43 @@
       "youtube_link": "https://www.youtube.com/watch?v=YxEcd_wTf5c", 
       "official_link": "https://www.bingingwithbabish.com/recipes/coffeejelly", 
       "image_link": "https://img.youtube.com/vi/YxEcd_wTf5c/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/616", 
+    "recipe_id": 616, 
+    "name": "Whipped Cream - Savory", 
+    "image_link": "", 
+    "raw_ingredient_list": "1 cup heavy cream\n2 Tbsp chopped dill\n2 pinches Kosher salt", 
+    "raw_procedure": "Combine heavy cream, dill, and salt in a cup or bowl. Whisk to combine.\nIf you don\u2019t have a CO2 whipped cream dispenser, you can whip the cream using a whisk or hand mixer.\nOr you can pour into a CO2 dispenser, shake a couple of times and dispense.", 
+    "ingredient_list": [
+      [
+        1.0, 
+        "cup", 
+        "Heavy Cream", 
+        "1 cup heavy cream"
+      ], 
+      [
+        2.0, 
+        "tablespoon", 
+        "Chopped Dill", 
+        "2 Tbsp chopped dill"
+      ], 
+      [
+        2.0, 
+        null, 
+        "Pinches Kosher Salt", 
+        "2 pinches Kosher salt"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/bone-broth", 
+      "episode_id": "bone-broth", 
+      "name": "Bone Broth inspired by The Mandalorian", 
+      "published_date": "2019-12-11T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=6GHwG1y-NE0", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/bone-broth", 
+      "image_link": "https://img.youtube.com/vi/6GHwG1y-NE0/mqdefault.jpg"
     }
   }, 
   {
@@ -39501,6 +42898,91 @@
       "youtube_link": "https://www.youtube.com/watch?v=9PWomdbZi2U", 
       "official_link": "https://basicswithbabish.co/basicsepisodes/donuts", 
       "image_link": "https://img.youtube.com/vi/9PWomdbZi2U/mqdefault.jpg"
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/recipe/620", 
+    "recipe_id": 620, 
+    "name": "You Suck at Cooking Chili", 
+    "image_link": "", 
+    "raw_ingredient_list": "2 lbs ground beef\n1 yellow onion, diced\n4 cloves garlic, minced\n1 Tbsp salt\n1 28-ounce can crushed tomatoes\n2 Tbsp chili powder\n1 Tbsp cumin\n\u00bd Tbsp brown sugar\n1 cup beef broth\n1 can kidney beans, drained and rinsed (optional)\n1 drop Tough Sauce (optional)", 
+    "raw_procedure": "Heat 1 tsp cooking oil in a skillet over medium high heat. Add ground beef and cook until nicely browned.\nAdd a few tablespoons of olive oil to a large pot. Heat over medium heat. Add diced onion and cook until they start to brown.\nAdd more olive oil and add the garlic. Stir to combine.\nAdd browned beef and 1 tablespoon of salt. Stir to combine.\nAdd the can of crushed tomatoes to the pot. Stir to combine. Turn the heat to medium low.\nAdd chili powder, cumin, brown sugar, and beef broth. Stir to combine.\nCover and simmer on low for 10 minutes.\nIf you want to add beans to your chili, add them now. Stir to combine and then let simmer for 30-60 minutes.\nAdd 250g bread flour, 250g all-purpose flour and 1 \u00bd tsp of kosher salt into a bowl and give a tiny whisk to combine.\nAdd one large beaten egg to the wet ingredients, then pour the dry ingredients into the bowl.\nUsing the stand mixer with a dough hook, mix on low speed for about 1 minute until everything is combined and then on to medium speed for 5 to 8 minutes, until a smooth, tacky, supple, ball of dough forms.\nClean out and lightly oil a bowl and place the dough inside. Let it rise for about one hour or until doubled in size.\nPlace the dough onto the work surface and flour well on both sides. Roll out, divide and shape hotdog buns. Watch the episode for my method!\nPlace them on a parchment-lined baking sheet at least 1 inch apart and spray with nonstick cooking spray. Loosely cover with plastic wrap.\nLet sit until doubled in size.\nBrush down the tops of each bun with a beaten egg.\nBake them in a 350\u00b0F oven for 15 to 25 minutes, or until they emerge golden brown and puffed.\nAllow to cool completely on a wire rack.\nTo assemble cure seasoning mixture, combine sea salt, paprika, garlic powder, ground white pepper, onion powder and pink curing salt.\nWith the grinder running on medium speed, feed the beef and fat through using the finest grinding plates. Every 4 cubes of beef, run a cube of fat through so that the mixture is marbled.\nAdd the cure/spice mixture to the ground beef and mix it together quickly to prevent heating up the beef.\nPut half of your beef mixture and half of your ice into a food processor. Pulse to combine until it is a paste like consistency. The ice and beef should emulsify together. Repeat with the second half of beef and ice. This beef mixture is now \u2018farce.\u2019 Before leaving it to cure, pan fry a little bit of the farce in oil so that you can make sure the salt and seasoning is good. If it is, move on to curing.\nTo cure the farce, put the meat in a bowl and cover with plastic wrap pressed directly up against the surface of the meat. Keep it in the fridge for 24 hours.\nThread the natural sheep hotdog casing onto the sausage stuffer and stuff with the cold farce and twist into hotdogs. Watch the episode to see how I do this!\nLet the hot dogs sit uncovered in the fridge for a couple hours.\nUsing a stove-top smoker (or your preferred smoking method), smoke the hotdogs with mesquite and hickory wood chips over medium-high heat. Once you see whisps of smoke coming out, lower the heat to medium low and keep the smoker at about  170\u00b0F for 45 minutes. Snip them apart into individual hot dogs.", 
+    "ingredient_list": [
+      [
+        2.0, 
+        "lb", 
+        "Ground Beef", 
+        "2 lbs ground beef"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Yellow Onion", 
+        "1 yellow onion, diced"
+      ], 
+      [
+        4.0, 
+        null, 
+        "Cloves Garlic", 
+        "4 cloves garlic, minced"
+      ], 
+      [
+        1.0, 
+        "tablespoon", 
+        "Salt", 
+        "1 Tbsp salt"
+      ], 
+      [
+        "1 28-", 
+        "ounce", 
+        "Can Crushed Tomatoes", 
+        "1 28-ounce can crushed tomatoes"
+      ], 
+      [
+        2.0, 
+        "tablespoon", 
+        "Chili Powder", 
+        "2 Tbsp chili powder"
+      ], 
+      [
+        1.0, 
+        "tablespoon", 
+        "Cumin", 
+        "1 Tbsp cumin"
+      ], 
+      [
+        0.5, 
+        "tablespoon", 
+        "Brown Sugar", 
+        "\u00bd Tbsp brown sugar"
+      ], 
+      [
+        1.0, 
+        "cup", 
+        "Beef Broth", 
+        "1 cup beef broth"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Can Kidney Beans", 
+        "1 can kidney beans, drained and rinsed (optional)"
+      ], 
+      [
+        1.0, 
+        null, 
+        "Drop Tough Sauce", 
+        "1 drop Tough Sauce (optional)"
+      ]
+    ], 
+    "source": {
+      "self": "http://localhost:5000/episode/beer-steamed-chili-dogs", 
+      "episode_id": "beer-steamed-chili-dogs", 
+      "name": "Chili Dogs inspired by The Irishman", 
+      "published_date": "2019-12-17T00:00:00+00:00", 
+      "youtube_link": "https://www.youtube.com/watch?v=c0A1bkF4mKM", 
+      "official_link": "https://www.bingingwithbabish.com/recipes/beer-steamed-chili-dogs", 
+      "image_link": "https://img.youtube.com/vi/c0A1bkF4mKM/mqdefault.jpg"
     }
   }
 ]
