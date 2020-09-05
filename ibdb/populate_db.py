@@ -43,6 +43,20 @@ def extract_youtube_link(post_body):
         youtube_link = json.loads(soup.find('div', class_='video-block')['data-block-json'])['url']
         return youtube_link
     except Exception:
+        pass
+
+    try:
+        youtube_link = None
+        y_links = soup.find_all('a', href=YOUTUBE_ID_MATCHER)
+        for yl in y_links:
+            m = re.search(YOUTUBE_ID_MATCHER, yl['href'])
+            _youtube_link = 'https://www.youtube.com/watch?v=' + m.group(1)
+            if youtube_link and _youtube_link != youtube_link:
+                logging.warning(f'Multiple youtube links for ep: {y_links}')
+                break
+            youtube_link = _youtube_link
+        return youtube_link or ''
+    except Exception:
         return ''
 
 
