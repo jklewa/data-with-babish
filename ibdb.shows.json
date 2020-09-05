@@ -6,6 +6,294 @@
     "image_link": null, 
     "episodes": [
       {
+        "self": "http://localhost:5000/episode/meat-tornado-parks-and-rec", 
+        "episode_id": "meat-tornado-parks-and-rec", 
+        "name": "Meat Tornado inspired by Parks & Rec ", 
+        "published_date": "2020-08-25T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=LsNg-KrFxCA", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/meat-tornado-parks-and-rec", 
+        "image_link": "https://img.youtube.com/vi/LsNg-KrFxCA/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/four-horsemeal-eggporkalypse-parks-and-rec", 
+        "episode_id": "four-horsemeal-eggporkalypse-parks-and-rec", 
+        "name": "Four Horsemeals of the Eggporkalypse inspired by Parks & Rec ", 
+        "published_date": "2020-08-18T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=NWGVFi-213w", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/four-horsemeal-eggporkalypse-parks-and-rec", 
+        "image_link": "https://img.youtube.com/vi/NWGVFi-213w/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/paunch-burger-parks-and-rec", 
+        "episode_id": "paunch-burger-parks-and-rec", 
+        "name": "Paunch Burger inspired by Parks & Rec", 
+        "published_date": "2020-08-12T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=RN8uoBwRr1k", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/paunch-burger-parks-and-rec", 
+        "image_link": "https://img.youtube.com/vi/RN8uoBwRr1k/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/avatar-fire-flakes", 
+        "episode_id": "avatar-fire-flakes", 
+        "name": "Fire Flakes inspired by Avatar the Last Airbender", 
+        "published_date": "2020-08-04T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=RhUMA3bCvAY", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/avatar-fire-flakes", 
+        "image_link": "https://img.youtube.com/vi/RhUMA3bCvAY/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/dexter-key-lime-pie", 
+        "episode_id": "dexter-key-lime-pie", 
+        "name": "Perfect Key Lime Pie inspired by Dexter", 
+        "published_date": "2020-07-29T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=UOztOU4T-_c", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/dexter-key-lime-pie", 
+        "image_link": "https://img.youtube.com/vi/UOztOU4T-_c/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/croque-monsieur-brooklyn-nine-nine", 
+        "episode_id": "croque-monsieur-brooklyn-nine-nine", 
+        "name": "Croque Monsieur inspired by Brooklyn Nine-Nine", 
+        "published_date": "2020-07-21T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=q7JDYiLz9Mo", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/croque-monsieur-brooklyn-nine-nine", 
+        "image_link": "https://img.youtube.com/vi/q7JDYiLz9Mo/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/sundae-spongebob", 
+        "episode_id": "sundae-spongebob", 
+        "name": "Bad Breath Sundae inspired by SpongeBob Squarepants", 
+        "published_date": "2020-07-21T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=Ya2_Khcdwsk", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/sundae-spongebob", 
+        "image_link": "https://img.youtube.com/vi/Ya2_Khcdwsk/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/lotr-feast-special", 
+        "episode_id": "lotr-feast-special", 
+        "name": "LOTR 7 Million Subscriber Special inspired by Lord of the Rings", 
+        "published_date": "2020-07-13T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=-aFrFsn998o", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/lotr-feast-special", 
+        "image_link": "https://img.youtube.com/vi/-aFrFsn998o/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/twinkie-weiner-sandwich", 
+        "episode_id": "twinkie-weiner-sandwich", 
+        "name": "Twinkie Weiner Sandwich inspired by Weird Al's UHF", 
+        "published_date": "2020-06-24T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=jKslWoZXvn0", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/twinkie-weiner-sandwich", 
+        "image_link": "https://img.youtube.com/vi/jKslWoZXvn0/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/sweetrolls-skyrim", 
+        "episode_id": "sweetrolls-skyrim", 
+        "name": "Sweetrolls inspired by Skyrim", 
+        "published_date": "2020-06-18T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=98R3fgPKmYs", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/sweetrolls-skyrim", 
+        "image_link": "https://img.youtube.com/vi/98R3fgPKmYs/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/pastrami", 
+        "episode_id": "pastrami", 
+        "name": "Pastrami inspired by When Harry Met Sally", 
+        "published_date": "2020-06-09T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=hFeDKLt4P-Y", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/pastrami", 
+        "image_link": "https://img.youtube.com/vi/hFeDKLt4P-Y/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/butterednoodles-community", 
+        "episode_id": "butterednoodles-community", 
+        "name": "Buttered Noodles inspired by Community", 
+        "published_date": "2020-05-26T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=xGHTj4y_bd8", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/butterednoodles-community", 
+        "image_link": "https://img.youtube.com/vi/xGHTj4y_bd8/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/troyscasserole-community", 
+        "episode_id": "troyscasserole-community", 
+        "name": "Troy's Casserole inspired by Community", 
+        "published_date": "2020-05-20T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=mGZcg6A6FTg", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/troyscasserole-community", 
+        "image_link": "https://img.youtube.com/vi/mGZcg6A6FTg/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/lilbits-rickandmorty", 
+        "episode_id": "lilbits-rickandmorty", 
+        "name": "Lil' Bits inspired by Rick & Morty", 
+        "published_date": "2020-05-12T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=BxEDztBWdbc", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/lilbits-rickandmorty", 
+        "image_link": "https://img.youtube.com/vi/BxEDztBWdbc/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/archer-margarita", 
+        "episode_id": "archer-margarita", 
+        "name": "Margaritas inspired by Archer", 
+        "published_date": "2020-05-05T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=hsPXh3yna1U", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/archer-margarita", 
+        "image_link": "https://img.youtube.com/vi/hsPXh3yna1U/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/homemade-mozzarella", 
+        "episode_id": "homemade-mozzarella", 
+        "name": "Caprese Salad inspired by Jojo's Bizarre Adventure", 
+        "published_date": "2020-04-21T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=Ao7RQj8sxuo", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/homemade-mozzarella", 
+        "image_link": "https://img.youtube.com/vi/Ao7RQj8sxuo/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/ben-wyatt-calzones", 
+        "episode_id": "ben-wyatt-calzones", 
+        "name": "Calzones inspired by Parks & Rec", 
+        "published_date": "2020-04-15T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=PvgCEifW7Jo", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/ben-wyatt-calzones", 
+        "image_link": "https://img.youtube.com/vi/PvgCEifW7Jo/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/maisel-brisket", 
+        "episode_id": "maisel-brisket", 
+        "name": "Brisket inspired by The Marvelous Mrs. Maisel", 
+        "published_date": "2020-04-08T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=TutmnWa6dVo", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/maisel-brisket", 
+        "image_link": "https://img.youtube.com/vi/TutmnWa6dVo/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/imaginary-pie-hook", 
+        "episode_id": "imaginary-pie-hook", 
+        "name": "Imaginary Pie inspired by Hook", 
+        "published_date": "2020-03-31T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=lZsun7ppDeQ", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/imaginary-pie-hook", 
+        "image_link": "https://img.youtube.com/vi/lZsun7ppDeQ/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/cold-cure", 
+        "episode_id": "cold-cure", 
+        "name": "Cold Cure inspired by Kenan & Kel", 
+        "published_date": "2020-03-24T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=M-7t9FBecoU", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/cold-cure", 
+        "image_link": "https://img.youtube.com/vi/M-7t9FBecoU/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/bunnicorn-pizza", 
+        "episode_id": "bunnicorn-pizza", 
+        "name": "Bunnicorn Pizza inspired by Star Trek: Picard", 
+        "published_date": "2020-03-17T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=2a8Uz3pYTh4", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/bunnicorn-pizza", 
+        "image_link": "https://img.youtube.com/vi/2a8Uz3pYTh4/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/turf-n-turf", 
+        "episode_id": "turf-n-turf", 
+        "name": "Turf n' Turf inspired by Parks and Rec", 
+        "published_date": "2020-03-11T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=peLPVIGFaz0", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/turf-n-turf", 
+        "image_link": "https://img.youtube.com/vi/peLPVIGFaz0/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/chocolate-pudding-rugrats", 
+        "episode_id": "chocolate-pudding-rugrats", 
+        "name": "Chocolate Pudding (4 Ways) inspired by Rugrats", 
+        "published_date": "2020-03-03T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=1lPU4CwSnTc", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/chocolate-pudding-rugrats", 
+        "image_link": "https://img.youtube.com/vi/1lPU4CwSnTc/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/bop-egg-sandwich", 
+        "episode_id": "bop-egg-sandwich", 
+        "name": "Egg Sandwich (with Homemade Ciabatta) inspired by Birds of Prey", 
+        "published_date": "2020-02-25T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=6JFVKnrE_d8", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/bop-egg-sandwich", 
+        "image_link": "https://img.youtube.com/vi/6JFVKnrE_d8/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/ram-don-parasite", 
+        "episode_id": "ram-don-parasite", 
+        "name": "Ram-don inspired by Parasite", 
+        "published_date": "2020-02-20T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=ge4vghXQTtQ", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/ram-don-parasite", 
+        "image_link": "https://img.youtube.com/vi/ge4vghXQTtQ/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/the-perfect-bite", 
+        "episode_id": "the-perfect-bite", 
+        "name": "The Perfect Bite (and Duck Carbonara) inspired by YOU", 
+        "published_date": "2020-02-12T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=7vTxUYBD0Nk", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/the-perfect-bite", 
+        "image_link": "https://img.youtube.com/vi/7vTxUYBD0Nk/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/instant-mac-cheese", 
+        "episode_id": "instant-mac-cheese", 
+        "name": "Instant Mac and Cheese inspired by Once Upon a Time in Hollywood", 
+        "published_date": "2020-02-04T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=EuU_uUb_3nQ", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/instant-mac-cheese", 
+        "image_link": "https://img.youtube.com/vi/EuU_uUb_3nQ/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/braciole", 
+        "episode_id": "braciole", 
+        "name": "Braciole inspired by Everybody Loves Raymond", 
+        "published_date": "2020-01-30T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=1inpwA-_PzQ", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/braciole", 
+        "image_link": "https://img.youtube.com/vi/1inpwA-_PzQ/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/marmalade", 
+        "episode_id": "marmalade", 
+        "name": "Marmalade Sandwiches inspired by Paddington", 
+        "published_date": "2020-01-23T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=g1j-5UkZyL0", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/marmalade", 
+        "image_link": "https://img.youtube.com/vi/g1j-5UkZyL0/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/dessertdogs", 
+        "episode_id": "dessertdogs", 
+        "name": "Dessert Dogs inspired by The Simpsons", 
+        "published_date": "2020-01-15T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=chil75Ip-3w", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/dessertdogs", 
+        "image_link": "https://img.youtube.com/vi/chil75Ip-3w/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/egg-custard-tarts", 
+        "episode_id": "egg-custard-tarts", 
+        "name": "Egg Custard Tarts inspired by Avatar the Last Airbender", 
+        "published_date": "2020-01-08T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=F2ENkOF3fMQ", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/egg-custard-tarts", 
+        "image_link": "https://img.youtube.com/vi/F2ENkOF3fMQ/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/banoffeepie", 
+        "episode_id": "banoffeepie", 
+        "name": "Banoffee Pie inspired by Love, Actually", 
+        "published_date": "2019-12-27T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=TNTKRj2lS1g", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/banoffeepie", 
+        "image_link": "https://img.youtube.com/vi/TNTKRj2lS1g/mqdefault.jpg"
+      }, 
+      {
         "self": "http://localhost:5000/episode/beer-steamed-chili-dogs", 
         "episode_id": "beer-steamed-chili-dogs", 
         "name": "Chili Dogs inspired by The Irishman", 
@@ -1571,40 +1859,247 @@
     "image_link": null, 
     "episodes": [
       {
+        "self": "http://localhost:5000/episode/mashed-potatoes", 
+        "episode_id": "mashed-potatoes", 
+        "name": "MASHED POTATOES", 
+        "published_date": "2020-09-03T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=ZLnWdPPJvYg", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/mashed-potatoes", 
+        "image_link": "https://img.youtube.com/vi/ZLnWdPPJvYg/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/potato-hash", 
+        "episode_id": "potato-hash", 
+        "name": "POTATO HASH", 
+        "published_date": "2020-08-27T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=R4kwxiDlKzs", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/potato-hash", 
+        "image_link": "https://img.youtube.com/vi/R4kwxiDlKzs/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/kimchi", 
+        "episode_id": "kimchi", 
+        "name": "KIMCHI", 
+        "published_date": "2020-08-14T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=R0x7ECje-lY", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/kimchi", 
+        "image_link": "https://img.youtube.com/vi/R0x7ECje-lY/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/cheese-fondue", 
+        "episode_id": "cheese-fondue", 
+        "name": "CHEEESE FONDUE", 
+        "published_date": "2020-07-23T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=_X-Mm8h1AHM", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/cheese-fondue", 
+        "image_link": "https://img.youtube.com/vi/_X-Mm8h1AHM/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/mochi-icecream", 
+        "episode_id": "mochi-icecream", 
+        "name": "MOCHI ICE CREAM", 
+        "published_date": "2020-07-16T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=fM57RNUpd10", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/mochi-icecream", 
+        "image_link": "https://img.youtube.com/vi/fM57RNUpd10/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/onepot-pasta", 
+        "episode_id": "onepot-pasta", 
+        "name": "ONE-POT PASTA", 
+        "published_date": "2020-06-25T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=cs8OYby6RrA", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/onepot-pasta", 
+        "image_link": "https://img.youtube.com/vi/cs8OYby6RrA/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/french-toast", 
+        "episode_id": "french-toast", 
+        "name": "FRENCH TOAST", 
+        "published_date": "2020-06-20T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=SntU6-vxzWc", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/french-toast", 
+        "image_link": "https://img.youtube.com/vi/SntU6-vxzWc/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/shakshuka", 
+        "episode_id": "shakshuka", 
+        "name": "SHAKSHUKA", 
+        "published_date": "2020-06-11T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=SjCkW-oAFQ8", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/shakshuka", 
+        "image_link": "https://img.youtube.com/vi/SjCkW-oAFQ8/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/macandcheese", 
+        "episode_id": "macandcheese", 
+        "name": "MAC AND CHEESE", 
+        "published_date": "2020-06-05T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=FUeyrEN14Rk", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/macandcheese", 
+        "image_link": "https://img.youtube.com/vi/FUeyrEN14Rk/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/smokedribs", 
+        "episode_id": "smokedribs", 
+        "name": "GAS GRILL-SMOKED RIBS", 
+        "published_date": "2020-05-21T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=sX2fsvYkKF4", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/smokedribs", 
+        "image_link": "https://img.youtube.com/vi/sX2fsvYkKF4/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/coffeecake", 
+        "episode_id": "coffeecake", 
+        "name": "COFFEE CAKE", 
+        "published_date": "2020-05-14T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=ds0jskRIeRI", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/coffeecake", 
+        "image_link": "https://img.youtube.com/vi/ds0jskRIeRI/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/gnocchi", 
+        "episode_id": "gnocchi", 
+        "name": "GNOCCHI", 
+        "published_date": "2020-05-07T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=LMJrLc13SuI", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/gnocchi", 
+        "image_link": "https://img.youtube.com/vi/LMJrLc13SuI/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/pan-sauces", 
+        "episode_id": "pan-sauces", 
+        "name": "PAN SAUCES", 
+        "published_date": "2020-05-01T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=ru4U_T83uOU", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/pan-sauces", 
+        "image_link": "https://img.youtube.com/vi/ru4U_T83uOU/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/chimichangas", 
+        "episode_id": "chimichangas", 
+        "name": "CHIMICHANGAS", 
+        "published_date": "2020-04-28T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=szFLA4_pwew", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/chimichangas", 
+        "image_link": "https://img.youtube.com/vi/szFLA4_pwew/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/ice-cream-sandwiches", 
+        "episode_id": "ice-cream-sandwiches", 
+        "name": "ICE CREAM SANDWICHES", 
+        "published_date": "2020-04-24T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=m6fnJ6rQPok", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/ice-cream-sandwiches", 
+        "image_link": "https://img.youtube.com/vi/m6fnJ6rQPok/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/hot-chicken", 
+        "episode_id": "hot-chicken", 
+        "name": "NASHVILLE HOT CHICKEN", 
+        "published_date": "2020-04-10T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=FPx7X7k0HuM", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/hot-chicken", 
+        "image_link": "https://img.youtube.com/vi/FPx7X7k0HuM/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/latkes", 
+        "episode_id": "latkes", 
+        "name": "LATKES (POTATO PANCAKES)", 
+        "published_date": "2020-04-02T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=AwOoMG3J4h8", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/latkes", 
+        "image_link": "https://img.youtube.com/vi/AwOoMG3J4h8/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/chickpeas", 
+        "episode_id": "chickpeas", 
+        "name": "CHICKPEAS (HUMMUS, CHANA MASALA, MERINGUES, COOKIES)", 
+        "published_date": "2020-03-19T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=LfzKfD_WuDM", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/chickpeas", 
+        "image_link": "https://img.youtube.com/vi/LfzKfD_WuDM/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/shepherdspie", 
+        "episode_id": "shepherdspie", 
+        "name": "SHEPHERD'S PIE", 
+        "published_date": "2020-03-12T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=Uj8BC2kcp7A", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/shepherdspie", 
+        "image_link": "https://img.youtube.com/vi/Uj8BC2kcp7A/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/sourdough-bread", 
+        "episode_id": "sourdough-bread", 
+        "name": "SOURDOUGH BREAD", 
+        "published_date": "2020-02-28T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=bSYdABrPrtM", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/sourdough-bread", 
+        "image_link": "https://img.youtube.com/vi/bSYdABrPrtM/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/millionaires-shortbread", 
+        "episode_id": "millionaires-shortbread", 
+        "name": "MILLIONAIRE'S SHORTBREAD", 
+        "published_date": "2020-02-14T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=GWAY5i3CMpo", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/millionaires-shortbread", 
+        "image_link": "https://img.youtube.com/vi/GWAY5i3CMpo/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/chili-two-ways", 
+        "episode_id": "chili-two-ways", 
+        "name": "CHILI (MEAT & VEGETARIAN)", 
+        "published_date": "2020-01-30T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=4BTm1Ezl6XE", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/chili-two-ways", 
+        "image_link": "https://img.youtube.com/vi/4BTm1Ezl6XE/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://localhost:5000/episode/frenchonionsoup", 
+        "episode_id": "frenchonionsoup", 
+        "name": "FRENCH ONION SOUP", 
+        "published_date": "2020-01-09T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=1qRir364aNk", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/frenchonionsoup", 
+        "image_link": "https://img.youtube.com/vi/1qRir364aNk/mqdefault.jpg"
+      }, 
+      {
         "self": "http://localhost:5000/episode/porchetta", 
         "episode_id": "porchetta", 
         "name": "PORCHETTA", 
         "published_date": "2019-12-19T00:00:00+00:00", 
-        "youtube_link": "", 
+        "youtube_link": "https://www.youtube.com/watch?v=YMF27Q9nLNY", 
         "official_link": "https://basicswithbabish.co/basicsepisodes/porchetta", 
-        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5dfbec45b4462c0f7dfb791a/1576793001560/INSTA.jpeg"
+        "image_link": "https://img.youtube.com/vi/YMF27Q9nLNY/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/cornbread", 
         "episode_id": "cornbread", 
         "name": "CORNBREAD", 
         "published_date": "2019-12-12T00:00:00+00:00", 
-        "youtube_link": "", 
+        "youtube_link": "https://www.youtube.com/watch?v=nAtCqHJofJk", 
         "official_link": "https://basicswithbabish.co/basicsepisodes/cornbread", 
-        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5de93b7e864be248174b8bf2/1576793099334/Screen+Shot+2019-12-05+at+10.45.40+AM+%282%29.png"
+        "image_link": "https://img.youtube.com/vi/nAtCqHJofJk/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/thanksgivingleftovers", 
         "episode_id": "thanksgivingleftovers", 
         "name": "THANKSGIVING LEFTOVERS", 
         "published_date": "2019-11-28T00:00:00+00:00", 
-        "youtube_link": "", 
+        "youtube_link": "https://www.youtube.com/watch?v=iTZIm0-PuUw", 
         "official_link": "https://basicswithbabish.co/basicsepisodes/thanksgivingleftovers", 
-        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5ddd7a23238a18316c528df2/1575584577512/Thanksgiving+Leftovers_v1_1.png"
+        "image_link": "https://img.youtube.com/vi/iTZIm0-PuUw/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/healthymeals2", 
         "episode_id": "healthymeals2", 
         "name": "HEALTHIER VERSIONS OF UNHEALTHY FOOD", 
         "published_date": "2019-11-14T00:00:00+00:00", 
-        "youtube_link": "", 
+        "youtube_link": "https://www.youtube.com/watch?v=yYUUobrsFDs", 
         "official_link": "https://basicswithbabish.co/basicsepisodes/healthymeals2", 
-        "image_link": "https://static1.squarespace.com/static/59d40133017db2fd8a60b3fe/59de3f48e5dd5bc20a0b8b70/5dcda60abc3504519f276f70/1575584541302/Screen+Shot+2019-11-14+at+1.06.35+PM.png"
+        "image_link": "https://img.youtube.com/vi/yYUUobrsFDs/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/pies", 
@@ -1863,9 +2358,9 @@
         "episode_id": "tonkotsuramen", 
         "name": "TONKOTSU RAMEN", 
         "published_date": "2018-10-04T00:00:00+00:00", 
-        "youtube_link": "https://www.youtube.com/watch?v=jFM_rJ5MtYk", 
+        "youtube_link": "https://www.youtube.com/watch?v=2U_0OlCizx0", 
         "official_link": "https://basicswithbabish.co/basicsepisodes/tonkotsuramen", 
-        "image_link": "https://img.youtube.com/vi/jFM_rJ5MtYk/mqdefault.jpg"
+        "image_link": "https://img.youtube.com/vi/2U_0OlCizx0/mqdefault.jpg"
       }, 
       {
         "self": "http://localhost:5000/episode/kitchencare", 

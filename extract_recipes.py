@@ -213,6 +213,7 @@ class BabishSync:
     @timeit
     def generate_babish_json(self):
         # Parse all episodes into babish.json
+        youtube_pattern = re.compile(r'youtube.+v=([^#\&\?]+)')
 
         episodes = []
         for link in self.episode_links:
@@ -222,7 +223,23 @@ class BabishSync:
 
             episode_name = soup.title.string.strip().replace(' — Binging With Babish', '')
 
-            youtube_link = json.loads(soup.find('div', class_='video-block')['data-block-json'])['url']
+            youtube_link = (json.loads((soup.find('div', class_='video-block') or {}).get('data-block-json') or 'null') or {}).get('url')
+
+            if not youtube_link:
+                y_links = soup.find_all('a', href=youtube_pattern)
+                youtube_link = None
+                if y_links:
+                    for yl in y_links:
+                        m = re.search(youtube_pattern, yl['href'])
+                        _youtube_link = 'https://www.youtube.com/watch?v=' + m.group(1)
+                        if youtube_link and _youtube_link != youtube_link:
+                            logging.warning(f'Multiple youtube links for ep: {link} {y_links}')
+                            break
+                        youtube_link = _youtube_link
+
+            m = re.search(youtube_pattern, youtube_link or '')
+            if m:
+                youtube_link = 'https://www.youtube.com/watch?v=' + m.group(1)
 
             published = soup.find('time', class_='published')['datetime']
 
