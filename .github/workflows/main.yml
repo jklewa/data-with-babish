@@ -1,7 +1,10 @@
 name: Update IBDB
 on:
   schedule:
-    - cron:  '0 * * * *'
+    - cron:  '0 5-22 * * *'
+      
+  workflow_dispatch:
+
 jobs:
   update-ibdb:
     runs-on: ubuntu-latest
