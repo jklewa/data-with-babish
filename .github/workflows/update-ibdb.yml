@@ -2,7 +2,7 @@ name: Update IBDB
 on:
   schedule:
     - cron:  '0 5-22 * * *'
-      
+
   workflow_dispatch:
 
 jobs:
@@ -28,33 +28,38 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
-      
-      - name: Setup build deps
-        run: |
-          sudo apt-get install -y postgresql-12
-      
-      - name: Init postgres
-        run: |
-          PGPASSWORD=postgres psql -h localhost -p 54320 -U postgres -f ibdb/db_dump.sql
-          
-      - uses: actions/setup-python@v2
+      - name: Setup python
+        uses: actions/setup-python@v2
         with:
-          python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+          python-version: '3.8' # Version range or exact version of a Python version to use, using SemVer's version range syntax
           architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
 
-      - name: Run ibdb
+      - name: Install postgres deps
+        run: |
+          sudo apt-get install -y postgresql-12
+
+      - name: Init postgres db
+        run: |
+          PGPASSWORD=postgres psql -h localhost -p 54320 -U postgres -f ibdb/db_dump.sql
+
+      - name: Install python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt -r ibdb/requirements.txt
+
+      - name: Update IBDB
         env:
           POSTGRES_PASSWORD: postgres
         run: |
+          python ibdb/api.py &
           python ibdb/populate_db.py
           bash ./update.sh
-        
-      
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
-            commit-message: Updating IBDB
-            title: Updating IBDB
-            body: |
-              - IDBD updates
-            branch: update-ibdb
+          commit-message: Updating IBDB
+          title: Updating IBDB
+          body: |
+            - IDBD updates
+          branch: update-ibdb
