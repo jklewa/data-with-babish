@@ -1,5 +1,65 @@
 [
   {
+    "self": "http://localhost:5000/episode/pollos-hermanos-breaking-bad", 
+    "episode_id": "pollos-hermanos-breaking-bad", 
+    "name": "Pollos Hermanos inspired by Breaking Bad", 
+    "published_date": "2020-09-15T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=ndqjxhi7uZs", 
+    "official_link": "https://www.bingingwithbabish.com/recipes/pollos-hermanos-breaking-bad", 
+    "image_link": "https://img.youtube.com/vi/ndqjxhi7uZs/mqdefault.jpg", 
+    "related": {
+      "show": {
+        "self": "http://localhost:5000/show/1", 
+        "show_id": 1, 
+        "name": "Binging with Babish", 
+        "image_link": null
+      }, 
+      "guests": [], 
+      "inspired_by": [], 
+      "recipes": []
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/episode/lamb-chops", 
+    "episode_id": "lamb-chops", 
+    "name": "LAMB CHOPS", 
+    "published_date": "2020-09-11T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=9eyS51ufJGU", 
+    "official_link": "https://basicswithbabish.co/basicsepisodes/lamb-chops", 
+    "image_link": "https://img.youtube.com/vi/9eyS51ufJGU/mqdefault.jpg", 
+    "related": {
+      "show": {
+        "self": "http://localhost:5000/show/2", 
+        "show_id": 2, 
+        "name": "Basics with Babish", 
+        "image_link": null
+      }, 
+      "guests": [], 
+      "inspired_by": [], 
+      "recipes": []
+    }
+  }, 
+  {
+    "self": "http://localhost:5000/episode/enchiladas-schitts-creek", 
+    "episode_id": "enchiladas-schitts-creek", 
+    "name": "Enchiladas inspired by Schitt's Creek", 
+    "published_date": "2020-09-09T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=SkKjQhCTP54", 
+    "official_link": "https://www.bingingwithbabish.com/recipes/enchiladas-schitts-creek", 
+    "image_link": "https://img.youtube.com/vi/SkKjQhCTP54/mqdefault.jpg", 
+    "related": {
+      "show": {
+        "self": "http://localhost:5000/show/1", 
+        "show_id": 1, 
+        "name": "Binging with Babish", 
+        "image_link": null
+      }, 
+      "guests": [], 
+      "inspired_by": [], 
+      "recipes": []
+    }
+  }, 
+  {
     "self": "http://localhost:5000/episode/mashed-potatoes", 
     "episode_id": "mashed-potatoes", 
     "name": "MASHED POTATOES", 
