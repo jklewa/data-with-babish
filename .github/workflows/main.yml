@@ -1,0 +1,53 @@
+name: Update IBDB
+on:
+  schedule:
+    - cron:  '0 * * * *'
+jobs:
+  update-ibdb:
+    runs-on: ubuntu-latest
+    # Service containers to run with `container-job`
+    services:
+      # Label used to access the service container
+      postgres:
+        # Docker Hub image
+        image: postgres:12
+        # Set health checks to wait until postgres has started
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          # Maps tcp port 5432 on service container to the host
+          - 54320:5432
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      
+      - name: Setup build deps
+        run: |
+          apt-get install -y postgresql-12
+      
+      - name: Init postgres
+        run: |
+          psql -h localhost -p 54320 -u postgres -w -f ibdb/db_dump.sql
+          
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+          architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
+
+      - name: Run ibdb
+        run: |
+          python ibdb/populate_db.py
+          bash ./update.sh
+        
+      
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+            commit-message: Updating IBDB
+            title: Updating IBDB
+            body: |
+              - IDBD updates
+            branch: update-ibdb
