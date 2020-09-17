@@ -35,7 +35,7 @@ jobs:
       
       - name: Init postgres
         run: |
-          PGPASSWORD=postgres psql -h localhost -p 54320 -u postgres -f ibdb/db_dump.sql
+          PGPASSWORD=postgres psql -h localhost -p 54320 -U postgres -f ibdb/db_dump.sql
           
       - uses: actions/setup-python@v2
         with:
