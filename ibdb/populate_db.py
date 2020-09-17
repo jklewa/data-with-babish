@@ -4,16 +4,17 @@ import bs4
 import logging
 import json
 import re
-import string
+import os
 import html
 
 from datetime import datetime
-# from pprint import pprint
 from functional import seq
 from furl import furl
 
 YOUTUBE_ID_MATCHER = re.compile(
     r'^.*(?:(?:youtu\.be\/|v\/|vi\/|u\/\w\/|embed\/)|(?:(?:watch)?\?v(?:i)?=|\&v(?:i)?=))([^#\&\?]+).*')
+
+DB_PASSWORD = os.environ.get('POSTGRES_PASSWORD')
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
@@ -160,7 +161,7 @@ def fetch_basics_episode_list():
     logging.info('Fetched episode list, %s episodes', episode_count)
     return reversed(episodes.to_list())
 
-conn = psycopg2.connect("dbname=babish_db user=postgres host=localhost port=54320")
+conn = psycopg2.connect(dbname='babish_db', user='postgres', host='localhost', port=54320, password=DB_PASSWORD)
 
 EPISODES = fetch_binging_episode_list()
 
