@@ -1,3 +1,5 @@
+import os
+
 from flask import (
     Flask,
     jsonify,
@@ -20,8 +22,13 @@ from utils import (
     normalize_raw_list
 )
 
+DB_USERNAME = os.environ.get('POSTGRES_USERNAME', 'postgres')
+DB_PASSWORD = os.environ.get('POSTGRES_PASSWORD', '')
+DB_HOSTNAME = os.environ.get('POSTGRES_HOSTNAME', 'db')
+DB_PORT = int(os.environ.get('POSTGRES_PORT', '5432'))
+
 app = Flask(__name__, template_folder='/app/templates')
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2://postgres@db:5432/babish_db"
+app.config['SQLALCHEMY_DATABASE_URI'] = f"postgresql+psycopg2://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOSTNAME}:{DB_PORT}/babish_db"
 app.config['JSON_SORT_KEYS'] = False
 db.init_app(app)
 

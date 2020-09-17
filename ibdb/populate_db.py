@@ -14,7 +14,10 @@ from furl import furl
 YOUTUBE_ID_MATCHER = re.compile(
     r'^.*(?:(?:youtu\.be\/|v\/|vi\/|u\/\w\/|embed\/)|(?:(?:watch)?\?v(?:i)?=|\&v(?:i)?=))([^#\&\?]+).*')
 
-DB_PASSWORD = os.environ.get('POSTGRES_PASSWORD')
+DB_USERNAME = os.environ.get('POSTGRES_USERNAME', 'postgres')
+DB_PASSWORD = os.environ.get('POSTGRES_PASSWORD', '')
+DB_HOSTNAME = os.environ.get('POSTGRES_HOSTNAME', 'db')
+DB_PORT = int(os.environ.get('POSTGRES_PORT', '5432'))
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
@@ -161,7 +164,7 @@ def fetch_basics_episode_list():
     logging.info('Fetched episode list, %s episodes', episode_count)
     return reversed(episodes.to_list())
 
-conn = psycopg2.connect(dbname='babish_db', user='postgres', host='localhost', port=54320, password=DB_PASSWORD)
+conn = psycopg2.connect(dbname='babish_db', user=DB_USERNAME, host=DB_HOSTNAME, port=DB_PORT, password=DB_PASSWORD)
 
 EPISODES = fetch_binging_episode_list()
 
