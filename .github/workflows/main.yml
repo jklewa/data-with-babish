@@ -1,50 +1,53 @@
-- name: Create Pull Request
-  # You may pin to the exact commit or the version.
-  # uses: peter-evans/create-pull-request@44f76dd5b30daa9cc0444913acc58a040c19539c
-  uses: peter-evans/create-pull-request@v3.3.0
-  with:
-    # GITHUB_TOKEN or a `repo` scoped Personal Access Token (PAT)
-#     token: # optional, default is ${{ github.token }}
-    # Relative path under $GITHUB_WORKSPACE to the repository. Defaults to $GITHUB_WORKSPACE.
+name: Update IBDB
+on:
+  schedule:
+    - cron:  '0 * * * *'
+jobs:
+  update-ibdb:
+    runs-on: ubuntu-latest
+    # Service containers to run with `container-job`
+    services:
+      # Label used to access the service container
+      postgres:
+        # Docker Hub image
+        image: postgres:12
+        # Set health checks to wait until postgres has started
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          # Maps tcp port 5432 on service container to the host
+          - 54320:5432
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      
+      - name: Setup build deps
+        run: |
+          apt-get install -y postgresql-12
+      
+      - name: Init postgres
+        run: |
+          psql -h localhost -p 54320 -u postgres -w -f ibdb/db_dump.sql
+          
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+          architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
 
-#     path: # optional
-    # The message to use when committing changes.
-#     commit-message: # optional, default is [create-pull-request] automated change
-    # The committer name and email address in the format `Display Name <email@address.com>`. Defaults to the GitHub Actions bot user.
-
-#     committer: # optional, default is GitHub <noreply@github.com>
-    # The author name and email address in the format `Display Name <email@address.com>`. Defaults to the user who triggered the workflow run.
-
-#     author: # optional, default is ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-    # Add `Signed-off-by` line by the committer at the end of the commit log message.
-#     signoff: # optional
-    # The pull request branch name.
-#     branch: # optional, default is create-pull-request/patch
-    # Delete the `branch` when closing pull requests, and when undeleted after merging. Recommend `true`.
-
-#     delete-branch: # optional
-    # The branch suffix type when using the alternative branching strategy.
-    branch-suffix: auto-update # optional
-    # The pull request base branch. Defaults to the branch checked out in the workflow.
-
-#     base: # optional
-#     # A fork of the checked out parent repository to which the pull request branch will be pushed. e.g. `owner/repo-fork`. The pull request will be created to merge the fork's branch into the parent's base.
-
-#     push-to-fork: # optional
-#     # The title of the pull request.
-#     title: # optional, default is Changes by create-pull-request action
-#     # The body of the pull request.
-#     body: # optional, default is Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action
-#     # A comma or newline separated list of labels.
-#     labels: # optional
-#     # A comma or newline separated list of assignees (GitHub usernames).
-    assignees: jklewa # optional
-#     # A comma or newline separated list of reviewers (GitHub usernames) to request a review from.
-#     reviewers: # optional
-#     # A comma or newline separated list of GitHub teams to request a review from. Note that a `repo` scoped Personal Access Token (PAT) may be required.
-
-#     team-reviewers: # optional
-#     # The number of the milestone to associate the pull request with.
-#     milestone: # optional
-#     # Create a draft pull request
-#     draft: # optional
+      - name: Run ibdb
+        run: |
+          python ibdb/populate_db.py
+          bash ./update.sh
+        
+      
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+            commit-message: Updating IBDB
+            title: Updating IBDB
+            body: |
+              - IDBD updates
+            branch: update-ibdb
