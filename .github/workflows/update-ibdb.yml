@@ -54,6 +54,7 @@ jobs:
           POSTGRES_PORT: 54320
         run: |
           python ibdb/api.py &
+          sleep 5
           python ibdb/populate_db.py
           bash ./update.sh
 
