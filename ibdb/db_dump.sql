@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 11.6 (Debian 11.6-1.pgdg90+1)
--- Dumped by pg_dump version 12.4
+-- Dumped from database version 12.4 (Debian 12.4-1.pgdg100+1)
+-- Dumped by pg_dump version 12.4 (Ubuntu 12.4-1.pgdg18.04+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -39,6 +39,8 @@ SET client_min_messages = warning;
 SET row_security = off;
 
 SET default_tablespace = '';
+
+SET default_table_access_method = heap;
 
 --
 -- Name: episode; Type: TABLE; Schema: public; Owner: postgres
@@ -271,6 +273,27 @@ being-with-babish-3	Surprising Rashid	https://www.youtube.com/watch?v=DApDGZ1AkF
 being-with-babish-1	Giving Back to a Fan in Need	https://www.youtube.com/watch?v=YUDogDKMJbE	https://www.youtube.com/watch?v=YUDogDKMJbE	https://img.youtube.com/vi/YUDogDKMJbE/mqdefault.jpg	2019-03-22 00:00:00+00	4
 being-with-babish-4	Training like Kratos for 30 Days | Body by Babish	https://www.youtube.com/watch?v=n_aq5TVb0HA	https://www.youtube.com/watch?v=n_aq5TVb0HA	https://img.youtube.com/vi/n_aq5TVb0HA/mqdefault.jpg	2019-06-07 00:00:00+00	4
 being-with-babish-5	Whiskey Basics | Being with Babish Double Feature	https://www.youtube.com/watch?v=32Qlof81vcM	https://www.youtube.com/watch?v=32Qlof81vcM	https://img.youtube.com/vi/32Qlof81vcM/mqdefault.jpg	2019-07-12 00:00:00+00	4
+risotto	RISOTTO	https://www.youtube.com/watch?v=E_8wQsmjn0A	https://basicswithbabish.co/basicsepisodes/risotto	https://img.youtube.com/vi/E_8wQsmjn0A/mqdefault.jpg	2018-05-31 00:00:00+00	2
+carbonara	CARBONARA	https://www.youtube.com/watch?v=qoHnwOHLiMk	https://basicswithbabish.co/basicsepisodes/carbonara	https://img.youtube.com/vi/qoHnwOHLiMk/mqdefault.jpg	2019-08-15 00:00:00+00	2
+sauces-9w5tm-2njph	PASTA	https://www.youtube.com/watch?v=HdSLKZ6LN94	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm-2njph	https://img.youtube.com/vi/HdSLKZ6LN94/mqdefault.jpg	2017-11-17 00:00:00+00	2
+tacos	TACOS	https://www.youtube.com/watch?v=Zghe7SNmhOs	https://basicswithbabish.co/basicsepisodes/tacos	https://img.youtube.com/vi/Zghe7SNmhOs/mqdefault.jpg	2018-08-23 00:00:00+00	2
+cajunfood	CAJUN FOOD	https://www.youtube.com/watch?v=nORg_aXMsmA	https://basicswithbabish.co/basicsepisodes/cajunfood	https://img.youtube.com/vi/nORg_aXMsmA/mqdefault.jpg	2019-09-13 00:00:00+00	2
+introductiontools	INTRODUCTION/TOOLS	https://www.youtube.com/watch?v=1AxLzMJIgxM	https://basicswithbabish.co/basicsepisodes/2017/10/11/introductiontools	https://img.youtube.com/vi/1AxLzMJIgxM/mqdefault.jpg	2017-10-11 00:00:00+00	2
+sauces	SAUCES	https://www.youtube.com/watch?v=Upqp21Dm5vg	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces	https://img.youtube.com/vi/Upqp21Dm5vg/mqdefault.jpg	2017-10-23 00:00:00+00	2
+sauces-9w5tm	STEAK	https://www.youtube.com/watch?v=PFDElc5sfSM	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm	https://img.youtube.com/vi/PFDElc5sfSM/mqdefault.jpg	2017-11-02 00:00:00+00	2
+sauces-9w5tm-2njph-5ahwj	CHICKEN BREASTS	https://www.youtube.com/watch?v=hR6agVkRRUo	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm-2njph-5ahwj	https://img.youtube.com/vi/hR6agVkRRUo/mqdefault.jpg	2017-12-07 00:00:00+00	2
+parksandrecburger	Parks & Rec Burger Cookoff	https://www.youtube.com/watch?v=MP_nWuLYpJw	https://www.bingingwithbabish.com/recipes/parksandrecburger	https://img.youtube.com/vi/MP_nWuLYpJw/mqdefault.jpg	2016-02-10 00:00:00+00	1
+il-timpano-inspired-by-big-night	Il Timpano inspired by Big Night	https://www.youtube.com/watch?v=PIsIE0oHGgo	https://www.bingingwithbabish.com/recipes/2017/2/20/il-timpano-inspired-by-big-night	https://img.youtube.com/vi/PIsIE0oHGgo/mqdefault.jpg	2016-02-20 00:00:00+00	1
+applepiesmoothie	Apple Pie Smoothie	https://www.youtube.com/watch?v=mv1z2p3to0U	https://www.bingingwithbabish.com/recipes/2017/8/22/applepiesmoothie	https://img.youtube.com/vi/mv1z2p3to0U/mqdefault.jpg	2016-03-13 00:00:00+00	1
+croquemadame	Croque Madame: The Ultimate Breakfast Sandwich	https://www.youtube.com/watch?v=dVRl1aP28BI	https://www.bingingwithbabish.com/recipes/2017/8/22/croquemadame	https://img.youtube.com/vi/dVRl1aP28BI/mqdefault.jpg	2016-03-13 00:00:00+00	1
+reversesearsteak	How To Reverse-Sear A Steak	https://www.youtube.com/watch?v=akO6D_tc0lo	https://www.bingingwithbabish.com/recipes/2017/8/22/reversesearsteak	https://img.youtube.com/vi/akO6D_tc0lo/mqdefault.jpg	2016-03-14 00:00:00+00	1
+louiefriedchicken	Fried Chicken inspired by Louie	https://www.youtube.com/watch?v=7UEIBdMyj9g	https://www.bingingwithbabish.com/recipes/2016/3/16/louiefriedchicken	https://img.youtube.com/vi/7UEIBdMyj9g/mqdefault.jpg	2016-03-16 00:00:00+00	1
+aglioeolio	Pasta Aglio e Olio inspired by Chef	https://www.youtube.com/watch?v=bJUiWdM__Qw	https://www.bingingwithbabish.com/recipes/2017/5/4/aglioeolio	https://img.youtube.com/vi/bJUiWdM__Qw/mqdefault.jpg	2016-03-26 00:00:00+00	1
+nypizzatmnt	New York-Style Pizza inspired by TMNT II: Secret of the Ooze	https://www.youtube.com/watch?v=KUu2gJn1dzc	https://www.bingingwithbabish.com/recipes/2017/5/16/nypizzatmnt	https://img.youtube.com/vi/KUu2gJn1dzc/mqdefault.jpg	2016-04-30 00:00:00+00	1
+cheesesteak	Philly Cheesesteaks inspired by Creed	https://www.youtube.com/watch?v=Zru1yk--rGQ	https://www.bingingwithbabish.com/recipes/2017/5/4/cheesesteak	https://img.youtube.com/vi/Zru1yk--rGQ/mqdefault.jpg	2016-08-21 00:00:00+00	1
+applepie	How To Make Apple Pie	https://www.youtube.com/watch?v=-Vy12e0LjX4	https://www.bingingwithbabish.com/recipes/2017/8/22/applepie	https://img.youtube.com/vi/-Vy12e0LjX4/mqdefault.jpg	2016-09-23 00:00:00+00	1
+moistmaker	The Moistmaker inspired by Friends	https://www.youtube.com/watch?v=vjZXcapkFEU	https://www.bingingwithbabish.com/recipes/2017/6/27/moistmaker	https://img.youtube.com/vi/vjZXcapkFEU/mqdefault.jpg	2016-11-14 00:00:00+00	1
+goodfellasprisonsauce	Prison Sauce inspired by Goodfellas	https://www.youtube.com/watch?v=uEjMyHccX8U	https://www.bingingwithbabish.com/recipes/2017/6/15/goodfellasprisonsauce	https://img.youtube.com/vi/uEjMyHccX8U/mqdefault.jpg	2016-11-30 00:00:00+00	1
 worldsgreatestsandwich	World's Greatest Sandwich from Spanglish	https://www.youtube.com/watch?v=A_l8_C-EO38	https://www.bingingwithbabish.com/recipes/2017/8/22/worldsgreatestsandwich	https://img.youtube.com/vi/A_l8_C-EO38/mqdefault.jpg	2016-12-05 00:00:00+00	1
 eggswoodhouse	Eggs Woodhouse For Good from Archer	https://www.youtube.com/watch?v=eVgmI-YF16g	https://www.bingingwithbabish.com/recipes/2017/8/22/eggswoodhouse	https://img.youtube.com/vi/eVgmI-YF16g/mqdefault.jpg	2016-12-13 00:00:00+00	1
 dessertpasta	Breakfast Dessert Pasta from Elf	https://www.youtube.com/watch?v=PsuoXi2D6tM	https://www.bingingwithbabish.com/recipes/2017/8/22/dessertpasta	https://img.youtube.com/vi/PsuoXi2D6tM/mqdefault.jpg	2016-12-20 00:00:00+00	1
@@ -282,7 +305,6 @@ itsalwayssunnyspecial	It's Always Sunny in Philadelphia Special	https://www.yout
 ratatouille	Confit Byaldi inspired by Ratatouille	https://www.youtube.com/watch?v=roCX0AfBseQ	https://www.bingingwithbabish.com/recipes/2017/5/5/ratatouille	https://img.youtube.com/vi/roCX0AfBseQ/mqdefault.jpg	2017-03-02 00:00:00+00	1
 pollo-a-la-plancha	Pollo a la Plancha inspired by Moonlight	https://www.youtube.com/watch?v=ZsBWgeQHjnM	https://www.bingingwithbabish.com/recipes/2017/5/4/pollo-a-la-plancha	https://img.youtube.com/vi/ZsBWgeQHjnM/mqdefault.jpg	2017-03-06 00:00:00+00	1
 bobsburgers	Bob's Burgers	https://www.youtube.com/watch?v=basFyoMSjds	https://www.bingingwithbabish.com/recipes/2017/6/27/bobsburgers	https://img.youtube.com/vi/basFyoMSjds/mqdefault.jpg	2017-03-14 00:00:00+00	1
-risotto	RISOTTO	https://www.youtube.com/watch?v=E_8wQsmjn0A	https://basicswithbabish.co/basicsepisodes/risotto	https://img.youtube.com/vi/E_8wQsmjn0A/mqdefault.jpg	2018-05-31 00:00:00+00	2
 adventure-time-sandwich	Jake's Perfect Sandwich inspired by Adventure Time	https://www.youtube.com/watch?v=HsxBw6ls7Z0	https://www.bingingwithbabish.com/recipes/2017/3/18/adventure-time-sandwich	https://img.youtube.com/vi/HsxBw6ls7Z0/mqdefault.jpg	2017-03-18 00:00:00+00	1
 cubanos-inspired-by-chef	Cubanos inspired by Chef	https://www.youtube.com/watch?v=hXYoduN0kWs	https://www.bingingwithbabish.com/recipes/2017/3/28/cubanos-inspired-by-chef	https://img.youtube.com/vi/hXYoduN0kWs/mqdefault.jpg	2017-03-28 00:00:00+00	1
 szechuansauce	Rick & Morty Szechuan Sauce	https://www.youtube.com/watch?v=wBhhlE92mIQ	https://www.bingingwithbabish.com/recipes/2017/6/27/szechuansauce	https://img.youtube.com/vi/wBhhlE92mIQ/mqdefault.jpg	2017-04-04 00:00:00+00	1
@@ -309,7 +331,7 @@ lemon-pepper-wet	Lemon Pepper Wet inspired by Atlanta	https://www.youtube.com/wa
 zelda-monster-cake	Monster Cake inspired by Zelda: Breath of the Wild	https://www.youtube.com/watch?v=VgtpaBOkvrA	https://www.bingingwithbabish.com/recipes/2017/8/01/zelda-monster-cake	https://img.youtube.com/vi/VgtpaBOkvrA/mqdefault.jpg	2017-08-01 00:00:00+00	1
 puerco-pibil	Puerco Pibil inspired by Once Upon a Time in Mexico	https://www.youtube.com/watch?v=5_sdhAFGmbw	https://www.bingingwithbabish.com/recipes/2017/8/08/puerco-pibil	https://img.youtube.com/vi/5_sdhAFGmbw/mqdefault.jpg	2017-08-08 00:00:00+00	1
 ccourtesan-au-chocolat	Courtesan au Chocolat inspired by Grand Budapest Hotel	https://www.youtube.com/watch?v=GO5P3fLTwA0	https://www.bingingwithbabish.com/recipes/2017/8/15/ccourtesan-au-chocolat	https://img.youtube.com/vi/GO5P3fLTwA0/mqdefault.jpg	2017-08-15 00:00:00+00	1
-carbonara	CARBONARA	https://www.youtube.com/watch?v=qoHnwOHLiMk	https://basicswithbabish.co/basicsepisodes/carbonara	https://img.youtube.com/vi/qoHnwOHLiMk/mqdefault.jpg	2019-08-15 00:00:00+00	2
+pulledpork	PULLED PORK	https://www.youtube.com/watch?v=_SObOsXrDRc	https://basicswithbabish.co/basicsepisodes/pulledpork	https://img.youtube.com/vi/_SObOsXrDRc/mqdefault.jpg	2019-05-16 00:00:00+00	2
 fitz-sandwich	The Fitz Sandwich inspired by Agents of S.H.I.E.L.D.	https://www.youtube.com/watch?v=xugufifsB4s	https://www.bingingwithbabish.com/recipes/2017/8/22/fitz-sandwich	https://img.youtube.com/vi/xugufifsB4s/mqdefault.jpg	2017-08-22 00:00:00+00	1
 ultimeatum	The Ultimeatum inspired by Regular Show	https://www.youtube.com/watch?v=S7eUmZ4Sp3U	https://www.bingingwithbabish.com/recipes/ultimeatum	https://img.youtube.com/vi/S7eUmZ4Sp3U/mqdefault.jpg	2017-08-29 00:00:00+00	1
 szechuansaucerevisited	Szechuan Sauce Revisited (From Real Sample!)	https://www.youtube.com/watch?v=lhc_bXGvmp0	https://www.bingingwithbabish.com/recipes/2017/8/29/szechuansaucerevisited	https://img.youtube.com/vi/lhc_bXGvmp0/mqdefault.jpg	2017-09-12 00:00:00+00	1
@@ -366,6 +388,7 @@ phantomthread-l42pw	Full Breakfast inspired by Phantom Thread	https://www.youtub
 adventuretimespecial	Adventure Time Special	https://www.youtube.com/watch?v=SjeS6gtPq8E	https://www.bingingwithbabish.com/recipes/adventuretimespecial	https://img.youtube.com/vi/SjeS6gtPq8E/mqdefault.jpg	2018-09-11 00:00:00+00	1
 bananapuddingpizza	Banana Pudding Pizza inspired by Doug	https://www.youtube.com/watch?v=wcJS3nQjhqM	https://www.bingingwithbabish.com/recipes/bananapuddingpizza	https://img.youtube.com/vi/wcJS3nQjhqM/mqdefault.jpg	2018-09-18 00:00:00+00	1
 direwolfbread	Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)	https://www.youtube.com/watch?v=6nuEgc2RVWo	https://www.bingingwithbabish.com/recipes/direwolfbread	https://img.youtube.com/vi/6nuEgc2RVWo/mqdefault.jpg	2018-09-25 00:00:00+00	1
+the-naco	The Naco inspired by Kim Possible	https://www.youtube.com/watch?v=hf5cl-AGYbg	https://www.bingingwithbabish.com/recipes/the-naco	https://img.youtube.com/vi/hf5cl-AGYbg/mqdefault.jpg	2018-10-02 00:00:00+00	1
 spidermanbackpackrecipes	Backpack Recipes inspired by Marvel's Spider-Man	https://www.youtube.com/watch?v=NlIiIv-XKhs	https://www.bingingwithbabish.com/recipes/spidermanbackpackrecipes	https://img.youtube.com/vi/NlIiIv-XKhs/mqdefault.jpg	2018-10-09 00:00:00+00	1
 kingofthehillspecial	King of the Hill Special	https://www.youtube.com/watch?v=iq6_iUhLHo4	https://www.bingingwithbabish.com/recipes/kingofthehillspecial	https://img.youtube.com/vi/iq6_iUhLHo4/mqdefault.jpg	2018-10-16 00:00:00+00	1
 cinnamonrolls	Cinnamon Rolls inspired by Jim Gaffigan's Stand Up (sort of)	https://www.youtube.com/watch?v=jFYi2QRVFOc	https://www.bingingwithbabish.com/recipes/cinnamonrolls	https://img.youtube.com/vi/jFYi2QRVFOc/mqdefault.jpg	2018-10-23 00:00:00+00	1
@@ -400,6 +423,7 @@ goodmorningburger	Good Morning Burger inspired by The Simpsons	https://www.youtu
 teddybrulee	Teddy Brûlée inspired by Bob's Burgers	https://www.youtube.com/watch?v=6pXjR0JyV0s	https://www.bingingwithbabish.com/recipes/teddybrulee	https://img.youtube.com/vi/6pXjR0JyV0s/mqdefault.jpg	2019-05-14 00:00:00+00	1
 thegoodplace	The Good Place Special	https://www.youtube.com/watch?v=f428glyXdY4	https://www.bingingwithbabish.com/recipes/thegoodplace	https://img.youtube.com/vi/f428glyXdY4/mqdefault.jpg	2019-05-21 00:00:00+00	1
 orangemochafrapp	Orange Mocha Frappuccinos inspired by Zoolander	https://www.youtube.com/watch?v=exe_I-tnxpU	https://www.bingingwithbabish.com/recipes/orangemochafrapp	https://img.youtube.com/vi/exe_I-tnxpU/mqdefault.jpg	2019-05-29 00:00:00+00	1
+coffee	COFFEE	https://www.youtube.com/watch?v=6yItCQB4V9A	https://basicswithbabish.co/basicsepisodes/coffee	https://img.youtube.com/vi/6yItCQB4V9A/mqdefault.jpg	2019-05-31 00:00:00+00	2
 orangemochafrapp-fpm9l	Bacon and Eggs Breakfast inspired by Howl's Moving Castle	https://www.youtube.com/watch?v=UPccIAVvQA4	https://www.bingingwithbabish.com/recipes/orangemochafrapp-fpm9l	https://img.youtube.com/vi/UPccIAVvQA4/mqdefault.jpg	2019-06-04 00:00:00+00	1
 alwayssunny	It's Always Sunny in Philadelphia Special (Part II)	https://www.youtube.com/watch?v=_fnhy5xO9vQ	https://www.bingingwithbabish.com/recipes/alwayssunny	https://img.youtube.com/vi/_fnhy5xO9vQ/mqdefault.jpg	2019-06-12 00:00:00+00	1
 huevosrancheros	Huevos Rancheros inspired by Breaking Bad	https://www.youtube.com/watch?v=pdNm4ug9PpE	https://www.bingingwithbabish.com/recipes/huevosrancheros	https://img.youtube.com/vi/pdNm4ug9PpE/mqdefault.jpg	2019-06-20 00:00:00+00	1
@@ -451,42 +475,17 @@ troyscasserole-community	Troy's Casserole inspired by Community	https://www.yout
 butterednoodles-community	Buttered Noodles inspired by Community	https://www.youtube.com/watch?v=xGHTj4y_bd8	https://www.bingingwithbabish.com/recipes/butterednoodles-community	https://img.youtube.com/vi/xGHTj4y_bd8/mqdefault.jpg	2020-05-26 00:00:00+00	1
 pastrami	Pastrami inspired by When Harry Met Sally	https://www.youtube.com/watch?v=hFeDKLt4P-Y	https://www.bingingwithbabish.com/recipes/pastrami	https://img.youtube.com/vi/hFeDKLt4P-Y/mqdefault.jpg	2020-06-09 00:00:00+00	1
 sweetrolls-skyrim	Sweetrolls inspired by Skyrim	https://www.youtube.com/watch?v=98R3fgPKmYs	https://www.bingingwithbabish.com/recipes/sweetrolls-skyrim	https://img.youtube.com/vi/98R3fgPKmYs/mqdefault.jpg	2020-06-18 00:00:00+00	1
-sauces-9w5tm-2njph	PASTA	https://www.youtube.com/watch?v=HdSLKZ6LN94	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm-2njph	https://img.youtube.com/vi/HdSLKZ6LN94/mqdefault.jpg	2017-11-17 00:00:00+00	2
-parksandrecburger	Parks & Rec Burger Cookoff	https://www.youtube.com/watch?v=MP_nWuLYpJw	https://www.bingingwithbabish.com/recipes/parksandrecburger	https://img.youtube.com/vi/MP_nWuLYpJw/mqdefault.jpg	2016-02-10 00:00:00+00	1
-il-timpano-inspired-by-big-night	Il Timpano inspired by Big Night	https://www.youtube.com/watch?v=PIsIE0oHGgo	https://www.bingingwithbabish.com/recipes/2017/2/20/il-timpano-inspired-by-big-night	https://img.youtube.com/vi/PIsIE0oHGgo/mqdefault.jpg	2016-02-20 00:00:00+00	1
-applepiesmoothie	Apple Pie Smoothie	https://www.youtube.com/watch?v=mv1z2p3to0U	https://www.bingingwithbabish.com/recipes/2017/8/22/applepiesmoothie	https://img.youtube.com/vi/mv1z2p3to0U/mqdefault.jpg	2016-03-13 00:00:00+00	1
-croquemadame	Croque Madame: The Ultimate Breakfast Sandwich	https://www.youtube.com/watch?v=dVRl1aP28BI	https://www.bingingwithbabish.com/recipes/2017/8/22/croquemadame	https://img.youtube.com/vi/dVRl1aP28BI/mqdefault.jpg	2016-03-13 00:00:00+00	1
-reversesearsteak	How To Reverse-Sear A Steak	https://www.youtube.com/watch?v=akO6D_tc0lo	https://www.bingingwithbabish.com/recipes/2017/8/22/reversesearsteak	https://img.youtube.com/vi/akO6D_tc0lo/mqdefault.jpg	2016-03-14 00:00:00+00	1
-louiefriedchicken	Fried Chicken inspired by Louie	https://www.youtube.com/watch?v=7UEIBdMyj9g	https://www.bingingwithbabish.com/recipes/2016/3/16/louiefriedchicken	https://img.youtube.com/vi/7UEIBdMyj9g/mqdefault.jpg	2016-03-16 00:00:00+00	1
-aglioeolio	Pasta Aglio e Olio inspired by Chef	https://www.youtube.com/watch?v=bJUiWdM__Qw	https://www.bingingwithbabish.com/recipes/2017/5/4/aglioeolio	https://img.youtube.com/vi/bJUiWdM__Qw/mqdefault.jpg	2016-03-26 00:00:00+00	1
-nypizzatmnt	New York-Style Pizza inspired by TMNT II: Secret of the Ooze	https://www.youtube.com/watch?v=KUu2gJn1dzc	https://www.bingingwithbabish.com/recipes/2017/5/16/nypizzatmnt	https://img.youtube.com/vi/KUu2gJn1dzc/mqdefault.jpg	2016-04-30 00:00:00+00	1
-cheesesteak	Philly Cheesesteaks inspired by Creed	https://www.youtube.com/watch?v=Zru1yk--rGQ	https://www.bingingwithbabish.com/recipes/2017/5/4/cheesesteak	https://img.youtube.com/vi/Zru1yk--rGQ/mqdefault.jpg	2016-08-21 00:00:00+00	1
-applepie	How To Make Apple Pie	https://www.youtube.com/watch?v=-Vy12e0LjX4	https://www.bingingwithbabish.com/recipes/2017/8/22/applepie	https://img.youtube.com/vi/-Vy12e0LjX4/mqdefault.jpg	2016-09-23 00:00:00+00	1
-moistmaker	The Moistmaker inspired by Friends	https://www.youtube.com/watch?v=vjZXcapkFEU	https://www.bingingwithbabish.com/recipes/2017/6/27/moistmaker	https://img.youtube.com/vi/vjZXcapkFEU/mqdefault.jpg	2016-11-14 00:00:00+00	1
-goodfellasprisonsauce	Prison Sauce inspired by Goodfellas	https://www.youtube.com/watch?v=uEjMyHccX8U	https://www.bingingwithbabish.com/recipes/2017/6/15/goodfellasprisonsauce	https://img.youtube.com/vi/uEjMyHccX8U/mqdefault.jpg	2016-11-30 00:00:00+00	1
 twinkie-weiner-sandwich	Twinkie Weiner Sandwich inspired by Weird Al's UHF	https://www.youtube.com/watch?v=jKslWoZXvn0	https://www.bingingwithbabish.com/recipes/twinkie-weiner-sandwich	https://img.youtube.com/vi/jKslWoZXvn0/mqdefault.jpg	2020-06-24 00:00:00+00	1
 lotr-feast-special	LOTR 7 Million Subscriber Special inspired by Lord of the Rings	https://www.youtube.com/watch?v=-aFrFsn998o	https://www.bingingwithbabish.com/recipes/lotr-feast-special	https://img.youtube.com/vi/-aFrFsn998o/mqdefault.jpg	2020-07-13 00:00:00+00	1
 croque-monsieur-brooklyn-nine-nine	Croque Monsieur inspired by Brooklyn Nine-Nine	https://www.youtube.com/watch?v=q7JDYiLz9Mo	https://www.bingingwithbabish.com/recipes/croque-monsieur-brooklyn-nine-nine	https://img.youtube.com/vi/q7JDYiLz9Mo/mqdefault.jpg	2020-07-21 00:00:00+00	1
 sundae-spongebob	Bad Breath Sundae inspired by SpongeBob Squarepants	https://www.youtube.com/watch?v=Ya2_Khcdwsk	https://www.bingingwithbabish.com/recipes/sundae-spongebob	https://img.youtube.com/vi/Ya2_Khcdwsk/mqdefault.jpg	2020-07-21 00:00:00+00	1
 dexter-key-lime-pie	Perfect Key Lime Pie inspired by Dexter	https://www.youtube.com/watch?v=UOztOU4T-_c	https://www.bingingwithbabish.com/recipes/dexter-key-lime-pie	https://img.youtube.com/vi/UOztOU4T-_c/mqdefault.jpg	2020-07-29 00:00:00+00	1
 avatar-fire-flakes	Fire Flakes inspired by Avatar the Last Airbender	https://www.youtube.com/watch?v=RhUMA3bCvAY	https://www.bingingwithbabish.com/recipes/avatar-fire-flakes	https://img.youtube.com/vi/RhUMA3bCvAY/mqdefault.jpg	2020-08-04 00:00:00+00	1
-the-naco	The Naco inspired by Kim Possible	https://www.youtube.com/watch?v=hf5cl-AGYbg	https://www.bingingwithbabish.com/recipes/the-naco	https://img.youtube.com/vi/hf5cl-AGYbg/mqdefault.jpg	2018-10-02 00:00:00+00	1
-cajunfood	CAJUN FOOD	https://www.youtube.com/watch?v=nORg_aXMsmA	https://basicswithbabish.co/basicsepisodes/cajunfood	https://img.youtube.com/vi/nORg_aXMsmA/mqdefault.jpg	2019-09-13 00:00:00+00	2
-tacos	TACOS	https://www.youtube.com/watch?v=Zghe7SNmhOs	https://basicswithbabish.co/basicsepisodes/tacos	https://img.youtube.com/vi/Zghe7SNmhOs/mqdefault.jpg	2018-08-23 00:00:00+00	2
-salad-nb7s3-3jkft	SALAD	https://www.youtube.com/watch?v=xHR8BCFv_JY	https://basicswithbabish.co/basicsepisodes/salad-nb7s3-3jkft	https://img.youtube.com/vi/xHR8BCFv_JY/mqdefault.jpg	2018-09-06 00:00:00+00	2
-kitchencare	KITCHEN CARE	https://www.youtube.com/watch?v=xSjVrR7KPqA	https://basicswithbabish.co/basicsepisodes/kitchencare	https://img.youtube.com/vi/xSjVrR7KPqA/mqdefault.jpg	2018-09-20 00:00:00+00	2
-tonkotsuramen	TONKOTSU RAMEN	https://www.youtube.com/watch?v=2U_0OlCizx0	https://basicswithbabish.co/basicsepisodes/tonkotsuramen	https://img.youtube.com/vi/2U_0OlCizx0/mqdefault.jpg	2018-10-04 00:00:00+00	2
-wholeporkloin	WHOLE PORK LOIN	https://www.youtube.com/watch?v=AgFaljoriYA	https://basicswithbabish.co/basicsepisodes/wholeporkloin	https://img.youtube.com/vi/AgFaljoriYA/mqdefault.jpg	2018-10-11 00:00:00+00	2
-weeknightmeals-ahmph	WEEKNIGHT MEALS	https://www.youtube.com/watch?v=zQm9Bk2bA_Q	https://basicswithbabish.co/basicsepisodes/weeknightmeals-ahmph	https://img.youtube.com/vi/zQm9Bk2bA_Q/mqdefault.jpg	2018-10-18 00:00:00+00	2
-donuts	DONUTS	https://www.youtube.com/watch?v=9PWomdbZi2U	https://basicswithbabish.co/basicsepisodes/donuts	https://img.youtube.com/vi/9PWomdbZi2U/mqdefault.jpg	2018-11-01 00:00:00+00	2
-thanksgivingsides	THANKSGIVING SIDES	https://www.youtube.com/watch?v=8hpD5strtzM	https://basicswithbabish.co/basicsepisodes/thanksgivingsides	https://img.youtube.com/vi/8hpD5strtzM/mqdefault.jpg	2018-11-15 00:00:00+00	2
 paunch-burger-parks-and-rec	Paunch Burger inspired by Parks & Rec	https://www.youtube.com/watch?v=RN8uoBwRr1k	https://www.bingingwithbabish.com/recipes/paunch-burger-parks-and-rec	https://img.youtube.com/vi/RN8uoBwRr1k/mqdefault.jpg	2020-08-12 00:00:00+00	1
 four-horsemeal-eggporkalypse-parks-and-rec	Four Horsemeals of the Eggporkalypse inspired by Parks & Rec 	https://www.youtube.com/watch?v=NWGVFi-213w	https://www.bingingwithbabish.com/recipes/four-horsemeal-eggporkalypse-parks-and-rec	https://img.youtube.com/vi/NWGVFi-213w/mqdefault.jpg	2020-08-18 00:00:00+00	1
 meat-tornado-parks-and-rec	Meat Tornado inspired by Parks & Rec 	https://www.youtube.com/watch?v=LsNg-KrFxCA	https://www.bingingwithbabish.com/recipes/meat-tornado-parks-and-rec	https://img.youtube.com/vi/LsNg-KrFxCA/mqdefault.jpg	2020-08-25 00:00:00+00	1
-introductiontools	INTRODUCTION/TOOLS	https://www.youtube.com/watch?v=1AxLzMJIgxM	https://basicswithbabish.co/basicsepisodes/2017/10/11/introductiontools	https://img.youtube.com/vi/1AxLzMJIgxM/mqdefault.jpg	2017-10-11 00:00:00+00	2
-sauces	SAUCES	https://www.youtube.com/watch?v=Upqp21Dm5vg	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces	https://img.youtube.com/vi/Upqp21Dm5vg/mqdefault.jpg	2017-10-23 00:00:00+00	2
-sauces-9w5tm	STEAK	https://www.youtube.com/watch?v=PFDElc5sfSM	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm	https://img.youtube.com/vi/PFDElc5sfSM/mqdefault.jpg	2017-11-02 00:00:00+00	2
-sauces-9w5tm-2njph-5ahwj	CHICKEN BREASTS	https://www.youtube.com/watch?v=hR6agVkRRUo	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm-2njph-5ahwj	https://img.youtube.com/vi/hR6agVkRRUo/mqdefault.jpg	2017-12-07 00:00:00+00	2
+enchiladas-schitts-creek	Enchiladas inspired by Schitt's Creek	https://www.youtube.com/watch?v=SkKjQhCTP54	https://www.bingingwithbabish.com/recipes/enchiladas-schitts-creek	https://img.youtube.com/vi/SkKjQhCTP54/mqdefault.jpg	2020-09-09 00:00:00+00	1
+pollos-hermanos-breaking-bad	Pollos Hermanos inspired by Breaking Bad	https://www.youtube.com/watch?v=ndqjxhi7uZs	https://www.bingingwithbabish.com/recipes/pollos-hermanos-breaking-bad	https://img.youtube.com/vi/ndqjxhi7uZs/mqdefault.jpg	2020-09-15 00:00:00+00	1
 sauces-9w5tm-2njph-5ahwj-hsl7s	WHOLE CHICKEN	https://www.youtube.com/watch?v=ABtt5y-maO4	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm-2njph-5ahwj-hsl7s	https://img.youtube.com/vi/ABtt5y-maO4/mqdefault.jpg	2018-01-08 00:00:00+00	2
 sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr	STOCK & CHICKEN NOODLE SOUP	https://www.youtube.com/watch?v=74tZ-yOOPy0	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr	https://img.youtube.com/vi/74tZ-yOOPy0/mqdefault.jpg	2018-01-11 00:00:00+00	2
 sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-6r8lw	PANTRY ESSENTIALS	https://www.youtube.com/watch?v=NSi-MniOTqI	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-6r8lw	https://img.youtube.com/vi/NSi-MniOTqI/mqdefault.jpg	2018-01-25 00:00:00+00	2
@@ -502,6 +501,13 @@ barbecueporkchops	BARBECUE PORK CHOPS	https://www.youtube.com/watch?v=YV9XuvfIud
 icecream	ICE CREAM	https://www.youtube.com/watch?v=MdirPsiHnCA	https://basicswithbabish.co/basicsepisodes/icecream	https://img.youtube.com/vi/MdirPsiHnCA/mqdefault.jpg	2018-07-12 00:00:00+00	2
 bread	BREAD	https://www.youtube.com/watch?v=Jizr6LR83Kk	https://basicswithbabish.co/basicsepisodes/bread	https://img.youtube.com/vi/Jizr6LR83Kk/mqdefault.jpg	2018-07-27 00:00:00+00	2
 sousvide-nb7s3	SOUS VIDE	https://www.youtube.com/watch?v=NCHOyqMUj4o	https://basicswithbabish.co/basicsepisodes/sousvide-nb7s3	https://img.youtube.com/vi/NCHOyqMUj4o/mqdefault.jpg	2018-09-06 00:00:00+00	2
+salad-nb7s3-3jkft	SALAD	https://www.youtube.com/watch?v=xHR8BCFv_JY	https://basicswithbabish.co/basicsepisodes/salad-nb7s3-3jkft	https://img.youtube.com/vi/xHR8BCFv_JY/mqdefault.jpg	2018-09-06 00:00:00+00	2
+kitchencare	KITCHEN CARE	https://www.youtube.com/watch?v=xSjVrR7KPqA	https://basicswithbabish.co/basicsepisodes/kitchencare	https://img.youtube.com/vi/xSjVrR7KPqA/mqdefault.jpg	2018-09-20 00:00:00+00	2
+tonkotsuramen	TONKOTSU RAMEN	https://www.youtube.com/watch?v=2U_0OlCizx0	https://basicswithbabish.co/basicsepisodes/tonkotsuramen	https://img.youtube.com/vi/2U_0OlCizx0/mqdefault.jpg	2018-10-04 00:00:00+00	2
+wholeporkloin	WHOLE PORK LOIN	https://www.youtube.com/watch?v=AgFaljoriYA	https://basicswithbabish.co/basicsepisodes/wholeporkloin	https://img.youtube.com/vi/AgFaljoriYA/mqdefault.jpg	2018-10-11 00:00:00+00	2
+weeknightmeals-ahmph	WEEKNIGHT MEALS	https://www.youtube.com/watch?v=zQm9Bk2bA_Q	https://basicswithbabish.co/basicsepisodes/weeknightmeals-ahmph	https://img.youtube.com/vi/zQm9Bk2bA_Q/mqdefault.jpg	2018-10-18 00:00:00+00	2
+donuts	DONUTS	https://www.youtube.com/watch?v=9PWomdbZi2U	https://basicswithbabish.co/basicsepisodes/donuts	https://img.youtube.com/vi/9PWomdbZi2U/mqdefault.jpg	2018-11-01 00:00:00+00	2
+thanksgivingsides	THANKSGIVING SIDES	https://www.youtube.com/watch?v=8hpD5strtzM	https://basicswithbabish.co/basicsepisodes/thanksgivingsides	https://img.youtube.com/vi/8hpD5strtzM/mqdefault.jpg	2018-11-15 00:00:00+00	2
 charcuterieandcheeseboards	CHARCUTERIE & CHEESE BOARDS	https://www.youtube.com/watch?v=VnrScNQDcEQ	https://basicswithbabish.co/basicsepisodes/charcuterieandcheeseboards	https://img.youtube.com/vi/VnrScNQDcEQ/mqdefault.jpg	2018-12-06 00:00:00+00	2
 holidaycocktails	HOLIDAY COCKTAILS	https://www.youtube.com/watch?v=LftLcYM6Fzw	https://basicswithbabish.co/basicsepisodes/holidaycocktails	https://img.youtube.com/vi/LftLcYM6Fzw/mqdefault.jpg	2018-12-13 00:00:00+00	2
 friedrice	FRIED RICE	https://www.youtube.com/watch?v=Dk0axPbD2pc	https://basicswithbabish.co/basicsepisodes/friedrice	https://img.youtube.com/vi/Dk0axPbD2pc/mqdefault.jpg	2019-01-03 00:00:00+00	2
@@ -513,8 +519,6 @@ blendersoups	BLENDER SOUPS	https://www.youtube.com/watch?v=S-gUFvpRQoU	https://b
 chickentikkamasala	CHICKEN TIKKA MASALA	https://www.youtube.com/watch?v=Bkd0LxBd2L8	https://basicswithbabish.co/basicsepisodes/chickentikkamasala	https://img.youtube.com/vi/Bkd0LxBd2L8/mqdefault.jpg	2019-03-28 00:00:00+00	2
 quesadillas	QUESADILLAS	https://www.youtube.com/watch?v=E0G5Y2SOW0c	https://basicswithbabish.co/basicsepisodes/quesadillas	https://img.youtube.com/vi/E0G5Y2SOW0c/mqdefault.jpg	2019-04-18 00:00:00+00	2
 cheesdips	CHEESE DIPS	https://www.youtube.com/watch?v=9toK5UUGeok	https://basicswithbabish.co/basicsepisodes/cheesdips	https://img.youtube.com/vi/9toK5UUGeok/mqdefault.jpg	2019-05-02 00:00:00+00	2
-pulledpork	PULLED PORK	https://www.youtube.com/watch?v=_SObOsXrDRc	https://basicswithbabish.co/basicsepisodes/pulledpork	https://img.youtube.com/vi/_SObOsXrDRc/mqdefault.jpg	2019-05-16 00:00:00+00	2
-coffee	COFFEE	https://www.youtube.com/watch?v=6yItCQB4V9A	https://basicswithbabish.co/basicsepisodes/coffee	https://img.youtube.com/vi/6yItCQB4V9A/mqdefault.jpg	2019-05-31 00:00:00+00	2
 healthymeals	HEALTHY MEALS	https://www.youtube.com/watch?v=APwwGy4GzK8	https://basicswithbabish.co/basicsepisodes/healthymeals	https://img.youtube.com/vi/APwwGy4GzK8/mqdefault.jpg	2019-06-13 00:00:00+00	2
 brownies	BROWNIES	https://www.youtube.com/watch?v=kDdUdvNQndo	https://basicswithbabish.co/basicsepisodes/brownies	https://img.youtube.com/vi/kDdUdvNQndo/mqdefault.jpg	2019-06-27 00:00:00+00	2
 treslechescake	TRES LECHES CAKE	https://www.youtube.com/watch?v=iIDXc6xZ0X8	https://basicswithbabish.co/basicsepisodes/treslechescake	https://img.youtube.com/vi/iIDXc6xZ0X8/mqdefault.jpg	2019-07-08 00:00:00+00	2
@@ -551,6 +555,7 @@ cheese-fondue	CHEEESE FONDUE	https://www.youtube.com/watch?v=_X-Mm8h1AHM	https:/
 kimchi	KIMCHI	https://www.youtube.com/watch?v=R0x7ECje-lY	https://basicswithbabish.co/basicsepisodes/kimchi	https://img.youtube.com/vi/R0x7ECje-lY/mqdefault.jpg	2020-08-14 00:00:00+00	2
 potato-hash	POTATO HASH	https://www.youtube.com/watch?v=R4kwxiDlKzs	https://basicswithbabish.co/basicsepisodes/potato-hash	https://img.youtube.com/vi/R4kwxiDlKzs/mqdefault.jpg	2020-08-27 00:00:00+00	2
 mashed-potatoes	MASHED POTATOES	https://www.youtube.com/watch?v=ZLnWdPPJvYg	https://basicswithbabish.co/basicsepisodes/mashed-potatoes	https://img.youtube.com/vi/ZLnWdPPJvYg/mqdefault.jpg	2020-09-03 00:00:00+00	2
+lamb-chops	LAMB CHOPS	https://www.youtube.com/watch?v=9eyS51ufJGU	https://basicswithbabish.co/basicsepisodes/lamb-chops	https://img.youtube.com/vi/9eyS51ufJGU/mqdefault.jpg	2020-09-11 00:00:00+00	2
 \.
 
 
