@@ -1,5 +1,25 @@
 [
   {
+    "self": "http://localhost:5000/episode/short-ribs", 
+    "episode_id": "short-ribs", 
+    "name": "BRAISED SHORT RIBS", 
+    "published_date": "2020-09-17T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=DUTyGfwdBaY", 
+    "official_link": "https://basicswithbabish.co/basicsepisodes/short-ribs", 
+    "image_link": "https://img.youtube.com/vi/DUTyGfwdBaY/mqdefault.jpg", 
+    "related": {
+      "show": {
+        "self": "http://localhost:5000/show/2", 
+        "show_id": 2, 
+        "name": "Basics with Babish", 
+        "image_link": null
+      }, 
+      "guests": [], 
+      "inspired_by": [], 
+      "recipes": []
+    }
+  }, 
+  {
     "self": "http://localhost:5000/episode/pollos-hermanos-breaking-bad", 
     "episode_id": "pollos-hermanos-breaking-bad", 
     "name": "Pollos Hermanos inspired by Breaking Bad", 
