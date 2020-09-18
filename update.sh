@@ -9,4 +9,8 @@ PGPASSWORD=${POSTGRES_PASSWORD} PGUSER=${POSTGRES_USERNAME:-postgres} \
   PGHOST=${POSTGRES_HOSTNAME:-localhost} PGPORT=${POSTGRES_PORT:-54320} \
   pg_dump --dbname=babish_db --create --file=./ibdb/db_dump.sql
 
+python utils/pg_dump_splitsort.py ibdb/db_dump.sql
+cat ibdb/[0-9]*.sql > ibdb/db_dump.sql
+rm ibdb/[0-9]*.sql
+
 echo "Done"
