@@ -1877,6 +1877,15 @@
     "image_link": null, 
     "episodes": [
       {
+        "self": "http://localhost:5000/episode/short-ribs", 
+        "episode_id": "short-ribs", 
+        "name": "BRAISED SHORT RIBS", 
+        "published_date": "2020-09-17T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=DUTyGfwdBaY", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/short-ribs", 
+        "image_link": "https://img.youtube.com/vi/DUTyGfwdBaY/mqdefault.jpg"
+      }, 
+      {
         "self": "http://localhost:5000/episode/lamb-chops", 
         "episode_id": "lamb-chops", 
         "name": "LAMB CHOPS", 
