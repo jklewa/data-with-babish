@@ -6,6 +6,15 @@
     "image_link": null, 
     "episodes": [
       {
+        "self": "http://localhost:5000/episode/triple-gooberberry-sunrise-spongebob-squarespace", 
+        "episode_id": "triple-gooberberry-sunrise-spongebob-squarespace", 
+        "name": "Triple Gooberberry Sunrise inspired by Spongebob Squarepants", 
+        "published_date": "2020-09-22T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=Gso2WrBcV2Q", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/triple-gooberberry-sunrise-spongebob-squarespace", 
+        "image_link": "https://img.youtube.com/vi/Gso2WrBcV2Q/mqdefault.jpg"
+      }, 
+      {
         "self": "http://localhost:5000/episode/pollos-hermanos-breaking-bad", 
         "episode_id": "pollos-hermanos-breaking-bad", 
         "name": "Pollos Hermanos inspired by Breaking Bad", 

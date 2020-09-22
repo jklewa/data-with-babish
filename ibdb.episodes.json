@@ -1,5 +1,25 @@
 [
   {
+    "self": "http://localhost:5000/episode/triple-gooberberry-sunrise-spongebob-squarespace", 
+    "episode_id": "triple-gooberberry-sunrise-spongebob-squarespace", 
+    "name": "Triple Gooberberry Sunrise inspired by Spongebob Squarepants", 
+    "published_date": "2020-09-22T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=Gso2WrBcV2Q", 
+    "official_link": "https://www.bingingwithbabish.com/recipes/triple-gooberberry-sunrise-spongebob-squarespace", 
+    "image_link": "https://img.youtube.com/vi/Gso2WrBcV2Q/mqdefault.jpg", 
+    "related": {
+      "show": {
+        "self": "http://localhost:5000/show/1", 
+        "show_id": 1, 
+        "name": "Binging with Babish", 
+        "image_link": null
+      }, 
+      "guests": [], 
+      "inspired_by": [], 
+      "recipes": []
+    }
+  }, 
+  {
     "self": "http://localhost:5000/episode/short-ribs", 
     "episode_id": "short-ribs", 
     "name": "BRAISED SHORT RIBS", 
