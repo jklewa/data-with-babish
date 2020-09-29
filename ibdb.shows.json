@@ -6,6 +6,15 @@
     "image_link": null, 
     "episodes": [
       {
+        "self": "http://localhost:5000/episode/raspberry-danish-ant-man-and-the-wasp", 
+        "episode_id": "raspberry-danish-ant-man-and-the-wasp", 
+        "name": "Raspberry Danish inspired by Ant Man & The Wasp", 
+        "published_date": "2020-09-29T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=Zhq20aCSh-s", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/raspberry-danish-ant-man-and-the-wasp", 
+        "image_link": "https://img.youtube.com/vi/Zhq20aCSh-s/mqdefault.jpg"
+      }, 
+      {
         "self": "http://localhost:5000/episode/triple-gooberberry-sunrise-spongebob-squarespace", 
         "episode_id": "triple-gooberberry-sunrise-spongebob-squarespace", 
         "name": "Triple Gooberberry Sunrise inspired by Spongebob Squarepants", 
