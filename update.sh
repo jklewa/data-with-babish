@@ -5,7 +5,7 @@ wget localhost:5000/recipes?format=json -O datasets/ibdb.recipes.json -nv
 wget localhost:5000/references?format=json -O datasets/ibdb.references.json -nv
 wget localhost:5000/shows?format=json -O datasets/ibdb.shows.json -nv
 
-PGPASSWORD=${POSTGRES_PASSWORD} PGUSER=${POSTGRES_USERNAME:-postgres} \
+PGPASSWORD=${POSTGRES_PASSWORD:-postgres} PGUSER=${POSTGRES_USERNAME:-postgres} \
   PGHOST=${POSTGRES_HOSTNAME:-localhost} PGPORT=${POSTGRES_PORT:-54320} \
   pg_dump --dbname=babish_db --create --file=./ibdb/db_dump.sql
 

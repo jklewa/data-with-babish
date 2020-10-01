@@ -15,7 +15,7 @@ YOUTUBE_ID_MATCHER = re.compile(
     r'^.*(?:(?:youtu\.be\/|v\/|vi\/|u\/\w\/|embed\/)|(?:(?:watch)?\?v(?:i)?=|\&v(?:i)?=))([^#\&\?]+).*')
 
 DB_USERNAME = os.environ.get('POSTGRES_USERNAME', 'postgres')
-DB_PASSWORD = os.environ.get('POSTGRES_PASSWORD', '')
+DB_PASSWORD = os.environ.get('POSTGRES_PASSWORD', 'postgres')
 DB_HOSTNAME = os.environ.get('POSTGRES_HOSTNAME', 'db')
 DB_PORT = int(os.environ.get('POSTGRES_PORT', '5432'))
 

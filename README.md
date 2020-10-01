@@ -4,18 +4,18 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
 
 ## Visualizations
 
-* [jklewa/data-with-babish-example](https://github.com/jklewa/data-with-babish-example) - An interactive episode data viewer [Demo](https://jklewa.github.io/data-with-babish-example/)
+* [jklewa.github.io/data-with-babish-example](https://jklewa.github.io/data-with-babish-example/) ([repo](https://github.com/jklewa/data-with-babish-example)) An interactive episode data viewer
 
 ## Datasets
 
- * [ibdb.episodes.json](#ibdbepisodesjson) - Episodes and related guests, recipes and inspiration
- * [ibdb.guests.json](#ibdbguestsjson) - Guests and their appearances
- * [ibdb.recipes.json](#ibdbrecipesjson) - Recipes and their origin episode
- * [ibdb.references.json](#ibdbreferencesjson) - TV Shows, Movies, etc. and when they were referenced
- * [ibdb.shows.json](#ibdbshowsjson) - Babish's Shows and their episode lists
- * [babish.json](#babishjson) - Parsed recipe ingredients, grouped by episode (Deprecated)
+ * [ibdb.episodes.json](datasets/ibdb.episodes.json) ([docs](#ibdbepisodesjson)) Episodes and related guests, recipes and inspiration
+ * [ibdb.guests.json](datasets/ibdb.guests.json) ([docs](#ibdbguestsjson)) Guests and their appearances
+ * [ibdb.recipes.json](datasets/ibdb.recipes.json) ([docs](#ibdbrecipesjson)) Recipes and their origin episode
+ * [ibdb.references.json](datasets/ibdb.references.json) ([docs](#ibdbreferencesjson)) TV Shows, Movies, etc. and when they were referenced
+ * [ibdb.shows.json](datasets/ibdb.shows.json) ([docs](#ibdbshowsjson)) Babish's Shows and their episode lists
+ * [babish.json](datasets/babish.json) ([docs](#babishjson)) Parsed recipe ingredients, grouped by episode (Deprecated)
 
-### ibdb.episodes.json
+### [ibdb.episodes.json](datasets/ibdb.episodes.json)
 
   **Episodes** and related guests, recipes and inspiration in the format:
 
@@ -71,7 +71,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
   ]
   ```
 
-### ibdb.guests.json
+### [ibdb.guests.json](datasets/ibdb.guests.json)
 
   **Guests** and their appearances in the format:
 
@@ -95,7 +95,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
   ]
   ```
 
-### ibdb.recipes.json
+### [ibdb.recipes.json](datasets/ibdb.recipes.json)
 
   **Recipes** and their origin episode in the format:
 
@@ -128,7 +128,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
   ]
   ```
 
-### ibdb.references.json
+### [ibdb.references.json](datasets/ibdb.references.json)
 
   TV Shows, Movies, etc. **References** and when they were referenced in the format:
 
@@ -155,7 +155,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
   ]
   ```
 
-### ibdb.shows.json
+### [ibdb.shows.json](datasets/ibdb.shows.json)
 
   **Babish's Shows** and their episode lists in the format:
 
@@ -179,7 +179,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
   ]
   ```
 
-### babish.json
+### [babish.json](datasets/babish.json)
 
   **(Deprecated)**
 
@@ -220,13 +220,17 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
 ## Contributing
 
 ### Local Development
-Required tools: **Python 3**
+Required tools: **Docker, Docker Compose**
 
-1. Install packages `pip install -r requirements.txt`
-2. Run tests `pytest test/`
-3. Scrape and parse `python extract_recipes.py`
+1. Build `docker-compose build`
+2. Run DB and API `docker-compose up -d`
+3. Browse http://localhost:5000/
+4. Update DB `docker-compose exec api python populate_db.py`
+5. Update datasets `./update.sh`
 
-You can also explore the script's original version and other data analysis with [Jupyter Notebook](http://ipython.org/notebook.html)
+This will use [ibdb/populate_db.py](ibdb/populate_db.py) to scrape and upsert episodes into the DB and generate new [datasets/](datasets) from the DB's contents.
+
+You can also explore the original [extract_recipes.py](ibdb/extract_recipes.py) and [Jupyter Notebooks](http://ipython.org/notebook.html)
 1. `cd notebooks/`
 2. Start Jupyter on [http://localhost:8888](http://localhost:8888) `jupyter notebook`
 3. Open `Babish Recipe Extract.ipynb` or `Babish Data Analysis.ipynb`
@@ -234,11 +238,12 @@ You can also explore the script's original version and other data analysis with 
 **NOTE:** Be aware that `extract_recipes.py` and `Babish Recipe Extract.ipynb` will make **LOTS** of network calls to the official bingingwithbabish.com website. Calls are cached and rate limited but please be very considerate and only run them if absolutely necessary.
 
 ### Tests
-Tests covering [extract_recipes.py](./extract_recipes.py) are located in the [tests/](tests/) directory and can be run using [pytest](https://docs.pytest.org/en/latest/).
+Tests covering [extract_recipes.py](ibdb/extract_recipes.py) are located in the [tests/](tests/) directory and can be run using [pytest](https://docs.pytest.org/en/latest/).
 
-```bash
-pytest tests/ # directory is optional
-```
+Required tools: **Python 3.8**
+
+1. Install packages `pip install -r requirements.txt`
+2. Run tests `python -m pytest`
 
 ### Docs
-* [Code of Conduct](./CODE_OF_CONDUCT.md), [GNU General Public License v3.0](./LICENSE)
+* [Code of Conduct](docs/CODE_OF_CONDUCT.md), [GNU General Public License v3.0](docs/LICENSE)

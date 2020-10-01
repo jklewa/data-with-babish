@@ -315,10 +315,10 @@ class BabishSync:
 
             episodes.append(ep)
 
-        with open('datasets/babish.json', 'w', encoding='utf8') as f:
+        with open('../datasets/babish.json', 'w', encoding='utf8') as f:
             json.dump(episodes, f, indent=2, ensure_ascii=False)
 
-        self.stats.bytes_written = os.path.getsize('datasets/babish.json')
+        self.stats.bytes_written = os.path.getsize('../datasets/babish.json')
 
         logging.info('Wrote babish.json successfully, %s bytes written', self.stats.bytes_written)
 
