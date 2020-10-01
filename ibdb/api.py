@@ -23,7 +23,7 @@ from utils import (
 )
 
 DB_USERNAME = os.environ.get('POSTGRES_USERNAME', 'postgres')
-DB_PASSWORD = os.environ.get('POSTGRES_PASSWORD', '')
+DB_PASSWORD = os.environ.get('POSTGRES_PASSWORD', 'postgres')
 DB_HOSTNAME = os.environ.get('POSTGRES_HOSTNAME', 'db')
 DB_PORT = int(os.environ.get('POSTGRES_PORT', '5432'))
 
@@ -254,6 +254,7 @@ def show_update(id):
     db.session.commit()
     updated = Show.query.filter_by(id=id).first()
     return jsonify(updated.serialize())
+
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')

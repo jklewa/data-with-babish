@@ -4,4 +4,4 @@ __pycache__
 .cache
 .pytest_cache
 tmp/
-pgdb_data/
+tmp/pgdb_data/

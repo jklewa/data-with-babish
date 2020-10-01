@@ -1,0 +1,13 @@
+beautifulsoup4
+cufflinks
+flask
+flask-sqlalchemy
+furl
+html5lib
+measurement
+pandas
+plotly
+psycopg2-binary
+pyfunctional
+pytest
+requests

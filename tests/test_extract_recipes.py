@@ -1,4 +1,4 @@
-from context import Recipe, BabishSync
+from ibdb.extract_recipes import Recipe
 
 
 class TestRecipe(object):
