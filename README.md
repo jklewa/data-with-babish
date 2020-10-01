@@ -246,4 +246,4 @@ Required tools: **Python 3.8**
 2. Run tests `python -m pytest`
 
 ### Docs
-* [Code of Conduct](docs/CODE_OF_CONDUCT.md), [GNU General Public License v3.0](docs/LICENSE)
+* [Code of Conduct](CODE_OF_CONDUCT.md), [GNU General Public License v3.0](LICENSE)
