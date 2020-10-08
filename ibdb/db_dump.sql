@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 12.4 (Debian 12.4-1.pgdg100+1)
--- Dumped by pg_dump version 12.4 (Ubuntu 12.4-1.pgdg18.04+1)
+-- Dumped by pg_dump version 13.0 (Ubuntu 13.0-1.pgdg18.04+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -20,7 +20,7 @@ SET row_security = off;
 -- Name: babish_db; Type: DATABASE; Schema: -; Owner: postgres
 --
 
-CREATE DATABASE babish_db WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'en_US.utf8' LC_CTYPE = 'en_US.utf8';
+CREATE DATABASE babish_db WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE = 'en_US.utf8';
 
 
 ALTER DATABASE babish_db OWNER TO postgres;
@@ -387,6 +387,7 @@ fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	Fried Chicken &
 friedgreentomatoes	Fried Green Tomatoes inspired by...Fried Green Tomatoes	https://www.youtube.com/watch?v=KKBkY-7TCw0	https://www.bingingwithbabish.com/recipes/friedgreentomatoes	https://img.youtube.com/vi/KKBkY-7TCw0/mqdefault.jpg	2018-07-24 00:00:00+00	1
 friedrice	FRIED RICE	https://www.youtube.com/watch?v=Dk0axPbD2pc	https://basicswithbabish.co/basicsepisodes/friedrice	https://img.youtube.com/vi/Dk0axPbD2pc/mqdefault.jpg	2019-01-03 00:00:00+00	2
 garbageplate	The Garbage Plate inspired by The Place Beyond The Pines (sort of)	https://www.youtube.com/watch?v=wjoeVwJTUTA	https://www.bingingwithbabish.com/recipes/2017/8/22/garbageplate	https://img.youtube.com/vi/wjoeVwJTUTA/mqdefault.jpg	2017-11-28 00:00:00+00	1
+garlic-bread-scott-pilgrim	Garlic Bread inspired by Scott Pilgrim vs the World	https://www.youtube.com/watch?v=jBnWZijMbMY	https://www.bingingwithbabish.com/recipes/garlic-bread-scott-pilgrim	https://img.youtube.com/vi/jBnWZijMbMY/mqdefault.jpg	2020-10-06 00:00:00+00	1
 generaltsoschicken	GENERAL TSO'S CHICKEN	https://www.youtube.com/watch?v=6UnRHtwHGSE	https://basicswithbabish.co/basicsepisodes/generaltsoschicken	https://img.youtube.com/vi/6UnRHtwHGSE/mqdefault.jpg	2019-07-18 00:00:00+00	2
 gnocchi	GNOCCHI	https://www.youtube.com/watch?v=LMJrLc13SuI	https://basicswithbabish.co/basicsepisodes/gnocchi	https://img.youtube.com/vi/LMJrLc13SuI/mqdefault.jpg	2020-05-07 00:00:00+00	2
 goodfellasprisonsauce	Prison Sauce inspired by Goodfellas	https://www.youtube.com/watch?v=uEjMyHccX8U	https://www.bingingwithbabish.com/recipes/2017/6/15/goodfellasprisonsauce	https://img.youtube.com/vi/uEjMyHccX8U/mqdefault.jpg	2016-11-30 00:00:00+00	1
