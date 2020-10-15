@@ -38,8 +38,8 @@ class TestRecipe(object):
         tests = [
             '1', 1.0,
             '1/2', 0.5,
-            '1 2/3', (1 + 2/3),
-            '1 ⅔', (1 + 2/3)
+            '1 2/3', (1 + 2 / 3),
+            '1 ⅔', (1 + 2 / 3)
         ]
 
         assert len(tests) % 2 == 0, 'A test is missing its expected output'
@@ -55,9 +55,9 @@ class TestRecipe(object):
             None, None,
 
             # Abreviations
-            't',   'teaspoon',
+            't', 'teaspoon',
             'tsp', 'teaspoon',
-            'T',    'tablespoon',
+            'T', 'tablespoon',
             'Tbsp', 'tablespoon',
             'unknown', 'unknown',
 

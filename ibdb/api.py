@@ -13,7 +13,6 @@ from models import (
     Recipe,
     Guest,
     Reference,
-    t_episode_inspired_by,
     Show,
     db,
 )

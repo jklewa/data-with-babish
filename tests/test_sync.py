@@ -10,7 +10,8 @@ Sync
 import unittest
 import requests_mock
 from callee import String
-from ibdb.populate_db import extract_youtube_id, extract_youtube_link, add_youtube_resources, fetch_binging_episode_list, fetch_basics_episode_list, logging as populate_db_logging
+from ibdb.populate_db import extract_youtube_id, extract_youtube_link, add_youtube_resources, fetch_binging_episode_list, fetch_basics_episode_list
+
 
 class TestYouTube(unittest.TestCase):
     def test_youtube_link(self):
@@ -43,11 +44,9 @@ class TestYouTube(unittest.TestCase):
     def test_youtube_resources(self):
         test_cases = [
             dict(expected=dict(youtube_id="URLFROMJSON", youtube_link="https://www.youtube.com/watch?v=URLFROMJSON", youtube_image_link="https://img.youtube.com/vi/URLFROMJSON/mqdefault.jpg"),
-                 raw=dict(body="""<div class="video-block" data-block-json='{"url": "https://www.youtube.com/watch?v=URLFROMJSON"}'>"""),
-            ),
+                 raw=dict(body="""<div class="video-block" data-block-json='{"url": "https://www.youtube.com/watch?v=URLFROMJSON"}'>""")),
             dict(expected=dict(youtube_id=None, youtube_link="https://corrupted.url/", youtube_image_link=None),
-                 raw=dict(body="""<div class="video-block" data-block-json='{"url": "https://corrupted.url/"}'>"""),
-            ),
+                 raw=dict(body="""<div class="video-block" data-block-json='{"url": "https://corrupted.url/"}'>""")),
         ]
         for t in test_cases:
             self.assertEqual({**t['raw'], **t['expected']}, add_youtube_resources(raw=t['raw']))

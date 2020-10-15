@@ -187,5 +187,5 @@ class Recipe(Base):
         return [
             RecipeParser.parse_ingredient(i)
             for i in self.raw_ingredient_list.splitlines()
-            if not 'For the ' in i
+            if 'For the ' not in i
         ]

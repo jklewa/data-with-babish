@@ -165,6 +165,7 @@ def fetch_basics_episode_list():
     logging.info('Fetched episode list, %s episodes', episode_count)
     return reversed(episodes.to_list())
 
+
 def main():
     conn = psycopg2.connect(dbname=DB_NAME, user=DB_USERNAME, host=DB_HOSTNAME, port=DB_PORT, password=DB_PASSWORD)
 
@@ -195,6 +196,7 @@ def main():
     conn.commit()
 
     print('Done')
+
 
 if __name__ == '__main__':
     main()
