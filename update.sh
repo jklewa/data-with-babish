@@ -1,9 +1,11 @@
 set -ex
-wget localhost:5000/episodes?format=json -O datasets/ibdb.episodes.json -nv
-wget localhost:5000/guests?format=json -O datasets/ibdb.guests.json -nv
-wget localhost:5000/recipes?format=json -O datasets/ibdb.recipes.json -nv
-wget localhost:5000/references?format=json -O datasets/ibdb.references.json -nv
-wget localhost:5000/shows?format=json -O datasets/ibdb.shows.json -nv
+export HOSTNAME=0.0.0.0:5000
+
+wget ${HOSTNAME}/episodes?format=json -O datasets/ibdb.episodes.json -nv
+wget ${HOSTNAME}/guests?format=json -O datasets/ibdb.guests.json -nv
+wget ${HOSTNAME}/recipes?format=json -O datasets/ibdb.recipes.json -nv
+wget ${HOSTNAME}/references?format=json -O datasets/ibdb.references.json -nv
+wget ${HOSTNAME}/shows?format=json -O datasets/ibdb.shows.json -nv
 
 PGPASSWORD=${POSTGRES_PASSWORD:-postgres} PGUSER=${POSTGRES_USERNAME:-postgres} \
   PGHOST=${POSTGRES_HOSTNAME:-localhost} PGPORT=${POSTGRES_PORT:-54320} \
