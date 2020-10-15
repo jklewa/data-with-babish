@@ -165,32 +165,36 @@ def fetch_basics_episode_list():
     logging.info('Fetched episode list, %s episodes', episode_count)
     return reversed(episodes.to_list())
 
-conn = psycopg2.connect(dbname=DB_NAME, user=DB_USERNAME, host=DB_HOSTNAME, port=DB_PORT, password=DB_PASSWORD)
+def main():
+    conn = psycopg2.connect(dbname=DB_NAME, user=DB_USERNAME, host=DB_HOSTNAME, port=DB_PORT, password=DB_PASSWORD)
 
-EPISODES = fetch_binging_episode_list()
+    EPISODES = fetch_binging_episode_list()
 
-with conn.cursor() as cur:
-    for ep in EPISODES:
-        print("{published_date} | {name}".format(**ep))
-        cur.execute("INSERT INTO episode (id, name, youtube_link, official_link, image_link, published_date, show_id) VALUES (%s, %s, %s, %s, %s, %s, %s) ON CONFLICT (id) DO UPDATE SET (name, youtube_link, official_link, image_link, published_date, show_id) = (EXCLUDED.name, EXCLUDED.youtube_link, EXCLUDED.official_link, EXCLUDED.image_link, EXCLUDED.published_date, EXCLUDED.show_id)",
-                    (ep['id'], ep['name'], ep['youtube_link'], ep['official_link'], ep['image_link'], ep['published_date'], 1))
+    with conn.cursor() as cur:
+        for ep in EPISODES:
+            print("{published_date} | {name}".format(**ep))
+            cur.execute("INSERT INTO episode (id, name, youtube_link, official_link, image_link, published_date, show_id) VALUES (%s, %s, %s, %s, %s, %s, %s) ON CONFLICT (id) DO UPDATE SET (name, youtube_link, official_link, image_link, published_date, show_id) = (EXCLUDED.name, EXCLUDED.youtube_link, EXCLUDED.official_link, EXCLUDED.image_link, EXCLUDED.published_date, EXCLUDED.show_id)",
+                        (ep['id'], ep['name'], ep['youtube_link'], ep['official_link'], ep['image_link'], ep['published_date'], 1))
 
-        # methods = extract_recipe_method_names(ep['body'])
-        # print(' ' * 13 + ', '.join(methods))
+            # methods = extract_recipe_method_names(ep['body'])
+            # print(' ' * 13 + ', '.join(methods))
 
-conn.commit()
+    conn.commit()
 
-EPISODES = fetch_basics_episode_list()
+    EPISODES = fetch_basics_episode_list()
 
-with conn.cursor() as cur:
-    for ep in EPISODES:
-        print("{published_date} | {name}".format(**ep))
-        cur.execute("INSERT INTO episode (id, name, youtube_link, official_link, image_link, published_date, show_id) VALUES (%s, %s, %s, %s, %s, %s, %s) ON CONFLICT (id) DO UPDATE SET (name, youtube_link, official_link, image_link, published_date, show_id) = (EXCLUDED.name, EXCLUDED.youtube_link, EXCLUDED.official_link, EXCLUDED.image_link, EXCLUDED.published_date, EXCLUDED.show_id)",
-                    (ep['id'], ep['name'], ep['youtube_link'], ep['official_link'], ep['image_link'], ep['published_date'], 2))
+    with conn.cursor() as cur:
+        for ep in EPISODES:
+            print("{published_date} | {name}".format(**ep))
+            cur.execute("INSERT INTO episode (id, name, youtube_link, official_link, image_link, published_date, show_id) VALUES (%s, %s, %s, %s, %s, %s, %s) ON CONFLICT (id) DO UPDATE SET (name, youtube_link, official_link, image_link, published_date, show_id) = (EXCLUDED.name, EXCLUDED.youtube_link, EXCLUDED.official_link, EXCLUDED.image_link, EXCLUDED.published_date, EXCLUDED.show_id)",
+                        (ep['id'], ep['name'], ep['youtube_link'], ep['official_link'], ep['image_link'], ep['published_date'], 2))
 
-        # methods = extract_recipe_method_names(ep['body'])
-        # print(' ' * 13 + ', '.join(methods))
+            # methods = extract_recipe_method_names(ep['body'])
+            # print(' ' * 13 + ', '.join(methods))
 
-conn.commit()
+    conn.commit()
 
-print('Done')
+    print('Done')
+
+if __name__ == '__main__':
+    main()
