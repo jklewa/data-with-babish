@@ -16,6 +16,7 @@ YOUTUBE_ID_MATCHER = re.compile(
 
 DB_USERNAME = os.environ.get('POSTGRES_USERNAME', 'postgres')
 DB_PASSWORD = os.environ.get('POSTGRES_PASSWORD', 'postgres')
+DB_NAME = os.environ.get('POSTGRES_DBNAME', 'babish_db')
 DB_HOSTNAME = os.environ.get('POSTGRES_HOSTNAME', 'db')
 DB_PORT = int(os.environ.get('POSTGRES_PORT', '5432'))
 
@@ -164,7 +165,7 @@ def fetch_basics_episode_list():
     logging.info('Fetched episode list, %s episodes', episode_count)
     return reversed(episodes.to_list())
 
-conn = psycopg2.connect(dbname='babish_db', user=DB_USERNAME, host=DB_HOSTNAME, port=DB_PORT, password=DB_PASSWORD)
+conn = psycopg2.connect(dbname=DB_NAME, user=DB_USERNAME, host=DB_HOSTNAME, port=DB_PORT, password=DB_PASSWORD)
 
 EPISODES = fetch_binging_episode_list()
 

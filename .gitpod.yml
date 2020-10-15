@@ -1,0 +1,9 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - prebuild: pyenv install -s && pip install -r ./requirements.txt
+    init: gp await-port 5432 && psql -f ibdb/db_dump.sql
+    command: python ibdb/api.py
+  - openMode: split-left
+    command: echo "api.py running at $(gp url 5000)"
