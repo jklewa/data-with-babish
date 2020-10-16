@@ -15,7 +15,7 @@ class Guest(Base):
     __tablename__ = 'guest'
 
     id = Column(Integer, primary_key=True, server_default=text("nextval('guest_id_seq'::regclass)"))
-    name = Column(String, nullable=False)
+    name = Column(String, nullable=False, unique=True)
     image_link = Column(String)
 
     def serialize(self, related=True):
@@ -38,7 +38,7 @@ class Reference(Base):
 
     id = Column(Integer, primary_key=True, server_default=text("nextval('reference_id_seq'::regclass)"))
     type = Column(String)
-    name = Column(String)
+    name = Column(String, unique=True)
     description = Column(Text)
     external_link = Column(String)
     image_link = Column(String)
@@ -87,7 +87,7 @@ class Episode(Base):
     __tablename__ = 'episode'
 
     id = Column(String, primary_key=True)
-    name = Column(String, nullable=False)
+    name = Column(String, nullable=False, unique=True)
     youtube_link = Column(String, nullable=False)
     official_link = Column(String, nullable=False)
     image_link = Column(String)

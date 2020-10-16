@@ -7,6 +7,7 @@ install_requires = [
     "beautifulsoup4",
     "click",
     "flask",
+    "flask-migrate",
     "flask-sqlalchemy",
     "furl",
     "html5lib",
