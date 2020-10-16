@@ -3,6 +3,19 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+install_requires = [
+    "beautifulsoup4",
+    "click",
+    "flask",
+    "flask-sqlalchemy",
+    "furl",
+    "html5lib",
+    "measurement",
+    "psycopg2-binary",
+    "pyfunctional",
+    "requests",
+]
+
 setuptools.setup(
     name="ibdb",
     version="0.0.1",
@@ -17,6 +30,7 @@ setuptools.setup(
         "ibdb/bin/ibdb",
     ],
     packages=setuptools.find_packages(),
+    install_requires=install_requires,
     classifiers=[
         "Programming Language :: Python :: 3",
         'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
