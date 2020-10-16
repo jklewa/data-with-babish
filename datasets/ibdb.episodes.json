@@ -415,7 +415,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/6", 
+          "reference_id": 6, 
+          "type": "tv_show", 
+          "name": "Steven Universe", 
+          "description": "A team of intergalactic warriors fights to protect the universe, but the combination of three highly trained beings and one quirky young boy leaves the team struggling to overcome the dangerous scenarios that are put in front of them. IMDb.", 
+          "external_link": "https://www.imdb.com/title/tt3061046/", 
+          "image_link": "https://i.ytimg.com/sh/ofmKD13ObSYXEV-HkjVTGQ/market.jpg"
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -435,7 +445,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/320", 
+          "reference_id": 320, 
+          "type": null, 
+          "name": "Scott Pilgrim vs the World", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -455,7 +475,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/319", 
+          "reference_id": 319, 
+          "type": null, 
+          "name": "Ant Man & The Wasp", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -475,7 +505,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/21", 
+          "reference_id": 21, 
+          "type": "tv_show", 
+          "name": "Spongebob Squarepants", 
+          "description": "The misadventures of a talking sea sponge who works at a fast food restaurant, attends a boating school, and lives in an underwater pineapple. IMDb.", 
+          "external_link": "https://www.imdb.com/title/tt0206512/", 
+          "image_link": "https://i.ytimg.com/sh/xB1Tyy4zaK76gp2bG6-WKw/market.jpg"
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -515,7 +555,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/9", 
+          "reference_id": 9, 
+          "type": "tv_show", 
+          "name": "Breaking Bad", 
+          "description": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future. IMDb.", 
+          "external_link": "https://www.imdb.com/title/tt0903747/", 
+          "image_link": "https://i.ytimg.com/sh/n4iyyrLWFRgZ-Hnzllkmhg/market.jpg"
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -555,7 +605,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/316", 
+          "reference_id": 316, 
+          "type": null, 
+          "name": "Schitt's Creek", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -615,7 +675,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/314", 
+          "reference_id": 314, 
+          "type": null, 
+          "name": "Parks & Rec ", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -635,7 +705,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/314", 
+          "reference_id": 314, 
+          "type": null, 
+          "name": "Parks & Rec ", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -675,7 +755,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/299", 
+          "reference_id": 299, 
+          "type": null, 
+          "name": "Parks & Rec", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -695,7 +785,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/285", 
+          "reference_id": 285, 
+          "type": null, 
+          "name": "Avatar the Last Airbender", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -715,7 +815,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/311", 
+          "reference_id": 311, 
+          "type": null, 
+          "name": "Dexter", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -755,7 +865,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/59", 
+          "reference_id": 59, 
+          "type": "movie", 
+          "name": "Brooklyn Nine-Nine", 
+          "description": "Jake Peralta, an immature, but talented N.Y.P.D. detective in Brooklyn's 99th Precinct, comes into immediate conflict with his new commanding officer, the serious and stern Captain Ray Holt. IMDb.", 
+          "external_link": "https://www.imdb.com/title/tt2467372/", 
+          "image_link": "https://i.ytimg.com/sh/pWqd6_WigME9LOWjOdwh5w/market.jpg"
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -775,7 +895,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/310", 
+          "reference_id": 310, 
+          "type": null, 
+          "name": "SpongeBob Squarepants", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -815,7 +945,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/308", 
+          "reference_id": 308, 
+          "type": null, 
+          "name": "Lord of the Rings", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -855,7 +995,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/307", 
+          "reference_id": 307, 
+          "type": null, 
+          "name": "Weird Al's UHF", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -895,7 +1045,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/306", 
+          "reference_id": 306, 
+          "type": null, 
+          "name": "Skyrim", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -935,7 +1095,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/305", 
+          "reference_id": 305, 
+          "type": null, 
+          "name": "When Harry Met Sally", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -975,7 +1145,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/303", 
+          "reference_id": 303, 
+          "type": null, 
+          "name": "Community", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1015,7 +1195,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/303", 
+          "reference_id": 303, 
+          "type": null, 
+          "name": "Community", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1055,7 +1245,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/302", 
+          "reference_id": 302, 
+          "type": null, 
+          "name": "Rick & Morty", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1095,7 +1295,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/23", 
+          "reference_id": 23, 
+          "type": "tv_show", 
+          "name": "Archer", 
+          "description": "Covert black ops and espionage take a back seat to zany personalities and relationships between secret agents and drones. IMDb.", 
+          "external_link": "https://www.imdb.com/title/tt1486217/", 
+          "image_link": "https://i.ytimg.com/sh/9pN22G6plt4DRzxbbhHy-g/market.jpg"
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1175,7 +1385,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/300", 
+          "reference_id": 300, 
+          "type": null, 
+          "name": "Jojo's Bizarre Adventure", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1195,7 +1415,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/299", 
+          "reference_id": 299, 
+          "type": null, 
+          "name": "Parks & Rec", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1235,7 +1465,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/298", 
+          "reference_id": 298, 
+          "type": null, 
+          "name": "The Marvelous Mrs. Maisel", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1275,7 +1515,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/297", 
+          "reference_id": 297, 
+          "type": null, 
+          "name": "Hook", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1295,7 +1545,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/296", 
+          "reference_id": 296, 
+          "type": null, 
+          "name": "Kenan & Kel", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1335,7 +1595,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/295", 
+          "reference_id": 295, 
+          "type": null, 
+          "name": "Star Trek: Picard", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1375,7 +1645,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/294", 
+          "reference_id": 294, 
+          "type": null, 
+          "name": "Parks and Rec", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1395,7 +1675,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/293", 
+          "reference_id": 293, 
+          "type": null, 
+          "name": "Rugrats", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1435,7 +1725,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/292", 
+          "reference_id": 292, 
+          "type": null, 
+          "name": "Birds of Prey", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1455,7 +1755,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/291", 
+          "reference_id": 291, 
+          "type": null, 
+          "name": "Parasite", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1495,7 +1805,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/290", 
+          "reference_id": 290, 
+          "type": null, 
+          "name": "YOU", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1515,7 +1835,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/289", 
+          "reference_id": 289, 
+          "type": null, 
+          "name": "Once Upon a Time in Hollywood", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1535,7 +1865,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/288", 
+          "reference_id": 288, 
+          "type": null, 
+          "name": "Everybody Loves Raymond", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1575,7 +1915,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/287", 
+          "reference_id": 287, 
+          "type": null, 
+          "name": "Paddington", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1595,7 +1945,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/15", 
+          "reference_id": 15, 
+          "type": "tv_show", 
+          "name": "The Simpsons", 
+          "description": "The satiric adventures of a working-class family in the misfit city of Springfield. IMDb.", 
+          "external_link": "https://www.imdb.com/title/tt0096697/", 
+          "image_link": "https://i.ytimg.com/sh/g0CHYnadWiJf0SZUHuk7Eg/market.jpg"
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1635,7 +1995,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/285", 
+          "reference_id": 285, 
+          "type": null, 
+          "name": "Avatar the Last Airbender", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -1655,7 +2025,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/284", 
+          "reference_id": 284, 
+          "type": null, 
+          "name": "Love, Actually", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -3224,6 +3604,15 @@
           "description": "A father recounts to his children, through a series of flashbacks, the journey he and his four best friends took leading up to him meeting their mother. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt0460649/", 
           "image_link": "https://i.ytimg.com/sh/nS5ZZknwMNMvpBoMbhVkHQ/market.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/269", 
+          "reference_id": 269, 
+          "type": null, 
+          "name": "How I Met Your Mother", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -4018,6 +4407,15 @@
           "description": "Four people and their otherworldly frienemy struggle in the afterlife to define what it means to be good. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt4955642/", 
           "image_link": "https://i.ytimg.com/sh/cPYWudB6IMGItbGzBsO5mA/market.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/277", 
+          "reference_id": 277, 
+          "type": null, 
+          "name": "The Good Place (plus Naco Redemption)", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -5094,6 +5492,15 @@
       }, 
       "guests": [], 
       "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/275", 
+          "reference_id": 275, 
+          "type": null, 
+          "name": "Talladega Nights", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }, 
         {
           "self": "http://0.0.0.0:5000/reference/137", 
           "reference_id": 137, 
@@ -7498,6 +7905,15 @@
           "description": "A father recounts to his children, through a series of flashbacks, the journey he and his four best friends took leading up to him meeting their mother. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt0460649/", 
           "image_link": "https://i.ytimg.com/sh/nS5ZZknwMNMvpBoMbhVkHQ/market.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/269", 
+          "reference_id": 269, 
+          "type": null, 
+          "name": "How I Met Your Mother", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -8503,7 +8919,7 @@
     "self": "http://0.0.0.0:5000/episode/whitecastlesliders", 
     "episode_id": "whitecastlesliders", 
     "name": "White Castle sliders inspired by Harold & Kumar", 
-    "published_date": "2019-08-13T00:00:00+00:00", 
+    "published_date": "2019-08-14T00:00:00+00:00", 
     "youtube_link": "https://www.youtube.com/watch?v=pTk9HnIwEYU", 
     "official_link": "https://www.bingingwithbabish.com/recipes/whitecastlesliders", 
     "image_link": "https://img.youtube.com/vi/pTk9HnIwEYU/mqdefault.jpg", 
@@ -8516,6 +8932,15 @@
       }, 
       "guests": [], 
       "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/266", 
+          "reference_id": 266, 
+          "type": null, 
+          "name": "Harold & Kumar", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }, 
         {
           "self": "http://0.0.0.0:5000/reference/2", 
           "reference_id": 2, 
@@ -13296,6 +13721,15 @@
           "description": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt0109830/", 
           "image_link": "https://img.youtube.com/vi/EtYNngO7eq4/mqdefault.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/252", 
+          "reference_id": 252, 
+          "type": null, 
+          "name": "Forrest Gump Part II", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -17657,6 +18091,15 @@
           "description": "A prince cursed to spend his days as a hideous monster sets out to regain his humanity by earning a young woman's love. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt0101414/", 
           "image_link": "https://img.youtube.com/vi/f0VnGIjAtZo/mqdefault.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/236", 
+          "reference_id": 236, 
+          "type": null, 
+          "name": "Beauty & the Beast", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -18895,6 +19338,15 @@
           "description": "The misadventures of a talking sea sponge who works at a fast food restaurant, attends a boating school, and lives in an underwater pineapple. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt0206512/", 
           "image_link": "https://i.ytimg.com/sh/xB1Tyy4zaK76gp2bG6-WKw/market.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/165", 
+          "reference_id": 165, 
+          "type": null, 
+          "name": "SpongeBob SquarePants", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -20693,6 +21145,15 @@
           "description": "Indiana native Jim Gaffigan arrived in New York City in 1990 at the age of 24. Officially, he had relocated to work in advertising, but his real fascination with New York had a lot more to do with pursuing his dream of making people laugh as an actor and stand-up comic, a dream he would eventually realize through hard work and ample talent. IMDb.", 
           "external_link": "https://www.imdb.com/name/nm0300712/", 
           "image_link": "https://img.youtube.com/vi/-o-u4IwXkbE/mqdefault.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/228", 
+          "reference_id": 228, 
+          "type": null, 
+          "name": "Jim Gaffigan's Stand Up (sort of)", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -22119,6 +22580,15 @@
           "description": "Nine noble families fight for control over the mythical lands of Westeros, while an ancient enemy returns after being dormant for thousands of years. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt0944947/", 
           "image_link": "https://i.ytimg.com/sh/ow8-ZftRoZelY710tvO45Q/market.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/225", 
+          "reference_id": 225, 
+          "type": null, 
+          "name": "Game of Thrones (feat. Maisie Williams)", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -24496,6 +24966,15 @@
           "image_link": "https://img.youtube.com/vi/c_8GlcxdemA/mqdefault.jpg"
         }, 
         {
+          "self": "http://0.0.0.0:5000/reference/218", 
+          "reference_id": 218, 
+          "type": null, 
+          "name": "Chef (and Princess and the Frog)", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }, 
+        {
           "self": "http://0.0.0.0:5000/reference/48", 
           "reference_id": 48, 
           "type": "movie", 
@@ -25022,6 +25501,15 @@
           "description": "Six months after his wife's death, a highschool teacher struggles to raise his daughter due to his inability to cook. When he meets an introverted student, who's also a part-time cook, he decides to learn to cook good meals for his daughter. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt5853222/", 
           "image_link": "https://m.media-amazon.com/images/M/MV5BY2ZiNzA0M2QtYjE2NC00ZTJjLWIyMDMtN2Q2ZmUwNjFmNjhmXkEyXkFqcGdeQXVyNTc3MDU1MTU@._V1_UX182_CR0,0,182,268_AL_.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/216", 
+          "reference_id": 216, 
+          "type": null, 
+          "name": "Sweetness & Lightning", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -25427,6 +25915,15 @@
           "description": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt0109830/", 
           "image_link": "https://img.youtube.com/vi/EtYNngO7eq4/mqdefault.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/214", 
+          "reference_id": 214, 
+          "type": null, 
+          "name": "Forrest Gump | Part 1", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -26456,6 +26953,15 @@
           "description": "After the loss of their parents in a mysterious fire, the three Baudelaire children face trials and tribulations attempting to uncover dark family secrets. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt4834206/", 
           "image_link": "https://img.youtube.com/vi/Tup-5yOcJuM/mqdefault.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/211", 
+          "reference_id": 211, 
+          "type": null, 
+          "name": "Lemony Snicket's A Series of Unfortunate Events", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -28394,6 +28900,15 @@
       "guests": [], 
       "inspired_by": [
         {
+          "self": "http://0.0.0.0:5000/reference/205", 
+          "reference_id": 205, 
+          "type": null, 
+          "name": "Captain America: Civil War", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }, 
+        {
           "self": "http://0.0.0.0:5000/reference/60", 
           "reference_id": 60, 
           "type": "movie", 
@@ -29117,6 +29632,15 @@
           "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt0848228/", 
           "image_link": "https://img.youtube.com/vi/W9ZnpIGvZUo/mqdefault.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/203", 
+          "reference_id": 203, 
+          "type": null, 
+          "name": "The Avengers", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -29437,6 +29961,15 @@
       "guests": [], 
       "inspired_by": [
         {
+          "self": "http://0.0.0.0:5000/reference/202", 
+          "reference_id": 202, 
+          "type": null, 
+          "name": "Amelie", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }, 
+        {
           "self": "http://0.0.0.0:5000/reference/63", 
           "reference_id": 63, 
           "type": "movie", 
@@ -29634,6 +30167,15 @@
           "description": "Jon Arbuckle buys a second pet, a dog named Odie. However, Odie is then abducted and it is up to Jon's cat, Garfield, to find and rescue the canine. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt0356634/", 
           "image_link": "https://img.youtube.com/vi/ggBf8_YhQVU/mqdefault.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/201", 
+          "reference_id": 201, 
+          "type": null, 
+          "name": "Garfield (feat. It's Alive with Brad)", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -29825,6 +30367,15 @@
           "description": "Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt0108778/", 
           "image_link": "https://i.ytimg.com/sh/SnTDhFDmcbB3lkFWrIi8MA/market.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/200", 
+          "reference_id": 200, 
+          "type": null, 
+          "name": "Lots of Things", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }, 
         {
           "self": "http://0.0.0.0:5000/reference/21", 
@@ -30307,6 +30858,15 @@
       }, 
       "guests": [], 
       "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/199", 
+          "reference_id": 199, 
+          "type": null, 
+          "name": "Food Wars!: Shokugeki no Soma", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }, 
         {
           "self": "http://0.0.0.0:5000/reference/65", 
           "reference_id": 65, 
@@ -30972,6 +31532,15 @@
           "description": "A head chef quits his restaurant job and buys a food truck in an effort to reclaim his creative promise, while piecing back together his estranged family. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt2883512/", 
           "image_link": "https://img.youtube.com/vi/c_8GlcxdemA/mqdefault.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/196", 
+          "reference_id": 196, 
+          "type": null, 
+          "name": "Chef with Jon Favreau and Roy Choi", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -31827,6 +32396,15 @@
           "image_link": "https://i.ytimg.com/sh/SnTDhFDmcbB3lkFWrIi8MA/market.jpg"
         }, 
         {
+          "self": "http://0.0.0.0:5000/reference/195", 
+          "reference_id": 195, 
+          "type": null, 
+          "name": "Lots of Stuff", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }, 
+        {
           "self": "http://0.0.0.0:5000/reference/130", 
           "reference_id": 130, 
           "type": "tv_show", 
@@ -32267,6 +32845,15 @@
           "description": "The daily surreal adventures of a blue jay and raccoon duo that attempt to deal with their mundane jobs as groundskeepers at the local park. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt1710308/", 
           "image_link": "https://i.ytimg.com/sh/ySdGZtRK67xmuBIbN5d65w/market.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/193", 
+          "reference_id": 193, 
+          "type": null, 
+          "name": "Regular Show: 2 Million Subscriber Special", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -33942,6 +34529,15 @@
           "description": "A motorcycle stunt rider turns to robbing banks as a way to provide for his lover and their newborn child, a decision that puts him on a collision course with an ambitious rookie cop navigating a department ruled by a corrupt detective. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt1817273/", 
           "image_link": "https://img.youtube.com/vi/o2YuRzviXMc/mqdefault.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/187", 
+          "reference_id": 187, 
+          "type": null, 
+          "name": "The Place Beyond The Pines (sort of)", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -36816,6 +37412,15 @@
       "guests": [], 
       "inspired_by": [
         {
+          "self": "http://0.0.0.0:5000/reference/180", 
+          "reference_id": 180, 
+          "type": null, 
+          "name": "Real Sample!)", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }, 
+        {
           "self": "http://0.0.0.0:5000/reference/83", 
           "reference_id": 83, 
           "type": "tv_show", 
@@ -37273,6 +37878,15 @@
       }, 
       "guests": [], 
       "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/178", 
+          "reference_id": 178, 
+          "type": null, 
+          "name": "Agents of S.H.I.E.L.D.", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }, 
         {
           "self": "http://0.0.0.0:5000/reference/84", 
           "reference_id": 84, 
@@ -37778,6 +38392,15 @@
           "description": "After a century of hibernation, Link reawakens to once again save a ruined Hyrule from a great evil. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt3253986/", 
           "image_link": "https://img.youtube.com/vi/2As_DjNkwiI/mqdefault.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/175", 
+          "reference_id": 175, 
+          "type": null, 
+          "name": "Zelda: Breath of the Wild", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -38102,6 +38725,15 @@
           "description": "A famous guest host stars in parodies and sketches created by the cast of this witty show. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt0072562/", 
           "image_link": "https://i.ytimg.com/sh/t5sPe62DPS-vj8-cYU12hQ/market.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/173", 
+          "reference_id": 173, 
+          "type": null, 
+          "name": "SNL", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -39157,7 +39789,7 @@
     "self": "http://0.0.0.0:5000/episode/cocktail-special", 
     "episode_id": "cocktail-special", 
     "name": "Cocktail Special", 
-    "published_date": "2017-06-27T00:00:00+00:00", 
+    "published_date": "2017-06-28T00:00:00+00:00", 
     "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU", 
     "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special", 
     "image_link": "https://img.youtube.com/vi/v5tJBLfeurU/mqdefault.jpg", 
@@ -39970,6 +40602,15 @@
           "description": "The misadventures of a talking sea sponge who works at a fast food restaurant, attends a boating school, and lives in an underwater pineapple. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt0206512/", 
           "image_link": "https://i.ytimg.com/sh/xB1Tyy4zaK76gp2bG6-WKw/market.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/165", 
+          "reference_id": 165, 
+          "type": null, 
+          "name": "SpongeBob SquarePants", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -40543,7 +41184,7 @@
     "self": "http://0.0.0.0:5000/episode/babka-inspired-by-seinfeld", 
     "episode_id": "babka-inspired-by-seinfeld", 
     "name": "Babka inspired by Seinfeld", 
-    "published_date": "2017-05-09T00:00:00+00:00", 
+    "published_date": "2017-05-10T00:00:00+00:00", 
     "youtube_link": "https://www.youtube.com/watch?v=pw2A03Z91FI", 
     "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/09/babka-inspired-by-seinfeld", 
     "image_link": "https://img.youtube.com/vi/pw2A03Z91FI/mqdefault.jpg", 
@@ -41037,6 +41678,15 @@
           "description": "Julia Child's story of her start in the cooking profession is intertwined with blogger Julie Powell's 2002 challenge to cook all the recipes in Child's first book. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt1135503/", 
           "image_link": "https://img.youtube.com/vi/X2TStmuTxb8/mqdefault.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/160", 
+          "reference_id": 160, 
+          "type": null, 
+          "name": "Julie & Julia", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -41986,7 +42636,7 @@
     "self": "http://0.0.0.0:5000/episode/cubanos-inspired-by-chef", 
     "episode_id": "cubanos-inspired-by-chef", 
     "name": "Cubanos inspired by Chef", 
-    "published_date": "2017-03-28T00:00:00+00:00", 
+    "published_date": "2017-03-29T00:00:00+00:00", 
     "youtube_link": "https://www.youtube.com/watch?v=hXYoduN0kWs", 
     "official_link": "https://www.bingingwithbabish.com/recipes/2017/3/28/cubanos-inspired-by-chef", 
     "image_link": "https://img.youtube.com/vi/hXYoduN0kWs/mqdefault.jpg", 
@@ -42825,6 +43475,15 @@
           "description": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt0382932/", 
           "image_link": "https://img.youtube.com/vi/eh62Ri60lXI/mqdefault.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/156", 
+          "reference_id": 156, 
+          "type": null, 
+          "name": "Ratatouille", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -44425,7 +45084,7 @@
     "self": "http://0.0.0.0:5000/episode/goodfellasprisonsauce", 
     "episode_id": "goodfellasprisonsauce", 
     "name": "Prison Sauce inspired by Goodfellas", 
-    "published_date": "2016-11-30T00:00:00+00:00", 
+    "published_date": "2016-12-01T00:00:00+00:00", 
     "youtube_link": "https://www.youtube.com/watch?v=uEjMyHccX8U", 
     "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/15/goodfellasprisonsauce", 
     "image_link": "https://img.youtube.com/vi/uEjMyHccX8U/mqdefault.jpg", 
@@ -45168,6 +45827,15 @@
           "description": "The Turtles and the Shredder battle once again, this time for the last canister of the ooze that created the Turtles, with which Shredder wants to unleash an army of new mutants. IMDb.", 
           "external_link": "https://www.imdb.com/title/tt0103060/", 
           "image_link": "https://img.youtube.com/vi/NIb0yG_xjp4/mqdefault.jpg"
+        }, 
+        {
+          "self": "http://0.0.0.0:5000/reference/145", 
+          "reference_id": 145, 
+          "type": null, 
+          "name": "TMNT II: Secret of the Ooze", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
         }
       ], 
       "recipes": [
@@ -45719,7 +46387,7 @@
     "self": "http://0.0.0.0:5000/episode/il-timpano-inspired-by-big-night", 
     "episode_id": "il-timpano-inspired-by-big-night", 
     "name": "Il Timpano inspired by Big Night", 
-    "published_date": "2016-02-20T00:00:00+00:00", 
+    "published_date": "2016-02-21T00:00:00+00:00", 
     "youtube_link": "https://www.youtube.com/watch?v=PIsIE0oHGgo", 
     "official_link": "https://www.bingingwithbabish.com/recipes/2017/2/20/il-timpano-inspired-by-big-night", 
     "image_link": "https://img.youtube.com/vi/PIsIE0oHGgo/mqdefault.jpg", 

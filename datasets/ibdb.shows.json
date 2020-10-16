@@ -603,7 +603,7 @@
         "self": "http://0.0.0.0:5000/episode/whitecastlesliders", 
         "episode_id": "whitecastlesliders", 
         "name": "White Castle sliders inspired by Harold & Kumar", 
-        "published_date": "2019-08-13T00:00:00+00:00", 
+        "published_date": "2019-08-14T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=pTk9HnIwEYU", 
         "official_link": "https://www.bingingwithbabish.com/recipes/whitecastlesliders", 
         "image_link": "https://img.youtube.com/vi/pTk9HnIwEYU/mqdefault.jpg"
@@ -1629,7 +1629,7 @@
         "self": "http://0.0.0.0:5000/episode/cocktail-special", 
         "episode_id": "cocktail-special", 
         "name": "Cocktail Special", 
-        "published_date": "2017-06-27T00:00:00+00:00", 
+        "published_date": "2017-06-28T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special", 
         "image_link": "https://img.youtube.com/vi/v5tJBLfeurU/mqdefault.jpg"
@@ -1701,7 +1701,7 @@
         "self": "http://0.0.0.0:5000/episode/babka-inspired-by-seinfeld", 
         "episode_id": "babka-inspired-by-seinfeld", 
         "name": "Babka inspired by Seinfeld", 
-        "published_date": "2017-05-09T00:00:00+00:00", 
+        "published_date": "2017-05-10T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=pw2A03Z91FI", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/09/babka-inspired-by-seinfeld", 
         "image_link": "https://img.youtube.com/vi/pw2A03Z91FI/mqdefault.jpg"
@@ -1764,7 +1764,7 @@
         "self": "http://0.0.0.0:5000/episode/cubanos-inspired-by-chef", 
         "episode_id": "cubanos-inspired-by-chef", 
         "name": "Cubanos inspired by Chef", 
-        "published_date": "2017-03-28T00:00:00+00:00", 
+        "published_date": "2017-03-29T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=hXYoduN0kWs", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/3/28/cubanos-inspired-by-chef", 
         "image_link": "https://img.youtube.com/vi/hXYoduN0kWs/mqdefault.jpg"
@@ -1890,7 +1890,7 @@
         "self": "http://0.0.0.0:5000/episode/goodfellasprisonsauce", 
         "episode_id": "goodfellasprisonsauce", 
         "name": "Prison Sauce inspired by Goodfellas", 
-        "published_date": "2016-11-30T00:00:00+00:00", 
+        "published_date": "2016-12-01T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=uEjMyHccX8U", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/15/goodfellasprisonsauce", 
         "image_link": "https://img.youtube.com/vi/uEjMyHccX8U/mqdefault.jpg"
@@ -1980,7 +1980,7 @@
         "self": "http://0.0.0.0:5000/episode/il-timpano-inspired-by-big-night", 
         "episode_id": "il-timpano-inspired-by-big-night", 
         "name": "Il Timpano inspired by Big Night", 
-        "published_date": "2016-02-20T00:00:00+00:00", 
+        "published_date": "2016-02-21T00:00:00+00:00", 
         "youtube_link": "https://www.youtube.com/watch?v=PIsIE0oHGgo", 
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/2/20/il-timpano-inspired-by-big-night", 
         "image_link": "https://img.youtube.com/vi/PIsIE0oHGgo/mqdefault.jpg"
