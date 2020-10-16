@@ -14,7 +14,7 @@ callee==0.3.1             # via -r requirements.in
 certifi==2020.6.20        # via requests
 cffi==1.14.3              # via argon2-cffi
 chardet==3.0.4            # via requests
-click==7.1.2              # via flask
+click==7.1.2              # via -r requirements.in, flask
 colorlover==0.3.0         # via cufflinks
 coverage==5.3             # via pytest-cov
 cufflinks==0.17.3         # via -r requirements.in

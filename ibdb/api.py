@@ -8,7 +8,7 @@ from flask import (
     render_template,
 )
 
-from models import (
+from ibdb.models import (
     Episode,
     Recipe,
     Guest,
@@ -17,7 +17,7 @@ from models import (
     db,
 )
 
-from utils import (
+from ibdb.utils import (
     normalize_raw_list
 )
 

@@ -4,7 +4,7 @@ from sqlalchemy.orm import relationship, backref
 from flask_sqlalchemy import SQLAlchemy
 from flask import request
 
-from recipe_parser import RecipeParser
+from ibdb.recipe_parser import RecipeParser
 
 db = SQLAlchemy()
 Base = db.Model
