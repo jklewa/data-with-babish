@@ -1913,6 +1913,24 @@
     "image_link": null, 
     "episodes": [
       {
+        "self": "http://0.0.0.0:5000/episode/baklava", 
+        "episode_id": "baklava", 
+        "name": "BAKLAVA", 
+        "published_date": "2020-10-15T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=n1O3uHPCOLA", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/baklava", 
+        "image_link": "https://img.youtube.com/vi/n1O3uHPCOLA/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://0.0.0.0:5000/episode/pizza-dough", 
+        "episode_id": "pizza-dough", 
+        "name": "PIZZA DOUGH", 
+        "published_date": "2020-10-15T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=n1O3uHPCOLA", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/pizza-dough", 
+        "image_link": "https://img.youtube.com/vi/n1O3uHPCOLA/mqdefault.jpg"
+      }, 
+      {
         "self": "http://0.0.0.0:5000/episode/short-ribs", 
         "episode_id": "short-ribs", 
         "name": "BRAISED SHORT RIBS", 

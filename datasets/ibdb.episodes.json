@@ -1,5 +1,45 @@
 [
   {
+    "self": "http://0.0.0.0:5000/episode/baklava", 
+    "episode_id": "baklava", 
+    "name": "BAKLAVA", 
+    "published_date": "2020-10-15T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=n1O3uHPCOLA", 
+    "official_link": "https://basicswithbabish.co/basicsepisodes/baklava", 
+    "image_link": "https://img.youtube.com/vi/n1O3uHPCOLA/mqdefault.jpg", 
+    "related": {
+      "show": {
+        "self": "http://0.0.0.0:5000/show/2", 
+        "show_id": 2, 
+        "name": "Basics with Babish", 
+        "image_link": null
+      }, 
+      "guests": [], 
+      "inspired_by": [], 
+      "recipes": []
+    }
+  }, 
+  {
+    "self": "http://0.0.0.0:5000/episode/pizza-dough", 
+    "episode_id": "pizza-dough", 
+    "name": "PIZZA DOUGH", 
+    "published_date": "2020-10-15T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=n1O3uHPCOLA", 
+    "official_link": "https://basicswithbabish.co/basicsepisodes/pizza-dough", 
+    "image_link": "https://img.youtube.com/vi/n1O3uHPCOLA/mqdefault.jpg", 
+    "related": {
+      "show": {
+        "self": "http://0.0.0.0:5000/show/2", 
+        "show_id": 2, 
+        "name": "Basics with Babish", 
+        "image_link": null
+      }, 
+      "guests": [], 
+      "inspired_by": [], 
+      "recipes": []
+    }
+  }, 
+  {
     "self": "http://0.0.0.0:5000/episode/restaurant-wars-steven-universe", 
     "episode_id": "restaurant-wars-steven-universe", 
     "name": "Restaurant Wars inspired by Steven Universe", 
