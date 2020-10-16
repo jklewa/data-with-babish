@@ -5,6 +5,7 @@ __pycache__
 .pytest_cache
 tmp/
 tmp/pgdb_data/
+.coverage
 
 # Packages
 *.egg

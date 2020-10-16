@@ -8,6 +8,8 @@ from flask import (
     render_template,
 )
 
+from flask_migrate import Migrate
+
 from ibdb.models import (
     Episode,
     Recipe,
@@ -29,8 +31,12 @@ DB_PORT = int(os.environ.get('POSTGRES_PORT', '5432'))
 
 app = Flask(__name__, template_folder='./templates')
 app.config['SQLALCHEMY_DATABASE_URI'] = f"postgresql+psycopg2://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOSTNAME}:{DB_PORT}/{DB_NAME}"
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['JSON_SORT_KEYS'] = False
 db.init_app(app)
+
+migrate = Migrate()
+migrate.init_app(app, db)
 
 
 @app.route('/')
