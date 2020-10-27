@@ -1,5 +1,45 @@
 [
   {
+    "self": "http://0.0.0.0:5000/episode/broodwich-aqua-teen-hunger-force", 
+    "episode_id": "broodwich-aqua-teen-hunger-force", 
+    "name": "The Broodwich inspired by Aqua Teen Hunger Force", 
+    "published_date": "2020-10-27T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=0vZvPtI5Uk8", 
+    "official_link": "https://www.bingingwithbabish.com/recipes/broodwich-aqua-teen-hunger-force", 
+    "image_link": "https://img.youtube.com/vi/0vZvPtI5Uk8/mqdefault.jpg", 
+    "related": {
+      "show": {
+        "self": "http://0.0.0.0:5000/show/1", 
+        "show_id": 1, 
+        "name": "Binging with Babish", 
+        "image_link": null
+      }, 
+      "guests": [], 
+      "inspired_by": [], 
+      "recipes": []
+    }
+  }, 
+  {
+    "self": "http://0.0.0.0:5000/episode/bolognese", 
+    "episode_id": "bolognese", 
+    "name": "BOLOGNESE", 
+    "published_date": "2020-10-26T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=vTEi5FFxMuE", 
+    "official_link": "https://basicswithbabish.co/basicsepisodes/bolognese", 
+    "image_link": "https://img.youtube.com/vi/vTEi5FFxMuE/mqdefault.jpg", 
+    "related": {
+      "show": {
+        "self": "http://0.0.0.0:5000/show/2", 
+        "show_id": 2, 
+        "name": "Basics with Babish", 
+        "image_link": null
+      }, 
+      "guests": [], 
+      "inspired_by": [], 
+      "recipes": []
+    }
+  }, 
+  {
     "self": "http://0.0.0.0:5000/episode/regular-show-mississippi-queen", 
     "episode_id": "regular-show-mississippi-queen", 
     "name": "Mississippi Queen inspired by Regular Show", 
