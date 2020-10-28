@@ -315,7 +315,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/323", 
+          "reference_id": 323, 
+          "type": null, 
+          "name": "Aqua Teen Hunger Force", 
+          "description": null, 
+          "external_link": null, 
+          "image_link": null
+        }
+      ], 
       "recipes": []
     }
   }, 
@@ -355,7 +365,17 @@
         "image_link": null
       }, 
       "guests": [], 
-      "inspired_by": [], 
+      "inspired_by": [
+        {
+          "self": "http://0.0.0.0:5000/reference/7", 
+          "reference_id": 7, 
+          "type": "tv_show", 
+          "name": "Regular Show", 
+          "description": "The daily surreal adventures of a blue jay and raccoon duo that attempt to deal with their mundane jobs as groundskeepers at the local park. IMDb.", 
+          "external_link": "https://www.imdb.com/title/tt1710308/", 
+          "image_link": "https://i.ytimg.com/sh/ySdGZtRK67xmuBIbN5d65w/market.jpg"
+        }
+      ], 
       "recipes": []
     }
   }, 

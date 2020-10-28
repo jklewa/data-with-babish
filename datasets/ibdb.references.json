@@ -207,6 +207,26 @@
     ]
   }, 
   {
+    "self": "http://0.0.0.0:5000/reference/323", 
+    "reference_id": 323, 
+    "type": null, 
+    "name": "Aqua Teen Hunger Force", 
+    "description": null, 
+    "external_link": null, 
+    "image_link": null, 
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/broodwich-aqua-teen-hunger-force", 
+        "episode_id": "broodwich-aqua-teen-hunger-force", 
+        "name": "The Broodwich inspired by Aqua Teen Hunger Force", 
+        "published_date": "2020-10-27T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=0vZvPtI5Uk8", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/broodwich-aqua-teen-hunger-force", 
+        "image_link": "https://img.youtube.com/vi/0vZvPtI5Uk8/mqdefault.jpg"
+      }
+    ]
+  }, 
+  {
     "self": "http://0.0.0.0:5000/reference/131", 
     "reference_id": 131, 
     "type": "movie", 
@@ -2861,6 +2881,15 @@
     "external_link": "https://www.imdb.com/title/tt1710308/", 
     "image_link": "https://i.ytimg.com/sh/ySdGZtRK67xmuBIbN5d65w/market.jpg", 
     "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/regular-show-mississippi-queen", 
+        "episode_id": "regular-show-mississippi-queen", 
+        "name": "Mississippi Queen inspired by Regular Show", 
+        "published_date": "2020-10-20T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=KV-SUOpW408", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/regular-show-mississippi-queen", 
+        "image_link": "https://img.youtube.com/vi/KV-SUOpW408/mqdefault.jpg"
+      }, 
       {
         "self": "http://0.0.0.0:5000/episode/applefritters", 
         "episode_id": "applefritters", 
