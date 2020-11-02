@@ -10,7 +10,14 @@ Sync
 import unittest
 import requests_mock
 from callee import String
-from ibdb.populate_db import extract_youtube_id, extract_youtube_link, add_youtube_resources, fetch_binging_episode_list, fetch_basics_episode_list
+from ibdb.populate_db import (
+    add_youtube_resources,
+    extract_inspired_by,
+    extract_youtube_id,
+    extract_youtube_link,
+    fetch_basics_episode_list,
+    fetch_binging_episode_list,
+)
 
 
 class TestYouTube(unittest.TestCase):
@@ -123,3 +130,43 @@ class TestHtmlExtract(unittest.TestCase):
         ]
 
         self.assertEqual(expected, list(fetch_basics_episode_list()))
+
+class TestInspiredBy(unittest.TestCase):
+    def test_extract_inspired_by(self):
+        tests = [
+            ('', []),
+            ('Meat Tornado inspired by Parks & Rec ', ['Parks & Rec']),
+            ('Bad Breath Sundae inspired by SpongeBob Squarepants', ['SpongeBob Squarepants']),
+            ('Chocolate Pudding (4 Ways) inspired by Rugrats"', ['Rugrats']),
+            ('Egg Sandwich (with Homemade Ciabatta) inspired by Birds of Prey', ['Birds of Prey']),
+            ('Banoffee Pie inspired by Love, Actually', ['Love, Actually']),
+            ('Nachos inspired by The Good Place (plus Naco Redemption)', ['The Good Place', 'Naco Redemption']),
+            ("It's Always Sunny in Philadelphia Special (Part II)", ["It's Always Sunny in Philadelphia"]),
+            ('The Good Place Special', ["The Good Place"]),
+            ('Shrimp inspired by Forrest Gump Part II', ["Forrest Gump"]),
+            ('Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show', ['Regular Show']),
+            ("Brock's Onigiri inspired by Pokémon", ['Pokémon']),
+            ('Crème de la Crème à la Edgar inspired by The Aristocats', ['The Aristocats']),
+            ('Seinfeld Volume II', ['Seinfeld']),
+            ('Charlie Brown Thanksgiving', ['Charlie Brown']),
+            ('Bear Stew inspired by Red Dead Redemption 2', ['Red Dead Redemption 2']),
+            ("Cinnamon Rolls inspired by Jim Gaffigan's Stand Up (sort of)", ["Jim Gaffigan's Stand Up"]),
+            ('King of the Hill Special', ['King of the Hill']),
+            ('Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)', ['Game of Thrones']),
+            ('Beignets inspired by Chef (and Princess and the Frog)', ['Chef', 'Princess and the Frog']),
+            ('Fried Green Tomatoes inspired by...Fried Green Tomatoes', ['Fried Green Tomatoes']),
+            ('Shrimp inspired by Forrest Gump | Part 1', ['Forrest Gump']),
+            ('Arrested Development Special (feat. Sean Evans)', ['Arrested Development']),
+            ('Pineapple-Curry Fried Rice inspired by Food Wars!: Shokugeki no Soma', ['Food Wars!: Shokugeki no Soma']),
+            ('Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi', ['Chef']),
+            ('Eggs in a Nest inspired by Lots of Stuff', []),  # excluded "Lots of Stuff"
+            ('The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special', ['Regular Show']),
+            ('The Garbage Plate inspired by The Place Beyond The Pines (sort of)', ['The Place Beyond The Pines']),
+            ('Szechuan Sauce Revisited (From Real Sample!)', []), # excluded "Real Sample!"
+            ("Homer Simpson's Patented Space Age Out-Of-This-World Moon Waffles", []),
+            ('Eggs Woodhouse For Good from Archer', ['Archer']),
+            ('Parks & Rec Burger Cookoff', ['Parks & Rec']),
+        ]
+
+        for episode_name, expected in tests:
+            self.assertEqual(expected, extract_inspired_by(episode_name))

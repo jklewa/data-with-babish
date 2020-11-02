@@ -109,6 +109,12 @@ def add_youtube_resources(raw):
 
 #     return [name for name in set(method_names) if name and name.lower() not in ignored and len(name) < 50]
 
+def extract_inspired_by(name):
+    inspired_by = re.match('.*(?:inspired by|from) (.+)$', name, re.IGNORECASE)
+    if inspired_by:
+        return [inspired_by[0]]
+    return []
+
 
 def match_lists(ings, methods):
     if len(ings) == len(methods):
