@@ -1,5 +1,65 @@
 [
   {
+    "self": "http://0.0.0.0:5000/episode/chicken-pot-pie", 
+    "episode_id": "chicken-pot-pie", 
+    "name": "CHICKEN POT PIE", 
+    "published_date": "2020-11-13T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=Sv7NP9LMU4Q", 
+    "official_link": "https://basicswithbabish.co/basicsepisodes/chicken-pot-pie", 
+    "image_link": "https://img.youtube.com/vi/Sv7NP9LMU4Q/mqdefault.jpg", 
+    "related": {
+      "show": {
+        "self": "http://0.0.0.0:5000/show/2", 
+        "show_id": 2, 
+        "name": "Basics with Babish", 
+        "image_link": null
+      }, 
+      "guests": [], 
+      "inspired_by": [], 
+      "recipes": []
+    }
+  }, 
+  {
+    "self": "http://0.0.0.0:5000/episode/the-liz-lemon-30-rock", 
+    "episode_id": "the-liz-lemon-30-rock", 
+    "name": "The Liz Lemon inspired from 30 Rock", 
+    "published_date": "2020-11-11T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=XBUq8q1Vwls", 
+    "official_link": "https://www.bingingwithbabish.com/recipes/the-liz-lemon-30-rock", 
+    "image_link": "https://img.youtube.com/vi/XBUq8q1Vwls/mqdefault.jpg", 
+    "related": {
+      "show": {
+        "self": "http://0.0.0.0:5000/show/1", 
+        "show_id": 1, 
+        "name": "Binging with Babish", 
+        "image_link": null
+      }, 
+      "guests": [], 
+      "inspired_by": [], 
+      "recipes": []
+    }
+  }, 
+  {
+    "self": "http://0.0.0.0:5000/episode/pasta-al-limone", 
+    "episode_id": "pasta-al-limone", 
+    "name": "PASTA AL LIMONE", 
+    "published_date": "2020-11-05T00:00:00+00:00", 
+    "youtube_link": "https://www.youtube.com/watch?v=I2MfxX0N7dQ", 
+    "official_link": "https://basicswithbabish.co/basicsepisodes/pasta-al-limone", 
+    "image_link": "https://img.youtube.com/vi/I2MfxX0N7dQ/mqdefault.jpg", 
+    "related": {
+      "show": {
+        "self": "http://0.0.0.0:5000/show/2", 
+        "show_id": 2, 
+        "name": "Basics with Babish", 
+        "image_link": null
+      }, 
+      "guests": [], 
+      "inspired_by": [], 
+      "recipes": []
+    }
+  }, 
+  {
     "self": "http://0.0.0.0:5000/episode/brie-butter-baguette-twin-peaks", 
     "episode_id": "brie-butter-baguette-twin-peaks", 
     "name": "Brie & Butter Baguette inspired by Twin Peaks", 
@@ -84,9 +144,9 @@
     "episode_id": "baklava", 
     "name": "BAKLAVA", 
     "published_date": "2020-10-15T00:00:00+00:00", 
-    "youtube_link": "https://www.youtube.com/watch?v=n1O3uHPCOLA", 
+    "youtube_link": "https://www.youtube.com/watch?v=OkzpwHodaAs", 
     "official_link": "https://basicswithbabish.co/basicsepisodes/baklava", 
-    "image_link": "https://img.youtube.com/vi/n1O3uHPCOLA/mqdefault.jpg", 
+    "image_link": "https://img.youtube.com/vi/OkzpwHodaAs/mqdefault.jpg", 
     "related": {
       "show": {
         "self": "http://0.0.0.0:5000/show/2", 
