@@ -6,6 +6,42 @@
     "image_link": null, 
     "episodes": [
       {
+        "self": "http://0.0.0.0:5000/episode/judys-hot-cocoa-santa-clause", 
+        "episode_id": "judys-hot-cocoa-santa-clause", 
+        "name": "Judy's Hot Cocoa inspired by the Santa Clause", 
+        "published_date": "2020-12-22T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=rBYd_O38Ncw", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/judys-hot-cocoa-santa-clause", 
+        "image_link": "https://img.youtube.com/vi/rBYd_O38Ncw/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://0.0.0.0:5000/episode/monicas-candy-friends", 
+        "episode_id": "monicas-candy-friends", 
+        "name": "Monica's Candy inspired by Friends", 
+        "published_date": "2020-12-15T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=bK0NdaDOsG0", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/monicas-candy-friends", 
+        "image_link": "https://img.youtube.com/vi/bK0NdaDOsG0/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://0.0.0.0:5000/episode/steak-eggs-gravy-twister", 
+        "episode_id": "steak-eggs-gravy-twister", 
+        "name": "Steak, Eggs and Gravy inspired by Twister", 
+        "published_date": "2020-12-08T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=ztl0gGVFoK0", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/steak-eggs-gravy-twister", 
+        "image_link": "https://img.youtube.com/vi/ztl0gGVFoK0/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://0.0.0.0:5000/episode/macarons-the-mandalorian", 
+        "episode_id": "macarons-the-mandalorian", 
+        "name": "Macarons inspired by The Mandalorian", 
+        "published_date": "2020-12-01T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=IGS0JouUgjM", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/macarons-the-mandalorian", 
+        "image_link": "https://img.youtube.com/vi/IGS0JouUgjM/mqdefault.jpg"
+      }, 
+      {
         "self": "http://0.0.0.0:5000/episode/omelette-du-fromage-dexters-laboratory", 
         "episode_id": "omelette-du-fromage-dexters-laboratory", 
         "name": "Omelette du Fromage inspired by Dexter's Laboratory", 
@@ -1957,6 +1993,42 @@
     "name": "Basics with Babish", 
     "image_link": null, 
     "episodes": [
+      {
+        "self": "http://0.0.0.0:5000/episode/stollen", 
+        "episode_id": "stollen", 
+        "name": "STOLLEN (GERMAN HOLIDAY BREAD)", 
+        "published_date": "2020-12-18T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=25Od-bcv6vM", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/stollen", 
+        "image_link": "https://img.youtube.com/vi/25Od-bcv6vM/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://0.0.0.0:5000/episode/chicken-parmesan", 
+        "episode_id": "chicken-parmesan", 
+        "name": "CHICKEN PARMESAN", 
+        "published_date": "2020-12-10T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=ZrR0VbqNdW8", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/chicken-parmesan", 
+        "image_link": "https://img.youtube.com/vi/ZrR0VbqNdW8/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://0.0.0.0:5000/episode/sticky-buns", 
+        "episode_id": "sticky-buns", 
+        "name": "STICKY BUNS", 
+        "published_date": "2020-12-04T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=PAnreKf_9BE", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/sticky-buns", 
+        "image_link": "https://img.youtube.com/vi/PAnreKf_9BE/mqdefault.jpg"
+      }, 
+      {
+        "self": "http://0.0.0.0:5000/episode/last-minute-thanksgiving", 
+        "episode_id": "last-minute-thanksgiving", 
+        "name": "LAST-MINUTE THANKSGIVING", 
+        "published_date": "2020-11-25T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=HLY-7ZkhhLE", 
+        "official_link": "https://basicswithbabish.co/basicsepisodes/last-minute-thanksgiving", 
+        "image_link": "https://img.youtube.com/vi/HLY-7ZkhhLE/mqdefault.jpg"
+      }, 
       {
         "self": "http://0.0.0.0:5000/episode/andrewsohlathanksgiving", 
         "episode_id": "andrewsohlathanksgiving", 
