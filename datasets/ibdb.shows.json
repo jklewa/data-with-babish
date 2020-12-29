@@ -6,6 +6,15 @@
     "image_link": null, 
     "episodes": [
       {
+        "self": "http://0.0.0.0:5000/episode/snl-overnight-salad", 
+        "episode_id": "snl-overnight-salad", 
+        "name": "Overnight Salad inspired by Saturday Night Live", 
+        "published_date": "2020-12-29T00:00:00+00:00", 
+        "youtube_link": "https://www.youtube.com/watch?v=Z5zEocd3u9w", 
+        "official_link": "https://www.bingingwithbabish.com/recipes/snl-overnight-salad", 
+        "image_link": "https://img.youtube.com/vi/Z5zEocd3u9w/mqdefault.jpg"
+      }, 
+      {
         "self": "http://0.0.0.0:5000/episode/judys-hot-cocoa-santa-clause", 
         "episode_id": "judys-hot-cocoa-santa-clause", 
         "name": "Judy's Hot Cocoa inspired by the Santa Clause", 
