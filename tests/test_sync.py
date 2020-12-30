@@ -131,6 +131,7 @@ class TestHtmlExtract(unittest.TestCase):
 
         self.assertEqual(expected, list(fetch_basics_episode_list()))
 
+
 class TestInspiredBy(unittest.TestCase):
     def test_extract_inspired_by(self):
         tests = [
@@ -162,7 +163,7 @@ class TestInspiredBy(unittest.TestCase):
             ('Eggs in a Nest inspired by Lots of Stuff', []),  # excluded "Lots of Stuff"
             ('The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special', ['Regular Show']),
             ('The Garbage Plate inspired by The Place Beyond The Pines (sort of)', ['The Place Beyond The Pines']),
-            ('Szechuan Sauce Revisited (From Real Sample!)', []), # excluded "Real Sample!"
+            ('Szechuan Sauce Revisited (From Real Sample!)', []),  # excluded "Real Sample!"
             ("Homer Simpson's Patented Space Age Out-Of-This-World Moon Waffles", []),
             ('Eggs Woodhouse For Good from Archer', ['Archer']),
             ('Parks & Rec Burger Cookoff', ['Parks & Rec']),
