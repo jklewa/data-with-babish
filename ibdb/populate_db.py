@@ -112,7 +112,7 @@ def add_youtube_resources(raw):
 def extract_inspired_by(name):
     inspired_by = re.match('.*(?:inspired by|from) (.+)$', name, re.IGNORECASE)
     if inspired_by:
-        return [inspired_by[0]]
+        return [inspired_by[1].strip()]
     return []
 
 
@@ -190,9 +190,8 @@ def main():
                 """,
                 (ep['id'], ep['name'], ep['youtube_link'], ep['official_link'], ep['image_link'], ep['published_date'], 1))
 
-            inspired_by = re.match('.*(?:inspired by|from) (.+)$', ep['name'], re.IGNORECASE)
-            if inspired_by:
-                inspired_by = inspired_by[1]
+            inspired_by = extract_inspired_by(ep['name'])
+            for inspiration in inspired_by:
                 cur.execute(
                     """
                         INSERT INTO reference (name)
@@ -200,7 +199,7 @@ def main():
                         ON CONFLICT (name)
                         DO UPDATE SET name = reference.name -- noop
                         RETURNING id
-                    """, (inspired_by,)
+                    """, (inspiration,)
                 )
                 ref = cur.fetchone()[0]
                 cur.execute(
