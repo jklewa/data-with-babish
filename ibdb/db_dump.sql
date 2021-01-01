@@ -610,6 +610,7 @@ ziti-lasagna	Baked Ziti and Lasagna inspired by The Sopranos	https://www.youtube
 
 COPY public.episode_inspired_by (episode_id, reference_id) FROM stdin;
 3daypotatosalad	21
+3daypotatosalad	165
 5mill-special	15
 adventure-time-sandwich	49
 adventuretimespecial	49
@@ -620,13 +621,16 @@ applepie	96
 applepie	116
 applepie	117
 applepiesmoothie	115
+archer-margarita	23
 aristocats	25
 arresteddevelopmentspecial	57
+avatar-fire-flakes	285
 avengersicecream	16
 babishpaniniwinner	45
 babka-inspired-by-seinfeld	30
 bagelsandwiches	6
 bananapuddingpizza	41
+banoffeepie	284
 baobuns	22
 bearstew	34
 beer-steamed-chili-dogs	141
@@ -634,16 +638,26 @@ beetandacorncookies	94
 beetandacorncookies	95
 beignetsfromchef	47
 beignetsfromchef	48
+beignetsfromchef	218
+ben-wyatt-calzones	299
 bigkahunaburger	104
 blood-pie-inspired-by-game-of-thrones	40
 bobsburgers	14
 boeufbourguignon	98
+boeufbourguignon	160
 bone-broth	140
+bop-egg-sandwich	292
+braciole	288
 breakingbadspecial	9
+brie-butter-baguette-twin-peaks	96
 brocksdonuts	18
 brocksonigiri	18
+broodwich-aqua-teen-hunger-force	323
 bubbashrimp2	17
+bubbashrimp2	252
 bubblebass	21
+bunnicorn-pizza	295
+butterednoodles-community	303
 buttermilk-pancakes-inspired-by-twin-peaks	96
 buttermilk-pancakes-inspired-by-twin-peaks	112
 caillesensarchophage	132
@@ -654,11 +668,15 @@ chateaubriandsteak	61
 cheesesteak	108
 cheesyblasters	50
 chickenpaprikash	60
+chickenpaprikash	205
 chileanseabass	31
 chocolate-cake-inspired-by-matilda	93
 chocolate-cake-inspired-by-matilda	114
+chocolate-pudding-rugrats	293
 chocolatelavacakes	47
+chocolatelavacakes	196
 cinnamonrolls	42
+cinnamonrolls	228
 classicpancakes	76
 clayroastedthigh	79
 clayroastedthigh	113
@@ -671,17 +689,25 @@ cocktail-special	122
 cocktail-special	123
 cocktail-special	124
 coffeejelly	133
+cold-cure	296
 coqauvin	26
 cremebrule	63
+cremebrule	202
 crepessuzette	137
+crepessuzette	275
+croque-monsieur-brooklyn-nine-nine	59
 cubanos-inspired-by-chef	47
 curbyourenthusiasm	81
 deadpoolpizza	54
 deathsandwich	7
 deepdishpizza	135
+dessertdogs	15
 dessertpasta	105
+dexter-key-lime-pie	311
 direwolfbread	40
+direwolfbread	225
 dutchbaby	14
+egg-custard-tarts	285
 egginanest	33
 egginanest	78
 egginanest	125
@@ -690,53 +716,78 @@ egginanest	127
 egginanest	128
 egginanest	129
 egginanest	130
+egginanest	195
 eggscellentchallenge	7
 eggsflorentine	33
 eggswoodhouse	23
+enchiladas-schitts-creek	316
 everymeatburrito	7
+everymeatburrito	193
 fitz-sandwich	84
+fitz-sandwich	178
 flandershotcocoa	72
 forrestgumpshrimp	17
+forrestgumpshrimp	214
+four-horsemeal-eggporkalypse-parks-and-rec	299
 fraiserspecial	33
 freddys-ribs-inspired-by-house-of-cards	92
 fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	90
 friedgreentomatoes	51
 garbageplate	74
+garbageplate	187
+garlic-bread-scott-pilgrim	320
 goodfellasprisonsauce	107
 goodmorningburger	15
 grilledcheesedeluxe	7
 grilledcheesevidcon	47
 harrypotterspecial	75
+homemade-mozzarella	300
 huevosrancheros	9
 il-timpano-inspired-by-big-night	111
 iloveyoumanfishtacos	103
+imaginary-pie-hook	297
 infernowings	7
 ingloriousbasterds	102
+instant-mac-cheese	289
 itsalwayssunnyspecial	10
 johnnycakes	44
+judys-hot-cocoa-santa-clause	330
 kevinschili	80
 kfcmeal	3
 kingofthehillspecial	37
 krabby-patty-inspired-by-spongebob-squarepants	21
+krabby-patty-inspired-by-spongebob-squarepants	165
 krabbysupreme	21
 larbstickyrice	8
 lasagna	64
 lasagna	77
+lasagna	201
 lemon-cakes-inspired-by-game-of-thrones	40
 lemon-pepper-wet	88
+lilbits-rickandmorty	302
+lotr-feast-special	308
 louiefriedchicken	110
 loversdelightsundae	50
+macarons-the-mandalorian	140
 madmen	68
+maisel-brisket	298
+marmalade	287
+meat-tornado-parks-and-rec	299
 michaelscottpretzel	80
 mirages-pork-chops	138
 moistmaker	78
+monicas-candy-friends	78
 moonwaffles	15
 moroccanpasta	69
 mostexpensiveshake	104
 mulancongee	53
 nachos	13
+nachos	277
 nypizzatmnt	109
+nypizzatmnt	145
 okonomiyaki	52
+okonomiyaki	216
+omelette-du-fromage-dexters-laboratory	326
 orangemochafrapp	12
 orangemochafrapp-fpm9l	11
 ossobuco	80
@@ -744,14 +795,20 @@ parksandrecburger	19
 parmhero	21
 parmhero	44
 parmhero	78
+parmhero	200
 pastaputtanesca	55
+pastaputtanesca	211
+pastrami	305
+paunch-burger-parks-and-rec	299
 pekingduck	71
 phantomthread-l42pw	43
 piesfromwaitress	58
 pigeon-pie-with-wild-game-inspired-by-game-of-thrones	40
 pineapplecurryfriedrice	65
+pineapplecurryfriedrice	199
 pizzaball	27
 pollo-a-la-plancha	100
+pollos-hermanos-breaking-bad	9
 portalcake	20
 puerco-pibil	86
 pullednoodles	134
@@ -759,7 +816,12 @@ quatroquesodosfritos	73
 quiet-place-bonus	131
 racheltrifle	78
 raisinets	82
+ram-don-parasite	291
+raspberry-danish-ant-man-and-the-wasp	319
 ratatouille	101
+ratatouille	156
+regular-show-mississippi-queen	7
+restaurant-wars-steven-universe	6
 ribwich	15
 roastbeast	29
 rumfrenchtoast	68
@@ -768,7 +830,9 @@ seasalticecream	4
 seinfeldcalzone-z38zn	30
 seinfeldspecial2	30
 shawarma	62
+shawarma	203
 skinnersstew	15
+snl-overnight-salad	89
 southparkspecial	99
 spaghetti-carbonara-inspired-by-master-of-none	97
 spaghettitaco	24
@@ -776,31 +840,47 @@ spidermanbackpackrecipes	38
 spinachpuffs	46
 squidinkpasta	5
 steak-au-poivre	23
+steak-eggs-gravy-twister	328
 sumbitches	124
+sumbitches	269
+sundae-spongebob	310
+sweetrolls-skyrim	306
 szechuansauce	83
 szechuansaucerevisited	83
+szechuansaucerevisited	180
 taco-town	89
+taco-town	173
 takoyaki	35
 tamalesfromcoco	67
 teamstersandwich	50
 teddybrulee	14
+the-liz-lemon-30-rock	50
 the-naco	39
+the-perfect-bite	290
 thegodfathercannolis	56
 thegoodplace	13
 thegreystuff	28
+thegreystuff	236
 thesloppyjessica	59
 theswanson	19
 thewirespecial	70
 tiramisu	139
 tomate-du-saltambique-inspired-by-the-west-wing	91
+triple-gooberberry-sunrise-spongebob-squarespace	21
 tripledeckereggo	3
+troyscasserole-community	303
+turf-n-turf	294
 turturkeykey	124
+turturkeykey	269
+twinkie-weiner-sandwich	307
 uberollcake	6
 ultimeatum	7
 whitecastlesliders	2
+whitecastlesliders	266
 wild-mushroom-soup-inspired-by-seinfeld	30
 worldsgreatestsandwich	106
 zelda-monster-cake	87
+zelda-monster-cake	175
 ziti-lasagna	44
 \.
 
@@ -1666,6 +1746,67 @@ COPY public.reference (id, type, name, description, external_link, image_link) F
 139	movie	Superbad	Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.	https://www.imdb.com/title/tt0829482/	https://img.youtube.com/vi/4qnGIr3dvHk/mqdefault.jpg
 140	tv_show	The Mandalorian	The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic. IMBb.	https://www.imdb.com/title/tt8111088/	https://img.youtube.com/vi/aOC8E8z_ifw/mqdefault.jpg
 141	movie	The Irishman	A mob hitman recalls his possible involvement with the slaying of Jimmy Hoffa. IMBb.	https://www.imdb.com/title/tt1302006/	https://img.youtube.com/vi/WHXxVmeGQUc/mqdefault.jpg
+145	\N	TMNT II: Secret of the Ooze	\N	\N	\N
+156	\N	Ratatouille	\N	\N	\N
+160	\N	Julie & Julia	\N	\N	\N
+165	\N	SpongeBob SquarePants	\N	\N	\N
+173	\N	SNL	\N	\N	\N
+175	\N	Zelda: Breath of the Wild	\N	\N	\N
+178	\N	Agents of S.H.I.E.L.D.	\N	\N	\N
+180	\N	Real Sample!)	\N	\N	\N
+187	\N	The Place Beyond The Pines (sort of)	\N	\N	\N
+193	\N	Regular Show: 2 Million Subscriber Special	\N	\N	\N
+195	\N	Lots of Stuff	\N	\N	\N
+196	\N	Chef with Jon Favreau and Roy Choi	\N	\N	\N
+199	\N	Food Wars!: Shokugeki no Soma	\N	\N	\N
+200	\N	Lots of Things	\N	\N	\N
+201	\N	Garfield (feat. It's Alive with Brad)	\N	\N	\N
+202	\N	Amelie	\N	\N	\N
+203	\N	The Avengers	\N	\N	\N
+205	\N	Captain America: Civil War	\N	\N	\N
+211	\N	Lemony Snicket's A Series of Unfortunate Events	\N	\N	\N
+214	\N	Forrest Gump | Part 1	\N	\N	\N
+216	\N	Sweetness & Lightning	\N	\N	\N
+218	\N	Chef (and Princess and the Frog)	\N	\N	\N
+225	\N	Game of Thrones (feat. Maisie Williams)	\N	\N	\N
+228	\N	Jim Gaffigan's Stand Up (sort of)	\N	\N	\N
+236	\N	Beauty & the Beast	\N	\N	\N
+252	\N	Forrest Gump Part II	\N	\N	\N
+266	\N	Harold & Kumar	\N	\N	\N
+269	\N	How I Met Your Mother	\N	\N	\N
+275	\N	Talladega Nights	\N	\N	\N
+277	\N	The Good Place (plus Naco Redemption)	\N	\N	\N
+284	\N	Love, Actually	\N	\N	\N
+285	\N	Avatar the Last Airbender	\N	\N	\N
+287	\N	Paddington	\N	\N	\N
+288	\N	Everybody Loves Raymond	\N	\N	\N
+289	\N	Once Upon a Time in Hollywood	\N	\N	\N
+290	\N	YOU	\N	\N	\N
+291	\N	Parasite	\N	\N	\N
+292	\N	Birds of Prey	\N	\N	\N
+293	\N	Rugrats	\N	\N	\N
+294	\N	Parks and Rec	\N	\N	\N
+295	\N	Star Trek: Picard	\N	\N	\N
+296	\N	Kenan & Kel	\N	\N	\N
+297	\N	Hook	\N	\N	\N
+298	\N	The Marvelous Mrs. Maisel	\N	\N	\N
+299	\N	Parks & Rec	\N	\N	\N
+300	\N	Jojo's Bizarre Adventure	\N	\N	\N
+302	\N	Rick & Morty	\N	\N	\N
+303	\N	Community	\N	\N	\N
+305	\N	When Harry Met Sally	\N	\N	\N
+306	\N	Skyrim	\N	\N	\N
+307	\N	Weird Al's UHF	\N	\N	\N
+308	\N	Lord of the Rings	\N	\N	\N
+310	\N	SpongeBob Squarepants	\N	\N	\N
+311	\N	Dexter	\N	\N	\N
+316	\N	Schitt's Creek	\N	\N	\N
+319	\N	Ant Man & The Wasp	\N	\N	\N
+320	\N	Scott Pilgrim vs the World	\N	\N	\N
+323	\N	Aqua Teen Hunger Force	\N	\N	\N
+326	\N	Dexter's Laboratory	\N	\N	\N
+328	\N	Twister	\N	\N	\N
+330	\N	the Santa Clause	\N	\N	\N
 \.
 
 
@@ -1699,7 +1840,7 @@ SELECT pg_catalog.setval('public.recipe_id_seq', 629, true);
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 141, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 331, true);
 
 
 --
