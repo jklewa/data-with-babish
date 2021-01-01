@@ -21,6 +21,6 @@ COPY ibdb/ ibdb/
 
 # self-install for ibdb cli
 COPY setup.py README.md ./
-RUN pip install .
+RUN python setup.py develop
 
 CMD [ "ibdb", "api" ]

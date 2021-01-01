@@ -43,8 +43,8 @@ DB_PORT = int(os.environ.get('POSTGRES_PORT', '5432'))
 def write_response(route, to=None, **kwargs):
     logging.info(f'Writing {route} to {to}')
     kwargs['base_url'] = kwargs.get('base_url') or IBDB_URL
-    with ibdb.api.app.test_request_context(route, **kwargs):
-        r: flask.Response = ibdb.api.episodes()
+    with ibdb.api.app.test_client() as c:
+        r: flask.Response = c.get(route, **kwargs)
         with open(to, 'w', encoding='utf8') as o:
             json.dump(r.json, o, indent=2)
 
