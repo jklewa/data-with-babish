@@ -5,8 +5,8 @@ from ibdb.populate_db import main as populate_db_main
 from ibdb.sync import export as sync_export
 
 
-@app.cli.command('run')
-def run():
+@app.cli.command('api')
+def api():
     app.run(debug=True, host='0.0.0.0')
 
 

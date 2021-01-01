@@ -22,3 +22,9 @@ services:
       - "5000:5000"
     depends_on:
       - db
+  ibdb:
+    image: babish-ibdb-api:latest
+    restart: "no"
+    entrypoint: [ "ibdb" ]
+    command: []
+    volumes: [".:/app"]

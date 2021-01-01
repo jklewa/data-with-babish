@@ -225,10 +225,10 @@ Required tools: **Docker, Docker Compose**
 1. Build `docker-compose build`
 2. Run DB and API `docker-compose up -d`
 3. Browse http://localhost:5000/
-4. Update DB `docker-compose exec api python populate_db.py`
-5. Update datasets `./update.sh`
+4. Update DB and datasets `docker-compose exec ibdb sync update export`
+5. See other commands `docker-compose exec ibdb --help`
 
-This will use [ibdb/populate_db.py](ibdb/populate_db.py) to scrape and upsert episodes into the DB and generate new [datasets/](datasets) from the DB's contents.
+This will use [ibdb/populate_db.py](ibdb/populate_db.py) to scrape and upsert episodes into the DB and [ibdb/sync.py](ibdb/sync.py) to generate new [datasets/](datasets) from the DB's contents.
 
 You can also explore the original [extract_recipes.py](ibdb/extract_recipes.py) and [Jupyter Notebooks](http://ipython.org/notebook.html)
 1. `cd notebooks/`
