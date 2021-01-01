@@ -43,6 +43,17 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
+-- Name: alembic_version; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.alembic_version (
+    version_num character varying(32) NOT NULL
+);
+
+
+ALTER TABLE public.alembic_version OWNER TO postgres;
+
+--
 -- Name: episode; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -255,6 +266,15 @@ ALTER TABLE ONLY public.reference ALTER COLUMN id SET DEFAULT nextval('public.re
 --
 
 ALTER TABLE ONLY public.show ALTER COLUMN id SET DEFAULT nextval('public.show_id_seq'::regclass);
+
+
+--
+-- Data for Name: alembic_version; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.alembic_version (version_num) FROM stdin;
+c640bf5b87ae
+\.
 
 
 --
@@ -1690,6 +1710,14 @@ SELECT pg_catalog.setval('public.show_id_seq', 4, true);
 
 
 --
+-- Name: alembic_version alembic_version_pkc; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.alembic_version
+    ADD CONSTRAINT alembic_version_pkc PRIMARY KEY (version_num);
+
+
+--
 -- Name: episode_inspired_by episode_inspired_by_pk; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -1698,11 +1726,27 @@ ALTER TABLE ONLY public.episode_inspired_by
 
 
 --
+-- Name: episode episode_name_key; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.episode
+    ADD CONSTRAINT episode_name_key UNIQUE (name);
+
+
+--
 -- Name: episode episode_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.episode
     ADD CONSTRAINT episode_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: guest guest_name_key; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.guest
+    ADD CONSTRAINT guest_name_key UNIQUE (name);
 
 
 --
@@ -1719,6 +1763,14 @@ ALTER TABLE ONLY public.guest
 
 ALTER TABLE ONLY public.recipe
     ADD CONSTRAINT recipe_pk PRIMARY KEY (id);
+
+
+--
+-- Name: reference reference_name_key; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.reference
+    ADD CONSTRAINT reference_name_key UNIQUE (name);
 
 
 --

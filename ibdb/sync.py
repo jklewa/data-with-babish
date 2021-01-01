@@ -78,7 +78,7 @@ def db_dump():
     cleanup_sqlfile(IBDB_SQLFILE)
 
 
-def main():
+def export():
     write_datasets()
     db_dump()
 
@@ -86,4 +86,4 @@ def main():
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
-    main()
+    export()
