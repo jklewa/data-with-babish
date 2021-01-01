@@ -15,7 +15,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile-api
-    volumes: ["./ibdb:/app/ibdb"]
+    volumes: ["./ibdb:/app/ibdb", "./vendor:/app/vendor"]
     image: babish-ibdb-api:latest
     container_name: babish-ibdb-api
     ports:

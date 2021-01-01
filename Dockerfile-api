@@ -7,6 +7,7 @@ COPY ibdb/bin/ibdb ibdb/bin/
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
+COPY vendor/ vendor/
 COPY ibdb/ ibdb/
 
 CMD [ "python", "-m", "ibdb.api" ]
