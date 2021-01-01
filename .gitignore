@@ -10,3 +10,4 @@ tmp/pgdb_data/
 # Packages
 *.egg
 *.egg-info
+build

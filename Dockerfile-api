@@ -2,9 +2,11 @@ FROM python:3.8
 
 WORKDIR /app
 
+COPY README.md setup.py ./
+COPY ibdb/bin/ibdb ibdb/bin/
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY ibdb/ .
+COPY ibdb/ ibdb/
 
-CMD [ "python", "api.py" ]
+CMD [ "python", "-m", "ibdb.api" ]
