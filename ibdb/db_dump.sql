@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 12.5 (Debian 12.5-1.pgdg100+1)
--- Dumped by pg_dump version 12.5 (Ubuntu 12.5-1.pgdg18.04+1)
+-- Dumped by pg_dump version 12.5 (Debian 12.5-1.pgdg100+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
