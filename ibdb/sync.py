@@ -1,23 +1,3 @@
-'''
-set -ex
-export HOSTNAME=0.0.0.0:5000
-
-wget ${HOSTNAME}/episodes?format=json -O datasets/ibdb.episodes.json -nv
-wget ${HOSTNAME}/guests?format=json -O datasets/ibdb.guests.json -nv
-wget ${HOSTNAME}/recipes?format=json -O datasets/ibdb.recipes.json -nv
-wget ${HOSTNAME}/references?format=json -O datasets/ibdb.references.json -nv
-wget ${HOSTNAME}/shows?format=json -O datasets/ibdb.shows.json -nv
-
-PGPASSWORD=${POSTGRES_PASSWORD:-postgres} PGUSER=${POSTGRES_USERNAME:-postgres} \
-  PGHOST=${POSTGRES_HOSTNAME:-localhost} PGPORT=${POSTGRES_PORT:-54320} \
-  pg_dump --dbname=babish_db --create --file=./ibdb/db_dump.sql
-
-python vendor/pg_dump_splitsort.py ibdb/db_dump.sql
-cat ibdb/[0-9]*.sql > ibdb/db_dump.sql
-rm ibdb/[0-9]*.sql
-
-echo "Done"
-'''
 import json
 import logging
 import os
@@ -29,7 +9,7 @@ import flask
 import ibdb.api
 from vendor.pg_dump_splitsort import split_sql_file
 
-IBDB_URL = os.environ.get('IDDB_URL', 'http://0.0.0.0:5000')
+IBDB_URL = os.environ.get('IDDB_URL', 'ibdb://data-with-babish.jklewa.github.com/datasets')
 IBDB_SQLFILE = os.environ.get('IBDB_SQLFILE', 'ibdb/db_dump.sql')
 OUTPUT_DIR = os.environ.get('OUTPUT_DIR', 'datasets/')
 

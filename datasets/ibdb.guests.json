@@ -1,12 +1,12 @@
 [
   {
-    "self": "http://0.0.0.0:5000/guest/11",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/11",
     "guest_id": 11,
     "name": "Ashwin Ramdas",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/beetandacorncookies",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/beetandacorncookies",
         "episode_id": "beetandacorncookies",
         "name": "Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)",
         "published_date": "2017-05-23T00:00:00+00:00",
@@ -17,13 +17,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/6",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/6",
     "guest_id": 6,
     "name": "Brad Leone",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/lasagna",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/lasagna",
         "episode_id": "lasagna",
         "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)",
         "published_date": "2018-03-27T00:00:00+00:00",
@@ -34,13 +34,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/27",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/27",
     "guest_id": 27,
     "name": "Dadish",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/friedgreentomatoes",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/friedgreentomatoes",
         "episode_id": "friedgreentomatoes",
         "name": "Fried Green Tomatoes inspired by...Fried Green Tomatoes",
         "published_date": "2018-07-24T00:00:00+00:00",
@@ -51,13 +51,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/15",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/15",
     "guest_id": 15,
     "name": "Dan Pashman",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/chocolate-cake-inspired-by-matilda",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/chocolate-cake-inspired-by-matilda",
         "episode_id": "chocolate-cake-inspired-by-matilda",
         "name": "Chocolate Cake inspired by Matilda",
         "published_date": "2017-06-06T00:00:00+00:00",
@@ -68,13 +68,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/4",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/4",
     "guest_id": 4,
     "name": "Dan Souza",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/classicpancakes",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/classicpancakes",
         "episode_id": "classicpancakes",
         "name": "Classic Pancakes inspired by Uncle Buck",
         "published_date": "2019-08-20T00:00:00+00:00",
@@ -83,7 +83,7 @@
         "image_link": "https://img.youtube.com/vi/WMj7G-U3LW8/mqdefault.jpg"
       },
       {
-        "self": "http://0.0.0.0:5000/episode/bagels",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/bagels",
         "episode_id": "bagels",
         "name": "BAGELS",
         "published_date": "2019-01-24T00:00:00+00:00",
@@ -94,13 +94,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/31",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/31",
     "guest_id": 31,
     "name": "David (Brother)",
     "image_link": "",
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/being-with-babish-6",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-6",
         "episode_id": "being-with-babish-6",
         "name": "I Surprised My Brother with a Tesla",
         "published_date": "2019-10-26T00:00:00+00:00",
@@ -111,13 +111,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/16",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/16",
     "guest_id": 16,
     "name": "David Wasman",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/being-with-babish-1",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-1",
         "episode_id": "being-with-babish-1",
         "name": "Giving Back to a Fan in Need",
         "published_date": "2019-03-22T00:00:00+00:00",
@@ -128,13 +128,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/25",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/25",
     "guest_id": 25,
     "name": "Erika Vonie",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/coffee",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/coffee",
         "episode_id": "coffee",
         "name": "COFFEE",
         "published_date": "2019-05-31T00:00:00+00:00",
@@ -145,13 +145,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/29",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/29",
     "guest_id": 29,
     "name": "Floyd Cardoz",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/indianbreads",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/indianbreads",
         "episode_id": "indianbreads",
         "name": "INDIAN BREADS",
         "published_date": "2019-10-10T00:00:00+00:00",
@@ -162,13 +162,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/19",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/19",
     "guest_id": 19,
     "name": "Gabrielle Hufford",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/being-with-babish-2",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-2",
         "episode_id": "being-with-babish-2",
         "name": "Surprising a Fan with a Vegas Hotel Suite",
         "published_date": "2019-04-05T00:00:00+00:00",
@@ -179,13 +179,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/5",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/5",
     "guest_id": 5,
     "name": "Giant Robot",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/classicpancakes",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/classicpancakes",
         "episode_id": "classicpancakes",
         "name": "Classic Pancakes inspired by Uncle Buck",
         "published_date": "2019-08-20T00:00:00+00:00",
@@ -196,13 +196,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/24",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/24",
     "guest_id": 24,
     "name": "Greg Johnson",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/being-with-babish-5",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-5",
         "episode_id": "being-with-babish-5",
         "name": "Whiskey Basics | Being with Babish Double Feature",
         "published_date": "2019-07-12T00:00:00+00:00",
@@ -213,13 +213,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/28",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/28",
     "guest_id": 28,
     "name": "Isaac Toups",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/cajunfood",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/cajunfood",
         "episode_id": "cajunfood",
         "name": "CAJUN FOOD",
         "published_date": "2019-09-13T00:00:00+00:00",
@@ -230,13 +230,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/30",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/30",
     "guest_id": 30,
     "name": "Jess",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/mostexpensiveshake",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/mostexpensiveshake",
         "episode_id": "mostexpensiveshake",
         "name": "$5 Milkshake inspired by Pulp Fiction",
         "published_date": "2019-10-16T00:00:00+00:00",
@@ -247,13 +247,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/8",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/8",
     "guest_id": 8,
     "name": "Jon Favreau",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/chocolatelavacakes",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/chocolatelavacakes",
         "episode_id": "chocolatelavacakes",
         "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi",
         "published_date": "2018-02-20T00:00:00+00:00",
@@ -264,13 +264,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/10",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/10",
     "guest_id": 10,
     "name": "Maisie Williams",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/direwolfbread",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/direwolfbread",
         "episode_id": "direwolfbread",
         "name": "Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)",
         "published_date": "2018-09-25T00:00:00+00:00",
@@ -281,13 +281,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/13",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/13",
     "guest_id": 13,
     "name": "Masaharu Morimoto",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/deathsandwich",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/deathsandwich",
         "episode_id": "deathsandwich",
         "name": "Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show",
         "published_date": "2019-04-09T00:00:00+00:00",
@@ -298,13 +298,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/14",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/14",
     "guest_id": 14,
     "name": "Mel",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/clayroastedthigh",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/clayroastedthigh",
         "episode_id": "clayroastedthigh",
         "name": "Clay-Roasted Thigh inspired by Hannibal",
         "published_date": "2017-10-31T00:00:00+00:00",
@@ -315,13 +315,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/12",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/12",
     "guest_id": 12,
     "name": "Nick Fisher",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/buttermilk-pancakes-inspired-by-twin-peaks",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/buttermilk-pancakes-inspired-by-twin-peaks",
         "episode_id": "buttermilk-pancakes-inspired-by-twin-peaks",
         "name": "Buttermilk Pancakes inspired by Twin Peaks",
         "published_date": "2017-05-18T00:00:00+00:00",
@@ -332,13 +332,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/21",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/21",
     "guest_id": 21,
     "name": "Rashid Duroseau",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/5mill-special",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/5mill-special",
         "episode_id": "5mill-special",
         "name": "5 Million Subscriber Special: Recreating Homer Simpson's NOLA Food Tour",
         "published_date": "2019-09-10T00:00:00+00:00",
@@ -347,7 +347,7 @@
         "image_link": "https://img.youtube.com/vi/oM8c31ru92A/mqdefault.jpg"
       },
       {
-        "self": "http://0.0.0.0:5000/episode/being-with-babish-3",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-3",
         "episode_id": "being-with-babish-3",
         "name": "Surprising Rashid",
         "published_date": "2019-04-26T00:00:00+00:00",
@@ -358,13 +358,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/9",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/9",
     "guest_id": 9,
     "name": "Roy Choi",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/being-with-babish-2",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-2",
         "episode_id": "being-with-babish-2",
         "name": "Surprising a Fan with a Vegas Hotel Suite",
         "published_date": "2019-04-05T00:00:00+00:00",
@@ -373,7 +373,7 @@
         "image_link": "https://img.youtube.com/vi/QphHaVaAeG4/mqdefault.jpg"
       },
       {
-        "self": "http://0.0.0.0:5000/episode/chocolatelavacakes",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/chocolatelavacakes",
         "episode_id": "chocolatelavacakes",
         "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi",
         "published_date": "2018-02-20T00:00:00+00:00",
@@ -384,13 +384,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/23",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/23",
     "guest_id": 23,
     "name": "Sarah and Stefan",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/being-with-babish-4",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-4",
         "episode_id": "being-with-babish-4",
         "name": "Training like Kratos for 30 Days | Body by Babish",
         "published_date": "2019-06-07T00:00:00+00:00",
@@ -401,13 +401,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/17",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/17",
     "guest_id": 17,
     "name": "Sawyer Jacobs",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/being-with-babish-6",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-6",
         "episode_id": "being-with-babish-6",
         "name": "I Surprised My Brother with a Tesla",
         "published_date": "2019-10-26T00:00:00+00:00",
@@ -416,7 +416,7 @@
         "image_link": "https://img.youtube.com/vi/N44XgSRE-gY/mqdefault.jpg"
       },
       {
-        "self": "http://0.0.0.0:5000/episode/5mill-special",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/5mill-special",
         "episode_id": "5mill-special",
         "name": "5 Million Subscriber Special: Recreating Homer Simpson's NOLA Food Tour",
         "published_date": "2019-09-10T00:00:00+00:00",
@@ -425,7 +425,7 @@
         "image_link": "https://img.youtube.com/vi/oM8c31ru92A/mqdefault.jpg"
       },
       {
-        "self": "http://0.0.0.0:5000/episode/being-with-babish-4",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-4",
         "episode_id": "being-with-babish-4",
         "name": "Training like Kratos for 30 Days | Body by Babish",
         "published_date": "2019-06-07T00:00:00+00:00",
@@ -434,7 +434,7 @@
         "image_link": "https://img.youtube.com/vi/n_aq5TVb0HA/mqdefault.jpg"
       },
       {
-        "self": "http://0.0.0.0:5000/episode/being-with-babish-3",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-3",
         "episode_id": "being-with-babish-3",
         "name": "Surprising Rashid",
         "published_date": "2019-04-26T00:00:00+00:00",
@@ -443,7 +443,7 @@
         "image_link": "https://img.youtube.com/vi/DApDGZ1AkFw/mqdefault.jpg"
       },
       {
-        "self": "http://0.0.0.0:5000/episode/being-with-babish-2",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-2",
         "episode_id": "being-with-babish-2",
         "name": "Surprising a Fan with a Vegas Hotel Suite",
         "published_date": "2019-04-05T00:00:00+00:00",
@@ -452,7 +452,7 @@
         "image_link": "https://img.youtube.com/vi/QphHaVaAeG4/mqdefault.jpg"
       },
       {
-        "self": "http://0.0.0.0:5000/episode/being-with-babish-1",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-1",
         "episode_id": "being-with-babish-1",
         "name": "Giving Back to a Fan in Need",
         "published_date": "2019-03-22T00:00:00+00:00",
@@ -461,7 +461,7 @@
         "image_link": "https://img.youtube.com/vi/YUDogDKMJbE/mqdefault.jpg"
       },
       {
-        "self": "http://0.0.0.0:5000/episode/quiet-place-bonus",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/quiet-place-bonus",
         "episode_id": "quiet-place-bonus",
         "name": "A Quiet Place Bonus Episode",
         "published_date": "2018-12-15T00:00:00+00:00",
@@ -470,7 +470,7 @@
         "image_link": "https://img.youtube.com/vi/0PyTpUIn4ks/mqdefault.jpg"
       },
       {
-        "self": "http://0.0.0.0:5000/episode/friedgreentomatoes",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/friedgreentomatoes",
         "episode_id": "friedgreentomatoes",
         "name": "Fried Green Tomatoes inspired by...Fried Green Tomatoes",
         "published_date": "2018-07-24T00:00:00+00:00",
@@ -481,13 +481,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/22",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/22",
     "guest_id": 22,
     "name": "Sean Conley",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/being-with-babish-3",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-3",
         "episode_id": "being-with-babish-3",
         "name": "Surprising Rashid",
         "published_date": "2019-04-26T00:00:00+00:00",
@@ -498,13 +498,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/3",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/3",
     "guest_id": 3,
     "name": "Sean Evans",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/infernowings",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/infernowings",
         "episode_id": "infernowings",
         "name": "Inferno Wings inspired by Regular Show",
         "published_date": "2019-07-16T00:00:00+00:00",
@@ -513,7 +513,7 @@
         "image_link": "https://img.youtube.com/vi/dRLCZqEfJFA/mqdefault.jpg"
       },
       {
-        "self": "http://0.0.0.0:5000/episode/arresteddevelopmentspecial",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/arresteddevelopmentspecial",
         "episode_id": "arresteddevelopmentspecial",
         "name": "Arrested Development Special (feat. Sean Evans)",
         "published_date": "2018-05-29T00:00:00+00:00",
@@ -522,7 +522,7 @@
         "image_link": "https://img.youtube.com/vi/2U_0OlCizx0/mqdefault.jpg"
       },
       {
-        "self": "http://0.0.0.0:5000/episode/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks",
         "episode_id": "fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks",
         "name": "Fried Chicken & Waffle Breakfast Lasagna inspired by The Boondocks",
         "published_date": "2017-07-04T00:00:00+00:00",
@@ -533,13 +533,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/26",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/26",
     "guest_id": 26,
     "name": "Steve (buddy)",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/theswanson",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/theswanson",
         "episode_id": "theswanson",
         "name": "The Swanson inspired by Parks and Recreation",
         "published_date": "2019-03-26T00:00:00+00:00",
@@ -550,13 +550,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/18",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/18",
     "guest_id": 18,
     "name": "Sukki Hufford",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/being-with-babish-2",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-2",
         "episode_id": "being-with-babish-2",
         "name": "Surprising a Fan with a Vegas Hotel Suite",
         "published_date": "2019-04-05T00:00:00+00:00",
@@ -567,13 +567,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/20",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/20",
     "guest_id": 20,
     "name": "The Rae Family",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/being-with-babish-2",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-2",
         "episode_id": "being-with-babish-2",
         "name": "Surprising a Fan with a Vegas Hotel Suite",
         "published_date": "2019-04-05T00:00:00+00:00",
@@ -584,13 +584,13 @@
     ]
   },
   {
-    "self": "http://0.0.0.0:5000/guest/7",
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/7",
     "guest_id": 7,
     "name": "Vincent \"Vinny\" Cross",
     "image_link": null,
     "appearances": [
       {
-        "self": "http://0.0.0.0:5000/episode/being-with-babish-3",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-3",
         "episode_id": "being-with-babish-3",
         "name": "Surprising Rashid",
         "published_date": "2019-04-26T00:00:00+00:00",
@@ -599,7 +599,7 @@
         "image_link": "https://img.youtube.com/vi/DApDGZ1AkFw/mqdefault.jpg"
       },
       {
-        "self": "http://0.0.0.0:5000/episode/lasagna",
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/lasagna",
         "episode_id": "lasagna",
         "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)",
         "published_date": "2018-03-27T00:00:00+00:00",
