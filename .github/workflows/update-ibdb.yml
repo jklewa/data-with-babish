@@ -56,10 +56,9 @@ jobs:
           POSTGRES_HOSTNAME: localhost
           POSTGRES_PORT: 54320
         run: |
-          python ibdb/api.py &
+          ibdb api &
           sleep 5
-          python ibdb/populate_db.py
-          bash ./update.sh
+          ibdb sync update export
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3

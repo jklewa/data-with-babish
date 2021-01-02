@@ -2,9 +2,25 @@ FROM python:3.8
 
 WORKDIR /app
 
+# postgres deps
+RUN set -x && \
+    echo "deb http://apt.postgresql.org/pub/repos/apt/ buster-pgdg main 12" > /etc/apt/sources.list.d/pgdg.list && \
+    (wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -) && \
+    apt-get update && \
+    apt-get install -y postgresql-client-12 && \
+    rm -rf /var/lib/{apt,dpkg,cache,log}/*
+
 COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+RUN set -x && \
+    # skip self-install until we've imported everything else
+    sed -i '/^\. /d' requirements.txt && \
+    pip install --no-cache-dir -r requirements.txt
 
-COPY ibdb/ .
+COPY vendor/ vendor/
+COPY ibdb/ ibdb/
 
-CMD [ "python", "api.py" ]
+# self-install for ibdb cli
+COPY setup.py README.md ./
+RUN python setup.py develop
+
+CMD [ "ibdb", "api" ]

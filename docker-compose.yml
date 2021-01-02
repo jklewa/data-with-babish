@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   db:
-    image: postgres:12
+    image: postgres:12.5
     container_name: babish-ibdb
     ports:
       - "54320:5432"
@@ -15,10 +15,16 @@ services:
     build:
       context: .
       dockerfile: Dockerfile-api
-    volumes: ["./ibdb:/app"]
+    volumes: ["./ibdb:/app/ibdb", "./vendor:/app/vendor"]
     image: babish-ibdb-api:latest
     container_name: babish-ibdb-api
     ports:
       - "5000:5000"
     depends_on:
       - db
+  ibdb:
+    image: babish-ibdb-api:latest
+    restart: "no"
+    entrypoint: [ "ibdb" ]
+    command: []
+    volumes: [".:/app"]

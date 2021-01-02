@@ -4,6 +4,6 @@ image:
 tasks:
   - prebuild: pyenv install -s && pip install -r ./requirements.txt
     init: gp await-port 5432 && psql -f ibdb/db_dump.sql
-    command: python ibdb/api.py
+    command: ibdb api
   - openMode: split-left
-    command: echo "api.py running at $(gp url 5000)"
+    command: echo "ibdb api running at $(gp url 5000)"
