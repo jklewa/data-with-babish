@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 12.5 (Debian 12.5-1.pgdg100+1)
--- Dumped by pg_dump version 12.5 (Debian 12.5-1.pgdg100+1)
+-- Dumped by pg_dump version 12.5 (Ubuntu 12.5-1.pgdg18.04+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -298,7 +298,7 @@ arresteddevelopmentspecial	Arrested Development Special (feat. Sean Evans)	https
 avatar-fire-flakes	Fire Flakes inspired by Avatar the Last Airbender	https://www.youtube.com/watch?v=RhUMA3bCvAY	https://www.bingingwithbabish.com/recipes/avatar-fire-flakes	https://img.youtube.com/vi/RhUMA3bCvAY/mqdefault.jpg	2020-08-04	1
 avengersicecream	Ice Cream Flavors inspired by Avengers: Infinity War	https://www.youtube.com/watch?v=Ukjat70Iyt4	https://www.bingingwithbabish.com/recipes/avengersicecream	https://img.youtube.com/vi/Ukjat70Iyt4/mqdefault.jpg	2019-04-30	1
 babishpaniniwinner	#BabishPanini Winning Recipe - Car Panini inspired by Family Guy	https://www.youtube.com/watch?v=ImoP-Apzrsg	https://www.bingingwithbabish.com/recipes/babishpaniniwinner	https://img.youtube.com/vi/ImoP-Apzrsg/mqdefault.jpg	2018-08-21	1
-babka-inspired-by-seinfeld	Babka inspired by Seinfeld	https://www.youtube.com/watch?v=pw2A03Z91FI	https://www.bingingwithbabish.com/recipes/2017/5/09/babka-inspired-by-seinfeld	https://img.youtube.com/vi/pw2A03Z91FI/mqdefault.jpg	2017-05-10	1
+babka-inspired-by-seinfeld	Babka inspired by Seinfeld	https://www.youtube.com/watch?v=pw2A03Z91FI	https://www.bingingwithbabish.com/recipes/2017/5/09/babka-inspired-by-seinfeld	https://img.youtube.com/vi/pw2A03Z91FI/mqdefault.jpg	2017-05-09	1
 bagels	BAGELS	https://www.youtube.com/watch?v=ZrJtpCTZk38	https://basicswithbabish.co/basicsepisodes/bagels	https://img.youtube.com/vi/ZrJtpCTZk38/mqdefault.jpg	2019-01-24	2
 bagelsandwiches	Bagel Sandwiches inspired by Steven Universe	https://www.youtube.com/watch?v=wv43IN_cnyw	https://www.bingingwithbabish.com/recipes/bagelsandwiches	https://img.youtube.com/vi/wv43IN_cnyw/mqdefault.jpg	2019-07-23	1
 baklava	BAKLAVA	https://www.youtube.com/watch?v=OkzpwHodaAs	https://basicswithbabish.co/basicsepisodes/baklava	https://img.youtube.com/vi/OkzpwHodaAs/mqdefault.jpg	2020-10-15	2
@@ -369,7 +369,7 @@ cinnamonrolls	Cinnamon Rolls inspired by Jim Gaffigan's Stand Up (sort of)	https
 classicpancakes	Classic Pancakes inspired by Uncle Buck	https://www.youtube.com/watch?v=WMj7G-U3LW8	https://www.bingingwithbabish.com/recipes/classicpancakes	https://img.youtube.com/vi/WMj7G-U3LW8/mqdefault.jpg	2019-08-20	1
 clayroastedthigh	Clay-Roasted Thigh inspired by Hannibal	https://www.youtube.com/watch?v=lnB7svFAZBs	https://www.bingingwithbabish.com/recipes/2017/8/22/clayroastedthigh	https://img.youtube.com/vi/lnB7svFAZBs/mqdefault.jpg	2017-10-31	1
 clementinecake	Clementine Cake inspired by The Secret Life of Walter Mitty	https://www.youtube.com/watch?v=cr2wUlNSFg0	https://www.bingingwithbabish.com/recipes/2017/8/22/clementinecake	https://img.youtube.com/vi/cr2wUlNSFg0/mqdefault.jpg	2018-03-06	1
-cocktail-special	Cocktail Special	https://www.youtube.com/watch?v=v5tJBLfeurU	https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special	https://img.youtube.com/vi/v5tJBLfeurU/mqdefault.jpg	2017-06-28	1
+cocktail-special	Cocktail Special	https://www.youtube.com/watch?v=v5tJBLfeurU	https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special	https://img.youtube.com/vi/v5tJBLfeurU/mqdefault.jpg	2017-06-27	1
 coffee	COFFEE	https://www.youtube.com/watch?v=6yItCQB4V9A	https://basicswithbabish.co/basicsepisodes/coffee	https://img.youtube.com/vi/6yItCQB4V9A/mqdefault.jpg	2019-05-31	2
 coffeecake	COFFEE CAKE	https://www.youtube.com/watch?v=ds0jskRIeRI	https://basicswithbabish.co/basicsepisodes/coffeecake	https://img.youtube.com/vi/ds0jskRIeRI/mqdefault.jpg	2020-05-14	2
 coffeejelly	Coffee Jelly inspired by The Disastrous Life of Saiki K.	https://www.youtube.com/watch?v=YxEcd_wTf5c	https://www.bingingwithbabish.com/recipes/coffeejelly	https://img.youtube.com/vi/YxEcd_wTf5c/mqdefault.jpg	2019-09-24	1
@@ -380,7 +380,7 @@ cremebrule	Crème Brûlée inspired by Amelie	https://www.youtube.com/watch?v=dn
 crepessuzette	Crêpes Suzette inspired by Talladega Nights	https://www.youtube.com/watch?v=Z1kR6SIr1XA	https://www.bingingwithbabish.com/recipes/crepessuzette	https://img.youtube.com/vi/Z1kR6SIr1XA/mqdefault.jpg	2019-10-24	1
 croque-monsieur-brooklyn-nine-nine	Croque Monsieur inspired by Brooklyn Nine-Nine	https://www.youtube.com/watch?v=q7JDYiLz9Mo	https://www.bingingwithbabish.com/recipes/croque-monsieur-brooklyn-nine-nine	https://img.youtube.com/vi/q7JDYiLz9Mo/mqdefault.jpg	2020-07-21	1
 croquemadame	Croque Madame: The Ultimate Breakfast Sandwich	https://www.youtube.com/watch?v=dVRl1aP28BI	https://www.bingingwithbabish.com/recipes/2017/8/22/croquemadame	https://img.youtube.com/vi/dVRl1aP28BI/mqdefault.jpg	2016-03-13	1
-cubanos-inspired-by-chef	Cubanos inspired by Chef	https://www.youtube.com/watch?v=hXYoduN0kWs	https://www.bingingwithbabish.com/recipes/2017/3/28/cubanos-inspired-by-chef	https://img.youtube.com/vi/hXYoduN0kWs/mqdefault.jpg	2017-03-29	1
+cubanos-inspired-by-chef	Cubanos inspired by Chef	https://www.youtube.com/watch?v=hXYoduN0kWs	https://www.bingingwithbabish.com/recipes/2017/3/28/cubanos-inspired-by-chef	https://img.youtube.com/vi/hXYoduN0kWs/mqdefault.jpg	2017-03-28	1
 curbyourenthusiasm	Curb Your Enthusiasm Special	https://www.youtube.com/watch?v=XIZxT7iI-QI	https://www.bingingwithbabish.com/recipes/2017/6/27/curbyourenthusiasm	https://img.youtube.com/vi/XIZxT7iI-QI/mqdefault.jpg	2017-10-10	1
 deadpoolpizza	Pizza inspired by Deadpool	https://www.youtube.com/watch?v=95M8W1JgH_0	https://www.bingingwithbabish.com/recipes/deadpoolpizza	https://img.youtube.com/vi/95M8W1JgH_0/mqdefault.jpg	2018-06-19	1
 deathsandwich	Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show	https://www.youtube.com/watch?v=o5XNzsf78KE	https://www.bingingwithbabish.com/recipes/deathsandwich	https://img.youtube.com/vi/o5XNzsf78KE/mqdefault.jpg	2019-04-09	1
@@ -417,7 +417,7 @@ garbageplate	The Garbage Plate inspired by The Place Beyond The Pines (sort of)	
 garlic-bread-scott-pilgrim	Garlic Bread inspired by Scott Pilgrim vs the World	https://www.youtube.com/watch?v=jBnWZijMbMY	https://www.bingingwithbabish.com/recipes/garlic-bread-scott-pilgrim	https://img.youtube.com/vi/jBnWZijMbMY/mqdefault.jpg	2020-10-06	1
 generaltsoschicken	GENERAL TSO'S CHICKEN	https://www.youtube.com/watch?v=6UnRHtwHGSE	https://basicswithbabish.co/basicsepisodes/generaltsoschicken	https://img.youtube.com/vi/6UnRHtwHGSE/mqdefault.jpg	2019-07-18	2
 gnocchi	GNOCCHI	https://www.youtube.com/watch?v=LMJrLc13SuI	https://basicswithbabish.co/basicsepisodes/gnocchi	https://img.youtube.com/vi/LMJrLc13SuI/mqdefault.jpg	2020-05-07	2
-goodfellasprisonsauce	Prison Sauce inspired by Goodfellas	https://www.youtube.com/watch?v=uEjMyHccX8U	https://www.bingingwithbabish.com/recipes/2017/6/15/goodfellasprisonsauce	https://img.youtube.com/vi/uEjMyHccX8U/mqdefault.jpg	2016-12-01	1
+goodfellasprisonsauce	Prison Sauce inspired by Goodfellas	https://www.youtube.com/watch?v=uEjMyHccX8U	https://www.bingingwithbabish.com/recipes/2017/6/15/goodfellasprisonsauce	https://img.youtube.com/vi/uEjMyHccX8U/mqdefault.jpg	2016-11-30	1
 goodmorningburger	Good Morning Burger inspired by The Simpsons	https://www.youtube.com/watch?v=hzAgFNh4vRY	https://www.bingingwithbabish.com/recipes/goodmorningburger	https://img.youtube.com/vi/hzAgFNh4vRY/mqdefault.jpg	2019-05-07	1
 grilledcheesedeluxe	Grilled Cheese Deluxe inspired by Regular Show	https://www.youtube.com/watch?v=NFAN6L7xnvY	https://www.bingingwithbabish.com/recipes/grilledcheesedeluxe	https://img.youtube.com/vi/NFAN6L7xnvY/mqdefault.jpg	2019-04-16	1
 grilledcheesevidcon	National Grilled Cheese Day + VidCon Announcement	https://www.youtube.com/watch?v=hwjdXBxeWsc	https://www.youtube.com/watch?v=hwjdXBxeWsc	https://img.youtube.com/vi/hwjdXBxeWsc/mqdefault.jpg	2018-04-11	1
@@ -431,7 +431,7 @@ hot-chicken	NASHVILLE HOT CHICKEN	https://www.youtube.com/watch?v=FPx7X7k0HuM	ht
 huevosrancheros	Huevos Rancheros inspired by Breaking Bad	https://www.youtube.com/watch?v=pdNm4ug9PpE	https://www.bingingwithbabish.com/recipes/huevosrancheros	https://img.youtube.com/vi/pdNm4ug9PpE/mqdefault.jpg	2019-06-20	1
 ice-cream-sandwiches	ICE CREAM SANDWICHES	https://www.youtube.com/watch?v=m6fnJ6rQPok	https://basicswithbabish.co/basicsepisodes/ice-cream-sandwiches	https://img.youtube.com/vi/m6fnJ6rQPok/mqdefault.jpg	2020-04-24	2
 icecream	ICE CREAM	https://www.youtube.com/watch?v=MdirPsiHnCA	https://basicswithbabish.co/basicsepisodes/icecream	https://img.youtube.com/vi/MdirPsiHnCA/mqdefault.jpg	2018-07-12	2
-il-timpano-inspired-by-big-night	Il Timpano inspired by Big Night	https://www.youtube.com/watch?v=PIsIE0oHGgo	https://www.bingingwithbabish.com/recipes/2017/2/20/il-timpano-inspired-by-big-night	https://img.youtube.com/vi/PIsIE0oHGgo/mqdefault.jpg	2016-02-21	1
+il-timpano-inspired-by-big-night	Il Timpano inspired by Big Night	https://www.youtube.com/watch?v=PIsIE0oHGgo	https://www.bingingwithbabish.com/recipes/2017/2/20/il-timpano-inspired-by-big-night	https://img.youtube.com/vi/PIsIE0oHGgo/mqdefault.jpg	2016-02-20	1
 iloveyoumanfishtacos	Fish Tacos from I Love You, Man	https://www.youtube.com/watch?v=Izvd-iztaQk	https://www.bingingwithbabish.com/recipes/2017/8/22/iloveyoumanfishtacos	https://img.youtube.com/vi/Izvd-iztaQk/mqdefault.jpg	2017-01-12	1
 imaginary-pie-hook	Imaginary Pie inspired by Hook	https://www.youtube.com/watch?v=lZsun7ppDeQ	https://www.bingingwithbabish.com/recipes/imaginary-pie-hook	https://img.youtube.com/vi/lZsun7ppDeQ/mqdefault.jpg	2020-03-31	1
 indianbreads	INDIAN BREADS	https://www.youtube.com/watch?v=RnApthldLPY	https://basicswithbabish.co/basicsepisodes/indianbreads	https://img.youtube.com/vi/RnApthldLPY/mqdefault.jpg	2019-10-10	2
@@ -595,7 +595,7 @@ twinkie-weiner-sandwich	Twinkie Weiner Sandwich inspired by Weird Al's UHF	https
 uberollcake	Ube Roll inspired by Steven Universe	https://www.youtube.com/watch?v=cYRG5rkmr-s	https://www.bingingwithbabish.com/recipes/uberollcake	https://img.youtube.com/vi/cYRG5rkmr-s/mqdefault.jpg	2019-06-25	1
 ultimeatum	The Ultimeatum inspired by Regular Show	https://www.youtube.com/watch?v=S7eUmZ4Sp3U	https://www.bingingwithbabish.com/recipes/ultimeatum	https://img.youtube.com/vi/S7eUmZ4Sp3U/mqdefault.jpg	2017-08-29	1
 weeknightmeals-ahmph	WEEKNIGHT MEALS	https://www.youtube.com/watch?v=zQm9Bk2bA_Q	https://basicswithbabish.co/basicsepisodes/weeknightmeals-ahmph	https://img.youtube.com/vi/zQm9Bk2bA_Q/mqdefault.jpg	2018-10-18	2
-whitecastlesliders	White Castle sliders inspired by Harold & Kumar	https://www.youtube.com/watch?v=pTk9HnIwEYU	https://www.bingingwithbabish.com/recipes/whitecastlesliders	https://img.youtube.com/vi/pTk9HnIwEYU/mqdefault.jpg	2019-08-14	1
+whitecastlesliders	White Castle sliders inspired by Harold & Kumar	https://www.youtube.com/watch?v=pTk9HnIwEYU	https://www.bingingwithbabish.com/recipes/whitecastlesliders	https://img.youtube.com/vi/pTk9HnIwEYU/mqdefault.jpg	2019-08-13	1
 wholeporkloin	WHOLE PORK LOIN	https://www.youtube.com/watch?v=AgFaljoriYA	https://basicswithbabish.co/basicsepisodes/wholeporkloin	https://img.youtube.com/vi/AgFaljoriYA/mqdefault.jpg	2018-10-11	2
 wild-mushroom-soup-inspired-by-seinfeld	Wild Mushroom Soup inspired by Seinfeld	https://www.youtube.com/watch?v=pw2A03Z91FI	https://www.bingingwithbabish.com/recipes/2017/5/9/wild-mushroom-soup-inspired-by-seinfeld	https://img.youtube.com/vi/pw2A03Z91FI/mqdefault.jpg	2017-05-09	1
 worldsgreatestsandwich	World's Greatest Sandwich from Spanglish	https://www.youtube.com/watch?v=A_l8_C-EO38	https://www.bingingwithbabish.com/recipes/2017/8/22/worldsgreatestsandwich	https://img.youtube.com/vi/A_l8_C-EO38/mqdefault.jpg	2016-12-05	1
