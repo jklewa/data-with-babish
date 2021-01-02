@@ -190,17 +190,21 @@ def main():
                 """,
                 (ep['id'], ep['name'], ep['youtube_link'], ep['official_link'], ep['image_link'], ep['published_date'], 1))
 
-            inspired_by = extract_inspired_by(ep['name'])
-            for inspiration in inspired_by:
+            inspiration_list = extract_inspired_by(ep['name'])
+            for inspired_by in inspiration_list:
                 cur.execute(
                     """
-                        INSERT INTO reference (name)
-                        VALUES (%s)
-                        ON CONFLICT (name)
-                        DO UPDATE SET name = reference.name -- noop
-                        RETURNING id
-                    """, (inspiration,)
+                        SELECT id FROM reference WHERE name = %s
+                    """, (inspired_by,)
                 )
+                if cur.rowcount == 0:
+                    cur.execute(
+                        """
+                            INSERT INTO reference (name)
+                            VALUES (%s)
+                            RETURNING id
+                        """, (inspired_by,)
+                    )
                 ref = cur.fetchone()[0]
                 cur.execute(
                     """
