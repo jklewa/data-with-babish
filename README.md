@@ -24,7 +24,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
     {
       "episode_id": "epid",
       "name": "Episode Name",
-      "published_date": "YYYY-MM-DDT00:00:00+00:00",
+      "published_date": "YYYY-MM-DD",
       "youtube_link": "https://www.youtube.com/watch?v=...",
       "official_link": "https://www.bingingwithbabish.com/recipes/...",
       "image_link": "https://preview.image.host/image.png",
@@ -84,7 +84,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
         {
           "episode_id": "epid",
           "name": "Episode Name",
-          "published_date": "YYYY-MM-DDT00:00:00+00:00",
+          "published_date": "YYYY-MM-DD",
           "youtube_link": "https://www.youtube.com/watch?v=...",
           "official_link": "https://www.bingingwithbabish.com/recipes/...",
           "image_link": "https://preview.image.host/image.png"
@@ -109,7 +109,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
       "source": {
         "episode_id": "epid",
         "name": "Episode Name",
-        "published_date": "YYYY-MM-DDT00:00:00+00:00",
+        "published_date": "YYYY-MM-DD",
         "youtube_link": "https://www.youtube.com/watch?v=...",
         "official_link": "https://www.bingingwithbabish.com/recipes/...",
         "image_link": "https://preview.image.host/image.png"
@@ -144,7 +144,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
         {
           "episode_id": "epid",
           "name": "Episode Name",
-          "published_date": "YYYY-MM-DDT00:00:00+00:00",
+          "published_date": "YYYY-MM-DD",
           "youtube_link": "https://www.youtube.com/watch?v=...",
           "official_link": "https://www.bingingwithbabish.com/recipes/...",
           "image_link": "https://preview.image.host/image.png"
@@ -168,7 +168,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
         {
           "episode_id": "epid",
           "name": "Episode Name",
-          "published_date": "YYYY-MM-DDT00:00:00+00:00",
+          "published_date": "YYYY-MM-DD",
           "youtube_link": "https://www.youtube.com/watch?v=...",
           "official_link": "https://www.bingingwithbabish.com/recipes/...",
           "image_link": "https://preview.image.host/image.png"

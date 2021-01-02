@@ -12,7 +12,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/the-liz-lemon-30-rock",
         "episode_id": "the-liz-lemon-30-rock",
         "name": "The Liz Lemon inspired by 30 Rock",
-        "published_date": "2020-11-11T00:00:00+00:00",
+        "published_date": "2020-11-11",
         "youtube_link": "https://www.youtube.com/watch?v=XBUq8q1Vwls",
         "official_link": "https://www.bingingwithbabish.com/recipes/the-liz-lemon-30-rock",
         "image_link": "https://img.youtube.com/vi/XBUq8q1Vwls/mqdefault.jpg"
@@ -21,7 +21,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/teamstersandwich",
         "episode_id": "teamstersandwich",
         "name": "Teamster Sandwich inspired by 30 Rock",
-        "published_date": "2018-07-31T00:00:00+00:00",
+        "published_date": "2018-07-31",
         "youtube_link": "https://www.youtube.com/watch?v=tmUximhgYnI",
         "official_link": "https://www.bingingwithbabish.com/recipes/teamstersandwich",
         "image_link": "https://img.youtube.com/vi/tmUximhgYnI/mqdefault.jpg"
@@ -30,7 +30,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cheesyblasters",
         "episode_id": "cheesyblasters",
         "name": "Cheesy Blasters inspired by 30 Rock",
-        "published_date": "2018-05-15T00:00:00+00:00",
+        "published_date": "2018-05-15",
         "youtube_link": "https://www.youtube.com/watch?v=atLL2Yzi3bg",
         "official_link": "https://www.bingingwithbabish.com/recipes/cheesyblasters",
         "image_link": "https://img.youtube.com/vi/atLL2Yzi3bg/mqdefault.jpg"
@@ -39,7 +39,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/loversdelightsundae",
         "episode_id": "loversdelightsundae",
         "name": "Lovers' Delight Sundae from 30 Rock",
-        "published_date": "2017-02-06T00:00:00+00:00",
+        "published_date": "2017-02-06",
         "youtube_link": "https://www.youtube.com/watch?v=iX7Dzr2whWQ",
         "official_link": "https://www.youtube.com/watch?v=iX7Dzr2whWQ",
         "image_link": "https://img.youtube.com/vi/iX7Dzr2whWQ/mqdefault.jpg"
@@ -59,7 +59,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/pekingduck",
         "episode_id": "pekingduck",
         "name": "Peking Duck inspired by A Christmas Story",
-        "published_date": "2017-12-19T00:00:00+00:00",
+        "published_date": "2017-12-19",
         "youtube_link": "https://www.youtube.com/watch?v=Hez55mhB8UA",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/pekingduck",
         "image_link": "https://img.youtube.com/vi/Hez55mhB8UA/mqdefault.jpg"
@@ -79,7 +79,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/adventuretimespecial",
         "episode_id": "adventuretimespecial",
         "name": "Adventure Time Special",
-        "published_date": "2018-09-11T00:00:00+00:00",
+        "published_date": "2018-09-11",
         "youtube_link": "https://www.youtube.com/watch?v=SjeS6gtPq8E",
         "official_link": "https://www.bingingwithbabish.com/recipes/adventuretimespecial",
         "image_link": "https://img.youtube.com/vi/SjeS6gtPq8E/mqdefault.jpg"
@@ -88,7 +88,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/adventure-time-sandwich",
         "episode_id": "adventure-time-sandwich",
         "name": "Jake's Perfect Sandwich inspired by Adventure Time",
-        "published_date": "2017-03-18T00:00:00+00:00",
+        "published_date": "2017-03-18",
         "youtube_link": "https://www.youtube.com/watch?v=HsxBw6ls7Z0",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/3/18/adventure-time-sandwich",
         "image_link": "https://img.youtube.com/vi/HsxBw6ls7Z0/mqdefault.jpg"
@@ -108,7 +108,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/fitz-sandwich",
         "episode_id": "fitz-sandwich",
         "name": "The Fitz Sandwich inspired by Agents of S.H.I.E.L.D.",
-        "published_date": "2017-08-22T00:00:00+00:00",
+        "published_date": "2017-08-22",
         "youtube_link": "https://www.youtube.com/watch?v=xugufifsB4s",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/fitz-sandwich",
         "image_link": "https://img.youtube.com/vi/xugufifsB4s/mqdefault.jpg"
@@ -128,7 +128,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cremebrule",
         "episode_id": "cremebrule",
         "name": "Cr\u00e8me Br\u00fbl\u00e9e inspired by Amelie",
-        "published_date": "2018-04-03T00:00:00+00:00",
+        "published_date": "2018-04-03",
         "youtube_link": "https://www.youtube.com/watch?v=dn_aaxZIA2o",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/cremebrule",
         "image_link": "https://img.youtube.com/vi/dn_aaxZIA2o/mqdefault.jpg"
@@ -148,7 +148,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cremebrule",
         "episode_id": "cremebrule",
         "name": "Cr\u00e8me Br\u00fbl\u00e9e inspired by Amelie",
-        "published_date": "2018-04-03T00:00:00+00:00",
+        "published_date": "2018-04-03",
         "youtube_link": "https://www.youtube.com/watch?v=dn_aaxZIA2o",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/cremebrule",
         "image_link": "https://img.youtube.com/vi/dn_aaxZIA2o/mqdefault.jpg"
@@ -168,7 +168,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/applepiesmoothie",
         "episode_id": "applepiesmoothie",
         "name": "Apple Pie Smoothie",
-        "published_date": "2016-03-13T00:00:00+00:00",
+        "published_date": "2016-03-13",
         "youtube_link": "https://www.youtube.com/watch?v=mv1z2p3to0U",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/applepiesmoothie",
         "image_link": "https://img.youtube.com/vi/mv1z2p3to0U/mqdefault.jpg"
@@ -188,7 +188,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/raspberry-danish-ant-man-and-the-wasp",
         "episode_id": "raspberry-danish-ant-man-and-the-wasp",
         "name": "Raspberry Danish inspired by Ant Man & The Wasp",
-        "published_date": "2020-09-29T00:00:00+00:00",
+        "published_date": "2020-09-29",
         "youtube_link": "https://www.youtube.com/watch?v=Zhq20aCSh-s",
         "official_link": "https://www.bingingwithbabish.com/recipes/raspberry-danish-ant-man-and-the-wasp",
         "image_link": "https://img.youtube.com/vi/Zhq20aCSh-s/mqdefault.jpg"
@@ -208,7 +208,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/mirages-pork-chops",
         "episode_id": "mirages-pork-chops",
         "name": "Mirage's Pork Chops inspired by Apex Legends",
-        "published_date": "2019-10-31T00:00:00+00:00",
+        "published_date": "2019-10-31",
         "youtube_link": "https://www.youtube.com/watch?v=SZcUJuXjCsw",
         "official_link": "https://www.bingingwithbabish.com/recipes/mirages-pork-chops",
         "image_link": "https://img.youtube.com/vi/SZcUJuXjCsw/mqdefault.jpg"
@@ -228,7 +228,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/broodwich-aqua-teen-hunger-force",
         "episode_id": "broodwich-aqua-teen-hunger-force",
         "name": "The Broodwich inspired by Aqua Teen Hunger Force",
-        "published_date": "2020-10-27T00:00:00+00:00",
+        "published_date": "2020-10-27",
         "youtube_link": "https://www.youtube.com/watch?v=0vZvPtI5Uk8",
         "official_link": "https://www.bingingwithbabish.com/recipes/broodwich-aqua-teen-hunger-force",
         "image_link": "https://img.youtube.com/vi/0vZvPtI5Uk8/mqdefault.jpg"
@@ -248,7 +248,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/quiet-place-bonus",
         "episode_id": "quiet-place-bonus",
         "name": "A Quiet Place Bonus Episode",
-        "published_date": "2018-12-15T00:00:00+00:00",
+        "published_date": "2018-12-15",
         "youtube_link": "https://www.youtube.com/watch?v=0PyTpUIn4ks",
         "official_link": "https://www.youtube.com/watch?v=0PyTpUIn4ks",
         "image_link": "https://img.youtube.com/vi/0PyTpUIn4ks/mqdefault.jpg"
@@ -268,7 +268,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/archer-margarita",
         "episode_id": "archer-margarita",
         "name": "Margaritas inspired by Archer",
-        "published_date": "2020-05-05T00:00:00+00:00",
+        "published_date": "2020-05-05",
         "youtube_link": "https://www.youtube.com/watch?v=hsPXh3yna1U",
         "official_link": "https://www.bingingwithbabish.com/recipes/archer-margarita",
         "image_link": "https://img.youtube.com/vi/hsPXh3yna1U/mqdefault.jpg"
@@ -277,7 +277,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/steak-au-poivre",
         "episode_id": "steak-au-poivre",
         "name": "Steak au Poivre inspired by Archer",
-        "published_date": "2019-02-12T00:00:00+00:00",
+        "published_date": "2019-02-12",
         "youtube_link": "https://www.youtube.com/watch?v=tCJ_VV0FEZM",
         "official_link": "https://www.bingingwithbabish.com/recipes/steak-au-poivre",
         "image_link": "https://img.youtube.com/vi/tCJ_VV0FEZM/mqdefault.jpg"
@@ -286,7 +286,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/eggswoodhouse",
         "episode_id": "eggswoodhouse",
         "name": "Eggs Woodhouse For Good from Archer",
-        "published_date": "2016-12-13T00:00:00+00:00",
+        "published_date": "2016-12-13",
         "youtube_link": "https://www.youtube.com/watch?v=eVgmI-YF16g",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/eggswoodhouse",
         "image_link": "https://img.youtube.com/vi/eVgmI-YF16g/mqdefault.jpg"
@@ -306,7 +306,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/arresteddevelopmentspecial",
         "episode_id": "arresteddevelopmentspecial",
         "name": "Arrested Development Special (feat. Sean Evans)",
-        "published_date": "2018-05-29T00:00:00+00:00",
+        "published_date": "2018-05-29",
         "youtube_link": "https://www.youtube.com/watch?v=2U_0OlCizx0",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/arresteddevelopmentspecial",
         "image_link": "https://img.youtube.com/vi/2U_0OlCizx0/mqdefault.jpg"
@@ -326,7 +326,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/pastaputtanesca",
         "episode_id": "pastaputtanesca",
         "name": "Pasta Puttanesca inspired by Lemony Snicket's A Series of Unfortunate Events",
-        "published_date": "2018-06-12T00:00:00+00:00",
+        "published_date": "2018-06-12",
         "youtube_link": "https://www.youtube.com/watch?v=uwV9cq9DRTY",
         "official_link": "https://www.bingingwithbabish.com/recipes/pastaputtanesca",
         "image_link": "https://img.youtube.com/vi/uwV9cq9DRTY/mqdefault.jpg"
@@ -346,7 +346,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/beetandacorncookies",
         "episode_id": "beetandacorncookies",
         "name": "Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)",
-        "published_date": "2017-05-23T00:00:00+00:00",
+        "published_date": "2017-05-23",
         "youtube_link": "https://www.youtube.com/watch?v=6PTuUMJ2Uh8",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/beetandacorncookies",
         "image_link": "https://img.youtube.com/vi/6PTuUMJ2Uh8/mqdefault.jpg"
@@ -366,7 +366,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/lemon-pepper-wet",
         "episode_id": "lemon-pepper-wet",
         "name": "Lemon Pepper Wet inspired by Atlanta",
-        "published_date": "2017-07-25T00:00:00+00:00",
+        "published_date": "2017-07-25",
         "youtube_link": "https://www.youtube.com/watch?v=Enan6eEmtqM",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/25/lemon-pepper-wet",
         "image_link": "https://img.youtube.com/vi/Enan6eEmtqM/mqdefault.jpg"
@@ -386,7 +386,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/avatar-fire-flakes",
         "episode_id": "avatar-fire-flakes",
         "name": "Fire Flakes inspired by Avatar the Last Airbender",
-        "published_date": "2020-08-04T00:00:00+00:00",
+        "published_date": "2020-08-04",
         "youtube_link": "https://www.youtube.com/watch?v=RhUMA3bCvAY",
         "official_link": "https://www.bingingwithbabish.com/recipes/avatar-fire-flakes",
         "image_link": "https://img.youtube.com/vi/RhUMA3bCvAY/mqdefault.jpg"
@@ -395,7 +395,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/egg-custard-tarts",
         "episode_id": "egg-custard-tarts",
         "name": "Egg Custard Tarts inspired by Avatar the Last Airbender",
-        "published_date": "2020-01-08T00:00:00+00:00",
+        "published_date": "2020-01-08",
         "youtube_link": "https://www.youtube.com/watch?v=F2ENkOF3fMQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/egg-custard-tarts",
         "image_link": "https://img.youtube.com/vi/F2ENkOF3fMQ/mqdefault.jpg"
@@ -415,7 +415,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/avengersicecream",
         "episode_id": "avengersicecream",
         "name": "Ice Cream Flavors inspired by Avengers: Infinity War",
-        "published_date": "2019-04-30T00:00:00+00:00",
+        "published_date": "2019-04-30",
         "youtube_link": "https://www.youtube.com/watch?v=Ukjat70Iyt4",
         "official_link": "https://www.bingingwithbabish.com/recipes/avengersicecream",
         "image_link": "https://img.youtube.com/vi/Ukjat70Iyt4/mqdefault.jpg"
@@ -435,7 +435,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/caillesensarchophage",
         "episode_id": "caillesensarchophage",
         "name": "Cailles en Sarchophage inspired by Babette's Feast",
-        "published_date": "2017-10-03T00:00:00+00:00",
+        "published_date": "2017-10-03",
         "youtube_link": "https://www.youtube.com/watch?v=Bz1IXK6ahu0",
         "official_link": "https://www.youtube.com/watch?v=Bz1IXK6ahu0",
         "image_link": "https://img.youtube.com/vi/Bz1IXK6ahu0/mqdefault.jpg"
@@ -455,7 +455,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/thegreystuff",
         "episode_id": "thegreystuff",
         "name": "The Grey Stuff & Other Hors d\u2019Oeuvres inspired by Beauty & the Beast",
-        "published_date": "2019-01-03T00:00:00+00:00",
+        "published_date": "2019-01-03",
         "youtube_link": "https://www.youtube.com/watch?v=0TvBiF9S89Q",
         "official_link": "https://www.bingingwithbabish.com/recipes/thegreystuff",
         "image_link": "https://img.youtube.com/vi/0TvBiF9S89Q/mqdefault.jpg"
@@ -475,7 +475,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/thegreystuff",
         "episode_id": "thegreystuff",
         "name": "The Grey Stuff & Other Hors d\u2019Oeuvres inspired by Beauty & the Beast",
-        "published_date": "2019-01-03T00:00:00+00:00",
+        "published_date": "2019-01-03",
         "youtube_link": "https://www.youtube.com/watch?v=0TvBiF9S89Q",
         "official_link": "https://www.bingingwithbabish.com/recipes/thegreystuff",
         "image_link": "https://img.youtube.com/vi/0TvBiF9S89Q/mqdefault.jpg"
@@ -495,7 +495,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/il-timpano-inspired-by-big-night",
         "episode_id": "il-timpano-inspired-by-big-night",
         "name": "Il Timpano inspired by Big Night",
-        "published_date": "2016-02-21T00:00:00+00:00",
+        "published_date": "2016-02-21",
         "youtube_link": "https://www.youtube.com/watch?v=PIsIE0oHGgo",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/2/20/il-timpano-inspired-by-big-night",
         "image_link": "https://img.youtube.com/vi/PIsIE0oHGgo/mqdefault.jpg"
@@ -515,7 +515,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/bop-egg-sandwich",
         "episode_id": "bop-egg-sandwich",
         "name": "Egg Sandwich (with Homemade Ciabatta) inspired by Birds of Prey",
-        "published_date": "2020-02-25T00:00:00+00:00",
+        "published_date": "2020-02-25",
         "youtube_link": "https://www.youtube.com/watch?v=6JFVKnrE_d8",
         "official_link": "https://www.bingingwithbabish.com/recipes/bop-egg-sandwich",
         "image_link": "https://img.youtube.com/vi/6JFVKnrE_d8/mqdefault.jpg"
@@ -535,7 +535,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/teddybrulee",
         "episode_id": "teddybrulee",
         "name": "Teddy Br\u00fbl\u00e9e inspired by Bob's Burgers",
-        "published_date": "2019-05-14T00:00:00+00:00",
+        "published_date": "2019-05-14",
         "youtube_link": "https://www.youtube.com/watch?v=6pXjR0JyV0s",
         "official_link": "https://www.bingingwithbabish.com/recipes/teddybrulee",
         "image_link": "https://img.youtube.com/vi/6pXjR0JyV0s/mqdefault.jpg"
@@ -544,7 +544,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/sandyfryesappetizers",
         "episode_id": "sandyfryesappetizers",
         "name": "Sandy Frye's Appetizers inspired by Bob's Burgers",
-        "published_date": "2019-01-29T00:00:00+00:00",
+        "published_date": "2019-01-29",
         "youtube_link": "https://www.youtube.com/watch?v=3LXTGVN3ZOg",
         "official_link": "https://www.bingingwithbabish.com/recipes/sandyfryesappetizers",
         "image_link": "https://img.youtube.com/vi/3LXTGVN3ZOg/mqdefault.jpg"
@@ -553,7 +553,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/dutchbaby",
         "episode_id": "dutchbaby",
         "name": "Dutch Baby inspired by Bob's Burgers",
-        "published_date": "2019-01-03T00:00:00+00:00",
+        "published_date": "2019-01-03",
         "youtube_link": "https://www.youtube.com/watch?v=RwlYqnO9DSE",
         "official_link": "https://www.bingingwithbabish.com/recipes/dutchbaby",
         "image_link": "https://img.youtube.com/vi/RwlYqnO9DSE/mqdefault.jpg"
@@ -562,7 +562,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/bobsburgers",
         "episode_id": "bobsburgers",
         "name": "Bob's Burgers",
-        "published_date": "2017-03-14T00:00:00+00:00",
+        "published_date": "2017-03-14",
         "youtube_link": "https://www.youtube.com/watch?v=basFyoMSjds",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/bobsburgers",
         "image_link": "https://img.youtube.com/vi/basFyoMSjds/mqdefault.jpg"
@@ -582,7 +582,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/lasagna",
         "episode_id": "lasagna",
         "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)",
-        "published_date": "2018-03-27T00:00:00+00:00",
+        "published_date": "2018-03-27",
         "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna",
         "image_link": "https://img.youtube.com/vi/TkWmK-cplV4/mqdefault.jpg"
@@ -602,7 +602,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/pollos-hermanos-breaking-bad",
         "episode_id": "pollos-hermanos-breaking-bad",
         "name": "Pollos Hermanos inspired by Breaking Bad",
-        "published_date": "2020-09-15T00:00:00+00:00",
+        "published_date": "2020-09-15",
         "youtube_link": "https://www.youtube.com/watch?v=ndqjxhi7uZs",
         "official_link": "https://www.bingingwithbabish.com/recipes/pollos-hermanos-breaking-bad",
         "image_link": "https://img.youtube.com/vi/ndqjxhi7uZs/mqdefault.jpg"
@@ -611,7 +611,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/huevosrancheros",
         "episode_id": "huevosrancheros",
         "name": "Huevos Rancheros inspired by Breaking Bad",
-        "published_date": "2019-06-20T00:00:00+00:00",
+        "published_date": "2019-06-20",
         "youtube_link": "https://www.youtube.com/watch?v=pdNm4ug9PpE",
         "official_link": "https://www.bingingwithbabish.com/recipes/huevosrancheros",
         "image_link": "https://img.youtube.com/vi/pdNm4ug9PpE/mqdefault.jpg"
@@ -620,7 +620,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/breakingbadspecial",
         "episode_id": "breakingbadspecial",
         "name": "Breaking Bad Special",
-        "published_date": "2018-02-06T00:00:00+00:00",
+        "published_date": "2018-02-06",
         "youtube_link": "https://www.youtube.com/watch?v=ZY63ZSUdywY",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/breakingbadspecial",
         "image_link": "https://img.youtube.com/vi/ZY63ZSUdywY/mqdefault.jpg"
@@ -640,7 +640,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/croque-monsieur-brooklyn-nine-nine",
         "episode_id": "croque-monsieur-brooklyn-nine-nine",
         "name": "Croque Monsieur inspired by Brooklyn Nine-Nine",
-        "published_date": "2020-07-21T00:00:00+00:00",
+        "published_date": "2020-07-21",
         "youtube_link": "https://www.youtube.com/watch?v=q7JDYiLz9Mo",
         "official_link": "https://www.bingingwithbabish.com/recipes/croque-monsieur-brooklyn-nine-nine",
         "image_link": "https://img.youtube.com/vi/q7JDYiLz9Mo/mqdefault.jpg"
@@ -649,7 +649,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/thesloppyjessica",
         "episode_id": "thesloppyjessica",
         "name": "The Sloppy Jessica inspired by Brooklyn Nine-Nine",
-        "published_date": "2018-05-01T00:00:00+00:00",
+        "published_date": "2018-05-01",
         "youtube_link": "https://www.youtube.com/watch?v=KKoOIyhJwA4",
         "official_link": "https://www.bingingwithbabish.com/recipes/thesloppyjessica",
         "image_link": "https://img.youtube.com/vi/KKoOIyhJwA4/mqdefault.jpg"
@@ -669,7 +669,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/chickenpaprikash",
         "episode_id": "chickenpaprikash",
         "name": "Chicken Paprikash inspired by Captain America: Civil War",
-        "published_date": "2018-04-24T00:00:00+00:00",
+        "published_date": "2018-04-24",
         "youtube_link": "https://www.youtube.com/watch?v=baG767jr8c8",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/chickenpaprikash",
         "image_link": "https://img.youtube.com/vi/baG767jr8c8/mqdefault.jpg"
@@ -689,7 +689,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cocktail-special",
         "episode_id": "cocktail-special",
         "name": "Cocktail Special",
-        "published_date": "2017-06-28T00:00:00+00:00",
+        "published_date": "2017-06-28",
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special",
         "image_link": "https://img.youtube.com/vi/v5tJBLfeurU/mqdefault.jpg"
@@ -709,7 +709,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cocktail-special",
         "episode_id": "cocktail-special",
         "name": "Cocktail Special",
-        "published_date": "2017-06-28T00:00:00+00:00",
+        "published_date": "2017-06-28",
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special",
         "image_link": "https://img.youtube.com/vi/v5tJBLfeurU/mqdefault.jpg"
@@ -729,7 +729,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/charliebrownthanksgiving",
         "episode_id": "charliebrownthanksgiving",
         "name": "Charlie Brown Thanksgiving",
-        "published_date": "2018-11-20T00:00:00+00:00",
+        "published_date": "2018-11-20",
         "youtube_link": "https://www.youtube.com/watch?v=5FyKxVJmsdE",
         "official_link": "https://www.bingingwithbabish.com/recipes/charliebrownthanksgiving",
         "image_link": "https://img.youtube.com/vi/5FyKxVJmsdE/mqdefault.jpg"
@@ -749,7 +749,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/beignetsfromchef",
         "episode_id": "beignetsfromchef",
         "name": "Beignets inspired by Chef (and Princess and the Frog)",
-        "published_date": "2018-08-07T00:00:00+00:00",
+        "published_date": "2018-08-07",
         "youtube_link": "https://www.youtube.com/watch?v=DnuHzHHwqAw",
         "official_link": "https://www.bingingwithbabish.com/recipes/beignetsfromchef",
         "image_link": "https://img.youtube.com/vi/DnuHzHHwqAw/mqdefault.jpg"
@@ -758,7 +758,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/grilledcheesevidcon",
         "episode_id": "grilledcheesevidcon",
         "name": "National Grilled Cheese Day + VidCon Announcement",
-        "published_date": "2018-04-11T00:00:00+00:00",
+        "published_date": "2018-04-11",
         "youtube_link": "https://www.youtube.com/watch?v=hwjdXBxeWsc",
         "official_link": "https://www.youtube.com/watch?v=hwjdXBxeWsc",
         "image_link": "https://img.youtube.com/vi/hwjdXBxeWsc/mqdefault.jpg"
@@ -767,7 +767,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/chocolatelavacakes",
         "episode_id": "chocolatelavacakes",
         "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi",
-        "published_date": "2018-02-20T00:00:00+00:00",
+        "published_date": "2018-02-20",
         "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/chocolatelavacakes",
         "image_link": "https://img.youtube.com/vi/qbMTukAJskQ/mqdefault.jpg"
@@ -776,7 +776,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cubanos-inspired-by-chef",
         "episode_id": "cubanos-inspired-by-chef",
         "name": "Cubanos inspired by Chef",
-        "published_date": "2017-03-29T00:00:00+00:00",
+        "published_date": "2017-03-29",
         "youtube_link": "https://www.youtube.com/watch?v=hXYoduN0kWs",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/3/28/cubanos-inspired-by-chef",
         "image_link": "https://img.youtube.com/vi/hXYoduN0kWs/mqdefault.jpg"
@@ -785,7 +785,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/aglioeolio",
         "episode_id": "aglioeolio",
         "name": "Pasta Aglio e Olio inspired by Chef",
-        "published_date": "2016-03-26T00:00:00+00:00",
+        "published_date": "2016-03-26",
         "youtube_link": "https://www.youtube.com/watch?v=bJUiWdM__Qw",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/4/aglioeolio",
         "image_link": "https://img.youtube.com/vi/bJUiWdM__Qw/mqdefault.jpg"
@@ -805,7 +805,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/beignetsfromchef",
         "episode_id": "beignetsfromchef",
         "name": "Beignets inspired by Chef (and Princess and the Frog)",
-        "published_date": "2018-08-07T00:00:00+00:00",
+        "published_date": "2018-08-07",
         "youtube_link": "https://www.youtube.com/watch?v=DnuHzHHwqAw",
         "official_link": "https://www.bingingwithbabish.com/recipes/beignetsfromchef",
         "image_link": "https://img.youtube.com/vi/DnuHzHHwqAw/mqdefault.jpg"
@@ -825,7 +825,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/chocolatelavacakes",
         "episode_id": "chocolatelavacakes",
         "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi",
-        "published_date": "2018-02-20T00:00:00+00:00",
+        "published_date": "2018-02-20",
         "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/chocolatelavacakes",
         "image_link": "https://img.youtube.com/vi/qbMTukAJskQ/mqdefault.jpg"
@@ -845,7 +845,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/buttermilk-pancakes-inspired-by-twin-peaks",
         "episode_id": "buttermilk-pancakes-inspired-by-twin-peaks",
         "name": "Buttermilk Pancakes inspired by Twin Peaks",
-        "published_date": "2017-05-18T00:00:00+00:00",
+        "published_date": "2017-05-18",
         "youtube_link": "https://www.youtube.com/watch?v=nEoSBL25RO4",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/18/buttermilk-pancakes-inspired-by-twin-peaks",
         "image_link": "https://img.youtube.com/vi/nEoSBL25RO4/mqdefault.jpg"
@@ -865,7 +865,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/tamalesfromcoco",
         "episode_id": "tamalesfromcoco",
         "name": "Tamales inspired by Coco",
-        "published_date": "2018-02-27T00:00:00+00:00",
+        "published_date": "2018-02-27",
         "youtube_link": "https://www.youtube.com/watch?v=akA_Z9Xmnvc",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/tamalesfromcoco",
         "image_link": "https://img.youtube.com/vi/akA_Z9Xmnvc/mqdefault.jpg"
@@ -885,7 +885,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/butterednoodles-community",
         "episode_id": "butterednoodles-community",
         "name": "Buttered Noodles inspired by Community",
-        "published_date": "2020-05-26T00:00:00+00:00",
+        "published_date": "2020-05-26",
         "youtube_link": "https://www.youtube.com/watch?v=xGHTj4y_bd8",
         "official_link": "https://www.bingingwithbabish.com/recipes/butterednoodles-community",
         "image_link": "https://img.youtube.com/vi/xGHTj4y_bd8/mqdefault.jpg"
@@ -894,7 +894,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/troyscasserole-community",
         "episode_id": "troyscasserole-community",
         "name": "Troy's Casserole inspired by Community",
-        "published_date": "2020-05-20T00:00:00+00:00",
+        "published_date": "2020-05-20",
         "youtube_link": "https://www.youtube.com/watch?v=mGZcg6A6FTg",
         "official_link": "https://www.bingingwithbabish.com/recipes/troyscasserole-community",
         "image_link": "https://img.youtube.com/vi/mGZcg6A6FTg/mqdefault.jpg"
@@ -914,7 +914,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cocktail-special",
         "episode_id": "cocktail-special",
         "name": "Cocktail Special",
-        "published_date": "2017-06-28T00:00:00+00:00",
+        "published_date": "2017-06-28",
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special",
         "image_link": "https://img.youtube.com/vi/v5tJBLfeurU/mqdefault.jpg"
@@ -934,7 +934,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cheesesteak",
         "episode_id": "cheesesteak",
         "name": "Philly Cheesesteaks inspired by Creed",
-        "published_date": "2016-08-21T00:00:00+00:00",
+        "published_date": "2016-08-21",
         "youtube_link": "https://www.youtube.com/watch?v=Zru1yk--rGQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/4/cheesesteak",
         "image_link": "https://img.youtube.com/vi/Zru1yk--rGQ/mqdefault.jpg"
@@ -954,7 +954,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/curbyourenthusiasm",
         "episode_id": "curbyourenthusiasm",
         "name": "Curb Your Enthusiasm Special",
-        "published_date": "2017-10-10T00:00:00+00:00",
+        "published_date": "2017-10-10",
         "youtube_link": "https://www.youtube.com/watch?v=XIZxT7iI-QI",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/curbyourenthusiasm",
         "image_link": "https://img.youtube.com/vi/XIZxT7iI-QI/mqdefault.jpg"
@@ -974,7 +974,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/deadpoolpizza",
         "episode_id": "deadpoolpizza",
         "name": "Pizza inspired by Deadpool",
-        "published_date": "2018-06-19T00:00:00+00:00",
+        "published_date": "2018-06-19",
         "youtube_link": "https://www.youtube.com/watch?v=95M8W1JgH_0",
         "official_link": "https://www.bingingwithbabish.com/recipes/deadpoolpizza",
         "image_link": "https://img.youtube.com/vi/95M8W1JgH_0/mqdefault.jpg"
@@ -994,7 +994,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/dexter-key-lime-pie",
         "episode_id": "dexter-key-lime-pie",
         "name": "Perfect Key Lime Pie inspired by Dexter",
-        "published_date": "2020-07-29T00:00:00+00:00",
+        "published_date": "2020-07-29",
         "youtube_link": "https://www.youtube.com/watch?v=UOztOU4T-_c",
         "official_link": "https://www.bingingwithbabish.com/recipes/dexter-key-lime-pie",
         "image_link": "https://img.youtube.com/vi/UOztOU4T-_c/mqdefault.jpg"
@@ -1014,7 +1014,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/omelette-du-fromage-dexters-laboratory",
         "episode_id": "omelette-du-fromage-dexters-laboratory",
         "name": "Omelette du Fromage inspired by Dexter's Laboratory",
-        "published_date": "2020-11-17T00:00:00+00:00",
+        "published_date": "2020-11-17",
         "youtube_link": "https://www.youtube.com/watch?v=8q8LsYbDCmM",
         "official_link": "https://www.bingingwithbabish.com/recipes/omelette-du-fromage-dexters-laboratory",
         "image_link": "https://img.youtube.com/vi/8q8LsYbDCmM/mqdefault.jpg"
@@ -1034,7 +1034,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/coqauvin",
         "episode_id": "coqauvin",
         "name": "Coq au Vin inspired by Donnie Brasco",
-        "published_date": "2019-01-15T00:00:00+00:00",
+        "published_date": "2019-01-15",
         "youtube_link": "https://www.youtube.com/watch?v=VP1uTgikarU",
         "official_link": "https://www.bingingwithbabish.com/recipes/coqauvin",
         "image_link": "https://img.youtube.com/vi/VP1uTgikarU/mqdefault.jpg"
@@ -1054,7 +1054,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/bananapuddingpizza",
         "episode_id": "bananapuddingpizza",
         "name": "Banana Pudding Pizza inspired by Doug",
-        "published_date": "2018-09-18T00:00:00+00:00",
+        "published_date": "2018-09-18",
         "youtube_link": "https://www.youtube.com/watch?v=wcJS3nQjhqM",
         "official_link": "https://www.bingingwithbabish.com/recipes/bananapuddingpizza",
         "image_link": "https://img.youtube.com/vi/wcJS3nQjhqM/mqdefault.jpg"
@@ -1074,7 +1074,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/dessertpasta",
         "episode_id": "dessertpasta",
         "name": "Breakfast Dessert Pasta from Elf",
-        "published_date": "2016-12-20T00:00:00+00:00",
+        "published_date": "2016-12-20",
         "youtube_link": "https://www.youtube.com/watch?v=PsuoXi2D6tM",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/dessertpasta",
         "image_link": "https://img.youtube.com/vi/PsuoXi2D6tM/mqdefault.jpg"
@@ -1094,7 +1094,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/braciole",
         "episode_id": "braciole",
         "name": "Braciole inspired by Everybody Loves Raymond",
-        "published_date": "2020-01-30T00:00:00+00:00",
+        "published_date": "2020-01-30",
         "youtube_link": "https://www.youtube.com/watch?v=1inpwA-_PzQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/braciole",
         "image_link": "https://img.youtube.com/vi/1inpwA-_PzQ/mqdefault.jpg"
@@ -1114,7 +1114,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/babishpaniniwinner",
         "episode_id": "babishpaniniwinner",
         "name": "#BabishPanini Winning Recipe - Car Panini inspired by Family Guy",
-        "published_date": "2018-08-21T00:00:00+00:00",
+        "published_date": "2018-08-21",
         "youtube_link": "https://www.youtube.com/watch?v=ImoP-Apzrsg",
         "official_link": "https://www.bingingwithbabish.com/recipes/babishpaniniwinner",
         "image_link": "https://img.youtube.com/vi/ImoP-Apzrsg/mqdefault.jpg"
@@ -1123,7 +1123,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/carpanini",
         "episode_id": "carpanini",
         "name": "Car Panini inspired by Family Guy",
-        "published_date": "2018-07-10T00:00:00+00:00",
+        "published_date": "2018-07-10",
         "youtube_link": "https://www.youtube.com/watch?v=4Rz8BPRFeiA",
         "official_link": "https://www.bingingwithbabish.com/recipes/carpanini",
         "image_link": "https://img.youtube.com/vi/4Rz8BPRFeiA/mqdefault.jpg"
@@ -1143,7 +1143,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/pineapplecurryfriedrice",
         "episode_id": "pineapplecurryfriedrice",
         "name": "Pineapple-Curry Fried Rice inspired by Food Wars!: Shokugeki no Soma",
-        "published_date": "2018-03-13T00:00:00+00:00",
+        "published_date": "2018-03-13",
         "youtube_link": "https://www.youtube.com/watch?v=WRA3a7c4Qt4",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/pineapplecurryfriedrice",
         "image_link": "https://img.youtube.com/vi/WRA3a7c4Qt4/mqdefault.jpg"
@@ -1163,7 +1163,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/pineapplecurryfriedrice",
         "episode_id": "pineapplecurryfriedrice",
         "name": "Pineapple-Curry Fried Rice inspired by Food Wars!: Shokugeki no Soma",
-        "published_date": "2018-03-13T00:00:00+00:00",
+        "published_date": "2018-03-13",
         "youtube_link": "https://www.youtube.com/watch?v=WRA3a7c4Qt4",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/pineapplecurryfriedrice",
         "image_link": "https://img.youtube.com/vi/WRA3a7c4Qt4/mqdefault.jpg"
@@ -1183,7 +1183,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/bubbashrimp2",
         "episode_id": "bubbashrimp2",
         "name": "Shrimp inspired by Forrest Gump Part II",
-        "published_date": "2019-04-23T00:00:00+00:00",
+        "published_date": "2019-04-23",
         "youtube_link": "https://www.youtube.com/watch?v=mF6JUfczaO8",
         "official_link": "https://www.bingingwithbabish.com/recipes/bubbashrimp2",
         "image_link": "https://img.youtube.com/vi/mF6JUfczaO8/mqdefault.jpg"
@@ -1192,7 +1192,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/forrestgumpshrimp",
         "episode_id": "forrestgumpshrimp",
         "name": "Shrimp inspired by Forrest Gump | Part 1",
-        "published_date": "2018-07-03T00:00:00+00:00",
+        "published_date": "2018-07-03",
         "youtube_link": "https://www.youtube.com/watch?v=6HBPHRDEt_Q",
         "official_link": "https://www.bingingwithbabish.com/recipes/forrestgumpshrimp",
         "image_link": "https://img.youtube.com/vi/6HBPHRDEt_Q/mqdefault.jpg"
@@ -1212,7 +1212,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/forrestgumpshrimp",
         "episode_id": "forrestgumpshrimp",
         "name": "Shrimp inspired by Forrest Gump | Part 1",
-        "published_date": "2018-07-03T00:00:00+00:00",
+        "published_date": "2018-07-03",
         "youtube_link": "https://www.youtube.com/watch?v=6HBPHRDEt_Q",
         "official_link": "https://www.bingingwithbabish.com/recipes/forrestgumpshrimp",
         "image_link": "https://img.youtube.com/vi/6HBPHRDEt_Q/mqdefault.jpg"
@@ -1232,7 +1232,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/bubbashrimp2",
         "episode_id": "bubbashrimp2",
         "name": "Shrimp inspired by Forrest Gump Part II",
-        "published_date": "2019-04-23T00:00:00+00:00",
+        "published_date": "2019-04-23",
         "youtube_link": "https://www.youtube.com/watch?v=mF6JUfczaO8",
         "official_link": "https://www.bingingwithbabish.com/recipes/bubbashrimp2",
         "image_link": "https://img.youtube.com/vi/mF6JUfczaO8/mqdefault.jpg"
@@ -1252,7 +1252,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/eggsflorentine",
         "episode_id": "eggsflorentine",
         "name": "Eggs Florentine inspired by Frasier",
-        "published_date": "2018-11-13T00:00:00+00:00",
+        "published_date": "2018-11-13",
         "youtube_link": "https://www.youtube.com/watch?v=34j9_tbM7og",
         "official_link": "https://www.bingingwithbabish.com/recipes/eggsflorentine",
         "image_link": "https://img.youtube.com/vi/34j9_tbM7og/mqdefault.jpg"
@@ -1261,7 +1261,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/fraiserspecial",
         "episode_id": "fraiserspecial",
         "name": "Frasier Special",
-        "published_date": "2018-02-13T00:00:00+00:00",
+        "published_date": "2018-02-13",
         "youtube_link": "https://www.youtube.com/watch?v=AwS_DIMeVoM",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/fraiserspecial",
         "image_link": "https://img.youtube.com/vi/AwS_DIMeVoM/mqdefault.jpg"
@@ -1270,7 +1270,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/egginanest",
         "episode_id": "egginanest",
         "name": "Eggs in a Nest inspired by Lots of Stuff",
-        "published_date": "2018-01-30T00:00:00+00:00",
+        "published_date": "2018-01-30",
         "youtube_link": "https://www.youtube.com/watch?v=4QDDxmtbUsw",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/egginanest",
         "image_link": "https://img.youtube.com/vi/4QDDxmtbUsw/mqdefault.jpg"
@@ -1290,7 +1290,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/friedgreentomatoes",
         "episode_id": "friedgreentomatoes",
         "name": "Fried Green Tomatoes inspired by...Fried Green Tomatoes",
-        "published_date": "2018-07-24T00:00:00+00:00",
+        "published_date": "2018-07-24",
         "youtube_link": "https://www.youtube.com/watch?v=KKBkY-7TCw0",
         "official_link": "https://www.bingingwithbabish.com/recipes/friedgreentomatoes",
         "image_link": "https://img.youtube.com/vi/KKBkY-7TCw0/mqdefault.jpg"
@@ -1310,7 +1310,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/monicas-candy-friends",
         "episode_id": "monicas-candy-friends",
         "name": "Monica's Candy inspired by Friends",
-        "published_date": "2020-12-15T00:00:00+00:00",
+        "published_date": "2020-12-15",
         "youtube_link": "https://www.youtube.com/watch?v=bK0NdaDOsG0",
         "official_link": "https://www.bingingwithbabish.com/recipes/monicas-candy-friends",
         "image_link": "https://img.youtube.com/vi/bK0NdaDOsG0/mqdefault.jpg"
@@ -1319,7 +1319,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/parmhero",
         "episode_id": "parmhero",
         "name": "Parm Heros inspired by Lots of Things",
-        "published_date": "2018-03-20T00:00:00+00:00",
+        "published_date": "2018-03-20",
         "youtube_link": "https://www.youtube.com/watch?v=DkiyT-dnmv8",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/parmhero",
         "image_link": "https://img.youtube.com/vi/DkiyT-dnmv8/mqdefault.jpg"
@@ -1328,7 +1328,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/egginanest",
         "episode_id": "egginanest",
         "name": "Eggs in a Nest inspired by Lots of Stuff",
-        "published_date": "2018-01-30T00:00:00+00:00",
+        "published_date": "2018-01-30",
         "youtube_link": "https://www.youtube.com/watch?v=4QDDxmtbUsw",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/egginanest",
         "image_link": "https://img.youtube.com/vi/4QDDxmtbUsw/mqdefault.jpg"
@@ -1337,7 +1337,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/racheltrifle",
         "episode_id": "racheltrifle",
         "name": "Rachel's Trifle inspired by Friends",
-        "published_date": "2017-11-21T00:00:00+00:00",
+        "published_date": "2017-11-21",
         "youtube_link": "https://www.youtube.com/watch?v=G4BxOhJOmUw",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/racheltrifle",
         "image_link": "https://img.youtube.com/vi/G4BxOhJOmUw/mqdefault.jpg"
@@ -1346,7 +1346,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/moistmaker",
         "episode_id": "moistmaker",
         "name": "The Moistmaker inspired by Friends",
-        "published_date": "2016-11-14T00:00:00+00:00",
+        "published_date": "2016-11-14",
         "youtube_link": "https://www.youtube.com/watch?v=vjZXcapkFEU",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/moistmaker",
         "image_link": "https://img.youtube.com/vi/vjZXcapkFEU/mqdefault.jpg"
@@ -1366,7 +1366,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/direwolfbread",
         "episode_id": "direwolfbread",
         "name": "Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)",
-        "published_date": "2018-09-25T00:00:00+00:00",
+        "published_date": "2018-09-25",
         "youtube_link": "https://www.youtube.com/watch?v=6nuEgc2RVWo",
         "official_link": "https://www.bingingwithbabish.com/recipes/direwolfbread",
         "image_link": "https://img.youtube.com/vi/6nuEgc2RVWo/mqdefault.jpg"
@@ -1375,7 +1375,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/blood-pie-inspired-by-game-of-thrones",
         "episode_id": "blood-pie-inspired-by-game-of-thrones",
         "name": "Blood Pie inspired by Game of Thrones",
-        "published_date": "2017-07-11T00:00:00+00:00",
+        "published_date": "2017-07-11",
         "youtube_link": "https://www.youtube.com/watch?v=Y_hc07rAQlc",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/14/blood-pie-inspired-by-game-of-thrones",
         "image_link": "https://img.youtube.com/vi/Y_hc07rAQlc/mqdefault.jpg"
@@ -1384,7 +1384,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/lemon-cakes-inspired-by-game-of-thrones",
         "episode_id": "lemon-cakes-inspired-by-game-of-thrones",
         "name": "Lemon Cakes inspired by Game of Thrones",
-        "published_date": "2017-07-11T00:00:00+00:00",
+        "published_date": "2017-07-11",
         "youtube_link": "https://www.youtube.com/watch?v=Y_hc07rAQlc",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/11/lemon-cakes-inspired-by-game-of-thrones",
         "image_link": "https://img.youtube.com/vi/Y_hc07rAQlc/mqdefault.jpg"
@@ -1393,7 +1393,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/pigeon-pie-with-wild-game-inspired-by-game-of-thrones",
         "episode_id": "pigeon-pie-with-wild-game-inspired-by-game-of-thrones",
         "name": "Pigeon Pie with Wild Game inspired by Game of Thrones",
-        "published_date": "2017-07-11T00:00:00+00:00",
+        "published_date": "2017-07-11",
         "youtube_link": "https://www.youtube.com/watch?v=Y_hc07rAQlc",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/14/pigeon-pie-with-wild-game-inspired-by-game-of-thrones",
         "image_link": "https://img.youtube.com/vi/Y_hc07rAQlc/mqdefault.jpg"
@@ -1413,7 +1413,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/direwolfbread",
         "episode_id": "direwolfbread",
         "name": "Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)",
-        "published_date": "2018-09-25T00:00:00+00:00",
+        "published_date": "2018-09-25",
         "youtube_link": "https://www.youtube.com/watch?v=6nuEgc2RVWo",
         "official_link": "https://www.bingingwithbabish.com/recipes/direwolfbread",
         "image_link": "https://img.youtube.com/vi/6nuEgc2RVWo/mqdefault.jpg"
@@ -1433,7 +1433,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/lasagna",
         "episode_id": "lasagna",
         "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)",
-        "published_date": "2018-03-27T00:00:00+00:00",
+        "published_date": "2018-03-27",
         "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna",
         "image_link": "https://img.youtube.com/vi/TkWmK-cplV4/mqdefault.jpg"
@@ -1453,7 +1453,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/lasagna",
         "episode_id": "lasagna",
         "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)",
-        "published_date": "2018-03-27T00:00:00+00:00",
+        "published_date": "2018-03-27",
         "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna",
         "image_link": "https://img.youtube.com/vi/TkWmK-cplV4/mqdefault.jpg"
@@ -1473,7 +1473,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/goodfellasprisonsauce",
         "episode_id": "goodfellasprisonsauce",
         "name": "Prison Sauce inspired by Goodfellas",
-        "published_date": "2016-12-01T00:00:00+00:00",
+        "published_date": "2016-12-01",
         "youtube_link": "https://www.youtube.com/watch?v=uEjMyHccX8U",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/15/goodfellasprisonsauce",
         "image_link": "https://img.youtube.com/vi/uEjMyHccX8U/mqdefault.jpg"
@@ -1493,7 +1493,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/ccourtesan-au-chocolat",
         "episode_id": "ccourtesan-au-chocolat",
         "name": "Courtesan au Chocolat inspired by Grand Budapest Hotel",
-        "published_date": "2017-08-15T00:00:00+00:00",
+        "published_date": "2017-08-15",
         "youtube_link": "https://www.youtube.com/watch?v=GO5P3fLTwA0",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/15/ccourtesan-au-chocolat",
         "image_link": "https://img.youtube.com/vi/GO5P3fLTwA0/mqdefault.jpg"
@@ -1513,7 +1513,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cocktail-special",
         "episode_id": "cocktail-special",
         "name": "Cocktail Special",
-        "published_date": "2017-06-28T00:00:00+00:00",
+        "published_date": "2017-06-28",
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special",
         "image_link": "https://img.youtube.com/vi/v5tJBLfeurU/mqdefault.jpg"
@@ -1533,7 +1533,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/clayroastedthigh",
         "episode_id": "clayroastedthigh",
         "name": "Clay-Roasted Thigh inspired by Hannibal",
-        "published_date": "2017-10-31T00:00:00+00:00",
+        "published_date": "2017-10-31",
         "youtube_link": "https://www.youtube.com/watch?v=lnB7svFAZBs",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/clayroastedthigh",
         "image_link": "https://img.youtube.com/vi/lnB7svFAZBs/mqdefault.jpg"
@@ -1553,7 +1553,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/whitecastlesliders",
         "episode_id": "whitecastlesliders",
         "name": "White Castle sliders inspired by Harold & Kumar",
-        "published_date": "2019-08-14T00:00:00+00:00",
+        "published_date": "2019-08-14",
         "youtube_link": "https://www.youtube.com/watch?v=pTk9HnIwEYU",
         "official_link": "https://www.bingingwithbabish.com/recipes/whitecastlesliders",
         "image_link": "https://img.youtube.com/vi/pTk9HnIwEYU/mqdefault.jpg"
@@ -1573,7 +1573,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/whitecastlesliders",
         "episode_id": "whitecastlesliders",
         "name": "White Castle sliders inspired by Harold & Kumar",
-        "published_date": "2019-08-14T00:00:00+00:00",
+        "published_date": "2019-08-14",
         "youtube_link": "https://www.youtube.com/watch?v=pTk9HnIwEYU",
         "official_link": "https://www.bingingwithbabish.com/recipes/whitecastlesliders",
         "image_link": "https://img.youtube.com/vi/pTk9HnIwEYU/mqdefault.jpg"
@@ -1593,7 +1593,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/harrypotterspecial",
         "episode_id": "harrypotterspecial",
         "name": "Harry Potter Special",
-        "published_date": "2017-11-14T00:00:00+00:00",
+        "published_date": "2017-11-14",
         "youtube_link": "https://www.youtube.com/watch?v=LXDAu8DnALw",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/harrypotterspecial",
         "image_link": "https://img.youtube.com/vi/LXDAu8DnALw/mqdefault.jpg"
@@ -1613,7 +1613,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/imaginary-pie-hook",
         "episode_id": "imaginary-pie-hook",
         "name": "Imaginary Pie inspired by Hook",
-        "published_date": "2020-03-31T00:00:00+00:00",
+        "published_date": "2020-03-31",
         "youtube_link": "https://www.youtube.com/watch?v=lZsun7ppDeQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/imaginary-pie-hook",
         "image_link": "https://img.youtube.com/vi/lZsun7ppDeQ/mqdefault.jpg"
@@ -1633,7 +1633,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/freddys-ribs-inspired-by-house-of-cards",
         "episode_id": "freddys-ribs-inspired-by-house-of-cards",
         "name": "Freddy's Ribs inspired by House of Cards",
-        "published_date": "2017-06-13T00:00:00+00:00",
+        "published_date": "2017-06-13",
         "youtube_link": "https://www.youtube.com/watch?v=2uHhKAjnvNc",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/13/freddys-ribs-inspired-by-house-of-cards",
         "image_link": "https://img.youtube.com/vi/2uHhKAjnvNc/mqdefault.jpg"
@@ -1653,7 +1653,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/turturkeykey",
         "episode_id": "turturkeykey",
         "name": "Turturkeykey inspired by How I Met Your Mother",
-        "published_date": "2019-11-26T00:00:00+00:00",
+        "published_date": "2019-11-26",
         "youtube_link": "https://www.youtube.com/watch?v=FWQKc6idm64",
         "official_link": "https://www.bingingwithbabish.com/recipes/turturkeykey",
         "image_link": "https://img.youtube.com/vi/FWQKc6idm64/mqdefault.jpg"
@@ -1662,7 +1662,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/sumbitches",
         "episode_id": "sumbitches",
         "name": "Sumbitches and Peanut Butter Cookies inspired by How I Met Your Mother",
-        "published_date": "2019-09-04T00:00:00+00:00",
+        "published_date": "2019-09-04",
         "youtube_link": "https://www.youtube.com/watch?v=i9MMCCd-MSI",
         "official_link": "https://www.bingingwithbabish.com/recipes/sumbitches",
         "image_link": "https://img.youtube.com/vi/i9MMCCd-MSI/mqdefault.jpg"
@@ -1671,7 +1671,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cocktail-special",
         "episode_id": "cocktail-special",
         "name": "Cocktail Special",
-        "published_date": "2017-06-28T00:00:00+00:00",
+        "published_date": "2017-06-28",
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special",
         "image_link": "https://img.youtube.com/vi/v5tJBLfeurU/mqdefault.jpg"
@@ -1691,7 +1691,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/turturkeykey",
         "episode_id": "turturkeykey",
         "name": "Turturkeykey inspired by How I Met Your Mother",
-        "published_date": "2019-11-26T00:00:00+00:00",
+        "published_date": "2019-11-26",
         "youtube_link": "https://www.youtube.com/watch?v=FWQKc6idm64",
         "official_link": "https://www.bingingwithbabish.com/recipes/turturkeykey",
         "image_link": "https://img.youtube.com/vi/FWQKc6idm64/mqdefault.jpg"
@@ -1700,7 +1700,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/sumbitches",
         "episode_id": "sumbitches",
         "name": "Sumbitches and Peanut Butter Cookies inspired by How I Met Your Mother",
-        "published_date": "2019-09-04T00:00:00+00:00",
+        "published_date": "2019-09-04",
         "youtube_link": "https://www.youtube.com/watch?v=i9MMCCd-MSI",
         "official_link": "https://www.bingingwithbabish.com/recipes/sumbitches",
         "image_link": "https://img.youtube.com/vi/i9MMCCd-MSI/mqdefault.jpg"
@@ -1720,7 +1720,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/orangemochafrapp-fpm9l",
         "episode_id": "orangemochafrapp-fpm9l",
         "name": "Bacon and Eggs Breakfast inspired by Howl's Moving Castle",
-        "published_date": "2019-06-04T00:00:00+00:00",
+        "published_date": "2019-06-04",
         "youtube_link": "https://www.youtube.com/watch?v=UPccIAVvQA4",
         "official_link": "https://www.bingingwithbabish.com/recipes/orangemochafrapp-fpm9l",
         "image_link": "https://img.youtube.com/vi/UPccIAVvQA4/mqdefault.jpg"
@@ -1740,7 +1740,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/roastbeast",
         "episode_id": "roastbeast",
         "name": "Roast Beast inspired by How The Grinch Stole Christmas",
-        "published_date": "2018-12-18T00:00:00+00:00",
+        "published_date": "2018-12-18",
         "youtube_link": "https://www.youtube.com/watch?v=_szug5_YkD4",
         "official_link": "https://www.bingingwithbabish.com/recipes/roastbeast",
         "image_link": "https://img.youtube.com/vi/_szug5_YkD4/mqdefault.jpg"
@@ -1760,7 +1760,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/spaghettitaco",
         "episode_id": "spaghettitaco",
         "name": "Spaghetti Tacos inspired by iCarly",
-        "published_date": "2019-02-05T00:00:00+00:00",
+        "published_date": "2019-02-05",
         "youtube_link": "https://www.youtube.com/watch?v=teQmpOtjCjY",
         "official_link": "https://www.bingingwithbabish.com/recipes/spaghettitaco",
         "image_link": "https://img.youtube.com/vi/teQmpOtjCjY/mqdefault.jpg"
@@ -1780,7 +1780,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/iloveyoumanfishtacos",
         "episode_id": "iloveyoumanfishtacos",
         "name": "Fish Tacos from I Love You, Man",
-        "published_date": "2017-01-12T00:00:00+00:00",
+        "published_date": "2017-01-12",
         "youtube_link": "https://www.youtube.com/watch?v=Izvd-iztaQk",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/iloveyoumanfishtacos",
         "image_link": "https://img.youtube.com/vi/Izvd-iztaQk/mqdefault.jpg"
@@ -1800,7 +1800,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/ingloriousbasterds",
         "episode_id": "ingloriousbasterds",
         "name": "Strudel inspired by Inglourious Basterds",
-        "published_date": "2017-01-23T00:00:00+00:00",
+        "published_date": "2017-01-23",
         "youtube_link": "https://www.youtube.com/watch?v=7H3z3J50XCs",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/ingloriousbasterds",
         "image_link": "https://img.youtube.com/vi/7H3z3J50XCs/mqdefault.jpg"
@@ -1820,7 +1820,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/alwayssunny",
         "episode_id": "alwayssunny",
         "name": "It's Always Sunny in Philadelphia Special (Part II)",
-        "published_date": "2019-06-12T00:00:00+00:00",
+        "published_date": "2019-06-12",
         "youtube_link": "https://www.youtube.com/watch?v=_fnhy5xO9vQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/alwayssunny",
         "image_link": "https://img.youtube.com/vi/_fnhy5xO9vQ/mqdefault.jpg"
@@ -1829,7 +1829,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/itsalwayssunnyspecial",
         "episode_id": "itsalwayssunnyspecial",
         "name": "It's Always Sunny in Philadelphia Special",
-        "published_date": "2017-02-20T00:00:00+00:00",
+        "published_date": "2017-02-20",
         "youtube_link": "https://www.youtube.com/watch?v=Q2ezpExQ_k0",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/itsalwayssunnyspecial",
         "image_link": "https://img.youtube.com/vi/Q2ezpExQ_k0/mqdefault.jpg"
@@ -1849,7 +1849,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cinnamonrolls",
         "episode_id": "cinnamonrolls",
         "name": "Cinnamon Rolls inspired by Jim Gaffigan's Stand Up (sort of)",
-        "published_date": "2018-10-23T00:00:00+00:00",
+        "published_date": "2018-10-23",
         "youtube_link": "https://www.youtube.com/watch?v=jFYi2QRVFOc",
         "official_link": "https://www.bingingwithbabish.com/recipes/cinnamonrolls",
         "image_link": "https://img.youtube.com/vi/jFYi2QRVFOc/mqdefault.jpg"
@@ -1869,7 +1869,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cinnamonrolls",
         "episode_id": "cinnamonrolls",
         "name": "Cinnamon Rolls inspired by Jim Gaffigan's Stand Up (sort of)",
-        "published_date": "2018-10-23T00:00:00+00:00",
+        "published_date": "2018-10-23",
         "youtube_link": "https://www.youtube.com/watch?v=jFYi2QRVFOc",
         "official_link": "https://www.bingingwithbabish.com/recipes/cinnamonrolls",
         "image_link": "https://img.youtube.com/vi/jFYi2QRVFOc/mqdefault.jpg"
@@ -1889,7 +1889,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/homemade-mozzarella",
         "episode_id": "homemade-mozzarella",
         "name": "Caprese Salad inspired by Jojo's Bizarre Adventure",
-        "published_date": "2020-04-21T00:00:00+00:00",
+        "published_date": "2020-04-21",
         "youtube_link": "https://www.youtube.com/watch?v=Ao7RQj8sxuo",
         "official_link": "https://www.bingingwithbabish.com/recipes/homemade-mozzarella",
         "image_link": "https://img.youtube.com/vi/Ao7RQj8sxuo/mqdefault.jpg"
@@ -1909,7 +1909,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/squidinkpasta",
         "episode_id": "squidinkpasta",
         "name": "Squid Ink Pasta inspired by JoJo's Bizarre Adventure",
-        "published_date": "2019-07-31T00:00:00+00:00",
+        "published_date": "2019-07-31",
         "youtube_link": "https://www.youtube.com/watch?v=rPdln-PUZuE",
         "official_link": "https://www.bingingwithbabish.com/recipes/squidinkpasta",
         "image_link": "https://img.youtube.com/vi/rPdln-PUZuE/mqdefault.jpg"
@@ -1929,7 +1929,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/boeufbourguignon",
         "episode_id": "boeufbourguignon",
         "name": "Boeuf Bourguignon from Julie & Julia",
-        "published_date": "2017-04-27T00:00:00+00:00",
+        "published_date": "2017-04-27",
         "youtube_link": "https://www.youtube.com/watch?v=8DCw_eR_iPA",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/29/boeufbourguignon",
         "image_link": "https://img.youtube.com/vi/8DCw_eR_iPA/mqdefault.jpg"
@@ -1949,7 +1949,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/boeufbourguignon",
         "episode_id": "boeufbourguignon",
         "name": "Boeuf Bourguignon from Julie & Julia",
-        "published_date": "2017-04-27T00:00:00+00:00",
+        "published_date": "2017-04-27",
         "youtube_link": "https://www.youtube.com/watch?v=8DCw_eR_iPA",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/29/boeufbourguignon",
         "image_link": "https://img.youtube.com/vi/8DCw_eR_iPA/mqdefault.jpg"
@@ -1969,7 +1969,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/chileanseabass",
         "episode_id": "chileanseabass",
         "name": "Chilean Sea Bass inspired by Jurassic Park",
-        "published_date": "2018-11-27T00:00:00+00:00",
+        "published_date": "2018-11-27",
         "youtube_link": "https://www.youtube.com/watch?v=p73kqpqGqqQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/chileanseabass",
         "image_link": "https://img.youtube.com/vi/p73kqpqGqqQ/mqdefault.jpg"
@@ -1989,7 +1989,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cold-cure",
         "episode_id": "cold-cure",
         "name": "Cold Cure inspired by Kenan & Kel",
-        "published_date": "2020-03-24T00:00:00+00:00",
+        "published_date": "2020-03-24",
         "youtube_link": "https://www.youtube.com/watch?v=M-7t9FBecoU",
         "official_link": "https://www.bingingwithbabish.com/recipes/cold-cure",
         "image_link": "https://img.youtube.com/vi/M-7t9FBecoU/mqdefault.jpg"
@@ -2009,7 +2009,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/takoyaki",
         "episode_id": "takoyaki",
         "name": "Takoyaki inspired by Kill la Kill",
-        "published_date": "2018-10-30T00:00:00+00:00",
+        "published_date": "2018-10-30",
         "youtube_link": "https://www.youtube.com/watch?v=eD5C8ryTd1A",
         "official_link": "https://www.bingingwithbabish.com/recipes/takoyaki",
         "image_link": "https://img.youtube.com/vi/eD5C8ryTd1A/mqdefault.jpg"
@@ -2029,7 +2029,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/the-naco",
         "episode_id": "the-naco",
         "name": "The Naco inspired by Kim Possible",
-        "published_date": "2018-10-02T00:00:00+00:00",
+        "published_date": "2018-10-02",
         "youtube_link": "https://www.youtube.com/watch?v=hf5cl-AGYbg",
         "official_link": "https://www.bingingwithbabish.com/recipes/the-naco",
         "image_link": "https://img.youtube.com/vi/hf5cl-AGYbg/mqdefault.jpg"
@@ -2049,7 +2049,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/seasalticecream",
         "episode_id": "seasalticecream",
         "name": "Sea Salt Ice Cream inspired by Kingdom Hearts",
-        "published_date": "2019-08-06T00:00:00+00:00",
+        "published_date": "2019-08-06",
         "youtube_link": "https://www.youtube.com/watch?v=5fTd1aYzNHI",
         "official_link": "https://www.bingingwithbabish.com/recipes/seasalticecream",
         "image_link": "https://img.youtube.com/vi/5fTd1aYzNHI/mqdefault.jpg"
@@ -2069,7 +2069,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/kingofthehillspecial",
         "episode_id": "kingofthehillspecial",
         "name": "King of the Hill Special",
-        "published_date": "2018-10-16T00:00:00+00:00",
+        "published_date": "2018-10-16",
         "youtube_link": "https://www.youtube.com/watch?v=iq6_iUhLHo4",
         "official_link": "https://www.bingingwithbabish.com/recipes/kingofthehillspecial",
         "image_link": "https://img.youtube.com/vi/iq6_iUhLHo4/mqdefault.jpg"
@@ -2089,7 +2089,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/pullednoodles",
         "episode_id": "pullednoodles",
         "name": "Special Ingredient Soup inspired by Kung Fu Panda",
-        "published_date": "2019-10-01T00:00:00+00:00",
+        "published_date": "2019-10-01",
         "youtube_link": "https://www.youtube.com/watch?v=cee6883w2Nk",
         "official_link": "https://www.bingingwithbabish.com/recipes/pullednoodles",
         "image_link": "https://img.youtube.com/vi/cee6883w2Nk/mqdefault.jpg"
@@ -2109,7 +2109,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/pastaputtanesca",
         "episode_id": "pastaputtanesca",
         "name": "Pasta Puttanesca inspired by Lemony Snicket's A Series of Unfortunate Events",
-        "published_date": "2018-06-12T00:00:00+00:00",
+        "published_date": "2018-06-12",
         "youtube_link": "https://www.youtube.com/watch?v=uwV9cq9DRTY",
         "official_link": "https://www.bingingwithbabish.com/recipes/pastaputtanesca",
         "image_link": "https://img.youtube.com/vi/uwV9cq9DRTY/mqdefault.jpg"
@@ -2129,7 +2129,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/lotr-feast-special",
         "episode_id": "lotr-feast-special",
         "name": "LOTR 7 Million Subscriber Special inspired by Lord of the Rings",
-        "published_date": "2020-07-13T00:00:00+00:00",
+        "published_date": "2020-07-13",
         "youtube_link": "https://www.youtube.com/watch?v=-aFrFsn998o",
         "official_link": "https://www.bingingwithbabish.com/recipes/lotr-feast-special",
         "image_link": "https://img.youtube.com/vi/-aFrFsn998o/mqdefault.jpg"
@@ -2149,7 +2149,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/egginanest",
         "episode_id": "egginanest",
         "name": "Eggs in a Nest inspired by Lots of Stuff",
-        "published_date": "2018-01-30T00:00:00+00:00",
+        "published_date": "2018-01-30",
         "youtube_link": "https://www.youtube.com/watch?v=4QDDxmtbUsw",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/egginanest",
         "image_link": "https://img.youtube.com/vi/4QDDxmtbUsw/mqdefault.jpg"
@@ -2169,7 +2169,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/parmhero",
         "episode_id": "parmhero",
         "name": "Parm Heros inspired by Lots of Things",
-        "published_date": "2018-03-20T00:00:00+00:00",
+        "published_date": "2018-03-20",
         "youtube_link": "https://www.youtube.com/watch?v=DkiyT-dnmv8",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/parmhero",
         "image_link": "https://img.youtube.com/vi/DkiyT-dnmv8/mqdefault.jpg"
@@ -2189,7 +2189,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/louiefriedchicken",
         "episode_id": "louiefriedchicken",
         "name": "Fried Chicken inspired by Louie",
-        "published_date": "2016-03-16T00:00:00+00:00",
+        "published_date": "2016-03-16",
         "youtube_link": "https://www.youtube.com/watch?v=7UEIBdMyj9g",
         "official_link": "https://www.bingingwithbabish.com/recipes/2016/3/16/louiefriedchicken",
         "image_link": "https://img.youtube.com/vi/7UEIBdMyj9g/mqdefault.jpg"
@@ -2209,7 +2209,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/banoffeepie",
         "episode_id": "banoffeepie",
         "name": "Banoffee Pie inspired by Love, Actually",
-        "published_date": "2019-12-27T00:00:00+00:00",
+        "published_date": "2019-12-27",
         "youtube_link": "https://www.youtube.com/watch?v=TNTKRj2lS1g",
         "official_link": "https://www.bingingwithbabish.com/recipes/banoffeepie",
         "image_link": "https://img.youtube.com/vi/TNTKRj2lS1g/mqdefault.jpg"
@@ -2229,7 +2229,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/egginanest",
         "episode_id": "egginanest",
         "name": "Eggs in a Nest inspired by Lots of Stuff",
-        "published_date": "2018-01-30T00:00:00+00:00",
+        "published_date": "2018-01-30",
         "youtube_link": "https://www.youtube.com/watch?v=4QDDxmtbUsw",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/egginanest",
         "image_link": "https://img.youtube.com/vi/4QDDxmtbUsw/mqdefault.jpg"
@@ -2249,7 +2249,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/rumfrenchtoast",
         "episode_id": "rumfrenchtoast",
         "name": "Rum French Toast inspired by Mad Men",
-        "published_date": "2018-01-23T00:00:00+00:00",
+        "published_date": "2018-01-23",
         "youtube_link": "https://www.youtube.com/watch?v=evzWEXpW1pM",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/rumfrenchtoast",
         "image_link": "https://img.youtube.com/vi/evzWEXpW1pM/mqdefault.jpg"
@@ -2258,7 +2258,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/madmen",
         "episode_id": "madmen",
         "name": "Room Service inspired by Mad Men",
-        "published_date": "2017-09-26T00:00:00+00:00",
+        "published_date": "2017-09-26",
         "youtube_link": "https://www.youtube.com/watch?v=BagY2Mnz-TU",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/madmen",
         "image_link": "https://img.youtube.com/vi/BagY2Mnz-TU/mqdefault.jpg"
@@ -2278,7 +2278,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/fitz-sandwich",
         "episode_id": "fitz-sandwich",
         "name": "The Fitz Sandwich inspired by Agents of S.H.I.E.L.D.",
-        "published_date": "2017-08-22T00:00:00+00:00",
+        "published_date": "2017-08-22",
         "youtube_link": "https://www.youtube.com/watch?v=xugufifsB4s",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/fitz-sandwich",
         "image_link": "https://img.youtube.com/vi/xugufifsB4s/mqdefault.jpg"
@@ -2298,7 +2298,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/chickenpaprikash",
         "episode_id": "chickenpaprikash",
         "name": "Chicken Paprikash inspired by Captain America: Civil War",
-        "published_date": "2018-04-24T00:00:00+00:00",
+        "published_date": "2018-04-24",
         "youtube_link": "https://www.youtube.com/watch?v=baG767jr8c8",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/chickenpaprikash",
         "image_link": "https://img.youtube.com/vi/baG767jr8c8/mqdefault.jpg"
@@ -2318,7 +2318,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/spidermanbackpackrecipes",
         "episode_id": "spidermanbackpackrecipes",
         "name": "Backpack Recipes inspired by Marvel's Spider-Man",
-        "published_date": "2018-10-09T00:00:00+00:00",
+        "published_date": "2018-10-09",
         "youtube_link": "https://www.youtube.com/watch?v=NlIiIv-XKhs",
         "official_link": "https://www.bingingwithbabish.com/recipes/spidermanbackpackrecipes",
         "image_link": "https://img.youtube.com/vi/NlIiIv-XKhs/mqdefault.jpg"
@@ -2338,7 +2338,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/shawarma",
         "episode_id": "shawarma",
         "name": "Shawarma inspired by The Avengers",
-        "published_date": "2018-04-10T00:00:00+00:00",
+        "published_date": "2018-04-10",
         "youtube_link": "https://www.youtube.com/watch?v=iErqWGwso7o",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/shawarma",
         "image_link": "https://img.youtube.com/vi/iErqWGwso7o/mqdefault.jpg"
@@ -2358,7 +2358,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/egginanest",
         "episode_id": "egginanest",
         "name": "Eggs in a Nest inspired by Lots of Stuff",
-        "published_date": "2018-01-30T00:00:00+00:00",
+        "published_date": "2018-01-30",
         "youtube_link": "https://www.youtube.com/watch?v=4QDDxmtbUsw",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/egginanest",
         "image_link": "https://img.youtube.com/vi/4QDDxmtbUsw/mqdefault.jpg"
@@ -2378,7 +2378,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/spaghetti-carbonara-inspired-by-master-of-none",
         "episode_id": "spaghetti-carbonara-inspired-by-master-of-none",
         "name": "Spaghetti Carbonara inspired by Master of None",
-        "published_date": "2017-05-16T00:00:00+00:00",
+        "published_date": "2017-05-16",
         "youtube_link": "https://www.youtube.com/watch?v=MbRm5s3i2ik",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/16/spaghetti-carbonara-inspired-by-master-of-none",
         "image_link": "https://img.youtube.com/vi/MbRm5s3i2ik/mqdefault.jpg"
@@ -2398,7 +2398,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/chocolate-cake-inspired-by-matilda",
         "episode_id": "chocolate-cake-inspired-by-matilda",
         "name": "Chocolate Cake inspired by Matilda",
-        "published_date": "2017-06-06T00:00:00+00:00",
+        "published_date": "2017-06-06",
         "youtube_link": "https://www.youtube.com/watch?v=exQ6oGefSiA",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/6/chocolate-cake-inspired-by-matilda",
         "image_link": "https://img.youtube.com/vi/exQ6oGefSiA/mqdefault.jpg"
@@ -2418,7 +2418,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/pollo-a-la-plancha",
         "episode_id": "pollo-a-la-plancha",
         "name": "Pollo a la Plancha inspired by Moonlight",
-        "published_date": "2017-03-06T00:00:00+00:00",
+        "published_date": "2017-03-06",
         "youtube_link": "https://www.youtube.com/watch?v=ZsBWgeQHjnM",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/4/pollo-a-la-plancha",
         "image_link": "https://img.youtube.com/vi/ZsBWgeQHjnM/mqdefault.jpg"
@@ -2438,7 +2438,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/egginanest",
         "episode_id": "egginanest",
         "name": "Eggs in a Nest inspired by Lots of Stuff",
-        "published_date": "2018-01-30T00:00:00+00:00",
+        "published_date": "2018-01-30",
         "youtube_link": "https://www.youtube.com/watch?v=4QDDxmtbUsw",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/egginanest",
         "image_link": "https://img.youtube.com/vi/4QDDxmtbUsw/mqdefault.jpg"
@@ -2458,7 +2458,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/egginanest",
         "episode_id": "egginanest",
         "name": "Eggs in a Nest inspired by Lots of Stuff",
-        "published_date": "2018-01-30T00:00:00+00:00",
+        "published_date": "2018-01-30",
         "youtube_link": "https://www.youtube.com/watch?v=4QDDxmtbUsw",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/egginanest",
         "image_link": "https://img.youtube.com/vi/4QDDxmtbUsw/mqdefault.jpg"
@@ -2478,7 +2478,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/mulancongee",
         "episode_id": "mulancongee",
         "name": "Congee inspired by Mulan",
-        "published_date": "2018-06-26T00:00:00+00:00",
+        "published_date": "2018-06-26",
         "youtube_link": "https://www.youtube.com/watch?v=VGsIsfIyz4E",
         "official_link": "https://www.bingingwithbabish.com/recipes/mulancongee",
         "image_link": "https://img.youtube.com/vi/VGsIsfIyz4E/mqdefault.jpg"
@@ -2498,7 +2498,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/instant-mac-cheese",
         "episode_id": "instant-mac-cheese",
         "name": "Instant Mac and Cheese inspired by Once Upon a Time in Hollywood",
-        "published_date": "2020-02-04T00:00:00+00:00",
+        "published_date": "2020-02-04",
         "youtube_link": "https://www.youtube.com/watch?v=EuU_uUb_3nQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/instant-mac-cheese",
         "image_link": "https://img.youtube.com/vi/EuU_uUb_3nQ/mqdefault.jpg"
@@ -2518,7 +2518,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/puerco-pibil",
         "episode_id": "puerco-pibil",
         "name": "Puerco Pibil inspired by Once Upon a Time in Mexico",
-        "published_date": "2017-08-08T00:00:00+00:00",
+        "published_date": "2017-08-08",
         "youtube_link": "https://www.youtube.com/watch?v=5_sdhAFGmbw",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/08/puerco-pibil",
         "image_link": "https://img.youtube.com/vi/5_sdhAFGmbw/mqdefault.jpg"
@@ -2538,7 +2538,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/marmalade",
         "episode_id": "marmalade",
         "name": "Marmalade Sandwiches inspired by Paddington",
-        "published_date": "2020-01-23T00:00:00+00:00",
+        "published_date": "2020-01-23",
         "youtube_link": "https://www.youtube.com/watch?v=g1j-5UkZyL0",
         "official_link": "https://www.bingingwithbabish.com/recipes/marmalade",
         "image_link": "https://img.youtube.com/vi/g1j-5UkZyL0/mqdefault.jpg"
@@ -2558,7 +2558,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/ram-don-parasite",
         "episode_id": "ram-don-parasite",
         "name": "Ram-don inspired by Parasite",
-        "published_date": "2020-02-20T00:00:00+00:00",
+        "published_date": "2020-02-20",
         "youtube_link": "https://www.youtube.com/watch?v=ge4vghXQTtQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/ram-don-parasite",
         "image_link": "https://img.youtube.com/vi/ge4vghXQTtQ/mqdefault.jpg"
@@ -2578,7 +2578,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/turf-n-turf",
         "episode_id": "turf-n-turf",
         "name": "Turf n' Turf inspired by Parks and Rec",
-        "published_date": "2020-03-11T00:00:00+00:00",
+        "published_date": "2020-03-11",
         "youtube_link": "https://www.youtube.com/watch?v=peLPVIGFaz0",
         "official_link": "https://www.bingingwithbabish.com/recipes/turf-n-turf",
         "image_link": "https://img.youtube.com/vi/peLPVIGFaz0/mqdefault.jpg"
@@ -2598,7 +2598,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/theswanson",
         "episode_id": "theswanson",
         "name": "The Swanson inspired by Parks and Recreation",
-        "published_date": "2019-03-26T00:00:00+00:00",
+        "published_date": "2019-03-26",
         "youtube_link": "https://www.youtube.com/watch?v=aLpPZlVsny0",
         "official_link": "https://www.bingingwithbabish.com/recipes/theswanson",
         "image_link": "https://img.youtube.com/vi/aLpPZlVsny0/mqdefault.jpg"
@@ -2607,7 +2607,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/parksandrecburger",
         "episode_id": "parksandrecburger",
         "name": "Parks & Rec Burger Cookoff",
-        "published_date": "2016-02-10T00:00:00+00:00",
+        "published_date": "2016-02-10",
         "youtube_link": "https://www.youtube.com/watch?v=MP_nWuLYpJw",
         "official_link": "https://www.bingingwithbabish.com/recipes/parksandrecburger",
         "image_link": "https://img.youtube.com/vi/MP_nWuLYpJw/mqdefault.jpg"
@@ -2627,7 +2627,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/meat-tornado-parks-and-rec",
         "episode_id": "meat-tornado-parks-and-rec",
         "name": "Meat Tornado inspired by Parks & Rec ",
-        "published_date": "2020-08-25T00:00:00+00:00",
+        "published_date": "2020-08-25",
         "youtube_link": "https://www.youtube.com/watch?v=LsNg-KrFxCA",
         "official_link": "https://www.bingingwithbabish.com/recipes/meat-tornado-parks-and-rec",
         "image_link": "https://img.youtube.com/vi/LsNg-KrFxCA/mqdefault.jpg"
@@ -2636,7 +2636,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/four-horsemeal-eggporkalypse-parks-and-rec",
         "episode_id": "four-horsemeal-eggporkalypse-parks-and-rec",
         "name": "Four Horsemeals of the Eggporkalypse inspired by Parks & Rec ",
-        "published_date": "2020-08-18T00:00:00+00:00",
+        "published_date": "2020-08-18",
         "youtube_link": "https://www.youtube.com/watch?v=NWGVFi-213w",
         "official_link": "https://www.bingingwithbabish.com/recipes/four-horsemeal-eggporkalypse-parks-and-rec",
         "image_link": "https://img.youtube.com/vi/NWGVFi-213w/mqdefault.jpg"
@@ -2645,7 +2645,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/paunch-burger-parks-and-rec",
         "episode_id": "paunch-burger-parks-and-rec",
         "name": "Paunch Burger inspired by Parks & Rec",
-        "published_date": "2020-08-12T00:00:00+00:00",
+        "published_date": "2020-08-12",
         "youtube_link": "https://www.youtube.com/watch?v=RN8uoBwRr1k",
         "official_link": "https://www.bingingwithbabish.com/recipes/paunch-burger-parks-and-rec",
         "image_link": "https://img.youtube.com/vi/RN8uoBwRr1k/mqdefault.jpg"
@@ -2654,7 +2654,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/ben-wyatt-calzones",
         "episode_id": "ben-wyatt-calzones",
         "name": "Calzones inspired by Parks & Rec",
-        "published_date": "2020-04-15T00:00:00+00:00",
+        "published_date": "2020-04-15",
         "youtube_link": "https://www.youtube.com/watch?v=PvgCEifW7Jo",
         "official_link": "https://www.bingingwithbabish.com/recipes/ben-wyatt-calzones",
         "image_link": "https://img.youtube.com/vi/PvgCEifW7Jo/mqdefault.jpg"
@@ -2674,7 +2674,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/moroccanpasta",
         "episode_id": "moroccanpasta",
         "name": "Moroccan Pasta inspired by Peep Show",
-        "published_date": "2018-01-09T00:00:00+00:00",
+        "published_date": "2018-01-09",
         "youtube_link": "https://www.youtube.com/watch?v=kBo7FK3NO6s",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/moroccanpasta",
         "image_link": "https://img.youtube.com/vi/kBo7FK3NO6s/mqdefault.jpg"
@@ -2694,7 +2694,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/phantomthread-l42pw",
         "episode_id": "phantomthread-l42pw",
         "name": "Full Breakfast inspired by Phantom Thread",
-        "published_date": "2018-09-04T00:00:00+00:00",
+        "published_date": "2018-09-04",
         "youtube_link": "https://www.youtube.com/watch?v=yiElOt9cI8k",
         "official_link": "https://www.bingingwithbabish.com/recipes/phantomthread-l42pw",
         "image_link": "https://img.youtube.com/vi/yiElOt9cI8k/mqdefault.jpg"
@@ -2714,7 +2714,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/baobuns",
         "episode_id": "baobuns",
         "name": "Bao inspired by Pixar's Bao",
-        "published_date": "2019-02-19T00:00:00+00:00",
+        "published_date": "2019-02-19",
         "youtube_link": "https://www.youtube.com/watch?v=OFt3SThGi7M",
         "official_link": "https://www.bingingwithbabish.com/recipes/baobuns",
         "image_link": "https://img.youtube.com/vi/OFt3SThGi7M/mqdefault.jpg"
@@ -2734,7 +2734,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/ratatouille",
         "episode_id": "ratatouille",
         "name": "Confit Byaldi inspired by Ratatouille",
-        "published_date": "2017-03-02T00:00:00+00:00",
+        "published_date": "2017-03-02",
         "youtube_link": "https://www.youtube.com/watch?v=roCX0AfBseQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/5/ratatouille",
         "image_link": "https://img.youtube.com/vi/roCX0AfBseQ/mqdefault.jpg"
@@ -2754,7 +2754,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/brocksdonuts",
         "episode_id": "brocksdonuts",
         "name": "Brock's Donuts inspired by Pok\u00e9mon",
-        "published_date": "2019-04-02T00:00:00+00:00",
+        "published_date": "2019-04-02",
         "youtube_link": "https://www.youtube.com/watch?v=RentKWlhUXc",
         "official_link": "https://www.bingingwithbabish.com/recipes/brocksdonuts",
         "image_link": "https://img.youtube.com/vi/RentKWlhUXc/mqdefault.jpg"
@@ -2763,7 +2763,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/brocksonigiri",
         "episode_id": "brocksonigiri",
         "name": "Brock's Onigiri inspired by Pok\u00e9mon",
-        "published_date": "2019-04-02T00:00:00+00:00",
+        "published_date": "2019-04-02",
         "youtube_link": "https://www.youtube.com/watch?v=gW4PCfLzTYA",
         "official_link": "https://www.bingingwithbabish.com/recipes/brocksonigiri",
         "image_link": "https://img.youtube.com/vi/gW4PCfLzTYA/mqdefault.jpg"
@@ -2783,7 +2783,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/portalcake",
         "episode_id": "portalcake",
         "name": "The Cake inspired by Portal",
-        "published_date": "2019-03-19T00:00:00+00:00",
+        "published_date": "2019-03-19",
         "youtube_link": "https://www.youtube.com/watch?v=Y9l8iu5J6rs",
         "official_link": "https://www.bingingwithbabish.com/recipes/portalcake",
         "image_link": "https://img.youtube.com/vi/Y9l8iu5J6rs/mqdefault.jpg"
@@ -2803,7 +2803,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/quatroquesodosfritos",
         "episode_id": "quatroquesodosfritos",
         "name": "Quatro Quesos Dos Fritos inspired by Psych",
-        "published_date": "2017-12-05T00:00:00+00:00",
+        "published_date": "2017-12-05",
         "youtube_link": "https://www.youtube.com/watch?v=O-H_Ybmtu_U",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/quatroquesodosfritos",
         "image_link": "https://img.youtube.com/vi/O-H_Ybmtu_U/mqdefault.jpg"
@@ -2823,7 +2823,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/mostexpensiveshake",
         "episode_id": "mostexpensiveshake",
         "name": "$5 Milkshake inspired by Pulp Fiction",
-        "published_date": "2019-10-16T00:00:00+00:00",
+        "published_date": "2019-10-16",
         "youtube_link": "https://www.youtube.com/watch?v=SfNgpLkV6KE",
         "official_link": "https://www.bingingwithbabish.com/recipes/mostexpensiveshake",
         "image_link": "https://img.youtube.com/vi/SfNgpLkV6KE/mqdefault.jpg"
@@ -2832,7 +2832,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/bigkahunaburger",
         "episode_id": "bigkahunaburger",
         "name": "Big Kahuna Burger inspired by Pulp Fiction",
-        "published_date": "2017-01-03T00:00:00+00:00",
+        "published_date": "2017-01-03",
         "youtube_link": "https://www.youtube.com/watch?v=OmwE0aJqkdA",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/4/bigkahunaburger",
         "image_link": "https://img.youtube.com/vi/OmwE0aJqkdA/mqdefault.jpg"
@@ -2852,7 +2852,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/ratatouille",
         "episode_id": "ratatouille",
         "name": "Confit Byaldi inspired by Ratatouille",
-        "published_date": "2017-03-02T00:00:00+00:00",
+        "published_date": "2017-03-02",
         "youtube_link": "https://www.youtube.com/watch?v=roCX0AfBseQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/5/ratatouille",
         "image_link": "https://img.youtube.com/vi/roCX0AfBseQ/mqdefault.jpg"
@@ -2872,7 +2872,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/szechuansaucerevisited",
         "episode_id": "szechuansaucerevisited",
         "name": "Szechuan Sauce Revisited (From Real Sample!)",
-        "published_date": "2017-09-12T00:00:00+00:00",
+        "published_date": "2017-09-12",
         "youtube_link": "https://www.youtube.com/watch?v=lhc_bXGvmp0",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/29/szechuansaucerevisited",
         "image_link": "https://img.youtube.com/vi/lhc_bXGvmp0/mqdefault.jpg"
@@ -2892,7 +2892,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/bearstew",
         "episode_id": "bearstew",
         "name": "Bear Stew inspired by Red Dead Redemption 2",
-        "published_date": "2018-11-06T00:00:00+00:00",
+        "published_date": "2018-11-06",
         "youtube_link": "https://www.youtube.com/watch?v=wMxKbkWrvDc",
         "official_link": "https://www.bingingwithbabish.com/recipes/bearstew",
         "image_link": "https://img.youtube.com/vi/wMxKbkWrvDc/mqdefault.jpg"
@@ -2912,7 +2912,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/regular-show-mississippi-queen",
         "episode_id": "regular-show-mississippi-queen",
         "name": "Mississippi Queen inspired by Regular Show",
-        "published_date": "2020-10-20T00:00:00+00:00",
+        "published_date": "2020-10-20",
         "youtube_link": "https://www.youtube.com/watch?v=KV-SUOpW408",
         "official_link": "https://www.bingingwithbabish.com/recipes/regular-show-mississippi-queen",
         "image_link": "https://img.youtube.com/vi/KV-SUOpW408/mqdefault.jpg"
@@ -2921,7 +2921,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/applefritters",
         "episode_id": "applefritters",
         "name": "Double-Glazed Apple Fritters inspired by Regular Show",
-        "published_date": "2019-08-27T00:00:00+00:00",
+        "published_date": "2019-08-27",
         "youtube_link": "https://www.youtube.com/watch?v=YYSP1D6GJ30",
         "official_link": "https://www.bingingwithbabish.com/recipes/applefritters",
         "image_link": "https://img.youtube.com/vi/YYSP1D6GJ30/mqdefault.jpg"
@@ -2930,7 +2930,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/infernowings",
         "episode_id": "infernowings",
         "name": "Inferno Wings inspired by Regular Show",
-        "published_date": "2019-07-16T00:00:00+00:00",
+        "published_date": "2019-07-16",
         "youtube_link": "https://www.youtube.com/watch?v=dRLCZqEfJFA",
         "official_link": "https://www.bingingwithbabish.com/recipes/infernowings",
         "image_link": "https://img.youtube.com/vi/dRLCZqEfJFA/mqdefault.jpg"
@@ -2939,7 +2939,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/grilledcheesedeluxe",
         "episode_id": "grilledcheesedeluxe",
         "name": "Grilled Cheese Deluxe inspired by Regular Show",
-        "published_date": "2019-04-16T00:00:00+00:00",
+        "published_date": "2019-04-16",
         "youtube_link": "https://www.youtube.com/watch?v=NFAN6L7xnvY",
         "official_link": "https://www.bingingwithbabish.com/recipes/grilledcheesedeluxe",
         "image_link": "https://img.youtube.com/vi/NFAN6L7xnvY/mqdefault.jpg"
@@ -2948,7 +2948,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/deathsandwich",
         "episode_id": "deathsandwich",
         "name": "Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show",
-        "published_date": "2019-04-09T00:00:00+00:00",
+        "published_date": "2019-04-09",
         "youtube_link": "https://www.youtube.com/watch?v=o5XNzsf78KE",
         "official_link": "https://www.bingingwithbabish.com/recipes/deathsandwich",
         "image_link": "https://img.youtube.com/vi/o5XNzsf78KE/mqdefault.jpg"
@@ -2957,7 +2957,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/eggscellentchallenge",
         "episode_id": "eggscellentchallenge",
         "name": "3 Million Subscriber Special: The Eggscellent Challenge inspired by Regular Show",
-        "published_date": "2018-08-21T00:00:00+00:00",
+        "published_date": "2018-08-21",
         "youtube_link": "https://www.youtube.com/watch?v=ImoP-Apzrsg",
         "official_link": "https://www.bingingwithbabish.com/recipes/eggscellentchallenge",
         "image_link": "https://img.youtube.com/vi/ImoP-Apzrsg/mqdefault.jpg"
@@ -2966,7 +2966,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/everymeatburrito",
         "episode_id": "everymeatburrito",
         "name": "The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special",
-        "published_date": "2018-01-16T00:00:00+00:00",
+        "published_date": "2018-01-16",
         "youtube_link": "https://www.youtube.com/watch?v=Mf4wwXM2o_M",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/everymeatburrito",
         "image_link": "https://img.youtube.com/vi/Mf4wwXM2o_M/mqdefault.jpg"
@@ -2975,7 +2975,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/ultimeatum",
         "episode_id": "ultimeatum",
         "name": "The Ultimeatum inspired by Regular Show",
-        "published_date": "2017-08-29T00:00:00+00:00",
+        "published_date": "2017-08-29",
         "youtube_link": "https://www.youtube.com/watch?v=S7eUmZ4Sp3U",
         "official_link": "https://www.bingingwithbabish.com/recipes/ultimeatum",
         "image_link": "https://img.youtube.com/vi/S7eUmZ4Sp3U/mqdefault.jpg"
@@ -2995,7 +2995,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/everymeatburrito",
         "episode_id": "everymeatburrito",
         "name": "The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special",
-        "published_date": "2018-01-16T00:00:00+00:00",
+        "published_date": "2018-01-16",
         "youtube_link": "https://www.youtube.com/watch?v=Mf4wwXM2o_M",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/everymeatburrito",
         "image_link": "https://img.youtube.com/vi/Mf4wwXM2o_M/mqdefault.jpg"
@@ -3015,7 +3015,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/szechuansaucerevisited",
         "episode_id": "szechuansaucerevisited",
         "name": "Szechuan Sauce Revisited (From Real Sample!)",
-        "published_date": "2017-09-12T00:00:00+00:00",
+        "published_date": "2017-09-12",
         "youtube_link": "https://www.youtube.com/watch?v=lhc_bXGvmp0",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/29/szechuansaucerevisited",
         "image_link": "https://img.youtube.com/vi/lhc_bXGvmp0/mqdefault.jpg"
@@ -3024,7 +3024,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/szechuansauce",
         "episode_id": "szechuansauce",
         "name": "Rick & Morty Szechuan Sauce",
-        "published_date": "2017-04-04T00:00:00+00:00",
+        "published_date": "2017-04-04",
         "youtube_link": "https://www.youtube.com/watch?v=wBhhlE92mIQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/szechuansauce",
         "image_link": "https://img.youtube.com/vi/wBhhlE92mIQ/mqdefault.jpg"
@@ -3044,7 +3044,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/lilbits-rickandmorty",
         "episode_id": "lilbits-rickandmorty",
         "name": "Lil' Bits inspired by Rick & Morty",
-        "published_date": "2020-05-12T00:00:00+00:00",
+        "published_date": "2020-05-12",
         "youtube_link": "https://www.youtube.com/watch?v=BxEDztBWdbc",
         "official_link": "https://www.bingingwithbabish.com/recipes/lilbits-rickandmorty",
         "image_link": "https://img.youtube.com/vi/BxEDztBWdbc/mqdefault.jpg"
@@ -3064,7 +3064,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/chocolate-pudding-rugrats",
         "episode_id": "chocolate-pudding-rugrats",
         "name": "Chocolate Pudding (4 Ways) inspired by Rugrats",
-        "published_date": "2020-03-03T00:00:00+00:00",
+        "published_date": "2020-03-03",
         "youtube_link": "https://www.youtube.com/watch?v=1lPU4CwSnTc",
         "official_link": "https://www.bingingwithbabish.com/recipes/chocolate-pudding-rugrats",
         "image_link": "https://img.youtube.com/vi/1lPU4CwSnTc/mqdefault.jpg"
@@ -3084,7 +3084,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/snl-overnight-salad",
         "episode_id": "snl-overnight-salad",
         "name": "Overnight Salad inspired by Saturday Night Live",
-        "published_date": "2020-12-29T00:00:00+00:00",
+        "published_date": "2020-12-29",
         "youtube_link": "https://www.youtube.com/watch?v=Z5zEocd3u9w",
         "official_link": "https://www.bingingwithbabish.com/recipes/snl-overnight-salad",
         "image_link": "https://img.youtube.com/vi/Z5zEocd3u9w/mqdefault.jpg"
@@ -3093,7 +3093,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/taco-town",
         "episode_id": "taco-town",
         "name": "Taco Town 15-Flavor Taco inspired by SNL",
-        "published_date": "2017-07-18T00:00:00+00:00",
+        "published_date": "2017-07-18",
         "youtube_link": "https://www.youtube.com/watch?v=UvIkojfQDxA",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/18/taco-town",
         "image_link": "https://img.youtube.com/vi/UvIkojfQDxA/mqdefault.jpg"
@@ -3113,7 +3113,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/enchiladas-schitts-creek",
         "episode_id": "enchiladas-schitts-creek",
         "name": "Enchiladas inspired by Schitt's Creek",
-        "published_date": "2020-09-09T00:00:00+00:00",
+        "published_date": "2020-09-09",
         "youtube_link": "https://www.youtube.com/watch?v=SkKjQhCTP54",
         "official_link": "https://www.bingingwithbabish.com/recipes/enchiladas-schitts-creek",
         "image_link": "https://img.youtube.com/vi/SkKjQhCTP54/mqdefault.jpg"
@@ -3133,7 +3133,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/garlic-bread-scott-pilgrim",
         "episode_id": "garlic-bread-scott-pilgrim",
         "name": "Garlic Bread inspired by Scott Pilgrim vs the World",
-        "published_date": "2020-10-06T00:00:00+00:00",
+        "published_date": "2020-10-06",
         "youtube_link": "https://www.youtube.com/watch?v=jBnWZijMbMY",
         "official_link": "https://www.bingingwithbabish.com/recipes/garlic-bread-scott-pilgrim",
         "image_link": "https://img.youtube.com/vi/jBnWZijMbMY/mqdefault.jpg"
@@ -3153,7 +3153,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/seinfeldcalzone-z38zn",
         "episode_id": "seinfeldcalzone-z38zn",
         "name": "Calzones inspired by Seinfeld",
-        "published_date": "2019-11-22T00:00:00+00:00",
+        "published_date": "2019-11-22",
         "youtube_link": "https://www.youtube.com/watch?v=zWuWrdaYMlY",
         "official_link": "https://www.bingingwithbabish.com/recipes/seinfeldcalzone-z38zn",
         "image_link": "https://img.youtube.com/vi/zWuWrdaYMlY/mqdefault.jpg"
@@ -3162,7 +3162,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/seinfeldspecial2",
         "episode_id": "seinfeldspecial2",
         "name": "Seinfeld Volume II",
-        "published_date": "2018-12-11T00:00:00+00:00",
+        "published_date": "2018-12-11",
         "youtube_link": "https://www.youtube.com/watch?v=b5msQpny05I",
         "official_link": "https://www.bingingwithbabish.com/recipes/seinfeldspecial2",
         "image_link": "https://img.youtube.com/vi/b5msQpny05I/mqdefault.jpg"
@@ -3171,7 +3171,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/babka-inspired-by-seinfeld",
         "episode_id": "babka-inspired-by-seinfeld",
         "name": "Babka inspired by Seinfeld",
-        "published_date": "2017-05-10T00:00:00+00:00",
+        "published_date": "2017-05-10",
         "youtube_link": "https://www.youtube.com/watch?v=pw2A03Z91FI",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/09/babka-inspired-by-seinfeld",
         "image_link": "https://img.youtube.com/vi/pw2A03Z91FI/mqdefault.jpg"
@@ -3180,7 +3180,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/wild-mushroom-soup-inspired-by-seinfeld",
         "episode_id": "wild-mushroom-soup-inspired-by-seinfeld",
         "name": "Wild Mushroom Soup inspired by Seinfeld",
-        "published_date": "2017-05-09T00:00:00+00:00",
+        "published_date": "2017-05-09",
         "youtube_link": "https://www.youtube.com/watch?v=pw2A03Z91FI",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/9/wild-mushroom-soup-inspired-by-seinfeld",
         "image_link": "https://img.youtube.com/vi/pw2A03Z91FI/mqdefault.jpg"
@@ -3200,7 +3200,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/sweetrolls-skyrim",
         "episode_id": "sweetrolls-skyrim",
         "name": "Sweetrolls inspired by Skyrim",
-        "published_date": "2020-06-18T00:00:00+00:00",
+        "published_date": "2020-06-18",
         "youtube_link": "https://www.youtube.com/watch?v=98R3fgPKmYs",
         "official_link": "https://www.bingingwithbabish.com/recipes/sweetrolls-skyrim",
         "image_link": "https://img.youtube.com/vi/98R3fgPKmYs/mqdefault.jpg"
@@ -3220,7 +3220,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/taco-town",
         "episode_id": "taco-town",
         "name": "Taco Town 15-Flavor Taco inspired by SNL",
-        "published_date": "2017-07-18T00:00:00+00:00",
+        "published_date": "2017-07-18",
         "youtube_link": "https://www.youtube.com/watch?v=UvIkojfQDxA",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/18/taco-town",
         "image_link": "https://img.youtube.com/vi/UvIkojfQDxA/mqdefault.jpg"
@@ -3240,7 +3240,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/southparkspecial",
         "episode_id": "southparkspecial",
         "name": "South Park Special",
-        "published_date": "2017-04-19T00:00:00+00:00",
+        "published_date": "2017-04-19",
         "youtube_link": "https://www.youtube.com/watch?v=KxPgrGdSHh8",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/southparkspecial",
         "image_link": "https://img.youtube.com/vi/KxPgrGdSHh8/mqdefault.jpg"
@@ -3260,7 +3260,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/worldsgreatestsandwich",
         "episode_id": "worldsgreatestsandwich",
         "name": "World's Greatest Sandwich from Spanglish",
-        "published_date": "2016-12-05T00:00:00+00:00",
+        "published_date": "2016-12-05",
         "youtube_link": "https://www.youtube.com/watch?v=A_l8_C-EO38",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/worldsgreatestsandwich",
         "image_link": "https://img.youtube.com/vi/A_l8_C-EO38/mqdefault.jpg"
@@ -3280,7 +3280,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/larbstickyrice",
         "episode_id": "larbstickyrice",
         "name": "Lettuce Wraps & Mango Sticky Rice inspired by Spider-Man: Homecoming",
-        "published_date": "2019-07-10T00:00:00+00:00",
+        "published_date": "2019-07-10",
         "youtube_link": "https://www.youtube.com/watch?v=VweTeaGwiXQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/larbstickyrice",
         "image_link": "https://img.youtube.com/vi/VweTeaGwiXQ/mqdefault.jpg"
@@ -3300,7 +3300,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/triple-gooberberry-sunrise-spongebob-squarespace",
         "episode_id": "triple-gooberberry-sunrise-spongebob-squarespace",
         "name": "Triple Gooberberry Sunrise inspired by Spongebob Squarepants",
-        "published_date": "2020-09-22T00:00:00+00:00",
+        "published_date": "2020-09-22",
         "youtube_link": "https://www.youtube.com/watch?v=Gso2WrBcV2Q",
         "official_link": "https://www.bingingwithbabish.com/recipes/triple-gooberberry-sunrise-spongebob-squarespace",
         "image_link": "https://img.youtube.com/vi/Gso2WrBcV2Q/mqdefault.jpg"
@@ -3309,7 +3309,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/krabbysupreme",
         "episode_id": "krabbysupreme",
         "name": "Krabby Supreme inspired by Spongebob Squarepants",
-        "published_date": "2019-02-26T00:00:00+00:00",
+        "published_date": "2019-02-26",
         "youtube_link": "https://www.youtube.com/watch?v=Rzd0mLf366I",
         "official_link": "https://www.bingingwithbabish.com/recipes/krabbysupreme",
         "image_link": "https://img.youtube.com/vi/Rzd0mLf366I/mqdefault.jpg"
@@ -3318,7 +3318,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/3daypotatosalad",
         "episode_id": "3daypotatosalad",
         "name": "3-Day Potato Salad inspired by SpongeBob SquarePants",
-        "published_date": "2018-12-04T00:00:00+00:00",
+        "published_date": "2018-12-04",
         "youtube_link": "https://www.youtube.com/watch?v=5Ugrgl9tB2s",
         "official_link": "https://www.bingingwithbabish.com/recipes/3daypotatosalad",
         "image_link": "https://img.youtube.com/vi/5Ugrgl9tB2s/mqdefault.jpg"
@@ -3327,7 +3327,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/bubblebass",
         "episode_id": "bubblebass",
         "name": "Bubble Bass' Order inspired by Spongebob Squarepants",
-        "published_date": "2018-05-22T00:00:00+00:00",
+        "published_date": "2018-05-22",
         "youtube_link": "https://www.youtube.com/watch?v=Y8hi6A5MPVY",
         "official_link": "https://www.bingingwithbabish.com/recipes/bubblebass",
         "image_link": "https://img.youtube.com/vi/Y8hi6A5MPVY/mqdefault.jpg"
@@ -3336,7 +3336,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/parmhero",
         "episode_id": "parmhero",
         "name": "Parm Heros inspired by Lots of Things",
-        "published_date": "2018-03-20T00:00:00+00:00",
+        "published_date": "2018-03-20",
         "youtube_link": "https://www.youtube.com/watch?v=DkiyT-dnmv8",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/parmhero",
         "image_link": "https://img.youtube.com/vi/DkiyT-dnmv8/mqdefault.jpg"
@@ -3345,7 +3345,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/krabby-patty-inspired-by-spongebob-squarepants",
         "episode_id": "krabby-patty-inspired-by-spongebob-squarepants",
         "name": "Krabby Patty inspired by SpongeBob SquarePants",
-        "published_date": "2017-05-31T00:00:00+00:00",
+        "published_date": "2017-05-31",
         "youtube_link": "https://www.youtube.com/watch?v=7EnWiGYT1g4",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/31/krabby-patty-inspired-by-spongebob-squarepants",
         "image_link": "https://img.youtube.com/vi/7EnWiGYT1g4/mqdefault.jpg"
@@ -3365,7 +3365,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/sundae-spongebob",
         "episode_id": "sundae-spongebob",
         "name": "Bad Breath Sundae inspired by SpongeBob Squarepants",
-        "published_date": "2020-07-21T00:00:00+00:00",
+        "published_date": "2020-07-21",
         "youtube_link": "https://www.youtube.com/watch?v=Ya2_Khcdwsk",
         "official_link": "https://www.bingingwithbabish.com/recipes/sundae-spongebob",
         "image_link": "https://img.youtube.com/vi/Ya2_Khcdwsk/mqdefault.jpg"
@@ -3385,7 +3385,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/3daypotatosalad",
         "episode_id": "3daypotatosalad",
         "name": "3-Day Potato Salad inspired by SpongeBob SquarePants",
-        "published_date": "2018-12-04T00:00:00+00:00",
+        "published_date": "2018-12-04",
         "youtube_link": "https://www.youtube.com/watch?v=5Ugrgl9tB2s",
         "official_link": "https://www.bingingwithbabish.com/recipes/3daypotatosalad",
         "image_link": "https://img.youtube.com/vi/5Ugrgl9tB2s/mqdefault.jpg"
@@ -3394,7 +3394,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/krabby-patty-inspired-by-spongebob-squarepants",
         "episode_id": "krabby-patty-inspired-by-spongebob-squarepants",
         "name": "Krabby Patty inspired by SpongeBob SquarePants",
-        "published_date": "2017-05-31T00:00:00+00:00",
+        "published_date": "2017-05-31",
         "youtube_link": "https://www.youtube.com/watch?v=7EnWiGYT1g4",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/31/krabby-patty-inspired-by-spongebob-squarepants",
         "image_link": "https://img.youtube.com/vi/7EnWiGYT1g4/mqdefault.jpg"
@@ -3414,7 +3414,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/applepie",
         "episode_id": "applepie",
         "name": "How To Make Apple Pie",
-        "published_date": "2016-09-23T00:00:00+00:00",
+        "published_date": "2016-09-23",
         "youtube_link": "https://www.youtube.com/watch?v=-Vy12e0LjX4",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/applepie",
         "image_link": "https://img.youtube.com/vi/-Vy12e0LjX4/mqdefault.jpg"
@@ -3434,7 +3434,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/bunnicorn-pizza",
         "episode_id": "bunnicorn-pizza",
         "name": "Bunnicorn Pizza inspired by Star Trek: Picard",
-        "published_date": "2020-03-17T00:00:00+00:00",
+        "published_date": "2020-03-17",
         "youtube_link": "https://www.youtube.com/watch?v=2a8Uz3pYTh4",
         "official_link": "https://www.bingingwithbabish.com/recipes/bunnicorn-pizza",
         "image_link": "https://img.youtube.com/vi/2a8Uz3pYTh4/mqdefault.jpg"
@@ -3454,7 +3454,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/restaurant-wars-steven-universe",
         "episode_id": "restaurant-wars-steven-universe",
         "name": "Restaurant Wars inspired by Steven Universe",
-        "published_date": "2020-10-14T00:00:00+00:00",
+        "published_date": "2020-10-14",
         "youtube_link": "https://www.youtube.com/watch?v=J2eU4Ol3IDU",
         "official_link": "https://www.bingingwithbabish.com/recipes/restaurant-wars-steven-universe",
         "image_link": "https://img.youtube.com/vi/J2eU4Ol3IDU/mqdefault.jpg"
@@ -3463,7 +3463,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/bagelsandwiches",
         "episode_id": "bagelsandwiches",
         "name": "Bagel Sandwiches inspired by Steven Universe",
-        "published_date": "2019-07-23T00:00:00+00:00",
+        "published_date": "2019-07-23",
         "youtube_link": "https://www.youtube.com/watch?v=wv43IN_cnyw",
         "official_link": "https://www.bingingwithbabish.com/recipes/bagelsandwiches",
         "image_link": "https://img.youtube.com/vi/wv43IN_cnyw/mqdefault.jpg"
@@ -3472,7 +3472,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/uberollcake",
         "episode_id": "uberollcake",
         "name": "Ube Roll inspired by Steven Universe",
-        "published_date": "2019-06-25T00:00:00+00:00",
+        "published_date": "2019-06-25",
         "youtube_link": "https://www.youtube.com/watch?v=cYRG5rkmr-s",
         "official_link": "https://www.bingingwithbabish.com/recipes/uberollcake",
         "image_link": "https://img.youtube.com/vi/cYRG5rkmr-s/mqdefault.jpg"
@@ -3492,7 +3492,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/kfcmeal",
         "episode_id": "kfcmeal",
         "name": "KFC Bucket Meal inspired by Stranger Things",
-        "published_date": "2019-08-07T00:00:00+00:00",
+        "published_date": "2019-08-07",
         "youtube_link": "https://www.youtube.com/watch?v=WtAoc3_1Ido",
         "official_link": "https://www.bingingwithbabish.com/recipes/kfcmeal",
         "image_link": "https://img.youtube.com/vi/WtAoc3_1Ido/mqdefault.jpg"
@@ -3501,7 +3501,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/tripledeckereggo",
         "episode_id": "tripledeckereggo",
         "name": "Triple-Decker Eggo Extravaganza inspired by Stranger Things",
-        "published_date": "2017-11-07T00:00:00+00:00",
+        "published_date": "2017-11-07",
         "youtube_link": "https://www.youtube.com/watch?v=L1kgO1I9NvQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/tripledeckereggo",
         "image_link": "https://img.youtube.com/vi/L1kgO1I9NvQ/mqdefault.jpg"
@@ -3521,7 +3521,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/tiramisu",
         "episode_id": "tiramisu",
         "name": "Tiramisu inspired by Superbad",
-        "published_date": "2019-11-12T00:00:00+00:00",
+        "published_date": "2019-11-12",
         "youtube_link": "https://www.youtube.com/watch?v=J719grjgS-I",
         "official_link": "https://www.bingingwithbabish.com/recipes/tiramisu",
         "image_link": "https://img.youtube.com/vi/J719grjgS-I/mqdefault.jpg"
@@ -3541,7 +3541,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/okonomiyaki",
         "episode_id": "okonomiyaki",
         "name": "Okonomiyaki inspired by Sweetness & Lightning",
-        "published_date": "2018-07-17T00:00:00+00:00",
+        "published_date": "2018-07-17",
         "youtube_link": "https://www.youtube.com/watch?v=DNg7Obo-DDM",
         "official_link": "https://www.bingingwithbabish.com/recipes/okonomiyaki",
         "image_link": "https://img.youtube.com/vi/DNg7Obo-DDM/mqdefault.jpg"
@@ -3561,7 +3561,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/okonomiyaki",
         "episode_id": "okonomiyaki",
         "name": "Okonomiyaki inspired by Sweetness & Lightning",
-        "published_date": "2018-07-17T00:00:00+00:00",
+        "published_date": "2018-07-17",
         "youtube_link": "https://www.youtube.com/watch?v=DNg7Obo-DDM",
         "official_link": "https://www.bingingwithbabish.com/recipes/okonomiyaki",
         "image_link": "https://img.youtube.com/vi/DNg7Obo-DDM/mqdefault.jpg"
@@ -3581,7 +3581,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/crepessuzette",
         "episode_id": "crepessuzette",
         "name": "Cr\u00eapes Suzette inspired by Talladega Nights",
-        "published_date": "2019-10-24T00:00:00+00:00",
+        "published_date": "2019-10-24",
         "youtube_link": "https://www.youtube.com/watch?v=Z1kR6SIr1XA",
         "official_link": "https://www.bingingwithbabish.com/recipes/crepessuzette",
         "image_link": "https://img.youtube.com/vi/Z1kR6SIr1XA/mqdefault.jpg"
@@ -3601,7 +3601,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/crepessuzette",
         "episode_id": "crepessuzette",
         "name": "Cr\u00eapes Suzette inspired by Talladega Nights",
-        "published_date": "2019-10-24T00:00:00+00:00",
+        "published_date": "2019-10-24",
         "youtube_link": "https://www.youtube.com/watch?v=Z1kR6SIr1XA",
         "official_link": "https://www.bingingwithbabish.com/recipes/crepessuzette",
         "image_link": "https://img.youtube.com/vi/Z1kR6SIr1XA/mqdefault.jpg"
@@ -3621,7 +3621,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/nypizzatmnt",
         "episode_id": "nypizzatmnt",
         "name": "New York-Style Pizza inspired by TMNT II: Secret of the Ooze",
-        "published_date": "2016-04-30T00:00:00+00:00",
+        "published_date": "2016-04-30",
         "youtube_link": "https://www.youtube.com/watch?v=KUu2gJn1dzc",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/16/nypizzatmnt",
         "image_link": "https://img.youtube.com/vi/KUu2gJn1dzc/mqdefault.jpg"
@@ -3641,7 +3641,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cocktail-special",
         "episode_id": "cocktail-special",
         "name": "Cocktail Special",
-        "published_date": "2017-06-28T00:00:00+00:00",
+        "published_date": "2017-06-28",
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special",
         "image_link": "https://img.youtube.com/vi/v5tJBLfeurU/mqdefault.jpg"
@@ -3661,7 +3661,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/aristocats",
         "episode_id": "aristocats",
         "name": "Cr\u00e8me de la Cr\u00e8me \u00e0 la Edgar inspired by The Aristocats",
-        "published_date": "2019-01-23T00:00:00+00:00",
+        "published_date": "2019-01-23",
         "youtube_link": "https://www.youtube.com/watch?v=zNY-qzp7pD0",
         "official_link": "https://www.bingingwithbabish.com/recipes/aristocats",
         "image_link": "https://img.youtube.com/vi/zNY-qzp7pD0/mqdefault.jpg"
@@ -3681,7 +3681,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/shawarma",
         "episode_id": "shawarma",
         "name": "Shawarma inspired by The Avengers",
-        "published_date": "2018-04-10T00:00:00+00:00",
+        "published_date": "2018-04-10",
         "youtube_link": "https://www.youtube.com/watch?v=iErqWGwso7o",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/shawarma",
         "image_link": "https://img.youtube.com/vi/iErqWGwso7o/mqdefault.jpg"
@@ -3701,7 +3701,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cocktail-special",
         "episode_id": "cocktail-special",
         "name": "Cocktail Special",
-        "published_date": "2017-06-28T00:00:00+00:00",
+        "published_date": "2017-06-28",
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special",
         "image_link": "https://img.youtube.com/vi/v5tJBLfeurU/mqdefault.jpg"
@@ -3721,7 +3721,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks",
         "episode_id": "fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks",
         "name": "Fried Chicken & Waffle Breakfast Lasagna inspired by The Boondocks",
-        "published_date": "2017-07-04T00:00:00+00:00",
+        "published_date": "2017-07-04",
         "youtube_link": "https://www.youtube.com/watch?v=VnXu22HZBNQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/4/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks",
         "image_link": "https://img.youtube.com/vi/VnXu22HZBNQ/mqdefault.jpg"
@@ -3741,7 +3741,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/deepdishpizza",
         "episode_id": "deepdishpizza",
         "name": "Deep Dish Pizza inspired by The Daily Show",
-        "published_date": "2019-10-09T00:00:00+00:00",
+        "published_date": "2019-10-09",
         "youtube_link": "https://www.youtube.com/watch?v=hyUnGjykNwg",
         "official_link": "https://www.bingingwithbabish.com/recipes/deepdishpizza",
         "image_link": "https://img.youtube.com/vi/hyUnGjykNwg/mqdefault.jpg"
@@ -3761,7 +3761,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/coffeejelly",
         "episode_id": "coffeejelly",
         "name": "Coffee Jelly inspired by The Disastrous Life of Saiki K.",
-        "published_date": "2019-09-24T00:00:00+00:00",
+        "published_date": "2019-09-24",
         "youtube_link": "https://www.youtube.com/watch?v=YxEcd_wTf5c",
         "official_link": "https://www.bingingwithbabish.com/recipes/coffeejelly",
         "image_link": "https://img.youtube.com/vi/YxEcd_wTf5c/mqdefault.jpg"
@@ -3781,7 +3781,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/spinachpuffs",
         "episode_id": "spinachpuffs",
         "name": "Spinach Puffs inspired by The Emperor's New Groove",
-        "published_date": "2018-08-14T00:00:00+00:00",
+        "published_date": "2018-08-14",
         "youtube_link": "https://www.youtube.com/watch?v=x5-QoCicNfI",
         "official_link": "https://www.bingingwithbabish.com/recipes/spinachpuffs",
         "image_link": "https://img.youtube.com/vi/x5-QoCicNfI/mqdefault.jpg"
@@ -3801,7 +3801,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/pizzaball",
         "episode_id": "pizzaball",
         "name": "Pizza Ball inspired by The Eric Andre Show",
-        "published_date": "2019-01-08T00:00:00+00:00",
+        "published_date": "2019-01-08",
         "youtube_link": "https://www.youtube.com/watch?v=U3LFI2mI8Y0",
         "official_link": "https://www.bingingwithbabish.com/recipes/pizzaball",
         "image_link": "https://img.youtube.com/vi/U3LFI2mI8Y0/mqdefault.jpg"
@@ -3821,7 +3821,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/thegodfathercannolis",
         "episode_id": "thegodfathercannolis",
         "name": "Cannolis inspired by The Godfather",
-        "published_date": "2018-06-05T00:00:00+00:00",
+        "published_date": "2018-06-05",
         "youtube_link": "https://www.youtube.com/watch?v=44fjX-rgJ7s",
         "official_link": "https://www.bingingwithbabish.com/recipes/thegodfathercannolis",
         "image_link": "https://img.youtube.com/vi/44fjX-rgJ7s/mqdefault.jpg"
@@ -3841,7 +3841,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/nachos",
         "episode_id": "nachos",
         "name": "Nachos inspired by The Good Place (plus Naco Redemption)",
-        "published_date": "2019-11-07T00:00:00+00:00",
+        "published_date": "2019-11-07",
         "youtube_link": "https://www.youtube.com/watch?v=LgzudBvmd08",
         "official_link": "https://www.bingingwithbabish.com/recipes/nachos",
         "image_link": "https://img.youtube.com/vi/LgzudBvmd08/mqdefault.jpg"
@@ -3850,7 +3850,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/thegoodplace",
         "episode_id": "thegoodplace",
         "name": "The Good Place Special",
-        "published_date": "2019-05-21T00:00:00+00:00",
+        "published_date": "2019-05-21",
         "youtube_link": "https://www.youtube.com/watch?v=f428glyXdY4",
         "official_link": "https://www.bingingwithbabish.com/recipes/thegoodplace",
         "image_link": "https://img.youtube.com/vi/f428glyXdY4/mqdefault.jpg"
@@ -3870,7 +3870,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/nachos",
         "episode_id": "nachos",
         "name": "Nachos inspired by The Good Place (plus Naco Redemption)",
-        "published_date": "2019-11-07T00:00:00+00:00",
+        "published_date": "2019-11-07",
         "youtube_link": "https://www.youtube.com/watch?v=LgzudBvmd08",
         "official_link": "https://www.bingingwithbabish.com/recipes/nachos",
         "image_link": "https://img.youtube.com/vi/LgzudBvmd08/mqdefault.jpg"
@@ -3890,7 +3890,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/beer-steamed-chili-dogs",
         "episode_id": "beer-steamed-chili-dogs",
         "name": "Chili Dogs inspired by The Irishman",
-        "published_date": "2019-12-17T00:00:00+00:00",
+        "published_date": "2019-12-17",
         "youtube_link": "https://www.youtube.com/watch?v=c0A1bkF4mKM",
         "official_link": "https://www.bingingwithbabish.com/recipes/beer-steamed-chili-dogs",
         "image_link": "https://img.youtube.com/vi/c0A1bkF4mKM/mqdefault.jpg"
@@ -3910,7 +3910,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/zelda-monster-cake",
         "episode_id": "zelda-monster-cake",
         "name": "Monster Cake inspired by Zelda: Breath of the Wild",
-        "published_date": "2017-08-01T00:00:00+00:00",
+        "published_date": "2017-08-01",
         "youtube_link": "https://www.youtube.com/watch?v=VgtpaBOkvrA",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/01/zelda-monster-cake",
         "image_link": "https://img.youtube.com/vi/VgtpaBOkvrA/mqdefault.jpg"
@@ -3930,7 +3930,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/macarons-the-mandalorian",
         "episode_id": "macarons-the-mandalorian",
         "name": "Macarons inspired by The Mandalorian",
-        "published_date": "2020-12-01T00:00:00+00:00",
+        "published_date": "2020-12-01",
         "youtube_link": "https://www.youtube.com/watch?v=IGS0JouUgjM",
         "official_link": "https://www.bingingwithbabish.com/recipes/macarons-the-mandalorian",
         "image_link": "https://img.youtube.com/vi/IGS0JouUgjM/mqdefault.jpg"
@@ -3939,7 +3939,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/bone-broth",
         "episode_id": "bone-broth",
         "name": "Bone Broth inspired by The Mandalorian",
-        "published_date": "2019-12-11T00:00:00+00:00",
+        "published_date": "2019-12-11",
         "youtube_link": "https://www.youtube.com/watch?v=6GHwG1y-NE0",
         "official_link": "https://www.bingingwithbabish.com/recipes/bone-broth",
         "image_link": "https://img.youtube.com/vi/6GHwG1y-NE0/mqdefault.jpg"
@@ -3959,7 +3959,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/maisel-brisket",
         "episode_id": "maisel-brisket",
         "name": "Brisket inspired by The Marvelous Mrs. Maisel",
-        "published_date": "2020-04-08T00:00:00+00:00",
+        "published_date": "2020-04-08",
         "youtube_link": "https://www.youtube.com/watch?v=TutmnWa6dVo",
         "official_link": "https://www.bingingwithbabish.com/recipes/maisel-brisket",
         "image_link": "https://img.youtube.com/vi/TutmnWa6dVo/mqdefault.jpg"
@@ -3979,7 +3979,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/chateaubriandsteak",
         "episode_id": "chateaubriandsteak",
         "name": "Chateaubriand Steak inspired by The Matrix",
-        "published_date": "2018-04-17T00:00:00+00:00",
+        "published_date": "2018-04-17",
         "youtube_link": "https://www.youtube.com/watch?v=eA6uLMsl9w0",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/chateaubriandsteak",
         "image_link": "https://img.youtube.com/vi/eA6uLMsl9w0/mqdefault.jpg"
@@ -3999,7 +3999,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/egginanest",
         "episode_id": "egginanest",
         "name": "Eggs in a Nest inspired by Lots of Stuff",
-        "published_date": "2018-01-30T00:00:00+00:00",
+        "published_date": "2018-01-30",
         "youtube_link": "https://www.youtube.com/watch?v=4QDDxmtbUsw",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/egginanest",
         "image_link": "https://img.youtube.com/vi/4QDDxmtbUsw/mqdefault.jpg"
@@ -4019,7 +4019,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/ossobuco",
         "episode_id": "ossobuco",
         "name": "Osso Buco inspired by The Office",
-        "published_date": "2019-12-04T00:00:00+00:00",
+        "published_date": "2019-12-04",
         "youtube_link": "https://www.youtube.com/watch?v=Jr9Is6NsFck",
         "official_link": "https://www.bingingwithbabish.com/recipes/ossobuco",
         "image_link": "https://img.youtube.com/vi/Jr9Is6NsFck/mqdefault.jpg"
@@ -4028,7 +4028,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/michaelscottpretzel",
         "episode_id": "michaelscottpretzel",
         "name": "Michael Scott\u2019s Pretzel inspired by The Office",
-        "published_date": "2017-10-17T00:00:00+00:00",
+        "published_date": "2017-10-17",
         "youtube_link": "https://www.youtube.com/watch?v=NHA9Ffaal2M",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/michaelscottpretzel",
         "image_link": "https://img.youtube.com/vi/NHA9Ffaal2M/mqdefault.jpg"
@@ -4037,7 +4037,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/kevinschili",
         "episode_id": "kevinschili",
         "name": "Kevin's Famous Chili inspired by The Office",
-        "published_date": "2017-01-18T00:00:00+00:00",
+        "published_date": "2017-01-18",
         "youtube_link": "https://www.youtube.com/watch?v=eQ9eY0_DoEk",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/1/18/kevinschili",
         "image_link": "https://img.youtube.com/vi/eQ9eY0_DoEk/mqdefault.jpg"
@@ -4057,7 +4057,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/garbageplate",
         "episode_id": "garbageplate",
         "name": "The Garbage Plate inspired by The Place Beyond The Pines (sort of)",
-        "published_date": "2017-11-28T00:00:00+00:00",
+        "published_date": "2017-11-28",
         "youtube_link": "https://www.youtube.com/watch?v=wjoeVwJTUTA",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/garbageplate",
         "image_link": "https://img.youtube.com/vi/wjoeVwJTUTA/mqdefault.jpg"
@@ -4077,7 +4077,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/garbageplate",
         "episode_id": "garbageplate",
         "name": "The Garbage Plate inspired by The Place Beyond The Pines (sort of)",
-        "published_date": "2017-11-28T00:00:00+00:00",
+        "published_date": "2017-11-28",
         "youtube_link": "https://www.youtube.com/watch?v=wjoeVwJTUTA",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/garbageplate",
         "image_link": "https://img.youtube.com/vi/wjoeVwJTUTA/mqdefault.jpg"
@@ -4097,7 +4097,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/beignetsfromchef",
         "episode_id": "beignetsfromchef",
         "name": "Beignets inspired by Chef (and Princess and the Frog)",
-        "published_date": "2018-08-07T00:00:00+00:00",
+        "published_date": "2018-08-07",
         "youtube_link": "https://www.youtube.com/watch?v=DnuHzHHwqAw",
         "official_link": "https://www.bingingwithbabish.com/recipes/beignetsfromchef",
         "image_link": "https://img.youtube.com/vi/DnuHzHHwqAw/mqdefault.jpg"
@@ -4117,7 +4117,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/judys-hot-cocoa-santa-clause",
         "episode_id": "judys-hot-cocoa-santa-clause",
         "name": "Judy's Hot Cocoa inspired by the Santa Clause",
-        "published_date": "2020-12-22T00:00:00+00:00",
+        "published_date": "2020-12-22",
         "youtube_link": "https://www.youtube.com/watch?v=rBYd_O38Ncw",
         "official_link": "https://www.bingingwithbabish.com/recipes/judys-hot-cocoa-santa-clause",
         "image_link": "https://img.youtube.com/vi/rBYd_O38Ncw/mqdefault.jpg"
@@ -4137,7 +4137,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/clementinecake",
         "episode_id": "clementinecake",
         "name": "Clementine Cake inspired by The Secret Life of Walter Mitty",
-        "published_date": "2018-03-06T00:00:00+00:00",
+        "published_date": "2018-03-06",
         "youtube_link": "https://www.youtube.com/watch?v=cr2wUlNSFg0",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/clementinecake",
         "image_link": "https://img.youtube.com/vi/cr2wUlNSFg0/mqdefault.jpg"
@@ -4157,7 +4157,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/dessertdogs",
         "episode_id": "dessertdogs",
         "name": "Dessert Dogs inspired by The Simpsons",
-        "published_date": "2020-01-15T00:00:00+00:00",
+        "published_date": "2020-01-15",
         "youtube_link": "https://www.youtube.com/watch?v=chil75Ip-3w",
         "official_link": "https://www.bingingwithbabish.com/recipes/dessertdogs",
         "image_link": "https://img.youtube.com/vi/chil75Ip-3w/mqdefault.jpg"
@@ -4166,7 +4166,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/5mill-special",
         "episode_id": "5mill-special",
         "name": "5 Million Subscriber Special: Recreating Homer Simpson's NOLA Food Tour",
-        "published_date": "2019-09-10T00:00:00+00:00",
+        "published_date": "2019-09-10",
         "youtube_link": "https://www.youtube.com/watch?v=oM8c31ru92A",
         "official_link": "https://www.youtube.com/watch?v=oM8c31ru92A",
         "image_link": "https://img.youtube.com/vi/oM8c31ru92A/mqdefault.jpg"
@@ -4175,7 +4175,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/goodmorningburger",
         "episode_id": "goodmorningburger",
         "name": "Good Morning Burger inspired by The Simpsons",
-        "published_date": "2019-05-07T00:00:00+00:00",
+        "published_date": "2019-05-07",
         "youtube_link": "https://www.youtube.com/watch?v=hzAgFNh4vRY",
         "official_link": "https://www.bingingwithbabish.com/recipes/goodmorningburger",
         "image_link": "https://img.youtube.com/vi/hzAgFNh4vRY/mqdefault.jpg"
@@ -4184,7 +4184,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/ribwich",
         "episode_id": "ribwich",
         "name": "Ribwich inspired by The Simpsons",
-        "published_date": "2019-03-12T00:00:00+00:00",
+        "published_date": "2019-03-12",
         "youtube_link": "https://www.youtube.com/watch?v=Yj07347rEqo",
         "official_link": "https://www.bingingwithbabish.com/recipes/ribwich",
         "image_link": "https://img.youtube.com/vi/Yj07347rEqo/mqdefault.jpg"
@@ -4193,7 +4193,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/skinnersstew",
         "episode_id": "skinnersstew",
         "name": "Skinner's Stew inspired by The Simpsons",
-        "published_date": "2018-01-09T00:00:00+00:00",
+        "published_date": "2018-01-09",
         "youtube_link": "https://www.youtube.com/watch?v=y3PoXXoGVj0",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/skinnersstew",
         "image_link": "https://img.youtube.com/vi/y3PoXXoGVj0/mqdefault.jpg"
@@ -4202,7 +4202,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/moonwaffles",
         "episode_id": "moonwaffles",
         "name": "Homer Simpson's Patented Space Age Out-Of-This-World Moon Waffles",
-        "published_date": "2017-05-02T00:00:00+00:00",
+        "published_date": "2017-05-02",
         "youtube_link": "https://www.youtube.com/watch?v=27mUWs2wjPs",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/29/moonwaffles",
         "image_link": "https://img.youtube.com/vi/27mUWs2wjPs/mqdefault.jpg"
@@ -4222,7 +4222,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/flandershotcocoa",
         "episode_id": "flandershotcocoa",
         "name": "Flanders' Hot Chocolate inspired by The Simpsons Movie",
-        "published_date": "2017-12-12T00:00:00+00:00",
+        "published_date": "2017-12-12",
         "youtube_link": "https://www.youtube.com/watch?v=UCZVSr2Xt2k",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/flandershotcocoa",
         "image_link": "https://img.youtube.com/vi/UCZVSr2Xt2k/mqdefault.jpg"
@@ -4242,7 +4242,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/ziti-lasagna",
         "episode_id": "ziti-lasagna",
         "name": "Baked Ziti and Lasagna inspired by The Sopranos",
-        "published_date": "2019-09-20T00:00:00+00:00",
+        "published_date": "2019-09-20",
         "youtube_link": "https://www.youtube.com/watch?v=c_BGPTK3GQk",
         "official_link": "https://www.bingingwithbabish.com/recipes/ziti-lasagna",
         "image_link": "https://img.youtube.com/vi/c_BGPTK3GQk/mqdefault.jpg"
@@ -4251,7 +4251,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/johnnycakes",
         "episode_id": "johnnycakes",
         "name": "Johnny Cakes inspired by The Sopranos",
-        "published_date": "2018-08-28T00:00:00+00:00",
+        "published_date": "2018-08-28",
         "youtube_link": "https://www.youtube.com/watch?v=DdFKKZe73Pk",
         "official_link": "https://www.bingingwithbabish.com/recipes/johnnycakes",
         "image_link": "https://img.youtube.com/vi/DdFKKZe73Pk/mqdefault.jpg"
@@ -4260,7 +4260,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/parmhero",
         "episode_id": "parmhero",
         "name": "Parm Heros inspired by Lots of Things",
-        "published_date": "2018-03-20T00:00:00+00:00",
+        "published_date": "2018-03-20",
         "youtube_link": "https://www.youtube.com/watch?v=DkiyT-dnmv8",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/parmhero",
         "image_link": "https://img.youtube.com/vi/DkiyT-dnmv8/mqdefault.jpg"
@@ -4280,7 +4280,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/beetandacorncookies",
         "episode_id": "beetandacorncookies",
         "name": "Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)",
-        "published_date": "2017-05-23T00:00:00+00:00",
+        "published_date": "2017-05-23",
         "youtube_link": "https://www.youtube.com/watch?v=6PTuUMJ2Uh8",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/beetandacorncookies",
         "image_link": "https://img.youtube.com/vi/6PTuUMJ2Uh8/mqdefault.jpg"
@@ -4300,7 +4300,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/tomate-du-saltambique-inspired-by-the-west-wing",
         "episode_id": "tomate-du-saltambique-inspired-by-the-west-wing",
         "name": "Tomate du Saltambique inspired by The West Wing",
-        "published_date": "2017-06-20T00:00:00+00:00",
+        "published_date": "2017-06-20",
         "youtube_link": "https://www.youtube.com/watch?v=6uIK3o32hig",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/20/tomate-du-saltambique-inspired-by-the-west-wing",
         "image_link": "https://img.youtube.com/vi/6uIK3o32hig/mqdefault.jpg"
@@ -4320,7 +4320,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/thewirespecial",
         "episode_id": "thewirespecial",
         "name": "The Wire Special",
-        "published_date": "2017-12-26T00:00:00+00:00",
+        "published_date": "2017-12-26",
         "youtube_link": "https://www.youtube.com/watch?v=mnT4MDdEazs",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/thewirespecial",
         "image_link": "https://img.youtube.com/vi/mnT4MDdEazs/mqdefault.jpg"
@@ -4340,7 +4340,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/nypizzatmnt",
         "episode_id": "nypizzatmnt",
         "name": "New York-Style Pizza inspired by TMNT II: Secret of the Ooze",
-        "published_date": "2016-04-30T00:00:00+00:00",
+        "published_date": "2016-04-30",
         "youtube_link": "https://www.youtube.com/watch?v=KUu2gJn1dzc",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/16/nypizzatmnt",
         "image_link": "https://img.youtube.com/vi/KUu2gJn1dzc/mqdefault.jpg"
@@ -4360,7 +4360,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/applepie",
         "episode_id": "applepie",
         "name": "How To Make Apple Pie",
-        "published_date": "2016-09-23T00:00:00+00:00",
+        "published_date": "2016-09-23",
         "youtube_link": "https://www.youtube.com/watch?v=-Vy12e0LjX4",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/applepie",
         "image_link": "https://img.youtube.com/vi/-Vy12e0LjX4/mqdefault.jpg"
@@ -4380,7 +4380,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/brie-butter-baguette-twin-peaks",
         "episode_id": "brie-butter-baguette-twin-peaks",
         "name": "Brie & Butter Baguette inspired by Twin Peaks",
-        "published_date": "2020-11-03T00:00:00+00:00",
+        "published_date": "2020-11-03",
         "youtube_link": "https://www.youtube.com/watch?v=vWdjqdmFHxw",
         "official_link": "https://www.bingingwithbabish.com/recipes/brie-butter-baguette-twin-peaks",
         "image_link": "https://img.youtube.com/vi/vWdjqdmFHxw/mqdefault.jpg"
@@ -4389,7 +4389,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/buttermilk-pancakes-inspired-by-twin-peaks",
         "episode_id": "buttermilk-pancakes-inspired-by-twin-peaks",
         "name": "Buttermilk Pancakes inspired by Twin Peaks",
-        "published_date": "2017-05-18T00:00:00+00:00",
+        "published_date": "2017-05-18",
         "youtube_link": "https://www.youtube.com/watch?v=nEoSBL25RO4",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/18/buttermilk-pancakes-inspired-by-twin-peaks",
         "image_link": "https://img.youtube.com/vi/nEoSBL25RO4/mqdefault.jpg"
@@ -4398,7 +4398,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/applepie",
         "episode_id": "applepie",
         "name": "How To Make Apple Pie",
-        "published_date": "2016-09-23T00:00:00+00:00",
+        "published_date": "2016-09-23",
         "youtube_link": "https://www.youtube.com/watch?v=-Vy12e0LjX4",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/applepie",
         "image_link": "https://img.youtube.com/vi/-Vy12e0LjX4/mqdefault.jpg"
@@ -4418,7 +4418,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/steak-eggs-gravy-twister",
         "episode_id": "steak-eggs-gravy-twister",
         "name": "Steak, Eggs and Gravy inspired by Twister",
-        "published_date": "2020-12-08T00:00:00+00:00",
+        "published_date": "2020-12-08",
         "youtube_link": "https://www.youtube.com/watch?v=ztl0gGVFoK0",
         "official_link": "https://www.bingingwithbabish.com/recipes/steak-eggs-gravy-twister",
         "image_link": "https://img.youtube.com/vi/ztl0gGVFoK0/mqdefault.jpg"
@@ -4438,7 +4438,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/classicpancakes",
         "episode_id": "classicpancakes",
         "name": "Classic Pancakes inspired by Uncle Buck",
-        "published_date": "2019-08-20T00:00:00+00:00",
+        "published_date": "2019-08-20",
         "youtube_link": "https://www.youtube.com/watch?v=WMj7G-U3LW8",
         "official_link": "https://www.bingingwithbabish.com/recipes/classicpancakes",
         "image_link": "https://img.youtube.com/vi/WMj7G-U3LW8/mqdefault.jpg"
@@ -4458,7 +4458,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/egginanest",
         "episode_id": "egginanest",
         "name": "Eggs in a Nest inspired by Lots of Stuff",
-        "published_date": "2018-01-30T00:00:00+00:00",
+        "published_date": "2018-01-30",
         "youtube_link": "https://www.youtube.com/watch?v=4QDDxmtbUsw",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/egginanest",
         "image_link": "https://img.youtube.com/vi/4QDDxmtbUsw/mqdefault.jpg"
@@ -4478,7 +4478,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/piesfromwaitress",
         "episode_id": "piesfromwaitress",
         "name": "Pies inspired by Waitress",
-        "published_date": "2018-05-08T00:00:00+00:00",
+        "published_date": "2018-05-08",
         "youtube_link": "https://www.youtube.com/watch?v=NgloGi5xEa8",
         "official_link": "https://www.bingingwithbabish.com/recipes/piesfromwaitress",
         "image_link": "https://img.youtube.com/vi/NgloGi5xEa8/mqdefault.jpg"
@@ -4498,7 +4498,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/twinkie-weiner-sandwich",
         "episode_id": "twinkie-weiner-sandwich",
         "name": "Twinkie Weiner Sandwich inspired by Weird Al's UHF",
-        "published_date": "2020-06-24T00:00:00+00:00",
+        "published_date": "2020-06-24",
         "youtube_link": "https://www.youtube.com/watch?v=jKslWoZXvn0",
         "official_link": "https://www.bingingwithbabish.com/recipes/twinkie-weiner-sandwich",
         "image_link": "https://img.youtube.com/vi/jKslWoZXvn0/mqdefault.jpg"
@@ -4518,7 +4518,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/pastrami",
         "episode_id": "pastrami",
         "name": "Pastrami inspired by When Harry Met Sally",
-        "published_date": "2020-06-09T00:00:00+00:00",
+        "published_date": "2020-06-09",
         "youtube_link": "https://www.youtube.com/watch?v=hFeDKLt4P-Y",
         "official_link": "https://www.bingingwithbabish.com/recipes/pastrami",
         "image_link": "https://img.youtube.com/vi/hFeDKLt4P-Y/mqdefault.jpg"
@@ -4538,7 +4538,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/raisinets",
         "episode_id": "raisinets",
         "name": "Movie Theater Popcorn & Raisinets inspired by Whiplash",
-        "published_date": "2017-09-19T00:00:00+00:00",
+        "published_date": "2017-09-19",
         "youtube_link": "https://www.youtube.com/watch?v=FoztKuXEYnQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/raisinets",
         "image_link": "https://img.youtube.com/vi/FoztKuXEYnQ/mqdefault.jpg"
@@ -4558,7 +4558,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/the-perfect-bite",
         "episode_id": "the-perfect-bite",
         "name": "The Perfect Bite (and Duck Carbonara) inspired by YOU",
-        "published_date": "2020-02-12T00:00:00+00:00",
+        "published_date": "2020-02-12",
         "youtube_link": "https://www.youtube.com/watch?v=7vTxUYBD0Nk",
         "official_link": "https://www.bingingwithbabish.com/recipes/the-perfect-bite",
         "image_link": "https://img.youtube.com/vi/7vTxUYBD0Nk/mqdefault.jpg"
@@ -4578,7 +4578,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/chocolate-cake-inspired-by-matilda",
         "episode_id": "chocolate-cake-inspired-by-matilda",
         "name": "Chocolate Cake inspired by Matilda",
-        "published_date": "2017-06-06T00:00:00+00:00",
+        "published_date": "2017-06-06",
         "youtube_link": "https://www.youtube.com/watch?v=exQ6oGefSiA",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/6/chocolate-cake-inspired-by-matilda",
         "image_link": "https://img.youtube.com/vi/exQ6oGefSiA/mqdefault.jpg"
@@ -4598,7 +4598,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/clayroastedthigh",
         "episode_id": "clayroastedthigh",
         "name": "Clay-Roasted Thigh inspired by Hannibal",
-        "published_date": "2017-10-31T00:00:00+00:00",
+        "published_date": "2017-10-31",
         "youtube_link": "https://www.youtube.com/watch?v=lnB7svFAZBs",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/clayroastedthigh",
         "image_link": "https://img.youtube.com/vi/lnB7svFAZBs/mqdefault.jpg"
@@ -4618,7 +4618,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/zelda-monster-cake",
         "episode_id": "zelda-monster-cake",
         "name": "Monster Cake inspired by Zelda: Breath of the Wild",
-        "published_date": "2017-08-01T00:00:00+00:00",
+        "published_date": "2017-08-01",
         "youtube_link": "https://www.youtube.com/watch?v=VgtpaBOkvrA",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/01/zelda-monster-cake",
         "image_link": "https://img.youtube.com/vi/VgtpaBOkvrA/mqdefault.jpg"
@@ -4638,7 +4638,7 @@
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/orangemochafrapp",
         "episode_id": "orangemochafrapp",
         "name": "Orange Mocha Frappuccinos inspired by Zoolander",
-        "published_date": "2019-05-29T00:00:00+00:00",
+        "published_date": "2019-05-29",
         "youtube_link": "https://www.youtube.com/watch?v=exe_I-tnxpU",
         "official_link": "https://www.bingingwithbabish.com/recipes/orangemochafrapp",
         "image_link": "https://img.youtube.com/vi/exe_I-tnxpU/mqdefault.jpg"
