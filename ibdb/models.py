@@ -1,5 +1,5 @@
 # coding: utf-8
-from sqlalchemy import Column, DateTime, ForeignKey, Integer, String, Table, Text, text
+from sqlalchemy import Column, ForeignKey, Integer, String, Table, Text, text, Date
 from sqlalchemy.orm import relationship, backref
 from flask_sqlalchemy import SQLAlchemy
 from flask import request
@@ -91,7 +91,7 @@ class Episode(Base):
     youtube_link = Column(String, nullable=False)
     official_link = Column(String, nullable=False)
     image_link = Column(String)
-    published_date = Column(DateTime(True))
+    published_date = Column(Date())
     show_id = Column(ForeignKey('show.id'), nullable=False)
 
     _backref_order_by = 'Episode.published_date.desc(),Episode.id'
