@@ -9,6 +9,15 @@
     "image_link": "https://i.ytimg.com/sh/CPflFO2qVR_gELM7EMnlSQ/market.jpg",
     "episodes_inspired": [
       {
+        "self": "http://0.0.0.0:5000/episode/the-liz-lemon-30-rock",
+        "episode_id": "the-liz-lemon-30-rock",
+        "name": "The Liz Lemon inspired by 30 Rock",
+        "published_date": "2020-11-11T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=XBUq8q1Vwls",
+        "official_link": "https://www.bingingwithbabish.com/recipes/the-liz-lemon-30-rock",
+        "image_link": "https://img.youtube.com/vi/XBUq8q1Vwls/mqdefault.jpg"
+      },
+      {
         "self": "http://0.0.0.0:5000/episode/teamstersandwich",
         "episode_id": "teamstersandwich",
         "name": "Teamster Sandwich inspired by 30 Rock",
@@ -87,6 +96,46 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/178",
+    "reference_id": 178,
+    "type": null,
+    "name": "Agents of S.H.I.E.L.D.",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/fitz-sandwich",
+        "episode_id": "fitz-sandwich",
+        "name": "The Fitz Sandwich inspired by Agents of S.H.I.E.L.D.",
+        "published_date": "2017-08-22T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=xugufifsB4s",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/fitz-sandwich",
+        "image_link": "https://img.youtube.com/vi/xugufifsB4s/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/202",
+    "reference_id": 202,
+    "type": null,
+    "name": "Amelie",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/cremebrule",
+        "episode_id": "cremebrule",
+        "name": "Cr\u00e8me Br\u00fbl\u00e9e inspired by Amelie",
+        "published_date": "2018-04-03T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=dn_aaxZIA2o",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/cremebrule",
+        "image_link": "https://img.youtube.com/vi/dn_aaxZIA2o/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/63",
     "reference_id": 63,
     "type": "movie",
@@ -127,6 +176,26 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/319",
+    "reference_id": 319,
+    "type": null,
+    "name": "Ant Man & The Wasp",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/raspberry-danish-ant-man-and-the-wasp",
+        "episode_id": "raspberry-danish-ant-man-and-the-wasp",
+        "name": "Raspberry Danish inspired by Ant Man & The Wasp",
+        "published_date": "2020-09-29T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=Zhq20aCSh-s",
+        "official_link": "https://www.bingingwithbabish.com/recipes/raspberry-danish-ant-man-and-the-wasp",
+        "image_link": "https://img.youtube.com/vi/Zhq20aCSh-s/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/138",
     "reference_id": 138,
     "type": "video_game",
@@ -143,6 +212,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=SZcUJuXjCsw",
         "official_link": "https://www.bingingwithbabish.com/recipes/mirages-pork-chops",
         "image_link": "https://img.youtube.com/vi/SZcUJuXjCsw/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/323",
+    "reference_id": 323,
+    "type": null,
+    "name": "Aqua Teen Hunger Force",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/broodwich-aqua-teen-hunger-force",
+        "episode_id": "broodwich-aqua-teen-hunger-force",
+        "name": "The Broodwich inspired by Aqua Teen Hunger Force",
+        "published_date": "2020-10-27T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=0vZvPtI5Uk8",
+        "official_link": "https://www.bingingwithbabish.com/recipes/broodwich-aqua-teen-hunger-force",
+        "image_link": "https://img.youtube.com/vi/0vZvPtI5Uk8/mqdefault.jpg"
       }
     ]
   },
@@ -175,6 +264,15 @@
     "external_link": "https://www.imdb.com/title/tt1486217/",
     "image_link": "https://i.ytimg.com/sh/9pN22G6plt4DRzxbbhHy-g/market.jpg",
     "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/archer-margarita",
+        "episode_id": "archer-margarita",
+        "name": "Margaritas inspired by Archer",
+        "published_date": "2020-05-05T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=hsPXh3yna1U",
+        "official_link": "https://www.bingingwithbabish.com/recipes/archer-margarita",
+        "image_link": "https://img.youtube.com/vi/hsPXh3yna1U/mqdefault.jpg"
+      },
       {
         "self": "http://0.0.0.0:5000/episode/steak-au-poivre",
         "episode_id": "steak-au-poivre",
@@ -276,6 +374,35 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/285",
+    "reference_id": 285,
+    "type": null,
+    "name": "Avatar the Last Airbender",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/avatar-fire-flakes",
+        "episode_id": "avatar-fire-flakes",
+        "name": "Fire Flakes inspired by Avatar the Last Airbender",
+        "published_date": "2020-08-04T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=RhUMA3bCvAY",
+        "official_link": "https://www.bingingwithbabish.com/recipes/avatar-fire-flakes",
+        "image_link": "https://img.youtube.com/vi/RhUMA3bCvAY/mqdefault.jpg"
+      },
+      {
+        "self": "http://0.0.0.0:5000/episode/egg-custard-tarts",
+        "episode_id": "egg-custard-tarts",
+        "name": "Egg Custard Tarts inspired by Avatar the Last Airbender",
+        "published_date": "2020-01-08T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=F2ENkOF3fMQ",
+        "official_link": "https://www.bingingwithbabish.com/recipes/egg-custard-tarts",
+        "image_link": "https://img.youtube.com/vi/F2ENkOF3fMQ/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/16",
     "reference_id": 16,
     "type": "movie",
@@ -336,6 +463,26 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/236",
+    "reference_id": 236,
+    "type": null,
+    "name": "Beauty & the Beast",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/thegreystuff",
+        "episode_id": "thegreystuff",
+        "name": "The Grey Stuff & Other Hors d\u2019Oeuvres inspired by Beauty & the Beast",
+        "published_date": "2019-01-03T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=0TvBiF9S89Q",
+        "official_link": "https://www.bingingwithbabish.com/recipes/thegreystuff",
+        "image_link": "https://img.youtube.com/vi/0TvBiF9S89Q/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/111",
     "reference_id": 111,
     "type": "movie",
@@ -352,6 +499,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=PIsIE0oHGgo",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/2/20/il-timpano-inspired-by-big-night",
         "image_link": "https://img.youtube.com/vi/PIsIE0oHGgo/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/292",
+    "reference_id": 292,
+    "type": null,
+    "name": "Birds of Prey",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/bop-egg-sandwich",
+        "episode_id": "bop-egg-sandwich",
+        "name": "Egg Sandwich (with Homemade Ciabatta) inspired by Birds of Prey",
+        "published_date": "2020-02-25T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=6JFVKnrE_d8",
+        "official_link": "https://www.bingingwithbabish.com/recipes/bop-egg-sandwich",
+        "image_link": "https://img.youtube.com/vi/6JFVKnrE_d8/mqdefault.jpg"
       }
     ]
   },
@@ -432,6 +599,15 @@
     "image_link": "https://i.ytimg.com/sh/n4iyyrLWFRgZ-Hnzllkmhg/market.jpg",
     "episodes_inspired": [
       {
+        "self": "http://0.0.0.0:5000/episode/pollos-hermanos-breaking-bad",
+        "episode_id": "pollos-hermanos-breaking-bad",
+        "name": "Pollos Hermanos inspired by Breaking Bad",
+        "published_date": "2020-09-15T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=ndqjxhi7uZs",
+        "official_link": "https://www.bingingwithbabish.com/recipes/pollos-hermanos-breaking-bad",
+        "image_link": "https://img.youtube.com/vi/ndqjxhi7uZs/mqdefault.jpg"
+      },
+      {
         "self": "http://0.0.0.0:5000/episode/huevosrancheros",
         "episode_id": "huevosrancheros",
         "name": "Huevos Rancheros inspired by Breaking Bad",
@@ -461,6 +637,15 @@
     "image_link": "https://i.ytimg.com/sh/pWqd6_WigME9LOWjOdwh5w/market.jpg",
     "episodes_inspired": [
       {
+        "self": "http://0.0.0.0:5000/episode/croque-monsieur-brooklyn-nine-nine",
+        "episode_id": "croque-monsieur-brooklyn-nine-nine",
+        "name": "Croque Monsieur inspired by Brooklyn Nine-Nine",
+        "published_date": "2020-07-21T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=q7JDYiLz9Mo",
+        "official_link": "https://www.bingingwithbabish.com/recipes/croque-monsieur-brooklyn-nine-nine",
+        "image_link": "https://img.youtube.com/vi/q7JDYiLz9Mo/mqdefault.jpg"
+      },
+      {
         "self": "http://0.0.0.0:5000/episode/thesloppyjessica",
         "episode_id": "thesloppyjessica",
         "name": "The Sloppy Jessica inspired by Brooklyn Nine-Nine",
@@ -468,6 +653,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=KKoOIyhJwA4",
         "official_link": "https://www.bingingwithbabish.com/recipes/thesloppyjessica",
         "image_link": "https://img.youtube.com/vi/KKoOIyhJwA4/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/205",
+    "reference_id": 205,
+    "type": null,
+    "name": "Captain America: Civil War",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/chickenpaprikash",
+        "episode_id": "chickenpaprikash",
+        "name": "Chicken Paprikash inspired by Captain America: Civil War",
+        "published_date": "2018-04-24T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=baG767jr8c8",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/chickenpaprikash",
+        "image_link": "https://img.youtube.com/vi/baG767jr8c8/mqdefault.jpg"
       }
     ]
   },
@@ -588,6 +793,46 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/218",
+    "reference_id": 218,
+    "type": null,
+    "name": "Chef (and Princess and the Frog)",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/beignetsfromchef",
+        "episode_id": "beignetsfromchef",
+        "name": "Beignets inspired by Chef (and Princess and the Frog)",
+        "published_date": "2018-08-07T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=DnuHzHHwqAw",
+        "official_link": "https://www.bingingwithbabish.com/recipes/beignetsfromchef",
+        "image_link": "https://img.youtube.com/vi/DnuHzHHwqAw/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/196",
+    "reference_id": 196,
+    "type": null,
+    "name": "Chef with Jon Favreau and Roy Choi",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/chocolatelavacakes",
+        "episode_id": "chocolatelavacakes",
+        "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi",
+        "published_date": "2018-02-20T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/chocolatelavacakes",
+        "image_link": "https://img.youtube.com/vi/qbMTukAJskQ/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/112",
     "reference_id": 112,
     "type": "youtube_channel",
@@ -624,6 +869,35 @@
         "youtube_link": "https://www.youtube.com/watch?v=akA_Z9Xmnvc",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/tamalesfromcoco",
         "image_link": "https://img.youtube.com/vi/akA_Z9Xmnvc/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/303",
+    "reference_id": 303,
+    "type": null,
+    "name": "Community",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/butterednoodles-community",
+        "episode_id": "butterednoodles-community",
+        "name": "Buttered Noodles inspired by Community",
+        "published_date": "2020-05-26T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=xGHTj4y_bd8",
+        "official_link": "https://www.bingingwithbabish.com/recipes/butterednoodles-community",
+        "image_link": "https://img.youtube.com/vi/xGHTj4y_bd8/mqdefault.jpg"
+      },
+      {
+        "self": "http://0.0.0.0:5000/episode/troyscasserole-community",
+        "episode_id": "troyscasserole-community",
+        "name": "Troy's Casserole inspired by Community",
+        "published_date": "2020-05-20T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=mGZcg6A6FTg",
+        "official_link": "https://www.bingingwithbabish.com/recipes/troyscasserole-community",
+        "image_link": "https://img.youtube.com/vi/mGZcg6A6FTg/mqdefault.jpg"
       }
     ]
   },
@@ -708,6 +982,46 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/311",
+    "reference_id": 311,
+    "type": null,
+    "name": "Dexter",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/dexter-key-lime-pie",
+        "episode_id": "dexter-key-lime-pie",
+        "name": "Perfect Key Lime Pie inspired by Dexter",
+        "published_date": "2020-07-29T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=UOztOU4T-_c",
+        "official_link": "https://www.bingingwithbabish.com/recipes/dexter-key-lime-pie",
+        "image_link": "https://img.youtube.com/vi/UOztOU4T-_c/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/326",
+    "reference_id": 326,
+    "type": null,
+    "name": "Dexter's Laboratory",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/omelette-du-fromage-dexters-laboratory",
+        "episode_id": "omelette-du-fromage-dexters-laboratory",
+        "name": "Omelette du Fromage inspired by Dexter's Laboratory",
+        "published_date": "2020-11-17T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=8q8LsYbDCmM",
+        "official_link": "https://www.bingingwithbabish.com/recipes/omelette-du-fromage-dexters-laboratory",
+        "image_link": "https://img.youtube.com/vi/8q8LsYbDCmM/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/26",
     "reference_id": 26,
     "type": "movie",
@@ -768,6 +1082,26 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/288",
+    "reference_id": 288,
+    "type": null,
+    "name": "Everybody Loves Raymond",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/braciole",
+        "episode_id": "braciole",
+        "name": "Braciole inspired by Everybody Loves Raymond",
+        "published_date": "2020-01-30T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=1inpwA-_PzQ",
+        "official_link": "https://www.bingingwithbabish.com/recipes/braciole",
+        "image_link": "https://img.youtube.com/vi/1inpwA-_PzQ/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/45",
     "reference_id": 45,
     "type": "tv_show",
@@ -793,6 +1127,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=4Rz8BPRFeiA",
         "official_link": "https://www.bingingwithbabish.com/recipes/carpanini",
         "image_link": "https://img.youtube.com/vi/4Rz8BPRFeiA/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/199",
+    "reference_id": 199,
+    "type": null,
+    "name": "Food Wars!: Shokugeki no Soma",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/pineapplecurryfriedrice",
+        "episode_id": "pineapplecurryfriedrice",
+        "name": "Pineapple-Curry Fried Rice inspired by Food Wars!: Shokugeki no Soma",
+        "published_date": "2018-03-13T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=WRA3a7c4Qt4",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/pineapplecurryfriedrice",
+        "image_link": "https://img.youtube.com/vi/WRA3a7c4Qt4/mqdefault.jpg"
       }
     ]
   },
@@ -842,6 +1196,46 @@
         "youtube_link": "https://www.youtube.com/watch?v=6HBPHRDEt_Q",
         "official_link": "https://www.bingingwithbabish.com/recipes/forrestgumpshrimp",
         "image_link": "https://img.youtube.com/vi/6HBPHRDEt_Q/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/214",
+    "reference_id": 214,
+    "type": null,
+    "name": "Forrest Gump | Part 1",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/forrestgumpshrimp",
+        "episode_id": "forrestgumpshrimp",
+        "name": "Shrimp inspired by Forrest Gump | Part 1",
+        "published_date": "2018-07-03T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=6HBPHRDEt_Q",
+        "official_link": "https://www.bingingwithbabish.com/recipes/forrestgumpshrimp",
+        "image_link": "https://img.youtube.com/vi/6HBPHRDEt_Q/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/252",
+    "reference_id": 252,
+    "type": null,
+    "name": "Forrest Gump Part II",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/bubbashrimp2",
+        "episode_id": "bubbashrimp2",
+        "name": "Shrimp inspired by Forrest Gump Part II",
+        "published_date": "2019-04-23T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=mF6JUfczaO8",
+        "official_link": "https://www.bingingwithbabish.com/recipes/bubbashrimp2",
+        "image_link": "https://img.youtube.com/vi/mF6JUfczaO8/mqdefault.jpg"
       }
     ]
   },
@@ -912,6 +1306,15 @@
     "external_link": "https://www.imdb.com/title/tt0108778/",
     "image_link": "https://i.ytimg.com/sh/SnTDhFDmcbB3lkFWrIi8MA/market.jpg",
     "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/monicas-candy-friends",
+        "episode_id": "monicas-candy-friends",
+        "name": "Monica's Candy inspired by Friends",
+        "published_date": "2020-12-15T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=bK0NdaDOsG0",
+        "official_link": "https://www.bingingwithbabish.com/recipes/monicas-candy-friends",
+        "image_link": "https://img.youtube.com/vi/bK0NdaDOsG0/mqdefault.jpg"
+      },
       {
         "self": "http://0.0.0.0:5000/episode/parmhero",
         "episode_id": "parmhero",
@@ -998,6 +1401,26 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/225",
+    "reference_id": 225,
+    "type": null,
+    "name": "Game of Thrones (feat. Maisie Williams)",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/direwolfbread",
+        "episode_id": "direwolfbread",
+        "name": "Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)",
+        "published_date": "2018-09-25T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=6nuEgc2RVWo",
+        "official_link": "https://www.bingingwithbabish.com/recipes/direwolfbread",
+        "image_link": "https://img.youtube.com/vi/6nuEgc2RVWo/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/64",
     "reference_id": 64,
     "type": "movie",
@@ -1005,6 +1428,26 @@
     "description": "Jon Arbuckle buys a second pet, a dog named Odie. However, Odie is then abducted and it is up to Jon's cat, Garfield, to find and rescue the canine. IMDb.",
     "external_link": "https://www.imdb.com/title/tt0356634/",
     "image_link": "https://img.youtube.com/vi/ggBf8_YhQVU/mqdefault.jpg",
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/lasagna",
+        "episode_id": "lasagna",
+        "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)",
+        "published_date": "2018-03-27T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna",
+        "image_link": "https://img.youtube.com/vi/TkWmK-cplV4/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/201",
+    "reference_id": 201,
+    "type": null,
+    "name": "Garfield (feat. It's Alive with Brad)",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
     "episodes_inspired": [
       {
         "self": "http://0.0.0.0:5000/episode/lasagna",
@@ -1098,6 +1541,26 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/266",
+    "reference_id": 266,
+    "type": null,
+    "name": "Harold & Kumar",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/whitecastlesliders",
+        "episode_id": "whitecastlesliders",
+        "name": "White Castle sliders inspired by Harold & Kumar",
+        "published_date": "2019-08-13T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=pTk9HnIwEYU",
+        "official_link": "https://www.bingingwithbabish.com/recipes/whitecastlesliders",
+        "image_link": "https://img.youtube.com/vi/pTk9HnIwEYU/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/2",
     "reference_id": 2,
     "type": "movie",
@@ -1134,6 +1597,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=LXDAu8DnALw",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/harrypotterspecial",
         "image_link": "https://img.youtube.com/vi/LXDAu8DnALw/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/297",
+    "reference_id": 297,
+    "type": null,
+    "name": "Hook",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/imaginary-pie-hook",
+        "episode_id": "imaginary-pie-hook",
+        "name": "Imaginary Pie inspired by Hook",
+        "published_date": "2020-03-31T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=lZsun7ppDeQ",
+        "official_link": "https://www.bingingwithbabish.com/recipes/imaginary-pie-hook",
+        "image_link": "https://img.youtube.com/vi/lZsun7ppDeQ/mqdefault.jpg"
       }
     ]
   },
@@ -1192,6 +1675,35 @@
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special",
         "image_link": "https://img.youtube.com/vi/v5tJBLfeurU/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/269",
+    "reference_id": 269,
+    "type": null,
+    "name": "How I Met Your Mother",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/turturkeykey",
+        "episode_id": "turturkeykey",
+        "name": "Turturkeykey inspired by How I Met Your Mother",
+        "published_date": "2019-11-26T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=FWQKc6idm64",
+        "official_link": "https://www.bingingwithbabish.com/recipes/turturkeykey",
+        "image_link": "https://img.youtube.com/vi/FWQKc6idm64/mqdefault.jpg"
+      },
+      {
+        "self": "http://0.0.0.0:5000/episode/sumbitches",
+        "episode_id": "sumbitches",
+        "name": "Sumbitches and Peanut Butter Cookies inspired by How I Met Your Mother",
+        "published_date": "2019-09-04T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=i9MMCCd-MSI",
+        "official_link": "https://www.bingingwithbabish.com/recipes/sumbitches",
+        "image_link": "https://img.youtube.com/vi/i9MMCCd-MSI/mqdefault.jpg"
       }
     ]
   },
@@ -1345,6 +1857,46 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/228",
+    "reference_id": 228,
+    "type": null,
+    "name": "Jim Gaffigan's Stand Up (sort of)",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/cinnamonrolls",
+        "episode_id": "cinnamonrolls",
+        "name": "Cinnamon Rolls inspired by Jim Gaffigan's Stand Up (sort of)",
+        "published_date": "2018-10-23T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=jFYi2QRVFOc",
+        "official_link": "https://www.bingingwithbabish.com/recipes/cinnamonrolls",
+        "image_link": "https://img.youtube.com/vi/jFYi2QRVFOc/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/300",
+    "reference_id": 300,
+    "type": null,
+    "name": "Jojo's Bizarre Adventure",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/homemade-mozzarella",
+        "episode_id": "homemade-mozzarella",
+        "name": "Caprese Salad inspired by Jojo's Bizarre Adventure",
+        "published_date": "2020-04-21T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=Ao7RQj8sxuo",
+        "official_link": "https://www.bingingwithbabish.com/recipes/homemade-mozzarella",
+        "image_link": "https://img.youtube.com/vi/Ao7RQj8sxuo/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/5",
     "reference_id": 5,
     "type": "tv_show",
@@ -1385,6 +1937,26 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/160",
+    "reference_id": 160,
+    "type": null,
+    "name": "Julie & Julia",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/boeufbourguignon",
+        "episode_id": "boeufbourguignon",
+        "name": "Boeuf Bourguignon from Julie & Julia",
+        "published_date": "2017-04-27T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=8DCw_eR_iPA",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/29/boeufbourguignon",
+        "image_link": "https://img.youtube.com/vi/8DCw_eR_iPA/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/31",
     "reference_id": 31,
     "type": "movie",
@@ -1401,6 +1973,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=p73kqpqGqqQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/chileanseabass",
         "image_link": "https://img.youtube.com/vi/p73kqpqGqqQ/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/296",
+    "reference_id": 296,
+    "type": null,
+    "name": "Kenan & Kel",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/cold-cure",
+        "episode_id": "cold-cure",
+        "name": "Cold Cure inspired by Kenan & Kel",
+        "published_date": "2020-03-24T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=M-7t9FBecoU",
+        "official_link": "https://www.bingingwithbabish.com/recipes/cold-cure",
+        "image_link": "https://img.youtube.com/vi/M-7t9FBecoU/mqdefault.jpg"
       }
     ]
   },
@@ -1505,6 +2097,86 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/211",
+    "reference_id": 211,
+    "type": null,
+    "name": "Lemony Snicket's A Series of Unfortunate Events",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/pastaputtanesca",
+        "episode_id": "pastaputtanesca",
+        "name": "Pasta Puttanesca inspired by Lemony Snicket's A Series of Unfortunate Events",
+        "published_date": "2018-06-12T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=uwV9cq9DRTY",
+        "official_link": "https://www.bingingwithbabish.com/recipes/pastaputtanesca",
+        "image_link": "https://img.youtube.com/vi/uwV9cq9DRTY/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/308",
+    "reference_id": 308,
+    "type": null,
+    "name": "Lord of the Rings",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/lotr-feast-special",
+        "episode_id": "lotr-feast-special",
+        "name": "LOTR 7 Million Subscriber Special inspired by Lord of the Rings",
+        "published_date": "2020-07-13T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=-aFrFsn998o",
+        "official_link": "https://www.bingingwithbabish.com/recipes/lotr-feast-special",
+        "image_link": "https://img.youtube.com/vi/-aFrFsn998o/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/195",
+    "reference_id": 195,
+    "type": null,
+    "name": "Lots of Stuff",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/egginanest",
+        "episode_id": "egginanest",
+        "name": "Eggs in a Nest inspired by Lots of Stuff",
+        "published_date": "2018-01-30T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=4QDDxmtbUsw",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/egginanest",
+        "image_link": "https://img.youtube.com/vi/4QDDxmtbUsw/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/200",
+    "reference_id": 200,
+    "type": null,
+    "name": "Lots of Things",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/parmhero",
+        "episode_id": "parmhero",
+        "name": "Parm Heros inspired by Lots of Things",
+        "published_date": "2018-03-20T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=DkiyT-dnmv8",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/parmhero",
+        "image_link": "https://img.youtube.com/vi/DkiyT-dnmv8/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/110",
     "reference_id": 110,
     "type": "tv_show",
@@ -1521,6 +2193,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=7UEIBdMyj9g",
         "official_link": "https://www.bingingwithbabish.com/recipes/2016/3/16/louiefriedchicken",
         "image_link": "https://img.youtube.com/vi/7UEIBdMyj9g/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/284",
+    "reference_id": 284,
+    "type": null,
+    "name": "Love, Actually",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/banoffeepie",
+        "episode_id": "banoffeepie",
+        "name": "Banoffee Pie inspired by Love, Actually",
+        "published_date": "2019-12-27T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=TNTKRj2lS1g",
+        "official_link": "https://www.bingingwithbabish.com/recipes/banoffeepie",
+        "image_link": "https://img.youtube.com/vi/TNTKRj2lS1g/mqdefault.jpg"
       }
     ]
   },
@@ -1794,6 +2486,26 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/289",
+    "reference_id": 289,
+    "type": null,
+    "name": "Once Upon a Time in Hollywood",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/instant-mac-cheese",
+        "episode_id": "instant-mac-cheese",
+        "name": "Instant Mac and Cheese inspired by Once Upon a Time in Hollywood",
+        "published_date": "2020-02-04T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=EuU_uUb_3nQ",
+        "official_link": "https://www.bingingwithbabish.com/recipes/instant-mac-cheese",
+        "image_link": "https://img.youtube.com/vi/EuU_uUb_3nQ/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/86",
     "reference_id": 86,
     "type": "movie",
@@ -1810,6 +2522,66 @@
         "youtube_link": "https://www.youtube.com/watch?v=5_sdhAFGmbw",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/08/puerco-pibil",
         "image_link": "https://img.youtube.com/vi/5_sdhAFGmbw/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/287",
+    "reference_id": 287,
+    "type": null,
+    "name": "Paddington",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/marmalade",
+        "episode_id": "marmalade",
+        "name": "Marmalade Sandwiches inspired by Paddington",
+        "published_date": "2020-01-23T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=g1j-5UkZyL0",
+        "official_link": "https://www.bingingwithbabish.com/recipes/marmalade",
+        "image_link": "https://img.youtube.com/vi/g1j-5UkZyL0/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/291",
+    "reference_id": 291,
+    "type": null,
+    "name": "Parasite",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/ram-don-parasite",
+        "episode_id": "ram-don-parasite",
+        "name": "Ram-don inspired by Parasite",
+        "published_date": "2020-02-20T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=ge4vghXQTtQ",
+        "official_link": "https://www.bingingwithbabish.com/recipes/ram-don-parasite",
+        "image_link": "https://img.youtube.com/vi/ge4vghXQTtQ/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/294",
+    "reference_id": 294,
+    "type": null,
+    "name": "Parks and Rec",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/turf-n-turf",
+        "episode_id": "turf-n-turf",
+        "name": "Turf n' Turf inspired by Parks and Rec",
+        "published_date": "2020-03-11T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=peLPVIGFaz0",
+        "official_link": "https://www.bingingwithbabish.com/recipes/turf-n-turf",
+        "image_link": "https://img.youtube.com/vi/peLPVIGFaz0/mqdefault.jpg"
       }
     ]
   },
@@ -1839,6 +2611,53 @@
         "youtube_link": "https://www.youtube.com/watch?v=MP_nWuLYpJw",
         "official_link": "https://www.bingingwithbabish.com/recipes/parksandrecburger",
         "image_link": "https://img.youtube.com/vi/MP_nWuLYpJw/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/299",
+    "reference_id": 299,
+    "type": null,
+    "name": "Parks & Rec",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/meat-tornado-parks-and-rec",
+        "episode_id": "meat-tornado-parks-and-rec",
+        "name": "Meat Tornado inspired by Parks & Rec ",
+        "published_date": "2020-08-25T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=LsNg-KrFxCA",
+        "official_link": "https://www.bingingwithbabish.com/recipes/meat-tornado-parks-and-rec",
+        "image_link": "https://img.youtube.com/vi/LsNg-KrFxCA/mqdefault.jpg"
+      },
+      {
+        "self": "http://0.0.0.0:5000/episode/four-horsemeal-eggporkalypse-parks-and-rec",
+        "episode_id": "four-horsemeal-eggporkalypse-parks-and-rec",
+        "name": "Four Horsemeals of the Eggporkalypse inspired by Parks & Rec ",
+        "published_date": "2020-08-18T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=NWGVFi-213w",
+        "official_link": "https://www.bingingwithbabish.com/recipes/four-horsemeal-eggporkalypse-parks-and-rec",
+        "image_link": "https://img.youtube.com/vi/NWGVFi-213w/mqdefault.jpg"
+      },
+      {
+        "self": "http://0.0.0.0:5000/episode/paunch-burger-parks-and-rec",
+        "episode_id": "paunch-burger-parks-and-rec",
+        "name": "Paunch Burger inspired by Parks & Rec",
+        "published_date": "2020-08-12T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=RN8uoBwRr1k",
+        "official_link": "https://www.bingingwithbabish.com/recipes/paunch-burger-parks-and-rec",
+        "image_link": "https://img.youtube.com/vi/RN8uoBwRr1k/mqdefault.jpg"
+      },
+      {
+        "self": "http://0.0.0.0:5000/episode/ben-wyatt-calzones",
+        "episode_id": "ben-wyatt-calzones",
+        "name": "Calzones inspired by Parks & Rec",
+        "published_date": "2020-04-15T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=PvgCEifW7Jo",
+        "official_link": "https://www.bingingwithbabish.com/recipes/ben-wyatt-calzones",
+        "image_link": "https://img.youtube.com/vi/PvgCEifW7Jo/mqdefault.jpg"
       }
     ]
   },
@@ -2021,6 +2840,46 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/156",
+    "reference_id": 156,
+    "type": null,
+    "name": "Ratatouille",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/ratatouille",
+        "episode_id": "ratatouille",
+        "name": "Confit Byaldi inspired by Ratatouille",
+        "published_date": "2017-03-02T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=roCX0AfBseQ",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/5/ratatouille",
+        "image_link": "https://img.youtube.com/vi/roCX0AfBseQ/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/180",
+    "reference_id": 180,
+    "type": null,
+    "name": "Real Sample!)",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/szechuansaucerevisited",
+        "episode_id": "szechuansaucerevisited",
+        "name": "Szechuan Sauce Revisited (From Real Sample!)",
+        "published_date": "2017-09-12T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=lhc_bXGvmp0",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/29/szechuansaucerevisited",
+        "image_link": "https://img.youtube.com/vi/lhc_bXGvmp0/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/34",
     "reference_id": 34,
     "type": "video_game",
@@ -2049,6 +2908,15 @@
     "external_link": "https://www.imdb.com/title/tt1710308/",
     "image_link": "https://i.ytimg.com/sh/ySdGZtRK67xmuBIbN5d65w/market.jpg",
     "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/regular-show-mississippi-queen",
+        "episode_id": "regular-show-mississippi-queen",
+        "name": "Mississippi Queen inspired by Regular Show",
+        "published_date": "2020-10-20T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=KV-SUOpW408",
+        "official_link": "https://www.bingingwithbabish.com/recipes/regular-show-mississippi-queen",
+        "image_link": "https://img.youtube.com/vi/KV-SUOpW408/mqdefault.jpg"
+      },
       {
         "self": "http://0.0.0.0:5000/episode/applefritters",
         "episode_id": "applefritters",
@@ -2115,6 +2983,26 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/193",
+    "reference_id": 193,
+    "type": null,
+    "name": "Regular Show: 2 Million Subscriber Special",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/everymeatburrito",
+        "episode_id": "everymeatburrito",
+        "name": "The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special",
+        "published_date": "2018-01-16T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=Mf4wwXM2o_M",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/everymeatburrito",
+        "image_link": "https://img.youtube.com/vi/Mf4wwXM2o_M/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/83",
     "reference_id": 83,
     "type": "tv_show",
@@ -2144,6 +3032,46 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/302",
+    "reference_id": 302,
+    "type": null,
+    "name": "Rick & Morty",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/lilbits-rickandmorty",
+        "episode_id": "lilbits-rickandmorty",
+        "name": "Lil' Bits inspired by Rick & Morty",
+        "published_date": "2020-05-12T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=BxEDztBWdbc",
+        "official_link": "https://www.bingingwithbabish.com/recipes/lilbits-rickandmorty",
+        "image_link": "https://img.youtube.com/vi/BxEDztBWdbc/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/293",
+    "reference_id": 293,
+    "type": null,
+    "name": "Rugrats",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/chocolate-pudding-rugrats",
+        "episode_id": "chocolate-pudding-rugrats",
+        "name": "Chocolate Pudding (4 Ways) inspired by Rugrats",
+        "published_date": "2020-03-03T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=1lPU4CwSnTc",
+        "official_link": "https://www.bingingwithbabish.com/recipes/chocolate-pudding-rugrats",
+        "image_link": "https://img.youtube.com/vi/1lPU4CwSnTc/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/89",
     "reference_id": 89,
     "type": "tv_show",
@@ -2153,6 +3081,15 @@
     "image_link": "https://i.ytimg.com/sh/t5sPe62DPS-vj8-cYU12hQ/market.jpg",
     "episodes_inspired": [
       {
+        "self": "http://0.0.0.0:5000/episode/snl-overnight-salad",
+        "episode_id": "snl-overnight-salad",
+        "name": "Overnight Salad inspired by Saturday Night Live",
+        "published_date": "2020-12-29T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=Z5zEocd3u9w",
+        "official_link": "https://www.bingingwithbabish.com/recipes/snl-overnight-salad",
+        "image_link": "https://img.youtube.com/vi/Z5zEocd3u9w/mqdefault.jpg"
+      },
+      {
         "self": "http://0.0.0.0:5000/episode/taco-town",
         "episode_id": "taco-town",
         "name": "Taco Town 15-Flavor Taco inspired by SNL",
@@ -2160,6 +3097,46 @@
         "youtube_link": "https://www.youtube.com/watch?v=UvIkojfQDxA",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/18/taco-town",
         "image_link": "https://img.youtube.com/vi/UvIkojfQDxA/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/316",
+    "reference_id": 316,
+    "type": null,
+    "name": "Schitt's Creek",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/enchiladas-schitts-creek",
+        "episode_id": "enchiladas-schitts-creek",
+        "name": "Enchiladas inspired by Schitt's Creek",
+        "published_date": "2020-09-09T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=SkKjQhCTP54",
+        "official_link": "https://www.bingingwithbabish.com/recipes/enchiladas-schitts-creek",
+        "image_link": "https://img.youtube.com/vi/SkKjQhCTP54/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/320",
+    "reference_id": 320,
+    "type": null,
+    "name": "Scott Pilgrim vs the World",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/garlic-bread-scott-pilgrim",
+        "episode_id": "garlic-bread-scott-pilgrim",
+        "name": "Garlic Bread inspired by Scott Pilgrim vs the World",
+        "published_date": "2020-10-06T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=jBnWZijMbMY",
+        "official_link": "https://www.bingingwithbabish.com/recipes/garlic-bread-scott-pilgrim",
+        "image_link": "https://img.youtube.com/vi/jBnWZijMbMY/mqdefault.jpg"
       }
     ]
   },
@@ -2207,6 +3184,46 @@
         "youtube_link": "https://www.youtube.com/watch?v=pw2A03Z91FI",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/9/wild-mushroom-soup-inspired-by-seinfeld",
         "image_link": "https://img.youtube.com/vi/pw2A03Z91FI/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/306",
+    "reference_id": 306,
+    "type": null,
+    "name": "Skyrim",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/sweetrolls-skyrim",
+        "episode_id": "sweetrolls-skyrim",
+        "name": "Sweetrolls inspired by Skyrim",
+        "published_date": "2020-06-18T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=98R3fgPKmYs",
+        "official_link": "https://www.bingingwithbabish.com/recipes/sweetrolls-skyrim",
+        "image_link": "https://img.youtube.com/vi/98R3fgPKmYs/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/173",
+    "reference_id": 173,
+    "type": null,
+    "name": "SNL",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/taco-town",
+        "episode_id": "taco-town",
+        "name": "Taco Town 15-Flavor Taco inspired by SNL",
+        "published_date": "2017-07-18T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=UvIkojfQDxA",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/18/taco-town",
+        "image_link": "https://img.youtube.com/vi/UvIkojfQDxA/mqdefault.jpg"
       }
     ]
   },
@@ -2280,6 +3297,15 @@
     "image_link": "https://i.ytimg.com/sh/xB1Tyy4zaK76gp2bG6-WKw/market.jpg",
     "episodes_inspired": [
       {
+        "self": "http://0.0.0.0:5000/episode/triple-gooberberry-sunrise-spongebob-squarespace",
+        "episode_id": "triple-gooberberry-sunrise-spongebob-squarespace",
+        "name": "Triple Gooberberry Sunrise inspired by Spongebob Squarepants",
+        "published_date": "2020-09-22T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=Gso2WrBcV2Q",
+        "official_link": "https://www.bingingwithbabish.com/recipes/triple-gooberberry-sunrise-spongebob-squarespace",
+        "image_link": "https://img.youtube.com/vi/Gso2WrBcV2Q/mqdefault.jpg"
+      },
+      {
         "self": "http://0.0.0.0:5000/episode/krabbysupreme",
         "episode_id": "krabbysupreme",
         "name": "Krabby Supreme inspired by Spongebob Squarepants",
@@ -2327,6 +3353,55 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/310",
+    "reference_id": 310,
+    "type": null,
+    "name": "SpongeBob Squarepants",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/sundae-spongebob",
+        "episode_id": "sundae-spongebob",
+        "name": "Bad Breath Sundae inspired by SpongeBob Squarepants",
+        "published_date": "2020-07-21T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=Ya2_Khcdwsk",
+        "official_link": "https://www.bingingwithbabish.com/recipes/sundae-spongebob",
+        "image_link": "https://img.youtube.com/vi/Ya2_Khcdwsk/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/165",
+    "reference_id": 165,
+    "type": null,
+    "name": "SpongeBob SquarePants",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/3daypotatosalad",
+        "episode_id": "3daypotatosalad",
+        "name": "3-Day Potato Salad inspired by SpongeBob SquarePants",
+        "published_date": "2018-12-04T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=5Ugrgl9tB2s",
+        "official_link": "https://www.bingingwithbabish.com/recipes/3daypotatosalad",
+        "image_link": "https://img.youtube.com/vi/5Ugrgl9tB2s/mqdefault.jpg"
+      },
+      {
+        "self": "http://0.0.0.0:5000/episode/krabby-patty-inspired-by-spongebob-squarepants",
+        "episode_id": "krabby-patty-inspired-by-spongebob-squarepants",
+        "name": "Krabby Patty inspired by SpongeBob SquarePants",
+        "published_date": "2017-05-31T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=7EnWiGYT1g4",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/31/krabby-patty-inspired-by-spongebob-squarepants",
+        "image_link": "https://img.youtube.com/vi/7EnWiGYT1g4/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/116",
     "reference_id": 116,
     "type": "movie",
@@ -2347,6 +3422,26 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/295",
+    "reference_id": 295,
+    "type": null,
+    "name": "Star Trek: Picard",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/bunnicorn-pizza",
+        "episode_id": "bunnicorn-pizza",
+        "name": "Bunnicorn Pizza inspired by Star Trek: Picard",
+        "published_date": "2020-03-17T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=2a8Uz3pYTh4",
+        "official_link": "https://www.bingingwithbabish.com/recipes/bunnicorn-pizza",
+        "image_link": "https://img.youtube.com/vi/2a8Uz3pYTh4/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/6",
     "reference_id": 6,
     "type": "tv_show",
@@ -2355,6 +3450,15 @@
     "external_link": "https://www.imdb.com/title/tt3061046/",
     "image_link": "https://i.ytimg.com/sh/ofmKD13ObSYXEV-HkjVTGQ/market.jpg",
     "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/restaurant-wars-steven-universe",
+        "episode_id": "restaurant-wars-steven-universe",
+        "name": "Restaurant Wars inspired by Steven Universe",
+        "published_date": "2020-10-14T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=J2eU4Ol3IDU",
+        "official_link": "https://www.bingingwithbabish.com/recipes/restaurant-wars-steven-universe",
+        "image_link": "https://img.youtube.com/vi/J2eU4Ol3IDU/mqdefault.jpg"
+      },
       {
         "self": "http://0.0.0.0:5000/episode/bagelsandwiches",
         "episode_id": "bagelsandwiches",
@@ -2445,6 +3549,46 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/216",
+    "reference_id": 216,
+    "type": null,
+    "name": "Sweetness & Lightning",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/okonomiyaki",
+        "episode_id": "okonomiyaki",
+        "name": "Okonomiyaki inspired by Sweetness & Lightning",
+        "published_date": "2018-07-17T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=DNg7Obo-DDM",
+        "official_link": "https://www.bingingwithbabish.com/recipes/okonomiyaki",
+        "image_link": "https://img.youtube.com/vi/DNg7Obo-DDM/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/275",
+    "reference_id": 275,
+    "type": null,
+    "name": "Talladega Nights",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/crepessuzette",
+        "episode_id": "crepessuzette",
+        "name": "Cr\u00eapes Suzette inspired by Talladega Nights",
+        "published_date": "2019-10-24T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=Z1kR6SIr1XA",
+        "official_link": "https://www.bingingwithbabish.com/recipes/crepessuzette",
+        "image_link": "https://img.youtube.com/vi/Z1kR6SIr1XA/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/137",
     "reference_id": 137,
     "type": "movie",
@@ -2521,6 +3665,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=zNY-qzp7pD0",
         "official_link": "https://www.bingingwithbabish.com/recipes/aristocats",
         "image_link": "https://img.youtube.com/vi/zNY-qzp7pD0/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/203",
+    "reference_id": 203,
+    "type": null,
+    "name": "The Avengers",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/shawarma",
+        "episode_id": "shawarma",
+        "name": "Shawarma inspired by The Avengers",
+        "published_date": "2018-04-10T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=iErqWGwso7o",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/shawarma",
+        "image_link": "https://img.youtube.com/vi/iErqWGwso7o/mqdefault.jpg"
       }
     ]
   },
@@ -2694,6 +3858,26 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/277",
+    "reference_id": 277,
+    "type": null,
+    "name": "The Good Place (plus Naco Redemption)",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/nachos",
+        "episode_id": "nachos",
+        "name": "Nachos inspired by The Good Place (plus Naco Redemption)",
+        "published_date": "2019-11-07T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=LgzudBvmd08",
+        "official_link": "https://www.bingingwithbabish.com/recipes/nachos",
+        "image_link": "https://img.youtube.com/vi/LgzudBvmd08/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/141",
     "reference_id": 141,
     "type": "movie",
@@ -2743,6 +3927,15 @@
     "image_link": "https://img.youtube.com/vi/aOC8E8z_ifw/mqdefault.jpg",
     "episodes_inspired": [
       {
+        "self": "http://0.0.0.0:5000/episode/macarons-the-mandalorian",
+        "episode_id": "macarons-the-mandalorian",
+        "name": "Macarons inspired by The Mandalorian",
+        "published_date": "2020-12-01T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=IGS0JouUgjM",
+        "official_link": "https://www.bingingwithbabish.com/recipes/macarons-the-mandalorian",
+        "image_link": "https://img.youtube.com/vi/IGS0JouUgjM/mqdefault.jpg"
+      },
+      {
         "self": "http://0.0.0.0:5000/episode/bone-broth",
         "episode_id": "bone-broth",
         "name": "Bone Broth inspired by The Mandalorian",
@@ -2750,6 +3943,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=6GHwG1y-NE0",
         "official_link": "https://www.bingingwithbabish.com/recipes/bone-broth",
         "image_link": "https://img.youtube.com/vi/6GHwG1y-NE0/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/298",
+    "reference_id": 298,
+    "type": null,
+    "name": "The Marvelous Mrs. Maisel",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/maisel-brisket",
+        "episode_id": "maisel-brisket",
+        "name": "Brisket inspired by The Marvelous Mrs. Maisel",
+        "published_date": "2020-04-08T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=TutmnWa6dVo",
+        "official_link": "https://www.bingingwithbabish.com/recipes/maisel-brisket",
+        "image_link": "https://img.youtube.com/vi/TutmnWa6dVo/mqdefault.jpg"
       }
     ]
   },
@@ -2852,6 +4065,26 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/187",
+    "reference_id": 187,
+    "type": null,
+    "name": "The Place Beyond The Pines (sort of)",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/garbageplate",
+        "episode_id": "garbageplate",
+        "name": "The Garbage Plate inspired by The Place Beyond The Pines (sort of)",
+        "published_date": "2017-11-28T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=wjoeVwJTUTA",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/garbageplate",
+        "image_link": "https://img.youtube.com/vi/wjoeVwJTUTA/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/48",
     "reference_id": 48,
     "type": "movie",
@@ -2868,6 +4101,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=DnuHzHHwqAw",
         "official_link": "https://www.bingingwithbabish.com/recipes/beignetsfromchef",
         "image_link": "https://img.youtube.com/vi/DnuHzHHwqAw/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/330",
+    "reference_id": 330,
+    "type": null,
+    "name": "the Santa Clause",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/judys-hot-cocoa-santa-clause",
+        "episode_id": "judys-hot-cocoa-santa-clause",
+        "name": "Judy's Hot Cocoa inspired by the Santa Clause",
+        "published_date": "2020-12-22T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=rBYd_O38Ncw",
+        "official_link": "https://www.bingingwithbabish.com/recipes/judys-hot-cocoa-santa-clause",
+        "image_link": "https://img.youtube.com/vi/rBYd_O38Ncw/mqdefault.jpg"
       }
     ]
   },
@@ -2900,6 +4153,15 @@
     "external_link": "https://www.imdb.com/title/tt0096697/",
     "image_link": "https://i.ytimg.com/sh/g0CHYnadWiJf0SZUHuk7Eg/market.jpg",
     "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/dessertdogs",
+        "episode_id": "dessertdogs",
+        "name": "Dessert Dogs inspired by The Simpsons",
+        "published_date": "2020-01-15T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=chil75Ip-3w",
+        "official_link": "https://www.bingingwithbabish.com/recipes/dessertdogs",
+        "image_link": "https://img.youtube.com/vi/chil75Ip-3w/mqdefault.jpg"
+      },
       {
         "self": "http://0.0.0.0:5000/episode/5mill-special",
         "episode_id": "5mill-special",
@@ -3066,6 +4328,26 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/145",
+    "reference_id": 145,
+    "type": null,
+    "name": "TMNT II: Secret of the Ooze",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/nypizzatmnt",
+        "episode_id": "nypizzatmnt",
+        "name": "New York-Style Pizza inspired by TMNT II: Secret of the Ooze",
+        "published_date": "2016-04-30T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=KUu2gJn1dzc",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/16/nypizzatmnt",
+        "image_link": "https://img.youtube.com/vi/KUu2gJn1dzc/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/117",
     "reference_id": 117,
     "type": "movie",
@@ -3095,6 +4377,15 @@
     "image_link": "https://i.ytimg.com/sh/U33rt1ck1Pvgm2dv5g-2dw/market.jpg",
     "episodes_inspired": [
       {
+        "self": "http://0.0.0.0:5000/episode/brie-butter-baguette-twin-peaks",
+        "episode_id": "brie-butter-baguette-twin-peaks",
+        "name": "Brie & Butter Baguette inspired by Twin Peaks",
+        "published_date": "2020-11-03T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=vWdjqdmFHxw",
+        "official_link": "https://www.bingingwithbabish.com/recipes/brie-butter-baguette-twin-peaks",
+        "image_link": "https://img.youtube.com/vi/vWdjqdmFHxw/mqdefault.jpg"
+      },
+      {
         "self": "http://0.0.0.0:5000/episode/buttermilk-pancakes-inspired-by-twin-peaks",
         "episode_id": "buttermilk-pancakes-inspired-by-twin-peaks",
         "name": "Buttermilk Pancakes inspired by Twin Peaks",
@@ -3111,6 +4402,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=-Vy12e0LjX4",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/applepie",
         "image_link": "https://img.youtube.com/vi/-Vy12e0LjX4/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/328",
+    "reference_id": 328,
+    "type": null,
+    "name": "Twister",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/steak-eggs-gravy-twister",
+        "episode_id": "steak-eggs-gravy-twister",
+        "name": "Steak, Eggs and Gravy inspired by Twister",
+        "published_date": "2020-12-08T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=ztl0gGVFoK0",
+        "official_link": "https://www.bingingwithbabish.com/recipes/steak-eggs-gravy-twister",
+        "image_link": "https://img.youtube.com/vi/ztl0gGVFoK0/mqdefault.jpg"
       }
     ]
   },
@@ -3175,6 +4486,46 @@
     ]
   },
   {
+    "self": "http://0.0.0.0:5000/reference/307",
+    "reference_id": 307,
+    "type": null,
+    "name": "Weird Al's UHF",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/twinkie-weiner-sandwich",
+        "episode_id": "twinkie-weiner-sandwich",
+        "name": "Twinkie Weiner Sandwich inspired by Weird Al's UHF",
+        "published_date": "2020-06-24T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=jKslWoZXvn0",
+        "official_link": "https://www.bingingwithbabish.com/recipes/twinkie-weiner-sandwich",
+        "image_link": "https://img.youtube.com/vi/jKslWoZXvn0/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/305",
+    "reference_id": 305,
+    "type": null,
+    "name": "When Harry Met Sally",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/pastrami",
+        "episode_id": "pastrami",
+        "name": "Pastrami inspired by When Harry Met Sally",
+        "published_date": "2020-06-09T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=hFeDKLt4P-Y",
+        "official_link": "https://www.bingingwithbabish.com/recipes/pastrami",
+        "image_link": "https://img.youtube.com/vi/hFeDKLt4P-Y/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "http://0.0.0.0:5000/reference/82",
     "reference_id": 82,
     "type": "movie",
@@ -3191,6 +4542,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=FoztKuXEYnQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/raisinets",
         "image_link": "https://img.youtube.com/vi/FoztKuXEYnQ/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/290",
+    "reference_id": 290,
+    "type": null,
+    "name": "YOU",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/the-perfect-bite",
+        "episode_id": "the-perfect-bite",
+        "name": "The Perfect Bite (and Duck Carbonara) inspired by YOU",
+        "published_date": "2020-02-12T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=7vTxUYBD0Nk",
+        "official_link": "https://www.bingingwithbabish.com/recipes/the-perfect-bite",
+        "image_link": "https://img.youtube.com/vi/7vTxUYBD0Nk/mqdefault.jpg"
       }
     ]
   },
@@ -3231,6 +4602,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=lnB7svFAZBs",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/clayroastedthigh",
         "image_link": "https://img.youtube.com/vi/lnB7svFAZBs/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "http://0.0.0.0:5000/reference/175",
+    "reference_id": 175,
+    "type": null,
+    "name": "Zelda: Breath of the Wild",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "http://0.0.0.0:5000/episode/zelda-monster-cake",
+        "episode_id": "zelda-monster-cake",
+        "name": "Monster Cake inspired by Zelda: Breath of the Wild",
+        "published_date": "2017-08-01T00:00:00+00:00",
+        "youtube_link": "https://www.youtube.com/watch?v=VgtpaBOkvrA",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/01/zelda-monster-cake",
+        "image_link": "https://img.youtube.com/vi/VgtpaBOkvrA/mqdefault.jpg"
       }
     ]
   },
