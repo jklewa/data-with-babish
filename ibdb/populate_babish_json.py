@@ -3,30 +3,24 @@
 import bs4
 import json
 import re
-import requests
 import os
-import time
 import logging
 import string
 
-from functional import seq
-
+from ibdb import settings
+from ibdb.populate_db import fetch_binging_episode_list
 from ibdb.recipe_parser import RecipeParser
 from ibdb.utils import timeit, Stats
+
+OUTPUT_DIR = settings.OUTPUT_DIR
 
 
 class PopulateBabishJSON:
 
     def __init__(self):
+        self.episodes = []
         self.stats = Stats({
             'episodes': 0,
-
-            'episodes_fetched': 0,
-            'episodes_already_cached': 0,
-            'requests_made': 0,
-            'requests_retried': 0,
-            'requests_failed': 0,
-
             'bytes_written': 0,
         })
 
@@ -34,89 +28,22 @@ class PopulateBabishJSON:
     def fetch_episode_list(self):
         # Fetch the current list of BWB episodes
 
-        raw_episode_list = requests.get('https://www.bingingwithbabish.com/recipes/')
-        soup = bs4.BeautifulSoup(raw_episode_list.content, 'html5lib')
-
-        self.episode_links = seq(soup.find('div', class_='recipe-row').select('.main-image-wrapper a')
-                                 ).map(lambda atag: atag.get('href'))
-        self.stats.episodes = sum(1 for x in self.episode_links)
-
-        logging.info('Fetched episode list, %s episodes', self.stats.episodes)
-
-    @timeit
-    def fetch_missing_episodes(self):
-        # Cache episodes/recipes content locally
-
-        for link in self.episode_links:
-            filename = 'tmp/raw-episodes/' + link.lstrip('/')
-
-            if os.path.isfile(filename):
-                self.stats.episodes_already_cached += 1
-                continue  # skip, already cached
-
-            self.stats.episodes_fetched += 1
-
-            retries = 3
-            for _ in range(retries):
-                self.stats.requests_made += 1
-                r = requests.get('https://www.bingingwithbabish.com' + link)
-                if r.status_code == 200:
-                    episodeHTML = r.content
-                    os.makedirs(os.path.dirname(filename), exist_ok=True)
-                    with open(filename, "wb") as f:
-                        f.write(episodeHTML)
-                    break  # success
-                else:
-                    print("WARN: {0} returned bad status code ({1})".format(link, r.status_code))
-                    self.stats.requests_retried += 1
-                    time.sleep(10)
-            else:
-                print("ERROR: Too many retries on {0}".format(link))
-                self.stats.requests_failed += 1
-            time.sleep(3)
-
-        logging.info(
-            'Episode fetch complete - {episodes_fetched} fetched, {episodes_already_cached} already cached - {requests_made} requests, {requests_retried} retries {requests_failed} failed'.format(
-                **self.stats.__dict__))
+        self.episodes = [e for e in fetch_binging_episode_list()]
+        self.stats.episodes = len(self.episodes)
 
     @timeit
     def generate_babish_json(self):
         # Parse all episodes into babish.json
-        youtube_pattern = re.compile(r'youtube.+v=([^#\&\?]+)')
 
         episodes = []
-        for link in self.episode_links:
-            path = 'tmp/raw-episodes/' + link.lstrip('/')
-            with open(path, 'rb') as f:
-                soup = bs4.BeautifulSoup(f, 'html.parser')
-
-            episode_name = soup.title.string.strip().replace(' — Binging With Babish', '')
-
-            youtube_link = (json.loads((soup.find('div', class_='video-block') or {}).get('data-block-json') or 'null') or {}).get('url')
-
-            if not youtube_link:
-                y_links = soup.find_all('a', href=youtube_pattern)
-                youtube_link = None
-                if y_links:
-                    for yl in y_links:
-                        m = re.search(youtube_pattern, yl['href'])
-                        _youtube_link = 'https://www.youtube.com/watch?v=' + m.group(1)
-                        if youtube_link and _youtube_link != youtube_link:
-                            logging.warning(f'Multiple youtube links for ep: {link} {y_links}')
-                            break
-                        youtube_link = _youtube_link
-
-            m = re.search(youtube_pattern, youtube_link or '')
-            if m:
-                youtube_link = 'https://www.youtube.com/watch?v=' + m.group(1)
-
-            published = soup.find('time', class_='published')['datetime']
+        for episode in self.episodes:
+            soup = bs4.BeautifulSoup(episode['body'], 'html.parser')
 
             ep = {
-                'episode_name': episode_name,
-                'episode_link': 'https://www.bingingwithbabish.com' + link,
-                'youtube_link': youtube_link,
-                'published': published,
+                'episode_name': episode['name'],
+                'episode_link': episode['official_link'],
+                'youtube_link': episode['youtube_link'],
+                'published': episode['published_date'],
                 'recipes': []
             }
 
@@ -145,7 +72,7 @@ class PopulateBabishJSON:
 
                     # Default to the episode name
                     if method_name == '':
-                        method_name = episode_name
+                        method_name = episode['name']
 
                     def flatten(loc):
                         out = []
@@ -164,7 +91,7 @@ class PopulateBabishJSON:
                         ingredients = [RecipeParser.parse_ingredient(i) for i in raw_ingredients]
                     except Exception:
                         print("ERROR: Failed to parse ingredients from ep: {0} method: {1} raw_list: {2}".format(
-                            episode_name,
+                            episode['name'],
                             method_name,
                             list(iloc.children)
                         ))
@@ -173,7 +100,7 @@ class PopulateBabishJSON:
                     if len(ingredients) == 0:
                         print(
                             "WARN: Could not find ingredients for {0} (Episode {1})".format(
-                                method_name, episode_name))
+                                method_name, episode['name']))
 
                     recipe = {
                         'method': method_name,
@@ -184,10 +111,10 @@ class PopulateBabishJSON:
 
             episodes.append(ep)
 
-        with open('../datasets/babish.json', 'w', encoding='utf8') as f:
+        with open(os.path.join(OUTPUT_DIR, 'babish.json'), 'w', encoding='utf8') as f:
             json.dump(episodes, f, indent=2, ensure_ascii=False)
 
-        self.stats.bytes_written = os.path.getsize('../datasets/babish.json')
+        self.stats.bytes_written = os.path.getsize(os.path.join(OUTPUT_DIR, 'babish.json'))
 
         logging.info('Wrote babish.json successfully, %s bytes written', self.stats.bytes_written)
 
@@ -195,13 +122,16 @@ class PopulateBabishJSON:
         print(self.stats)
 
 
-if __name__ == '__main__':
-    logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
-
+def populate_babish_json():
     BABISH = PopulateBabishJSON()
 
     BABISH.fetch_episode_list()
-    BABISH.fetch_missing_episodes()
     BABISH.generate_babish_json()
 
     BABISH.show_stats()
+
+
+if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+
+    populate_babish_json()
