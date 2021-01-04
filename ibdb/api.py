@@ -7,8 +7,8 @@ from ibdb.routes import blueprints
 
 app = Flask(__name__, template_folder='./templates')
 app.config.from_object(os.environ.get('APP_SETTINGS', 'ibdb.settings.FlaskConfig'))
-app.config['db'] = db
 db.init_app(app)
+app.config['db'] = db
 
 migrate = Migrate()
 migrate.init_app(app, db)

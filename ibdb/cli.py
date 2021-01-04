@@ -4,7 +4,7 @@ import click
 
 from ibdb.api import app
 from ibdb.populate_babish_json import populate_babish_json
-from ibdb.populate_db import main as populate_db_main
+from ibdb.populate_db import populate_db
 from ibdb.export import export as sync_export
 
 
@@ -20,7 +20,7 @@ def sync():
 
 @sync.command('update')
 def update():
-    populate_db_main()
+    populate_db()
 
 
 @sync.command('export')

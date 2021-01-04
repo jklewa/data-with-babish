@@ -1,123 +1,13 @@
-import requests
-import bs4
 import logging
-import json
-import re
 import html
 
-from datetime import datetime
-from functional import seq
-from furl import furl
-
 from ibdb.api import db
-
-YOUTUBE_ID_MATCHER = re.compile(
-    r'^.*(?:(?:youtu\.be\/|v\/|vi\/|u\/\w\/|embed\/)|(?:(?:watch)?\?v(?:i)?=|\&v(?:i)?=))([^#\&\?]+).*')
+from ibdb.extract import fetch_paginated_seq, extract_inspired_by, \
+    add_youtube_resources
+from ibdb.models import upsert_episode, upsert_reference, upsert_episode_inspired_by
+from ibdb.utils import timestamp_to_date
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
-
-
-def fetch_paginated_seq(base_url, route):
-    items = []
-
-    while route:
-        link = furl(base_url + route).add({'format': 'json'})
-        res = requests.get(link).json(encoding='utf-8')
-
-        items += res.get('items', [])
-        route = res.get('pagination', {}).get('nextPageUrl', None)
-
-    return seq(items)
-
-
-def timestamp_to_date(ts_in_milli):
-    if not ts_in_milli:
-        return None
-    return datetime.fromtimestamp(ts_in_milli / 1000).strftime('%Y-%m-%d')
-
-
-def extract_youtube_link(post_body):
-    soup = bs4.BeautifulSoup(post_body, 'html.parser')
-    try:
-        youtube_link = json.loads(soup.find('div', class_='video-block')['data-block-json'])['url']
-        return youtube_link
-    except Exception:
-        pass
-
-    try:
-        youtube_link = None
-        y_links = soup.find_all('a', href=YOUTUBE_ID_MATCHER)
-        for yl in y_links:
-            m = re.search(YOUTUBE_ID_MATCHER, yl['href'])
-            _youtube_link = 'https://www.youtube.com/watch?v=' + m.group(1)
-            if youtube_link and _youtube_link != youtube_link:
-                logging.warning(f'Multiple youtube links for ep: {y_links}')
-                break
-            youtube_link = _youtube_link
-        return youtube_link or ''
-    except Exception:
-        return ''
-
-
-def extract_youtube_id(youtube_link):
-    if youtube_link:
-        m = YOUTUBE_ID_MATCHER.match(youtube_link)
-        return m.group(1) if m else ''
-    else:
-        return ''
-
-
-def add_youtube_resources(raw):
-    raw_youtube_link = extract_youtube_link(raw['body'])
-    youtube_id = extract_youtube_id(raw_youtube_link)
-
-    if youtube_id:
-        raw['youtube_id'] = youtube_id
-        raw['youtube_link'] = f'https://www.youtube.com/watch?v={youtube_id}'
-        raw['youtube_image_link'] = f'https://img.youtube.com/vi/{youtube_id}/mqdefault.jpg'
-    else:
-        raw['youtube_id'] = None
-        raw['youtube_link'] = raw_youtube_link
-        raw['youtube_image_link'] = None
-
-    return raw
-
-
-# def extract_recipe_method_names(post_body):
-#     soup = bs4.BeautifulSoup(post_body, 'html.parser')
-#     locations = soup.find_all(['p', 'h2', 'h3', 'h4', 'h5'])
-#     locations = [loc for loc in locations if loc.find('strong')]
-
-#     method_names = []
-
-#     for loc in locations:
-#         method_name = loc.get_text(strip=True)
-#         method_name = re.sub('^(method|for the|for |the )', '', method_name, flags=re.IGNORECASE)
-#         method_name = re.sub('(inspired by).+$', '', method_name, flags=re.IGNORECASE)
-#         method_name = re.sub(r'\(.+\)', '', method_name, flags=re.IGNORECASE)
-#         method_name = method_name.strip(string.whitespace + u'\u00a0:,')
-
-#         method_names.append(method_name)
-
-#     ignored = ('ingredients', 'shopping list', 'other ingredients', 'equipment list', 'special equipment list')
-
-#     return [name for name in set(method_names) if name and name.lower() not in ignored and len(name) < 50]
-
-def extract_inspired_by(name):
-    inspired_by = re.match('.*(?:inspired by|from) (.+)$', name, re.IGNORECASE)
-    if inspired_by:
-        return [inspired_by[1].strip()]
-    return []
-
-
-def match_lists(ings, methods):
-    if len(ings) == len(methods):
-        return zip([[i] for i in ings], methods)
-
-    return [
-        ([i for i in ings if i.text in m.text], m)
-        for m in methods
-    ]
 
 
 def fetch_binging_episode_list():
@@ -130,6 +20,7 @@ def fetch_binging_episode_list():
 
     episodes = raw_episode_list.map(add_youtube_resources).map(lambda raw: {
         'id': raw.get('urlId', None).split('/')[-1],
+        'show_id': 1,
         'name': html.unescape(raw.get('title', '')),
         'official_link': base_url + raw.get('fullUrl', ''),
         'youtube_link': raw['youtube_link'],
@@ -153,6 +44,7 @@ def fetch_basics_episode_list():
 
     episodes = raw_episode_list.map(add_youtube_resources).map(lambda raw: {
         'id': raw.get('urlId', None).split('/')[-1],
+        'show_id': 2,
         'name': html.unescape(raw.get('title', '')),
         'official_link': base_url + raw.get('fullUrl', ''),
         'youtube_link': raw['youtube_link'],
@@ -166,81 +58,38 @@ def fetch_basics_episode_list():
     return reversed(episodes.to_list())
 
 
-def main():
-    EPISODES = fetch_binging_episode_list()
+def populate_binging(session):
+    episodes = fetch_binging_episode_list()
 
+    for ep in episodes:
+        print("{published_date} | {name}".format(**ep))
+        ep['id'] = upsert_episode(session, ep)
+
+        inspiration_list = extract_inspired_by(ep['name'])
+        for inspired_by in inspiration_list:
+            ref = {
+                'name': inspired_by
+            }
+            ref['id'] = upsert_reference(session, ref)
+            upsert_episode_inspired_by(session, ep['id'], ref['id'])
+
+
+def populate_basics(session):
+    episodes = fetch_basics_episode_list()
+    for ep in episodes:
+        print("{published_date} | {name}".format(**ep))
+        ep['id'] = upsert_episode(session, ep)
+
+
+def populate_db():
     session = db.session()
 
-    try:
-        for ep in EPISODES:
-            print("{published_date} | {name}".format(**ep))
-            session.execute(
-                """
-                    INSERT INTO episode (id, name, youtube_link, official_link, image_link, published_date, show_id)
-                    VALUES (%s, %s, %s, %s, %s, %s, %s)
-                    ON CONFLICT (id)
-                    DO UPDATE SET (name, youtube_link, official_link, image_link, published_date, show_id)
-                    = (EXCLUDED.name, EXCLUDED.youtube_link, EXCLUDED.official_link, EXCLUDED.image_link, EXCLUDED.published_date, EXCLUDED.show_id)
-                """,
-                (ep['id'], ep['name'], ep['youtube_link'], ep['official_link'], ep['image_link'], ep['published_date'], 1))
+    populate_binging(session)
+    populate_basics(session)
 
-            inspiration_list = extract_inspired_by(ep['name'])
-            for inspired_by in inspiration_list:
-                session.execute(
-                    """
-                        SELECT id FROM reference WHERE name = %s
-                    """, (inspired_by,)
-                )
-                if session.rowcount == 0:
-                    session.execute(
-                        """
-                            INSERT INTO reference (name)
-                            VALUES (%s)
-                            RETURNING id
-                        """, (inspired_by,)
-                    )
-                ref = session.fetchone()[0]
-                session.execute(
-                    """
-                        INSERT INTO episode_inspired_by (episode_id, reference_id)
-                        VALUES (%s, %s)
-                        ON CONFLICT (episode_id, reference_id)
-                        DO NOTHING
-                    """, (ep['id'], ref)
-                )
-
-            # methods = extract_recipe_method_names(ep['body'])
-            # print(' ' * 13 + ', '.join(methods))
-
-        session.commit()
-    except Exception:
-        session.rollback()
-
-    EPISODES = fetch_basics_episode_list()
-
-    session = db.session()
-    try:
-        for ep in EPISODES:
-            print("{published_date} | {name}".format(**ep))
-            session.execute(
-                """
-                    INSERT INTO episode (id, name, youtube_link, official_link, image_link, published_date, show_id)
-                    VALUES (%s, %s, %s, %s, %s, %s, %s)
-                    ON CONFLICT (id)
-                    DO UPDATE SET (name, youtube_link, official_link, image_link, published_date, show_id)
-                    = (EXCLUDED.name, EXCLUDED.youtube_link, EXCLUDED.official_link, EXCLUDED.image_link, EXCLUDED.published_date, EXCLUDED.show_id)
-                """,
-                (ep['id'], ep['name'], ep['youtube_link'], ep['official_link'], ep['image_link'], ep['published_date'], 2))
-
-            # methods = extract_recipe_method_names(ep['body'])
-            # print(' ' * 13 + ', '.join(methods))
-
-        session.commit()
-    except Exception:
-        session.rollback()
-
+    session.commit()
     print('Done')
 
 
 if __name__ == '__main__':
-    main()
+    populate_db()

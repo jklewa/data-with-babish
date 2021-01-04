@@ -1,6 +1,7 @@
 import logging
 import re
 import time
+from datetime import datetime
 
 
 def normalize_raw_list(raw):
@@ -36,3 +37,9 @@ class Stats(object):
 
     def __repr__(self):
         return 'Stats:\n{0}'.format('\n'.join(' {0}: {1}'.format(stat, val) for stat, val in self.__dict__.items()))
+
+
+def timestamp_to_date(ts_in_milli):
+    if not ts_in_milli:
+        return None
+    return datetime.fromtimestamp(ts_in_milli / 1000).strftime('%Y-%m-%d')

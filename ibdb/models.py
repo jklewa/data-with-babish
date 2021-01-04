@@ -189,3 +189,54 @@ class Recipe(Base):
             for i in self.raw_ingredient_list.splitlines()
             if 'For the ' not in i
         ]
+
+
+'''
+Helper methods for models
+'''
+# TODO: refactor to use ORM
+
+
+def upsert_episode(session, episode):
+    session.execute(
+        """
+            INSERT INTO episode (id, name, youtube_link, official_link, image_link, published_date, show_id)
+            VALUES (:id, :name, :youtube_link, :official_link, :image_link, :published_date, :show_id)
+            ON CONFLICT (id)
+            DO UPDATE SET (name, youtube_link, official_link, image_link, published_date, show_id)
+            = (EXCLUDED.name, EXCLUDED.youtube_link, EXCLUDED.official_link, EXCLUDED.image_link, EXCLUDED.published_date, EXCLUDED.show_id)
+        """,
+        {k: episode[k] for k in ('id', 'name', 'youtube_link', 'official_link', 'image_link', 'published_date', 'show_id')})
+    return episode['id']
+
+
+def upsert_reference(session, reference):
+    result = session.execute(
+        """
+            SELECT id FROM reference WHERE name = :name
+        """,
+        {k: reference[k] for k in ('name',)}
+    )
+    if result.rowcount == 0:
+        result = session.execute(
+            """
+                INSERT INTO reference (name)
+                VALUES (:name)
+                RETURNING id
+            """,
+            {k: reference[k] for k in ('name',)}
+        )
+    reference_id = result.fetchone()[0]
+    return reference_id
+
+
+def upsert_episode_inspired_by(session, episode_id, reference_id):
+    session.execute(
+        """
+            INSERT INTO episode_inspired_by (episode_id, reference_id)
+            VALUES (:episode_id, :reference_id)
+            ON CONFLICT (episode_id, reference_id)
+            DO NOTHING
+        """,
+        {'episode_id': episode_id, 'reference_id': reference_id}
+    )
