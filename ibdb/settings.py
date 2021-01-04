@@ -1,6 +1,6 @@
 import os
 
-IBDB_URL = os.environ.get('IDDB_URL', 'ibdb://data-with-babish.jklewa.github.com/datasets')
+IBDB_URL = os.environ.get('IDDB_URL', 'ibdb://data-with-babish.jklewa.github.com')
 IBDB_SQLFILE = os.environ.get('IBDB_SQLFILE', 'ibdb/db_dump.sql')
 OUTPUT_DIR = os.environ.get('OUTPUT_DIR', 'datasets/')
 
