@@ -228,17 +228,17 @@ Required tools: **Docker, Docker Compose**
 4. Update DB and datasets `docker-compose exec ibdb sync update export`
 5. See other commands `docker-compose exec ibdb --help`
 
-This will use [ibdb/populate_db.py](ibdb/populate_db.py) to scrape and upsert episodes into the DB and [ibdb/sync.py](ibdb/sync.py) to generate new [datasets/](datasets) from the DB's contents.
+This will use [populate_db.py](ibdb/populate_db.py) to scrape and upsert episodes into the DB and [export.py](ibdb/export.py) to generate new [datasets/](datasets) from the DB's contents.
 
-You can also explore the original [extract_recipes.py](ibdb/extract_recipes.py) and [Jupyter Notebooks](http://ipython.org/notebook.html)
+You can also explore the original [populate_babish_json.py](ibdb/populate_babish_json.py) and [Jupyter Notebooks](http://ipython.org/notebook.html)
 1. `cd notebooks/`
 2. Start Jupyter on [http://localhost:8888](http://localhost:8888) `jupyter notebook`
 3. Open `Babish Recipe Extract.ipynb` or `Babish Data Analysis.ipynb`
 
-**NOTE:** Be aware that `extract_recipes.py` and `Babish Recipe Extract.ipynb` will make **LOTS** of network calls to the official bingingwithbabish.com website. Calls are cached and rate limited but please be very considerate and only run them if absolutely necessary.
+**NOTE:** Be aware that `populate_babish_json.py` and `Babish Recipe Extract.ipynb` will make **LOTS** of network calls to the official bingingwithbabish.com website. Calls are cached and rate limited but please be very considerate and only run them if absolutely necessary.
 
 ### Tests
-Tests covering [extract_recipes.py](ibdb/extract_recipes.py) are located in the [tests/](tests/) directory and can be run using [pytest](https://docs.pytest.org/en/latest/).
+Tests covering [recipe_parser.py](ibdb/recipe_parser.py) are located in the [tests/](tests/) directory and can be run using [pytest](https://docs.pytest.org/en/latest/).
 
 Required tools: **Python 3.8**
 

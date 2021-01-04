@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>IBDB - Recipes</title>
+    <title>IBDB - Guests</title>
 
     <style>
         h1 a {
@@ -31,15 +31,13 @@
     </style>
 </head>
 <body>
-    {% include '_header.html' %}
+    {% include 'header.html' %}
 
-    <h1>Add Recipe</h1>
-    <form method="POST" action="/recipes">
+    <h1>Add Guest</h1>
+    <form method="POST" action="/guests">
         <div>Name: <input type="text" name="name" required></div>
         <div>Image Link: <input type="text" name="image_link"></div>
-        <div>Ingredient List: <textarea name="raw_ingredient_list" row="3" cols="30" required></textarea></div>
-        <div>Procedure: <textarea name="raw_procedure" row="3" cols="30" required></textarea></div>
-        <div>Episode: <select name="source_episode_id">
+        <div>Appearance: <select name="appearance_episode_id">
         {% for ep in episodes %}
             <option value="{{ ep.id }}">{{ loop.revindex }}. {{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</option>
         {% endfor %}
@@ -47,33 +45,26 @@
         <input type="submit" value="Add">
     </form>
 
-    <h1>Recipes <a href="?format=json">JSON</a></h1>
-    {% for r in recipes %}
-      <a name="r{{r.id}}"></a>
-      <h3>{{ r.name }} <small>(id: {{ r.id }})</small></h3>
+    <h1>Guests <a href="?format=json">JSON</a></h1>
+    {% for g in guests %}
+      <a name="g{{g.id}}"></a>
+      <h3>{{ g.name }} <small>(id: {{ g.id }})</small></h3>
       <div class="details">
-        <p>
-          source: {{ r.episode.name }} | {{ r.episode.published_date.strftime('%Y-%m-%d') }} <a href="/episodes#{{ r.episode.id }}">Link</a>
-        </p>
-
-        <p>
-          procedure:
-          <pre>{{ r.raw_procedure }}</pre>
-        </p>
-
-        <p>
-          ingredients:
-          <pre>{{ r.raw_ingredient_list }}</pre>
-        </p>
-
-        <p>
-          parsed ingredients:
-          <ul>
-          {% for i in r.ingredient_list() %}
-            <li>{{ i | tojson }}</li>
+        appearances:
+        <ul>
+        {% for ep in g.appearances %}
+          <li>{{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }} <a href="/episodes#{{ ep.id }}">Link</a></li>
+        {% endfor %}
+        </ul>
+        <form method="POST" action="/guest/{{ g.id }}/appearances" class="inline">
+          <select name="appearance_episode_id">
+            <option value="">Select episode</option>
+          {% for ep in episodes %}
+            <option value="{{ ep.id }}">{{ loop.revindex }}. {{ ep.name }} | {{ ep.published_date.strftime('%Y-%m-%d') }}</option>
           {% endfor %}
-          </ul>
-        </p>
+          </select>
+          <input type="submit" value="Add">
+        </form>
       </div>
     {% endfor %}
   </body>
