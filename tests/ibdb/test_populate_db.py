@@ -31,6 +31,7 @@ class TestEpisodeList(unittest.TestCase):
         expected = [
             dict(
                 id="restaurant-wars-steven-universe",
+                show_id=1,
                 name="Restaurant Wars inspired by Steven Universe",
                 official_link="https://www.bingingwithbabish.com/recipes/restaurant-wars-steven-universe",
                 youtube_link="https://www.youtube.com/watch?v=J2eU4Ol3IDU",
@@ -69,6 +70,7 @@ class TestEpisodeList(unittest.TestCase):
         expected = [
             dict(
                 id="short-ribs",
+                show_id=2,
                 name="BRAISED SHORT RIBS",
                 official_link="https://basicswithbabish.co/basicsepisodes/short-ribs",
                 youtube_link="https://www.youtube.com/watch?v=DUTyGfwdBaY",
