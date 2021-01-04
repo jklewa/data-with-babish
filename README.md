@@ -235,7 +235,7 @@ You can also explore the original [populate_babish_json.py](ibdb/populate_babish
 2. Start Jupyter on [http://localhost:8888](http://localhost:8888) `jupyter notebook`
 3. Open `Babish Recipe Extract.ipynb` or `Babish Data Analysis.ipynb`
 
-**NOTE:** Be aware that `populate_babish_json.py` and `Babish Recipe Extract.ipynb` will make **LOTS** of network calls to the official bingingwithbabish.com website. Calls are cached and rate limited but please be very considerate and only run them if absolutely necessary.
+**NOTE:** Be aware that `Babish Recipe Extract.ipynb` will make **LOTS** of network calls to the official bingingwithbabish.com website. Calls are cached and rate limited but please be very considerate and only run them if absolutely necessary.
 
 ### Tests
 Tests covering [recipe_parser.py](ibdb/recipe_parser.py) are located in the [tests/](tests/) directory and can be run using [pytest](https://docs.pytest.org/en/latest/).

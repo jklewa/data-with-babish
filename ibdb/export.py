@@ -59,9 +59,11 @@ def db_dump():
     cleanup_sqlfile(IBDB_SQLFILE)
 
 
-def export():
-    write_datasets()
-    db_dump()
+def export(json_=True, sql=True):
+    if json_:
+        write_datasets()
+    if sql:
+        db_dump()
 
 
 if __name__ == '__main__':
