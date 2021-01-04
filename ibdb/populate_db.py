@@ -1,24 +1,18 @@
-import psycopg2
 import requests
 import bs4
 import logging
 import json
 import re
-import os
 import html
 
 from datetime import datetime
 from functional import seq
 from furl import furl
 
+from ibdb.api import db
+
 YOUTUBE_ID_MATCHER = re.compile(
     r'^.*(?:(?:youtu\.be\/|v\/|vi\/|u\/\w\/|embed\/)|(?:(?:watch)?\?v(?:i)?=|\&v(?:i)?=))([^#\&\?]+).*')
-
-DB_USERNAME = os.environ.get('POSTGRES_USERNAME', 'postgres')
-DB_PASSWORD = os.environ.get('POSTGRES_PASSWORD', 'postgres')
-DB_NAME = os.environ.get('POSTGRES_DBNAME', 'babish_db')
-DB_HOSTNAME = os.environ.get('POSTGRES_HOSTNAME', 'db')
-DB_PORT = int(os.environ.get('POSTGRES_PORT', '5432'))
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
@@ -173,14 +167,14 @@ def fetch_basics_episode_list():
 
 
 def main():
-    conn = psycopg2.connect(dbname=DB_NAME, user=DB_USERNAME, host=DB_HOSTNAME, port=DB_PORT, password=DB_PASSWORD)
-
     EPISODES = fetch_binging_episode_list()
 
-    with conn.cursor() as cur:
+    session = db.session()
+
+    try:
         for ep in EPISODES:
             print("{published_date} | {name}".format(**ep))
-            cur.execute(
+            session.execute(
                 """
                     INSERT INTO episode (id, name, youtube_link, official_link, image_link, published_date, show_id)
                     VALUES (%s, %s, %s, %s, %s, %s, %s)
@@ -192,21 +186,21 @@ def main():
 
             inspiration_list = extract_inspired_by(ep['name'])
             for inspired_by in inspiration_list:
-                cur.execute(
+                session.execute(
                     """
                         SELECT id FROM reference WHERE name = %s
                     """, (inspired_by,)
                 )
-                if cur.rowcount == 0:
-                    cur.execute(
+                if session.rowcount == 0:
+                    session.execute(
                         """
                             INSERT INTO reference (name)
                             VALUES (%s)
                             RETURNING id
                         """, (inspired_by,)
                     )
-                ref = cur.fetchone()[0]
-                cur.execute(
+                ref = session.fetchone()[0]
+                session.execute(
                     """
                         INSERT INTO episode_inspired_by (episode_id, reference_id)
                         VALUES (%s, %s)
@@ -218,20 +212,32 @@ def main():
             # methods = extract_recipe_method_names(ep['body'])
             # print(' ' * 13 + ', '.join(methods))
 
-    conn.commit()
+        session.commit()
+    except Exception:
+        session.rollback()
 
     EPISODES = fetch_basics_episode_list()
 
-    with conn.cursor() as cur:
+    session = db.session()
+    try:
         for ep in EPISODES:
             print("{published_date} | {name}".format(**ep))
-            cur.execute("INSERT INTO episode (id, name, youtube_link, official_link, image_link, published_date, show_id) VALUES (%s, %s, %s, %s, %s, %s, %s) ON CONFLICT (id) DO UPDATE SET (name, youtube_link, official_link, image_link, published_date, show_id) = (EXCLUDED.name, EXCLUDED.youtube_link, EXCLUDED.official_link, EXCLUDED.image_link, EXCLUDED.published_date, EXCLUDED.show_id)",
-                        (ep['id'], ep['name'], ep['youtube_link'], ep['official_link'], ep['image_link'], ep['published_date'], 2))
+            session.execute(
+                """
+                    INSERT INTO episode (id, name, youtube_link, official_link, image_link, published_date, show_id)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s)
+                    ON CONFLICT (id)
+                    DO UPDATE SET (name, youtube_link, official_link, image_link, published_date, show_id)
+                    = (EXCLUDED.name, EXCLUDED.youtube_link, EXCLUDED.official_link, EXCLUDED.image_link, EXCLUDED.published_date, EXCLUDED.show_id)
+                """,
+                (ep['id'], ep['name'], ep['youtube_link'], ep['official_link'], ep['image_link'], ep['published_date'], 2))
 
             # methods = extract_recipe_method_names(ep['body'])
             # print(' ' * 13 + ', '.join(methods))
 
-    conn.commit()
+        session.commit()
+    except Exception:
+        session.rollback()
 
     print('Done')
 

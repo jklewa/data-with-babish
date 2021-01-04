@@ -1,8 +1,8 @@
-from ibdb.extract_recipes import Recipe
+from ibdb.recipe_parser import RecipeParser
 
 
-class TestRecipe(object):
-    # TODO: Separate tests from the file, probably use pytest to test functions in this module
+class TestRecipeParser(object):
+    # TODO: use pytest to test functions in this module
 
     def test_parse_ingredient(self):
         # Tests to validate parse_ingredient()
@@ -23,16 +23,16 @@ class TestRecipe(object):
         assert len(tests) % 2 == 0, 'A test is missing its expected output'
 
         for (i, v) in zip(tests[::2], tests[1::2]):
-            actual = Recipe.parse_ingredient(i)
-            expected = Recipe.Ingredient(*v, i)
+            actual = RecipeParser.parse_ingredient(i)
+            expected = RecipeParser.Ingredient(*v, i)
             assert actual == expected, "parse_ingredient() incorrectly parsed '{}'\nExpected:\n{}\nActual:\n{}".format(i, expected, actual)
 
     def test_normalize_qty(self):
         # Tests to validate normalize_qty()
 
         # Test the special case for None
-        assert Recipe.normalize_qty(None) is None
-        assert Recipe.normalize_qty('') is None
+        assert RecipeParser.normalize_qty(None) is None
+        assert RecipeParser.normalize_qty('') is None
 
         # Numeric conversions
         tests = [
@@ -45,7 +45,7 @@ class TestRecipe(object):
         assert len(tests) % 2 == 0, 'A test is missing its expected output'
 
         for (i, v) in zip(tests[::2], tests[1::2]):
-            actual = Recipe.normalize_qty(i)
+            actual = RecipeParser.normalize_qty(i)
             expected = v
             assert abs(actual - expected) < 0.00001, "normalize_qty() incorrectly parsed '{}'\nExpected:\n{}\nActual:\n{}".format(i, expected, actual)
 
@@ -69,7 +69,7 @@ class TestRecipe(object):
         assert len(tests) % 2 == 0, 'A test is missing its expected output'
 
         for (i, v) in zip(tests[::2], tests[1::2]):
-            actual = Recipe.normalize_unit(i)
+            actual = RecipeParser.normalize_unit(i)
             expected = v
             assert actual == expected, "normalize_unit() incorrectly parsed '{}'\nExpected:\n{}\nActual:\n{}".format(i, expected, actual)
 
@@ -86,6 +86,6 @@ class TestRecipe(object):
         assert len(tests) % 2 == 0, 'A test is missing its expected output'
 
         for (i, v) in zip(tests[::2], tests[1::2]):
-            actual = Recipe.normalize_name(i)
+            actual = RecipeParser.normalize_name(i)
             expected = v
             assert actual == expected, "normalize_name() incorrectly parsed '{}'\nExpected:\n{}\nActual:\n{}".format(i, expected, actual)

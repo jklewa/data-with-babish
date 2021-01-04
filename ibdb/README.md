@@ -22,6 +22,7 @@ Required tools: [**Docker**](https://docs.docker.com/), [**Docker Compose**](htt
 Notable files:
 
  * app.py - Source code for the interactive API
+ * cli.py - Source code for the `ibdb` CLI
  * models.py - [SQLAlchemy](https://www.sqlalchemy.org/) ORM models
  * db_dump.sql - [pg_dump](https://www.postgresql.org/docs/10/app-pgdump.html) of the IBDB postgres database
  * populate_db.py - Upserts BWB episodes into the IBDB

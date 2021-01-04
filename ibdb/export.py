@@ -7,17 +7,18 @@ from pathlib import Path
 import flask
 
 import ibdb.api
+from ibdb import settings
 from vendor.pg_dump_splitsort import split_sql_file
 
-IBDB_URL = os.environ.get('IDDB_URL', 'ibdb://data-with-babish.jklewa.github.com/datasets')
-IBDB_SQLFILE = os.environ.get('IBDB_SQLFILE', 'ibdb/db_dump.sql')
-OUTPUT_DIR = os.environ.get('OUTPUT_DIR', 'datasets/')
+IBDB_URL = settings.IBDB_URL
+IBDB_SQLFILE = settings.IBDB_SQLFILE
+OUTPUT_DIR = settings.OUTPUT_DIR
 
-DB_USERNAME = os.environ.get('POSTGRES_USERNAME', 'postgres')
-DB_PASSWORD = os.environ.get('POSTGRES_PASSWORD', 'postgres')
-DB_NAME = os.environ.get('POSTGRES_DBNAME', 'babish_db')
-DB_HOSTNAME = os.environ.get('POSTGRES_HOSTNAME', 'db')
-DB_PORT = int(os.environ.get('POSTGRES_PORT', '5432'))
+DB_USERNAME = settings.DB_USERNAME
+DB_PASSWORD = settings.DB_PASSWORD
+DB_NAME = settings.DB_NAME
+DB_HOSTNAME = settings.DB_HOSTNAME
+DB_PORT = settings.DB_PORT
 
 
 def write_response(route, to=None, **kwargs):
