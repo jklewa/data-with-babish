@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 12.5 (Debian 12.5-1.pgdg100+1)
--- Dumped by pg_dump version 12.5 (Debian 12.5-1.pgdg100+1)
+-- Dumped by pg_dump version 12.5 (Ubuntu 12.5-1.pgdg18.04+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -626,6 +626,7 @@ aristocats	25
 arresteddevelopmentspecial	57
 avatar-fire-flakes	285
 avengersicecream	16
+avengersicecream	529
 babishpaniniwinner	45
 babka-inspired-by-seinfeld	30
 bagelsandwiches	6
@@ -639,6 +640,7 @@ beetandacorncookies	95
 beignetsfromchef	47
 beignetsfromchef	48
 beignetsfromchef	218
+beignetsfromchef	527
 ben-wyatt-calzones	299
 bigkahunaburger	104
 blood-pie-inspired-by-game-of-thrones	40
@@ -657,6 +659,7 @@ bubbashrimp2	17
 bubbashrimp2	252
 bubblebass	21
 bunnicorn-pizza	295
+bunnicorn-pizza	532
 butterednoodles-community	303
 buttermilk-pancakes-inspired-by-twin-peaks	96
 buttermilk-pancakes-inspired-by-twin-peaks	112
@@ -664,11 +667,13 @@ caillesensarchophage	132
 carpanini	45
 ccourtesan-au-chocolat	85
 charliebrownthanksgiving	32
+charliebrownthanksgiving	528
 chateaubriandsteak	61
 cheesesteak	108
 cheesyblasters	50
 chickenpaprikash	60
 chickenpaprikash	205
+chickenpaprikash	526
 chileanseabass	31
 chocolate-cake-inspired-by-matilda	93
 chocolate-cake-inspired-by-matilda	114
@@ -735,6 +740,7 @@ fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	90
 friedgreentomatoes	51
 garbageplate	74
 garbageplate	187
+garbageplate	524
 garlic-bread-scott-pilgrim	320
 goodfellasprisonsauce	107
 goodmorningburger	15
@@ -759,6 +765,7 @@ krabby-patty-inspired-by-spongebob-squarepants	21
 krabby-patty-inspired-by-spongebob-squarepants	165
 krabbysupreme	21
 larbstickyrice	8
+larbstickyrice	530
 lasagna	64
 lasagna	77
 lasagna	201
@@ -783,8 +790,10 @@ mostexpensiveshake	104
 mulancongee	53
 nachos	13
 nachos	277
+nachos	531
 nypizzatmnt	109
 nypizzatmnt	145
+nypizzatmnt	522
 okonomiyaki	52
 okonomiyaki	216
 omelette-du-fromage-dexters-laboratory	326
@@ -792,6 +801,7 @@ orangemochafrapp	12
 orangemochafrapp-fpm9l	11
 ossobuco	80
 parksandrecburger	19
+parksandrecburger	299
 parmhero	21
 parmhero	44
 parmhero	78
@@ -806,6 +816,7 @@ piesfromwaitress	58
 pigeon-pie-with-wild-game-inspired-by-game-of-thrones	40
 pineapplecurryfriedrice	65
 pineapplecurryfriedrice	199
+pineapplecurryfriedrice	525
 pizzaball	27
 pollo-a-la-plancha	100
 pollos-hermanos-breaking-bad	9
@@ -881,6 +892,7 @@ wild-mushroom-soup-inspired-by-seinfeld	30
 worldsgreatestsandwich	106
 zelda-monster-cake	87
 zelda-monster-cake	175
+zelda-monster-cake	523
 ziti-lasagna	44
 \.
 
@@ -919,6 +931,8 @@ COPY public.guest (id, name, image_link) FROM stdin;
 29	Floyd Cardoz	\N
 30	Jess	\N
 31	David (Brother)	
+32	Ashwin Enjoys Nature	\N
+33	Brad	\N
 \.
 
 
@@ -932,6 +946,7 @@ COPY public.guest_appearances (episode_id, guest_id) FROM stdin;
 arresteddevelopmentspecial	3
 bagels	4
 beetandacorncookies	11
+beetandacorncookies	32
 being-with-babish-1	16
 being-with-babish-1	17
 being-with-babish-2	9
@@ -966,6 +981,7 @@ indianbreads	29
 infernowings	3
 lasagna	6
 lasagna	7
+lasagna	33
 mostexpensiveshake	30
 quiet-place-bonus	17
 theswanson	26
@@ -1807,6 +1823,17 @@ COPY public.reference (id, type, name, description, external_link, image_link) F
 326	\N	Dexter's Laboratory	\N	\N	\N
 328	\N	Twister	\N	\N	\N
 330	\N	the Santa Clause	\N	\N	\N
+522	\N	TMNT II	\N	\N	\N
+523	\N	Zelda	\N	\N	\N
+524	\N	The Place Beyond The Pines	\N	\N	\N
+525	\N	Food Wars	\N	\N	\N
+526	\N	Captain America	\N	\N	\N
+527	\N	Princess and the Frog	\N	\N	\N
+528	\N	Charlie Brown	\N	\N	\N
+529	\N	Avengers	\N	\N	\N
+530	\N	Spider-Man	\N	\N	\N
+531	\N	Naco Redemption	\N	\N	\N
+532	\N	Star Trek	\N	\N	\N
 \.
 
 
@@ -1826,7 +1853,7 @@ COPY public.show (id, name, image_link) FROM stdin;
 -- Name: guest_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.guest_id_seq', 31, true);
+SELECT pg_catalog.setval('public.guest_id_seq', 33, true);
 
 
 --
@@ -1840,7 +1867,7 @@ SELECT pg_catalog.setval('public.recipe_id_seq', 629, true);
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 521, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 532, true);
 
 
 --

@@ -1,5 +1,22 @@
 [
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/32",
+    "guest_id": 32,
+    "name": "Ashwin Enjoys Nature",
+    "image_link": null,
+    "appearances": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/beetandacorncookies",
+        "episode_id": "beetandacorncookies",
+        "name": "Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)",
+        "published_date": "2017-05-23",
+        "youtube_link": "https://www.youtube.com/watch?v=6PTuUMJ2Uh8",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/beetandacorncookies",
+        "image_link": "https://img.youtube.com/vi/6PTuUMJ2Uh8/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/guest/11",
     "guest_id": 11,
     "name": "Ashwin Ramdas",
@@ -13,6 +30,23 @@
         "youtube_link": "https://www.youtube.com/watch?v=6PTuUMJ2Uh8",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/beetandacorncookies",
         "image_link": "https://img.youtube.com/vi/6PTuUMJ2Uh8/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/guest/33",
+    "guest_id": 33,
+    "name": "Brad",
+    "image_link": null,
+    "appearances": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/lasagna",
+        "episode_id": "lasagna",
+        "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)",
+        "published_date": "2018-03-27",
+        "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna",
+        "image_link": "https://img.youtube.com/vi/TkWmK-cplV4/mqdefault.jpg"
       }
     ]
   },

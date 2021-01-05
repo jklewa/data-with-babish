@@ -403,6 +403,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/529",
+    "reference_id": 529,
+    "type": null,
+    "name": "Avengers",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/avengersicecream",
+        "episode_id": "avengersicecream",
+        "name": "Ice Cream Flavors inspired by Avengers: Infinity War",
+        "published_date": "2019-04-30",
+        "youtube_link": "https://www.youtube.com/watch?v=Ukjat70Iyt4",
+        "official_link": "https://www.bingingwithbabish.com/recipes/avengersicecream",
+        "image_link": "https://img.youtube.com/vi/Ukjat70Iyt4/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/16",
     "reference_id": 16,
     "type": "movie",
@@ -657,6 +677,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/526",
+    "reference_id": 526,
+    "type": null,
+    "name": "Captain America",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/chickenpaprikash",
+        "episode_id": "chickenpaprikash",
+        "name": "Chicken Paprikash inspired by Captain America: Civil War",
+        "published_date": "2018-04-24",
+        "youtube_link": "https://www.youtube.com/watch?v=baG767jr8c8",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/chickenpaprikash",
+        "image_link": "https://img.youtube.com/vi/baG767jr8c8/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/205",
     "reference_id": 205,
     "type": null,
@@ -713,6 +753,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special",
         "image_link": "https://img.youtube.com/vi/v5tJBLfeurU/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/528",
+    "reference_id": 528,
+    "type": null,
+    "name": "Charlie Brown",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/charliebrownthanksgiving",
+        "episode_id": "charliebrownthanksgiving",
+        "name": "Charlie Brown Thanksgiving",
+        "published_date": "2018-11-20",
+        "youtube_link": "https://www.youtube.com/watch?v=5FyKxVJmsdE",
+        "official_link": "https://www.bingingwithbabish.com/recipes/charliebrownthanksgiving",
+        "image_link": "https://img.youtube.com/vi/5FyKxVJmsdE/mqdefault.jpg"
       }
     ]
   },
@@ -1127,6 +1187,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=4Rz8BPRFeiA",
         "official_link": "https://www.bingingwithbabish.com/recipes/carpanini",
         "image_link": "https://img.youtube.com/vi/4Rz8BPRFeiA/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/525",
+    "reference_id": 525,
+    "type": null,
+    "name": "Food Wars",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/pineapplecurryfriedrice",
+        "episode_id": "pineapplecurryfriedrice",
+        "name": "Pineapple-Curry Fried Rice inspired by Food Wars!: Shokugeki no Soma",
+        "published_date": "2018-03-13",
+        "youtube_link": "https://www.youtube.com/watch?v=WRA3a7c4Qt4",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/pineapplecurryfriedrice",
+        "image_link": "https://img.youtube.com/vi/WRA3a7c4Qt4/mqdefault.jpg"
       }
     ]
   },
@@ -2486,6 +2566,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/531",
+    "reference_id": 531,
+    "type": null,
+    "name": "Naco Redemption",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/nachos",
+        "episode_id": "nachos",
+        "name": "Nachos inspired by The Good Place (plus Naco Redemption)",
+        "published_date": "2019-11-07",
+        "youtube_link": "https://www.youtube.com/watch?v=LgzudBvmd08",
+        "official_link": "https://www.bingingwithbabish.com/recipes/nachos",
+        "image_link": "https://img.youtube.com/vi/LgzudBvmd08/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/289",
     "reference_id": 289,
     "type": null,
@@ -2658,6 +2758,15 @@
         "youtube_link": "https://www.youtube.com/watch?v=PvgCEifW7Jo",
         "official_link": "https://www.bingingwithbabish.com/recipes/ben-wyatt-calzones",
         "image_link": "https://img.youtube.com/vi/PvgCEifW7Jo/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/parksandrecburger",
+        "episode_id": "parksandrecburger",
+        "name": "Parks & Rec Burger Cookoff",
+        "published_date": "2016-02-10",
+        "youtube_link": "https://www.youtube.com/watch?v=MP_nWuLYpJw",
+        "official_link": "https://www.bingingwithbabish.com/recipes/parksandrecburger",
+        "image_link": "https://img.youtube.com/vi/MP_nWuLYpJw/mqdefault.jpg"
       }
     ]
   },
@@ -2787,6 +2896,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=Y9l8iu5J6rs",
         "official_link": "https://www.bingingwithbabish.com/recipes/portalcake",
         "image_link": "https://img.youtube.com/vi/Y9l8iu5J6rs/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/527",
+    "reference_id": 527,
+    "type": null,
+    "name": "Princess and the Frog",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/beignetsfromchef",
+        "episode_id": "beignetsfromchef",
+        "name": "Beignets inspired by Chef (and Princess and the Frog)",
+        "published_date": "2018-08-07",
+        "youtube_link": "https://www.youtube.com/watch?v=DnuHzHHwqAw",
+        "official_link": "https://www.bingingwithbabish.com/recipes/beignetsfromchef",
+        "image_link": "https://img.youtube.com/vi/DnuHzHHwqAw/mqdefault.jpg"
       }
     ]
   },
@@ -3268,6 +3397,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/530",
+    "reference_id": 530,
+    "type": null,
+    "name": "Spider-Man",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/larbstickyrice",
+        "episode_id": "larbstickyrice",
+        "name": "Lettuce Wraps & Mango Sticky Rice inspired by Spider-Man: Homecoming",
+        "published_date": "2019-07-10",
+        "youtube_link": "https://www.youtube.com/watch?v=VweTeaGwiXQ",
+        "official_link": "https://www.bingingwithbabish.com/recipes/larbstickyrice",
+        "image_link": "https://img.youtube.com/vi/VweTeaGwiXQ/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/8",
     "reference_id": 8,
     "type": "movie",
@@ -3418,6 +3567,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=-Vy12e0LjX4",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/applepie",
         "image_link": "https://img.youtube.com/vi/-Vy12e0LjX4/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/532",
+    "reference_id": 532,
+    "type": null,
+    "name": "Star Trek",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/bunnicorn-pizza",
+        "episode_id": "bunnicorn-pizza",
+        "name": "Bunnicorn Pizza inspired by Star Trek: Picard",
+        "published_date": "2020-03-17",
+        "youtube_link": "https://www.youtube.com/watch?v=2a8Uz3pYTh4",
+        "official_link": "https://www.bingingwithbabish.com/recipes/bunnicorn-pizza",
+        "image_link": "https://img.youtube.com/vi/2a8Uz3pYTh4/mqdefault.jpg"
       }
     ]
   },
@@ -4065,6 +4234,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/524",
+    "reference_id": 524,
+    "type": null,
+    "name": "The Place Beyond The Pines",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/garbageplate",
+        "episode_id": "garbageplate",
+        "name": "The Garbage Plate inspired by The Place Beyond The Pines (sort of)",
+        "published_date": "2017-11-28",
+        "youtube_link": "https://www.youtube.com/watch?v=wjoeVwJTUTA",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/garbageplate",
+        "image_link": "https://img.youtube.com/vi/wjoeVwJTUTA/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/187",
     "reference_id": 187,
     "type": null,
@@ -4324,6 +4513,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=mnT4MDdEazs",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/thewirespecial",
         "image_link": "https://img.youtube.com/vi/mnT4MDdEazs/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/522",
+    "reference_id": 522,
+    "type": null,
+    "name": "TMNT II",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/nypizzatmnt",
+        "episode_id": "nypizzatmnt",
+        "name": "New York-Style Pizza inspired by TMNT II: Secret of the Ooze",
+        "published_date": "2016-04-30",
+        "youtube_link": "https://www.youtube.com/watch?v=KUu2gJn1dzc",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/16/nypizzatmnt",
+        "image_link": "https://img.youtube.com/vi/KUu2gJn1dzc/mqdefault.jpg"
       }
     ]
   },
@@ -4602,6 +4811,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=lnB7svFAZBs",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/clayroastedthigh",
         "image_link": "https://img.youtube.com/vi/lnB7svFAZBs/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/523",
+    "reference_id": 523,
+    "type": null,
+    "name": "Zelda",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/zelda-monster-cake",
+        "episode_id": "zelda-monster-cake",
+        "name": "Monster Cake inspired by Zelda: Breath of the Wild",
+        "published_date": "2017-08-01",
+        "youtube_link": "https://www.youtube.com/watch?v=VgtpaBOkvrA",
+        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/01/zelda-monster-cake",
+        "image_link": "https://img.youtube.com/vi/VgtpaBOkvrA/mqdefault.jpg"
       }
     ]
   },
