@@ -105,7 +105,7 @@ def fetch_paginated_seq(base_url, route):
 
             items += res.get('items', [])
             route = res.get('pagination', {}).get('nextPageUrl', None)
-        except Exception as e:
+        except Exception:
             logging.error(f'Failed request: {link}')
             logging.error(f'Status code: {r and r.status_code}')
             logging.error(f'Response:\n{r and r.text}')
