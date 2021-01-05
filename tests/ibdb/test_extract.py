@@ -4,7 +4,7 @@ from ibdb.extract import (
     add_youtube_resources,
     extract_youtube_id,
     extract_youtube_link,
-    extract_inspired_by,
+    extract_inspired_by, extract_guests,
 )
 
 
@@ -61,13 +61,12 @@ class TestInspiredBy(unittest.TestCase):
             ('Egg Sandwich (with Homemade Ciabatta) inspired by Birds of Prey', ['Birds of Prey']),
             ('Eggs Woodhouse For Good from Archer', ['Archer']),
             ('Meat Tornado inspired by Parks & Rec ', ['Parks & Rec']),
-            ('Pineapple-Curry Fried Rice inspired by Food Wars!: Shokugeki no Soma', ['Food Wars!: Shokugeki no Soma']),
+            ('Pineapple-Curry Fried Rice inspired by Food Wars!: Shokugeki no Soma', ['Food Wars']),
         ]
 
         for episode_name, expected in tests:
             self.assertEqual(expected, extract_inspired_by(episode_name))
 
-    @unittest.skip("Advanced cases aren't supported yet")
     def test_extract_inspired_by_advanced(self):
         tests = [
             # character cleanup
@@ -82,6 +81,8 @@ class TestInspiredBy(unittest.TestCase):
             # multi
             ('Nachos inspired by The Good Place (plus Naco Redemption)', ['The Good Place', 'Naco Redemption']),
             ('Beignets inspired by Chef (and Princess and the Frog)', ['Chef', 'Princess and the Frog']),
+            # also where "and" is NOT multi
+            ('Testing inspired by Parks and Rec', ['Parks and Rec']),
 
             # specials
             ('The Good Place Special', ["The Good Place"]),
@@ -89,18 +90,33 @@ class TestInspiredBy(unittest.TestCase):
             ('Seinfeld Volume II', ['Seinfeld']),
             ('Charlie Brown Thanksgiving', ['Charlie Brown']),
             ('Parks & Rec Burger Cookoff', ['Parks & Rec']),
+            ('Arrested Development Special (feat. Sean Evans)', ['Arrested Development']),
 
             # comments
             ("Cinnamon Rolls inspired by Jim Gaffigan's Stand Up (sort of)", ["Jim Gaffigan's Stand Up"]),
             ('The Garbage Plate inspired by The Place Beyond The Pines (sort of)', ['The Place Beyond The Pines']),
             ('Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)', ['Game of Thrones']),
-            ('Arrested Development Special (feat. Sean Evans)', ['Arrested Development']),
             ('Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi', ['Chef']),
             ('The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special', ['Regular Show']),
             ('Szechuan Sauce Revisited (From Real Sample!)', []),  # excluded "Real Sample!"
 
             # exclusions
             ('Eggs in a Nest inspired by Lots of Stuff', []),  # excluded "Lots of Stuff"
+            ('The Perfect Bite (and Duck Carbonara) inspired by YOU', ['YOU']),  # excluded Duck Carbonara
+            ('Babish 4 Million Subscriber Special: Death Sandwich from Regular Show', ['Regular Show']),  # excluded Subscriber Special
         ]
         for episode_name, expected in tests:
             self.assertEqual(expected, extract_inspired_by(episode_name))
+
+
+class TestGuests(unittest.TestCase):
+    def test_extract_guests(self):
+        tests = [
+            ('', []),
+            ('Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)', ['Maisie Williams']),
+            ('Arrested Development Special (feat. Sean Evans)', ['Sean Evans']),
+            ('Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi', ['Jon Favreau', 'Roy Choi']),
+            ('Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show', []),  # excluded with Babish
+        ]
+        for episode_name, expected in tests:
+            self.assertEqual(expected, extract_guests(episode_name))

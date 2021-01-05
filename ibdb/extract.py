@@ -9,9 +9,31 @@ from furl import furl
 
 
 def extract_inspired_by(name):
-    inspired_by = re.match('.*(?:inspired by|from) (.+)$', name, re.IGNORECASE)
+    for sub in ('"', '“', '...', 'Real Sample', 'Part II', 'Part I', 'Lots of Stuff', 'Duck Carbonara',
+                'Cocktail Special', 'Subscriber Special'):
+        name = name.replace(sub, ' ')
+    inspired_by = re.match(r'.*(?:inspired by|from) ([^(|["“!;:]{2,}?)([(|["“!;:]|with|feat\.|$)', name, re.IGNORECASE & re.UNICODE)
     if inspired_by:
-        return [inspired_by[1].strip()]
+        inspiration_list = [i.strip() for i in re.split(r'\s(?:and(?! the| Rec))\s', inspired_by[1])]
+
+        additional = re.match(r'.*\((?:and|plus) ([^\s]+.+)\)', name, re.IGNORECASE & re.UNICODE)
+        if additional:
+            inspiration_list.extend(i.strip() for i in re.split(r'\s(?:and(?! the))\s', additional[1]))
+
+        return inspiration_list
+
+    special = re.match(r'(.+) (?:Special|Volume I|Burger Cookoff$|Thanksgiving$)', name, re.IGNORECASE & re.UNICODE)
+    if special:
+        return [special[1].strip()]
+    return []
+
+
+def extract_guests(name):
+    for sub in ('"', '“', '...', 'Homemade Ciabatta', 'with Babish', 'Wild Game inspired by Game of Thrones'):
+        name = name.replace(sub, ' ')
+    guest = re.match(r'.*(?:feat\.|featuring|with) ([^\s][^)]+)(?:$|\))', name, re.IGNORECASE & re.UNICODE)
+    if guest:
+        return [g.strip() for g in re.split(r'\s(?:and(?! the))\s', guest[1])]
     return []
 
 

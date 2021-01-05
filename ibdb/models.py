@@ -148,14 +148,14 @@ class Episode(Base):
 t_episode_inspired_by = Table(
     'episode_inspired_by', metadata,
     Column('episode_id', ForeignKey('episode.id'), primary_key=True, nullable=False),
-    Column('reference_id', ForeignKey('reference.id'), primary_key=True, nullable=False)
+    Column('reference_id', ForeignKey('reference.id'), primary_key=True, nullable=False),
 )
 
 
 t_guest_appearances = Table(
     'guest_appearances', metadata,
-    Column('episode_id', ForeignKey('episode.id')),
-    Column('guest_id', ForeignKey('guest.id'))
+    Column('episode_id', ForeignKey('episode.id'), primary_key=True, nullable=False),
+    Column('guest_id', ForeignKey('guest.id'), primary_key=True, nullable=False),
 )
 
 
@@ -239,4 +239,36 @@ def upsert_episode_inspired_by(session, episode_id, reference_id):
             DO NOTHING
         """,
         {'episode_id': episode_id, 'reference_id': reference_id}
+    )
+
+
+def upsert_guest(session, guest):
+    result = session.execute(
+        """
+            SELECT id FROM guest WHERE name = :name
+        """,
+        {k: guest[k] for k in ('name',)}
+    )
+    if result.rowcount == 0:
+        result = session.execute(
+            """
+                INSERT INTO guest (name)
+                VALUES (:name)
+                RETURNING id
+            """,
+            {k: guest[k] for k in ('name',)}
+        )
+    reference_id = result.fetchone()[0]
+    return reference_id
+
+
+def upsert_guest_appearance(session, episode_id, guest_id):
+    session.execute(
+        """
+            INSERT INTO guest_appearances (episode_id, guest_id)
+            VALUES (:episode_id, :guest_id)
+            ON CONFLICT (episode_id, guest_id)
+            DO NOTHING
+        """,
+        {'episode_id': episode_id, 'guest_id': guest_id}
     )
