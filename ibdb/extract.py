@@ -10,6 +10,8 @@ from furl import furl
 
 from ibdb.recipe_parser import RecipeParser
 
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+
 
 def extract_inspired_by(name):
     for sub in ('"', '“', '...', 'Real Sample', 'Part II', 'Part I', 'Lots of Stuff', 'Duck Carbonara',

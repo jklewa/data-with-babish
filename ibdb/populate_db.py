@@ -5,7 +5,7 @@ from ibdb.api import db
 from ibdb.extract import fetch_paginated_seq, extract_inspired_by, \
     add_youtube_resources, extract_guests, extract_recipes
 from ibdb.models import upsert_episode, upsert_reference, upsert_episode_inspired_by, upsert_guest, \
-    upsert_guest_appearance, upsert_recipe
+    upsert_guest_appearance, upsert_recipe, count_episode_recipes
 from ibdb.utils import timestamp_to_date
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -63,8 +63,9 @@ def populate_binging(session):
     episodes = fetch_binging_episode_list()
 
     for ep in episodes:
-        print("{published_date} | {name}".format(**ep))
-        ep['id'] = upsert_episode(session, ep)
+        ep['id'], created = upsert_episode(session, ep)
+        if created:
+            print("NEW {published_date} | {name}".format(**ep))
 
         inspiration_list = extract_inspired_by(ep['name'])
         for inspired_by in inspiration_list:
@@ -82,16 +83,22 @@ def populate_binging(session):
             guest['id'] = upsert_guest(session, guest)
             upsert_guest_appearance(session, ep['id'], guest['id'])
 
-        recipes = extract_recipes(ep)
-        for recipe in recipes:
-            upsert_recipe(session, recipe)
+        if created or count_episode_recipes(session, ep['id']) == 0:
+            recipes = extract_recipes(ep)
+            if len(recipes) > 0:
+                if not created:
+                    print("    {published_date} | {name}".format(**ep))
+                print(f'                 {len(recipes)} new recipes')
+            for recipe in recipes:
+                upsert_recipe(session, recipe)
 
 
 def populate_basics(session):
     episodes = fetch_basics_episode_list()
     for ep in episodes:
-        print("{published_date} | {name}".format(**ep))
-        ep['id'] = upsert_episode(session, ep)
+        ep['id'], created = upsert_episode(session, ep)
+        if created:
+            print("NEW {published_date} | {name}".format(**ep))
 
         guest_list = extract_guests(ep['name'])
         for guest in guest_list:
@@ -101,9 +108,14 @@ def populate_basics(session):
             guest['id'] = upsert_guest(session, guest)
             upsert_guest_appearance(session, ep['id'], guest['id'])
 
-        recipes = extract_recipes(ep)
-        for recipe in recipes:
-            upsert_recipe(session, recipe)
+        if created or count_episode_recipes(session, ep['id']) == 0:
+            recipes = extract_recipes(ep)
+            if len(recipes) > 0:
+                if not created:
+                    print("    {published_date} | {name}".format(**ep))
+                print(f'                 {len(recipes)} new recipes')
+            for recipe in recipes:
+                upsert_recipe(session, recipe)
 
 
 def populate_db():
