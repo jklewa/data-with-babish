@@ -3,8 +3,9 @@ import html
 
 from ibdb.api import db
 from ibdb.extract import fetch_paginated_seq, extract_inspired_by, \
-    add_youtube_resources
-from ibdb.models import upsert_episode, upsert_reference, upsert_episode_inspired_by
+    add_youtube_resources, extract_guests
+from ibdb.models import upsert_episode, upsert_reference, upsert_episode_inspired_by, upsert_guest, \
+    upsert_guest_appearance
 from ibdb.utils import timestamp_to_date
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -68,10 +69,18 @@ def populate_binging(session):
         inspiration_list = extract_inspired_by(ep['name'])
         for inspired_by in inspiration_list:
             ref = {
-                'name': inspired_by
+                'name': inspired_by,
             }
             ref['id'] = upsert_reference(session, ref)
             upsert_episode_inspired_by(session, ep['id'], ref['id'])
+
+        guest_list = extract_guests(ep['name'])
+        for guest in guest_list:
+            guest = {
+                'name': guest,
+            }
+            guest['id'] = upsert_guest(session, guest)
+            upsert_guest_appearance(session, ep['id'], guest['id'])
 
 
 def populate_basics(session):
@@ -79,6 +88,14 @@ def populate_basics(session):
     for ep in episodes:
         print("{published_date} | {name}".format(**ep))
         ep['id'] = upsert_episode(session, ep)
+
+        guest_list = extract_guests(ep['name'])
+        for guest in guest_list:
+            guest = {
+                'name': guest,
+            }
+            guest['id'] = upsert_guest(session, guest)
+            upsert_guest_appearance(session, ep['id'], guest['id'])
 
 
 def populate_db():

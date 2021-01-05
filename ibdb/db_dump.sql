@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 12.5 (Debian 12.5-1.pgdg100+1)
--- Dumped by pg_dump version 12.5 (Ubuntu 12.5-1.pgdg18.04+1)
+-- Dumped by pg_dump version 12.5 (Debian 12.5-1.pgdg100+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -100,8 +100,8 @@ ALTER TABLE public.guest OWNER TO postgres;
 --
 
 CREATE TABLE public.guest_appearances (
-    episode_id character varying,
-    guest_id integer
+    episode_id character varying NOT NULL,
+    guest_id integer NOT NULL
 );
 
 
@@ -273,7 +273,7 @@ ALTER TABLE ONLY public.show ALTER COLUMN id SET DEFAULT nextval('public.show_id
 --
 
 COPY public.alembic_version (version_num) FROM stdin;
-960feeb4b2ef
+c68d372abaa7
 \.
 
 
@@ -1880,6 +1880,14 @@ ALTER TABLE ONLY public.episode
 
 ALTER TABLE ONLY public.episode
     ADD CONSTRAINT episode_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: guest_appearances guest_appearances_pk; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.guest_appearances
+    ADD CONSTRAINT guest_appearances_pk PRIMARY KEY (episode_id, guest_id);
 
 
 --
