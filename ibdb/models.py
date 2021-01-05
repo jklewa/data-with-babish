@@ -272,3 +272,23 @@ def upsert_guest_appearance(session, episode_id, guest_id):
         """,
         {'episode_id': episode_id, 'guest_id': guest_id}
     )
+
+
+def upsert_recipe(session, recipe):
+    result = session.execute(
+        """
+            SELECT id FROM recipe WHERE episode_id = :episode_id AND name = :name
+        """,
+        {k: recipe[k] for k in ('episode_id', 'name')}
+    )
+    if result.rowcount == 0:
+        result = session.execute(
+            """
+                INSERT INTO recipe (episode_id, name, image_link, raw_ingredient_list, raw_procedure)
+                VALUES (:episode_id, :name, :image_link, :raw_ingredient_list, :raw_procedure)
+                RETURNING id
+            """,
+            {k: recipe[k] for k in ('episode_id', 'name', 'image_link', 'raw_ingredient_list', 'raw_procedure')}
+        )
+    recipe_id = result.fetchone()[0]
+    return recipe_id

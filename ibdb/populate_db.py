@@ -3,9 +3,9 @@ import html
 
 from ibdb.api import db
 from ibdb.extract import fetch_paginated_seq, extract_inspired_by, \
-    add_youtube_resources, extract_guests
+    add_youtube_resources, extract_guests, extract_recipes
 from ibdb.models import upsert_episode, upsert_reference, upsert_episode_inspired_by, upsert_guest, \
-    upsert_guest_appearance
+    upsert_guest_appearance, upsert_recipe
 from ibdb.utils import timestamp_to_date
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -82,6 +82,10 @@ def populate_binging(session):
             guest['id'] = upsert_guest(session, guest)
             upsert_guest_appearance(session, ep['id'], guest['id'])
 
+        recipes = extract_recipes(ep)
+        for recipe in recipes:
+            upsert_recipe(session, recipe)
+
 
 def populate_basics(session):
     episodes = fetch_basics_episode_list()
@@ -96,6 +100,10 @@ def populate_basics(session):
             }
             guest['id'] = upsert_guest(session, guest)
             upsert_guest_appearance(session, ep['id'], guest['id'])
+
+        recipes = extract_recipes(ep)
+        for recipe in recipes:
+            upsert_recipe(session, recipe)
 
 
 def populate_db():
