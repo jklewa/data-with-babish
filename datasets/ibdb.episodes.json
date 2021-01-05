@@ -1697,6 +1697,15 @@
       "guests": [],
       "inspired_by": [
         {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/532",
+          "reference_id": 532,
+          "type": null,
+          "name": "Star Trek",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        },
+        {
           "self": "ibdb://data-with-babish.jklewa.github.com/reference/295",
           "reference_id": 295,
           "type": null,
@@ -4499,6 +4508,15 @@
       },
       "guests": [],
       "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/531",
+          "reference_id": 531,
+          "type": null,
+          "name": "Naco Redemption",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        },
         {
           "self": "ibdb://data-with-babish.jklewa.github.com/reference/13",
           "reference_id": 13,
@@ -10445,6 +10463,15 @@
       "guests": [],
       "inspired_by": [
         {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/530",
+          "reference_id": 530,
+          "type": null,
+          "name": "Spider-Man",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        },
+        {
           "self": "ibdb://data-with-babish.jklewa.github.com/reference/8",
           "reference_id": 8,
           "type": "movie",
@@ -13517,6 +13544,15 @@
       },
       "guests": [],
       "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/529",
+          "reference_id": 529,
+          "type": null,
+          "name": "Avengers",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        },
         {
           "self": "ibdb://data-with-babish.jklewa.github.com/reference/16",
           "reference_id": 16,
@@ -19882,6 +19918,15 @@
       "guests": [],
       "inspired_by": [
         {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/528",
+          "reference_id": 528,
+          "type": null,
+          "name": "Charlie Brown",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        },
+        {
           "self": "ibdb://data-with-babish.jklewa.github.com/reference/32",
           "reference_id": 32,
           "type": "tv_show",
@@ -25075,6 +25120,15 @@
           "image_link": null
         },
         {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/527",
+          "reference_id": 527,
+          "type": null,
+          "name": "Princess and the Frog",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        },
+        {
           "self": "ibdb://data-with-babish.jklewa.github.com/reference/48",
           "reference_id": 48,
           "type": "movie",
@@ -29000,6 +29054,15 @@
       "guests": [],
       "inspired_by": [
         {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/526",
+          "reference_id": 526,
+          "type": null,
+          "name": "Captain America",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        },
+        {
           "self": "ibdb://data-with-babish.jklewa.github.com/reference/205",
           "reference_id": 205,
           "type": null,
@@ -30237,6 +30300,12 @@
       },
       "guests": [
         {
+          "self": "ibdb://data-with-babish.jklewa.github.com/guest/33",
+          "guest_id": 33,
+          "name": "Brad",
+          "image_link": null
+        },
+        {
           "self": "ibdb://data-with-babish.jklewa.github.com/guest/6",
           "guest_id": 6,
           "name": "Brad Leone",
@@ -30958,6 +31027,15 @@
       },
       "guests": [],
       "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/525",
+          "reference_id": 525,
+          "type": null,
+          "name": "Food Wars",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        },
         {
           "self": "ibdb://data-with-babish.jklewa.github.com/reference/199",
           "reference_id": 199,
@@ -34629,6 +34707,15 @@
           "description": "A motorcycle stunt rider turns to robbing banks as a way to provide for his lover and their newborn child, a decision that puts him on a collision course with an ambitious rookie cop navigating a department ruled by a corrupt detective. IMDb.",
           "external_link": "https://www.imdb.com/title/tt1817273/",
           "image_link": "https://img.youtube.com/vi/o2YuRzviXMc/mqdefault.jpg"
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/524",
+          "reference_id": 524,
+          "type": null,
+          "name": "The Place Beyond The Pines",
+          "description": null,
+          "external_link": null,
+          "image_link": null
         },
         {
           "self": "ibdb://data-with-babish.jklewa.github.com/reference/187",
@@ -38494,6 +38581,15 @@
           "image_link": "https://img.youtube.com/vi/2As_DjNkwiI/mqdefault.jpg"
         },
         {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/523",
+          "reference_id": 523,
+          "type": null,
+          "name": "Zelda",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        },
+        {
           "self": "ibdb://data-with-babish.jklewa.github.com/reference/175",
           "reference_id": 175,
           "type": null,
@@ -40873,6 +40969,12 @@
         "image_link": null
       },
       "guests": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/guest/32",
+          "guest_id": 32,
+          "name": "Ashwin Enjoys Nature",
+          "image_link": null
+        },
         {
           "self": "ibdb://data-with-babish.jklewa.github.com/guest/11",
           "guest_id": 11,
@@ -45929,6 +46031,15 @@
           "image_link": "https://img.youtube.com/vi/NIb0yG_xjp4/mqdefault.jpg"
         },
         {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/522",
+          "reference_id": 522,
+          "type": null,
+          "name": "TMNT II",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        },
+        {
           "self": "ibdb://data-with-babish.jklewa.github.com/reference/145",
           "reference_id": 145,
           "type": null,
@@ -46767,6 +46878,15 @@
           "description": "The absurd antics of an Indiana town's public officials as they pursue sundry projects to make their city a better place. IMDb.",
           "external_link": "https://www.imdb.com/title/tt1266020/",
           "image_link": "https://i.ytimg.com/sh/nUzFbxsSUUJSKlrWTyN0pg/market.jpg"
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/299",
+          "reference_id": 299,
+          "type": null,
+          "name": "Parks & Rec",
+          "description": null,
+          "external_link": null,
+          "image_link": null
         }
       ],
       "recipes": [
