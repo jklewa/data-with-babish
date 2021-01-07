@@ -508,6 +508,7 @@ porchetta	PORCHETTA	https://www.youtube.com/watch?v=YMF27Q9nLNY	https://basicswi
 portalcake	The Cake inspired by Portal	https://www.youtube.com/watch?v=Y9l8iu5J6rs	https://www.bingingwithbabish.com/recipes/portalcake	https://img.youtube.com/vi/Y9l8iu5J6rs/mqdefault.jpg	2019-03-19	1
 potato-hash	POTATO HASH	https://www.youtube.com/watch?v=R4kwxiDlKzs	https://basicswithbabish.co/basicsepisodes/potato-hash	https://img.youtube.com/vi/R4kwxiDlKzs/mqdefault.jpg	2020-08-27	2
 potroast	POT ROAST	https://www.youtube.com/watch?v=RVx90rTJIzc	https://basicswithbabish.co/basicsepisodes/potroast	https://img.youtube.com/vi/RVx90rTJIzc/mqdefault.jpg	2019-02-14	2
+potstickers	POTSTICKERS	https://www.youtube.com/watch?v=iC1rvXPt_rE	https://basicswithbabish.co/basicsepisodes/potstickers	https://img.youtube.com/vi/iC1rvXPt_rE/mqdefault.jpg	2021-01-07	2
 poutine	POUTINE	https://www.youtube.com/watch?v=uc-_KXfHcXQ	https://basicswithbabish.co/basicsepisodes/poutine	https://img.youtube.com/vi/uc-_KXfHcXQ/mqdefault.jpg	2019-09-26	2
 puerco-pibil	Puerco Pibil inspired by Once Upon a Time in Mexico	https://www.youtube.com/watch?v=5_sdhAFGmbw	https://www.bingingwithbabish.com/recipes/2017/8/08/puerco-pibil	https://img.youtube.com/vi/5_sdhAFGmbw/mqdefault.jpg	2017-08-08	1
 pullednoodles	Special Ingredient Soup inspired by Kung Fu Panda	https://www.youtube.com/watch?v=cee6883w2Nk	https://www.bingingwithbabish.com/recipes/pullednoodles	https://img.youtube.com/vi/cee6883w2Nk/mqdefault.jpg	2019-10-01	1
@@ -548,6 +549,7 @@ skinnersstew	Skinner's Stew inspired by The Simpsons	https://www.youtube.com/wat
 smokedribs	GAS GRILL-SMOKED RIBS	https://www.youtube.com/watch?v=sX2fsvYkKF4	https://basicswithbabish.co/basicsepisodes/smokedribs	https://img.youtube.com/vi/sX2fsvYkKF4/mqdefault.jpg	2020-05-21	2
 snl-overnight-salad	Overnight Salad inspired by Saturday Night Live	https://www.youtube.com/watch?v=Z5zEocd3u9w	https://www.bingingwithbabish.com/recipes/snl-overnight-salad	https://img.youtube.com/vi/Z5zEocd3u9w/mqdefault.jpg	2020-12-29	1
 sourdough-bread	SOURDOUGH BREAD	https://www.youtube.com/watch?v=bSYdABrPrtM	https://basicswithbabish.co/basicsepisodes/sourdough-bread	https://img.youtube.com/vi/bSYdABrPrtM/mqdefault.jpg	2020-02-28	2
+sourdough-broccoli-pizza-inside-out	Sourdough Broccoli Pizza inspired by Inside Out	https://www.youtube.com/watch?v=8ti1quN-jKs	https://www.bingingwithbabish.com/recipes/sourdough-broccoli-pizza-inside-out	https://img.youtube.com/vi/8ti1quN-jKs/mqdefault.jpg	2021-01-05	1
 sousvide-nb7s3	SOUS VIDE	https://www.youtube.com/watch?v=NCHOyqMUj4o	https://basicswithbabish.co/basicsepisodes/sousvide-nb7s3	https://img.youtube.com/vi/NCHOyqMUj4o/mqdefault.jpg	2018-09-06	2
 southparkspecial	South Park Special	https://www.youtube.com/watch?v=KxPgrGdSHh8	https://www.bingingwithbabish.com/recipes/2017/6/27/southparkspecial	https://img.youtube.com/vi/KxPgrGdSHh8/mqdefault.jpg	2017-04-19	1
 spaghetti-carbonara-inspired-by-master-of-none	Spaghetti Carbonara inspired by Master of None	https://www.youtube.com/watch?v=MbRm5s3i2ik	https://www.bingingwithbabish.com/recipes/2017/5/16/spaghetti-carbonara-inspired-by-master-of-none	https://img.youtube.com/vi/MbRm5s3i2ik/mqdefault.jpg	2017-05-16	1
@@ -844,6 +846,7 @@ shawarma	62
 shawarma	203
 skinnersstew	15
 snl-overnight-salad	89
+sourdough-broccoli-pizza-inside-out	533
 southparkspecial	99
 spaghetti-carbonara-inspired-by-master-of-none	97
 spaghettitaco	24
@@ -1834,6 +1837,7 @@ COPY public.reference (id, type, name, description, external_link, image_link) F
 530	\N	Spider-Man	\N	\N	\N
 531	\N	Naco Redemption	\N	\N	\N
 532	\N	Star Trek	\N	\N	\N
+533	\N	Inside Out	\N	\N	\N
 \.
 
 
@@ -1867,7 +1871,7 @@ SELECT pg_catalog.setval('public.recipe_id_seq', 629, true);
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 532, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 533, true);
 
 
 --
