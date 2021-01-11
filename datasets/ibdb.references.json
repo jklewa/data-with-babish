@@ -1888,6 +1888,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/533",
+    "reference_id": 533,
+    "type": null,
+    "name": "Inside Out",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/sourdough-broccoli-pizza-inside-out",
+        "episode_id": "sourdough-broccoli-pizza-inside-out",
+        "name": "Sourdough Broccoli Pizza inspired by Inside Out",
+        "published_date": "2021-01-05",
+        "youtube_link": "https://www.youtube.com/watch?v=8ti1quN-jKs",
+        "official_link": "https://www.bingingwithbabish.com/recipes/sourdough-broccoli-pizza-inside-out",
+        "image_link": "https://img.youtube.com/vi/8ti1quN-jKs/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/10",
     "reference_id": 10,
     "type": "tv_show",
