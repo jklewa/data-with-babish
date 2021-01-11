@@ -198,6 +198,18 @@ Helper methods for models
 
 
 def upsert_episode(session, episode):
+    # test if we will be creating this
+    result = session.execute(
+        """
+            SELECT id FROM episode WHERE id = :id
+        """,
+        {k: episode[k] for k in ('id',)}
+    )
+    created = True
+    if result.rowcount > 0:
+        created = False
+
+    # upsert
     session.execute(
         """
             INSERT INTO episode (id, name, youtube_link, official_link, image_link, published_date, show_id)
@@ -207,7 +219,7 @@ def upsert_episode(session, episode):
             = (EXCLUDED.name, EXCLUDED.youtube_link, EXCLUDED.official_link, EXCLUDED.image_link, EXCLUDED.published_date, EXCLUDED.show_id)
         """,
         {k: episode[k] for k in ('id', 'name', 'youtube_link', 'official_link', 'image_link', 'published_date', 'show_id')})
-    return episode['id']
+    return episode['id'], created
 
 
 def upsert_reference(session, reference):
@@ -272,3 +284,33 @@ def upsert_guest_appearance(session, episode_id, guest_id):
         """,
         {'episode_id': episode_id, 'guest_id': guest_id}
     )
+
+
+def count_episode_recipes(session, episode_id):
+    result = session.execute(
+        """
+            SELECT id FROM recipe WHERE episode_id = :episode_id
+        """,
+        {'episode_id': episode_id}
+    )
+    return result.rowcount
+
+
+def upsert_recipe(session, recipe):
+    result = session.execute(
+        """
+            SELECT id FROM recipe WHERE episode_id = :episode_id AND name = :name
+        """,
+        {k: recipe[k] for k in ('episode_id', 'name')}
+    )
+    if result.rowcount == 0:
+        result = session.execute(
+            """
+                INSERT INTO recipe (episode_id, name, image_link, raw_ingredient_list, raw_procedure)
+                VALUES (:episode_id, :name, :image_link, :raw_ingredient_list, :raw_procedure)
+                RETURNING id
+            """,
+            {k: recipe[k] for k in ('episode_id', 'name', 'image_link', 'raw_ingredient_list', 'raw_procedure')}
+        )
+    recipe_id = result.fetchone()[0]
+    return recipe_id

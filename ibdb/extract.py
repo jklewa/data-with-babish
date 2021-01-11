@@ -1,11 +1,16 @@
 import json
 import logging
 import re
+import string
 
 import bs4
 import requests
 from functional import seq
 from furl import furl
+
+from ibdb.recipe_parser import RecipeParser
+
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 
 def extract_inspired_by(name):
@@ -92,11 +97,19 @@ def fetch_paginated_seq(base_url, route):
     items = []
 
     while route:
+        r = None
         link = furl(base_url + route).add({'format': 'json'})
-        res = requests.get(link).json(encoding='utf-8')
+        try:
+            r = requests.get(link)
+            res = r.json(encoding='utf-8')
 
-        items += res.get('items', [])
-        route = res.get('pagination', {}).get('nextPageUrl', None)
+            items += res.get('items', [])
+            route = res.get('pagination', {}).get('nextPageUrl', None)
+        except Exception:
+            logging.error(f'Failed request: {link}')
+            logging.error(f'Status code: {r and r.status_code}')
+            logging.error(f'Response:\n{r and r.text}')
+            raise
 
     return seq(items)
 
@@ -109,3 +122,74 @@ def match_lists(ings, methods):
         ([i for i in ings if i.text in m.text], m)
         for m in methods
     ]
+
+
+def extract_recipes(episode):
+    recipes = []
+    soup = bs4.BeautifulSoup(episode['body'], 'html.parser')
+
+    recipe_locations = soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5'], string=re.compile('Ingredients'))
+
+    for loc in recipe_locations:
+        ingredient_lists = loc.parent.find_all(['ul'])
+
+        for iloc in ingredient_lists:
+            # TODO: This logic is messy and brittle. Refactor it.
+
+            # Get method name, usually right before the list itself
+            method_name = iloc.find_previous_sibling(['p', 'h2', 'h3'])
+            if method_name is not None:
+                method_name = method_name.get_text().replace('Ingredients', '').strip(string.whitespace + '\u00a0:,')
+
+            if method_name is None or method_name == '':
+                # Look for the method name above the recipe instead
+                h = iloc.parent.find_next(['h1', 'h2'])
+                if h:
+                    method_name = h.get_text().strip()
+                    method_name = re.sub('^(Method)', '', method_name).strip(string.whitespace + '\u00a0:,')
+                else:
+                    # No luck, fall back to default
+                    method_name = ''
+
+            # Default to the episode name
+            if method_name == '':
+                method_name = episode['name']
+
+            def flatten(loc):
+                out = []
+                for i in loc.children:
+                    # flatten nested lists
+                    if isinstance(i, bs4.element.Tag) and i.select('ul,ol'):
+                        for i2 in i.select('ul,ol'):
+                            out += flatten(i2)
+                    else:
+                        out.append(i)
+                return out
+
+            # Convert the ul to parsed Ingredients
+            try:
+                raw_ingredients = flatten(iloc)
+                ingredients = [RecipeParser.parse_ingredient(i) for i in raw_ingredients]
+            except Exception:
+                print("ERROR: Failed to parse ingredients from ep: {0} method: {1} raw_list: {2}".format(
+                    episode['name'],
+                    method_name,
+                    list(iloc.children)
+                ))
+                raise
+
+            if len(ingredients) == 0:
+                print(
+                    "WARN: Could not find ingredients for {0} (Episode {1})".format(
+                        method_name, episode['name']))
+
+            recipe = {
+                'name': method_name,
+                'image_link': None,
+                'raw_ingredient_list': '\n'.join(i.get_text().strip() for i in raw_ingredients),
+                'raw_procedure': '',
+                'episode_id': episode['id'],
+            }
+            recipes.append(recipe)
+
+    return recipes
