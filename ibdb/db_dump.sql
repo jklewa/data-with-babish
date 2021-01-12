@@ -526,6 +526,7 @@ restaurant-wars-steven-universe	Restaurant Wars inspired by Steven Universe	http
 reversesearsteak	How To Reverse-Sear A Steak	https://www.youtube.com/watch?v=akO6D_tc0lo	https://www.bingingwithbabish.com/recipes/2017/8/22/reversesearsteak	https://img.youtube.com/vi/akO6D_tc0lo/mqdefault.jpg	2016-03-14	1
 ribwich	Ribwich inspired by The Simpsons	https://www.youtube.com/watch?v=Yj07347rEqo	https://www.bingingwithbabish.com/recipes/ribwich	https://img.youtube.com/vi/Yj07347rEqo/mqdefault.jpg	2019-03-12	1
 risotto	RISOTTO	https://www.youtube.com/watch?v=E_8wQsmjn0A	https://basicswithbabish.co/basicsepisodes/risotto	https://img.youtube.com/vi/E_8wQsmjn0A/mqdefault.jpg	2018-05-31	2
+risotto-tricolore-big-night	Risotto Tricolore inspired by Big Night	https://www.youtube.com/watch?v=D8SgdOGIEyU	https://www.bingingwithbabish.com/recipes/risotto-tricolore-big-night	https://img.youtube.com/vi/D8SgdOGIEyU/mqdefault.jpg	2021-01-12	1
 roastbeast	Roast Beast inspired by How The Grinch Stole Christmas	https://www.youtube.com/watch?v=_szug5_YkD4	https://www.bingingwithbabish.com/recipes/roastbeast	https://img.youtube.com/vi/_szug5_YkD4/mqdefault.jpg	2018-12-18	1
 rumfrenchtoast	Rum French Toast inspired by Mad Men	https://www.youtube.com/watch?v=evzWEXpW1pM	https://www.bingingwithbabish.com/recipes/2017/8/22/rumfrenchtoast	https://img.youtube.com/vi/evzWEXpW1pM/mqdefault.jpg	2018-01-23	1
 salad-nb7s3-3jkft	SALAD	https://www.youtube.com/watch?v=xHR8BCFv_JY	https://basicswithbabish.co/basicsepisodes/salad-nb7s3-3jkft	https://img.youtube.com/vi/xHR8BCFv_JY/mqdefault.jpg	2018-09-06	2
@@ -836,6 +837,7 @@ ratatouille	156
 regular-show-mississippi-queen	7
 restaurant-wars-steven-universe	6
 ribwich	15
+risotto-tricolore-big-night	111
 roastbeast	29
 rumfrenchtoast	68
 sandyfryesappetizers	14
@@ -1830,6 +1832,10 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 838	Dipping Sauce	\N	½ cup soy sauce\n¼ cup rice vinegar\n1 Tbsp granulated sugar\n½ inch ginger, peeled and grated\n1 Tbsp scallions, thinly sliced\n1 Tbsp toasted sesame oil\nOptional: 1 tsp sriracha (to taste)\n¼ cup water		potstickers
 839	(Optional) Skirt	\N	1 tsp cornstarch\n½ tsp all-purpose flour\n½ cup water\n¼ tsp rice vinegar		potstickers
 840	Cooking	\N	Dumpling wrappers\nPork filling\nAs needed vegetable oil\nAs needed water\nOptional: Skirt mixture		potstickers
+841	Risotto	\N	3 Tbsp unsalted butter, divided\n2 Tbsp olive oil, divided\n½ large white onion, finely chopped\n2 cloves garlic, crushed\n1 cup Arborio rice\n½ cup dry white wine, preferably Italian\n3.5 cups homemade chicken stock, heated\n½ Parmesan cheese, grated\nTo taste kosher salt\nTo taste freshly ground black pepper		risotto-tricolore-big-night
+842	Seafood Stock	\N	1 pound prawn shells\n3 Tbsp olive oil, divided\n2 carrots, roughly chopped\n1 large onion, quartered\n2 celery stalks, roughly chopped\n¼ cup tomato paste\n1 cup dry white wine\n2 quarts water\n6-8 parsley leaves and stems\n1 garlic head, halved\n1 Tbsp black peppercorns\n2 bay leaves		risotto-tricolore-big-night
+843	Lobster Butter	\N	2 medium-sized lobster tails\n1 stick unsalted butter		risotto-tricolore-big-night
+844	Basil Pesto	\N	1 cup (packed) basil leaves\n2 large cloves garlic\n3 Tbsp pine nuts, toasted\n¼ cup Parmesan cheese, grated\n1 tsp kosher salt\n½ tsp freshly ground black pepper\n¼ cup extra virgin olive oil (+ more if needed)		risotto-tricolore-big-night
 \.
 
 
@@ -2075,7 +2081,7 @@ SELECT pg_catalog.setval('public.guest_id_seq', 33, true);
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 840, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 844, true);
 
 
 --

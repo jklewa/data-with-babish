@@ -1,5 +1,262 @@
 [
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/risotto-tricolore-big-night",
+    "episode_id": "risotto-tricolore-big-night",
+    "name": "Risotto Tricolore inspired by Big Night",
+    "published_date": "2021-01-12",
+    "youtube_link": "https://www.youtube.com/watch?v=D8SgdOGIEyU",
+    "official_link": "https://www.bingingwithbabish.com/recipes/risotto-tricolore-big-night",
+    "image_link": "https://img.youtube.com/vi/D8SgdOGIEyU/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/111",
+          "reference_id": 111,
+          "type": "movie",
+          "name": "Big Night",
+          "description": "New Jersey, 1950s. Two brothers run an Italian restaurant. Business is not going well as a rival Italian restaurant is out-competing them. In a final effort to save the restaurant, the brothers plan to put on an evening of incredible food. IMDb.",
+          "external_link": "https://www.imdb.com/title/tt0115678/",
+          "image_link": "https://img.youtube.com/vi/ulR4J_yWbbw/mqdefault.jpg"
+        }
+      ],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/844",
+          "recipe_id": 844,
+          "name": "Basil Pesto",
+          "image_link": null,
+          "raw_ingredient_list": "1 cup (packed) basil leaves\n2 large cloves garlic\n3 Tbsp pine nuts, toasted\n\u00bc cup Parmesan cheese, grated\n1 tsp kosher salt\n\u00bd tsp freshly ground black pepper\n\u00bc cup extra virgin olive oil (+ more if needed)",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              "cup",
+              "Basil Leaves",
+              "1 cup (packed) basil leaves"
+            ],
+            [
+              2.0,
+              "large",
+              "Cloves Garlic",
+              "2 large cloves garlic"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Pine Nuts",
+              "3 Tbsp pine nuts, toasted"
+            ],
+            [
+              0.25,
+              "cup",
+              "Parmesan Cheese",
+              "\u00bc cup Parmesan cheese, grated"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt",
+              "1 tsp kosher salt"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Freshly Ground Black Pepper",
+              "\u00bd tsp freshly ground black pepper"
+            ],
+            [
+              0.25,
+              "cup",
+              "Extra Virgin Olive Oil",
+              "\u00bc cup extra virgin olive oil (+ more if needed)"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/843",
+          "recipe_id": 843,
+          "name": "Lobster Butter",
+          "image_link": null,
+          "raw_ingredient_list": "2 medium-sized lobster tails\n1 stick unsalted butter",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              "medium",
+              "-sized Lobster Tails",
+              "2 medium-sized lobster tails"
+            ],
+            [
+              1.0,
+              null,
+              "Stick Unsalted Butter",
+              "1 stick unsalted butter"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/841",
+          "recipe_id": 841,
+          "name": "Risotto",
+          "image_link": null,
+          "raw_ingredient_list": "3 Tbsp unsalted butter, divided\n2 Tbsp olive oil, divided\n\u00bd large white onion, finely chopped\n2 cloves garlic, crushed\n1 cup Arborio rice\n\u00bd cup dry white wine, preferably Italian\n3.5 cups homemade chicken stock, heated\n\u00bd Parmesan cheese, grated\nTo taste kosher salt\nTo taste freshly ground black pepper",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              3.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "3 Tbsp unsalted butter, divided"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Olive Oil",
+              "2 Tbsp olive oil, divided"
+            ],
+            [
+              0.5,
+              "large",
+              "White Onion",
+              "\u00bd large white onion, finely chopped"
+            ],
+            [
+              2.0,
+              null,
+              "Cloves Garlic",
+              "2 cloves garlic, crushed"
+            ],
+            [
+              1.0,
+              "cup",
+              "Arborio Rice",
+              "1 cup Arborio rice"
+            ],
+            [
+              0.5,
+              "cup",
+              "Dry White Wine",
+              "\u00bd cup dry white wine, preferably Italian"
+            ],
+            [
+              3.5,
+              "cup",
+              "Homemade Chicken Stock",
+              "3.5 cups homemade chicken stock, heated"
+            ],
+            [
+              0.5,
+              null,
+              "Parmesan Cheese",
+              "\u00bd Parmesan cheese, grated"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/842",
+          "recipe_id": 842,
+          "name": "Seafood Stock",
+          "image_link": null,
+          "raw_ingredient_list": "1 pound prawn shells\n3 Tbsp olive oil, divided\n2 carrots, roughly chopped\n1 large onion, quartered\n2 celery stalks, roughly chopped\n\u00bc cup tomato paste\n1 cup dry white wine\n2 quarts water\n6-8 parsley leaves and stems\n1 garlic head, halved\n1 Tbsp black peppercorns\n2 bay leaves",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              "pound",
+              "Prawn Shells",
+              "1 pound prawn shells"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Olive Oil",
+              "3 Tbsp olive oil, divided"
+            ],
+            [
+              2.0,
+              null,
+              "Carrots",
+              "2 carrots, roughly chopped"
+            ],
+            [
+              1.0,
+              "large",
+              "Onion",
+              "1 large onion, quartered"
+            ],
+            [
+              2.0,
+              null,
+              "Celery Stalks",
+              "2 celery stalks, roughly chopped"
+            ],
+            [
+              0.25,
+              "cup",
+              "Tomato Paste",
+              "\u00bc cup tomato paste"
+            ],
+            [
+              1.0,
+              "cup",
+              "Dry White Wine",
+              "1 cup dry white wine"
+            ],
+            [
+              2.0,
+              null,
+              "Quarts Water",
+              "2 quarts water"
+            ],
+            [
+              "6-8",
+              null,
+              "Parsley Leaves And Stems",
+              "6-8 parsley leaves and stems"
+            ],
+            [
+              1.0,
+              null,
+              "Garlic Head",
+              "1 garlic head, halved"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Black Peppercorns",
+              "1 Tbsp black peppercorns"
+            ],
+            [
+              2.0,
+              null,
+              "Bay Leaves",
+              "2 bay leaves"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/episode/potstickers",
     "episode_id": "potstickers",
     "name": "POTSTICKERS",
