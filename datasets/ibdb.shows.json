@@ -6,6 +6,15 @@
     "image_link": null,
     "episodes": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/risotto-tricolore-big-night",
+        "episode_id": "risotto-tricolore-big-night",
+        "name": "Risotto Tricolore inspired by Big Night",
+        "published_date": "2021-01-12",
+        "youtube_link": "https://www.youtube.com/watch?v=D8SgdOGIEyU",
+        "official_link": "https://www.bingingwithbabish.com/recipes/risotto-tricolore-big-night",
+        "image_link": "https://img.youtube.com/vi/D8SgdOGIEyU/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/sourdough-broccoli-pizza-inside-out",
         "episode_id": "sourdough-broccoli-pizza-inside-out",
         "name": "Sourdough Broccoli Pizza inspired by Inside Out",

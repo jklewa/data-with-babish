@@ -512,6 +512,15 @@
     "image_link": "https://img.youtube.com/vi/ulR4J_yWbbw/mqdefault.jpg",
     "episodes_inspired": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/risotto-tricolore-big-night",
+        "episode_id": "risotto-tricolore-big-night",
+        "name": "Risotto Tricolore inspired by Big Night",
+        "published_date": "2021-01-12",
+        "youtube_link": "https://www.youtube.com/watch?v=D8SgdOGIEyU",
+        "official_link": "https://www.bingingwithbabish.com/recipes/risotto-tricolore-big-night",
+        "image_link": "https://img.youtube.com/vi/D8SgdOGIEyU/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/il-timpano-inspired-by-big-night",
         "episode_id": "il-timpano-inspired-by-big-night",
         "name": "Il Timpano inspired by Big Night",
