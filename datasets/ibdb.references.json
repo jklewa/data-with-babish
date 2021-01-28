@@ -532,6 +532,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/534",
+    "reference_id": 534,
+    "type": null,
+    "name": "Billy Madison",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/sloppy-joes-billy-madison",
+        "episode_id": "sloppy-joes-billy-madison",
+        "name": "Sloppy Joes inspired by Billy Madison",
+        "published_date": "2021-01-20",
+        "youtube_link": "https://www.youtube.com/watch?v=BsDkBaACINQ",
+        "official_link": "https://www.bingingwithbabish.com/recipes/sloppy-joes-billy-madison",
+        "image_link": "https://img.youtube.com/vi/BsDkBaACINQ/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/292",
     "reference_id": 292,
     "type": null,
@@ -1439,6 +1459,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=vjZXcapkFEU",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/moistmaker",
         "image_link": "https://img.youtube.com/vi/vjZXcapkFEU/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/535",
+    "reference_id": 535,
+    "type": null,
+    "name": "Futurama",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/bachelor-chow-futurama",
+        "episode_id": "bachelor-chow-futurama",
+        "name": "Bachelor Chow inspired by Futurama",
+        "published_date": "2021-01-26",
+        "youtube_link": "https://www.youtube.com/watch?v=nowFI0WRpO0",
+        "official_link": "https://www.bingingwithbabish.com/recipes/bachelor-chow-futurama",
+        "image_link": "https://img.youtube.com/vi/nowFI0WRpO0/mqdefault.jpg"
       }
     ]
   },

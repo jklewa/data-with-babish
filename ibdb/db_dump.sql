@@ -299,6 +299,7 @@ avatar-fire-flakes	Fire Flakes inspired by Avatar the Last Airbender	https://www
 avengersicecream	Ice Cream Flavors inspired by Avengers: Infinity War	https://www.youtube.com/watch?v=Ukjat70Iyt4	https://www.bingingwithbabish.com/recipes/avengersicecream	https://img.youtube.com/vi/Ukjat70Iyt4/mqdefault.jpg	2019-04-30	1
 babishpaniniwinner	#BabishPanini Winning Recipe - Car Panini inspired by Family Guy	https://www.youtube.com/watch?v=ImoP-Apzrsg	https://www.bingingwithbabish.com/recipes/babishpaniniwinner	https://img.youtube.com/vi/ImoP-Apzrsg/mqdefault.jpg	2018-08-21	1
 babka-inspired-by-seinfeld	Babka inspired by Seinfeld	https://www.youtube.com/watch?v=pw2A03Z91FI	https://www.bingingwithbabish.com/recipes/2017/5/09/babka-inspired-by-seinfeld	https://img.youtube.com/vi/pw2A03Z91FI/mqdefault.jpg	2017-05-09	1
+bachelor-chow-futurama	Bachelor Chow inspired by Futurama	https://www.youtube.com/watch?v=nowFI0WRpO0	https://www.bingingwithbabish.com/recipes/bachelor-chow-futurama	https://img.youtube.com/vi/nowFI0WRpO0/mqdefault.jpg	2021-01-26	1
 bagels	BAGELS	https://www.youtube.com/watch?v=ZrJtpCTZk38	https://basicswithbabish.co/basicsepisodes/bagels	https://img.youtube.com/vi/ZrJtpCTZk38/mqdefault.jpg	2019-01-24	2
 bagelsandwiches	Bagel Sandwiches inspired by Steven Universe	https://www.youtube.com/watch?v=wv43IN_cnyw	https://www.bingingwithbabish.com/recipes/bagelsandwiches	https://img.youtube.com/vi/wv43IN_cnyw/mqdefault.jpg	2019-07-23	1
 baklava	BAKLAVA	https://www.youtube.com/watch?v=OkzpwHodaAs	https://basicswithbabish.co/basicsepisodes/baklava	https://img.youtube.com/vi/OkzpwHodaAs/mqdefault.jpg	2020-10-15	2
@@ -423,6 +424,7 @@ grilledcheesedeluxe	Grilled Cheese Deluxe inspired by Regular Show	https://www.y
 grilledcheesevidcon	National Grilled Cheese Day + VidCon Announcement	https://www.youtube.com/watch?v=hwjdXBxeWsc	https://www.youtube.com/watch?v=hwjdXBxeWsc	https://img.youtube.com/vi/hwjdXBxeWsc/mqdefault.jpg	2018-04-11	1
 grilling-5j345	GRILLING BASICS	https://www.youtube.com/watch?v=u0feM_2mLvo	https://basicswithbabish.co/basicsepisodes/grilling-5j345	https://img.youtube.com/vi/u0feM_2mLvo/mqdefault.jpg	2018-05-11	2
 harrypotterspecial	Harry Potter Special	https://www.youtube.com/watch?v=LXDAu8DnALw	https://www.bingingwithbabish.com/recipes/2017/6/27/harrypotterspecial	https://img.youtube.com/vi/LXDAu8DnALw/mqdefault.jpg	2017-11-14	1
+healthy-meals-brown-rice	HEALTHY MEALS: BROWN RICE	https://www.youtube.com/watch?v=hMDwYiYIeRw	https://basicswithbabish.co/basicsepisodes/healthy-meals-brown-rice	https://img.youtube.com/vi/hMDwYiYIeRw/mqdefault.jpg	2021-01-21	2
 healthymeals	HEALTHY MEALS	https://www.youtube.com/watch?v=APwwGy4GzK8	https://basicswithbabish.co/basicsepisodes/healthymeals	https://img.youtube.com/vi/APwwGy4GzK8/mqdefault.jpg	2019-06-13	2
 healthymeals2	HEALTHIER VERSIONS OF UNHEALTHY FOOD	https://www.youtube.com/watch?v=yYUUobrsFDs	https://basicswithbabish.co/basicsepisodes/healthymeals2	https://img.youtube.com/vi/yYUUobrsFDs/mqdefault.jpg	2019-11-14	2
 holidaycocktails	HOLIDAY COCKTAILS	https://www.youtube.com/watch?v=LftLcYM6Fzw	https://basicswithbabish.co/basicsepisodes/holidaycocktails	https://img.youtube.com/vi/LftLcYM6Fzw/mqdefault.jpg	2018-12-13	2
@@ -546,7 +548,9 @@ shakshuka	SHAKSHUKA	https://www.youtube.com/watch?v=SjCkW-oAFQ8	https://basicswi
 shawarma	Shawarma inspired by The Avengers	https://www.youtube.com/watch?v=iErqWGwso7o	https://www.bingingwithbabish.com/recipes/2017/8/22/shawarma	https://img.youtube.com/vi/iErqWGwso7o/mqdefault.jpg	2018-04-10	1
 shepherdspie	SHEPHERD'S PIE	https://www.youtube.com/watch?v=Uj8BC2kcp7A	https://basicswithbabish.co/basicsepisodes/shepherdspie	https://img.youtube.com/vi/Uj8BC2kcp7A/mqdefault.jpg	2020-03-12	2
 short-ribs	BRAISED SHORT RIBS	https://www.youtube.com/watch?v=DUTyGfwdBaY	https://basicswithbabish.co/basicsepisodes/short-ribs	https://img.youtube.com/vi/DUTyGfwdBaY/mqdefault.jpg	2020-09-17	2
+shrimp-scampi	SHRIMP SCAMPI	https://www.youtube.com/watch?v=3ELo1zykAGU	https://basicswithbabish.co/basicsepisodes/shrimp-scampi	https://img.youtube.com/vi/3ELo1zykAGU/mqdefault.jpg	2021-01-28	2
 skinnersstew	Skinner's Stew inspired by The Simpsons	https://www.youtube.com/watch?v=y3PoXXoGVj0	https://www.bingingwithbabish.com/recipes/2017/8/22/skinnersstew	https://img.youtube.com/vi/y3PoXXoGVj0/mqdefault.jpg	2018-01-09	1
+sloppy-joes-billy-madison	Sloppy Joes inspired by Billy Madison	https://www.youtube.com/watch?v=BsDkBaACINQ	https://www.bingingwithbabish.com/recipes/sloppy-joes-billy-madison	https://img.youtube.com/vi/BsDkBaACINQ/mqdefault.jpg	2021-01-20	1
 smokedribs	GAS GRILL-SMOKED RIBS	https://www.youtube.com/watch?v=sX2fsvYkKF4	https://basicswithbabish.co/basicsepisodes/smokedribs	https://img.youtube.com/vi/sX2fsvYkKF4/mqdefault.jpg	2020-05-21	2
 snl-overnight-salad	Overnight Salad inspired by Saturday Night Live	https://www.youtube.com/watch?v=Z5zEocd3u9w	https://www.bingingwithbabish.com/recipes/snl-overnight-salad	https://img.youtube.com/vi/Z5zEocd3u9w/mqdefault.jpg	2020-12-29	1
 sourdough-bread	SOURDOUGH BREAD	https://www.youtube.com/watch?v=bSYdABrPrtM	https://basicswithbabish.co/basicsepisodes/sourdough-bread	https://img.youtube.com/vi/bSYdABrPrtM/mqdefault.jpg	2020-02-28	2
@@ -632,6 +636,7 @@ avengersicecream	16
 avengersicecream	529
 babishpaniniwinner	45
 babka-inspired-by-seinfeld	30
+bachelor-chow-futurama	535
 bagelsandwiches	6
 bananapuddingpizza	41
 banoffeepie	284
@@ -847,6 +852,7 @@ seinfeldspecial2	30
 shawarma	62
 shawarma	203
 skinnersstew	15
+sloppy-joes-billy-madison	534
 snl-overnight-salad	89
 sourdough-broccoli-pizza-inside-out	533
 southparkspecial	99
@@ -1836,6 +1842,24 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 842	Seafood Stock	\N	1 pound prawn shells\n3 Tbsp olive oil, divided\n2 carrots, roughly chopped\n1 large onion, quartered\n2 celery stalks, roughly chopped\n¼ cup tomato paste\n1 cup dry white wine\n2 quarts water\n6-8 parsley leaves and stems\n1 garlic head, halved\n1 Tbsp black peppercorns\n2 bay leaves		risotto-tricolore-big-night
 843	Lobster Butter	\N	2 medium-sized lobster tails\n1 stick unsalted butter		risotto-tricolore-big-night
 844	Basil Pesto	\N	1 cup (packed) basil leaves\n2 large cloves garlic\n3 Tbsp pine nuts, toasted\n¼ cup Parmesan cheese, grated\n1 tsp kosher salt\n½ tsp freshly ground black pepper\n¼ cup extra virgin olive oil (+ more if needed)		risotto-tricolore-big-night
+845	Manwich	\N	1 Manwich can\n1 lb ground beef\n1 package hamburger buns		sloppy-joes-billy-madison
+846	Potato Buns Ingredient	\N	361 g all-purpose flour\n43 g potato flour\n28 g nonfat dry milk powder\n25 g granulated sugar\n8 g kosher salt\n2 tsp instant yeast\n5 Tbsp unsalted butter, softened and divided\n227 g water (85°F-100°F)\nAs needed, neutral oil or nonstick spray		sloppy-joes-billy-madison
+847	Babish Sloppy Joe	\N	1 tsp water\n1/2 tsp baking soda\n1 tsp kosher salt\n1 pound ground beef (85%)\n*Optional: 2 slices thick-cut bacon, finely minced\n1/2 cup red bell pepper, finely chopped\n1/2 cup green bell pepper, finely chopped\n1/2 cup onion, finely chopped\n2 cloves garlic, minced\n1 Tbsp chili powder\n2 Tbsp tomato paste\n1/2 Tbsp all-purpose flour\n1 cup tomato sauce\n1/4 cup ketchup\n1 Tbsp Worcestershire sauce\n1 Tbsp red wine vinegar\n1 tsp paprika\n1/2 tsp mustard powder\n1 tsp chicken bouillon\n1.5 Tablespoons brown sugar\nTo taste kosher salt\nTo taste freshly ground black pepper\n6 buns, sliced in half\n1 Tbsp unsalted butter		sloppy-joes-billy-madison
+848	Confit Tomatoes	\N	6 oz cherry tomatoes (on the vine, preferably)\n5 garlic cloves, peeled\n3 sprigs rosemary\n1 bay leaf\nAs needed olive oil		sloppy-joes-billy-madison
+849	Sauce Ingredient	\N	1/2 cup vegetable oil\n1/2 cup all-purpose flour\n1/2 cup green bell pepper, chopped\n1/2 cup red bell pepper, chopped\n1/2 cup onion, chopped\n3 Tbsp tomato paste\n1 cup homemade beef stock\n2 Tbsp ketchup\n1 Tbsp red wine vinegar\n2 Tbsp brown sugar, packed\n1 tsp chili powder\n1 tsp paprika\n1/2 tsp mustard powder\n1 tsp kosher salt		sloppy-joes-billy-madison
+850	Burger Bun Crostini	\N	1 homemade potato bun\n1 Tbsp olive oil		sloppy-joes-billy-madison
+851	Beef Tartare	\N	3 ounces filet mignon (preferably dry-aged)\n1 confit garlic clove, chopped\n2 Tbsp reserved vegetable mixture\n2 tsp reserved sauce\n1/4 tsp kosher salt\n1/4 tsp freshly ground Pepper\nAs needed confit tomatoes\nAs needed crostini		sloppy-joes-billy-madison
+852	Babish Bachelor Chow	\N	4 pounds boneless beef chuck\n1 pound salt pork\n½ tsp kosher salt\n½ tsp freshly ground black pepper\n2 Tbsp unsalted butter\n5 tsp unflavored powder gelatin\n4 cups homemade beef broth\n2 onions, cut into eighths\n4 carrots, peeled and roughly chopped\n2 celery ribs, roughly chopped\n1 Tbsp tomato paste\n1 tsp anchovy paste\n⅓ cup all-purpose flour\n1 garlic head, peeled\n2 bay leaves\n½ tsp black peppercorns\n½ ounce dried porcini mushrooms\n10 sprigs fresh parsley\n6 sprigs fresh thyme\n2 sprigs fresh rosemary\n750 milliliters (1 bottle) Burgundy wine\n*Optional: 1-2 cups boiling water		bachelor-chow-futurama
+853	Stovetop Rice	\N	1 cup dried brown rice, basmati\n2 ¼ cups water		healthy-meals-brown-rice
+854	*Optional	\N	½ tsp fresh thyme\n1 Tbsp olive oil\nJuice of ½ lime\n2 Tbsp parsley\nTo taste salt\nTaste pepper		healthy-meals-brown-rice
+855	Oven-Baked Rice	\N	1 cup dried brown rice, short-grain\n2 ½ cups water		healthy-meals-brown-rice
+856	Seared Chicken	\N	2 chicken breasts\n2 garlic cloves, crushed\n3 Tbsp olive oil, divided\n½ tsp oregano\n¼ tsp smoked paprika\nJuice of 1 lime\n1 tsp kosher salt\n1 tsp freshly ground black pepper		healthy-meals-brown-rice
+857	Sesame Broccoli	\N	2 cups broccoli florets\n2 tsp olive oil\n1.5 tsp sesame oil\n½ tsp kosher salt\n½ tsp freshly ground black pepper\n2 tsp white sesame seeds		healthy-meals-brown-rice
+858	Fried Rice	\N	As needed vegetable oil\n1 cup mushrooms of choice (we used cremini and enoki), washed and sliced\n1 clove garlic, minced\n1.5 tsp freshly grated ginger\n1 carrot, finely chopped\n1 small onion or ½ large onion, finely chopped\n½ cup frozen peas\n1 green onion, finely sliced\n2 halved bunches Baby Bok choy\n2 tsp sesame oil\n1 Tbsp soy sauce\n1.5 tsp mirin\n1 Tbsp rice vinegar\n1 egg\nTo taste kosher salt\nTo taste freshly ground black pepper\nOptional: garnish with spicy chili crisp		healthy-meals-brown-rice
+859	Larb	\N	1 cup (or as needed) dry brown rice\n1.5 Tbsp vegetable oil\n1 pound ground pork\n1 tsp lemongrass, grated\n1 tsp Thai chili powder (or to taste)\n½ tsp brown sugar, packed\n½ Tbsp fish sauce\nJuice of 2 limes (or to taste)\n1 shallot, finely chopped\n3 scallion, finely sliced\nAbout 10 mint leaves, torn\n1 Tbsp cilantro, chopped\n1 cup cooked brown rice\nTo garnish: 3-6 large lettuce leaves (we used butter lettuce)		healthy-meals-brown-rice
+860	Avgolemono	\N	4 cups chicken stock\n1 cup leftover chicken, shredded (poached, rotisserie, grilled, etc.)\n1 cup leftover brown rice\n2 eggs\n⅓ cup lemon juice\n2 tsp dill, chopped\n2 tsp parsley, finely chopped\nTo taste kosher salt\nTo taste freshly ground black pepper		healthy-meals-brown-rice
+861	Simple Shrimp Scampi	\N	2 tsp kosher salt (+ more to taste)\n½ lb linguine pasta\n3 Tbsp unsalted butter\n2 Tbsp olive oil\n3 garlic cloves, crushed\n¼ tsp crushed red pepper flakes\n½ cup dry white wine\n1 lb frozen shrimp, defrosted and peeled\n1 tsp freshly ground black pepper\nJuice of 1 large lemon\n2 Tbsp parsley, chopped		shrimp-scampi
+862	Complex Shrimp Scampi	\N	1 tsp + 1 Tbsp kosher salt (+ more to taste)\n1 tsp baking soda\n1 lb fresh shrimp, peeled (shells reserved) and deveined\n1 cup dry white wine\n1 bay leaf\n½ tsp black peppercorns\n½  cup panko bread crumbs\n8 Tbsp butter (1 stick), divided\n½ lb fresh fettuccine pasta\n3 Tbsp olive oil\n6-8 garlic cloves, thinly sliced\n½ tsp crushed red pepper flakes\n1 large shallot, minced\nTo taste freshly ground black pepper\nJuice  of 2 lemons\n2 tsp fresh tarragon, chopped\n1 Tbsp fresh marjoram, chopped\n3 Tbsp parsley, chopped\nZest of 1 lemon		shrimp-scampi
 \.
 
 
@@ -2055,6 +2079,8 @@ COPY public.reference (id, type, name, description, external_link, image_link) F
 531	\N	Naco Redemption	\N	\N	\N
 532	\N	Star Trek	\N	\N	\N
 533	\N	Inside Out	\N	\N	\N
+534	\N	Billy Madison	\N	\N	\N
+535	\N	Futurama	\N	\N	\N
 \.
 
 
@@ -2081,14 +2107,14 @@ SELECT pg_catalog.setval('public.guest_id_seq', 33, true);
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 844, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 862, true);
 
 
 --
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 533, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 535, true);
 
 
 --
