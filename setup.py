@@ -18,7 +18,7 @@ install_requires = [
 ]
 
 setuptools.setup(
-    name="ibdb",
+    name="babish-db",
     version="0.0.1",
     license='GPLv3+',
     author="jklewa",
