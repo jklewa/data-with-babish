@@ -6,6 +6,24 @@
     "image_link": null,
     "episodes": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/bachelor-chow-futurama",
+        "episode_id": "bachelor-chow-futurama",
+        "name": "Bachelor Chow inspired by Futurama",
+        "published_date": "2021-01-26",
+        "youtube_link": "https://www.youtube.com/watch?v=nowFI0WRpO0",
+        "official_link": "https://www.bingingwithbabish.com/recipes/bachelor-chow-futurama",
+        "image_link": "https://img.youtube.com/vi/nowFI0WRpO0/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/sloppy-joes-billy-madison",
+        "episode_id": "sloppy-joes-billy-madison",
+        "name": "Sloppy Joes inspired by Billy Madison",
+        "published_date": "2021-01-20",
+        "youtube_link": "https://www.youtube.com/watch?v=BsDkBaACINQ",
+        "official_link": "https://www.bingingwithbabish.com/recipes/sloppy-joes-billy-madison",
+        "image_link": "https://img.youtube.com/vi/BsDkBaACINQ/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/risotto-tricolore-big-night",
         "episode_id": "risotto-tricolore-big-night",
         "name": "Risotto Tricolore inspired by Big Night",
@@ -2020,6 +2038,24 @@
     "name": "Basics with Babish",
     "image_link": null,
     "episodes": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/shrimp-scampi",
+        "episode_id": "shrimp-scampi",
+        "name": "SHRIMP SCAMPI",
+        "published_date": "2021-01-28",
+        "youtube_link": "https://www.youtube.com/watch?v=3ELo1zykAGU",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/shrimp-scampi",
+        "image_link": "https://img.youtube.com/vi/3ELo1zykAGU/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/healthy-meals-brown-rice",
+        "episode_id": "healthy-meals-brown-rice",
+        "name": "HEALTHY MEALS: BROWN RICE",
+        "published_date": "2021-01-21",
+        "youtube_link": "https://www.youtube.com/watch?v=hMDwYiYIeRw",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/healthy-meals-brown-rice",
+        "image_link": "https://img.youtube.com/vi/hMDwYiYIeRw/mqdefault.jpg"
+      },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/potstickers",
         "episode_id": "potstickers",

@@ -1470,6 +1470,230 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/860",
+    "recipe_id": 860,
+    "name": "Avgolemono",
+    "image_link": null,
+    "raw_ingredient_list": "4 cups chicken stock\n1 cup leftover chicken, shredded (poached, rotisserie, grilled, etc.)\n1 cup leftover brown rice\n2 eggs\n\u2153 cup lemon juice\n2 tsp dill, chopped\n2 tsp parsley, finely chopped\nTo taste kosher salt\nTo taste freshly ground black pepper",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        4.0,
+        "cup",
+        "Chicken Stock",
+        "4 cups chicken stock"
+      ],
+      [
+        1.0,
+        "cup",
+        "Leftover Chicken",
+        "1 cup leftover chicken, shredded (poached, rotisserie, grilled, etc.)"
+      ],
+      [
+        1.0,
+        "cup",
+        "Leftover Brown Rice",
+        "1 cup leftover brown rice"
+      ],
+      [
+        2.0,
+        null,
+        "Eggs",
+        "2 eggs"
+      ],
+      [
+        0.3333333333333333,
+        "cup",
+        "Lemon Juice",
+        "\u2153 cup lemon juice"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "Dill",
+        "2 tsp dill, chopped"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "Parsley",
+        "2 tsp parsley, finely chopped"
+      ],
+      [
+        null,
+        null,
+        "To Taste Kosher Salt",
+        "To taste kosher salt"
+      ],
+      [
+        null,
+        null,
+        "To Taste Freshly Ground Black Pepper",
+        "To taste freshly ground black pepper"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/healthy-meals-brown-rice",
+      "episode_id": "healthy-meals-brown-rice",
+      "name": "HEALTHY MEALS: BROWN RICE",
+      "published_date": "2021-01-21",
+      "youtube_link": "https://www.youtube.com/watch?v=hMDwYiYIeRw",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/healthy-meals-brown-rice",
+      "image_link": "https://img.youtube.com/vi/hMDwYiYIeRw/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/852",
+    "recipe_id": 852,
+    "name": "Babish Bachelor Chow",
+    "image_link": null,
+    "raw_ingredient_list": "4 pounds boneless beef chuck\n1 pound salt pork\n\u00bd tsp kosher salt\n\u00bd tsp freshly ground black pepper\n2 Tbsp unsalted butter\n5 tsp unflavored powder gelatin\n4 cups homemade beef broth\n2 onions, cut into eighths\n4 carrots, peeled and roughly chopped\n2 celery ribs, roughly chopped\n1 Tbsp tomato paste\n1 tsp anchovy paste\n\u2153 cup all-purpose flour\n1 garlic head, peeled\n2 bay leaves\n\u00bd tsp black peppercorns\n\u00bd ounce dried porcini mushrooms\n10 sprigs fresh parsley\n6 sprigs fresh thyme\n2 sprigs fresh rosemary\n750 milliliters (1 bottle) Burgundy wine\n*Optional: 1-2 cups boiling water",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        4.0,
+        "pound",
+        "Boneless Beef Chuck",
+        "4 pounds boneless beef chuck"
+      ],
+      [
+        1.0,
+        "pound",
+        "Salt Pork",
+        "1 pound salt pork"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Kosher Salt",
+        "\u00bd tsp kosher salt"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Freshly Ground Black Pepper",
+        "\u00bd tsp freshly ground black pepper"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Unsalted Butter",
+        "2 Tbsp unsalted butter"
+      ],
+      [
+        5.0,
+        "teaspoon",
+        "Unflavored Powder Gelatin",
+        "5 tsp unflavored powder gelatin"
+      ],
+      [
+        4.0,
+        "cup",
+        "Homemade Beef Broth",
+        "4 cups homemade beef broth"
+      ],
+      [
+        2.0,
+        null,
+        "Onions",
+        "2 onions, cut into eighths"
+      ],
+      [
+        4.0,
+        null,
+        "Carrots",
+        "4 carrots, peeled and roughly chopped"
+      ],
+      [
+        2.0,
+        null,
+        "Celery Ribs",
+        "2 celery ribs, roughly chopped"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Tomato Paste",
+        "1 Tbsp tomato paste"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Anchovy Paste",
+        "1 tsp anchovy paste"
+      ],
+      [
+        0.3333333333333333,
+        "cup",
+        "All-purpose Flour",
+        "\u2153 cup all-purpose flour"
+      ],
+      [
+        1.0,
+        null,
+        "Garlic Head",
+        "1 garlic head, peeled"
+      ],
+      [
+        2.0,
+        null,
+        "Bay Leaves",
+        "2 bay leaves"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Black Peppercorns",
+        "\u00bd tsp black peppercorns"
+      ],
+      [
+        0.5,
+        "ounce",
+        "Dried Porcini Mushrooms",
+        "\u00bd ounce dried porcini mushrooms"
+      ],
+      [
+        10.0,
+        null,
+        "Sprigs Fresh Parsley",
+        "10 sprigs fresh parsley"
+      ],
+      [
+        6.0,
+        null,
+        "Sprigs Fresh Thyme",
+        "6 sprigs fresh thyme"
+      ],
+      [
+        2.0,
+        null,
+        "Sprigs Fresh Rosemary",
+        "2 sprigs fresh rosemary"
+      ],
+      [
+        750.0,
+        null,
+        "Milliliters Burgundy Wine",
+        "750 milliliters (1 bottle) Burgundy wine"
+      ],
+      [
+        null,
+        null,
+        "*optional: 1-2 Cups Boiling Water",
+        "*Optional: 1-2 cups boiling water"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/bachelor-chow-futurama",
+      "episode_id": "bachelor-chow-futurama",
+      "name": "Bachelor Chow inspired by Futurama",
+      "published_date": "2021-01-26",
+      "youtube_link": "https://www.youtube.com/watch?v=nowFI0WRpO0",
+      "official_link": "https://www.bingingwithbabish.com/recipes/bachelor-chow-futurama",
+      "image_link": "https://img.youtube.com/vi/nowFI0WRpO0/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/144",
     "recipe_id": 144,
     "name": "Babish Eggnog",
@@ -1607,6 +1831,169 @@
       "youtube_link": "https://www.youtube.com/watch?v=c_BGPTK3GQk",
       "official_link": "https://www.bingingwithbabish.com/recipes/ziti-lasagna",
       "image_link": "https://img.youtube.com/vi/c_BGPTK3GQk/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/847",
+    "recipe_id": 847,
+    "name": "Babish Sloppy Joe",
+    "image_link": null,
+    "raw_ingredient_list": "1 tsp water\n1/2 tsp baking soda\n1 tsp kosher salt\n1 pound ground beef (85%)\n*Optional: 2 slices thick-cut bacon, finely minced\n1/2 cup red bell pepper, finely chopped\n1/2 cup green bell pepper, finely chopped\n1/2 cup onion, finely chopped\n2 cloves garlic, minced\n1 Tbsp chili powder\n2 Tbsp tomato paste\n1/2 Tbsp all-purpose flour\n1 cup tomato sauce\n1/4 cup ketchup\n1 Tbsp Worcestershire sauce\n1 Tbsp red wine vinegar\n1 tsp paprika\n1/2 tsp mustard powder\n1 tsp chicken bouillon\n1.5 Tablespoons brown sugar\nTo taste kosher salt\nTo taste freshly ground black pepper\n6 buns, sliced in half\n1 Tbsp unsalted butter",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        "teaspoon",
+        "Water",
+        "1 tsp water"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Baking Soda",
+        "1/2 tsp baking soda"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Kosher Salt",
+        "1 tsp kosher salt"
+      ],
+      [
+        1.0,
+        "pound",
+        "Ground Beef",
+        "1 pound ground beef (85%)"
+      ],
+      [
+        null,
+        null,
+        "*optional: 2 Slices Thick-cut Bacon",
+        "*Optional: 2 slices thick-cut bacon, finely minced"
+      ],
+      [
+        0.5,
+        "cup",
+        "Red Bell Pepper",
+        "1/2 cup red bell pepper, finely chopped"
+      ],
+      [
+        0.5,
+        "cup",
+        "Green Bell Pepper",
+        "1/2 cup green bell pepper, finely chopped"
+      ],
+      [
+        0.5,
+        "cup",
+        "Onion",
+        "1/2 cup onion, finely chopped"
+      ],
+      [
+        2.0,
+        null,
+        "Cloves Garlic",
+        "2 cloves garlic, minced"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Chili Powder",
+        "1 Tbsp chili powder"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Tomato Paste",
+        "2 Tbsp tomato paste"
+      ],
+      [
+        0.5,
+        "tablespoon",
+        "All-purpose Flour",
+        "1/2 Tbsp all-purpose flour"
+      ],
+      [
+        1.0,
+        "cup",
+        "Tomato Sauce",
+        "1 cup tomato sauce"
+      ],
+      [
+        0.25,
+        "cup",
+        "Ketchup",
+        "1/4 cup ketchup"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Worcestershire Sauce",
+        "1 Tbsp Worcestershire sauce"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Red Wine Vinegar",
+        "1 Tbsp red wine vinegar"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Paprika",
+        "1 tsp paprika"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Mustard Powder",
+        "1/2 tsp mustard powder"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Chicken Bouillon",
+        "1 tsp chicken bouillon"
+      ],
+      [
+        1.5,
+        null,
+        "Tablespoons Brown Sugar",
+        "1.5 Tablespoons brown sugar"
+      ],
+      [
+        null,
+        null,
+        "To Taste Kosher Salt",
+        "To taste kosher salt"
+      ],
+      [
+        null,
+        null,
+        "To Taste Freshly Ground Black Pepper",
+        "To taste freshly ground black pepper"
+      ],
+      [
+        6.0,
+        null,
+        "Buns",
+        "6 buns, sliced in half"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Unsalted Butter",
+        "1 Tbsp unsalted butter"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/sloppy-joes-billy-madison",
+      "episode_id": "sloppy-joes-billy-madison",
+      "name": "Sloppy Joes inspired by Billy Madison",
+      "published_date": "2021-01-20",
+      "youtube_link": "https://www.youtube.com/watch?v=BsDkBaACINQ",
+      "official_link": "https://www.bingingwithbabish.com/recipes/sloppy-joes-billy-madison",
+      "image_link": "https://img.youtube.com/vi/BsDkBaACINQ/mqdefault.jpg"
     }
   },
   {
@@ -3867,6 +4254,73 @@
       "youtube_link": "https://www.youtube.com/watch?v=G4BxOhJOmUw",
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/racheltrifle",
       "image_link": "https://img.youtube.com/vi/G4BxOhJOmUw/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/851",
+    "recipe_id": 851,
+    "name": "Beef Tartare",
+    "image_link": null,
+    "raw_ingredient_list": "3 ounces filet mignon (preferably dry-aged)\n1 confit garlic clove, chopped\n2 Tbsp reserved vegetable mixture\n2 tsp reserved sauce\n1/4 tsp kosher salt\n1/4 tsp freshly ground Pepper\nAs needed confit tomatoes\nAs needed crostini",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        3.0,
+        "ounce",
+        "Filet Mignon",
+        "3 ounces filet mignon (preferably dry-aged)"
+      ],
+      [
+        1.0,
+        null,
+        "Confit Garlic Clove",
+        "1 confit garlic clove, chopped"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Reserved Vegetable Mixture",
+        "2 Tbsp reserved vegetable mixture"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "Reserved Sauce",
+        "2 tsp reserved sauce"
+      ],
+      [
+        0.25,
+        "teaspoon",
+        "Kosher Salt",
+        "1/4 tsp kosher salt"
+      ],
+      [
+        0.25,
+        "teaspoon",
+        "Freshly Ground Pepper",
+        "1/4 tsp freshly ground Pepper"
+      ],
+      [
+        null,
+        null,
+        "As Needed Confit Tomatoes",
+        "As needed confit tomatoes"
+      ],
+      [
+        null,
+        null,
+        "As Needed Crostini",
+        "As needed crostini"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/sloppy-joes-billy-madison",
+      "episode_id": "sloppy-joes-billy-madison",
+      "name": "Sloppy Joes inspired by Billy Madison",
+      "published_date": "2021-01-20",
+      "youtube_link": "https://www.youtube.com/watch?v=BsDkBaACINQ",
+      "official_link": "https://www.bingingwithbabish.com/recipes/sloppy-joes-billy-madison",
+      "image_link": "https://img.youtube.com/vi/BsDkBaACINQ/mqdefault.jpg"
     }
   },
   {
@@ -7661,6 +8115,37 @@
       "youtube_link": "https://www.youtube.com/watch?v=RN8uoBwRr1k",
       "official_link": "https://www.bingingwithbabish.com/recipes/paunch-burger-parks-and-rec",
       "image_link": "https://img.youtube.com/vi/RN8uoBwRr1k/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/850",
+    "recipe_id": 850,
+    "name": "Burger Bun Crostini",
+    "image_link": null,
+    "raw_ingredient_list": "1 homemade potato bun\n1 Tbsp olive oil",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        null,
+        "Homemade Potato Bun",
+        "1 homemade potato bun"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Olive Oil",
+        "1 Tbsp olive oil"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/sloppy-joes-billy-madison",
+      "episode_id": "sloppy-joes-billy-madison",
+      "name": "Sloppy Joes inspired by Billy Madison",
+      "published_date": "2021-01-20",
+      "youtube_link": "https://www.youtube.com/watch?v=BsDkBaACINQ",
+      "official_link": "https://www.bingingwithbabish.com/recipes/sloppy-joes-billy-madison",
+      "image_link": "https://img.youtube.com/vi/BsDkBaACINQ/mqdefault.jpg"
     }
   },
   {
@@ -15498,6 +15983,139 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/862",
+    "recipe_id": 862,
+    "name": "Complex Shrimp Scampi",
+    "image_link": null,
+    "raw_ingredient_list": "1 tsp + 1 Tbsp kosher salt (+ more to taste)\n1 tsp baking soda\n1 lb fresh shrimp, peeled (shells reserved) and deveined\n1 cup dry white wine\n1 bay leaf\n\u00bd tsp black peppercorns\n\u00bd\u00a0 cup panko bread crumbs\n8 Tbsp butter (1 stick), divided\n\u00bd lb fresh fettuccine pasta\n3 Tbsp olive oil\n6-8 garlic cloves, thinly sliced\n\u00bd tsp crushed red pepper flakes\n1 large shallot, minced\nTo taste freshly ground black pepper\nJuice\u00a0 of 2 lemons\n2 tsp fresh tarragon, chopped\n1 Tbsp fresh marjoram, chopped\n3 Tbsp parsley, chopped\nZest of 1 lemon",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        "teaspoon",
+        "+ 1 Tbsp Kosher Salt",
+        "1 tsp + 1 Tbsp kosher salt (+ more to taste)"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Baking Soda",
+        "1 tsp baking soda"
+      ],
+      [
+        1.0,
+        "lb",
+        "Fresh Shrimp",
+        "1 lb fresh shrimp, peeled (shells reserved) and deveined"
+      ],
+      [
+        1.0,
+        "cup",
+        "Dry White Wine",
+        "1 cup dry white wine"
+      ],
+      [
+        1.0,
+        null,
+        "Bay Leaf",
+        "1 bay leaf"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Black Peppercorns",
+        "\u00bd tsp black peppercorns"
+      ],
+      [
+        0.5,
+        "cup",
+        "Panko Bread Crumbs",
+        "\u00bd cup panko bread crumbs"
+      ],
+      [
+        8.0,
+        "tablespoon",
+        "Butter",
+        "8 Tbsp butter (1 stick), divided"
+      ],
+      [
+        0.5,
+        "lb",
+        "Fresh Fettuccine Pasta",
+        "\u00bd lb fresh fettuccine pasta"
+      ],
+      [
+        3.0,
+        "tablespoon",
+        "Olive Oil",
+        "3 Tbsp olive oil"
+      ],
+      [
+        "6-8",
+        null,
+        "Garlic Cloves",
+        "6-8 garlic cloves, thinly sliced"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Crushed Red Pepper Flakes",
+        "\u00bd tsp crushed red pepper flakes"
+      ],
+      [
+        1.0,
+        "large",
+        "Shallot",
+        "1 large shallot, minced"
+      ],
+      [
+        null,
+        null,
+        "To Taste Freshly Ground Black Pepper",
+        "To taste freshly ground black pepper"
+      ],
+      [
+        null,
+        null,
+        "2 Lemons",
+        "Juice of 2 lemons"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "Fresh Tarragon",
+        "2 tsp fresh tarragon, chopped"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Fresh Marjoram",
+        "1 Tbsp fresh marjoram, chopped"
+      ],
+      [
+        3.0,
+        "tablespoon",
+        "Parsley",
+        "3 Tbsp parsley, chopped"
+      ],
+      [
+        null,
+        null,
+        "1 Lemon",
+        "Zest of 1 lemon"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/shrimp-scampi",
+      "episode_id": "shrimp-scampi",
+      "name": "SHRIMP SCAMPI",
+      "published_date": "2021-01-28",
+      "youtube_link": "https://www.youtube.com/watch?v=3ELo1zykAGU",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/shrimp-scampi",
+      "image_link": "https://img.youtube.com/vi/3ELo1zykAGU/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/760",
     "recipe_id": 760,
     "name": "Compound Butter Garlic Bread",
@@ -15665,6 +16283,55 @@
       "youtube_link": "https://www.youtube.com/watch?v=roCX0AfBseQ",
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/5/ratatouille",
       "image_link": "https://img.youtube.com/vi/roCX0AfBseQ/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/848",
+    "recipe_id": 848,
+    "name": "Confit Tomatoes",
+    "image_link": null,
+    "raw_ingredient_list": "6 oz cherry tomatoes (on the vine, preferably)\n5 garlic cloves, peeled\n3 sprigs rosemary\n1 bay leaf\nAs needed olive oil",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        6.0,
+        "ounce",
+        "Cherry Tomatoes",
+        "6 oz cherry tomatoes (on the vine, preferably)"
+      ],
+      [
+        5.0,
+        null,
+        "Garlic Cloves",
+        "5 garlic cloves, peeled"
+      ],
+      [
+        3.0,
+        null,
+        "Sprigs Rosemary",
+        "3 sprigs rosemary"
+      ],
+      [
+        1.0,
+        null,
+        "Bay Leaf",
+        "1 bay leaf"
+      ],
+      [
+        null,
+        null,
+        "As Needed Olive Oil",
+        "As needed olive oil"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/sloppy-joes-billy-madison",
+      "episode_id": "sloppy-joes-billy-madison",
+      "name": "Sloppy Joes inspired by Billy Madison",
+      "published_date": "2021-01-20",
+      "youtube_link": "https://www.youtube.com/watch?v=BsDkBaACINQ",
+      "official_link": "https://www.bingingwithbabish.com/recipes/sloppy-joes-billy-madison",
+      "image_link": "https://img.youtube.com/vi/BsDkBaACINQ/mqdefault.jpg"
     }
   },
   {
@@ -24099,6 +24766,127 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/858",
+    "recipe_id": 858,
+    "name": "Fried Rice",
+    "image_link": null,
+    "raw_ingredient_list": "As needed vegetable oil\n1 cup mushrooms of choice (we used cremini and enoki), washed and sliced\n1 clove garlic, minced\n1.5 tsp freshly grated ginger\n1 carrot, finely chopped\n1 small onion or \u00bd large onion, finely chopped\n\u00bd cup frozen peas\n1 green onion, finely sliced\n2 halved bunches Baby Bok choy\n2 tsp sesame oil\n1 Tbsp soy sauce\n1.5 tsp mirin\n1 Tbsp rice vinegar\n1 egg\nTo taste kosher salt\nTo taste freshly ground black pepper\nOptional: garnish with spicy chili crisp",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        null,
+        null,
+        "As Needed Vegetable Oil",
+        "As needed vegetable oil"
+      ],
+      [
+        1.0,
+        "cup",
+        "Choice",
+        "1 cup mushrooms of choice (we used cremini and enoki), washed and sliced"
+      ],
+      [
+        1.0,
+        null,
+        "Clove Garlic",
+        "1 clove garlic, minced"
+      ],
+      [
+        1.5,
+        "teaspoon",
+        "Freshly Grated Ginger",
+        "1.5 tsp freshly grated ginger"
+      ],
+      [
+        1.0,
+        null,
+        "Carrot",
+        "1 carrot, finely chopped"
+      ],
+      [
+        1.0,
+        "small",
+        "Onion Or \u00bd Large Onion",
+        "1 small onion or \u00bd large onion, finely chopped"
+      ],
+      [
+        0.5,
+        "cup",
+        "Frozen Peas",
+        "\u00bd cup frozen peas"
+      ],
+      [
+        1.0,
+        null,
+        "Green Onion",
+        "1 green onion, finely sliced"
+      ],
+      [
+        2.0,
+        null,
+        "Halved Bunches Baby Bok Choy",
+        "2 halved bunches Baby Bok choy"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "Sesame Oil",
+        "2 tsp sesame oil"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Soy Sauce",
+        "1 Tbsp soy sauce"
+      ],
+      [
+        1.5,
+        "teaspoon",
+        "Mirin",
+        "1.5 tsp mirin"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Rice Vinegar",
+        "1 Tbsp rice vinegar"
+      ],
+      [
+        1.0,
+        null,
+        "Egg",
+        "1 egg"
+      ],
+      [
+        null,
+        null,
+        "To Taste Kosher Salt",
+        "To taste kosher salt"
+      ],
+      [
+        null,
+        null,
+        "To Taste Freshly Ground Black Pepper",
+        "To taste freshly ground black pepper"
+      ],
+      [
+        null,
+        null,
+        "Optional: Garnish With Spicy Chili Crisp",
+        "Optional: garnish with spicy chili crisp"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/healthy-meals-brown-rice",
+      "episode_id": "healthy-meals-brown-rice",
+      "name": "HEALTHY MEALS: BROWN RICE",
+      "published_date": "2021-01-21",
+      "youtube_link": "https://www.youtube.com/watch?v=hMDwYiYIeRw",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/healthy-meals-brown-rice",
+      "image_link": "https://img.youtube.com/vi/hMDwYiYIeRw/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/258",
     "recipe_id": 258,
     "name": "Fries",
@@ -30126,6 +30914,109 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/859",
+    "recipe_id": 859,
+    "name": "Larb",
+    "image_link": null,
+    "raw_ingredient_list": "1 cup (or as needed) dry brown rice\n1.5 Tbsp vegetable oil\n1 pound ground pork\n1 tsp lemongrass, grated\n1 tsp Thai chili powder (or to taste)\n\u00bd tsp brown sugar, packed\n\u00bd Tbsp fish sauce\nJuice of 2 limes (or to taste)\n1 shallot, finely chopped\n3 scallion, finely sliced\nAbout 10 mint leaves, torn\n1 Tbsp cilantro, chopped\n1 cup cooked brown rice\nTo garnish: 3-6 large lettuce leaves (we used butter lettuce)",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        "cup",
+        "Dry Brown Rice",
+        "1 cup (or as needed) dry brown rice"
+      ],
+      [
+        1.5,
+        "tablespoon",
+        "Vegetable Oil",
+        "1.5 Tbsp vegetable oil"
+      ],
+      [
+        1.0,
+        "pound",
+        "Ground Pork",
+        "1 pound ground pork"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Lemongrass",
+        "1 tsp lemongrass, grated"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Thai Chili Powder",
+        "1 tsp Thai chili powder (or to taste)"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Brown Sugar",
+        "\u00bd tsp brown sugar, packed"
+      ],
+      [
+        0.5,
+        "tablespoon",
+        "Fish Sauce",
+        "\u00bd Tbsp fish sauce"
+      ],
+      [
+        null,
+        null,
+        "2 Limes",
+        "Juice of 2 limes (or to taste)"
+      ],
+      [
+        1.0,
+        null,
+        "Shallot",
+        "1 shallot, finely chopped"
+      ],
+      [
+        3.0,
+        null,
+        "Scallion",
+        "3 scallion, finely sliced"
+      ],
+      [
+        null,
+        null,
+        "About 10 Mint Leaves",
+        "About 10 mint leaves, torn"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Cilantro",
+        "1 Tbsp cilantro, chopped"
+      ],
+      [
+        1.0,
+        "cup",
+        "Cooked Brown Rice",
+        "1 cup cooked brown rice"
+      ],
+      [
+        null,
+        null,
+        "To Garnish: 3-6 Large Lettuce Leaves",
+        "To garnish: 3-6 large lettuce leaves (we used butter lettuce)"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/healthy-meals-brown-rice",
+      "episode_id": "healthy-meals-brown-rice",
+      "name": "HEALTHY MEALS: BROWN RICE",
+      "published_date": "2021-01-21",
+      "youtube_link": "https://www.youtube.com/watch?v=hMDwYiYIeRw",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/healthy-meals-brown-rice",
+      "image_link": "https://img.youtube.com/vi/hMDwYiYIeRw/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/296",
     "recipe_id": 296,
     "name": "Lasagna",
@@ -31462,6 +32353,43 @@
       "youtube_link": "https://www.youtube.com/watch?v=VweTeaGwiXQ",
       "official_link": "https://www.bingingwithbabish.com/recipes/larbstickyrice",
       "image_link": "https://img.youtube.com/vi/VweTeaGwiXQ/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/845",
+    "recipe_id": 845,
+    "name": "Manwich",
+    "image_link": null,
+    "raw_ingredient_list": "1 Manwich can\n1 lb ground beef\n1 package hamburger buns",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        null,
+        "Manwich Can",
+        "1 Manwich can"
+      ],
+      [
+        1.0,
+        "lb",
+        "Ground Beef",
+        "1 lb ground beef"
+      ],
+      [
+        1.0,
+        null,
+        "Package Hamburger Buns",
+        "1 package hamburger buns"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/sloppy-joes-billy-madison",
+      "episode_id": "sloppy-joes-billy-madison",
+      "name": "Sloppy Joes inspired by Billy Madison",
+      "published_date": "2021-01-20",
+      "youtube_link": "https://www.youtube.com/watch?v=BsDkBaACINQ",
+      "official_link": "https://www.bingingwithbabish.com/recipes/sloppy-joes-billy-madison",
+      "image_link": "https://img.youtube.com/vi/BsDkBaACINQ/mqdefault.jpg"
     }
   },
   {
@@ -35168,6 +36096,61 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/854",
+    "recipe_id": 854,
+    "name": "*Optional",
+    "image_link": null,
+    "raw_ingredient_list": "\u00bd tsp fresh thyme\n1 Tbsp olive oil\nJuice of \u00bd lime\n2 Tbsp parsley\nTo taste salt\nTaste pepper",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        0.5,
+        "teaspoon",
+        "Fresh Thyme",
+        "\u00bd tsp fresh thyme"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Olive Oil",
+        "1 Tbsp olive oil"
+      ],
+      [
+        null,
+        null,
+        "\u00bd Lime",
+        "Juice of \u00bd lime"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Parsley",
+        "2 Tbsp parsley"
+      ],
+      [
+        null,
+        null,
+        "To Taste Salt",
+        "To taste salt"
+      ],
+      [
+        null,
+        null,
+        "Taste Pepper",
+        "Taste pepper"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/healthy-meals-brown-rice",
+      "episode_id": "healthy-meals-brown-rice",
+      "name": "HEALTHY MEALS: BROWN RICE",
+      "published_date": "2021-01-21",
+      "youtube_link": "https://www.youtube.com/watch?v=hMDwYiYIeRw",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/healthy-meals-brown-rice",
+      "image_link": "https://img.youtube.com/vi/hMDwYiYIeRw/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/810",
     "recipe_id": 810,
     "name": "Optional Dry Brine",
@@ -35642,6 +36625,37 @@
       "youtube_link": "https://www.youtube.com/watch?v=Zghe7SNmhOs",
       "official_link": "https://basicswithbabish.co/basicsepisodes/tacos",
       "image_link": "https://img.youtube.com/vi/Zghe7SNmhOs/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/855",
+    "recipe_id": 855,
+    "name": "Oven-Baked Rice",
+    "image_link": null,
+    "raw_ingredient_list": "1 cup dried brown rice, short-grain\n2 \u00bd cups water",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        "cup",
+        "Dried Brown Rice",
+        "1 cup dried brown rice, short-grain"
+      ],
+      [
+        2.5,
+        "cup",
+        "Water",
+        "2 \u00bd cups water"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/healthy-meals-brown-rice",
+      "episode_id": "healthy-meals-brown-rice",
+      "name": "HEALTHY MEALS: BROWN RICE",
+      "published_date": "2021-01-21",
+      "youtube_link": "https://www.youtube.com/watch?v=hMDwYiYIeRw",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/healthy-meals-brown-rice",
+      "image_link": "https://img.youtube.com/vi/hMDwYiYIeRw/mqdefault.jpg"
     }
   },
   {
@@ -40616,6 +41630,79 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/846",
+    "recipe_id": 846,
+    "name": "Potato Buns Ingredient",
+    "image_link": null,
+    "raw_ingredient_list": "361 g all-purpose flour\n43 g potato flour\n28 g nonfat dry milk powder\n25 g granulated sugar\n8 g kosher salt\n2 tsp instant yeast\n5 Tbsp unsalted butter, softened and divided\n227 g water (85\u00b0F-100\u00b0F)\nAs needed, neutral oil or nonstick spray",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        361.0,
+        "gram",
+        "All-purpose Flour",
+        "361 g all-purpose flour"
+      ],
+      [
+        43.0,
+        "gram",
+        "Potato Flour",
+        "43 g potato flour"
+      ],
+      [
+        28.0,
+        "gram",
+        "Nonfat Dry Milk Powder",
+        "28 g nonfat dry milk powder"
+      ],
+      [
+        25.0,
+        "gram",
+        "Granulated Sugar",
+        "25 g granulated sugar"
+      ],
+      [
+        8.0,
+        "gram",
+        "Kosher Salt",
+        "8 g kosher salt"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "Instant Yeast",
+        "2 tsp instant yeast"
+      ],
+      [
+        5.0,
+        "tablespoon",
+        "Unsalted Butter",
+        "5 Tbsp unsalted butter, softened and divided"
+      ],
+      [
+        227.0,
+        "gram",
+        "Water",
+        "227 g water (85\u00b0F-100\u00b0F)"
+      ],
+      [
+        null,
+        null,
+        "As Needed",
+        "As needed, neutral oil or nonstick spray"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/sloppy-joes-billy-madison",
+      "episode_id": "sloppy-joes-billy-madison",
+      "name": "Sloppy Joes inspired by Billy Madison",
+      "published_date": "2021-01-20",
+      "youtube_link": "https://www.youtube.com/watch?v=BsDkBaACINQ",
+      "official_link": "https://www.bingingwithbabish.com/recipes/sloppy-joes-billy-madison",
+      "image_link": "https://img.youtube.com/vi/BsDkBaACINQ/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/666",
     "recipe_id": 666,
     "name": "Pot du Creme",
@@ -44938,6 +46025,109 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/849",
+    "recipe_id": 849,
+    "name": "Sauce Ingredient",
+    "image_link": null,
+    "raw_ingredient_list": "1/2 cup vegetable oil\n1/2 cup all-purpose flour\n1/2 cup green bell pepper, chopped\n1/2 cup red bell pepper, chopped\n1/2 cup onion, chopped\n3 Tbsp tomato paste\n1 cup homemade beef stock\n2 Tbsp ketchup\n1 Tbsp red wine vinegar\n2 Tbsp brown sugar, packed\n1 tsp chili powder\n1 tsp paprika\n1/2 tsp mustard powder\n1 tsp kosher salt",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        0.5,
+        "cup",
+        "Vegetable Oil",
+        "1/2 cup vegetable oil"
+      ],
+      [
+        0.5,
+        "cup",
+        "All-purpose Flour",
+        "1/2 cup all-purpose flour"
+      ],
+      [
+        0.5,
+        "cup",
+        "Green Bell Pepper",
+        "1/2 cup green bell pepper, chopped"
+      ],
+      [
+        0.5,
+        "cup",
+        "Red Bell Pepper",
+        "1/2 cup red bell pepper, chopped"
+      ],
+      [
+        0.5,
+        "cup",
+        "Onion",
+        "1/2 cup onion, chopped"
+      ],
+      [
+        3.0,
+        "tablespoon",
+        "Tomato Paste",
+        "3 Tbsp tomato paste"
+      ],
+      [
+        1.0,
+        "cup",
+        "Homemade Beef Stock",
+        "1 cup homemade beef stock"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Ketchup",
+        "2 Tbsp ketchup"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Red Wine Vinegar",
+        "1 Tbsp red wine vinegar"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Brown Sugar",
+        "2 Tbsp brown sugar, packed"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Chili Powder",
+        "1 tsp chili powder"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Paprika",
+        "1 tsp paprika"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Mustard Powder",
+        "1/2 tsp mustard powder"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Kosher Salt",
+        "1 tsp kosher salt"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/sloppy-joes-billy-madison",
+      "episode_id": "sloppy-joes-billy-madison",
+      "name": "Sloppy Joes inspired by Billy Madison",
+      "published_date": "2021-01-20",
+      "youtube_link": "https://www.youtube.com/watch?v=BsDkBaACINQ",
+      "official_link": "https://www.bingingwithbabish.com/recipes/sloppy-joes-billy-madison",
+      "image_link": "https://img.youtube.com/vi/BsDkBaACINQ/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/217",
     "recipe_id": 217,
     "name": "Sausage",
@@ -45406,6 +46596,73 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/856",
+    "recipe_id": 856,
+    "name": "Seared Chicken",
+    "image_link": null,
+    "raw_ingredient_list": "2 chicken breasts\n2 garlic cloves, crushed\n3 Tbsp olive oil, divided\n\u00bd tsp oregano\n\u00bc tsp smoked paprika\nJuice of 1 lime\n1 tsp kosher salt\n1 tsp freshly ground black pepper",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        2.0,
+        null,
+        "Chicken Breasts",
+        "2 chicken breasts"
+      ],
+      [
+        2.0,
+        null,
+        "Garlic Cloves",
+        "2 garlic cloves, crushed"
+      ],
+      [
+        3.0,
+        "tablespoon",
+        "Olive Oil",
+        "3 Tbsp olive oil, divided"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Oregano",
+        "\u00bd tsp oregano"
+      ],
+      [
+        0.25,
+        "teaspoon",
+        "Smoked Paprika",
+        "\u00bc tsp smoked paprika"
+      ],
+      [
+        null,
+        null,
+        "1 Lime",
+        "Juice of 1 lime"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Kosher Salt",
+        "1 tsp kosher salt"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Freshly Ground Black Pepper",
+        "1 tsp freshly ground black pepper"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/healthy-meals-brown-rice",
+      "episode_id": "healthy-meals-brown-rice",
+      "name": "HEALTHY MEALS: BROWN RICE",
+      "published_date": "2021-01-21",
+      "youtube_link": "https://www.youtube.com/watch?v=hMDwYiYIeRw",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/healthy-meals-brown-rice",
+      "image_link": "https://img.youtube.com/vi/hMDwYiYIeRw/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/15",
     "recipe_id": 15,
     "name": "Sea Salt Ice Cream (Churned)",
@@ -45677,6 +46934,61 @@
       "youtube_link": "https://www.youtube.com/watch?v=HdSLKZ6LN94",
       "official_link": "https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm-2njph",
       "image_link": "https://img.youtube.com/vi/HdSLKZ6LN94/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/857",
+    "recipe_id": 857,
+    "name": "Sesame Broccoli",
+    "image_link": null,
+    "raw_ingredient_list": "2 cups broccoli florets\n2 tsp olive oil\n1.5 tsp sesame oil\n\u00bd tsp kosher salt\n\u00bd tsp freshly ground black pepper\n2 tsp white sesame seeds",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        2.0,
+        "cup",
+        "Broccoli Florets",
+        "2 cups broccoli florets"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "Olive Oil",
+        "2 tsp olive oil"
+      ],
+      [
+        1.5,
+        "teaspoon",
+        "Sesame Oil",
+        "1.5 tsp sesame oil"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Kosher Salt",
+        "\u00bd tsp kosher salt"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Freshly Ground Black Pepper",
+        "\u00bd tsp freshly ground black pepper"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "White Sesame Seeds",
+        "2 tsp white sesame seeds"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/healthy-meals-brown-rice",
+      "episode_id": "healthy-meals-brown-rice",
+      "name": "HEALTHY MEALS: BROWN RICE",
+      "published_date": "2021-01-21",
+      "youtube_link": "https://www.youtube.com/watch?v=hMDwYiYIeRw",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/healthy-meals-brown-rice",
+      "image_link": "https://img.youtube.com/vi/hMDwYiYIeRw/mqdefault.jpg"
     }
   },
   {
@@ -46145,6 +47457,91 @@
       "youtube_link": "https://www.youtube.com/watch?v=6HBPHRDEt_Q",
       "official_link": "https://www.bingingwithbabish.com/recipes/forrestgumpshrimp",
       "image_link": "https://img.youtube.com/vi/6HBPHRDEt_Q/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/861",
+    "recipe_id": 861,
+    "name": "Simple Shrimp Scampi",
+    "image_link": null,
+    "raw_ingredient_list": "2 tsp kosher salt (+ more to taste)\n\u00bd lb linguine pasta\n3 Tbsp unsalted butter\n2 Tbsp olive oil\n3 garlic cloves, crushed\n\u00bc tsp crushed red pepper flakes\n\u00bd cup dry white wine\n1 lb frozen shrimp, defrosted and peeled\n1 tsp freshly ground black pepper\nJuice of 1 large lemon\n2 Tbsp parsley, chopped",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        2.0,
+        "teaspoon",
+        "Kosher Salt",
+        "2 tsp kosher salt (+ more to taste)"
+      ],
+      [
+        0.5,
+        "lb",
+        "Linguine Pasta",
+        "\u00bd lb linguine pasta"
+      ],
+      [
+        3.0,
+        "tablespoon",
+        "Unsalted Butter",
+        "3 Tbsp unsalted butter"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Olive Oil",
+        "2 Tbsp olive oil"
+      ],
+      [
+        3.0,
+        null,
+        "Garlic Cloves",
+        "3 garlic cloves, crushed"
+      ],
+      [
+        0.25,
+        "teaspoon",
+        "Crushed Red Pepper Flakes",
+        "\u00bc tsp crushed red pepper flakes"
+      ],
+      [
+        0.5,
+        "cup",
+        "Dry White Wine",
+        "\u00bd cup dry white wine"
+      ],
+      [
+        1.0,
+        "lb",
+        "Frozen Shrimp",
+        "1 lb frozen shrimp, defrosted and peeled"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Freshly Ground Black Pepper",
+        "1 tsp freshly ground black pepper"
+      ],
+      [
+        null,
+        null,
+        "1 Large Lemon",
+        "Juice of 1 large lemon"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Parsley",
+        "2 Tbsp parsley, chopped"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/shrimp-scampi",
+      "episode_id": "shrimp-scampi",
+      "name": "SHRIMP SCAMPI",
+      "published_date": "2021-01-28",
+      "youtube_link": "https://www.youtube.com/watch?v=3ELo1zykAGU",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/shrimp-scampi",
+      "image_link": "https://img.youtube.com/vi/3ELo1zykAGU/mqdefault.jpg"
     }
   },
   {
@@ -48485,6 +49882,37 @@
       "youtube_link": "https://www.youtube.com/watch?v=YV9XuvfIudY",
       "official_link": "https://basicswithbabish.co/basicsepisodes/barbecueporkchops",
       "image_link": "https://img.youtube.com/vi/YV9XuvfIudY/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/853",
+    "recipe_id": 853,
+    "name": "Stovetop Rice",
+    "image_link": null,
+    "raw_ingredient_list": "1 cup dried brown rice, basmati\n2 \u00bc cups water",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        "cup",
+        "Dried Brown Rice",
+        "1 cup dried brown rice, basmati"
+      ],
+      [
+        2.25,
+        "cup",
+        "Water",
+        "2 \u00bc cups water"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/healthy-meals-brown-rice",
+      "episode_id": "healthy-meals-brown-rice",
+      "name": "HEALTHY MEALS: BROWN RICE",
+      "published_date": "2021-01-21",
+      "youtube_link": "https://www.youtube.com/watch?v=hMDwYiYIeRw",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/healthy-meals-brown-rice",
+      "image_link": "https://img.youtube.com/vi/hMDwYiYIeRw/mqdefault.jpg"
     }
   },
   {
