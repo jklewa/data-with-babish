@@ -463,6 +463,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/536",
+    "reference_id": 536,
+    "type": null,
+    "name": "Back to School",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/back-to-school-sandwich",
+        "episode_id": "back-to-school-sandwich",
+        "name": "Hors D'oeuvres Sandwich inspired by Back to School",
+        "published_date": "2017-09-05",
+        "youtube_link": "https://www.youtube.com/watch?v=A7afwIxo5lE",
+        "official_link": "https://www.bingingwithbabish.com/recipes/back-to-school-sandwich",
+        "image_link": "https://img.youtube.com/vi/A7afwIxo5lE/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/28",
     "reference_id": 28,
     "type": "movie",
@@ -1646,6 +1666,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special",
         "image_link": "https://img.youtube.com/vi/v5tJBLfeurU/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/537",
+    "reference_id": 537,
+    "type": null,
+    "name": "Groundhog Day",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/angel-food-cake-groundhog-day",
+        "episode_id": "angel-food-cake-groundhog-day",
+        "name": "Angel Food Cake inspired by Groundhog Day",
+        "published_date": "2021-02-03",
+        "youtube_link": "https://www.youtube.com/watch?v=2d6VmncdK-E",
+        "official_link": "https://www.bingingwithbabish.com/recipes/angel-food-cake-groundhog-day",
+        "image_link": "https://img.youtube.com/vi/2d6VmncdK-E/mqdefault.jpg"
       }
     ]
   },

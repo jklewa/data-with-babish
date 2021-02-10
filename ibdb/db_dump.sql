@@ -289,6 +289,7 @@ adventuretimespecial	Adventure Time Special	https://www.youtube.com/watch?v=SjeS
 aglioeolio	Pasta Aglio e Olio inspired by Chef	https://www.youtube.com/watch?v=bJUiWdM__Qw	https://www.bingingwithbabish.com/recipes/2017/5/4/aglioeolio	https://img.youtube.com/vi/bJUiWdM__Qw/mqdefault.jpg	2016-03-26	1
 alwayssunny	It's Always Sunny in Philadelphia Special (Part II)	https://www.youtube.com/watch?v=_fnhy5xO9vQ	https://www.bingingwithbabish.com/recipes/alwayssunny	https://img.youtube.com/vi/_fnhy5xO9vQ/mqdefault.jpg	2019-06-12	1
 andrewsohlathanksgiving	ANDREW & SOHLA THANKSGIVING RECIPES	https://www.youtube.com/watch?v=tXNuz8nXYGk	https://basicswithbabish.co/basicsepisodes/andrewsohlathanksgiving	https://img.youtube.com/vi/tXNuz8nXYGk/mqdefault.jpg	2020-11-20	2
+angel-food-cake-groundhog-day	Angel Food Cake inspired by Groundhog Day	https://www.youtube.com/watch?v=2d6VmncdK-E	https://www.bingingwithbabish.com/recipes/angel-food-cake-groundhog-day	https://img.youtube.com/vi/2d6VmncdK-E/mqdefault.jpg	2021-02-03	1
 applefritters	Double-Glazed Apple Fritters inspired by Regular Show	https://www.youtube.com/watch?v=YYSP1D6GJ30	https://www.bingingwithbabish.com/recipes/applefritters	https://img.youtube.com/vi/YYSP1D6GJ30/mqdefault.jpg	2019-08-27	1
 applepie	How To Make Apple Pie	https://www.youtube.com/watch?v=-Vy12e0LjX4	https://www.bingingwithbabish.com/recipes/2017/8/22/applepie	https://img.youtube.com/vi/-Vy12e0LjX4/mqdefault.jpg	2016-09-23	1
 applepiesmoothie	Apple Pie Smoothie	https://www.youtube.com/watch?v=mv1z2p3to0U	https://www.bingingwithbabish.com/recipes/2017/8/22/applepiesmoothie	https://img.youtube.com/vi/mv1z2p3to0U/mqdefault.jpg	2016-03-13	1
@@ -300,6 +301,7 @@ avengersicecream	Ice Cream Flavors inspired by Avengers: Infinity War	https://ww
 babishpaniniwinner	#BabishPanini Winning Recipe - Car Panini inspired by Family Guy	https://www.youtube.com/watch?v=ImoP-Apzrsg	https://www.bingingwithbabish.com/recipes/babishpaniniwinner	https://img.youtube.com/vi/ImoP-Apzrsg/mqdefault.jpg	2018-08-21	1
 babka-inspired-by-seinfeld	Babka inspired by Seinfeld	https://www.youtube.com/watch?v=pw2A03Z91FI	https://www.bingingwithbabish.com/recipes/2017/5/09/babka-inspired-by-seinfeld	https://img.youtube.com/vi/pw2A03Z91FI/mqdefault.jpg	2017-05-09	1
 bachelor-chow-futurama	Bachelor Chow inspired by Futurama	https://www.youtube.com/watch?v=nowFI0WRpO0	https://www.bingingwithbabish.com/recipes/bachelor-chow-futurama	https://img.youtube.com/vi/nowFI0WRpO0/mqdefault.jpg	2021-01-26	1
+back-to-school-sandwich	Hors D'oeuvres Sandwich inspired by Back to School	https://www.youtube.com/watch?v=A7afwIxo5lE	https://www.bingingwithbabish.com/recipes/back-to-school-sandwich	https://img.youtube.com/vi/A7afwIxo5lE/mqdefault.jpg	2017-09-05	1
 bagels	BAGELS	https://www.youtube.com/watch?v=ZrJtpCTZk38	https://basicswithbabish.co/basicsepisodes/bagels	https://img.youtube.com/vi/ZrJtpCTZk38/mqdefault.jpg	2019-01-24	2
 bagelsandwiches	Bagel Sandwiches inspired by Steven Universe	https://www.youtube.com/watch?v=wv43IN_cnyw	https://www.bingingwithbabish.com/recipes/bagelsandwiches	https://img.youtube.com/vi/wv43IN_cnyw/mqdefault.jpg	2019-07-23	1
 baklava	BAKLAVA	https://www.youtube.com/watch?v=OkzpwHodaAs	https://basicswithbabish.co/basicsepisodes/baklava	https://img.youtube.com/vi/OkzpwHodaAs/mqdefault.jpg	2020-10-15	2
@@ -414,6 +416,7 @@ frenchonionsoup	FRENCH ONION SOUP	https://www.youtube.com/watch?v=1qRir364aNk	ht
 fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	Fried Chicken & Waffle Breakfast Lasagna inspired by The Boondocks	https://www.youtube.com/watch?v=VnXu22HZBNQ	https://www.bingingwithbabish.com/recipes/2017/7/4/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	https://img.youtube.com/vi/VnXu22HZBNQ/mqdefault.jpg	2017-07-04	1
 friedgreentomatoes	Fried Green Tomatoes inspired by...Fried Green Tomatoes	https://www.youtube.com/watch?v=KKBkY-7TCw0	https://www.bingingwithbabish.com/recipes/friedgreentomatoes	https://img.youtube.com/vi/KKBkY-7TCw0/mqdefault.jpg	2018-07-24	1
 friedrice	FRIED RICE	https://www.youtube.com/watch?v=Dk0axPbD2pc	https://basicswithbabish.co/basicsepisodes/friedrice	https://img.youtube.com/vi/Dk0axPbD2pc/mqdefault.jpg	2019-01-03	2
+game-day-snacks-part-2	GAME DAY SNACKS PART II	https://www.youtube.com/watch?v=rR4t9LRy-6o	https://basicswithbabish.co/basicsepisodes/game-day-snacks-part-2	https://img.youtube.com/vi/rR4t9LRy-6o/mqdefault.jpg	2021-02-04	2
 garbageplate	The Garbage Plate inspired by The Place Beyond The Pines (sort of)	https://www.youtube.com/watch?v=wjoeVwJTUTA	https://www.bingingwithbabish.com/recipes/2017/8/22/garbageplate	https://img.youtube.com/vi/wjoeVwJTUTA/mqdefault.jpg	2017-11-28	1
 garlic-bread-scott-pilgrim	Garlic Bread inspired by Scott Pilgrim vs the World	https://www.youtube.com/watch?v=jBnWZijMbMY	https://www.bingingwithbabish.com/recipes/garlic-bread-scott-pilgrim	https://img.youtube.com/vi/jBnWZijMbMY/mqdefault.jpg	2020-10-06	1
 generaltsoschicken	GENERAL TSO'S CHICKEN	https://www.youtube.com/watch?v=6UnRHtwHGSE	https://basicswithbabish.co/basicsepisodes/generaltsoschicken	https://img.youtube.com/vi/6UnRHtwHGSE/mqdefault.jpg	2019-07-18	2
@@ -623,6 +626,7 @@ adventure-time-sandwich	49
 adventuretimespecial	49
 aglioeolio	47
 alwayssunny	10
+angel-food-cake-groundhog-day	537
 applefritters	7
 applepie	96
 applepie	116
@@ -637,6 +641,7 @@ avengersicecream	529
 babishpaniniwinner	45
 babka-inspired-by-seinfeld	30
 bachelor-chow-futurama	535
+back-to-school-sandwich	536
 bagelsandwiches	6
 bananapuddingpizza	41
 banoffeepie	284
@@ -1860,6 +1865,19 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 860	Avgolemono	\N	4 cups chicken stock\n1 cup leftover chicken, shredded (poached, rotisserie, grilled, etc.)\n1 cup leftover brown rice\n2 eggs\n⅓ cup lemon juice\n2 tsp dill, chopped\n2 tsp parsley, finely chopped\nTo taste kosher salt\nTo taste freshly ground black pepper		healthy-meals-brown-rice
 861	Simple Shrimp Scampi	\N	2 tsp kosher salt (+ more to taste)\n½ lb linguine pasta\n3 Tbsp unsalted butter\n2 Tbsp olive oil\n3 garlic cloves, crushed\n¼ tsp crushed red pepper flakes\n½ cup dry white wine\n1 lb frozen shrimp, defrosted and peeled\n1 tsp freshly ground black pepper\nJuice of 1 large lemon\n2 Tbsp parsley, chopped		shrimp-scampi
 862	Complex Shrimp Scampi	\N	1 tsp + 1 Tbsp kosher salt (+ more to taste)\n1 tsp baking soda\n1 lb fresh shrimp, peeled (shells reserved) and deveined\n1 cup dry white wine\n1 bay leaf\n½ tsp black peppercorns\n½  cup panko bread crumbs\n8 Tbsp butter (1 stick), divided\n½ lb fresh fettuccine pasta\n3 Tbsp olive oil\n6-8 garlic cloves, thinly sliced\n½ tsp crushed red pepper flakes\n1 large shallot, minced\nTo taste freshly ground black pepper\nJuice  of 2 lemons\n2 tsp fresh tarragon, chopped\n1 Tbsp fresh marjoram, chopped\n3 Tbsp parsley, chopped\nZest of 1 lemon		shrimp-scampi
+863	Deviled Egg	\N	Eggs\n2 Tbsp mayonnaise\n1 Tbsp white vinegar\n1 tsp grain mustard\nOnion powder\nCelery salt\nPaprika		back-to-school-sandwich
+864	Meatball	\N	Ground beef\nBreadcrumbs\nEggs\nSpices		back-to-school-sandwich
+865	Spanakopita Filling	\N	Spinach\n2-3 Garlic cloves, crushed\n2 Tbsp Dill, chopped\n½ cup Feta\nFilo dough (or store bought puff pastry)		back-to-school-sandwich
+866	Angel Food Cake	\N	350 g egg whites, room temperature\n1 tsp cream of tartar\n2 tsp vanilla extract\n360 g sugar, divided\n½ tsp kosher salt\n125 g cake flour		angel-food-cake-groundhog-day
+867	Whipped Cream Frosting	\N	1 Tbsp powdered gelatin\n¼ cup ice water\n16 oz heavy cream, cold\n½ cup powdered sugar, sifted\n1 tsp raspberry extract\n¼ tsp kosher salt\nAs needed red food coloring		angel-food-cake-groundhog-day
+868	Raspberry Glaze	\N	¼ cup seedless raspberry jam or jelly\n1 tsp water\n½ cup raspberries		angel-food-cake-groundhog-day
+869	Za’atar Popcorn Ingredient	\N	1 tbsp za’atar\n1 tbsp kosher salt\n3 tbsp coconut oil\n⅓ cup popcorn kernels		game-day-snacks-part-2
+870	Gochugaru Popcorn	\N	1 Tbsp kosher salt\n1 tsp sugar\n2 tsp gochugaru\n1 tsp onion powder\n½ tsp black sesame seeds\n2 Tbsp vegetable oil\n1 Tbsp sesame oil\n⅓ cup popcorn kernels		game-day-snacks-part-2
+871	Chai Popcorn	\N	2 Tbsp sugar\n2 tsp cinnamon\n½ tsp kosher salt\n½ tsp ginger\n¼ tsp cardamom\n⅛ freshly ground nutmeg\n⅛ freshly ground black pepper\n⅛ tsp clove\n⅛ tsp allspice\n3 Tbsp coconut oil\n⅓ cup popcorn kernels		game-day-snacks-part-2
+872	Waffle	\N	100 g all-purpose flour\n1 Tbsp sugar\n1 tsp baking powder\n½ tsp baking soda\n½ tsp kosher salt\n1 Tbsp corn meal\n200 g buttermilk, room temperature\n1 tsp vanilla extract\n4 Tbsp unsalted butter, melted and cooled (75-85°F)\n1 egg, room temperature		game-day-snacks-part-2
+873	Nashville Hot Chicken	\N	1.5 lb boneless skinless chicken thighs\n1.5 cups buttermilk\n2.5 Tbsp kosher salt, divided\n2 tsp + 1 Tbsp freshly ground black pepper, divided\n1 egg, beaten\n3- 4 dashes hot sauce (we use Louisiana-style Hot Sauce)\n1.5 cups all-purpose flour\n½ cup corn starch\n48 ounces peanut oil\n3 Tbsp cayenne pepper\n1 Tbsp light brown sugar\n½ tsp garlic powder\n½ tsp paprika\nOptional: drizzle of hot honey		game-day-snacks-part-2
+874	Cannoli Dip	\N	4 oz ricotta cheese\n4 oz mascarpone cheese (or cream cheese)\n2 Tbsp Amaretto\n½ tsp kosher salt\n¼ tsp cinnamon\n½ cup powdered sugar, sifted\n⅓ cup mini chocolate chips + more for topping		game-day-snacks-part-2
+875	Cannoli Shell	\N	4.5 oz all-purpose flour\n2 Tbsp unsalted butter, cold\n1 tsp kosher salt\n⅓ cup cold water\n1 Tbsp Marsala wine\n48 ounces peanut oil\nOptional: 10-12 frozen wonton wrappers, defrosted		game-day-snacks-part-2
 \.
 
 
@@ -2081,6 +2099,8 @@ COPY public.reference (id, type, name, description, external_link, image_link) F
 533	\N	Inside Out	\N	\N	\N
 534	\N	Billy Madison	\N	\N	\N
 535	\N	Futurama	\N	\N	\N
+536	\N	Back to School	\N	\N	\N
+537	\N	Groundhog Day	\N	\N	\N
 \.
 
 
@@ -2107,14 +2127,14 @@ SELECT pg_catalog.setval('public.guest_id_seq', 33, true);
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 862, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 875, true);
 
 
 --
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 535, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 537, true);
 
 
 --
