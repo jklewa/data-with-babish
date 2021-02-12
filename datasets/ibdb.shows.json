@@ -6,6 +6,15 @@
     "image_link": null,
     "episodes": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/pizza-in-a-cup-the-jerk",
+        "episode_id": "pizza-in-a-cup-the-jerk",
+        "name": "Pizza in a Cup inspired by The Jerk",
+        "published_date": "2021-02-10",
+        "youtube_link": "https://www.youtube.com/watch?v=8a7L0bFuE3o",
+        "official_link": "https://www.bingingwithbabish.com/recipes/pizza-in-a-cup-the-jerk",
+        "image_link": "https://img.youtube.com/vi/8a7L0bFuE3o/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/angel-food-cake-groundhog-day",
         "episode_id": "angel-food-cake-groundhog-day",
         "name": "Angel Food Cake inspired by Groundhog Day",
@@ -2056,6 +2065,15 @@
     "name": "Basics with Babish",
     "image_link": null,
     "episodes": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/date-night",
+        "episode_id": "date-night",
+        "name": "DATE NIGHT",
+        "published_date": "2021-02-12",
+        "youtube_link": "https://www.youtube.com/watch?v=dFh7tZoGYA4",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/date-night",
+        "image_link": "https://img.youtube.com/vi/dFh7tZoGYA4/mqdefault.jpg"
+      },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/game-day-snacks-part-2",
         "episode_id": "game-day-snacks-part-2",

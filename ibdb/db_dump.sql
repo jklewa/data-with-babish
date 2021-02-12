@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 12.5 (Debian 12.5-1.pgdg100+1)
--- Dumped by pg_dump version 12.5 (Ubuntu 12.5-1.pgdg18.04+1)
+-- Dumped from database version 12.6 (Debian 12.6-1.pgdg100+1)
+-- Dumped by pg_dump version 12.6 (Ubuntu 12.6-1.pgdg18.04+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -385,6 +385,7 @@ croque-monsieur-brooklyn-nine-nine	Croque Monsieur inspired by Brooklyn Nine-Nin
 croquemadame	Croque Madame: The Ultimate Breakfast Sandwich	https://www.youtube.com/watch?v=dVRl1aP28BI	https://www.bingingwithbabish.com/recipes/2017/8/22/croquemadame	https://img.youtube.com/vi/dVRl1aP28BI/mqdefault.jpg	2016-03-13	1
 cubanos-inspired-by-chef	Cubanos inspired by Chef	https://www.youtube.com/watch?v=hXYoduN0kWs	https://www.bingingwithbabish.com/recipes/2017/3/28/cubanos-inspired-by-chef	https://img.youtube.com/vi/hXYoduN0kWs/mqdefault.jpg	2017-03-28	1
 curbyourenthusiasm	Curb Your Enthusiasm Special	https://www.youtube.com/watch?v=XIZxT7iI-QI	https://www.bingingwithbabish.com/recipes/2017/6/27/curbyourenthusiasm	https://img.youtube.com/vi/XIZxT7iI-QI/mqdefault.jpg	2017-10-10	1
+date-night	DATE NIGHT	https://www.youtube.com/watch?v=dFh7tZoGYA4	https://basicswithbabish.co/basicsepisodes/date-night	https://img.youtube.com/vi/dFh7tZoGYA4/mqdefault.jpg	2021-02-12	2
 deadpoolpizza	Pizza inspired by Deadpool	https://www.youtube.com/watch?v=95M8W1JgH_0	https://www.bingingwithbabish.com/recipes/deadpoolpizza	https://img.youtube.com/vi/95M8W1JgH_0/mqdefault.jpg	2018-06-19	1
 deathsandwich	Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show	https://www.youtube.com/watch?v=o5XNzsf78KE	https://www.bingingwithbabish.com/recipes/deathsandwich	https://img.youtube.com/vi/o5XNzsf78KE/mqdefault.jpg	2019-04-09	1
 deepdishpizza	Deep Dish Pizza inspired by The Daily Show	https://www.youtube.com/watch?v=hyUnGjykNwg	https://www.bingingwithbabish.com/recipes/deepdishpizza	https://img.youtube.com/vi/hyUnGjykNwg/mqdefault.jpg	2019-10-09	1
@@ -506,6 +507,7 @@ piesfromwaitress	Pies inspired by Waitress	https://www.youtube.com/watch?v=NgloG
 pigeon-pie-with-wild-game-inspired-by-game-of-thrones	Pigeon Pie with Wild Game inspired by Game of Thrones	https://www.youtube.com/watch?v=Y_hc07rAQlc	https://www.bingingwithbabish.com/recipes/2017/7/14/pigeon-pie-with-wild-game-inspired-by-game-of-thrones	https://img.youtube.com/vi/Y_hc07rAQlc/mqdefault.jpg	2017-07-11	1
 pineapplecurryfriedrice	Pineapple-Curry Fried Rice inspired by Food Wars!: Shokugeki no Soma	https://www.youtube.com/watch?v=WRA3a7c4Qt4	https://www.bingingwithbabish.com/recipes/2017/8/22/pineapplecurryfriedrice	https://img.youtube.com/vi/WRA3a7c4Qt4/mqdefault.jpg	2018-03-13	1
 pizza-dough	PIZZA DOUGH	https://www.youtube.com/watch?v=n1O3uHPCOLA	https://basicswithbabish.co/basicsepisodes/pizza-dough	https://img.youtube.com/vi/n1O3uHPCOLA/mqdefault.jpg	2020-10-15	2
+pizza-in-a-cup-the-jerk	Pizza in a Cup inspired by The Jerk	https://www.youtube.com/watch?v=8a7L0bFuE3o	https://www.bingingwithbabish.com/recipes/pizza-in-a-cup-the-jerk	https://img.youtube.com/vi/8a7L0bFuE3o/mqdefault.jpg	2021-02-10	1
 pizzaball	Pizza Ball inspired by The Eric Andre Show	https://www.youtube.com/watch?v=U3LFI2mI8Y0	https://www.bingingwithbabish.com/recipes/pizzaball	https://img.youtube.com/vi/U3LFI2mI8Y0/mqdefault.jpg	2019-01-08	1
 pollo-a-la-plancha	Pollo a la Plancha inspired by Moonlight	https://www.youtube.com/watch?v=ZsBWgeQHjnM	https://www.bingingwithbabish.com/recipes/2017/5/4/pollo-a-la-plancha	https://img.youtube.com/vi/ZsBWgeQHjnM/mqdefault.jpg	2017-03-06	1
 pollos-hermanos-breaking-bad	Pollos Hermanos inspired by Breaking Bad	https://www.youtube.com/watch?v=ndqjxhi7uZs	https://www.bingingwithbabish.com/recipes/pollos-hermanos-breaking-bad	https://img.youtube.com/vi/ndqjxhi7uZs/mqdefault.jpg	2020-09-15	1
@@ -830,6 +832,7 @@ pigeon-pie-with-wild-game-inspired-by-game-of-thrones	40
 pineapplecurryfriedrice	65
 pineapplecurryfriedrice	199
 pineapplecurryfriedrice	525
+pizza-in-a-cup-the-jerk	538
 pizzaball	27
 pollo-a-la-plancha	100
 pollos-hermanos-breaking-bad	9
@@ -1878,6 +1881,23 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 873	Nashville Hot Chicken	\N	1.5 lb boneless skinless chicken thighs\n1.5 cups buttermilk\n2.5 Tbsp kosher salt, divided\n2 tsp + 1 Tbsp freshly ground black pepper, divided\n1 egg, beaten\n3- 4 dashes hot sauce (we use Louisiana-style Hot Sauce)\n1.5 cups all-purpose flour\n½ cup corn starch\n48 ounces peanut oil\n3 Tbsp cayenne pepper\n1 Tbsp light brown sugar\n½ tsp garlic powder\n½ tsp paprika\nOptional: drizzle of hot honey		game-day-snacks-part-2
 874	Cannoli Dip	\N	4 oz ricotta cheese\n4 oz mascarpone cheese (or cream cheese)\n2 Tbsp Amaretto\n½ tsp kosher salt\n¼ tsp cinnamon\n½ cup powdered sugar, sifted\n⅓ cup mini chocolate chips + more for topping		game-day-snacks-part-2
 875	Cannoli Shell	\N	4.5 oz all-purpose flour\n2 Tbsp unsalted butter, cold\n1 tsp kosher salt\n⅓ cup cold water\n1 Tbsp Marsala wine\n48 ounces peanut oil\nOptional: 10-12 frozen wonton wrappers, defrosted		game-day-snacks-part-2
+876	Pizza in a Cup	\N	8 Tbsp all-purpose flour\n¼ tsp baking powder\n⅛ tsp baking soda\n6 Tbsp whole milk\n2 Tbsp extra virgin olive oil + more for greasing\n1 Tbsp pre-made pizza sauce\n2 Tbsp mozzarella, shredded\n3 pepperoni slices, cut into small circles or quartered		pizza-in-a-cup-the-jerk
+877	Babish-Style Pizza in a Cup	\N	500 g bread flour\n10 g kosher salt\n2 tsp instant yeast\n400 g water, lukewarm\n40 g extra virgin olive oil + more for greasing\n1 tsp flaky salt\nAs needed meatballs, sausage, and red sauce\nAs needed fresh mozzarella cheese, shredded\nAs needed parmesan cheese, freshly grated		pizza-in-a-cup-the-jerk
+878	Crostini	\N	1 loaf of Italian bread or baguette\nAs needed extra-virgin olive oil		date-night
+879	White Bean Dip	\N	¼ Cup extra virgin olive oil, divided + more to finish\n1 small shallot, finely minced\n2 garlic cloves, minced\n1 tsp fresh sage, chopped\n½ tsp fresh thyme, chopped\n1 (15.5 oz) can cannellini beans (white kidney beans)\n2 Tbsp fresh lemon juice\n1 tsp lemon zest\n⅛ tsp cayenne pepper\nto taste kosher salt\nto taste freshly ground black pepper\n1 tbsp chives, chopped\nAs needed crostini		date-night
+880	Caponata	\N	1 small eggplant\n2 tsp kosher salt + more to taste\n3 Tbsp olive oil, divided\n1 small onion, diced\n1 celery stalk, sliced\n2 garlic cloves, minced\n1 red pepper, diced\n2 medium tomatoes, seeded and diced\n1 Tbsp capers, drained\n2 Tbsp pitted green olives, chopped\n1 Tbsp sugar\n2 Tbsp red wine vinegar\n½ Cup water\nTo taste freshly ground black pepper\n2 basil leaves, thinly sliced\nAs needed crostini		date-night
+881	Ricotta Crostini	\N	8 oz ricotta\nAs needed crostini\n2 oz Marcona almonds\nAs needed honey		date-night
+882	Pasta Dough	\N	7.5 oz all purpose flour\n5 oz eggs		date-night
+883	Squash Ravioli Filling	\N	2 C pre-peeled and cubed butternut squash\n1 small shallot, peeled and halved\n3 large garlic cloves, peeled\n2 sprigs thyme, stems removed + chopped\n3 sage leaves, chopped\n½ tsp freshly ground black pepper + more to taste\n½ tsp kosher salt + more to taste\n1 Tbsp olive oil\n1 Tbsp maple syrup\n2 oz mascarpone cheese\n1 tsp white wine vinegar		date-night
+884	Browned Butter Sauce	\N	8 Tbsp unsalted butter\n1 Tbsp olive oil\n4 fresh sage leaves\n2 garlic cloves, minced\nto taste kosher salt\nto taste freshly ground black pepper\n1/2 lb pasta, cooked + pasta water reserved\n1/2 Cup parmesan, grated		date-night
+885	Pork Sausage Filling	\N	1 tsp extra-virgin olive oil\n8 oz spicy Italian sausages, casings removed\n5 oz ricotta\n1 oz parmesan, grated\n1 egg, beaten		date-night
+886	Broccoli Rabe Pesto	\N	1 Tbsp salt\nAs needed water\n¼ lb broccoli rabe (after leaves and stems have been trimmed)\n¼ Cup walnuts, toasted\n2 garlic cloves\n6 Tbsp olive oil\n1 tsp salt\n½ Cup parmesan cheese, shredded\n½ lb pasta, cooked + pasta water reserved\n3-4 sun-dried tomatoes, roughly chopped\n½ Cup parmesan cheese, grated		date-night
+887	Four Cheese Filling	\N	2 oz parmesan cheese, grated\n2 oz asiago cheese, shredded\n4 oz full moisture mozzarella, shredded\n6 oz ricotta\n4 basil leaves, finely chopped\n¼ tsp dried oregano\n¼ tsp freshly grated nutmeg\n1 egg, beaten\n1 tsp kosher salt\n1 tsp freshly ground black pepper		date-night
+888	Vodka Sauce	\N	1 Tbsp + 1 tsp olive oil\n1 small onion, chopped\n2 garlic cloves, minced\n¼ - ½ tsp crushed red pepper flakes (depending on your spice level)\n1 (6 oz) can tomato paste\n⅓ cup vodka\n½ tsp dried oregano\n¾ cup heavy cream, room temperature\nto taste kosher salt\nto taste freshly ground black pepper\n2 oz pancetta, thinly sliced\n½ lb cheese tortellini, cooked + reserve pasta water\n½ Cup pecorino cheese, grated		date-night
+889	Flourless Chocolate Cake	\N	⅓ Cup water\n4.5 oz sugar, divided\n6 oz bittersweet chocolate, chopped\n1 oz cup cocoa powder\n1/2 tsp kosher salt\n4.5 oz unsalted butter, cubed and softened (68°F)\noptional: 1/2 tsp instant espresso powder\n3 eggs\n1/2 tsp vanilla extract\nAs needed, room temperature water		date-night
+890	Raspberry Coulis	\N	½ pt raspberries, rinsed\n½ Cup granulated sugar\n1 Tbsp water\n1.5 tsp Grand Marnier		date-night
+891	Bourbon Caramel	\N	1 Cup sugar\n1 Tbsp light corn syrup\n⅓ Cup water\n½ Cup heavy cream, room temperature\n1 tsp kosher salt\n⅓ Cup bourbon		date-night
+892	Crème Anglaise	\N	5 oz milk\n5 oz heavy cream\n½ tsp kosher salt\n1 vanilla bean, seeds scraped out and reserved\n3 large egg yolks\n3 Tbsp sugar\n¼ oz unsalted butter		date-night
 \.
 
 
@@ -2101,6 +2121,7 @@ COPY public.reference (id, type, name, description, external_link, image_link) F
 535	\N	Futurama	\N	\N	\N
 536	\N	Back to School	\N	\N	\N
 537	\N	Groundhog Day	\N	\N	\N
+538	\N	The Jerk	\N	\N	\N
 \.
 
 
@@ -2127,14 +2148,14 @@ SELECT pg_catalog.setval('public.guest_id_seq', 33, true);
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 875, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 892, true);
 
 
 --
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 537, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 538, true);
 
 
 --
