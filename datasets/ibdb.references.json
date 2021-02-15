@@ -4176,6 +4176,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/538",
+    "reference_id": 538,
+    "type": null,
+    "name": "The Jerk",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/pizza-in-a-cup-the-jerk",
+        "episode_id": "pizza-in-a-cup-the-jerk",
+        "name": "Pizza in a Cup inspired by The Jerk",
+        "published_date": "2021-02-10",
+        "youtube_link": "https://www.youtube.com/watch?v=8a7L0bFuE3o",
+        "official_link": "https://www.bingingwithbabish.com/recipes/pizza-in-a-cup-the-jerk",
+        "image_link": "https://img.youtube.com/vi/8a7L0bFuE3o/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/87",
     "reference_id": 87,
     "type": "video_game",
