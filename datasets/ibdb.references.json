@@ -3729,6 +3729,15 @@
     "image_link": "https://i.ytimg.com/sh/ofmKD13ObSYXEV-HkjVTGQ/market.jpg",
     "episodes_inspired": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/cookie-cat-steven-universe",
+        "episode_id": "cookie-cat-steven-universe",
+        "name": "Cookie Cat inspired by Steven Universe",
+        "published_date": "2021-02-16",
+        "youtube_link": "https://www.youtube.com/watch?v=KbNRvWfndjA",
+        "official_link": "https://www.bingingwithbabish.com/recipes/cookie-cat-steven-universe",
+        "image_link": "https://img.youtube.com/vi/KbNRvWfndjA/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/restaurant-wars-steven-universe",
         "episode_id": "restaurant-wars-steven-universe",
         "name": "Restaurant Wars inspired by Steven Universe",
