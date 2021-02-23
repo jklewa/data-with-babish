@@ -273,7 +273,7 @@ ALTER TABLE ONLY public.show ALTER COLUMN id SET DEFAULT nextval('public.show_id
 --
 
 COPY public.alembic_version (version_num) FROM stdin;
-c68d372abaa7
+1fba43043f30
 \.
 
 
@@ -2182,11 +2182,11 @@ ALTER TABLE ONLY public.episode_inspired_by
 
 
 --
--- Name: episode episode_name_key; Type: CONSTRAINT; Schema: public; Owner: postgres
+-- Name: episode episode_name_show_uindex; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.episode
-    ADD CONSTRAINT episode_name_key UNIQUE (name);
+    ADD CONSTRAINT episode_name_show_uindex UNIQUE (name, show_id);
 
 
 --

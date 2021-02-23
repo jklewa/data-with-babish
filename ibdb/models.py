@@ -1,5 +1,5 @@
 # coding: utf-8
-from sqlalchemy import Column, ForeignKey, Integer, String, Table, Text, text, Date
+from sqlalchemy import Column, ForeignKey, Integer, String, Table, Text, text, Date, UniqueConstraint
 from sqlalchemy.orm import relationship, backref
 from flask_sqlalchemy import SQLAlchemy
 from flask import request
@@ -85,9 +85,12 @@ class Show(Base):
 
 class Episode(Base):
     __tablename__ = 'episode'
+    __table_args__ = (
+        UniqueConstraint('name', 'show_id', name='episode_name_show_uindex'),
+    )
 
     id = Column(String, primary_key=True)
-    name = Column(String, nullable=False, unique=True)
+    name = Column(String, nullable=False)
     youtube_link = Column(String, nullable=False)
     official_link = Column(String, nullable=False)
     image_link = Column(String)
