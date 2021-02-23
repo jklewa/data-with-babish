@@ -284,6 +284,7 @@ COPY public.alembic_version (version_num) FROM stdin;
 COPY public.episode (id, name, youtube_link, official_link, image_link, published_date, show_id) FROM stdin;
 3daypotatosalad	3-Day Potato Salad inspired by SpongeBob SquarePants	https://www.youtube.com/watch?v=5Ugrgl9tB2s	https://www.bingingwithbabish.com/recipes/3daypotatosalad	https://img.youtube.com/vi/5Ugrgl9tB2s/mqdefault.jpg	2018-12-04	1
 5mill-special	5 Million Subscriber Special: Recreating Homer Simpson's NOLA Food Tour	https://www.youtube.com/watch?v=oM8c31ru92A	https://www.youtube.com/watch?v=oM8c31ru92A	https://img.youtube.com/vi/oM8c31ru92A/mqdefault.jpg	2019-09-10	1
+advanced-grilled-cheese	ADVANCED GRILLED CHEESE	https://www.youtube.com/watch?v=Zo7sRijXG00	https://basicswithbabish.co/basicsepisodes/advanced-grilled-cheese	https://img.youtube.com/vi/Zo7sRijXG00/mqdefault.jpg	2021-02-19	2
 adventure-time-sandwich	Jake's Perfect Sandwich inspired by Adventure Time	https://www.youtube.com/watch?v=HsxBw6ls7Z0	https://www.bingingwithbabish.com/recipes/2017/3/18/adventure-time-sandwich	https://img.youtube.com/vi/HsxBw6ls7Z0/mqdefault.jpg	2017-03-18	1
 adventuretimespecial	Adventure Time Special	https://www.youtube.com/watch?v=SjeS6gtPq8E	https://www.bingingwithbabish.com/recipes/adventuretimespecial	https://img.youtube.com/vi/SjeS6gtPq8E/mqdefault.jpg	2018-09-11	1
 aglioeolio	Pasta Aglio e Olio inspired by Chef	https://www.youtube.com/watch?v=bJUiWdM__Qw	https://www.bingingwithbabish.com/recipes/2017/5/4/aglioeolio	https://img.youtube.com/vi/bJUiWdM__Qw/mqdefault.jpg	2016-03-26	1
@@ -377,6 +378,7 @@ coffee	COFFEE	https://www.youtube.com/watch?v=6yItCQB4V9A	https://basicswithbabi
 coffeecake	COFFEE CAKE	https://www.youtube.com/watch?v=ds0jskRIeRI	https://basicswithbabish.co/basicsepisodes/coffeecake	https://img.youtube.com/vi/ds0jskRIeRI/mqdefault.jpg	2020-05-14	2
 coffeejelly	Coffee Jelly inspired by The Disastrous Life of Saiki K.	https://www.youtube.com/watch?v=YxEcd_wTf5c	https://www.bingingwithbabish.com/recipes/coffeejelly	https://img.youtube.com/vi/YxEcd_wTf5c/mqdefault.jpg	2019-09-24	1
 cold-cure	Cold Cure inspired by Kenan & Kel	https://www.youtube.com/watch?v=M-7t9FBecoU	https://www.bingingwithbabish.com/recipes/cold-cure	https://img.youtube.com/vi/M-7t9FBecoU/mqdefault.jpg	2020-03-24	1
+cookie-cat-steven-universe	Cookie Cat inspired by Steven Universe	https://www.youtube.com/watch?v=KbNRvWfndjA	https://www.bingingwithbabish.com/recipes/cookie-cat-steven-universe	https://img.youtube.com/vi/KbNRvWfndjA/mqdefault.jpg	2021-02-16	1
 coqauvin	Coq au Vin inspired by Donnie Brasco	https://www.youtube.com/watch?v=VP1uTgikarU	https://www.bingingwithbabish.com/recipes/coqauvin	https://img.youtube.com/vi/VP1uTgikarU/mqdefault.jpg	2019-01-15	1
 cornbread	CORNBREAD	https://www.youtube.com/watch?v=nAtCqHJofJk	https://basicswithbabish.co/basicsepisodes/cornbread	https://img.youtube.com/vi/nAtCqHJofJk/mqdefault.jpg	2019-12-12	2
 cremebrule	Crème Brûlée inspired by Amelie	https://www.youtube.com/watch?v=dn_aaxZIA2o	https://www.bingingwithbabish.com/recipes/2017/8/22/cremebrule	https://img.youtube.com/vi/dn_aaxZIA2o/mqdefault.jpg	2018-04-03	1
@@ -492,7 +494,9 @@ orangemochafrapp	Orange Mocha Frappuccinos inspired by Zoolander	https://www.you
 orangemochafrapp-fpm9l	Bacon and Eggs Breakfast inspired by Howl's Moving Castle	https://www.youtube.com/watch?v=UPccIAVvQA4	https://www.bingingwithbabish.com/recipes/orangemochafrapp-fpm9l	https://img.youtube.com/vi/UPccIAVvQA4/mqdefault.jpg	2019-06-04	1
 ossobuco	Osso Buco inspired by The Office	https://www.youtube.com/watch?v=Jr9Is6NsFck	https://www.bingingwithbabish.com/recipes/ossobuco	https://img.youtube.com/vi/Jr9Is6NsFck/mqdefault.jpg	2019-12-04	1
 pan-sauces	PAN SAUCES	https://www.youtube.com/watch?v=ru4U_T83uOU	https://basicswithbabish.co/basicsepisodes/pan-sauces	https://img.youtube.com/vi/ru4U_T83uOU/mqdefault.jpg	2020-05-01	2
+pancontomate-crabcakes	PAN CON TOMATE & THAI CRAB CAKES		https://www.bingingwithbabish.com/recipes/pancontomate-crabcakes	https://images.squarespace-cdn.com/content/v1/590be7fd15d5dbc6bf3e22d0/1613183877575-637JIQ4J3K9I19CXA78Y/ke17ZwdGBToddI8pDm48kLIHJMQ8C0Xv223jIdQPNVp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYsxCIdDgtq5Qi2LG--6piLgXMQUQ8pPoDXoa3QbRrDRZtJ3qR9G2BYeA0wOAaeYNg/pasted-image.png	2021-02-12	1
 panpizza	PAN PIZZA	https://www.youtube.com/watch?v=J_3v7DEkjsk	https://basicswithbabish.co/basicsepisodes/panpizza	https://img.youtube.com/vi/J_3v7DEkjsk/mqdefault.jpg	2019-08-29	2
+pantomate-crabcakes	PAN CON TOMATE & THAI CRAB CAKES		https://basicswithbabish.co/basicsepisodes/pantomate-crabcakes	https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1613183842730-AERMYVZEOMJRJKWBMSN0/ke17ZwdGBToddI8pDm48kLIHJMQ8C0Xv223jIdQPNVp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYsxCIdDgtq5Qi2LG--6piLgXMQUQ8pPoDXoa3QbRrDRZtJ3qR9G2BYeA0wOAaeYNg/pasted-image.png	2021-02-12	2
 parksandrecburger	Parks & Rec Burger Cookoff	https://www.youtube.com/watch?v=MP_nWuLYpJw	https://www.bingingwithbabish.com/recipes/parksandrecburger	https://img.youtube.com/vi/MP_nWuLYpJw/mqdefault.jpg	2016-02-10	1
 parmhero	Parm Heros inspired by Lots of Things	https://www.youtube.com/watch?v=DkiyT-dnmv8	https://www.bingingwithbabish.com/recipes/2017/8/22/parmhero	https://img.youtube.com/vi/DkiyT-dnmv8/mqdefault.jpg	2018-03-20	1
 pasta-al-limone	PASTA AL LIMONE	https://www.youtube.com/watch?v=I2MfxX0N7dQ	https://basicswithbabish.co/basicsepisodes/pasta-al-limone	https://img.youtube.com/vi/I2MfxX0N7dQ/mqdefault.jpg	2020-11-05	2
@@ -710,6 +714,7 @@ cocktail-special	123
 cocktail-special	124
 coffeejelly	133
 cold-cure	296
+cookie-cat-steven-universe	6
 coqauvin	26
 cremebrule	63
 cremebrule	202
@@ -1898,6 +1903,24 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 890	Raspberry Coulis	\N	½ pt raspberries, rinsed\n½ Cup granulated sugar\n1 Tbsp water\n1.5 tsp Grand Marnier		date-night
 891	Bourbon Caramel	\N	1 Cup sugar\n1 Tbsp light corn syrup\n⅓ Cup water\n½ Cup heavy cream, room temperature\n1 tsp kosher salt\n⅓ Cup bourbon		date-night
 892	Crème Anglaise	\N	5 oz milk\n5 oz heavy cream\n½ tsp kosher salt\n1 vanilla bean, seeds scraped out and reserved\n3 large egg yolks\n3 Tbsp sugar\n¼ oz unsalted butter		date-night
+893	For the Dipping Sauce	\N	1-2 small Thai Chili (or 1/2 half Serrano pepper), seeded removed + finely chopped\n2 garlic cloves, finely minced or crushed\n1 Tbsp ginger, grated\n1 tsp lemongrass, grated\n1/3 cup sugar\n2 Tbsp water\n3 Tbsp rice vinegar\n1.5 Tbsp lime juice\n2 tsp fish sauce\noptional: 1 tbsp. cilantro, finely chopped		pancontomate-crabcakes
+894	For the Crab Cakes	\N	8 oz lump crab meat, picked through (cartilage and shells fragments discarded)\n1 Thai chili (or 1/2 half Serrano pepper), seeds removed + thinly sliced\n2 scallions (greens only), finely sliced\n1 tbsp ginger, grated\n1 tbsp cilantro\n1 large egg, beaten\n1 tbsp lime juice\n1 tsp lime zest\n1 tsp fish sauce\n1 tsp kosher salt\n1 tsp freshly ground black pepper\n1 cup panko breadcrumbs\n2 Tbsp vegetable oil		pancontomate-crabcakes
+895	Pan con Tomate	\N	1 loaf ciabatta bread (or another thick-crust loaf of bread)\n2 large tomatoes (heirloom if possible)\n1 tsp kosher salt\n2 tbsp extra virgin olive oil + more for finishing\n3 large garlic cloves, halved\nas needed flaky salt		pancontomate-crabcakes
+896	Cookie	\N	160 g flour\n80 g cocoa powder\n75 g butter, soft\n50 g light brown sugar\n100 g white sugar\n½ tsp baking soda\n½ tsp salt\n¾ tsp vanilla\n110 g milk		cookie-cat-steven-universe
+897	Easy Vanilla Ice Cream	\N	8 oz heavy cream, cold\n2 oz clotted cream*\n7 oz sweetened condensed milk (about half the can)\n½ tsp salt\n1 tsp vanilla extract		cookie-cat-steven-universe
+898	No-Churn Strawberry Ice Cream	\N	6 oz heavy cream\n2 oz clotted cream*\n6 oz sweetened condensed milk\n½ tsp salt\n1 tsp vanilla extract\n6.5 oz strawberry puree (see below)		cookie-cat-steven-universe
+899	Strawberry Puree	\N	8 oz strawberries		cookie-cat-steven-universe
+900	For the Dipping Sauce	\N	1-2 small Thai Chili (or 1/2 half Serrano pepper), seeded removed + finely chopped\n2 garlic cloves, finely minced or crushed\n1 Tbsp ginger, grated\n1 tsp lemongrass, grated\n1/3 cup sugar\n2 Tbsp water\n3 Tbsp rice vinegar\n1.5 Tbsp lime juice\n2 tsp fish sauce\noptional: 1 tbsp. cilantro, finely chopped		pantomate-crabcakes
+901	For the Crab Cakes	\N	8 oz lump crab meat, picked through (cartilage and shells fragments discarded)\n1 Thai chili (or 1/2 half Serrano pepper), seeds removed + thinly sliced\n2 scallions (greens only), finely sliced\n1 tbsp ginger, grated\n1 tbsp cilantro\n1 large egg, beaten\n1 tbsp lime juice\n1 tsp lime zest\n1 tsp fish sauce\n1 tsp kosher salt\n1 tsp freshly ground black pepper\n1 cup panko breadcrumbs\n2 Tbsp vegetable oil		pantomate-crabcakes
+902	Pan con Tomate	\N	1 loaf ciabatta bread (or another thick-crust loaf of bread)\n2 large tomatoes (heirloom if possible)\n1 tsp kosher salt\n2 tbsp extra virgin olive oil + more for finishing\n3 large garlic cloves, halved\nas needed flaky salt		pantomate-crabcakes
+903	Basic American Grilled Cheese	\N	8 slices hearty white bread\n3 Tbsp unsalted butter, very soft\nOptional: 4 oz cheddar cheese, finely grated\n16 slices American cheese		advanced-grilled-cheese
+904	Advanced Grilled Cheese	\N	7 oz white cheddar, cubed\n2 oz brie cheese, rind removed\n2 Tbsp dry white wine\n½ large shallot, roughly chopped\n3 Tbsp unsalted butter, very soft\n1 tsp Dijon mustard\n8 slices country white bread		advanced-grilled-cheese
+905	Jalapeño Popper Grilled Cheese	\N	2 oz white cheddar, cubed\n6 oz Monterey Jack cheese, cubed\n1 oz cream cheese\n2 Tbsp Mexican beer\n½ large jalapeño, sliced\n3 Tbsp unsalted butter, very soft\n8 slices heart white bread		advanced-grilled-cheese
+906	Welsh Rarebit Sauce	\N	2 Tbsp unsalted butter\n1 shallot, finely chopped\n1 Tbsp all-purpose flour\n2 tsp dry mustard powder\n1 Tbsp Worcestershire sauce\n10 oz cheddar cheese, shredded\n¼ Cup brown ale		advanced-grilled-cheese
+907	Double-Decker Welsh Rarebit	\N	1 tsp Dijon mustard\n4 Tbsp unsalted butter, very soft\n8 slices sourdough bread\n9 oz cheddar cheese slices\nWelsh Rarebit sauce\nGarnish: chives, chopped		advanced-grilled-cheese
+908	Caramelized Onion	\N	2 Vidalia onions, thinly sliced\n1 Tbsp olive oil\nAs needed water		advanced-grilled-cheese
+909	Bechamel Sauce	\N	2 Tbsp unsalted butter\n2 Tbsp all-purpose flour\n½ Cup whole milk		advanced-grilled-cheese
+910	French Grilled Cheese	\N	7 oz comte cheese, chopped\n2 oz brie cheese, rind removed\n2 Tbsp dry white wine or sherry\n2 Tbsp caramelized onions\n4 Tbsp fig jam\n3 Tbsp unsalted butter, very soft\n8 slices brioche bread\nBechamel sauce		advanced-grilled-cheese
 \.
 
 
@@ -2148,7 +2171,7 @@ SELECT pg_catalog.setval('public.guest_id_seq', 33, true);
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 892, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 910, true);
 
 
 --

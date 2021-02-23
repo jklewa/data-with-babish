@@ -1,5 +1,573 @@
 [
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/advanced-grilled-cheese",
+    "episode_id": "advanced-grilled-cheese",
+    "name": "ADVANCED GRILLED CHEESE",
+    "published_date": "2021-02-19",
+    "youtube_link": "https://www.youtube.com/watch?v=Zo7sRijXG00",
+    "official_link": "https://basicswithbabish.co/basicsepisodes/advanced-grilled-cheese",
+    "image_link": "https://img.youtube.com/vi/Zo7sRijXG00/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/2",
+        "show_id": 2,
+        "name": "Basics with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/904",
+          "recipe_id": 904,
+          "name": "Advanced Grilled Cheese",
+          "image_link": null,
+          "raw_ingredient_list": "7 oz white cheddar, cubed\n2 oz brie cheese, rind removed\n2 Tbsp dry white wine\n\u00bd large shallot, roughly chopped\n3 Tbsp unsalted butter, very soft\n1 tsp Dijon mustard\n8 slices country white bread",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              7.0,
+              "ounce",
+              "White Cheddar",
+              "7 oz white cheddar, cubed"
+            ],
+            [
+              2.0,
+              "ounce",
+              "Brie Cheese",
+              "2 oz brie cheese, rind removed"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Dry White Wine",
+              "2 Tbsp dry white wine"
+            ],
+            [
+              0.5,
+              "large",
+              "Shallot",
+              "\u00bd large shallot, roughly chopped"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "3 Tbsp unsalted butter, very soft"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Dijon Mustard",
+              "1 tsp Dijon mustard"
+            ],
+            [
+              8.0,
+              null,
+              "Slices Country White Bread",
+              "8 slices country white bread"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/903",
+          "recipe_id": 903,
+          "name": "Basic American Grilled Cheese",
+          "image_link": null,
+          "raw_ingredient_list": "8 slices hearty white bread\n3 Tbsp unsalted butter, very soft\nOptional: 4 oz cheddar cheese, finely grated\n16 slices American cheese",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              8.0,
+              null,
+              "Slices Hearty White Bread",
+              "8 slices hearty white bread"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "3 Tbsp unsalted butter, very soft"
+            ],
+            [
+              null,
+              null,
+              "Optional: 4 Oz Cheddar Cheese",
+              "Optional: 4 oz cheddar cheese, finely grated"
+            ],
+            [
+              16.0,
+              null,
+              "Slices American Cheese",
+              "16 slices American cheese"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/909",
+          "recipe_id": 909,
+          "name": "Bechamel Sauce",
+          "image_link": null,
+          "raw_ingredient_list": "2 Tbsp unsalted butter\n2 Tbsp all-purpose flour\n\u00bd Cup whole milk",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "2 Tbsp unsalted butter"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "All-purpose Flour",
+              "2 Tbsp all-purpose flour"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Milk",
+              "\u00bd Cup whole milk"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/908",
+          "recipe_id": 908,
+          "name": "Caramelized Onion",
+          "image_link": null,
+          "raw_ingredient_list": "2 Vidalia onions, thinly sliced\n1 Tbsp olive oil\nAs needed water",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              null,
+              "Vidalia Onions",
+              "2 Vidalia onions, thinly sliced"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Olive Oil",
+              "1 Tbsp olive oil"
+            ],
+            [
+              null,
+              null,
+              "As Needed Water",
+              "As needed water"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/907",
+          "recipe_id": 907,
+          "name": "Double-Decker Welsh Rarebit",
+          "image_link": null,
+          "raw_ingredient_list": "1 tsp Dijon mustard\n4 Tbsp unsalted butter, very soft\n8 slices sourdough bread\n9 oz cheddar cheese slices\nWelsh Rarebit sauce\nGarnish: chives, chopped",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              "teaspoon",
+              "Dijon Mustard",
+              "1 tsp Dijon mustard"
+            ],
+            [
+              4.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "4 Tbsp unsalted butter, very soft"
+            ],
+            [
+              8.0,
+              null,
+              "Slices Sourdough Bread",
+              "8 slices sourdough bread"
+            ],
+            [
+              9.0,
+              "ounce",
+              "Cheddar Cheese Slices",
+              "9 oz cheddar cheese slices"
+            ],
+            [
+              null,
+              null,
+              "Welsh Rarebit Sauce",
+              "Welsh Rarebit sauce"
+            ],
+            [
+              null,
+              null,
+              "Garnish: Chives",
+              "Garnish: chives, chopped"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/910",
+          "recipe_id": 910,
+          "name": "French Grilled Cheese",
+          "image_link": null,
+          "raw_ingredient_list": "7 oz comte cheese, chopped\n2 oz brie cheese, rind removed\n2 Tbsp dry white wine or sherry\n2 Tbsp caramelized onions\n4 Tbsp fig jam\n3 Tbsp unsalted butter, very soft\n8 slices brioche bread\nBechamel sauce",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              7.0,
+              "ounce",
+              "Comte Cheese",
+              "7 oz comte cheese, chopped"
+            ],
+            [
+              2.0,
+              "ounce",
+              "Brie Cheese",
+              "2 oz brie cheese, rind removed"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Dry White Wine Or Sherry",
+              "2 Tbsp dry white wine or sherry"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Caramelized Onions",
+              "2 Tbsp caramelized onions"
+            ],
+            [
+              4.0,
+              "tablespoon",
+              "Fig Jam",
+              "4 Tbsp fig jam"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "3 Tbsp unsalted butter, very soft"
+            ],
+            [
+              8.0,
+              null,
+              "Slices Brioche Bread",
+              "8 slices brioche bread"
+            ],
+            [
+              null,
+              null,
+              "Bechamel Sauce",
+              "Bechamel sauce"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/905",
+          "recipe_id": 905,
+          "name": "Jalape\u00f1o Popper Grilled Cheese",
+          "image_link": null,
+          "raw_ingredient_list": "2 oz white cheddar, cubed\n6 oz Monterey Jack cheese, cubed\n1 oz cream cheese\n2 Tbsp Mexican beer\n\u00bd large jalape\u00f1o, sliced\n3 Tbsp unsalted butter, very soft\n8 slices heart white bread",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              "ounce",
+              "White Cheddar",
+              "2 oz white cheddar, cubed"
+            ],
+            [
+              6.0,
+              "ounce",
+              "Monterey Jack Cheese",
+              "6 oz Monterey Jack cheese, cubed"
+            ],
+            [
+              1.0,
+              "ounce",
+              "Cream Cheese",
+              "1 oz cream cheese"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Mexican Beer",
+              "2 Tbsp Mexican beer"
+            ],
+            [
+              0.5,
+              "large",
+              "Jalape\u00f1o",
+              "\u00bd large jalape\u00f1o, sliced"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "3 Tbsp unsalted butter, very soft"
+            ],
+            [
+              8.0,
+              null,
+              "Slices Heart White Bread",
+              "8 slices heart white bread"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/906",
+          "recipe_id": 906,
+          "name": "Welsh Rarebit Sauce",
+          "image_link": null,
+          "raw_ingredient_list": "2 Tbsp unsalted butter\n1 shallot, finely chopped\n1 Tbsp all-purpose flour\n2 tsp dry mustard powder\n1 Tbsp Worcestershire sauce\n10 oz cheddar cheese, shredded\n\u00bc Cup brown ale",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "2 Tbsp unsalted butter"
+            ],
+            [
+              1.0,
+              null,
+              "Shallot",
+              "1 shallot, finely chopped"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "All-purpose Flour",
+              "1 Tbsp all-purpose flour"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Dry Mustard Powder",
+              "2 tsp dry mustard powder"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Worcestershire Sauce",
+              "1 Tbsp Worcestershire sauce"
+            ],
+            [
+              10.0,
+              "ounce",
+              "Cheddar Cheese",
+              "10 oz cheddar cheese, shredded"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Brown Ale",
+              "\u00bc Cup brown ale"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/cookie-cat-steven-universe",
+    "episode_id": "cookie-cat-steven-universe",
+    "name": "Cookie Cat inspired by Steven Universe",
+    "published_date": "2021-02-16",
+    "youtube_link": "https://www.youtube.com/watch?v=KbNRvWfndjA",
+    "official_link": "https://www.bingingwithbabish.com/recipes/cookie-cat-steven-universe",
+    "image_link": "https://img.youtube.com/vi/KbNRvWfndjA/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/6",
+          "reference_id": 6,
+          "type": "tv_show",
+          "name": "Steven Universe",
+          "description": "A team of intergalactic warriors fights to protect the universe, but the combination of three highly trained beings and one quirky young boy leaves the team struggling to overcome the dangerous scenarios that are put in front of them. IMDb.",
+          "external_link": "https://www.imdb.com/title/tt3061046/",
+          "image_link": "https://i.ytimg.com/sh/ofmKD13ObSYXEV-HkjVTGQ/market.jpg"
+        }
+      ],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/896",
+          "recipe_id": 896,
+          "name": "Cookie",
+          "image_link": null,
+          "raw_ingredient_list": "160 g flour\n80 g cocoa powder\n75 g butter, soft\n50 g light brown sugar\n100 g white sugar\n\u00bd tsp baking soda\n\u00bd tsp salt\n\u00be tsp vanilla\n110 g milk",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              160.0,
+              "gram",
+              "Flour",
+              "160 g flour"
+            ],
+            [
+              80.0,
+              "gram",
+              "Cocoa Powder",
+              "80 g cocoa powder"
+            ],
+            [
+              75.0,
+              "gram",
+              "Butter",
+              "75 g butter, soft"
+            ],
+            [
+              50.0,
+              "gram",
+              "Light Brown Sugar",
+              "50 g light brown sugar"
+            ],
+            [
+              100.0,
+              "gram",
+              "White Sugar",
+              "100 g white sugar"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Baking Soda",
+              "\u00bd tsp baking soda"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Salt",
+              "\u00bd tsp salt"
+            ],
+            [
+              0.75,
+              "teaspoon",
+              "Vanilla",
+              "\u00be tsp vanilla"
+            ],
+            [
+              110.0,
+              "gram",
+              "Milk",
+              "110 g milk"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/897",
+          "recipe_id": 897,
+          "name": "Easy Vanilla Ice Cream",
+          "image_link": null,
+          "raw_ingredient_list": "8 oz heavy cream, cold\n2 oz clotted cream*\n7 oz sweetened condensed milk (about half the can)\n\u00bd tsp salt\n1 tsp vanilla extract",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              8.0,
+              "ounce",
+              "Heavy Cream",
+              "8 oz heavy cream, cold"
+            ],
+            [
+              2.0,
+              "ounce",
+              "Clotted Cream*",
+              "2 oz clotted cream*"
+            ],
+            [
+              7.0,
+              "ounce",
+              "Sweetened Condensed Milk",
+              "7 oz sweetened condensed milk (about half the can)"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Salt",
+              "\u00bd tsp salt"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Vanilla Extract",
+              "1 tsp vanilla extract"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/898",
+          "recipe_id": 898,
+          "name": "No-Churn Strawberry Ice Cream",
+          "image_link": null,
+          "raw_ingredient_list": "6 oz heavy cream\n2 oz clotted cream*\n6 oz sweetened condensed milk\n\u00bd tsp salt\n1 tsp vanilla extract\n6.5 oz strawberry puree (see below)",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              6.0,
+              "ounce",
+              "Heavy Cream",
+              "6 oz heavy cream"
+            ],
+            [
+              2.0,
+              "ounce",
+              "Clotted Cream*",
+              "2 oz clotted cream*"
+            ],
+            [
+              6.0,
+              "ounce",
+              "Sweetened Condensed Milk",
+              "6 oz sweetened condensed milk"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Salt",
+              "\u00bd tsp salt"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Vanilla Extract",
+              "1 tsp vanilla extract"
+            ],
+            [
+              6.5,
+              "ounce",
+              "Strawberry Puree",
+              "6.5 oz strawberry puree (see below)"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/899",
+          "recipe_id": 899,
+          "name": "Strawberry Puree",
+          "image_link": null,
+          "raw_ingredient_list": "8 oz strawberries",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              8.0,
+              "ounce",
+              "Strawberries",
+              "8 oz strawberries"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/episode/date-night",
     "episode_id": "date-night",
     "name": "DATE NIGHT",
@@ -896,6 +1464,456 @@
               null,
               "As Needed Crostini",
               "As needed crostini"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/pancontomate-crabcakes",
+    "episode_id": "pancontomate-crabcakes",
+    "name": "PAN CON TOMATE & THAI CRAB CAKES",
+    "published_date": "2021-02-12",
+    "youtube_link": "",
+    "official_link": "https://www.bingingwithbabish.com/recipes/pancontomate-crabcakes",
+    "image_link": "https://images.squarespace-cdn.com/content/v1/590be7fd15d5dbc6bf3e22d0/1613183877575-637JIQ4J3K9I19CXA78Y/ke17ZwdGBToddI8pDm48kLIHJMQ8C0Xv223jIdQPNVp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYsxCIdDgtq5Qi2LG--6piLgXMQUQ8pPoDXoa3QbRrDRZtJ3qR9G2BYeA0wOAaeYNg/pasted-image.png",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/894",
+          "recipe_id": 894,
+          "name": "For the Crab Cakes",
+          "image_link": null,
+          "raw_ingredient_list": "8 oz lump crab meat, picked through (cartilage and shells fragments discarded)\n1 Thai chili (or 1/2 half Serrano pepper), seeds removed + thinly sliced\n2 scallions (greens only), finely sliced\n1 tbsp ginger, grated\n1 tbsp cilantro\n1 large egg, beaten\n1 tbsp lime juice\n1 tsp lime zest\n1 tsp fish sauce\n1 tsp kosher salt\n1 tsp freshly ground black pepper\n1 cup panko breadcrumbs\n2 Tbsp vegetable oil",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              8.0,
+              "ounce",
+              "Lump Crab Meat",
+              "8 oz lump crab meat, picked through (cartilage and shells fragments discarded)"
+            ],
+            [
+              1.0,
+              null,
+              "Thai Chili",
+              "1 Thai chili (or 1/2 half Serrano pepper), seeds removed + thinly sliced"
+            ],
+            [
+              2.0,
+              null,
+              "Scallions",
+              "2 scallions (greens only), finely sliced"
+            ],
+            [
+              1.0,
+              "tbsp",
+              "Ginger",
+              "1 tbsp ginger, grated"
+            ],
+            [
+              1.0,
+              "tbsp",
+              "Cilantro",
+              "1 tbsp cilantro"
+            ],
+            [
+              1.0,
+              "large",
+              "Egg",
+              "1 large egg, beaten"
+            ],
+            [
+              1.0,
+              "tbsp",
+              "Lime Juice",
+              "1 tbsp lime juice"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Lime Zest",
+              "1 tsp lime zest"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Fish Sauce",
+              "1 tsp fish sauce"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt",
+              "1 tsp kosher salt"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Freshly Ground Black Pepper",
+              "1 tsp freshly ground black pepper"
+            ],
+            [
+              1.0,
+              "cup",
+              "Panko Breadcrumbs",
+              "1 cup panko breadcrumbs"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Vegetable Oil",
+              "2 Tbsp vegetable oil"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/893",
+          "recipe_id": 893,
+          "name": "For the Dipping Sauce",
+          "image_link": null,
+          "raw_ingredient_list": "1-2 small Thai Chili (or 1/2 half Serrano pepper), seeded removed + finely chopped\n2 garlic cloves, finely minced or crushed\n1 Tbsp ginger, grated\n1 tsp lemongrass, grated\n1/3 cup sugar\n2 Tbsp water\n3 Tbsp rice vinegar\n1.5 Tbsp lime juice\n2 tsp fish sauce\noptional: 1 tbsp. cilantro, finely chopped",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              "1-2",
+              "small",
+              "Thai Chili",
+              "1-2 small Thai Chili (or 1/2 half Serrano pepper), seeded removed + finely chopped"
+            ],
+            [
+              2.0,
+              null,
+              "Garlic Cloves",
+              "2 garlic cloves, finely minced or crushed"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Ginger",
+              "1 Tbsp ginger, grated"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Lemongrass",
+              "1 tsp lemongrass, grated"
+            ],
+            [
+              0.3333333333333333,
+              "cup",
+              "Sugar",
+              "1/3 cup sugar"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Water",
+              "2 Tbsp water"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Rice Vinegar",
+              "3 Tbsp rice vinegar"
+            ],
+            [
+              1.5,
+              "tablespoon",
+              "Lime Juice",
+              "1.5 Tbsp lime juice"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Fish Sauce",
+              "2 tsp fish sauce"
+            ],
+            [
+              null,
+              null,
+              "Optional: 1 Tbsp. Cilantro",
+              "optional: 1 tbsp. cilantro, finely chopped"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/895",
+          "recipe_id": 895,
+          "name": "Pan con Tomate",
+          "image_link": null,
+          "raw_ingredient_list": "1 loaf ciabatta bread (or another thick-crust loaf of bread)\n2 large tomatoes (heirloom if possible)\n1 tsp kosher salt\n2 tbsp extra virgin olive oil + more for finishing\n3 large garlic cloves, halved\nas needed flaky salt",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "Loaf Ciabatta Bread",
+              "1 loaf ciabatta bread (or another thick-crust loaf of bread)"
+            ],
+            [
+              2.0,
+              "large",
+              "Tomatoes",
+              "2 large tomatoes (heirloom if possible)"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt",
+              "1 tsp kosher salt"
+            ],
+            [
+              2.0,
+              "tbsp",
+              "Extra Virgin Olive Oil + More For Finishing",
+              "2 tbsp extra virgin olive oil + more for finishing"
+            ],
+            [
+              3.0,
+              "large",
+              "Garlic Cloves",
+              "3 large garlic cloves, halved"
+            ],
+            [
+              null,
+              null,
+              "As Needed Flaky Salt",
+              "as needed flaky salt"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/pantomate-crabcakes",
+    "episode_id": "pantomate-crabcakes",
+    "name": "PAN CON TOMATE & THAI CRAB CAKES",
+    "published_date": "2021-02-12",
+    "youtube_link": "",
+    "official_link": "https://basicswithbabish.co/basicsepisodes/pantomate-crabcakes",
+    "image_link": "https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1613183842730-AERMYVZEOMJRJKWBMSN0/ke17ZwdGBToddI8pDm48kLIHJMQ8C0Xv223jIdQPNVp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYsxCIdDgtq5Qi2LG--6piLgXMQUQ8pPoDXoa3QbRrDRZtJ3qR9G2BYeA0wOAaeYNg/pasted-image.png",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/2",
+        "show_id": 2,
+        "name": "Basics with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/901",
+          "recipe_id": 901,
+          "name": "For the Crab Cakes",
+          "image_link": null,
+          "raw_ingredient_list": "8 oz lump crab meat, picked through (cartilage and shells fragments discarded)\n1 Thai chili (or 1/2 half Serrano pepper), seeds removed + thinly sliced\n2 scallions (greens only), finely sliced\n1 tbsp ginger, grated\n1 tbsp cilantro\n1 large egg, beaten\n1 tbsp lime juice\n1 tsp lime zest\n1 tsp fish sauce\n1 tsp kosher salt\n1 tsp freshly ground black pepper\n1 cup panko breadcrumbs\n2 Tbsp vegetable oil",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              8.0,
+              "ounce",
+              "Lump Crab Meat",
+              "8 oz lump crab meat, picked through (cartilage and shells fragments discarded)"
+            ],
+            [
+              1.0,
+              null,
+              "Thai Chili",
+              "1 Thai chili (or 1/2 half Serrano pepper), seeds removed + thinly sliced"
+            ],
+            [
+              2.0,
+              null,
+              "Scallions",
+              "2 scallions (greens only), finely sliced"
+            ],
+            [
+              1.0,
+              "tbsp",
+              "Ginger",
+              "1 tbsp ginger, grated"
+            ],
+            [
+              1.0,
+              "tbsp",
+              "Cilantro",
+              "1 tbsp cilantro"
+            ],
+            [
+              1.0,
+              "large",
+              "Egg",
+              "1 large egg, beaten"
+            ],
+            [
+              1.0,
+              "tbsp",
+              "Lime Juice",
+              "1 tbsp lime juice"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Lime Zest",
+              "1 tsp lime zest"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Fish Sauce",
+              "1 tsp fish sauce"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt",
+              "1 tsp kosher salt"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Freshly Ground Black Pepper",
+              "1 tsp freshly ground black pepper"
+            ],
+            [
+              1.0,
+              "cup",
+              "Panko Breadcrumbs",
+              "1 cup panko breadcrumbs"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Vegetable Oil",
+              "2 Tbsp vegetable oil"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/900",
+          "recipe_id": 900,
+          "name": "For the Dipping Sauce",
+          "image_link": null,
+          "raw_ingredient_list": "1-2 small Thai Chili (or 1/2 half Serrano pepper), seeded removed + finely chopped\n2 garlic cloves, finely minced or crushed\n1 Tbsp ginger, grated\n1 tsp lemongrass, grated\n1/3 cup sugar\n2 Tbsp water\n3 Tbsp rice vinegar\n1.5 Tbsp lime juice\n2 tsp fish sauce\noptional: 1 tbsp. cilantro, finely chopped",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              "1-2",
+              "small",
+              "Thai Chili",
+              "1-2 small Thai Chili (or 1/2 half Serrano pepper), seeded removed + finely chopped"
+            ],
+            [
+              2.0,
+              null,
+              "Garlic Cloves",
+              "2 garlic cloves, finely minced or crushed"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Ginger",
+              "1 Tbsp ginger, grated"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Lemongrass",
+              "1 tsp lemongrass, grated"
+            ],
+            [
+              0.3333333333333333,
+              "cup",
+              "Sugar",
+              "1/3 cup sugar"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Water",
+              "2 Tbsp water"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Rice Vinegar",
+              "3 Tbsp rice vinegar"
+            ],
+            [
+              1.5,
+              "tablespoon",
+              "Lime Juice",
+              "1.5 Tbsp lime juice"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Fish Sauce",
+              "2 tsp fish sauce"
+            ],
+            [
+              null,
+              null,
+              "Optional: 1 Tbsp. Cilantro",
+              "optional: 1 tbsp. cilantro, finely chopped"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/902",
+          "recipe_id": 902,
+          "name": "Pan con Tomate",
+          "image_link": null,
+          "raw_ingredient_list": "1 loaf ciabatta bread (or another thick-crust loaf of bread)\n2 large tomatoes (heirloom if possible)\n1 tsp kosher salt\n2 tbsp extra virgin olive oil + more for finishing\n3 large garlic cloves, halved\nas needed flaky salt",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "Loaf Ciabatta Bread",
+              "1 loaf ciabatta bread (or another thick-crust loaf of bread)"
+            ],
+            [
+              2.0,
+              "large",
+              "Tomatoes",
+              "2 large tomatoes (heirloom if possible)"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt",
+              "1 tsp kosher salt"
+            ],
+            [
+              2.0,
+              "tbsp",
+              "Extra Virgin Olive Oil + More For Finishing",
+              "2 tbsp extra virgin olive oil + more for finishing"
+            ],
+            [
+              3.0,
+              "large",
+              "Garlic Cloves",
+              "3 large garlic cloves, halved"
+            ],
+            [
+              null,
+              null,
+              "As Needed Flaky Salt",
+              "as needed flaky salt"
             ]
           ]
         }
