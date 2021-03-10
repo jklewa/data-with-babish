@@ -2435,6 +2435,15 @@
     "image_link": "https://i.ytimg.com/sh/JtH-rbXuIWCffTt5FKWMhA/market.jpg",
     "episodes_inspired": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/chicken-kiev-mad-men",
+        "episode_id": "chicken-kiev-mad-men",
+        "name": "Chicken Kiev inspired by Mad Men",
+        "published_date": "2021-03-02",
+        "youtube_link": "https://www.youtube.com/watch?v=kf8XzD-xVGc",
+        "official_link": "https://www.bingingwithbabish.com/recipes/chicken-kiev-mad-men",
+        "image_link": "https://img.youtube.com/vi/kf8XzD-xVGc/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/rumfrenchtoast",
         "episode_id": "rumfrenchtoast",
         "name": "Rum French Toast inspired by Mad Men",
@@ -3278,6 +3287,15 @@
     "external_link": null,
     "image_link": null,
     "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/sugar-chicken-rick-and-morty",
+        "episode_id": "sugar-chicken-rick-and-morty",
+        "name": "Sugar Chicken inspired by Rick & Morty",
+        "published_date": "2021-02-23",
+        "youtube_link": "https://www.youtube.com/watch?v=8iCWUvHMPxQ",
+        "official_link": "https://www.bingingwithbabish.com/recipes/sugar-chicken-rick-and-morty",
+        "image_link": "https://img.youtube.com/vi/8iCWUvHMPxQ/mqdefault.jpg"
+      },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/lilbits-rickandmorty",
         "episode_id": "lilbits-rickandmorty",
@@ -4829,6 +4847,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=NgloGi5xEa8",
         "official_link": "https://www.bingingwithbabish.com/recipes/piesfromwaitress",
         "image_link": "https://img.youtube.com/vi/NgloGi5xEa8/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/539",
+    "reference_id": 539,
+    "type": null,
+    "name": "WandaVision",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/dinner-wandavision",
+        "episode_id": "dinner-wandavision",
+        "name": "Dinner from WandaVision",
+        "published_date": "2021-03-09",
+        "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
+        "official_link": "https://www.bingingwithbabish.com/recipes/dinner-wandavision",
+        "image_link": "https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg"
       }
     ]
   },

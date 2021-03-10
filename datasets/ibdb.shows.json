@@ -6,6 +6,33 @@
     "image_link": null,
     "episodes": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/dinner-wandavision",
+        "episode_id": "dinner-wandavision",
+        "name": "Dinner from WandaVision",
+        "published_date": "2021-03-09",
+        "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
+        "official_link": "https://www.bingingwithbabish.com/recipes/dinner-wandavision",
+        "image_link": "https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/chicken-kiev-mad-men",
+        "episode_id": "chicken-kiev-mad-men",
+        "name": "Chicken Kiev inspired by Mad Men",
+        "published_date": "2021-03-02",
+        "youtube_link": "https://www.youtube.com/watch?v=kf8XzD-xVGc",
+        "official_link": "https://www.bingingwithbabish.com/recipes/chicken-kiev-mad-men",
+        "image_link": "https://img.youtube.com/vi/kf8XzD-xVGc/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/sugar-chicken-rick-and-morty",
+        "episode_id": "sugar-chicken-rick-and-morty",
+        "name": "Sugar Chicken inspired by Rick & Morty",
+        "published_date": "2021-02-23",
+        "youtube_link": "https://www.youtube.com/watch?v=8iCWUvHMPxQ",
+        "official_link": "https://www.bingingwithbabish.com/recipes/sugar-chicken-rick-and-morty",
+        "image_link": "https://img.youtube.com/vi/8iCWUvHMPxQ/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cookie-cat-steven-universe",
         "episode_id": "cookie-cat-steven-universe",
         "name": "Cookie Cat inspired by Steven Universe",
@@ -2083,6 +2110,15 @@
     "name": "Basics with Babish",
     "image_link": null,
     "episodes": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/biscuits-and-gravy",
+        "episode_id": "biscuits-and-gravy",
+        "name": "BISCUITS AND GRAVY",
+        "published_date": "2021-02-25",
+        "youtube_link": "https://www.youtube.com/watch?v=NMbMT9tY8-Q",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/biscuits-and-gravy",
+        "image_link": "https://img.youtube.com/vi/NMbMT9tY8-Q/mqdefault.jpg"
+      },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/advanced-grilled-cheese",
         "episode_id": "advanced-grilled-cheese",

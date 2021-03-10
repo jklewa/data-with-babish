@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 12.6 (Debian 12.6-1.pgdg100+1)
--- Dumped by pg_dump version 12.6 (Ubuntu 12.6-1.pgdg18.04+1)
+-- Dumped by pg_dump version 12.6 (Ubuntu 12.6-1.pgdg20.04+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -325,6 +325,7 @@ being-with-babish-6	I Surprised My Brother with a Tesla	https://www.youtube.com/
 ben-wyatt-calzones	Calzones inspired by Parks & Rec	https://www.youtube.com/watch?v=PvgCEifW7Jo	https://www.bingingwithbabish.com/recipes/ben-wyatt-calzones	https://img.youtube.com/vi/PvgCEifW7Jo/mqdefault.jpg	2020-04-15	1
 biggamesnacks	BIG GAME SNACKS	https://www.youtube.com/watch?v=8ckxhlDFNkg	https://basicswithbabish.co/basicsepisodes/biggamesnacks	https://img.youtube.com/vi/8ckxhlDFNkg/mqdefault.jpg	2019-01-31	2
 bigkahunaburger	Big Kahuna Burger inspired by Pulp Fiction	https://www.youtube.com/watch?v=OmwE0aJqkdA	https://www.bingingwithbabish.com/recipes/2017/5/4/bigkahunaburger	https://img.youtube.com/vi/OmwE0aJqkdA/mqdefault.jpg	2017-01-03	1
+biscuits-and-gravy	BISCUITS AND GRAVY	https://www.youtube.com/watch?v=NMbMT9tY8-Q	https://basicswithbabish.co/basicsepisodes/biscuits-and-gravy	https://img.youtube.com/vi/NMbMT9tY8-Q/mqdefault.jpg	2021-02-25	2
 blendersoups	BLENDER SOUPS	https://www.youtube.com/watch?v=S-gUFvpRQoU	https://basicswithbabish.co/basicsepisodes/blendersoups	https://img.youtube.com/vi/S-gUFvpRQoU/mqdefault.jpg	2019-03-05	2
 blood-pie-inspired-by-game-of-thrones	Blood Pie inspired by Game of Thrones	https://www.youtube.com/watch?v=Y_hc07rAQlc	https://www.bingingwithbabish.com/recipes/2017/7/14/blood-pie-inspired-by-game-of-thrones	https://img.youtube.com/vi/Y_hc07rAQlc/mqdefault.jpg	2017-07-11	1
 bobsburgers	Bob's Burgers	https://www.youtube.com/watch?v=basFyoMSjds	https://www.bingingwithbabish.com/recipes/2017/6/27/bobsburgers	https://img.youtube.com/vi/basFyoMSjds/mqdefault.jpg	2017-03-14	1
@@ -358,6 +359,7 @@ cheesdips	CHEESE DIPS	https://www.youtube.com/watch?v=9toK5UUGeok	https://basics
 cheese-fondue	CHEEESE FONDUE	https://www.youtube.com/watch?v=_X-Mm8h1AHM	https://basicswithbabish.co/basicsepisodes/cheese-fondue	https://img.youtube.com/vi/_X-Mm8h1AHM/mqdefault.jpg	2020-07-23	2
 cheesesteak	Philly Cheesesteaks inspired by Creed	https://www.youtube.com/watch?v=Zru1yk--rGQ	https://www.bingingwithbabish.com/recipes/2017/5/4/cheesesteak	https://img.youtube.com/vi/Zru1yk--rGQ/mqdefault.jpg	2016-08-21	1
 cheesyblasters	Cheesy Blasters inspired by 30 Rock	https://www.youtube.com/watch?v=atLL2Yzi3bg	https://www.bingingwithbabish.com/recipes/cheesyblasters	https://img.youtube.com/vi/atLL2Yzi3bg/mqdefault.jpg	2018-05-15	1
+chicken-kiev-mad-men	Chicken Kiev inspired by Mad Men	https://www.youtube.com/watch?v=kf8XzD-xVGc	https://www.bingingwithbabish.com/recipes/chicken-kiev-mad-men	https://img.youtube.com/vi/kf8XzD-xVGc/mqdefault.jpg	2021-03-02	1
 chicken-parmesan	CHICKEN PARMESAN	https://www.youtube.com/watch?v=ZrR0VbqNdW8	https://basicswithbabish.co/basicsepisodes/chicken-parmesan	https://img.youtube.com/vi/ZrR0VbqNdW8/mqdefault.jpg	2020-12-10	2
 chicken-pot-pie	CHICKEN POT PIE	https://www.youtube.com/watch?v=Sv7NP9LMU4Q	https://basicswithbabish.co/basicsepisodes/chicken-pot-pie	https://img.youtube.com/vi/Sv7NP9LMU4Q/mqdefault.jpg	2020-11-13	2
 chickenpaprikash	Chicken Paprikash inspired by Captain America: Civil War	https://www.youtube.com/watch?v=baG767jr8c8	https://www.bingingwithbabish.com/recipes/2017/6/27/chickenpaprikash	https://img.youtube.com/vi/baG767jr8c8/mqdefault.jpg	2018-04-24	1
@@ -394,6 +396,7 @@ deepdishpizza	Deep Dish Pizza inspired by The Daily Show	https://www.youtube.com
 dessertdogs	Dessert Dogs inspired by The Simpsons	https://www.youtube.com/watch?v=chil75Ip-3w	https://www.bingingwithbabish.com/recipes/dessertdogs	https://img.youtube.com/vi/chil75Ip-3w/mqdefault.jpg	2020-01-15	1
 dessertpasta	Breakfast Dessert Pasta from Elf	https://www.youtube.com/watch?v=PsuoXi2D6tM	https://www.bingingwithbabish.com/recipes/2017/8/22/dessertpasta	https://img.youtube.com/vi/PsuoXi2D6tM/mqdefault.jpg	2016-12-20	1
 dexter-key-lime-pie	Perfect Key Lime Pie inspired by Dexter	https://www.youtube.com/watch?v=UOztOU4T-_c	https://www.bingingwithbabish.com/recipes/dexter-key-lime-pie	https://img.youtube.com/vi/UOztOU4T-_c/mqdefault.jpg	2020-07-29	1
+dinner-wandavision	Dinner from WandaVision	https://www.youtube.com/watch?v=4e7iksx-Zig	https://www.bingingwithbabish.com/recipes/dinner-wandavision	https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg	2021-03-09	1
 direwolfbread	Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)	https://www.youtube.com/watch?v=6nuEgc2RVWo	https://www.bingingwithbabish.com/recipes/direwolfbread	https://img.youtube.com/vi/6nuEgc2RVWo/mqdefault.jpg	2018-09-25	1
 donuts	DONUTS	https://www.youtube.com/watch?v=9PWomdbZi2U	https://basicswithbabish.co/basicsepisodes/donuts	https://img.youtube.com/vi/9PWomdbZi2U/mqdefault.jpg	2018-11-01	2
 dutchbaby	Dutch Baby inspired by Bob's Burgers	https://www.youtube.com/watch?v=RwlYqnO9DSE	https://www.bingingwithbabish.com/recipes/dutchbaby	https://img.youtube.com/vi/RwlYqnO9DSE/mqdefault.jpg	2019-01-03	1
@@ -575,6 +578,7 @@ steak-au-poivre	Steak au Poivre inspired by Archer	https://www.youtube.com/watch
 steak-eggs-gravy-twister	Steak, Eggs and Gravy inspired by Twister	https://www.youtube.com/watch?v=ztl0gGVFoK0	https://www.bingingwithbabish.com/recipes/steak-eggs-gravy-twister	https://img.youtube.com/vi/ztl0gGVFoK0/mqdefault.jpg	2020-12-08	1
 sticky-buns	STICKY BUNS	https://www.youtube.com/watch?v=PAnreKf_9BE	https://basicswithbabish.co/basicsepisodes/sticky-buns	https://img.youtube.com/vi/PAnreKf_9BE/mqdefault.jpg	2020-12-04	2
 stollen	STOLLEN (GERMAN HOLIDAY BREAD)	https://www.youtube.com/watch?v=25Od-bcv6vM	https://basicswithbabish.co/basicsepisodes/stollen	https://img.youtube.com/vi/25Od-bcv6vM/mqdefault.jpg	2020-12-18	2
+sugar-chicken-rick-and-morty	Sugar Chicken inspired by Rick & Morty	https://www.youtube.com/watch?v=8iCWUvHMPxQ	https://www.bingingwithbabish.com/recipes/sugar-chicken-rick-and-morty	https://img.youtube.com/vi/8iCWUvHMPxQ/mqdefault.jpg	2021-02-23	1
 sumbitches	Sumbitches and Peanut Butter Cookies inspired by How I Met Your Mother	https://www.youtube.com/watch?v=i9MMCCd-MSI	https://www.bingingwithbabish.com/recipes/sumbitches	https://img.youtube.com/vi/i9MMCCd-MSI/mqdefault.jpg	2019-09-04	1
 sundae-spongebob	Bad Breath Sundae inspired by SpongeBob Squarepants	https://www.youtube.com/watch?v=Ya2_Khcdwsk	https://www.bingingwithbabish.com/recipes/sundae-spongebob	https://img.youtube.com/vi/Ya2_Khcdwsk/mqdefault.jpg	2020-07-21	1
 sweetrolls-skyrim	Sweetrolls inspired by Skyrim	https://www.youtube.com/watch?v=98R3fgPKmYs	https://www.bingingwithbabish.com/recipes/sweetrolls-skyrim	https://img.youtube.com/vi/98R3fgPKmYs/mqdefault.jpg	2020-06-18	1
@@ -690,6 +694,7 @@ charliebrownthanksgiving	528
 chateaubriandsteak	61
 cheesesteak	108
 cheesyblasters	50
+chicken-kiev-mad-men	68
 chickenpaprikash	60
 chickenpaprikash	205
 chickenpaprikash	526
@@ -729,6 +734,7 @@ deepdishpizza	135
 dessertdogs	15
 dessertpasta	105
 dexter-key-lime-pie	311
+dinner-wandavision	539
 direwolfbread	40
 direwolfbread	225
 dutchbaby	14
@@ -876,6 +882,7 @@ spinachpuffs	46
 squidinkpasta	5
 steak-au-poivre	23
 steak-eggs-gravy-twister	328
+sugar-chicken-rick-and-morty	302
 sumbitches	124
 sumbitches	269
 sundae-spongebob	310
@@ -1921,6 +1928,27 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 908	Caramelized Onion	\N	2 Vidalia onions, thinly sliced\n1 Tbsp olive oil\nAs needed water		advanced-grilled-cheese
 909	Bechamel Sauce	\N	2 Tbsp unsalted butter\n2 Tbsp all-purpose flour\n½ Cup whole milk		advanced-grilled-cheese
 910	French Grilled Cheese	\N	7 oz comte cheese, chopped\n2 oz brie cheese, rind removed\n2 Tbsp dry white wine or sherry\n2 Tbsp caramelized onions\n4 Tbsp fig jam\n3 Tbsp unsalted butter, very soft\n8 slices brioche bread\nBechamel sauce		advanced-grilled-cheese
+911	Basic Tempura Chicken	\N	¾ Cup cornstarch\n1 ½ Cup all-purpose flour\n1 egg\n1 Cup + 2 Tbsp water\n¼ Cup vodka\n2 tsp salt\n1 ½ lb boneless and skinless chicken thighs, cut into bite-size pieces\n72 oz peanut oil		sugar-chicken-rick-and-morty
+912	Basic Orange Sauce	\N	1 Tbsp vegetable oil\n2 cloves garlic, minced\n1 Tbsp. ginger, grated\n¼ tsp red pepper flakes\n¼ Cup white sugar\n¼ Cup brown sugar, packed\n¼ Cup store-bought orange juice\n¼ Cup white vinegar\n2 Tbsp soy sauce\n1.5 tsp sesame oil\n2 Tbsp cornstarch\n2 Tbsp water\n1 tsp sesame oil\nFried chicken\nWhite rice		sugar-chicken-rick-and-morty
+913	Oleo Saccharum	\N	6 oranges\n1 cup sugar		sugar-chicken-rick-and-morty
+914	Improved Orange Sauce	\N	1 tsp ginger\n2 garlic cloves, minced\n⅓ Cup oleo saccharum liquid\n2 Tbsp brown sugar, packed\n½ tsp MSG\n¼ Cup rice wine vinegar\n1 Tbsp Chinese cooking wine\n¼ Cup soy sauce\n2 Tbsp Shaoxing wine\n1 Tbsp reserved orange peel, finely sliced\n¼ Cup freshly squeezed orange juice\n1 small bird’s eye chili, seeds removed + finely sliced		sugar-chicken-rick-and-morty
+915	Improved Sugar Chicken	\N	1.5 lb chicken breasts, cut into bite-size pieces\n2 eggs\n1 Tbsp rice wine vinegar\n1 Tbsp Shaoxing wine\n72 oz peanut oil\n1 Cup rice flour\n2 tsp kosher salt\n½ tsp baking powder\n¼ tsp MSG\n½ tsp white pepper\n2 Tbsp cornstarch\n2 Tbsp water\nReserved orange sauce\n1 tsp sesame oil\nTo garnish: green onions, thinly sliced\nWhite rice		sugar-chicken-rick-and-morty
+916	Compound Butter	\N	*6 oz unsalted butter, soft\n2 Tbsp fresh dill, finely chopped\n2 tsp fresh tarragon, finely chopped\n1 Tbsp fresh parsley, finely chopped\n3 garlic cloves, peeled + grated\n1 tsp kosher salt\n1 tsp freshly ground black pepper		chicken-kiev-mad-men
+917	Chicken Kiev	\N	2 chicken breasts, trimmed of excess fat\n2 tsp kosher salt, divided\n2 tsp freshly ground black pepper, divided\n6 oz compound butter, chilled\n8 oz all-purpose flour\n3 oz cornstarch\n4 eggs, beaten\n12 oz cups breadcrumbs, divided\n72 oz peanut oil		chicken-kiev-mad-men
+918	Puff Pastry Dough	\N	24 oz all-purpose flour, divided + more for dusting\n½ oz kosher salt\n4 oz unsalted butter, soft\n10 oz water, cold\n1 lb unsalted butter, cubed + cold		dinner-wandavision
+919	Lobster Tail Thermidor	\N	4 lobster tails\n4 Tbsp unsalted butter\n½ shallot, finely chopped\n4 Tbsp all purpose flour\n1 Cup milk, room temperature\n2 Tbsp dry sherry\n½ Cup heavy cream\n1 egg yolk\n½ tsp mustard powder\n1 ½ tsp kosher salt\n½ tsp freshly ground black pepper\n⅓ Cup gruyere, grated\nto garnish: lemon wedges + paprika		dinner-wandavision
+920	Minced Meat Filling	\N	1 Tbsp olive oil + more as needed\n1 ½ lb chuck roast, trimmed and minced\n1 small onion, small diced\n1 celery rib, small diced\n3 small carrots, washed + small diced\n1 Tbsp tomato paste\n1 garlic cloves, minced\n½ Cup beef stock, preferably homemade\n2 tsp worcheshire sauce\n¼ tsp dried oregano\n½ tsp dried thyme\n⅛ tsp cayenne\nTo taste kosher salt\nTo taste freshly ground black pepper		dinner-wandavision
+921	Minced Meat Turnover	\N	Puff dough\nMinced meat filling\n1 egg\n⅛ tsp kosher salt		dinner-wandavision
+922	Vol-au-Vent	\N	1 egg\n⅛ tsp salt\nPuff dough		dinner-wandavision
+923	Chicken a la King	\N	as needed olive oil\n2 chicken breasts, cubed\n4 Tbsp unsalted butter, divided\n8 oz mushrooms, sliced\n1 small onion, diced\n1 celery rib, diced\n4 Tbsp all-purpose flour\n¼ Cup white wine\n2 Cups chicken stock\n¼ Cup heavy cream\n½ Cup frozen peas\n⅓ Cup pimentos (cherry peppers), drained and chopped\nto taste kosher salt\nto taste freshly ground black pepper		dinner-wandavision
+924	Twiced-Baked New Potatoes	\N	1 lb baby potatoes\n1 Tbsp olive oil\nas needed kosher salt\nas needed freshly ground black pepper\n3 sprigs fresh thyme		dinner-wandavision
+925	Mint Jellies	\N	½ oz gelatin\n12 oz water, divided\n4 oz white vinegar\n2 Tbsp sugar\n1 bunch mint\n1-2 drops green food coloring		dinner-wandavision
+926	Steak Diane	\N	4 (4 oz) filet mignons\nas needed kosher salt\nas needed freshly ground black pepper\n½ Cup reduced or concentrated beef broth, preferably homemade\n1 Tbsp olive oil\n2 Tbsp butter, cold\n1 shallot, finely chopped\n1 garlic cloves, finely chopped\n¼ Cup cognac\n2 tsp dijon mustard\n2 tsp worcestershire sauce\n2-3 dashes hot sauce of choice (tabasco)\n½ Cup heavy cream\nto taste kosher salt\nto taste freshly ground black pepper\nto garnish: 1 Tbsp parsley, chopped		dinner-wandavision
+927	Simple Biscuit	\N	2 Cups all-purpose flour\n½ tsp baking soda\n1 Tbsp baking powder\n½ tsp kosher salt\n1½ Cups heavy cream\n2 Tbsp unsalted butter, melted\nAs needed finishing salt		biscuits-and-gravy
+928	Sausage Gravy	\N	6 breakfast sausages, casings removed\n1 Tbsp unsalted butter + more if needed\n2 Tbsp all-purpose flour\n1 Cup whole milk\nTo taste kosher salt\nTo taste freshly ground black pepper		biscuits-and-gravy
+929	Homemade Breakfast Sausage	\N	3 lbs (fatty) pork butt\n1 lb thick cut bacon\n1½ tsp (per lb of meat mixture) fresh sage, chopped\n1 tsp (Per lb of meat mixture) fresh rosemary, chopped\n1 tsp (Per lb of meat mixture) fresh thyme, chopped\n¼ tsp (Per lb of meat mixture) red pepper flakes (optional)\n⅛ tsp (Per lb of meat mixture) freshly ground nutmeg\n¼ tsp (Per lb of meat mixture) garlic powder\n¼ tsp (Per lb of meat mixture) ground fennel\n1 tsp (Per lb of meat mixture) light brown sugar\n1 tsp (Per lb of meat mixture) kosher salt\n¾ tsp (Per lb of meat mixture) freshly ground black pepper		biscuits-and-gravy
+930	Old Fashioned Biscuit	\N	15 oz all-purpose flour\n2 Tbsp white sugar\n4 tsp baking powder\n½ tsp baking soda\n1½ tsp kosher salt\n8 oz (2 sticks) unsalted butter, frozen\n1¼ Cups buttermilk, cold\n2 Tbsp unsalted butter, melted\nAs needed finishing salt		biscuits-and-gravy
+931	Improved Gravy	\N	1 lb Sausage mixture\n1 Tbsp fresh sage, chopped (optional)\n2 Tbsp all-purpose flour\n1 Cup whole milk\nTo taste kosher salt\nTo taste freshly ground black Pepper\n⅛ tsp freshly grated nutmeg\nBiscuits		biscuits-and-gravy
 \.
 
 
@@ -2145,6 +2173,7 @@ COPY public.reference (id, type, name, description, external_link, image_link) F
 536	\N	Back to School	\N	\N	\N
 537	\N	Groundhog Day	\N	\N	\N
 538	\N	The Jerk	\N	\N	\N
+539	\N	WandaVision	\N	\N	\N
 \.
 
 
@@ -2171,14 +2200,14 @@ SELECT pg_catalog.setval('public.guest_id_seq', 33, true);
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 910, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 931, true);
 
 
 --
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 538, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 539, true);
 
 
 --
