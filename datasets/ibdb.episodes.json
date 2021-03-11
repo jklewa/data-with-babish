@@ -1,5 +1,1475 @@
 [
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/dinner-wandavision",
+    "episode_id": "dinner-wandavision",
+    "name": "Dinner from WandaVision",
+    "published_date": "2021-03-09",
+    "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
+    "official_link": "https://www.bingingwithbabish.com/recipes/dinner-wandavision",
+    "image_link": "https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/539",
+          "reference_id": 539,
+          "type": null,
+          "name": "WandaVision",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/923",
+          "recipe_id": 923,
+          "name": "Chicken a la King",
+          "image_link": null,
+          "raw_ingredient_list": "as needed olive oil\n2 chicken breasts, cubed\n4 Tbsp unsalted butter, divided\n8 oz mushrooms, sliced\n1 small onion, diced\n1 celery rib, diced\n4 Tbsp all-purpose flour\n\u00bc Cup white wine\n2 Cups chicken stock\n\u00bc Cup heavy cream\n\u00bd Cup frozen peas\n\u2153 Cup pimentos (cherry peppers), drained and chopped\nto taste kosher salt\nto taste freshly ground black pepper",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              null,
+              null,
+              "As Needed Olive Oil",
+              "as needed olive oil"
+            ],
+            [
+              2.0,
+              null,
+              "Chicken Breasts",
+              "2 chicken breasts, cubed"
+            ],
+            [
+              4.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "4 Tbsp unsalted butter, divided"
+            ],
+            [
+              8.0,
+              "ounce",
+              "Mushrooms",
+              "8 oz mushrooms, sliced"
+            ],
+            [
+              1.0,
+              "small",
+              "Onion",
+              "1 small onion, diced"
+            ],
+            [
+              1.0,
+              null,
+              "Celery Rib",
+              "1 celery rib, diced"
+            ],
+            [
+              4.0,
+              "tablespoon",
+              "All-purpose Flour",
+              "4 Tbsp all-purpose flour"
+            ],
+            [
+              0.25,
+              null,
+              "Cup White Wine",
+              "\u00bc Cup white wine"
+            ],
+            [
+              2.0,
+              null,
+              "Cups Chicken Stock",
+              "2 Cups chicken stock"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Heavy Cream",
+              "\u00bc Cup heavy cream"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Frozen Peas",
+              "\u00bd Cup frozen peas"
+            ],
+            [
+              0.3333333333333333,
+              null,
+              "Cup Pimentos",
+              "\u2153 Cup pimentos (cherry peppers), drained and chopped"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "to taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "to taste freshly ground black pepper"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/919",
+          "recipe_id": 919,
+          "name": "Lobster Tail Thermidor",
+          "image_link": null,
+          "raw_ingredient_list": "4 lobster tails\n4 Tbsp unsalted butter\n\u00bd shallot, finely chopped\n4 Tbsp all purpose flour\n1 Cup milk, room temperature\n2 Tbsp dry sherry\n\u00bd Cup heavy cream\n1 egg yolk\n\u00bd tsp mustard powder\n1 \u00bd tsp kosher salt\n\u00bd tsp freshly ground black pepper\n\u2153 Cup gruyere, grated\nto garnish: lemon wedges + paprika",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              4.0,
+              null,
+              "Lobster Tails",
+              "4 lobster tails"
+            ],
+            [
+              4.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "4 Tbsp unsalted butter"
+            ],
+            [
+              0.5,
+              null,
+              "Shallot",
+              "\u00bd shallot, finely chopped"
+            ],
+            [
+              4.0,
+              "tablespoon",
+              "All Purpose Flour",
+              "4 Tbsp all purpose flour"
+            ],
+            [
+              1.0,
+              null,
+              "Cup Milk",
+              "1 Cup milk, room temperature"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Dry Sherry",
+              "2 Tbsp dry sherry"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Heavy Cream",
+              "\u00bd Cup heavy cream"
+            ],
+            [
+              1.0,
+              null,
+              "Egg Yolk",
+              "1 egg yolk"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Mustard Powder",
+              "\u00bd tsp mustard powder"
+            ],
+            [
+              1.5,
+              "teaspoon",
+              "Kosher Salt",
+              "1 \u00bd tsp kosher salt"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Freshly Ground Black Pepper",
+              "\u00bd tsp freshly ground black pepper"
+            ],
+            [
+              0.3333333333333333,
+              null,
+              "Cup Gruyere",
+              "\u2153 Cup gruyere, grated"
+            ],
+            [
+              null,
+              null,
+              "To Garnish: Lemon Wedges + Paprika",
+              "to garnish: lemon wedges + paprika"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/920",
+          "recipe_id": 920,
+          "name": "Minced Meat Filling",
+          "image_link": null,
+          "raw_ingredient_list": "1 Tbsp olive oil + more as needed\n1 \u00bd lb chuck roast, trimmed and minced\n1 small onion, small diced\n1 celery rib, small diced\n3 small carrots, washed + small diced\n1 Tbsp tomato paste\n1 garlic cloves, minced\n\u00bd Cup beef stock, preferably homemade\n2 tsp worcheshire sauce\n\u00bc tsp dried oregano\n\u00bd tsp dried thyme\n\u215b tsp cayenne\nTo taste kosher salt\nTo taste freshly ground black pepper",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              "tablespoon",
+              "Olive Oil + More As Needed",
+              "1 Tbsp olive oil + more as needed"
+            ],
+            [
+              1.5,
+              "lb",
+              "Chuck Roast",
+              "1 \u00bd lb chuck roast, trimmed and minced"
+            ],
+            [
+              1.0,
+              "small",
+              "Onion",
+              "1 small onion, small diced"
+            ],
+            [
+              1.0,
+              null,
+              "Celery Rib",
+              "1 celery rib, small diced"
+            ],
+            [
+              3.0,
+              "small",
+              "Carrots",
+              "3 small carrots, washed + small diced"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Tomato Paste",
+              "1 Tbsp tomato paste"
+            ],
+            [
+              1.0,
+              null,
+              "Garlic Cloves",
+              "1 garlic cloves, minced"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Beef Stock",
+              "\u00bd Cup beef stock, preferably homemade"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Worcheshire Sauce",
+              "2 tsp worcheshire sauce"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Dried Oregano",
+              "\u00bc tsp dried oregano"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Dried Thyme",
+              "\u00bd tsp dried thyme"
+            ],
+            [
+              0.125,
+              "teaspoon",
+              "Cayenne",
+              "\u215b tsp cayenne"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/921",
+          "recipe_id": 921,
+          "name": "Minced Meat Turnover",
+          "image_link": null,
+          "raw_ingredient_list": "Puff dough\nMinced meat filling\n1 egg\n\u215b tsp kosher salt",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              null,
+              null,
+              "Puff Dough",
+              "Puff dough"
+            ],
+            [
+              null,
+              null,
+              "Minced Meat Filling",
+              "Minced meat filling"
+            ],
+            [
+              1.0,
+              null,
+              "Egg",
+              "1 egg"
+            ],
+            [
+              0.125,
+              "teaspoon",
+              "Kosher Salt",
+              "\u215b tsp kosher salt"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/925",
+          "recipe_id": 925,
+          "name": "Mint Jellies",
+          "image_link": null,
+          "raw_ingredient_list": "\u00bd oz gelatin\n12 oz water, divided\n4 oz white vinegar\n2 Tbsp sugar\n1 bunch mint\n1-2 drops green food coloring",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              0.5,
+              "ounce",
+              "Gelatin",
+              "\u00bd oz gelatin"
+            ],
+            [
+              12.0,
+              "ounce",
+              "Water",
+              "12 oz water, divided"
+            ],
+            [
+              4.0,
+              "ounce",
+              "White Vinegar",
+              "4 oz white vinegar"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Sugar",
+              "2 Tbsp sugar"
+            ],
+            [
+              1.0,
+              null,
+              "Bunch Mint",
+              "1 bunch mint"
+            ],
+            [
+              "1-2",
+              null,
+              "Drops Green Food Coloring",
+              "1-2 drops green food coloring"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/918",
+          "recipe_id": 918,
+          "name": "Puff Pastry Dough",
+          "image_link": null,
+          "raw_ingredient_list": "24 oz all-purpose flour, divided + more for dusting\n\u00bd oz kosher salt\n4 oz unsalted butter, soft\n10 oz water, cold\n1 lb unsalted butter, cubed + cold",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              24.0,
+              "ounce",
+              "All-purpose Flour",
+              "24 oz all-purpose flour, divided + more for dusting"
+            ],
+            [
+              0.5,
+              "ounce",
+              "Kosher Salt",
+              "\u00bd oz kosher salt"
+            ],
+            [
+              4.0,
+              "ounce",
+              "Unsalted Butter",
+              "4 oz unsalted butter, soft"
+            ],
+            [
+              10.0,
+              "ounce",
+              "Water",
+              "10 oz water, cold"
+            ],
+            [
+              1.0,
+              "lb",
+              "Unsalted Butter",
+              "1 lb unsalted butter, cubed + cold"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/926",
+          "recipe_id": 926,
+          "name": "Steak Diane",
+          "image_link": null,
+          "raw_ingredient_list": "4 (4 oz) filet mignons\nas needed kosher salt\nas needed freshly ground black pepper\n\u00bd Cup reduced or concentrated beef broth, preferably homemade\n1 Tbsp olive oil\n2 Tbsp butter, cold\n1 shallot, finely chopped\n1 garlic cloves, finely chopped\n\u00bc Cup cognac\n2 tsp dijon mustard\n2 tsp worcestershire sauce\n2-3 dashes hot sauce of choice (tabasco)\n\u00bd Cup heavy cream\nto taste kosher salt\nto taste freshly ground black pepper\nto garnish: 1 Tbsp parsley, chopped",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              4.0,
+              null,
+              "Filet Mignons",
+              "4 (4 oz) filet mignons"
+            ],
+            [
+              null,
+              null,
+              "As Needed Kosher Salt",
+              "as needed kosher salt"
+            ],
+            [
+              null,
+              null,
+              "As Needed Freshly Ground Black Pepper",
+              "as needed freshly ground black pepper"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Reduced Or Concentrated Beef Broth",
+              "\u00bd Cup reduced or concentrated beef broth, preferably homemade"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Olive Oil",
+              "1 Tbsp olive oil"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Butter",
+              "2 Tbsp butter, cold"
+            ],
+            [
+              1.0,
+              null,
+              "Shallot",
+              "1 shallot, finely chopped"
+            ],
+            [
+              1.0,
+              null,
+              "Garlic Cloves",
+              "1 garlic cloves, finely chopped"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Cognac",
+              "\u00bc Cup cognac"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Dijon Mustard",
+              "2 tsp dijon mustard"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Worcestershire Sauce",
+              "2 tsp worcestershire sauce"
+            ],
+            [
+              "2-3",
+              null,
+              "Choice",
+              "2-3 dashes hot sauce of choice (tabasco)"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Heavy Cream",
+              "\u00bd Cup heavy cream"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "to taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "to taste freshly ground black pepper"
+            ],
+            [
+              null,
+              null,
+              "To Garnish: 1 Tbsp Parsley",
+              "to garnish: 1 Tbsp parsley, chopped"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/924",
+          "recipe_id": 924,
+          "name": "Twiced-Baked New Potatoes",
+          "image_link": null,
+          "raw_ingredient_list": "1 lb baby potatoes\n1 Tbsp olive oil\nas needed kosher salt\nas needed freshly ground black pepper\n3 sprigs fresh thyme",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              "lb",
+              "Baby Potatoes",
+              "1 lb baby potatoes"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Olive Oil",
+              "1 Tbsp olive oil"
+            ],
+            [
+              null,
+              null,
+              "As Needed Kosher Salt",
+              "as needed kosher salt"
+            ],
+            [
+              null,
+              null,
+              "As Needed Freshly Ground Black Pepper",
+              "as needed freshly ground black pepper"
+            ],
+            [
+              3.0,
+              null,
+              "Sprigs Fresh Thyme",
+              "3 sprigs fresh thyme"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/922",
+          "recipe_id": 922,
+          "name": "Vol-au-Vent",
+          "image_link": null,
+          "raw_ingredient_list": "1 egg\n\u215b tsp salt\nPuff dough",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "Egg",
+              "1 egg"
+            ],
+            [
+              0.125,
+              "teaspoon",
+              "Salt",
+              "\u215b tsp salt"
+            ],
+            [
+              null,
+              null,
+              "Puff Dough",
+              "Puff dough"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/chicken-kiev-mad-men",
+    "episode_id": "chicken-kiev-mad-men",
+    "name": "Chicken Kiev inspired by Mad Men",
+    "published_date": "2021-03-02",
+    "youtube_link": "https://www.youtube.com/watch?v=kf8XzD-xVGc",
+    "official_link": "https://www.bingingwithbabish.com/recipes/chicken-kiev-mad-men",
+    "image_link": "https://img.youtube.com/vi/kf8XzD-xVGc/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/68",
+          "reference_id": 68,
+          "type": "tv_show",
+          "name": "Mad Men",
+          "description": "A drama about one of New York's most prestigious ad agencies at the beginning of the 1960s, focusing on one of the firm's most mysterious but extremely talented ad executives, Donald Draper. IMDb.",
+          "external_link": "https://www.imdb.com/title/tt0804503/",
+          "image_link": "https://i.ytimg.com/sh/JtH-rbXuIWCffTt5FKWMhA/market.jpg"
+        }
+      ],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/917",
+          "recipe_id": 917,
+          "name": "Chicken Kiev",
+          "image_link": null,
+          "raw_ingredient_list": "2 chicken breasts, trimmed of excess fat\n2 tsp kosher salt, divided\n2 tsp freshly ground black pepper, divided\n6 oz compound butter, chilled\n8 oz all-purpose flour\n3 oz cornstarch\n4 eggs, beaten\n12 oz cups breadcrumbs, divided\n72 oz peanut oil",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              null,
+              "Excess Fat",
+              "2 chicken breasts, trimmed of excess fat"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Kosher Salt",
+              "2 tsp kosher salt, divided"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Freshly Ground Black Pepper",
+              "2 tsp freshly ground black pepper, divided"
+            ],
+            [
+              6.0,
+              "ounce",
+              "Compound Butter",
+              "6 oz compound butter, chilled"
+            ],
+            [
+              8.0,
+              "ounce",
+              "All-purpose Flour",
+              "8 oz all-purpose flour"
+            ],
+            [
+              3.0,
+              "ounce",
+              "Cornstarch",
+              "3 oz cornstarch"
+            ],
+            [
+              4.0,
+              null,
+              "Eggs",
+              "4 eggs, beaten"
+            ],
+            [
+              12.0,
+              "ounce",
+              "Cups Breadcrumbs",
+              "12 oz cups breadcrumbs, divided"
+            ],
+            [
+              72.0,
+              "ounce",
+              "Peanut Oil",
+              "72 oz peanut oil"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/916",
+          "recipe_id": 916,
+          "name": "Compound Butter",
+          "image_link": null,
+          "raw_ingredient_list": "*6 oz unsalted butter, soft\n2 Tbsp fresh dill, finely chopped\n2 tsp fresh tarragon, finely chopped\n1 Tbsp fresh parsley, finely chopped\n3 garlic cloves, peeled + grated\n1 tsp kosher salt\n1 tsp freshly ground black pepper",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              null,
+              null,
+              "*6 Oz Unsalted Butter",
+              "*6 oz unsalted butter, soft"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Fresh Dill",
+              "2 Tbsp fresh dill, finely chopped"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Fresh Tarragon",
+              "2 tsp fresh tarragon, finely chopped"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Fresh Parsley",
+              "1 Tbsp fresh parsley, finely chopped"
+            ],
+            [
+              3.0,
+              null,
+              "Garlic Cloves",
+              "3 garlic cloves, peeled + grated"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt",
+              "1 tsp kosher salt"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Freshly Ground Black Pepper",
+              "1 tsp freshly ground black pepper"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/biscuits-and-gravy",
+    "episode_id": "biscuits-and-gravy",
+    "name": "BISCUITS AND GRAVY",
+    "published_date": "2021-02-25",
+    "youtube_link": "https://www.youtube.com/watch?v=NMbMT9tY8-Q",
+    "official_link": "https://basicswithbabish.co/basicsepisodes/biscuits-and-gravy",
+    "image_link": "https://img.youtube.com/vi/NMbMT9tY8-Q/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/2",
+        "show_id": 2,
+        "name": "Basics with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/929",
+          "recipe_id": 929,
+          "name": "Homemade Breakfast Sausage",
+          "image_link": null,
+          "raw_ingredient_list": "3 lbs (fatty) pork butt\n1 lb thick cut bacon\n1\u00bd tsp (per lb of meat mixture) fresh sage, chopped\n1 tsp (Per lb of meat mixture) fresh rosemary, chopped\n1 tsp (Per lb of meat mixture) fresh thyme, chopped\n\u00bc tsp (Per lb of meat mixture) red pepper flakes (optional)\n\u215b tsp (Per lb of meat mixture) freshly ground nutmeg\n\u00bc tsp (Per lb of meat mixture) garlic powder\n\u00bc tsp (Per lb of meat mixture) ground fennel\n1 tsp (Per lb of meat mixture) light brown sugar\n1 tsp (Per lb of meat mixture) kosher salt\n\u00be tsp (Per lb of meat mixture) freshly ground black pepper",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              3.0,
+              "lb",
+              "Pork Butt",
+              "3 lbs (fatty) pork butt"
+            ],
+            [
+              1.0,
+              "lb",
+              "Thick Cut Bacon",
+              "1 lb thick cut bacon"
+            ],
+            [
+              1.5,
+              "teaspoon",
+              "Fresh Sage",
+              "1\u00bd tsp (per lb of meat mixture) fresh sage, chopped"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Fresh Rosemary",
+              "1 tsp (Per lb of meat mixture) fresh rosemary, chopped"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Fresh Thyme",
+              "1 tsp (Per lb of meat mixture) fresh thyme, chopped"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Red Pepper Flakes",
+              "\u00bc tsp (Per lb of meat mixture) red pepper flakes (optional)"
+            ],
+            [
+              0.125,
+              "teaspoon",
+              "Freshly Ground Nutmeg",
+              "\u215b tsp (Per lb of meat mixture) freshly ground nutmeg"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Garlic Powder",
+              "\u00bc tsp (Per lb of meat mixture) garlic powder"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Ground Fennel",
+              "\u00bc tsp (Per lb of meat mixture) ground fennel"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Light Brown Sugar",
+              "1 tsp (Per lb of meat mixture) light brown sugar"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt",
+              "1 tsp (Per lb of meat mixture) kosher salt"
+            ],
+            [
+              0.75,
+              "teaspoon",
+              "Freshly Ground Black Pepper",
+              "\u00be tsp (Per lb of meat mixture) freshly ground black pepper"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/931",
+          "recipe_id": 931,
+          "name": "Improved Gravy",
+          "image_link": null,
+          "raw_ingredient_list": "1 lb Sausage mixture\n1 Tbsp fresh sage, chopped (optional)\n2 Tbsp all-purpose flour\n1 Cup whole milk\nTo taste kosher salt\nTo taste freshly ground black Pepper\n\u215b tsp freshly grated nutmeg\nBiscuits",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              "lb",
+              "Sausage Mixture",
+              "1 lb Sausage mixture"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Fresh Sage",
+              "1 Tbsp fresh sage, chopped (optional)"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "All-purpose Flour",
+              "2 Tbsp all-purpose flour"
+            ],
+            [
+              1.0,
+              null,
+              "Cup Milk",
+              "1 Cup whole milk"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black Pepper"
+            ],
+            [
+              0.125,
+              "teaspoon",
+              "Freshly Grated Nutmeg",
+              "\u215b tsp freshly grated nutmeg"
+            ],
+            [
+              null,
+              null,
+              "Biscuits",
+              "Biscuits"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/930",
+          "recipe_id": 930,
+          "name": "Old Fashioned Biscuit",
+          "image_link": null,
+          "raw_ingredient_list": "15 oz all-purpose flour\n2 Tbsp white sugar\n4 tsp baking powder\n\u00bd tsp baking soda\n1\u00bd tsp kosher salt\n8 oz (2 sticks) unsalted butter, frozen\n1\u00bc Cups buttermilk, cold\n2 Tbsp unsalted butter, melted\nAs needed finishing salt",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              15.0,
+              "ounce",
+              "All-purpose Flour",
+              "15 oz all-purpose flour"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "White Sugar",
+              "2 Tbsp white sugar"
+            ],
+            [
+              4.0,
+              "teaspoon",
+              "Baking Powder",
+              "4 tsp baking powder"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Baking Soda",
+              "\u00bd tsp baking soda"
+            ],
+            [
+              1.5,
+              "teaspoon",
+              "Kosher Salt",
+              "1\u00bd tsp kosher salt"
+            ],
+            [
+              8.0,
+              "ounce",
+              "Unsalted Butter",
+              "8 oz (2 sticks) unsalted butter, frozen"
+            ],
+            [
+              1.25,
+              null,
+              "Cups Buttermilk",
+              "1\u00bc Cups buttermilk, cold"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "2 Tbsp unsalted butter, melted"
+            ],
+            [
+              null,
+              null,
+              "As Needed Finishing Salt",
+              "As needed finishing salt"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/928",
+          "recipe_id": 928,
+          "name": "Sausage Gravy",
+          "image_link": null,
+          "raw_ingredient_list": "6 breakfast sausages, casings removed\n1 Tbsp unsalted butter + more if needed\n2 Tbsp all-purpose flour\n1 Cup whole milk\nTo taste kosher salt\nTo taste freshly ground black pepper",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              6.0,
+              null,
+              "Breakfast Sausages",
+              "6 breakfast sausages, casings removed"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Unsalted Butter + More If Needed",
+              "1 Tbsp unsalted butter + more if needed"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "All-purpose Flour",
+              "2 Tbsp all-purpose flour"
+            ],
+            [
+              1.0,
+              null,
+              "Cup Milk",
+              "1 Cup whole milk"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/927",
+          "recipe_id": 927,
+          "name": "Simple Biscuit",
+          "image_link": null,
+          "raw_ingredient_list": "2 Cups all-purpose flour\n\u00bd tsp baking soda\n1 Tbsp baking powder\n\u00bd tsp kosher salt\n1\u00bd Cups heavy cream\n2 Tbsp unsalted butter, melted\nAs needed finishing salt",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              null,
+              "Cups All-purpose Flour",
+              "2 Cups all-purpose flour"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Baking Soda",
+              "\u00bd tsp baking soda"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Baking Powder",
+              "1 Tbsp baking powder"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Kosher Salt",
+              "\u00bd tsp kosher salt"
+            ],
+            [
+              1.5,
+              null,
+              "Cups Heavy Cream",
+              "1\u00bd Cups heavy cream"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "2 Tbsp unsalted butter, melted"
+            ],
+            [
+              null,
+              null,
+              "As Needed Finishing Salt",
+              "As needed finishing salt"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/sugar-chicken-rick-and-morty",
+    "episode_id": "sugar-chicken-rick-and-morty",
+    "name": "Sugar Chicken inspired by Rick & Morty",
+    "published_date": "2021-02-23",
+    "youtube_link": "https://www.youtube.com/watch?v=8iCWUvHMPxQ",
+    "official_link": "https://www.bingingwithbabish.com/recipes/sugar-chicken-rick-and-morty",
+    "image_link": "https://img.youtube.com/vi/8iCWUvHMPxQ/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/302",
+          "reference_id": 302,
+          "type": null,
+          "name": "Rick & Morty",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/912",
+          "recipe_id": 912,
+          "name": "Basic Orange Sauce",
+          "image_link": null,
+          "raw_ingredient_list": "1 Tbsp vegetable oil\n2 cloves garlic, minced\n1 Tbsp. ginger, grated\n\u00bc tsp red pepper flakes\n\u00bc Cup white sugar\n\u00bc Cup brown sugar, packed\n\u00bc Cup store-bought orange juice\n\u00bc Cup white vinegar\n2 Tbsp soy sauce\n1.5 tsp sesame oil\n2 Tbsp cornstarch\n2 Tbsp water\n1 tsp sesame oil\nFried chicken\nWhite rice",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              "tablespoon",
+              "Vegetable Oil",
+              "1 Tbsp vegetable oil"
+            ],
+            [
+              2.0,
+              null,
+              "Cloves Garlic",
+              "2 cloves garlic, minced"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Ginger",
+              "1 Tbsp. ginger, grated"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Red Pepper Flakes",
+              "\u00bc tsp red pepper flakes"
+            ],
+            [
+              0.25,
+              null,
+              "Cup White Sugar",
+              "\u00bc Cup white sugar"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Brown Sugar",
+              "\u00bc Cup brown sugar, packed"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Store-bought Orange Juice",
+              "\u00bc Cup store-bought orange juice"
+            ],
+            [
+              0.25,
+              null,
+              "Cup White Vinegar",
+              "\u00bc Cup white vinegar"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Soy Sauce",
+              "2 Tbsp soy sauce"
+            ],
+            [
+              1.5,
+              "teaspoon",
+              "Sesame Oil",
+              "1.5 tsp sesame oil"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Cornstarch",
+              "2 Tbsp cornstarch"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Water",
+              "2 Tbsp water"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Sesame Oil",
+              "1 tsp sesame oil"
+            ],
+            [
+              null,
+              null,
+              "Fried Chicken",
+              "Fried chicken"
+            ],
+            [
+              null,
+              null,
+              "White Rice",
+              "White rice"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/911",
+          "recipe_id": 911,
+          "name": "Basic Tempura Chicken",
+          "image_link": null,
+          "raw_ingredient_list": "\u00be Cup cornstarch\n1 \u00bd Cup all-purpose flour\n1 egg\n1 Cup + 2 Tbsp water\n\u00bc Cup vodka\n2 tsp salt\n1 \u00bd lb boneless and skinless chicken thighs, cut into bite-size pieces\n72 oz peanut oil",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              0.75,
+              null,
+              "Cup Cornstarch",
+              "\u00be Cup cornstarch"
+            ],
+            [
+              1.5,
+              null,
+              "Cup All-purpose Flour",
+              "1 \u00bd Cup all-purpose flour"
+            ],
+            [
+              1.0,
+              null,
+              "Egg",
+              "1 egg"
+            ],
+            [
+              1.0,
+              null,
+              "Cup + 2 Tbsp Water",
+              "1 Cup + 2 Tbsp water"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Vodka",
+              "\u00bc Cup vodka"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Salt",
+              "2 tsp salt"
+            ],
+            [
+              1.5,
+              "lb",
+              "Boneless And Skinless Chicken Thighs",
+              "1 \u00bd lb boneless and skinless chicken thighs, cut into bite-size pieces"
+            ],
+            [
+              72.0,
+              "ounce",
+              "Peanut Oil",
+              "72 oz peanut oil"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/914",
+          "recipe_id": 914,
+          "name": "Improved Orange Sauce",
+          "image_link": null,
+          "raw_ingredient_list": "1 tsp ginger\n2 garlic cloves, minced\n\u2153 Cup oleo saccharum liquid\n2 Tbsp brown sugar, packed\n\u00bd tsp MSG\n\u00bc Cup rice wine vinegar\n1 Tbsp Chinese cooking wine\n\u00bc Cup soy sauce\n2 Tbsp Shaoxing wine\n1 Tbsp reserved orange peel, finely sliced\n\u00bc Cup freshly squeezed orange juice\n1 small bird\u2019s eye chili, seeds removed + finely sliced",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              "teaspoon",
+              "Ginger",
+              "1 tsp ginger"
+            ],
+            [
+              2.0,
+              null,
+              "Garlic Cloves",
+              "2 garlic cloves, minced"
+            ],
+            [
+              0.3333333333333333,
+              null,
+              "Cup Oleo Saccharum Liquid",
+              "\u2153 Cup oleo saccharum liquid"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Brown Sugar",
+              "2 Tbsp brown sugar, packed"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Msg",
+              "\u00bd tsp MSG"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Rice Wine Vinegar",
+              "\u00bc Cup rice wine vinegar"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Chinese Cooking Wine",
+              "1 Tbsp Chinese cooking wine"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Soy Sauce",
+              "\u00bc Cup soy sauce"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Shaoxing Wine",
+              "2 Tbsp Shaoxing wine"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Reserved Orange Peel",
+              "1 Tbsp reserved orange peel, finely sliced"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Freshly Squeezed Orange Juice",
+              "\u00bc Cup freshly squeezed orange juice"
+            ],
+            [
+              1.0,
+              "small",
+              "Bird's Eye Chili",
+              "1 small bird\u2019s eye chili, seeds removed + finely sliced"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/915",
+          "recipe_id": 915,
+          "name": "Improved Sugar Chicken",
+          "image_link": null,
+          "raw_ingredient_list": "1.5 lb chicken breasts, cut into bite-size pieces\n2 eggs\n1 Tbsp rice wine vinegar\n1 Tbsp Shaoxing wine\n72 oz peanut oil\n1 Cup rice flour\n2 tsp kosher salt\n\u00bd tsp baking powder\n\u00bc tsp MSG\n\u00bd tsp white pepper\n2 Tbsp cornstarch\n2 Tbsp water\nReserved orange sauce\n1 tsp sesame oil\nTo garnish: green onions, thinly sliced\nWhite rice",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.5,
+              "lb",
+              "Chicken Breasts",
+              "1.5 lb chicken breasts, cut into bite-size pieces"
+            ],
+            [
+              2.0,
+              null,
+              "Eggs",
+              "2 eggs"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Rice Wine Vinegar",
+              "1 Tbsp rice wine vinegar"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Shaoxing Wine",
+              "1 Tbsp Shaoxing wine"
+            ],
+            [
+              72.0,
+              "ounce",
+              "Peanut Oil",
+              "72 oz peanut oil"
+            ],
+            [
+              1.0,
+              null,
+              "Cup Rice Flour",
+              "1 Cup rice flour"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Kosher Salt",
+              "2 tsp kosher salt"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Baking Powder",
+              "\u00bd tsp baking powder"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Msg",
+              "\u00bc tsp MSG"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "White Pepper",
+              "\u00bd tsp white pepper"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Cornstarch",
+              "2 Tbsp cornstarch"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Water",
+              "2 Tbsp water"
+            ],
+            [
+              null,
+              null,
+              "Reserved Orange Sauce",
+              "Reserved orange sauce"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Sesame Oil",
+              "1 tsp sesame oil"
+            ],
+            [
+              null,
+              null,
+              "To Garnish: Green Onions",
+              "To garnish: green onions, thinly sliced"
+            ],
+            [
+              null,
+              null,
+              "White Rice",
+              "White rice"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/913",
+          "recipe_id": 913,
+          "name": "Oleo Saccharum",
+          "image_link": null,
+          "raw_ingredient_list": "6 oranges\n1 cup sugar",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              6.0,
+              null,
+              "Oranges",
+              "6 oranges"
+            ],
+            [
+              1.0,
+              "cup",
+              "Sugar",
+              "1 cup sugar"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/episode/advanced-grilled-cheese",
     "episode_id": "advanced-grilled-cheese",
     "name": "ADVANCED GRILLED CHEESE",
