@@ -1,5 +1,208 @@
 [
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/birria-tacos",
+    "episode_id": "birria-tacos",
+    "name": "BIRRIA TACOS",
+    "published_date": "2021-03-11",
+    "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+    "official_link": "https://basicswithbabish.co/basicsepisodes/birria-tacos",
+    "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/2",
+        "show_id": 2,
+        "name": "Basics with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/932",
+          "recipe_id": 932,
+          "name": "Birria Tacos",
+          "image_link": null,
+          "raw_ingredient_list": "6-8 guajillo chiles, stems and seeds removed\n3-4 Chile de \u00e1rbol, stems and seeds removed\n2 tsp cumin seeds\nAs needed water\n1 head of garlic, cloves peeled\n1 tsp dried Mexican oregano\n\u00bc tsp ground cloves\n\u00bd small onion\n2 chipotle peppers in adobo sauce (or to taste)\n3 \u00bd lb boneless beef chuck, trimmed and cut into 2\u201d cubes\n1 tsp kosher salt\n1 \u00bd - 2 lb oxtails\n1 Tbsp vegetable oil\n1 (14 oz) can whole tomatoes\n1 stick Canela (Mexican cinnamon)\n3 sprigs fresh marjoram\n1 yellow onion, quartered\n5 bay leaves\n1 Tbsp black peppercorns\nTo taste kosher salt\nTo taste freshly ground black pepper\nCorn tortillas (store-bought)\nOaxaca cheese",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              "6-8",
+              null,
+              "Guajillo Chiles",
+              "6-8 guajillo chiles, stems and seeds removed"
+            ],
+            [
+              "3-4",
+              null,
+              "Chile De \u00c1rbol",
+              "3-4 Chile de \u00e1rbol, stems and seeds removed"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Cumin Seeds",
+              "2 tsp cumin seeds"
+            ],
+            [
+              null,
+              null,
+              "As Needed Water",
+              "As needed water"
+            ],
+            [
+              1.0,
+              null,
+              "Garlic",
+              "1 head of garlic, cloves peeled"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Dried Mexican Oregano",
+              "1 tsp dried Mexican oregano"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Ground Cloves",
+              "\u00bc tsp ground cloves"
+            ],
+            [
+              0.5,
+              "small",
+              "Onion",
+              "\u00bd small onion"
+            ],
+            [
+              2.0,
+              null,
+              "Chipotle Peppers In Adobo Sauce",
+              "2 chipotle peppers in adobo sauce (or to taste)"
+            ],
+            [
+              3.5,
+              "lb",
+              "Boneless Beef Chuck",
+              "3 \u00bd lb boneless beef chuck, trimmed and cut into 2\u201d cubes"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt",
+              "1 tsp kosher salt"
+            ],
+            [
+              "1 \u00bd - 2",
+              "lb",
+              "Oxtails",
+              "1 \u00bd - 2 lb oxtails"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Vegetable Oil",
+              "1 Tbsp vegetable oil"
+            ],
+            [
+              1.0,
+              null,
+              "Can Tomatoes",
+              "1 (14 oz) can whole tomatoes"
+            ],
+            [
+              1.0,
+              null,
+              "Stick Canela",
+              "1 stick Canela (Mexican cinnamon)"
+            ],
+            [
+              3.0,
+              null,
+              "Sprigs Fresh Marjoram",
+              "3 sprigs fresh marjoram"
+            ],
+            [
+              1.0,
+              null,
+              "Yellow Onion",
+              "1 yellow onion, quartered"
+            ],
+            [
+              5.0,
+              null,
+              "Bay Leaves",
+              "5 bay leaves"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Black Peppercorns",
+              "1 Tbsp black peppercorns"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ],
+            [
+              null,
+              null,
+              "Corn Tortillas",
+              "Corn tortillas (store-bought)"
+            ],
+            [
+              null,
+              null,
+              "Oaxaca Cheese",
+              "Oaxaca cheese"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/933",
+          "recipe_id": 933,
+          "name": "For Serving",
+          "image_link": null,
+          "raw_ingredient_list": "White onion, diced\nJalapeno peppers, thinly sliced\nLimes, quartered\nCilantro",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              null,
+              null,
+              "White Onion",
+              "White onion, diced"
+            ],
+            [
+              null,
+              null,
+              "Jalapeno Peppers",
+              "Jalapeno peppers, thinly sliced"
+            ],
+            [
+              null,
+              null,
+              "Limes",
+              "Limes, quartered"
+            ],
+            [
+              null,
+              null,
+              "Cilantro",
+              "Cilantro"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/episode/dinner-wandavision",
     "episode_id": "dinner-wandavision",
     "name": "Dinner from WandaVision",

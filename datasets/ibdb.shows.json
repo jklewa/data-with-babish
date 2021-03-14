@@ -2111,6 +2111,15 @@
     "image_link": null,
     "episodes": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/birria-tacos",
+        "episode_id": "birria-tacos",
+        "name": "BIRRIA TACOS",
+        "published_date": "2021-03-11",
+        "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/birria-tacos",
+        "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/biscuits-and-gravy",
         "episode_id": "biscuits-and-gravy",
         "name": "BISCUITS AND GRAVY",

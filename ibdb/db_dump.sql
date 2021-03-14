@@ -325,6 +325,7 @@ being-with-babish-6	I Surprised My Brother with a Tesla	https://www.youtube.com/
 ben-wyatt-calzones	Calzones inspired by Parks & Rec	https://www.youtube.com/watch?v=PvgCEifW7Jo	https://www.bingingwithbabish.com/recipes/ben-wyatt-calzones	https://img.youtube.com/vi/PvgCEifW7Jo/mqdefault.jpg	2020-04-15	1
 biggamesnacks	BIG GAME SNACKS	https://www.youtube.com/watch?v=8ckxhlDFNkg	https://basicswithbabish.co/basicsepisodes/biggamesnacks	https://img.youtube.com/vi/8ckxhlDFNkg/mqdefault.jpg	2019-01-31	2
 bigkahunaburger	Big Kahuna Burger inspired by Pulp Fiction	https://www.youtube.com/watch?v=OmwE0aJqkdA	https://www.bingingwithbabish.com/recipes/2017/5/4/bigkahunaburger	https://img.youtube.com/vi/OmwE0aJqkdA/mqdefault.jpg	2017-01-03	1
+birria-tacos	BIRRIA TACOS	https://www.youtube.com/watch?v=pQmSrlIbULk	https://basicswithbabish.co/basicsepisodes/birria-tacos	https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg	2021-03-11	2
 biscuits-and-gravy	BISCUITS AND GRAVY	https://www.youtube.com/watch?v=NMbMT9tY8-Q	https://basicswithbabish.co/basicsepisodes/biscuits-and-gravy	https://img.youtube.com/vi/NMbMT9tY8-Q/mqdefault.jpg	2021-02-25	2
 blendersoups	BLENDER SOUPS	https://www.youtube.com/watch?v=S-gUFvpRQoU	https://basicswithbabish.co/basicsepisodes/blendersoups	https://img.youtube.com/vi/S-gUFvpRQoU/mqdefault.jpg	2019-03-05	2
 blood-pie-inspired-by-game-of-thrones	Blood Pie inspired by Game of Thrones	https://www.youtube.com/watch?v=Y_hc07rAQlc	https://www.bingingwithbabish.com/recipes/2017/7/14/blood-pie-inspired-by-game-of-thrones	https://img.youtube.com/vi/Y_hc07rAQlc/mqdefault.jpg	2017-07-11	1
@@ -1949,6 +1950,8 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 929	Homemade Breakfast Sausage	\N	3 lbs (fatty) pork butt\n1 lb thick cut bacon\n1½ tsp (per lb of meat mixture) fresh sage, chopped\n1 tsp (Per lb of meat mixture) fresh rosemary, chopped\n1 tsp (Per lb of meat mixture) fresh thyme, chopped\n¼ tsp (Per lb of meat mixture) red pepper flakes (optional)\n⅛ tsp (Per lb of meat mixture) freshly ground nutmeg\n¼ tsp (Per lb of meat mixture) garlic powder\n¼ tsp (Per lb of meat mixture) ground fennel\n1 tsp (Per lb of meat mixture) light brown sugar\n1 tsp (Per lb of meat mixture) kosher salt\n¾ tsp (Per lb of meat mixture) freshly ground black pepper		biscuits-and-gravy
 930	Old Fashioned Biscuit	\N	15 oz all-purpose flour\n2 Tbsp white sugar\n4 tsp baking powder\n½ tsp baking soda\n1½ tsp kosher salt\n8 oz (2 sticks) unsalted butter, frozen\n1¼ Cups buttermilk, cold\n2 Tbsp unsalted butter, melted\nAs needed finishing salt		biscuits-and-gravy
 931	Improved Gravy	\N	1 lb Sausage mixture\n1 Tbsp fresh sage, chopped (optional)\n2 Tbsp all-purpose flour\n1 Cup whole milk\nTo taste kosher salt\nTo taste freshly ground black Pepper\n⅛ tsp freshly grated nutmeg\nBiscuits		biscuits-and-gravy
+932	Birria Tacos	\N	6-8 guajillo chiles, stems and seeds removed\n3-4 Chile de árbol, stems and seeds removed\n2 tsp cumin seeds\nAs needed water\n1 head of garlic, cloves peeled\n1 tsp dried Mexican oregano\n¼ tsp ground cloves\n½ small onion\n2 chipotle peppers in adobo sauce (or to taste)\n3 ½ lb boneless beef chuck, trimmed and cut into 2” cubes\n1 tsp kosher salt\n1 ½ - 2 lb oxtails\n1 Tbsp vegetable oil\n1 (14 oz) can whole tomatoes\n1 stick Canela (Mexican cinnamon)\n3 sprigs fresh marjoram\n1 yellow onion, quartered\n5 bay leaves\n1 Tbsp black peppercorns\nTo taste kosher salt\nTo taste freshly ground black pepper\nCorn tortillas (store-bought)\nOaxaca cheese		birria-tacos
+933	For Serving	\N	White onion, diced\nJalapeno peppers, thinly sliced\nLimes, quartered\nCilantro		birria-tacos
 \.
 
 
@@ -2200,7 +2203,7 @@ SELECT pg_catalog.setval('public.guest_id_seq', 33, true);
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 931, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 933, true);
 
 
 --
