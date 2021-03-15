@@ -1,6 +1,8 @@
 import json
 import logging
 import re
+import time
+
 import string
 
 import bs4
@@ -95,6 +97,7 @@ def add_youtube_resources(raw):
 
 def fetch_paginated_seq(base_url, route):
     items = []
+    num_requests = 1
 
     while route:
         r = None
@@ -105,10 +108,13 @@ def fetch_paginated_seq(base_url, route):
 
             items += res.get('items', [])
             route = res.get('pagination', {}).get('nextPageUrl', None)
+            if route:
+                time.sleep(1.5 ** num_requests)
+                num_requests += 1
         except Exception:
             logging.error(f'Failed request: {link}')
-            logging.error(f'Status code: {r and r.status_code}')
-            logging.error(f'Response:\n{r and r.text}')
+            logging.error(f'Status code: {r is not None and r.status_code}')
+            logging.error(f'Response:\n{r is not None and r.text}')
             raise
 
     return seq(items)
