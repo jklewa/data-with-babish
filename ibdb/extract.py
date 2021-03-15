@@ -103,6 +103,7 @@ def fetch_paginated_seq(base_url, route):
         r = None
         link = furl(base_url + route).add({'format': 'json'})
         try:
+            logging.info(f'Request #{num_requests} to {base_url}')
             r = requests.get(link)
             res = r.json(encoding='utf-8')
 
