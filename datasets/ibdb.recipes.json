@@ -5858,6 +5858,31 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/941",
+    "recipe_id": 941,
+    "name": "Blanched Asparagus",
+    "image_link": null,
+    "raw_ingredient_list": "2 Cups asparagus, trimmed",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        2.0,
+        null,
+        "Cups Asparagus",
+        "2 Cups asparagus, trimmed"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/quiche",
+      "episode_id": "quiche",
+      "name": "QUICHE",
+      "published_date": "2021-03-18",
+      "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/quiche",
+      "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/240",
     "recipe_id": 240,
     "name": "Blended Banana Ice Cream",
@@ -8084,6 +8109,31 @@
       "youtube_link": "https://www.youtube.com/watch?v=6HBPHRDEt_Q",
       "official_link": "https://www.bingingwithbabish.com/recipes/forrestgumpshrimp",
       "image_link": "https://img.youtube.com/vi/6HBPHRDEt_Q/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/937",
+    "recipe_id": 937,
+    "name": "Browned Butter",
+    "image_link": null,
+    "raw_ingredient_list": "1 stick unsalted butter",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        null,
+        "Stick Unsalted Butter",
+        "1 stick unsalted butter"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/biscuits-ted-lasso",
+      "episode_id": "biscuits-ted-lasso",
+      "name": "Biscuits inspired by Ted Lasso",
+      "published_date": "2021-03-16",
+      "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
+      "official_link": "https://www.bingingwithbabish.com/recipes/biscuits-ted-lasso",
+      "image_link": "https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg"
     }
   },
   {
@@ -10694,6 +10744,49 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/942",
+    "recipe_id": 942,
+    "name": "Caramelize Leeks",
+    "image_link": null,
+    "raw_ingredient_list": "2 Cups leeks, thinly sliced\n1 Tbsp olive oil\n\u00bc\u00a0 Cup water\nto taste salt",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        2.0,
+        null,
+        "Cups Leeks",
+        "2 Cups leeks, thinly sliced"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Olive Oil",
+        "1 Tbsp olive oil"
+      ],
+      [
+        0.25,
+        null,
+        "Cup Water",
+        "\u00bc Cup water"
+      ],
+      [
+        null,
+        null,
+        "To Taste Salt",
+        "to taste salt"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/quiche",
+      "episode_id": "quiche",
+      "name": "QUICHE",
+      "published_date": "2021-03-18",
+      "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/quiche",
+      "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/643",
     "recipe_id": 643,
     "name": "Caramel \u201cMustard\u201d",
@@ -13208,7 +13301,7 @@
     "source": {
       "self": "ibdb://data-with-babish.jklewa.github.com/episode/dinner-wandavision",
       "episode_id": "dinner-wandavision",
-      "name": "Dinner from WandaVision",
+      "name": "Dinner inspired by WandaVision",
       "published_date": "2021-03-09",
       "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
       "official_link": "https://www.bingingwithbabish.com/recipes/dinner-wandavision",
@@ -21029,6 +21122,115 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/944",
+    "recipe_id": 944,
+    "name": "Deep-Dish Quiche",
+    "image_link": null,
+    "raw_ingredient_list": "2 Cups milk\n2 Cups creme fraiche\n10 eggs\n6 Tbsp all-purpose flour\n\u00bd tsp freshly grated nutmeg\n1 \u00bd Tbsp kosher salt\n2 tsp white pepper\n1 Tbsp fresh thyme, chopped\n4 oz gruyere cheese, grated\n3 oz emmental cheese, grated\nDeep-dish quiche shell\nCaramelized leeks\nCooked spinach\nSaut\u00e9ed mushrooms\nBlanched asparagus",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        2.0,
+        null,
+        "Cups Milk",
+        "2 Cups milk"
+      ],
+      [
+        2.0,
+        null,
+        "Cups Creme Fraiche",
+        "2 Cups creme fraiche"
+      ],
+      [
+        10.0,
+        null,
+        "Eggs",
+        "10 eggs"
+      ],
+      [
+        6.0,
+        "tablespoon",
+        "All-purpose Flour",
+        "6 Tbsp all-purpose flour"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Freshly Grated Nutmeg",
+        "\u00bd tsp freshly grated nutmeg"
+      ],
+      [
+        1.5,
+        "tablespoon",
+        "Kosher Salt",
+        "1 \u00bd Tbsp kosher salt"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "White Pepper",
+        "2 tsp white pepper"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Fresh Thyme",
+        "1 Tbsp fresh thyme, chopped"
+      ],
+      [
+        4.0,
+        "ounce",
+        "Gruyere Cheese",
+        "4 oz gruyere cheese, grated"
+      ],
+      [
+        3.0,
+        "ounce",
+        "Emmental Cheese",
+        "3 oz emmental cheese, grated"
+      ],
+      [
+        null,
+        null,
+        "Deep-dish Quiche Shell",
+        "Deep-dish quiche shell"
+      ],
+      [
+        null,
+        null,
+        "Caramelized Leeks",
+        "Caramelized leeks"
+      ],
+      [
+        null,
+        null,
+        "Cooked Spinach",
+        "Cooked spinach"
+      ],
+      [
+        null,
+        null,
+        "Saut\u00e9ed Mushrooms",
+        "Saut\u00e9ed mushrooms"
+      ],
+      [
+        null,
+        null,
+        "Blanched Asparagus",
+        "Blanched asparagus"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/quiche",
+      "episode_id": "quiche",
+      "name": "QUICHE",
+      "published_date": "2021-03-18",
+      "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/quiche",
+      "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/411",
     "recipe_id": 411,
     "name": "Deep Fried Chicken Wings",
@@ -22599,6 +22801,49 @@
       "youtube_link": "https://www.youtube.com/watch?v=basFyoMSjds",
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/bobsburgers",
       "image_link": "https://img.youtube.com/vi/basFyoMSjds/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/934",
+    "recipe_id": 934,
+    "name": "Easy Shortbread Biscuit",
+    "image_link": null,
+    "raw_ingredient_list": "8 oz unsalted butter, very soft + more for greasing\n\u00bd tsp kosher salt\n3.5 oz granulated sugar\n12 oz all purpose-flour",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        8.0,
+        "ounce",
+        "Unsalted Butter",
+        "8 oz unsalted butter, very soft + more for greasing"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Kosher Salt",
+        "\u00bd tsp kosher salt"
+      ],
+      [
+        3.5,
+        "ounce",
+        "Granulated Sugar",
+        "3.5 oz granulated sugar"
+      ],
+      [
+        12.0,
+        "ounce",
+        "All Purpose-flour",
+        "12 oz all purpose-flour"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/biscuits-ted-lasso",
+      "episode_id": "biscuits-ted-lasso",
+      "name": "Biscuits inspired by Ted Lasso",
+      "published_date": "2021-03-16",
+      "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
+      "official_link": "https://www.bingingwithbabish.com/recipes/biscuits-ted-lasso",
+      "image_link": "https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg"
     }
   },
   {
@@ -31542,6 +31787,31 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/936",
+    "recipe_id": 936,
+    "name": "https://www.seriouseats.com/recipes/2016/05/dry-toasted-sugar-granulated-caramel-recipe.html",
+    "image_link": null,
+    "raw_ingredient_list": "4 cups white granulated sugar",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        4.0,
+        "cup",
+        "White Granulated Sugar",
+        "4 cups white granulated sugar"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/biscuits-ted-lasso",
+      "episode_id": "biscuits-ted-lasso",
+      "name": "Biscuits inspired by Ted Lasso",
+      "published_date": "2021-03-16",
+      "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
+      "official_link": "https://www.bingingwithbabish.com/recipes/biscuits-ted-lasso",
+      "image_link": "https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/42",
     "recipe_id": 42,
     "name": "Huevos Rancheros",
@@ -31995,6 +32265,67 @@
       "youtube_link": "https://www.youtube.com/watch?v=8iCWUvHMPxQ",
       "official_link": "https://www.bingingwithbabish.com/recipes/sugar-chicken-rick-and-morty",
       "image_link": "https://img.youtube.com/vi/8iCWUvHMPxQ/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/935",
+    "recipe_id": 935,
+    "name": "Improved Shortbread Biscuit",
+    "image_link": null,
+    "raw_ingredient_list": "5 oz unsalted butter, very soft + more for greasing\nAs needed demerara sugar\n2 oz browned butter, soft (see recipe below)\n\u00be tsp kosher salt\n5 oz toasted sugar (see recipe below)\n9.5 oz all purpose flour\n2 oz cornstarch",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        5.0,
+        "ounce",
+        "Unsalted Butter",
+        "5 oz unsalted butter, very soft + more for greasing"
+      ],
+      [
+        null,
+        null,
+        "As Needed Demerara Sugar",
+        "As needed demerara sugar"
+      ],
+      [
+        2.0,
+        "ounce",
+        "Browned Butter",
+        "2 oz browned butter, soft (see recipe below)"
+      ],
+      [
+        0.75,
+        "teaspoon",
+        "Kosher Salt",
+        "\u00be tsp kosher salt"
+      ],
+      [
+        5.0,
+        "ounce",
+        "Toasted Sugar",
+        "5 oz toasted sugar (see recipe below)"
+      ],
+      [
+        9.5,
+        "ounce",
+        "All Purpose Flour",
+        "9.5 oz all purpose flour"
+      ],
+      [
+        2.0,
+        "ounce",
+        "Cornstarch",
+        "2 oz cornstarch"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/biscuits-ted-lasso",
+      "episode_id": "biscuits-ted-lasso",
+      "name": "Biscuits inspired by Ted Lasso",
+      "published_date": "2021-03-16",
+      "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
+      "official_link": "https://www.bingingwithbabish.com/recipes/biscuits-ted-lasso",
+      "image_link": "https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg"
     }
   },
   {
@@ -34689,7 +35020,7 @@
     "source": {
       "self": "ibdb://data-with-babish.jklewa.github.com/episode/dinner-wandavision",
       "episode_id": "dinner-wandavision",
-      "name": "Dinner from WandaVision",
+      "name": "Dinner inspired by WandaVision",
       "published_date": "2021-03-09",
       "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
       "official_link": "https://www.bingingwithbabish.com/recipes/dinner-wandavision",
@@ -36428,7 +36759,7 @@
     "source": {
       "self": "ibdb://data-with-babish.jklewa.github.com/episode/dinner-wandavision",
       "episode_id": "dinner-wandavision",
-      "name": "Dinner from WandaVision",
+      "name": "Dinner inspired by WandaVision",
       "published_date": "2021-03-09",
       "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
       "official_link": "https://www.bingingwithbabish.com/recipes/dinner-wandavision",
@@ -36471,7 +36802,7 @@
     "source": {
       "self": "ibdb://data-with-babish.jklewa.github.com/episode/dinner-wandavision",
       "episode_id": "dinner-wandavision",
-      "name": "Dinner from WandaVision",
+      "name": "Dinner inspired by WandaVision",
       "published_date": "2021-03-09",
       "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
       "official_link": "https://www.bingingwithbabish.com/recipes/dinner-wandavision",
@@ -36647,7 +36978,7 @@
     "source": {
       "self": "ibdb://data-with-babish.jklewa.github.com/episode/dinner-wandavision",
       "episode_id": "dinner-wandavision",
-      "name": "Dinner from WandaVision",
+      "name": "Dinner inspired by WandaVision",
       "published_date": "2021-03-09",
       "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
       "official_link": "https://www.bingingwithbabish.com/recipes/dinner-wandavision",
@@ -46430,7 +46761,7 @@
     "source": {
       "self": "ibdb://data-with-babish.jklewa.github.com/episode/dinner-wandavision",
       "episode_id": "dinner-wandavision",
-      "name": "Dinner from WandaVision",
+      "name": "Dinner inspired by WandaVision",
       "published_date": "2021-03-09",
       "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
       "official_link": "https://www.bingingwithbabish.com/recipes/dinner-wandavision",
@@ -47790,6 +48121,92 @@
       "youtube_link": "https://www.youtube.com/watch?v=Ukjat70Iyt4",
       "official_link": "https://www.bingingwithbabish.com/recipes/avengersicecream",
       "image_link": "https://img.youtube.com/vi/Ukjat70Iyt4/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/938",
+    "recipe_id": 938,
+    "name": "Recipe Credit: https://cooking.nytimes.com/recipes/12884-basic-short-crust-pastry",
+    "image_link": null,
+    "raw_ingredient_list": "145 g all-purpose flour\n\u00bd tsp kosher salt\n1 stick unsalted butter, cold + cubed\n3-4 Tbsp water, cold",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        145.0,
+        "gram",
+        "All-purpose Flour",
+        "145 g all-purpose flour"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Kosher Salt",
+        "\u00bd tsp kosher salt"
+      ],
+      [
+        1.0,
+        null,
+        "Stick Unsalted Butter",
+        "1 stick unsalted butter, cold + cubed"
+      ],
+      [
+        "3-4",
+        "tablespoon",
+        "Water",
+        "3-4 Tbsp water, cold"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/quiche",
+      "episode_id": "quiche",
+      "name": "QUICHE",
+      "published_date": "2021-03-18",
+      "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/quiche",
+      "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/939",
+    "recipe_id": 939,
+    "name": "Recipe Credit: https://www.kingarthurbaking.com/recipes/all-butter-pie-crust-recipe",
+    "image_link": null,
+    "raw_ingredient_list": "300 g all-purpose flour\n1 tsp kosher salt\n2 sticks unsalted butter, cold + cubed\n60 g - 120 g water, cold",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        300.0,
+        "gram",
+        "All-purpose Flour",
+        "300 g all-purpose flour"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Kosher Salt",
+        "1 tsp kosher salt"
+      ],
+      [
+        2.0,
+        null,
+        "Sticks Unsalted Butter",
+        "2 sticks unsalted butter, cold + cubed"
+      ],
+      [
+        60.0,
+        "gram",
+        "- 120 G Water",
+        "60 g - 120 g water, cold"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/quiche",
+      "episode_id": "quiche",
+      "name": "QUICHE",
+      "published_date": "2021-03-18",
+      "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/quiche",
+      "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg"
     }
   },
   {
@@ -50214,6 +50631,61 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/940",
+    "recipe_id": 940,
+    "name": "Sauteed Vegetable",
+    "image_link": null,
+    "raw_ingredient_list": "2 Tbsp unsalted butter, divided\n2 Cups mushrooms of choice (we used cremini and oyster), washed + sliced\n\u00bd tsp kosher salt + more to taste\n3 thyme sprigs\n2 cloves garlic, crushed\n6 Cups raw baby spinach",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        2.0,
+        "tablespoon",
+        "Unsalted Butter",
+        "2 Tbsp unsalted butter, divided"
+      ],
+      [
+        2.0,
+        null,
+        "Choice",
+        "2 Cups mushrooms of choice (we used cremini and oyster), washed + sliced"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Kosher Salt + More To Taste",
+        "\u00bd tsp kosher salt + more to taste"
+      ],
+      [
+        3.0,
+        null,
+        "Thyme Sprigs",
+        "3 thyme sprigs"
+      ],
+      [
+        2.0,
+        null,
+        "Cloves Garlic",
+        "2 cloves garlic, crushed"
+      ],
+      [
+        6.0,
+        null,
+        "Cups Raw Baby Spinach",
+        "6 Cups raw baby spinach"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/quiche",
+      "episode_id": "quiche",
+      "name": "QUICHE",
+      "published_date": "2021-03-18",
+      "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/quiche",
+      "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/213",
     "recipe_id": 213,
     "name": "Scones",
@@ -51452,6 +51924,91 @@
       "youtube_link": "https://www.youtube.com/watch?v=NMbMT9tY8-Q",
       "official_link": "https://basicswithbabish.co/basicsepisodes/biscuits-and-gravy",
       "image_link": "https://img.youtube.com/vi/NMbMT9tY8-Q/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/943",
+    "recipe_id": 943,
+    "name": "Simple Quiche",
+    "image_link": null,
+    "raw_ingredient_list": "2 eggs\n\u00bd Cup milk\n\u00bd\u00a0 Cup cream\n1 \u00bd tsp kosher salt\n1 tsp white pepper\n3 oz gruyere cheese, shredded\nShort-crust tart shell\nCaramelized leeks\nCooked spinach\nSaut\u00e9ed mushrooms\nBlanched asparagus",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        2.0,
+        null,
+        "Eggs",
+        "2 eggs"
+      ],
+      [
+        0.5,
+        null,
+        "Cup Milk",
+        "\u00bd Cup milk"
+      ],
+      [
+        0.5,
+        null,
+        "Cup Cream",
+        "\u00bd Cup cream"
+      ],
+      [
+        1.5,
+        "teaspoon",
+        "Kosher Salt",
+        "1 \u00bd tsp kosher salt"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "White Pepper",
+        "1 tsp white pepper"
+      ],
+      [
+        3.0,
+        "ounce",
+        "Gruyere Cheese",
+        "3 oz gruyere cheese, shredded"
+      ],
+      [
+        null,
+        null,
+        "Short-crust Tart Shell",
+        "Short-crust tart shell"
+      ],
+      [
+        null,
+        null,
+        "Caramelized Leeks",
+        "Caramelized leeks"
+      ],
+      [
+        null,
+        null,
+        "Cooked Spinach",
+        "Cooked spinach"
+      ],
+      [
+        null,
+        null,
+        "Saut\u00e9ed Mushrooms",
+        "Saut\u00e9ed mushrooms"
+      ],
+      [
+        null,
+        null,
+        "Blanched Asparagus",
+        "Blanched asparagus"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/quiche",
+      "episode_id": "quiche",
+      "name": "QUICHE",
+      "published_date": "2021-03-18",
+      "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/quiche",
+      "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg"
     }
   },
   {
@@ -53811,7 +54368,7 @@
     "source": {
       "self": "ibdb://data-with-babish.jklewa.github.com/episode/dinner-wandavision",
       "episode_id": "dinner-wandavision",
-      "name": "Dinner from WandaVision",
+      "name": "Dinner inspired by WandaVision",
       "published_date": "2021-03-09",
       "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
       "official_link": "https://www.bingingwithbabish.com/recipes/dinner-wandavision",
@@ -60291,7 +60848,7 @@
     "source": {
       "self": "ibdb://data-with-babish.jklewa.github.com/episode/dinner-wandavision",
       "episode_id": "dinner-wandavision",
-      "name": "Dinner from WandaVision",
+      "name": "Dinner inspired by WandaVision",
       "published_date": "2021-03-09",
       "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
       "official_link": "https://www.bingingwithbabish.com/recipes/dinner-wandavision",
@@ -60957,7 +61514,7 @@
     "source": {
       "self": "ibdb://data-with-babish.jklewa.github.com/episode/dinner-wandavision",
       "episode_id": "dinner-wandavision",
-      "name": "Dinner from WandaVision",
+      "name": "Dinner inspired by WandaVision",
       "published_date": "2021-03-09",
       "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
       "official_link": "https://www.bingingwithbabish.com/recipes/dinner-wandavision",

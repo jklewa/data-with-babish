@@ -3914,6 +3914,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/540",
+    "reference_id": 540,
+    "type": null,
+    "name": "Ted Lasso",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/biscuits-ted-lasso",
+        "episode_id": "biscuits-ted-lasso",
+        "name": "Biscuits inspired by Ted Lasso",
+        "published_date": "2021-03-16",
+        "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
+        "official_link": "https://www.bingingwithbabish.com/recipes/biscuits-ted-lasso",
+        "image_link": "https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/109",
     "reference_id": 109,
     "type": "movie",
@@ -4862,7 +4882,7 @@
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/dinner-wandavision",
         "episode_id": "dinner-wandavision",
-        "name": "Dinner from WandaVision",
+        "name": "Dinner inspired by WandaVision",
         "published_date": "2021-03-09",
         "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
         "official_link": "https://www.bingingwithbabish.com/recipes/dinner-wandavision",
