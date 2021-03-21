@@ -327,6 +327,7 @@ biggamesnacks	BIG GAME SNACKS	https://www.youtube.com/watch?v=8ckxhlDFNkg	https:
 bigkahunaburger	Big Kahuna Burger inspired by Pulp Fiction	https://www.youtube.com/watch?v=OmwE0aJqkdA	https://www.bingingwithbabish.com/recipes/2017/5/4/bigkahunaburger	https://img.youtube.com/vi/OmwE0aJqkdA/mqdefault.jpg	2017-01-03	1
 birria-tacos	BIRRIA TACOS	https://www.youtube.com/watch?v=pQmSrlIbULk	https://basicswithbabish.co/basicsepisodes/birria-tacos	https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg	2021-03-11	2
 biscuits-and-gravy	BISCUITS AND GRAVY	https://www.youtube.com/watch?v=NMbMT9tY8-Q	https://basicswithbabish.co/basicsepisodes/biscuits-and-gravy	https://img.youtube.com/vi/NMbMT9tY8-Q/mqdefault.jpg	2021-02-25	2
+biscuits-ted-lasso	Biscuits inspired by Ted Lasso	https://www.youtube.com/watch?v=4e7iksx-Zig	https://www.bingingwithbabish.com/recipes/biscuits-ted-lasso	https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg	2021-03-16	1
 blendersoups	BLENDER SOUPS	https://www.youtube.com/watch?v=S-gUFvpRQoU	https://basicswithbabish.co/basicsepisodes/blendersoups	https://img.youtube.com/vi/S-gUFvpRQoU/mqdefault.jpg	2019-03-05	2
 blood-pie-inspired-by-game-of-thrones	Blood Pie inspired by Game of Thrones	https://www.youtube.com/watch?v=Y_hc07rAQlc	https://www.bingingwithbabish.com/recipes/2017/7/14/blood-pie-inspired-by-game-of-thrones	https://img.youtube.com/vi/Y_hc07rAQlc/mqdefault.jpg	2017-07-11	1
 bobsburgers	Bob's Burgers	https://www.youtube.com/watch?v=basFyoMSjds	https://www.bingingwithbabish.com/recipes/2017/6/27/bobsburgers	https://img.youtube.com/vi/basFyoMSjds/mqdefault.jpg	2017-03-14	1
@@ -397,7 +398,7 @@ deepdishpizza	Deep Dish Pizza inspired by The Daily Show	https://www.youtube.com
 dessertdogs	Dessert Dogs inspired by The Simpsons	https://www.youtube.com/watch?v=chil75Ip-3w	https://www.bingingwithbabish.com/recipes/dessertdogs	https://img.youtube.com/vi/chil75Ip-3w/mqdefault.jpg	2020-01-15	1
 dessertpasta	Breakfast Dessert Pasta from Elf	https://www.youtube.com/watch?v=PsuoXi2D6tM	https://www.bingingwithbabish.com/recipes/2017/8/22/dessertpasta	https://img.youtube.com/vi/PsuoXi2D6tM/mqdefault.jpg	2016-12-20	1
 dexter-key-lime-pie	Perfect Key Lime Pie inspired by Dexter	https://www.youtube.com/watch?v=UOztOU4T-_c	https://www.bingingwithbabish.com/recipes/dexter-key-lime-pie	https://img.youtube.com/vi/UOztOU4T-_c/mqdefault.jpg	2020-07-29	1
-dinner-wandavision	Dinner from WandaVision	https://www.youtube.com/watch?v=4e7iksx-Zig	https://www.bingingwithbabish.com/recipes/dinner-wandavision	https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg	2021-03-09	1
+dinner-wandavision	Dinner inspired by WandaVision	https://www.youtube.com/watch?v=4e7iksx-Zig	https://www.bingingwithbabish.com/recipes/dinner-wandavision	https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg	2021-03-09	1
 direwolfbread	Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)	https://www.youtube.com/watch?v=6nuEgc2RVWo	https://www.bingingwithbabish.com/recipes/direwolfbread	https://img.youtube.com/vi/6nuEgc2RVWo/mqdefault.jpg	2018-09-25	1
 donuts	DONUTS	https://www.youtube.com/watch?v=9PWomdbZi2U	https://basicswithbabish.co/basicsepisodes/donuts	https://img.youtube.com/vi/9PWomdbZi2U/mqdefault.jpg	2018-11-01	2
 dutchbaby	Dutch Baby inspired by Bob's Burgers	https://www.youtube.com/watch?v=RwlYqnO9DSE	https://www.bingingwithbabish.com/recipes/dutchbaby	https://img.youtube.com/vi/RwlYqnO9DSE/mqdefault.jpg	2019-01-03	1
@@ -530,6 +531,7 @@ pullednoodles	Special Ingredient Soup inspired by Kung Fu Panda	https://www.yout
 pulledpork	PULLED PORK	https://www.youtube.com/watch?v=_SObOsXrDRc	https://basicswithbabish.co/basicsepisodes/pulledpork	https://img.youtube.com/vi/_SObOsXrDRc/mqdefault.jpg	2019-05-16	2
 quatroquesodosfritos	Quatro Quesos Dos Fritos inspired by Psych	https://www.youtube.com/watch?v=O-H_Ybmtu_U	https://www.bingingwithbabish.com/recipes/2017/8/22/quatroquesodosfritos	https://img.youtube.com/vi/O-H_Ybmtu_U/mqdefault.jpg	2017-12-05	1
 quesadillas	QUESADILLAS	https://www.youtube.com/watch?v=E0G5Y2SOW0c	https://basicswithbabish.co/basicsepisodes/quesadillas	https://img.youtube.com/vi/E0G5Y2SOW0c/mqdefault.jpg	2019-04-18	2
+quiche	QUICHE	https://www.youtube.com/watch?v=pQmSrlIbULk	https://basicswithbabish.co/basicsepisodes/quiche	https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg	2021-03-18	2
 quiet-place-bonus	A Quiet Place Bonus Episode	https://www.youtube.com/watch?v=0PyTpUIn4ks	https://www.youtube.com/watch?v=0PyTpUIn4ks	https://img.youtube.com/vi/0PyTpUIn4ks/mqdefault.jpg	2018-12-15	1
 racheltrifle	Rachel's Trifle inspired by Friends	https://www.youtube.com/watch?v=G4BxOhJOmUw	https://www.bingingwithbabish.com/recipes/2017/8/22/racheltrifle	https://img.youtube.com/vi/G4BxOhJOmUw/mqdefault.jpg	2017-11-21	1
 raisinets	Movie Theater Popcorn & Raisinets inspired by Whiplash	https://www.youtube.com/watch?v=FoztKuXEYnQ	https://www.bingingwithbabish.com/recipes/2017/8/22/raisinets	https://img.youtube.com/vi/FoztKuXEYnQ/mqdefault.jpg	2017-09-19	1
@@ -667,6 +669,7 @@ beignetsfromchef	218
 beignetsfromchef	527
 ben-wyatt-calzones	299
 bigkahunaburger	104
+biscuits-ted-lasso	540
 blood-pie-inspired-by-game-of-thrones	40
 bobsburgers	14
 boeufbourguignon	98
@@ -1952,6 +1955,17 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 931	Improved Gravy	\N	1 lb Sausage mixture\n1 Tbsp fresh sage, chopped (optional)\n2 Tbsp all-purpose flour\n1 Cup whole milk\nTo taste kosher salt\nTo taste freshly ground black Pepper\n⅛ tsp freshly grated nutmeg\nBiscuits		biscuits-and-gravy
 932	Birria Tacos	\N	6-8 guajillo chiles, stems and seeds removed\n3-4 Chile de árbol, stems and seeds removed\n2 tsp cumin seeds\nAs needed water\n1 head of garlic, cloves peeled\n1 tsp dried Mexican oregano\n¼ tsp ground cloves\n½ small onion\n2 chipotle peppers in adobo sauce (or to taste)\n3 ½ lb boneless beef chuck, trimmed and cut into 2” cubes\n1 tsp kosher salt\n1 ½ - 2 lb oxtails\n1 Tbsp vegetable oil\n1 (14 oz) can whole tomatoes\n1 stick Canela (Mexican cinnamon)\n3 sprigs fresh marjoram\n1 yellow onion, quartered\n5 bay leaves\n1 Tbsp black peppercorns\nTo taste kosher salt\nTo taste freshly ground black pepper\nCorn tortillas (store-bought)\nOaxaca cheese		birria-tacos
 933	For Serving	\N	White onion, diced\nJalapeno peppers, thinly sliced\nLimes, quartered\nCilantro		birria-tacos
+934	Easy Shortbread Biscuit	\N	8 oz unsalted butter, very soft + more for greasing\n½ tsp kosher salt\n3.5 oz granulated sugar\n12 oz all purpose-flour		biscuits-ted-lasso
+935	Improved Shortbread Biscuit	\N	5 oz unsalted butter, very soft + more for greasing\nAs needed demerara sugar\n2 oz browned butter, soft (see recipe below)\n¾ tsp kosher salt\n5 oz toasted sugar (see recipe below)\n9.5 oz all purpose flour\n2 oz cornstarch		biscuits-ted-lasso
+936	https://www.seriouseats.com/recipes/2016/05/dry-toasted-sugar-granulated-caramel-recipe.html	\N	4 cups white granulated sugar		biscuits-ted-lasso
+937	Browned Butter	\N	1 stick unsalted butter		biscuits-ted-lasso
+938	Recipe Credit: https://cooking.nytimes.com/recipes/12884-basic-short-crust-pastry	\N	145 g all-purpose flour\n½ tsp kosher salt\n1 stick unsalted butter, cold + cubed\n3-4 Tbsp water, cold		quiche
+939	Recipe Credit: https://www.kingarthurbaking.com/recipes/all-butter-pie-crust-recipe	\N	300 g all-purpose flour\n1 tsp kosher salt\n2 sticks unsalted butter, cold + cubed\n60 g - 120 g water, cold		quiche
+940	Sauteed Vegetable	\N	2 Tbsp unsalted butter, divided\n2 Cups mushrooms of choice (we used cremini and oyster), washed + sliced\n½ tsp kosher salt + more to taste\n3 thyme sprigs\n2 cloves garlic, crushed\n6 Cups raw baby spinach		quiche
+941	Blanched Asparagus	\N	2 Cups asparagus, trimmed		quiche
+942	Caramelize Leeks	\N	2 Cups leeks, thinly sliced\n1 Tbsp olive oil\n¼  Cup water\nto taste salt		quiche
+943	Simple Quiche	\N	2 eggs\n½ Cup milk\n½  Cup cream\n1 ½ tsp kosher salt\n1 tsp white pepper\n3 oz gruyere cheese, shredded\nShort-crust tart shell\nCaramelized leeks\nCooked spinach\nSautéed mushrooms\nBlanched asparagus		quiche
+944	Deep-Dish Quiche	\N	2 Cups milk\n2 Cups creme fraiche\n10 eggs\n6 Tbsp all-purpose flour\n½ tsp freshly grated nutmeg\n1 ½ Tbsp kosher salt\n2 tsp white pepper\n1 Tbsp fresh thyme, chopped\n4 oz gruyere cheese, grated\n3 oz emmental cheese, grated\nDeep-dish quiche shell\nCaramelized leeks\nCooked spinach\nSautéed mushrooms\nBlanched asparagus		quiche
 \.
 
 
@@ -2177,6 +2191,7 @@ COPY public.reference (id, type, name, description, external_link, image_link) F
 537	\N	Groundhog Day	\N	\N	\N
 538	\N	The Jerk	\N	\N	\N
 539	\N	WandaVision	\N	\N	\N
+540	\N	Ted Lasso	\N	\N	\N
 \.
 
 
@@ -2203,14 +2218,14 @@ SELECT pg_catalog.setval('public.guest_id_seq', 33, true);
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 933, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 944, true);
 
 
 --
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 539, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 540, true);
 
 
 --
