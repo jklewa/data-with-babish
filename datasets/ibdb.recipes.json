@@ -3856,6 +3856,80 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/945",
+    "recipe_id": 945,
+    "name": "Basic Together Breakfast",
+    "image_link": null,
+    "raw_ingredient_list": "4 toaster waffles, toasted\nAs needed maple syrup\n1 package microwave popcorn\nAs needed canned whipped cream\n1 fresh strawberry",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        4.0,
+        null,
+        "Toaster Waffles",
+        "4 toaster waffles, toasted"
+      ],
+      [
+        null,
+        null,
+        "As Needed Maple Syrup",
+        "As needed maple syrup"
+      ],
+      [
+        1.0,
+        null,
+        "Package Microwave Popcorn",
+        "1 package microwave popcorn"
+      ],
+      [
+        null,
+        null,
+        "As Needed Canned Whipped Cream",
+        "As needed canned whipped cream"
+      ],
+      [
+        1.0,
+        null,
+        "Fresh Strawberry",
+        "1 fresh strawberry"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/together-breakfast-steven-universe",
+      "episode_id": "together-breakfast-steven-universe",
+      "name": "Together Breakfast inspired by Steven Universe",
+      "published_date": "2021-03-24",
+      "youtube_link": "https://www.youtube.com/watch?v=H1xBwVgKJe8",
+      "official_link": "https://www.bingingwithbabish.com/recipes/together-breakfast-steven-universe",
+      "image_link": "https://img.youtube.com/vi/H1xBwVgKJe8/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/951",
+    "recipe_id": 951,
+    "name": "Basic Tteokbokki",
+    "image_link": null,
+    "raw_ingredient_list": "1 Tbsp dashi flakes",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        "tablespoon",
+        "Dashi Flakes",
+        "1 Tbsp dashi flakes"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/korean-rice-cakes",
+      "episode_id": "korean-rice-cakes",
+      "name": "KOREAN RICE CAKES (TTEOKBOKKI)",
+      "published_date": "2021-03-26",
+      "youtube_link": "https://www.youtube.com/watch?v=XJ79FPwav4g",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/korean-rice-cakes",
+      "image_link": "https://img.youtube.com/vi/XJ79FPwav4g/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/844",
     "recipe_id": 844,
     "name": "Basil Pesto",
@@ -12775,6 +12849,49 @@
       "youtube_link": "https://www.youtube.com/watch?v=2U_0OlCizx0",
       "official_link": "https://basicswithbabish.co/basicsepisodes/tonkotsuramen",
       "image_link": "https://img.youtube.com/vi/2U_0OlCizx0/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/950",
+    "recipe_id": 950,
+    "name": "Cheddar Cheese Popcorn",
+    "image_link": null,
+    "raw_ingredient_list": "\u00bc cup cheddar cheese powder\n1 Tbsp kosher salt\n\u2153 cup popcorn kernels\n3 Tbsp coconut oil",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        0.25,
+        "cup",
+        "Cheddar Cheese Powder",
+        "\u00bc cup cheddar cheese powder"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Kosher Salt",
+        "1 Tbsp kosher salt"
+      ],
+      [
+        0.3333333333333333,
+        "cup",
+        "Popcorn Kernels",
+        "\u2153 cup popcorn kernels"
+      ],
+      [
+        3.0,
+        "tablespoon",
+        "Coconut Oil",
+        "3 Tbsp coconut oil"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/together-breakfast-steven-universe",
+      "episode_id": "together-breakfast-steven-universe",
+      "name": "Together Breakfast inspired by Steven Universe",
+      "published_date": "2021-03-24",
+      "youtube_link": "https://www.youtube.com/watch?v=H1xBwVgKJe8",
+      "official_link": "https://www.bingingwithbabish.com/recipes/together-breakfast-steven-universe",
+      "image_link": "https://img.youtube.com/vi/H1xBwVgKJe8/mqdefault.jpg"
     }
   },
   {
@@ -28941,6 +29058,55 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/949",
+    "recipe_id": 949,
+    "name": "Gourmet Together Breakfast",
+    "image_link": null,
+    "raw_ingredient_list": "4 yeasted waffles\nAs needed good quality maple syrup\nAs needed caramel corn\nAs needed fresh whipped cream\n1 fresh strawberry",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        4.0,
+        null,
+        "Yeasted Waffles",
+        "4 yeasted waffles"
+      ],
+      [
+        null,
+        null,
+        "As Needed Good Quality Maple Syrup",
+        "As needed good quality maple syrup"
+      ],
+      [
+        null,
+        null,
+        "As Needed Caramel Corn",
+        "As needed caramel corn"
+      ],
+      [
+        null,
+        null,
+        "As Needed Fresh Whipped Cream",
+        "As needed fresh whipped cream"
+      ],
+      [
+        1.0,
+        null,
+        "Fresh Strawberry",
+        "1 fresh strawberry"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/together-breakfast-steven-universe",
+      "episode_id": "together-breakfast-steven-universe",
+      "name": "Together Breakfast inspired by Steven Universe",
+      "published_date": "2021-03-24",
+      "youtube_link": "https://www.youtube.com/watch?v=H1xBwVgKJe8",
+      "official_link": "https://www.bingingwithbabish.com/recipes/together-breakfast-steven-universe",
+      "image_link": "https://img.youtube.com/vi/H1xBwVgKJe8/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/709",
     "recipe_id": 709,
     "name": "Gourmet Twinkie Weiner Batter",
@@ -31145,6 +31311,31 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/953",
+    "recipe_id": 953,
+    "name": "Homemade Rice Cakes (Garaetteok)",
+    "image_link": null,
+    "raw_ingredient_list": "345 g rice flour",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        345.0,
+        "gram",
+        "Rice Flour",
+        "345 g rice flour"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/korean-rice-cakes",
+      "episode_id": "korean-rice-cakes",
+      "name": "KOREAN RICE CAKES (TTEOKBOKKI)",
+      "published_date": "2021-03-26",
+      "youtube_link": "https://www.youtube.com/watch?v=XJ79FPwav4g",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/korean-rice-cakes",
+      "image_link": "https://img.youtube.com/vi/XJ79FPwav4g/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/711",
     "recipe_id": 711,
     "name": "Homemade Spray Cheese",
@@ -31228,6 +31419,91 @@
       "youtube_link": "https://www.youtube.com/watch?v=Izvd-iztaQk",
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/iloveyoumanfishtacos",
       "image_link": "https://img.youtube.com/vi/Izvd-iztaQk/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/954",
+    "recipe_id": 954,
+    "name": "Homemade Tteokbokki",
+    "image_link": null,
+    "raw_ingredient_list": "3 Cups homemade anchovy broth (dashima)\n2 tsp gochugaru\n\u00bc Cup gochujang\n2 cloves garlic, crushed\n1 Tbsp soy sauce\n1 Tbsp corn syrup\n1 lb homemade rice cakes\n5-6 assorted fish cakes\n1 tsp sesame oil to finish\n\u2153 Cup scallions, sliced\n1 Tbsp black + white sesame seeds, toasted",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        3.0,
+        null,
+        "Cups Homemade Anchovy Broth",
+        "3 Cups homemade anchovy broth (dashima)"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "Gochugaru",
+        "2 tsp gochugaru"
+      ],
+      [
+        0.25,
+        null,
+        "Cup Gochujang",
+        "\u00bc Cup gochujang"
+      ],
+      [
+        2.0,
+        null,
+        "Cloves Garlic",
+        "2 cloves garlic, crushed"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Soy Sauce",
+        "1 Tbsp soy sauce"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Corn Syrup",
+        "1 Tbsp corn syrup"
+      ],
+      [
+        1.0,
+        "lb",
+        "Homemade Rice Cakes",
+        "1 lb homemade rice cakes"
+      ],
+      [
+        "5-6",
+        null,
+        "Assorted Fish Cakes",
+        "5-6 assorted fish cakes"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Sesame Oil To Finish",
+        "1 tsp sesame oil to finish"
+      ],
+      [
+        0.3333333333333333,
+        null,
+        "Cup Scallions",
+        "\u2153 Cup scallions, sliced"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Black + White Sesame Seeds",
+        "1 Tbsp black + white sesame seeds, toasted"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/korean-rice-cakes",
+      "episode_id": "korean-rice-cakes",
+      "name": "KOREAN RICE CAKES (TTEOKBOKKI)",
+      "published_date": "2021-03-26",
+      "youtube_link": "https://www.youtube.com/watch?v=XJ79FPwav4g",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/korean-rice-cakes",
+      "image_link": "https://img.youtube.com/vi/XJ79FPwav4g/mqdefault.jpg"
     }
   },
   {
@@ -33678,6 +33954,67 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/952",
+    "recipe_id": 952,
+    "name": "Korean Anchovy Broth (Dashima)",
+    "image_link": null,
+    "raw_ingredient_list": "4 Cups water\n\u00be oz dried kelp or 6 inch size piece\n\u00be oz dried anchovies, heads + innards removed\n\u00bc oz dried shrimp\n2 green onions\n1 white onion, quartered\n2 garlic cloves, halved",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        4.0,
+        null,
+        "Cups Water",
+        "4 Cups water"
+      ],
+      [
+        0.75,
+        "ounce",
+        "Dried Kelp Or 6 Inch Size Piece",
+        "\u00be oz dried kelp or 6 inch size piece"
+      ],
+      [
+        0.75,
+        "ounce",
+        "Dried Anchovies",
+        "\u00be oz dried anchovies, heads + innards removed"
+      ],
+      [
+        0.25,
+        "ounce",
+        "Dried Shrimp",
+        "\u00bc oz dried shrimp"
+      ],
+      [
+        2.0,
+        null,
+        "Green Onions",
+        "2 green onions"
+      ],
+      [
+        1.0,
+        null,
+        "White Onion",
+        "1 white onion, quartered"
+      ],
+      [
+        2.0,
+        null,
+        "Garlic Cloves",
+        "2 garlic cloves, halved"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/korean-rice-cakes",
+      "episode_id": "korean-rice-cakes",
+      "name": "KOREAN RICE CAKES (TTEOKBOKKI)",
+      "published_date": "2021-03-26",
+      "youtube_link": "https://www.youtube.com/watch?v=XJ79FPwav4g",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/korean-rice-cakes",
+      "image_link": "https://img.youtube.com/vi/XJ79FPwav4g/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/658",
     "recipe_id": 658,
     "name": "Korean Dashi",
@@ -35665,6 +36002,79 @@
       "youtube_link": "https://www.youtube.com/watch?v=BsDkBaACINQ",
       "official_link": "https://www.bingingwithbabish.com/recipes/sloppy-joes-billy-madison",
       "image_link": "https://img.youtube.com/vi/BsDkBaACINQ/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/946",
+    "recipe_id": 946,
+    "name": "Maple Caramel Corn",
+    "image_link": null,
+    "raw_ingredient_list": "\u2153 Cup popcorn kernels\n3 Tbsp coconut oil\n\u00bd Cup maple syrup\n2 Tbsp water\n6 Tbsp unsalted butter\n\u2153 Cup brown sugar, packed\n\u00bd tsp kosher salt\n\u00bc tsp vanilla extract\n\u215b tsp baking soda",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        0.3333333333333333,
+        null,
+        "Cup Popcorn Kernels",
+        "\u2153 Cup popcorn kernels"
+      ],
+      [
+        3.0,
+        "tablespoon",
+        "Coconut Oil",
+        "3 Tbsp coconut oil"
+      ],
+      [
+        0.5,
+        null,
+        "Cup Maple Syrup",
+        "\u00bd Cup maple syrup"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Water",
+        "2 Tbsp water"
+      ],
+      [
+        6.0,
+        "tablespoon",
+        "Unsalted Butter",
+        "6 Tbsp unsalted butter"
+      ],
+      [
+        0.3333333333333333,
+        null,
+        "Cup Brown Sugar",
+        "\u2153 Cup brown sugar, packed"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Kosher Salt",
+        "\u00bd tsp kosher salt"
+      ],
+      [
+        0.25,
+        "teaspoon",
+        "Vanilla Extract",
+        "\u00bc tsp vanilla extract"
+      ],
+      [
+        0.125,
+        "teaspoon",
+        "Baking Soda",
+        "\u215b tsp baking soda"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/together-breakfast-steven-universe",
+      "episode_id": "together-breakfast-steven-universe",
+      "name": "Together Breakfast inspired by Steven Universe",
+      "published_date": "2021-03-24",
+      "youtube_link": "https://www.youtube.com/watch?v=H1xBwVgKJe8",
+      "official_link": "https://www.bingingwithbabish.com/recipes/together-breakfast-steven-universe",
+      "image_link": "https://img.youtube.com/vi/H1xBwVgKJe8/mqdefault.jpg"
     }
   },
   {
@@ -41210,6 +41620,97 @@
       "youtube_link": "https://www.youtube.com/watch?v=6HBPHRDEt_Q",
       "official_link": "https://www.bingingwithbabish.com/recipes/forrestgumpshrimp",
       "image_link": "https://img.youtube.com/vi/6HBPHRDEt_Q/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/955",
+    "recipe_id": 955,
+    "name": "Pan-Fried Tteokbokki",
+    "image_link": null,
+    "raw_ingredient_list": "\u00bc cup gochujang\n1 tsp gochugaru\n1 Tbsp soy sauce\n2 tsp corn syrup\n\u00bc Cup anchovy broth (dashima)\n1 clove garlic, crushed\n1 tsp toasted sesame oil\nAs needed water\n1 lb homemade rice cakes\n2 Tbsp vegetable oil\n2 tsp black + white sesame seeds, toasted\n\u2153 Cup scallions, thinly sliced",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        0.25,
+        "cup",
+        "Gochujang",
+        "\u00bc cup gochujang"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Gochugaru",
+        "1 tsp gochugaru"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Soy Sauce",
+        "1 Tbsp soy sauce"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "Corn Syrup",
+        "2 tsp corn syrup"
+      ],
+      [
+        0.25,
+        null,
+        "Cup Anchovy Broth",
+        "\u00bc Cup anchovy broth (dashima)"
+      ],
+      [
+        1.0,
+        null,
+        "Clove Garlic",
+        "1 clove garlic, crushed"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Toasted Sesame Oil",
+        "1 tsp toasted sesame oil"
+      ],
+      [
+        null,
+        null,
+        "As Needed Water",
+        "As needed water"
+      ],
+      [
+        1.0,
+        "lb",
+        "Homemade Rice Cakes",
+        "1 lb homemade rice cakes"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Vegetable Oil",
+        "2 Tbsp vegetable oil"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "Black + White Sesame Seeds",
+        "2 tsp black + white sesame seeds, toasted"
+      ],
+      [
+        0.3333333333333333,
+        null,
+        "Cup Scallions",
+        "\u2153 Cup scallions, thinly sliced"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/korean-rice-cakes",
+      "episode_id": "korean-rice-cakes",
+      "name": "KOREAN RICE CAKES (TTEOKBOKKI)",
+      "published_date": "2021-03-26",
+      "youtube_link": "https://www.youtube.com/watch?v=XJ79FPwav4g",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/korean-rice-cakes",
+      "image_link": "https://img.youtube.com/vi/XJ79FPwav4g/mqdefault.jpg"
     }
   },
   {
@@ -62116,6 +62617,49 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/948",
+    "recipe_id": 948,
+    "name": "Whipped Cream",
+    "image_link": null,
+    "raw_ingredient_list": "8 oz heavy cream, cold\n2 Tbsp powdered sugar\n\u00bd tsp kosher salt\n1 tsp vanilla extract",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        8.0,
+        "ounce",
+        "Heavy Cream",
+        "8 oz heavy cream, cold"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Powdered Sugar",
+        "2 Tbsp powdered sugar"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Kosher Salt",
+        "\u00bd tsp kosher salt"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Vanilla Extract",
+        "1 tsp vanilla extract"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/together-breakfast-steven-universe",
+      "episode_id": "together-breakfast-steven-universe",
+      "name": "Together Breakfast inspired by Steven Universe",
+      "published_date": "2021-03-24",
+      "youtube_link": "https://www.youtube.com/watch?v=H1xBwVgKJe8",
+      "official_link": "https://www.bingingwithbabish.com/recipes/together-breakfast-steven-universe",
+      "image_link": "https://img.youtube.com/vi/H1xBwVgKJe8/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/867",
     "recipe_id": 867,
     "name": "Whipped Cream Frosting",
@@ -63143,6 +63687,79 @@
       "youtube_link": "https://www.youtube.com/watch?v=9PWomdbZi2U",
       "official_link": "https://basicswithbabish.co/basicsepisodes/donuts",
       "image_link": "https://img.youtube.com/vi/9PWomdbZi2U/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/947",
+    "recipe_id": 947,
+    "name": "Yeasted Waffles",
+    "image_link": null,
+    "raw_ingredient_list": "240 g all-purpose flour\n1 Tbsp cornmeal\n1 Tbsp sugar\n1 tsp kosher salt\n2 tsp instant dry yeast\n2 eggs, room temperature\n1 tsp vanilla extract\n480 g whole milk\n113 g (1 stick) unsalted butter",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        240.0,
+        "gram",
+        "All-purpose Flour",
+        "240 g all-purpose flour"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Cornmeal",
+        "1 Tbsp cornmeal"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Sugar",
+        "1 Tbsp sugar"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Kosher Salt",
+        "1 tsp kosher salt"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "Instant Dry Yeast",
+        "2 tsp instant dry yeast"
+      ],
+      [
+        2.0,
+        null,
+        "Eggs",
+        "2 eggs, room temperature"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Vanilla Extract",
+        "1 tsp vanilla extract"
+      ],
+      [
+        480.0,
+        "gram",
+        "Milk",
+        "480 g whole milk"
+      ],
+      [
+        113.0,
+        "gram",
+        "Unsalted Butter",
+        "113 g (1 stick) unsalted butter"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/together-breakfast-steven-universe",
+      "episode_id": "together-breakfast-steven-universe",
+      "name": "Together Breakfast inspired by Steven Universe",
+      "published_date": "2021-03-24",
+      "youtube_link": "https://www.youtube.com/watch?v=H1xBwVgKJe8",
+      "official_link": "https://www.bingingwithbabish.com/recipes/together-breakfast-steven-universe",
+      "image_link": "https://img.youtube.com/vi/H1xBwVgKJe8/mqdefault.jpg"
     }
   },
   {
