@@ -460,6 +460,7 @@ kfcmeal	KFC Bucket Meal inspired by Stranger Things	https://www.youtube.com/watc
 kimchi	KIMCHI	https://www.youtube.com/watch?v=R0x7ECje-lY	https://basicswithbabish.co/basicsepisodes/kimchi	https://img.youtube.com/vi/R0x7ECje-lY/mqdefault.jpg	2020-08-14	2
 kingofthehillspecial	King of the Hill Special	https://www.youtube.com/watch?v=iq6_iUhLHo4	https://www.bingingwithbabish.com/recipes/kingofthehillspecial	https://img.youtube.com/vi/iq6_iUhLHo4/mqdefault.jpg	2018-10-16	1
 kitchencare	KITCHEN CARE	https://www.youtube.com/watch?v=xSjVrR7KPqA	https://basicswithbabish.co/basicsepisodes/kitchencare	https://img.youtube.com/vi/xSjVrR7KPqA/mqdefault.jpg	2018-09-20	2
+korean-rice-cakes	KOREAN RICE CAKES (TTEOKBOKKI)	https://www.youtube.com/watch?v=XJ79FPwav4g	https://basicswithbabish.co/basicsepisodes/korean-rice-cakes	https://img.youtube.com/vi/XJ79FPwav4g/mqdefault.jpg	2021-03-26	2
 krabby-patty-inspired-by-spongebob-squarepants	Krabby Patty inspired by SpongeBob SquarePants	https://www.youtube.com/watch?v=7EnWiGYT1g4	https://www.bingingwithbabish.com/recipes/2017/5/31/krabby-patty-inspired-by-spongebob-squarepants	https://img.youtube.com/vi/7EnWiGYT1g4/mqdefault.jpg	2017-05-31	1
 krabbysupreme	Krabby Supreme inspired by Spongebob Squarepants	https://www.youtube.com/watch?v=Rzd0mLf366I	https://www.bingingwithbabish.com/recipes/krabbysupreme	https://img.youtube.com/vi/Rzd0mLf366I/mqdefault.jpg	2019-02-26	1
 lamb-chops	LAMB CHOPS	https://www.youtube.com/watch?v=9eyS51ufJGU	https://basicswithbabish.co/basicsepisodes/lamb-chops	https://img.youtube.com/vi/9eyS51ufJGU/mqdefault.jpg	2020-09-11	2
@@ -606,6 +607,7 @@ thesloppyjessica	The Sloppy Jessica inspired by Brooklyn Nine-Nine	https://www.y
 theswanson	The Swanson inspired by Parks and Recreation	https://www.youtube.com/watch?v=aLpPZlVsny0	https://www.bingingwithbabish.com/recipes/theswanson	https://img.youtube.com/vi/aLpPZlVsny0/mqdefault.jpg	2019-03-26	1
 thewirespecial	The Wire Special	https://www.youtube.com/watch?v=mnT4MDdEazs	https://www.bingingwithbabish.com/recipes/2017/6/27/thewirespecial	https://img.youtube.com/vi/mnT4MDdEazs/mqdefault.jpg	2017-12-26	1
 tiramisu	Tiramisu inspired by Superbad	https://www.youtube.com/watch?v=J719grjgS-I	https://www.bingingwithbabish.com/recipes/tiramisu	https://img.youtube.com/vi/J719grjgS-I/mqdefault.jpg	2019-11-12	1
+together-breakfast-steven-universe	Together Breakfast inspired by Steven Universe	https://www.youtube.com/watch?v=H1xBwVgKJe8	https://www.bingingwithbabish.com/recipes/together-breakfast-steven-universe	https://img.youtube.com/vi/H1xBwVgKJe8/mqdefault.jpg	2021-03-24	1
 tomate-du-saltambique-inspired-by-the-west-wing	Tomate du Saltambique inspired by The West Wing	https://www.youtube.com/watch?v=6uIK3o32hig	https://www.bingingwithbabish.com/recipes/2017/6/20/tomate-du-saltambique-inspired-by-the-west-wing	https://img.youtube.com/vi/6uIK3o32hig/mqdefault.jpg	2017-06-20	1
 tonkotsuramen	TONKOTSU RAMEN	https://www.youtube.com/watch?v=2U_0OlCizx0	https://basicswithbabish.co/basicsepisodes/tonkotsuramen	https://img.youtube.com/vi/2U_0OlCizx0/mqdefault.jpg	2018-10-04	2
 treslechescake	TRES LECHES CAKE	https://www.youtube.com/watch?v=iIDXc6xZ0X8	https://basicswithbabish.co/basicsepisodes/treslechescake	https://img.youtube.com/vi/iIDXc6xZ0X8/mqdefault.jpg	2019-07-08	2
@@ -911,6 +913,7 @@ thesloppyjessica	59
 theswanson	19
 thewirespecial	70
 tiramisu	139
+together-breakfast-steven-universe	6
 tomate-du-saltambique-inspired-by-the-west-wing	91
 triple-gooberberry-sunrise-spongebob-squarespace	21
 tripledeckereggo	3
@@ -1966,6 +1969,17 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 942	Caramelize Leeks	\N	2 Cups leeks, thinly sliced\n1 Tbsp olive oil\n¼  Cup water\nto taste salt		quiche
 943	Simple Quiche	\N	2 eggs\n½ Cup milk\n½  Cup cream\n1 ½ tsp kosher salt\n1 tsp white pepper\n3 oz gruyere cheese, shredded\nShort-crust tart shell\nCaramelized leeks\nCooked spinach\nSautéed mushrooms\nBlanched asparagus		quiche
 944	Deep-Dish Quiche	\N	2 Cups milk\n2 Cups creme fraiche\n10 eggs\n6 Tbsp all-purpose flour\n½ tsp freshly grated nutmeg\n1 ½ Tbsp kosher salt\n2 tsp white pepper\n1 Tbsp fresh thyme, chopped\n4 oz gruyere cheese, grated\n3 oz emmental cheese, grated\nDeep-dish quiche shell\nCaramelized leeks\nCooked spinach\nSautéed mushrooms\nBlanched asparagus		quiche
+945	Basic Together Breakfast	\N	4 toaster waffles, toasted\nAs needed maple syrup\n1 package microwave popcorn\nAs needed canned whipped cream\n1 fresh strawberry		together-breakfast-steven-universe
+946	Maple Caramel Corn	\N	⅓ Cup popcorn kernels\n3 Tbsp coconut oil\n½ Cup maple syrup\n2 Tbsp water\n6 Tbsp unsalted butter\n⅓ Cup brown sugar, packed\n½ tsp kosher salt\n¼ tsp vanilla extract\n⅛ tsp baking soda		together-breakfast-steven-universe
+947	Yeasted Waffles	\N	240 g all-purpose flour\n1 Tbsp cornmeal\n1 Tbsp sugar\n1 tsp kosher salt\n2 tsp instant dry yeast\n2 eggs, room temperature\n1 tsp vanilla extract\n480 g whole milk\n113 g (1 stick) unsalted butter		together-breakfast-steven-universe
+948	Whipped Cream	\N	8 oz heavy cream, cold\n2 Tbsp powdered sugar\n½ tsp kosher salt\n1 tsp vanilla extract		together-breakfast-steven-universe
+949	Gourmet Together Breakfast	\N	4 yeasted waffles\nAs needed good quality maple syrup\nAs needed caramel corn\nAs needed fresh whipped cream\n1 fresh strawberry		together-breakfast-steven-universe
+950	Cheddar Cheese Popcorn	\N	¼ cup cheddar cheese powder\n1 Tbsp kosher salt\n⅓ cup popcorn kernels\n3 Tbsp coconut oil		together-breakfast-steven-universe
+951	Basic Tteokbokki	\N	1 Tbsp dashi flakes		korean-rice-cakes
+952	Korean Anchovy Broth (Dashima)	\N	4 Cups water\n¾ oz dried kelp or 6 inch size piece\n¾ oz dried anchovies, heads + innards removed\n¼ oz dried shrimp\n2 green onions\n1 white onion, quartered\n2 garlic cloves, halved		korean-rice-cakes
+953	Homemade Rice Cakes (Garaetteok)	\N	345 g rice flour		korean-rice-cakes
+954	Homemade Tteokbokki	\N	3 Cups homemade anchovy broth (dashima)\n2 tsp gochugaru\n¼ Cup gochujang\n2 cloves garlic, crushed\n1 Tbsp soy sauce\n1 Tbsp corn syrup\n1 lb homemade rice cakes\n5-6 assorted fish cakes\n1 tsp sesame oil to finish\n⅓ Cup scallions, sliced\n1 Tbsp black + white sesame seeds, toasted		korean-rice-cakes
+955	Pan-Fried Tteokbokki	\N	¼ cup gochujang\n1 tsp gochugaru\n1 Tbsp soy sauce\n2 tsp corn syrup\n¼ Cup anchovy broth (dashima)\n1 clove garlic, crushed\n1 tsp toasted sesame oil\nAs needed water\n1 lb homemade rice cakes\n2 Tbsp vegetable oil\n2 tsp black + white sesame seeds, toasted\n⅓ Cup scallions, thinly sliced		korean-rice-cakes
 \.
 
 
@@ -2218,7 +2232,7 @@ SELECT pg_catalog.setval('public.guest_id_seq', 33, true);
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 944, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 955, true);
 
 
 --

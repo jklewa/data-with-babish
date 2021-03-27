@@ -6,6 +6,15 @@
     "image_link": null,
     "episodes": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/together-breakfast-steven-universe",
+        "episode_id": "together-breakfast-steven-universe",
+        "name": "Together Breakfast inspired by Steven Universe",
+        "published_date": "2021-03-24",
+        "youtube_link": "https://www.youtube.com/watch?v=H1xBwVgKJe8",
+        "official_link": "https://www.bingingwithbabish.com/recipes/together-breakfast-steven-universe",
+        "image_link": "https://img.youtube.com/vi/H1xBwVgKJe8/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/biscuits-ted-lasso",
         "episode_id": "biscuits-ted-lasso",
         "name": "Biscuits inspired by Ted Lasso",
@@ -2119,6 +2128,15 @@
     "name": "Basics with Babish",
     "image_link": null,
     "episodes": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/korean-rice-cakes",
+        "episode_id": "korean-rice-cakes",
+        "name": "KOREAN RICE CAKES (TTEOKBOKKI)",
+        "published_date": "2021-03-26",
+        "youtube_link": "https://www.youtube.com/watch?v=XJ79FPwav4g",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/korean-rice-cakes",
+        "image_link": "https://img.youtube.com/vi/XJ79FPwav4g/mqdefault.jpg"
+      },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/quiche",
         "episode_id": "quiche",

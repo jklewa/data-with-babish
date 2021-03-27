@@ -3747,6 +3747,15 @@
     "image_link": "https://i.ytimg.com/sh/ofmKD13ObSYXEV-HkjVTGQ/market.jpg",
     "episodes_inspired": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/together-breakfast-steven-universe",
+        "episode_id": "together-breakfast-steven-universe",
+        "name": "Together Breakfast inspired by Steven Universe",
+        "published_date": "2021-03-24",
+        "youtube_link": "https://www.youtube.com/watch?v=H1xBwVgKJe8",
+        "official_link": "https://www.bingingwithbabish.com/recipes/together-breakfast-steven-universe",
+        "image_link": "https://img.youtube.com/vi/H1xBwVgKJe8/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/cookie-cat-steven-universe",
         "episode_id": "cookie-cat-steven-universe",
         "name": "Cookie Cat inspired by Steven Universe",
