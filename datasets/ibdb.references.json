@@ -991,6 +991,15 @@
     "image_link": null,
     "episodes_inspired": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/chicken-fingers-community",
+        "episode_id": "chicken-fingers-community",
+        "name": "Chicken Fingers inspired by Community",
+        "published_date": "2021-04-02",
+        "youtube_link": "https://www.youtube.com/watch?v=MJoSs4BGaHI",
+        "official_link": "https://www.bingingwithbabish.com/recipes/chicken-fingers-community",
+        "image_link": "https://img.youtube.com/vi/MJoSs4BGaHI/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/butterednoodles-community",
         "episode_id": "butterednoodles-community",
         "name": "Buttered Noodles inspired by Community",
@@ -1087,6 +1096,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=95M8W1JgH_0",
         "official_link": "https://www.bingingwithbabish.com/recipes/deadpoolpizza",
         "image_link": "https://img.youtube.com/vi/95M8W1JgH_0/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/544",
+    "reference_id": 544,
+    "type": null,
+    "name": "Despicable Me 2",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/tortilla-sombero-despicable-me-2",
+        "episode_id": "tortilla-sombero-despicable-me-2",
+        "name": "Tortilla Sombrero inspired by Despicable Me 2",
+        "published_date": "2021-05-05",
+        "youtube_link": "https://www.youtube.com/watch?v=D_Y18GEjfNY",
+        "official_link": "https://www.bingingwithbabish.com/recipes/tortilla-sombero-despicable-me-2",
+        "image_link": "https://img.youtube.com/vi/D_Y18GEjfNY/mqdefault.jpg"
       }
     ]
   },
@@ -1248,6 +1277,15 @@
     "external_link": null,
     "image_link": null,
     "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/gotcha-pork-roast-food-wars",
+        "episode_id": "gotcha-pork-roast-food-wars",
+        "name": "Gotcha Pork Roast inspired by Food Wars (Shokugeki no Soma)",
+        "published_date": "2021-04-12",
+        "youtube_link": "https://www.youtube.com/watch?v=NfrLH0T0rdU",
+        "official_link": "https://www.bingingwithbabish.com/recipes/gotcha-pork-roast-food-wars",
+        "image_link": "https://img.youtube.com/vi/NfrLH0T0rdU/mqdefault.jpg"
+      },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/pineapplecurryfriedrice",
         "episode_id": "pineapplecurryfriedrice",
@@ -1766,6 +1804,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=LXDAu8DnALw",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/harrypotterspecial",
         "image_link": "https://img.youtube.com/vi/LXDAu8DnALw/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/542",
+    "reference_id": 542,
+    "type": null,
+    "name": "High Maintenance",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/space-cake-high-maintenance",
+        "episode_id": "space-cake-high-maintenance",
+        "name": "Chocolate Cardamom Space Cake inspired by High Maintenance ",
+        "published_date": "2021-04-22",
+        "youtube_link": "https://www.youtube.com/watch?v=tfn-LC254Hk",
+        "official_link": "https://www.bingingwithbabish.com/recipes/space-cake-high-maintenance",
+        "image_link": "https://img.youtube.com/vi/tfn-LC254Hk/mqdefault.jpg"
       }
     ]
   },
@@ -2604,6 +2662,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/541",
+    "reference_id": 541,
+    "type": null,
+    "name": "Monster Hunter",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/chefs-choice-platter-monster-hunter-world",
+        "episode_id": "chefs-choice-platter-monster-hunter-world",
+        "name": "The Chef's Choice Platter inspired by Monster Hunter: World",
+        "published_date": "2021-03-31",
+        "youtube_link": "https://www.youtube.com/watch?v=__qtH1ly2Sg",
+        "official_link": "https://www.bingingwithbabish.com/recipes/chefs-choice-platter-monster-hunter-world",
+        "image_link": "https://img.youtube.com/vi/__qtH1ly2Sg/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/100",
     "reference_id": 100,
     "type": "movie",
@@ -3103,6 +3181,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=roCX0AfBseQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/5/ratatouille",
         "image_link": "https://img.youtube.com/vi/roCX0AfBseQ/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/543",
+    "reference_id": 543,
+    "type": null,
+    "name": "Raya and the Last Dragon",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/kumandra-soup-raya-and-the-last-dragon",
+        "episode_id": "kumandra-soup-raya-and-the-last-dragon",
+        "name": "Kumandra Soup inspired by Raya and the Last Dragon",
+        "published_date": "2021-04-27",
+        "youtube_link": "https://www.youtube.com/watch?v=MDL7DenDYCE",
+        "official_link": "https://www.bingingwithbabish.com/recipes/kumandra-soup-raya-and-the-last-dragon",
+        "image_link": "https://img.youtube.com/vi/MDL7DenDYCE/mqdefault.jpg"
       }
     ]
   },
@@ -4369,6 +4467,15 @@
     "external_link": "https://www.imdb.com/title/tt0386676/",
     "image_link": "https://i.ytimg.com/sh/VCVm3mKpo1XgvNdO5ruXXQ/market.jpg",
     "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/fettuccine-alfredo-the-office",
+        "episode_id": "fettuccine-alfredo-the-office",
+        "name": "Fettuccine Alfredo inspired by The Office",
+        "published_date": "2021-04-14",
+        "youtube_link": "https://www.youtube.com/watch?v=WS6_CeuSn_s",
+        "official_link": "https://www.bingingwithbabish.com/recipes/fettuccine-alfredo-the-office",
+        "image_link": "https://img.youtube.com/vi/WS6_CeuSn_s/mqdefault.jpg"
+      },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/ossobuco",
         "episode_id": "ossobuco",
