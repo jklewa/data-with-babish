@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 12.6 (Debian 12.6-1.pgdg100+1)
+-- Dumped from database version 12.7 (Debian 12.7-1.pgdg100+1)
 -- Dumped by pg_dump version 12.6 (Ubuntu 12.6-0ubuntu0.20.04.1)
 
 SET statement_timeout = 0;
@@ -416,14 +416,17 @@ eggswoodhouse	Eggs Woodhouse For Good from Archer	https://www.youtube.com/watch?
 enchiladas-schitts-creek	Enchiladas inspired by Schitt's Creek	https://www.youtube.com/watch?v=SkKjQhCTP54	https://www.bingingwithbabish.com/recipes/enchiladas-schitts-creek	https://img.youtube.com/vi/SkKjQhCTP54/mqdefault.jpg	2020-09-09	1
 espressodrinks	ESPRESSO DRINKS	https://www.youtube.com/watch?v=W-osWU1WJuM	https://basicswithbabish.co/basicsepisodes/espressodrinks	https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg	2019-10-24	2
 everymeatburrito	The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special	https://www.youtube.com/watch?v=Mf4wwXM2o_M	https://www.bingingwithbabish.com/recipes/2017/8/22/everymeatburrito	https://img.youtube.com/vi/Mf4wwXM2o_M/mqdefault.jpg	2018-01-16	1
+falafels	FALAFEL	https://www.youtube.com/watch?v=-98r0kpLbIM	https://basicswithbabish.co/basicsepisodes/falafels	https://img.youtube.com/vi/-98r0kpLbIM/mqdefault.jpg	2021-05-14	2
 fettuccine-alfredo-the-office	Fettuccine Alfredo inspired by The Office	https://www.youtube.com/watch?v=WS6_CeuSn_s	https://www.bingingwithbabish.com/recipes/fettuccine-alfredo-the-office	https://img.youtube.com/vi/WS6_CeuSn_s/mqdefault.jpg	2021-04-14	1
 fish	FISH	https://www.youtube.com/watch?v=KObL442PWhQ	https://basicswithbabish.co/basicsepisodes/fish	https://img.youtube.com/vi/KObL442PWhQ/mqdefault.jpg	2018-05-17	2
+fish-fingers-custard-doctor-who	Fish Fingers and Custard inspired by Doctor Who	https://www.youtube.com/watch?v=aTBhpS570JE	https://www.bingingwithbabish.com/recipes/fish-fingers-custard-doctor-who	https://img.youtube.com/vi/aTBhpS570JE/mqdefault.jpg	2021-05-11	1
 fitz-sandwich	The Fitz Sandwich inspired by Agents of S.H.I.E.L.D.	https://www.youtube.com/watch?v=xugufifsB4s	https://www.bingingwithbabish.com/recipes/2017/8/22/fitz-sandwich	https://img.youtube.com/vi/xugufifsB4s/mqdefault.jpg	2017-08-22	1
 flandershotcocoa	Flanders' Hot Chocolate inspired by The Simpsons Movie	https://www.youtube.com/watch?v=UCZVSr2Xt2k	https://www.bingingwithbabish.com/recipes/2017/8/22/flandershotcocoa	https://img.youtube.com/vi/UCZVSr2Xt2k/mqdefault.jpg	2017-12-12	1
 forrestgumpshrimp	Shrimp inspired by Forrest Gump | Part 1	https://www.youtube.com/watch?v=6HBPHRDEt_Q	https://www.bingingwithbabish.com/recipes/forrestgumpshrimp	https://img.youtube.com/vi/6HBPHRDEt_Q/mqdefault.jpg	2018-07-03	1
 four-horsemeal-eggporkalypse-parks-and-rec	Four Horsemeals of the Eggporkalypse inspired by Parks & Rec 	https://www.youtube.com/watch?v=NWGVFi-213w	https://www.bingingwithbabish.com/recipes/four-horsemeal-eggporkalypse-parks-and-rec	https://img.youtube.com/vi/NWGVFi-213w/mqdefault.jpg	2020-08-18	1
 fraiserspecial	Frasier Special	https://www.youtube.com/watch?v=AwS_DIMeVoM	https://www.bingingwithbabish.com/recipes/2017/6/27/fraiserspecial	https://img.youtube.com/vi/AwS_DIMeVoM/mqdefault.jpg	2018-02-13	1
 freddys-ribs-inspired-by-house-of-cards	Freddy's Ribs inspired by House of Cards	https://www.youtube.com/watch?v=2uHhKAjnvNc	https://www.bingingwithbabish.com/recipes/2017/6/13/freddys-ribs-inspired-by-house-of-cards	https://img.youtube.com/vi/2uHhKAjnvNc/mqdefault.jpg	2017-06-13	1
+freezer-meals	FREEZER MEALS	https://www.youtube.com/watch?v=-XUzpAiYuVA	https://basicswithbabish.co/basicsepisodes/freezer-meals	https://img.youtube.com/vi/-XUzpAiYuVA/mqdefault.jpg	2021-05-07	2
 french-toast	FRENCH TOAST	https://www.youtube.com/watch?v=SntU6-vxzWc	https://basicswithbabish.co/basicsepisodes/french-toast	https://img.youtube.com/vi/SntU6-vxzWc/mqdefault.jpg	2020-06-20	2
 frenchonionsoup	FRENCH ONION SOUP	https://www.youtube.com/watch?v=1qRir364aNk	https://basicswithbabish.co/basicsepisodes/frenchonionsoup	https://img.youtube.com/vi/1qRir364aNk/mqdefault.jpg	2020-01-09	2
 fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	Fried Chicken & Waffle Breakfast Lasagna inspired by The Boondocks	https://www.youtube.com/watch?v=VnXu22HZBNQ	https://www.bingingwithbabish.com/recipes/2017/7/4/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	https://img.youtube.com/vi/VnXu22HZBNQ/mqdefault.jpg	2017-07-04	1
@@ -774,6 +777,7 @@ enchiladas-schitts-creek	316
 everymeatburrito	7
 everymeatburrito	193
 fettuccine-alfredo-the-office	80
+fish-fingers-custard-doctor-who	545
 fitz-sandwich	84
 fitz-sandwich	178
 flandershotcocoa	72
@@ -2039,6 +2043,16 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 994	Classic BLT	\N	2 classic bacon slices\n2 tomato slices\nAs needed kosher salt\n1 Tbsp unsalted butter, soft\n2 slices hearty white bread\n1 Tbsp mayonnaise, preferably homemade\n2 iceberg lettuce leaves		bacon
 995	Fancy Boy BLT	\N	2 pastrami bacon slices\n2 slices tomato\nAs needed kosher salt\n2 slices sourdough or peasant bread\n1 Tbsp mayonnaise\n2 butter lettuce leaves		bacon
 996	Healthy-esque BLT ingredients	\N	2 classic bacon slices\n2 slices tomato\nAs needed kosher salt\n2 slices seeded whole wheat bread\n1 Tbsp unsalted butter\n1 Tbsp avocado mayonnaise\n¼ cup (loosely packed) alfalfa sprouts\nTo taste kosher salt\nTo taste freshly ground black pepper		bacon
+997	Savory Custard	\N	125 g whole milk\n125 g heavy cream\n1 tsp kosher salt + more to taste\n1 Tbsp sugar\n3 egg yolks\n¼ tsp onion powder\n¼ tsp garlic powder\n2 Tbsp fresh dill, chopped\n1 small dill pickle, finely chopped\nJuice of 1 lemon\nTo taste freshly ground black pepper		fish-fingers-custard-doctor-who
+998	Battered Fish Fingers	\N	48 oz peanut oil\n1 ½ Cups + 2 Tbsp all purpose flour\n½ Cup cornstarch\n1 tsp kosher salt\n1 tsp baking powder\n½ tsp paprika\n¼ tsp cayenne\n4 cod fish fillets\n1 ½ - 2 Cups lager beer, very cold\nAs needed kosher salt\nSavory custard		fish-fingers-custard-doctor-who
+999	Breakfast Burrito	\N	3 Tbsp butter\n15 eggs\nTo taste kosher salt\nTo taste freshly ground black pepper\n1 Tbsp neutral oil\n1 onion, diced\n1 bunch Swiss chard, stems removed + leaves chopped\n4 chicken sausages (pre-cooked), chopped\n6 large flour tortilla\n12 oz gruyere or cheddar cheese, grated		freezer-meals
+1000	Breakfast Sandwich	\N	2 Tbsp unsalted butter, divided\n6 eggs, beaten individually\nTo taste kosher salt\nTo taste freshly ground black pepper\n6 slices Canadian bacon\n12 slices cheddar or swiss cheese\n6 English muffins, halved, toasted, + cooled		freezer-meals
+1001	Chicken Noodle Soup	\N	2 boneless skinless chicken thighs\n1 tsp kosher salt + more to taste\n1 tsp freshly ground black pepper + more to taste\n1 Cup frozen mirepoix*\n3 cloves garlic, minced\n1 Tbsp fresh ginger, grated\n3 sprigs fresh dill\n2 stems fresh parsley\n¼ Cup fresh parsnips, chopped\n¼ Cup fresh fennel, chopped\n4 cups chicken stock (preferably homemade)\n4 oz dried whole wheat fusilli pasta (or pasta of your choice)		freezer-meals
+1002	Ragu	\N	2 Tbsp neutral oil, divided\n2 onion, finely chopped\n3-4 medium carrot, finely chopped\n3 celery stalks, finely chopped\n9 cloves garlic, minced\n6 oz tomato paste\n1 cup dry red wine\n3 (28 oz) can San Marzano whole tomatoes\n1 cup water + more as needed\n½ Cup parsley leaves, finely chopped\n⅔ Cup basil leaves, finely chopped\n1 Tbsp dried oregano\nOptional: 1-2 parmesan cheese rinds\nAs needed kosher salt\nAs needed freshly ground black pepper\nOptional: 1 lb sweet Italian sausage, casings removed		freezer-meals
+1003	Lasagna	\N	1 package lasagna noodles\n1 Tbsp kosher salt\nAs needed olive oil\nReserved ragu\n32 oz low moisture mozzarella, grated\n12 oz Parmesan cheese, grated		freezer-meals
+1004	Falafel	\N	8 oz dried chickpeas\n32 oz water\n1 Tbsp + 2 tsp kosher salt\n1 Tbsp cumin seeds or 2 tsp ground cumin\n2 tsp coriander seed or 1 ½ tsp ground coriander\n¼ tsp Aleppo pepper\n2 garlic cloves, roughly chopped\n1 small yellow onion, large diced\n¼ cup loosely packed parsley leaves*, roughly chopped\n3 Tbsp loosely packed dill fronds, roughly chopped\n3 Tbsp loosely packed mint leaves, roughly chopped\n2 tsp lemon zest\n2 tsp kosher salt\n1 tsp freshly ground black pepper\n1 tsp baking powder\n3.5 Tbsp all-purpose flour or chickpea flour\nAs needed peanut, canola, or vegetable oil		falafels
+1005	Hummus	\N	6 oz dried chickpeas or 12 oz pre-cooked (canned) chickpeas\n28 oz water\n1 Tbsp kosher salt  + more to taste\n2 garlic cloves\nJuice of 1 lemon\n⅓ Cup Tahini\n½ Cup extra virgin olive oil\n¼ - ⅓ Cup ice water\nTo garnish: sweet paprika or sumac		falafels
+1006	Tahini Sauce	\N	½ Cup tahini\n¼ Cup freshly squeezed lemon juice\n½ tsp ground cumin\n1 garlic clove, minced\n¼ - ⅓ Cup ice water\nTo taste kosher salt		falafels
 \.
 
 
@@ -2269,6 +2283,7 @@ COPY public.reference (id, type, name, description, external_link, image_link) F
 542	\N	High Maintenance	\N	\N	\N
 543	\N	Raya and the Last Dragon	\N	\N	\N
 544	\N	Despicable Me 2	\N	\N	\N
+545	\N	Doctor Who	\N	\N	\N
 \.
 
 
@@ -2295,14 +2310,14 @@ SELECT pg_catalog.setval('public.guest_id_seq', 33, true);
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 996, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 1006, true);
 
 
 --
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 544, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 545, true);
 
 
 --
