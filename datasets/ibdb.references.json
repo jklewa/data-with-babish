@@ -1160,6 +1160,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/545",
+    "reference_id": 545,
+    "type": null,
+    "name": "Doctor Who",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/fish-fingers-custard-doctor-who",
+        "episode_id": "fish-fingers-custard-doctor-who",
+        "name": "Fish Fingers and Custard inspired by Doctor Who",
+        "published_date": "2021-05-11",
+        "youtube_link": "https://www.youtube.com/watch?v=aTBhpS570JE",
+        "official_link": "https://www.bingingwithbabish.com/recipes/fish-fingers-custard-doctor-who",
+        "image_link": "https://img.youtube.com/vi/aTBhpS570JE/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/26",
     "reference_id": 26,
     "type": "movie",

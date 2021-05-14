@@ -1,5 +1,808 @@
 [
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/falafels",
+    "episode_id": "falafels",
+    "name": "FALAFEL",
+    "published_date": "2021-05-14",
+    "youtube_link": "https://www.youtube.com/watch?v=-98r0kpLbIM",
+    "official_link": "https://basicswithbabish.co/basicsepisodes/falafels",
+    "image_link": "https://img.youtube.com/vi/-98r0kpLbIM/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/2",
+        "show_id": 2,
+        "name": "Basics with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1004",
+          "recipe_id": 1004,
+          "name": "Falafel",
+          "image_link": null,
+          "raw_ingredient_list": "8 oz dried chickpeas\n32 oz water\n1 Tbsp + 2 tsp kosher salt\n1 Tbsp cumin seeds or 2 tsp ground cumin\n2 tsp coriander seed or 1 \u00bd tsp ground coriander\n\u00bc tsp Aleppo pepper\n2 garlic cloves, roughly chopped\n1 small yellow onion, large diced\n\u00bc cup loosely packed parsley leaves*, roughly chopped\n3 Tbsp loosely packed dill fronds, roughly chopped\n3 Tbsp loosely packed mint leaves, roughly chopped\n2 tsp lemon zest\n2 tsp kosher salt\n1 tsp freshly ground black pepper\n1 tsp baking powder\n3.5 Tbsp all-purpose flour or chickpea flour\nAs needed peanut, canola, or vegetable oil",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              8.0,
+              "ounce",
+              "Dried Chickpeas",
+              "8 oz dried chickpeas"
+            ],
+            [
+              32.0,
+              "ounce",
+              "Water",
+              "32 oz water"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "+ 2 Tsp Kosher Salt",
+              "1 Tbsp + 2 tsp kosher salt"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Cumin Seeds Or 2 Tsp Ground Cumin",
+              "1 Tbsp cumin seeds or 2 tsp ground cumin"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Coriander Seed Or 1 \u00bd Tsp Ground Coriander",
+              "2 tsp coriander seed or 1 \u00bd tsp ground coriander"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Aleppo Pepper",
+              "\u00bc tsp Aleppo pepper"
+            ],
+            [
+              2.0,
+              null,
+              "Garlic Cloves",
+              "2 garlic cloves, roughly chopped"
+            ],
+            [
+              1.0,
+              "small",
+              "Yellow Onion",
+              "1 small yellow onion, large diced"
+            ],
+            [
+              0.25,
+              "cup",
+              "Loosely Packed Parsley Leaves*",
+              "\u00bc cup loosely packed parsley leaves*, roughly chopped"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Loosely Packed Dill Fronds",
+              "3 Tbsp loosely packed dill fronds, roughly chopped"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Loosely Packed Mint Leaves",
+              "3 Tbsp loosely packed mint leaves, roughly chopped"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Lemon Zest",
+              "2 tsp lemon zest"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Kosher Salt",
+              "2 tsp kosher salt"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Freshly Ground Black Pepper",
+              "1 tsp freshly ground black pepper"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Baking Powder",
+              "1 tsp baking powder"
+            ],
+            [
+              3.5,
+              "tablespoon",
+              "All-purpose Flour Or Chickpea Flour",
+              "3.5 Tbsp all-purpose flour or chickpea flour"
+            ],
+            [
+              null,
+              null,
+              "As Needed Peanut",
+              "As needed peanut, canola, or vegetable oil"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1005",
+          "recipe_id": 1005,
+          "name": "Hummus",
+          "image_link": null,
+          "raw_ingredient_list": "6 oz dried chickpeas or 12 oz pre-cooked (canned) chickpeas\n28 oz water\n1 Tbsp kosher salt\u00a0 + more to taste\n2 garlic cloves\nJuice of 1 lemon\n\u2153 Cup Tahini\n\u00bd Cup extra virgin olive oil\n\u00bc - \u2153 Cup ice water\nTo garnish: sweet paprika or sumac",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              6.0,
+              "ounce",
+              "Dried Chickpeas Or 12 Oz Pre-cooked Chickpeas",
+              "6 oz dried chickpeas or 12 oz pre-cooked (canned) chickpeas"
+            ],
+            [
+              28.0,
+              "ounce",
+              "Water",
+              "28 oz water"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Kosher Salt + More To Taste",
+              "1 Tbsp kosher salt + more to taste"
+            ],
+            [
+              2.0,
+              null,
+              "Garlic Cloves",
+              "2 garlic cloves"
+            ],
+            [
+              null,
+              null,
+              "1 Lemon",
+              "Juice of 1 lemon"
+            ],
+            [
+              0.3333333333333333,
+              null,
+              "Cup Tahini",
+              "\u2153 Cup Tahini"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Extra Virgin Olive Oil",
+              "\u00bd Cup extra virgin olive oil"
+            ],
+            [
+              "\u00bc - \u2153",
+              null,
+              "Cup Ice Water",
+              "\u00bc - \u2153 Cup ice water"
+            ],
+            [
+              null,
+              null,
+              "To Garnish: Sweet Paprika Or Sumac",
+              "To garnish: sweet paprika or sumac"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1006",
+          "recipe_id": 1006,
+          "name": "Tahini Sauce",
+          "image_link": null,
+          "raw_ingredient_list": "\u00bd Cup tahini\n\u00bc Cup freshly squeezed lemon juice\n\u00bd tsp ground cumin\n1 garlic clove, minced\n\u00bc - \u2153 Cup ice water\nTo taste kosher salt",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              0.5,
+              null,
+              "Cup Tahini",
+              "\u00bd Cup tahini"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Freshly Squeezed Lemon Juice",
+              "\u00bc Cup freshly squeezed lemon juice"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Ground Cumin",
+              "\u00bd tsp ground cumin"
+            ],
+            [
+              1.0,
+              null,
+              "Garlic Clove",
+              "1 garlic clove, minced"
+            ],
+            [
+              "\u00bc - \u2153",
+              null,
+              "Cup Ice Water",
+              "\u00bc - \u2153 Cup ice water"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/fish-fingers-custard-doctor-who",
+    "episode_id": "fish-fingers-custard-doctor-who",
+    "name": "Fish Fingers and Custard inspired by Doctor Who",
+    "published_date": "2021-05-11",
+    "youtube_link": "https://www.youtube.com/watch?v=aTBhpS570JE",
+    "official_link": "https://www.bingingwithbabish.com/recipes/fish-fingers-custard-doctor-who",
+    "image_link": "https://img.youtube.com/vi/aTBhpS570JE/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/545",
+          "reference_id": 545,
+          "type": null,
+          "name": "Doctor Who",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/998",
+          "recipe_id": 998,
+          "name": "Battered Fish Fingers",
+          "image_link": null,
+          "raw_ingredient_list": "48 oz peanut oil\n1 \u00bd Cups + 2 Tbsp all purpose flour\n\u00bd Cup cornstarch\n1 tsp kosher salt\n1 tsp baking powder\n\u00bd tsp paprika\n\u00bc tsp cayenne\n4 cod fish fillets\n1 \u00bd - 2 Cups lager beer, very cold\nAs needed kosher salt\nSavory custard",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              48.0,
+              "ounce",
+              "Peanut Oil",
+              "48 oz peanut oil"
+            ],
+            [
+              1.5,
+              null,
+              "Cups + 2 Tbsp All Purpose Flour",
+              "1 \u00bd Cups + 2 Tbsp all purpose flour"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Cornstarch",
+              "\u00bd Cup cornstarch"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt",
+              "1 tsp kosher salt"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Baking Powder",
+              "1 tsp baking powder"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Paprika",
+              "\u00bd tsp paprika"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Cayenne",
+              "\u00bc tsp cayenne"
+            ],
+            [
+              4.0,
+              null,
+              "Cod Fish Fillets",
+              "4 cod fish fillets"
+            ],
+            [
+              "1 \u00bd - 2",
+              null,
+              "Cups Lager Beer",
+              "1 \u00bd - 2 Cups lager beer, very cold"
+            ],
+            [
+              null,
+              null,
+              "As Needed Kosher Salt",
+              "As needed kosher salt"
+            ],
+            [
+              null,
+              null,
+              "Savory Custard",
+              "Savory custard"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/997",
+          "recipe_id": 997,
+          "name": "Savory Custard",
+          "image_link": null,
+          "raw_ingredient_list": "125 g whole milk\n125 g heavy cream\n1 tsp kosher salt + more to taste\n1 Tbsp sugar\n3 egg yolks\n\u00bc tsp onion powder\n\u00bc tsp garlic powder\n2 Tbsp fresh dill, chopped\n1 small dill pickle, finely chopped\nJuice of 1 lemon\nTo taste freshly ground black pepper",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              125.0,
+              "gram",
+              "Milk",
+              "125 g whole milk"
+            ],
+            [
+              125.0,
+              "gram",
+              "Heavy Cream",
+              "125 g heavy cream"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt + More To Taste",
+              "1 tsp kosher salt + more to taste"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Sugar",
+              "1 Tbsp sugar"
+            ],
+            [
+              3.0,
+              null,
+              "Egg Yolks",
+              "3 egg yolks"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Onion Powder",
+              "\u00bc tsp onion powder"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Garlic Powder",
+              "\u00bc tsp garlic powder"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Fresh Dill",
+              "2 Tbsp fresh dill, chopped"
+            ],
+            [
+              1.0,
+              "small",
+              "Dill Pickle",
+              "1 small dill pickle, finely chopped"
+            ],
+            [
+              null,
+              null,
+              "1 Lemon",
+              "Juice of 1 lemon"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/freezer-meals",
+    "episode_id": "freezer-meals",
+    "name": "FREEZER MEALS",
+    "published_date": "2021-05-07",
+    "youtube_link": "https://www.youtube.com/watch?v=-XUzpAiYuVA",
+    "official_link": "https://basicswithbabish.co/basicsepisodes/freezer-meals",
+    "image_link": "https://img.youtube.com/vi/-XUzpAiYuVA/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/2",
+        "show_id": 2,
+        "name": "Basics with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/999",
+          "recipe_id": 999,
+          "name": "Breakfast Burrito",
+          "image_link": null,
+          "raw_ingredient_list": "3 Tbsp butter\n15 eggs\nTo taste kosher salt\nTo taste freshly ground black pepper\n1 Tbsp neutral oil\n1 onion, diced\n1 bunch Swiss chard, stems removed + leaves chopped\n4 chicken sausages (pre-cooked), chopped\n6 large flour tortilla\n12 oz gruyere or cheddar cheese, grated",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              3.0,
+              "tablespoon",
+              "Butter",
+              "3 Tbsp butter"
+            ],
+            [
+              15.0,
+              null,
+              "Eggs",
+              "15 eggs"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Neutral Oil",
+              "1 Tbsp neutral oil"
+            ],
+            [
+              1.0,
+              null,
+              "Onion",
+              "1 onion, diced"
+            ],
+            [
+              1.0,
+              null,
+              "Bunch Swiss Chard",
+              "1 bunch Swiss chard, stems removed + leaves chopped"
+            ],
+            [
+              4.0,
+              null,
+              "Chicken Sausages",
+              "4 chicken sausages (pre-cooked), chopped"
+            ],
+            [
+              6.0,
+              "large",
+              "Flour Tortilla",
+              "6 large flour tortilla"
+            ],
+            [
+              12.0,
+              "ounce",
+              "Gruyere Or Cheddar Cheese",
+              "12 oz gruyere or cheddar cheese, grated"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1000",
+          "recipe_id": 1000,
+          "name": "Breakfast Sandwich",
+          "image_link": null,
+          "raw_ingredient_list": "2 Tbsp unsalted butter, divided\n6 eggs, beaten individually\nTo taste kosher salt\nTo taste freshly ground black pepper\n6 slices Canadian bacon\n12 slices cheddar or swiss cheese\n6 English muffins, halved, toasted, + cooled",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "2 Tbsp unsalted butter, divided"
+            ],
+            [
+              6.0,
+              null,
+              "Eggs",
+              "6 eggs, beaten individually"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ],
+            [
+              6.0,
+              null,
+              "Slices Canadian Bacon",
+              "6 slices Canadian bacon"
+            ],
+            [
+              12.0,
+              null,
+              "Slices Cheddar Or Swiss Cheese",
+              "12 slices cheddar or swiss cheese"
+            ],
+            [
+              6.0,
+              null,
+              "English Muffins",
+              "6 English muffins, halved, toasted, + cooled"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1001",
+          "recipe_id": 1001,
+          "name": "Chicken Noodle Soup",
+          "image_link": null,
+          "raw_ingredient_list": "2 boneless skinless chicken thighs\n1 tsp kosher salt + more to taste\n1 tsp freshly ground black pepper + more to taste\n1 Cup frozen mirepoix*\n3 cloves garlic, minced\n1 Tbsp fresh ginger, grated\n3 sprigs fresh dill\n2 stems fresh parsley\n\u00bc Cup fresh parsnips, chopped\n\u00bc Cup fresh fennel, chopped\n4 cups chicken stock (preferably homemade)\n4 oz dried whole wheat fusilli pasta (or pasta of your choice)",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              null,
+              "Boneless Skinless Chicken Thighs",
+              "2 boneless skinless chicken thighs"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt + More To Taste",
+              "1 tsp kosher salt + more to taste"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Freshly Ground Black Pepper + More To Taste",
+              "1 tsp freshly ground black pepper + more to taste"
+            ],
+            [
+              1.0,
+              null,
+              "Cup Frozen Mirepoix*",
+              "1 Cup frozen mirepoix*"
+            ],
+            [
+              3.0,
+              null,
+              "Cloves Garlic",
+              "3 cloves garlic, minced"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Fresh Ginger",
+              "1 Tbsp fresh ginger, grated"
+            ],
+            [
+              3.0,
+              null,
+              "Sprigs Fresh Dill",
+              "3 sprigs fresh dill"
+            ],
+            [
+              2.0,
+              null,
+              "Stems Fresh Parsley",
+              "2 stems fresh parsley"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Fresh Parsnips",
+              "\u00bc Cup fresh parsnips, chopped"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Fresh Fennel",
+              "\u00bc Cup fresh fennel, chopped"
+            ],
+            [
+              4.0,
+              "cup",
+              "Chicken Stock",
+              "4 cups chicken stock (preferably homemade)"
+            ],
+            [
+              4.0,
+              "ounce",
+              "Dried Wheat Fusilli Pasta",
+              "4 oz dried whole wheat fusilli pasta (or pasta of your choice)"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1003",
+          "recipe_id": 1003,
+          "name": "Lasagna",
+          "image_link": null,
+          "raw_ingredient_list": "1 package lasagna noodles\n1 Tbsp kosher salt\nAs needed olive oil\nReserved ragu\n32 oz low moisture mozzarella, grated\n12 oz Parmesan cheese, grated",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "Package Lasagna Noodles",
+              "1 package lasagna noodles"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Kosher Salt",
+              "1 Tbsp kosher salt"
+            ],
+            [
+              null,
+              null,
+              "As Needed Olive Oil",
+              "As needed olive oil"
+            ],
+            [
+              null,
+              null,
+              "Reserved Ragu",
+              "Reserved ragu"
+            ],
+            [
+              32.0,
+              "ounce",
+              "Low Moisture Mozzarella",
+              "32 oz low moisture mozzarella, grated"
+            ],
+            [
+              12.0,
+              "ounce",
+              "Parmesan Cheese",
+              "12 oz Parmesan cheese, grated"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1002",
+          "recipe_id": 1002,
+          "name": "Ragu",
+          "image_link": null,
+          "raw_ingredient_list": "2 Tbsp neutral oil, divided\n2 onion, finely chopped\n3-4 medium carrot, finely chopped\n3 celery stalks, finely chopped\n9 cloves garlic, minced\n6 oz tomato paste\n1 cup dry red wine\n3 (28 oz) can San Marzano whole tomatoes\n1 cup water + more as needed\n\u00bd Cup parsley leaves, finely chopped\n\u2154 Cup basil leaves, finely chopped\n1 Tbsp dried oregano\nOptional: 1-2 parmesan cheese rinds\nAs needed kosher salt\nAs needed freshly ground black pepper\nOptional: 1 lb sweet Italian sausage, casings removed",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              "tablespoon",
+              "Neutral Oil",
+              "2 Tbsp neutral oil, divided"
+            ],
+            [
+              2.0,
+              null,
+              "Onion",
+              "2 onion, finely chopped"
+            ],
+            [
+              "3-4",
+              "medium",
+              "Carrot",
+              "3-4 medium carrot, finely chopped"
+            ],
+            [
+              3.0,
+              null,
+              "Celery Stalks",
+              "3 celery stalks, finely chopped"
+            ],
+            [
+              9.0,
+              null,
+              "Cloves Garlic",
+              "9 cloves garlic, minced"
+            ],
+            [
+              6.0,
+              "ounce",
+              "Tomato Paste",
+              "6 oz tomato paste"
+            ],
+            [
+              1.0,
+              "cup",
+              "Dry Red Wine",
+              "1 cup dry red wine"
+            ],
+            [
+              3.0,
+              null,
+              "Can San Marzano Tomatoes",
+              "3 (28 oz) can San Marzano whole tomatoes"
+            ],
+            [
+              1.0,
+              "cup",
+              "Water + More As Needed",
+              "1 cup water + more as needed"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Parsley Leaves",
+              "\u00bd Cup parsley leaves, finely chopped"
+            ],
+            [
+              0.6666666666666666,
+              null,
+              "Cup Basil Leaves",
+              "\u2154 Cup basil leaves, finely chopped"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Dried Oregano",
+              "1 Tbsp dried oregano"
+            ],
+            [
+              null,
+              null,
+              "Optional: 1-2 Parmesan Cheese Rinds",
+              "Optional: 1-2 parmesan cheese rinds"
+            ],
+            [
+              null,
+              null,
+              "As Needed Kosher Salt",
+              "As needed kosher salt"
+            ],
+            [
+              null,
+              null,
+              "As Needed Freshly Ground Black Pepper",
+              "As needed freshly ground black pepper"
+            ],
+            [
+              null,
+              null,
+              "Optional: 1 Lb Sweet Italian Sausage",
+              "Optional: 1 lb sweet Italian sausage, casings removed"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/episode/tortilla-sombero-despicable-me-2",
     "episode_id": "tortilla-sombero-despicable-me-2",
     "name": "Tortilla Sombrero inspired by Despicable Me 2",

@@ -6,6 +6,15 @@
     "image_link": null,
     "episodes": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/fish-fingers-custard-doctor-who",
+        "episode_id": "fish-fingers-custard-doctor-who",
+        "name": "Fish Fingers and Custard inspired by Doctor Who",
+        "published_date": "2021-05-11",
+        "youtube_link": "https://www.youtube.com/watch?v=aTBhpS570JE",
+        "official_link": "https://www.bingingwithbabish.com/recipes/fish-fingers-custard-doctor-who",
+        "image_link": "https://img.youtube.com/vi/aTBhpS570JE/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/tortilla-sombero-despicable-me-2",
         "episode_id": "tortilla-sombero-despicable-me-2",
         "name": "Tortilla Sombrero inspired by Despicable Me 2",
@@ -2191,6 +2200,24 @@
     "name": "Basics with Babish",
     "image_link": null,
     "episodes": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/falafels",
+        "episode_id": "falafels",
+        "name": "FALAFEL",
+        "published_date": "2021-05-14",
+        "youtube_link": "https://www.youtube.com/watch?v=-98r0kpLbIM",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/falafels",
+        "image_link": "https://img.youtube.com/vi/-98r0kpLbIM/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/freezer-meals",
+        "episode_id": "freezer-meals",
+        "name": "FREEZER MEALS",
+        "published_date": "2021-05-07",
+        "youtube_link": "https://www.youtube.com/watch?v=-XUzpAiYuVA",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/freezer-meals",
+        "image_link": "https://img.youtube.com/vi/-XUzpAiYuVA/mqdefault.jpg"
+      },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/bacon",
         "episode_id": "bacon",
