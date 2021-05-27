@@ -387,6 +387,7 @@ coffeejelly	Coffee Jelly inspired by The Disastrous Life of Saiki K.	https://www
 cold-cure	Cold Cure inspired by Kenan & Kel	https://www.youtube.com/watch?v=M-7t9FBecoU	https://www.bingingwithbabish.com/recipes/cold-cure	https://img.youtube.com/vi/M-7t9FBecoU/mqdefault.jpg	2020-03-24	1
 cookie-cat-steven-universe	Cookie Cat inspired by Steven Universe	https://www.youtube.com/watch?v=KbNRvWfndjA	https://www.bingingwithbabish.com/recipes/cookie-cat-steven-universe	https://img.youtube.com/vi/KbNRvWfndjA/mqdefault.jpg	2021-02-16	1
 coqauvin	Coq au Vin inspired by Donnie Brasco	https://www.youtube.com/watch?v=VP1uTgikarU	https://www.bingingwithbabish.com/recipes/coqauvin	https://img.youtube.com/vi/VP1uTgikarU/mqdefault.jpg	2019-01-15	1
+corn-dogs	CORN DOGS	https://www.youtube.com/watch?v=zGT45vVJNso	https://basicswithbabish.co/basicsepisodes/corn-dogs	https://img.youtube.com/vi/zGT45vVJNso/mqdefault.jpg	2021-05-27	2
 cornbread	CORNBREAD	https://www.youtube.com/watch?v=nAtCqHJofJk	https://basicswithbabish.co/basicsepisodes/cornbread	https://img.youtube.com/vi/nAtCqHJofJk/mqdefault.jpg	2019-12-12	2
 creme-caramel	CRÈME CARAMEL	https://www.youtube.com/watch?v=ihS8__strtM	https://basicswithbabish.co/basicsepisodes/creme-caramel	https://img.youtube.com/vi/ihS8__strtM/mqdefault.jpg	2021-04-08	2
 cremebrule	Crème Brûlée inspired by Amelie	https://www.youtube.com/watch?v=dn_aaxZIA2o	https://www.bingingwithbabish.com/recipes/2017/8/22/cremebrule	https://img.youtube.com/vi/dn_aaxZIA2o/mqdefault.jpg	2018-04-03	1
@@ -593,6 +594,7 @@ spinachpuffs	Spinach Puffs inspired by The Emperor's New Groove	https://www.yout
 squidinkpasta	Squid Ink Pasta inspired by JoJo's Bizarre Adventure	https://www.youtube.com/watch?v=rPdln-PUZuE	https://www.bingingwithbabish.com/recipes/squidinkpasta	https://img.youtube.com/vi/rPdln-PUZuE/mqdefault.jpg	2019-07-31	1
 steak-au-poivre	Steak au Poivre inspired by Archer	https://www.youtube.com/watch?v=tCJ_VV0FEZM	https://www.bingingwithbabish.com/recipes/steak-au-poivre	https://img.youtube.com/vi/tCJ_VV0FEZM/mqdefault.jpg	2019-02-12	1
 steak-eggs-gravy-twister	Steak, Eggs and Gravy inspired by Twister	https://www.youtube.com/watch?v=ztl0gGVFoK0	https://www.bingingwithbabish.com/recipes/steak-eggs-gravy-twister	https://img.youtube.com/vi/ztl0gGVFoK0/mqdefault.jpg	2020-12-08	1
+steak-pinwheels	STEAK PINWHEELS	https://www.youtube.com/watch?v=02NINX8OD-A	https://basicswithbabish.co/basicsepisodes/steak-pinwheels	https://img.youtube.com/vi/02NINX8OD-A/mqdefault.jpg	2021-05-20	2
 sticky-buns	STICKY BUNS	https://www.youtube.com/watch?v=PAnreKf_9BE	https://basicswithbabish.co/basicsepisodes/sticky-buns	https://img.youtube.com/vi/PAnreKf_9BE/mqdefault.jpg	2020-12-04	2
 stollen	STOLLEN (GERMAN HOLIDAY BREAD)	https://www.youtube.com/watch?v=25Od-bcv6vM	https://basicswithbabish.co/basicsepisodes/stollen	https://img.youtube.com/vi/25Od-bcv6vM/mqdefault.jpg	2020-12-18	2
 sugar-chicken-rick-and-morty	Sugar Chicken inspired by Rick & Morty	https://www.youtube.com/watch?v=8iCWUvHMPxQ	https://www.bingingwithbabish.com/recipes/sugar-chicken-rick-and-morty	https://img.youtube.com/vi/8iCWUvHMPxQ/mqdefault.jpg	2021-02-23	1
@@ -628,6 +630,7 @@ treslechescake	TRES LECHES CAKE	https://www.youtube.com/watch?v=iIDXc6xZ0X8	http
 triple-gooberberry-sunrise-spongebob-squarespace	Triple Gooberberry Sunrise inspired by Spongebob Squarepants	https://www.youtube.com/watch?v=Gso2WrBcV2Q	https://www.bingingwithbabish.com/recipes/triple-gooberberry-sunrise-spongebob-squarespace	https://img.youtube.com/vi/Gso2WrBcV2Q/mqdefault.jpg	2020-09-22	1
 tripledeckereggo	Triple-Decker Eggo Extravaganza inspired by Stranger Things	https://www.youtube.com/watch?v=L1kgO1I9NvQ	https://www.bingingwithbabish.com/recipes/2017/8/22/tripledeckereggo	https://img.youtube.com/vi/L1kgO1I9NvQ/mqdefault.jpg	2017-11-07	1
 troyscasserole-community	Troy's Casserole inspired by Community	https://www.youtube.com/watch?v=mGZcg6A6FTg	https://www.bingingwithbabish.com/recipes/troyscasserole-community	https://img.youtube.com/vi/mGZcg6A6FTg/mqdefault.jpg	2020-05-20	1
+truffle-pasta-broad-city	Truffle Pasta inspired by Broad City	https://www.youtube.com/watch?v=7vsW0Ut4gCo	https://www.bingingwithbabish.com/recipes/truffle-pasta-broad-city	https://img.youtube.com/vi/7vsW0Ut4gCo/mqdefault.jpg	2021-05-26	1
 turf-n-turf	Turf n' Turf inspired by Parks and Rec	https://www.youtube.com/watch?v=peLPVIGFaz0	https://www.bingingwithbabish.com/recipes/turf-n-turf	https://img.youtube.com/vi/peLPVIGFaz0/mqdefault.jpg	2020-03-11	1
 turturkeykey	Turturkeykey inspired by How I Met Your Mother	https://www.youtube.com/watch?v=FWQKc6idm64	https://www.bingingwithbabish.com/recipes/turturkeykey	https://img.youtube.com/vi/FWQKc6idm64/mqdefault.jpg	2019-11-26	1
 twinkie-weiner-sandwich	Twinkie Weiner Sandwich inspired by Weird Al's UHF	https://www.youtube.com/watch?v=jKslWoZXvn0	https://www.bingingwithbabish.com/recipes/twinkie-weiner-sandwich	https://img.youtube.com/vi/jKslWoZXvn0/mqdefault.jpg	2020-06-24	1
@@ -940,6 +943,7 @@ tortilla-sombero-despicable-me-2	544
 triple-gooberberry-sunrise-spongebob-squarespace	21
 tripledeckereggo	3
 troyscasserole-community	303
+truffle-pasta-broad-city	546
 turf-n-turf	294
 turturkeykey	124
 turturkeykey	269
@@ -2053,6 +2057,16 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 1004	Falafel	\N	8 oz dried chickpeas\n32 oz water\n1 Tbsp + 2 tsp kosher salt\n1 Tbsp cumin seeds or 2 tsp ground cumin\n2 tsp coriander seed or 1 ½ tsp ground coriander\n¼ tsp Aleppo pepper\n2 garlic cloves, roughly chopped\n1 small yellow onion, large diced\n¼ cup loosely packed parsley leaves*, roughly chopped\n3 Tbsp loosely packed dill fronds, roughly chopped\n3 Tbsp loosely packed mint leaves, roughly chopped\n2 tsp lemon zest\n2 tsp kosher salt\n1 tsp freshly ground black pepper\n1 tsp baking powder\n3.5 Tbsp all-purpose flour or chickpea flour\nAs needed peanut, canola, or vegetable oil		falafels
 1005	Hummus	\N	6 oz dried chickpeas or 12 oz pre-cooked (canned) chickpeas\n28 oz water\n1 Tbsp kosher salt  + more to taste\n2 garlic cloves\nJuice of 1 lemon\n⅓ Cup Tahini\n½ Cup extra virgin olive oil\n¼ - ⅓ Cup ice water\nTo garnish: sweet paprika or sumac		falafels
 1006	Tahini Sauce	\N	½ Cup tahini\n¼ Cup freshly squeezed lemon juice\n½ tsp ground cumin\n1 garlic clove, minced\n¼ - ⅓ Cup ice water\nTo taste kosher salt		falafels
+1007	Bucatini al Tartufo	\N	1 wheel parmesan cheese\n1 Tbsp kosher salt + more to taste\n2 Tbsp unsalted butter\n2 Tbsp extra virgin olive oil\n2 oz black truffles, cleaned\n8 oz dried bucatini pasta\n¼ Cup brandy\nOptional: black truffle pearls		truffle-pasta-broad-city
+1008	Spinach and Mushroom Steak Pinwheels	\N	~2 lb flank steak slab, trimmed\nAs needed kosher salt\nAs needed freshly ground black pepper\n1 Tbsp neutral oil + more as needed\n8 oz shiitake mushrooms, sliced\n4 oz spinach leaves\n1 clove garlic, minced\n8 oz gruyere, thinly sliced		steak-pinwheels
+1009	Pepper Cheesesteak Pinwheels	\N	~2 lb flank steak slab, trimmed\nAs needed kosher salt\nAs needed freshly ground black pepper\n1 Tbsp neutral oil + more as needed\n2 large yellow onions, sliced\n2 garlic cloves, minced\n1 green bell peppers, thinly sliced\n6 oz provolone cheese, thinly sliced		steak-pinwheels
+1010	Steak Fajita Pinwheels	\N	~2 lb flank steak slab, trimmed\nAs needed kosher salt\nAs needed freshly ground black pepper\n1 Tbsp neutral oil + more as needed\n1 large yellow onion, sliced\n2 garlic cloves, minced\n1 red bell pepper, thinly sliced\n1 orange bell pepper, thinly sliced\n2 tsp ground cumin\n1 tsp Mexican oregano\n1 tsp ground chipotle pepper\nZest of 1 lime\n8 oz Oaxaca cheese, hand-shredded		steak-pinwheels
+1011	Honey Ginger Simple Syrup	\N	1 Cup honey\n1 Cup water\n½ Cup ginger root, sliced		steak-pinwheels
+1012	The Zingleton	\N	1.5 oz The Singleton 12-Year-Old Single Malt Scotch Whisky\n¾ oz fresh lemon juice\n½ oz fresh orange juice\n½ oz honey ginger syrup		steak-pinwheels
+1013	Classic Corn Dogs	\N	72 oz peanut oil or neutral oil\n1 Cup fine cornmeal\n1 Cup all-purpose flour\n2 tsp baking powder\n1 Tbsp sugar\n1 tsp kosher salt\n½ tsp freshly ground black pepper\nOptional: ¼ tsp cayenne\n1 ½ Cups whole milk\n1 large egg\n1 Tbsp honey\n8-10 hotdogs\n¾ Cup cornstarch\nFor dipping: mustard and ketchup		corn-dogs
+1014	Breakfast Corn Dogs	\N	72 oz peanut oil or neutral oil\n1 Tbsp fine cornmeal\n1 ¾ Cup all-purpose flour\n2 tsp baking powder\n2 Tbsp sugar\n1 tsp kosher salt\n1 ¼ Cup buttermilk\n2 Tbsp unsalted butter, melted + cooled\n1 large egg\n2 Tbsp maple syrup\n½ tsp vanilla extract\n8-10 breakfast sausages, cooked and cooled\n¾ Cup cornstarch\nFor dipping: maple syrup and jam		corn-dogs
+1015	Falafel Corn Dogs	\N	72 oz peanut oil or neutral oil\n1-2 garlic cloves, roughly chopped\n½ Cup (loosely packed) parsley, leaves only\n1 cup canned chickpeas, drained + rinsed\n2 Tbsp olive oil\n1 ½ Cups chickpea flour\n1 tsp salt\n½ tsp cumin\n½ tsp Aleppo pepper\n2 tsp baking powder\n1 Cup buttermilk\n1 egg\n8-10 merguez sausages, cooked and cooled\n¾ Cup cornstarch\nFor dipping: tahini yogurt sauce (see recipe below)		corn-dogs
+1016	Tahini Yogurt Dipping Sauce	\N	½ Cup greek yogurt\n2 Tbsp mustard\n¼ Cup tahini\n1 Tbsp lemon juice (about ½ lemon)\nAs needed kosher salt\nAs needed freshly ground black pepper		corn-dogs
 \.
 
 
@@ -2284,6 +2298,7 @@ COPY public.reference (id, type, name, description, external_link, image_link) F
 543	\N	Raya and the Last Dragon	\N	\N	\N
 544	\N	Despicable Me 2	\N	\N	\N
 545	\N	Doctor Who	\N	\N	\N
+546	\N	Broad City	\N	\N	\N
 \.
 
 
@@ -2310,14 +2325,14 @@ SELECT pg_catalog.setval('public.guest_id_seq', 33, true);
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 1006, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 1016, true);
 
 
 --
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 545, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 546, true);
 
 
 --

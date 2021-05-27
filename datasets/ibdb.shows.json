@@ -6,6 +6,15 @@
     "image_link": null,
     "episodes": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/truffle-pasta-broad-city",
+        "episode_id": "truffle-pasta-broad-city",
+        "name": "Truffle Pasta inspired by Broad City",
+        "published_date": "2021-05-26",
+        "youtube_link": "https://www.youtube.com/watch?v=7vsW0Ut4gCo",
+        "official_link": "https://www.bingingwithbabish.com/recipes/truffle-pasta-broad-city",
+        "image_link": "https://img.youtube.com/vi/7vsW0Ut4gCo/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/fish-fingers-custard-doctor-who",
         "episode_id": "fish-fingers-custard-doctor-who",
         "name": "Fish Fingers and Custard inspired by Doctor Who",
@@ -2200,6 +2209,24 @@
     "name": "Basics with Babish",
     "image_link": null,
     "episodes": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/corn-dogs",
+        "episode_id": "corn-dogs",
+        "name": "CORN DOGS",
+        "published_date": "2021-05-27",
+        "youtube_link": "https://www.youtube.com/watch?v=zGT45vVJNso",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/corn-dogs",
+        "image_link": "https://img.youtube.com/vi/zGT45vVJNso/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/steak-pinwheels",
+        "episode_id": "steak-pinwheels",
+        "name": "STEAK PINWHEELS",
+        "published_date": "2021-05-20",
+        "youtube_link": "https://www.youtube.com/watch?v=02NINX8OD-A",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/steak-pinwheels",
+        "image_link": "https://img.youtube.com/vi/02NINX8OD-A/mqdefault.jpg"
+      },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/falafels",
         "episode_id": "falafels",

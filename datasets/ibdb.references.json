@@ -697,6 +697,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/546",
+    "reference_id": 546,
+    "type": null,
+    "name": "Broad City",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/truffle-pasta-broad-city",
+        "episode_id": "truffle-pasta-broad-city",
+        "name": "Truffle Pasta inspired by Broad City",
+        "published_date": "2021-05-26",
+        "youtube_link": "https://www.youtube.com/watch?v=7vsW0Ut4gCo",
+        "official_link": "https://www.bingingwithbabish.com/recipes/truffle-pasta-broad-city",
+        "image_link": "https://img.youtube.com/vi/7vsW0Ut4gCo/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/59",
     "reference_id": 59,
     "type": "movie",

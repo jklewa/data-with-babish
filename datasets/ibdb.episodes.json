@@ -1,5 +1,736 @@
 [
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/corn-dogs",
+    "episode_id": "corn-dogs",
+    "name": "CORN DOGS",
+    "published_date": "2021-05-27",
+    "youtube_link": "https://www.youtube.com/watch?v=zGT45vVJNso",
+    "official_link": "https://basicswithbabish.co/basicsepisodes/corn-dogs",
+    "image_link": "https://img.youtube.com/vi/zGT45vVJNso/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/2",
+        "show_id": 2,
+        "name": "Basics with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1014",
+          "recipe_id": 1014,
+          "name": "Breakfast Corn Dogs",
+          "image_link": null,
+          "raw_ingredient_list": "72 oz peanut oil or neutral oil\n1 Tbsp fine cornmeal\n1 \u00be Cup all-purpose flour\n2 tsp baking powder\n2 Tbsp sugar\n1 tsp kosher salt\n1 \u00bc Cup buttermilk\n2 Tbsp unsalted butter, melted + cooled\n1 large egg\n2 Tbsp maple syrup\n\u00bd tsp vanilla extract\n8-10 breakfast sausages, cooked and cooled\n\u00be Cup cornstarch\nFor dipping: maple syrup and jam",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              72.0,
+              "ounce",
+              "Peanut Oil Or Neutral Oil",
+              "72 oz peanut oil or neutral oil"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Fine Cornmeal",
+              "1 Tbsp fine cornmeal"
+            ],
+            [
+              1.75,
+              null,
+              "Cup All-purpose Flour",
+              "1 \u00be Cup all-purpose flour"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Baking Powder",
+              "2 tsp baking powder"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Sugar",
+              "2 Tbsp sugar"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt",
+              "1 tsp kosher salt"
+            ],
+            [
+              1.25,
+              null,
+              "Cup Buttermilk",
+              "1 \u00bc Cup buttermilk"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "2 Tbsp unsalted butter, melted + cooled"
+            ],
+            [
+              1.0,
+              "large",
+              "Egg",
+              "1 large egg"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Maple Syrup",
+              "2 Tbsp maple syrup"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Vanilla Extract",
+              "\u00bd tsp vanilla extract"
+            ],
+            [
+              "8-10",
+              null,
+              "Breakfast Sausages",
+              "8-10 breakfast sausages, cooked and cooled"
+            ],
+            [
+              0.75,
+              null,
+              "Cup Cornstarch",
+              "\u00be Cup cornstarch"
+            ],
+            [
+              null,
+              null,
+              "For Dipping: Maple Syrup And Jam",
+              "For dipping: maple syrup and jam"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1013",
+          "recipe_id": 1013,
+          "name": "Classic Corn Dogs",
+          "image_link": null,
+          "raw_ingredient_list": "72 oz peanut oil or neutral oil\n1 Cup fine cornmeal\n1 Cup all-purpose flour\n2 tsp baking powder\n1 Tbsp sugar\n1 tsp kosher salt\n\u00bd tsp freshly ground black pepper\nOptional: \u00bc tsp cayenne\n1 \u00bd Cups whole milk\n1 large egg\n1 Tbsp honey\n8-10 hotdogs\n\u00be Cup cornstarch\nFor dipping: mustard and ketchup",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              72.0,
+              "ounce",
+              "Peanut Oil Or Neutral Oil",
+              "72 oz peanut oil or neutral oil"
+            ],
+            [
+              1.0,
+              null,
+              "Cup Fine Cornmeal",
+              "1 Cup fine cornmeal"
+            ],
+            [
+              1.0,
+              null,
+              "Cup All-purpose Flour",
+              "1 Cup all-purpose flour"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Baking Powder",
+              "2 tsp baking powder"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Sugar",
+              "1 Tbsp sugar"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt",
+              "1 tsp kosher salt"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Freshly Ground Black Pepper",
+              "\u00bd tsp freshly ground black pepper"
+            ],
+            [
+              null,
+              null,
+              "Optional: \u00bc Tsp Cayenne",
+              "Optional: \u00bc tsp cayenne"
+            ],
+            [
+              1.5,
+              null,
+              "Cups Milk",
+              "1 \u00bd Cups whole milk"
+            ],
+            [
+              1.0,
+              "large",
+              "Egg",
+              "1 large egg"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Honey",
+              "1 Tbsp honey"
+            ],
+            [
+              "8-10",
+              null,
+              "Hotdogs",
+              "8-10 hotdogs"
+            ],
+            [
+              0.75,
+              null,
+              "Cup Cornstarch",
+              "\u00be Cup cornstarch"
+            ],
+            [
+              null,
+              null,
+              "For Dipping: Mustard And Ketchup",
+              "For dipping: mustard and ketchup"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1015",
+          "recipe_id": 1015,
+          "name": "Falafel Corn Dogs",
+          "image_link": null,
+          "raw_ingredient_list": "72 oz peanut oil or neutral oil\n1-2 garlic cloves, roughly chopped\n\u00bd Cup (loosely packed) parsley, leaves only\n1 cup canned chickpeas, drained + rinsed\n2 Tbsp olive oil\n1 \u00bd Cups chickpea flour\n1 tsp salt\n\u00bd tsp cumin\n\u00bd tsp Aleppo pepper\n2 tsp baking powder\n1 Cup buttermilk\n1 egg\n8-10 merguez sausages, cooked and cooled\n\u00be Cup cornstarch\nFor dipping: tahini yogurt sauce (see recipe below)",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              72.0,
+              "ounce",
+              "Peanut Oil Or Neutral Oil",
+              "72 oz peanut oil or neutral oil"
+            ],
+            [
+              "1-2",
+              null,
+              "Garlic Cloves",
+              "1-2 garlic cloves, roughly chopped"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Parsley",
+              "\u00bd Cup (loosely packed) parsley, leaves only"
+            ],
+            [
+              1.0,
+              "cup",
+              "Canned Chickpeas",
+              "1 cup canned chickpeas, drained + rinsed"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Olive Oil",
+              "2 Tbsp olive oil"
+            ],
+            [
+              1.5,
+              null,
+              "Cups Chickpea Flour",
+              "1 \u00bd Cups chickpea flour"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Salt",
+              "1 tsp salt"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Cumin",
+              "\u00bd tsp cumin"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Aleppo Pepper",
+              "\u00bd tsp Aleppo pepper"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Baking Powder",
+              "2 tsp baking powder"
+            ],
+            [
+              1.0,
+              null,
+              "Cup Buttermilk",
+              "1 Cup buttermilk"
+            ],
+            [
+              1.0,
+              null,
+              "Egg",
+              "1 egg"
+            ],
+            [
+              "8-10",
+              null,
+              "Merguez Sausages",
+              "8-10 merguez sausages, cooked and cooled"
+            ],
+            [
+              0.75,
+              null,
+              "Cup Cornstarch",
+              "\u00be Cup cornstarch"
+            ],
+            [
+              null,
+              null,
+              "For Dipping: Tahini Yogurt Sauce",
+              "For dipping: tahini yogurt sauce (see recipe below)"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1016",
+          "recipe_id": 1016,
+          "name": "Tahini Yogurt Dipping Sauce",
+          "image_link": null,
+          "raw_ingredient_list": "\u00bd Cup greek yogurt\n2 Tbsp mustard\n\u00bc Cup tahini\n1 Tbsp lemon juice (about \u00bd lemon)\nAs needed kosher salt\nAs needed freshly ground black pepper",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              0.5,
+              null,
+              "Cup Greek Yogurt",
+              "\u00bd Cup greek yogurt"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Mustard",
+              "2 Tbsp mustard"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Tahini",
+              "\u00bc Cup tahini"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Lemon Juice",
+              "1 Tbsp lemon juice (about \u00bd lemon)"
+            ],
+            [
+              null,
+              null,
+              "As Needed Kosher Salt",
+              "As needed kosher salt"
+            ],
+            [
+              null,
+              null,
+              "As Needed Freshly Ground Black Pepper",
+              "As needed freshly ground black pepper"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/truffle-pasta-broad-city",
+    "episode_id": "truffle-pasta-broad-city",
+    "name": "Truffle Pasta inspired by Broad City",
+    "published_date": "2021-05-26",
+    "youtube_link": "https://www.youtube.com/watch?v=7vsW0Ut4gCo",
+    "official_link": "https://www.bingingwithbabish.com/recipes/truffle-pasta-broad-city",
+    "image_link": "https://img.youtube.com/vi/7vsW0Ut4gCo/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/546",
+          "reference_id": 546,
+          "type": null,
+          "name": "Broad City",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1007",
+          "recipe_id": 1007,
+          "name": "Bucatini al Tartufo",
+          "image_link": null,
+          "raw_ingredient_list": "1 wheel parmesan cheese\n1 Tbsp kosher salt + more to taste\n2 Tbsp unsalted butter\n2 Tbsp extra virgin olive oil\n2 oz black truffles, cleaned\n8 oz dried bucatini pasta\n\u00bc Cup brandy\nOptional: black truffle pearls",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "Wheel Parmesan Cheese",
+              "1 wheel parmesan cheese"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Kosher Salt + More To Taste",
+              "1 Tbsp kosher salt + more to taste"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "2 Tbsp unsalted butter"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Extra Virgin Olive Oil",
+              "2 Tbsp extra virgin olive oil"
+            ],
+            [
+              2.0,
+              "ounce",
+              "Black Truffles",
+              "2 oz black truffles, cleaned"
+            ],
+            [
+              8.0,
+              "ounce",
+              "Dried Bucatini Pasta",
+              "8 oz dried bucatini pasta"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Brandy",
+              "\u00bc Cup brandy"
+            ],
+            [
+              null,
+              null,
+              "Optional: Black Truffle Pearls",
+              "Optional: black truffle pearls"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/steak-pinwheels",
+    "episode_id": "steak-pinwheels",
+    "name": "STEAK PINWHEELS",
+    "published_date": "2021-05-20",
+    "youtube_link": "https://www.youtube.com/watch?v=02NINX8OD-A",
+    "official_link": "https://basicswithbabish.co/basicsepisodes/steak-pinwheels",
+    "image_link": "https://img.youtube.com/vi/02NINX8OD-A/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/2",
+        "show_id": 2,
+        "name": "Basics with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1011",
+          "recipe_id": 1011,
+          "name": "Honey Ginger Simple Syrup",
+          "image_link": null,
+          "raw_ingredient_list": "1 Cup honey\n1 Cup water\n\u00bd Cup ginger root, sliced",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "Cup Honey",
+              "1 Cup honey"
+            ],
+            [
+              1.0,
+              null,
+              "Cup Water",
+              "1 Cup water"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Ginger Root",
+              "\u00bd Cup ginger root, sliced"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1009",
+          "recipe_id": 1009,
+          "name": "Pepper Cheesesteak Pinwheels",
+          "image_link": null,
+          "raw_ingredient_list": "~2 lb flank steak slab, trimmed\nAs needed kosher salt\nAs needed freshly ground black pepper\n1 Tbsp neutral oil + more as needed\n2 large yellow onions, sliced\n2 garlic cloves, minced\n1 green bell peppers, thinly sliced\n6 oz provolone cheese, thinly sliced",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              null,
+              null,
+              "~2 Lb Flank Steak Slab",
+              "~2 lb flank steak slab, trimmed"
+            ],
+            [
+              null,
+              null,
+              "As Needed Kosher Salt",
+              "As needed kosher salt"
+            ],
+            [
+              null,
+              null,
+              "As Needed Freshly Ground Black Pepper",
+              "As needed freshly ground black pepper"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Neutral Oil + More As Needed",
+              "1 Tbsp neutral oil + more as needed"
+            ],
+            [
+              2.0,
+              "large",
+              "Yellow Onions",
+              "2 large yellow onions, sliced"
+            ],
+            [
+              2.0,
+              null,
+              "Garlic Cloves",
+              "2 garlic cloves, minced"
+            ],
+            [
+              1.0,
+              null,
+              "Green Bell Peppers",
+              "1 green bell peppers, thinly sliced"
+            ],
+            [
+              6.0,
+              "ounce",
+              "Provolone Cheese",
+              "6 oz provolone cheese, thinly sliced"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1008",
+          "recipe_id": 1008,
+          "name": "Spinach and Mushroom Steak Pinwheels",
+          "image_link": null,
+          "raw_ingredient_list": "~2 lb flank steak slab, trimmed\nAs needed kosher salt\nAs needed freshly ground black pepper\n1 Tbsp neutral oil + more as needed\n8 oz shiitake mushrooms, sliced\n4 oz spinach leaves\n1 clove garlic, minced\n8 oz gruyere, thinly sliced",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              null,
+              null,
+              "~2 Lb Flank Steak Slab",
+              "~2 lb flank steak slab, trimmed"
+            ],
+            [
+              null,
+              null,
+              "As Needed Kosher Salt",
+              "As needed kosher salt"
+            ],
+            [
+              null,
+              null,
+              "As Needed Freshly Ground Black Pepper",
+              "As needed freshly ground black pepper"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Neutral Oil + More As Needed",
+              "1 Tbsp neutral oil + more as needed"
+            ],
+            [
+              8.0,
+              "ounce",
+              "Shiitake Mushrooms",
+              "8 oz shiitake mushrooms, sliced"
+            ],
+            [
+              4.0,
+              "ounce",
+              "Spinach Leaves",
+              "4 oz spinach leaves"
+            ],
+            [
+              1.0,
+              null,
+              "Clove Garlic",
+              "1 clove garlic, minced"
+            ],
+            [
+              8.0,
+              "ounce",
+              "Gruyere",
+              "8 oz gruyere, thinly sliced"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1010",
+          "recipe_id": 1010,
+          "name": "Steak Fajita Pinwheels",
+          "image_link": null,
+          "raw_ingredient_list": "~2 lb flank steak slab, trimmed\nAs needed kosher salt\nAs needed freshly ground black pepper\n1 Tbsp neutral oil + more as needed\n1 large yellow onion, sliced\n2 garlic cloves, minced\n1 red bell pepper, thinly sliced\n1 orange bell pepper, thinly sliced\n2 tsp ground cumin\n1 tsp Mexican oregano\n1 tsp ground chipotle pepper\nZest of 1 lime\n8 oz Oaxaca cheese, hand-shredded",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              null,
+              null,
+              "~2 Lb Flank Steak Slab",
+              "~2 lb flank steak slab, trimmed"
+            ],
+            [
+              null,
+              null,
+              "As Needed Kosher Salt",
+              "As needed kosher salt"
+            ],
+            [
+              null,
+              null,
+              "As Needed Freshly Ground Black Pepper",
+              "As needed freshly ground black pepper"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Neutral Oil + More As Needed",
+              "1 Tbsp neutral oil + more as needed"
+            ],
+            [
+              1.0,
+              "large",
+              "Yellow Onion",
+              "1 large yellow onion, sliced"
+            ],
+            [
+              2.0,
+              null,
+              "Garlic Cloves",
+              "2 garlic cloves, minced"
+            ],
+            [
+              1.0,
+              null,
+              "Red Bell Pepper",
+              "1 red bell pepper, thinly sliced"
+            ],
+            [
+              1.0,
+              null,
+              "Orange Bell Pepper",
+              "1 orange bell pepper, thinly sliced"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Ground Cumin",
+              "2 tsp ground cumin"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Mexican Oregano",
+              "1 tsp Mexican oregano"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Ground Chipotle Pepper",
+              "1 tsp ground chipotle pepper"
+            ],
+            [
+              null,
+              null,
+              "1 Lime",
+              "Zest of 1 lime"
+            ],
+            [
+              8.0,
+              "ounce",
+              "Oaxaca Cheese",
+              "8 oz Oaxaca cheese, hand-shredded"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1012",
+          "recipe_id": 1012,
+          "name": "The Zingleton",
+          "image_link": null,
+          "raw_ingredient_list": "1.5 oz The Singleton 12-Year-Old Single Malt Scotch Whisky\n\u00be oz fresh lemon juice\n\u00bd oz fresh orange juice\n\u00bd oz honey ginger syrup",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.5,
+              "ounce",
+              "The Singleton 12-year-old Single Malt Scotch Whisky",
+              "1.5 oz The Singleton 12-Year-Old Single Malt Scotch Whisky"
+            ],
+            [
+              0.75,
+              "ounce",
+              "Fresh Lemon Juice",
+              "\u00be oz fresh lemon juice"
+            ],
+            [
+              0.5,
+              "ounce",
+              "Fresh Orange Juice",
+              "\u00bd oz fresh orange juice"
+            ],
+            [
+              0.5,
+              "ounce",
+              "Honey Ginger Syrup",
+              "\u00bd oz honey ginger syrup"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/episode/falafels",
     "episode_id": "falafels",
     "name": "FALAFEL",
