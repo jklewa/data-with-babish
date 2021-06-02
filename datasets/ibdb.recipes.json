@@ -17375,6 +17375,55 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1018",
+    "recipe_id": 1018,
+    "name": "Churro Kettle Corn",
+    "image_link": null,
+    "raw_ingredient_list": "3 Tbsp neutral oil\n2 cinnamon sticks\n\u2153 cup popcorn kernels\n\u00bc Cup sugar\nAs needed kosher salt",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        3.0,
+        "tablespoon",
+        "Neutral Oil",
+        "3 Tbsp neutral oil"
+      ],
+      [
+        2.0,
+        null,
+        "Cinnamon Sticks",
+        "2 cinnamon sticks"
+      ],
+      [
+        0.3333333333333333,
+        "cup",
+        "Popcorn Kernels",
+        "\u2153 cup popcorn kernels"
+      ],
+      [
+        0.25,
+        null,
+        "Cup Sugar",
+        "\u00bc Cup sugar"
+      ],
+      [
+        null,
+        null,
+        "As Needed Kosher Salt",
+        "As needed kosher salt"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/kettle-corn-community",
+      "episode_id": "kettle-corn-community",
+      "name": "Kettle Corn inspired by Community",
+      "published_date": "2021-06-02",
+      "youtube_link": "https://www.youtube.com/watch?v=aGPqK_hHA28",
+      "official_link": "https://www.bingingwithbabish.com/recipes/kettle-corn-community",
+      "image_link": "https://img.youtube.com/vi/aGPqK_hHA28/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/443",
     "recipe_id": 443,
     "name": "Cinnamon Babka",
@@ -17994,6 +18043,49 @@
       "youtube_link": "https://www.youtube.com/watch?v=xBGoJUxxRqU",
       "official_link": "https://basicswithbabish.co/basicsepisodes/2017/10/23/eggs",
       "image_link": "https://img.youtube.com/vi/xBGoJUxxRqU/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1017",
+    "recipe_id": 1017,
+    "name": "Classic Kettle Corn",
+    "image_link": null,
+    "raw_ingredient_list": "3 Tbsp neutral oil\n\u2153 cup popcorn kernels\n\u00bc Cup sugar\nAs needed kosher salt",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        3.0,
+        "tablespoon",
+        "Neutral Oil",
+        "3 Tbsp neutral oil"
+      ],
+      [
+        0.3333333333333333,
+        "cup",
+        "Popcorn Kernels",
+        "\u2153 cup popcorn kernels"
+      ],
+      [
+        0.25,
+        null,
+        "Cup Sugar",
+        "\u00bc Cup sugar"
+      ],
+      [
+        null,
+        null,
+        "As Needed Kosher Salt",
+        "As needed kosher salt"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/kettle-corn-community",
+      "episode_id": "kettle-corn-community",
+      "name": "Kettle Corn inspired by Community",
+      "published_date": "2021-06-02",
+      "youtube_link": "https://www.youtube.com/watch?v=aGPqK_hHA28",
+      "official_link": "https://www.bingingwithbabish.com/recipes/kettle-corn-community",
+      "image_link": "https://img.youtube.com/vi/aGPqK_hHA28/mqdefault.jpg"
     }
   },
   {
@@ -59878,6 +59970,55 @@
       "youtube_link": "https://www.youtube.com/watch?v=wcJS3nQjhqM",
       "official_link": "https://www.bingingwithbabish.com/recipes/bananapuddingpizza",
       "image_link": "https://img.youtube.com/vi/wcJS3nQjhqM/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1019",
+    "recipe_id": 1019,
+    "name": "Sweet and Spicy Kettle Corn",
+    "image_link": null,
+    "raw_ingredient_list": "3 Tbsp neutral oil\n1 serrano pepper (or pepper of your choice), halved\n\u2153 cup popcorn kernels\n\u00bc Cup sugar\nAs needed kosher salt",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        3.0,
+        "tablespoon",
+        "Neutral Oil",
+        "3 Tbsp neutral oil"
+      ],
+      [
+        1.0,
+        null,
+        "Serrano Pepper",
+        "1 serrano pepper (or pepper of your choice), halved"
+      ],
+      [
+        0.3333333333333333,
+        "cup",
+        "Popcorn Kernels",
+        "\u2153 cup popcorn kernels"
+      ],
+      [
+        0.25,
+        null,
+        "Cup Sugar",
+        "\u00bc Cup sugar"
+      ],
+      [
+        null,
+        null,
+        "As Needed Kosher Salt",
+        "As needed kosher salt"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/kettle-corn-community",
+      "episode_id": "kettle-corn-community",
+      "name": "Kettle Corn inspired by Community",
+      "published_date": "2021-06-02",
+      "youtube_link": "https://www.youtube.com/watch?v=aGPqK_hHA28",
+      "official_link": "https://www.bingingwithbabish.com/recipes/kettle-corn-community",
+      "image_link": "https://img.youtube.com/vi/aGPqK_hHA28/mqdefault.jpg"
     }
   },
   {

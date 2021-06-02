@@ -6,6 +6,15 @@
     "image_link": null,
     "episodes": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/kettle-corn-community",
+        "episode_id": "kettle-corn-community",
+        "name": "Kettle Corn inspired by Community",
+        "published_date": "2021-06-02",
+        "youtube_link": "https://www.youtube.com/watch?v=aGPqK_hHA28",
+        "official_link": "https://www.bingingwithbabish.com/recipes/kettle-corn-community",
+        "image_link": "https://img.youtube.com/vi/aGPqK_hHA28/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/truffle-pasta-broad-city",
         "episode_id": "truffle-pasta-broad-city",
         "name": "Truffle Pasta inspired by Broad City",
