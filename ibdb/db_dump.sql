@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 12.7 (Debian 12.7-1.pgdg100+1)
--- Dumped by pg_dump version 12.6 (Ubuntu 12.6-0ubuntu0.20.04.1)
+-- Dumped by pg_dump version 12.7 (Ubuntu 12.7-0ubuntu0.20.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -465,6 +465,7 @@ introductiontools	INTRODUCTION/TOOLS	https://www.youtube.com/watch?v=1AxLzMJIgxM
 itsalwayssunnyspecial	It's Always Sunny in Philadelphia Special	https://www.youtube.com/watch?v=Q2ezpExQ_k0	https://www.bingingwithbabish.com/recipes/2017/6/27/itsalwayssunnyspecial	https://img.youtube.com/vi/Q2ezpExQ_k0/mqdefault.jpg	2017-02-20	1
 johnnycakes	Johnny Cakes inspired by The Sopranos	https://www.youtube.com/watch?v=DdFKKZe73Pk	https://www.bingingwithbabish.com/recipes/johnnycakes	https://img.youtube.com/vi/DdFKKZe73Pk/mqdefault.jpg	2018-08-28	1
 judys-hot-cocoa-santa-clause	Judy's Hot Cocoa inspired by the Santa Clause	https://www.youtube.com/watch?v=rBYd_O38Ncw	https://www.bingingwithbabish.com/recipes/judys-hot-cocoa-santa-clause	https://img.youtube.com/vi/rBYd_O38Ncw/mqdefault.jpg	2020-12-22	1
+kettle-corn-community	Kettle Corn inspired by Community	https://www.youtube.com/watch?v=aGPqK_hHA28	https://www.bingingwithbabish.com/recipes/kettle-corn-community	https://img.youtube.com/vi/aGPqK_hHA28/mqdefault.jpg	2021-06-02	1
 kevinschili	Kevin's Famous Chili inspired by The Office	https://www.youtube.com/watch?v=eQ9eY0_DoEk	https://www.bingingwithbabish.com/recipes/2017/1/18/kevinschili	https://img.youtube.com/vi/eQ9eY0_DoEk/mqdefault.jpg	2017-01-18	1
 kfcmeal	KFC Bucket Meal inspired by Stranger Things	https://www.youtube.com/watch?v=WtAoc3_1Ido	https://www.bingingwithbabish.com/recipes/kfcmeal	https://img.youtube.com/vi/WtAoc3_1Ido/mqdefault.jpg	2019-08-07	1
 kimchi	KIMCHI	https://www.youtube.com/watch?v=R0x7ECje-lY	https://basicswithbabish.co/basicsepisodes/kimchi	https://img.youtube.com/vi/R0x7ECje-lY/mqdefault.jpg	2020-08-14	2
@@ -812,6 +813,7 @@ instant-mac-cheese	289
 itsalwayssunnyspecial	10
 johnnycakes	44
 judys-hot-cocoa-santa-clause	330
+kettle-corn-community	303
 kevinschili	80
 kfcmeal	3
 kingofthehillspecial	37
@@ -2067,6 +2069,9 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 1014	Breakfast Corn Dogs	\N	72 oz peanut oil or neutral oil\n1 Tbsp fine cornmeal\n1 ¾ Cup all-purpose flour\n2 tsp baking powder\n2 Tbsp sugar\n1 tsp kosher salt\n1 ¼ Cup buttermilk\n2 Tbsp unsalted butter, melted + cooled\n1 large egg\n2 Tbsp maple syrup\n½ tsp vanilla extract\n8-10 breakfast sausages, cooked and cooled\n¾ Cup cornstarch\nFor dipping: maple syrup and jam		corn-dogs
 1015	Falafel Corn Dogs	\N	72 oz peanut oil or neutral oil\n1-2 garlic cloves, roughly chopped\n½ Cup (loosely packed) parsley, leaves only\n1 cup canned chickpeas, drained + rinsed\n2 Tbsp olive oil\n1 ½ Cups chickpea flour\n1 tsp salt\n½ tsp cumin\n½ tsp Aleppo pepper\n2 tsp baking powder\n1 Cup buttermilk\n1 egg\n8-10 merguez sausages, cooked and cooled\n¾ Cup cornstarch\nFor dipping: tahini yogurt sauce (see recipe below)		corn-dogs
 1016	Tahini Yogurt Dipping Sauce	\N	½ Cup greek yogurt\n2 Tbsp mustard\n¼ Cup tahini\n1 Tbsp lemon juice (about ½ lemon)\nAs needed kosher salt\nAs needed freshly ground black pepper		corn-dogs
+1017	Classic Kettle Corn	\N	3 Tbsp neutral oil\n⅓ cup popcorn kernels\n¼ Cup sugar\nAs needed kosher salt		kettle-corn-community
+1018	Churro Kettle Corn	\N	3 Tbsp neutral oil\n2 cinnamon sticks\n⅓ cup popcorn kernels\n¼ Cup sugar\nAs needed kosher salt		kettle-corn-community
+1019	Sweet and Spicy Kettle Corn	\N	3 Tbsp neutral oil\n1 serrano pepper (or pepper of your choice), halved\n⅓ cup popcorn kernels\n¼ Cup sugar\nAs needed kosher salt		kettle-corn-community
 \.
 
 
@@ -2325,7 +2330,7 @@ SELECT pg_catalog.setval('public.guest_id_seq', 33, true);
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 1016, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 1019, true);
 
 
 --

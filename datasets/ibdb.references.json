@@ -1011,6 +1011,15 @@
     "image_link": null,
     "episodes_inspired": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/kettle-corn-community",
+        "episode_id": "kettle-corn-community",
+        "name": "Kettle Corn inspired by Community",
+        "published_date": "2021-06-02",
+        "youtube_link": "https://www.youtube.com/watch?v=aGPqK_hHA28",
+        "official_link": "https://www.bingingwithbabish.com/recipes/kettle-corn-community",
+        "image_link": "https://img.youtube.com/vi/aGPqK_hHA28/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/chicken-fingers-community",
         "episode_id": "chicken-fingers-community",
         "name": "Chicken Fingers inspired by Community",
