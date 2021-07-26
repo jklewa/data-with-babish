@@ -156,6 +156,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/548",
+    "reference_id": 548,
+    "type": null,
+    "name": "American Dad",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/meatghetti-spagballs-american-dad",
+        "episode_id": "meatghetti-spagballs-american-dad",
+        "name": "Meat-ghetti and Spag-balls inspired by American Dad",
+        "published_date": "2021-06-21",
+        "youtube_link": "https://www.youtube.com/watch?v=PwbgLteVwvs",
+        "official_link": "https://www.bingingwithbabish.com/recipes/meatghetti-spagballs-american-dad",
+        "image_link": "https://img.youtube.com/vi/PwbgLteVwvs/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/115",
     "reference_id": 115,
     "type": "movie",
@@ -2513,6 +2533,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/549",
+    "reference_id": 549,
+    "type": null,
+    "name": "Luca",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/trenette-el-pesto-luca",
+        "episode_id": "trenette-el-pesto-luca",
+        "name": "Trenette el Pesto inspired by Luca",
+        "published_date": "2021-07-07",
+        "youtube_link": "https://www.youtube.com/watch?v=bWX0-NEjyNQ",
+        "official_link": "https://www.bingingwithbabish.com/recipes/trenette-el-pesto-luca",
+        "image_link": "https://img.youtube.com/vi/bWX0-NEjyNQ/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/130",
     "reference_id": 130,
     "type": "tv_show",
@@ -3303,6 +3343,15 @@
     "image_link": "https://i.ytimg.com/sh/ySdGZtRK67xmuBIbN5d65w/market.jpg",
     "episodes_inspired": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/pork-picnic-sandwich-regular-show",
+        "episode_id": "pork-picnic-sandwich-regular-show",
+        "name": "Pork Picnic Sandwich inspired by Regular Show",
+        "published_date": "2021-06-23",
+        "youtube_link": "https://www.youtube.com/watch?v=mMle42fPNn0",
+        "official_link": "https://www.bingingwithbabish.com/recipes/pork-picnic-sandwich-regular-show",
+        "image_link": "https://img.youtube.com/vi/mMle42fPNn0/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/regular-show-mississippi-queen",
         "episode_id": "regular-show-mississippi-queen",
         "name": "Mississippi Queen inspired by Regular Show",
@@ -4090,6 +4139,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/547",
+    "reference_id": 547,
+    "type": null,
+    "name": "Teenage Mutant Ninja Turtles",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/pizza-gyoza-tmnt",
+        "episode_id": "pizza-gyoza-tmnt",
+        "name": "Pizza Gyoza inspired by Teenage Mutant Ninja Turtles",
+        "published_date": "2021-06-09",
+        "youtube_link": "https://www.youtube.com/watch?v=ah5G2EXKgvA",
+        "official_link": "https://www.bingingwithbabish.com/recipes/pizza-gyoza-tmnt",
+        "image_link": "https://img.youtube.com/vi/ah5G2EXKgvA/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/109",
     "reference_id": 109,
     "type": "movie",
@@ -4760,6 +4829,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/551",
+    "reference_id": 551,
+    "type": null,
+    "name": "The Sims",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/the-sims-special",
+        "episode_id": "the-sims-special",
+        "name": "The Sims Special",
+        "published_date": "2021-07-26",
+        "youtube_link": "https://www.youtube.com/watch?v=z4Bwb8_k7yM",
+        "official_link": "https://www.bingingwithbabish.com/recipes/the-sims-special",
+        "image_link": "https://img.youtube.com/vi/z4Bwb8_k7yM/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/44",
     "reference_id": 44,
     "type": "tv_show",
@@ -4894,6 +4983,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=KUu2gJn1dzc",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/16/nypizzatmnt",
         "image_link": "https://img.youtube.com/vi/KUu2gJn1dzc/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/550",
+    "reference_id": 550,
+    "type": null,
+    "name": "Trollhunters",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/trollhunters-meatloaf-sandwich",
+        "episode_id": "trollhunters-meatloaf-sandwich",
+        "name": "Meatloaf Sandwich inspired by Trollhunters: Tales of Arcadia",
+        "published_date": "2021-07-20",
+        "youtube_link": "https://www.youtube.com/watch?v=7SpXCwU5AiI",
+        "official_link": "https://www.bingingwithbabish.com/recipes/trollhunters-meatloaf-sandwich",
+        "image_link": "https://img.youtube.com/vi/7SpXCwU5AiI/mqdefault.jpg"
       }
     ]
   },

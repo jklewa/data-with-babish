@@ -384,6 +384,79 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1031",
+    "recipe_id": 1031,
+    "name": "Alabama Style White Sauce",
+    "image_link": null,
+    "raw_ingredient_list": "1 Cup mayonnaise\n\u2153 Cup white distilled vinegar\n2 tsp creole mustard\n1 tsp prepared horseradish\n1 tsp lemon juice\n1 garlic cloves, minced\n\u00bc tsp cayenne\nTo taste kosher salt\nTo taste freshly ground black pepper",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        null,
+        "Cup Mayonnaise",
+        "1 Cup mayonnaise"
+      ],
+      [
+        0.3333333333333333,
+        null,
+        "Cup White Distilled Vinegar",
+        "\u2153 Cup white distilled vinegar"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "Creole Mustard",
+        "2 tsp creole mustard"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Prepared Horseradish",
+        "1 tsp prepared horseradish"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Lemon Juice",
+        "1 tsp lemon juice"
+      ],
+      [
+        1.0,
+        null,
+        "Garlic Cloves",
+        "1 garlic cloves, minced"
+      ],
+      [
+        0.25,
+        "teaspoon",
+        "Cayenne",
+        "\u00bc tsp cayenne"
+      ],
+      [
+        null,
+        null,
+        "To Taste Kosher Salt",
+        "To taste kosher salt"
+      ],
+      [
+        null,
+        null,
+        "To Taste Freshly Ground Black Pepper",
+        "To taste freshly ground black pepper"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/pork-picnic-sandwich-regular-show",
+      "episode_id": "pork-picnic-sandwich-regular-show",
+      "name": "Pork Picnic Sandwich inspired by Regular Show",
+      "published_date": "2021-06-23",
+      "youtube_link": "https://www.youtube.com/watch?v=mMle42fPNn0",
+      "official_link": "https://www.bingingwithbabish.com/recipes/pork-picnic-sandwich-regular-show",
+      "image_link": "https://img.youtube.com/vi/mMle42fPNn0/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/335",
     "recipe_id": 335,
     "name": "Al Pastor",
@@ -1509,6 +1582,157 @@
       "youtube_link": "https://www.youtube.com/watch?v=8ti1quN-jKs",
       "official_link": "https://www.bingingwithbabish.com/recipes/sourdough-broccoli-pizza-inside-out",
       "image_link": "https://img.youtube.com/vi/8ti1quN-jKs/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1043",
+    "recipe_id": 1043,
+    "name": "Aubergine Parmesan",
+    "image_link": null,
+    "raw_ingredient_list": "1 large or 2 medium aubergines (eggplants)\nAs needed kosher salt\n3 Tbsp olive oil\n1 yellow onion\n4 garlic cloves\n\u00bc tsp crushed red pepper flakes\n\u00bd tsp dried oregano\n2 Tbsp tomato paste\n2 (28-oz) cans hand crushed San Marzano tomatoes\n1 large sprig basil + more to garnish\n2 Cups all-purpose flour\n1 tsp kosher salt\n1 tsp freshly ground black pepper\n4 eggs, beaten\n2\u00a0 Cups breadcrumbs\n1 tsp dried basil\n1 tsp dried parsley\n\u00bd tsp dried oregano\nAs needed fry oil\n8 oz low moisture mozzarella cheese, thinly sliced\n4 oz parmesan cheese, grated\n6 slices fresh (high moisture) mozzarella",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        "large",
+        "Or 2 Medium Aubergines",
+        "1 large or 2 medium aubergines (eggplants)"
+      ],
+      [
+        null,
+        null,
+        "As Needed Kosher Salt",
+        "As needed kosher salt"
+      ],
+      [
+        3.0,
+        "tablespoon",
+        "Olive Oil",
+        "3 Tbsp olive oil"
+      ],
+      [
+        1.0,
+        null,
+        "Yellow Onion",
+        "1 yellow onion"
+      ],
+      [
+        4.0,
+        null,
+        "Garlic Cloves",
+        "4 garlic cloves"
+      ],
+      [
+        0.25,
+        "teaspoon",
+        "Crushed Red Pepper Flakes",
+        "\u00bc tsp crushed red pepper flakes"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Dried Oregano",
+        "\u00bd tsp dried oregano"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Tomato Paste",
+        "2 Tbsp tomato paste"
+      ],
+      [
+        2.0,
+        null,
+        "Cans Hand Crushed San Marzano Tomatoes",
+        "2 (28-oz) cans hand crushed San Marzano tomatoes"
+      ],
+      [
+        1.0,
+        "large",
+        "Sprig Basil + More To Garnish",
+        "1 large sprig basil + more to garnish"
+      ],
+      [
+        2.0,
+        null,
+        "Cups All-purpose Flour",
+        "2 Cups all-purpose flour"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Kosher Salt",
+        "1 tsp kosher salt"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Freshly Ground Black Pepper",
+        "1 tsp freshly ground black pepper"
+      ],
+      [
+        4.0,
+        null,
+        "Eggs",
+        "4 eggs, beaten"
+      ],
+      [
+        2.0,
+        null,
+        "Cups Breadcrumbs",
+        "2 Cups breadcrumbs"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Dried Basil",
+        "1 tsp dried basil"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Dried Parsley",
+        "1 tsp dried parsley"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Dried Oregano",
+        "\u00bd tsp dried oregano"
+      ],
+      [
+        null,
+        null,
+        "As Needed Fry Oil",
+        "As needed fry oil"
+      ],
+      [
+        8.0,
+        "ounce",
+        "Low Moisture Mozzarella Cheese",
+        "8 oz low moisture mozzarella cheese, thinly sliced"
+      ],
+      [
+        4.0,
+        "ounce",
+        "Parmesan Cheese",
+        "4 oz parmesan cheese, grated"
+      ],
+      [
+        6.0,
+        null,
+        "Slices Fresh Mozzarella",
+        "6 slices fresh (high moisture) mozzarella"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/the-sims-special",
+      "episode_id": "the-sims-special",
+      "name": "The Sims Special",
+      "published_date": "2021-07-26",
+      "youtube_link": "https://www.youtube.com/watch?v=z4Bwb8_k7yM",
+      "official_link": "https://www.bingingwithbabish.com/recipes/the-sims-special",
+      "image_link": "https://img.youtube.com/vi/z4Bwb8_k7yM/mqdefault.jpg"
     }
   },
   {
@@ -3464,6 +3688,140 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1046",
+    "recipe_id": 1046,
+    "name": "Baked Alaska",
+    "image_link": null,
+    "raw_ingredient_list": "48 oz vanilla ice cream, slightly softened\n48 oz strawberry ice cream, slightly softened\n48 oz chocolate ice cream, slightly softened\nBase cake\nItalian Meringue\n12 oz high-proof (80) alcohol",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        48.0,
+        "ounce",
+        "Vanilla Ice Cream",
+        "48 oz vanilla ice cream, slightly softened"
+      ],
+      [
+        48.0,
+        "ounce",
+        "Strawberry Ice Cream",
+        "48 oz strawberry ice cream, slightly softened"
+      ],
+      [
+        48.0,
+        "ounce",
+        "Chocolate Ice Cream",
+        "48 oz chocolate ice cream, slightly softened"
+      ],
+      [
+        null,
+        null,
+        "Base Cake",
+        "Base cake"
+      ],
+      [
+        null,
+        null,
+        "Italian Meringue",
+        "Italian Meringue"
+      ],
+      [
+        12.0,
+        "ounce",
+        "High-proof Alcohol",
+        "12 oz high-proof (80) alcohol"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/the-sims-special",
+      "episode_id": "the-sims-special",
+      "name": "The Sims Special",
+      "published_date": "2021-07-26",
+      "youtube_link": "https://www.youtube.com/watch?v=z4Bwb8_k7yM",
+      "official_link": "https://www.bingingwithbabish.com/recipes/the-sims-special",
+      "image_link": "https://img.youtube.com/vi/z4Bwb8_k7yM/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1032",
+    "recipe_id": 1032,
+    "name": "Baked Beans",
+    "image_link": null,
+    "raw_ingredient_list": "1 package thick-cut bacon, cubed\n1 large onion, diced\n2 Cups water, warm\n2 (15 oz) can navy beans\n1 bay leaf\n2 Tbsp brown sugar\n2 Tbsp molasses\n1 tsp dried mustard powder\nTo taste kosher salt\nTo taste freshly ground black pepper",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        null,
+        "Package Thick-cut Bacon",
+        "1 package thick-cut bacon, cubed"
+      ],
+      [
+        1.0,
+        "large",
+        "Onion",
+        "1 large onion, diced"
+      ],
+      [
+        2.0,
+        null,
+        "Cups Water",
+        "2 Cups water, warm"
+      ],
+      [
+        2.0,
+        null,
+        "Can Navy Beans",
+        "2 (15 oz) can navy beans"
+      ],
+      [
+        1.0,
+        null,
+        "Bay Leaf",
+        "1 bay leaf"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Brown Sugar",
+        "2 Tbsp brown sugar"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Molasses",
+        "2 Tbsp molasses"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Dried Mustard Powder",
+        "1 tsp dried mustard powder"
+      ],
+      [
+        null,
+        null,
+        "To Taste Kosher Salt",
+        "To taste kosher salt"
+      ],
+      [
+        null,
+        null,
+        "To Taste Freshly Ground Black Pepper",
+        "To taste freshly ground black pepper"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/pork-picnic-sandwich-regular-show",
+      "episode_id": "pork-picnic-sandwich-regular-show",
+      "name": "Pork Picnic Sandwich inspired by Regular Show",
+      "published_date": "2021-06-23",
+      "youtube_link": "https://www.youtube.com/watch?v=mMle42fPNn0",
+      "official_link": "https://www.bingingwithbabish.com/recipes/pork-picnic-sandwich-regular-show",
+      "image_link": "https://img.youtube.com/vi/mMle42fPNn0/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/251",
     "recipe_id": 251,
     "name": "Baked Shrimp",
@@ -3757,6 +4115,67 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1044",
+    "recipe_id": 1044,
+    "name": "Base Cake",
+    "image_link": null,
+    "raw_ingredient_list": "2 large eggs\n50 g granulated sugar\n30 g all purpose flour\n20 g cocoa powder\n\u00bd tsp baking powder\n\u00bc tsp kosher salt\n20 g unsalted butter, melted + cooled",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        2.0,
+        "large",
+        "Eggs",
+        "2 large eggs"
+      ],
+      [
+        50.0,
+        "gram",
+        "Granulated Sugar",
+        "50 g granulated sugar"
+      ],
+      [
+        30.0,
+        "gram",
+        "All Purpose Flour",
+        "30 g all purpose flour"
+      ],
+      [
+        20.0,
+        "gram",
+        "Cocoa Powder",
+        "20 g cocoa powder"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Baking Powder",
+        "\u00bd tsp baking powder"
+      ],
+      [
+        0.25,
+        "teaspoon",
+        "Kosher Salt",
+        "\u00bc tsp kosher salt"
+      ],
+      [
+        20.0,
+        "gram",
+        "Unsalted Butter",
+        "20 g unsalted butter, melted + cooled"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/the-sims-special",
+      "episode_id": "the-sims-special",
+      "name": "The Sims Special",
+      "published_date": "2021-07-26",
+      "youtube_link": "https://www.youtube.com/watch?v=z4Bwb8_k7yM",
+      "official_link": "https://www.bingingwithbabish.com/recipes/the-sims-special",
+      "image_link": "https://img.youtube.com/vi/z4Bwb8_k7yM/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/789",
     "recipe_id": 789,
     "name": "Basic",
@@ -3922,6 +4341,85 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1025",
+    "recipe_id": 1025,
+    "name": "Basic Meat-ghetti",
+    "image_link": null,
+    "raw_ingredient_list": "1 \u00bd oz breadcrumbs\n1 \u00bd oz milk\n\u00be tsp garlic powder\n\u00bd tsp onion powder\n\u00be tsp dried basil\n1 tsp dried oregano\n\u00be tsp freshly ground black pepper\n\u00be tsp kosher salt\n1 lb ground beef\n1 large egg",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.5,
+        "ounce",
+        "Breadcrumbs",
+        "1 \u00bd oz breadcrumbs"
+      ],
+      [
+        1.5,
+        "ounce",
+        "Milk",
+        "1 \u00bd oz milk"
+      ],
+      [
+        0.75,
+        "teaspoon",
+        "Garlic Powder",
+        "\u00be tsp garlic powder"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Onion Powder",
+        "\u00bd tsp onion powder"
+      ],
+      [
+        0.75,
+        "teaspoon",
+        "Dried Basil",
+        "\u00be tsp dried basil"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Dried Oregano",
+        "1 tsp dried oregano"
+      ],
+      [
+        0.75,
+        "teaspoon",
+        "Freshly Ground Black Pepper",
+        "\u00be tsp freshly ground black pepper"
+      ],
+      [
+        0.75,
+        "teaspoon",
+        "Kosher Salt",
+        "\u00be tsp kosher salt"
+      ],
+      [
+        1.0,
+        "lb",
+        "Ground Beef",
+        "1 lb ground beef"
+      ],
+      [
+        1.0,
+        "large",
+        "Egg",
+        "1 large egg"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/meatghetti-spagballs-american-dad",
+      "episode_id": "meatghetti-spagballs-american-dad",
+      "name": "Meat-ghetti and Spag-balls inspired by American Dad",
+      "published_date": "2021-06-21",
+      "youtube_link": "https://www.youtube.com/watch?v=PwbgLteVwvs",
+      "official_link": "https://www.bingingwithbabish.com/recipes/meatghetti-spagballs-american-dad",
+      "image_link": "https://img.youtube.com/vi/PwbgLteVwvs/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/912",
     "recipe_id": 912,
     "name": "Basic Orange Sauce",
@@ -4028,6 +4526,31 @@
       "youtube_link": "https://www.youtube.com/watch?v=8iCWUvHMPxQ",
       "official_link": "https://www.bingingwithbabish.com/recipes/sugar-chicken-rick-and-morty",
       "image_link": "https://img.youtube.com/vi/8iCWUvHMPxQ/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1026",
+    "recipe_id": 1026,
+    "name": "Basic Spag-balls",
+    "image_link": null,
+    "raw_ingredient_list": "8 oz fresh spaghetti pasta",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        8.0,
+        "ounce",
+        "Fresh Spaghetti Pasta",
+        "8 oz fresh spaghetti pasta"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/meatghetti-spagballs-american-dad",
+      "episode_id": "meatghetti-spagballs-american-dad",
+      "name": "Meat-ghetti and Spag-balls inspired by American Dad",
+      "published_date": "2021-06-21",
+      "youtube_link": "https://www.youtube.com/watch?v=PwbgLteVwvs",
+      "official_link": "https://www.bingingwithbabish.com/recipes/meatghetti-spagballs-american-dad",
+      "image_link": "https://img.youtube.com/vi/PwbgLteVwvs/mqdefault.jpg"
     }
   },
   {
@@ -6357,9 +6880,9 @@
       "episode_id": "quiche",
       "name": "QUICHE",
       "published_date": "2021-03-18",
-      "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+      "youtube_link": "https://www.youtube.com/watch?v=6EuzOQOnX2A",
       "official_link": "https://basicswithbabish.co/basicsepisodes/quiche",
-      "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg"
+      "image_link": "https://img.youtube.com/vi/6EuzOQOnX2A/mqdefault.jpg"
     }
   },
   {
@@ -11053,6 +11576,110 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1068",
+    "recipe_id": 1068,
+    "name": "Candied Peanuts",
+    "image_link": null,
+    "raw_ingredient_list": "10 oz roasted peanuts\n5 oz granulated sugar\n3 oz water\nTo taste kosher salt",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        10.0,
+        "ounce",
+        "Roasted Peanuts",
+        "10 oz roasted peanuts"
+      ],
+      [
+        5.0,
+        "ounce",
+        "Granulated Sugar",
+        "5 oz granulated sugar"
+      ],
+      [
+        3.0,
+        "ounce",
+        "Water",
+        "3 oz water"
+      ],
+      [
+        null,
+        null,
+        "To Taste Kosher Salt",
+        "To taste kosher salt"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/ice-cream-cake",
+      "episode_id": "ice-cream-cake",
+      "name": "ICE CREAM CAKE",
+      "published_date": "2021-07-20",
+      "youtube_link": "https://www.youtube.com/watch?v=sTntmGwbf_U",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/ice-cream-cake",
+      "image_link": "https://img.youtube.com/vi/sTntmGwbf_U/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1075",
+    "recipe_id": 1075,
+    "name": "Candy Bar Ice Cream Cake",
+    "image_link": null,
+    "raw_ingredient_list": "Cookie Crunch Base\nVanilla Ice Cream Base\nChocolate Fudge Sauce\nCaramel Sauce, cooled\n2 Cups Candied Peanuts\nChocolate Ice Cream Base\nChocolate Ganache, cooled to about 80 \u00b0F",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        null,
+        null,
+        "Cookie Crunch Base",
+        "Cookie Crunch Base"
+      ],
+      [
+        null,
+        null,
+        "Vanilla Ice Cream Base",
+        "Vanilla Ice Cream Base"
+      ],
+      [
+        null,
+        null,
+        "Chocolate Fudge Sauce",
+        "Chocolate Fudge Sauce"
+      ],
+      [
+        null,
+        null,
+        "Caramel Sauce",
+        "Caramel Sauce, cooled"
+      ],
+      [
+        2.0,
+        null,
+        "Cups Candied Peanuts",
+        "2 Cups Candied Peanuts"
+      ],
+      [
+        null,
+        null,
+        "Chocolate Ice Cream Base",
+        "Chocolate Ice Cream Base"
+      ],
+      [
+        null,
+        null,
+        "Chocolate Ganache",
+        "Chocolate Ganache, cooled to about 80 \u00b0F"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/ice-cream-cake",
+      "episode_id": "ice-cream-cake",
+      "name": "ICE CREAM CAKE",
+      "published_date": "2021-07-20",
+      "youtube_link": "https://www.youtube.com/watch?v=sTntmGwbf_U",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/ice-cream-cake",
+      "image_link": "https://img.youtube.com/vi/sTntmGwbf_U/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/326",
     "recipe_id": 326,
     "name": "Candy Meth",
@@ -11632,6 +12259,43 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1076",
+    "recipe_id": 1076,
+    "name": "Caramelized Onion",
+    "image_link": null,
+    "raw_ingredient_list": "2 yellow onions, thinly sliced\n1 Tbsp olive oil\nAs needed water",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        2.0,
+        null,
+        "Yellow Onions",
+        "2 yellow onions, thinly sliced"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Olive Oil",
+        "1 Tbsp olive oil"
+      ],
+      [
+        null,
+        null,
+        "As Needed Water",
+        "As needed water"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/steakhouse-burgers",
+      "episode_id": "steakhouse-burgers",
+      "name": "STEAKHOUSE BURGER",
+      "published_date": "2021-07-26",
+      "youtube_link": "https://www.youtube.com/watch?v=9c_Tn4dnGIU",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/steakhouse-burgers",
+      "image_link": "https://img.youtube.com/vi/9c_Tn4dnGIU/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/942",
     "recipe_id": 942,
     "name": "Caramelize Leeks",
@@ -11669,9 +12333,9 @@
       "episode_id": "quiche",
       "name": "QUICHE",
       "published_date": "2021-03-18",
-      "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+      "youtube_link": "https://www.youtube.com/watch?v=6EuzOQOnX2A",
       "official_link": "https://basicswithbabish.co/basicsepisodes/quiche",
-      "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg"
+      "image_link": "https://img.youtube.com/vi/6EuzOQOnX2A/mqdefault.jpg"
     }
   },
   {
@@ -11764,6 +12428,55 @@
       "youtube_link": "https://www.youtube.com/watch?v=27mUWs2wjPs",
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/29/moonwaffles",
       "image_link": "https://img.youtube.com/vi/27mUWs2wjPs/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1069",
+    "recipe_id": 1069,
+    "name": "Caramel Sauce",
+    "image_link": null,
+    "raw_ingredient_list": "8 oz granulated sugar\n2 \u00bd oz water\n2 oz unsalted butter\n4 oz cream\nTo taste kosher salt",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        8.0,
+        "ounce",
+        "Granulated Sugar",
+        "8 oz granulated sugar"
+      ],
+      [
+        2.5,
+        "ounce",
+        "Water",
+        "2 \u00bd oz water"
+      ],
+      [
+        2.0,
+        "ounce",
+        "Unsalted Butter",
+        "2 oz unsalted butter"
+      ],
+      [
+        4.0,
+        "ounce",
+        "Cream",
+        "4 oz cream"
+      ],
+      [
+        null,
+        null,
+        "To Taste Kosher Salt",
+        "To taste kosher salt"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/ice-cream-cake",
+      "episode_id": "ice-cream-cake",
+      "name": "ICE CREAM CAKE",
+      "published_date": "2021-07-20",
+      "youtube_link": "https://www.youtube.com/watch?v=sTntmGwbf_U",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/ice-cream-cake",
+      "image_link": "https://img.youtube.com/vi/sTntmGwbf_U/mqdefault.jpg"
     }
   },
   {
@@ -16816,6 +17529,79 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1048",
+    "recipe_id": 1048,
+    "name": "Chocolate Cookie Dough",
+    "image_link": null,
+    "raw_ingredient_list": "8 oz unsalted butter\n9 \u00be oz brown sugar\n4 \u00bd oz granulated white sugar\n2 eggs, cold\n7 \u00bd oz all-purpose flour\n4 oz dutch processed cocoa powder\n1 Tbsp kosher salt\n\u00bd tsp baking soda\n1 tsp instant espresso powder",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        8.0,
+        "ounce",
+        "Unsalted Butter",
+        "8 oz unsalted butter"
+      ],
+      [
+        9.75,
+        "ounce",
+        "Brown Sugar",
+        "9 \u00be oz brown sugar"
+      ],
+      [
+        4.5,
+        "ounce",
+        "Granulated White Sugar",
+        "4 \u00bd oz granulated white sugar"
+      ],
+      [
+        2.0,
+        null,
+        "Eggs",
+        "2 eggs, cold"
+      ],
+      [
+        7.5,
+        "ounce",
+        "All-purpose Flour",
+        "7 \u00bd oz all-purpose flour"
+      ],
+      [
+        4.0,
+        "ounce",
+        "Dutch Processed Cocoa Powder",
+        "4 oz dutch processed cocoa powder"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Kosher Salt",
+        "1 Tbsp kosher salt"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Baking Soda",
+        "\u00bd tsp baking soda"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Instant Espresso Powder",
+        "1 tsp instant espresso powder"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/cookie-dough",
+      "episode_id": "cookie-dough",
+      "name": "COOKIE DOUGH",
+      "published_date": "2021-06-04",
+      "youtube_link": "https://www.youtube.com/watch?v=Il1Cy4tQCkk",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/cookie-dough",
+      "image_link": "https://img.youtube.com/vi/Il1Cy4tQCkk/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/972",
     "recipe_id": 972,
     "name": "Chocolate Cremeux",
@@ -16901,6 +17687,86 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1073",
+    "recipe_id": 1073,
+    "name": "Chocolate Fudge Filling",
+    "image_link": null,
+    "raw_ingredient_list": "1 large can evaporated milk\n4 oz unsalted butter\n2 oz bittersweet chocolate\n5 oz granulated sugar",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        "large",
+        "Can Evaporated Milk",
+        "1 large can evaporated milk"
+      ],
+      [
+        4.0,
+        "ounce",
+        "Unsalted Butter",
+        "4 oz unsalted butter"
+      ],
+      [
+        2.0,
+        "ounce",
+        "Bittersweet Chocolate",
+        "2 oz bittersweet chocolate"
+      ],
+      [
+        5.0,
+        "ounce",
+        "Granulated Sugar",
+        "5 oz granulated sugar"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/ice-cream-cake",
+      "episode_id": "ice-cream-cake",
+      "name": "ICE CREAM CAKE",
+      "published_date": "2021-07-20",
+      "youtube_link": "https://www.youtube.com/watch?v=sTntmGwbf_U",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/ice-cream-cake",
+      "image_link": "https://img.youtube.com/vi/sTntmGwbf_U/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1074",
+    "recipe_id": 1074,
+    "name": "Chocolate Ganache",
+    "image_link": null,
+    "raw_ingredient_list": "9 oz dark chocolate, finely chopped\n6 \u00bd oz heavy cream\nTo taste kosher salt",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        9.0,
+        "ounce",
+        "Dark Chocolate",
+        "9 oz dark chocolate, finely chopped"
+      ],
+      [
+        6.5,
+        "ounce",
+        "Heavy Cream",
+        "6 \u00bd oz heavy cream"
+      ],
+      [
+        null,
+        null,
+        "To Taste Kosher Salt",
+        "To taste kosher salt"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/ice-cream-cake",
+      "episode_id": "ice-cream-cake",
+      "name": "ICE CREAM CAKE",
+      "published_date": "2021-07-20",
+      "youtube_link": "https://www.youtube.com/watch?v=sTntmGwbf_U",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/ice-cream-cake",
+      "image_link": "https://img.youtube.com/vi/sTntmGwbf_U/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/174",
     "recipe_id": 174,
     "name": "Chocolate Glaze",
@@ -16941,6 +17807,85 @@
       "youtube_link": "https://www.youtube.com/watch?v=9PWomdbZi2U",
       "official_link": "https://basicswithbabish.co/basicsepisodes/donuts",
       "image_link": "https://img.youtube.com/vi/9PWomdbZi2U/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1071",
+    "recipe_id": 1071,
+    "name": "Chocolate Ice Cream Base (Cr\u00e8me Anglaise)",
+    "image_link": null,
+    "raw_ingredient_list": "15 oz whole milk\n12 oz heavy cream\n1 vanilla bean, seeds + pod\n6 \u00be oz granulated sugar\n1 oz cocoa powder\n\u00bd tsp espresso powder\n6 large egg yolks\n1 tsp kosher salt\n2 tsp vanilla extract\n4 oz dark chocolate, chopped",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        15.0,
+        "ounce",
+        "Milk",
+        "15 oz whole milk"
+      ],
+      [
+        12.0,
+        "ounce",
+        "Heavy Cream",
+        "12 oz heavy cream"
+      ],
+      [
+        1.0,
+        null,
+        "Vanilla Bean",
+        "1 vanilla bean, seeds + pod"
+      ],
+      [
+        6.75,
+        "ounce",
+        "Granulated Sugar",
+        "6 \u00be oz granulated sugar"
+      ],
+      [
+        1.0,
+        "ounce",
+        "Cocoa Powder",
+        "1 oz cocoa powder"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Espresso Powder",
+        "\u00bd tsp espresso powder"
+      ],
+      [
+        6.0,
+        "large",
+        "Egg Yolks",
+        "6 large egg yolks"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Kosher Salt",
+        "1 tsp kosher salt"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "Vanilla Extract",
+        "2 tsp vanilla extract"
+      ],
+      [
+        4.0,
+        "ounce",
+        "Dark Chocolate",
+        "4 oz dark chocolate, chopped"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/ice-cream-cake",
+      "episode_id": "ice-cream-cake",
+      "name": "ICE CREAM CAKE",
+      "published_date": "2021-07-20",
+      "youtube_link": "https://www.youtube.com/watch?v=sTntmGwbf_U",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/ice-cream-cake",
+      "image_link": "https://img.youtube.com/vi/sTntmGwbf_U/mqdefault.jpg"
     }
   },
   {
@@ -17129,6 +18074,85 @@
       "youtube_link": "https://www.youtube.com/watch?v=NgloGi5xEa8",
       "official_link": "https://www.bingingwithbabish.com/recipes/piesfromwaitress",
       "image_link": "https://img.youtube.com/vi/NgloGi5xEa8/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1067",
+    "recipe_id": 1067,
+    "name": "Chopped Cheese",
+    "image_link": null,
+    "raw_ingredient_list": "4 Tbsp neutral oil\n2 pre-formed hamburger patties\n2 onions, chopped\nAdobo seasoning\n3 slices American cheese\nIceberg lettuce, very finely chopped\nTomato, thinly sliced\nHoagie rolls, toasted\nMayo\nKetchup",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        4.0,
+        "tablespoon",
+        "Neutral Oil",
+        "4 Tbsp neutral oil"
+      ],
+      [
+        2.0,
+        null,
+        "Pre-formed Hamburger Patties",
+        "2 pre-formed hamburger patties"
+      ],
+      [
+        2.0,
+        null,
+        "Onions",
+        "2 onions, chopped"
+      ],
+      [
+        null,
+        null,
+        "Adobo Seasoning",
+        "Adobo seasoning"
+      ],
+      [
+        3.0,
+        null,
+        "Slices American Cheese",
+        "3 slices American cheese"
+      ],
+      [
+        null,
+        null,
+        "Iceberg Lettuce",
+        "Iceberg lettuce, very finely chopped"
+      ],
+      [
+        null,
+        null,
+        "Tomato",
+        "Tomato, thinly sliced"
+      ],
+      [
+        null,
+        null,
+        "Hoagie Rolls",
+        "Hoagie rolls, toasted"
+      ],
+      [
+        null,
+        null,
+        "Mayo",
+        "Mayo"
+      ],
+      [
+        null,
+        null,
+        "Ketchup",
+        "Ketchup"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/chopped-cheese",
+      "episode_id": "chopped-cheese",
+      "name": "CHOPPED CHEESE",
+      "published_date": "2021-07-13",
+      "youtube_link": "https://www.youtube.com/watch?v=E1z55dYHv8c",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/chopped-cheese",
+      "image_link": "https://img.youtube.com/vi/E1z55dYHv8c/mqdefault.jpg"
     }
   },
   {
@@ -17424,6 +18448,98 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1039",
+    "recipe_id": 1039,
+    "name": "Ciabatta Rolls - Dough",
+    "image_link": null,
+    "raw_ingredient_list": "3 g instant yeast\n180 all purpose flour + more for dusting\n5 g kosher salt\n7 g non-fat milk powder\n75 g water, warm (~75\u00b0F)\n18 g olive oil + more for greasing",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        3.0,
+        "gram",
+        "Instant Yeast",
+        "3 g instant yeast"
+      ],
+      [
+        180.0,
+        null,
+        "All Purpose Flour + More For Dusting",
+        "180 all purpose flour + more for dusting"
+      ],
+      [
+        5.0,
+        "gram",
+        "Kosher Salt",
+        "5 g kosher salt"
+      ],
+      [
+        7.0,
+        "gram",
+        "Non-fat Milk Powder",
+        "7 g non-fat milk powder"
+      ],
+      [
+        75.0,
+        "gram",
+        "Water",
+        "75 g water, warm (~75\u00b0F)"
+      ],
+      [
+        18.0,
+        "gram",
+        "Olive Oil + More For Greasing",
+        "18 g olive oil + more for greasing"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/trollhunters-meatloaf-sandwich",
+      "episode_id": "trollhunters-meatloaf-sandwich",
+      "name": "Meatloaf Sandwich inspired by Trollhunters: Tales of Arcadia",
+      "published_date": "2021-07-20",
+      "youtube_link": "https://www.youtube.com/watch?v=7SpXCwU5AiI",
+      "official_link": "https://www.bingingwithbabish.com/recipes/trollhunters-meatloaf-sandwich",
+      "image_link": "https://img.youtube.com/vi/7SpXCwU5AiI/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1038",
+    "recipe_id": 1038,
+    "name": "Ciabatta Rolls - Overnight Starter",
+    "image_link": null,
+    "raw_ingredient_list": "90 g all purpose flour\n115 g water, cold (~65 \u00b0F)\n1 g instant yeast",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        90.0,
+        "gram",
+        "All Purpose Flour",
+        "90 g all purpose flour"
+      ],
+      [
+        115.0,
+        "gram",
+        "Water",
+        "115 g water, cold (~65 \u00b0F)"
+      ],
+      [
+        1.0,
+        "gram",
+        "Instant Yeast",
+        "1 g instant yeast"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/trollhunters-meatloaf-sandwich",
+      "episode_id": "trollhunters-meatloaf-sandwich",
+      "name": "Meatloaf Sandwich inspired by Trollhunters: Tales of Arcadia",
+      "published_date": "2021-07-20",
+      "youtube_link": "https://www.youtube.com/watch?v=7SpXCwU5AiI",
+      "official_link": "https://www.bingingwithbabish.com/recipes/trollhunters-meatloaf-sandwich",
+      "image_link": "https://img.youtube.com/vi/7SpXCwU5AiI/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/443",
     "recipe_id": 443,
     "name": "Cinnamon Babka",
@@ -17586,6 +18702,85 @@
       "youtube_link": "https://www.youtube.com/watch?v=jFYi2QRVFOc",
       "official_link": "https://www.bingingwithbabish.com/recipes/cinnamonrolls",
       "image_link": "https://img.youtube.com/vi/jFYi2QRVFOc/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1060",
+    "recipe_id": 1060,
+    "name": "Cinnamon Sugar Monkey Bread",
+    "image_link": null,
+    "raw_ingredient_list": "500 g bread flour\n7 g\u00a0 instant dry yeast\n170 g granulated sugar, divided + more for the pan\n100 g whole milk, warm (~85 \u00b0F)\n200 g water, warm (~85 \u00b0F)\n10 g kosher salt\n85 g unsalted butter, cubed + very soft (~75-80 \u00b0F)\nAs needed non-stick spray\n200 g brown sugar\n2 Tbsp cinnamon",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        500.0,
+        "gram",
+        "Bread Flour",
+        "500 g bread flour"
+      ],
+      [
+        7.0,
+        "gram",
+        "Instant Dry Yeast",
+        "7 g instant dry yeast"
+      ],
+      [
+        170.0,
+        "gram",
+        "Granulated Sugar",
+        "170 g granulated sugar, divided + more for the pan"
+      ],
+      [
+        100.0,
+        "gram",
+        "Milk",
+        "100 g whole milk, warm (~85 \u00b0F)"
+      ],
+      [
+        200.0,
+        "gram",
+        "Water",
+        "200 g water, warm (~85 \u00b0F)"
+      ],
+      [
+        10.0,
+        "gram",
+        "Kosher Salt",
+        "10 g kosher salt"
+      ],
+      [
+        85.0,
+        "gram",
+        "Unsalted Butter",
+        "85 g unsalted butter, cubed + very soft (~75-80 \u00b0F)"
+      ],
+      [
+        null,
+        null,
+        "As Needed Non-stick Spray",
+        "As needed non-stick spray"
+      ],
+      [
+        200.0,
+        "gram",
+        "Brown Sugar",
+        "200 g brown sugar"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Cinnamon",
+        "2 Tbsp cinnamon"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/monkey-bread",
+      "episode_id": "monkey-bread",
+      "name": "MONKEY BREAD",
+      "published_date": "2021-06-25",
+      "youtube_link": "https://www.youtube.com/watch?v=JGL2m6-SLMQ",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/monkey-bread",
+      "image_link": "https://img.youtube.com/vi/JGL2m6-SLMQ/mqdefault.jpg"
     }
   },
   {
@@ -17854,6 +19049,67 @@
       "youtube_link": "https://www.youtube.com/watch?v=MJoSs4BGaHI",
       "official_link": "https://www.bingingwithbabish.com/recipes/chicken-fingers-community",
       "image_link": "https://img.youtube.com/vi/MJoSs4BGaHI/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1047",
+    "recipe_id": 1047,
+    "name": "Classic Cookie Dough",
+    "image_link": null,
+    "raw_ingredient_list": "8 oz browned butter, cold\n9 \u00be oz brown sugar\n4 \u00bd oz granulated white sugar\n2 eggs, cold\n11 \u00bd oz all-purpose flour\n1 Tbsp kosher salt\n\u00bd tsp baking soda",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        8.0,
+        "ounce",
+        "Browned Butter",
+        "8 oz browned butter, cold"
+      ],
+      [
+        9.75,
+        "ounce",
+        "Brown Sugar",
+        "9 \u00be oz brown sugar"
+      ],
+      [
+        4.5,
+        "ounce",
+        "Granulated White Sugar",
+        "4 \u00bd oz granulated white sugar"
+      ],
+      [
+        2.0,
+        null,
+        "Eggs",
+        "2 eggs, cold"
+      ],
+      [
+        11.5,
+        "ounce",
+        "All-purpose Flour",
+        "11 \u00bd oz all-purpose flour"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Kosher Salt",
+        "1 Tbsp kosher salt"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Baking Soda",
+        "\u00bd tsp baking soda"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/cookie-dough",
+      "episode_id": "cookie-dough",
+      "name": "COOKIE DOUGH",
+      "published_date": "2021-06-04",
+      "youtube_link": "https://www.youtube.com/watch?v=Il1Cy4tQCkk",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/cookie-dough",
+      "image_link": "https://img.youtube.com/vi/Il1Cy4tQCkk/mqdefault.jpg"
     }
   },
   {
@@ -19782,6 +21038,37 @@
       "youtube_link": "https://www.youtube.com/watch?v=KbNRvWfndjA",
       "official_link": "https://www.bingingwithbabish.com/recipes/cookie-cat-steven-universe",
       "image_link": "https://img.youtube.com/vi/KbNRvWfndjA/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1072",
+    "recipe_id": 1072,
+    "name": "Cookie Crunch Base",
+    "image_link": null,
+    "raw_ingredient_list": "12 oz chocolate sandwich cookies\n3 oz unsalted butter, melted + cooled",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        12.0,
+        "ounce",
+        "Chocolate Sandwich Cookies",
+        "12 oz chocolate sandwich cookies"
+      ],
+      [
+        3.0,
+        "ounce",
+        "Unsalted Butter",
+        "3 oz unsalted butter, melted + cooled"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/ice-cream-cake",
+      "episode_id": "ice-cream-cake",
+      "name": "ICE CREAM CAKE",
+      "published_date": "2021-07-20",
+      "youtube_link": "https://www.youtube.com/watch?v=sTntmGwbf_U",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/ice-cream-cake",
+      "image_link": "https://img.youtube.com/vi/sTntmGwbf_U/mqdefault.jpg"
     }
   },
   {
@@ -23050,9 +24337,9 @@
       "episode_id": "quiche",
       "name": "QUICHE",
       "published_date": "2021-03-18",
-      "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+      "youtube_link": "https://www.youtube.com/watch?v=6EuzOQOnX2A",
       "official_link": "https://basicswithbabish.co/basicsepisodes/quiche",
-      "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg"
+      "image_link": "https://img.youtube.com/vi/6EuzOQOnX2A/mqdefault.jpg"
     }
   },
   {
@@ -25285,6 +26572,43 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1078",
+    "recipe_id": 1078,
+    "name": "Egg Wash",
+    "image_link": null,
+    "raw_ingredient_list": "1 egg\n1 egg yolk\nPinch of salt",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        null,
+        "Egg",
+        "1 egg"
+      ],
+      [
+        1.0,
+        null,
+        "Egg Yolk",
+        "1 egg yolk"
+      ],
+      [
+        null,
+        null,
+        "Salt",
+        "Pinch of salt"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/steakhouse-burgers",
+      "episode_id": "steakhouse-burgers",
+      "name": "STEAKHOUSE BURGER",
+      "published_date": "2021-07-26",
+      "youtube_link": "https://www.youtube.com/watch?v=9c_Tn4dnGIU",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/steakhouse-burgers",
+      "image_link": "https://img.youtube.com/vi/9c_Tn4dnGIU/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/705",
     "recipe_id": 705,
     "name": "Elder Scrolls Cookbook",
@@ -25434,6 +26758,121 @@
       "youtube_link": "https://www.youtube.com/watch?v=S-gUFvpRQoU",
       "official_link": "https://basicswithbabish.co/basicsepisodes/blendersoups",
       "image_link": "https://img.youtube.com/vi/S-gUFvpRQoU/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1062",
+    "recipe_id": 1062,
+    "name": "Elote Potato Salad",
+    "image_link": null,
+    "raw_ingredient_list": "1 Tbsp kosher salt + more to taste\n1 lb 8 oz baby potatoes, halved\n2 Tbsp white wine vinegar, divided\n3 ears of corn, shucked\n\u00bc Cup sour cream\n\u2153 Cup mayonnaise\n1 Tbsp lime juice\nZest of 1 lime\n\u00bd tsp garlic powder\n\u00bc tsp ancho chili powder\n1 tsp kosher salt\n\u00bd tsp freshly ground black pepper\n\u00bc Cup cilantro (or parsley), chopped + more to garnish\n\u00bc red onion, finely chopped\n\u00bd Cup cotija cheese + more to garnish\nTo taste freshly ground black pepper",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        "tablespoon",
+        "Kosher Salt + More To Taste",
+        "1 Tbsp kosher salt + more to taste"
+      ],
+      [
+        1.0,
+        "lb",
+        "8 Oz Baby Potatoes",
+        "1 lb 8 oz baby potatoes, halved"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "White Wine Vinegar",
+        "2 Tbsp white wine vinegar, divided"
+      ],
+      [
+        3.0,
+        null,
+        "Corn",
+        "3 ears of corn, shucked"
+      ],
+      [
+        0.25,
+        null,
+        "Cup Sour Cream",
+        "\u00bc Cup sour cream"
+      ],
+      [
+        0.3333333333333333,
+        null,
+        "Cup Mayonnaise",
+        "\u2153 Cup mayonnaise"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Lime Juice",
+        "1 Tbsp lime juice"
+      ],
+      [
+        null,
+        null,
+        "1 Lime",
+        "Zest of 1 lime"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Garlic Powder",
+        "\u00bd tsp garlic powder"
+      ],
+      [
+        0.25,
+        "teaspoon",
+        "Ancho Chili Powder",
+        "\u00bc tsp ancho chili powder"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Kosher Salt",
+        "1 tsp kosher salt"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Freshly Ground Black Pepper",
+        "\u00bd tsp freshly ground black pepper"
+      ],
+      [
+        0.25,
+        null,
+        "Cup Cilantro",
+        "\u00bc Cup cilantro (or parsley), chopped + more to garnish"
+      ],
+      [
+        0.25,
+        null,
+        "Red Onion",
+        "\u00bc red onion, finely chopped"
+      ],
+      [
+        0.5,
+        null,
+        "Cup Cotija Cheese + More To Garnish",
+        "\u00bd Cup cotija cheese + more to garnish"
+      ],
+      [
+        null,
+        null,
+        "To Taste Freshly Ground Black Pepper",
+        "To taste freshly ground black pepper"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/grilled-feast",
+      "episode_id": "grilled-feast",
+      "name": "GRILLED FEAST",
+      "published_date": "2021-07-07",
+      "youtube_link": "https://www.youtube.com/watch?v=m6X5I_FI04A",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/grilled-feast",
+      "image_link": "https://img.youtube.com/vi/m6X5I_FI04A/mqdefault.jpg"
     }
   },
   {
@@ -27557,7 +28996,7 @@
       "published_date": "2021-02-12",
       "youtube_link": "",
       "official_link": "https://www.bingingwithbabish.com/recipes/pancontomate-crabcakes",
-      "image_link": "https://images.squarespace-cdn.com/content/v1/590be7fd15d5dbc6bf3e22d0/1613183877575-637JIQ4J3K9I19CXA78Y/ke17ZwdGBToddI8pDm48kLIHJMQ8C0Xv223jIdQPNVp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYsxCIdDgtq5Qi2LG--6piLgXMQUQ8pPoDXoa3QbRrDRZtJ3qR9G2BYeA0wOAaeYNg/pasted-image.png"
+      "image_link": "https://images.squarespace-cdn.com/content/v1/590be7fd15d5dbc6bf3e22d0/1613183877575-637JIQ4J3K9I19CXA78Y/pasted-image.png"
     }
   },
   {
@@ -27654,7 +29093,7 @@
       "published_date": "2021-02-12",
       "youtube_link": "",
       "official_link": "https://basicswithbabish.co/basicsepisodes/pantomate-crabcakes",
-      "image_link": "https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1613183842730-AERMYVZEOMJRJKWBMSN0/ke17ZwdGBToddI8pDm48kLIHJMQ8C0Xv223jIdQPNVp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYsxCIdDgtq5Qi2LG--6piLgXMQUQ8pPoDXoa3QbRrDRZtJ3qR9G2BYeA0wOAaeYNg/pasted-image.png"
+      "image_link": "https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1613183842730-AERMYVZEOMJRJKWBMSN0/pasted-image.png"
     }
   },
   {
@@ -27801,7 +29240,7 @@
       "published_date": "2021-02-12",
       "youtube_link": "",
       "official_link": "https://www.bingingwithbabish.com/recipes/pancontomate-crabcakes",
-      "image_link": "https://images.squarespace-cdn.com/content/v1/590be7fd15d5dbc6bf3e22d0/1613183877575-637JIQ4J3K9I19CXA78Y/ke17ZwdGBToddI8pDm48kLIHJMQ8C0Xv223jIdQPNVp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYsxCIdDgtq5Qi2LG--6piLgXMQUQ8pPoDXoa3QbRrDRZtJ3qR9G2BYeA0wOAaeYNg/pasted-image.png"
+      "image_link": "https://images.squarespace-cdn.com/content/v1/590be7fd15d5dbc6bf3e22d0/1613183877575-637JIQ4J3K9I19CXA78Y/pasted-image.png"
     }
   },
   {
@@ -27880,7 +29319,7 @@
       "published_date": "2021-02-12",
       "youtube_link": "",
       "official_link": "https://basicswithbabish.co/basicsepisodes/pantomate-crabcakes",
-      "image_link": "https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1613183842730-AERMYVZEOMJRJKWBMSN0/ke17ZwdGBToddI8pDm48kLIHJMQ8C0Xv223jIdQPNVp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYsxCIdDgtq5Qi2LG--6piLgXMQUQ8pPoDXoa3QbRrDRZtJ3qR9G2BYeA0wOAaeYNg/pasted-image.png"
+      "image_link": "https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1613183842730-AERMYVZEOMJRJKWBMSN0/pasted-image.png"
     }
   },
   {
@@ -29731,6 +31170,79 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1027",
+    "recipe_id": 1027,
+    "name": "Fried Spag-balls",
+    "image_link": null,
+    "raw_ingredient_list": "Peanut oil\n8 oz dried spaghetti, fully cooked and cooled\n2 large eggs\n3 oz all-purpose flour\n2 oz parmesan, grated\n1 \u00be oz ricotta\n2 oz sour cream\nto\u00a0 taste kosher salt\nTo taste freshly ground black pepper",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        null,
+        null,
+        "Peanut Oil",
+        "Peanut oil"
+      ],
+      [
+        8.0,
+        "ounce",
+        "Dried Spaghetti",
+        "8 oz dried spaghetti, fully cooked and cooled"
+      ],
+      [
+        2.0,
+        "large",
+        "Eggs",
+        "2 large eggs"
+      ],
+      [
+        3.0,
+        "ounce",
+        "All-purpose Flour",
+        "3 oz all-purpose flour"
+      ],
+      [
+        2.0,
+        "ounce",
+        "Parmesan",
+        "2 oz parmesan, grated"
+      ],
+      [
+        1.75,
+        "ounce",
+        "Ricotta",
+        "1 \u00be oz ricotta"
+      ],
+      [
+        2.0,
+        "ounce",
+        "Sour Cream",
+        "2 oz sour cream"
+      ],
+      [
+        null,
+        null,
+        "To Taste Kosher Salt",
+        "to taste kosher salt"
+      ],
+      [
+        null,
+        null,
+        "To Taste Freshly Ground Black Pepper",
+        "To taste freshly ground black pepper"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/meatghetti-spagballs-american-dad",
+      "episode_id": "meatghetti-spagballs-american-dad",
+      "name": "Meat-ghetti and Spag-balls inspired by American Dad",
+      "published_date": "2021-06-21",
+      "youtube_link": "https://www.youtube.com/watch?v=PwbgLteVwvs",
+      "official_link": "https://www.bingingwithbabish.com/recipes/meatghetti-spagballs-american-dad",
+      "image_link": "https://img.youtube.com/vi/PwbgLteVwvs/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/258",
     "recipe_id": 258,
     "name": "Fries",
@@ -30942,6 +32454,92 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1053",
+    "recipe_id": 1053,
+    "name": "Gluten-Free Flour Blend",
+    "image_link": null,
+    "raw_ingredient_list": "15 oz brown rice flour\n12 oz white rice flour\n6 oz Potato starch\n3 oz Tapioca starch\n1 tbsp Xanthan gum",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        15.0,
+        "ounce",
+        "Brown Rice Flour",
+        "15 oz brown rice flour"
+      ],
+      [
+        12.0,
+        "ounce",
+        "White Rice Flour",
+        "12 oz white rice flour"
+      ],
+      [
+        6.0,
+        "ounce",
+        "Potato Starch",
+        "6 oz Potato starch"
+      ],
+      [
+        3.0,
+        "ounce",
+        "Tapioca Starch",
+        "3 oz Tapioca starch"
+      ],
+      [
+        1.0,
+        "tbsp",
+        "Xanthan Gum",
+        "1 tbsp Xanthan gum"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/gluten-free-pasta",
+      "episode_id": "gluten-free-pasta",
+      "name": "GLUTEN-FREE PASTA",
+      "published_date": "2021-06-14",
+      "youtube_link": "https://www.youtube.com/watch?v=MVdu-DYcfTA",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/gluten-free-pasta",
+      "image_link": "https://img.youtube.com/vi/MVdu-DYcfTA/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1054",
+    "recipe_id": 1054,
+    "name": "Gluten-Free Pasta Dough",
+    "image_link": null,
+    "raw_ingredient_list": "14 oz gluten-free flour blend\n8 oz eggs\n1 Tbsp kosher salt",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        14.0,
+        "ounce",
+        "Gluten-free Flour Blend",
+        "14 oz gluten-free flour blend"
+      ],
+      [
+        8.0,
+        "ounce",
+        "Eggs",
+        "8 oz eggs"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Kosher Salt",
+        "1 Tbsp kosher salt"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/gluten-free-pasta",
+      "episode_id": "gluten-free-pasta",
+      "name": "GLUTEN-FREE PASTA",
+      "published_date": "2021-06-14",
+      "youtube_link": "https://www.youtube.com/watch?v=MVdu-DYcfTA",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/gluten-free-pasta",
+      "image_link": "https://img.youtube.com/vi/MVdu-DYcfTA/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/140",
     "recipe_id": 140,
     "name": "Goat Cheese & Fig Tea Sandwich",
@@ -32089,6 +33687,164 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1064",
+    "recipe_id": 1064,
+    "name": "Grilled Pimento Burgers",
+    "image_link": null,
+    "raw_ingredient_list": "1 lb 3 oz ground beef (85%)\nReserved pimento cheese filling\nAs needed kosher salt\nAs needed freshly ground black pepper\n4 hamburger buns, toasted or grilled\nTomato, sliced\nLettuce\nKetchup",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        "lb",
+        "3 Oz Ground Beef",
+        "1 lb 3 oz ground beef (85%)"
+      ],
+      [
+        null,
+        null,
+        "Reserved Pimento Cheese Filling",
+        "Reserved pimento cheese filling"
+      ],
+      [
+        null,
+        null,
+        "As Needed Kosher Salt",
+        "As needed kosher salt"
+      ],
+      [
+        null,
+        null,
+        "As Needed Freshly Ground Black Pepper",
+        "As needed freshly ground black pepper"
+      ],
+      [
+        4.0,
+        null,
+        "Hamburger Buns",
+        "4 hamburger buns, toasted or grilled"
+      ],
+      [
+        null,
+        null,
+        "Tomato",
+        "Tomato, sliced"
+      ],
+      [
+        null,
+        null,
+        "Lettuce",
+        "Lettuce"
+      ],
+      [
+        null,
+        null,
+        "Ketchup",
+        "Ketchup"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/grilled-feast",
+      "episode_id": "grilled-feast",
+      "name": "GRILLED FEAST",
+      "published_date": "2021-07-07",
+      "youtube_link": "https://www.youtube.com/watch?v=m6X5I_FI04A",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/grilled-feast",
+      "image_link": "https://img.youtube.com/vi/m6X5I_FI04A/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1061",
+    "recipe_id": 1061,
+    "name": "Grilled Pineapple Shrimp Salad",
+    "image_link": null,
+    "raw_ingredient_list": "1 lb frozen shrimp\n1 ripe pineapple\nAs needed neutral oil\n3 poblano peppers\n1 jalapeno pepper, finely chopped\n1 mango, chopped\n1 scallion, finely chopped (greens only)\n2 Tbsp lime juice\n1 Tbsp olive oil\n\u00bc tsp cumin\nTo taste kosher\nTo taste freshly ground black pepper",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        "lb",
+        "Frozen Shrimp",
+        "1 lb frozen shrimp"
+      ],
+      [
+        1.0,
+        null,
+        "Ripe Pineapple",
+        "1 ripe pineapple"
+      ],
+      [
+        null,
+        null,
+        "As Needed Neutral Oil",
+        "As needed neutral oil"
+      ],
+      [
+        3.0,
+        null,
+        "Poblano Peppers",
+        "3 poblano peppers"
+      ],
+      [
+        1.0,
+        null,
+        "Jalapeno Pepper",
+        "1 jalapeno pepper, finely chopped"
+      ],
+      [
+        1.0,
+        null,
+        "Mango",
+        "1 mango, chopped"
+      ],
+      [
+        1.0,
+        null,
+        "Scallion",
+        "1 scallion, finely chopped (greens only)"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Lime Juice",
+        "2 Tbsp lime juice"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Olive Oil",
+        "1 Tbsp olive oil"
+      ],
+      [
+        0.25,
+        "teaspoon",
+        "Cumin",
+        "\u00bc tsp cumin"
+      ],
+      [
+        null,
+        null,
+        "To Taste Kosher",
+        "To taste kosher"
+      ],
+      [
+        null,
+        null,
+        "To Taste Freshly Ground Black Pepper",
+        "To taste freshly ground black pepper"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/grilled-feast",
+      "episode_id": "grilled-feast",
+      "name": "GRILLED FEAST",
+      "published_date": "2021-07-07",
+      "youtube_link": "https://www.youtube.com/watch?v=m6X5I_FI04A",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/grilled-feast",
+      "image_link": "https://img.youtube.com/vi/m6X5I_FI04A/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/252",
     "recipe_id": 252,
     "name": "Grilled Pork Chops",
@@ -32528,6 +34284,85 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1077",
+    "recipe_id": 1077,
+    "name": "Hamburger Buns",
+    "image_link": null,
+    "raw_ingredient_list": "500 g bread flour\n7 g instant dry yeast\n25 g granulated sugar\n100 g whole milk, warm (~85 \u00b0F)\n200 g water, warm (~85 \u00b0F)\n10 g kosher salt\n85 g unsalted butter, cubed + very soft (~75-80 \u00b0F)\nAs needed cooking olive oil or non-stick spray\nEgg wash (see below)\nWhite sesame seeds",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        500.0,
+        "gram",
+        "Bread Flour",
+        "500 g bread flour"
+      ],
+      [
+        7.0,
+        "gram",
+        "Instant Dry Yeast",
+        "7 g instant dry yeast"
+      ],
+      [
+        25.0,
+        "gram",
+        "Granulated Sugar",
+        "25 g granulated sugar"
+      ],
+      [
+        100.0,
+        "gram",
+        "Milk",
+        "100 g whole milk, warm (~85 \u00b0F)"
+      ],
+      [
+        200.0,
+        "gram",
+        "Water",
+        "200 g water, warm (~85 \u00b0F)"
+      ],
+      [
+        10.0,
+        "gram",
+        "Kosher Salt",
+        "10 g kosher salt"
+      ],
+      [
+        85.0,
+        "gram",
+        "Unsalted Butter",
+        "85 g unsalted butter, cubed + very soft (~75-80 \u00b0F)"
+      ],
+      [
+        null,
+        null,
+        "As Needed Cooking Olive Oil Or Non-stick Spray",
+        "As needed cooking olive oil or non-stick spray"
+      ],
+      [
+        null,
+        null,
+        "Egg Wash",
+        "Egg wash (see below)"
+      ],
+      [
+        null,
+        null,
+        "White Sesame Seeds",
+        "White sesame seeds"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/steakhouse-burgers",
+      "episode_id": "steakhouse-burgers",
+      "name": "STEAKHOUSE BURGER",
+      "published_date": "2021-07-26",
+      "youtube_link": "https://www.youtube.com/watch?v=9c_Tn4dnGIU",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/steakhouse-burgers",
+      "image_link": "https://img.youtube.com/vi/9c_Tn4dnGIU/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/363",
     "recipe_id": 363,
     "name": "Handmade Fettuccine",
@@ -32833,6 +34668,115 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1059",
+    "recipe_id": 1059,
+    "name": "Herb Garlic Monkey Bread",
+    "image_link": null,
+    "raw_ingredient_list": "500 g bread flour\n7 g instant dry yeast\n50 g granulated sugar\n100 g whole milk, warm (~85 \u00b0F)\n200 g water, warm (~85 \u00b0F)\n10 g kosher salt\n85 g unsalted butter, cubed + very soft (~75-80 \u00b0F)\nAs needed cooking olive oil or non-stick spray\nMelted unsalted butter\nParsely, chopped\nChives, chopped\nDill, chopped\nGarlic, minced\nKosher salt\nFreshly ground black pepper",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        500.0,
+        "gram",
+        "Bread Flour",
+        "500 g bread flour"
+      ],
+      [
+        7.0,
+        "gram",
+        "Instant Dry Yeast",
+        "7 g instant dry yeast"
+      ],
+      [
+        50.0,
+        "gram",
+        "Granulated Sugar",
+        "50 g granulated sugar"
+      ],
+      [
+        100.0,
+        "gram",
+        "Milk",
+        "100 g whole milk, warm (~85 \u00b0F)"
+      ],
+      [
+        200.0,
+        "gram",
+        "Water",
+        "200 g water, warm (~85 \u00b0F)"
+      ],
+      [
+        10.0,
+        "gram",
+        "Kosher Salt",
+        "10 g kosher salt"
+      ],
+      [
+        85.0,
+        "gram",
+        "Unsalted Butter",
+        "85 g unsalted butter, cubed + very soft (~75-80 \u00b0F)"
+      ],
+      [
+        null,
+        null,
+        "As Needed Cooking Olive Oil Or Non-stick Spray",
+        "As needed cooking olive oil or non-stick spray"
+      ],
+      [
+        null,
+        null,
+        "Melted Unsalted Butter",
+        "Melted unsalted butter"
+      ],
+      [
+        null,
+        null,
+        "Parsely",
+        "Parsely, chopped"
+      ],
+      [
+        null,
+        null,
+        "Chives",
+        "Chives, chopped"
+      ],
+      [
+        null,
+        null,
+        "Dill",
+        "Dill, chopped"
+      ],
+      [
+        null,
+        null,
+        "Garlic",
+        "Garlic, minced"
+      ],
+      [
+        null,
+        null,
+        "Kosher Salt",
+        "Kosher salt"
+      ],
+      [
+        null,
+        null,
+        "Freshly Ground Black Pepper",
+        "Freshly ground black pepper"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/monkey-bread",
+      "episode_id": "monkey-bread",
+      "name": "MONKEY BREAD",
+      "published_date": "2021-06-25",
+      "youtube_link": "https://www.youtube.com/watch?v=JGL2m6-SLMQ",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/monkey-bread",
+      "image_link": "https://img.youtube.com/vi/JGL2m6-SLMQ/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/404",
     "recipe_id": 404,
     "name": "Himalayan Ketchup",
@@ -32939,6 +34883,91 @@
       "youtube_link": "https://www.youtube.com/watch?v=S7eUmZ4Sp3U",
       "official_link": "https://www.bingingwithbabish.com/recipes/ultimeatum",
       "image_link": "https://img.youtube.com/vi/S7eUmZ4Sp3U/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1066",
+    "recipe_id": 1066,
+    "name": "Hoagie Rolls",
+    "image_link": null,
+    "raw_ingredient_list": "7 g instant dry yeast\n540 g bread flour\nOptional: 8 g diastatic malt powder\n145 g water (~100-105 \u00b0F)\n120 g whole milk (~100-105 \u00b0F)\n50 g oil\n60 g whole egg, room temperature + beaten\n12 g kosher salt\nAs needed super fine cornmeal\n50 g egg whites\n25 g whole milk, cold",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        7.0,
+        "gram",
+        "Instant Dry Yeast",
+        "7 g instant dry yeast"
+      ],
+      [
+        540.0,
+        "gram",
+        "Bread Flour",
+        "540 g bread flour"
+      ],
+      [
+        null,
+        null,
+        "Optional: 8 G Diastatic Malt Powder",
+        "Optional: 8 g diastatic malt powder"
+      ],
+      [
+        145.0,
+        "gram",
+        "Water",
+        "145 g water (~100-105 \u00b0F)"
+      ],
+      [
+        120.0,
+        "gram",
+        "Milk",
+        "120 g whole milk (~100-105 \u00b0F)"
+      ],
+      [
+        50.0,
+        "gram",
+        "Oil",
+        "50 g oil"
+      ],
+      [
+        60.0,
+        "gram",
+        "Egg",
+        "60 g whole egg, room temperature + beaten"
+      ],
+      [
+        12.0,
+        "gram",
+        "Kosher Salt",
+        "12 g kosher salt"
+      ],
+      [
+        null,
+        null,
+        "As Needed Super Fine Cornmeal",
+        "As needed super fine cornmeal"
+      ],
+      [
+        50.0,
+        "gram",
+        "Egg Whites",
+        "50 g egg whites"
+      ],
+      [
+        25.0,
+        "gram",
+        "Milk",
+        "25 g whole milk, cold"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/chopped-cheese",
+      "episode_id": "chopped-cheese",
+      "name": "CHOPPED CHEESE",
+      "published_date": "2021-07-13",
+      "youtube_link": "https://www.youtube.com/watch?v=E1z55dYHv8c",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/chopped-cheese",
+      "image_link": "https://img.youtube.com/vi/E1z55dYHv8c/mqdefault.jpg"
     }
   },
   {
@@ -35524,6 +37553,49 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1045",
+    "recipe_id": 1045,
+    "name": "Italian Meringue",
+    "image_link": null,
+    "raw_ingredient_list": "4 egg whites\n\u215b tsp cream of tartar\n225 g granulated sugar\n45 g water",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        4.0,
+        null,
+        "Egg Whites",
+        "4 egg whites"
+      ],
+      [
+        0.125,
+        "teaspoon",
+        "Tartar",
+        "\u215b tsp cream of tartar"
+      ],
+      [
+        225.0,
+        "gram",
+        "Granulated Sugar",
+        "225 g granulated sugar"
+      ],
+      [
+        45.0,
+        "gram",
+        "Water",
+        "45 g water"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/the-sims-special",
+      "episode_id": "the-sims-special",
+      "name": "The Sims Special",
+      "published_date": "2021-07-26",
+      "youtube_link": "https://www.youtube.com/watch?v=z4Bwb8_k7yM",
+      "official_link": "https://www.bingingwithbabish.com/recipes/the-sims-special",
+      "image_link": "https://img.youtube.com/vi/z4Bwb8_k7yM/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/629",
     "recipe_id": 629,
     "name": "Italian Salsa Verde",
@@ -36406,6 +38478,115 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1029",
+    "recipe_id": 1029,
+    "name": "Kansas City Style BBQ Sauce",
+    "image_link": null,
+    "raw_ingredient_list": "1 Tbsp neutral oil\n1 small onion, grated\n2 cloves garlic, minced\n1 Tbsp chili powder\n\u00bd Cup ketchup\n\u00bd Cup tomato sauce\n\u00bc Cup yellow mustard\n\u00bc cup apple cider vinegar\n2 Tbsp lemon juice\n2 \u00bd Tbsp Worcestershire sauce\n2 Tbsp molasses\n2 Tbsp honey\n\u00bd Cup (packed) brown sugar\nTo taste kosher salt\nTo taste freshly ground black pepper",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        "tablespoon",
+        "Neutral Oil",
+        "1 Tbsp neutral oil"
+      ],
+      [
+        1.0,
+        "small",
+        "Onion",
+        "1 small onion, grated"
+      ],
+      [
+        2.0,
+        null,
+        "Cloves Garlic",
+        "2 cloves garlic, minced"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Chili Powder",
+        "1 Tbsp chili powder"
+      ],
+      [
+        0.5,
+        null,
+        "Cup Ketchup",
+        "\u00bd Cup ketchup"
+      ],
+      [
+        0.5,
+        null,
+        "Cup Tomato Sauce",
+        "\u00bd Cup tomato sauce"
+      ],
+      [
+        0.25,
+        null,
+        "Cup Yellow Mustard",
+        "\u00bc Cup yellow mustard"
+      ],
+      [
+        0.25,
+        "cup",
+        "Apple Cider Vinegar",
+        "\u00bc cup apple cider vinegar"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Lemon Juice",
+        "2 Tbsp lemon juice"
+      ],
+      [
+        2.5,
+        "tablespoon",
+        "Worcestershire Sauce",
+        "2 \u00bd Tbsp Worcestershire sauce"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Molasses",
+        "2 Tbsp molasses"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Honey",
+        "2 Tbsp honey"
+      ],
+      [
+        0.5,
+        null,
+        "Cup Brown Sugar",
+        "\u00bd Cup (packed) brown sugar"
+      ],
+      [
+        null,
+        null,
+        "To Taste Kosher Salt",
+        "To taste kosher salt"
+      ],
+      [
+        null,
+        null,
+        "To Taste Freshly Ground Black Pepper",
+        "To taste freshly ground black pepper"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/pork-picnic-sandwich-regular-show",
+      "episode_id": "pork-picnic-sandwich-regular-show",
+      "name": "Pork Picnic Sandwich inspired by Regular Show",
+      "published_date": "2021-06-23",
+      "youtube_link": "https://www.youtube.com/watch?v=mMle42fPNn0",
+      "official_link": "https://www.bingingwithbabish.com/recipes/pork-picnic-sandwich-regular-show",
+      "image_link": "https://img.youtube.com/vi/mMle42fPNn0/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/481",
     "recipe_id": 481,
     "name": "Kevin's Famous Chili",
@@ -36627,6 +38808,37 @@
       "youtube_link": "https://www.youtube.com/watch?v=UOztOU4T-_c",
       "official_link": "https://www.bingingwithbabish.com/recipes/dexter-key-lime-pie",
       "image_link": "https://img.youtube.com/vi/UOztOU4T-_c/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1050",
+    "recipe_id": 1050,
+    "name": "Kitchen Sink Cookies",
+    "image_link": null,
+    "raw_ingredient_list": "1 batch base cookie dough\n12 oz inclusion of your choice (M&Ms, pretzels, kettle corn, caramel morsel, etc)",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        null,
+        "Batch Base Cookie Dough",
+        "1 batch base cookie dough"
+      ],
+      [
+        12.0,
+        "ounce",
+        "Your Choice",
+        "12 oz inclusion of your choice (M&Ms, pretzels, kettle corn, caramel morsel, etc)"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/cookie-dough",
+      "episode_id": "cookie-dough",
+      "name": "COOKIE DOUGH",
+      "published_date": "2021-06-04",
+      "youtube_link": "https://www.youtube.com/watch?v=Il1Cy4tQCkk",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/cookie-dough",
+      "image_link": "https://img.youtube.com/vi/Il1Cy4tQCkk/mqdefault.jpg"
     }
   },
   {
@@ -38333,6 +40545,55 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1041",
+    "recipe_id": 1041,
+    "name": "Mac and Cheese",
+    "image_link": null,
+    "raw_ingredient_list": "1 \u00bd Cups water\n1 Cup whole milk\n8 oz dried macaroni\n4 oz american yellow cheese, shredded\n6 oz sharp cheddar cheese, shredded",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.5,
+        null,
+        "Cups Water",
+        "1 \u00bd Cups water"
+      ],
+      [
+        1.0,
+        null,
+        "Cup Milk",
+        "1 Cup whole milk"
+      ],
+      [
+        8.0,
+        "ounce",
+        "Dried Macaroni",
+        "8 oz dried macaroni"
+      ],
+      [
+        4.0,
+        "ounce",
+        "American Yellow Cheese",
+        "4 oz american yellow cheese, shredded"
+      ],
+      [
+        6.0,
+        "ounce",
+        "Sharp Cheddar Cheese",
+        "6 oz sharp cheddar cheese, shredded"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/the-sims-special",
+      "episode_id": "the-sims-special",
+      "name": "The Sims Special",
+      "published_date": "2021-07-26",
+      "youtube_link": "https://www.youtube.com/watch?v=z4Bwb8_k7yM",
+      "official_link": "https://www.bingingwithbabish.com/recipes/the-sims-special",
+      "image_link": "https://img.youtube.com/vi/z4Bwb8_k7yM/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/649",
     "recipe_id": 649,
     "name": "Mac and Dehydrated Cheese Powder",
@@ -39823,6 +42084,223 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1040",
+    "recipe_id": 1040,
+    "name": "Meatloaf Sandwich",
+    "image_link": null,
+    "raw_ingredient_list": "1 Tbsp neutral oil\n3 oz shiitake mushrooms, roughly chopped\n2 Tbsp balsamic vinegar\n\u00bd Cup boiling water\n1 Cup sundried tomatoes, chopped + divided\n2 \u00bd oz ketchup\n1 \u00bd oz honey\n1 oz brown sugar\n1 Tbsp white balsamic vinegar\n2 Tbsp tomato paste\n6 oz buttermilk\n5 oz breadcrumbs\n2 large eggs, beaten\n\u00bc Cup fresh parsley, chopped\n\u00bd tsp garlic powder\n\u00bc tsp cayenne\n\u00bc tsp allspice\n\u00bd tsp cumin\n\u00bd tsp coriander\n3-4 cardamom pods, seeds separated + ground\n\u00bd tsp fennel seeds\n1 tsp kosher salt\n\u00bd tsp freshly ground black pepper\n\u00bd onion, grated\n1 stalk celery, grated\n1 large carrot, grated\n12 oz ground beef\n12 oz ground lamb\n12 oz ground veal\n\u00bc Cup tomato paste\n1 Tbsp fish sauce\nCiabatta rolls, buttered + toasted\nAs needed Armenian string cheese",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        "tablespoon",
+        "Neutral Oil",
+        "1 Tbsp neutral oil"
+      ],
+      [
+        3.0,
+        "ounce",
+        "Shiitake Mushrooms",
+        "3 oz shiitake mushrooms, roughly chopped"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Balsamic Vinegar",
+        "2 Tbsp balsamic vinegar"
+      ],
+      [
+        0.5,
+        null,
+        "Cup Boiling Water",
+        "\u00bd Cup boiling water"
+      ],
+      [
+        1.0,
+        null,
+        "Cup Sundried Tomatoes",
+        "1 Cup sundried tomatoes, chopped + divided"
+      ],
+      [
+        2.5,
+        "ounce",
+        "Ketchup",
+        "2 \u00bd oz ketchup"
+      ],
+      [
+        1.5,
+        "ounce",
+        "Honey",
+        "1 \u00bd oz honey"
+      ],
+      [
+        1.0,
+        "ounce",
+        "Brown Sugar",
+        "1 oz brown sugar"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "White Balsamic Vinegar",
+        "1 Tbsp white balsamic vinegar"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Tomato Paste",
+        "2 Tbsp tomato paste"
+      ],
+      [
+        6.0,
+        "ounce",
+        "Buttermilk",
+        "6 oz buttermilk"
+      ],
+      [
+        5.0,
+        "ounce",
+        "Breadcrumbs",
+        "5 oz breadcrumbs"
+      ],
+      [
+        2.0,
+        "large",
+        "Eggs",
+        "2 large eggs, beaten"
+      ],
+      [
+        0.25,
+        null,
+        "Cup Fresh Parsley",
+        "\u00bc Cup fresh parsley, chopped"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Garlic Powder",
+        "\u00bd tsp garlic powder"
+      ],
+      [
+        0.25,
+        "teaspoon",
+        "Cayenne",
+        "\u00bc tsp cayenne"
+      ],
+      [
+        0.25,
+        "teaspoon",
+        "Allspice",
+        "\u00bc tsp allspice"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Cumin",
+        "\u00bd tsp cumin"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Coriander",
+        "\u00bd tsp coriander"
+      ],
+      [
+        "3-4",
+        null,
+        "Cardamom Pods",
+        "3-4 cardamom pods, seeds separated + ground"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Fennel Seeds",
+        "\u00bd tsp fennel seeds"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Kosher Salt",
+        "1 tsp kosher salt"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Freshly Ground Black Pepper",
+        "\u00bd tsp freshly ground black pepper"
+      ],
+      [
+        0.5,
+        null,
+        "Onion",
+        "\u00bd onion, grated"
+      ],
+      [
+        1.0,
+        null,
+        "Stalk Celery",
+        "1 stalk celery, grated"
+      ],
+      [
+        1.0,
+        "large",
+        "Carrot",
+        "1 large carrot, grated"
+      ],
+      [
+        12.0,
+        "ounce",
+        "Ground Beef",
+        "12 oz ground beef"
+      ],
+      [
+        12.0,
+        "ounce",
+        "Ground Lamb",
+        "12 oz ground lamb"
+      ],
+      [
+        12.0,
+        "ounce",
+        "Ground Veal",
+        "12 oz ground veal"
+      ],
+      [
+        0.25,
+        null,
+        "Cup Tomato Paste",
+        "\u00bc Cup tomato paste"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Fish Sauce",
+        "1 Tbsp fish sauce"
+      ],
+      [
+        null,
+        null,
+        "Ciabatta Rolls",
+        "Ciabatta rolls, buttered + toasted"
+      ],
+      [
+        null,
+        null,
+        "As Needed Armenian String Cheese",
+        "As needed Armenian string cheese"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/trollhunters-meatloaf-sandwich",
+      "episode_id": "trollhunters-meatloaf-sandwich",
+      "name": "Meatloaf Sandwich inspired by Trollhunters: Tales of Arcadia",
+      "published_date": "2021-07-20",
+      "youtube_link": "https://www.youtube.com/watch?v=7SpXCwU5AiI",
+      "official_link": "https://www.bingingwithbabish.com/recipes/trollhunters-meatloaf-sandwich",
+      "image_link": "https://img.youtube.com/vi/7SpXCwU5AiI/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/470",
     "recipe_id": 470,
     "name": "Meatsiah",
@@ -39887,6 +42365,85 @@
       "youtube_link": "https://www.youtube.com/watch?v=basFyoMSjds",
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/bobsburgers",
       "image_link": "https://img.youtube.com/vi/basFyoMSjds/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1028",
+    "recipe_id": 1028,
+    "name": "Memphis Style Rub",
+    "image_link": null,
+    "raw_ingredient_list": "\u2153 Cup (packed) brown sugar\n\u2153 Cup granulated sugar\n\u00bc Cup sweet paprika\n\u215b Cup garlic powder\n1 Tbsp ground ginger\n1 Tbsp onion powder\n1 Tbsp ancho chili powder\n1 tsp rosemary powder\n1 Tbsp freshly ground black pepper\n1 Tbsp kosher salt",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        0.3333333333333333,
+        null,
+        "Cup Brown Sugar",
+        "\u2153 Cup (packed) brown sugar"
+      ],
+      [
+        0.3333333333333333,
+        null,
+        "Cup Granulated Sugar",
+        "\u2153 Cup granulated sugar"
+      ],
+      [
+        0.25,
+        null,
+        "Cup Sweet Paprika",
+        "\u00bc Cup sweet paprika"
+      ],
+      [
+        0.125,
+        null,
+        "Cup Garlic Powder",
+        "\u215b Cup garlic powder"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Ground Ginger",
+        "1 Tbsp ground ginger"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Onion Powder",
+        "1 Tbsp onion powder"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Ancho Chili Powder",
+        "1 Tbsp ancho chili powder"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Rosemary Powder",
+        "1 tsp rosemary powder"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Freshly Ground Black Pepper",
+        "1 Tbsp freshly ground black pepper"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Kosher Salt",
+        "1 Tbsp kosher salt"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/pork-picnic-sandwich-regular-show",
+      "episode_id": "pork-picnic-sandwich-regular-show",
+      "name": "Pork Picnic Sandwich inspired by Regular Show",
+      "published_date": "2021-06-23",
+      "youtube_link": "https://www.youtube.com/watch?v=mMle42fPNn0",
+      "official_link": "https://www.bingingwithbabish.com/recipes/pork-picnic-sandwich-regular-show",
+      "image_link": "https://img.youtube.com/vi/mMle42fPNn0/mqdefault.jpg"
     }
   },
   {
@@ -41028,6 +43585,79 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1042",
+    "recipe_id": 1042,
+    "name": "Molten Mac and Cheese",
+    "image_link": null,
+    "raw_ingredient_list": "1 \u00bd Cups water\n1 Cups whole milk\n8 oz dried macaroni\n8 oz american yellow cheese, shredded\n4 oz sharp cheddar cheese, shredded\n2 Tbsp unsalted butter, melted\n3 oz panko bread crumbs\nReserved chilled stovetop mac and cheese\nTo garnish: parsley leaves",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.5,
+        null,
+        "Cups Water",
+        "1 \u00bd Cups water"
+      ],
+      [
+        1.0,
+        null,
+        "Cups Milk",
+        "1 Cups whole milk"
+      ],
+      [
+        8.0,
+        "ounce",
+        "Dried Macaroni",
+        "8 oz dried macaroni"
+      ],
+      [
+        8.0,
+        "ounce",
+        "American Yellow Cheese",
+        "8 oz american yellow cheese, shredded"
+      ],
+      [
+        4.0,
+        "ounce",
+        "Sharp Cheddar Cheese",
+        "4 oz sharp cheddar cheese, shredded"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Unsalted Butter",
+        "2 Tbsp unsalted butter, melted"
+      ],
+      [
+        3.0,
+        "ounce",
+        "Panko Bread Crumbs",
+        "3 oz panko bread crumbs"
+      ],
+      [
+        null,
+        null,
+        "Reserved Chilled Stovetop Mac And Cheese",
+        "Reserved chilled stovetop mac and cheese"
+      ],
+      [
+        null,
+        null,
+        "To Garnish: Parsley Leaves",
+        "To garnish: parsley leaves"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/the-sims-special",
+      "episode_id": "the-sims-special",
+      "name": "The Sims Special",
+      "published_date": "2021-07-26",
+      "youtube_link": "https://www.youtube.com/watch?v=z4Bwb8_k7yM",
+      "official_link": "https://www.bingingwithbabish.com/recipes/the-sims-special",
+      "image_link": "https://img.youtube.com/vi/z4Bwb8_k7yM/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/788",
     "recipe_id": 788,
     "name": "Monica's Candy inspired by Friends",
@@ -41316,6 +43946,97 @@
       "youtube_link": "https://www.youtube.com/watch?v=q7JDYiLz9Mo",
       "official_link": "https://www.bingingwithbabish.com/recipes/croque-monsieur-brooklyn-nine-nine",
       "image_link": "https://img.youtube.com/vi/q7JDYiLz9Mo/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1058",
+    "recipe_id": 1058,
+    "name": "Monte Cristo Monkey Bread",
+    "image_link": null,
+    "raw_ingredient_list": "500 g bread flour\n7 g instant dry yeast\n50 g\u00a0 granulated sugar\n100 g\u00a0 whole milk, warm (~85 \u00b0F)\n200 g water, warm (~85 \u00b0F)\n7 g kosher salt\n85 g unsalted butter, cubed + very soft (~75-80 \u00b0F)\nAs needed non-stick spray\nDeli ham (preferably honey ham), sliced\nGruyere cheese, grated\nPowdered sugar\nRaspberry jam",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        500.0,
+        "gram",
+        "Bread Flour",
+        "500 g bread flour"
+      ],
+      [
+        7.0,
+        "gram",
+        "Instant Dry Yeast",
+        "7 g instant dry yeast"
+      ],
+      [
+        50.0,
+        "gram",
+        "Granulated Sugar",
+        "50 g granulated sugar"
+      ],
+      [
+        100.0,
+        "gram",
+        "Milk",
+        "100 g whole milk, warm (~85 \u00b0F)"
+      ],
+      [
+        200.0,
+        "gram",
+        "Water",
+        "200 g water, warm (~85 \u00b0F)"
+      ],
+      [
+        7.0,
+        "gram",
+        "Kosher Salt",
+        "7 g kosher salt"
+      ],
+      [
+        85.0,
+        "gram",
+        "Unsalted Butter",
+        "85 g unsalted butter, cubed + very soft (~75-80 \u00b0F)"
+      ],
+      [
+        null,
+        null,
+        "As Needed Non-stick Spray",
+        "As needed non-stick spray"
+      ],
+      [
+        null,
+        null,
+        "Deli Ham",
+        "Deli ham (preferably honey ham), sliced"
+      ],
+      [
+        null,
+        null,
+        "Gruyere Cheese",
+        "Gruyere cheese, grated"
+      ],
+      [
+        null,
+        null,
+        "Powdered Sugar",
+        "Powdered sugar"
+      ],
+      [
+        null,
+        null,
+        "Raspberry Jam",
+        "Raspberry jam"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/monkey-bread",
+      "episode_id": "monkey-bread",
+      "name": "MONKEY BREAD",
+      "published_date": "2021-06-25",
+      "youtube_link": "https://www.youtube.com/watch?v=JGL2m6-SLMQ",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/monkey-bread",
+      "image_link": "https://img.youtube.com/vi/JGL2m6-SLMQ/mqdefault.jpg"
     }
   },
   {
@@ -42624,6 +45345,61 @@
       "youtube_link": "https://www.youtube.com/watch?v=Jizr6LR83Kk",
       "official_link": "https://basicswithbabish.co/basicsepisodes/bread",
       "image_link": "https://img.youtube.com/vi/Jizr6LR83Kk/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1030",
+    "recipe_id": 1030,
+    "name": "North Carolina Vinegar Mop",
+    "image_link": null,
+    "raw_ingredient_list": "1\u00bd Cups white vinegar\n2-3 dashes hot sauce (of choice)\n2 Tbsp brown sugar\n1 Tbsp kosher salt\n2 tsp crushed red pepper flakes\n2 tsp freshly ground black pepper",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.5,
+        null,
+        "Cups White Vinegar",
+        "1\u00bd Cups white vinegar"
+      ],
+      [
+        "2-3",
+        null,
+        "Dashes Sauce",
+        "2-3 dashes hot sauce (of choice)"
+      ],
+      [
+        2.0,
+        "tablespoon",
+        "Brown Sugar",
+        "2 Tbsp brown sugar"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Kosher Salt",
+        "1 Tbsp kosher salt"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "Crushed Red Pepper Flakes",
+        "2 tsp crushed red pepper flakes"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "Freshly Ground Black Pepper",
+        "2 tsp freshly ground black pepper"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/pork-picnic-sandwich-regular-show",
+      "episode_id": "pork-picnic-sandwich-regular-show",
+      "name": "Pork Picnic Sandwich inspired by Regular Show",
+      "published_date": "2021-06-23",
+      "youtube_link": "https://www.youtube.com/watch?v=mMle42fPNn0",
+      "official_link": "https://www.bingingwithbabish.com/recipes/pork-picnic-sandwich-regular-show",
+      "image_link": "https://img.youtube.com/vi/mMle42fPNn0/mqdefault.jpg"
     }
   },
   {
@@ -44799,7 +47575,7 @@
       "published_date": "2021-02-12",
       "youtube_link": "",
       "official_link": "https://www.bingingwithbabish.com/recipes/pancontomate-crabcakes",
-      "image_link": "https://images.squarespace-cdn.com/content/v1/590be7fd15d5dbc6bf3e22d0/1613183877575-637JIQ4J3K9I19CXA78Y/ke17ZwdGBToddI8pDm48kLIHJMQ8C0Xv223jIdQPNVp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYsxCIdDgtq5Qi2LG--6piLgXMQUQ8pPoDXoa3QbRrDRZtJ3qR9G2BYeA0wOAaeYNg/pasted-image.png"
+      "image_link": "https://images.squarespace-cdn.com/content/v1/590be7fd15d5dbc6bf3e22d0/1613183877575-637JIQ4J3K9I19CXA78Y/pasted-image.png"
     }
   },
   {
@@ -44854,7 +47630,7 @@
       "published_date": "2021-02-12",
       "youtube_link": "",
       "official_link": "https://basicswithbabish.co/basicsepisodes/pantomate-crabcakes",
-      "image_link": "https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1613183842730-AERMYVZEOMJRJKWBMSN0/ke17ZwdGBToddI8pDm48kLIHJMQ8C0Xv223jIdQPNVp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYsxCIdDgtq5Qi2LG--6piLgXMQUQ8pPoDXoa3QbRrDRZtJ3qR9G2BYeA0wOAaeYNg/pasted-image.png"
+      "image_link": "https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1613183842730-AERMYVZEOMJRJKWBMSN0/pasted-image.png"
     }
   },
   {
@@ -46958,6 +49734,67 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1036",
+    "recipe_id": 1036,
+    "name": "Pesto",
+    "image_link": null,
+    "raw_ingredient_list": "30 g pine nuts, lightly toasted + cooled\n1 tsp kosher salt\n1 garlic clove, roughly chopped\n30 g basil leaves, washed + dried\n20 grams Parmesan Reggiano, finely grated\n10 grams Pecorino Romano, finely grated\n80 ml extra virgin olive oil",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        30.0,
+        "gram",
+        "Pine Nuts",
+        "30 g pine nuts, lightly toasted + cooled"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Kosher Salt",
+        "1 tsp kosher salt"
+      ],
+      [
+        1.0,
+        null,
+        "Garlic Clove",
+        "1 garlic clove, roughly chopped"
+      ],
+      [
+        30.0,
+        "gram",
+        "Basil Leaves",
+        "30 g basil leaves, washed + dried"
+      ],
+      [
+        20.0,
+        null,
+        "Grams Parmesan Reggiano",
+        "20 grams Parmesan Reggiano, finely grated"
+      ],
+      [
+        10.0,
+        null,
+        "Grams Pecorino Romano",
+        "10 grams Pecorino Romano, finely grated"
+      ],
+      [
+        80.0,
+        "ml",
+        "Extra Virgin Olive Oil",
+        "80 ml extra virgin olive oil"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/trenette-el-pesto-luca",
+      "episode_id": "trenette-el-pesto-luca",
+      "name": "Trenette el Pesto inspired by Luca",
+      "published_date": "2021-07-07",
+      "youtube_link": "https://www.youtube.com/watch?v=bWX0-NEjyNQ",
+      "official_link": "https://www.bingingwithbabish.com/recipes/trenette-el-pesto-luca",
+      "image_link": "https://img.youtube.com/vi/bWX0-NEjyNQ/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/405",
     "recipe_id": 405,
     "name": "Pesto Aioli",
@@ -48052,6 +50889,49 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1063",
+    "recipe_id": 1063,
+    "name": "Pimento Cheese Filling",
+    "image_link": null,
+    "raw_ingredient_list": "8 oz sharp cheddar cheese, cubed\n4 oz american cheese, cubed\n2 oz cream cheese, room temperature + cubed\n2 oz jarred pimento peppers or cherry peppers, seeds removed + sliced",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        8.0,
+        "ounce",
+        "Sharp Cheddar Cheese",
+        "8 oz sharp cheddar cheese, cubed"
+      ],
+      [
+        4.0,
+        "ounce",
+        "American Cheese",
+        "4 oz american cheese, cubed"
+      ],
+      [
+        2.0,
+        "ounce",
+        "Cream Cheese",
+        "2 oz cream cheese, room temperature + cubed"
+      ],
+      [
+        2.0,
+        "ounce",
+        "Jarred Pimento Peppers Or Cherry Peppers",
+        "2 oz jarred pimento peppers or cherry peppers, seeds removed + sliced"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/grilled-feast",
+      "episode_id": "grilled-feast",
+      "name": "GRILLED FEAST",
+      "published_date": "2021-07-07",
+      "youtube_link": "https://www.youtube.com/watch?v=m6X5I_FI04A",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/grilled-feast",
+      "image_link": "https://img.youtube.com/vi/m6X5I_FI04A/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/306",
     "recipe_id": 306,
     "name": "Pineapple-Curry Fried Rice",
@@ -48318,6 +51198,97 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1055",
+    "recipe_id": 1055,
+    "name": "Pita",
+    "image_link": null,
+    "raw_ingredient_list": "8 g dry active yeast\n225 g Water, warm (~95 \u00b0F)\n360 g all-purpose flour, divided\n20 g Olive oil\n6 g kosher salt\nHummus\nTzatziki sauce\nTomatoes, diced\nCucumber, sliced\nFeta, crumbled\nRed onion, thinly sliced\nFalafel",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        8.0,
+        "gram",
+        "Dry Active Yeast",
+        "8 g dry active yeast"
+      ],
+      [
+        225.0,
+        "gram",
+        "Water",
+        "225 g Water, warm (~95 \u00b0F)"
+      ],
+      [
+        360.0,
+        "gram",
+        "All-purpose Flour",
+        "360 g all-purpose flour, divided"
+      ],
+      [
+        20.0,
+        "gram",
+        "Olive Oil",
+        "20 g Olive oil"
+      ],
+      [
+        6.0,
+        "gram",
+        "Kosher Salt",
+        "6 g kosher salt"
+      ],
+      [
+        null,
+        null,
+        "Hummus",
+        "Hummus"
+      ],
+      [
+        null,
+        null,
+        "Tzatziki Sauce",
+        "Tzatziki sauce"
+      ],
+      [
+        null,
+        null,
+        "Tomatoes",
+        "Tomatoes, diced"
+      ],
+      [
+        null,
+        null,
+        "Cucumber",
+        "Cucumber, sliced"
+      ],
+      [
+        null,
+        null,
+        "Feta",
+        "Feta, crumbled"
+      ],
+      [
+        null,
+        null,
+        "Red Onion",
+        "Red onion, thinly sliced"
+      ],
+      [
+        null,
+        null,
+        "Falafel",
+        "Falafel"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/flatbreads",
+      "episode_id": "flatbreads",
+      "name": "FLATBREADS",
+      "published_date": "2021-06-22",
+      "youtube_link": "https://www.youtube.com/watch?v=3e-f8iK5QLs",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/flatbreads",
+      "image_link": "https://img.youtube.com/vi/3e-f8iK5QLs/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/292",
     "recipe_id": 292,
     "name": "Pita Bread",
@@ -48562,6 +51533,61 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1021",
+    "recipe_id": 1021,
+    "name": "Pizza Dipping Sauce",
+    "image_link": null,
+    "raw_ingredient_list": "1 (28 oz) can San Marzano tomatoes (whole or chopped)\n1 small basil stem (with leaves)\n1 tsp dried oregano\n1 large garlic cloves, halved\n1 tsp kosher salt\n\u00bd tsp freshly ground black pepper",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        null,
+        "Can San Marzano Tomatoes",
+        "1 (28 oz) can San Marzano tomatoes (whole or chopped)"
+      ],
+      [
+        1.0,
+        "small",
+        "Basil Stem",
+        "1 small basil stem (with leaves)"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Dried Oregano",
+        "1 tsp dried oregano"
+      ],
+      [
+        1.0,
+        "large",
+        "Garlic Cloves",
+        "1 large garlic cloves, halved"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Kosher Salt",
+        "1 tsp kosher salt"
+      ],
+      [
+        0.5,
+        "teaspoon",
+        "Freshly Ground Black Pepper",
+        "\u00bd tsp freshly ground black pepper"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/pizza-gyoza-tmnt",
+      "episode_id": "pizza-gyoza-tmnt",
+      "name": "Pizza Gyoza inspired by Teenage Mutant Ninja Turtles",
+      "published_date": "2021-06-09",
+      "youtube_link": "https://www.youtube.com/watch?v=ah5G2EXKgvA",
+      "official_link": "https://www.bingingwithbabish.com/recipes/pizza-gyoza-tmnt",
+      "image_link": "https://img.youtube.com/vi/ah5G2EXKgvA/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/320",
     "recipe_id": 320,
     "name": "Pizza Dough",
@@ -48706,6 +51732,159 @@
       "youtube_link": "https://www.youtube.com/watch?v=J_3v7DEkjsk",
       "official_link": "https://basicswithbabish.co/basicsepisodes/panpizza",
       "image_link": "https://img.youtube.com/vi/J_3v7DEkjsk/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1022",
+    "recipe_id": 1022,
+    "name": "Pizza Gyoza",
+    "image_link": null,
+    "raw_ingredient_list": "As needed dumpling wrappers, (defrosted if applicable)\nReserved filling\nAs needed water\nAs needed neutral oil\nAs needed water\nReserved dipping sauce",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        null,
+        null,
+        "As Needed Dumpling Wrappers",
+        "As needed dumpling wrappers, (defrosted if applicable)"
+      ],
+      [
+        null,
+        null,
+        "Reserved Filling",
+        "Reserved filling"
+      ],
+      [
+        null,
+        null,
+        "As Needed Water",
+        "As needed water"
+      ],
+      [
+        null,
+        null,
+        "As Needed Neutral Oil",
+        "As needed neutral oil"
+      ],
+      [
+        null,
+        null,
+        "As Needed Water",
+        "As needed water"
+      ],
+      [
+        null,
+        null,
+        "Reserved Dipping Sauce",
+        "Reserved dipping sauce"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/pizza-gyoza-tmnt",
+      "episode_id": "pizza-gyoza-tmnt",
+      "name": "Pizza Gyoza inspired by Teenage Mutant Ninja Turtles",
+      "published_date": "2021-06-09",
+      "youtube_link": "https://www.youtube.com/watch?v=ah5G2EXKgvA",
+      "official_link": "https://www.bingingwithbabish.com/recipes/pizza-gyoza-tmnt",
+      "image_link": "https://img.youtube.com/vi/ah5G2EXKgvA/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1020",
+    "recipe_id": 1020,
+    "name": "Pizza Gyoza Filling",
+    "image_link": null,
+    "raw_ingredient_list": "150 g pepperoni, cubed\n275 g low moisture mozzarella cheese, cubed\n3-4 leaves basil, torn\n\u00bc tsp dried oregano",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        150.0,
+        "gram",
+        "Pepperoni",
+        "150 g pepperoni, cubed"
+      ],
+      [
+        275.0,
+        "gram",
+        "Low Moisture Mozzarella Cheese",
+        "275 g low moisture mozzarella cheese, cubed"
+      ],
+      [
+        "3-4",
+        null,
+        "Leaves Basil",
+        "3-4 leaves basil, torn"
+      ],
+      [
+        0.25,
+        "teaspoon",
+        "Dried Oregano",
+        "\u00bc tsp dried oregano"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/pizza-gyoza-tmnt",
+      "episode_id": "pizza-gyoza-tmnt",
+      "name": "Pizza Gyoza inspired by Teenage Mutant Ninja Turtles",
+      "published_date": "2021-06-09",
+      "youtube_link": "https://www.youtube.com/watch?v=ah5G2EXKgvA",
+      "official_link": "https://www.bingingwithbabish.com/recipes/pizza-gyoza-tmnt",
+      "image_link": "https://img.youtube.com/vi/ah5G2EXKgvA/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1024",
+    "recipe_id": 1024,
+    "name": "Pizza Gyoza Pie",
+    "image_link": null,
+    "raw_ingredient_list": "Filled pizza gyoza\n1 Tbsp neutral oil\nReserved skirt mixture\nAs needed reserved sauce\nAs needed low moisture mozzarella cheese\nAs needed pepperoni slices",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        null,
+        null,
+        "Filled Pizza Gyoza",
+        "Filled pizza gyoza"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Neutral Oil",
+        "1 Tbsp neutral oil"
+      ],
+      [
+        null,
+        null,
+        "Reserved Skirt Mixture",
+        "Reserved skirt mixture"
+      ],
+      [
+        null,
+        null,
+        "As Needed Reserved Sauce",
+        "As needed reserved sauce"
+      ],
+      [
+        null,
+        null,
+        "As Needed Low Moisture Mozzarella Cheese",
+        "As needed low moisture mozzarella cheese"
+      ],
+      [
+        null,
+        null,
+        "As Needed Pepperoni Slices",
+        "As needed pepperoni slices"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/pizza-gyoza-tmnt",
+      "episode_id": "pizza-gyoza-tmnt",
+      "name": "Pizza Gyoza inspired by Teenage Mutant Ninja Turtles",
+      "published_date": "2021-06-09",
+      "youtube_link": "https://www.youtube.com/watch?v=ah5G2EXKgvA",
+      "official_link": "https://www.bingingwithbabish.com/recipes/pizza-gyoza-tmnt",
+      "image_link": "https://img.youtube.com/vi/ah5G2EXKgvA/mqdefault.jpg"
     }
   },
   {
@@ -49583,6 +52762,73 @@
       "youtube_link": "https://www.youtube.com/watch?v=AgFaljoriYA",
       "official_link": "https://basicswithbabish.co/basicsepisodes/wholeporkloin",
       "image_link": "https://img.youtube.com/vi/AgFaljoriYA/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1035",
+    "recipe_id": 1035,
+    "name": "Pork Picnic Sandwich",
+    "image_link": null,
+    "raw_ingredient_list": "1 Tbsp unsalted butter\n2 piece sturdy white bread\nBaked beans\nMemphis style pulled pork\nNorth Carolina style pulled pork\nAlabama style pulled pork\nVinegar Coleslaw\n1-2 olive, pitted",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        "tablespoon",
+        "Unsalted Butter",
+        "1 Tbsp unsalted butter"
+      ],
+      [
+        2.0,
+        null,
+        "Piece Sturdy White Bread",
+        "2 piece sturdy white bread"
+      ],
+      [
+        null,
+        null,
+        "Baked Beans",
+        "Baked beans"
+      ],
+      [
+        null,
+        null,
+        "Memphis Style Pulled Pork",
+        "Memphis style pulled pork"
+      ],
+      [
+        null,
+        null,
+        "North Carolina Style Pulled Pork",
+        "North Carolina style pulled pork"
+      ],
+      [
+        null,
+        null,
+        "Alabama Style Pulled Pork",
+        "Alabama style pulled pork"
+      ],
+      [
+        null,
+        null,
+        "Vinegar Coleslaw",
+        "Vinegar Coleslaw"
+      ],
+      [
+        "1-2",
+        null,
+        "Olive",
+        "1-2 olive, pitted"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/pork-picnic-sandwich-regular-show",
+      "episode_id": "pork-picnic-sandwich-regular-show",
+      "name": "Pork Picnic Sandwich inspired by Regular Show",
+      "published_date": "2021-06-23",
+      "youtube_link": "https://www.youtube.com/watch?v=mMle42fPNn0",
+      "official_link": "https://www.bingingwithbabish.com/recipes/pork-picnic-sandwich-regular-show",
+      "image_link": "https://img.youtube.com/vi/mMle42fPNn0/mqdefault.jpg"
     }
   },
   {
@@ -51007,6 +54253,61 @@
       "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
       "official_link": "https://www.bingingwithbabish.com/recipes/dinner-wandavision",
       "image_link": "https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1034",
+    "recipe_id": 1034,
+    "name": "Pulled Pork",
+    "image_link": null,
+    "raw_ingredient_list": "~3-4 lb boneless pork butt or pork shoulder\nKosher salt\nFreshly ground black pepper\nOptional: Memphis style rub + Kansas City style BBQ sauce\nOptional: North Carolina style vinegar mop\nOptional: Alabama style white sauce",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        null,
+        null,
+        "~3-4 Lb Boneless Pork Butt Or Pork Shoulder",
+        "~3-4 lb boneless pork butt or pork shoulder"
+      ],
+      [
+        null,
+        null,
+        "Kosher Salt",
+        "Kosher salt"
+      ],
+      [
+        null,
+        null,
+        "Freshly Ground Black Pepper",
+        "Freshly ground black pepper"
+      ],
+      [
+        null,
+        null,
+        "Optional: Memphis Style Rub + Kansas City Style Bbq Sauce",
+        "Optional: Memphis style rub + Kansas City style BBQ sauce"
+      ],
+      [
+        null,
+        null,
+        "Optional: North Carolina Style Vinegar Mop",
+        "Optional: North Carolina style vinegar mop"
+      ],
+      [
+        null,
+        null,
+        "Optional: Alabama Style White Sauce",
+        "Optional: Alabama style white sauce"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/pork-picnic-sandwich-regular-show",
+      "episode_id": "pork-picnic-sandwich-regular-show",
+      "name": "Pork Picnic Sandwich inspired by Regular Show",
+      "published_date": "2021-06-23",
+      "youtube_link": "https://www.youtube.com/watch?v=mMle42fPNn0",
+      "official_link": "https://www.bingingwithbabish.com/recipes/pork-picnic-sandwich-regular-show",
+      "image_link": "https://img.youtube.com/vi/mMle42fPNn0/mqdefault.jpg"
     }
   },
   {
@@ -52517,9 +55818,9 @@
       "episode_id": "quiche",
       "name": "QUICHE",
       "published_date": "2021-03-18",
-      "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+      "youtube_link": "https://www.youtube.com/watch?v=6EuzOQOnX2A",
       "official_link": "https://basicswithbabish.co/basicsepisodes/quiche",
-      "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg"
+      "image_link": "https://img.youtube.com/vi/6EuzOQOnX2A/mqdefault.jpg"
     }
   },
   {
@@ -52560,9 +55861,9 @@
       "episode_id": "quiche",
       "name": "QUICHE",
       "published_date": "2021-03-18",
-      "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+      "youtube_link": "https://www.youtube.com/watch?v=6EuzOQOnX2A",
       "official_link": "https://basicswithbabish.co/basicsepisodes/quiche",
-      "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg"
+      "image_link": "https://img.youtube.com/vi/6EuzOQOnX2A/mqdefault.jpg"
     }
   },
   {
@@ -52922,6 +56223,55 @@
       "youtube_link": "https://www.youtube.com/watch?v=Izvd-iztaQk",
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/iloveyoumanfishtacos",
       "image_link": "https://img.youtube.com/vi/Izvd-iztaQk/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1065",
+    "recipe_id": 1065,
+    "name": "Reuben Hot Dogs",
+    "image_link": null,
+    "raw_ingredient_list": "4 Hotdogs of choice\n4 hot dog buns, toasted or grilled\nSauerkraut\nPastrami, deli-sliced\nYellow mustard",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        4.0,
+        null,
+        "Choice",
+        "4 Hotdogs of choice"
+      ],
+      [
+        4.0,
+        null,
+        "Dog Buns",
+        "4 hot dog buns, toasted or grilled"
+      ],
+      [
+        null,
+        null,
+        "Sauerkraut",
+        "Sauerkraut"
+      ],
+      [
+        null,
+        null,
+        "Pastrami",
+        "Pastrami, deli-sliced"
+      ],
+      [
+        null,
+        null,
+        "Yellow Mustard",
+        "Yellow mustard"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/grilled-feast",
+      "episode_id": "grilled-feast",
+      "name": "GRILLED FEAST",
+      "published_date": "2021-07-07",
+      "youtube_link": "https://www.youtube.com/watch?v=m6X5I_FI04A",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/grilled-feast",
+      "image_link": "https://img.youtube.com/vi/m6X5I_FI04A/mqdefault.jpg"
     }
   },
   {
@@ -53814,6 +57164,73 @@
       "youtube_link": "https://www.youtube.com/watch?v=RnApthldLPY",
       "official_link": "https://basicswithbabish.co/basicsepisodes/indianbreads",
       "image_link": "https://img.youtube.com/vi/RnApthldLPY/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1057",
+    "recipe_id": 1057,
+    "name": "Roti",
+    "image_link": null,
+    "raw_ingredient_list": "240 g whole wheat flour\n6 g kosher salt\n170 g water, hot (~160 \u00b0F)\nEggs, scrambled\nSpinach, sauteed\nTurkey bacon, cooked + sliced\nSwiss cheese, grated\nMushrooms (of choice), sauteed",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        240.0,
+        "gram",
+        "Wheat Flour",
+        "240 g whole wheat flour"
+      ],
+      [
+        6.0,
+        "gram",
+        "Kosher Salt",
+        "6 g kosher salt"
+      ],
+      [
+        170.0,
+        "gram",
+        "Water",
+        "170 g water, hot (~160 \u00b0F)"
+      ],
+      [
+        null,
+        null,
+        "Eggs",
+        "Eggs, scrambled"
+      ],
+      [
+        null,
+        null,
+        "Spinach",
+        "Spinach, sauteed"
+      ],
+      [
+        null,
+        null,
+        "Turkey Bacon",
+        "Turkey bacon, cooked + sliced"
+      ],
+      [
+        null,
+        null,
+        "Swiss Cheese",
+        "Swiss cheese, grated"
+      ],
+      [
+        null,
+        null,
+        "Mushrooms",
+        "Mushrooms (of choice), sauteed"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/flatbreads",
+      "episode_id": "flatbreads",
+      "name": "FLATBREADS",
+      "published_date": "2021-06-22",
+      "youtube_link": "https://www.youtube.com/watch?v=3e-f8iK5QLs",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/flatbreads",
+      "image_link": "https://img.youtube.com/vi/3e-f8iK5QLs/mqdefault.jpg"
     }
   },
   {
@@ -55224,9 +58641,9 @@
       "episode_id": "quiche",
       "name": "QUICHE",
       "published_date": "2021-03-18",
-      "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+      "youtube_link": "https://www.youtube.com/watch?v=6EuzOQOnX2A",
       "official_link": "https://basicswithbabish.co/basicsepisodes/quiche",
-      "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg"
+      "image_link": "https://img.youtube.com/vi/6EuzOQOnX2A/mqdefault.jpg"
     }
   },
   {
@@ -56714,9 +60131,9 @@
       "episode_id": "quiche",
       "name": "QUICHE",
       "published_date": "2021-03-18",
-      "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+      "youtube_link": "https://www.youtube.com/watch?v=6EuzOQOnX2A",
       "official_link": "https://basicswithbabish.co/basicsepisodes/quiche",
-      "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg"
+      "image_link": "https://img.youtube.com/vi/6EuzOQOnX2A/mqdefault.jpg"
     }
   },
   {
@@ -56989,6 +60406,49 @@
       "youtube_link": "https://www.youtube.com/watch?v=y3PoXXoGVj0",
       "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/skinnersstew",
       "image_link": "https://img.youtube.com/vi/y3PoXXoGVj0/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1023",
+    "recipe_id": 1023,
+    "name": "Skirt",
+    "image_link": null,
+    "raw_ingredient_list": "2 tsp cornstarch\n1\u00a0 tsp all-purpose flour\n\u00bd Cup water\n\u00bc tsp rice vinegar",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        2.0,
+        "teaspoon",
+        "Cornstarch",
+        "2 tsp cornstarch"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "All-purpose Flour",
+        "1 tsp all-purpose flour"
+      ],
+      [
+        0.5,
+        null,
+        "Cup Water",
+        "\u00bd Cup water"
+      ],
+      [
+        0.25,
+        "teaspoon",
+        "Rice Vinegar",
+        "\u00bc tsp rice vinegar"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/pizza-gyoza-tmnt",
+      "episode_id": "pizza-gyoza-tmnt",
+      "name": "Pizza Gyoza inspired by Teenage Mutant Ninja Turtles",
+      "published_date": "2021-06-09",
+      "youtube_link": "https://www.youtube.com/watch?v=ah5G2EXKgvA",
+      "official_link": "https://www.bingingwithbabish.com/recipes/pizza-gyoza-tmnt",
+      "image_link": "https://img.youtube.com/vi/ah5G2EXKgvA/mqdefault.jpg"
     }
   },
   {
@@ -59245,6 +62705,67 @@
       "youtube_link": "https://www.youtube.com/watch?v=02NINX8OD-A",
       "official_link": "https://basicswithbabish.co/basicsepisodes/steak-pinwheels",
       "image_link": "https://img.youtube.com/vi/02NINX8OD-A/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1079",
+    "recipe_id": 1079,
+    "name": "Steakhouse Burger",
+    "image_link": null,
+    "raw_ingredient_list": "20 oz dry-aged ribeye steak, ground\n20 oz brisket, ground\nAs needed kosher salt\nAs needed freshly ground black pepper\n4 sliced Muenster cheese\nReserved caramelized onions\n4 homemade hamburger buns, sliced",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        20.0,
+        "ounce",
+        "Dry-aged Ribeye Steak",
+        "20 oz dry-aged ribeye steak, ground"
+      ],
+      [
+        20.0,
+        "ounce",
+        "Brisket",
+        "20 oz brisket, ground"
+      ],
+      [
+        null,
+        null,
+        "As Needed Kosher Salt",
+        "As needed kosher salt"
+      ],
+      [
+        null,
+        null,
+        "As Needed Freshly Ground Black Pepper",
+        "As needed freshly ground black pepper"
+      ],
+      [
+        4.0,
+        null,
+        "Sliced Muenster Cheese",
+        "4 sliced Muenster cheese"
+      ],
+      [
+        null,
+        null,
+        "Reserved Caramelized Onions",
+        "Reserved caramelized onions"
+      ],
+      [
+        4.0,
+        null,
+        "Homemade Hamburger Buns",
+        "4 homemade hamburger buns, sliced"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/steakhouse-burgers",
+      "episode_id": "steakhouse-burgers",
+      "name": "STEAKHOUSE BURGER",
+      "published_date": "2021-07-26",
+      "youtube_link": "https://www.youtube.com/watch?v=9c_Tn4dnGIU",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/steakhouse-burgers",
+      "image_link": "https://img.youtube.com/vi/9c_Tn4dnGIU/mqdefault.jpg"
     }
   },
   {
@@ -63575,6 +67096,43 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1052",
+    "recipe_id": 1052,
+    "name": "Toffee Coffee Cookies",
+    "image_link": null,
+    "raw_ingredient_list": "1 batch chocolate cookie dough\n2 tsp instant espresso powder\n12 oz toffee chocolate or toffee candy bar",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        null,
+        "Batch Chocolate Cookie Dough",
+        "1 batch chocolate cookie dough"
+      ],
+      [
+        2.0,
+        "teaspoon",
+        "Instant Espresso Powder",
+        "2 tsp instant espresso powder"
+      ],
+      [
+        12.0,
+        "ounce",
+        "Toffee Chocolate Or Toffee Candy Bar",
+        "12 oz toffee chocolate or toffee candy bar"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/cookie-dough",
+      "episode_id": "cookie-dough",
+      "name": "COOKIE DOUGH",
+      "published_date": "2021-06-04",
+      "youtube_link": "https://www.youtube.com/watch?v=Il1Cy4tQCkk",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/cookie-dough",
+      "image_link": "https://img.youtube.com/vi/Il1Cy4tQCkk/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/373",
     "recipe_id": 373,
     "name": "Tomahawk Ribeye",
@@ -65121,6 +68679,67 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1037",
+    "recipe_id": 1037,
+    "name": "Trenette al Pesto",
+    "image_link": null,
+    "raw_ingredient_list": "1 Tbsp kosher salt\n300 g yellow-skin potatoes, peeled\n150 g green beans, washed, trimmed\n450 g dried fettuccine pasta or dried trenette pasta\nPesto (see recipe above)\nDrizzle extra virgin olive oil\n3-4 basil leaves",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        "tablespoon",
+        "Kosher Salt",
+        "1 Tbsp kosher salt"
+      ],
+      [
+        300.0,
+        "gram",
+        "Yellow-skin Potatoes",
+        "300 g yellow-skin potatoes, peeled"
+      ],
+      [
+        150.0,
+        "gram",
+        "Green Beans",
+        "150 g green beans, washed, trimmed"
+      ],
+      [
+        450.0,
+        "gram",
+        "Dried Fettuccine Pasta Or Dried Trenette Pasta",
+        "450 g dried fettuccine pasta or dried trenette pasta"
+      ],
+      [
+        null,
+        null,
+        "Pesto",
+        "Pesto (see recipe above)"
+      ],
+      [
+        null,
+        null,
+        "Drizzle Extra Virgin Olive Oil",
+        "Drizzle extra virgin olive oil"
+      ],
+      [
+        "3-4",
+        null,
+        "Basil Leaves",
+        "3-4 basil leaves"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/trenette-el-pesto-luca",
+      "episode_id": "trenette-el-pesto-luca",
+      "name": "Trenette el Pesto inspired by Luca",
+      "published_date": "2021-07-07",
+      "youtube_link": "https://www.youtube.com/watch?v=bWX0-NEjyNQ",
+      "official_link": "https://www.bingingwithbabish.com/recipes/trenette-el-pesto-luca",
+      "image_link": "https://img.youtube.com/vi/bWX0-NEjyNQ/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/31",
     "recipe_id": 31,
     "name": "Tres Leches Cake",
@@ -65209,6 +68828,49 @@
       "youtube_link": "https://www.youtube.com/watch?v=iIDXc6xZ0X8",
       "official_link": "https://basicswithbabish.co/basicsepisodes/treslechescake",
       "image_link": "https://img.youtube.com/vi/iIDXc6xZ0X8/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1051",
+    "recipe_id": 1051,
+    "name": "Triple Chocolate Cookies",
+    "image_link": null,
+    "raw_ingredient_list": "1 batch chocolate cookie dough\n6 oz semi-sweet chocolate, chopped\n6 oz dark chocolate, chopped\nAs needed flaky salt",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        null,
+        "Batch Chocolate Cookie Dough",
+        "1 batch chocolate cookie dough"
+      ],
+      [
+        6.0,
+        "ounce",
+        "Semi-sweet Chocolate",
+        "6 oz semi-sweet chocolate, chopped"
+      ],
+      [
+        6.0,
+        "ounce",
+        "Dark Chocolate",
+        "6 oz dark chocolate, chopped"
+      ],
+      [
+        null,
+        null,
+        "As Needed Flaky Salt",
+        "As needed flaky salt"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/cookie-dough",
+      "episode_id": "cookie-dough",
+      "name": "COOKIE DOUGH",
+      "published_date": "2021-06-04",
+      "youtube_link": "https://www.youtube.com/watch?v=Il1Cy4tQCkk",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/cookie-dough",
+      "image_link": "https://img.youtube.com/vi/Il1Cy4tQCkk/mqdefault.jpg"
     }
   },
   {
@@ -66376,6 +70038,67 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1070",
+    "recipe_id": 1070,
+    "name": "Vanilla Ice Cream Base (Cr\u00e8me Anglaise)",
+    "image_link": null,
+    "raw_ingredient_list": "15 oz whole milk\n12 oz heavy cream\n1 vanilla bean, seeds + pod\n6 \u00be oz granulated sugar\n6 large egg yolks\n1 tsp kosher salt\nReserve caramel sauce, cooled",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        15.0,
+        "ounce",
+        "Milk",
+        "15 oz whole milk"
+      ],
+      [
+        12.0,
+        "ounce",
+        "Heavy Cream",
+        "12 oz heavy cream"
+      ],
+      [
+        1.0,
+        null,
+        "Vanilla Bean",
+        "1 vanilla bean, seeds + pod"
+      ],
+      [
+        6.75,
+        "ounce",
+        "Granulated Sugar",
+        "6 \u00be oz granulated sugar"
+      ],
+      [
+        6.0,
+        "large",
+        "Egg Yolks",
+        "6 large egg yolks"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Kosher Salt",
+        "1 tsp kosher salt"
+      ],
+      [
+        null,
+        null,
+        "Reserve Caramel Sauce",
+        "Reserve caramel sauce, cooled"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/ice-cream-cake",
+      "episode_id": "ice-cream-cake",
+      "name": "ICE CREAM CAKE",
+      "published_date": "2021-07-20",
+      "youtube_link": "https://www.youtube.com/watch?v=sTntmGwbf_U",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/ice-cream-cake",
+      "image_link": "https://img.youtube.com/vi/sTntmGwbf_U/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/90",
     "recipe_id": 90,
     "name": "Vegetarian Quesadilla",
@@ -66575,6 +70298,97 @@
       "youtube_link": "https://www.youtube.com/watch?v=_SObOsXrDRc",
       "official_link": "https://basicswithbabish.co/basicsepisodes/pulledpork",
       "image_link": "https://img.youtube.com/vi/_SObOsXrDRc/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1033",
+    "recipe_id": 1033,
+    "name": "Vinegar Coleslaw",
+    "image_link": null,
+    "raw_ingredient_list": "\u00be Cup apple cider vinegar\n\u00bc Cup water\n\u00bc cup granulated sugar\n1 tsp celery seeds\n1 Tbsp dijon mustard\n\u00bc cup vegetable oil\n\u00bd head green cabbage, cored + chopped\n\u00bd head purple cabbage, cored + chopped\n2 medium carrots, grated\n1 medium onion, thinly sliced\nTo taste kosher salt\nTo taste freshly ground black pepper",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        0.75,
+        null,
+        "Cup Apple Cider Vinegar",
+        "\u00be Cup apple cider vinegar"
+      ],
+      [
+        0.25,
+        null,
+        "Cup Water",
+        "\u00bc Cup water"
+      ],
+      [
+        0.25,
+        "cup",
+        "Granulated Sugar",
+        "\u00bc cup granulated sugar"
+      ],
+      [
+        1.0,
+        "teaspoon",
+        "Celery Seeds",
+        "1 tsp celery seeds"
+      ],
+      [
+        1.0,
+        "tablespoon",
+        "Dijon Mustard",
+        "1 Tbsp dijon mustard"
+      ],
+      [
+        0.25,
+        "cup",
+        "Vegetable Oil",
+        "\u00bc cup vegetable oil"
+      ],
+      [
+        0.5,
+        null,
+        "Head Green Cabbage",
+        "\u00bd head green cabbage, cored + chopped"
+      ],
+      [
+        0.5,
+        null,
+        "Head Purple Cabbage",
+        "\u00bd head purple cabbage, cored + chopped"
+      ],
+      [
+        2.0,
+        "medium",
+        "Carrots",
+        "2 medium carrots, grated"
+      ],
+      [
+        1.0,
+        "medium",
+        "Onion",
+        "1 medium onion, thinly sliced"
+      ],
+      [
+        null,
+        null,
+        "To Taste Kosher Salt",
+        "To taste kosher salt"
+      ],
+      [
+        null,
+        null,
+        "To Taste Freshly Ground Black Pepper",
+        "To taste freshly ground black pepper"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/pork-picnic-sandwich-regular-show",
+      "episode_id": "pork-picnic-sandwich-regular-show",
+      "name": "Pork Picnic Sandwich inspired by Regular Show",
+      "published_date": "2021-06-23",
+      "youtube_link": "https://www.youtube.com/watch?v=mMle42fPNn0",
+      "official_link": "https://www.bingingwithbabish.com/recipes/pork-picnic-sandwich-regular-show",
+      "image_link": "https://img.youtube.com/vi/mMle42fPNn0/mqdefault.jpg"
     }
   },
   {
@@ -67703,6 +71517,55 @@
     }
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1049",
+    "recipe_id": 1049,
+    "name": "White Chocolate Macadamia Nut Cookies",
+    "image_link": null,
+    "raw_ingredient_list": "1 batch base cookie dough\n4 oz white chocolate, chopped\n4 oz macadamia nuts\n2 oz cranberries\n2 oz sweetened coconut flakes",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        1.0,
+        null,
+        "Batch Base Cookie Dough",
+        "1 batch base cookie dough"
+      ],
+      [
+        4.0,
+        "ounce",
+        "White Chocolate",
+        "4 oz white chocolate, chopped"
+      ],
+      [
+        4.0,
+        "ounce",
+        "Macadamia Nuts",
+        "4 oz macadamia nuts"
+      ],
+      [
+        2.0,
+        "ounce",
+        "Cranberries",
+        "2 oz cranberries"
+      ],
+      [
+        2.0,
+        "ounce",
+        "Sweetened Coconut Flakes",
+        "2 oz sweetened coconut flakes"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/cookie-dough",
+      "episode_id": "cookie-dough",
+      "name": "COOKIE DOUGH",
+      "published_date": "2021-06-04",
+      "youtube_link": "https://www.youtube.com/watch?v=Il1Cy4tQCkk",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/cookie-dough",
+      "image_link": "https://img.youtube.com/vi/Il1Cy4tQCkk/mqdefault.jpg"
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/recipe/63",
     "recipe_id": 63,
     "name": "White Chocolate Shrimp",
@@ -68498,6 +72361,79 @@
       "youtube_link": "https://www.youtube.com/watch?v=H1xBwVgKJe8",
       "official_link": "https://www.bingingwithbabish.com/recipes/together-breakfast-steven-universe",
       "image_link": "https://img.youtube.com/vi/H1xBwVgKJe8/mqdefault.jpg"
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1056",
+    "recipe_id": 1056,
+    "name": "Yogurt Flatbread",
+    "image_link": null,
+    "raw_ingredient_list": "360 g All-purpose flour\n3 g kosher salt\n10 g baking powder\n440 g whole-milk yogurt\nAs needed ghee\nPesto\nRoasted chicken, sliced\nMozzarella cheese, grated\nParmesan cheese, grated",
+    "raw_procedure": "",
+    "ingredient_list": [
+      [
+        360.0,
+        "gram",
+        "All-purpose Flour",
+        "360 g All-purpose flour"
+      ],
+      [
+        3.0,
+        "gram",
+        "Kosher Salt",
+        "3 g kosher salt"
+      ],
+      [
+        10.0,
+        "gram",
+        "Baking Powder",
+        "10 g baking powder"
+      ],
+      [
+        440.0,
+        "gram",
+        "Whole-milk Yogurt",
+        "440 g whole-milk yogurt"
+      ],
+      [
+        null,
+        null,
+        "As Needed Ghee",
+        "As needed ghee"
+      ],
+      [
+        null,
+        null,
+        "Pesto",
+        "Pesto"
+      ],
+      [
+        null,
+        null,
+        "Roasted Chicken",
+        "Roasted chicken, sliced"
+      ],
+      [
+        null,
+        null,
+        "Mozzarella Cheese",
+        "Mozzarella cheese, grated"
+      ],
+      [
+        null,
+        null,
+        "Parmesan Cheese",
+        "Parmesan cheese, grated"
+      ]
+    ],
+    "source": {
+      "self": "ibdb://data-with-babish.jklewa.github.com/episode/flatbreads",
+      "episode_id": "flatbreads",
+      "name": "FLATBREADS",
+      "published_date": "2021-06-22",
+      "youtube_link": "https://www.youtube.com/watch?v=3e-f8iK5QLs",
+      "official_link": "https://basicswithbabish.co/basicsepisodes/flatbreads",
+      "image_link": "https://img.youtube.com/vi/3e-f8iK5QLs/mqdefault.jpg"
     }
   },
   {
