@@ -6,6 +6,60 @@
     "image_link": null,
     "episodes": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/the-sims-special",
+        "episode_id": "the-sims-special",
+        "name": "The Sims Special",
+        "published_date": "2021-07-26",
+        "youtube_link": "https://www.youtube.com/watch?v=z4Bwb8_k7yM",
+        "official_link": "https://www.bingingwithbabish.com/recipes/the-sims-special",
+        "image_link": "https://img.youtube.com/vi/z4Bwb8_k7yM/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/trollhunters-meatloaf-sandwich",
+        "episode_id": "trollhunters-meatloaf-sandwich",
+        "name": "Meatloaf Sandwich inspired by Trollhunters: Tales of Arcadia",
+        "published_date": "2021-07-20",
+        "youtube_link": "https://www.youtube.com/watch?v=7SpXCwU5AiI",
+        "official_link": "https://www.bingingwithbabish.com/recipes/trollhunters-meatloaf-sandwich",
+        "image_link": "https://img.youtube.com/vi/7SpXCwU5AiI/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/trenette-el-pesto-luca",
+        "episode_id": "trenette-el-pesto-luca",
+        "name": "Trenette el Pesto inspired by Luca",
+        "published_date": "2021-07-07",
+        "youtube_link": "https://www.youtube.com/watch?v=bWX0-NEjyNQ",
+        "official_link": "https://www.bingingwithbabish.com/recipes/trenette-el-pesto-luca",
+        "image_link": "https://img.youtube.com/vi/bWX0-NEjyNQ/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/pork-picnic-sandwich-regular-show",
+        "episode_id": "pork-picnic-sandwich-regular-show",
+        "name": "Pork Picnic Sandwich inspired by Regular Show",
+        "published_date": "2021-06-23",
+        "youtube_link": "https://www.youtube.com/watch?v=mMle42fPNn0",
+        "official_link": "https://www.bingingwithbabish.com/recipes/pork-picnic-sandwich-regular-show",
+        "image_link": "https://img.youtube.com/vi/mMle42fPNn0/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/meatghetti-spagballs-american-dad",
+        "episode_id": "meatghetti-spagballs-american-dad",
+        "name": "Meat-ghetti and Spag-balls inspired by American Dad",
+        "published_date": "2021-06-21",
+        "youtube_link": "https://www.youtube.com/watch?v=PwbgLteVwvs",
+        "official_link": "https://www.bingingwithbabish.com/recipes/meatghetti-spagballs-american-dad",
+        "image_link": "https://img.youtube.com/vi/PwbgLteVwvs/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/pizza-gyoza-tmnt",
+        "episode_id": "pizza-gyoza-tmnt",
+        "name": "Pizza Gyoza inspired by Teenage Mutant Ninja Turtles",
+        "published_date": "2021-06-09",
+        "youtube_link": "https://www.youtube.com/watch?v=ah5G2EXKgvA",
+        "official_link": "https://www.bingingwithbabish.com/recipes/pizza-gyoza-tmnt",
+        "image_link": "https://img.youtube.com/vi/ah5G2EXKgvA/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/kettle-corn-community",
         "episode_id": "kettle-corn-community",
         "name": "Kettle Corn inspired by Community",
@@ -156,7 +210,7 @@
         "published_date": "2021-02-12",
         "youtube_link": "",
         "official_link": "https://www.bingingwithbabish.com/recipes/pancontomate-crabcakes",
-        "image_link": "https://images.squarespace-cdn.com/content/v1/590be7fd15d5dbc6bf3e22d0/1613183877575-637JIQ4J3K9I19CXA78Y/ke17ZwdGBToddI8pDm48kLIHJMQ8C0Xv223jIdQPNVp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYsxCIdDgtq5Qi2LG--6piLgXMQUQ8pPoDXoa3QbRrDRZtJ3qR9G2BYeA0wOAaeYNg/pasted-image.png"
+        "image_link": "https://images.squarespace-cdn.com/content/v1/590be7fd15d5dbc6bf3e22d0/1613183877575-637JIQ4J3K9I19CXA78Y/pasted-image.png"
       },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/pizza-in-a-cup-the-jerk",
@@ -2219,6 +2273,78 @@
     "image_link": null,
     "episodes": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/steakhouse-burgers",
+        "episode_id": "steakhouse-burgers",
+        "name": "STEAKHOUSE BURGER",
+        "published_date": "2021-07-26",
+        "youtube_link": "https://www.youtube.com/watch?v=9c_Tn4dnGIU",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/steakhouse-burgers",
+        "image_link": "https://img.youtube.com/vi/9c_Tn4dnGIU/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/ice-cream-cake",
+        "episode_id": "ice-cream-cake",
+        "name": "ICE CREAM CAKE",
+        "published_date": "2021-07-20",
+        "youtube_link": "https://www.youtube.com/watch?v=sTntmGwbf_U",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/ice-cream-cake",
+        "image_link": "https://img.youtube.com/vi/sTntmGwbf_U/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/chopped-cheese",
+        "episode_id": "chopped-cheese",
+        "name": "CHOPPED CHEESE",
+        "published_date": "2021-07-13",
+        "youtube_link": "https://www.youtube.com/watch?v=E1z55dYHv8c",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/chopped-cheese",
+        "image_link": "https://img.youtube.com/vi/E1z55dYHv8c/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/grilled-feast",
+        "episode_id": "grilled-feast",
+        "name": "GRILLED FEAST",
+        "published_date": "2021-07-07",
+        "youtube_link": "https://www.youtube.com/watch?v=m6X5I_FI04A",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/grilled-feast",
+        "image_link": "https://img.youtube.com/vi/m6X5I_FI04A/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/monkey-bread",
+        "episode_id": "monkey-bread",
+        "name": "MONKEY BREAD",
+        "published_date": "2021-06-25",
+        "youtube_link": "https://www.youtube.com/watch?v=JGL2m6-SLMQ",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/monkey-bread",
+        "image_link": "https://img.youtube.com/vi/JGL2m6-SLMQ/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/flatbreads",
+        "episode_id": "flatbreads",
+        "name": "FLATBREADS",
+        "published_date": "2021-06-22",
+        "youtube_link": "https://www.youtube.com/watch?v=3e-f8iK5QLs",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/flatbreads",
+        "image_link": "https://img.youtube.com/vi/3e-f8iK5QLs/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/gluten-free-pasta",
+        "episode_id": "gluten-free-pasta",
+        "name": "GLUTEN-FREE PASTA",
+        "published_date": "2021-06-14",
+        "youtube_link": "https://www.youtube.com/watch?v=MVdu-DYcfTA",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/gluten-free-pasta",
+        "image_link": "https://img.youtube.com/vi/MVdu-DYcfTA/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/cookie-dough",
+        "episode_id": "cookie-dough",
+        "name": "COOKIE DOUGH",
+        "published_date": "2021-06-04",
+        "youtube_link": "https://www.youtube.com/watch?v=Il1Cy4tQCkk",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/cookie-dough",
+        "image_link": "https://img.youtube.com/vi/Il1Cy4tQCkk/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/corn-dogs",
         "episode_id": "corn-dogs",
         "name": "CORN DOGS",
@@ -2304,9 +2430,9 @@
         "episode_id": "quiche",
         "name": "QUICHE",
         "published_date": "2021-03-18",
-        "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
+        "youtube_link": "https://www.youtube.com/watch?v=6EuzOQOnX2A",
         "official_link": "https://basicswithbabish.co/basicsepisodes/quiche",
-        "image_link": "https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg"
+        "image_link": "https://img.youtube.com/vi/6EuzOQOnX2A/mqdefault.jpg"
       },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/birria-tacos",
@@ -2351,7 +2477,7 @@
         "published_date": "2021-02-12",
         "youtube_link": "",
         "official_link": "https://basicswithbabish.co/basicsepisodes/pantomate-crabcakes",
-        "image_link": "https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1613183842730-AERMYVZEOMJRJKWBMSN0/ke17ZwdGBToddI8pDm48kLIHJMQ8C0Xv223jIdQPNVp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYsxCIdDgtq5Qi2LG--6piLgXMQUQ8pPoDXoa3QbRrDRZtJ3qR9G2BYeA0wOAaeYNg/pasted-image.png"
+        "image_link": "https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1613183842730-AERMYVZEOMJRJKWBMSN0/pasted-image.png"
       },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/game-day-snacks-part-2",
