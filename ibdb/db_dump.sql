@@ -591,6 +591,7 @@ short-ribs	BRAISED SHORT RIBS	https://www.youtube.com/watch?v=DUTyGfwdBaY	https:
 shrimp-scampi	SHRIMP SCAMPI	https://www.youtube.com/watch?v=3ELo1zykAGU	https://basicswithbabish.co/basicsepisodes/shrimp-scampi	https://img.youtube.com/vi/3ELo1zykAGU/mqdefault.jpg	2021-01-28	2
 skinnersstew	Skinner's Stew inspired by The Simpsons	https://www.youtube.com/watch?v=y3PoXXoGVj0	https://www.bingingwithbabish.com/recipes/2017/8/22/skinnersstew	https://img.youtube.com/vi/y3PoXXoGVj0/mqdefault.jpg	2018-01-09	1
 sloppy-joes-billy-madison	Sloppy Joes inspired by Billy Madison	https://www.youtube.com/watch?v=BsDkBaACINQ	https://www.bingingwithbabish.com/recipes/sloppy-joes-billy-madison	https://img.youtube.com/vi/BsDkBaACINQ/mqdefault.jpg	2021-01-20	1
+sloppy-steaks-i-think-you-should-leave	Sloppy Steaks inspired by I Think You Should Leave with Tim Robinson	https://www.youtube.com/watch?v=EcGgDrS5Gto	https://www.bingingwithbabish.com/recipes/sloppy-steaks-i-think-you-should-leave	https://img.youtube.com/vi/EcGgDrS5Gto/mqdefault.jpg	2021-07-30	1
 smokedribs	GAS GRILL-SMOKED RIBS	https://www.youtube.com/watch?v=sX2fsvYkKF4	https://basicswithbabish.co/basicsepisodes/smokedribs	https://img.youtube.com/vi/sX2fsvYkKF4/mqdefault.jpg	2020-05-21	2
 snl-overnight-salad	Overnight Salad inspired by Saturday Night Live	https://www.youtube.com/watch?v=Z5zEocd3u9w	https://www.bingingwithbabish.com/recipes/snl-overnight-salad	https://img.youtube.com/vi/Z5zEocd3u9w/mqdefault.jpg	2020-12-29	1
 sourdough-bread	SOURDOUGH BREAD	https://www.youtube.com/watch?v=bSYdABrPrtM	https://basicswithbabish.co/basicsepisodes/sourdough-bread	https://img.youtube.com/vi/bSYdABrPrtM/mqdefault.jpg	2020-02-28	2
@@ -920,6 +921,7 @@ shawarma	62
 shawarma	203
 skinnersstew	15
 sloppy-joes-billy-madison	534
+sloppy-steaks-i-think-you-should-leave	552
 snl-overnight-salad	89
 sourdough-broccoli-pizza-inside-out	533
 southparkspecial	99
@@ -1019,6 +1021,7 @@ COPY public.guest (id, name, image_link) FROM stdin;
 31	David (Brother)	
 32	Ashwin Enjoys Nature	\N
 33	Brad	\N
+34	Tim Robinson	\N
 \.
 
 
@@ -1070,6 +1073,7 @@ lasagna	7
 lasagna	33
 mostexpensiveshake	30
 quiet-place-bonus	17
+sloppy-steaks-i-think-you-should-leave	34
 theswanson	26
 \.
 
@@ -2152,6 +2156,12 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 1077	Hamburger Buns	\N	500 g bread flour\n7 g instant dry yeast\n25 g granulated sugar\n100 g whole milk, warm (~85 °F)\n200 g water, warm (~85 °F)\n10 g kosher salt\n85 g unsalted butter, cubed + very soft (~75-80 °F)\nAs needed cooking olive oil or non-stick spray\nEgg wash (see below)\nWhite sesame seeds		steakhouse-burgers
 1078	Egg Wash	\N	1 egg\n1 egg yolk\nPinch of salt		steakhouse-burgers
 1079	Steakhouse Burger	\N	20 oz dry-aged ribeye steak, ground\n20 oz brisket, ground\nAs needed kosher salt\nAs needed freshly ground black pepper\n4 sliced Muenster cheese\nReserved caramelized onions\n4 homemade hamburger buns, sliced		steakhouse-burgers
+1080	Original Sloppy Steak Method	\N	1 high-quality T-bone steak\nAs needed kosher salt\nAs needed freshly ground black pepper\n1 Tbsp neutral oil\n1 glass water		sloppy-steaks-i-think-you-should-leave
+1081	Dashi	\N	3-4 pieces kombu (about ⅓ oz)\n1 quart water, cold\n1 Cup (loosely packed) bonito flakes		sloppy-steaks-i-think-you-should-leave
+1082	‘Sloppy’ Broth	\N	8 oz dashi broth\n3 Tbsp mirin\n3 Tbsp soy sauce\n2 tsp granulated sugar		sloppy-steaks-i-think-you-should-leave
+1083	Lotus (Renkon) Chip	\N	1 fresh lotus root\n1 quart water\n1 Tbsp rice vinegar\n1 tsp kosher salt + more as needed\nAs needed vegetable oil		sloppy-steaks-i-think-you-should-leave
+1084	Wasabi Sauce	\N	⅓ Cup wasabi powder\n2 tsp mirin\n½ tsp granulated sugar\n½ Cup water\n½ Cup neutral oil		sloppy-steaks-i-think-you-should-leave
+1085	Sloppy Shabu	\N	4-6 oz A5 wagyu ribeye steak\n1 shiso leaf\nAs needed carrot, thinly sliced\nAs needed enoki mushrooms\nAs needed black garlic, thinly sliced\nAs needed black radish, thinly sliced\nReserved wasabi sauce\nReserved lotus chip\nAs needed gold leaf\nAs needed maldon salt\nReserved sloppy broth		sloppy-steaks-i-think-you-should-leave
 \.
 
 
@@ -2389,6 +2399,7 @@ COPY public.reference (id, type, name, description, external_link, image_link) F
 549	\N	Luca	\N	\N	\N
 550	\N	Trollhunters	\N	\N	\N
 551	\N	The Sims	\N	\N	\N
+552	\N	I Think You Should Leave	\N	\N	\N
 \.
 
 
@@ -2408,21 +2419,21 @@ COPY public.show (id, name, image_link) FROM stdin;
 -- Name: guest_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.guest_id_seq', 33, true);
+SELECT pg_catalog.setval('public.guest_id_seq', 34, true);
 
 
 --
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 1079, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 1085, true);
 
 
 --
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 551, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 552, true);
 
 
 --

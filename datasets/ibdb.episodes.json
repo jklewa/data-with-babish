@@ -1,5 +1,301 @@
 [
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/sloppy-steaks-i-think-you-should-leave",
+    "episode_id": "sloppy-steaks-i-think-you-should-leave",
+    "name": "Sloppy Steaks inspired by I Think You Should Leave with Tim Robinson",
+    "published_date": "2021-07-30",
+    "youtube_link": "https://www.youtube.com/watch?v=EcGgDrS5Gto",
+    "official_link": "https://www.bingingwithbabish.com/recipes/sloppy-steaks-i-think-you-should-leave",
+    "image_link": "https://img.youtube.com/vi/EcGgDrS5Gto/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/guest/34",
+          "guest_id": 34,
+          "name": "Tim Robinson",
+          "image_link": null
+        }
+      ],
+      "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/552",
+          "reference_id": 552,
+          "type": null,
+          "name": "I Think You Should Leave",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1081",
+          "recipe_id": 1081,
+          "name": "Dashi",
+          "image_link": null,
+          "raw_ingredient_list": "3-4 pieces kombu (about \u2153 oz)\n1 quart water, cold\n1 Cup (loosely packed) bonito flakes",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              "3-4",
+              null,
+              "Pieces Kombu",
+              "3-4 pieces kombu (about \u2153 oz)"
+            ],
+            [
+              1.0,
+              null,
+              "Quart Water",
+              "1 quart water, cold"
+            ],
+            [
+              1.0,
+              null,
+              "Cup Bonito Flakes",
+              "1 Cup (loosely packed) bonito flakes"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1083",
+          "recipe_id": 1083,
+          "name": "Lotus (Renkon) Chip",
+          "image_link": null,
+          "raw_ingredient_list": "1 fresh lotus root\n1 quart water\n1 Tbsp rice vinegar\n1 tsp kosher salt + more as needed\nAs needed vegetable oil",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "Fresh Lotus Root",
+              "1 fresh lotus root"
+            ],
+            [
+              1.0,
+              null,
+              "Quart Water",
+              "1 quart water"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Rice Vinegar",
+              "1 Tbsp rice vinegar"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt + More As Needed",
+              "1 tsp kosher salt + more as needed"
+            ],
+            [
+              null,
+              null,
+              "As Needed Vegetable Oil",
+              "As needed vegetable oil"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1080",
+          "recipe_id": 1080,
+          "name": "Original Sloppy Steak Method",
+          "image_link": null,
+          "raw_ingredient_list": "1 high-quality T-bone steak\nAs needed kosher salt\nAs needed freshly ground black pepper\n1 Tbsp neutral oil\n1 glass water",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "High-quality T-bone Steak",
+              "1 high-quality T-bone steak"
+            ],
+            [
+              null,
+              null,
+              "As Needed Kosher Salt",
+              "As needed kosher salt"
+            ],
+            [
+              null,
+              null,
+              "As Needed Freshly Ground Black Pepper",
+              "As needed freshly ground black pepper"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Neutral Oil",
+              "1 Tbsp neutral oil"
+            ],
+            [
+              1.0,
+              null,
+              "Glass Water",
+              "1 glass water"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1082",
+          "recipe_id": 1082,
+          "name": "\u2018Sloppy\u2019 Broth",
+          "image_link": null,
+          "raw_ingredient_list": "8 oz dashi broth\n3 Tbsp mirin\n3 Tbsp soy sauce\n2 tsp granulated sugar",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              8.0,
+              "ounce",
+              "Dashi Broth",
+              "8 oz dashi broth"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Mirin",
+              "3 Tbsp mirin"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Soy Sauce",
+              "3 Tbsp soy sauce"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Granulated Sugar",
+              "2 tsp granulated sugar"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1085",
+          "recipe_id": 1085,
+          "name": "Sloppy Shabu",
+          "image_link": null,
+          "raw_ingredient_list": "4-6 oz A5 wagyu ribeye steak\n1 shiso leaf\nAs needed carrot, thinly sliced\nAs needed enoki mushrooms\nAs needed black garlic, thinly sliced\nAs needed black radish, thinly sliced\nReserved wasabi sauce\nReserved lotus chip\nAs needed gold leaf\nAs needed maldon salt\nReserved sloppy broth",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              "4-6",
+              "ounce",
+              "A5 Wagyu Ribeye Steak",
+              "4-6 oz A5 wagyu ribeye steak"
+            ],
+            [
+              1.0,
+              null,
+              "Shiso Leaf",
+              "1 shiso leaf"
+            ],
+            [
+              null,
+              null,
+              "As Needed Carrot",
+              "As needed carrot, thinly sliced"
+            ],
+            [
+              null,
+              null,
+              "As Needed Enoki Mushrooms",
+              "As needed enoki mushrooms"
+            ],
+            [
+              null,
+              null,
+              "As Needed Black Garlic",
+              "As needed black garlic, thinly sliced"
+            ],
+            [
+              null,
+              null,
+              "As Needed Black Radish",
+              "As needed black radish, thinly sliced"
+            ],
+            [
+              null,
+              null,
+              "Reserved Wasabi Sauce",
+              "Reserved wasabi sauce"
+            ],
+            [
+              null,
+              null,
+              "Reserved Lotus Chip",
+              "Reserved lotus chip"
+            ],
+            [
+              null,
+              null,
+              "As Needed Gold Leaf",
+              "As needed gold leaf"
+            ],
+            [
+              null,
+              null,
+              "As Needed Maldon Salt",
+              "As needed maldon salt"
+            ],
+            [
+              null,
+              null,
+              "Reserved Sloppy Broth",
+              "Reserved sloppy broth"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1084",
+          "recipe_id": 1084,
+          "name": "Wasabi Sauce",
+          "image_link": null,
+          "raw_ingredient_list": "\u2153 Cup wasabi powder\n2 tsp mirin\n\u00bd tsp granulated sugar\n\u00bd Cup water\n\u00bd Cup neutral oil",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              0.3333333333333333,
+              null,
+              "Cup Wasabi Powder",
+              "\u2153 Cup wasabi powder"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Mirin",
+              "2 tsp mirin"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Granulated Sugar",
+              "\u00bd tsp granulated sugar"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Water",
+              "\u00bd Cup water"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Neutral Oil",
+              "\u00bd Cup neutral oil"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/episode/steakhouse-burgers",
     "episode_id": "steakhouse-burgers",
     "name": "STEAKHOUSE BURGER",

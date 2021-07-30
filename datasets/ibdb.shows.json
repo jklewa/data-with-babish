@@ -6,6 +6,15 @@
     "image_link": null,
     "episodes": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/sloppy-steaks-i-think-you-should-leave",
+        "episode_id": "sloppy-steaks-i-think-you-should-leave",
+        "name": "Sloppy Steaks inspired by I Think You Should Leave with Tim Robinson",
+        "published_date": "2021-07-30",
+        "youtube_link": "https://www.youtube.com/watch?v=EcGgDrS5Gto",
+        "official_link": "https://www.bingingwithbabish.com/recipes/sloppy-steaks-i-think-you-should-leave",
+        "image_link": "https://img.youtube.com/vi/EcGgDrS5Gto/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/the-sims-special",
         "episode_id": "the-sims-special",
         "name": "The Sims Special",
