@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 12.7 (Debian 12.7-1.pgdg100+1)
--- Dumped by pg_dump version 12.7 (Ubuntu 12.7-0ubuntu0.20.04.1)
+-- Dumped from database version 12.8 (Debian 12.8-1.pgdg110+1)
+-- Dumped by pg_dump version 12.8 (Ubuntu 12.8-0ubuntu0.20.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -327,8 +327,10 @@ ben-wyatt-calzones	Calzones inspired by Parks & Rec	https://www.youtube.com/watc
 biggamesnacks	BIG GAME SNACKS	https://www.youtube.com/watch?v=8ckxhlDFNkg	https://basicswithbabish.co/basicsepisodes/biggamesnacks	https://img.youtube.com/vi/8ckxhlDFNkg/mqdefault.jpg	2019-01-31	2
 bigkahunaburger	Big Kahuna Burger inspired by Pulp Fiction	https://www.youtube.com/watch?v=OmwE0aJqkdA	https://www.bingingwithbabish.com/recipes/2017/5/4/bigkahunaburger	https://img.youtube.com/vi/OmwE0aJqkdA/mqdefault.jpg	2017-01-03	1
 birria-tacos	BIRRIA TACOS	https://www.youtube.com/watch?v=pQmSrlIbULk	https://basicswithbabish.co/basicsepisodes/birria-tacos	https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg	2021-03-11	2
+biscotti	BISCOTTI	https://www.youtube.com/watch?v=g4EkzEKlGOA	https://basicswithbabish.co/basicsepisodes/biscotti	https://img.youtube.com/vi/g4EkzEKlGOA/mqdefault.jpg	2021-09-24	2
 biscuits-and-gravy	BISCUITS AND GRAVY	https://www.youtube.com/watch?v=NMbMT9tY8-Q	https://basicswithbabish.co/basicsepisodes/biscuits-and-gravy	https://img.youtube.com/vi/NMbMT9tY8-Q/mqdefault.jpg	2021-02-25	2
-biscuits-ted-lasso	Biscuits inspired by Ted Lasso	https://www.youtube.com/watch?v=4e7iksx-Zig	https://www.bingingwithbabish.com/recipes/biscuits-ted-lasso	https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg	2021-03-16	1
+biscuits-ted-lasso	Biscuits inspired by Ted Lasso	https://www.youtube.com/watch?v=r_yBqWHtWMo	https://www.bingingwithbabish.com/recipes/biscuits-ted-lasso	https://img.youtube.com/vi/r_yBqWHtWMo/mqdefault.jpg	2021-03-16	1
+black-and-white-cookies-seinfeld	Black and White Cookies inspired by Seinfeld	https://www.youtube.com/watch?v=9Z7s35n3a5I	https://www.bingingwithbabish.com/recipes/black-and-white-cookies-seinfeld	https://img.youtube.com/vi/9Z7s35n3a5I/mqdefault.jpg	2021-09-01	1
 blendersoups	BLENDER SOUPS	https://www.youtube.com/watch?v=S-gUFvpRQoU	https://basicswithbabish.co/basicsepisodes/blendersoups	https://img.youtube.com/vi/S-gUFvpRQoU/mqdefault.jpg	2019-03-05	2
 blood-pie-inspired-by-game-of-thrones	Blood Pie inspired by Game of Thrones	https://www.youtube.com/watch?v=Y_hc07rAQlc	https://www.bingingwithbabish.com/recipes/2017/7/14/blood-pie-inspired-by-game-of-thrones	https://img.youtube.com/vi/Y_hc07rAQlc/mqdefault.jpg	2017-07-11	1
 bobsburgers	Bob's Burgers	https://www.youtube.com/watch?v=basFyoMSjds	https://www.bingingwithbabish.com/recipes/2017/6/27/bobsburgers	https://img.youtube.com/vi/basFyoMSjds/mqdefault.jpg	2017-03-14	1
@@ -352,6 +354,7 @@ butterednoodles-community	Buttered Noodles inspired by Community	https://www.you
 buttermilk-pancakes-inspired-by-twin-peaks	Buttermilk Pancakes inspired by Twin Peaks	https://www.youtube.com/watch?v=nEoSBL25RO4	https://www.bingingwithbabish.com/recipes/2017/5/18/buttermilk-pancakes-inspired-by-twin-peaks	https://img.youtube.com/vi/nEoSBL25RO4/mqdefault.jpg	2017-05-18	1
 caillesensarchophage	Cailles en Sarchophage inspired by Babette's Feast	https://www.youtube.com/watch?v=Bz1IXK6ahu0	https://www.youtube.com/watch?v=Bz1IXK6ahu0	https://img.youtube.com/vi/Bz1IXK6ahu0/mqdefault.jpg	2017-10-03	1
 cajunfood	CAJUN FOOD	https://www.youtube.com/watch?v=nORg_aXMsmA	https://basicswithbabish.co/basicsepisodes/cajunfood	https://img.youtube.com/vi/nORg_aXMsmA/mqdefault.jpg	2019-09-13	2
+calistyle-burrito	CALI-STYLE BURRITO	https://www.youtube.com/watch?v=55YUKZK7BXg	https://basicswithbabish.co/basicsepisodes/calistyle-burrito	https://img.youtube.com/vi/55YUKZK7BXg/mqdefault.jpg	2021-09-13	2
 carbonara	CARBONARA	https://www.youtube.com/watch?v=qoHnwOHLiMk	https://basicswithbabish.co/basicsepisodes/carbonara	https://img.youtube.com/vi/qoHnwOHLiMk/mqdefault.jpg	2019-08-15	2
 carpanini	Car Panini inspired by Family Guy	https://www.youtube.com/watch?v=4Rz8BPRFeiA	https://www.bingingwithbabish.com/recipes/carpanini	https://img.youtube.com/vi/4Rz8BPRFeiA/mqdefault.jpg	2018-07-10	1
 ccourtesan-au-chocolat	Courtesan au Chocolat inspired by Grand Budapest Hotel	https://www.youtube.com/watch?v=GO5P3fLTwA0	https://www.bingingwithbabish.com/recipes/2017/8/15/ccourtesan-au-chocolat	https://img.youtube.com/vi/GO5P3fLTwA0/mqdefault.jpg	2017-08-15	1
@@ -371,6 +374,7 @@ chickenpaprikash	Chicken Paprikash inspired by Captain America: Civil War	https:
 chickentikkamasala	CHICKEN TIKKA MASALA	https://www.youtube.com/watch?v=Bkd0LxBd2L8	https://basicswithbabish.co/basicsepisodes/chickentikkamasala	https://img.youtube.com/vi/Bkd0LxBd2L8/mqdefault.jpg	2019-03-28	2
 chickpeas	CHICKPEAS (HUMMUS, CHANA MASALA, MERINGUES, COOKIES)	https://www.youtube.com/watch?v=LfzKfD_WuDM	https://basicswithbabish.co/basicsepisodes/chickpeas	https://img.youtube.com/vi/LfzKfD_WuDM/mqdefault.jpg	2020-03-19	2
 chileanseabass	Chilean Sea Bass inspired by Jurassic Park	https://www.youtube.com/watch?v=p73kqpqGqqQ	https://www.bingingwithbabish.com/recipes/chileanseabass	https://img.youtube.com/vi/p73kqpqGqqQ/mqdefault.jpg	2018-11-27	1
+chiles-rellenos	CHILES RELLENOS	https://www.youtube.com/watch?v=gAKW8RB6aeU	https://basicswithbabish.co/basicsepisodes/chiles-rellenos	https://img.youtube.com/vi/gAKW8RB6aeU/mqdefault.jpg	2021-08-26	2
 chili-two-ways	CHILI (MEAT & VEGETARIAN)	https://www.youtube.com/watch?v=4BTm1Ezl6XE	https://basicswithbabish.co/basicsepisodes/chili-two-ways	https://img.youtube.com/vi/4BTm1Ezl6XE/mqdefault.jpg	2020-01-30	2
 chimichangas	CHIMICHANGAS	https://www.youtube.com/watch?v=szFLA4_pwew	https://basicswithbabish.co/basicsepisodes/chimichangas	https://img.youtube.com/vi/szFLA4_pwew/mqdefault.jpg	2020-04-28	2
 chocolate-cake-inspired-by-matilda	Chocolate Cake inspired by Matilda	https://www.youtube.com/watch?v=exQ6oGefSiA	https://www.bingingwithbabish.com/recipes/2017/6/6/chocolate-cake-inspired-by-matilda	https://img.youtube.com/vi/exQ6oGefSiA/mqdefault.jpg	2017-06-06	1
@@ -417,6 +421,7 @@ eggsflorentine	Eggs Florentine inspired by Frasier	https://www.youtube.com/watch
 eggspart2	EGGS PART II	https://www.youtube.com/watch?v=CFatEWNx5RQ	https://basicswithbabish.co/basicsepisodes/eggspart2	https://img.youtube.com/vi/CFatEWNx5RQ/mqdefault.jpg	2018-04-12	2
 eggswoodhouse	Eggs Woodhouse For Good from Archer	https://www.youtube.com/watch?v=eVgmI-YF16g	https://www.bingingwithbabish.com/recipes/2017/8/22/eggswoodhouse	https://img.youtube.com/vi/eVgmI-YF16g/mqdefault.jpg	2016-12-13	1
 enchiladas-schitts-creek	Enchiladas inspired by Schitt's Creek	https://www.youtube.com/watch?v=SkKjQhCTP54	https://www.bingingwithbabish.com/recipes/enchiladas-schitts-creek	https://img.youtube.com/vi/SkKjQhCTP54/mqdefault.jpg	2020-09-09	1
+english-muffins	ENGLISH MUFFINS	https://www.youtube.com/watch?v=5E_DIPttHuE	https://basicswithbabish.co/basicsepisodes/english-muffins	https://img.youtube.com/vi/5E_DIPttHuE/mqdefault.jpg	2021-08-06	2
 espressodrinks	ESPRESSO DRINKS	https://www.youtube.com/watch?v=W-osWU1WJuM	https://basicswithbabish.co/basicsepisodes/espressodrinks	https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg	2019-10-24	2
 everymeatburrito	The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special	https://www.youtube.com/watch?v=Mf4wwXM2o_M	https://www.bingingwithbabish.com/recipes/2017/8/22/everymeatburrito	https://img.youtube.com/vi/Mf4wwXM2o_M/mqdefault.jpg	2018-01-16	1
 falafels	FALAFEL	https://www.youtube.com/watch?v=-98r0kpLbIM	https://basicswithbabish.co/basicsepisodes/falafels	https://img.youtube.com/vi/-98r0kpLbIM/mqdefault.jpg	2021-05-14	2
@@ -468,7 +473,9 @@ infernowings	Inferno Wings inspired by Regular Show	https://www.youtube.com/watc
 ingloriousbasterds	Strudel inspired by Inglourious Basterds	https://www.youtube.com/watch?v=7H3z3J50XCs	https://www.bingingwithbabish.com/recipes/2017/8/22/ingloriousbasterds	https://img.youtube.com/vi/7H3z3J50XCs/mqdefault.jpg	2017-01-23	1
 instant-mac-cheese	Instant Mac and Cheese inspired by Once Upon a Time in Hollywood	https://www.youtube.com/watch?v=EuU_uUb_3nQ	https://www.bingingwithbabish.com/recipes/instant-mac-cheese	https://img.youtube.com/vi/EuU_uUb_3nQ/mqdefault.jpg	2020-02-04	1
 introductiontools	INTRODUCTION/TOOLS	https://www.youtube.com/watch?v=1AxLzMJIgxM	https://basicswithbabish.co/basicsepisodes/2017/10/11/introductiontools	https://img.youtube.com/vi/1AxLzMJIgxM/mqdefault.jpg	2017-10-11	2
+isotope-dog-the-simpsons	Isotope Dogs inspired by The Simpsons	https://www.youtube.com/watch?v=w5K2ZoPVD5E	https://www.bingingwithbabish.com/recipes/isotope-dog-the-simpsons	https://img.youtube.com/vi/w5K2ZoPVD5E/mqdefault.jpg	2021-09-21	1
 itsalwayssunnyspecial	It's Always Sunny in Philadelphia Special	https://www.youtube.com/watch?v=Q2ezpExQ_k0	https://www.bingingwithbabish.com/recipes/2017/6/27/itsalwayssunnyspecial	https://img.youtube.com/vi/Q2ezpExQ_k0/mqdefault.jpg	2017-02-20	1
+jerk-chicken	JERK CHICKEN	https://www.youtube.com/watch?v=WOMOVA9UMic	https://basicswithbabish.co/basicsepisodes/jerk-chicken	https://img.youtube.com/vi/WOMOVA9UMic/mqdefault.jpg	2021-08-03	2
 johnnycakes	Johnny Cakes inspired by The Sopranos	https://www.youtube.com/watch?v=DdFKKZe73Pk	https://www.bingingwithbabish.com/recipes/johnnycakes	https://img.youtube.com/vi/DdFKKZe73Pk/mqdefault.jpg	2018-08-28	1
 judys-hot-cocoa-santa-clause	Judy's Hot Cocoa inspired by the Santa Clause	https://www.youtube.com/watch?v=rBYd_O38Ncw	https://www.bingingwithbabish.com/recipes/judys-hot-cocoa-santa-clause	https://img.youtube.com/vi/rBYd_O38Ncw/mqdefault.jpg	2020-12-22	1
 kettle-corn-community	Kettle Corn inspired by Community	https://www.youtube.com/watch?v=aGPqK_hHA28	https://www.bingingwithbabish.com/recipes/kettle-corn-community	https://img.youtube.com/vi/aGPqK_hHA28/mqdefault.jpg	2021-06-02	1
@@ -481,6 +488,7 @@ korean-rice-cakes	KOREAN RICE CAKES (TTEOKBOKKI)	https://www.youtube.com/watch?v
 krabby-patty-inspired-by-spongebob-squarepants	Krabby Patty inspired by SpongeBob SquarePants	https://www.youtube.com/watch?v=7EnWiGYT1g4	https://www.bingingwithbabish.com/recipes/2017/5/31/krabby-patty-inspired-by-spongebob-squarepants	https://img.youtube.com/vi/7EnWiGYT1g4/mqdefault.jpg	2017-05-31	1
 krabbysupreme	Krabby Supreme inspired by Spongebob Squarepants	https://www.youtube.com/watch?v=Rzd0mLf366I	https://www.bingingwithbabish.com/recipes/krabbysupreme	https://img.youtube.com/vi/Rzd0mLf366I/mqdefault.jpg	2019-02-26	1
 kumandra-soup-raya-and-the-last-dragon	Kumandra Soup inspired by Raya and the Last Dragon	https://www.youtube.com/watch?v=MDL7DenDYCE	https://www.bingingwithbabish.com/recipes/kumandra-soup-raya-and-the-last-dragon	https://img.youtube.com/vi/MDL7DenDYCE/mqdefault.jpg	2021-04-27	1
+la-bombe-eclair-the-simpsons	La Bombe Eclair inspired by The Simpsons	https://www.youtube.com/watch?v=M73XCOzZAU0	https://www.bingingwithbabish.com/recipes/la-bombe-eclair-the-simpsons	https://img.youtube.com/vi/M73XCOzZAU0/mqdefault.jpg	2021-08-03	1
 lamb-chops	LAMB CHOPS	https://www.youtube.com/watch?v=9eyS51ufJGU	https://basicswithbabish.co/basicsepisodes/lamb-chops	https://img.youtube.com/vi/9eyS51ufJGU/mqdefault.jpg	2020-09-11	2
 larbstickyrice	Lettuce Wraps & Mango Sticky Rice inspired by Spider-Man: Homecoming	https://www.youtube.com/watch?v=VweTeaGwiXQ	https://www.bingingwithbabish.com/recipes/larbstickyrice	https://img.youtube.com/vi/VweTeaGwiXQ/mqdefault.jpg	2019-07-10	1
 lasagna	Lasagna inspired by Garfield (feat. It's Alive with Brad)	https://www.youtube.com/watch?v=TkWmK-cplV4	https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna	https://img.youtube.com/vi/TkWmK-cplV4/mqdefault.jpg	2018-03-27	1
@@ -498,9 +506,11 @@ madmen	Room Service inspired by Mad Men	https://www.youtube.com/watch?v=BagY2Mnz
 maisel-brisket	Brisket inspired by The Marvelous Mrs. Maisel	https://www.youtube.com/watch?v=TutmnWa6dVo	https://www.bingingwithbabish.com/recipes/maisel-brisket	https://img.youtube.com/vi/TutmnWa6dVo/mqdefault.jpg	2020-04-08	1
 marmalade	Marmalade Sandwiches inspired by Paddington	https://www.youtube.com/watch?v=g1j-5UkZyL0	https://www.bingingwithbabish.com/recipes/marmalade	https://img.youtube.com/vi/g1j-5UkZyL0/mqdefault.jpg	2020-01-23	1
 mashed-potatoes	MASHED POTATOES	https://www.youtube.com/watch?v=ZLnWdPPJvYg	https://basicswithbabish.co/basicsepisodes/mashed-potatoes	https://img.youtube.com/vi/ZLnWdPPJvYg/mqdefault.jpg	2020-09-03	2
+mc1035-archer	Mc10:35 inspired by Archer	https://www.youtube.com/watch?v=LyagMC0bokI	https://www.bingingwithbabish.com/recipes/mc1035-archer	https://img.youtube.com/vi/LyagMC0bokI/mqdefault.jpg	2021-08-20	1
 meat-tornado-parks-and-rec	Meat Tornado inspired by Parks & Rec 	https://www.youtube.com/watch?v=LsNg-KrFxCA	https://www.bingingwithbabish.com/recipes/meat-tornado-parks-and-rec	https://img.youtube.com/vi/LsNg-KrFxCA/mqdefault.jpg	2020-08-25	1
 meatghetti-spagballs-american-dad	Meat-ghetti and Spag-balls inspired by American Dad	https://www.youtube.com/watch?v=PwbgLteVwvs	https://www.bingingwithbabish.com/recipes/meatghetti-spagballs-american-dad	https://img.youtube.com/vi/PwbgLteVwvs/mqdefault.jpg	2021-06-21	1
 meatloaf	MEATLOAF	https://www.youtube.com/watch?v=KgNQ6ZrT4RQ	https://basicswithbabish.co/basicsepisodes/meatloaf	https://img.youtube.com/vi/KgNQ6ZrT4RQ/mqdefault.jpg	2021-04-16	2
+megs-dinner-family-guy	Meg's Dinner inspired by Family Guy	https://www.youtube.com/watch?v=6NOtF4l9i9g	https://www.bingingwithbabish.com/recipes/megs-dinner-family-guy	https://img.youtube.com/vi/6NOtF4l9i9g/mqdefault.jpg	2021-08-12	1
 michaelscottpretzel	Michael Scott’s Pretzel inspired by The Office	https://www.youtube.com/watch?v=NHA9Ffaal2M	https://www.bingingwithbabish.com/recipes/2017/8/22/michaelscottpretzel	https://img.youtube.com/vi/NHA9Ffaal2M/mqdefault.jpg	2017-10-17	1
 millionaires-shortbread	MILLIONAIRE'S SHORTBREAD	https://www.youtube.com/watch?v=GWAY5i3CMpo	https://basicswithbabish.co/basicsepisodes/millionaires-shortbread	https://img.youtube.com/vi/GWAY5i3CMpo/mqdefault.jpg	2020-02-14	2
 mirages-pork-chops	Mirage's Pork Chops inspired by Apex Legends	https://www.youtube.com/watch?v=SZcUJuXjCsw	https://www.bingingwithbabish.com/recipes/mirages-pork-chops	https://img.youtube.com/vi/SZcUJuXjCsw/mqdefault.jpg	2019-10-31	1
@@ -554,10 +564,12 @@ poutine	POUTINE	https://www.youtube.com/watch?v=uc-_KXfHcXQ	https://basicswithba
 puerco-pibil	Puerco Pibil inspired by Once Upon a Time in Mexico	https://www.youtube.com/watch?v=5_sdhAFGmbw	https://www.bingingwithbabish.com/recipes/2017/8/08/puerco-pibil	https://img.youtube.com/vi/5_sdhAFGmbw/mqdefault.jpg	2017-08-08	1
 pullednoodles	Special Ingredient Soup inspired by Kung Fu Panda	https://www.youtube.com/watch?v=cee6883w2Nk	https://www.bingingwithbabish.com/recipes/pullednoodles	https://img.youtube.com/vi/cee6883w2Nk/mqdefault.jpg	2019-10-01	1
 pulledpork	PULLED PORK	https://www.youtube.com/watch?v=_SObOsXrDRc	https://basicswithbabish.co/basicsepisodes/pulledpork	https://img.youtube.com/vi/_SObOsXrDRc/mqdefault.jpg	2019-05-16	2
+puppy-paw-hashbrowns	Puppy Paw Hash Browns inspired by Genshin Impact	https://www.youtube.com/watch?v=r4HxTcF98MU	https://www.bingingwithbabish.com/recipes/puppy-paw-hashbrowns	https://img.youtube.com/vi/r4HxTcF98MU/mqdefault.jpg	2021-09-07	1
 quatroquesodosfritos	Quatro Quesos Dos Fritos inspired by Psych	https://www.youtube.com/watch?v=O-H_Ybmtu_U	https://www.bingingwithbabish.com/recipes/2017/8/22/quatroquesodosfritos	https://img.youtube.com/vi/O-H_Ybmtu_U/mqdefault.jpg	2017-12-05	1
 quesadillas	QUESADILLAS	https://www.youtube.com/watch?v=E0G5Y2SOW0c	https://basicswithbabish.co/basicsepisodes/quesadillas	https://img.youtube.com/vi/E0G5Y2SOW0c/mqdefault.jpg	2019-04-18	2
 quiche	QUICHE	https://www.youtube.com/watch?v=6EuzOQOnX2A	https://basicswithbabish.co/basicsepisodes/quiche	https://img.youtube.com/vi/6EuzOQOnX2A/mqdefault.jpg	2021-03-18	2
 quiet-place-bonus	A Quiet Place Bonus Episode	https://www.youtube.com/watch?v=0PyTpUIn4ks	https://www.youtube.com/watch?v=0PyTpUIn4ks	https://img.youtube.com/vi/0PyTpUIn4ks/mqdefault.jpg	2018-12-15	1
+rabbit-sopranos	Rabbit inspired by The Sopranos	https://www.youtube.com/watch?v=aBMNzBhB6H0	https://www.bingingwithbabish.com/recipes/rabbit-sopranos	https://img.youtube.com/vi/aBMNzBhB6H0/mqdefault.jpg	2021-09-16	1
 racheltrifle	Rachel's Trifle inspired by Friends	https://www.youtube.com/watch?v=G4BxOhJOmUw	https://www.bingingwithbabish.com/recipes/2017/8/22/racheltrifle	https://img.youtube.com/vi/G4BxOhJOmUw/mqdefault.jpg	2017-11-21	1
 raisinets	Movie Theater Popcorn & Raisinets inspired by Whiplash	https://www.youtube.com/watch?v=FoztKuXEYnQ	https://www.bingingwithbabish.com/recipes/2017/8/22/raisinets	https://img.youtube.com/vi/FoztKuXEYnQ/mqdefault.jpg	2017-09-19	1
 ram-don-parasite	Ram-don inspired by Parasite	https://www.youtube.com/watch?v=ge4vghXQTtQ	https://www.bingingwithbabish.com/recipes/ram-don-parasite	https://img.youtube.com/vi/ge4vghXQTtQ/mqdefault.jpg	2020-02-20	1
@@ -592,6 +604,7 @@ shrimp-scampi	SHRIMP SCAMPI	https://www.youtube.com/watch?v=3ELo1zykAGU	https://
 skinnersstew	Skinner's Stew inspired by The Simpsons	https://www.youtube.com/watch?v=y3PoXXoGVj0	https://www.bingingwithbabish.com/recipes/2017/8/22/skinnersstew	https://img.youtube.com/vi/y3PoXXoGVj0/mqdefault.jpg	2018-01-09	1
 sloppy-joes-billy-madison	Sloppy Joes inspired by Billy Madison	https://www.youtube.com/watch?v=BsDkBaACINQ	https://www.bingingwithbabish.com/recipes/sloppy-joes-billy-madison	https://img.youtube.com/vi/BsDkBaACINQ/mqdefault.jpg	2021-01-20	1
 sloppy-steaks-i-think-you-should-leave	Sloppy Steaks inspired by I Think You Should Leave with Tim Robinson	https://www.youtube.com/watch?v=EcGgDrS5Gto	https://www.bingingwithbabish.com/recipes/sloppy-steaks-i-think-you-should-leave	https://img.youtube.com/vi/EcGgDrS5Gto/mqdefault.jpg	2021-07-30	1
+smash-burgers	SMASH BURGERS	https://www.youtube.com/watch?v=OsY85e9uIMw	https://basicswithbabish.co/basicsepisodes/smash-burgers	https://img.youtube.com/vi/OsY85e9uIMw/mqdefault.jpg	2021-09-03	2
 smokedribs	GAS GRILL-SMOKED RIBS	https://www.youtube.com/watch?v=sX2fsvYkKF4	https://basicswithbabish.co/basicsepisodes/smokedribs	https://img.youtube.com/vi/sX2fsvYkKF4/mqdefault.jpg	2020-05-21	2
 snl-overnight-salad	Overnight Salad inspired by Saturday Night Live	https://www.youtube.com/watch?v=Z5zEocd3u9w	https://www.bingingwithbabish.com/recipes/snl-overnight-salad	https://img.youtube.com/vi/Z5zEocd3u9w/mqdefault.jpg	2020-12-29	1
 sourdough-bread	SOURDOUGH BREAD	https://www.youtube.com/watch?v=bSYdABrPrtM	https://basicswithbabish.co/basicsepisodes/sourdough-bread	https://img.youtube.com/vi/bSYdABrPrtM/mqdefault.jpg	2020-02-28	2
@@ -705,6 +718,7 @@ beignetsfromchef	527
 ben-wyatt-calzones	299
 bigkahunaburger	104
 biscuits-ted-lasso	540
+black-and-white-cookies-seinfeld	30
 blood-pie-inspired-by-game-of-thrones	40
 bobsburgers	14
 boeufbourguignon	98
@@ -825,6 +839,7 @@ imaginary-pie-hook	297
 infernowings	7
 ingloriousbasterds	102
 instant-mac-cheese	289
+isotope-dog-the-simpsons	15
 itsalwayssunnyspecial	10
 johnnycakes	44
 judys-hot-cocoa-santa-clause	330
@@ -836,6 +851,7 @@ krabby-patty-inspired-by-spongebob-squarepants	21
 krabby-patty-inspired-by-spongebob-squarepants	165
 krabbysupreme	21
 kumandra-soup-raya-and-the-last-dragon	543
+la-bombe-eclair-the-simpsons	15
 larbstickyrice	8
 larbstickyrice	530
 lasagna	64
@@ -851,8 +867,10 @@ macarons-the-mandalorian	140
 madmen	68
 maisel-brisket	298
 marmalade	287
+mc1035-archer	23
 meat-tornado-parks-and-rec	299
 meatghetti-spagballs-american-dad	548
+megs-dinner-family-guy	45
 michaelscottpretzel	80
 mirages-pork-chops	138
 moistmaker	78
@@ -899,8 +917,10 @@ pork-picnic-sandwich-regular-show	7
 portalcake	20
 puerco-pibil	86
 pullednoodles	134
+puppy-paw-hashbrowns	553
 quatroquesodosfritos	73
 quiet-place-bonus	131
+rabbit-sopranos	44
 racheltrifle	78
 raisinets	82
 ram-don-parasite	291
@@ -2162,6 +2182,55 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 1083	Lotus (Renkon) Chip	\N	1 fresh lotus root\n1 quart water\n1 Tbsp rice vinegar\n1 tsp kosher salt + more as needed\nAs needed vegetable oil		sloppy-steaks-i-think-you-should-leave
 1084	Wasabi Sauce	\N	⅓ Cup wasabi powder\n2 tsp mirin\n½ tsp granulated sugar\n½ Cup water\n½ Cup neutral oil		sloppy-steaks-i-think-you-should-leave
 1085	Sloppy Shabu	\N	4-6 oz A5 wagyu ribeye steak\n1 shiso leaf\nAs needed carrot, thinly sliced\nAs needed enoki mushrooms\nAs needed black garlic, thinly sliced\nAs needed black radish, thinly sliced\nReserved wasabi sauce\nReserved lotus chip\nAs needed gold leaf\nAs needed maldon salt\nReserved sloppy broth		sloppy-steaks-i-think-you-should-leave
+1086	Pate a Choux (Éclaire Batter)	\N	225 g whole milk\n225 g water\n180 g unsalted butter, cubed\n1 ½ Tbsp granulated sugar\n1 tsp kosher salt\n225 g bread flour\n12 g dried butter powder\n450 oz eggs, beaten		la-bombe-eclair-the-simpsons
+1087	Pastry Cream	\N	450 g whole milk, divided\n125 g sugar, divided\n1 vanilla bean, pod + seeds\n½ tsp kosher salt\n150 g eggs, beaten\n40 g corn starch\n45 g unsalted butter, cubed\nOptional: 3-4 drops banana essence		la-bombe-eclair-the-simpsons
+1088	Chocolate Glaze	\N	9 oz super dark chocolate, chopped\n4 ½ oz unsalted butter, cubed\n½ oz black onyx cocoa powder\n1 ½ oz light corn syrup		la-bombe-eclair-the-simpsons
+1089	Chantilly Cream	\N	1 ½ Cups heavy cream, cold\n3 Tbsp powdered sugar\n1 tsp vanilla extract		la-bombe-eclair-the-simpsons
+1090	La Bombe Éclair Ingrédients	\N	Eclair shells, cooled\nPastry cream\nChocolate glaze\nChantilly cream		la-bombe-eclair-the-simpsons
+1091	Couscous	\N	1 Tbsp neutral oil\n½ white onion, diced\n1 clove garlic, minced\n3 Cups chicken stock, preferably homemade\n2 tsp kosher salt + more to taste\n1 ½ Cups couscous\n½ Cup pine nuts, toasted\n½ Cup golden raisins\n2 Tbsp extra virgin olive oil\nJuice of 1 lemon\nTo taste freshly ground black pepper		megs-dinner-family-guy
+1092	Seared Ahi Tostadas	\N	6 Corn tortillas\n48 oz frying oil\n8 oz sushi grade ahi tuna steak\n2 Tbsp sesame seeds (mixed black and white)\n3 Tbsp olive oil, divided\n1 avocado, pitted + diced\n1 jalapeno pepper, seed removed + diced\n¼ Cup cilantro leaves, chopped\n½ red onion, diced\n1 tsp ginger, grated\n2 green onions, chopped\n1 Tbsp soy sauce\n1 Tbsp rice wine vinegar\nJuice of 1 lime\nTo taste kosher salt\nTo taste freshly ground black pepper		megs-dinner-family-guy
+1093	Grilled Asparagus	\N	1 lb asparagus, trimmed\n1 Tbsp neutral oil\nTo taste kosher salt\nTo taste needed freshly ground black pepper		megs-dinner-family-guy
+1094	Molten Lava Cake	\N	As needed turbinado sugar\n14 oz dark chocolate, chopped + divided\n½ Cup heavy cream\n12 Tbsp unsalted butter + more for greasing\n6 large eggs\n½ Cup brown sugar, packed\n1 tsp vanilla extract\n2 oz all-purpose flour		megs-dinner-family-guy
+1095	Asparagus Puree	\N	½ lb asparagus, trimmed\n½ Cup truffle oil\nTo taste kosher salt\nTo taste freshly ground black pepper		mc1035-archer
+1096	Parmesan Crisp	\N	3 oz parmesan, grated		mc1035-archer
+1097	Quail Quiches	\N	Frozen phyllo shells\n⅓ Cup gruyere cheese, finely grated\n12 quail eggs\n¼ Cup whole milk\n¼ Cup heavy cream\n1 tsp kosher salt\n1 tsp freshly ground black pepper\n¼ tsp cayenne pepper\nParmesan crisp\nSpeck, pan fried\nAsparagus puree		mc1035-archer
+1098	Baguette Crostini	\N	1 baguette loaf\nNonstick spray		mc1035-archer
+1099	Torta del Casar Sauce	\N	2 Tbsp unsalted butter\n2 Tbsp all purpose flour\n½ Cup cream\n¼ Cup chicken stock\n4 oz Torta del Casar cheese, rind removed\nTo taste kosher salt\nTo taste freshly ground black pepper		mc1035-archer
+1100	Jamón Iberico Tapas	\N	Jamon iberico\nBaguette Crostini\nTorta del Casar sauce		mc1035-archer
+1101	Deconstructed Kobe Sliders	\N	8 oz Kobe beef\nAs needed kosher salt\nColby jack cheese, cut into 1” squares\nBaguette Crostini\nButter lettuce rounds\nBread and butter pickles\nCherry tomatoes		mc1035-archer
+1102	Vanilla Fondant Icing	\N	200 g confectioners sugar, sifted\n1 tsp vanilla extract\n30 g light corn syrup\nAs needed water		black-and-white-cookies-seinfeld
+1103	Chocolate Fondant Icing	\N	200 g confectioners sugar, sifted\n½  tsp vanilla extract\n35 g light corn syrup\n30 g black onyx cocoa powder\nAs needed water		black-and-white-cookies-seinfeld
+1104	Black and White Cookie	\N	125 g all-purpose flour\n125 g cake flour\n½ tsp baking soda\n¾ tsp baking powder\n1 tsp kosher salt\n60 g sour cream\n60 g whole milk\n½ tsp lemon extract\n1 tsp vanilla extract\n30 g honey\n113 g (1 stick) unsalted butter, softened\n130 g brown sugar\n2 eggs, room temperature\nReserved vanilla icing\nReserved chocolate icing		black-and-white-cookies-seinfeld
+1105	Puppy Paw Hash Browns	\N	As needed fry oil of choice\n3-4 yukon gold potatoes\n2 Tbsp flour\n⅓ Cup pine nuts, ground\n1 egg\n1 cloves garlic, minced\n½ tsp kosher salt\n½ tsp freshly ground black pepper		puppy-paw-hashbrowns
+1106	Tomato Jam	\N	6 roma tomatoes, coarsely chopped\n½ Cup sugar\nJuice of 1 lemon\n1 Tbsp apple cider vinegar\n1 Tbsp ginger, grated\n¼-½ tsp red pepper flakes (depending on your spice preference)\n1 tsp cumin seeds\n1 tsp kosher salt		puppy-paw-hashbrowns
+1107	Garlic Aioli	\N	3-5 garlic cloves\n1 tsp kosher salt\n1 egg yolks\n¾ Cup neutral oil		puppy-paw-hashbrowns
+1108	Steamed Broccoli	\N	1 head broccoli, rinsed		puppy-paw-hashbrowns
+1109	Parmesan Risotto	\N	3 Tbsp unsalted butter, divided\n2 Tbsp olive oil, divided\n½ large white onion, finely chopped\n2 cloves garlic, crushed\n1 Cup Arborio rice\n1 Tbsp dry white wine\n3 ½ Cups homemade chicken stock, heated\n1 oz parmesan cheese, grated\nTo taste kosher salt\nTo taste freshly ground black pepper		rabbit-sopranos
+1110	Coniglio Della Famiglia	\N	1 rabbit\nAs needed kosher salt\nAs needed cooking olive oil\n3 oz pancetta, cubed\n1 onion, diced\n1 carrot, diced\n1 celery rib, chopped\n3 cloves garlic, minced\n2 tsp fresh rosemary, finely chopped\n2 tsp fresh sage, finely chopped\n1 tsp fresh thyme, finely chopped\n1 (14 oz) can crushed tomatoes, drained\n¼ Cup dry red wine\n1 Cup chicken stock, preferably homemade\n½ Cup pine nuts, toasted\nTo taste freshly ground black pepper\nParmesan Risotto (see above)		rabbit-sopranos
+1111	Isotope Dogs	\N	1000 g ribeye steak, cubed\n100 g bacon, chopped\n18 g kosher salt\n1 ½ g pink curing salt\n230 g ice water\n10 g paprika\n6 g garlic powder\n4 g white pepper\n4 g onion powder\nNatural sausage casings\nHot dog buns\nJalapeno Relish (see recipe below)\nMesquite Grilled Onions (see recipe below)\nMango Salsa (see recipe below)		isotope-dog-the-simpsons
+1112	Jalapeno Relish	\N	2 cloves garlic\n10 jalapenos, seeds + stems removed\n½ Cup white vinegar\n½ Cup water\n¼ Cup granulated sugar\n1 ½ tsp kosher salt		isotope-dog-the-simpsons
+1113	Mesquite Grilled Onions	\N	1 Tbsp neutral oil\n1 large Vidalia onion, sliced into ½” thick pieces		isotope-dog-the-simpsons
+1114	Mango Salsa	\N	1 large ripe mango, diced\n½ red onion, finely chopped\nJuice of 1 lime\n½ tsp chili powder\n¼ Cup loosely packed cilantro leaves, chopped\nTo taste kosher salt		isotope-dog-the-simpsons
+1115	Tostones	\N	3 green plantains\nAs needed neutral oil\nAs needed kosher salt		jerk-chicken
+1116	Rice and Peas	\N	1 (15.5 oz) can red kidney beans\n2 ¼ Cups water\n1 (13.5 oz) can unsweetened coconut milk\n3 scallion stems, trimmed + roughly chopped\n1 whole scotch bonnet\n3 garlic cloves, crushed\n2 Cups long grain white rice, rinsed\n½ tsp allspice berries, lightly crushed\n5 sprigs thyme\nAs needed kosher salt		jerk-chicken
+1117	Jerk Chicken	\N	1 ½ Tbsp allspice berries\n1 ½ tsp black peppercorns\n4-5 scotch bonnet peppers (red or orange)\n3 scallion stems, chopped\n4 garlic cloves, roughly chopped\n1 ½ Tbsp fresh thyme leaves\n2 tsp kosher salt\n¼ Cup neutral oil\n2 Tbsp brown sugar\n1 Tbsp soy sauce\n1 whole chicken		jerk-chicken
+1118	English Muffins	\N	625 g bread flour\n40 g unsalted butter, soft\n2 tsp instant dry yeast\n1 Tbsp kosher salt\n1 ½ Tbsp granulated sugar\n300 g whole milk\n135 g water\nAs needed neutral oil or nonstick spray\nAs needed semolina flour		english-muffins
+1119	Salsa	\N	4-5 plum tomatoes\n1 small yellow onion, peeled + halved\n1 jalapeno pepper, stem removed\n4 cloves garlic, smashed\n1 tsp Mexican oregano\nTo taste kosher salt\nTo taste freshly ground black pepper		chiles-rellenos
+1120	Chiles Rellenos	\N	6 Poblano peppers\n8 oz Oaxaca cheese, hand-shredded\n5 large eggs\n2 Cups all-purpose flour\nAs needed peanut oil (or fry oil of choice)Reserved salsa\nAs needed cotija cheese\nAs needed cilantro, chopped		chiles-rellenos
+1121	Potato Buns	\N	415 g bread flour\n45 g potato flakes\n1 Tbsp instant yeast\n1 Tbsp kosher salt\n2 Tbsp sugar\n170 g water (75-80°F)\n110 g whole milk (75-80°F)\n2 eggs, room temperature\n4 Tbsp unsalted butter, cubed + room temperature\nEgg wash (see recipe below)		smash-burgers
+1122	Egg Wash	\N	1 egg\n1 egg yolk\nPinch of salt		smash-burgers
+1123	Smash Burgers	\N	16 oz chuck, ground\n8 oz brisket, ground\n8 oz boneless short rib, ground\nAs needed neutral oil\nTo taste kosher salt\nTo taste freshly ground black pepper\nAmerican cheese\nPotato buns, toasted\nButter lettuce\nBeefsteak tomato, sliced\nWhite onion, thinly sliced\nBread and Butter pickles, sliced\nSpecial sauce (see recipe below)		smash-burgers
+1124	Special Sauce	\N	½ cup mayo\n½ cup ketchup\n⅓ cup mustard\n¼ onion, grated\n1 garlic clove, grated\n½ tsp hot paprika\n1 Tbsp relish		smash-burgers
+1125	Carne Asada	\N	2 lb flank steak, trimmed\n½ Cup orange juice, freshly squeezed\n¼ Cup lime juice, freshly squeezed\n¼ Cup vegetable oil + more for cooking\n2 Tbsp soy sauce\n4 cloves garlic, smashed\n¼ tsp cayenne pepper\n½ tsp paprika\n1 tsp Mexican oregano\n2 tsp ground cumin\n2 Tbsp (packed) brown sugar\n½ Cup (loosely packed) cilantro leaves, chopped\n1 Tbsp kosher salt\n2 tsp freshly ground black pepper		calistyle-burrito
+1126	Salsa Roja	\N	5 roma tomatoes, quartered\n½ white onion, quartered\n1 jalapeno pepper, stem removed\n3 garlic cloves, peeled\nAs needed vegetable oil\nJuice of 2 limes\n¼ cup cilantro leaves\nTo taste kosher salt		calistyle-burrito
+1127	Salsa Verde	\N	6-8 tomotillas, peeled + halved\n½ white onion, quartered\nAs needed vegetable oil\n1 jalapeno pepper, stem removed + halved\nJuice of 2 limes\n⅓ Cup cilantro leaves\nTo taste kosher salt		calistyle-burrito
+1128	Guacamole	\N	4 avocados, ripe\n½  red onion, finely chopped\n1 jalapeno pepper, stems and seeds removed + finely chopped\n½ Cup (loosely packed) cilantro leaves, chopped\n3 cloves garlic, minced\nJuice from 2 -3 limes (or to taste)\n1 tsp cumin\nTo taste kosher salt\nTo taste freshly ground black pepper		calistyle-burrito
+1129	French Fries	\N	3-4 large Yukon gold potatoes\n1 Tbsp white vinegar\nAs needed kosher salt\nAs needed fry oil		calistyle-burrito
+1130	California Burrito	\N	Large flour tortillas (~12” diameter)\nGuacamole\nSour cream\nFrench fries\nCarne asada\nMonterey jack cheese, shredded\nSalsa verde\nSalsa roja		calistyle-burrito
+1131	Original Almond Biscotti	\N	As needed nonstick spray\n250 g all-purpose flour\n1 tsp baking powder\n¼ tsp baking soda\n½ tsp kosher salt\n120 g whole almonds, roasted + skin-on\n3 large eggs\n175 g granulated sugar\n1 tsp almond extract\n½ tsp vanilla extract\n12 oz dark chocolate, melted		biscotti
+1132	Orange Chocolate Biscotti	\N	As needed nonstick spray\n200 g all purpose flour\n50 g cocoa powder\n1 tsp baking powder\n¼ tsp baking soda\n½ tsp kosher salt\n120 g dark chocolate\n3 large eggs\n175 g granulated sugar\nZest of 1 large orange\nOptional: ¼ tsp orange extract\n1 tsp vanilla extract\nOrange glaze (see recipe below)		biscotti
+1133	Orange Glaze	\N	150 g  powdered sugar, sifted\nAs needed freshly squeezed orange juice\nOptional: orange food coloring		biscotti
+1134	Pistachio Cranberry Biscotti	\N	As needed nonstick spray\n250 g all-purpose flour\n1 tsp baking powder\n¼ tsp baking soda\n½ tsp kosher salt\n80 g pistachios, skin-off + roasted\n60 g dried cranberries\n3 large eggs\n175 g granulated sugar\n1 tsp vanilla extract\n12 oz white chocolate, melted		biscotti
 \.
 
 
@@ -2400,6 +2469,7 @@ COPY public.reference (id, type, name, description, external_link, image_link) F
 550	\N	Trollhunters	\N	\N	\N
 551	\N	The Sims	\N	\N	\N
 552	\N	I Think You Should Leave	\N	\N	\N
+553	\N	Genshin Impact	\N	\N	\N
 \.
 
 
@@ -2426,14 +2496,14 @@ SELECT pg_catalog.setval('public.guest_id_seq', 34, true);
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 1085, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 1134, true);
 
 
 --
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 552, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 553, true);
 
 
 --

@@ -285,6 +285,15 @@
     "image_link": "https://i.ytimg.com/sh/9pN22G6plt4DRzxbbhHy-g/market.jpg",
     "episodes_inspired": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/mc1035-archer",
+        "episode_id": "mc1035-archer",
+        "name": "Mc10:35 inspired by Archer",
+        "published_date": "2021-08-20",
+        "youtube_link": "https://www.youtube.com/watch?v=LyagMC0bokI",
+        "official_link": "https://www.bingingwithbabish.com/recipes/mc1035-archer",
+        "image_link": "https://img.youtube.com/vi/LyagMC0bokI/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/archer-margarita",
         "episode_id": "archer-margarita",
         "name": "Margaritas inspired by Archer",
@@ -1318,6 +1327,15 @@
     "image_link": "https://i.ytimg.com/sh/Pps0J6WLq4_-2FbnpEEFVw/market.jpg",
     "episodes_inspired": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/megs-dinner-family-guy",
+        "episode_id": "megs-dinner-family-guy",
+        "name": "Meg's Dinner inspired by Family Guy",
+        "published_date": "2021-08-12",
+        "youtube_link": "https://www.youtube.com/watch?v=6NOtF4l9i9g",
+        "official_link": "https://www.bingingwithbabish.com/recipes/megs-dinner-family-guy",
+        "image_link": "https://img.youtube.com/vi/6NOtF4l9i9g/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/babishpaniniwinner",
         "episode_id": "babishpaniniwinner",
         "name": "#BabishPanini Winning Recipe - Car Panini inspired by Family Guy",
@@ -1713,6 +1731,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna",
         "image_link": "https://img.youtube.com/vi/TkWmK-cplV4/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/553",
+    "reference_id": 553,
+    "type": null,
+    "name": "Genshin Impact",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/puppy-paw-hashbrowns",
+        "episode_id": "puppy-paw-hashbrowns",
+        "name": "Puppy Paw Hash Browns inspired by Genshin Impact",
+        "published_date": "2021-09-07",
+        "youtube_link": "https://www.youtube.com/watch?v=r4HxTcF98MU",
+        "official_link": "https://www.bingingwithbabish.com/recipes/puppy-paw-hashbrowns",
+        "image_link": "https://img.youtube.com/vi/r4HxTcF98MU/mqdefault.jpg"
       }
     ]
   },
@@ -3622,6 +3660,15 @@
     "image_link": "https://i.ytimg.com/sh/jFHEp6oZxSb5mUWzTVlzDQ/market.jpg",
     "episodes_inspired": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/black-and-white-cookies-seinfeld",
+        "episode_id": "black-and-white-cookies-seinfeld",
+        "name": "Black and White Cookies inspired by Seinfeld",
+        "published_date": "2021-09-01",
+        "youtube_link": "https://www.youtube.com/watch?v=9Z7s35n3a5I",
+        "official_link": "https://www.bingingwithbabish.com/recipes/black-and-white-cookies-seinfeld",
+        "image_link": "https://img.youtube.com/vi/9Z7s35n3a5I/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/seinfeldcalzone-z38zn",
         "episode_id": "seinfeldcalzone-z38zn",
         "name": "Calzones inspired by Seinfeld",
@@ -4152,9 +4199,9 @@
         "episode_id": "biscuits-ted-lasso",
         "name": "Biscuits inspired by Ted Lasso",
         "published_date": "2021-03-16",
-        "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
+        "youtube_link": "https://www.youtube.com/watch?v=r_yBqWHtWMo",
         "official_link": "https://www.bingingwithbabish.com/recipes/biscuits-ted-lasso",
-        "image_link": "https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg"
+        "image_link": "https://img.youtube.com/vi/r_yBqWHtWMo/mqdefault.jpg"
       }
     ]
   },
@@ -4773,6 +4820,24 @@
     "image_link": "https://i.ytimg.com/sh/g0CHYnadWiJf0SZUHuk7Eg/market.jpg",
     "episodes_inspired": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/isotope-dog-the-simpsons",
+        "episode_id": "isotope-dog-the-simpsons",
+        "name": "Isotope Dogs inspired by The Simpsons",
+        "published_date": "2021-09-21",
+        "youtube_link": "https://www.youtube.com/watch?v=w5K2ZoPVD5E",
+        "official_link": "https://www.bingingwithbabish.com/recipes/isotope-dog-the-simpsons",
+        "image_link": "https://img.youtube.com/vi/w5K2ZoPVD5E/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/la-bombe-eclair-the-simpsons",
+        "episode_id": "la-bombe-eclair-the-simpsons",
+        "name": "La Bombe Eclair inspired by The Simpsons",
+        "published_date": "2021-08-03",
+        "youtube_link": "https://www.youtube.com/watch?v=M73XCOzZAU0",
+        "official_link": "https://www.bingingwithbabish.com/recipes/la-bombe-eclair-the-simpsons",
+        "image_link": "https://img.youtube.com/vi/M73XCOzZAU0/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/dessertdogs",
         "episode_id": "dessertdogs",
         "name": "Dessert Dogs inspired by The Simpsons",
@@ -4877,6 +4942,15 @@
     "external_link": "https://www.imdb.com/title/tt0141842/",
     "image_link": "https://i.ytimg.com/sh/Vw63r4PYcKe_xKfvCLP_uw/market.jpg",
     "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/rabbit-sopranos",
+        "episode_id": "rabbit-sopranos",
+        "name": "Rabbit inspired by The Sopranos",
+        "published_date": "2021-09-16",
+        "youtube_link": "https://www.youtube.com/watch?v=aBMNzBhB6H0",
+        "official_link": "https://www.bingingwithbabish.com/recipes/rabbit-sopranos",
+        "image_link": "https://img.youtube.com/vi/aBMNzBhB6H0/mqdefault.jpg"
+      },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/ziti-lasagna",
         "episode_id": "ziti-lasagna",

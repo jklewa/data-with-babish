@@ -6,6 +6,69 @@
     "image_link": null,
     "episodes": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/isotope-dog-the-simpsons",
+        "episode_id": "isotope-dog-the-simpsons",
+        "name": "Isotope Dogs inspired by The Simpsons",
+        "published_date": "2021-09-21",
+        "youtube_link": "https://www.youtube.com/watch?v=w5K2ZoPVD5E",
+        "official_link": "https://www.bingingwithbabish.com/recipes/isotope-dog-the-simpsons",
+        "image_link": "https://img.youtube.com/vi/w5K2ZoPVD5E/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/rabbit-sopranos",
+        "episode_id": "rabbit-sopranos",
+        "name": "Rabbit inspired by The Sopranos",
+        "published_date": "2021-09-16",
+        "youtube_link": "https://www.youtube.com/watch?v=aBMNzBhB6H0",
+        "official_link": "https://www.bingingwithbabish.com/recipes/rabbit-sopranos",
+        "image_link": "https://img.youtube.com/vi/aBMNzBhB6H0/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/puppy-paw-hashbrowns",
+        "episode_id": "puppy-paw-hashbrowns",
+        "name": "Puppy Paw Hash Browns inspired by Genshin Impact",
+        "published_date": "2021-09-07",
+        "youtube_link": "https://www.youtube.com/watch?v=r4HxTcF98MU",
+        "official_link": "https://www.bingingwithbabish.com/recipes/puppy-paw-hashbrowns",
+        "image_link": "https://img.youtube.com/vi/r4HxTcF98MU/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/black-and-white-cookies-seinfeld",
+        "episode_id": "black-and-white-cookies-seinfeld",
+        "name": "Black and White Cookies inspired by Seinfeld",
+        "published_date": "2021-09-01",
+        "youtube_link": "https://www.youtube.com/watch?v=9Z7s35n3a5I",
+        "official_link": "https://www.bingingwithbabish.com/recipes/black-and-white-cookies-seinfeld",
+        "image_link": "https://img.youtube.com/vi/9Z7s35n3a5I/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/mc1035-archer",
+        "episode_id": "mc1035-archer",
+        "name": "Mc10:35 inspired by Archer",
+        "published_date": "2021-08-20",
+        "youtube_link": "https://www.youtube.com/watch?v=LyagMC0bokI",
+        "official_link": "https://www.bingingwithbabish.com/recipes/mc1035-archer",
+        "image_link": "https://img.youtube.com/vi/LyagMC0bokI/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/megs-dinner-family-guy",
+        "episode_id": "megs-dinner-family-guy",
+        "name": "Meg's Dinner inspired by Family Guy",
+        "published_date": "2021-08-12",
+        "youtube_link": "https://www.youtube.com/watch?v=6NOtF4l9i9g",
+        "official_link": "https://www.bingingwithbabish.com/recipes/megs-dinner-family-guy",
+        "image_link": "https://img.youtube.com/vi/6NOtF4l9i9g/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/la-bombe-eclair-the-simpsons",
+        "episode_id": "la-bombe-eclair-the-simpsons",
+        "name": "La Bombe Eclair inspired by The Simpsons",
+        "published_date": "2021-08-03",
+        "youtube_link": "https://www.youtube.com/watch?v=M73XCOzZAU0",
+        "official_link": "https://www.bingingwithbabish.com/recipes/la-bombe-eclair-the-simpsons",
+        "image_link": "https://img.youtube.com/vi/M73XCOzZAU0/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/sloppy-steaks-i-think-you-should-leave",
         "episode_id": "sloppy-steaks-i-think-you-should-leave",
         "name": "Sloppy Steaks inspired by I Think You Should Leave with Tim Robinson",
@@ -172,9 +235,9 @@
         "episode_id": "biscuits-ted-lasso",
         "name": "Biscuits inspired by Ted Lasso",
         "published_date": "2021-03-16",
-        "youtube_link": "https://www.youtube.com/watch?v=4e7iksx-Zig",
+        "youtube_link": "https://www.youtube.com/watch?v=r_yBqWHtWMo",
         "official_link": "https://www.bingingwithbabish.com/recipes/biscuits-ted-lasso",
-        "image_link": "https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg"
+        "image_link": "https://img.youtube.com/vi/r_yBqWHtWMo/mqdefault.jpg"
       },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/dinner-wandavision",
@@ -2281,6 +2344,60 @@
     "name": "Basics with Babish",
     "image_link": null,
     "episodes": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/biscotti",
+        "episode_id": "biscotti",
+        "name": "BISCOTTI",
+        "published_date": "2021-09-24",
+        "youtube_link": "https://www.youtube.com/watch?v=g4EkzEKlGOA",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/biscotti",
+        "image_link": "https://img.youtube.com/vi/g4EkzEKlGOA/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/calistyle-burrito",
+        "episode_id": "calistyle-burrito",
+        "name": "CALI-STYLE BURRITO",
+        "published_date": "2021-09-13",
+        "youtube_link": "https://www.youtube.com/watch?v=55YUKZK7BXg",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/calistyle-burrito",
+        "image_link": "https://img.youtube.com/vi/55YUKZK7BXg/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/smash-burgers",
+        "episode_id": "smash-burgers",
+        "name": "SMASH BURGERS",
+        "published_date": "2021-09-03",
+        "youtube_link": "https://www.youtube.com/watch?v=OsY85e9uIMw",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/smash-burgers",
+        "image_link": "https://img.youtube.com/vi/OsY85e9uIMw/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/chiles-rellenos",
+        "episode_id": "chiles-rellenos",
+        "name": "CHILES RELLENOS",
+        "published_date": "2021-08-26",
+        "youtube_link": "https://www.youtube.com/watch?v=gAKW8RB6aeU",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/chiles-rellenos",
+        "image_link": "https://img.youtube.com/vi/gAKW8RB6aeU/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/english-muffins",
+        "episode_id": "english-muffins",
+        "name": "ENGLISH MUFFINS",
+        "published_date": "2021-08-06",
+        "youtube_link": "https://www.youtube.com/watch?v=5E_DIPttHuE",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/english-muffins",
+        "image_link": "https://img.youtube.com/vi/5E_DIPttHuE/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/jerk-chicken",
+        "episode_id": "jerk-chicken",
+        "name": "JERK CHICKEN",
+        "published_date": "2021-08-03",
+        "youtube_link": "https://www.youtube.com/watch?v=WOMOVA9UMic",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/jerk-chicken",
+        "image_link": "https://img.youtube.com/vi/WOMOVA9UMic/mqdefault.jpg"
+      },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/steakhouse-burgers",
         "episode_id": "steakhouse-burgers",
