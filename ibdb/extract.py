@@ -110,7 +110,7 @@ def fetch_paginated_seq(base_url, route):
             items += res.get('items', [])
             route = res.get('pagination', {}).get('nextPageUrl', None)
             if route:
-                time.sleep(1.5 ** num_requests)
+                time.sleep(60 * 1.5 ** num_requests)
                 num_requests += 1
         except Exception:
             logging.error(f'Failed request: {link}')
