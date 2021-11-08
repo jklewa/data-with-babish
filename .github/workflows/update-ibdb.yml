@@ -1,7 +1,7 @@
 name: Update IBDB
 on:
   schedule:
-    - cron:  '0 5,11,17,22 * * *'
+    - cron:  '0 5 * * *'
 
   workflow_dispatch:
 
@@ -37,7 +37,6 @@ jobs:
       - name: Install postgres deps
         run: |
           sudo apt-get update
-          sudo apt-get remove --purge -y postgresql-13 postgresql-client-13
           sudo apt-get install -y postgresql-client-12
 
       - name: Init postgres db
