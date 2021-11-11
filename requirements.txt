@@ -98,8 +98,6 @@ requests==2.24.0
     #   sanitized-package
 requests-mock==1.8.0
     # via -r requirements.in
-file:///home/dependabot/dependabot-updater/tmp/dependabot_20210925-8-1ovcf5n
-    # via -r requirements.in
 six==1.15.0
     # via
     #   furl
