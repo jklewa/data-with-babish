@@ -30,7 +30,7 @@ setuptools.setup(
     scripts=[
         "ibdb/bin/ibdb",
     ],
-    packages=setuptools.find_packages(),
+    packages=setuptools.find_packages(include=['*', 'ibdb/bin/*']),
     install_requires=install_requires,
     classifiers=[
         "Programming Language :: Python :: 3",
