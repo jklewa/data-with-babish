@@ -904,6 +904,15 @@
     "image_link": "https://img.youtube.com/vi/c_8GlcxdemA/mqdefault.jpg",
     "episodes_inspired": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/feast-from-chef",
+        "episode_id": "feast-from-chef",
+        "name": "Feast inspired by Chef",
+        "published_date": "2021-10-04",
+        "youtube_link": "https://www.youtube.com/watch?v=ghnXKzE4z7o",
+        "official_link": "https://www.bingingwithbabish.com/recipes/feast-from-chef",
+        "image_link": "https://img.youtube.com/vi/ghnXKzE4z7o/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/beignetsfromchef",
         "episode_id": "beignetsfromchef",
         "name": "Beignets inspired by Chef (and Princess and the Frog)",
@@ -2909,6 +2918,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/554",
+    "reference_id": 554,
+    "type": null,
+    "name": "My Cousin Vinny",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/grits-breakfast-my-cousin-vinny",
+        "episode_id": "grits-breakfast-my-cousin-vinny",
+        "name": "Grits inspired by My Cousin Vinny",
+        "published_date": "2021-10-08",
+        "youtube_link": "https://www.youtube.com/watch?v=GbfUeneG0s8",
+        "official_link": "https://www.bingingwithbabish.com/recipes/grits-breakfast-my-cousin-vinny",
+        "image_link": "https://img.youtube.com/vi/GbfUeneG0s8/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/531",
     "reference_id": 531,
     "type": null,
@@ -3941,6 +3970,26 @@
     ]
   },
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/555",
+    "reference_id": 555,
+    "type": null,
+    "name": "Squid Games",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/dalgona-squid-games",
+        "episode_id": "dalgona-squid-games",
+        "name": "Dalgona inspired by Squid Games",
+        "published_date": "2021-10-13",
+        "youtube_link": "https://www.youtube.com/watch?v=s5SqsNPWYA4",
+        "official_link": "https://www.bingingwithbabish.com/recipes/dalgona-squid-games",
+        "image_link": "https://img.youtube.com/vi/s5SqsNPWYA4/mqdefault.jpg"
+      }
+    ]
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/reference/116",
     "reference_id": 116,
     "type": "movie",
@@ -4102,6 +4151,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=J719grjgS-I",
         "official_link": "https://www.bingingwithbabish.com/recipes/tiramisu",
         "image_link": "https://img.youtube.com/vi/J719grjgS-I/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/556",
+    "reference_id": 556,
+    "type": null,
+    "name": "Sweeny Todd",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/meat-pies-sweeny-todd",
+        "episode_id": "meat-pies-sweeny-todd",
+        "name": "Meat Pies inspired by Sweeny Todd",
+        "published_date": "2021-11-05",
+        "youtube_link": "https://www.youtube.com/watch?v=hwKtoO3OmeU",
+        "official_link": "https://www.bingingwithbabish.com/recipes/meat-pies-sweeny-todd",
+        "image_link": "https://img.youtube.com/vi/hwKtoO3OmeU/mqdefault.jpg"
       }
     ]
   },
@@ -4819,6 +4888,15 @@
     "external_link": "https://www.imdb.com/title/tt0096697/",
     "image_link": "https://i.ytimg.com/sh/g0CHYnadWiJf0SZUHuk7Eg/market.jpg",
     "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/root-beer-noodles-the-simpsons",
+        "episode_id": "root-beer-noodles-the-simpsons",
+        "name": "Root Beer Noodles inspired by The Simpsons",
+        "published_date": "2021-10-26",
+        "youtube_link": "https://www.youtube.com/watch?v=TsvrUr-fmLw",
+        "official_link": "https://www.bingingwithbabish.com/recipes/root-beer-noodles-the-simpsons",
+        "image_link": "https://img.youtube.com/vi/TsvrUr-fmLw/mqdefault.jpg"
+      },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/isotope-dog-the-simpsons",
         "episode_id": "isotope-dog-the-simpsons",
