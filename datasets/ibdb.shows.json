@@ -6,6 +6,51 @@
     "image_link": null,
     "episodes": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/meat-pies-sweeny-todd",
+        "episode_id": "meat-pies-sweeny-todd",
+        "name": "Meat Pies inspired by Sweeny Todd",
+        "published_date": "2021-11-05",
+        "youtube_link": "https://www.youtube.com/watch?v=hwKtoO3OmeU",
+        "official_link": "https://www.bingingwithbabish.com/recipes/meat-pies-sweeny-todd",
+        "image_link": "https://img.youtube.com/vi/hwKtoO3OmeU/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/root-beer-noodles-the-simpsons",
+        "episode_id": "root-beer-noodles-the-simpsons",
+        "name": "Root Beer Noodles inspired by The Simpsons",
+        "published_date": "2021-10-26",
+        "youtube_link": "https://www.youtube.com/watch?v=TsvrUr-fmLw",
+        "official_link": "https://www.bingingwithbabish.com/recipes/root-beer-noodles-the-simpsons",
+        "image_link": "https://img.youtube.com/vi/TsvrUr-fmLw/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/dalgona-squid-games",
+        "episode_id": "dalgona-squid-games",
+        "name": "Dalgona inspired by Squid Games",
+        "published_date": "2021-10-13",
+        "youtube_link": "https://www.youtube.com/watch?v=s5SqsNPWYA4",
+        "official_link": "https://www.bingingwithbabish.com/recipes/dalgona-squid-games",
+        "image_link": "https://img.youtube.com/vi/s5SqsNPWYA4/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/grits-breakfast-my-cousin-vinny",
+        "episode_id": "grits-breakfast-my-cousin-vinny",
+        "name": "Grits inspired by My Cousin Vinny",
+        "published_date": "2021-10-08",
+        "youtube_link": "https://www.youtube.com/watch?v=GbfUeneG0s8",
+        "official_link": "https://www.bingingwithbabish.com/recipes/grits-breakfast-my-cousin-vinny",
+        "image_link": "https://img.youtube.com/vi/GbfUeneG0s8/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/feast-from-chef",
+        "episode_id": "feast-from-chef",
+        "name": "Feast inspired by Chef",
+        "published_date": "2021-10-04",
+        "youtube_link": "https://www.youtube.com/watch?v=ghnXKzE4z7o",
+        "official_link": "https://www.bingingwithbabish.com/recipes/feast-from-chef",
+        "image_link": "https://img.youtube.com/vi/ghnXKzE4z7o/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/isotope-dog-the-simpsons",
         "episode_id": "isotope-dog-the-simpsons",
         "name": "Isotope Dogs inspired by The Simpsons",
@@ -2344,6 +2389,51 @@
     "name": "Basics with Babish",
     "image_link": null,
     "episodes": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/apple-cider-donuts",
+        "episode_id": "apple-cider-donuts",
+        "name": "APPLE CIDER DONUTS",
+        "published_date": "2021-11-09",
+        "youtube_link": "https://www.youtube.com/watch?v=baZoJYAQjfI",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/apple-cider-donuts",
+        "image_link": "https://img.youtube.com/vi/baZoJYAQjfI/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/cake-pops",
+        "episode_id": "cake-pops",
+        "name": "CAKE POPS",
+        "published_date": "2021-11-02",
+        "youtube_link": "https://www.youtube.com/watch?v=C_hz9wzeBbY",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/cake-pops",
+        "image_link": "https://img.youtube.com/vi/C_hz9wzeBbY/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/poke-bowls",
+        "episode_id": "poke-bowls",
+        "name": "POKE BOWLS",
+        "published_date": "2021-10-26",
+        "youtube_link": "https://www.youtube.com/watch?v=l7VRSINAEQo",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/poke-bowls",
+        "image_link": "https://img.youtube.com/vi/l7VRSINAEQo/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/swedish-meatballs",
+        "episode_id": "swedish-meatballs",
+        "name": "SWEDISH MEATBALLS",
+        "published_date": "2021-10-08",
+        "youtube_link": "https://www.youtube.com/watch?v=bTUUNZFOflw",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/swedish-meatballs",
+        "image_link": "https://img.youtube.com/vi/bTUUNZFOflw/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/protein-pizza",
+        "episode_id": "protein-pizza",
+        "name": "PROTEIN PIZZA",
+        "published_date": "2021-10-05",
+        "youtube_link": "https://www.youtube.com/watch?v=ZYvDLT2BkQ8",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/protein-pizza",
+        "image_link": "https://img.youtube.com/vi/ZYvDLT2BkQ8/mqdefault.jpg"
+      },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/biscotti",
         "episode_id": "biscotti",

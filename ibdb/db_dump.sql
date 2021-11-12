@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 12.8 (Debian 12.8-1.pgdg110+1)
--- Dumped by pg_dump version 12.8 (Ubuntu 12.8-0ubuntu0.20.04.1)
+-- Dumped from database version 12.9 (Debian 12.9-1.pgdg110+1)
+-- Dumped by pg_dump version 12.9 (Ubuntu 12.9-0ubuntu0.20.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -291,6 +291,7 @@ aglioeolio	Pasta Aglio e Olio inspired by Chef	https://www.youtube.com/watch?v=b
 alwayssunny	It's Always Sunny in Philadelphia Special (Part II)	https://www.youtube.com/watch?v=_fnhy5xO9vQ	https://www.bingingwithbabish.com/recipes/alwayssunny	https://img.youtube.com/vi/_fnhy5xO9vQ/mqdefault.jpg	2019-06-12	1
 andrewsohlathanksgiving	ANDREW & SOHLA THANKSGIVING RECIPES	https://www.youtube.com/watch?v=tXNuz8nXYGk	https://basicswithbabish.co/basicsepisodes/andrewsohlathanksgiving	https://img.youtube.com/vi/tXNuz8nXYGk/mqdefault.jpg	2020-11-20	2
 angel-food-cake-groundhog-day	Angel Food Cake inspired by Groundhog Day	https://www.youtube.com/watch?v=2d6VmncdK-E	https://www.bingingwithbabish.com/recipes/angel-food-cake-groundhog-day	https://img.youtube.com/vi/2d6VmncdK-E/mqdefault.jpg	2021-02-03	1
+apple-cider-donuts	APPLE CIDER DONUTS	https://www.youtube.com/watch?v=baZoJYAQjfI	https://basicswithbabish.co/basicsepisodes/apple-cider-donuts	https://img.youtube.com/vi/baZoJYAQjfI/mqdefault.jpg	2021-11-09	2
 applefritters	Double-Glazed Apple Fritters inspired by Regular Show	https://www.youtube.com/watch?v=YYSP1D6GJ30	https://www.bingingwithbabish.com/recipes/applefritters	https://img.youtube.com/vi/YYSP1D6GJ30/mqdefault.jpg	2019-08-27	1
 applepie	How To Make Apple Pie	https://www.youtube.com/watch?v=-Vy12e0LjX4	https://www.bingingwithbabish.com/recipes/2017/8/22/applepie	https://img.youtube.com/vi/-Vy12e0LjX4/mqdefault.jpg	2016-09-23	1
 applepiesmoothie	Apple Pie Smoothie	https://www.youtube.com/watch?v=mv1z2p3to0U	https://www.bingingwithbabish.com/recipes/2017/8/22/applepiesmoothie	https://img.youtube.com/vi/mv1z2p3to0U/mqdefault.jpg	2016-03-13	1
@@ -354,6 +355,7 @@ butterednoodles-community	Buttered Noodles inspired by Community	https://www.you
 buttermilk-pancakes-inspired-by-twin-peaks	Buttermilk Pancakes inspired by Twin Peaks	https://www.youtube.com/watch?v=nEoSBL25RO4	https://www.bingingwithbabish.com/recipes/2017/5/18/buttermilk-pancakes-inspired-by-twin-peaks	https://img.youtube.com/vi/nEoSBL25RO4/mqdefault.jpg	2017-05-18	1
 caillesensarchophage	Cailles en Sarchophage inspired by Babette's Feast	https://www.youtube.com/watch?v=Bz1IXK6ahu0	https://www.youtube.com/watch?v=Bz1IXK6ahu0	https://img.youtube.com/vi/Bz1IXK6ahu0/mqdefault.jpg	2017-10-03	1
 cajunfood	CAJUN FOOD	https://www.youtube.com/watch?v=nORg_aXMsmA	https://basicswithbabish.co/basicsepisodes/cajunfood	https://img.youtube.com/vi/nORg_aXMsmA/mqdefault.jpg	2019-09-13	2
+cake-pops	CAKE POPS	https://www.youtube.com/watch?v=C_hz9wzeBbY	https://basicswithbabish.co/basicsepisodes/cake-pops	https://img.youtube.com/vi/C_hz9wzeBbY/mqdefault.jpg	2021-11-02	2
 calistyle-burrito	CALI-STYLE BURRITO	https://www.youtube.com/watch?v=55YUKZK7BXg	https://basicswithbabish.co/basicsepisodes/calistyle-burrito	https://img.youtube.com/vi/55YUKZK7BXg/mqdefault.jpg	2021-09-13	2
 carbonara	CARBONARA	https://www.youtube.com/watch?v=qoHnwOHLiMk	https://basicswithbabish.co/basicsepisodes/carbonara	https://img.youtube.com/vi/qoHnwOHLiMk/mqdefault.jpg	2019-08-15	2
 carpanini	Car Panini inspired by Family Guy	https://www.youtube.com/watch?v=4Rz8BPRFeiA	https://www.bingingwithbabish.com/recipes/carpanini	https://img.youtube.com/vi/4Rz8BPRFeiA/mqdefault.jpg	2018-07-10	1
@@ -402,6 +404,7 @@ croque-monsieur-brooklyn-nine-nine	Croque Monsieur inspired by Brooklyn Nine-Nin
 croquemadame	Croque Madame: The Ultimate Breakfast Sandwich	https://www.youtube.com/watch?v=dVRl1aP28BI	https://www.bingingwithbabish.com/recipes/2017/8/22/croquemadame	https://img.youtube.com/vi/dVRl1aP28BI/mqdefault.jpg	2016-03-13	1
 cubanos-inspired-by-chef	Cubanos inspired by Chef	https://www.youtube.com/watch?v=hXYoduN0kWs	https://www.bingingwithbabish.com/recipes/2017/3/28/cubanos-inspired-by-chef	https://img.youtube.com/vi/hXYoduN0kWs/mqdefault.jpg	2017-03-28	1
 curbyourenthusiasm	Curb Your Enthusiasm Special	https://www.youtube.com/watch?v=XIZxT7iI-QI	https://www.bingingwithbabish.com/recipes/2017/6/27/curbyourenthusiasm	https://img.youtube.com/vi/XIZxT7iI-QI/mqdefault.jpg	2017-10-10	1
+dalgona-squid-games	Dalgona inspired by Squid Games	https://www.youtube.com/watch?v=s5SqsNPWYA4	https://www.bingingwithbabish.com/recipes/dalgona-squid-games	https://img.youtube.com/vi/s5SqsNPWYA4/mqdefault.jpg	2021-10-13	1
 date-night	DATE NIGHT	https://www.youtube.com/watch?v=dFh7tZoGYA4	https://basicswithbabish.co/basicsepisodes/date-night	https://img.youtube.com/vi/dFh7tZoGYA4/mqdefault.jpg	2021-02-12	2
 deadpoolpizza	Pizza inspired by Deadpool	https://www.youtube.com/watch?v=95M8W1JgH_0	https://www.bingingwithbabish.com/recipes/deadpoolpizza	https://img.youtube.com/vi/95M8W1JgH_0/mqdefault.jpg	2018-06-19	1
 deathsandwich	Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show	https://www.youtube.com/watch?v=o5XNzsf78KE	https://www.bingingwithbabish.com/recipes/deathsandwich	https://img.youtube.com/vi/o5XNzsf78KE/mqdefault.jpg	2019-04-09	1
@@ -425,6 +428,7 @@ english-muffins	ENGLISH MUFFINS	https://www.youtube.com/watch?v=5E_DIPttHuE	http
 espressodrinks	ESPRESSO DRINKS	https://www.youtube.com/watch?v=W-osWU1WJuM	https://basicswithbabish.co/basicsepisodes/espressodrinks	https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg	2019-10-24	2
 everymeatburrito	The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special	https://www.youtube.com/watch?v=Mf4wwXM2o_M	https://www.bingingwithbabish.com/recipes/2017/8/22/everymeatburrito	https://img.youtube.com/vi/Mf4wwXM2o_M/mqdefault.jpg	2018-01-16	1
 falafels	FALAFEL	https://www.youtube.com/watch?v=-98r0kpLbIM	https://basicswithbabish.co/basicsepisodes/falafels	https://img.youtube.com/vi/-98r0kpLbIM/mqdefault.jpg	2021-05-14	2
+feast-from-chef	Feast inspired by Chef	https://www.youtube.com/watch?v=ghnXKzE4z7o	https://www.bingingwithbabish.com/recipes/feast-from-chef	https://img.youtube.com/vi/ghnXKzE4z7o/mqdefault.jpg	2021-10-04	1
 fettuccine-alfredo-the-office	Fettuccine Alfredo inspired by The Office	https://www.youtube.com/watch?v=WS6_CeuSn_s	https://www.bingingwithbabish.com/recipes/fettuccine-alfredo-the-office	https://img.youtube.com/vi/WS6_CeuSn_s/mqdefault.jpg	2021-04-14	1
 fish	FISH	https://www.youtube.com/watch?v=KObL442PWhQ	https://basicswithbabish.co/basicsepisodes/fish	https://img.youtube.com/vi/KObL442PWhQ/mqdefault.jpg	2018-05-17	2
 fish-fingers-custard-doctor-who	Fish Fingers and Custard inspired by Doctor Who	https://www.youtube.com/watch?v=aTBhpS570JE	https://www.bingingwithbabish.com/recipes/fish-fingers-custard-doctor-who	https://img.youtube.com/vi/aTBhpS570JE/mqdefault.jpg	2021-05-11	1
@@ -454,6 +458,7 @@ grilled-feast	GRILLED FEAST	https://www.youtube.com/watch?v=m6X5I_FI04A	https://
 grilledcheesedeluxe	Grilled Cheese Deluxe inspired by Regular Show	https://www.youtube.com/watch?v=NFAN6L7xnvY	https://www.bingingwithbabish.com/recipes/grilledcheesedeluxe	https://img.youtube.com/vi/NFAN6L7xnvY/mqdefault.jpg	2019-04-16	1
 grilledcheesevidcon	National Grilled Cheese Day + VidCon Announcement	https://www.youtube.com/watch?v=hwjdXBxeWsc	https://www.youtube.com/watch?v=hwjdXBxeWsc	https://img.youtube.com/vi/hwjdXBxeWsc/mqdefault.jpg	2018-04-11	1
 grilling-5j345	GRILLING BASICS	https://www.youtube.com/watch?v=u0feM_2mLvo	https://basicswithbabish.co/basicsepisodes/grilling-5j345	https://img.youtube.com/vi/u0feM_2mLvo/mqdefault.jpg	2018-05-11	2
+grits-breakfast-my-cousin-vinny	Grits inspired by My Cousin Vinny	https://www.youtube.com/watch?v=GbfUeneG0s8	https://www.bingingwithbabish.com/recipes/grits-breakfast-my-cousin-vinny	https://img.youtube.com/vi/GbfUeneG0s8/mqdefault.jpg	2021-10-08	1
 harrypotterspecial	Harry Potter Special	https://www.youtube.com/watch?v=LXDAu8DnALw	https://www.bingingwithbabish.com/recipes/2017/6/27/harrypotterspecial	https://img.youtube.com/vi/LXDAu8DnALw/mqdefault.jpg	2017-11-14	1
 healthy-meals-brown-rice	HEALTHY MEALS: BROWN RICE	https://www.youtube.com/watch?v=hMDwYiYIeRw	https://basicswithbabish.co/basicsepisodes/healthy-meals-brown-rice	https://img.youtube.com/vi/hMDwYiYIeRw/mqdefault.jpg	2021-01-21	2
 healthymeals	HEALTHY MEALS	https://www.youtube.com/watch?v=APwwGy4GzK8	https://basicswithbabish.co/basicsepisodes/healthymeals	https://img.youtube.com/vi/APwwGy4GzK8/mqdefault.jpg	2019-06-13	2
@@ -507,6 +512,7 @@ maisel-brisket	Brisket inspired by The Marvelous Mrs. Maisel	https://www.youtube
 marmalade	Marmalade Sandwiches inspired by Paddington	https://www.youtube.com/watch?v=g1j-5UkZyL0	https://www.bingingwithbabish.com/recipes/marmalade	https://img.youtube.com/vi/g1j-5UkZyL0/mqdefault.jpg	2020-01-23	1
 mashed-potatoes	MASHED POTATOES	https://www.youtube.com/watch?v=ZLnWdPPJvYg	https://basicswithbabish.co/basicsepisodes/mashed-potatoes	https://img.youtube.com/vi/ZLnWdPPJvYg/mqdefault.jpg	2020-09-03	2
 mc1035-archer	Mc10:35 inspired by Archer	https://www.youtube.com/watch?v=LyagMC0bokI	https://www.bingingwithbabish.com/recipes/mc1035-archer	https://img.youtube.com/vi/LyagMC0bokI/mqdefault.jpg	2021-08-20	1
+meat-pies-sweeny-todd	Meat Pies inspired by Sweeny Todd	https://www.youtube.com/watch?v=hwKtoO3OmeU	https://www.bingingwithbabish.com/recipes/meat-pies-sweeny-todd	https://img.youtube.com/vi/hwKtoO3OmeU/mqdefault.jpg	2021-11-05	1
 meat-tornado-parks-and-rec	Meat Tornado inspired by Parks & Rec 	https://www.youtube.com/watch?v=LsNg-KrFxCA	https://www.bingingwithbabish.com/recipes/meat-tornado-parks-and-rec	https://img.youtube.com/vi/LsNg-KrFxCA/mqdefault.jpg	2020-08-25	1
 meatghetti-spagballs-american-dad	Meat-ghetti and Spag-balls inspired by American Dad	https://www.youtube.com/watch?v=PwbgLteVwvs	https://www.bingingwithbabish.com/recipes/meatghetti-spagballs-american-dad	https://img.youtube.com/vi/PwbgLteVwvs/mqdefault.jpg	2021-06-21	1
 meatloaf	MEATLOAF	https://www.youtube.com/watch?v=KgNQ6ZrT4RQ	https://basicswithbabish.co/basicsepisodes/meatloaf	https://img.youtube.com/vi/KgNQ6ZrT4RQ/mqdefault.jpg	2021-04-16	2
@@ -552,6 +558,7 @@ pizza-dough	PIZZA DOUGH	https://www.youtube.com/watch?v=n1O3uHPCOLA	https://basi
 pizza-gyoza-tmnt	Pizza Gyoza inspired by Teenage Mutant Ninja Turtles	https://www.youtube.com/watch?v=ah5G2EXKgvA	https://www.bingingwithbabish.com/recipes/pizza-gyoza-tmnt	https://img.youtube.com/vi/ah5G2EXKgvA/mqdefault.jpg	2021-06-09	1
 pizza-in-a-cup-the-jerk	Pizza in a Cup inspired by The Jerk	https://www.youtube.com/watch?v=8a7L0bFuE3o	https://www.bingingwithbabish.com/recipes/pizza-in-a-cup-the-jerk	https://img.youtube.com/vi/8a7L0bFuE3o/mqdefault.jpg	2021-02-10	1
 pizzaball	Pizza Ball inspired by The Eric Andre Show	https://www.youtube.com/watch?v=U3LFI2mI8Y0	https://www.bingingwithbabish.com/recipes/pizzaball	https://img.youtube.com/vi/U3LFI2mI8Y0/mqdefault.jpg	2019-01-08	1
+poke-bowls	POKE BOWLS	https://www.youtube.com/watch?v=l7VRSINAEQo	https://basicswithbabish.co/basicsepisodes/poke-bowls	https://img.youtube.com/vi/l7VRSINAEQo/mqdefault.jpg	2021-10-26	2
 pollo-a-la-plancha	Pollo a la Plancha inspired by Moonlight	https://www.youtube.com/watch?v=ZsBWgeQHjnM	https://www.bingingwithbabish.com/recipes/2017/5/4/pollo-a-la-plancha	https://img.youtube.com/vi/ZsBWgeQHjnM/mqdefault.jpg	2017-03-06	1
 pollos-hermanos-breaking-bad	Pollos Hermanos inspired by Breaking Bad	https://www.youtube.com/watch?v=ndqjxhi7uZs	https://www.bingingwithbabish.com/recipes/pollos-hermanos-breaking-bad	https://img.youtube.com/vi/ndqjxhi7uZs/mqdefault.jpg	2020-09-15	1
 porchetta	PORCHETTA	https://www.youtube.com/watch?v=YMF27Q9nLNY	https://basicswithbabish.co/basicsepisodes/porchetta	https://img.youtube.com/vi/YMF27Q9nLNY/mqdefault.jpg	2019-12-19	2
@@ -561,6 +568,7 @@ potato-hash	POTATO HASH	https://www.youtube.com/watch?v=R4kwxiDlKzs	https://basi
 potroast	POT ROAST	https://www.youtube.com/watch?v=RVx90rTJIzc	https://basicswithbabish.co/basicsepisodes/potroast	https://img.youtube.com/vi/RVx90rTJIzc/mqdefault.jpg	2019-02-14	2
 potstickers	POTSTICKERS	https://www.youtube.com/watch?v=iC1rvXPt_rE	https://basicswithbabish.co/basicsepisodes/potstickers	https://img.youtube.com/vi/iC1rvXPt_rE/mqdefault.jpg	2021-01-07	2
 poutine	POUTINE	https://www.youtube.com/watch?v=uc-_KXfHcXQ	https://basicswithbabish.co/basicsepisodes/poutine	https://img.youtube.com/vi/uc-_KXfHcXQ/mqdefault.jpg	2019-09-26	2
+protein-pizza	PROTEIN PIZZA	https://www.youtube.com/watch?v=ZYvDLT2BkQ8	https://basicswithbabish.co/basicsepisodes/protein-pizza	https://img.youtube.com/vi/ZYvDLT2BkQ8/mqdefault.jpg	2021-10-05	2
 puerco-pibil	Puerco Pibil inspired by Once Upon a Time in Mexico	https://www.youtube.com/watch?v=5_sdhAFGmbw	https://www.bingingwithbabish.com/recipes/2017/8/08/puerco-pibil	https://img.youtube.com/vi/5_sdhAFGmbw/mqdefault.jpg	2017-08-08	1
 pullednoodles	Special Ingredient Soup inspired by Kung Fu Panda	https://www.youtube.com/watch?v=cee6883w2Nk	https://www.bingingwithbabish.com/recipes/pullednoodles	https://img.youtube.com/vi/cee6883w2Nk/mqdefault.jpg	2019-10-01	1
 pulledpork	PULLED PORK	https://www.youtube.com/watch?v=_SObOsXrDRc	https://basicswithbabish.co/basicsepisodes/pulledpork	https://img.youtube.com/vi/_SObOsXrDRc/mqdefault.jpg	2019-05-16	2
@@ -582,6 +590,7 @@ ribwich	Ribwich inspired by The Simpsons	https://www.youtube.com/watch?v=Yj07347
 risotto	RISOTTO	https://www.youtube.com/watch?v=E_8wQsmjn0A	https://basicswithbabish.co/basicsepisodes/risotto	https://img.youtube.com/vi/E_8wQsmjn0A/mqdefault.jpg	2018-05-31	2
 risotto-tricolore-big-night	Risotto Tricolore inspired by Big Night	https://www.youtube.com/watch?v=D8SgdOGIEyU	https://www.bingingwithbabish.com/recipes/risotto-tricolore-big-night	https://img.youtube.com/vi/D8SgdOGIEyU/mqdefault.jpg	2021-01-12	1
 roastbeast	Roast Beast inspired by How The Grinch Stole Christmas	https://www.youtube.com/watch?v=_szug5_YkD4	https://www.bingingwithbabish.com/recipes/roastbeast	https://img.youtube.com/vi/_szug5_YkD4/mqdefault.jpg	2018-12-18	1
+root-beer-noodles-the-simpsons	Root Beer Noodles inspired by The Simpsons	https://www.youtube.com/watch?v=TsvrUr-fmLw	https://www.bingingwithbabish.com/recipes/root-beer-noodles-the-simpsons	https://img.youtube.com/vi/TsvrUr-fmLw/mqdefault.jpg	2021-10-26	1
 rumfrenchtoast	Rum French Toast inspired by Mad Men	https://www.youtube.com/watch?v=evzWEXpW1pM	https://www.bingingwithbabish.com/recipes/2017/8/22/rumfrenchtoast	https://img.youtube.com/vi/evzWEXpW1pM/mqdefault.jpg	2018-01-23	1
 salad-nb7s3-3jkft	SALAD	https://www.youtube.com/watch?v=xHR8BCFv_JY	https://basicswithbabish.co/basicsepisodes/salad-nb7s3-3jkft	https://img.youtube.com/vi/xHR8BCFv_JY/mqdefault.jpg	2018-09-06	2
 sandyfryesappetizers	Sandy Frye's Appetizers inspired by Bob's Burgers	https://www.youtube.com/watch?v=3LXTGVN3ZOg	https://www.bingingwithbabish.com/recipes/sandyfryesappetizers	https://img.youtube.com/vi/3LXTGVN3ZOg/mqdefault.jpg	2019-01-29	1
@@ -626,6 +635,7 @@ stollen	STOLLEN (GERMAN HOLIDAY BREAD)	https://www.youtube.com/watch?v=25Od-bcv6
 sugar-chicken-rick-and-morty	Sugar Chicken inspired by Rick & Morty	https://www.youtube.com/watch?v=8iCWUvHMPxQ	https://www.bingingwithbabish.com/recipes/sugar-chicken-rick-and-morty	https://img.youtube.com/vi/8iCWUvHMPxQ/mqdefault.jpg	2021-02-23	1
 sumbitches	Sumbitches and Peanut Butter Cookies inspired by How I Met Your Mother	https://www.youtube.com/watch?v=i9MMCCd-MSI	https://www.bingingwithbabish.com/recipes/sumbitches	https://img.youtube.com/vi/i9MMCCd-MSI/mqdefault.jpg	2019-09-04	1
 sundae-spongebob	Bad Breath Sundae inspired by SpongeBob Squarepants	https://www.youtube.com/watch?v=Ya2_Khcdwsk	https://www.bingingwithbabish.com/recipes/sundae-spongebob	https://img.youtube.com/vi/Ya2_Khcdwsk/mqdefault.jpg	2020-07-21	1
+swedish-meatballs	SWEDISH MEATBALLS	https://www.youtube.com/watch?v=bTUUNZFOflw	https://basicswithbabish.co/basicsepisodes/swedish-meatballs	https://img.youtube.com/vi/bTUUNZFOflw/mqdefault.jpg	2021-10-08	2
 sweetrolls-skyrim	Sweetrolls inspired by Skyrim	https://www.youtube.com/watch?v=98R3fgPKmYs	https://www.bingingwithbabish.com/recipes/sweetrolls-skyrim	https://img.youtube.com/vi/98R3fgPKmYs/mqdefault.jpg	2020-06-18	1
 szechuansauce	Rick & Morty Szechuan Sauce	https://www.youtube.com/watch?v=wBhhlE92mIQ	https://www.bingingwithbabish.com/recipes/2017/6/27/szechuansauce	https://img.youtube.com/vi/wBhhlE92mIQ/mqdefault.jpg	2017-04-04	1
 szechuansaucerevisited	Szechuan Sauce Revisited (From Real Sample!)	https://www.youtube.com/watch?v=lhc_bXGvmp0	https://www.bingingwithbabish.com/recipes/2017/8/29/szechuansaucerevisited	https://img.youtube.com/vi/lhc_bXGvmp0/mqdefault.jpg	2017-09-12	1
@@ -783,6 +793,7 @@ crepessuzette	275
 croque-monsieur-brooklyn-nine-nine	59
 cubanos-inspired-by-chef	47
 curbyourenthusiasm	81
+dalgona-squid-games	555
 deadpoolpizza	54
 deathsandwich	7
 deepdishpizza	135
@@ -809,6 +820,7 @@ eggswoodhouse	23
 enchiladas-schitts-creek	316
 everymeatburrito	7
 everymeatburrito	193
+feast-from-chef	47
 fettuccine-alfredo-the-office	80
 fish-fingers-custard-doctor-who	545
 fitz-sandwich	84
@@ -830,6 +842,7 @@ goodmorningburger	15
 gotcha-pork-roast-food-wars	525
 grilledcheesedeluxe	7
 grilledcheesevidcon	47
+grits-breakfast-my-cousin-vinny	554
 harrypotterspecial	75
 homemade-mozzarella	300
 huevosrancheros	9
@@ -868,6 +881,7 @@ madmen	68
 maisel-brisket	298
 marmalade	287
 mc1035-archer	23
+meat-pies-sweeny-todd	556
 meat-tornado-parks-and-rec	299
 meatghetti-spagballs-american-dad	548
 megs-dinner-family-guy	45
@@ -932,6 +946,7 @@ restaurant-wars-steven-universe	6
 ribwich	15
 risotto-tricolore-big-night	111
 roastbeast	29
+root-beer-noodles-the-simpsons	15
 rumfrenchtoast	68
 sandyfryesappetizers	14
 seasalticecream	4
@@ -2231,6 +2246,59 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 1132	Orange Chocolate Biscotti	\N	As needed nonstick spray\n200 g all purpose flour\n50 g cocoa powder\n1 tsp baking powder\n¼ tsp baking soda\n½ tsp kosher salt\n120 g dark chocolate\n3 large eggs\n175 g granulated sugar\nZest of 1 large orange\nOptional: ¼ tsp orange extract\n1 tsp vanilla extract\nOrange glaze (see recipe below)		biscotti
 1133	Orange Glaze	\N	150 g  powdered sugar, sifted\nAs needed freshly squeezed orange juice\nOptional: orange food coloring		biscotti
 1134	Pistachio Cranberry Biscotti	\N	As needed nonstick spray\n250 g all-purpose flour\n1 tsp baking powder\n¼ tsp baking soda\n½ tsp kosher salt\n80 g pistachios, skin-off + roasted\n60 g dried cranberries\n3 large eggs\n175 g granulated sugar\n1 tsp vanilla extract\n12 oz white chocolate, melted		biscotti
+1135	Sous Vide Pork Belly	\N	1 ½ Cup water, divided\n1 dried ancho chile, stem and seeds removed\n⅓ Cup ice cubes\nJuice of 1 orange\nJuice of 2 limes\n5 cloves garlic, crushed\n3 dried bay leaves\n2 Mexican cinnamon sticks\n1 Tbsp Mexican oregano\n1 Tbsp black peppercorns\n1 Tbsp (packed)  brown sugar\n2 Tbsp soy sauce\n2 Tbsp mirin\n2 Tbsp kosher salt\n½ pork belly (about 4-5 lbs), skin removed\nGarlic Chili Sauce (see recipe below)\nCarrot Puree (see recipe below)\nSalsa Verde (see recipe below)\nPickled Radish (see recipe below)\nTo garnish: scallions, thinly sliced		feast-from-chef
+1136	Garlic Chili Sauce	\N	⅓ Cup gochujang\n¼ Cup soy sauce\n¼ Cup honey\n3 Tbsp brown sugar\n4 garlic cloves, minced\n1 Tbsp freshly grated ginger\nTo taste kosher salt\nTo taste freshly ground black pepper		feast-from-chef
+1137	Carrot Puree	\N	1 small head garlic\n1 tsp neutral oil\n1 ½ Cups water\n1 lb heirloom carrots, peeled + sliced\n1 tsp kosher salt + more to taste\n¼ tsp ground cumin\n1 Tbsp (packed) brown sugar\n1 Tbsp freshly squeezed lemon juice\n1 Tbsp olive oil\nTo taste freshly ground black pepper		feast-from-chef
+1138	Salsa Verde	\N	6 tomatillos, peeled + halved\n1 small white onion, quartered\n3 cloves garlic\n2 serrano peppers, stem removed + halved\n3 Tbsp vegetable oil, divided\nJuice of 1 lime\n⅓ Cup cilantro leaves\nTo taste kosher salt		feast-from-chef
+1139	Pickled Radish	\N	6-8 radishes, thinly sliced\n1 tsp yellow mustard seeds\nOptional: ¼ tsp red pepper flakes\n½ Cup water\n¼ Cup granulated sugar\n¼ Cup white vinegar\n½ tsp kosher salt		feast-from-chef
+1140	Korean Octopus Stir Fry	\N	1 lb baby octopus, cleaned\n3 garlic cloves, minced\n2 tsp ginger, minced\n2 Tbsp gochujang\n1 Tbsp gochugaru\n½ tsp freshly ground black pepper\n1 ½ Tbsp soy sauce\n1 Tbsp granulated sugar\n1 Tbsp sesame oil + more to finish\n2 Tbsp neutral oil\n½ white onion, sliced\n½ green cabbage, sliced\n1 green chili (spicy or mild), sliced\n5 green onions, chopped + more to garnish\n1 tsp white sesame seeds		feast-from-chef
+1141	Dry Aged Ribeye Steak	\N	As needed kosher salt\nAs needed freshly ground black pepper\n1 Tbsp neutral oil\n3 Tbsp unsalted butter, cubed\n4-5 thyme sprigs\n2 cloves garlic\n1 lemon, halved\nCilantro, whole leaves\nSalmon roe\nCreme fraiche		feast-from-chef
+1142	Sumac Charred Cauliflower	\N	½ head cauliflower\nAs need neutral oil\nTo taste kosher salt\nTo taste freshly ground black pepper\n½ tsp sumac		feast-from-chef
+1143	Butter Roasted Fingerling Potatoes	\N	1 lb fingerling potatoes, washed\n1 Tbsp white vinegar\n3 Tbsp unsalted butter, melted\nTo taste kosher salt\nTo taste freshly ground black pepper		feast-from-chef
+1144	Grilled Lime Corn	\N	2 ears corn, shucked\nAs needed neutral oi\nTo taste kosher salt\nTo taste freshly ground black pepper\nJuice of 1 lime		feast-from-chef
+1145	Lemon Squash Salad	\N	2 green zucchini\n3-4 fresh lemon verbena leaves\nTo taste kosher salt\nTo taste freshly ground black pepper\nFresh lemon verbena		feast-from-chef
+1146	Macerated Berries	\N	1 pint blueberries, washed\n1 pint blackberries, washed\n1 pint raspberries, washed\n¼ Cup granulated sugar\n¼ Cup fresh mint, thinly sliced\nWhipped Cream (see recipe below)\nCaramel Dust (see recipe below)		feast-from-chef
+1147	Whipped Cream	\N	½ Cup good quality heavy cream, cold\n2 Tbsp powdered sugar\n1 tsp vanilla paste (or ½ tsp vanilla extract)		feast-from-chef
+1148	Caramel Dust	\N	1 Cup white granulated sugar\n1 Tbsp corn syrup		feast-from-chef
+1149	Breakfast Grits	\N	2 Cups water\n½ tsp kosher salt + more to taste\n½ Cup stone ground white grits\n1 large dollop pork lard\n2 eggs\n3 strips of bacon\nTo garnish: 2 Tbsp unsalted butter		grits-breakfast-my-cousin-vinny
+1150	Cheese Grits	\N	1 Cup chicken stock\n1 Cup whole milk\n½ tsp kosher salt + more to taste\n½ Cup stone ground white grits\n2 Tbsp unsalted butter\n1 Cup sharp cheddar, shredded\n¼ Cup parmesan cheese, grated\nTo taste freshly ground black pepper		grits-breakfast-my-cousin-vinny
+1151	Shrimp and Grits	\N	1 lb fresh shrimp, shell on\n½ tsp kosher salt + more to taste\n¼ tsp freshly ground black pepper + more to taste\n¼ tsp smoked paprika\n¼ tsp dried oregano\n¼ tsp garlic powder\n⅛ tsp cayenne pepper\n1 Tbsp neutral oil\n2 Cups water\n1 tsp black peppercorns\n1 bay leaf\n4 slices thick-cut bacon\n1 small green bell pepper, diced\n½ yellow onion, diced\n1 green onion, thinly sliced\n2 cloves garlic, minced\n½ Tbsp lemon juice, freshly squeezed\n¼ tsp Tabasco sauce (or more to taste)\n2 Tbsp unsalted butter\nCheese Grits (see recipe above)\nTo garnish: parsley, chopped		grits-breakfast-my-cousin-vinny
+1152	Sweet Grits	\N	2 Cups whole milk\n½ tsp kosher salt\n½ Cup stone ground white grits\n1 cinnamon stick\n1 Tbsp (packed) brown sugar\n2 Tbsp unsalted butter\n1 Tbsp honey\nSpoonful of jam (mixed berry, apricot, strawberry, ect.)\nNuts of choice		grits-breakfast-my-cousin-vinny
+1153	Dalgona Candy	\N	2 Tbsp granulated sugar\n⅛ tsp baking soda		dalgona-squid-games
+1154	Dalgona Coffee	\N	2 Tbsp instant coffee\n2 Tbsp granulated sugar\n2 Tbsp boiling water\nAs needed ice\nAs needed milk (of choice)		dalgona-squid-games
+1155	Root Beer-Braised Short Ribs	\N	5-6 bone-in short ribs\nAs needed kosher salt\nAs needed freshly ground black pepper\n1 Tbsp vegetable oil\n1 large yellow onion, chopped\n3 medium carrots, peeled + chopped\n2 celery stalks, chopped\n3 Tbsp tomato paste\n4 cloves garlic, crushed\n¼ Cup soy sauce\n1 ½ Cups root beer\n3-4 Cup chicken stock\n5-6 sprigs fresh thyme\n3 stems parsley (leaves included)		root-beer-noodles-the-simpsons
+1156	Cheeto Pasta Dough	\N	5 ½ oz all-purpose flour\n1 ½ oz masa\n½ oz cheddar cheese powder\n⅛ tsp MSG\n5 oz eggs		root-beer-noodles-the-simpsons
+1157	Cheeto Root Beer Noodles	\N	As needed water\n1 Tbsp kosher salt\n1 Cup reserved braising liquid\nBraised Short Ribs\nCheeto Pasta\n2 Tbsp unsalted butter\n1 cheeto, grated		root-beer-noodles-the-simpsons
+1158	Hot Crust Pastry	\N	~2 lbs lamb fat, chopped\n280 g water\n500 g all-purpose flour + more for dusting\n½ tsp kosher salt		meat-pies-sweeny-todd
+1159	Meat Pie Filling	\N	~2 lb chuck roast, trimmed + cut into 1-inch cubes\n½ white onion, diced\n2 tsp fresh thyme leaves\nTo taste kosher salt\nTo taste freshly ground black pepper		meat-pies-sweeny-todd
+1160	Meat Pie	\N	As needed all-purpose flour\nReserved Hot Crust Pastry (see recipe above)\nReserved Meat Pie Filling (see recipe above)\n1 egg, beaten		meat-pies-sweeny-todd
+1161	Pinsa	\N	425 g bread flour\n50 g white rice flour + more for dusting\n25 g soy flour\n400 g water, cold\n5 g instant yeast\n10 g kosher salt\n10 g extra virgin olive oil + more for greasing\nToppings of choice		protein-pizza
+1162	Swedish Meatballs	\N	4 Tbsp unsalted butter, divided\n½ yellow onion, grated\n½ Cup whole milk\n½ Cup plain breadcrumbs\n1 tsp kosher salt\n½ tsp white pepper\nOptional: ⅛ tsp ground allspice\n1 lb lean ground beef (8 oz lean ground beef + 8 oz ground pork)\n1 large egg		swedish-meatballs
+1163	Cream Sauce	\N	2 Tbsp all-purpose flour\n1 Cup beef stock, preferably homemade\n¼ Cup heavy cream\nOptional: 1 tsp soy sauce\nTo taste kosher salt\nTo taste ground white pepper\nOptional: ⅛ tsp ground allspice		swedish-meatballs
+1164	Pressed Cucumbers (Pressgurka)	\N	1 English cucumber\n2 Tbsp white sugar\n4 Tbsp white vinegar\nTo taste kosher salt\nTo taste freshly ground black pepper\n1 Tbsp fresh parsley, chopped\n1 Tbsp fresh dill, chopped		swedish-meatballs
+1165	Mashed Potatoes	\N	3 lb russet potatoes\n1 Tbsp kosher salt + more to taste\n1 ¼ Cups whole milk\n1 stick unsalted butter\nTo taste ground white pepper\nTo taste freshly grated nutmeg		swedish-meatballs
+1166	Berry Sauce	\N	2 Cups frozen lingonberries or cranberries\n½ Cup water\n½ Cup granulated sugar		swedish-meatballs
+1167	Mulled Wine (Glögg)	\N	2 cloves\n1  cinnamon stick\n5 green cardamom pods, crushed\n1 bottle dry red wine, full-bodied\n1 orange, peel + juice\n⅓ Cup raisins\n⅓ Cup blanched almonds, slivered\n1 Cup aquavit, port, or brandy		swedish-meatballs
+1168	Sushi Rice	\N	½ Cup rice\n¾ Cup water\n1 tsp rice wine vinegar		poke-bowls
+1169	Tuna Poke	\N	1 tsp fresh ginger, grated\n1 ½ Tbsp shoyu or soy sauce\n1 Tbsp sesame oil\n½ tsp kosher salt\n¼ tsp gochugaru or crushed red pepper flakes\n12 oz sushi-grade ahi tuna or bluefin tuna, cubed\n½ small sweet onion, sliced\n½ Cup green onion, thinly sliced (greens only)\n½ Tbsp toasted sesame seeds\n¼ Cup inamona (candlenut) or toasted macadamia nuts, chopped\nCooked sushi rice, room temperature		poke-bowls
+1170	Salmon Poke Bowl	\N	1 tsp fresh ginger, grated\n1 ½ Tbsp shoyu or soy sauce\n½ Tbsp ponzu sauce\n1 Tbsp sesame oil\n½ tsp kosher salt\n¼ tsp gochugaru or crushed red pepper flakes\n12 oz sushi grade salmon, cubed\nCooked sushi rice, room temperature\n½ Cup cucumber, sliced\n½ ripe avocado, sliced or cubed\n¼ Cup nori strips\nTenkasu (see recipe below)\nSpice mayo sauce (see recipe below)		poke-bowls
+1171	Tenkasu	\N	As needed fry oil\n2 oz cake flour\n¼ tsp kosher salt\n4 oz club soda or more as needed		poke-bowls
+1172	Spicy Mayo Sauce	\N	3 Tbsp mayonnaise, preferably kewpie\n2 tsp sriracha sauce\n¾ tsp rice wine vinegar\n¼ tsp toasted sesame oil		poke-bowls
+1173	Shrimp Poke Bowl	\N	12 oz fresh or frozen shrimp, thawed\n1 tsp fresh ginger, grated\n1 ½ Tbsp shoyu or soy sauce\n1 Tbsp sesame oil\n½ tsp kosher salt\n¼ tsp gochugaru or crushed red pepper flakes\nCooked sushi rice, room temperature\nUnagi sauce (see recipe below)\n⅓ Cup edamame, cooked + cooled\n¼ Cup green onion, thinly sliced (greens only)\n½ Cup kimchi\n1 tsp toasted sesame seeds\n¼ Cup pickled ginger		poke-bowls
+1174	Recipe credit: Just One Cookbook	\N	¼ Cup mirin\n2 ½ Tbsp sugar\n1 ½ Tbsp sake\n¼ Cup soy sauce		poke-bowls
+1175	Chocolate Cake	\N	100 g cocoa powder + more for coating\n180 g water, boiling\n210 g whole milk, cold\n190 g unsalted butter, room temperature\n450 g sugar\n3 large eggs\n1 tsp vanilla extract\n270 g all-purpose flour\n1 ½ tsp baking powder\n¾ tsp baking soda\n1 tsp kosher salt		cake-pops
+1176	Peppermint Frosting	\N	60 g unsalted butter, room temperature\n180 g powdered sugar\n30 g whole milk\n⅛ tsp peppermint extract		cake-pops
+1177	Chocolate Peppermint Cake Pops	\N	500 g dark chocolate, chopped\nChocolate Cake, crumbled (see recipe above)\nPeppermint Frosting (see recipe above)\nFood-safe decorative popsicle sticks\nAs needed peppermint candy, crushed		cake-pops
+1178	Vanilla Cake	\N	215 g unsalted butter, room temperature\n415 g granulated sugar\n4 large eggs, room temperature\n2 ½ Tbsp vanilla paste\n350 g all-purpose flour\n2 ½ tsp baking powder\n1 tsp kosher salt\n300 ml buttermilk, room temperature		cake-pops
+1179	Pumpkin Spice Cream Cheese Icing	\N	60 g unsalted butter, room temperature\n120 g cream cheese, room temperature\n120 g powdered sugar\n1 tsp ground cinnamon\n½ tsp ground ginger\n¼ tsp ground nutmeg\n⅛ tsp ground allspice\n⅛ tsp ground cloves		cake-pops
+1180	Pumpkin Spice Cake Pops	\N	Vanilla Cake, crumbled (see recipe above)\nPumpkin Spice Cream Cheese Icing (see recipe above)\n500 g white chocolate, melted\nFood-safe decorative popsicle sticks\nAs needed orange food coloring\nAs needed green food coloring		cake-pops
+1181	Vanilla Frosting	\N	60 g unsalted butter, room temperature\n180 g powdered sugar\n30 g whole milk\n1 tsp vanilla paste or ½ tsp vanilla extract\n2 Tbsp rainbow sprinkles		cake-pops
+1182	Cookie Crumbles	\N	100 g sugar\n25 g brown sugar\n90 g cake flour\n½ tsp baking powder\n½ tsp kosher salt\n20 g rainbow sprinkles\n40 g vegetable oil\n1 Tbsp vanilla extract		cake-pops
+1183	Birthday Cake Pops	\N	Vanilla Cake, crumbled (see recipe above)\nVanilla Frosting (see recipe above)\n200 g white chocolate, melted\nCookie Crumbles (see recipe above)\nFood-safe decorative popsicle sticks		cake-pops
+1184	Pressed Apple Cider	\N	10-12 apples (Gala, Cortland, and/or Macintosh apples)		apple-cider-donuts
+1185	Homemade Spiced Apple Cider	\N	10-12 apples (Gala, Cortland, and/or Macintosh apples)\n½  large orange\n3 cinnamon sticks\n4 cloves\n4-5 allspice berries\n6 green cardamom pods\n1-inch fresh ginger, sliced\n½ whole nutmeg, crushed\nOptional: 50-100 g brown sugar		apple-cider-donuts
+1186	Apple Cider Donuts	\N	480 g pressed apple cider\n570 g all-purpose flour + more for dusting\n1 ½ tsp kosher salt\n2 tsp baking powder\n¾ tsp baking soda\n2 tsp ground cinnamon\n½ tsp ground nutmeg\n170 g buttermilk, room temperature\n1 Tbsp vanilla paste or 1 tsp vanilla extract\n125 g  granulated sugar\n75 g brown sugar\n75 g unsalted butter, room temperature\n2 large eggs, room temperature\nAs needed fry oil		apple-cider-donuts
+1187	Cinnamon Sugar Topping	\N	200 g granulated sugar\n1 Tbsp ground cinnamon		apple-cider-donuts
 \.
 
 
@@ -2470,6 +2538,9 @@ COPY public.reference (id, type, name, description, external_link, image_link) F
 551	\N	The Sims	\N	\N	\N
 552	\N	I Think You Should Leave	\N	\N	\N
 553	\N	Genshin Impact	\N	\N	\N
+554	\N	My Cousin Vinny	\N	\N	\N
+555	\N	Squid Games	\N	\N	\N
+556	\N	Sweeny Todd	\N	\N	\N
 \.
 
 
@@ -2496,14 +2567,14 @@ SELECT pg_catalog.setval('public.guest_id_seq', 34, true);
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 1134, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 1187, true);
 
 
 --
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 553, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 556, true);
 
 
 --
