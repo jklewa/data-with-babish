@@ -1,5 +1,719 @@
 [
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/lunches-the-breakfast-club",
+    "episode_id": "lunches-the-breakfast-club",
+    "name": "Lunches inspired by The Breakfast Club",
+    "published_date": "2021-11-19",
+    "youtube_link": "https://www.youtube.com/watch?v=PzZ7K0qJvTQ",
+    "official_link": "https://www.bingingwithbabish.com/recipes/lunches-the-breakfast-club",
+    "image_link": "https://img.youtube.com/vi/PzZ7K0qJvTQ/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/557",
+          "reference_id": 557,
+          "type": null,
+          "name": "The Breakfast Club",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1196",
+          "recipe_id": 1196,
+          "name": "Allison\u2019s Lunch",
+          "image_link": null,
+          "raw_ingredient_list": "1 slice white bread\n2 Tbsp unsalted butter\n1 slice wheat bread\n5 pixie sticks or 2 Tbsp granulated sugar\n1 Cup captain crunch cereal\n1 small coke",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "Slice White Bread",
+              "1 slice white bread"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "2 Tbsp unsalted butter"
+            ],
+            [
+              1.0,
+              null,
+              "Slice Wheat Bread",
+              "1 slice wheat bread"
+            ],
+            [
+              5.0,
+              null,
+              "Pixie Sticks Or 2 Tbsp Granulated Sugar",
+              "5 pixie sticks or 2 Tbsp granulated sugar"
+            ],
+            [
+              1.0,
+              null,
+              "Cup Captain Crunch Cereal",
+              "1 Cup captain crunch cereal"
+            ],
+            [
+              1.0,
+              "small",
+              "Coke",
+              "1 small coke"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1193",
+          "recipe_id": 1193,
+          "name": "Andrew\u2019s Lunch",
+          "image_link": null,
+          "raw_ingredient_list": "6 slices white bread\n2 Tbsp mayonnaise\n2 Tbsp mustard\n\u00bd lb deli turkey\n3 pieces romaine or butter lettuce\n6 slices american cheese\n1 apple\n1 banana\n1 quart whole milk\n1 family size bag potato chips\n1 bag Matt\u2019s chocolate chip cookies\n1 small coke",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              6.0,
+              null,
+              "Slices White Bread",
+              "6 slices white bread"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Mayonnaise",
+              "2 Tbsp mayonnaise"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Mustard",
+              "2 Tbsp mustard"
+            ],
+            [
+              0.5,
+              "lb",
+              "Deli Turkey",
+              "\u00bd lb deli turkey"
+            ],
+            [
+              3.0,
+              null,
+              "Pieces Romaine Or Butter Lettuce",
+              "3 pieces romaine or butter lettuce"
+            ],
+            [
+              6.0,
+              null,
+              "Slices American Cheese",
+              "6 slices american cheese"
+            ],
+            [
+              1.0,
+              null,
+              "Apple",
+              "1 apple"
+            ],
+            [
+              1.0,
+              null,
+              "Banana",
+              "1 banana"
+            ],
+            [
+              1.0,
+              null,
+              "Quart Milk",
+              "1 quart whole milk"
+            ],
+            [
+              1.0,
+              null,
+              "Family Size Bag Potato Chips",
+              "1 family size bag potato chips"
+            ],
+            [
+              1.0,
+              null,
+              "Bag Matt's Chocolate Chip Cookies",
+              "1 bag Matt\u2019s chocolate chip cookies"
+            ],
+            [
+              1.0,
+              "small",
+              "Coke",
+              "1 small coke"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1194",
+          "recipe_id": 1194,
+          "name": "Brian\u2019s Lunch : (apple juice, PB&J with crust cut off, soup)",
+          "image_link": null,
+          "raw_ingredient_list": "2 slices white bread\n\u00bc Cup peanut butter\n\u00bc Cup grape jelly\nMinestrone Soup (see recipe below)\n1 apple juice box\n1 coke",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              null,
+              "Slices White Bread",
+              "2 slices white bread"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Peanut Butter",
+              "\u00bc Cup peanut butter"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Grape Jelly",
+              "\u00bc Cup grape jelly"
+            ],
+            [
+              null,
+              null,
+              "Minestrone Soup",
+              "Minestrone Soup (see recipe below)"
+            ],
+            [
+              1.0,
+              null,
+              "Apple Juice Box",
+              "1 apple juice box"
+            ],
+            [
+              1.0,
+              null,
+              "Coke",
+              "1 coke"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1197",
+          "recipe_id": 1197,
+          "name": "Cereal French Toast",
+          "image_link": null,
+          "raw_ingredient_list": "4 slices white bread\n4 slices wheat bread\n3 large eggs\n1 Cup whole milk\n1 Tbsp vanilla paste\n\u00bd tsp cinnamon\n\u00bd tsp kosher salt\n\u00bc tsp freshly grated nutmeg\n3 Tbsp granulated sugar\n2 Cup captain crunch cereal, ground\n2 Tbsp unsalted butter + more for serving\nAs needed maple syrup",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              4.0,
+              null,
+              "Slices White Bread",
+              "4 slices white bread"
+            ],
+            [
+              4.0,
+              null,
+              "Slices Wheat Bread",
+              "4 slices wheat bread"
+            ],
+            [
+              3.0,
+              "large",
+              "Eggs",
+              "3 large eggs"
+            ],
+            [
+              1.0,
+              null,
+              "Cup Milk",
+              "1 Cup whole milk"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Vanilla Paste",
+              "1 Tbsp vanilla paste"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Cinnamon",
+              "\u00bd tsp cinnamon"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Kosher Salt",
+              "\u00bd tsp kosher salt"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Freshly Grated Nutmeg",
+              "\u00bc tsp freshly grated nutmeg"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Granulated Sugar",
+              "3 Tbsp granulated sugar"
+            ],
+            [
+              2.0,
+              null,
+              "Cup Captain Crunch Cereal",
+              "2 Cup captain crunch cereal, ground"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Unsalted Butter + More For Serving",
+              "2 Tbsp unsalted butter + more for serving"
+            ],
+            [
+              null,
+              null,
+              "As Needed Maple Syrup",
+              "As needed maple syrup"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1192",
+          "recipe_id": 1192,
+          "name": "Claire\u2019s Lunch",
+          "image_link": null,
+          "raw_ingredient_list": "1 Cup sushi rice, rinsed\n1 \u00bd Cups water\n1 \u00bd tsp sushi vinegar (seasoned rice vinegar)\n2 sheets sushi nori\n\u00bc lb sushi-grade lean tuna, sliced\n\u00bc lb sushi-grade salmon, sliced\n\u00bd rice avocado, sliced\n1 tsp wasabi paste\nAs needed soy sauce\n1 small coke",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "Cup Sushi Rice",
+              "1 Cup sushi rice, rinsed"
+            ],
+            [
+              1.5,
+              null,
+              "Cups Water",
+              "1 \u00bd Cups water"
+            ],
+            [
+              1.5,
+              "teaspoon",
+              "Sushi Vinegar",
+              "1 \u00bd tsp sushi vinegar (seasoned rice vinegar)"
+            ],
+            [
+              2.0,
+              null,
+              "Sheets Sushi Nori",
+              "2 sheets sushi nori"
+            ],
+            [
+              0.25,
+              "lb",
+              "Sushi-grade Lean Tuna",
+              "\u00bc lb sushi-grade lean tuna, sliced"
+            ],
+            [
+              0.25,
+              "lb",
+              "Sushi-grade Salmon",
+              "\u00bc lb sushi-grade salmon, sliced"
+            ],
+            [
+              0.5,
+              null,
+              "Rice Avocado",
+              "\u00bd rice avocado, sliced"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Wasabi Paste",
+              "1 tsp wasabi paste"
+            ],
+            [
+              null,
+              null,
+              "As Needed Soy Sauce",
+              "As needed soy sauce"
+            ],
+            [
+              1.0,
+              "small",
+              "Coke",
+              "1 small coke"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1195",
+          "recipe_id": 1195,
+          "name": "Minestrone Soup",
+          "image_link": null,
+          "raw_ingredient_list": "As needed neutral oil\n1 yellow onion, diced\n1 large carrot, diced\n2 celery ribs, thinly sliced\n3 garlic cloves, minced\n6 Cups chicken stock, preferably homemade\n1 (28 oz) can crushed tomatoes\n1 Cup green cabbaged, chopped\n1 (15 oz) can cannellini beans, drained + rinsed\n1 small zucchini, diced\n1 Tbsp fresh parsley, chopped\n1 Tbsp fresh basil, chopped\n2 tsp fresh oregano, chopped\nOptional: 1 parmesan rind\nTo taste kosher salt\nTo taste freshly ground black pepper\n\u2154 Cup ditalini pasta",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              null,
+              null,
+              "As Needed Neutral Oil",
+              "As needed neutral oil"
+            ],
+            [
+              1.0,
+              null,
+              "Yellow Onion",
+              "1 yellow onion, diced"
+            ],
+            [
+              1.0,
+              "large",
+              "Carrot",
+              "1 large carrot, diced"
+            ],
+            [
+              2.0,
+              null,
+              "Celery Ribs",
+              "2 celery ribs, thinly sliced"
+            ],
+            [
+              3.0,
+              null,
+              "Garlic Cloves",
+              "3 garlic cloves, minced"
+            ],
+            [
+              6.0,
+              null,
+              "Cups Chicken Stock",
+              "6 Cups chicken stock, preferably homemade"
+            ],
+            [
+              1.0,
+              null,
+              "Can Crushed Tomatoes",
+              "1 (28 oz) can crushed tomatoes"
+            ],
+            [
+              1.0,
+              null,
+              "Cup Green Cabbaged",
+              "1 Cup green cabbaged, chopped"
+            ],
+            [
+              1.0,
+              null,
+              "Can Cannellini Beans",
+              "1 (15 oz) can cannellini beans, drained + rinsed"
+            ],
+            [
+              1.0,
+              "small",
+              "Zucchini",
+              "1 small zucchini, diced"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Fresh Parsley",
+              "1 Tbsp fresh parsley, chopped"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Fresh Basil",
+              "1 Tbsp fresh basil, chopped"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Fresh Oregano",
+              "2 tsp fresh oregano, chopped"
+            ],
+            [
+              null,
+              null,
+              "Optional: 1 Parmesan Rind",
+              "Optional: 1 parmesan rind"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ],
+            [
+              0.6666666666666666,
+              null,
+              "Cup Ditalini Pasta",
+              "\u2154 Cup ditalini pasta"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/sweet-potato-casserole-friends",
+    "episode_id": "sweet-potato-casserole-friends",
+    "name": "Sweet Potato Casserole inspired by Friends",
+    "published_date": "2021-11-16",
+    "youtube_link": "https://www.youtube.com/watch?v=yr6ts2AH04g",
+    "official_link": "https://www.bingingwithbabish.com/recipes/sweet-potato-casserole-friends",
+    "image_link": "https://img.youtube.com/vi/yr6ts2AH04g/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/78",
+          "reference_id": 78,
+          "type": "tv_show",
+          "name": "Friends",
+          "description": "Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan. IMDb.",
+          "external_link": "https://www.imdb.com/title/tt0108778/",
+          "image_link": "https://i.ytimg.com/sh/SnTDhFDmcbB3lkFWrIi8MA/market.jpg"
+        }
+      ],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1189",
+          "recipe_id": 1189,
+          "name": "Babish Sweet Potato Casserole",
+          "image_link": null,
+          "raw_ingredient_list": "~4 lbs potatoes, peeled + cut into 1\u201d cubed\n2 cinnamon sticks\n5 oz unsalted butter, cubed + more for greasing\n3 egg large yolks\n4\u00bd oz light brown sugar\n2 oz maple syrup\n4 oz creme fraiche\n1\u00bd tsp kosher salt\n\u00bd tsp ground cinnamon\n\u00bc tsp freshly grated nutmeg\n2 tsp vanilla paste\nPecan Streusel (see recipe below)\nMarshmallow Topping (see recipe below)",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              null,
+              null,
+              "~4 Lbs Potatoes",
+              "~4 lbs potatoes, peeled + cut into 1\u201d cubed"
+            ],
+            [
+              2.0,
+              null,
+              "Cinnamon Sticks",
+              "2 cinnamon sticks"
+            ],
+            [
+              5.0,
+              "ounce",
+              "Unsalted Butter",
+              "5 oz unsalted butter, cubed + more for greasing"
+            ],
+            [
+              3.0,
+              null,
+              "Egg Large Yolks",
+              "3 egg large yolks"
+            ],
+            [
+              4.5,
+              "ounce",
+              "Light Brown Sugar",
+              "4\u00bd oz light brown sugar"
+            ],
+            [
+              2.0,
+              "ounce",
+              "Maple Syrup",
+              "2 oz maple syrup"
+            ],
+            [
+              4.0,
+              "ounce",
+              "Creme Fraiche",
+              "4 oz creme fraiche"
+            ],
+            [
+              1.5,
+              "teaspoon",
+              "Kosher Salt",
+              "1\u00bd tsp kosher salt"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Ground Cinnamon",
+              "\u00bd tsp ground cinnamon"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Freshly Grated Nutmeg",
+              "\u00bc tsp freshly grated nutmeg"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Vanilla Paste",
+              "2 tsp vanilla paste"
+            ],
+            [
+              null,
+              null,
+              "Pecan Streusel",
+              "Pecan Streusel (see recipe below)"
+            ],
+            [
+              null,
+              null,
+              "Marshmallow Topping",
+              "Marshmallow Topping (see recipe below)"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1191",
+          "recipe_id": 1191,
+          "name": "Marshmallow Topping",
+          "image_link": null,
+          "raw_ingredient_list": "\u00bd oz powdered gelatin (2 envelopes)\n7 oz water, cold + divided\n2 oz + \u00bd oz The Singleton Whisky, divided\n6 oz granulated sugar\n1 oz light corn syrup",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              0.5,
+              "ounce",
+              "Powdered Gelatin",
+              "\u00bd oz powdered gelatin (2 envelopes)"
+            ],
+            [
+              7.0,
+              "ounce",
+              "Water",
+              "7 oz water, cold + divided"
+            ],
+            [
+              2.0,
+              "ounce",
+              "+ \u00bd Oz The Singleton Whisky",
+              "2 oz + \u00bd oz The Singleton Whisky, divided"
+            ],
+            [
+              6.0,
+              "ounce",
+              "Granulated Sugar",
+              "6 oz granulated sugar"
+            ],
+            [
+              1.0,
+              "ounce",
+              "Light Corn Syrup",
+              "1 oz light corn syrup"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1190",
+          "recipe_id": 1190,
+          "name": "Pecan Streusel",
+          "image_link": null,
+          "raw_ingredient_list": "6 oz brown sugar\n4 \u00bd oz all-purpose flour\n\u00bd tsp kosher salt\n2\u00bd oz unsalted butter, melted\n4\u00bd oz pecans, roasted + roughly chopped",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              6.0,
+              "ounce",
+              "Brown Sugar",
+              "6 oz brown sugar"
+            ],
+            [
+              4.5,
+              "ounce",
+              "All-purpose Flour",
+              "4 \u00bd oz all-purpose flour"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Kosher Salt",
+              "\u00bd tsp kosher salt"
+            ],
+            [
+              2.5,
+              "ounce",
+              "Unsalted Butter",
+              "2\u00bd oz unsalted butter, melted"
+            ],
+            [
+              4.5,
+              "ounce",
+              "Pecans",
+              "4\u00bd oz pecans, roasted + roughly chopped"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1188",
+          "recipe_id": 1188,
+          "name": "Simple Sweet Potato Casserole",
+          "image_link": null,
+          "raw_ingredient_list": "1 Tbsp + 1 \u00bd tsp kosher salt, divided\n~4 lbs sweet potatoes, peeled + cut into 1\u201d pieces\n8 oz light brown sugar\n4 oz unsalted butter, melted\n1 tsp vanilla extract\n10 oz\u00a0 mini marshmallows (about 1 bag)",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              "tablespoon",
+              "+ 1 \u00bd Tsp Kosher Salt",
+              "1 Tbsp + 1 \u00bd tsp kosher salt, divided"
+            ],
+            [
+              null,
+              null,
+              "~4 Lbs Sweet Potatoes",
+              "~4 lbs sweet potatoes, peeled + cut into 1\u201d pieces"
+            ],
+            [
+              8.0,
+              "ounce",
+              "Light Brown Sugar",
+              "8 oz light brown sugar"
+            ],
+            [
+              4.0,
+              "ounce",
+              "Unsalted Butter",
+              "4 oz unsalted butter, melted"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Vanilla Extract",
+              "1 tsp vanilla extract"
+            ],
+            [
+              10.0,
+              "ounce",
+              "Mini Marshmallows",
+              "10 oz mini marshmallows (about 1 bag)"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/episode/apple-cider-donuts",
     "episode_id": "apple-cider-donuts",
     "name": "APPLE CIDER DONUTS",

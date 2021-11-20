@@ -1570,6 +1570,15 @@
     "image_link": "https://i.ytimg.com/sh/SnTDhFDmcbB3lkFWrIi8MA/market.jpg",
     "episodes_inspired": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/sweet-potato-casserole-friends",
+        "episode_id": "sweet-potato-casserole-friends",
+        "name": "Sweet Potato Casserole inspired by Friends",
+        "published_date": "2021-11-16",
+        "youtube_link": "https://www.youtube.com/watch?v=yr6ts2AH04g",
+        "official_link": "https://www.bingingwithbabish.com/recipes/sweet-potato-casserole-friends",
+        "image_link": "https://img.youtube.com/vi/yr6ts2AH04g/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/monicas-candy-friends",
         "episode_id": "monicas-candy-friends",
         "name": "Monica's Candy inspired by Friends",
@@ -4411,6 +4420,26 @@
         "youtube_link": "https://www.youtube.com/watch?v=VnXu22HZBNQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/4/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks",
         "image_link": "https://img.youtube.com/vi/VnXu22HZBNQ/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/reference/557",
+    "reference_id": 557,
+    "type": null,
+    "name": "The Breakfast Club",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/lunches-the-breakfast-club",
+        "episode_id": "lunches-the-breakfast-club",
+        "name": "Lunches inspired by The Breakfast Club",
+        "published_date": "2021-11-19",
+        "youtube_link": "https://www.youtube.com/watch?v=PzZ7K0qJvTQ",
+        "official_link": "https://www.bingingwithbabish.com/recipes/lunches-the-breakfast-club",
+        "image_link": "https://img.youtube.com/vi/PzZ7K0qJvTQ/mqdefault.jpg"
       }
     ]
   },

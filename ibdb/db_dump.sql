@@ -505,6 +505,7 @@ lilbits-rickandmorty	Lil' Bits inspired by Rick & Morty	https://www.youtube.com/
 lotr-feast-special	LOTR 7 Million Subscriber Special inspired by Lord of the Rings	https://www.youtube.com/watch?v=-aFrFsn998o	https://www.bingingwithbabish.com/recipes/lotr-feast-special	https://img.youtube.com/vi/-aFrFsn998o/mqdefault.jpg	2020-07-13	1
 louiefriedchicken	Fried Chicken inspired by Louie	https://www.youtube.com/watch?v=7UEIBdMyj9g	https://www.bingingwithbabish.com/recipes/2016/3/16/louiefriedchicken	https://img.youtube.com/vi/7UEIBdMyj9g/mqdefault.jpg	2016-03-16	1
 loversdelightsundae	Lovers' Delight Sundae from 30 Rock	https://www.youtube.com/watch?v=iX7Dzr2whWQ	https://www.youtube.com/watch?v=iX7Dzr2whWQ	https://img.youtube.com/vi/iX7Dzr2whWQ/mqdefault.jpg	2017-02-06	1
+lunches-the-breakfast-club	Lunches inspired by The Breakfast Club	https://www.youtube.com/watch?v=PzZ7K0qJvTQ	https://www.bingingwithbabish.com/recipes/lunches-the-breakfast-club	https://img.youtube.com/vi/PzZ7K0qJvTQ/mqdefault.jpg	2021-11-19	1
 macandcheese	MAC AND CHEESE	https://www.youtube.com/watch?v=FUeyrEN14Rk	https://basicswithbabish.co/basicsepisodes/macandcheese	https://img.youtube.com/vi/FUeyrEN14Rk/mqdefault.jpg	2020-06-05	2
 macarons-the-mandalorian	Macarons inspired by The Mandalorian	https://www.youtube.com/watch?v=IGS0JouUgjM	https://www.bingingwithbabish.com/recipes/macarons-the-mandalorian	https://img.youtube.com/vi/IGS0JouUgjM/mqdefault.jpg	2020-12-01	1
 madmen	Room Service inspired by Mad Men	https://www.youtube.com/watch?v=BagY2Mnz-TU	https://www.bingingwithbabish.com/recipes/2017/6/27/madmen	https://img.youtube.com/vi/BagY2Mnz-TU/mqdefault.jpg	2017-09-26	1
@@ -636,6 +637,7 @@ sugar-chicken-rick-and-morty	Sugar Chicken inspired by Rick & Morty	https://www.
 sumbitches	Sumbitches and Peanut Butter Cookies inspired by How I Met Your Mother	https://www.youtube.com/watch?v=i9MMCCd-MSI	https://www.bingingwithbabish.com/recipes/sumbitches	https://img.youtube.com/vi/i9MMCCd-MSI/mqdefault.jpg	2019-09-04	1
 sundae-spongebob	Bad Breath Sundae inspired by SpongeBob Squarepants	https://www.youtube.com/watch?v=Ya2_Khcdwsk	https://www.bingingwithbabish.com/recipes/sundae-spongebob	https://img.youtube.com/vi/Ya2_Khcdwsk/mqdefault.jpg	2020-07-21	1
 swedish-meatballs	SWEDISH MEATBALLS	https://www.youtube.com/watch?v=bTUUNZFOflw	https://basicswithbabish.co/basicsepisodes/swedish-meatballs	https://img.youtube.com/vi/bTUUNZFOflw/mqdefault.jpg	2021-10-08	2
+sweet-potato-casserole-friends	Sweet Potato Casserole inspired by Friends	https://www.youtube.com/watch?v=yr6ts2AH04g	https://www.bingingwithbabish.com/recipes/sweet-potato-casserole-friends	https://img.youtube.com/vi/yr6ts2AH04g/mqdefault.jpg	2021-11-16	1
 sweetrolls-skyrim	Sweetrolls inspired by Skyrim	https://www.youtube.com/watch?v=98R3fgPKmYs	https://www.bingingwithbabish.com/recipes/sweetrolls-skyrim	https://img.youtube.com/vi/98R3fgPKmYs/mqdefault.jpg	2020-06-18	1
 szechuansauce	Rick & Morty Szechuan Sauce	https://www.youtube.com/watch?v=wBhhlE92mIQ	https://www.bingingwithbabish.com/recipes/2017/6/27/szechuansauce	https://img.youtube.com/vi/wBhhlE92mIQ/mqdefault.jpg	2017-04-04	1
 szechuansaucerevisited	Szechuan Sauce Revisited (From Real Sample!)	https://www.youtube.com/watch?v=lhc_bXGvmp0	https://www.bingingwithbabish.com/recipes/2017/8/29/szechuansaucerevisited	https://img.youtube.com/vi/lhc_bXGvmp0/mqdefault.jpg	2017-09-12	1
@@ -876,6 +878,7 @@ lilbits-rickandmorty	302
 lotr-feast-special	308
 louiefriedchicken	110
 loversdelightsundae	50
+lunches-the-breakfast-club	557
 macarons-the-mandalorian	140
 madmen	68
 maisel-brisket	298
@@ -972,6 +975,7 @@ sugar-chicken-rick-and-morty	302
 sumbitches	124
 sumbitches	269
 sundae-spongebob	310
+sweet-potato-casserole-friends	78
 sweetrolls-skyrim	306
 szechuansauce	83
 szechuansaucerevisited	83
@@ -2299,6 +2303,16 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 1185	Homemade Spiced Apple Cider	\N	10-12 apples (Gala, Cortland, and/or Macintosh apples)\n½  large orange\n3 cinnamon sticks\n4 cloves\n4-5 allspice berries\n6 green cardamom pods\n1-inch fresh ginger, sliced\n½ whole nutmeg, crushed\nOptional: 50-100 g brown sugar		apple-cider-donuts
 1186	Apple Cider Donuts	\N	480 g pressed apple cider\n570 g all-purpose flour + more for dusting\n1 ½ tsp kosher salt\n2 tsp baking powder\n¾ tsp baking soda\n2 tsp ground cinnamon\n½ tsp ground nutmeg\n170 g buttermilk, room temperature\n1 Tbsp vanilla paste or 1 tsp vanilla extract\n125 g  granulated sugar\n75 g brown sugar\n75 g unsalted butter, room temperature\n2 large eggs, room temperature\nAs needed fry oil		apple-cider-donuts
 1187	Cinnamon Sugar Topping	\N	200 g granulated sugar\n1 Tbsp ground cinnamon		apple-cider-donuts
+1188	Simple Sweet Potato Casserole	\N	1 Tbsp + 1 ½ tsp kosher salt, divided\n~4 lbs sweet potatoes, peeled + cut into 1” pieces\n8 oz light brown sugar\n4 oz unsalted butter, melted\n1 tsp vanilla extract\n10 oz  mini marshmallows (about 1 bag)		sweet-potato-casserole-friends
+1189	Babish Sweet Potato Casserole	\N	~4 lbs potatoes, peeled + cut into 1” cubed\n2 cinnamon sticks\n5 oz unsalted butter, cubed + more for greasing\n3 egg large yolks\n4½ oz light brown sugar\n2 oz maple syrup\n4 oz creme fraiche\n1½ tsp kosher salt\n½ tsp ground cinnamon\n¼ tsp freshly grated nutmeg\n2 tsp vanilla paste\nPecan Streusel (see recipe below)\nMarshmallow Topping (see recipe below)		sweet-potato-casserole-friends
+1190	Pecan Streusel	\N	6 oz brown sugar\n4 ½ oz all-purpose flour\n½ tsp kosher salt\n2½ oz unsalted butter, melted\n4½ oz pecans, roasted + roughly chopped		sweet-potato-casserole-friends
+1191	Marshmallow Topping	\N	½ oz powdered gelatin (2 envelopes)\n7 oz water, cold + divided\n2 oz + ½ oz The Singleton Whisky, divided\n6 oz granulated sugar\n1 oz light corn syrup		sweet-potato-casserole-friends
+1192	Claire’s Lunch	\N	1 Cup sushi rice, rinsed\n1 ½ Cups water\n1 ½ tsp sushi vinegar (seasoned rice vinegar)\n2 sheets sushi nori\n¼ lb sushi-grade lean tuna, sliced\n¼ lb sushi-grade salmon, sliced\n½ rice avocado, sliced\n1 tsp wasabi paste\nAs needed soy sauce\n1 small coke		lunches-the-breakfast-club
+1193	Andrew’s Lunch	\N	6 slices white bread\n2 Tbsp mayonnaise\n2 Tbsp mustard\n½ lb deli turkey\n3 pieces romaine or butter lettuce\n6 slices american cheese\n1 apple\n1 banana\n1 quart whole milk\n1 family size bag potato chips\n1 bag Matt’s chocolate chip cookies\n1 small coke		lunches-the-breakfast-club
+1194	Brian’s Lunch : (apple juice, PB&J with crust cut off, soup)	\N	2 slices white bread\n¼ Cup peanut butter\n¼ Cup grape jelly\nMinestrone Soup (see recipe below)\n1 apple juice box\n1 coke		lunches-the-breakfast-club
+1195	Minestrone Soup	\N	As needed neutral oil\n1 yellow onion, diced\n1 large carrot, diced\n2 celery ribs, thinly sliced\n3 garlic cloves, minced\n6 Cups chicken stock, preferably homemade\n1 (28 oz) can crushed tomatoes\n1 Cup green cabbaged, chopped\n1 (15 oz) can cannellini beans, drained + rinsed\n1 small zucchini, diced\n1 Tbsp fresh parsley, chopped\n1 Tbsp fresh basil, chopped\n2 tsp fresh oregano, chopped\nOptional: 1 parmesan rind\nTo taste kosher salt\nTo taste freshly ground black pepper\n⅔ Cup ditalini pasta		lunches-the-breakfast-club
+1196	Allison’s Lunch	\N	1 slice white bread\n2 Tbsp unsalted butter\n1 slice wheat bread\n5 pixie sticks or 2 Tbsp granulated sugar\n1 Cup captain crunch cereal\n1 small coke		lunches-the-breakfast-club
+1197	Cereal French Toast	\N	4 slices white bread\n4 slices wheat bread\n3 large eggs\n1 Cup whole milk\n1 Tbsp vanilla paste\n½ tsp cinnamon\n½ tsp kosher salt\n¼ tsp freshly grated nutmeg\n3 Tbsp granulated sugar\n2 Cup captain crunch cereal, ground\n2 Tbsp unsalted butter + more for serving\nAs needed maple syrup		lunches-the-breakfast-club
 \.
 
 
@@ -2541,6 +2555,7 @@ COPY public.reference (id, type, name, description, external_link, image_link) F
 554	\N	My Cousin Vinny	\N	\N	\N
 555	\N	Squid Games	\N	\N	\N
 556	\N	Sweeny Todd	\N	\N	\N
+557	\N	The Breakfast Club	\N	\N	\N
 \.
 
 
@@ -2567,14 +2582,14 @@ SELECT pg_catalog.setval('public.guest_id_seq', 34, true);
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 1187, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 1197, true);
 
 
 --
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 556, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 557, true);
 
 
 --
