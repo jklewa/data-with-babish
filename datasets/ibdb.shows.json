@@ -6,6 +6,24 @@
     "image_link": null,
     "episodes": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/lunches-the-breakfast-club",
+        "episode_id": "lunches-the-breakfast-club",
+        "name": "Lunches inspired by The Breakfast Club",
+        "published_date": "2021-11-19",
+        "youtube_link": "https://www.youtube.com/watch?v=PzZ7K0qJvTQ",
+        "official_link": "https://www.bingingwithbabish.com/recipes/lunches-the-breakfast-club",
+        "image_link": "https://img.youtube.com/vi/PzZ7K0qJvTQ/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/sweet-potato-casserole-friends",
+        "episode_id": "sweet-potato-casserole-friends",
+        "name": "Sweet Potato Casserole inspired by Friends",
+        "published_date": "2021-11-16",
+        "youtube_link": "https://www.youtube.com/watch?v=yr6ts2AH04g",
+        "official_link": "https://www.bingingwithbabish.com/recipes/sweet-potato-casserole-friends",
+        "image_link": "https://img.youtube.com/vi/yr6ts2AH04g/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/meat-pies-sweeny-todd",
         "episode_id": "meat-pies-sweeny-todd",
         "name": "Meat Pies inspired by Sweeny Todd",
