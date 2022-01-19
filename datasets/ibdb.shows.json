@@ -6,6 +6,60 @@
     "image_link": null,
     "episodes": [
       {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/arepas-con-queso-encanto",
+        "episode_id": "arepas-con-queso-encanto",
+        "name": "Arepas con Queso inspired by Encanto ",
+        "published_date": "2022-01-11",
+        "youtube_link": "https://www.youtube.com/watch?v=aRWUMlLMF1c",
+        "official_link": "https://www.bingingwithbabish.com/recipes/arepas-con-queso-encanto",
+        "image_link": "https://img.youtube.com/vi/aRWUMlLMF1c/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/cocoa-krispies-oliver-and-company",
+        "episode_id": "cocoa-krispies-oliver-and-company",
+        "name": "Oeufs a la Jenny avec Cocoa Krispies inspired by Oliver & Company",
+        "published_date": "2022-01-11",
+        "youtube_link": "https://www.youtube.com/watch?v=YPsRQ6O1gjA",
+        "official_link": "https://www.bingingwithbabish.com/recipes/cocoa-krispies-oliver-and-company",
+        "image_link": "https://img.youtube.com/vi/YPsRQ6O1gjA/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/strata-family-stone",
+        "episode_id": "strata-family-stone",
+        "name": "Strata inspired by Family Stone",
+        "published_date": "2021-12-22",
+        "youtube_link": "https://www.youtube.com/watch?v=MIgykdiVPZk",
+        "official_link": "https://www.bingingwithbabish.com/recipes/strata-family-stone",
+        "image_link": "https://img.youtube.com/vi/MIgykdiVPZk/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/mayors-request-cloudy-with-a-chance-of-meatballs",
+        "episode_id": "mayors-request-cloudy-with-a-chance-of-meatballs",
+        "name": "Mayor's Request inspired by Cloudy with a Chance of Meatballs",
+        "published_date": "2021-12-20",
+        "youtube_link": "https://www.youtube.com/watch?v=dr3rMTxq3bA",
+        "official_link": "https://www.bingingwithbabish.com/recipes/mayors-request-cloudy-with-a-chance-of-meatballs",
+        "image_link": "https://img.youtube.com/vi/dr3rMTxq3bA/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/schweddy-balls-snl",
+        "episode_id": "schweddy-balls-snl",
+        "name": "Schweddy Balls inspired by Saturday Night Live",
+        "published_date": "2021-12-08",
+        "youtube_link": "https://www.youtube.com/watch?v=d3ISyzfTBAc",
+        "official_link": "https://www.bingingwithbabish.com/recipes/schweddy-balls-snl",
+        "image_link": "https://img.youtube.com/vi/d3ISyzfTBAc/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/squash-and-beef-its-always-sunny-in-philadelphia",
+        "episode_id": "squash-and-beef-its-always-sunny-in-philadelphia",
+        "name": "Squash and Beef inspired by It's Always Sunny in Philadelphia ",
+        "published_date": "2021-12-03",
+        "youtube_link": "https://www.youtube.com/watch?v=D2wxZjJl4ew",
+        "official_link": "https://www.bingingwithbabish.com/recipes/squash-and-beef-its-always-sunny-in-philadelphia",
+        "image_link": "https://img.youtube.com/vi/D2wxZjJl4ew/mqdefault.jpg"
+      },
+      {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/lunches-the-breakfast-club",
         "episode_id": "lunches-the-breakfast-club",
         "name": "Lunches inspired by The Breakfast Club",
@@ -161,7 +215,7 @@
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/trenette-el-pesto-luca",
         "episode_id": "trenette-el-pesto-luca",
-        "name": "Trenette el Pesto inspired by Luca",
+        "name": "Trenette al Pesto inspired by Luca",
         "published_date": "2021-07-07",
         "youtube_link": "https://www.youtube.com/watch?v=bWX0-NEjyNQ",
         "official_link": "https://www.bingingwithbabish.com/recipes/trenette-el-pesto-luca",
@@ -2407,6 +2461,60 @@
     "name": "Basics with Babish",
     "image_link": null,
     "episodes": [
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/jalapeno-popper-mac-and-cheese",
+        "episode_id": "jalapeno-popper-mac-and-cheese",
+        "name": "JALAPENO POPPER MAC AND CHEESE",
+        "published_date": "2022-01-14",
+        "youtube_link": "https://www.youtube.com/watch?v=GH8Vdk0aAew",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/jalapeno-popper-mac-and-cheese",
+        "image_link": "https://img.youtube.com/vi/GH8Vdk0aAew/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/date-night-2",
+        "episode_id": "date-night-2",
+        "name": "DATE NIGHT II",
+        "published_date": "2022-01-11",
+        "youtube_link": "https://www.youtube.com/watch?v=dlATzLk8Nh8",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/date-night-2",
+        "image_link": "https://img.youtube.com/vi/dlATzLk8Nh8/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/tamales",
+        "episode_id": "tamales",
+        "name": "TAMALES",
+        "published_date": "2022-01-04",
+        "youtube_link": "https://www.youtube.com/watch?v=r9IO8KCN_Rw",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/tamales",
+        "image_link": "https://img.youtube.com/vi/r9IO8KCN_Rw/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/yorkshire-pudding",
+        "episode_id": "yorkshire-pudding",
+        "name": "YORKSHIRE PUDDING AND ROAST BEEF",
+        "published_date": "2021-12-20",
+        "youtube_link": "https://www.youtube.com/watch?v=F_YNznQ35Tc",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/yorkshire-pudding",
+        "image_link": "https://img.youtube.com/vi/F_YNznQ35Tc/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/challah",
+        "episode_id": "challah",
+        "name": "CHALLAH",
+        "published_date": "2021-12-07",
+        "youtube_link": "https://www.youtube.com/watch?v=M558453kb9g",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/challah",
+        "image_link": "https://img.youtube.com/vi/M558453kb9g/mqdefault.jpg"
+      },
+      {
+        "self": "ibdb://data-with-babish.jklewa.github.com/episode/turkey-5-ways",
+        "episode_id": "turkey-5-ways",
+        "name": "TURKEY: 5-WAYS",
+        "published_date": "2021-11-30",
+        "youtube_link": "https://www.youtube.com/watch?v=dWlStZlu6bY",
+        "official_link": "https://basicswithbabish.co/basicsepisodes/turkey-5-ways",
+        "image_link": "https://img.youtube.com/vi/dWlStZlu6bY/mqdefault.jpg"
+      },
       {
         "self": "ibdb://data-with-babish.jklewa.github.com/episode/apple-cider-donuts",
         "episode_id": "apple-cider-donuts",

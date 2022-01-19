@@ -1,5 +1,3144 @@
 [
   {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/jalapeno-popper-mac-and-cheese",
+    "episode_id": "jalapeno-popper-mac-and-cheese",
+    "name": "JALAPENO POPPER MAC AND CHEESE",
+    "published_date": "2022-01-14",
+    "youtube_link": "https://www.youtube.com/watch?v=GH8Vdk0aAew",
+    "official_link": "https://basicswithbabish.co/basicsepisodes/jalapeno-popper-mac-and-cheese",
+    "image_link": "https://img.youtube.com/vi/GH8Vdk0aAew/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/2",
+        "show_id": 2,
+        "name": "Basics with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1239",
+          "recipe_id": 1239,
+          "name": "Jalapeno Popper Mac and Cheese",
+          "image_link": null,
+          "raw_ingredient_list": "8 oz frozen bacon, chopped\n14 oz water, divided\n\u00bd white onion, small diced\n2 scallions (greens + whites), finely sliced\n2 garlic cloves, minced + green germ removed\nAs needed whole milk\n12 oz dried rigatoni pasta\n3 slices American cheese\n1 tsp mustard\n\u00bc tsp cayenne\n\u00bc tsp sweet paprika\n3 oz gruyere/cheddar, grated\n2 oz cream cheese\n4 oz low-moisture mozzarella cheese, cut into small cubes\n2 oz pickled jalapenos\nTo taste kosher salt\nTo taste freshly ground black pepper\n\u00bc Cup panko bread crumbs,\n1 oz parmesan cheese, grated",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              8.0,
+              "ounce",
+              "Frozen Bacon",
+              "8 oz frozen bacon, chopped"
+            ],
+            [
+              14.0,
+              "ounce",
+              "Water",
+              "14 oz water, divided"
+            ],
+            [
+              0.5,
+              null,
+              "White Onion",
+              "\u00bd white onion, small diced"
+            ],
+            [
+              2.0,
+              null,
+              "Scallions",
+              "2 scallions (greens + whites), finely sliced"
+            ],
+            [
+              2.0,
+              null,
+              "Garlic Cloves",
+              "2 garlic cloves, minced + green germ removed"
+            ],
+            [
+              null,
+              null,
+              "As Needed Milk",
+              "As needed whole milk"
+            ],
+            [
+              12.0,
+              "ounce",
+              "Dried Rigatoni Pasta",
+              "12 oz dried rigatoni pasta"
+            ],
+            [
+              3.0,
+              null,
+              "Slices American Cheese",
+              "3 slices American cheese"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Mustard",
+              "1 tsp mustard"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Cayenne",
+              "\u00bc tsp cayenne"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Sweet Paprika",
+              "\u00bc tsp sweet paprika"
+            ],
+            [
+              3.0,
+              "ounce",
+              "Gruyere/cheddar",
+              "3 oz gruyere/cheddar, grated"
+            ],
+            [
+              2.0,
+              "ounce",
+              "Cream Cheese",
+              "2 oz cream cheese"
+            ],
+            [
+              4.0,
+              "ounce",
+              "Low-moisture Mozzarella Cheese",
+              "4 oz low-moisture mozzarella cheese, cut into small cubes"
+            ],
+            [
+              2.0,
+              "ounce",
+              "Pickled Jalapenos",
+              "2 oz pickled jalapenos"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Panko Bread Crumbs",
+              "\u00bc Cup panko bread crumbs,"
+            ],
+            [
+              1.0,
+              "ounce",
+              "Parmesan Cheese",
+              "1 oz parmesan cheese, grated"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/arepas-con-queso-encanto",
+    "episode_id": "arepas-con-queso-encanto",
+    "name": "Arepas con Queso inspired by Encanto ",
+    "published_date": "2022-01-11",
+    "youtube_link": "https://www.youtube.com/watch?v=aRWUMlLMF1c",
+    "official_link": "https://www.bingingwithbabish.com/recipes/arepas-con-queso-encanto",
+    "image_link": "https://img.youtube.com/vi/aRWUMlLMF1c/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/561",
+          "reference_id": 561,
+          "type": null,
+          "name": "Encanto",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1209",
+          "recipe_id": 1209,
+          "name": "Arepas con Queso",
+          "image_link": null,
+          "raw_ingredient_list": "10-12 oz water (~100-110\u00b0F)\n1 tsp kosher salt\n10 oz (weigh) pre-cooked white corn flour or masarepa\n1 oz unsalted butter, soft + more for cooking (if browning too much, use olive oil)\n2 \u00bd oz low moisture mozzarella, shredded\nOptional: 8-16slices deli-sliced mozzarella cheese",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              "10-12",
+              "ounce",
+              "Water",
+              "10-12 oz water (~100-110\u00b0F)"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt",
+              "1 tsp kosher salt"
+            ],
+            [
+              10.0,
+              "ounce",
+              "Pre-cooked White Corn Flour Or Masarepa",
+              "10 oz (weigh) pre-cooked white corn flour or masarepa"
+            ],
+            [
+              1.0,
+              "ounce",
+              "Unsalted Butter",
+              "1 oz unsalted butter, soft + more for cooking (if browning too much, use olive oil)"
+            ],
+            [
+              2.5,
+              "ounce",
+              "Low Moisture Mozzarella",
+              "2 \u00bd oz low moisture mozzarella, shredded"
+            ],
+            [
+              null,
+              null,
+              "Optional: 8-16slices Deli-sliced Mozzarella Cheese",
+              "Optional: 8-16slices deli-sliced mozzarella cheese"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/cocoa-krispies-oliver-and-company",
+    "episode_id": "cocoa-krispies-oliver-and-company",
+    "name": "Oeufs a la Jenny avec Cocoa Krispies inspired by Oliver & Company",
+    "published_date": "2022-01-11",
+    "youtube_link": "https://www.youtube.com/watch?v=YPsRQ6O1gjA",
+    "official_link": "https://www.bingingwithbabish.com/recipes/cocoa-krispies-oliver-and-company",
+    "image_link": "https://img.youtube.com/vi/YPsRQ6O1gjA/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/560",
+          "reference_id": 560,
+          "type": null,
+          "name": "Oliver & Company",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1208",
+          "recipe_id": 1208,
+          "name": "Oeufs a la Babish",
+          "image_link": null,
+          "raw_ingredient_list": "1 Cup long grain white rice, cooked\nFry oil of choice\n\u00bc Cup sweetened cocoa powder\n4 egg whites, cold\n2 Tbsp sugar\nChocolate Creme Anglaise (see Date Night Dinner)",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "Cup Long Grain White Rice",
+              "1 Cup long grain white rice, cooked"
+            ],
+            [
+              null,
+              null,
+              "Choice",
+              "Fry oil of choice"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Sweetened Cocoa Powder",
+              "\u00bc Cup sweetened cocoa powder"
+            ],
+            [
+              4.0,
+              null,
+              "Egg Whites",
+              "4 egg whites, cold"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Sugar",
+              "2 Tbsp sugar"
+            ],
+            [
+              null,
+              null,
+              "Chocolate Creme Anglaise",
+              "Chocolate Creme Anglaise (see Date Night Dinner)"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1207",
+          "recipe_id": 1207,
+          "name": "Oeufs a la Jenny",
+          "image_link": null,
+          "raw_ingredient_list": "1 Cup heavy cream, cold\n4 \u00bd oz dark chocolate, chopped\n2 Tbsp unsalted butter\n3 large eggs, cold + separated\n2 Tbsp granuted sugar\nCanned whipped cream\nAs needed Cocoa Krispies",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "Cup Heavy Cream",
+              "1 Cup heavy cream, cold"
+            ],
+            [
+              4.5,
+              "ounce",
+              "Dark Chocolate",
+              "4 \u00bd oz dark chocolate, chopped"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "2 Tbsp unsalted butter"
+            ],
+            [
+              3.0,
+              "large",
+              "Eggs",
+              "3 large eggs, cold + separated"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Granuted Sugar",
+              "2 Tbsp granuted sugar"
+            ],
+            [
+              null,
+              null,
+              "Canned Whipped Cream",
+              "Canned whipped cream"
+            ],
+            [
+              null,
+              null,
+              "As Needed Cocoa Krispies",
+              "As needed Cocoa Krispies"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/date-night-2",
+    "episode_id": "date-night-2",
+    "name": "DATE NIGHT II",
+    "published_date": "2022-01-11",
+    "youtube_link": "https://www.youtube.com/watch?v=dlATzLk8Nh8",
+    "official_link": "https://basicswithbabish.co/basicsepisodes/date-night-2",
+    "image_link": "https://img.youtube.com/vi/dlATzLk8Nh8/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/2",
+        "show_id": 2,
+        "name": "Basics with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1227",
+          "recipe_id": 1227,
+          "name": "Basil Oil",
+          "image_link": null,
+          "raw_ingredient_list": "1 Cup basil leaves, packed\n\u00bd Cup extra virgin olive oil\nPinch kosher salt",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "Cup Basil Leaves",
+              "1 Cup basil leaves, packed"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Extra Virgin Olive Oil",
+              "\u00bd Cup extra virgin olive oil"
+            ],
+            [
+              null,
+              null,
+              "Pinch Kosher Salt",
+              "Pinch kosher salt"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1229",
+          "recipe_id": 1229,
+          "name": "Browned Butter Sage",
+          "image_link": null,
+          "raw_ingredient_list": "\u2153 Cup pistachios, raw\n5 Tbsp unsalted butter\n5-6 sage leaves\n8 oz Whipped Ricotta (see recipe above)\n1-2 Tbsp honey (or to taste)\nTo taste kosher salt\nTo taste freshly ground black pepper",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              0.3333333333333333,
+              null,
+              "Cup Pistachios",
+              "\u2153 Cup pistachios, raw"
+            ],
+            [
+              5.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "5 Tbsp unsalted butter"
+            ],
+            [
+              "5-6",
+              null,
+              "Sage Leaves",
+              "5-6 sage leaves"
+            ],
+            [
+              8.0,
+              "ounce",
+              "Whipped Ricotta",
+              "8 oz Whipped Ricotta (see recipe above)"
+            ],
+            [
+              "1-2",
+              "tablespoon",
+              "Honey",
+              "1-2 Tbsp honey (or to taste)"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1238",
+          "recipe_id": 1238,
+          "name": "Citrus Creme Brulee",
+          "image_link": null,
+          "raw_ingredient_list": "10 oz heavy cream\nZest of 3 oranges\n2 oz granulated sugar, divided\n\u00bc tsp kosher salt\n3 large egg yolks\n1 \u00bd Tbsp lemon juice, preferably meyer lemons\nAs needed superfine sugar (see recipe above)",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              10.0,
+              "ounce",
+              "Heavy Cream",
+              "10 oz heavy cream"
+            ],
+            [
+              null,
+              null,
+              "3 Oranges",
+              "Zest of 3 oranges"
+            ],
+            [
+              2.0,
+              "ounce",
+              "Granulated Sugar",
+              "2 oz granulated sugar, divided"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Kosher Salt",
+              "\u00bc tsp kosher salt"
+            ],
+            [
+              3.0,
+              "large",
+              "Egg Yolks",
+              "3 large egg yolks"
+            ],
+            [
+              1.5,
+              "tablespoon",
+              "Lemon Juice",
+              "1 \u00bd Tbsp lemon juice, preferably meyer lemons"
+            ],
+            [
+              null,
+              null,
+              "As Needed Superfine Sugar",
+              "As needed superfine sugar (see recipe above)"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1226",
+          "recipe_id": 1226,
+          "name": "Confit Tomatoes",
+          "image_link": null,
+          "raw_ingredient_list": "8 oz cherry tomatoes\n3 garlic cloves, smashed\n4-5 basil leaves\n1 bay leaf\n1-2 Cups mild olive oil\nTo taste kosher salt\n\u00bd tsp black peppercorns\nOptional: 2 chiles de arbol\n8 oz Whipped Ricotta (see recipe above)",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              8.0,
+              "ounce",
+              "Cherry Tomatoes",
+              "8 oz cherry tomatoes"
+            ],
+            [
+              3.0,
+              null,
+              "Garlic Cloves",
+              "3 garlic cloves, smashed"
+            ],
+            [
+              "4-5",
+              null,
+              "Basil Leaves",
+              "4-5 basil leaves"
+            ],
+            [
+              1.0,
+              null,
+              "Bay Leaf",
+              "1 bay leaf"
+            ],
+            [
+              "1-2",
+              null,
+              "Cups Mild Olive Oil",
+              "1-2 Cups mild olive oil"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Black Peppercorns",
+              "\u00bd tsp black peppercorns"
+            ],
+            [
+              null,
+              null,
+              "Optional: 2 Chiles De Arbol",
+              "Optional: 2 chiles de arbol"
+            ],
+            [
+              8.0,
+              "ounce",
+              "Whipped Ricotta",
+              "8 oz Whipped Ricotta (see recipe above)"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1230",
+          "recipe_id": 1230,
+          "name": "Cornish Hen",
+          "image_link": null,
+          "raw_ingredient_list": "2 Cornish hens\n\u00bd Cup kosher salt + more to taste\n2 tsp freshly ground black pepper + more to taste\n1 tsp baking powder\n\u00bc Cup duck fat, melted (or clarified butter)\n2 yellow onions, roughly chopped\n4 celery stalks, roughly chopped\n3 large carrots, roughly chopped\n2 sprigs rosemary\n4-5 thyme sprigs\n6 garlic cloves, smashed",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              null,
+              "Cornish Hens",
+              "2 Cornish hens"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Kosher Salt + More To Taste",
+              "\u00bd Cup kosher salt + more to taste"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Freshly Ground Black Pepper + More To Taste",
+              "2 tsp freshly ground black pepper + more to taste"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Baking Powder",
+              "1 tsp baking powder"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Duck Fat",
+              "\u00bc Cup duck fat, melted (or clarified butter)"
+            ],
+            [
+              2.0,
+              null,
+              "Yellow Onions",
+              "2 yellow onions, roughly chopped"
+            ],
+            [
+              4.0,
+              null,
+              "Celery Stalks",
+              "4 celery stalks, roughly chopped"
+            ],
+            [
+              3.0,
+              "large",
+              "Carrots",
+              "3 large carrots, roughly chopped"
+            ],
+            [
+              2.0,
+              null,
+              "Sprigs Rosemary",
+              "2 sprigs rosemary"
+            ],
+            [
+              "4-5",
+              null,
+              "Thyme Sprigs",
+              "4-5 thyme sprigs"
+            ],
+            [
+              6.0,
+              null,
+              "Garlic Cloves",
+              "6 garlic cloves, smashed"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1228",
+          "recipe_id": 1228,
+          "name": "Deconstructed Pesto",
+          "image_link": null,
+          "raw_ingredient_list": "\u2153 Cup pinenuts\n1 garlic clove, minced or crushed\n8 oz Whipped Ricotta (see recipe above)\n2-3 Tbsp Basil Oil (see recipe above)\n\u00bc Cup parmesan cheese, grated\n2-3 basil leaves\nTo taste flaky salt",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              0.3333333333333333,
+              null,
+              "Cup Pinenuts",
+              "\u2153 Cup pinenuts"
+            ],
+            [
+              1.0,
+              null,
+              "Garlic Clove",
+              "1 garlic clove, minced or crushed"
+            ],
+            [
+              8.0,
+              "ounce",
+              "Whipped Ricotta",
+              "8 oz Whipped Ricotta (see recipe above)"
+            ],
+            [
+              "2-3",
+              "tablespoon",
+              "Basil Oil",
+              "2-3 Tbsp Basil Oil (see recipe above)"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Parmesan Cheese",
+              "\u00bc Cup parmesan cheese, grated"
+            ],
+            [
+              "2-3",
+              null,
+              "Basil Leaves",
+              "2-3 basil leaves"
+            ],
+            [
+              null,
+              null,
+              "To Taste Flaky Salt",
+              "To taste flaky salt"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1233",
+          "recipe_id": 1233,
+          "name": "Fig Port Sauce",
+          "image_link": null,
+          "raw_ingredient_list": "1 Tbsp olive oil\n1 shallot, finely chopped\n1 Cup port\n\u00be Cup chicken stock, preferably homemade\n1 sprig rosemary\n8 fresh mission figs, quartered\n2 Tbsp unsalted butter, cubed + cold\nTo taste kosher salt\nTo taste freshly ground black pepper",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              "tablespoon",
+              "Olive Oil",
+              "1 Tbsp olive oil"
+            ],
+            [
+              1.0,
+              null,
+              "Shallot",
+              "1 shallot, finely chopped"
+            ],
+            [
+              1.0,
+              null,
+              "Cup Port",
+              "1 Cup port"
+            ],
+            [
+              0.75,
+              null,
+              "Cup Chicken Stock",
+              "\u00be Cup chicken stock, preferably homemade"
+            ],
+            [
+              1.0,
+              null,
+              "Sprig Rosemary",
+              "1 sprig rosemary"
+            ],
+            [
+              8.0,
+              null,
+              "Fresh Mission Figs",
+              "8 fresh mission figs, quartered"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "2 Tbsp unsalted butter, cubed + cold"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1232",
+          "recipe_id": 1232,
+          "name": "Gremolata",
+          "image_link": null,
+          "raw_ingredient_list": "\u00be Cup parsley, chopped\n\u00bd shallot, minced\n1 garlic clove, minced\nZest of 1 lemon\nTo taste kosher salt\nTo taste freshly ground black pepper",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              0.75,
+              null,
+              "Cup Parsley",
+              "\u00be Cup parsley, chopped"
+            ],
+            [
+              0.5,
+              null,
+              "Shallot",
+              "\u00bd shallot, minced"
+            ],
+            [
+              1.0,
+              null,
+              "Garlic Clove",
+              "1 garlic clove, minced"
+            ],
+            [
+              null,
+              null,
+              "1 Lemon",
+              "Zest of 1 lemon"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1237",
+          "recipe_id": 1237,
+          "name": "Matcha Creme Brulee",
+          "image_link": null,
+          "raw_ingredient_list": "2 oz granulated sugar, divided\n1 \u00bd tsp matcha powder\n10 oz heavy cream\n\u00bc tsp kosher salt\n3 large egg yolks\nAs needed superfine sugar (see recipe above)",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              "ounce",
+              "Granulated Sugar",
+              "2 oz granulated sugar, divided"
+            ],
+            [
+              1.5,
+              "teaspoon",
+              "Matcha Powder",
+              "1 \u00bd tsp matcha powder"
+            ],
+            [
+              10.0,
+              "ounce",
+              "Heavy Cream",
+              "10 oz heavy cream"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Kosher Salt",
+              "\u00bc tsp kosher salt"
+            ],
+            [
+              3.0,
+              "large",
+              "Egg Yolks",
+              "3 large egg yolks"
+            ],
+            [
+              null,
+              null,
+              "As Needed Superfine Sugar",
+              "As needed superfine sugar (see recipe above)"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1234",
+          "recipe_id": 1234,
+          "name": "Parsnip Puree",
+          "image_link": null,
+          "raw_ingredient_list": "1 lb parsnips, peeled + cut into 1-inch pieces\n\u00be Cup whole milk\n\u00be Cup heavy cream\n3-4 cloves garlic, roasted or confit\n2 sprigs thyme\nTo taste kosher salt\n2 Tbsp unsalted butter\nTo taste white pepper",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              "lb",
+              "Parsnips",
+              "1 lb parsnips, peeled + cut into 1-inch pieces"
+            ],
+            [
+              0.75,
+              null,
+              "Cup Milk",
+              "\u00be Cup whole milk"
+            ],
+            [
+              0.75,
+              null,
+              "Cup Heavy Cream",
+              "\u00be Cup heavy cream"
+            ],
+            [
+              "3-4",
+              null,
+              "Cloves Garlic",
+              "3-4 cloves garlic, roasted or confit"
+            ],
+            [
+              2.0,
+              null,
+              "Sprigs Thyme",
+              "2 sprigs thyme"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "2 Tbsp unsalted butter"
+            ],
+            [
+              null,
+              null,
+              "To Taste White Pepper",
+              "To taste white pepper"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1231",
+          "recipe_id": 1231,
+          "name": "Simple Mustard Pan Sauce",
+          "image_link": null,
+          "raw_ingredient_list": "2 Tbsp reserved drippings or fond\n\u00bd shallot, minced\n1 Cup chicken stock, preferably homemade\nJuice of \u00bd lemon\n1 tsp dijon mustard\n3 Tbsp unsalted butter\nTo taste kosher salt\nTo taste freshly ground black pepper\nTo garnish: \u00bc Cup parsley, chopped",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              "tablespoon",
+              "Reserved Drippings Or Fond",
+              "2 Tbsp reserved drippings or fond"
+            ],
+            [
+              0.5,
+              null,
+              "Shallot",
+              "\u00bd shallot, minced"
+            ],
+            [
+              1.0,
+              null,
+              "Cup Chicken Stock",
+              "1 Cup chicken stock, preferably homemade"
+            ],
+            [
+              null,
+              null,
+              "\u00bd Lemon",
+              "Juice of \u00bd lemon"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Dijon Mustard",
+              "1 tsp dijon mustard"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "3 Tbsp unsalted butter"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ],
+            [
+              null,
+              null,
+              "To Garnish: \u00bc Cup Parsley",
+              "To garnish: \u00bc Cup parsley, chopped"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1235",
+          "recipe_id": 1235,
+          "name": "Superfine Sugar",
+          "image_link": null,
+          "raw_ingredient_list": "\u00bd Cup sugar",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              0.5,
+              null,
+              "Cup Sugar",
+              "\u00bd Cup sugar"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1236",
+          "recipe_id": 1236,
+          "name": "Vanilla Creme Brulee",
+          "image_link": null,
+          "raw_ingredient_list": "10 oz heavy cream\n2 oz granulated sugar, divided\n\u00bc tsp kosher salt\n1 vanilla bean pod, seeds removed and reserved\n3 large egg yolks\nAs needed superfine sugar (see recipe above)",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              10.0,
+              "ounce",
+              "Heavy Cream",
+              "10 oz heavy cream"
+            ],
+            [
+              2.0,
+              "ounce",
+              "Granulated Sugar",
+              "2 oz granulated sugar, divided"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Kosher Salt",
+              "\u00bc tsp kosher salt"
+            ],
+            [
+              1.0,
+              null,
+              "Vanilla Bean Pod",
+              "1 vanilla bean pod, seeds removed and reserved"
+            ],
+            [
+              3.0,
+              "large",
+              "Egg Yolks",
+              "3 large egg yolks"
+            ],
+            [
+              null,
+              null,
+              "As Needed Superfine Sugar",
+              "As needed superfine sugar (see recipe above)"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1225",
+          "recipe_id": 1225,
+          "name": "Whipped Ricotta",
+          "image_link": null,
+          "raw_ingredient_list": "1 baguette\nAs needed olive oil\nTo taste kosher salt\nTo taste freshly ground black pepper\n1 \u00bd Tbsp extra virgin olive oil\n8 oz whole milk ricotta\nZest of \u00bd lemon",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "Baguette",
+              "1 baguette"
+            ],
+            [
+              null,
+              null,
+              "As Needed Olive Oil",
+              "As needed olive oil"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ],
+            [
+              1.5,
+              "tablespoon",
+              "Extra Virgin Olive Oil",
+              "1 \u00bd Tbsp extra virgin olive oil"
+            ],
+            [
+              8.0,
+              "ounce",
+              "Milk Ricotta",
+              "8 oz whole milk ricotta"
+            ],
+            [
+              null,
+              null,
+              "\u00bd Lemon",
+              "Zest of \u00bd lemon"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/tamales",
+    "episode_id": "tamales",
+    "name": "TAMALES",
+    "published_date": "2022-01-04",
+    "youtube_link": "https://www.youtube.com/watch?v=r9IO8KCN_Rw",
+    "official_link": "https://basicswithbabish.co/basicsepisodes/tamales",
+    "image_link": "https://img.youtube.com/vi/r9IO8KCN_Rw/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/2",
+        "show_id": 2,
+        "name": "Basics with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1221",
+          "recipe_id": 1221,
+          "name": "Beef Filling",
+          "image_link": null,
+          "raw_ingredient_list": "3 lb boneless chuck roast, trimmed\n1 tsp kosher salt + more to taste\nAs needed neutral oil\n2 beef bouillon cubes, crushed\n1 Tbsp Mexican oregano\n1 bay leaf\n1 \u00bd white onion, divided\n9 garlic cloves, divided\nAs needed water\n3-4 ancho chiles, stems + seeds removed\n3-4 pasillo chiles, stems + seeds removed\n5-6 guajillo chiles, stems + seeds removed",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              3.0,
+              "lb",
+              "Boneless Chuck Roast",
+              "3 lb boneless chuck roast, trimmed"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt + More To Taste",
+              "1 tsp kosher salt + more to taste"
+            ],
+            [
+              null,
+              null,
+              "As Needed Neutral Oil",
+              "As needed neutral oil"
+            ],
+            [
+              2.0,
+              null,
+              "Beef Bouillon Cubes",
+              "2 beef bouillon cubes, crushed"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Mexican Oregano",
+              "1 Tbsp Mexican oregano"
+            ],
+            [
+              1.0,
+              null,
+              "Bay Leaf",
+              "1 bay leaf"
+            ],
+            [
+              1.5,
+              null,
+              "White Onion",
+              "1 \u00bd white onion, divided"
+            ],
+            [
+              9.0,
+              null,
+              "Garlic Cloves",
+              "9 garlic cloves, divided"
+            ],
+            [
+              null,
+              null,
+              "As Needed Water",
+              "As needed water"
+            ],
+            [
+              "3-4",
+              null,
+              "Ancho Chiles",
+              "3-4 ancho chiles, stems + seeds removed"
+            ],
+            [
+              "3-4",
+              null,
+              "Pasillo Chiles",
+              "3-4 pasillo chiles, stems + seeds removed"
+            ],
+            [
+              "5-6",
+              null,
+              "Guajillo Chiles",
+              "5-6 guajillo chiles, stems + seeds removed"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1223",
+          "recipe_id": 1223,
+          "name": "Green Chicken Filling",
+          "image_link": null,
+          "raw_ingredient_list": "2 lbs chicken breasts\n\u00bd\u00a0 white onion, quartered\n6-8 tomatillos, peeled + halved\n1 poblano pepper, stem removed\n1 jalapeno pepper, stem removed\n1 serrano pepper, stem removed\n2 garlic cloves, roughly chopped\n10-12 cilantro stems (leaves included), rinsed\nTo taste kosher salt\nAs needed vegetable oil",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              "lb",
+              "Chicken Breasts",
+              "2 lbs chicken breasts"
+            ],
+            [
+              0.5,
+              null,
+              "White Onion",
+              "\u00bd white onion, quartered"
+            ],
+            [
+              "6-8",
+              null,
+              "Tomatillos",
+              "6-8 tomatillos, peeled + halved"
+            ],
+            [
+              1.0,
+              null,
+              "Poblano Pepper",
+              "1 poblano pepper, stem removed"
+            ],
+            [
+              1.0,
+              null,
+              "Jalapeno Pepper",
+              "1 jalapeno pepper, stem removed"
+            ],
+            [
+              1.0,
+              null,
+              "Serrano Pepper",
+              "1 serrano pepper, stem removed"
+            ],
+            [
+              2.0,
+              null,
+              "Garlic Cloves",
+              "2 garlic cloves, roughly chopped"
+            ],
+            [
+              "10-12",
+              null,
+              "Cilantro Stems",
+              "10-12 cilantro stems (leaves included), rinsed"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "As Needed Vegetable Oil",
+              "As needed vegetable oil"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1222",
+          "recipe_id": 1222,
+          "name": "Salsa Roja",
+          "image_link": null,
+          "raw_ingredient_list": "3 Roma tomatoes, quartered\n1 jalapeno pepper, stem removed\n\u00bd white onion, quartered\n2 garlic cloves, peeled\nAs needed vegetable oil\nJuice of 1 lime\n7-8 cilantro stems (leaves included)\nTo taste kosher salt",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              3.0,
+              null,
+              "Roma Tomatoes",
+              "3 Roma tomatoes, quartered"
+            ],
+            [
+              1.0,
+              null,
+              "Jalapeno Pepper",
+              "1 jalapeno pepper, stem removed"
+            ],
+            [
+              0.5,
+              null,
+              "White Onion",
+              "\u00bd white onion, quartered"
+            ],
+            [
+              2.0,
+              null,
+              "Garlic Cloves",
+              "2 garlic cloves, peeled"
+            ],
+            [
+              null,
+              null,
+              "As Needed Vegetable Oil",
+              "As needed vegetable oil"
+            ],
+            [
+              null,
+              null,
+              "1 Lime",
+              "Juice of 1 lime"
+            ],
+            [
+              "7-8",
+              null,
+              "Cilantro Stems",
+              "7-8 cilantro stems (leaves included)"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1224",
+          "recipe_id": 1224,
+          "name": "Tamales",
+          "image_link": null,
+          "raw_ingredient_list": "40-50 corn husks\n20 oz masa harina\n24-26 oz hot water or chicken broth, + more as needed\n14 oz lard\n2 tsp baking powder\n2 tsp kosher salt\nGreen Chicken Filling\nBeef Filling\n5 Tbsp granulated sugar\n1 tsp cinnamon\n1 tsp vanilla extract\n3 oz raisins\n4 oz canned pineapple, drained + diced\nOptional: 4-5 drops red food coloring\nCrema/sour cream\nSalsa Roja (see recipe above)\nCilantro",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              "40-50",
+              null,
+              "Corn Husks",
+              "40-50 corn husks"
+            ],
+            [
+              20.0,
+              "ounce",
+              "Masa Harina",
+              "20 oz masa harina"
+            ],
+            [
+              "24-26",
+              "ounce",
+              "Water Or Chicken Broth",
+              "24-26 oz hot water or chicken broth, + more as needed"
+            ],
+            [
+              14.0,
+              "ounce",
+              "Lard",
+              "14 oz lard"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Baking Powder",
+              "2 tsp baking powder"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Kosher Salt",
+              "2 tsp kosher salt"
+            ],
+            [
+              null,
+              null,
+              "Green Chicken Filling",
+              "Green Chicken Filling"
+            ],
+            [
+              null,
+              null,
+              "Beef Filling",
+              "Beef Filling"
+            ],
+            [
+              5.0,
+              "tablespoon",
+              "Granulated Sugar",
+              "5 Tbsp granulated sugar"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Cinnamon",
+              "1 tsp cinnamon"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Vanilla Extract",
+              "1 tsp vanilla extract"
+            ],
+            [
+              3.0,
+              "ounce",
+              "Raisins",
+              "3 oz raisins"
+            ],
+            [
+              4.0,
+              "ounce",
+              "Canned Pineapple",
+              "4 oz canned pineapple, drained + diced"
+            ],
+            [
+              null,
+              null,
+              "Optional: 4-5 Drops Red Food Coloring",
+              "Optional: 4-5 drops red food coloring"
+            ],
+            [
+              null,
+              null,
+              "Crema/sour Cream",
+              "Crema/sour cream"
+            ],
+            [
+              null,
+              null,
+              "Salsa Roja",
+              "Salsa Roja (see recipe above)"
+            ],
+            [
+              null,
+              null,
+              "Cilantro",
+              "Cilantro"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/strata-family-stone",
+    "episode_id": "strata-family-stone",
+    "name": "Strata inspired by Family Stone",
+    "published_date": "2021-12-22",
+    "youtube_link": "https://www.youtube.com/watch?v=MIgykdiVPZk",
+    "official_link": "https://www.bingingwithbabish.com/recipes/strata-family-stone",
+    "image_link": "https://img.youtube.com/vi/MIgykdiVPZk/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/559",
+          "reference_id": 559,
+          "type": null,
+          "name": "Family Stone",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1206",
+          "recipe_id": 1206,
+          "name": "Strata",
+          "image_link": null,
+          "raw_ingredient_list": "\u00bd stick unsalted butter, softened\n1 Tbsp neutral oil\n13 oz mushrooms of choice, sliced\n2 tsp kosher salt, divided\n10 slices white bread\n8 oz mozzarella cheese, sliced\n14 oz tomatoes, thinly sliced\n1 yellow onion, sliced into rings\n5 large eggs\n3 Cups whole milk\n1 tsp dried oregano\n\u00bc tsp garlic salt\n2 oz parmesan cheese, grated\n\u00bd Cup black olive, drained + sliced",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              0.5,
+              null,
+              "Stick Unsalted Butter",
+              "\u00bd stick unsalted butter, softened"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Neutral Oil",
+              "1 Tbsp neutral oil"
+            ],
+            [
+              13.0,
+              "ounce",
+              "Choice",
+              "13 oz mushrooms of choice, sliced"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Kosher Salt",
+              "2 tsp kosher salt, divided"
+            ],
+            [
+              10.0,
+              null,
+              "Slices White Bread",
+              "10 slices white bread"
+            ],
+            [
+              8.0,
+              "ounce",
+              "Mozzarella Cheese",
+              "8 oz mozzarella cheese, sliced"
+            ],
+            [
+              14.0,
+              "ounce",
+              "Tomatoes",
+              "14 oz tomatoes, thinly sliced"
+            ],
+            [
+              1.0,
+              null,
+              "Yellow Onion",
+              "1 yellow onion, sliced into rings"
+            ],
+            [
+              5.0,
+              "large",
+              "Eggs",
+              "5 large eggs"
+            ],
+            [
+              3.0,
+              null,
+              "Cups Milk",
+              "3 Cups whole milk"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Dried Oregano",
+              "1 tsp dried oregano"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Garlic Salt",
+              "\u00bc tsp garlic salt"
+            ],
+            [
+              2.0,
+              "ounce",
+              "Parmesan Cheese",
+              "2 oz parmesan cheese, grated"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Black Olive",
+              "\u00bd Cup black olive, drained + sliced"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/mayors-request-cloudy-with-a-chance-of-meatballs",
+    "episode_id": "mayors-request-cloudy-with-a-chance-of-meatballs",
+    "name": "Mayor's Request inspired by Cloudy with a Chance of Meatballs",
+    "published_date": "2021-12-20",
+    "youtube_link": "https://www.youtube.com/watch?v=dr3rMTxq3bA",
+    "official_link": "https://www.bingingwithbabish.com/recipes/mayors-request-cloudy-with-a-chance-of-meatballs",
+    "image_link": "https://img.youtube.com/vi/dr3rMTxq3bA/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/guest/35",
+          "guest_id": 35,
+          "name": "a Chance of Meatballs",
+          "image_link": null
+        }
+      ],
+      "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/558",
+          "reference_id": 558,
+          "type": null,
+          "name": "Cloudy",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1205",
+          "recipe_id": 1205,
+          "name": "Deep-Fried Turkey",
+          "image_link": null,
+          "raw_ingredient_list": "1 turkey (~8-10lb)\nAs needed kosher salt\nAs needed fry oil of choice\nMole (see recipe above)\nPizza Stuffing (see recipe above)",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "Turkey",
+              "1 turkey (~8-10lb)"
+            ],
+            [
+              null,
+              null,
+              "As Needed Kosher Salt",
+              "As needed kosher salt"
+            ],
+            [
+              null,
+              null,
+              "Choice",
+              "As needed fry oil of choice"
+            ],
+            [
+              null,
+              null,
+              "Mole",
+              "Mole (see recipe above)"
+            ],
+            [
+              null,
+              null,
+              "Pizza Stuffing",
+              "Pizza Stuffing (see recipe above)"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1202",
+          "recipe_id": 1202,
+          "name": "Mole",
+          "image_link": null,
+          "raw_ingredient_list": "4-5 ancho chili peppers, stems + seeds removed\n4-5 pasilla pepper, stems + seeds removed\n4-5 guajillo peppers, stems + seeds removed\n1 large yellow onion, quartered\n1 Roma tomato, halved\n6-8 cloves garlic, skin on\n4 tomatillos, husked + rinsed + halved\n\u2153 Cup raw almonds\n\u2153 Cup raw peanuts\n\u00bc Cup pepitas (pumpkin seeds)\n\u00bc cup black raisins\n1 small Canela stick, broken into pieces\n2 corn tortillas, cut into strips\n10-12 saltine crackers\n3 Tbsp sesame seeds\n\u00bc tsp whole black peppercorns\n3-4 whole cloves\n1 tsp coriander seeds\n1 tsp cumin seeds\n1 tsp dried oregano\n1 tsp dried thyme\n\u00bd tsp crushed red pepper flakes\n\u00bc tsp aniseed\n3-4 Cups turkey or chicken stock, preferably homemade\n1\u00bd - 2 Mexican chocolate disks\nTo taste panela or brown sugar (about 1-3 Tbsp)\nTo taste kosher salt",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              "4-5",
+              null,
+              "Ancho Chili Peppers",
+              "4-5 ancho chili peppers, stems + seeds removed"
+            ],
+            [
+              "4-5",
+              null,
+              "Pasilla Pepper",
+              "4-5 pasilla pepper, stems + seeds removed"
+            ],
+            [
+              "4-5",
+              null,
+              "Guajillo Peppers",
+              "4-5 guajillo peppers, stems + seeds removed"
+            ],
+            [
+              1.0,
+              "large",
+              "Yellow Onion",
+              "1 large yellow onion, quartered"
+            ],
+            [
+              1.0,
+              null,
+              "Roma Tomato",
+              "1 Roma tomato, halved"
+            ],
+            [
+              "6-8",
+              null,
+              "Cloves Garlic",
+              "6-8 cloves garlic, skin on"
+            ],
+            [
+              4.0,
+              null,
+              "Tomatillos",
+              "4 tomatillos, husked + rinsed + halved"
+            ],
+            [
+              0.3333333333333333,
+              null,
+              "Cup Raw Almonds",
+              "\u2153 Cup raw almonds"
+            ],
+            [
+              0.3333333333333333,
+              null,
+              "Cup Raw Peanuts",
+              "\u2153 Cup raw peanuts"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Pepitas",
+              "\u00bc Cup pepitas (pumpkin seeds)"
+            ],
+            [
+              0.25,
+              "cup",
+              "Black Raisins",
+              "\u00bc cup black raisins"
+            ],
+            [
+              1.0,
+              "small",
+              "Canela Stick",
+              "1 small Canela stick, broken into pieces"
+            ],
+            [
+              2.0,
+              null,
+              "Corn Tortillas",
+              "2 corn tortillas, cut into strips"
+            ],
+            [
+              "10-12",
+              null,
+              "Saltine Crackers",
+              "10-12 saltine crackers"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Sesame Seeds",
+              "3 Tbsp sesame seeds"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Black Peppercorns",
+              "\u00bc tsp whole black peppercorns"
+            ],
+            [
+              "3-4",
+              "whole",
+              "Cloves",
+              "3-4 whole cloves"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Coriander Seeds",
+              "1 tsp coriander seeds"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Cumin Seeds",
+              "1 tsp cumin seeds"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Dried Oregano",
+              "1 tsp dried oregano"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Dried Thyme",
+              "1 tsp dried thyme"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Crushed Red Pepper Flakes",
+              "\u00bd tsp crushed red pepper flakes"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Aniseed",
+              "\u00bc tsp aniseed"
+            ],
+            [
+              "3-4",
+              null,
+              "Cups Turkey Or Chicken Stock",
+              "3-4 Cups turkey or chicken stock, preferably homemade"
+            ],
+            [
+              "1\u00bd - 2",
+              null,
+              "Mexican Chocolate Disks",
+              "1\u00bd - 2 Mexican chocolate disks"
+            ],
+            [
+              null,
+              null,
+              "To Taste Panela Or Brown Sugar",
+              "To taste panela or brown sugar (about 1-3 Tbsp)"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1204",
+          "recipe_id": 1204,
+          "name": "Pizza Stuffing",
+          "image_link": null,
+          "raw_ingredient_list": "1 loaf crusty sourdough, cut into 1/2-1-inch cubes\n1 lb ground pork\n2 garlic cloves, minced\n2 Tbsp ancho chili powder\n1 Tbsp paprika\n2 tsp dried oregano\n1 tsp kosher salt + more to taste\n1 tsp onion powder\n\u00bd tsp ground cumin\n\u00bc tsp ground coriander\n\u215b tsp ground cinnamon\n1 large yellow onions, chopped\n4 stalks celery, chopped\n1 Tbsp fresh thyme, minced\n\u2153 Cup fresh parsley, chopped\n1 egg, beaten\n2-4 Cups tomato stock (see recipe above)\nTo taste freshly ground black pepper\n8 oz Oaxaca cheese, torn into strips",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "Loaf Crusty Sourdough",
+              "1 loaf crusty sourdough, cut into 1/2-1-inch cubes"
+            ],
+            [
+              1.0,
+              "lb",
+              "Ground Pork",
+              "1 lb ground pork"
+            ],
+            [
+              2.0,
+              null,
+              "Garlic Cloves",
+              "2 garlic cloves, minced"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Ancho Chili Powder",
+              "2 Tbsp ancho chili powder"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Paprika",
+              "1 Tbsp paprika"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Dried Oregano",
+              "2 tsp dried oregano"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Kosher Salt + More To Taste",
+              "1 tsp kosher salt + more to taste"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Onion Powder",
+              "1 tsp onion powder"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Ground Cumin",
+              "\u00bd tsp ground cumin"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Ground Coriander",
+              "\u00bc tsp ground coriander"
+            ],
+            [
+              0.125,
+              "teaspoon",
+              "Ground Cinnamon",
+              "\u215b tsp ground cinnamon"
+            ],
+            [
+              1.0,
+              "large",
+              "Yellow Onions",
+              "1 large yellow onions, chopped"
+            ],
+            [
+              4.0,
+              null,
+              "Stalks Celery",
+              "4 stalks celery, chopped"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Fresh Thyme",
+              "1 Tbsp fresh thyme, minced"
+            ],
+            [
+              0.3333333333333333,
+              null,
+              "Cup Fresh Parsley",
+              "\u2153 Cup fresh parsley, chopped"
+            ],
+            [
+              1.0,
+              null,
+              "Egg",
+              "1 egg, beaten"
+            ],
+            [
+              "2-4",
+              null,
+              "Cups Tomato Stock",
+              "2-4 Cups tomato stock (see recipe above)"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ],
+            [
+              8.0,
+              "ounce",
+              "Oaxaca Cheese",
+              "8 oz Oaxaca cheese, torn into strips"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1203",
+          "recipe_id": 1203,
+          "name": "Tomato Stock",
+          "image_link": null,
+          "raw_ingredient_list": "1 Tbsp olive oil\n3 cloves garlic, minced\n1 \u00bd tsp anchovy paste\n1 (28 oz) can crushed tomatoes\n3 \u00bd Cups turkey broth\n2 sprigs rosemary",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              "tablespoon",
+              "Olive Oil",
+              "1 Tbsp olive oil"
+            ],
+            [
+              3.0,
+              null,
+              "Cloves Garlic",
+              "3 cloves garlic, minced"
+            ],
+            [
+              1.5,
+              "teaspoon",
+              "Anchovy Paste",
+              "1 \u00bd tsp anchovy paste"
+            ],
+            [
+              1.0,
+              null,
+              "Can Crushed Tomatoes",
+              "1 (28 oz) can crushed tomatoes"
+            ],
+            [
+              3.5,
+              null,
+              "Cups Turkey Broth",
+              "3 \u00bd Cups turkey broth"
+            ],
+            [
+              2.0,
+              null,
+              "Sprigs Rosemary",
+              "2 sprigs rosemary"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/yorkshire-pudding",
+    "episode_id": "yorkshire-pudding",
+    "name": "YORKSHIRE PUDDING AND ROAST BEEF",
+    "published_date": "2021-12-20",
+    "youtube_link": "https://www.youtube.com/watch?v=F_YNznQ35Tc",
+    "official_link": "https://basicswithbabish.co/basicsepisodes/yorkshire-pudding",
+    "image_link": "https://img.youtube.com/vi/F_YNznQ35Tc/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/2",
+        "show_id": 2,
+        "name": "Basics with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1220",
+          "recipe_id": 1220,
+          "name": "Advanced Roast Beef",
+          "image_link": null,
+          "raw_ingredient_list": "(~4 \u00bd lbs) Bone-in Ribeye Roast\n1 \u00bd Tbsps\u00a0 kosher salt + more to taste\n2 tsp freshly ground black pepper + more to taste\nAs needed olive oil\n3 small onions, quartered\n4 medium parsnips, peeled + sliced into \u00bd\u201d slices\n6 medium carrots, peeled + sliced into \u00bd\u201d slices\n5 garlic cloves, peeled\n3-4 sprigs rosemary\n4-5 sprigs thyme\nBeef Jus",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              null,
+              null,
+              "Bone-in Ribeye Roast",
+              "(~4 \u00bd lbs) Bone-in Ribeye Roast"
+            ],
+            [
+              1.5,
+              "tablespoon",
+              "Kosher Salt + More To Taste",
+              "1 \u00bd Tbsps kosher salt + more to taste"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Freshly Ground Black Pepper + More To Taste",
+              "2 tsp freshly ground black pepper + more to taste"
+            ],
+            [
+              null,
+              null,
+              "As Needed Olive Oil",
+              "As needed olive oil"
+            ],
+            [
+              3.0,
+              "small",
+              "Onions",
+              "3 small onions, quartered"
+            ],
+            [
+              4.0,
+              "medium",
+              "Parsnips",
+              "4 medium parsnips, peeled + sliced into \u00bd\u201d slices"
+            ],
+            [
+              6.0,
+              "medium",
+              "Carrots",
+              "6 medium carrots, peeled + sliced into \u00bd\u201d slices"
+            ],
+            [
+              5.0,
+              null,
+              "Garlic Cloves",
+              "5 garlic cloves, peeled"
+            ],
+            [
+              "3-4",
+              null,
+              "Sprigs Rosemary",
+              "3-4 sprigs rosemary"
+            ],
+            [
+              "4-5",
+              null,
+              "Sprigs Thyme",
+              "4-5 sprigs thyme"
+            ],
+            [
+              null,
+              null,
+              "Beef Jus",
+              "Beef Jus"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1219",
+          "recipe_id": 1219,
+          "name": "Beef Jus",
+          "image_link": null,
+          "raw_ingredient_list": "Reserved beef ribs (see recipe below)\n2 lb oxtails\n4 large onions, roughly chopped, divided\n6 large carrots, roughly chopped, divided\n8 celery stalks, roughly chopped, divided\nAs needed olive oil\n1 large parsnip, roughly chopped\n4-5 sprigs thyme\n6-8 parsley stems\n2 bay leaves\n1 tsp black peppercorns",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              null,
+              null,
+              "Reserved Beef Ribs",
+              "Reserved beef ribs (see recipe below)"
+            ],
+            [
+              2.0,
+              "lb",
+              "Oxtails",
+              "2 lb oxtails"
+            ],
+            [
+              4.0,
+              "large",
+              "Onions",
+              "4 large onions, roughly chopped, divided"
+            ],
+            [
+              6.0,
+              "large",
+              "Carrots",
+              "6 large carrots, roughly chopped, divided"
+            ],
+            [
+              8.0,
+              null,
+              "Celery Stalks",
+              "8 celery stalks, roughly chopped, divided"
+            ],
+            [
+              null,
+              null,
+              "As Needed Olive Oil",
+              "As needed olive oil"
+            ],
+            [
+              1.0,
+              "large",
+              "Parsnip",
+              "1 large parsnip, roughly chopped"
+            ],
+            [
+              "4-5",
+              null,
+              "Sprigs Thyme",
+              "4-5 sprigs thyme"
+            ],
+            [
+              "6-8",
+              null,
+              "Parsley Stems",
+              "6-8 parsley stems"
+            ],
+            [
+              2.0,
+              null,
+              "Bay Leaves",
+              "2 bay leaves"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Black Peppercorns",
+              "1 tsp black peppercorns"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1217",
+          "recipe_id": 1217,
+          "name": "Pan Gravy",
+          "image_link": null,
+          "raw_ingredient_list": "Reserve beef drippings\nAs needed rendered beef tallow\nAs needed beef stock, preferably homemade\n2 Tbsp all-purpose flour\nOptional:1 Tbsp soy sauce\nOptional:2 tsp Worcestershire sauce\nTo taste kosher salt\nTo taste freshly ground black pepper",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              null,
+              null,
+              "Reserve Beef Drippings",
+              "Reserve beef drippings"
+            ],
+            [
+              null,
+              null,
+              "As Needed Rendered Beef Tallow",
+              "As needed rendered beef tallow"
+            ],
+            [
+              null,
+              null,
+              "As Needed Beef Stock",
+              "As needed beef stock, preferably homemade"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "All-purpose Flour",
+              "2 Tbsp all-purpose flour"
+            ],
+            [
+              null,
+              null,
+              "Optional:1 Tbsp Soy Sauce",
+              "Optional:1 Tbsp soy sauce"
+            ],
+            [
+              null,
+              null,
+              "Optional:2 Tsp Worcestershire Sauce",
+              "Optional:2 tsp Worcestershire sauce"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1216",
+          "recipe_id": 1216,
+          "name": "Simple Roast Beef",
+          "image_link": null,
+          "raw_ingredient_list": "~ 3 \u00bd lbs Eye-Round Roast\n1 \u00bd Tbsps Kosher Salt\nAs needed neutral",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              null,
+              null,
+              "~ 3 \u00bd Lbs Eye-round Roast",
+              "~ 3 \u00bd lbs Eye-Round Roast"
+            ],
+            [
+              1.5,
+              "tablespoon",
+              "Kosher Salt",
+              "1 \u00bd Tbsps Kosher Salt"
+            ],
+            [
+              null,
+              null,
+              "As Needed Neutral",
+              "As needed neutral"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1218",
+          "recipe_id": 1218,
+          "name": "Yorkshire Pudding",
+          "image_link": null,
+          "raw_ingredient_list": "3 \u00bd oz all-purpose flour\n\u00bd tsp kosher salt\n3 large eggs\n8 oz whole milk\n4 oz reserved beef drippings or beef tallow",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              3.5,
+              "ounce",
+              "All-purpose Flour",
+              "3 \u00bd oz all-purpose flour"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Kosher Salt",
+              "\u00bd tsp kosher salt"
+            ],
+            [
+              3.0,
+              "large",
+              "Eggs",
+              "3 large eggs"
+            ],
+            [
+              8.0,
+              "ounce",
+              "Milk",
+              "8 oz whole milk"
+            ],
+            [
+              4.0,
+              "ounce",
+              "Reserved Beef Drippings Or Beef Tallow",
+              "4 oz reserved beef drippings or beef tallow"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/schweddy-balls-snl",
+    "episode_id": "schweddy-balls-snl",
+    "name": "Schweddy Balls inspired by Saturday Night Live",
+    "published_date": "2021-12-08",
+    "youtube_link": "https://www.youtube.com/watch?v=d3ISyzfTBAc",
+    "official_link": "https://www.bingingwithbabish.com/recipes/schweddy-balls-snl",
+    "image_link": "https://img.youtube.com/vi/d3ISyzfTBAc/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/89",
+          "reference_id": 89,
+          "type": "tv_show",
+          "name": "Saturday Night Live",
+          "description": "A famous guest host stars in parodies and sketches created by the cast of this witty show. IMDb.",
+          "external_link": "https://www.imdb.com/title/tt0072562/",
+          "image_link": "https://i.ytimg.com/sh/t5sPe62DPS-vj8-cYU12hQ/market.jpg"
+        }
+      ],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1200",
+          "recipe_id": 1200,
+          "name": "Classic Cheese Balls",
+          "image_link": null,
+          "raw_ingredient_list": "2 (8 oz) packages cream cheese, room temperature\n6 oz sharp cheddar cheese, grated\n2 oz parmesan cheese, grated\n2 scallions, thinly sliced\n1 \u00bd tsp Worcestershire sauce\nZest of 1 lemon\n\u00bd tsp garlic powder\n\u00bd tsp onion powder\n\u00bc tsp dried oregano\nTo taste kosher salt\nTo taste freshly ground black pepper\nOptional: to taste hot sauce of choice\n1 Cup pecans, toasted + roughly chopped",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              null,
+              "Packages Cream Cheese",
+              "2 (8 oz) packages cream cheese, room temperature"
+            ],
+            [
+              6.0,
+              "ounce",
+              "Sharp Cheddar Cheese",
+              "6 oz sharp cheddar cheese, grated"
+            ],
+            [
+              2.0,
+              "ounce",
+              "Parmesan Cheese",
+              "2 oz parmesan cheese, grated"
+            ],
+            [
+              2.0,
+              null,
+              "Scallions",
+              "2 scallions, thinly sliced"
+            ],
+            [
+              1.5,
+              "teaspoon",
+              "Worcestershire Sauce",
+              "1 \u00bd tsp Worcestershire sauce"
+            ],
+            [
+              null,
+              null,
+              "1 Lemon",
+              "Zest of 1 lemon"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Garlic Powder",
+              "\u00bd tsp garlic powder"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Onion Powder",
+              "\u00bd tsp onion powder"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Dried Oregano",
+              "\u00bc tsp dried oregano"
+            ],
+            [
+              null,
+              null,
+              "To Taste Kosher Salt",
+              "To taste kosher salt"
+            ],
+            [
+              null,
+              null,
+              "To Taste Freshly Ground Black Pepper",
+              "To taste freshly ground black pepper"
+            ],
+            [
+              null,
+              null,
+              "Choice",
+              "Optional: to taste hot sauce of choice"
+            ],
+            [
+              1.0,
+              null,
+              "Cup Pecans",
+              "1 Cup pecans, toasted + roughly chopped"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1199",
+          "recipe_id": 1199,
+          "name": "Popcorn Balls",
+          "image_link": null,
+          "raw_ingredient_list": "3 Tbsp coconut oil\n\u00bd Cup popcorn kernels\n2 tsp kosher salt, divided\n\u2154 Cup peanuts\n\u00be Cup light corn syrup\n\u00be Cup granulated sugar\n\u00bc Cup water\n1 tsp vanilla extract",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              3.0,
+              "tablespoon",
+              "Coconut Oil",
+              "3 Tbsp coconut oil"
+            ],
+            [
+              0.5,
+              null,
+              "Cup Popcorn Kernels",
+              "\u00bd Cup popcorn kernels"
+            ],
+            [
+              2.0,
+              "teaspoon",
+              "Kosher Salt",
+              "2 tsp kosher salt, divided"
+            ],
+            [
+              0.6666666666666666,
+              null,
+              "Cup Peanuts",
+              "\u2154 Cup peanuts"
+            ],
+            [
+              0.75,
+              null,
+              "Cup Light Corn Syrup",
+              "\u00be Cup light corn syrup"
+            ],
+            [
+              0.75,
+              null,
+              "Cup Granulated Sugar",
+              "\u00be Cup granulated sugar"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Water",
+              "\u00bc Cup water"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Vanilla Extract",
+              "1 tsp vanilla extract"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1201",
+          "recipe_id": 1201,
+          "name": "Rum Balls",
+          "image_link": null,
+          "raw_ingredient_list": "4 oz pecans, roasted + finely chopped\n8 oz vanilla wafer cookies, ground\n4 oz powdered sugar + more for coating\n\u00be oz cocoa powder + more for coating\n4 oz dark rum\n3 Tbsp light corn syrup or honey\nIf needed, 1 oz water",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              4.0,
+              "ounce",
+              "Pecans",
+              "4 oz pecans, roasted + finely chopped"
+            ],
+            [
+              8.0,
+              "ounce",
+              "Vanilla Wafer Cookies",
+              "8 oz vanilla wafer cookies, ground"
+            ],
+            [
+              4.0,
+              "ounce",
+              "Powdered Sugar + More For Coating",
+              "4 oz powdered sugar + more for coating"
+            ],
+            [
+              0.75,
+              "ounce",
+              "Cocoa Powder + More For Coating",
+              "\u00be oz cocoa powder + more for coating"
+            ],
+            [
+              4.0,
+              "ounce",
+              "Dark Rum",
+              "4 oz dark rum"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Light Corn Syrup Or Honey",
+              "3 Tbsp light corn syrup or honey"
+            ],
+            [
+              null,
+              null,
+              "If Needed",
+              "If needed, 1 oz water"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/challah",
+    "episode_id": "challah",
+    "name": "CHALLAH",
+    "published_date": "2021-12-07",
+    "youtube_link": "https://www.youtube.com/watch?v=M558453kb9g",
+    "official_link": "https://basicswithbabish.co/basicsepisodes/challah",
+    "image_link": "https://img.youtube.com/vi/M558453kb9g/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/2",
+        "show_id": 2,
+        "name": "Basics with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1214",
+          "recipe_id": 1214,
+          "name": "Apple French Toast",
+          "image_link": null,
+          "raw_ingredient_list": "1 large loaf challah bread\n\u00be Cup heavy cream\n\u00be Cup whole milk\n4 large egg yolks\n3 Tbsp dark brown sugar\n1 tsp vanilla extract\n\u00bc tsp freshly grated nutmeg\nZest of 1 small lemon\n\u00bd tsp cinnamon, ground\n\u00bc tsp cardamom, ground\n\u00bc tsp ginger, ground\n\u215b tsp cloves, ground\n\u00bd tsp kosher salt + more to taste\n4 Tbsp unsalted butter, divided\n2 large granny smith apples, peeled + thinly sliced\n\u00bc Cup brown sugar\nOptional: 2 Tbsp boiled cider\nCreme Anglaise (see recipe below)",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              "large",
+              "Loaf Challah Bread",
+              "1 large loaf challah bread"
+            ],
+            [
+              0.75,
+              null,
+              "Cup Heavy Cream",
+              "\u00be Cup heavy cream"
+            ],
+            [
+              0.75,
+              null,
+              "Cup Milk",
+              "\u00be Cup whole milk"
+            ],
+            [
+              4.0,
+              "large",
+              "Egg Yolks",
+              "4 large egg yolks"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Dark Brown Sugar",
+              "3 Tbsp dark brown sugar"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Vanilla Extract",
+              "1 tsp vanilla extract"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Freshly Grated Nutmeg",
+              "\u00bc tsp freshly grated nutmeg"
+            ],
+            [
+              null,
+              null,
+              "1 Small Lemon",
+              "Zest of 1 small lemon"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Cinnamon",
+              "\u00bd tsp cinnamon, ground"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Cardamom",
+              "\u00bc tsp cardamom, ground"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Ginger",
+              "\u00bc tsp ginger, ground"
+            ],
+            [
+              0.125,
+              "teaspoon",
+              "Cloves",
+              "\u215b tsp cloves, ground"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Kosher Salt + More To Taste",
+              "\u00bd tsp kosher salt + more to taste"
+            ],
+            [
+              4.0,
+              "tablespoon",
+              "Unsalted Butter",
+              "4 Tbsp unsalted butter, divided"
+            ],
+            [
+              2.0,
+              "large",
+              "Granny Smith Apples",
+              "2 large granny smith apples, peeled + thinly sliced"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Brown Sugar",
+              "\u00bc Cup brown sugar"
+            ],
+            [
+              null,
+              null,
+              "Optional: 2 Tbsp Boiled Cider",
+              "Optional: 2 Tbsp boiled cider"
+            ],
+            [
+              null,
+              null,
+              "Creme Anglaise",
+              "Creme Anglaise (see recipe below)"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1212",
+          "recipe_id": 1212,
+          "name": "Challah",
+          "image_link": null,
+          "raw_ingredient_list": "500 g bread flour\n7 g (2 tsp) instant yeast\n125 g water (~80-85\u00b0F)\n80 g honey\n2 large eggs\n1 egg yolk\n60 g vegetable oil + more for greasing\n5 g (1 \u00bd) tsp kosher salt\nEgg wash (see recipe below)",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              500.0,
+              "gram",
+              "Bread Flour",
+              "500 g bread flour"
+            ],
+            [
+              7.0,
+              "gram",
+              "Instant Yeast",
+              "7 g (2 tsp) instant yeast"
+            ],
+            [
+              125.0,
+              "gram",
+              "Water",
+              "125 g water (~80-85\u00b0F)"
+            ],
+            [
+              80.0,
+              "gram",
+              "Honey",
+              "80 g honey"
+            ],
+            [
+              2.0,
+              "large",
+              "Eggs",
+              "2 large eggs"
+            ],
+            [
+              1.0,
+              null,
+              "Egg Yolk",
+              "1 egg yolk"
+            ],
+            [
+              60.0,
+              "gram",
+              "Vegetable Oil + More For Greasing",
+              "60 g vegetable oil + more for greasing"
+            ],
+            [
+              5.0,
+              "gram",
+              "Tsp Kosher Salt",
+              "5 g (1 \u00bd) tsp kosher salt"
+            ],
+            [
+              null,
+              null,
+              "Egg Wash",
+              "Egg wash (see recipe below)"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1215",
+          "recipe_id": 1215,
+          "name": "Creme Anglaise",
+          "image_link": null,
+          "raw_ingredient_list": "2 large egg yolks\n\u00bc Cup granulated sugar\n1 tsp vanilla extract\n\u00bc tsp freshly grated nutmeg\n\u00bd tsp cinnamon, ground\n\u00bc tsp cardamom, ground\n\u00bc tsp ginger, ground\n\u215b tsp cloves, ground\n\u00bd tsp kosher salt\n\u2153 Cup heavy cream\n\u2153 Cup whole milk",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              2.0,
+              "large",
+              "Egg Yolks",
+              "2 large egg yolks"
+            ],
+            [
+              0.25,
+              null,
+              "Cup Granulated Sugar",
+              "\u00bc Cup granulated sugar"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Vanilla Extract",
+              "1 tsp vanilla extract"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Freshly Grated Nutmeg",
+              "\u00bc tsp freshly grated nutmeg"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Cinnamon",
+              "\u00bd tsp cinnamon, ground"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Cardamom",
+              "\u00bc tsp cardamom, ground"
+            ],
+            [
+              0.25,
+              "teaspoon",
+              "Ginger",
+              "\u00bc tsp ginger, ground"
+            ],
+            [
+              0.125,
+              "teaspoon",
+              "Cloves",
+              "\u215b tsp cloves, ground"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Kosher Salt",
+              "\u00bd tsp kosher salt"
+            ],
+            [
+              0.3333333333333333,
+              null,
+              "Cup Heavy Cream",
+              "\u2153 Cup heavy cream"
+            ],
+            [
+              0.3333333333333333,
+              null,
+              "Cup Milk",
+              "\u2153 Cup whole milk"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1213",
+          "recipe_id": 1213,
+          "name": "Egg Wash",
+          "image_link": null,
+          "raw_ingredient_list": "1 whole egg\n1 egg yolk\n1 pinch kosher salt",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              "whole",
+              "Egg",
+              "1 whole egg"
+            ],
+            [
+              1.0,
+              null,
+              "Egg Yolk",
+              "1 egg yolk"
+            ],
+            [
+              1.0,
+              null,
+              "Pinch Kosher Salt",
+              "1 pinch kosher salt"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/squash-and-beef-its-always-sunny-in-philadelphia",
+    "episode_id": "squash-and-beef-its-always-sunny-in-philadelphia",
+    "name": "Squash and Beef inspired by It's Always Sunny in Philadelphia ",
+    "published_date": "2021-12-03",
+    "youtube_link": "https://www.youtube.com/watch?v=D2wxZjJl4ew",
+    "official_link": "https://www.bingingwithbabish.com/recipes/squash-and-beef-its-always-sunny-in-philadelphia",
+    "image_link": "https://img.youtube.com/vi/D2wxZjJl4ew/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/1",
+        "show_id": 1,
+        "name": "Binging with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/reference/10",
+          "reference_id": 10,
+          "type": "tv_show",
+          "name": "It's Always Sunny in Philadelphia",
+          "description": "Five friends with big egos and slightly arrogant attitudes are the proprietors of an Irish pub in Philadelphia. IMDb.",
+          "external_link": "https://www.imdb.com/title/tt0472954/",
+          "image_link": "https://i.ytimg.com/sh/7D01nDpcPH0v9jgEFxCykg/market.jpg"
+        }
+      ],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1198",
+          "recipe_id": 1198,
+          "name": "Babish Squash and Beef",
+          "image_link": null,
+          "raw_ingredient_list": "4 large short ribs\nAs needed kosher salt\n2 Tbsp neutral oil, divided\n1 yellow onion, roughly chopped\n1-inch knob ginger, peeled + grated\n1 garlic clove, minced\n1 tsp fermented chili paste\n1 Tbsp five-spice powder, toasted + ground\n1 \u00bd Cups dry red wine\n1 \u00bd Cups chicken stock, preferably homemade\n2 Tbsp brown sugar\n\u2153 Cup soy sauce\n\u2153 Cup Worcestershire sauce\nAs needed water\n1 butternut squashed, seed removed + halved\nAs needed freshly ground black pepper\n16 Tbsp browned butter, divided\n3 Tbsp heavy cream\n\u00bd tsp xanthan gum\nTo garnish: pea shoot microgreens",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              4.0,
+              "large",
+              "Short Ribs",
+              "4 large short ribs"
+            ],
+            [
+              null,
+              null,
+              "As Needed Kosher Salt",
+              "As needed kosher salt"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Neutral Oil",
+              "2 Tbsp neutral oil, divided"
+            ],
+            [
+              1.0,
+              null,
+              "Yellow Onion",
+              "1 yellow onion, roughly chopped"
+            ],
+            [
+              "1-",
+              null,
+              "Inch Knob Ginger",
+              "1-inch knob ginger, peeled + grated"
+            ],
+            [
+              1.0,
+              null,
+              "Garlic Clove",
+              "1 garlic clove, minced"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Fermented Chili Paste",
+              "1 tsp fermented chili paste"
+            ],
+            [
+              1.0,
+              "tablespoon",
+              "Five-spice Powder",
+              "1 Tbsp five-spice powder, toasted + ground"
+            ],
+            [
+              1.5,
+              null,
+              "Cups Dry Red Wine",
+              "1 \u00bd Cups dry red wine"
+            ],
+            [
+              1.5,
+              null,
+              "Cups Chicken Stock",
+              "1 \u00bd Cups chicken stock, preferably homemade"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Brown Sugar",
+              "2 Tbsp brown sugar"
+            ],
+            [
+              0.3333333333333333,
+              null,
+              "Cup Soy Sauce",
+              "\u2153 Cup soy sauce"
+            ],
+            [
+              0.3333333333333333,
+              null,
+              "Cup Worcestershire Sauce",
+              "\u2153 Cup Worcestershire sauce"
+            ],
+            [
+              null,
+              null,
+              "As Needed Water",
+              "As needed water"
+            ],
+            [
+              1.0,
+              null,
+              "Butternut Squashed",
+              "1 butternut squashed, seed removed + halved"
+            ],
+            [
+              null,
+              null,
+              "As Needed Freshly Ground Black Pepper",
+              "As needed freshly ground black pepper"
+            ],
+            [
+              16.0,
+              "tablespoon",
+              "Browned Butter",
+              "16 Tbsp browned butter, divided"
+            ],
+            [
+              3.0,
+              "tablespoon",
+              "Heavy Cream",
+              "3 Tbsp heavy cream"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Xanthan Gum",
+              "\u00bd tsp xanthan gum"
+            ],
+            [
+              null,
+              null,
+              "To Garnish: Pea Shoot Microgreens",
+              "To garnish: pea shoot microgreens"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "self": "ibdb://data-with-babish.jklewa.github.com/episode/turkey-5-ways",
+    "episode_id": "turkey-5-ways",
+    "name": "TURKEY: 5-WAYS",
+    "published_date": "2021-11-30",
+    "youtube_link": "https://www.youtube.com/watch?v=dWlStZlu6bY",
+    "official_link": "https://basicswithbabish.co/basicsepisodes/turkey-5-ways",
+    "image_link": "https://img.youtube.com/vi/dWlStZlu6bY/mqdefault.jpg",
+    "related": {
+      "show": {
+        "self": "ibdb://data-with-babish.jklewa.github.com/show/2",
+        "show_id": 2,
+        "name": "Basics with Babish",
+        "image_link": null
+      },
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1210",
+          "recipe_id": 1210,
+          "name": "Turkey",
+          "image_link": null,
+          "raw_ingredient_list": "1 (10-12 lb) turkey, thawed + neck/giblets removed\n16 oz unsalted butter, divided + soft\n\u00bc Cup herbs of choice (sage, thyme, rosemary, ect.), chopped\n1 tsp + \u00bd Cup kosher salt\n1 tsp freshly ground black pepper\n1 tsp baking powder\n1 Cup concentrated turkey stock\nIf needed, 2 large yellow onions, roughly chopped\nIf needed, 3 large carrots, roughly chopped\nIf needed, 4-5 celery ribs, roughly chopped\nIf needed, 1 Cup ghee/duck fat/chicken fat",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              1.0,
+              null,
+              "Turkey",
+              "1 (10-12 lb) turkey, thawed + neck/giblets removed"
+            ],
+            [
+              16.0,
+              "ounce",
+              "Unsalted Butter",
+              "16 oz unsalted butter, divided + soft"
+            ],
+            [
+              0.25,
+              null,
+              "Choice",
+              "\u00bc Cup herbs of choice (sage, thyme, rosemary, ect.), chopped"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "+ \u00bd Cup Kosher Salt",
+              "1 tsp + \u00bd Cup kosher salt"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Freshly Ground Black Pepper",
+              "1 tsp freshly ground black pepper"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Baking Powder",
+              "1 tsp baking powder"
+            ],
+            [
+              1.0,
+              null,
+              "Cup Concentrated Turkey Stock",
+              "1 Cup concentrated turkey stock"
+            ],
+            [
+              null,
+              null,
+              "If Needed",
+              "If needed, 2 large yellow onions, roughly chopped"
+            ],
+            [
+              null,
+              null,
+              "If Needed",
+              "If needed, 3 large carrots, roughly chopped"
+            ],
+            [
+              null,
+              null,
+              "If Needed",
+              "If needed, 4-5 celery ribs, roughly chopped"
+            ],
+            [
+              null,
+              null,
+              "If Needed",
+              "If needed, 1 Cup ghee/duck fat/chicken fat"
+            ]
+          ]
+        },
+        {
+          "self": "ibdb://data-with-babish.jklewa.github.com/recipe/1211",
+          "recipe_id": 1211,
+          "name": "Turkey Rub",
+          "image_link": null,
+          "raw_ingredient_list": "\u00bd Cup ghee, melted\n1 \u00bd tsp kosher salt\n1 tsp dried sage\n1 tsp dried rosemary\n1 tsp dried thyme\n\u00be tsp dried oregano\n\u00bd tsp black pepper\n\u00bd tsp onion powder\n1 tsp paprika\n2 Tbsp brown sugar",
+          "raw_procedure": "",
+          "ingredient_list": [
+            [
+              0.5,
+              null,
+              "Cup Ghee",
+              "\u00bd Cup ghee, melted"
+            ],
+            [
+              1.5,
+              "teaspoon",
+              "Kosher Salt",
+              "1 \u00bd tsp kosher salt"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Dried Sage",
+              "1 tsp dried sage"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Dried Rosemary",
+              "1 tsp dried rosemary"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Dried Thyme",
+              "1 tsp dried thyme"
+            ],
+            [
+              0.75,
+              "teaspoon",
+              "Dried Oregano",
+              "\u00be tsp dried oregano"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Black Pepper",
+              "\u00bd tsp black pepper"
+            ],
+            [
+              0.5,
+              "teaspoon",
+              "Onion Powder",
+              "\u00bd tsp onion powder"
+            ],
+            [
+              1.0,
+              "teaspoon",
+              "Paprika",
+              "1 tsp paprika"
+            ],
+            [
+              2.0,
+              "tablespoon",
+              "Brown Sugar",
+              "2 Tbsp brown sugar"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
     "self": "ibdb://data-with-babish.jklewa.github.com/episode/lunches-the-breakfast-club",
     "episode_id": "lunches-the-breakfast-club",
     "name": "Lunches inspired by The Breakfast Club",
@@ -8953,7 +12092,7 @@
   {
     "self": "ibdb://data-with-babish.jklewa.github.com/episode/trenette-el-pesto-luca",
     "episode_id": "trenette-el-pesto-luca",
-    "name": "Trenette el Pesto inspired by Luca",
+    "name": "Trenette al Pesto inspired by Luca",
     "published_date": "2021-07-07",
     "youtube_link": "https://www.youtube.com/watch?v=bWX0-NEjyNQ",
     "official_link": "https://www.bingingwithbabish.com/recipes/trenette-el-pesto-luca",
