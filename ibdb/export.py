@@ -36,7 +36,7 @@ def write_datasets():
     write_response('/guests?format=json', to=os.path.join(OUTPUT_DIR, 'ibdb.guests.json'))
     write_response('/recipes?format=json', to=os.path.join(OUTPUT_DIR, 'ibdb.recipes.json'))
     write_response('/references?format=json', to=os.path.join(OUTPUT_DIR, 'ibdb.references.json'))
-    write_response('/shows?format=json', to=os.path.join(OUTPUT_DIR, 'ibdb.shows.json'))
+    write_response('/tags?format=json', to=os.path.join(OUTPUT_DIR, 'ibdb.tags.json'))
 
 
 def cleanup_sqlfile(sql_filepath):

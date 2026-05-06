@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 12.9 (Debian 12.9-1.pgdg110+1)
--- Dumped by pg_dump version 12.9 (Ubuntu 12.9-0ubuntu0.20.04.1)
+-- Dumped from database version 12.5 (Debian 12.5-1.pgdg100+1)
+-- Dumped by pg_dump version 12.22 (Debian 12.22-3.pgdg12+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -60,11 +60,14 @@ ALTER TABLE public.alembic_version OWNER TO postgres;
 CREATE TABLE public.episode (
     id character varying NOT NULL,
     name character varying NOT NULL,
+    slug character varying,
     youtube_link character varying NOT NULL,
     official_link character varying NOT NULL,
     image_link character varying,
     published_date date,
-    show_id integer NOT NULL
+    time_to_cook integer,
+    yield_qty integer,
+    yield_unit character varying
 );
 
 
@@ -81,6 +84,18 @@ CREATE TABLE public.episode_inspired_by (
 
 
 ALTER TABLE public.episode_inspired_by OWNER TO postgres;
+
+--
+-- Name: episode_tags; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.episode_tags (
+    episode_id character varying NOT NULL,
+    tag_id integer NOT NULL
+);
+
+
+ALTER TABLE public.episode_tags OWNER TO postgres;
 
 --
 -- Name: guest; Type: TABLE; Schema: public; Owner: postgres
@@ -206,23 +221,24 @@ ALTER SEQUENCE public.reference_id_seq OWNED BY public.reference.id;
 
 
 --
--- Name: show; Type: TABLE; Schema: public; Owner: postgres
+-- Name: tag; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE public.show (
+CREATE TABLE public.tag (
     id integer NOT NULL,
+    axis character varying NOT NULL,
     name character varying NOT NULL,
-    image_link character varying
+    external_id character varying
 );
 
 
-ALTER TABLE public.show OWNER TO postgres;
+ALTER TABLE public.tag OWNER TO postgres;
 
 --
--- Name: show_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+-- Name: tag_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
-CREATE SEQUENCE public.show_id_seq
+CREATE SEQUENCE public.tag_id_seq
     AS integer
     START WITH 1
     INCREMENT BY 1
@@ -231,13 +247,13 @@ CREATE SEQUENCE public.show_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.show_id_seq OWNER TO postgres;
+ALTER TABLE public.tag_id_seq OWNER TO postgres;
 
 --
--- Name: show_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+-- Name: tag_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
 
-ALTER SEQUENCE public.show_id_seq OWNED BY public.show.id;
+ALTER SEQUENCE public.tag_id_seq OWNED BY public.tag.id;
 
 
 --
@@ -262,10 +278,10 @@ ALTER TABLE ONLY public.reference ALTER COLUMN id SET DEFAULT nextval('public.re
 
 
 --
--- Name: show id; Type: DEFAULT; Schema: public; Owner: postgres
+-- Name: tag id; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY public.show ALTER COLUMN id SET DEFAULT nextval('public.show_id_seq'::regclass);
+ALTER TABLE ONLY public.tag ALTER COLUMN id SET DEFAULT nextval('public.tag_id_seq'::regclass);
 
 
 --
@@ -273,7 +289,7 @@ ALTER TABLE ONLY public.show ALTER COLUMN id SET DEFAULT nextval('public.show_id
 --
 
 COPY public.alembic_version (version_num) FROM stdin;
-1fba43043f30
+8f2a1c4d9e30
 \.
 
 
@@ -281,409 +297,644 @@ COPY public.alembic_version (version_num) FROM stdin;
 -- Data for Name: episode; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.episode (id, name, youtube_link, official_link, image_link, published_date, show_id) FROM stdin;
-3daypotatosalad	3-Day Potato Salad inspired by SpongeBob SquarePants	https://www.youtube.com/watch?v=5Ugrgl9tB2s	https://www.bingingwithbabish.com/recipes/3daypotatosalad	https://img.youtube.com/vi/5Ugrgl9tB2s/mqdefault.jpg	2018-12-04	1
-5mill-special	5 Million Subscriber Special: Recreating Homer Simpson's NOLA Food Tour	https://www.youtube.com/watch?v=oM8c31ru92A	https://www.youtube.com/watch?v=oM8c31ru92A	https://img.youtube.com/vi/oM8c31ru92A/mqdefault.jpg	2019-09-10	1
-advanced-grilled-cheese	ADVANCED GRILLED CHEESE	https://www.youtube.com/watch?v=Zo7sRijXG00	https://basicswithbabish.co/basicsepisodes/advanced-grilled-cheese	https://img.youtube.com/vi/Zo7sRijXG00/mqdefault.jpg	2021-02-19	2
-adventure-time-sandwich	Jake's Perfect Sandwich inspired by Adventure Time	https://www.youtube.com/watch?v=HsxBw6ls7Z0	https://www.bingingwithbabish.com/recipes/2017/3/18/adventure-time-sandwich	https://img.youtube.com/vi/HsxBw6ls7Z0/mqdefault.jpg	2017-03-18	1
-adventuretimespecial	Adventure Time Special	https://www.youtube.com/watch?v=SjeS6gtPq8E	https://www.bingingwithbabish.com/recipes/adventuretimespecial	https://img.youtube.com/vi/SjeS6gtPq8E/mqdefault.jpg	2018-09-11	1
-aglioeolio	Pasta Aglio e Olio inspired by Chef	https://www.youtube.com/watch?v=bJUiWdM__Qw	https://www.bingingwithbabish.com/recipes/2017/5/4/aglioeolio	https://img.youtube.com/vi/bJUiWdM__Qw/mqdefault.jpg	2016-03-26	1
-alwayssunny	It's Always Sunny in Philadelphia Special (Part II)	https://www.youtube.com/watch?v=_fnhy5xO9vQ	https://www.bingingwithbabish.com/recipes/alwayssunny	https://img.youtube.com/vi/_fnhy5xO9vQ/mqdefault.jpg	2019-06-12	1
-andrewsohlathanksgiving	ANDREW & SOHLA THANKSGIVING RECIPES	https://www.youtube.com/watch?v=tXNuz8nXYGk	https://basicswithbabish.co/basicsepisodes/andrewsohlathanksgiving	https://img.youtube.com/vi/tXNuz8nXYGk/mqdefault.jpg	2020-11-20	2
-angel-food-cake-groundhog-day	Angel Food Cake inspired by Groundhog Day	https://www.youtube.com/watch?v=2d6VmncdK-E	https://www.bingingwithbabish.com/recipes/angel-food-cake-groundhog-day	https://img.youtube.com/vi/2d6VmncdK-E/mqdefault.jpg	2021-02-03	1
-apple-cider-donuts	APPLE CIDER DONUTS	https://www.youtube.com/watch?v=baZoJYAQjfI	https://basicswithbabish.co/basicsepisodes/apple-cider-donuts	https://img.youtube.com/vi/baZoJYAQjfI/mqdefault.jpg	2021-11-09	2
-applefritters	Double-Glazed Apple Fritters inspired by Regular Show	https://www.youtube.com/watch?v=YYSP1D6GJ30	https://www.bingingwithbabish.com/recipes/applefritters	https://img.youtube.com/vi/YYSP1D6GJ30/mqdefault.jpg	2019-08-27	1
-applepie	How To Make Apple Pie	https://www.youtube.com/watch?v=-Vy12e0LjX4	https://www.bingingwithbabish.com/recipes/2017/8/22/applepie	https://img.youtube.com/vi/-Vy12e0LjX4/mqdefault.jpg	2016-09-23	1
-applepiesmoothie	Apple Pie Smoothie	https://www.youtube.com/watch?v=mv1z2p3to0U	https://www.bingingwithbabish.com/recipes/2017/8/22/applepiesmoothie	https://img.youtube.com/vi/mv1z2p3to0U/mqdefault.jpg	2016-03-13	1
-archer-margarita	Margaritas inspired by Archer	https://www.youtube.com/watch?v=hsPXh3yna1U	https://www.bingingwithbabish.com/recipes/archer-margarita	https://img.youtube.com/vi/hsPXh3yna1U/mqdefault.jpg	2020-05-05	1
-aristocats	Crème de la Crème à la Edgar inspired by The Aristocats	https://www.youtube.com/watch?v=zNY-qzp7pD0	https://www.bingingwithbabish.com/recipes/aristocats	https://img.youtube.com/vi/zNY-qzp7pD0/mqdefault.jpg	2019-01-23	1
-arresteddevelopmentspecial	Arrested Development Special (feat. Sean Evans)	https://www.youtube.com/watch?v=2U_0OlCizx0	https://www.bingingwithbabish.com/recipes/2017/6/27/arresteddevelopmentspecial	https://img.youtube.com/vi/2U_0OlCizx0/mqdefault.jpg	2018-05-29	1
-avatar-fire-flakes	Fire Flakes inspired by Avatar the Last Airbender	https://www.youtube.com/watch?v=RhUMA3bCvAY	https://www.bingingwithbabish.com/recipes/avatar-fire-flakes	https://img.youtube.com/vi/RhUMA3bCvAY/mqdefault.jpg	2020-08-04	1
-avengersicecream	Ice Cream Flavors inspired by Avengers: Infinity War	https://www.youtube.com/watch?v=Ukjat70Iyt4	https://www.bingingwithbabish.com/recipes/avengersicecream	https://img.youtube.com/vi/Ukjat70Iyt4/mqdefault.jpg	2019-04-30	1
-babishpaniniwinner	#BabishPanini Winning Recipe - Car Panini inspired by Family Guy	https://www.youtube.com/watch?v=ImoP-Apzrsg	https://www.bingingwithbabish.com/recipes/babishpaniniwinner	https://img.youtube.com/vi/ImoP-Apzrsg/mqdefault.jpg	2018-08-21	1
-babka-inspired-by-seinfeld	Babka inspired by Seinfeld	https://www.youtube.com/watch?v=pw2A03Z91FI	https://www.bingingwithbabish.com/recipes/2017/5/09/babka-inspired-by-seinfeld	https://img.youtube.com/vi/pw2A03Z91FI/mqdefault.jpg	2017-05-09	1
-bachelor-chow-futurama	Bachelor Chow inspired by Futurama	https://www.youtube.com/watch?v=nowFI0WRpO0	https://www.bingingwithbabish.com/recipes/bachelor-chow-futurama	https://img.youtube.com/vi/nowFI0WRpO0/mqdefault.jpg	2021-01-26	1
-back-to-school-sandwich	Hors D'oeuvres Sandwich inspired by Back to School	https://www.youtube.com/watch?v=A7afwIxo5lE	https://www.bingingwithbabish.com/recipes/back-to-school-sandwich	https://img.youtube.com/vi/A7afwIxo5lE/mqdefault.jpg	2017-09-05	1
-bacon	HOMEMADE BACON	https://www.youtube.com/watch?v=TUh4Z2li1UM	https://basicswithbabish.co/basicsepisodes/bacon	https://img.youtube.com/vi/TUh4Z2li1UM/mqdefault.jpg	2021-04-30	2
-bagels	BAGELS	https://www.youtube.com/watch?v=ZrJtpCTZk38	https://basicswithbabish.co/basicsepisodes/bagels	https://img.youtube.com/vi/ZrJtpCTZk38/mqdefault.jpg	2019-01-24	2
-bagelsandwiches	Bagel Sandwiches inspired by Steven Universe	https://www.youtube.com/watch?v=wv43IN_cnyw	https://www.bingingwithbabish.com/recipes/bagelsandwiches	https://img.youtube.com/vi/wv43IN_cnyw/mqdefault.jpg	2019-07-23	1
-baklava	BAKLAVA	https://www.youtube.com/watch?v=OkzpwHodaAs	https://basicswithbabish.co/basicsepisodes/baklava	https://img.youtube.com/vi/OkzpwHodaAs/mqdefault.jpg	2020-10-15	2
-bananapuddingpizza	Banana Pudding Pizza inspired by Doug	https://www.youtube.com/watch?v=wcJS3nQjhqM	https://www.bingingwithbabish.com/recipes/bananapuddingpizza	https://img.youtube.com/vi/wcJS3nQjhqM/mqdefault.jpg	2018-09-18	1
-banoffeepie	Banoffee Pie inspired by Love, Actually	https://www.youtube.com/watch?v=TNTKRj2lS1g	https://www.bingingwithbabish.com/recipes/banoffeepie	https://img.youtube.com/vi/TNTKRj2lS1g/mqdefault.jpg	2019-12-27	1
-baobuns	Bao inspired by Pixar's Bao	https://www.youtube.com/watch?v=OFt3SThGi7M	https://www.bingingwithbabish.com/recipes/baobuns	https://img.youtube.com/vi/OFt3SThGi7M/mqdefault.jpg	2019-02-19	1
-barbecueporkchops	BARBECUE PORK CHOPS	https://www.youtube.com/watch?v=YV9XuvfIudY	https://basicswithbabish.co/basicsepisodes/barbecueporkchops	https://img.youtube.com/vi/YV9XuvfIudY/mqdefault.jpg	2018-06-28	2
-baressentials	BAR ESSENTIALS	https://www.youtube.com/watch?v=iZUfPIKbgUM	https://basicswithbabish.co/basicsepisodes/2017/10/23/baressentials	https://img.youtube.com/vi/iZUfPIKbgUM/mqdefault.jpg	2018-03-15	2
-baressentials-7xwwz	CHOCOLATE CHIP COOKIES	https://www.youtube.com/watch?v=ylxzfecackM	https://basicswithbabish.co/basicsepisodes/2017/10/23/baressentials-7xwwz	https://img.youtube.com/vi/ylxzfecackM/mqdefault.jpg	2018-03-29	2
-bearstew	Bear Stew inspired by Red Dead Redemption 2	https://www.youtube.com/watch?v=wMxKbkWrvDc	https://www.bingingwithbabish.com/recipes/bearstew	https://img.youtube.com/vi/wMxKbkWrvDc/mqdefault.jpg	2018-11-06	1
-beer-steamed-chili-dogs	Chili Dogs inspired by The Irishman	https://www.youtube.com/watch?v=c0A1bkF4mKM	https://www.bingingwithbabish.com/recipes/beer-steamed-chili-dogs	https://img.youtube.com/vi/c0A1bkF4mKM/mqdefault.jpg	2019-12-17	1
-beetandacorncookies	Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)	https://www.youtube.com/watch?v=6PTuUMJ2Uh8	https://www.bingingwithbabish.com/recipes/2017/8/22/beetandacorncookies	https://img.youtube.com/vi/6PTuUMJ2Uh8/mqdefault.jpg	2017-05-23	1
-beignetsfromchef	Beignets inspired by Chef (and Princess and the Frog)	https://www.youtube.com/watch?v=DnuHzHHwqAw	https://www.bingingwithbabish.com/recipes/beignetsfromchef	https://img.youtube.com/vi/DnuHzHHwqAw/mqdefault.jpg	2018-08-07	1
-being-with-babish-1	Giving Back to a Fan in Need	https://www.youtube.com/watch?v=YUDogDKMJbE	https://www.youtube.com/watch?v=YUDogDKMJbE	https://img.youtube.com/vi/YUDogDKMJbE/mqdefault.jpg	2019-03-22	4
-being-with-babish-2	Surprising a Fan with a Vegas Hotel Suite	https://www.youtube.com/watch?v=QphHaVaAeG4	https://www.youtube.com/watch?v=QphHaVaAeG4	https://img.youtube.com/vi/QphHaVaAeG4/mqdefault.jpg	2019-04-05	4
-being-with-babish-3	Surprising Rashid	https://www.youtube.com/watch?v=DApDGZ1AkFw	https://www.youtube.com/watch?v=DApDGZ1AkFw	https://img.youtube.com/vi/DApDGZ1AkFw/mqdefault.jpg	2019-04-26	4
-being-with-babish-4	Training like Kratos for 30 Days | Body by Babish	https://www.youtube.com/watch?v=n_aq5TVb0HA	https://www.youtube.com/watch?v=n_aq5TVb0HA	https://img.youtube.com/vi/n_aq5TVb0HA/mqdefault.jpg	2019-06-07	4
-being-with-babish-5	Whiskey Basics | Being with Babish Double Feature	https://www.youtube.com/watch?v=32Qlof81vcM	https://www.youtube.com/watch?v=32Qlof81vcM	https://img.youtube.com/vi/32Qlof81vcM/mqdefault.jpg	2019-07-12	4
-being-with-babish-6	I Surprised My Brother with a Tesla	https://www.youtube.com/watch?v=N44XgSRE-gY	https://www.youtube.com/watch?v=N44XgSRE-gY	https://img.youtube.com/vi/N44XgSRE-gY/mqdefault.jpg	2019-10-26	4
-ben-wyatt-calzones	Calzones inspired by Parks & Rec	https://www.youtube.com/watch?v=PvgCEifW7Jo	https://www.bingingwithbabish.com/recipes/ben-wyatt-calzones	https://img.youtube.com/vi/PvgCEifW7Jo/mqdefault.jpg	2020-04-15	1
-biggamesnacks	BIG GAME SNACKS	https://www.youtube.com/watch?v=8ckxhlDFNkg	https://basicswithbabish.co/basicsepisodes/biggamesnacks	https://img.youtube.com/vi/8ckxhlDFNkg/mqdefault.jpg	2019-01-31	2
-bigkahunaburger	Big Kahuna Burger inspired by Pulp Fiction	https://www.youtube.com/watch?v=OmwE0aJqkdA	https://www.bingingwithbabish.com/recipes/2017/5/4/bigkahunaburger	https://img.youtube.com/vi/OmwE0aJqkdA/mqdefault.jpg	2017-01-03	1
-birria-tacos	BIRRIA TACOS	https://www.youtube.com/watch?v=pQmSrlIbULk	https://basicswithbabish.co/basicsepisodes/birria-tacos	https://img.youtube.com/vi/pQmSrlIbULk/mqdefault.jpg	2021-03-11	2
-biscotti	BISCOTTI	https://www.youtube.com/watch?v=g4EkzEKlGOA	https://basicswithbabish.co/basicsepisodes/biscotti	https://img.youtube.com/vi/g4EkzEKlGOA/mqdefault.jpg	2021-09-24	2
-biscuits-and-gravy	BISCUITS AND GRAVY	https://www.youtube.com/watch?v=NMbMT9tY8-Q	https://basicswithbabish.co/basicsepisodes/biscuits-and-gravy	https://img.youtube.com/vi/NMbMT9tY8-Q/mqdefault.jpg	2021-02-25	2
-biscuits-ted-lasso	Biscuits inspired by Ted Lasso	https://www.youtube.com/watch?v=r_yBqWHtWMo	https://www.bingingwithbabish.com/recipes/biscuits-ted-lasso	https://img.youtube.com/vi/r_yBqWHtWMo/mqdefault.jpg	2021-03-16	1
-black-and-white-cookies-seinfeld	Black and White Cookies inspired by Seinfeld	https://www.youtube.com/watch?v=9Z7s35n3a5I	https://www.bingingwithbabish.com/recipes/black-and-white-cookies-seinfeld	https://img.youtube.com/vi/9Z7s35n3a5I/mqdefault.jpg	2021-09-01	1
-blendersoups	BLENDER SOUPS	https://www.youtube.com/watch?v=S-gUFvpRQoU	https://basicswithbabish.co/basicsepisodes/blendersoups	https://img.youtube.com/vi/S-gUFvpRQoU/mqdefault.jpg	2019-03-05	2
-blood-pie-inspired-by-game-of-thrones	Blood Pie inspired by Game of Thrones	https://www.youtube.com/watch?v=Y_hc07rAQlc	https://www.bingingwithbabish.com/recipes/2017/7/14/blood-pie-inspired-by-game-of-thrones	https://img.youtube.com/vi/Y_hc07rAQlc/mqdefault.jpg	2017-07-11	1
-bobsburgers	Bob's Burgers	https://www.youtube.com/watch?v=basFyoMSjds	https://www.bingingwithbabish.com/recipes/2017/6/27/bobsburgers	https://img.youtube.com/vi/basFyoMSjds/mqdefault.jpg	2017-03-14	1
-boeufbourguignon	Boeuf Bourguignon from Julie & Julia	https://www.youtube.com/watch?v=8DCw_eR_iPA	https://www.bingingwithbabish.com/recipes/2017/8/29/boeufbourguignon	https://img.youtube.com/vi/8DCw_eR_iPA/mqdefault.jpg	2017-04-27	1
-bolognese	BOLOGNESE	https://www.youtube.com/watch?v=vTEi5FFxMuE	https://basicswithbabish.co/basicsepisodes/bolognese	https://img.youtube.com/vi/vTEi5FFxMuE/mqdefault.jpg	2020-10-26	2
-bone-broth	Bone Broth inspired by The Mandalorian	https://www.youtube.com/watch?v=6GHwG1y-NE0	https://www.bingingwithbabish.com/recipes/bone-broth	https://img.youtube.com/vi/6GHwG1y-NE0/mqdefault.jpg	2019-12-11	1
-bop-egg-sandwich	Egg Sandwich (with Homemade Ciabatta) inspired by Birds of Prey	https://www.youtube.com/watch?v=6JFVKnrE_d8	https://www.bingingwithbabish.com/recipes/bop-egg-sandwich	https://img.youtube.com/vi/6JFVKnrE_d8/mqdefault.jpg	2020-02-25	1
-braciole	Braciole inspired by Everybody Loves Raymond	https://www.youtube.com/watch?v=1inpwA-_PzQ	https://www.bingingwithbabish.com/recipes/braciole	https://img.youtube.com/vi/1inpwA-_PzQ/mqdefault.jpg	2020-01-30	1
-bread	BREAD	https://www.youtube.com/watch?v=Jizr6LR83Kk	https://basicswithbabish.co/basicsepisodes/bread	https://img.youtube.com/vi/Jizr6LR83Kk/mqdefault.jpg	2018-07-27	2
-breakingbadspecial	Breaking Bad Special	https://www.youtube.com/watch?v=ZY63ZSUdywY	https://www.bingingwithbabish.com/recipes/2017/6/27/breakingbadspecial	https://img.youtube.com/vi/ZY63ZSUdywY/mqdefault.jpg	2018-02-06	1
-brie-butter-baguette-twin-peaks	Brie & Butter Baguette inspired by Twin Peaks	https://www.youtube.com/watch?v=vWdjqdmFHxw	https://www.bingingwithbabish.com/recipes/brie-butter-baguette-twin-peaks	https://img.youtube.com/vi/vWdjqdmFHxw/mqdefault.jpg	2020-11-03	1
-brocksdonuts	Brock's Donuts inspired by Pokémon	https://www.youtube.com/watch?v=RentKWlhUXc	https://www.bingingwithbabish.com/recipes/brocksdonuts	https://img.youtube.com/vi/RentKWlhUXc/mqdefault.jpg	2019-04-02	1
-brocksonigiri	Brock's Onigiri inspired by Pokémon	https://www.youtube.com/watch?v=gW4PCfLzTYA	https://www.bingingwithbabish.com/recipes/brocksonigiri	https://img.youtube.com/vi/gW4PCfLzTYA/mqdefault.jpg	2019-04-02	1
-broodwich-aqua-teen-hunger-force	The Broodwich inspired by Aqua Teen Hunger Force	https://www.youtube.com/watch?v=0vZvPtI5Uk8	https://www.bingingwithbabish.com/recipes/broodwich-aqua-teen-hunger-force	https://img.youtube.com/vi/0vZvPtI5Uk8/mqdefault.jpg	2020-10-27	1
-brownies	BROWNIES	https://www.youtube.com/watch?v=kDdUdvNQndo	https://basicswithbabish.co/basicsepisodes/brownies	https://img.youtube.com/vi/kDdUdvNQndo/mqdefault.jpg	2019-06-27	2
-bubbashrimp2	Shrimp inspired by Forrest Gump Part II	https://www.youtube.com/watch?v=mF6JUfczaO8	https://www.bingingwithbabish.com/recipes/bubbashrimp2	https://img.youtube.com/vi/mF6JUfczaO8/mqdefault.jpg	2019-04-23	1
-bubblebass	Bubble Bass' Order inspired by Spongebob Squarepants	https://www.youtube.com/watch?v=Y8hi6A5MPVY	https://www.bingingwithbabish.com/recipes/bubblebass	https://img.youtube.com/vi/Y8hi6A5MPVY/mqdefault.jpg	2018-05-22	1
-bunnicorn-pizza	Bunnicorn Pizza inspired by Star Trek: Picard	https://www.youtube.com/watch?v=2a8Uz3pYTh4	https://www.bingingwithbabish.com/recipes/bunnicorn-pizza	https://img.youtube.com/vi/2a8Uz3pYTh4/mqdefault.jpg	2020-03-17	1
-burgers	BURGERS	https://www.youtube.com/watch?v=nbCgfiqq-5c	https://basicswithbabish.co/basicsepisodes/burgers	https://img.youtube.com/vi/nbCgfiqq-5c/mqdefault.jpg	2018-06-14	2
-butterednoodles-community	Buttered Noodles inspired by Community	https://www.youtube.com/watch?v=xGHTj4y_bd8	https://www.bingingwithbabish.com/recipes/butterednoodles-community	https://img.youtube.com/vi/xGHTj4y_bd8/mqdefault.jpg	2020-05-26	1
-buttermilk-pancakes-inspired-by-twin-peaks	Buttermilk Pancakes inspired by Twin Peaks	https://www.youtube.com/watch?v=nEoSBL25RO4	https://www.bingingwithbabish.com/recipes/2017/5/18/buttermilk-pancakes-inspired-by-twin-peaks	https://img.youtube.com/vi/nEoSBL25RO4/mqdefault.jpg	2017-05-18	1
-caillesensarchophage	Cailles en Sarchophage inspired by Babette's Feast	https://www.youtube.com/watch?v=Bz1IXK6ahu0	https://www.youtube.com/watch?v=Bz1IXK6ahu0	https://img.youtube.com/vi/Bz1IXK6ahu0/mqdefault.jpg	2017-10-03	1
-cajunfood	CAJUN FOOD	https://www.youtube.com/watch?v=nORg_aXMsmA	https://basicswithbabish.co/basicsepisodes/cajunfood	https://img.youtube.com/vi/nORg_aXMsmA/mqdefault.jpg	2019-09-13	2
-cake-pops	CAKE POPS	https://www.youtube.com/watch?v=C_hz9wzeBbY	https://basicswithbabish.co/basicsepisodes/cake-pops	https://img.youtube.com/vi/C_hz9wzeBbY/mqdefault.jpg	2021-11-02	2
-calistyle-burrito	CALI-STYLE BURRITO	https://www.youtube.com/watch?v=55YUKZK7BXg	https://basicswithbabish.co/basicsepisodes/calistyle-burrito	https://img.youtube.com/vi/55YUKZK7BXg/mqdefault.jpg	2021-09-13	2
-carbonara	CARBONARA	https://www.youtube.com/watch?v=qoHnwOHLiMk	https://basicswithbabish.co/basicsepisodes/carbonara	https://img.youtube.com/vi/qoHnwOHLiMk/mqdefault.jpg	2019-08-15	2
-carpanini	Car Panini inspired by Family Guy	https://www.youtube.com/watch?v=4Rz8BPRFeiA	https://www.bingingwithbabish.com/recipes/carpanini	https://img.youtube.com/vi/4Rz8BPRFeiA/mqdefault.jpg	2018-07-10	1
-ccourtesan-au-chocolat	Courtesan au Chocolat inspired by Grand Budapest Hotel	https://www.youtube.com/watch?v=GO5P3fLTwA0	https://www.bingingwithbabish.com/recipes/2017/8/15/ccourtesan-au-chocolat	https://img.youtube.com/vi/GO5P3fLTwA0/mqdefault.jpg	2017-08-15	1
-charcuterieandcheeseboards	CHARCUTERIE & CHEESE BOARDS	https://www.youtube.com/watch?v=VnrScNQDcEQ	https://basicswithbabish.co/basicsepisodes/charcuterieandcheeseboards	https://img.youtube.com/vi/VnrScNQDcEQ/mqdefault.jpg	2018-12-06	2
-charliebrownthanksgiving	Charlie Brown Thanksgiving	https://www.youtube.com/watch?v=5FyKxVJmsdE	https://www.bingingwithbabish.com/recipes/charliebrownthanksgiving	https://img.youtube.com/vi/5FyKxVJmsdE/mqdefault.jpg	2018-11-20	1
-chateaubriandsteak	Chateaubriand Steak inspired by The Matrix	https://www.youtube.com/watch?v=eA6uLMsl9w0	https://www.bingingwithbabish.com/recipes/2017/6/27/chateaubriandsteak	https://img.youtube.com/vi/eA6uLMsl9w0/mqdefault.jpg	2018-04-17	1
-cheesdips	CHEESE DIPS	https://www.youtube.com/watch?v=9toK5UUGeok	https://basicswithbabish.co/basicsepisodes/cheesdips	https://img.youtube.com/vi/9toK5UUGeok/mqdefault.jpg	2019-05-02	2
-cheese-fondue	CHEEESE FONDUE	https://www.youtube.com/watch?v=_X-Mm8h1AHM	https://basicswithbabish.co/basicsepisodes/cheese-fondue	https://img.youtube.com/vi/_X-Mm8h1AHM/mqdefault.jpg	2020-07-23	2
-cheesesteak	Philly Cheesesteaks inspired by Creed	https://www.youtube.com/watch?v=Zru1yk--rGQ	https://www.bingingwithbabish.com/recipes/2017/5/4/cheesesteak	https://img.youtube.com/vi/Zru1yk--rGQ/mqdefault.jpg	2016-08-21	1
-cheesyblasters	Cheesy Blasters inspired by 30 Rock	https://www.youtube.com/watch?v=atLL2Yzi3bg	https://www.bingingwithbabish.com/recipes/cheesyblasters	https://img.youtube.com/vi/atLL2Yzi3bg/mqdefault.jpg	2018-05-15	1
-chefs-choice-platter-monster-hunter-world	The Chef's Choice Platter inspired by Monster Hunter: World	https://www.youtube.com/watch?v=__qtH1ly2Sg	https://www.bingingwithbabish.com/recipes/chefs-choice-platter-monster-hunter-world	https://img.youtube.com/vi/__qtH1ly2Sg/mqdefault.jpg	2021-03-31	1
-chicken-fingers-community	Chicken Fingers inspired by Community	https://www.youtube.com/watch?v=MJoSs4BGaHI	https://www.bingingwithbabish.com/recipes/chicken-fingers-community	https://img.youtube.com/vi/MJoSs4BGaHI/mqdefault.jpg	2021-04-02	1
-chicken-kiev-mad-men	Chicken Kiev inspired by Mad Men	https://www.youtube.com/watch?v=kf8XzD-xVGc	https://www.bingingwithbabish.com/recipes/chicken-kiev-mad-men	https://img.youtube.com/vi/kf8XzD-xVGc/mqdefault.jpg	2021-03-02	1
-chicken-parmesan	CHICKEN PARMESAN	https://www.youtube.com/watch?v=ZrR0VbqNdW8	https://basicswithbabish.co/basicsepisodes/chicken-parmesan	https://img.youtube.com/vi/ZrR0VbqNdW8/mqdefault.jpg	2020-12-10	2
-chicken-pot-pie	CHICKEN POT PIE	https://www.youtube.com/watch?v=Sv7NP9LMU4Q	https://basicswithbabish.co/basicsepisodes/chicken-pot-pie	https://img.youtube.com/vi/Sv7NP9LMU4Q/mqdefault.jpg	2020-11-13	2
-chickenpaprikash	Chicken Paprikash inspired by Captain America: Civil War	https://www.youtube.com/watch?v=baG767jr8c8	https://www.bingingwithbabish.com/recipes/2017/6/27/chickenpaprikash	https://img.youtube.com/vi/baG767jr8c8/mqdefault.jpg	2018-04-24	1
-chickentikkamasala	CHICKEN TIKKA MASALA	https://www.youtube.com/watch?v=Bkd0LxBd2L8	https://basicswithbabish.co/basicsepisodes/chickentikkamasala	https://img.youtube.com/vi/Bkd0LxBd2L8/mqdefault.jpg	2019-03-28	2
-chickpeas	CHICKPEAS (HUMMUS, CHANA MASALA, MERINGUES, COOKIES)	https://www.youtube.com/watch?v=LfzKfD_WuDM	https://basicswithbabish.co/basicsepisodes/chickpeas	https://img.youtube.com/vi/LfzKfD_WuDM/mqdefault.jpg	2020-03-19	2
-chileanseabass	Chilean Sea Bass inspired by Jurassic Park	https://www.youtube.com/watch?v=p73kqpqGqqQ	https://www.bingingwithbabish.com/recipes/chileanseabass	https://img.youtube.com/vi/p73kqpqGqqQ/mqdefault.jpg	2018-11-27	1
-chiles-rellenos	CHILES RELLENOS	https://www.youtube.com/watch?v=gAKW8RB6aeU	https://basicswithbabish.co/basicsepisodes/chiles-rellenos	https://img.youtube.com/vi/gAKW8RB6aeU/mqdefault.jpg	2021-08-26	2
-chili-two-ways	CHILI (MEAT & VEGETARIAN)	https://www.youtube.com/watch?v=4BTm1Ezl6XE	https://basicswithbabish.co/basicsepisodes/chili-two-ways	https://img.youtube.com/vi/4BTm1Ezl6XE/mqdefault.jpg	2020-01-30	2
-chimichangas	CHIMICHANGAS	https://www.youtube.com/watch?v=szFLA4_pwew	https://basicswithbabish.co/basicsepisodes/chimichangas	https://img.youtube.com/vi/szFLA4_pwew/mqdefault.jpg	2020-04-28	2
-chocolate-cake-inspired-by-matilda	Chocolate Cake inspired by Matilda	https://www.youtube.com/watch?v=exQ6oGefSiA	https://www.bingingwithbabish.com/recipes/2017/6/6/chocolate-cake-inspired-by-matilda	https://img.youtube.com/vi/exQ6oGefSiA/mqdefault.jpg	2017-06-06	1
-chocolate-pudding-rugrats	Chocolate Pudding (4 Ways) inspired by Rugrats	https://www.youtube.com/watch?v=1lPU4CwSnTc	https://www.bingingwithbabish.com/recipes/chocolate-pudding-rugrats	https://img.youtube.com/vi/1lPU4CwSnTc/mqdefault.jpg	2020-03-03	1
-chocolatelavacakes	Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi	https://www.youtube.com/watch?v=qbMTukAJskQ	https://www.bingingwithbabish.com/recipes/2017/8/22/chocolatelavacakes	https://img.youtube.com/vi/qbMTukAJskQ/mqdefault.jpg	2018-02-20	1
-chopped-cheese	CHOPPED CHEESE	https://www.youtube.com/watch?v=E1z55dYHv8c	https://basicswithbabish.co/basicsepisodes/chopped-cheese	https://img.youtube.com/vi/E1z55dYHv8c/mqdefault.jpg	2021-07-13	2
-cinnamonrolls	Cinnamon Rolls inspired by Jim Gaffigan's Stand Up (sort of)	https://www.youtube.com/watch?v=jFYi2QRVFOc	https://www.bingingwithbabish.com/recipes/cinnamonrolls	https://img.youtube.com/vi/jFYi2QRVFOc/mqdefault.jpg	2018-10-23	1
-classicpancakes	Classic Pancakes inspired by Uncle Buck	https://www.youtube.com/watch?v=WMj7G-U3LW8	https://www.bingingwithbabish.com/recipes/classicpancakes	https://img.youtube.com/vi/WMj7G-U3LW8/mqdefault.jpg	2019-08-20	1
-clayroastedthigh	Clay-Roasted Thigh inspired by Hannibal	https://www.youtube.com/watch?v=lnB7svFAZBs	https://www.bingingwithbabish.com/recipes/2017/8/22/clayroastedthigh	https://img.youtube.com/vi/lnB7svFAZBs/mqdefault.jpg	2017-10-31	1
-clementinecake	Clementine Cake inspired by The Secret Life of Walter Mitty	https://www.youtube.com/watch?v=cr2wUlNSFg0	https://www.bingingwithbabish.com/recipes/2017/8/22/clementinecake	https://img.youtube.com/vi/cr2wUlNSFg0/mqdefault.jpg	2018-03-06	1
-cocktail-special	Cocktail Special	https://www.youtube.com/watch?v=v5tJBLfeurU	https://www.bingingwithbabish.com/recipes/2017/6/27/cocktail-special	https://img.youtube.com/vi/v5tJBLfeurU/mqdefault.jpg	2017-06-27	1
-coffee	COFFEE	https://www.youtube.com/watch?v=6yItCQB4V9A	https://basicswithbabish.co/basicsepisodes/coffee	https://img.youtube.com/vi/6yItCQB4V9A/mqdefault.jpg	2019-05-31	2
-coffeecake	COFFEE CAKE	https://www.youtube.com/watch?v=ds0jskRIeRI	https://basicswithbabish.co/basicsepisodes/coffeecake	https://img.youtube.com/vi/ds0jskRIeRI/mqdefault.jpg	2020-05-14	2
-coffeejelly	Coffee Jelly inspired by The Disastrous Life of Saiki K.	https://www.youtube.com/watch?v=YxEcd_wTf5c	https://www.bingingwithbabish.com/recipes/coffeejelly	https://img.youtube.com/vi/YxEcd_wTf5c/mqdefault.jpg	2019-09-24	1
-cold-cure	Cold Cure inspired by Kenan & Kel	https://www.youtube.com/watch?v=M-7t9FBecoU	https://www.bingingwithbabish.com/recipes/cold-cure	https://img.youtube.com/vi/M-7t9FBecoU/mqdefault.jpg	2020-03-24	1
-cookie-cat-steven-universe	Cookie Cat inspired by Steven Universe	https://www.youtube.com/watch?v=KbNRvWfndjA	https://www.bingingwithbabish.com/recipes/cookie-cat-steven-universe	https://img.youtube.com/vi/KbNRvWfndjA/mqdefault.jpg	2021-02-16	1
-cookie-dough	COOKIE DOUGH	https://www.youtube.com/watch?v=Il1Cy4tQCkk	https://basicswithbabish.co/basicsepisodes/cookie-dough	https://img.youtube.com/vi/Il1Cy4tQCkk/mqdefault.jpg	2021-06-04	2
-coqauvin	Coq au Vin inspired by Donnie Brasco	https://www.youtube.com/watch?v=VP1uTgikarU	https://www.bingingwithbabish.com/recipes/coqauvin	https://img.youtube.com/vi/VP1uTgikarU/mqdefault.jpg	2019-01-15	1
-corn-dogs	CORN DOGS	https://www.youtube.com/watch?v=zGT45vVJNso	https://basicswithbabish.co/basicsepisodes/corn-dogs	https://img.youtube.com/vi/zGT45vVJNso/mqdefault.jpg	2021-05-27	2
-cornbread	CORNBREAD	https://www.youtube.com/watch?v=nAtCqHJofJk	https://basicswithbabish.co/basicsepisodes/cornbread	https://img.youtube.com/vi/nAtCqHJofJk/mqdefault.jpg	2019-12-12	2
-creme-caramel	CRÈME CARAMEL	https://www.youtube.com/watch?v=ihS8__strtM	https://basicswithbabish.co/basicsepisodes/creme-caramel	https://img.youtube.com/vi/ihS8__strtM/mqdefault.jpg	2021-04-08	2
-cremebrule	Crème Brûlée inspired by Amelie	https://www.youtube.com/watch?v=dn_aaxZIA2o	https://www.bingingwithbabish.com/recipes/2017/8/22/cremebrule	https://img.youtube.com/vi/dn_aaxZIA2o/mqdefault.jpg	2018-04-03	1
-crepessuzette	Crêpes Suzette inspired by Talladega Nights	https://www.youtube.com/watch?v=Z1kR6SIr1XA	https://www.bingingwithbabish.com/recipes/crepessuzette	https://img.youtube.com/vi/Z1kR6SIr1XA/mqdefault.jpg	2019-10-24	1
-croque-monsieur-brooklyn-nine-nine	Croque Monsieur inspired by Brooklyn Nine-Nine	https://www.youtube.com/watch?v=q7JDYiLz9Mo	https://www.bingingwithbabish.com/recipes/croque-monsieur-brooklyn-nine-nine	https://img.youtube.com/vi/q7JDYiLz9Mo/mqdefault.jpg	2020-07-21	1
-croquemadame	Croque Madame: The Ultimate Breakfast Sandwich	https://www.youtube.com/watch?v=dVRl1aP28BI	https://www.bingingwithbabish.com/recipes/2017/8/22/croquemadame	https://img.youtube.com/vi/dVRl1aP28BI/mqdefault.jpg	2016-03-13	1
-cubanos-inspired-by-chef	Cubanos inspired by Chef	https://www.youtube.com/watch?v=hXYoduN0kWs	https://www.bingingwithbabish.com/recipes/2017/3/28/cubanos-inspired-by-chef	https://img.youtube.com/vi/hXYoduN0kWs/mqdefault.jpg	2017-03-28	1
-curbyourenthusiasm	Curb Your Enthusiasm Special	https://www.youtube.com/watch?v=XIZxT7iI-QI	https://www.bingingwithbabish.com/recipes/2017/6/27/curbyourenthusiasm	https://img.youtube.com/vi/XIZxT7iI-QI/mqdefault.jpg	2017-10-10	1
-dalgona-squid-games	Dalgona inspired by Squid Games	https://www.youtube.com/watch?v=s5SqsNPWYA4	https://www.bingingwithbabish.com/recipes/dalgona-squid-games	https://img.youtube.com/vi/s5SqsNPWYA4/mqdefault.jpg	2021-10-13	1
-date-night	DATE NIGHT	https://www.youtube.com/watch?v=dFh7tZoGYA4	https://basicswithbabish.co/basicsepisodes/date-night	https://img.youtube.com/vi/dFh7tZoGYA4/mqdefault.jpg	2021-02-12	2
-deadpoolpizza	Pizza inspired by Deadpool	https://www.youtube.com/watch?v=95M8W1JgH_0	https://www.bingingwithbabish.com/recipes/deadpoolpizza	https://img.youtube.com/vi/95M8W1JgH_0/mqdefault.jpg	2018-06-19	1
-deathsandwich	Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show	https://www.youtube.com/watch?v=o5XNzsf78KE	https://www.bingingwithbabish.com/recipes/deathsandwich	https://img.youtube.com/vi/o5XNzsf78KE/mqdefault.jpg	2019-04-09	1
-deepdishpizza	Deep Dish Pizza inspired by The Daily Show	https://www.youtube.com/watch?v=hyUnGjykNwg	https://www.bingingwithbabish.com/recipes/deepdishpizza	https://img.youtube.com/vi/hyUnGjykNwg/mqdefault.jpg	2019-10-09	1
-dessertdogs	Dessert Dogs inspired by The Simpsons	https://www.youtube.com/watch?v=chil75Ip-3w	https://www.bingingwithbabish.com/recipes/dessertdogs	https://img.youtube.com/vi/chil75Ip-3w/mqdefault.jpg	2020-01-15	1
-dessertpasta	Breakfast Dessert Pasta from Elf	https://www.youtube.com/watch?v=PsuoXi2D6tM	https://www.bingingwithbabish.com/recipes/2017/8/22/dessertpasta	https://img.youtube.com/vi/PsuoXi2D6tM/mqdefault.jpg	2016-12-20	1
-dexter-key-lime-pie	Perfect Key Lime Pie inspired by Dexter	https://www.youtube.com/watch?v=UOztOU4T-_c	https://www.bingingwithbabish.com/recipes/dexter-key-lime-pie	https://img.youtube.com/vi/UOztOU4T-_c/mqdefault.jpg	2020-07-29	1
-dinner-wandavision	Dinner inspired by WandaVision	https://www.youtube.com/watch?v=4e7iksx-Zig	https://www.bingingwithbabish.com/recipes/dinner-wandavision	https://img.youtube.com/vi/4e7iksx-Zig/mqdefault.jpg	2021-03-09	1
-direwolfbread	Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)	https://www.youtube.com/watch?v=6nuEgc2RVWo	https://www.bingingwithbabish.com/recipes/direwolfbread	https://img.youtube.com/vi/6nuEgc2RVWo/mqdefault.jpg	2018-09-25	1
-donuts	DONUTS	https://www.youtube.com/watch?v=9PWomdbZi2U	https://basicswithbabish.co/basicsepisodes/donuts	https://img.youtube.com/vi/9PWomdbZi2U/mqdefault.jpg	2018-11-01	2
-dutchbaby	Dutch Baby inspired by Bob's Burgers	https://www.youtube.com/watch?v=RwlYqnO9DSE	https://www.bingingwithbabish.com/recipes/dutchbaby	https://img.youtube.com/vi/RwlYqnO9DSE/mqdefault.jpg	2019-01-03	1
-egg-custard-tarts	Egg Custard Tarts inspired by Avatar the Last Airbender	https://www.youtube.com/watch?v=F2ENkOF3fMQ	https://www.bingingwithbabish.com/recipes/egg-custard-tarts	https://img.youtube.com/vi/F2ENkOF3fMQ/mqdefault.jpg	2020-01-08	1
-egginanest	Eggs in a Nest inspired by Lots of Stuff	https://www.youtube.com/watch?v=4QDDxmtbUsw	https://www.bingingwithbabish.com/recipes/2017/8/22/egginanest	https://img.youtube.com/vi/4QDDxmtbUsw/mqdefault.jpg	2018-01-30	1
-eggs	EGGS	https://www.youtube.com/watch?v=xBGoJUxxRqU	https://basicswithbabish.co/basicsepisodes/2017/10/23/eggs	https://img.youtube.com/vi/xBGoJUxxRqU/mqdefault.jpg	2018-03-01	2
-eggscellentchallenge	3 Million Subscriber Special: The Eggscellent Challenge inspired by Regular Show	https://www.youtube.com/watch?v=ImoP-Apzrsg	https://www.bingingwithbabish.com/recipes/eggscellentchallenge	https://img.youtube.com/vi/ImoP-Apzrsg/mqdefault.jpg	2018-08-21	1
-eggsflorentine	Eggs Florentine inspired by Frasier	https://www.youtube.com/watch?v=34j9_tbM7og	https://www.bingingwithbabish.com/recipes/eggsflorentine	https://img.youtube.com/vi/34j9_tbM7og/mqdefault.jpg	2018-11-13	1
-eggspart2	EGGS PART II	https://www.youtube.com/watch?v=CFatEWNx5RQ	https://basicswithbabish.co/basicsepisodes/eggspart2	https://img.youtube.com/vi/CFatEWNx5RQ/mqdefault.jpg	2018-04-12	2
-eggswoodhouse	Eggs Woodhouse For Good from Archer	https://www.youtube.com/watch?v=eVgmI-YF16g	https://www.bingingwithbabish.com/recipes/2017/8/22/eggswoodhouse	https://img.youtube.com/vi/eVgmI-YF16g/mqdefault.jpg	2016-12-13	1
-enchiladas-schitts-creek	Enchiladas inspired by Schitt's Creek	https://www.youtube.com/watch?v=SkKjQhCTP54	https://www.bingingwithbabish.com/recipes/enchiladas-schitts-creek	https://img.youtube.com/vi/SkKjQhCTP54/mqdefault.jpg	2020-09-09	1
-english-muffins	ENGLISH MUFFINS	https://www.youtube.com/watch?v=5E_DIPttHuE	https://basicswithbabish.co/basicsepisodes/english-muffins	https://img.youtube.com/vi/5E_DIPttHuE/mqdefault.jpg	2021-08-06	2
-espressodrinks	ESPRESSO DRINKS	https://www.youtube.com/watch?v=W-osWU1WJuM	https://basicswithbabish.co/basicsepisodes/espressodrinks	https://img.youtube.com/vi/W-osWU1WJuM/mqdefault.jpg	2019-10-24	2
-everymeatburrito	The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special	https://www.youtube.com/watch?v=Mf4wwXM2o_M	https://www.bingingwithbabish.com/recipes/2017/8/22/everymeatburrito	https://img.youtube.com/vi/Mf4wwXM2o_M/mqdefault.jpg	2018-01-16	1
-falafels	FALAFEL	https://www.youtube.com/watch?v=-98r0kpLbIM	https://basicswithbabish.co/basicsepisodes/falafels	https://img.youtube.com/vi/-98r0kpLbIM/mqdefault.jpg	2021-05-14	2
-feast-from-chef	Feast inspired by Chef	https://www.youtube.com/watch?v=ghnXKzE4z7o	https://www.bingingwithbabish.com/recipes/feast-from-chef	https://img.youtube.com/vi/ghnXKzE4z7o/mqdefault.jpg	2021-10-04	1
-fettuccine-alfredo-the-office	Fettuccine Alfredo inspired by The Office	https://www.youtube.com/watch?v=WS6_CeuSn_s	https://www.bingingwithbabish.com/recipes/fettuccine-alfredo-the-office	https://img.youtube.com/vi/WS6_CeuSn_s/mqdefault.jpg	2021-04-14	1
-fish	FISH	https://www.youtube.com/watch?v=KObL442PWhQ	https://basicswithbabish.co/basicsepisodes/fish	https://img.youtube.com/vi/KObL442PWhQ/mqdefault.jpg	2018-05-17	2
-fish-fingers-custard-doctor-who	Fish Fingers and Custard inspired by Doctor Who	https://www.youtube.com/watch?v=aTBhpS570JE	https://www.bingingwithbabish.com/recipes/fish-fingers-custard-doctor-who	https://img.youtube.com/vi/aTBhpS570JE/mqdefault.jpg	2021-05-11	1
-fitz-sandwich	The Fitz Sandwich inspired by Agents of S.H.I.E.L.D.	https://www.youtube.com/watch?v=xugufifsB4s	https://www.bingingwithbabish.com/recipes/2017/8/22/fitz-sandwich	https://img.youtube.com/vi/xugufifsB4s/mqdefault.jpg	2017-08-22	1
-flandershotcocoa	Flanders' Hot Chocolate inspired by The Simpsons Movie	https://www.youtube.com/watch?v=UCZVSr2Xt2k	https://www.bingingwithbabish.com/recipes/2017/8/22/flandershotcocoa	https://img.youtube.com/vi/UCZVSr2Xt2k/mqdefault.jpg	2017-12-12	1
-flatbreads	FLATBREADS	https://www.youtube.com/watch?v=3e-f8iK5QLs	https://basicswithbabish.co/basicsepisodes/flatbreads	https://img.youtube.com/vi/3e-f8iK5QLs/mqdefault.jpg	2021-06-22	2
-forrestgumpshrimp	Shrimp inspired by Forrest Gump | Part 1	https://www.youtube.com/watch?v=6HBPHRDEt_Q	https://www.bingingwithbabish.com/recipes/forrestgumpshrimp	https://img.youtube.com/vi/6HBPHRDEt_Q/mqdefault.jpg	2018-07-03	1
-four-horsemeal-eggporkalypse-parks-and-rec	Four Horsemeals of the Eggporkalypse inspired by Parks & Rec 	https://www.youtube.com/watch?v=NWGVFi-213w	https://www.bingingwithbabish.com/recipes/four-horsemeal-eggporkalypse-parks-and-rec	https://img.youtube.com/vi/NWGVFi-213w/mqdefault.jpg	2020-08-18	1
-fraiserspecial	Frasier Special	https://www.youtube.com/watch?v=AwS_DIMeVoM	https://www.bingingwithbabish.com/recipes/2017/6/27/fraiserspecial	https://img.youtube.com/vi/AwS_DIMeVoM/mqdefault.jpg	2018-02-13	1
-freddys-ribs-inspired-by-house-of-cards	Freddy's Ribs inspired by House of Cards	https://www.youtube.com/watch?v=2uHhKAjnvNc	https://www.bingingwithbabish.com/recipes/2017/6/13/freddys-ribs-inspired-by-house-of-cards	https://img.youtube.com/vi/2uHhKAjnvNc/mqdefault.jpg	2017-06-13	1
-freezer-meals	FREEZER MEALS	https://www.youtube.com/watch?v=-XUzpAiYuVA	https://basicswithbabish.co/basicsepisodes/freezer-meals	https://img.youtube.com/vi/-XUzpAiYuVA/mqdefault.jpg	2021-05-07	2
-french-toast	FRENCH TOAST	https://www.youtube.com/watch?v=SntU6-vxzWc	https://basicswithbabish.co/basicsepisodes/french-toast	https://img.youtube.com/vi/SntU6-vxzWc/mqdefault.jpg	2020-06-20	2
-frenchonionsoup	FRENCH ONION SOUP	https://www.youtube.com/watch?v=1qRir364aNk	https://basicswithbabish.co/basicsepisodes/frenchonionsoup	https://img.youtube.com/vi/1qRir364aNk/mqdefault.jpg	2020-01-09	2
-fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	Fried Chicken & Waffle Breakfast Lasagna inspired by The Boondocks	https://www.youtube.com/watch?v=VnXu22HZBNQ	https://www.bingingwithbabish.com/recipes/2017/7/4/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	https://img.youtube.com/vi/VnXu22HZBNQ/mqdefault.jpg	2017-07-04	1
-friedgreentomatoes	Fried Green Tomatoes inspired by...Fried Green Tomatoes	https://www.youtube.com/watch?v=KKBkY-7TCw0	https://www.bingingwithbabish.com/recipes/friedgreentomatoes	https://img.youtube.com/vi/KKBkY-7TCw0/mqdefault.jpg	2018-07-24	1
-friedrice	FRIED RICE	https://www.youtube.com/watch?v=Dk0axPbD2pc	https://basicswithbabish.co/basicsepisodes/friedrice	https://img.youtube.com/vi/Dk0axPbD2pc/mqdefault.jpg	2019-01-03	2
-game-day-snacks-part-2	GAME DAY SNACKS PART II	https://www.youtube.com/watch?v=rR4t9LRy-6o	https://basicswithbabish.co/basicsepisodes/game-day-snacks-part-2	https://img.youtube.com/vi/rR4t9LRy-6o/mqdefault.jpg	2021-02-04	2
-garbageplate	The Garbage Plate inspired by The Place Beyond The Pines (sort of)	https://www.youtube.com/watch?v=wjoeVwJTUTA	https://www.bingingwithbabish.com/recipes/2017/8/22/garbageplate	https://img.youtube.com/vi/wjoeVwJTUTA/mqdefault.jpg	2017-11-28	1
-garlic-bread-scott-pilgrim	Garlic Bread inspired by Scott Pilgrim vs the World	https://www.youtube.com/watch?v=jBnWZijMbMY	https://www.bingingwithbabish.com/recipes/garlic-bread-scott-pilgrim	https://img.youtube.com/vi/jBnWZijMbMY/mqdefault.jpg	2020-10-06	1
-generaltsoschicken	GENERAL TSO'S CHICKEN	https://www.youtube.com/watch?v=6UnRHtwHGSE	https://basicswithbabish.co/basicsepisodes/generaltsoschicken	https://img.youtube.com/vi/6UnRHtwHGSE/mqdefault.jpg	2019-07-18	2
-gluten-free-pasta	GLUTEN-FREE PASTA	https://www.youtube.com/watch?v=MVdu-DYcfTA	https://basicswithbabish.co/basicsepisodes/gluten-free-pasta	https://img.youtube.com/vi/MVdu-DYcfTA/mqdefault.jpg	2021-06-14	2
-gnocchi	GNOCCHI	https://www.youtube.com/watch?v=LMJrLc13SuI	https://basicswithbabish.co/basicsepisodes/gnocchi	https://img.youtube.com/vi/LMJrLc13SuI/mqdefault.jpg	2020-05-07	2
-goodfellasprisonsauce	Prison Sauce inspired by Goodfellas	https://www.youtube.com/watch?v=uEjMyHccX8U	https://www.bingingwithbabish.com/recipes/2017/6/15/goodfellasprisonsauce	https://img.youtube.com/vi/uEjMyHccX8U/mqdefault.jpg	2016-11-30	1
-goodmorningburger	Good Morning Burger inspired by The Simpsons	https://www.youtube.com/watch?v=hzAgFNh4vRY	https://www.bingingwithbabish.com/recipes/goodmorningburger	https://img.youtube.com/vi/hzAgFNh4vRY/mqdefault.jpg	2019-05-07	1
-gotcha-pork-roast-food-wars	Gotcha Pork Roast inspired by Food Wars (Shokugeki no Soma)	https://www.youtube.com/watch?v=NfrLH0T0rdU	https://www.bingingwithbabish.com/recipes/gotcha-pork-roast-food-wars	https://img.youtube.com/vi/NfrLH0T0rdU/mqdefault.jpg	2021-04-12	1
-grilled-feast	GRILLED FEAST	https://www.youtube.com/watch?v=m6X5I_FI04A	https://basicswithbabish.co/basicsepisodes/grilled-feast	https://img.youtube.com/vi/m6X5I_FI04A/mqdefault.jpg	2021-07-07	2
-grilledcheesedeluxe	Grilled Cheese Deluxe inspired by Regular Show	https://www.youtube.com/watch?v=NFAN6L7xnvY	https://www.bingingwithbabish.com/recipes/grilledcheesedeluxe	https://img.youtube.com/vi/NFAN6L7xnvY/mqdefault.jpg	2019-04-16	1
-grilledcheesevidcon	National Grilled Cheese Day + VidCon Announcement	https://www.youtube.com/watch?v=hwjdXBxeWsc	https://www.youtube.com/watch?v=hwjdXBxeWsc	https://img.youtube.com/vi/hwjdXBxeWsc/mqdefault.jpg	2018-04-11	1
-grilling-5j345	GRILLING BASICS	https://www.youtube.com/watch?v=u0feM_2mLvo	https://basicswithbabish.co/basicsepisodes/grilling-5j345	https://img.youtube.com/vi/u0feM_2mLvo/mqdefault.jpg	2018-05-11	2
-grits-breakfast-my-cousin-vinny	Grits inspired by My Cousin Vinny	https://www.youtube.com/watch?v=GbfUeneG0s8	https://www.bingingwithbabish.com/recipes/grits-breakfast-my-cousin-vinny	https://img.youtube.com/vi/GbfUeneG0s8/mqdefault.jpg	2021-10-08	1
-harrypotterspecial	Harry Potter Special	https://www.youtube.com/watch?v=LXDAu8DnALw	https://www.bingingwithbabish.com/recipes/2017/6/27/harrypotterspecial	https://img.youtube.com/vi/LXDAu8DnALw/mqdefault.jpg	2017-11-14	1
-healthy-meals-brown-rice	HEALTHY MEALS: BROWN RICE	https://www.youtube.com/watch?v=hMDwYiYIeRw	https://basicswithbabish.co/basicsepisodes/healthy-meals-brown-rice	https://img.youtube.com/vi/hMDwYiYIeRw/mqdefault.jpg	2021-01-21	2
-healthymeals	HEALTHY MEALS	https://www.youtube.com/watch?v=APwwGy4GzK8	https://basicswithbabish.co/basicsepisodes/healthymeals	https://img.youtube.com/vi/APwwGy4GzK8/mqdefault.jpg	2019-06-13	2
-healthymeals2	HEALTHIER VERSIONS OF UNHEALTHY FOOD	https://www.youtube.com/watch?v=yYUUobrsFDs	https://basicswithbabish.co/basicsepisodes/healthymeals2	https://img.youtube.com/vi/yYUUobrsFDs/mqdefault.jpg	2019-11-14	2
-holidaycocktails	HOLIDAY COCKTAILS	https://www.youtube.com/watch?v=LftLcYM6Fzw	https://basicswithbabish.co/basicsepisodes/holidaycocktails	https://img.youtube.com/vi/LftLcYM6Fzw/mqdefault.jpg	2018-12-13	2
-homemade-mozzarella	Caprese Salad inspired by Jojo's Bizarre Adventure	https://www.youtube.com/watch?v=Ao7RQj8sxuo	https://www.bingingwithbabish.com/recipes/homemade-mozzarella	https://img.youtube.com/vi/Ao7RQj8sxuo/mqdefault.jpg	2020-04-21	1
-hot-chicken	NASHVILLE HOT CHICKEN	https://www.youtube.com/watch?v=FPx7X7k0HuM	https://basicswithbabish.co/basicsepisodes/hot-chicken	https://img.youtube.com/vi/FPx7X7k0HuM/mqdefault.jpg	2020-04-10	2
-huevosrancheros	Huevos Rancheros inspired by Breaking Bad	https://www.youtube.com/watch?v=pdNm4ug9PpE	https://www.bingingwithbabish.com/recipes/huevosrancheros	https://img.youtube.com/vi/pdNm4ug9PpE/mqdefault.jpg	2019-06-20	1
-ice-cream-cake	ICE CREAM CAKE	https://www.youtube.com/watch?v=sTntmGwbf_U	https://basicswithbabish.co/basicsepisodes/ice-cream-cake	https://img.youtube.com/vi/sTntmGwbf_U/mqdefault.jpg	2021-07-20	2
-ice-cream-sandwiches	ICE CREAM SANDWICHES	https://www.youtube.com/watch?v=m6fnJ6rQPok	https://basicswithbabish.co/basicsepisodes/ice-cream-sandwiches	https://img.youtube.com/vi/m6fnJ6rQPok/mqdefault.jpg	2020-04-24	2
-icecream	ICE CREAM	https://www.youtube.com/watch?v=MdirPsiHnCA	https://basicswithbabish.co/basicsepisodes/icecream	https://img.youtube.com/vi/MdirPsiHnCA/mqdefault.jpg	2018-07-12	2
-il-timpano-inspired-by-big-night	Il Timpano inspired by Big Night	https://www.youtube.com/watch?v=PIsIE0oHGgo	https://www.bingingwithbabish.com/recipes/2017/2/20/il-timpano-inspired-by-big-night	https://img.youtube.com/vi/PIsIE0oHGgo/mqdefault.jpg	2016-02-20	1
-iloveyoumanfishtacos	Fish Tacos from I Love You, Man	https://www.youtube.com/watch?v=Izvd-iztaQk	https://www.bingingwithbabish.com/recipes/2017/8/22/iloveyoumanfishtacos	https://img.youtube.com/vi/Izvd-iztaQk/mqdefault.jpg	2017-01-12	1
-imaginary-pie-hook	Imaginary Pie inspired by Hook	https://www.youtube.com/watch?v=lZsun7ppDeQ	https://www.bingingwithbabish.com/recipes/imaginary-pie-hook	https://img.youtube.com/vi/lZsun7ppDeQ/mqdefault.jpg	2020-03-31	1
-indianbreads	INDIAN BREADS	https://www.youtube.com/watch?v=RnApthldLPY	https://basicswithbabish.co/basicsepisodes/indianbreads	https://img.youtube.com/vi/RnApthldLPY/mqdefault.jpg	2019-10-10	2
-infernowings	Inferno Wings inspired by Regular Show	https://www.youtube.com/watch?v=dRLCZqEfJFA	https://www.bingingwithbabish.com/recipes/infernowings	https://img.youtube.com/vi/dRLCZqEfJFA/mqdefault.jpg	2019-07-16	1
-ingloriousbasterds	Strudel inspired by Inglourious Basterds	https://www.youtube.com/watch?v=7H3z3J50XCs	https://www.bingingwithbabish.com/recipes/2017/8/22/ingloriousbasterds	https://img.youtube.com/vi/7H3z3J50XCs/mqdefault.jpg	2017-01-23	1
-instant-mac-cheese	Instant Mac and Cheese inspired by Once Upon a Time in Hollywood	https://www.youtube.com/watch?v=EuU_uUb_3nQ	https://www.bingingwithbabish.com/recipes/instant-mac-cheese	https://img.youtube.com/vi/EuU_uUb_3nQ/mqdefault.jpg	2020-02-04	1
-introductiontools	INTRODUCTION/TOOLS	https://www.youtube.com/watch?v=1AxLzMJIgxM	https://basicswithbabish.co/basicsepisodes/2017/10/11/introductiontools	https://img.youtube.com/vi/1AxLzMJIgxM/mqdefault.jpg	2017-10-11	2
-isotope-dog-the-simpsons	Isotope Dogs inspired by The Simpsons	https://www.youtube.com/watch?v=w5K2ZoPVD5E	https://www.bingingwithbabish.com/recipes/isotope-dog-the-simpsons	https://img.youtube.com/vi/w5K2ZoPVD5E/mqdefault.jpg	2021-09-21	1
-itsalwayssunnyspecial	It's Always Sunny in Philadelphia Special	https://www.youtube.com/watch?v=Q2ezpExQ_k0	https://www.bingingwithbabish.com/recipes/2017/6/27/itsalwayssunnyspecial	https://img.youtube.com/vi/Q2ezpExQ_k0/mqdefault.jpg	2017-02-20	1
-jerk-chicken	JERK CHICKEN	https://www.youtube.com/watch?v=WOMOVA9UMic	https://basicswithbabish.co/basicsepisodes/jerk-chicken	https://img.youtube.com/vi/WOMOVA9UMic/mqdefault.jpg	2021-08-03	2
-johnnycakes	Johnny Cakes inspired by The Sopranos	https://www.youtube.com/watch?v=DdFKKZe73Pk	https://www.bingingwithbabish.com/recipes/johnnycakes	https://img.youtube.com/vi/DdFKKZe73Pk/mqdefault.jpg	2018-08-28	1
-judys-hot-cocoa-santa-clause	Judy's Hot Cocoa inspired by the Santa Clause	https://www.youtube.com/watch?v=rBYd_O38Ncw	https://www.bingingwithbabish.com/recipes/judys-hot-cocoa-santa-clause	https://img.youtube.com/vi/rBYd_O38Ncw/mqdefault.jpg	2020-12-22	1
-kettle-corn-community	Kettle Corn inspired by Community	https://www.youtube.com/watch?v=aGPqK_hHA28	https://www.bingingwithbabish.com/recipes/kettle-corn-community	https://img.youtube.com/vi/aGPqK_hHA28/mqdefault.jpg	2021-06-02	1
-kevinschili	Kevin's Famous Chili inspired by The Office	https://www.youtube.com/watch?v=eQ9eY0_DoEk	https://www.bingingwithbabish.com/recipes/2017/1/18/kevinschili	https://img.youtube.com/vi/eQ9eY0_DoEk/mqdefault.jpg	2017-01-18	1
-kfcmeal	KFC Bucket Meal inspired by Stranger Things	https://www.youtube.com/watch?v=WtAoc3_1Ido	https://www.bingingwithbabish.com/recipes/kfcmeal	https://img.youtube.com/vi/WtAoc3_1Ido/mqdefault.jpg	2019-08-07	1
-kimchi	KIMCHI	https://www.youtube.com/watch?v=R0x7ECje-lY	https://basicswithbabish.co/basicsepisodes/kimchi	https://img.youtube.com/vi/R0x7ECje-lY/mqdefault.jpg	2020-08-14	2
-kingofthehillspecial	King of the Hill Special	https://www.youtube.com/watch?v=iq6_iUhLHo4	https://www.bingingwithbabish.com/recipes/kingofthehillspecial	https://img.youtube.com/vi/iq6_iUhLHo4/mqdefault.jpg	2018-10-16	1
-kitchencare	KITCHEN CARE	https://www.youtube.com/watch?v=xSjVrR7KPqA	https://basicswithbabish.co/basicsepisodes/kitchencare	https://img.youtube.com/vi/xSjVrR7KPqA/mqdefault.jpg	2018-09-20	2
-korean-rice-cakes	KOREAN RICE CAKES (TTEOKBOKKI)	https://www.youtube.com/watch?v=XJ79FPwav4g	https://basicswithbabish.co/basicsepisodes/korean-rice-cakes	https://img.youtube.com/vi/XJ79FPwav4g/mqdefault.jpg	2021-03-26	2
-krabby-patty-inspired-by-spongebob-squarepants	Krabby Patty inspired by SpongeBob SquarePants	https://www.youtube.com/watch?v=7EnWiGYT1g4	https://www.bingingwithbabish.com/recipes/2017/5/31/krabby-patty-inspired-by-spongebob-squarepants	https://img.youtube.com/vi/7EnWiGYT1g4/mqdefault.jpg	2017-05-31	1
-krabbysupreme	Krabby Supreme inspired by Spongebob Squarepants	https://www.youtube.com/watch?v=Rzd0mLf366I	https://www.bingingwithbabish.com/recipes/krabbysupreme	https://img.youtube.com/vi/Rzd0mLf366I/mqdefault.jpg	2019-02-26	1
-kumandra-soup-raya-and-the-last-dragon	Kumandra Soup inspired by Raya and the Last Dragon	https://www.youtube.com/watch?v=MDL7DenDYCE	https://www.bingingwithbabish.com/recipes/kumandra-soup-raya-and-the-last-dragon	https://img.youtube.com/vi/MDL7DenDYCE/mqdefault.jpg	2021-04-27	1
-la-bombe-eclair-the-simpsons	La Bombe Eclair inspired by The Simpsons	https://www.youtube.com/watch?v=M73XCOzZAU0	https://www.bingingwithbabish.com/recipes/la-bombe-eclair-the-simpsons	https://img.youtube.com/vi/M73XCOzZAU0/mqdefault.jpg	2021-08-03	1
-lamb-chops	LAMB CHOPS	https://www.youtube.com/watch?v=9eyS51ufJGU	https://basicswithbabish.co/basicsepisodes/lamb-chops	https://img.youtube.com/vi/9eyS51ufJGU/mqdefault.jpg	2020-09-11	2
-larbstickyrice	Lettuce Wraps & Mango Sticky Rice inspired by Spider-Man: Homecoming	https://www.youtube.com/watch?v=VweTeaGwiXQ	https://www.bingingwithbabish.com/recipes/larbstickyrice	https://img.youtube.com/vi/VweTeaGwiXQ/mqdefault.jpg	2019-07-10	1
-lasagna	Lasagna inspired by Garfield (feat. It's Alive with Brad)	https://www.youtube.com/watch?v=TkWmK-cplV4	https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna	https://img.youtube.com/vi/TkWmK-cplV4/mqdefault.jpg	2018-03-27	1
-last-minute-thanksgiving	LAST-MINUTE THANKSGIVING	https://www.youtube.com/watch?v=HLY-7ZkhhLE	https://basicswithbabish.co/basicsepisodes/last-minute-thanksgiving	https://img.youtube.com/vi/HLY-7ZkhhLE/mqdefault.jpg	2020-11-25	2
-latkes	LATKES (POTATO PANCAKES)	https://www.youtube.com/watch?v=AwOoMG3J4h8	https://basicswithbabish.co/basicsepisodes/latkes	https://img.youtube.com/vi/AwOoMG3J4h8/mqdefault.jpg	2020-04-02	2
-lemon-cakes-inspired-by-game-of-thrones	Lemon Cakes inspired by Game of Thrones	https://www.youtube.com/watch?v=Y_hc07rAQlc	https://www.bingingwithbabish.com/recipes/2017/7/11/lemon-cakes-inspired-by-game-of-thrones	https://img.youtube.com/vi/Y_hc07rAQlc/mqdefault.jpg	2017-07-11	1
-lemon-pepper-wet	Lemon Pepper Wet inspired by Atlanta	https://www.youtube.com/watch?v=Enan6eEmtqM	https://www.bingingwithbabish.com/recipes/2017/7/25/lemon-pepper-wet	https://img.youtube.com/vi/Enan6eEmtqM/mqdefault.jpg	2017-07-25	1
-lilbits-rickandmorty	Lil' Bits inspired by Rick & Morty	https://www.youtube.com/watch?v=BxEDztBWdbc	https://www.bingingwithbabish.com/recipes/lilbits-rickandmorty	https://img.youtube.com/vi/BxEDztBWdbc/mqdefault.jpg	2020-05-12	1
-lotr-feast-special	LOTR 7 Million Subscriber Special inspired by Lord of the Rings	https://www.youtube.com/watch?v=-aFrFsn998o	https://www.bingingwithbabish.com/recipes/lotr-feast-special	https://img.youtube.com/vi/-aFrFsn998o/mqdefault.jpg	2020-07-13	1
-louiefriedchicken	Fried Chicken inspired by Louie	https://www.youtube.com/watch?v=7UEIBdMyj9g	https://www.bingingwithbabish.com/recipes/2016/3/16/louiefriedchicken	https://img.youtube.com/vi/7UEIBdMyj9g/mqdefault.jpg	2016-03-16	1
-loversdelightsundae	Lovers' Delight Sundae from 30 Rock	https://www.youtube.com/watch?v=iX7Dzr2whWQ	https://www.youtube.com/watch?v=iX7Dzr2whWQ	https://img.youtube.com/vi/iX7Dzr2whWQ/mqdefault.jpg	2017-02-06	1
-lunches-the-breakfast-club	Lunches inspired by The Breakfast Club	https://www.youtube.com/watch?v=PzZ7K0qJvTQ	https://www.bingingwithbabish.com/recipes/lunches-the-breakfast-club	https://img.youtube.com/vi/PzZ7K0qJvTQ/mqdefault.jpg	2021-11-19	1
-macandcheese	MAC AND CHEESE	https://www.youtube.com/watch?v=FUeyrEN14Rk	https://basicswithbabish.co/basicsepisodes/macandcheese	https://img.youtube.com/vi/FUeyrEN14Rk/mqdefault.jpg	2020-06-05	2
-macarons-the-mandalorian	Macarons inspired by The Mandalorian	https://www.youtube.com/watch?v=IGS0JouUgjM	https://www.bingingwithbabish.com/recipes/macarons-the-mandalorian	https://img.youtube.com/vi/IGS0JouUgjM/mqdefault.jpg	2020-12-01	1
-madmen	Room Service inspired by Mad Men	https://www.youtube.com/watch?v=BagY2Mnz-TU	https://www.bingingwithbabish.com/recipes/2017/6/27/madmen	https://img.youtube.com/vi/BagY2Mnz-TU/mqdefault.jpg	2017-09-26	1
-maisel-brisket	Brisket inspired by The Marvelous Mrs. Maisel	https://www.youtube.com/watch?v=TutmnWa6dVo	https://www.bingingwithbabish.com/recipes/maisel-brisket	https://img.youtube.com/vi/TutmnWa6dVo/mqdefault.jpg	2020-04-08	1
-marmalade	Marmalade Sandwiches inspired by Paddington	https://www.youtube.com/watch?v=g1j-5UkZyL0	https://www.bingingwithbabish.com/recipes/marmalade	https://img.youtube.com/vi/g1j-5UkZyL0/mqdefault.jpg	2020-01-23	1
-mashed-potatoes	MASHED POTATOES	https://www.youtube.com/watch?v=ZLnWdPPJvYg	https://basicswithbabish.co/basicsepisodes/mashed-potatoes	https://img.youtube.com/vi/ZLnWdPPJvYg/mqdefault.jpg	2020-09-03	2
-mc1035-archer	Mc10:35 inspired by Archer	https://www.youtube.com/watch?v=LyagMC0bokI	https://www.bingingwithbabish.com/recipes/mc1035-archer	https://img.youtube.com/vi/LyagMC0bokI/mqdefault.jpg	2021-08-20	1
-meat-pies-sweeny-todd	Meat Pies inspired by Sweeny Todd	https://www.youtube.com/watch?v=hwKtoO3OmeU	https://www.bingingwithbabish.com/recipes/meat-pies-sweeny-todd	https://img.youtube.com/vi/hwKtoO3OmeU/mqdefault.jpg	2021-11-05	1
-meat-tornado-parks-and-rec	Meat Tornado inspired by Parks & Rec 	https://www.youtube.com/watch?v=LsNg-KrFxCA	https://www.bingingwithbabish.com/recipes/meat-tornado-parks-and-rec	https://img.youtube.com/vi/LsNg-KrFxCA/mqdefault.jpg	2020-08-25	1
-meatghetti-spagballs-american-dad	Meat-ghetti and Spag-balls inspired by American Dad	https://www.youtube.com/watch?v=PwbgLteVwvs	https://www.bingingwithbabish.com/recipes/meatghetti-spagballs-american-dad	https://img.youtube.com/vi/PwbgLteVwvs/mqdefault.jpg	2021-06-21	1
-meatloaf	MEATLOAF	https://www.youtube.com/watch?v=KgNQ6ZrT4RQ	https://basicswithbabish.co/basicsepisodes/meatloaf	https://img.youtube.com/vi/KgNQ6ZrT4RQ/mqdefault.jpg	2021-04-16	2
-megs-dinner-family-guy	Meg's Dinner inspired by Family Guy	https://www.youtube.com/watch?v=6NOtF4l9i9g	https://www.bingingwithbabish.com/recipes/megs-dinner-family-guy	https://img.youtube.com/vi/6NOtF4l9i9g/mqdefault.jpg	2021-08-12	1
-michaelscottpretzel	Michael Scott’s Pretzel inspired by The Office	https://www.youtube.com/watch?v=NHA9Ffaal2M	https://www.bingingwithbabish.com/recipes/2017/8/22/michaelscottpretzel	https://img.youtube.com/vi/NHA9Ffaal2M/mqdefault.jpg	2017-10-17	1
-millionaires-shortbread	MILLIONAIRE'S SHORTBREAD	https://www.youtube.com/watch?v=GWAY5i3CMpo	https://basicswithbabish.co/basicsepisodes/millionaires-shortbread	https://img.youtube.com/vi/GWAY5i3CMpo/mqdefault.jpg	2020-02-14	2
-mirages-pork-chops	Mirage's Pork Chops inspired by Apex Legends	https://www.youtube.com/watch?v=SZcUJuXjCsw	https://www.bingingwithbabish.com/recipes/mirages-pork-chops	https://img.youtube.com/vi/SZcUJuXjCsw/mqdefault.jpg	2019-10-31	1
-mochi-icecream	MOCHI ICE CREAM	https://www.youtube.com/watch?v=fM57RNUpd10	https://basicswithbabish.co/basicsepisodes/mochi-icecream	https://img.youtube.com/vi/fM57RNUpd10/mqdefault.jpg	2020-07-16	2
-moistmaker	The Moistmaker inspired by Friends	https://www.youtube.com/watch?v=vjZXcapkFEU	https://www.bingingwithbabish.com/recipes/2017/6/27/moistmaker	https://img.youtube.com/vi/vjZXcapkFEU/mqdefault.jpg	2016-11-14	1
-monicas-candy-friends	Monica's Candy inspired by Friends	https://www.youtube.com/watch?v=bK0NdaDOsG0	https://www.bingingwithbabish.com/recipes/monicas-candy-friends	https://img.youtube.com/vi/bK0NdaDOsG0/mqdefault.jpg	2020-12-15	1
-monkey-bread	MONKEY BREAD	https://www.youtube.com/watch?v=JGL2m6-SLMQ	https://basicswithbabish.co/basicsepisodes/monkey-bread	https://img.youtube.com/vi/JGL2m6-SLMQ/mqdefault.jpg	2021-06-25	2
-moonwaffles	Homer Simpson's Patented Space Age Out-Of-This-World Moon Waffles	https://www.youtube.com/watch?v=27mUWs2wjPs	https://www.bingingwithbabish.com/recipes/2017/8/29/moonwaffles	https://img.youtube.com/vi/27mUWs2wjPs/mqdefault.jpg	2017-05-02	1
-moroccanpasta	Moroccan Pasta inspired by Peep Show	https://www.youtube.com/watch?v=kBo7FK3NO6s	https://www.bingingwithbabish.com/recipes/2017/8/22/moroccanpasta	https://img.youtube.com/vi/kBo7FK3NO6s/mqdefault.jpg	2018-01-09	1
-mostexpensiveshake	$5 Milkshake inspired by Pulp Fiction	https://www.youtube.com/watch?v=SfNgpLkV6KE	https://www.bingingwithbabish.com/recipes/mostexpensiveshake	https://img.youtube.com/vi/SfNgpLkV6KE/mqdefault.jpg	2019-10-16	1
-mulancongee	Congee inspired by Mulan	https://www.youtube.com/watch?v=VGsIsfIyz4E	https://www.bingingwithbabish.com/recipes/mulancongee	https://img.youtube.com/vi/VGsIsfIyz4E/mqdefault.jpg	2018-06-26	1
-nachos	Nachos inspired by The Good Place (plus Naco Redemption)	https://www.youtube.com/watch?v=LgzudBvmd08	https://www.bingingwithbabish.com/recipes/nachos	https://img.youtube.com/vi/LgzudBvmd08/mqdefault.jpg	2019-11-07	1
-nypizzatmnt	New York-Style Pizza inspired by TMNT II: Secret of the Ooze	https://www.youtube.com/watch?v=KUu2gJn1dzc	https://www.bingingwithbabish.com/recipes/2017/5/16/nypizzatmnt	https://img.youtube.com/vi/KUu2gJn1dzc/mqdefault.jpg	2016-04-30	1
-okonomiyaki	Okonomiyaki inspired by Sweetness & Lightning	https://www.youtube.com/watch?v=DNg7Obo-DDM	https://www.bingingwithbabish.com/recipes/okonomiyaki	https://img.youtube.com/vi/DNg7Obo-DDM/mqdefault.jpg	2018-07-17	1
-omelette-du-fromage-dexters-laboratory	Omelette du Fromage inspired by Dexter's Laboratory	https://www.youtube.com/watch?v=8q8LsYbDCmM	https://www.bingingwithbabish.com/recipes/omelette-du-fromage-dexters-laboratory	https://img.youtube.com/vi/8q8LsYbDCmM/mqdefault.jpg	2020-11-17	1
-onepot-pasta	ONE-POT PASTA	https://www.youtube.com/watch?v=cs8OYby6RrA	https://basicswithbabish.co/basicsepisodes/onepot-pasta	https://img.youtube.com/vi/cs8OYby6RrA/mqdefault.jpg	2020-06-25	2
-orangemochafrapp	Orange Mocha Frappuccinos inspired by Zoolander	https://www.youtube.com/watch?v=exe_I-tnxpU	https://www.bingingwithbabish.com/recipes/orangemochafrapp	https://img.youtube.com/vi/exe_I-tnxpU/mqdefault.jpg	2019-05-29	1
-orangemochafrapp-fpm9l	Bacon and Eggs Breakfast inspired by Howl's Moving Castle	https://www.youtube.com/watch?v=UPccIAVvQA4	https://www.bingingwithbabish.com/recipes/orangemochafrapp-fpm9l	https://img.youtube.com/vi/UPccIAVvQA4/mqdefault.jpg	2019-06-04	1
-ossobuco	Osso Buco inspired by The Office	https://www.youtube.com/watch?v=Jr9Is6NsFck	https://www.bingingwithbabish.com/recipes/ossobuco	https://img.youtube.com/vi/Jr9Is6NsFck/mqdefault.jpg	2019-12-04	1
-pan-sauces	PAN SAUCES	https://www.youtube.com/watch?v=ru4U_T83uOU	https://basicswithbabish.co/basicsepisodes/pan-sauces	https://img.youtube.com/vi/ru4U_T83uOU/mqdefault.jpg	2020-05-01	2
-pancontomate-crabcakes	PAN CON TOMATE & THAI CRAB CAKES		https://www.bingingwithbabish.com/recipes/pancontomate-crabcakes	https://images.squarespace-cdn.com/content/v1/590be7fd15d5dbc6bf3e22d0/1613183877575-637JIQ4J3K9I19CXA78Y/pasted-image.png	2021-02-12	1
-panpizza	PAN PIZZA	https://www.youtube.com/watch?v=J_3v7DEkjsk	https://basicswithbabish.co/basicsepisodes/panpizza	https://img.youtube.com/vi/J_3v7DEkjsk/mqdefault.jpg	2019-08-29	2
-pantomate-crabcakes	PAN CON TOMATE & THAI CRAB CAKES		https://basicswithbabish.co/basicsepisodes/pantomate-crabcakes	https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1613183842730-AERMYVZEOMJRJKWBMSN0/pasted-image.png	2021-02-12	2
-parksandrecburger	Parks & Rec Burger Cookoff	https://www.youtube.com/watch?v=MP_nWuLYpJw	https://www.bingingwithbabish.com/recipes/parksandrecburger	https://img.youtube.com/vi/MP_nWuLYpJw/mqdefault.jpg	2016-02-10	1
-parmhero	Parm Heros inspired by Lots of Things	https://www.youtube.com/watch?v=DkiyT-dnmv8	https://www.bingingwithbabish.com/recipes/2017/8/22/parmhero	https://img.youtube.com/vi/DkiyT-dnmv8/mqdefault.jpg	2018-03-20	1
-pasta-al-limone	PASTA AL LIMONE	https://www.youtube.com/watch?v=I2MfxX0N7dQ	https://basicswithbabish.co/basicsepisodes/pasta-al-limone	https://img.youtube.com/vi/I2MfxX0N7dQ/mqdefault.jpg	2020-11-05	2
-pasta2	PASTA PART II: FILLED PASTA	https://www.youtube.com/watch?v=svPa8Rd8dsU	https://basicswithbabish.co/basicsepisodes/pasta2	https://img.youtube.com/vi/svPa8Rd8dsU/mqdefault.jpg	2019-01-10	2
-pastaputtanesca	Pasta Puttanesca inspired by Lemony Snicket's A Series of Unfortunate Events	https://www.youtube.com/watch?v=uwV9cq9DRTY	https://www.bingingwithbabish.com/recipes/pastaputtanesca	https://img.youtube.com/vi/uwV9cq9DRTY/mqdefault.jpg	2018-06-12	1
-pastrami	Pastrami inspired by When Harry Met Sally	https://www.youtube.com/watch?v=hFeDKLt4P-Y	https://www.bingingwithbabish.com/recipes/pastrami	https://img.youtube.com/vi/hFeDKLt4P-Y/mqdefault.jpg	2020-06-09	1
-paunch-burger-parks-and-rec	Paunch Burger inspired by Parks & Rec	https://www.youtube.com/watch?v=RN8uoBwRr1k	https://www.bingingwithbabish.com/recipes/paunch-burger-parks-and-rec	https://img.youtube.com/vi/RN8uoBwRr1k/mqdefault.jpg	2020-08-12	1
-pekingduck	Peking Duck inspired by A Christmas Story	https://www.youtube.com/watch?v=Hez55mhB8UA	https://www.bingingwithbabish.com/recipes/2017/8/22/pekingduck	https://img.youtube.com/vi/Hez55mhB8UA/mqdefault.jpg	2017-12-19	1
-phantomthread-l42pw	Full Breakfast inspired by Phantom Thread	https://www.youtube.com/watch?v=yiElOt9cI8k	https://www.bingingwithbabish.com/recipes/phantomthread-l42pw	https://img.youtube.com/vi/yiElOt9cI8k/mqdefault.jpg	2018-09-04	1
-picnic-food	PICNIC FOOD	https://www.youtube.com/watch?v=lMAVnI-2MIA	https://basicswithbabish.co/basicsepisodes/picnic-food	https://img.youtube.com/vi/lMAVnI-2MIA/mqdefault.jpg	2021-04-05	2
-pies	PIES	https://www.youtube.com/watch?v=i7648rZpdck	https://basicswithbabish.co/basicsepisodes/pies	https://img.youtube.com/vi/i7648rZpdck/mqdefault.jpg	2019-10-31	2
-piesfromwaitress	Pies inspired by Waitress	https://www.youtube.com/watch?v=NgloGi5xEa8	https://www.bingingwithbabish.com/recipes/piesfromwaitress	https://img.youtube.com/vi/NgloGi5xEa8/mqdefault.jpg	2018-05-08	1
-pigeon-pie-with-wild-game-inspired-by-game-of-thrones	Pigeon Pie with Wild Game inspired by Game of Thrones	https://www.youtube.com/watch?v=Y_hc07rAQlc	https://www.bingingwithbabish.com/recipes/2017/7/14/pigeon-pie-with-wild-game-inspired-by-game-of-thrones	https://img.youtube.com/vi/Y_hc07rAQlc/mqdefault.jpg	2017-07-11	1
-pineapplecurryfriedrice	Pineapple-Curry Fried Rice inspired by Food Wars!: Shokugeki no Soma	https://www.youtube.com/watch?v=WRA3a7c4Qt4	https://www.bingingwithbabish.com/recipes/2017/8/22/pineapplecurryfriedrice	https://img.youtube.com/vi/WRA3a7c4Qt4/mqdefault.jpg	2018-03-13	1
-pizza-dough	PIZZA DOUGH	https://www.youtube.com/watch?v=n1O3uHPCOLA	https://basicswithbabish.co/basicsepisodes/pizza-dough	https://img.youtube.com/vi/n1O3uHPCOLA/mqdefault.jpg	2020-10-15	2
-pizza-gyoza-tmnt	Pizza Gyoza inspired by Teenage Mutant Ninja Turtles	https://www.youtube.com/watch?v=ah5G2EXKgvA	https://www.bingingwithbabish.com/recipes/pizza-gyoza-tmnt	https://img.youtube.com/vi/ah5G2EXKgvA/mqdefault.jpg	2021-06-09	1
-pizza-in-a-cup-the-jerk	Pizza in a Cup inspired by The Jerk	https://www.youtube.com/watch?v=8a7L0bFuE3o	https://www.bingingwithbabish.com/recipes/pizza-in-a-cup-the-jerk	https://img.youtube.com/vi/8a7L0bFuE3o/mqdefault.jpg	2021-02-10	1
-pizzaball	Pizza Ball inspired by The Eric Andre Show	https://www.youtube.com/watch?v=U3LFI2mI8Y0	https://www.bingingwithbabish.com/recipes/pizzaball	https://img.youtube.com/vi/U3LFI2mI8Y0/mqdefault.jpg	2019-01-08	1
-poke-bowls	POKE BOWLS	https://www.youtube.com/watch?v=l7VRSINAEQo	https://basicswithbabish.co/basicsepisodes/poke-bowls	https://img.youtube.com/vi/l7VRSINAEQo/mqdefault.jpg	2021-10-26	2
-pollo-a-la-plancha	Pollo a la Plancha inspired by Moonlight	https://www.youtube.com/watch?v=ZsBWgeQHjnM	https://www.bingingwithbabish.com/recipes/2017/5/4/pollo-a-la-plancha	https://img.youtube.com/vi/ZsBWgeQHjnM/mqdefault.jpg	2017-03-06	1
-pollos-hermanos-breaking-bad	Pollos Hermanos inspired by Breaking Bad	https://www.youtube.com/watch?v=ndqjxhi7uZs	https://www.bingingwithbabish.com/recipes/pollos-hermanos-breaking-bad	https://img.youtube.com/vi/ndqjxhi7uZs/mqdefault.jpg	2020-09-15	1
-porchetta	PORCHETTA	https://www.youtube.com/watch?v=YMF27Q9nLNY	https://basicswithbabish.co/basicsepisodes/porchetta	https://img.youtube.com/vi/YMF27Q9nLNY/mqdefault.jpg	2019-12-19	2
-pork-picnic-sandwich-regular-show	Pork Picnic Sandwich inspired by Regular Show	https://www.youtube.com/watch?v=mMle42fPNn0	https://www.bingingwithbabish.com/recipes/pork-picnic-sandwich-regular-show	https://img.youtube.com/vi/mMle42fPNn0/mqdefault.jpg	2021-06-23	1
-portalcake	The Cake inspired by Portal	https://www.youtube.com/watch?v=Y9l8iu5J6rs	https://www.bingingwithbabish.com/recipes/portalcake	https://img.youtube.com/vi/Y9l8iu5J6rs/mqdefault.jpg	2019-03-19	1
-potato-hash	POTATO HASH	https://www.youtube.com/watch?v=R4kwxiDlKzs	https://basicswithbabish.co/basicsepisodes/potato-hash	https://img.youtube.com/vi/R4kwxiDlKzs/mqdefault.jpg	2020-08-27	2
-potroast	POT ROAST	https://www.youtube.com/watch?v=RVx90rTJIzc	https://basicswithbabish.co/basicsepisodes/potroast	https://img.youtube.com/vi/RVx90rTJIzc/mqdefault.jpg	2019-02-14	2
-potstickers	POTSTICKERS	https://www.youtube.com/watch?v=iC1rvXPt_rE	https://basicswithbabish.co/basicsepisodes/potstickers	https://img.youtube.com/vi/iC1rvXPt_rE/mqdefault.jpg	2021-01-07	2
-poutine	POUTINE	https://www.youtube.com/watch?v=uc-_KXfHcXQ	https://basicswithbabish.co/basicsepisodes/poutine	https://img.youtube.com/vi/uc-_KXfHcXQ/mqdefault.jpg	2019-09-26	2
-protein-pizza	PROTEIN PIZZA	https://www.youtube.com/watch?v=ZYvDLT2BkQ8	https://basicswithbabish.co/basicsepisodes/protein-pizza	https://img.youtube.com/vi/ZYvDLT2BkQ8/mqdefault.jpg	2021-10-05	2
-puerco-pibil	Puerco Pibil inspired by Once Upon a Time in Mexico	https://www.youtube.com/watch?v=5_sdhAFGmbw	https://www.bingingwithbabish.com/recipes/2017/8/08/puerco-pibil	https://img.youtube.com/vi/5_sdhAFGmbw/mqdefault.jpg	2017-08-08	1
-pullednoodles	Special Ingredient Soup inspired by Kung Fu Panda	https://www.youtube.com/watch?v=cee6883w2Nk	https://www.bingingwithbabish.com/recipes/pullednoodles	https://img.youtube.com/vi/cee6883w2Nk/mqdefault.jpg	2019-10-01	1
-pulledpork	PULLED PORK	https://www.youtube.com/watch?v=_SObOsXrDRc	https://basicswithbabish.co/basicsepisodes/pulledpork	https://img.youtube.com/vi/_SObOsXrDRc/mqdefault.jpg	2019-05-16	2
-puppy-paw-hashbrowns	Puppy Paw Hash Browns inspired by Genshin Impact	https://www.youtube.com/watch?v=r4HxTcF98MU	https://www.bingingwithbabish.com/recipes/puppy-paw-hashbrowns	https://img.youtube.com/vi/r4HxTcF98MU/mqdefault.jpg	2021-09-07	1
-quatroquesodosfritos	Quatro Quesos Dos Fritos inspired by Psych	https://www.youtube.com/watch?v=O-H_Ybmtu_U	https://www.bingingwithbabish.com/recipes/2017/8/22/quatroquesodosfritos	https://img.youtube.com/vi/O-H_Ybmtu_U/mqdefault.jpg	2017-12-05	1
-quesadillas	QUESADILLAS	https://www.youtube.com/watch?v=E0G5Y2SOW0c	https://basicswithbabish.co/basicsepisodes/quesadillas	https://img.youtube.com/vi/E0G5Y2SOW0c/mqdefault.jpg	2019-04-18	2
-quiche	QUICHE	https://www.youtube.com/watch?v=6EuzOQOnX2A	https://basicswithbabish.co/basicsepisodes/quiche	https://img.youtube.com/vi/6EuzOQOnX2A/mqdefault.jpg	2021-03-18	2
-quiet-place-bonus	A Quiet Place Bonus Episode	https://www.youtube.com/watch?v=0PyTpUIn4ks	https://www.youtube.com/watch?v=0PyTpUIn4ks	https://img.youtube.com/vi/0PyTpUIn4ks/mqdefault.jpg	2018-12-15	1
-rabbit-sopranos	Rabbit inspired by The Sopranos	https://www.youtube.com/watch?v=aBMNzBhB6H0	https://www.bingingwithbabish.com/recipes/rabbit-sopranos	https://img.youtube.com/vi/aBMNzBhB6H0/mqdefault.jpg	2021-09-16	1
-racheltrifle	Rachel's Trifle inspired by Friends	https://www.youtube.com/watch?v=G4BxOhJOmUw	https://www.bingingwithbabish.com/recipes/2017/8/22/racheltrifle	https://img.youtube.com/vi/G4BxOhJOmUw/mqdefault.jpg	2017-11-21	1
-raisinets	Movie Theater Popcorn & Raisinets inspired by Whiplash	https://www.youtube.com/watch?v=FoztKuXEYnQ	https://www.bingingwithbabish.com/recipes/2017/8/22/raisinets	https://img.youtube.com/vi/FoztKuXEYnQ/mqdefault.jpg	2017-09-19	1
-ram-don-parasite	Ram-don inspired by Parasite	https://www.youtube.com/watch?v=ge4vghXQTtQ	https://www.bingingwithbabish.com/recipes/ram-don-parasite	https://img.youtube.com/vi/ge4vghXQTtQ/mqdefault.jpg	2020-02-20	1
-raspberry-danish-ant-man-and-the-wasp	Raspberry Danish inspired by Ant Man & The Wasp	https://www.youtube.com/watch?v=Zhq20aCSh-s	https://www.bingingwithbabish.com/recipes/raspberry-danish-ant-man-and-the-wasp	https://img.youtube.com/vi/Zhq20aCSh-s/mqdefault.jpg	2020-09-29	1
-ratatouille	Confit Byaldi inspired by Ratatouille	https://www.youtube.com/watch?v=roCX0AfBseQ	https://www.bingingwithbabish.com/recipes/2017/5/5/ratatouille	https://img.youtube.com/vi/roCX0AfBseQ/mqdefault.jpg	2017-03-02	1
-regular-show-mississippi-queen	Mississippi Queen inspired by Regular Show	https://www.youtube.com/watch?v=KV-SUOpW408	https://www.bingingwithbabish.com/recipes/regular-show-mississippi-queen	https://img.youtube.com/vi/KV-SUOpW408/mqdefault.jpg	2020-10-20	1
-restaurant-wars-steven-universe	Restaurant Wars inspired by Steven Universe	https://www.youtube.com/watch?v=J2eU4Ol3IDU	https://www.bingingwithbabish.com/recipes/restaurant-wars-steven-universe	https://img.youtube.com/vi/J2eU4Ol3IDU/mqdefault.jpg	2020-10-14	1
-reversesearsteak	How To Reverse-Sear A Steak	https://www.youtube.com/watch?v=akO6D_tc0lo	https://www.bingingwithbabish.com/recipes/2017/8/22/reversesearsteak	https://img.youtube.com/vi/akO6D_tc0lo/mqdefault.jpg	2016-03-14	1
-ribwich	Ribwich inspired by The Simpsons	https://www.youtube.com/watch?v=Yj07347rEqo	https://www.bingingwithbabish.com/recipes/ribwich	https://img.youtube.com/vi/Yj07347rEqo/mqdefault.jpg	2019-03-12	1
-risotto	RISOTTO	https://www.youtube.com/watch?v=E_8wQsmjn0A	https://basicswithbabish.co/basicsepisodes/risotto	https://img.youtube.com/vi/E_8wQsmjn0A/mqdefault.jpg	2018-05-31	2
-risotto-tricolore-big-night	Risotto Tricolore inspired by Big Night	https://www.youtube.com/watch?v=D8SgdOGIEyU	https://www.bingingwithbabish.com/recipes/risotto-tricolore-big-night	https://img.youtube.com/vi/D8SgdOGIEyU/mqdefault.jpg	2021-01-12	1
-roastbeast	Roast Beast inspired by How The Grinch Stole Christmas	https://www.youtube.com/watch?v=_szug5_YkD4	https://www.bingingwithbabish.com/recipes/roastbeast	https://img.youtube.com/vi/_szug5_YkD4/mqdefault.jpg	2018-12-18	1
-root-beer-noodles-the-simpsons	Root Beer Noodles inspired by The Simpsons	https://www.youtube.com/watch?v=TsvrUr-fmLw	https://www.bingingwithbabish.com/recipes/root-beer-noodles-the-simpsons	https://img.youtube.com/vi/TsvrUr-fmLw/mqdefault.jpg	2021-10-26	1
-rumfrenchtoast	Rum French Toast inspired by Mad Men	https://www.youtube.com/watch?v=evzWEXpW1pM	https://www.bingingwithbabish.com/recipes/2017/8/22/rumfrenchtoast	https://img.youtube.com/vi/evzWEXpW1pM/mqdefault.jpg	2018-01-23	1
-salad-nb7s3-3jkft	SALAD	https://www.youtube.com/watch?v=xHR8BCFv_JY	https://basicswithbabish.co/basicsepisodes/salad-nb7s3-3jkft	https://img.youtube.com/vi/xHR8BCFv_JY/mqdefault.jpg	2018-09-06	2
-sandyfryesappetizers	Sandy Frye's Appetizers inspired by Bob's Burgers	https://www.youtube.com/watch?v=3LXTGVN3ZOg	https://www.bingingwithbabish.com/recipes/sandyfryesappetizers	https://img.youtube.com/vi/3LXTGVN3ZOg/mqdefault.jpg	2019-01-29	1
-sauces	SAUCES	https://www.youtube.com/watch?v=Upqp21Dm5vg	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces	https://img.youtube.com/vi/Upqp21Dm5vg/mqdefault.jpg	2017-10-23	2
-sauces-9w5tm	STEAK	https://www.youtube.com/watch?v=PFDElc5sfSM	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm	https://img.youtube.com/vi/PFDElc5sfSM/mqdefault.jpg	2017-11-02	2
-sauces-9w5tm-2njph	PASTA	https://www.youtube.com/watch?v=HdSLKZ6LN94	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm-2njph	https://img.youtube.com/vi/HdSLKZ6LN94/mqdefault.jpg	2017-11-17	2
-sauces-9w5tm-2njph-5ahwj	CHICKEN BREASTS	https://www.youtube.com/watch?v=hR6agVkRRUo	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm-2njph-5ahwj	https://img.youtube.com/vi/hR6agVkRRUo/mqdefault.jpg	2017-12-07	2
-sauces-9w5tm-2njph-5ahwj-hsl7s	WHOLE CHICKEN	https://www.youtube.com/watch?v=ABtt5y-maO4	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm-2njph-5ahwj-hsl7s	https://img.youtube.com/vi/ABtt5y-maO4/mqdefault.jpg	2018-01-08	2
-sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr	STOCK & CHICKEN NOODLE SOUP	https://www.youtube.com/watch?v=74tZ-yOOPy0	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr	https://img.youtube.com/vi/74tZ-yOOPy0/mqdefault.jpg	2018-01-11	2
-sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-6r8lw	PANTRY ESSENTIALS	https://www.youtube.com/watch?v=NSi-MniOTqI	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-6r8lw	https://img.youtube.com/vi/NSi-MniOTqI/mqdefault.jpg	2018-01-25	2
-sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-dfapr	PIZZA	https://www.youtube.com/watch?v=7cqYiUmutGI	https://basicswithbabish.co/basicsepisodes/2017/10/23/sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-dfapr	https://img.youtube.com/vi/7cqYiUmutGI/mqdefault.jpg	2018-02-08	2
-seasalticecream	Sea Salt Ice Cream inspired by Kingdom Hearts	https://www.youtube.com/watch?v=5fTd1aYzNHI	https://www.bingingwithbabish.com/recipes/seasalticecream	https://img.youtube.com/vi/5fTd1aYzNHI/mqdefault.jpg	2019-08-06	1
-seinfeldcalzone-z38zn	Calzones inspired by Seinfeld	https://www.youtube.com/watch?v=zWuWrdaYMlY	https://www.bingingwithbabish.com/recipes/seinfeldcalzone-z38zn	https://img.youtube.com/vi/zWuWrdaYMlY/mqdefault.jpg	2019-11-22	1
-seinfeldspecial2	Seinfeld Volume II	https://www.youtube.com/watch?v=b5msQpny05I	https://www.bingingwithbabish.com/recipes/seinfeldspecial2	https://img.youtube.com/vi/b5msQpny05I/mqdefault.jpg	2018-12-11	1
-shakshuka	SHAKSHUKA	https://www.youtube.com/watch?v=SjCkW-oAFQ8	https://basicswithbabish.co/basicsepisodes/shakshuka	https://img.youtube.com/vi/SjCkW-oAFQ8/mqdefault.jpg	2020-06-11	2
-shawarma	Shawarma inspired by The Avengers	https://www.youtube.com/watch?v=iErqWGwso7o	https://www.bingingwithbabish.com/recipes/2017/8/22/shawarma	https://img.youtube.com/vi/iErqWGwso7o/mqdefault.jpg	2018-04-10	1
-shepherdspie	SHEPHERD'S PIE	https://www.youtube.com/watch?v=Uj8BC2kcp7A	https://basicswithbabish.co/basicsepisodes/shepherdspie	https://img.youtube.com/vi/Uj8BC2kcp7A/mqdefault.jpg	2020-03-12	2
-short-ribs	BRAISED SHORT RIBS	https://www.youtube.com/watch?v=DUTyGfwdBaY	https://basicswithbabish.co/basicsepisodes/short-ribs	https://img.youtube.com/vi/DUTyGfwdBaY/mqdefault.jpg	2020-09-17	2
-shrimp-scampi	SHRIMP SCAMPI	https://www.youtube.com/watch?v=3ELo1zykAGU	https://basicswithbabish.co/basicsepisodes/shrimp-scampi	https://img.youtube.com/vi/3ELo1zykAGU/mqdefault.jpg	2021-01-28	2
-skinnersstew	Skinner's Stew inspired by The Simpsons	https://www.youtube.com/watch?v=y3PoXXoGVj0	https://www.bingingwithbabish.com/recipes/2017/8/22/skinnersstew	https://img.youtube.com/vi/y3PoXXoGVj0/mqdefault.jpg	2018-01-09	1
-sloppy-joes-billy-madison	Sloppy Joes inspired by Billy Madison	https://www.youtube.com/watch?v=BsDkBaACINQ	https://www.bingingwithbabish.com/recipes/sloppy-joes-billy-madison	https://img.youtube.com/vi/BsDkBaACINQ/mqdefault.jpg	2021-01-20	1
-sloppy-steaks-i-think-you-should-leave	Sloppy Steaks inspired by I Think You Should Leave with Tim Robinson	https://www.youtube.com/watch?v=EcGgDrS5Gto	https://www.bingingwithbabish.com/recipes/sloppy-steaks-i-think-you-should-leave	https://img.youtube.com/vi/EcGgDrS5Gto/mqdefault.jpg	2021-07-30	1
-smash-burgers	SMASH BURGERS	https://www.youtube.com/watch?v=OsY85e9uIMw	https://basicswithbabish.co/basicsepisodes/smash-burgers	https://img.youtube.com/vi/OsY85e9uIMw/mqdefault.jpg	2021-09-03	2
-smokedribs	GAS GRILL-SMOKED RIBS	https://www.youtube.com/watch?v=sX2fsvYkKF4	https://basicswithbabish.co/basicsepisodes/smokedribs	https://img.youtube.com/vi/sX2fsvYkKF4/mqdefault.jpg	2020-05-21	2
-snl-overnight-salad	Overnight Salad inspired by Saturday Night Live	https://www.youtube.com/watch?v=Z5zEocd3u9w	https://www.bingingwithbabish.com/recipes/snl-overnight-salad	https://img.youtube.com/vi/Z5zEocd3u9w/mqdefault.jpg	2020-12-29	1
-sourdough-bread	SOURDOUGH BREAD	https://www.youtube.com/watch?v=bSYdABrPrtM	https://basicswithbabish.co/basicsepisodes/sourdough-bread	https://img.youtube.com/vi/bSYdABrPrtM/mqdefault.jpg	2020-02-28	2
-sourdough-broccoli-pizza-inside-out	Sourdough Broccoli Pizza inspired by Inside Out	https://www.youtube.com/watch?v=8ti1quN-jKs	https://www.bingingwithbabish.com/recipes/sourdough-broccoli-pizza-inside-out	https://img.youtube.com/vi/8ti1quN-jKs/mqdefault.jpg	2021-01-05	1
-sousvide-nb7s3	SOUS VIDE	https://www.youtube.com/watch?v=NCHOyqMUj4o	https://basicswithbabish.co/basicsepisodes/sousvide-nb7s3	https://img.youtube.com/vi/NCHOyqMUj4o/mqdefault.jpg	2018-09-06	2
-southparkspecial	South Park Special	https://www.youtube.com/watch?v=KxPgrGdSHh8	https://www.bingingwithbabish.com/recipes/2017/6/27/southparkspecial	https://img.youtube.com/vi/KxPgrGdSHh8/mqdefault.jpg	2017-04-19	1
-space-cake-high-maintenance	Chocolate Cardamom Space Cake inspired by High Maintenance 	https://www.youtube.com/watch?v=tfn-LC254Hk	https://www.bingingwithbabish.com/recipes/space-cake-high-maintenance	https://img.youtube.com/vi/tfn-LC254Hk/mqdefault.jpg	2021-04-22	1
-spaghetti-carbonara-inspired-by-master-of-none	Spaghetti Carbonara inspired by Master of None	https://www.youtube.com/watch?v=MbRm5s3i2ik	https://www.bingingwithbabish.com/recipes/2017/5/16/spaghetti-carbonara-inspired-by-master-of-none	https://img.youtube.com/vi/MbRm5s3i2ik/mqdefault.jpg	2017-05-16	1
-spaghettitaco	Spaghetti Tacos inspired by iCarly	https://www.youtube.com/watch?v=teQmpOtjCjY	https://www.bingingwithbabish.com/recipes/spaghettitaco	https://img.youtube.com/vi/teQmpOtjCjY/mqdefault.jpg	2019-02-05	1
-spidermanbackpackrecipes	Backpack Recipes inspired by Marvel's Spider-Man	https://www.youtube.com/watch?v=NlIiIv-XKhs	https://www.bingingwithbabish.com/recipes/spidermanbackpackrecipes	https://img.youtube.com/vi/NlIiIv-XKhs/mqdefault.jpg	2018-10-09	1
-spinachpuffs	Spinach Puffs inspired by The Emperor's New Groove	https://www.youtube.com/watch?v=x5-QoCicNfI	https://www.bingingwithbabish.com/recipes/spinachpuffs	https://img.youtube.com/vi/x5-QoCicNfI/mqdefault.jpg	2018-08-14	1
-squidinkpasta	Squid Ink Pasta inspired by JoJo's Bizarre Adventure	https://www.youtube.com/watch?v=rPdln-PUZuE	https://www.bingingwithbabish.com/recipes/squidinkpasta	https://img.youtube.com/vi/rPdln-PUZuE/mqdefault.jpg	2019-07-31	1
-steak-au-poivre	Steak au Poivre inspired by Archer	https://www.youtube.com/watch?v=tCJ_VV0FEZM	https://www.bingingwithbabish.com/recipes/steak-au-poivre	https://img.youtube.com/vi/tCJ_VV0FEZM/mqdefault.jpg	2019-02-12	1
-steak-eggs-gravy-twister	Steak, Eggs and Gravy inspired by Twister	https://www.youtube.com/watch?v=ztl0gGVFoK0	https://www.bingingwithbabish.com/recipes/steak-eggs-gravy-twister	https://img.youtube.com/vi/ztl0gGVFoK0/mqdefault.jpg	2020-12-08	1
-steak-pinwheels	STEAK PINWHEELS	https://www.youtube.com/watch?v=02NINX8OD-A	https://basicswithbabish.co/basicsepisodes/steak-pinwheels	https://img.youtube.com/vi/02NINX8OD-A/mqdefault.jpg	2021-05-20	2
-steakhouse-burgers	STEAKHOUSE BURGER	https://www.youtube.com/watch?v=9c_Tn4dnGIU	https://basicswithbabish.co/basicsepisodes/steakhouse-burgers	https://img.youtube.com/vi/9c_Tn4dnGIU/mqdefault.jpg	2021-07-26	2
-sticky-buns	STICKY BUNS	https://www.youtube.com/watch?v=PAnreKf_9BE	https://basicswithbabish.co/basicsepisodes/sticky-buns	https://img.youtube.com/vi/PAnreKf_9BE/mqdefault.jpg	2020-12-04	2
-stollen	STOLLEN (GERMAN HOLIDAY BREAD)	https://www.youtube.com/watch?v=25Od-bcv6vM	https://basicswithbabish.co/basicsepisodes/stollen	https://img.youtube.com/vi/25Od-bcv6vM/mqdefault.jpg	2020-12-18	2
-sugar-chicken-rick-and-morty	Sugar Chicken inspired by Rick & Morty	https://www.youtube.com/watch?v=8iCWUvHMPxQ	https://www.bingingwithbabish.com/recipes/sugar-chicken-rick-and-morty	https://img.youtube.com/vi/8iCWUvHMPxQ/mqdefault.jpg	2021-02-23	1
-sumbitches	Sumbitches and Peanut Butter Cookies inspired by How I Met Your Mother	https://www.youtube.com/watch?v=i9MMCCd-MSI	https://www.bingingwithbabish.com/recipes/sumbitches	https://img.youtube.com/vi/i9MMCCd-MSI/mqdefault.jpg	2019-09-04	1
-sundae-spongebob	Bad Breath Sundae inspired by SpongeBob Squarepants	https://www.youtube.com/watch?v=Ya2_Khcdwsk	https://www.bingingwithbabish.com/recipes/sundae-spongebob	https://img.youtube.com/vi/Ya2_Khcdwsk/mqdefault.jpg	2020-07-21	1
-swedish-meatballs	SWEDISH MEATBALLS	https://www.youtube.com/watch?v=bTUUNZFOflw	https://basicswithbabish.co/basicsepisodes/swedish-meatballs	https://img.youtube.com/vi/bTUUNZFOflw/mqdefault.jpg	2021-10-08	2
-sweet-potato-casserole-friends	Sweet Potato Casserole inspired by Friends	https://www.youtube.com/watch?v=yr6ts2AH04g	https://www.bingingwithbabish.com/recipes/sweet-potato-casserole-friends	https://img.youtube.com/vi/yr6ts2AH04g/mqdefault.jpg	2021-11-16	1
-sweetrolls-skyrim	Sweetrolls inspired by Skyrim	https://www.youtube.com/watch?v=98R3fgPKmYs	https://www.bingingwithbabish.com/recipes/sweetrolls-skyrim	https://img.youtube.com/vi/98R3fgPKmYs/mqdefault.jpg	2020-06-18	1
-szechuansauce	Rick & Morty Szechuan Sauce	https://www.youtube.com/watch?v=wBhhlE92mIQ	https://www.bingingwithbabish.com/recipes/2017/6/27/szechuansauce	https://img.youtube.com/vi/wBhhlE92mIQ/mqdefault.jpg	2017-04-04	1
-szechuansaucerevisited	Szechuan Sauce Revisited (From Real Sample!)	https://www.youtube.com/watch?v=lhc_bXGvmp0	https://www.bingingwithbabish.com/recipes/2017/8/29/szechuansaucerevisited	https://img.youtube.com/vi/lhc_bXGvmp0/mqdefault.jpg	2017-09-12	1
-taco-town	Taco Town 15-Flavor Taco inspired by SNL	https://www.youtube.com/watch?v=UvIkojfQDxA	https://www.bingingwithbabish.com/recipes/2017/7/18/taco-town	https://img.youtube.com/vi/UvIkojfQDxA/mqdefault.jpg	2017-07-18	1
-tacos	TACOS	https://www.youtube.com/watch?v=Zghe7SNmhOs	https://basicswithbabish.co/basicsepisodes/tacos	https://img.youtube.com/vi/Zghe7SNmhOs/mqdefault.jpg	2018-08-23	2
-takoyaki	Takoyaki inspired by Kill la Kill	https://www.youtube.com/watch?v=eD5C8ryTd1A	https://www.bingingwithbabish.com/recipes/takoyaki	https://img.youtube.com/vi/eD5C8ryTd1A/mqdefault.jpg	2018-10-30	1
-tamalesfromcoco	Tamales inspired by Coco	https://www.youtube.com/watch?v=akA_Z9Xmnvc	https://www.bingingwithbabish.com/recipes/2017/8/22/tamalesfromcoco	https://img.youtube.com/vi/akA_Z9Xmnvc/mqdefault.jpg	2018-02-27	1
-tampoporamen	Tampopo Ramen	https://www.youtube.com/watch?v=GXDQOSbcmv4	https://www.bingingwithbabish.com/recipes/2017/8/22/tampoporamen	https://img.youtube.com/vi/GXDQOSbcmv4/mqdefault.jpg	2017-04-11	1
-teamstersandwich	Teamster Sandwich inspired by 30 Rock	https://www.youtube.com/watch?v=tmUximhgYnI	https://www.bingingwithbabish.com/recipes/teamstersandwich	https://img.youtube.com/vi/tmUximhgYnI/mqdefault.jpg	2018-07-31	1
-teddybrulee	Teddy Brûlée inspired by Bob's Burgers	https://www.youtube.com/watch?v=6pXjR0JyV0s	https://www.bingingwithbabish.com/recipes/teddybrulee	https://img.youtube.com/vi/6pXjR0JyV0s/mqdefault.jpg	2019-05-14	1
-thanksgivingleftovers	THANKSGIVING LEFTOVERS	https://www.youtube.com/watch?v=iTZIm0-PuUw	https://basicswithbabish.co/basicsepisodes/thanksgivingleftovers	https://img.youtube.com/vi/iTZIm0-PuUw/mqdefault.jpg	2019-11-28	2
-thanksgivingsides	THANKSGIVING SIDES	https://www.youtube.com/watch?v=8hpD5strtzM	https://basicswithbabish.co/basicsepisodes/thanksgivingsides	https://img.youtube.com/vi/8hpD5strtzM/mqdefault.jpg	2018-11-15	2
-the-liz-lemon-30-rock	The Liz Lemon inspired by 30 Rock	https://www.youtube.com/watch?v=XBUq8q1Vwls	https://www.bingingwithbabish.com/recipes/the-liz-lemon-30-rock	https://img.youtube.com/vi/XBUq8q1Vwls/mqdefault.jpg	2020-11-11	1
-the-naco	The Naco inspired by Kim Possible	https://www.youtube.com/watch?v=hf5cl-AGYbg	https://www.bingingwithbabish.com/recipes/the-naco	https://img.youtube.com/vi/hf5cl-AGYbg/mqdefault.jpg	2018-10-02	1
-the-perfect-bite	The Perfect Bite (and Duck Carbonara) inspired by YOU	https://www.youtube.com/watch?v=7vTxUYBD0Nk	https://www.bingingwithbabish.com/recipes/the-perfect-bite	https://img.youtube.com/vi/7vTxUYBD0Nk/mqdefault.jpg	2020-02-12	1
-the-sims-special	The Sims Special	https://www.youtube.com/watch?v=z4Bwb8_k7yM	https://www.bingingwithbabish.com/recipes/the-sims-special	https://img.youtube.com/vi/z4Bwb8_k7yM/mqdefault.jpg	2021-07-26	1
-thegodfathercannolis	Cannolis inspired by The Godfather	https://www.youtube.com/watch?v=44fjX-rgJ7s	https://www.bingingwithbabish.com/recipes/thegodfathercannolis	https://img.youtube.com/vi/44fjX-rgJ7s/mqdefault.jpg	2018-06-05	1
-thegoodplace	The Good Place Special	https://www.youtube.com/watch?v=f428glyXdY4	https://www.bingingwithbabish.com/recipes/thegoodplace	https://img.youtube.com/vi/f428glyXdY4/mqdefault.jpg	2019-05-21	1
-thegreystuff	The Grey Stuff & Other Hors d’Oeuvres inspired by Beauty & the Beast	https://www.youtube.com/watch?v=0TvBiF9S89Q	https://www.bingingwithbabish.com/recipes/thegreystuff	https://img.youtube.com/vi/0TvBiF9S89Q/mqdefault.jpg	2019-01-03	1
-thesloppyjessica	The Sloppy Jessica inspired by Brooklyn Nine-Nine	https://www.youtube.com/watch?v=KKoOIyhJwA4	https://www.bingingwithbabish.com/recipes/thesloppyjessica	https://img.youtube.com/vi/KKoOIyhJwA4/mqdefault.jpg	2018-05-01	1
-theswanson	The Swanson inspired by Parks and Recreation	https://www.youtube.com/watch?v=aLpPZlVsny0	https://www.bingingwithbabish.com/recipes/theswanson	https://img.youtube.com/vi/aLpPZlVsny0/mqdefault.jpg	2019-03-26	1
-thewirespecial	The Wire Special	https://www.youtube.com/watch?v=mnT4MDdEazs	https://www.bingingwithbabish.com/recipes/2017/6/27/thewirespecial	https://img.youtube.com/vi/mnT4MDdEazs/mqdefault.jpg	2017-12-26	1
-tiramisu	Tiramisu inspired by Superbad	https://www.youtube.com/watch?v=J719grjgS-I	https://www.bingingwithbabish.com/recipes/tiramisu	https://img.youtube.com/vi/J719grjgS-I/mqdefault.jpg	2019-11-12	1
-together-breakfast-steven-universe	Together Breakfast inspired by Steven Universe	https://www.youtube.com/watch?v=H1xBwVgKJe8	https://www.bingingwithbabish.com/recipes/together-breakfast-steven-universe	https://img.youtube.com/vi/H1xBwVgKJe8/mqdefault.jpg	2021-03-24	1
-tomate-du-saltambique-inspired-by-the-west-wing	Tomate du Saltambique inspired by The West Wing	https://www.youtube.com/watch?v=6uIK3o32hig	https://www.bingingwithbabish.com/recipes/2017/6/20/tomate-du-saltambique-inspired-by-the-west-wing	https://img.youtube.com/vi/6uIK3o32hig/mqdefault.jpg	2017-06-20	1
-tonkotsuramen	TONKOTSU RAMEN	https://www.youtube.com/watch?v=2U_0OlCizx0	https://basicswithbabish.co/basicsepisodes/tonkotsuramen	https://img.youtube.com/vi/2U_0OlCizx0/mqdefault.jpg	2018-10-04	2
-tortilla-sombero-despicable-me-2	Tortilla Sombrero inspired by Despicable Me 2	https://www.youtube.com/watch?v=D_Y18GEjfNY	https://www.bingingwithbabish.com/recipes/tortilla-sombero-despicable-me-2	https://img.youtube.com/vi/D_Y18GEjfNY/mqdefault.jpg	2021-05-05	1
-trenette-el-pesto-luca	Trenette el Pesto inspired by Luca	https://www.youtube.com/watch?v=bWX0-NEjyNQ	https://www.bingingwithbabish.com/recipes/trenette-el-pesto-luca	https://img.youtube.com/vi/bWX0-NEjyNQ/mqdefault.jpg	2021-07-07	1
-treslechescake	TRES LECHES CAKE	https://www.youtube.com/watch?v=iIDXc6xZ0X8	https://basicswithbabish.co/basicsepisodes/treslechescake	https://img.youtube.com/vi/iIDXc6xZ0X8/mqdefault.jpg	2019-07-08	2
-triple-gooberberry-sunrise-spongebob-squarespace	Triple Gooberberry Sunrise inspired by Spongebob Squarepants	https://www.youtube.com/watch?v=Gso2WrBcV2Q	https://www.bingingwithbabish.com/recipes/triple-gooberberry-sunrise-spongebob-squarespace	https://img.youtube.com/vi/Gso2WrBcV2Q/mqdefault.jpg	2020-09-22	1
-tripledeckereggo	Triple-Decker Eggo Extravaganza inspired by Stranger Things	https://www.youtube.com/watch?v=L1kgO1I9NvQ	https://www.bingingwithbabish.com/recipes/2017/8/22/tripledeckereggo	https://img.youtube.com/vi/L1kgO1I9NvQ/mqdefault.jpg	2017-11-07	1
-trollhunters-meatloaf-sandwich	Meatloaf Sandwich inspired by Trollhunters: Tales of Arcadia	https://www.youtube.com/watch?v=7SpXCwU5AiI	https://www.bingingwithbabish.com/recipes/trollhunters-meatloaf-sandwich	https://img.youtube.com/vi/7SpXCwU5AiI/mqdefault.jpg	2021-07-20	1
-troyscasserole-community	Troy's Casserole inspired by Community	https://www.youtube.com/watch?v=mGZcg6A6FTg	https://www.bingingwithbabish.com/recipes/troyscasserole-community	https://img.youtube.com/vi/mGZcg6A6FTg/mqdefault.jpg	2020-05-20	1
-truffle-pasta-broad-city	Truffle Pasta inspired by Broad City	https://www.youtube.com/watch?v=7vsW0Ut4gCo	https://www.bingingwithbabish.com/recipes/truffle-pasta-broad-city	https://img.youtube.com/vi/7vsW0Ut4gCo/mqdefault.jpg	2021-05-26	1
-turf-n-turf	Turf n' Turf inspired by Parks and Rec	https://www.youtube.com/watch?v=peLPVIGFaz0	https://www.bingingwithbabish.com/recipes/turf-n-turf	https://img.youtube.com/vi/peLPVIGFaz0/mqdefault.jpg	2020-03-11	1
-turturkeykey	Turturkeykey inspired by How I Met Your Mother	https://www.youtube.com/watch?v=FWQKc6idm64	https://www.bingingwithbabish.com/recipes/turturkeykey	https://img.youtube.com/vi/FWQKc6idm64/mqdefault.jpg	2019-11-26	1
-twinkie-weiner-sandwich	Twinkie Weiner Sandwich inspired by Weird Al's UHF	https://www.youtube.com/watch?v=jKslWoZXvn0	https://www.bingingwithbabish.com/recipes/twinkie-weiner-sandwich	https://img.youtube.com/vi/jKslWoZXvn0/mqdefault.jpg	2020-06-24	1
-uberollcake	Ube Roll inspired by Steven Universe	https://www.youtube.com/watch?v=cYRG5rkmr-s	https://www.bingingwithbabish.com/recipes/uberollcake	https://img.youtube.com/vi/cYRG5rkmr-s/mqdefault.jpg	2019-06-25	1
-ultimeatum	The Ultimeatum inspired by Regular Show	https://www.youtube.com/watch?v=S7eUmZ4Sp3U	https://www.bingingwithbabish.com/recipes/ultimeatum	https://img.youtube.com/vi/S7eUmZ4Sp3U/mqdefault.jpg	2017-08-29	1
-weeknightmeals-ahmph	WEEKNIGHT MEALS	https://www.youtube.com/watch?v=zQm9Bk2bA_Q	https://basicswithbabish.co/basicsepisodes/weeknightmeals-ahmph	https://img.youtube.com/vi/zQm9Bk2bA_Q/mqdefault.jpg	2018-10-18	2
-whitecastlesliders	White Castle sliders inspired by Harold & Kumar	https://www.youtube.com/watch?v=pTk9HnIwEYU	https://www.bingingwithbabish.com/recipes/whitecastlesliders	https://img.youtube.com/vi/pTk9HnIwEYU/mqdefault.jpg	2019-08-13	1
-wholeporkloin	WHOLE PORK LOIN	https://www.youtube.com/watch?v=AgFaljoriYA	https://basicswithbabish.co/basicsepisodes/wholeporkloin	https://img.youtube.com/vi/AgFaljoriYA/mqdefault.jpg	2018-10-11	2
-wild-mushroom-soup-inspired-by-seinfeld	Wild Mushroom Soup inspired by Seinfeld	https://www.youtube.com/watch?v=pw2A03Z91FI	https://www.bingingwithbabish.com/recipes/2017/5/9/wild-mushroom-soup-inspired-by-seinfeld	https://img.youtube.com/vi/pw2A03Z91FI/mqdefault.jpg	2017-05-09	1
-worldsgreatestsandwich	World's Greatest Sandwich from Spanglish	https://www.youtube.com/watch?v=A_l8_C-EO38	https://www.bingingwithbabish.com/recipes/2017/8/22/worldsgreatestsandwich	https://img.youtube.com/vi/A_l8_C-EO38/mqdefault.jpg	2016-12-05	1
-zelda-monster-cake	Monster Cake inspired by Zelda: Breath of the Wild	https://www.youtube.com/watch?v=VgtpaBOkvrA	https://www.bingingwithbabish.com/recipes/2017/8/01/zelda-monster-cake	https://img.youtube.com/vi/VgtpaBOkvrA/mqdefault.jpg	2017-08-01	1
-ziti-lasagna	Baked Ziti and Lasagna inspired by The Sopranos	https://www.youtube.com/watch?v=c_BGPTK3GQk	https://www.bingingwithbabish.com/recipes/ziti-lasagna	https://img.youtube.com/vi/c_BGPTK3GQk/mqdefault.jpg	2019-09-20	1
+COPY public.episode (id, name, slug, youtube_link, official_link, image_link, published_date, time_to_cook, yield_qty, yield_unit) FROM stdin;
+10-levels-chicken-noodle-soup	10 Levels Chicken Noodle Soup	10-levels-chicken-noodle-soup	https://www.youtube.com/watch?v=EM_ptn24MUs&t=83s	https://www.babi.sh/recipes/10-levels-chicken-noodle-soup	https://res.cloudinary.com/dd27yihoo/image/upload/v1774738409/btugut1heyus4wsry467.webp	2026-03-28	2700	\N	\N
+10-levels-of-cheesesteak	10 Levels of Cheesesteak	10-levels-of-cheesesteak	https://www.youtube.com/watch?v=jNan4FWeQEE	https://www.babi.sh/recipes/10-levels-of-cheesesteak	https://res.cloudinary.com/dd27yihoo/image/upload/v1777507861/icg9k8c02j1h9nfo5qb7.webp	2026-04-30	5400	2	servings
+10-levels-of-chocolate-chip-cookies-or-with-babish	10 Levels of Chocolate Chip Cookies | With Babish	10-levels-of-chocolate-chip-cookies-or-with-babish	https://www.youtube.com/watch?v=dzw6JO-yz34&pp=ygUTYmluZ2luZyB3aXRoIGJhYmlzaA%3D%3D	https://www.babi.sh/recipes/10-levels-of-chocolate-chip-cookies-or-with-babish	https://res.cloudinary.com/dd27yihoo/image/upload/v1761497423/go8m6uokvxy6qiayhnst.webp	2025-10-25	172800	\N	\N
+10-levels-of-mac-and-cheese	10 Levels of Mac and Cheese	10-levels-of-mac-and-cheese	https://youtube.com/watch?v=XpL2ZyyF55U&si=Ji3keCq-hmDoiCDS	https://www.babi.sh/recipes/10-levels-of-mac-and-cheese	https://res.cloudinary.com/dd27yihoo/image/upload/v1758370413/qtua6ccyjtklttjssedd.webp	2025-09-20	2700	5	servings
+18-pound-giant-fried-chicken-bowl	18 Pound Giant Fried Chicken Bowl	18-pound-giant-fried-chicken-bowl	https://www.youtube.com/watch?v=WM2d4JGynXc	https://www.babi.sh/recipes/18-pound-giant-fried-chicken-bowl	https://res.cloudinary.com/dd27yihoo/image/upload/v1754941912/nm2jss7wgfnfnv7bs3oo.webp	2025-08-11	5400	\N	\N
+2024oscarsspecial	2024 Oscars Special	2024oscarsspecial	https://youtu.be/NVwgZhjspxo	https://www.babi.sh/recipes/2024oscarsspecial	https://res.cloudinary.com/dd27yihoo/image/upload/v1710510271/ny7ovkakrtfei4odwnfd.webp	2024-03-15	\N	4	servings
+28-layer-chocolate-cake	28 Layer Chocolate Cake	28-layer-chocolate-cake	https://www.youtube.com/watch?v=ouK26QCvC9U&ab_channel=BabishCulinaryUniverse	https://www.babi.sh/recipes/28-layer-chocolate-cake	https://res.cloudinary.com/dd27yihoo/image/upload/v1749225920/k1yvoateks4tp7wbhjhm.webp	2025-06-06	43200	\N	\N
+3-course-dinner-inspired-by-drop	3 Course Dinner inspired by Drop	3-course-dinner-inspired-by-drop	https://www.youtube.com/watch?v=23lKOTVYRGc&t=673s&ab_channel=BabishCulinaryUniverse	https://www.babi.sh/recipes/3-course-dinner-inspired-by-drop	https://res.cloudinary.com/dd27yihoo/image/upload/v1746310289/sxhsw0jiihdjo9tibmw5.webp	2025-05-03	7200	2	servings
+324-layer-croissant-inspired-by-yakitate!!-japan	324 Layer Croissant inspired by Yakitate!! Japan	324-layer-croissant-inspired-by-yakitate!!-japan	https://www.youtube.com/watch?v=Ni8BsXyln_Q	https://www.babi.sh/recipes/324-layer-croissant-inspired-by-yakitate!!-japan	https://res.cloudinary.com/dd27yihoo/image/upload/v1725483449/qdfiijvciz0hlmgz6qrs.webp	2024-09-04	\N	1	servings
+3daypotatosalad	3-Day Potato Salad inspired by SpongeBob SquarePants	3daypotatosalad	https://www.youtube.com/watch?v=5Ugrgl9tB2s&amp;t=138s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/5Ugrgl9tB2s/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/3daypotatosalad	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695320/babishImages/undefined-635034.png	2018-12-04	8400	4	servings
+4-cheese-lasagna-inspired-by-one-piece	4-Cheese Lasagna inspired by One Piece	4-cheese-lasagna-inspired-by-one-piece	https://www.youtube.com/watch?v=5LNNcu-t5kE	https://www.babi.sh/recipes/4-cheese-lasagna-inspired-by-one-piece	https://res.cloudinary.com/dd27yihoo/image/upload/v1755010442/kum7nnwdyimfrjrzeslp.webp	2025-08-12	10500	8	servings
+5-levels-of-spaghetti-or-with-babish	5 Levels of Spaghetti | With Babish	5-levels-of-spaghetti-or-with-babish	https://www.youtube.com/watch?v=FeWVA2tp9YI	https://www.babi.sh/recipes/5-levels-of-spaghetti-or-with-babish	https://res.cloudinary.com/dd27yihoo/image/upload/v1769797846/qlt7lmqzvuonokq8elpd.webp	2026-01-30	\N	6	servings
+5-weeknight-recipes-for-pork-tenderloin	5 Weeknight Recipes for Pork Tenderloin	5-weeknight-recipes-for-pork-tenderloin	https://www.youtube.com/watch?v=VEAmtpkxXXQ&t=21s	https://www.babi.sh/recipes/5-weeknight-recipes-for-pork-tenderloin	https://res.cloudinary.com/dd27yihoo/image/upload/v1744118544/yh4iqwlo6kyfxad3flzw.webp	2025-04-08	2700	2	servings
+5mill-special	5 Million Subscriber Special: Recreating Homer Simpson's NOLA Food Tour	5mill-special	https://www.youtube.com/watch?v=oM8c31ru92A	https://www.youtube.com/watch?v=oM8c31ru92A	https://img.youtube.com/vi/oM8c31ru92A/mqdefault.jpg	2019-09-10	\N	\N	\N
+a5-wagyu-roti-don-inspired-by-food-wars!	A5 Wagyu Roti Don inspired by Food Wars!	a5-wagyu-roti-don-inspired-by-food-wars!	https://www.youtube.com/watch?v=VzPJE4LUxC4	https://www.babi.sh/recipes/a5-wagyu-roti-don-inspired-by-food-wars!	https://res.cloudinary.com/dd27yihoo/image/upload/v1726150996/cqreovarq8cekj22lfnt.webp	2024-09-12	\N	4	servings
+advanced-grilled-cheese	ADVANCED GRILLED CHEESE	advanced-grilled-cheese	https://www.youtube.com/watch?v=Zo7sRijXG00	https://www.babi.sh/recipes/advanced-grilled-cheese	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695856/babishImages/undefined-814327.png	2021-02-19	1200	4	servings
+adventure-time-sandwich	Jake's Perfect Sandwich inspired by Adventure Time	adventure-time-sandwich	https://www.youtube.com/watch?v=HsxBw6ls7Z0	https://www.babi.sh/recipes/adventure-time-sandwich	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992084/uhxjz80nkxch8j3kezjh.webp	2017-03-18	\N	\N	\N
+adventuretimespecial	Adventure Time Special	adventuretimespecial	https://www.youtube.com/watch?v=SjeS6gtPq8E	https://www.babi.sh/recipes/adventuretimespecial	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715699/babishImages/undefined-467797.png	2018-09-11	\N	\N	\N
+aglioeolio	Pasta Aglio e Olio inspired by Chef	aglioeolio	https://www.youtube.com/watch?v=bJUiWdM__Qw	https://www.babi.sh/recipes/aglioeolio	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991767/akppdskvenkgmu1djweh.webp	2016-03-26	\N	\N	\N
+agua-de-jamaica-granita	Agua de Jamaica Granita	agua-de-jamaica-granita	https://www.youtube.com/shorts/NYPxT4K-jEw	https://www.babi.sh/recipes/agua-de-jamaica-granita	https://res.cloudinary.com/dd27yihoo/image/upload/v1745960432/nlcsou9whnpdevviupw4.webp	2025-04-29	14400	7	servings
+alwayssunny	It's Always Sunny in Philadelphia Special (Part II)	alwayssunny	https://www.youtube.com/watch?v=_fnhy5xO9vQ&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/_fnhy5xO9vQ/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/alwayssunny	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696347/babishImages/undefined-129032.png	2019-06-12	6000	4	servings
+amatriciana-eat-pray-love	Spaghetti all'Amatriciana inspired by Eat Pray Love	amatriciana-eat-pray-love	https://www.youtube.com/watch?v=EZUnAQtF17I&feature=youtu.be	https://www.babi.sh/recipes/amatriciana-eat-pray-love	https://res.cloudinary.com/dd27yihoo/image/upload/v1680588204/n4ann1i8022pvhi7rx3k.webp	2023-03-03	\N	4	servings
+andrewsohlathanksgiving	ANDREW & SOHLA THANKSGIVING RECIPES	andrewsohlathanksgiving	https://www.youtube.com/watch?v=tXNuz8nXYGk	https://www.babi.sh/recipes/andrewsohlathanksgiving	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715526/babishImages/undefined-665559.jpg	2020-11-20	7200	8	servings
+angel-food-cake-groundhog-day	Angel Food Cake inspired by Groundhog Day	angel-food-cake-groundhog-day	https://www.youtube.com/watch?v=2d6VmncdK-E	https://www.babi.sh/recipes/angel-food-cake-groundhog-day	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696190/babishImages/undefined-22599.png	2021-02-03	3600	7	servings
+apple-and-brie-galette	Apple and Brie Galette	apple-and-brie-galette	https://www.instagram.com/reel/DDxGLEJuMPd/?utm_source=ig_web_copy_link	https://www.babi.sh/recipes/apple-and-brie-galette	https://res.cloudinary.com/dd27yihoo/image/upload/v1734127645/lqkxpmzhdc9fruj6rwpf.webp	2024-12-13	3600	4	servings
+apple-cider-donuts	APPLE CIDER DONUTS	apple-cider-donuts	https://www.youtube.com/watch?v=baZoJYAQjfI	https://www.babi.sh/recipes/apple-cider-donuts	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695695/babishImages/undefined-628666.png	2021-11-09	8400	8	servings
+apple-snaps-mrfox	Nutmeg Ginger Apple Snaps inspired by Fantastic Mr. Fox	apple-snaps-mrfox	https://www.youtube.com/watch?v=PGxk4oVcKQE	https://www.babi.sh/recipes/apple-snaps-mrfox	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695673/babishImages/undefined-436418.png	2022-10-28	3600	24	cookies
+applefritters	Double-Glazed Apple Fritters inspired by Regular Show	applefritters	https://www.youtube.com/watch?v=YYSP1D6GJ30&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/YYSP1D6GJ30/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/applefritters	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695467/babishImages/undefined-689012.png	2019-08-27	8400	4	servings
+applepie	How To Make Apple Pie	applepie	https://www.youtube.com/watch?v=-Vy12e0LjX4	https://www.babi.sh/recipes/applepie	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991798/w3xv26lktz0rhousz1aq.webp	2016-09-23	\N	\N	\N
+applepiesmoothie	Apple Pie Smoothie	applepiesmoothie	https://www.youtube.com/watch?v=mv1z2p3to0U	https://www.babi.sh/recipes/applepiesmoothie	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991771/oz6gen69krvy3tfzijvm.webp	2016-03-13	\N	\N	\N
+arancini	ARANCINI	arancini	https://www.youtube.com/watch?v=VChpbmhH9kk	https://www.babi.sh/recipes/arancini	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696032/babishImages/undefined-461034.png	2022-12-02	2700	4	servings
+arc-raiders	ARC Raiders	arc-raiders	https://youtube.com/watch?v=kII9xxDdQeM&si=jO5AyfwVip1cv24e	https://www.babi.sh/recipes/arc-raiders	https://res.cloudinary.com/dd27yihoo/image/upload/v1771616573/olepmhmsubpyhh3trl0h.webp	2026-02-20	2100	4	servings
+archer-margarita	Margaritas inspired by Archer	archer-margarita	https://www.youtube.com/watch?v=hsPXh3yna1U	https://www.babi.sh/recipes/archer-margarita	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695554/babishImages/undefined-521982.png	2020-05-05	7200	4	servings
+arepas-con-queso-encanto	Arepas con Queso inspired by Encanto	arepas-con-queso-encanto	https://www.youtube.com/watch?v=aRWUMlLMF1c	https://www.babi.sh/recipes/arepas-con-queso-encanto	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695249/babishImages/undefined-386675.png	2022-01-11	1200	4	servings
+aristocats	Crème de la Crème à la Edgar inspired by The Aristocats	aristocats	https://www.youtube.com/watch?v=zNY-qzp7pD0&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/zNY-qzp7pD0/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/aristocats	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696317/babishImages/undefined-541474.png	2019-01-23	7200	4	servings
+arresteddevelopmentspecial	Arrested Development Special (feat. Sean Evans)	arresteddevelopmentspecial	https://www.youtube.com/watch?v=2U_0OlCizx0	https://www.babi.sh/recipes/arresteddevelopmentspecial	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715504/babishImages/undefined-955688.png	2018-05-29	\N	\N	\N
+arroz-con-pollo-spiderman-spiderverse	Arroz con Pollo inspired by Spider-Man: Into the Spiderverse	arroz-con-pollo-spiderman-spiderverse	https://www.youtube.com/watch?v=CFkVS9vhIQY	https://www.babi.sh/recipes/arroz-con-pollo-spiderman-spiderverse	https://res.cloudinary.com/dd27yihoo/image/upload/v1687966614/sgzjuqlbuzd8tzonz7pz.webp	2023-06-08	\N	\N	\N
+aunt-petunias-pudding-harry-potter	Aunt Petunia's Pudding Inspired by Harry Potter	aunt-petunias-pudding-harry-potter	https://www.youtube.com/watch?v=AxM17SyPdCk	https://www.babi.sh/recipes/aunt-petunias-pudding-harry-potter	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696008/babishImages/undefined-784864.png	2022-11-04	4800	8	servings
+avatar-fire-flakes	Fire Flakes inspired by Avatar the Last Airbender	avatar-fire-flakes	https://www.youtube.com/watch?v=RhUMA3bCvAY	https://www.babi.sh/recipes/avatar-fire-flakes	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695535/babishImages/undefined-243692.png	2020-08-04	2400	4	servings
+avengersicecream	Ice Cream Flavors inspired by Avengers: Infinity War	avengersicecream	https://www.youtube.com/watch?v=Ukjat70Iyt4&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/Ukjat70Iyt4/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/avengersicecream	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695805/babishImages/undefined-987247.png	2019-04-30	6000	4	servings
+babish's-ultimate-chicken-parm	Babish's Ultimate Chicken Parm	babish's-ultimate-chicken-parm		https://www.babi.sh/recipes/babish's-ultimate-chicken-parm	https://res.cloudinary.com/dd27yihoo/image/upload/v1713808776/fig1ofuidrluzdmve8gs.webp	2024-04-22	\N	2	servings
+babish's-ultimate-fried-chicken	Babish’s Ultimate Fried Chicken	babish's-ultimate-fried-chicken	https://www.youtube.com/watch?v=yvKf6aDxBLk	https://www.babi.sh/recipes/babish's-ultimate-fried-chicken	https://res.cloudinary.com/dd27yihoo/image/upload/v1761246372/oljov21inpdw2zrpqypy.webp	2025-10-23	6000	10	chicken pieces
+babishpaniniwinner	#BabishPanini Winning Recipe - Car Panini inspired by Family Guy	babishpaniniwinner	https://www.youtube.com/watch?v=4Rz8BPRFeiA	https://www.babi.sh/recipes/babishpaniniwinner	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715515/babishImages/undefined-702398.png	2018-08-21	\N	\N	\N
+babka-inspired-by-seinfeld	Babka inspired by Seinfeld	babka-inspired-by-seinfeld	https://www.youtube.com/watch?v=pw2A03Z91FI	https://www.babi.sh/recipes/babka-inspired-by-seinfeld	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991794/caokjjp73hvi3tpco5ld.webp	2017-05-10	\N	\N	\N
+bachelor-chow-futurama	Bachelor Chow inspired by Futurama	bachelor-chow-futurama	https://www.youtube.com/watch?v=nowFI0WRpO0	https://www.babi.sh/recipes/bachelor-chow-futurama	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696129/babishImages/undefined-898773.png	2021-01-26	2400	4	servings
+back-to-school-sandwich	Hors D'oeuvres Sandwich inspired by Back to School	back-to-school-sandwich	https://www.youtube.com/watch?v=A7afwIxo5lE	https://www.babi.sh/recipes/back-to-school-sandwich	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715748/babishImages/undefined-681777.png	2017-09-05	\N	\N	\N
+bacon	HOMEMADE BACON	bacon	https://www.youtube.com/watch?v=TUh4Z2li1UM	https://www.babi.sh/recipes/bacon	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715746/babishImages/undefined-294937.png	2021-04-30	\N	5	serves
+bagels	BAGELS	bagels	https://www.youtube.com/watch?v=ZrJtpCTZk38	https://www.babi.sh/recipes/bagels	https://res.cloudinary.com/dd27yihoo/image/upload/v1686008218/li4kbj7e5pcj5xvhujqo.webp	2019-01-24	5400	8	servings
+bagelsandwiches	Bagel Sandwiches inspired by Steven Universe	bagelsandwiches	https://www.youtube.com/watch?v=wv43IN_cnyw&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/wv43IN_cnyw/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/bagelsandwiches	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695325/babishImages/undefined-259410.png	2019-07-23	4800	4	servings
+bagelwithlox	Everything Bagel with Lox Inspired By Mr. & Mrs. Smith	bagelwithlox	https://youtu.be/ZOZ2qkcfWe0	https://www.babi.sh/recipes/bagelwithlox	https://res.cloudinary.com/dd27yihoo/image/upload/v1711553048/yyeo9skkrkvuloahw7lm.webp	2024-03-27	18000	4	servings
+baklava	BAKLAVA	baklava	https://www.youtube.com/watch?v=OkzpwHodaAs	https://www.babi.sh/recipes/baklava	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715500/babishImages/undefined-703057.png	2020-10-15	2700	8	servings
+bananapuddingpizza	Banana Pudding Pizza inspired by Doug	bananapuddingpizza	https://www.youtube.com/watch?v=wcJS3nQjhqM	https://www.babi.sh/recipes/bananapuddingpizza	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715456/babishImages/undefined-622310.png	2018-09-18	\N	\N	\N
+banoffeepie	Banoffee Pie inspired by Love, Actually	banoffeepie	https://www.youtube.com/watch?v=TNTKRj2lS1g	https://www.babi.sh/recipes/banoffeepie	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695262/babishImages/undefined-536957.png	2019-12-27	7200	4	servings
+baobuns	Bao inspired by Pixar's Bao	baobuns	https://www.youtube.com/watch?v=OFt3SThGi7M&amp;t=46s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/OFt3SThGi7M/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/baobuns	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695380/babishImages/undefined-293013.png	2019-02-19	4800	4	servings
+barbacoa-de-res	BARBACOA DE RES CON CONSOMÉ	barbacoa-de-res	https://www.youtube.com/watch?v=Ya5u2uC3d2U	https://www.babi.sh/recipes/barbacoa-de-res	https://res.cloudinary.com/dd27yihoo/image/upload/v1690352793/xdxptaqk0rq7blwpqbre.webp	2023-05-05	\N	\N	\N
+barbecueporkchops	BARBECUE PORK CHOPS	barbecueporkchops	https://www.youtube.com/watch?v=YV9XuvfIudY	https://www.babi.sh/recipes/barbecueporkchops	https://res.cloudinary.com/dd27yihoo/image/upload/v1686072562/oedhsfjnim7duljy7y19.webp	2018-06-28	2700	4	servings
+baressentials	BAR ESSENTIALS	baressentials	https://www.youtube.com/watch?v=iZUfPIKbgUM&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/iZUfPIKbgUM/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/baressentials	https://res.cloudinary.com/dd27yihoo/image/upload/v1690416607/jlnnbuig1g2nrqafs58x.webp	2018-03-15	\N	\N	\N
+baressentials-7xwwz	CHOCOLATE CHIP COOKIES	baressentials-7xwwz	https://www.youtube.com/watch?v=ylxzfecackM&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/ylxzfecackM/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/baressentials-7xwwz	https://res.cloudinary.com/dd27yihoo/image/upload/v1690485488/p72d0navvupz8bsaur3g.webp	2018-03-29	0	36	servings
+bearstew	Bear Stew inspired by Red Dead Redemption 2	bearstew	https://www.youtube.com/watch?v=wMxKbkWrvDc&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/wMxKbkWrvDc/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/bearstew	https://res.cloudinary.com/dd27yihoo/image/upload/v1679263840/iyxpvkao4lwi6xqkcwd1.webp	2018-11-06	6000	4	servings
+beef-wellington-or-with-babish	Beef Wellington | With Babish	beef-wellington-or-with-babish	https://www.youtube.com/watch?v=A-Qb0ExQc-I	https://www.babi.sh/recipes/beef-wellington-or-with-babish	https://res.cloudinary.com/dd27yihoo/image/upload/v1768353563/az6m41jbqphdkgosvot0.webp	2026-01-14	259200	\N	\N
+beer-can-chicken	BEER CAN CHICKEN	beer-can-chicken	https://www.youtube.com/watch?v=Xo0v7ZuA9C0	https://www.babi.sh/recipes/beer-can-chicken	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696392/babishImages/undefined-504592.png	2022-12-19	3600	8	servings
+beer-steamed-chili-dogs	Chili Dogs inspired by The Irishman	beer-steamed-chili-dogs	https://www.youtube.com/watch?v=c0A1bkF4mKM&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/c0A1bkF4mKM/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/beer-steamed-chili-dogs	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695792/babishImages/undefined-202970.png	2019-12-17	6000	4	servings
+beetandacorncookies	Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)	beetandacorncookies	https://www.youtube.com/watch?v=6PTuUMJ2Uh8	https://www.babi.sh/recipes/beetandacorncookies	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991765/h4mfwyugmu5erlh5yc8e.webp	2017-05-23	\N	\N	\N
+beignetsfromchef	Beignets inspired by Chef (and Princess and the Frog)	beignetsfromchef	https://www.youtube.com/watch?v=DnuHzHHwqAw&amp;t=142s	https://www.babi.sh/recipes/beignetsfromchef	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715498/babishImages/undefined-178544.png	2018-08-07	\N	\N	\N
+being-with-babish-1	Giving Back to a Fan in Need	being-with-babish-1	https://www.youtube.com/watch?v=YUDogDKMJbE	https://www.youtube.com/watch?v=YUDogDKMJbE	https://img.youtube.com/vi/YUDogDKMJbE/mqdefault.jpg	2019-03-22	\N	\N	\N
+being-with-babish-2	Surprising a Fan with a Vegas Hotel Suite	being-with-babish-2	https://www.youtube.com/watch?v=QphHaVaAeG4	https://www.youtube.com/watch?v=QphHaVaAeG4	https://img.youtube.com/vi/QphHaVaAeG4/mqdefault.jpg	2019-04-05	\N	\N	\N
+being-with-babish-3	Surprising Rashid	being-with-babish-3	https://www.youtube.com/watch?v=DApDGZ1AkFw	https://www.youtube.com/watch?v=DApDGZ1AkFw	https://img.youtube.com/vi/DApDGZ1AkFw/mqdefault.jpg	2019-04-26	\N	\N	\N
+being-with-babish-4	Training like Kratos for 30 Days | Body by Babish	being-with-babish-4	https://www.youtube.com/watch?v=n_aq5TVb0HA	https://www.youtube.com/watch?v=n_aq5TVb0HA	https://img.youtube.com/vi/n_aq5TVb0HA/mqdefault.jpg	2019-06-07	\N	\N	\N
+being-with-babish-5	Whiskey Basics | Being with Babish Double Feature	being-with-babish-5	https://www.youtube.com/watch?v=32Qlof81vcM	https://www.youtube.com/watch?v=32Qlof81vcM	https://img.youtube.com/vi/32Qlof81vcM/mqdefault.jpg	2019-07-12	\N	\N	\N
+being-with-babish-6	I Surprised My Brother with a Tesla	being-with-babish-6	https://www.youtube.com/watch?v=N44XgSRE-gY	https://www.youtube.com/watch?v=N44XgSRE-gY	https://img.youtube.com/vi/N44XgSRE-gY/mqdefault.jpg	2019-10-26	\N	\N	\N
+bell-peppers-and-beef-inspired-by-cowboy-bebop	Bell Peppers and Beef inspired by Cowboy Bebop	bell-peppers-and-beef-inspired-by-cowboy-bebop	https://www.youtube.com/watch?v=2cAUXitY1Wg	https://www.babi.sh/recipes/bell-peppers-and-beef-inspired-by-cowboy-bebop	https://res.cloudinary.com/dd27yihoo/image/upload/v1724877351/hawouiv2bqsgxzhglqox.webp	2024-08-20	\N	4	servings
+ben-wyatt-calzones	Calzones inspired by Parks & Rec	ben-wyatt-calzones	https://www.youtube.com/watch?v=PvgCEifW7Jo	https://www.babi.sh/recipes/ben-wyatt-calzones	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695309/babishImages/undefined-56906.png	2020-04-15	7200	4	servings
+big-bang-burger-inspired-by-persona-5	Big Bang Burger inspired by Persona 5	big-bang-burger-inspired-by-persona-5	https://www.youtube.com/watch?v=dUxzbnKKzf8&pp=ygUVYmlnIGJhbmcgYnVyZ2VyIGFsdmlu	https://www.babi.sh/recipes/big-bang-burger-inspired-by-persona-5	https://res.cloudinary.com/dd27yihoo/image/upload/v1728311555/laq2mbbfwx2xlzw3ucrw.webp	2024-10-07	\N	8	servings
+biggamesnacks	BIG GAME SNACKS	biggamesnacks	https://www.youtube.com/watch?v=8ckxhlDFNkg	https://www.babi.sh/recipes/biggamesnacks	https://res.cloudinary.com/dd27yihoo/image/upload/v1686007959/eyt2lwmqnjme9flte5ai.webp	2019-01-31	3600	4	servings
+bigkahunaburger	Big Kahuna Burger inspired by Pulp Fiction	bigkahunaburger	https://www.youtube.com/watch?v=OmwE0aJqkdA	https://www.babi.sh/recipes/bigkahunaburger	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992063/svmbfnvcgcixlk4husak.webp	2017-01-03	\N	\N	\N
+birria-tacos	BIRRIA TACOS	birria-tacos	https://www.youtube.com/watch?v=pQmSrlIbULk	https://www.babi.sh/recipes/birria-tacos	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695549/babishImages/undefined-359574.png	2021-03-11	3600	4	servings
+biscotti	BISCOTTI	biscotti	https://www.youtube.com/watch?v=g4EkzEKlGOA	https://www.babi.sh/recipes/biscotti	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695295/babishImages/undefined-256401.png	2021-09-24	3600	\N	\N
+biscuits-and-gravy	BISCUITS AND GRAVY	biscuits-and-gravy	https://www.youtube.com/watch?v=NMbMT9tY8-Q	https://www.babi.sh/recipes/biscuits-and-gravy	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695440/babishImages/undefined-307049.png	2021-02-25	3600	6	servings
+biscuits-ted-lasso	Biscuits inspired by Ted Lasso	biscuits-ted-lasso	https://www.youtube.com/watch?v=r_yBqWHtWMo	https://www.babi.sh/recipes/biscuits-ted-lasso	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695315/babishImages/undefined-343517.png	2021-03-16	7200	4	servings
+black-and-white-cookies-seinfeld	Black and White Cookies inspired by Seinfeld	black-and-white-cookies-seinfeld	https://www.youtube.com/watch?v=9Z7s35n3a5I	https://www.babi.sh/recipes/black-and-white-cookies-seinfeld	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695369/babishImages/undefined-373274.png	2021-09-01	6000	\N	\N
+blendersoups	BLENDER SOUPS	blendersoups	https://www.youtube.com/watch?v=S-gUFvpRQoU	https://www.babi.sh/recipes/blendersoups	https://res.cloudinary.com/dd27yihoo/image/upload/v1686007069/ibhjyui89v1zkxbgpjgd.webp	2019-03-05	2100	2	servings
+blood-pie-inspired-by-game-of-thrones	Blood Pie inspired by Game of Thrones	blood-pie-inspired-by-game-of-thrones	https://www.youtube.com/watch?v=Y_hc07rAQlc	https://www.babi.sh/recipes/blood-pie-inspired-by-game-of-thrones	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991789/mgtmjmq4qkfmrt4f405n.webp	2017-07-11	\N	\N	\N
+blooming-fish-inspired-by-cinderella-chef	Blooming Fish inspired by Cinderella Chef	blooming-fish-inspired-by-cinderella-chef	https://www.youtube.com/watch?v=DAwamRa8m9Y	https://www.babi.sh/recipes/blooming-fish-inspired-by-cinderella-chef	https://res.cloudinary.com/dd27yihoo/image/upload/v1727902497/v0e6pzds2idrfzg2dqbj.webp	2024-10-02	5400	2	servings
+blue-noodles-andor	Blue Noodles inspired by Andor	blue-noodles-andor	https://www.youtube.com/watch?v=tpz4S18l5LM	https://www.babi.sh/recipes/blue-noodles-andor	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696246/babishImages/undefined-786955.png	2022-11-04	4800	4	servings
+bluey-duck-cake	Duck Cake Inspired by Bluey	bluey-duck-cake	https://www.youtube.com/watch?v=w7B-BGWixm0	https://www.babi.sh/recipes/bluey-duck-cake	https://res.cloudinary.com/dd27yihoo/image/upload/v1707408991/nyvglzkdwqrlkvu7qwnb.webp	2024-02-08	10800	4	servings
+bobbys-cookies-king-of-the-hill	Bobby's Double Butter Cookies inspired by King of the Hill	bobbys-cookies-king-of-the-hill	https://www.youtube.com/watch?v=u4SpZxD0RIw	https://www.babi.sh/recipes/bobbys-cookies-king-of-the-hill	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695899/babishImages/undefined-639013.png	2022-07-07	6000	4	servings
+bobsburgers	Bob's Burgers	bobsburgers	https://www.youtube.com/watch?v=basFyoMSjds	https://www.babi.sh/recipes/bobsburgers	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992045/htwpdlxcj4iomemedrez.webp	2017-03-14	\N	\N	\N
+bobsburgers-potato-lasagna	Loaded Baked Potato Lasagna Inspired by Bob's Burgers	bobsburgers-potato-lasagna	youtube.com/watch?v=jts_NfZu2vY	https://www.babi.sh/recipes/bobsburgers-potato-lasagna	https://res.cloudinary.com/dd27yihoo/image/upload/v1709308712/bfjgjzbwq9dstzpukvxo.webp	2024-03-01	3600	4	servings
+boeufbourguignon	Boeuf Bourguignon from Julie & Julia	boeufbourguignon	https://www.youtube.com/watch?v=8DCw_eR_iPA	https://www.babi.sh/recipes/boeufbourguignon	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991783/u4pz3me67e18f7lowovc.webp	2017-04-27	\N	\N	\N
+bolognese	BOLOGNESE	bolognese	https://www.youtube.com/watch?v=vTEi5FFxMuE	https://www.babi.sh/recipes/bolognese	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715522/babishImages/undefined-624743.png	2020-10-26	3000	4	servings
+bone-broth	Bone Broth inspired by The Mandalorian	bone-broth	https://www.youtube.com/watch?v=6GHwG1y-NE0	https://www.babi.sh/recipes/bone-broth	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695419/babishImages/undefined-803691.png	2019-12-11	2400	4	servings
+bop-egg-sandwich	Egg Sandwich (with Homemade Ciabatta) inspired by Birds of Prey	bop-egg-sandwich	https://www.youtube.com/watch?v=6JFVKnrE_d8	https://www.babi.sh/recipes/bop-egg-sandwich	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696111/babishImages/undefined-691801.png	2020-02-25	1200	4	servings
+braciole	Braciole inspired by Everybody Loves Raymond	braciole	https://www.youtube.com/watch?v=1inpwA-_PzQ	https://www.babi.sh/recipes/braciole	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695622/babishImages/undefined-399612.png	2020-01-30	8400	4	servings
+bread	BREAD	bread	https://www.youtube.com/watch?v=Jizr6LR83Kk	https://www.babi.sh/recipes/bread	https://res.cloudinary.com/dd27yihoo/image/upload/v1726172192/lyapiyi76tmqk0vfjaez.webp	2018-07-27	9000	2	servings
+breakfast-uncrustable	Breakfast Uncrustable	breakfast-uncrustable		https://www.babi.sh/recipes/breakfast-uncrustable	https://res.cloudinary.com/dd27yihoo/image/upload/v1726165637/jmgh94llro228evbeodw.webp	2024-09-12	\N	6	servings
+breakingbadspecial	Breaking Bad Special	breakingbadspecial	https://www.youtube.com/watch?v=ZY63ZSUdywY	https://www.babi.sh/recipes/breakingbadspecial	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715452/babishImages/undefined-411961.png	2018-02-06	\N	\N	\N
+brie-butter-baguette-twin-peaks	Brie & Butter Baguette inspired by Twin Peaks	brie-butter-baguette-twin-peaks	https://www.youtube.com/watch?v=vWdjqdmFHxw	https://www.babi.sh/recipes/brie-butter-baguette-twin-peaks	https://res.cloudinary.com/dd27yihoo/image/upload/v1679419541/mjnsfwsylba6umemgi38.webp	2020-11-03	7200	4	servings
+brocksdonuts	Brock's Donuts inspired by Pokémon	brocksdonuts	https://www.youtube.com/watch?v=RentKWlhUXc&amp;t=1s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/RentKWlhUXc/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/brocksdonuts	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695178/babishImages/undefined-56205.png	2019-04-02	3600	4	servings
+brocksonigiri	Brock's Onigiri inspired by Pokémon	brocksonigiri	https://www.youtube.com/watch?v=gW4PCfLzTYA&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/gW4PCfLzTYA/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/brocksonigiri	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696152/babishImages/undefined-105913.png	2019-04-02	6000	4	servings
+broodwich-aqua-teen-hunger-force	The Broodwich inspired by Aqua Teen Hunger Force	broodwich-aqua-teen-hunger-force	https://www.youtube.com/watch?v=0vZvPtI5Uk8	https://www.babi.sh/recipes/broodwich-aqua-teen-hunger-force	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695861/babishImages/undefined-804479.png	2020-10-27	6000	4	servings
+browned-butter-hojicha-rice-krispies-treats	Browned Butter Hojicha Rice Krispies Treats	browned-butter-hojicha-rice-krispies-treats	https://www.instagram.com/reel/C0t0TBPrEah/	https://www.babi.sh/recipes/browned-butter-hojicha-rice-krispies-treats	https://res.cloudinary.com/dd27yihoo/image/upload/v1702313696/qkcaee5tnamr2aq8q1ag.webp	2023-12-11	\N	6	servings
+brownies	BROWNIES	brownies	https://www.youtube.com/watch?v=kDdUdvNQndo	https://www.babi.sh/recipes/brownies	https://res.cloudinary.com/dd27yihoo/image/upload/v1685911967/gx79ngetgymhmlrzqa0h.webp	2019-06-27	4500	6	servings
+bubbashrimp2	Shrimp inspired by Forrest Gump Part II	bubbashrimp2	https://www.youtube.com/watch?v=mF6JUfczaO8&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/mF6JUfczaO8/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/bubbashrimp2	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696055/babishImages/undefined-252668.png	2019-04-23	4800	4	servings
+bubblebass	Bubble Bass' Order inspired by Spongebob Squarepants	bubblebass	https://www.youtube.com/watch?v=Y8hi6A5MPVY	https://www.babi.sh/recipes/bubblebass	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715461/babishImages/undefined-746523.png	2018-05-22	\N	\N	\N
+bunnicorn-pizza	Bunnicorn Pizza inspired by Star Trek: Picard	bunnicorn-pizza	https://www.youtube.com/watch?v=2a8Uz3pYTh4	https://www.babi.sh/recipes/bunnicorn-pizza	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696254/babishImages/undefined-826177.png	2020-03-17	4800	4	servings
+burgers	BURGERS	burgers	https://www.youtube.com/watch?v=nbCgfiqq-5c	https://www.babi.sh/recipes/burgers	https://res.cloudinary.com/dd27yihoo/image/upload/v1686072856/hopwyczgnd5layejyvpe.webp	2018-06-14	3600	2	servings
+butterednoodles-community	Buttered Noodles inspired by Community	butterednoodles-community	https://www.youtube.com/watch?v=xGHTj4y_bd8	https://www.babi.sh/recipes/butterednoodles-community	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695894/babishImages/undefined-831336.png	2020-05-26	6000	4	servings
+buttermilk-pancakes-inspired-by-twin-peaks	Buttermilk Pancakes inspired by Twin Peaks	buttermilk-pancakes-inspired-by-twin-peaks	https://www.youtube.com/watch?v=nEoSBL25RO4	https://www.babi.sh/recipes/buttermilk-pancakes-inspired-by-twin-peaks	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992075/k6lh85gi9qv44sgwuezx.webp	2017-05-18	\N	5	servings
+caillesensarchophage	Cailles en Sarchophage inspired by Babette's Feast	caillesensarchophage	https://www.youtube.com/watch?v=Bz1IXK6ahu0	https://www.youtube.com/watch?v=Bz1IXK6ahu0	https://img.youtube.com/vi/Bz1IXK6ahu0/mqdefault.jpg	2017-10-03	\N	\N	\N
+cajunfood	CAJUN FOOD	cajunfood	https://www.youtube.com/watch?v=nORg_aXMsmA	https://www.babi.sh/recipes/cajunfood	https://res.cloudinary.com/dd27yihoo/image/upload/v1685738278/bdfgvfer8ydjozwjsvmf.webp	2019-09-13	5400	4	servings
+cake-pops	CAKE POPS	cake-pops	https://www.youtube.com/watch?v=C_hz9wzeBbY	https://www.babi.sh/recipes/cake-pops	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695195/babishImages/undefined-881481.png	2021-11-02	7200	10	servings
+calistyle-burrito	CALI-STYLE BURRITO	calistyle-burrito	https://www.youtube.com/watch?v=55YUKZK7BXg	https://www.babi.sh/recipes/calistyle-burrito	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695451/babishImages/undefined-566187.png	2021-09-13	4800	\N	\N
+carbonara	CARBONARA	carbonara	https://www.youtube.com/watch?v=qoHnwOHLiMk	https://www.babi.sh/recipes/carbonara	https://res.cloudinary.com/dd27yihoo/image/upload/v1685823362/wfj3v6zecpgzotkpwpow.webp	2019-08-15	1500	4	servings
+carbonara-anything	CARBONARA ANYTHING	carbonara-anything	https://www.youtube.com/watch?v=wrweyL0YS8Y	https://www.babi.sh/recipes/carbonara-anything	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695332/babishImages/undefined-714411.png	2022-09-19	\N	4	servings
+carnitas	CARNITAS	carnitas	https://www.youtube.com/watch?v=FEZioC-qMd4	https://www.babi.sh/recipes/carnitas	https://res.cloudinary.com/dd27yihoo/image/upload/v1690352698/ldnpp7ukrrvaiormf4ux.webp	2023-05-12	\N	\N	\N
+carpanini	Car Panini inspired by Family Guy	carpanini	https://www.youtube.com/watch?v=4Rz8BPRFeiA	https://www.babi.sh/recipes/carpanini	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715473/babishImages/undefined-402999.png	2018-07-10	\N	\N	\N
+ccourtesan-au-chocolat	Courtesan au Chocolat inspired by Grand Budapest Hotel	ccourtesan-au-chocolat	https://www.youtube.com/watch?v=GO5P3fLTwA0	https://www.babi.sh/recipes/ccourtesan-au-chocolat	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715490/babishImages/undefined-759763.jpg	2017-08-15	\N	12	servings
+challah	CHALLAH	challah	https://www.youtube.com/watch?v=M558453kb9g	https://www.babi.sh/recipes/challah	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695737/babishImages/undefined-872033.png	2021-12-07	8400	1	loaf
+charcuterieandcheeseboards	CHARCUTERIE & CHEESE BOARDS	charcuterieandcheeseboards	https://www.youtube.com/watch?v=VnrScNQDcEQ	https://www.babi.sh/recipes/charcuterieandcheeseboards	https://res.cloudinary.com/dd27yihoo/image/upload/v1686009296/mwxfpmkv2kqhubhm4xqu.webp	2018-12-06	\N	\N	\N
+charliebrownthanksgiving	Charlie Brown Thanksgiving	charliebrownthanksgiving	https://www.youtube.com/watch?v=5FyKxVJmsdE&amp;t=1s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/5FyKxVJmsdE/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/charliebrownthanksgiving	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696206/babishImages/undefined-812990.jpg	2018-11-20	4800	4	servings
+chateaubriandsteak	Chateaubriand Steak inspired by The Matrix	chateaubriandsteak	https://www.youtube.com/watch?v=eA6uLMsl9w0	https://www.babi.sh/recipes/chateaubriandsteak	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715539/babishImages/undefined-131890.png	2018-04-17	\N	\N	\N
+cheesdips	CHEESE DIPS	cheesdips	https://www.youtube.com/watch?v=9toK5UUGeok	https://www.babi.sh/recipes/cheesdips	https://res.cloudinary.com/dd27yihoo/image/upload/v1686005952/sgzpqqlxhdnjser57r5j.webp	2019-05-02	2700	6	servings
+cheese-fondue	CHEEESE FONDUE	cheese-fondue	https://www.youtube.com/watch?v=_X-Mm8h1AHM	https://www.babi.sh/recipes/cheese-fondue	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715730/babishImages/undefined-469596.png	2020-07-23	1800	6	servings
+cheeseburger-the-menu	Cheeseburger inspired by The Menu	cheeseburger-the-menu	https://www.youtube.com/watch?v=ep6k3Ofcf2s	https://www.babi.sh/recipes/cheeseburger-the-menu	https://res.cloudinary.com/dd27yihoo/image/upload/v1677044221/nldmt4l5dra69ov0dof0.webp	2023-02-22	7200	6	burgers
+cheesecake-inspired-by-junior's-cheesecakes	Cheesecake inspired by Junior's Cheesecakes	cheesecake-inspired-by-junior's-cheesecakes	https://www.youtube.com/watch?v=gQeY_wx9bsI&t=26s&ab_channel=BabishCulinaryUniverse	https://www.babi.sh/recipes/cheesecake-inspired-by-junior's-cheesecakes	https://res.cloudinary.com/dd27yihoo/image/upload/v1741657095/qjrimy3opynb08w9zudl.webp	2025-03-11	27900	\N	\N
+cheesesteak	Philly Cheesesteaks inspired by Creed	cheesesteak	https://www.youtube.com/watch?v=Zru1yk--rGQ	https://www.babi.sh/recipes/cheesesteak	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992082/xlhovdhhw4afkquqaobt.webp	2016-08-21	\N	\N	\N
+cheesyblasters	Cheesy Blasters inspired by 30 Rock	cheesyblasters	https://www.youtube.com/watch?v=atLL2Yzi3bg	https://www.babi.sh/recipes/cheesyblasters	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715459/babishImages/undefined-717173.png	2018-05-15	\N	\N	\N
+chefs-choice-platter-monster-hunter-world	The Chef's Choice Platter inspired by Monster Hunter: World	chefs-choice-platter-monster-hunter-world	https://www.youtube.com/watch?v=__qtH1ly2Sg	https://www.babi.sh/recipes/chefs-choice-platter-monster-hunter-world	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696043/babishImages/undefined-419307.png	2021-03-31	7200	9	servings
+chicago-deep-dish-the-bear	Chicago Deep Dish Pizza inspired by The Bear	chicago-deep-dish-the-bear	https://www.youtube.com/watch?v=Ris0udk2C84	https://www.babi.sh/recipes/chicago-deep-dish-the-bear	https://res.cloudinary.com/dd27yihoo/image/upload/v1690249416/oxrjvgjzaljdvfvtinpj.webp	2023-07-21	\N	\N	\N
+chicago-style-italian-beef-inspired-by-the-bear	Chicago-Style Italian Beef inspired by The Bear	chicago-style-italian-beef-inspired-by-the-bear	https://www.youtube.com/watch?v=xrXDdlrcuKs	https://www.babi.sh/recipes/chicago-style-italian-beef-inspired-by-the-bear	https://res.cloudinary.com/dd27yihoo/image/upload/v1720451211/caje3wf74d8gwuq8hbjn.webp	2024-07-08	\N	5	servings
+chicken-fingers-community	Chicken Fingers inspired by Community	chicken-fingers-community	https://www.youtube.com/watch?v=MJoSs4BGaHI	https://www.babi.sh/recipes/chicken-fingers-community	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695499/babishImages/undefined-134001.png	2021-04-02	3600	4	servings
+chicken-kiev-mad-men	Chicken Kiev inspired by Mad Men	chicken-kiev-mad-men	https://www.youtube.com/watch?v=kf8XzD-xVGc	https://www.babi.sh/recipes/chicken-kiev-mad-men	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695711/babishImages/undefined-516619.png	2021-03-02	2400	2	servings
+chicken-meatball-hotpot-inspired-by-jujutsu-kaisen	Chicken Meatball Hotpot inspired By Jujutsu Kaisen	chicken-meatball-hotpot-inspired-by-jujutsu-kaisen	https://www.youtube.com/watch?v=GymqadVYSXk&t=34s	https://www.babi.sh/recipes/chicken-meatball-hotpot-inspired-by-jujutsu-kaisen	https://res.cloudinary.com/dd27yihoo/image/upload/v1727887830/cnkxewktxghxefrnq6xa.webp	2024-10-02	\N	3	servings
+chicken-parmesan	CHICKEN PARMESAN	chicken-parmesan	https://www.youtube.com/watch?v=ZrR0VbqNdW8	https://www.babi.sh/recipes/chicken-parmesan	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715495/babishImages/undefined-30590.png	2020-12-10	3600	4	servings
+chicken-piccata	CHICKEN PICCATA	chicken-piccata	https://www.youtube.com/watch?v=ZqEqtmMY1M0	https://www.babi.sh/recipes/chicken-piccata	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695515/babishImages/undefined-561520.png	2022-02-18	\N	4	servings
+chicken-pot-pie	CHICKEN POT PIE	chicken-pot-pie	https://www.youtube.com/watch?v=Sv7NP9LMU4Q	https://www.babi.sh/recipes/chicken-pot-pie	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715703/babishImages/undefined-597597.png	2020-11-13	\N	5	servings
+chicken-schnitzel-with-kohlrabi-slaw	Chicken Schnitzel with Kohlrabi Slaw	chicken-schnitzel-with-kohlrabi-slaw		https://www.babi.sh/recipes/chicken-schnitzel-with-kohlrabi-slaw	https://res.cloudinary.com/dd27yihoo/image/upload/v1712164085/zevoznd2i1yfyqnxouis.webp	2024-04-03	\N	\N	\N
+chickenpaprikash	Chicken Paprikash inspired by Captain America: Civil War	chickenpaprikash	https://www.youtube.com/watch?v=baG767jr8c8	https://www.babi.sh/recipes/chickenpaprikash	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715753/babishImages/undefined-326225.png	2018-04-24	\N	\N	\N
+chickentikkamasala	CHICKEN TIKKA MASALA	chickentikkamasala	https://www.youtube.com/watch?v=Bkd0LxBd2L8	https://www.babi.sh/recipes/chickentikkamasala	https://res.cloudinary.com/dd27yihoo/image/upload/v1686006735/dk1zntqnkdzyf26vol0o.webp	2019-03-28	2700	4	servings
+chickpeas	CHICKPEAS (HUMMUS, CHANA MASALA, MERINGUES, COOKIES)	chickpeas	https://www.youtube.com/watch?v=LfzKfD_WuDM	https://www.babi.sh/recipes/chickpeas	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715488/babishImages/undefined-317396.png	2020-03-19	3600	4	servings
+chilaquiles-divorciados-(con-todo)	Chilaquiles Divorciados (Con Todo)	chilaquiles-divorciados-(con-todo)		https://www.babi.sh/recipes/chilaquiles-divorciados-(con-todo)	https://res.cloudinary.com/dd27yihoo/image/upload/v1715004133/jasux88sbxvtoi3eawdi.webp	2024-05-06	\N	3	servings
+chileanseabass	Chilean Sea Bass inspired by Jurassic Park	chileanseabass	https://www.youtube.com/watch?v=p73kqpqGqqQ&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/p73kqpqGqqQ/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/chileanseabass	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695721/babishImages/undefined-408439.png	2018-11-27	1200	3	servings
+chiles-rellenos	CHILES RELLENOS	chiles-rellenos	https://www.youtube.com/watch?v=gAKW8RB6aeU	https://www.babi.sh/recipes/chiles-rellenos	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695355/babishImages/undefined-627603.png	2021-08-26	3600	\N	\N
+chili-two-ways	CHILI (MEAT & VEGETARIAN)	chili-two-ways	https://www.youtube.com/watch?v=4BTm1Ezl6XE	https://www.babi.sh/recipes/chili-two-ways	https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1580394251048-E9PK1EUOJW3TS4QI6DYT/BWB+Meatiest+Chili.jpg	2020-01-30	7200	4	servings
+chimichangas	CHIMICHANGAS	chimichangas	https://www.youtube.com/watch?v=szFLA4_pwew	https://www.babi.sh/recipes/chimichangas	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715751/babishImages/undefined-916823.png	2020-04-28	3600	6	servings
+chocolate-cake-inspired-by-matilda	Chocolate Cake inspired by Matilda	chocolate-cake-inspired-by-matilda	https://www.youtube.com/watch?v=exQ6oGefSiA	https://www.babi.sh/recipes/chocolate-cake-inspired-by-matilda	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991787/cxpb3rjiwrvezbgpjfej.webp	2017-06-06	\N	\N	\N
+chocolate-cake-milkshake-inspired-by-portillo's	Chocolate Cake Milkshake inspired by Portillo's	chocolate-cake-milkshake-inspired-by-portillo's	https://www.youtube.com/watch?v=NqEqOQZSXOE&pp=ygUoY2hvY29sYXRlIGNha2Ugc2hha2UgYmluZ2luZyB3aXRoIGJhYmlzaA%3D%3D	https://www.babi.sh/recipes/chocolate-cake-milkshake-inspired-by-portillo's	https://res.cloudinary.com/dd27yihoo/image/upload/v1749064072/hstkkvyg9ja8s6vazkgi.webp	2025-06-04	\N	\N	\N
+chocolate-croissants-its-complicated	Chocolate Croissants inspired by It's Complicated	chocolate-croissants-its-complicated	https://www.youtube.com/watch?v=qvNXPn4ptJM	https://www.babi.sh/recipes/chocolate-croissants-its-complicated	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696083/babishImages/undefined-824297.png	2022-08-01	4800	4	servings
+chocolate-pudding-rugrats	Chocolate Pudding (4 Ways) inspired by Rugrats	chocolate-pudding-rugrats	https://www.youtube.com/watch?v=1lPU4CwSnTc	https://www.babi.sh/recipes/chocolate-pudding-rugrats	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696061/babishImages/undefined-143561.png	2020-03-03	4800	4	servings
+chocolate-spongebob	Chocolate inspired by SpongeBob SquarePants	chocolate-spongebob	https://www.youtube.com/watch?v=KB0kltHtnBA	https://www.babi.sh/recipes/chocolate-spongebob	https://res.cloudinary.com/dd27yihoo/image/upload/v1677047143/hqv73vmgjwxyv5364bph.webp	2023-02-22	14400	4	servings
+chocolatelavacakes	Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi	chocolatelavacakes	https://www.youtube.com/watch?v=qbMTukAJskQ	https://www.babi.sh/recipes/chocolatelavacakes	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715705/babishImages/undefined-478519.png	2018-02-20	\N	\N	\N
+chopped-cheese	CHOPPED CHEESE	chopped-cheese	https://www.youtube.com/watch?v=E1z55dYHv8c	https://www.babi.sh/recipes/chopped-cheese	https://res.cloudinary.com/dd27yihoo/image/upload/v1680343867/ersvctalsr97j0gpoa1p.webp	2021-07-13	8400	4	servings
+chorizo-clam-pasta	Chorizo Clam Pasta	chorizo-clam-pasta		https://www.babi.sh/recipes/chorizo-clam-pasta	https://res.cloudinary.com/dd27yihoo/image/upload/v1723131815/pp5vavgjuw3vbgrspxwe.webp	2024-08-08	\N	\N	\N
+christmas-turkey-inspired-by-national-lampoon's-christmas-vacation	Christmas Turkey inspired by National Lampoon's Christmas Vacation	christmas-turkey-inspired-by-national-lampoon's-christmas-vacation	https://youtube.com/watch?v=w0pZ7MWajW8&si=r2TmnS9oJhDHIbp5	https://www.babi.sh/recipes/christmas-turkey-inspired-by-national-lampoon's-christmas-vacation	https://res.cloudinary.com/dd27yihoo/image/upload/v1764189007/giyklwlgdj7x3nwbi38c.webp	2025-11-26	259200	\N	\N
+churrons-broad-city	Churrons inspired by Broad City	churrons-broad-city	https://www.youtube.com/watch?v=JiUsCTy8nEY	https://www.babi.sh/recipes/churrons-broad-city	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695905/babishImages/undefined-290140.png	2022-08-17	8400	4	servings
+cinnamon-rolls-3-ways-(pumpkin-spice-strawberry-nutella-classic)	Cinnamon Rolls 3-Ways (Pumpkin Spice, Strawberry Nutella, Classic)	cinnamon-rolls-3-ways-(pumpkin-spice-strawberry-nutella-classic)	https://www.youtube.com/watch?v=QsMNoGvPAJ4	https://www.babi.sh/recipes/cinnamon-rolls-3-ways-(pumpkin-spice-strawberry-nutella-classic)	https://res.cloudinary.com/dd27yihoo/image/upload/v1728682940/vwybjlgymmmndc3ghs9r.webp	2024-10-11	10800	12	servings
+cinnamonrolls	Cinnamon Rolls inspired by Jim Gaffigan's Stand Up (sort of)	cinnamonrolls	https://www.youtube.com/watch?v=jFYi2QRVFOc&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/jFYi2QRVFOc/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/cinnamonrolls	https://res.cloudinary.com/dd27yihoo/image/upload/v1679245506/gyb4qsztcyrv4kjnvwug.webp	2018-10-23	3600	4	servings
+classic-fettucine-alfredo	Classic Fettucine Alfredo	classic-fettucine-alfredo	https://www.youtube.com/watch?v=2Xx1QY_WVs0&pp=ygUhY2xhc3NpYyBmZXR0dWNjaW5lIGFsZnJlZG8gYmFiaXNo	https://www.babi.sh/recipes/classic-fettucine-alfredo	https://res.cloudinary.com/dd27yihoo/image/upload/v1749216590/llpz2sobgkra4ttgl9kx.webp	2025-06-06	1800	2	servings
+classicpancakes	Classic Pancakes inspired by Uncle Buck	classicpancakes	https://www.youtube.com/watch?v=WMj7G-U3LW8	https://www.babi.sh/recipes/classicpancakes	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695456/babishImages/undefined-606334.png	2019-08-20	2400	4	servings
+clayroastedthigh	Clay-Roasted Thigh inspired by Hannibal	clayroastedthigh	https://www.youtube.com/watch?v=lnB7svFAZBs&amp;t=2s	https://www.babi.sh/recipes/clayroastedthigh	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715438/babishImages/undefined-943571.png	2017-10-31	\N	\N	\N
+clementinecake	Clementine Cake inspired by The Secret Life of Walter Mitty	clementinecake	https://www.youtube.com/watch?v=cr2wUlNSFg0	https://www.babi.sh/recipes/clementinecake	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715728/babishImages/undefined-306069.png	2018-03-06	11400	6	servings
+cocktail-special	Cocktail Special	cocktail-special	https://www.youtube.com/watch?v=v5tJBLfeurU	https://www.babi.sh/recipes/cocktail-special	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991773/frvdqes62h3gdapclpxo.webp	2017-06-28	\N	\N	\N
+cocoa-krispies-oliver-and-company	Oeufs a la Jenny avec Cocoa Krispies inspired by Oliver & Company	cocoa-krispies-oliver-and-company	https://www.youtube.com/watch?v=YPsRQ6O1gjA	https://www.babi.sh/recipes/cocoa-krispies-oliver-and-company	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696134/babishImages/undefined-989706.png	2022-01-11	9000	6	servings
+coconut-tres-leches-cake-(inspired-by-uncle-boon'sthai-diner)	Coconut Tres Leches Cake (inspired by Uncle Boon's/Thai Diner)	coconut-tres-leches-cake-(inspired-by-uncle-boon'sthai-diner)		https://www.babi.sh/recipes/coconut-tres-leches-cake-(inspired-by-uncle-boon'sthai-diner)	https://res.cloudinary.com/dd27yihoo/image/upload/v1711376222/qzxptjovrunyeh6a7gxv.webp	2024-03-25	\N	\N	\N
+coffee	COFFEE	coffee	https://www.youtube.com/watch?v=6yItCQB4V9A	https://www.babi.sh/recipes/coffee	https://res.cloudinary.com/dd27yihoo/image/upload/v1685913686/jkj0usgdv3og2qcwbn95.webp	2019-05-31	600	\N	\N
+coffeecake	COFFEE CAKE	coffeecake	https://www.youtube.com/watch?v=ds0jskRIeRI	https://www.babi.sh/recipes/coffeecake	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715476/babishImages/undefined-63787.png	2020-05-14	5400	6	servings
+coffeejelly	Coffee Jelly inspired by The Disastrous Life of Saiki K.	coffeejelly	https://www.youtube.com/watch?v=YxEcd_wTf5c&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/YxEcd_wTf5c/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/coffeejelly	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695184/babishImages/undefined-73008.png	2019-09-24	4800	4	servings
+cola-short-ribs-the-bear	Cola-Braised Short Ribs inspired by The Bear	cola-short-ribs-the-bear	https://www.youtube.com/watch?v=6GZDBmQsaw0	https://www.babi.sh/recipes/cola-short-ribs-the-bear	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695757/babishImages/undefined-202545.png	2022-10-28	7200	4	servings
+cold-cure	Cold Cure inspired by Kenan & Kel	cold-cure	https://www.youtube.com/watch?v=M-7t9FBecoU	https://www.babi.sh/recipes/cold-cure	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695640/babishImages/undefined-577796.png	2020-03-24	1200	4	servings
+cookie-cat-steven-universe	Cookie Cat inspired by Steven Universe	cookie-cat-steven-universe	https://www.youtube.com/watch?v=KbNRvWfndjA	https://www.babi.sh/recipes/cookie-cat-steven-universe	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696201/babishImages/undefined-799954.png	2021-02-16	4800	4	servings
+cookie-dough	COOKIE DOUGH	cookie-dough	https://www.youtube.com/watch?v=Il1Cy4tQCkk	https://www.babi.sh/recipes/cookie-dough	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696088/babishImages/undefined-264841.png	2021-06-04	2400	6	servings
+cookie-nachos-sweet-tooth	Cookie Nachos inspired by Sweet Tooth Goes Euro	cookie-nachos-sweet-tooth	https://www.youtube.com/watch?v=tVmhieZDmdA	https://www.babi.sh/recipes/cookie-nachos-sweet-tooth	https://res.cloudinary.com/dd27yihoo/image/upload/v1695140575/hp7xzdscoynuc2pdkbr8.webp	2023-08-09	\N	\N	\N
+copy-cat-spicy-vodka-rigatoni	Copy Cat Spicy Vodka Rigatoni	copy-cat-spicy-vodka-rigatoni	https://www.youtube.com/watch?v=KMUvINcrpzM	https://www.babi.sh/recipes/copy-cat-spicy-vodka-rigatoni	https://res.cloudinary.com/dd27yihoo/image/upload/v1749222937/h0akjerb4dvfjjofwtkj.webp	2025-06-06	3600	6	servings
+coq-au-vin	Coq au Vin	coq-au-vin	https://www.youtube.com/watch?v=cf1H6ylUFH4	https://www.babi.sh/recipes/coq-au-vin	https://res.cloudinary.com/dd27yihoo/image/upload/v1760217634/qggynlnkmhze8roieemn.webp	2025-10-11	7200	\N	\N
+coqauvin	Coq au Vin inspired by Donnie Brasco	coqauvin	https://www.youtube.com/watch?v=VP1uTgikarU&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/VP1uTgikarU/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/coqauvin	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695986/babishImages/undefined-867897.png	2019-01-15	3600	4	servings
+corn-dogs	CORN DOGS	corn-dogs	https://www.youtube.com/watch?v=zGT45vVJNso	https://www.babi.sh/recipes/corn-dogs	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695001/babishImages/undefined-765280.png	2021-05-27	\N	6	servings
+cornbread	CORNBREAD	cornbread	https://www.youtube.com/watch?v=nAtCqHJofJk	https://www.babi.sh/recipes/cornbread	https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1575566267341-AZ6STDKJCOS6J4VVLMCJ/Screen+Shot+2019-12-05+at+10.45.40+AM+%282%29.png	2019-12-12	2700	6	servings
+corned-beef	CORNED BEEF	corned-beef	https://www.youtube.com/watch?v=IDkuwVvZpWM	https://www.babi.sh/recipes/corned-beef	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695564/babishImages/undefined-160589.png	2022-03-17	\N	3	servings
+crab-bisque-seinfeld	Crab Bisque inspired by Seinfeld	crab-bisque-seinfeld	https://www.youtube.com/watch?v=5kKMB890ABc	https://www.babi.sh/recipes/crab-bisque-seinfeld	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695634/babishImages/undefined-585834.png	2022-05-27	2400	4	servings
+creme-caramel	CRÈME CARAMEL	creme-caramel	https://www.youtube.com/watch?v=ihS8__strtM	https://www.babi.sh/recipes/creme-caramel	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695974/babishImages/undefined-25052.png	2021-04-08	3600	4	servings
+cremebrule	Crème Brûlée inspired by Amelie	cremebrule	https://www.youtube.com/watch?v=dn_aaxZIA2o	https://www.babi.sh/recipes/cremebrule	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715756/babishImages/undefined-451881.png	2018-04-03	\N	\N	\N
+crepessuzette	Crêpes Suzette inspired by Talladega Nights	crepessuzette	https://www.youtube.com/watch?v=Z1kR6SIr1XA&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/Z1kR6SIr1XA/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/crepessuzette	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695392/babishImages/undefined-957845.png	2019-10-24	4800	4	servings
+crispiest-sandwich-kidnapped-on-christmas	The Crispiest Sandwich inspired by They Kidnapped my Son on Christmas	crispiest-sandwich-kidnapped-on-christmas	https://www.youtube.com/watch?v=mhLM0FUlhJg	https://www.babi.sh/recipes/crispiest-sandwich-kidnapped-on-christmas	https://res.cloudinary.com/dd27yihoo/image/upload/v1695094920/vr0vqmqsilm4by7affx7.webp	2023-08-09	\N	1	sandwich
+croque-madame-kringle	Croque Madame Kringle	croque-madame-kringle	https://www.instagram.com/reel/C0UhkHDxwq8/?igshid=N2ViNmM2MDRjNw==	https://www.babi.sh/recipes/croque-madame-kringle	https://res.cloudinary.com/dd27yihoo/image/upload/v1701447710/snzltuylalzupksxlua9.webp	2023-12-01	\N	2	servings
+croque-monsieur-brooklyn-nine-nine	Croque Monsieur inspired by Brooklyn Nine-Nine	croque-monsieur-brooklyn-nine-nine	https://www.youtube.com/watch?v=q7JDYiLz9Mo	https://www.babi.sh/recipes/croque-monsieur-brooklyn-nine-nine	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695733/babishImages/undefined-944805.png	2020-07-21	3600	4	servings
+croquemadame	Croque Madame: The Ultimate Breakfast Sandwich	croquemadame	https://www.youtube.com/watch?v=dVRl1aP28BI	https://www.babi.sh/recipes/croquemadame	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991875/uhyqawcvmpjjitgohrse.webp	2016-03-13	\N	\N	\N
+cubanos-inspired-by-chef	Cubanos inspired by Chef	cubanos-inspired-by-chef	https://www.youtube.com/watch?v=hXYoduN0kWs	https://www.babi.sh/recipes/cubanos-inspired-by-chef	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992067/etfzgspqjiwp3janr32z.webp	2017-03-29	\N	\N	\N
+curbyourenthusiasm	Curb Your Enthusiasm Special	curbyourenthusiasm	https://www.youtube.com/watch?v=XIZxT7iI-QI	https://www.babi.sh/recipes/curbyourenthusiasm	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715468/babishImages/undefined-615321.png	2017-10-10	\N	\N	\N
+curry-risotto-omurice-inspired-by-food-wars!	Curry Risotto Omurice inspired by Food Wars!	curry-risotto-omurice-inspired-by-food-wars!	https://www.youtube.com/watch?v=LPo8_trCP8M	https://www.babi.sh/recipes/curry-risotto-omurice-inspired-by-food-wars!	https://res.cloudinary.com/dd27yihoo/image/upload/v1725472664/o1xkl6c29o1zkbk7ckni.webp	2024-09-04	\N	4	servings
+dalgona-squid-games	Dalgona inspired by Squid Games	dalgona-squid-games	https://www.youtube.com/watch?v=s5SqsNPWYA4	https://www.babi.sh/recipes/dalgona-squid-games	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695349/babishImages/undefined-152769.png	2021-10-13	1200	1	servings
+date-night	DATE NIGHT	date-night	https://www.youtube.com/watch?v=dFh7tZoGYA4	https://www.babi.sh/recipes/date-night	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715470/babishImages/undefined-416418.png	2021-02-12	5400	2	servings
+date-night-2	DATE NIGHT II	date-night-2	https://www.youtube.com/watch?v=dlATzLk8Nh8	https://www.babi.sh/recipes/date-night-2	https://res.cloudinary.com/dd27yihoo/image/upload/v1680979695/cbadjt8l6pkrdiadhks1.webp	2022-01-11	12000	2	servings
+deadpoolpizza	Pizza inspired by Deadpool	deadpoolpizza	https://www.youtube.com/watch?v=95M8W1JgH_0	https://www.babi.sh/recipes/deadpoolpizza	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715447/babishImages/undefined-263803.png	2018-06-19	\N	\N	\N
+deathsandwich	Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show	deathsandwich	https://www.youtube.com/watch?v=o5XNzsf78KE&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/o5XNzsf78KE/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/deathsandwich	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695267/babishImages/undefined-363929.png	2019-04-09	7200	4	servings
+deep-fried-burger-bomb	Deep Fried Burger Bomb	deep-fried-burger-bomb	https://www.youtube.com/watch?v=dhRkD9u0C48&pp=ygUYZnJpZWQgYnVyZ2VyIGJvbWIgYmFiaXNo	https://www.babi.sh/recipes/deep-fried-burger-bomb	https://res.cloudinary.com/dd27yihoo/image/upload/v1749219273/tfuzfxhkivkjrmtvcjam.webp	2025-06-06	\N	5	servings
+deepdishpizza	Deep Dish Pizza inspired by The Daily Show	deepdishpizza	https://www.youtube.com/watch?v=hyUnGjykNwg&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/hyUnGjykNwg/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/deepdishpizza	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695617/babishImages/undefined-124647.png	2019-10-09	8400	4	servings
+demon-burger-inspired-by-dragon-ball-daima	Demon Burger inspired by Dragon Ball Daima	demon-burger-inspired-by-dragon-ball-daima	https://www.youtube.com/watch?v=VB4u7Ix_DyU&ab_channel=BabishCulinaryUniverse	https://www.babi.sh/recipes/demon-burger-inspired-by-dragon-ball-daima	https://res.cloudinary.com/dd27yihoo/image/upload/v1741816286/ocl7weafskz6wdv9tjhw.webp	2025-03-12	3600	5	servings
+dessertdogs	Dessert Dogs inspired by The Simpsons	dessertdogs	https://www.youtube.com/watch?v=chil75Ip-3w&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/chil75Ip-3w/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/dessertdogs	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696386/babishImages/undefined-530680.png	2020-01-15	4800	4	servings
+dessertpasta	Breakfast Dessert Pasta from Elf	dessertpasta	https://www.youtube.com/watch?v=PsuoXi2D6tM	https://www.babi.sh/recipes/dessertpasta	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992093/jenvmmmekchagd5w1b2r.webp	2016-12-20	\N	\N	\N
+devil-fruit-inspired-by-one-piece	Devil Fruit inspired by One Piece	devil-fruit-inspired-by-one-piece	https://www.youtube.com/watch?v=J16qIo_BrZI	https://www.babi.sh/recipes/devil-fruit-inspired-by-one-piece	https://res.cloudinary.com/dd27yihoo/image/upload/v1724877134/yezhzbhda6kzcfjslvfr.webp	2024-08-19	\N	4	servings
+dexter-key-lime-pie	Perfect Key Lime Pie inspired by Dexter	dexter-key-lime-pie	https://www.youtube.com/watch?v=UOztOU4T-_c	https://www.babi.sh/recipes/dexter-key-lime-pie	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695559/babishImages/undefined-208606.png	2020-07-29	6000	4	servings
+diablo-onigiri	Diablo Onigiri	diablo-onigiri		https://www.babi.sh/recipes/diablo-onigiri	https://res.cloudinary.com/dd27yihoo/image/upload/v1727275504/mob2vuycwcyhcn9hzve7.webp	2024-09-25	5400	4	servings
+dinner-wandavision	Dinner inspired by WandaVision	dinner-wandavision	https://www.youtube.com/watch?v=4e7iksx-Zig	https://www.babi.sh/recipes/dinner-wandavision	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695343/babishImages/undefined-661246.png	2021-03-09	1200	4	servings
+direwolfbread	Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)	direwolfbread	https://www.youtube.com/watch?v=6nuEgc2RVWo&amp;t=336s	https://www.babi.sh/recipes/direwolfbread	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715486/babishImages/undefined-265303.png	2018-09-25	\N	\N	\N
+dobladitas-con-salsa-verde	Dobladitas con Salsa Verde	dobladitas-con-salsa-verde	https://www.youtube.com/shorts/6Fuua78gZa0	https://www.babi.sh/recipes/dobladitas-con-salsa-verde	https://res.cloudinary.com/dd27yihoo/image/upload/v1745962116/aqs5oebohnvlzxs5lxtn.webp	2025-04-29	\N	3	servings
+dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv	$300 A5 Wagyu Sandwich inspired by Final Fantasy XV	dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv	https://www.youtube.com/watch?v=--8vhFlsL0E	https://www.babi.sh/recipes/dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv	https://res.cloudinary.com/dd27yihoo/image/upload/v1749234440/zllf0ro2q8sagtw2kdij.webp	2025-06-06	1800	2	servings
+donuts	DONUTS	donuts	https://www.youtube.com/watch?v=9PWomdbZi2U	https://www.babi.sh/recipes/donuts	https://res.cloudinary.com/dd27yihoo/image/upload/v1686009926/fywiebobsgyzvnbikdjo.webp	2018-11-01	5400	6	servings
+duck-fries-john-wick	Duck Fat Fries inspired by John Wick: Chapter 2	duck-fries-john-wick	https://www.youtube.com/watch?v=dJc_nrSaCgM	https://www.babi.sh/recipes/duck-fries-john-wick	https://res.cloudinary.com/dd27yihoo/image/upload/v1680590230/hl8bixgjf1k9hitvmbwd.webp	2023-04-04	\N	2	steaks
+dutch-baby-with-cajeta-blueberry-sumac-compote	Dutch Baby with Cajeta, Blueberry-Sumac Compote	dutch-baby-with-cajeta-blueberry-sumac-compote	https://www.instagram.com/reel/C1uXSVxrfqX/?igsh=MTU3M3F0N2phdGlheA==	https://www.babi.sh/recipes/dutch-baby-with-cajeta-blueberry-sumac-compote	https://res.cloudinary.com/dd27yihoo/image/upload/v1704472081/rbmgsmz7vaukrh3atwjc.webp	2024-01-05	\N	4	servings
+dutchbaby	Dutch Baby inspired by Bob's Burgers	dutchbaby	https://www.youtube.com/watch?v=RwlYqnO9DSE&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/RwlYqnO9DSE/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/dutchbaby	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695007/babishImages/undefined-738086.png	2019-01-03	1200	4	servings
+egg-custard-tarts	Egg Custard Tarts inspired by Avatar the Last Airbender	egg-custard-tarts	https://www.youtube.com/watch?v=F2ENkOF3fMQ	https://www.babi.sh/recipes/egg-custard-tarts	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695435/babishImages/undefined-63167.png	2020-01-08	7200	4	servings
+egg-salad-inspired-by-futurama	Egg Salad inspired by Futurama	egg-salad-inspired-by-futurama	https://www.youtube.com/watch?v=cgLi9t6w9Qc&ab_channel=BabishCulinaryUniverse	https://www.babi.sh/recipes/egg-salad-inspired-by-futurama	https://res.cloudinary.com/dd27yihoo/image/upload/v1741383035/fhpr01pnfwh4o1lpeje9.webp	2025-03-07	5400	4	servings
+egginanest	Eggs in a Nest inspired by Lots of Stuff	egginanest	https://www.youtube.com/watch?v=4QDDxmtbUsw	https://www.babi.sh/recipes/egginanest	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715428/babishImages/undefined-266153.png	2018-01-30	\N	\N	\N
+eggnog-with-spiced-rum	Eggnog with Spiced Rum	eggnog-with-spiced-rum		https://www.babi.sh/recipes/eggnog-with-spiced-rum	https://res.cloudinary.com/dd27yihoo/image/upload/v1703261892/wv5ekv0oych664wuqzem.webp	2023-12-22	\N	\N	\N
+eggs	EGGS	eggs	https://www.youtube.com/watch?v=xBGoJUxxRqU	https://basicswithbabish.co/basicsepisodes/2017/10/23/eggs	https://img.youtube.com/vi/xBGoJUxxRqU/mqdefault.jpg	2018-03-01	\N	\N	\N
+eggscellentchallenge	3 Million Subscriber Special: The Eggscellent Challenge inspired by Regular Show	eggscellentchallenge	https://www.youtube.com/watch?v=ImoP-Apzrsg	https://www.babi.sh/recipes/eggscellentchallenge	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715533/babishImages/undefined-127009.png	2018-08-21	\N	\N	\N
+eggsflorentine	Eggs Florentine inspired by Frasier	eggsflorentine	https://www.youtube.com/watch?v=CFatEWNx5RQ	https://www.babi.sh/recipes/eggsflorentine	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695942/babishImages/undefined-121585.png	2018-11-13	8400	4	servings
+eggspart2	EGGS PART II	eggspart2	https://www.youtube.com/watch?v=CFatEWNx5RQ	https://www.babi.sh/recipes/eggspart2	https://res.cloudinary.com/dd27yihoo/image/upload/v1686074543/y0n6ry14llqshvz8cfwu.webp	2018-04-12	1500	2	servings
+eggswoodhouse	Eggs Woodhouse For Good from Archer	eggswoodhouse	https://www.youtube.com/watch?v=eVgmI-YF16g	https://www.babi.sh/recipes/eggswoodhouse	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992048/t5qwumucsgcfpxvoaenz.webp	2016-12-13	\N	\N	\N
+el-burdigato-teen-titans-go	El Burdigato Supreme inspired by Teen Titans Go!	el-burdigato-teen-titans-go	https://www.youtube.com/watch?v=IwlOxzV2hOs	https://www.babi.sh/recipes/el-burdigato-teen-titans-go	https://res.cloudinary.com/dd27yihoo/image/upload/v1687966129/abjtbzlvkyv9cnzx6dah.webp	2023-05-25	\N	\N	\N
+elote-risotto-with-sauteed-octopus	Elote Risotto with Sautéed Octopus	elote-risotto-with-sauteed-octopus	https://www.instagram.com/reel/C0mS4_SLQps/	https://www.babi.sh/recipes/elote-risotto-with-sauteed-octopus	https://res.cloudinary.com/dd27yihoo/image/upload/v1702051716/v98zzrnsfms1t3h95ywv.webp	2023-12-08	2400	2	servings
+empanadas	EMPANADAS	empanadas	https://www.youtube.com/watch?v=FvUpmMIhpAo	https://www.babi.sh/recipes/empanadas	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695742/babishImages/undefined-529600.png	2022-08-17	\N	18	empanadas
+enchiladas-schitts-creek	Enchiladas inspired by Schitt's Creek	enchiladas-schitts-creek	https://www.youtube.com/watch?v=SkKjQhCTP54	https://www.babi.sh/recipes/enchiladas-schitts-creek	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695599/babishImages/undefined-141657.png	2020-09-09	1200	4	servings
+english-muffins	ENGLISH MUFFINS	english-muffins	https://www.youtube.com/watch?v=5E_DIPttHuE	https://www.babi.sh/recipes/english-muffins	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695771/babishImages/undefined-417014.png	2021-08-06	3600	\N	\N
+espressodrinks	ESPRESSO DRINKS	espressodrinks	https://www.youtube.com/watch?v=W-osWU1WJuM	https://www.babi.sh/recipes/espressodrinks	https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1573758950016-WYT3RP0XKV4525EF4Y3I/Screen%2BShot%2B2019-10-24%2Bat%2B5.38.01%2BPM.png	2019-10-24	900	\N	\N
+everymeatburrito	The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special	everymeatburrito	https://www.youtube.com/watch?v=Mf4wwXM2o_M	https://www.babi.sh/recipes/everymeatburrito	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715513/babishImages/undefined-6335.png	2018-01-16	\N	\N	\N
+everything-bagel-eeao	EVERYTHING Bagel inspired by Everything Everywhere All At Once	everything-bagel-eeao	https://www.youtube.com/watch?v=1vOBpRmp8v8	https://www.babi.sh/recipes/everything-bagel-eeao	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695667/babishImages/undefined-717015.png	2022-09-20	2400	4	servings
+falafels	FALAFEL	falafels	https://www.youtube.com/watch?v=-98r0kpLbIM	https://www.babi.sh/recipes/falafels	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696117/babishImages/undefined-734573.png	2021-05-14	3600	4	servings
+fallout-fancy-lad-snack-cakes-inspired-by-fallout-76	Fallout Fancy Lad Snack Cakes inspired by Fallout 76	fallout-fancy-lad-snack-cakes-inspired-by-fallout-76	https://www.youtube.com/watch?v=v1f835eNhUc	https://www.babi.sh/recipes/fallout-fancy-lad-snack-cakes-inspired-by-fallout-76	https://res.cloudinary.com/dd27yihoo/image/upload/v1759334763/qv57em4y8nloxgzztjrs.webp	2025-10-01	9900	\N	\N
+feast-from-chef	Feast inspired by Chef	feast-from-chef	https://www.youtube.com/watch?v=ghnXKzE4z7o	https://www.babi.sh/recipes/feast-from-chef	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696140/babishImages/undefined-657693.png	2021-10-04	10800	\N	\N
+fettuccine-alfredo-the-office	Fettuccine Alfredo inspired by The Office	fettuccine-alfredo-the-office	https://www.youtube.com/watch?v=WS6_CeuSn_s	https://www.babi.sh/recipes/fettuccine-alfredo-the-office	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695651/babishImages/undefined-454337.png	2021-04-14	8400	4	servings
+fish	FISH	fish	https://www.youtube.com/watch?v=KObL442PWhQ	https://www.babi.sh/recipes/fish	https://res.cloudinary.com/dd27yihoo/image/upload/v1686073589/lr3hrtq5q7dumkimhsnd.webp	2018-05-17	2700	2	servings
+fish-fingers-custard-doctor-who	Fish Fingers and Custard inspired by Doctor Who	fish-fingers-custard-doctor-who	https://www.youtube.com/watch?v=aTBhpS570JE	https://www.babi.sh/recipes/fish-fingers-custard-doctor-who	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696380/babishImages/undefined-22897.png	2021-05-11	8400	4	servings
+fitz-sandwich	The Fitz Sandwich inspired by Agents of S.H.I.E.L.D.	fitz-sandwich	https://www.youtube.com/watch?v=xugufifsB4s	https://www.babi.sh/recipes/fitz-sandwich	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715497/babishImages/undefined-530115.jpg	2017-08-22	\N	2	twelve inch sandwiches
+flandershotcocoa	Flanders' Hot Chocolate inspired by The Simpsons Movie	flandershotcocoa	https://www.youtube.com/watch?v=UCZVSr2Xt2k	https://www.babi.sh/recipes/flandershotcocoa	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715541/babishImages/undefined-180672.png	2017-12-12	900	2	servings
+flatbreads	FLATBREADS	flatbreads	https://www.youtube.com/watch?v=3e-f8iK5QLs	https://www.babi.sh/recipes/flatbreads	https://res.cloudinary.com/dd27yihoo/image/upload/v1680082686/bciek6rvi4x7hoz96gih.webp	2021-06-22	12000	\N	\N
+florentine-foccacia-sandwich-inspired-by	Florentine Foccacia Sandwich inspired by	florentine-foccacia-sandwich-inspired-by	https://www.youtube.com/watch?v=DlKffFjjnwQ&pp=ygUeYW55dGhpbmcgd2l0aCBhbHZpbiBzYW5kaXdjaGVz0gcJCbIJAYcqIYzv	https://www.babi.sh/recipes/florentine-foccacia-sandwich-inspired-by	https://res.cloudinary.com/dd27yihoo/image/upload/v1749224610/kmsn8873t2bzvgidy9bl.webp	2025-06-06	172800	\N	\N
+footlong-taco-dogs-bobs-burgers	Footlong Taco Dog inspired by Bob's Burgers	footlong-taco-dogs-bobs-burgers	https://www.youtube.com/watch?v=2QljlPEwe98	https://www.babi.sh/recipes/footlong-taco-dogs-bobs-burgers	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695168/babishImages/undefined-41817.png	2022-09-19	7200	4	taco dogs
+forrestgumpshrimp	Shrimp inspired by Forrest Gump | Part 1	forrestgumpshrimp	https://www.youtube.com/watch?v=6HBPHRDEt_Q	https://www.babi.sh/recipes/forrestgumpshrimp	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715510/babishImages/undefined-452012.png	2018-07-03	\N	\N	\N
+four-horsemeal-eggporkalypse-parks-and-rec	Four Horsemeals of the Eggporkalypse inspired by Parks & Rec	four-horsemeal-eggporkalypse-parks-and-rec	https://www.youtube.com/watch?v=NWGVFi-213w	https://www.babi.sh/recipes/four-horsemeal-eggporkalypse-parks-and-rec	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695798/babishImages/undefined-854167.png	2020-08-18	3600	4	servings
+fraiserspecial	Frasier Special	fraiserspecial	https://www.youtube.com/watch?v=AwS_DIMeVoM&amp;t=7s	https://www.babi.sh/recipes/fraiserspecial	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715531/babishImages/undefined-291594.png	2018-02-13	\N	\N	\N
+freddys-ribs-inspired-by-house-of-cards	Freddy's Ribs inspired by House of Cards	freddys-ribs-inspired-by-house-of-cards	https://www.youtube.com/watch?v=2uHhKAjnvNc	https://www.babi.sh/recipes/freddys-ribs-inspired-by-house-of-cards	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992073/egkgopzp4yv3k8a2piaf.webp	2017-06-13	\N	\N	\N
+freezer-meals	FREEZER MEALS	freezer-meals	https://www.youtube.com/watch?v=-XUzpAiYuVA	https://www.babi.sh/recipes/freezer-meals	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696241/babishImages/undefined-487919.png	2021-05-07	8400	6	servings
+french-toast	FRENCH TOAST	french-toast	https://www.youtube.com/watch?v=SntU6-vxzWc	https://www.babi.sh/recipes/french-toast	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715739/babishImages/undefined-853707.png	2020-06-20	2100	6	servings
+frenchonionsoup	FRENCH ONION SOUP	frenchonionsoup	https://www.youtube.com/watch?v=1qRir364aNk	https://www.babi.sh/recipes/frenchonionsoup	https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1578610611101-B5SDCZAZQDKO8LS4EF59/French+Onion+Soup_v4_1.png	2020-01-09	9000	4	servings
+friday-night-fish-fry	Friday Night Fish Fry	friday-night-fish-fry	https://youtube.com/watch?v=N81JPU65qqk&si=IPnE4_g2NqVyLKKS	https://www.babi.sh/recipes/friday-night-fish-fry	https://res.cloudinary.com/dd27yihoo/image/upload/v1772899588/y1t4x05nbzmfgpyvgetq.webp	2026-03-07	10800	4	servings
+fried-bear-inspired-food-wars!	Fried Bear inspired Food Wars!	fried-bear-inspired-food-wars!	https://www.youtube.com/watch?v=zWDWd2GswvE	https://www.babi.sh/recipes/fried-bear-inspired-food-wars!	https://res.cloudinary.com/dd27yihoo/image/upload/v1728312012/gkcf4g8cjyqcsebfa3gh.webp	2024-10-07	\N	5	servings
+fried-chicken-inspired-by-legend-of-zelda:-tears-of-the-kingdom	Fried Chicken inspired by Legend of Zelda: Tears of the Kingdom	fried-chicken-inspired-by-legend-of-zelda:-tears-of-the-kingdom	https://www.youtube.com/watch?v=v-uQOBC3IOY&pp=ygUnYmluZ2luZyB3aXRoIGJhYmlzaCB6ZWxkYSBmcmllZCBjaGlja2Vu	https://www.babi.sh/recipes/fried-chicken-inspired-by-legend-of-zelda:-tears-of-the-kingdom	https://res.cloudinary.com/dd27yihoo/image/upload/v1749500704/p0rmeudmqzwhvnkjyo9c.webp	2025-06-09	\N	5	servings
+fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	Fried Chicken & Waffle Breakfast Lasagna inspired by The Boondocks	fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	https://www.youtube.com/watch?v=VnXu22HZBNQ	https://www.babi.sh/recipes/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991769/kai50kksobmuufoxunvj.webp	2017-07-04	\N	\N	\N
+fried-rice-2-ways	FRIED RICE 2 WAYS	fried-rice-2-ways	https://www.youtube.com/watch?v=TYNPLyxpmw4	https://www.babi.sh/recipes/fried-rice-2-ways	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695218/babishImages/undefined-286946.png	2022-05-17	1800	2	servings
+friedgreentomatoes	Fried Green Tomatoes inspired by...Fried Green Tomatoes	friedgreentomatoes	https://www.youtube.com/watch?v=KKBkY-7TCw0	https://www.babi.sh/recipes/friedgreentomatoes	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715441/babishImages/undefined-365795.png	2018-07-24	\N	\N	\N
+friedrice	FRIED RICE	friedrice	https://www.youtube.com/watch?v=Dk0axPbD2pc	https://www.babi.sh/recipes/friedrice	https://res.cloudinary.com/dd27yihoo/image/upload/v1686008510/kptkskifg6h6jfgm4wp0.webp	2019-01-03	1500	2	servings
+futurama-shrimp-popplers	Popplers Inspired by Futurama	futurama-shrimp-popplers	https://www.youtube.com/watch?v=BtGsjkj9DgM	https://www.babi.sh/recipes/futurama-shrimp-popplers	https://res.cloudinary.com/dd27yihoo/image/upload/v1704299223/grzo0n3a4v5gakutgodq.webp	2024-01-03	3600	4	servings
+game-day-snacks-part-2	GAME DAY SNACKS PART II	game-day-snacks-part-2	https://www.youtube.com/watch?v=rR4t9LRy-6o	https://www.babi.sh/recipes/game-day-snacks-part-2	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715492/babishImages/undefined-20149.png	2021-02-04	\N	4	servings
+garbageplate	The Garbage Plate inspired by The Place Beyond The Pines (sort of)	garbageplate	https://www.youtube.com/watch?v=wjoeVwJTUTA	https://www.babi.sh/recipes/garbageplate	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715723/babishImages/undefined-117479.png	2017-11-28	\N	\N	\N
+garlic-bread-scott-pilgrim	Garlic Bread inspired by Scott Pilgrim vs the World	garlic-bread-scott-pilgrim	https://www.youtube.com/watch?v=jBnWZijMbMY	https://www.babi.sh/recipes/garlic-bread-scott-pilgrim	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695782/babishImages/undefined-832596.png	2020-10-06	6000	4	servings
+generaltsoschicken	GENERAL TSO'S CHICKEN	generaltsoschicken	https://www.youtube.com/watch?v=6UnRHtwHGSE	https://www.babi.sh/recipes/generaltsoschicken	https://res.cloudinary.com/dd27yihoo/image/upload/v1685823415/isirdoocipk9pnhap60e.webp	2019-07-18	2700	2	servings
+giant-onigiri-inspired-by-cooking-from-valkyries	Giant Onigiri inspired by Cooking from Valkyries	giant-onigiri-inspired-by-cooking-from-valkyries	https://www.youtube.com/watch?v=D1sZtLbZhMA&t=1s	https://www.babi.sh/recipes/giant-onigiri-inspired-by-cooking-from-valkyries	https://res.cloudinary.com/dd27yihoo/image/upload/v1728311822/ewvbv28ma72qcygpzrol.webp	2024-10-07	\N	8	servings
+giant-red-bean-bun-inspired-by-spirited-away	Giant Red Bean Bun inspired by Spirited Away	giant-red-bean-bun-inspired-by-spirited-away	https://www.youtube.com/watch?v=Ct9PksHLGKQ	https://www.babi.sh/recipes/giant-red-bean-bun-inspired-by-spirited-away	https://res.cloudinary.com/dd27yihoo/image/upload/v1757016609/q3spztehxzun7e6bslkn.webp	2025-09-04	7200	3	servings
+glowing-popsicles-the-mandalorian	Glowing Popsicles inspired by The Mandalorian	glowing-popsicles-the-mandalorian	https://www.youtube.com/watch?v=obNznWb6Oaw	https://www.babi.sh/recipes/glowing-popsicles-the-mandalorian	https://res.cloudinary.com/dd27yihoo/image/upload/v1687966009/ajbblaveq3ybb2z1ckho.webp	2023-05-12	\N	\N	\N
+gluten-free-pasta	GLUTEN-FREE PASTA	gluten-free-pasta	https://www.youtube.com/watch?v=MVdu-DYcfTA	https://www.babi.sh/recipes/gluten-free-pasta	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695462/babishImages/undefined-367098.png	2021-06-14	1800	8	servings
+gnocchi	GNOCCHI	gnocchi	https://www.youtube.com/watch?v=LMJrLc13SuI	https://www.babi.sh/recipes/gnocchi	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715483/babishImages/undefined-932413.png	2020-05-07	2700	4	servings
+go-to-pasta	LATE NIGHT PASTA	go-to-pasta	https://www.youtube.com/watch?v=Tj26Na3q2d8	https://www.babi.sh/recipes/go-to-pasta	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715436/babishImages/undefined-603225.png	2022-08-17	1800	2	serves:
+golden-fried-rice-inspired-by-kaguya-sama:-love-is-war	Golden Fried Rice inspired by Kaguya-Sama: Love is War	golden-fried-rice-inspired-by-kaguya-sama:-love-is-war	https://www.youtube.com/watch?v=IxFmWHjcdYM	https://www.babi.sh/recipes/golden-fried-rice-inspired-by-kaguya-sama:-love-is-war	https://res.cloudinary.com/dd27yihoo/image/upload/v1728312761/g66lbk8mpo8sxybo0c0w.webp	2024-10-07	\N	3	servings
+goodfellasprisonsauce	Prison Sauce inspired by Goodfellas	goodfellasprisonsauce	https://www.youtube.com/watch?v=uEjMyHccX8U	https://www.babi.sh/recipes/goodfellasprisonsauce	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991796/ud4i1lcbbaxffztsziey.webp	2016-12-01	\N	8	servings
+goodmorningburger	Good Morning Burger inspired by The Simpsons	goodmorningburger	https://www.youtube.com/watch?v=hzAgFNh4vRY&amp;t=153s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/hzAgFNh4vRY/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/goodmorningburger	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695446/babishImages/undefined-916498.png	2019-05-07	3600	4	servings
+gotcha-pork-roast-food-wars	Gotcha Pork Roast inspired by Food Wars (Shokugeki no Soma)	gotcha-pork-roast-food-wars	https://www.youtube.com/watch?v=NfrLH0T0rdU	https://www.babi.sh/recipes/gotcha-pork-roast-food-wars	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696172/babishImages/undefined-313821.png	2021-04-12	8400	4	servings
+gourmet-choco-taco	Gourmet Choco Taco	gourmet-choco-taco		https://www.babi.sh/recipes/gourmet-choco-taco	https://res.cloudinary.com/dd27yihoo/image/upload/v1713458126/owkpuy7kmrnqo2a3h1kg.webp	2024-04-18	\N	\N	\N
+gourmet-meat-stew-inspired-by-breath-of-the-wild	Gourmet Meat Stew inspired by Breath of the Wild	gourmet-meat-stew-inspired-by-breath-of-the-wild	https://www.youtube.com/watch?v=sRO4dsOEItY&pp=ygUVbWVhdCBzdGV3IGFuaW1lIGFsdmlu	https://www.babi.sh/recipes/gourmet-meat-stew-inspired-by-breath-of-the-wild	https://res.cloudinary.com/dd27yihoo/image/upload/v1728312407/pcecazl5gsoudqmvzxnr.webp	2024-10-07	\N	4	servings
+green-goddess-egg-salad	Green Goddess Egg Salad	green-goddess-egg-salad		https://www.babi.sh/recipes/green-goddess-egg-salad	https://res.cloudinary.com/dd27yihoo/image/upload/v1715001281/r743prsgpblqvioefhtm.webp	2024-05-06	\N	\N	\N
+grilled-feast	GRILLED FEAST	grilled-feast	https://www.youtube.com/watch?v=m6X5I_FI04A	https://www.babi.sh/recipes/grilled-feast	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695579/babishImages/undefined-86844.png	2021-07-07	8400	4	servings
+grilledcheesedeluxe	Grilled Cheese Deluxe inspired by Regular Show	grilledcheesedeluxe	https://www.youtube.com/watch?v=NFAN6L7xnvY&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/NFAN6L7xnvY/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/grilledcheesedeluxe	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695937/babishImages/undefined-512456.png	2019-04-16	3600	4	servings
+grilledcheesevidcon	National Grilled Cheese Day + VidCon Announcement	grilledcheesevidcon	https://www.youtube.com/watch?v=hwjdXBxeWsc	https://www.youtube.com/watch?v=hwjdXBxeWsc	https://img.youtube.com/vi/hwjdXBxeWsc/mqdefault.jpg	2018-04-11	\N	\N	\N
+grilling-5j345	GRILLING BASICS	grilling-5j345	https://www.youtube.com/watch?v=u0feM_2mLvo	https://www.babi.sh/recipes/grilling-5j345	https://res.cloudinary.com/dd27yihoo/image/upload/v1686073939/o21wxzwrcrnwthw8iw4j.webp	2018-05-11	5400	6	servings
+grits-breakfast-my-cousin-vinny	Grits inspired by My Cousin Vinny	grits-breakfast-my-cousin-vinny	https://www.youtube.com/watch?v=GbfUeneG0s8	https://www.babi.sh/recipes/grits-breakfast-my-cousin-vinny	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695700/babishImages/undefined-418180.png	2021-10-08	1200	\N	\N
+halloumi-sandwich	Halloumi Sandwich	halloumi-sandwich		https://www.babi.sh/recipes/halloumi-sandwich	https://res.cloudinary.com/dd27yihoo/image/upload/v1721920030/m167r4mkoadm1puktlo6.webp	2024-07-25	\N	2	servings
+harrypotterspecial	Harry Potter Special	harrypotterspecial	https://www.youtube.com/watch?v=LXDAu8DnALw	https://www.babi.sh/recipes/harrypotterspecial	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715458/babishImages/undefined-107622.png	2017-11-14	\N	\N	\N
+healthier-crunchwrap-supreme	HEALTHIER CRUNCHWRAP SUPREME	healthier-crunchwrap-supreme	https://www.youtube.com/watch?v=MTfyvch_0RI	https://www.babi.sh/recipes/healthier-crunchwrap-supreme	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696228/babishImages/undefined-95368.jpg	2022-12-10	1800	2	servings
+healthy-meals-brown-rice	HEALTHY MEALS: BROWN RICE	healthy-meals-brown-rice	https://www.youtube.com/watch?v=hMDwYiYIeRw	https://www.babi.sh/recipes/healthy-meals-brown-rice	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715453/babishImages/undefined-346622.png	2021-01-21	2400	2	servings
+healthymeals	HEALTHY MEALS	healthymeals	https://www.youtube.com/watch?v=APwwGy4GzK8	https://www.babi.sh/recipes/healthymeals	https://res.cloudinary.com/dd27yihoo/image/upload/v1685912869/icxavj8aogbk6ggjueq8.webp	2019-06-13	2100	2	servings
+healthymeals2	HEALTHIER VERSIONS OF UNHEALTHY FOOD	healthymeals2	https://www.youtube.com/watch?v=yYUUobrsFDs	https://www.babi.sh/recipes/healthymeals2	https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1573758694626-P6IPLSVAPBA8AOHLCU5G/Screen+Shot+2019-11-14+at+1.06.35+PM.png	2019-11-14	3600	4	servings
+herring-and-pumpkin-pot-pie-inspired-by-kiki's-delivery-service	Herring and Pumpkin Pot Pie inspired by Kiki's Delivery Service	herring-and-pumpkin-pot-pie-inspired-by-kiki's-delivery-service	https://www.youtube.com/watch?v=c7tMpaSOuz8	https://www.babi.sh/recipes/herring-and-pumpkin-pot-pie-inspired-by-kiki's-delivery-service	https://res.cloudinary.com/dd27yihoo/image/upload/v1725466216/whyojk2iqq3ayolmx5tc.webp	2024-09-04	\N	10	servings
+holidaycocktails	HOLIDAY COCKTAILS	holidaycocktails	https://www.youtube.com/watch?v=LftLcYM6Fzw	https://www.babi.sh/recipes/holidaycocktails	https://res.cloudinary.com/dd27yihoo/image/upload/v1686008739/oj4ipprew3lqr7q9fuju.webp	2018-12-13	1200	2	servings
+home-alone-special	Home Alone Special	home-alone-special	https://www.youtube.com/watch?v=Tx5R3C9dyMM	https://www.babi.sh/recipes/home-alone-special	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696234/babishImages/undefined-625735.png	2023-01-05	7200	4	servings
+homemade-mozzarella	Caprese Salad inspired by Jojo's Bizarre Adventure	homemade-mozzarella	https://www.youtube.com/watch?v=Ao7RQj8sxuo	https://www.babi.sh/recipes/homemade-mozzarella	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695237/babishImages/undefined-3701.png	2020-04-21	2400	4	servings
+honey-toast-inspired-by-chainsaw-man	Honey Toast inspired by Chainsaw Man	honey-toast-inspired-by-chainsaw-man	https://www.youtube.com/watch?v=P7dD7LPVPkA	https://www.babi.sh/recipes/honey-toast-inspired-by-chainsaw-man	https://res.cloudinary.com/dd27yihoo/image/upload/v1725048058/bgtohmj6horifolobdnp.webp	2024-08-30	\N	\N	\N
+hot-chicken	NASHVILLE HOT CHICKEN	hot-chicken	https://www.youtube.com/watch?v=FPx7X7k0HuM	https://www.babi.sh/recipes/hot-chicken	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715525/babishImages/undefined-998003.png	2020-04-10	5400	4	servings
+hot-dog-bowl-inspired-by-detroit's	Hot Dog Bowl inspired by Detroit's	hot-dog-bowl-inspired-by-detroit's		https://www.babi.sh/recipes/hot-dog-bowl-inspired-by-detroit's	https://res.cloudinary.com/dd27yihoo/image/upload/v1723731301/k0wms2xccvdn88hir5g7.webp	2024-08-15	\N	\N	\N
+huevosrancheros	Huevos Rancheros inspired by Breaking Bad	huevosrancheros	https://www.youtube.com/watch?v=pdNm4ug9PpE	https://www.babi.sh/recipes/huevosrancheros	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695243/babishImages/undefined-884981.png	2019-06-20	2400	4	servings
+ice-cream-cake	ICE CREAM CAKE	ice-cream-cake	https://www.youtube.com/watch?v=sTntmGwbf_U	https://www.babi.sh/recipes/ice-cream-cake	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696407/babishImages/undefined-401184.png	2021-07-20	\N	\N	\N
+ice-cream-sandwiches	ICE CREAM SANDWICHES	ice-cream-sandwiches	https://www.youtube.com/watch?v=m6fnJ6rQPok	https://www.babi.sh/recipes/ice-cream-sandwiches	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715534/babishImages/undefined-148725.png	2020-04-24	2700	8	servings
+icecream	ICE CREAM	icecream	https://www.youtube.com/watch?v=MdirPsiHnCA	https://www.babi.sh/recipes/icecream	https://res.cloudinary.com/dd27yihoo/image/upload/v1686072341/ujov0llfgnf2etxpkw0o.webp	2018-07-12	2700	2	servings
+ichiraku-ramen-inspired-by-naruto	Ichiraku Ramen inspired by Naruto	ichiraku-ramen-inspired-by-naruto	https://www.youtube.com/watch?v=7fOY40FvF9Q	https://www.babi.sh/recipes/ichiraku-ramen-inspired-by-naruto	https://res.cloudinary.com/dd27yihoo/image/upload/v1725038292/jvyyoy6l2kfennl34ql8.webp	2024-08-30	0	4	servings
+if-looks-could-kale	"If Looks Could Kale" Burger inspired by Bob's Burgers	if-looks-could-kale	https://www.youtube.com/watch?v=KxJOGezJlF8	https://www.babi.sh/recipes/if-looks-could-kale	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695301/babishImages/undefined-117444.png	2022-03-02	7200	4	servings
+il-timpano-inspired-by-big-night	Il Timpano inspired by Big Night	il-timpano-inspired-by-big-night	https://www.youtube.com/watch?v=PIsIE0oHGgo	https://www.babi.sh/recipes/il-timpano-inspired-by-big-night	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991791/nb4yzbw4lcbaiv1tu7n3.webp	2016-02-21	\N	10	servings
+iloveyoumanfishtacos	Fish Tacos from I Love You, Man	iloveyoumanfishtacos	https://www.youtube.com/watch?v=Izvd-iztaQk	https://www.babi.sh/recipes/iloveyoumanfishtacos	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992053/i2v9bvcwkfxgilag83vt.webp	2017-01-12	\N	\N	\N
+imaginary-pie-hook	Imaginary Pie inspired by Hook	imaginary-pie-hook	https://www.youtube.com/watch?v=lZsun7ppDeQ	https://www.babi.sh/recipes/imaginary-pie-hook	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695811/babishImages/undefined-676260.png	2020-03-31	2400	4	servings
+indianbreads	INDIAN BREADS	indianbreads	https://www.youtube.com/watch?v=RnApthldLPY	https://www.babi.sh/recipes/indianbreads	https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1573758840271-LHH4HQAWF50Z34RJILZM/Basics%2BIndian%2BBeards2.png	2019-10-10	1800	6	servings
+infernowings	Inferno Wings inspired by Regular Show	infernowings	https://www.youtube.com/watch?v=dRLCZqEfJFA&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/dRLCZqEfJFA/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/infernowings	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695609/babishImages/undefined-759877.png	2019-07-16	2400	4	servings
+ingloriousbasterds	Strudel inspired by Inglourious Basterds	ingloriousbasterds	https://www.youtube.com/watch?v=7H3z3J50XCs	https://www.babi.sh/recipes/ingloriousbasterds	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992057/jjrzsbkskbutgjcld7u2.webp	2017-01-23	\N	\N	\N
+instant-mac-cheese	Instant Mac and Cheese inspired by Once Upon a Time in Hollywood	instant-mac-cheese	https://www.youtube.com/watch?v=EuU_uUb_3nQ	https://www.babi.sh/recipes/instant-mac-cheese	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695494/babishImages/undefined-716568.jpg	2020-02-04	4800	4	servings
+introductiontools	INTRODUCTION/TOOLS	introductiontools	https://www.youtube.com/watch?v=1AxLzMJIgxM&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/1AxLzMJIgxM/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/introductiontools	https://res.cloudinary.com/dd27yihoo/image/upload/v1690415598/twmwjqptojk8i2lfohvm.webp	2017-10-11	\N	\N	\N
+isotope-dog-the-simpsons	Isotope Dogs inspired by The Simpsons	isotope-dog-the-simpsons	https://www.youtube.com/watch?v=w5K2ZoPVD5E	https://www.babi.sh/recipes/isotope-dog-the-simpsons	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695959/babishImages/undefined-581985.png	2021-09-21	4800	\N	\N
+itsalwayssunnyspecial	It's Always Sunny in Philadelphia Special	itsalwayssunnyspecial	https://www.youtube.com/watch?v=Q2ezpExQ_k0	https://www.babi.sh/recipes/itsalwayssunnyspecial	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992050/vganhazfptuo0aqxbyfm.webp	2017-02-20	\N	\N	\N
+jalapeno-popper-mac-and-cheese	JALAPENO POPPER MAC AND CHEESE	jalapeno-popper-mac-and-cheese	https://www.youtube.com/watch?v=GH8Vdk0aAew	https://www.babi.sh/recipes/jalapeno-popper-mac-and-cheese	https://res.cloudinary.com/dd27yihoo/image/upload/v1680985911/a8qqusitdeawq4eclvpi.webp	2022-01-14	2400	2	servings
+japanese-style-big-mac-inspired-by-weathering-with-you	Japanese-Style Big Mac inspired by Weathering with You	japanese-style-big-mac-inspired-by-weathering-with-you	https://www.youtube.com/watch?v=BzKBag59duU&pp=ygUTYWx2aW4gamFwYW4gYmlnIG1hYw%3D%3D	https://www.babi.sh/recipes/japanese-style-big-mac-inspired-by-weathering-with-you	https://res.cloudinary.com/dd27yihoo/image/upload/v1742407838/ofwjdoqrkbbijmlqiu7e.webp	2025-03-19	2400	8	burgers and 12 sliders
+jell-o-cake-nuka-cola-and-cram-inspired-by-fallout	Jell-O Cake, Nuka Cola & Cram Inspired by Fallout	jell-o-cake-nuka-cola-and-cram-inspired-by-fallout	https://www.youtube.com/watch?v=yiR1wqF6IM4	https://www.babi.sh/recipes/jell-o-cake-nuka-cola-and-cram-inspired-by-fallout	https://res.cloudinary.com/dd27yihoo/image/upload/v1717609250/oj6zbs3b6k4mxq84duyp.webp	2024-06-05	14400	4	servings
+jerk-chicken	JERK CHICKEN	jerk-chicken	https://www.youtube.com/watch?v=WOMOVA9UMic	https://www.babi.sh/recipes/jerk-chicken	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696323/babishImages/undefined-904189.png	2021-08-03	6000	4	servings
+jerk-meat-platter-inspired-by-futurama	Jerk Meat Platter Inspired by Futurama	jerk-meat-platter-inspired-by-futurama	https://www.youtube.com/watch?v=EoVha2o6Ldk	https://www.babi.sh/recipes/jerk-meat-platter-inspired-by-futurama	https://res.cloudinary.com/dd27yihoo/image/upload/v1712937205/n5fptxykxklglcfoo9xd.webp	2024-04-12	7200	4	servings
+jiggly-souffle-omelette-inspired-by-food-wars!	Jiggly Souffle Omelette inspired by Food Wars!	jiggly-souffle-omelette-inspired-by-food-wars!	https://www.youtube.com/watch?v=JcLTe8MoAV4	https://www.babi.sh/recipes/jiggly-souffle-omelette-inspired-by-food-wars!	https://res.cloudinary.com/dd27yihoo/image/upload/v1724877413/iljktvuobyynqseesqqt.webp	2024-08-26	\N	1	servings
+johnnycakes	Johnny Cakes inspired by The Sopranos	johnnycakes	https://www.youtube.com/watch?v=DdFKKZe73Pk	https://www.babi.sh/recipes/johnnycakes	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715696/babishImages/undefined-651139.png	2018-08-28	\N	\N	\N
+judys-hot-cocoa-santa-clause	Judy's Hot Cocoa inspired by the Santa Clause	judys-hot-cocoa-santa-clause	https://www.youtube.com/watch?v=rBYd_O38Ncw	https://www.babi.sh/recipes/judys-hot-cocoa-santa-clause	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696414/babishImages/undefined-315386.png	2020-12-22	7200	4	servings
+katz's-corned-beef-and-pastrami	Katz's Corned Beef and Pastrami	katz's-corned-beef-and-pastrami	https://www.youtube.com/watch?v=uyjq9wJCaGE&pp=ygUjYmluZ2luZyB3aXRoIGJhYmlzaCBkZWxpIHNhbmR3aWNoZXM%3D	https://www.babi.sh/recipes/katz's-corned-beef-and-pastrami	https://res.cloudinary.com/dd27yihoo/image/upload/v1749065565/t20xd8xbngcehg55xfwh.webp	2025-06-04	14400	\N	\N
+kelp-bar-spongebob	Kelp Nougat Crunch Bars inspired by Spongebob Squarepants	kelp-bar-spongebob	https://www.youtube.com/watch?v=HWfxj3KzA8o	https://www.babi.sh/recipes/kelp-bar-spongebob	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695662/babishImages/undefined-173727.png	2022-05-17	4800	10	servings
+kettle-corn-community	Kettle Corn inspired by Community	kettle-corn-community	https://www.youtube.com/watch?v=aGPqK_hHA28	https://www.babi.sh/recipes/kettle-corn-community	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696001/babishImages/undefined-674983.png	2021-06-02	3600	4	servings
+kevin's-snacks-inspired-by-the-office	Kevin's Snacks inspired by The Office	kevin's-snacks-inspired-by-the-office	https://www.youtube.com/watch?v=sjXFncyzu_0	https://www.babi.sh/recipes/kevin's-snacks-inspired-by-the-office	https://res.cloudinary.com/dd27yihoo/image/upload/v1687962309/mflkwhhki032s2mvtrf7.webp	2023-04-17	\N	\N	\N
+kevinschili	Kevin's Famous Chili inspired by The Office	kevinschili	https://www.youtube.com/watch?v=eQ9eY0_DoEk	https://www.babi.sh/recipes/kevinschili	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992089/gz0y75rtwc5ksppeofkr.webp	2017-01-18	\N	\N	\N
+kfcmeal	KFC Bucket Meal inspired by Stranger Things	kfcmeal	https://www.youtube.com/watch?v=WtAoc3_1Ido&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/WtAoc3_1Ido/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/kfcmeal	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695162/babishImages/undefined-907820.png	2019-08-07	7200	4	servings
+kikufuku-mochi-inspired-by-jujutsu-kaisen	Kikufuku Mochi inspired by Jujutsu Kaisen	kikufuku-mochi-inspired-by-jujutsu-kaisen	https://www.youtube.com/watch?v=iUT99TWDLnU	https://www.babi.sh/recipes/kikufuku-mochi-inspired-by-jujutsu-kaisen	https://res.cloudinary.com/dd27yihoo/image/upload/v1725461942/jdbeidjv54jsn9mkgru6.webp	2024-09-04	\N	6	mochi
+kimbap-and-lunchbox-inspired-by-squid-game-season-2	Kimbap & Lunchbox inspired by Squid Game Season 2	kimbap-and-lunchbox-inspired-by-squid-game-season-2	https://www.youtube.com/watch?v=yN001XyoSas	https://www.babi.sh/recipes/kimbap-and-lunchbox-inspired-by-squid-game-season-2	https://res.cloudinary.com/dd27yihoo/image/upload/v1759949495/oa91th95ozohctfdqaml.webp	2025-10-08	4500	\N	\N
+kimchi	KIMCHI	kimchi	https://www.youtube.com/watch?v=R0x7ECje-lY	https://www.babi.sh/recipes/kimchi	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715734/babishImages/undefined-20670.png	2020-08-14	2700	6	servings
+kingofthehillspecial	King of The Hill Special	kingofthehillspecial	https://www.youtube.com/watch?v=iq6_iUhLHo4&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/iq6_iUhLHo4/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/kingofthehillspecial	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695948/babishImages/undefined-883755.png	2018-10-16	3000	4	servings
+kitchencare	KITCHEN CARE	kitchencare	https://www.youtube.com/watch?v=xSjVrR7KPqA&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/xSjVrR7KPqA/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/kitchencare	https://res.cloudinary.com/dd27yihoo/image/upload/v1690485328/rrdshokedofgplxzgwdk.webp	2018-09-20	\N	\N	\N
+korean-cheese-corn-dogs	Korean Cheese Corn Dogs	korean-cheese-corn-dogs	https://www.youtube.com/watch?v=YEZY08ibFrs	https://www.babi.sh/recipes/korean-cheese-corn-dogs	https://res.cloudinary.com/dd27yihoo/image/upload/v1749496990/ykb37a3lpjkqdonek6om.webp	2025-06-09	5400	\N	\N
+korean-garlic-fried-chicken-inspired-by-korean-street-food	Korean Garlic Fried Chicken inspired by Korean Street Food	korean-garlic-fried-chicken-inspired-by-korean-street-food	https://www.youtube.com/watch?v=8XhbDcxkLLI	https://www.babi.sh/recipes/korean-garlic-fried-chicken-inspired-by-korean-street-food	https://res.cloudinary.com/dd27yihoo/image/upload/v1755639101/wyqiqccvlksqcakrqk7q.webp	2025-08-19	4500	\N	\N
+korean-pizza-toast	Korean Pizza Toast	korean-pizza-toast	https://www.youtube.com/watch?v=95f6tkiNspM	https://www.babi.sh/recipes/korean-pizza-toast	https://res.cloudinary.com/dd27yihoo/image/upload/v1749232941/jpxmrkezfage5ozo2he5.webp	2025-06-06	1200	5	servings
+korean-rice-cakes	SPICY KOREAN RICE CAKES (TTEOKBOKKI)	korean-rice-cakes	https://www.youtube.com/watch?v=XJ79FPwav4g	https://www.babi.sh/recipes/korean-rice-cakes	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695152/babishImages/undefined-865302.png	2021-03-26	5400	4	servings
+kpop-demon-hunters-airplane-feast	KPop Demon Hunters Airplane Feast	kpop-demon-hunters-airplane-feast	https://youtube.com/watch?v=W8kIAgoqDAI&si=65fH6Fh3e8T6yGu_	https://www.babi.sh/recipes/kpop-demon-hunters-airplane-feast	https://res.cloudinary.com/dd27yihoo/image/upload/v1775873571/sifq1hxehqudhjdfchik.webp	2026-04-11	10800	4	servings
+krabby-patty-inspired-by-spongebob-squarepants	Krabby Patty inspired by SpongeBob SquarePants	krabby-patty-inspired-by-spongebob-squarepants	https://www.youtube.com/watch?v=7EnWiGYT1g4	https://www.babi.sh/recipes/krabby-patty-inspired-by-spongebob-squarepants	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992095/bs95zkj5j4ghhipdz1qy.webp	2017-05-31	\N	\N	\N
+krabbysupreme	Krabby Supreme inspired by Spongebob Squarepants	krabbysupreme	https://www.youtube.com/watch?v=Rzd0mLf366I&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/Rzd0mLf366I/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/krabbysupreme	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696267/babishImages/undefined-701664.png	2019-02-26	6000	4	servings
+kumandra-soup-raya-and-the-last-dragon	Kumandra Soup inspired by Raya and the Last Dragon	kumandra-soup-raya-and-the-last-dragon	https://www.youtube.com/watch?v=MDL7DenDYCE	https://www.babi.sh/recipes/kumandra-soup-raya-and-the-last-dragon	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695414/babishImages/undefined-105215.png	2021-04-27	6000	4	servings
+kung-pao-chicken-seinfeld	Kung Pao Chicken inspired by Seinfeld	kung-pao-chicken-seinfeld	https://www.youtube.com/watch?v=tQfKTsh5ycs	https://www.babi.sh/recipes/kung-pao-chicken-seinfeld	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696273/babishImages/undefined-527507.png	2022-01-26	2400	4	servings
+la-bombe-eclair-the-simpsons	La Bombe Eclair inspired by The Simpsons	la-bombe-eclair-the-simpsons	https://www.youtube.com/watch?v=M73XCOzZAU0	https://www.babi.sh/recipes/la-bombe-eclair-the-simpsons	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696283/babishImages/undefined-81496.png	2021-08-03	7200	\N	\N
+lamb-chops	LAMB CHOPS	lamb-chops	https://www.youtube.com/watch?v=9eyS51ufJGU	https://www.babi.sh/recipes/lamb-chops	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715725/babishImages/undefined-673746.png	2020-09-11	3600	4	servings
+land-octopus-elden-ring	Land Octopus inspired by Elden Ring	land-octopus-elden-ring	https://www.youtube.com/watch?v=KxJOGezJlF8	https://www.babi.sh/recipes/land-octopus-elden-ring	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695911/babishImages/undefined-54605.png	2022-03-10	7200	4	servings
+larbstickyrice	Lettuce Wraps & Mango Sticky Rice inspired by Spider-Man: Homecoming	larbstickyrice	https://www.youtube.com/watch?v=VweTeaGwiXQ&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/VweTeaGwiXQ/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/larbstickyrice	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695424/babishImages/undefined-405036.png	2019-07-10	4800	4	servings
+lasagna	Lasagna inspired by Garfield (feat. It's Alive with Brad)	lasagna	https://www.youtube.com/watch?v=TkWmK-cplV4	https://www.babi.sh/recipes/lasagna	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715729/babishImages/undefined-269836.png	2018-03-27	\N	10	servings
+last-minute-thanksgiving	LAST-MINUTE THANKSGIVING	last-minute-thanksgiving	https://www.youtube.com/watch?v=HLY-7ZkhhLE	https://www.babi.sh/recipes/last-minute-thanksgiving	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715709/babishImages/undefined-86960.png	2020-11-25	14400	8	servings
+latkes	LATKES (POTATO PANCAKES)	latkes	https://www.youtube.com/watch?v=AwOoMG3J4h8	https://www.babi.sh/recipes/latkes	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715530/babishImages/undefined-299757.png	2020-04-02	2700	6	servings
+lava-chicken-inspired-by-a-minecraft-movie	Lava Chicken inspired by A Minecraft Movie	lava-chicken-inspired-by-a-minecraft-movie	https://youtube.com/watch?v=CIlClQZAgRI&si=pLXbh-oEGBhgb80g	https://www.babi.sh/recipes/lava-chicken-inspired-by-a-minecraft-movie	https://res.cloudinary.com/dd27yihoo/image/upload/v1763763253/dm8sfsv0mrbzpovapxax.webp	2025-11-21	5400	5	servings
+layered-butter-toast-danish-creamery	Layered Butter Toast - Danish Creamery	layered-butter-toast-danish-creamery	https://www.youtube.com/watch?v=Gr1RIaYVywM&ab_channel=BabishCulinaryUniverse	https://www.babi.sh/recipes/layered-butter-toast-danish-creamery	https://res.cloudinary.com/dd27yihoo/image/upload/v1742394232/gyyukk3qokkaa39hcbtk.webp	2025-03-19	172800	2	loaves
+leftover-caviar-pasta	Leftover Caviar Pasta	leftover-caviar-pasta		https://www.babi.sh/recipes/leftover-caviar-pasta	https://res.cloudinary.com/dd27yihoo/image/upload/v1705678993/uujrfmfphucrmddxcsdv.webp	2024-01-18	\N	\N	\N
+lemon-cakes-inspired-by-game-of-thrones	Lemon Cakes inspired by Game of Thrones	lemon-cakes-inspired-by-game-of-thrones	https://www.youtube.com/watch?v=Y_hc07rAQlc	https://www.babi.sh/recipes/lemon-cakes-inspired-by-game-of-thrones	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992052/luzmgrdxsulbwjcdiefp.webp	2017-07-11	\N	\N	\N
+lemon-meringue-pie	LEMON MERINGUE PIE	lemon-meringue-pie	https://www.youtube.com/watch?v=f0fmS1WEm3s	https://www.babi.sh/recipes/lemon-meringue-pie	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696099/babishImages/undefined-443317.png	2022-05-27	7200	1	pie
+lemon-pepper-wet	Lemon Pepper Wet inspired by Atlanta	lemon-pepper-wet	https://www.youtube.com/watch?v=Enan6eEmtqM	https://www.babi.sh/recipes/lemon-pepper-wet	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715518/babishImages/undefined-431756.jpg	2017-07-25	\N	2	pounds
+lentil-soup-moon-knight	Lentil Soup inspired by Moon Knight	lentil-soup-moon-knight	https://www.youtube.com/watch?v=wq1gxK9m5hM	https://www.babi.sh/recipes/lentil-soup-moon-knight	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695430/babishImages/undefined-376232.png	2022-05-17	4800	4	servings
+let's-make:-french-onion-soup	Let's Make: French Onion Soup	let's-make:-french-onion-soup	https://www.youtube.com/watch?v=he2SdezMpes&pp=ygUdY29vayBhbG5nIGJpbmdpbmcgd2l0aCBiYWJpc2g%3D	https://www.babi.sh/recipes/let's-make:-french-onion-soup	https://res.cloudinary.com/dd27yihoo/image/upload/v1754080789/bjbklkf4vfwkcjrpusp5.webp	2025-08-01	7200	4	servings
+let's-make:-steak-and-eggs-au-poivre	Let's Make: Steak and Eggs au Poivre	let's-make:-steak-and-eggs-au-poivre	https://www.youtube.com/watch?v=W4hi6oVe4LQ	https://www.babi.sh/recipes/let's-make:-steak-and-eggs-au-poivre	https://res.cloudinary.com/dd27yihoo/image/upload/v1753996142/af5nphp88avhfgygsztx.webp	2025-07-31	5400	2	servings
+level-9:-babish's-pbandj	Level 9: Babish's PB&J	level-9:-babish's-pbandj	https://www.youtube.com/watch?v=YPx6-BIwZpI&pp=ygUTYmluZ2luZyB3aXRoIGJhYmlzaA%3D%3D	https://www.babi.sh/recipes/level-9:-babish's-pbandj	https://res.cloudinary.com/dd27yihoo/image/upload/v1764625980/utfbym5pz4vehgs69tu2.webp	2025-12-01	25200	6	sandwiches
+lilbits-rickandmorty	Lil' Bits inspired by Rick  Morty	lilbits-rickandmorty	https://www.youtube.com/watch?v=BxEDztBWdbc	https://www.babi.sh/recipes/lilbits-rickandmorty	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695716/babishImages/undefined-600464.png	2020-05-12	4800	4	servings
+lobster-salad-panzanella	Lobster Salad Panzanella	lobster-salad-panzanella		https://www.babi.sh/recipes/lobster-salad-panzanella	https://res.cloudinary.com/dd27yihoo/image/upload/v1723129401/myx3qlkt8pyap7bufwyc.webp	2024-08-08	\N	\N	\N
+lobster-scrambled-eggs-seinfeld	Lobster Scrambled Eggs inspired by Seinfeld (Copy)	lobster-scrambled-eggs-seinfeld	https://www.youtube.com/watch?v=71jrAWaRc3E	https://www.babi.sh/recipes/lobster-scrambled-eggs-seinfeld	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695727/babishImages/undefined-436056.png	2022-08-01	1200	4	servings
+looney-cake-succession	Looney Cake inspired by Succession	looney-cake-succession	https://www.youtube.com/watch?v=QUB7xXizOGs	https://www.babi.sh/recipes/looney-cake-succession	https://res.cloudinary.com/dd27yihoo/image/upload/v1687966458/trl40t3abbhx2xnwnkhr.webp	2023-06-05	\N	\N	\N
+lotr-feast-special	LOTR 7 Million Subscriber Special inspired by Lord of the Rings	lotr-feast-special	https://www.youtube.com/watch?v=-aFrFsn998o	https://www.babi.sh/recipes/lotr-feast-special	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696106/babishImages/undefined-637175.png	2020-07-13	8400	4	servings
+louiefriedchicken	Fried Chicken inspired by Louie	louiefriedchicken	https://www.youtube.com/watch?v=7UEIBdMyj9g	https://www.babi.sh/recipes/louiefriedchicken	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992069/rfmqo2xowthde940bzld.webp	2016-03-16	\N	\N	\N
+loversdelightsundae	Lovers' Delight Sundae from 30 Rock	loversdelightsundae	https://www.youtube.com/watch?v=iX7Dzr2whWQ	https://www.youtube.com/watch?v=iX7Dzr2whWQ	https://img.youtube.com/vi/iX7Dzr2whWQ/mqdefault.jpg	2017-02-06	\N	\N	\N
+lunches-the-breakfast-club	Lunches inspired by The Breakfast Club	lunches-the-breakfast-club	https://www.youtube.com/watch?v=PzZ7K0qJvTQ	https://www.babi.sh/recipes/lunches-the-breakfast-club	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695871/babishImages/undefined-592203.png	2021-11-19	3600	4	servings
+macandcheese	MAC AND CHEESE	macandcheese	https://www.youtube.com/watch?v=FUeyrEN14Rk	https://www.babi.sh/recipes/macandcheese	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715431/babishImages/undefined-753175.png	2020-06-05	2700	6	servings
+macarons-the-mandalorian	Macarons inspired by The Mandalorian	macarons-the-mandalorian	https://www.youtube.com/watch?v=IGS0JouUgjM	https://www.babi.sh/recipes/macarons-the-mandalorian	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696123/babishImages/undefined-123465.png	2020-12-01	7200	4	servings
+madmen	Room Service inspired by Mad Men	madmen	https://www.youtube.com/watch?v=BagY2Mnz-TU&amp;t=278s	https://www.babi.sh/recipes/madmen	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715463/babishImages/undefined-566441.png	2017-09-26	\N	\N	\N
+maisel-brisket	Brisket inspired by The Marvelous Mrs. Maisel	maisel-brisket	https://www.youtube.com/watch?v=TutmnWa6dVo	https://www.babi.sh/recipes/maisel-brisket	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695157/babishImages/undefined-569203.png	2020-04-08	6000	4	servings
+marmalade	Marmalade Sandwiches inspired by Paddington	marmalade	https://www.youtube.com/watch?v=g1j-5UkZyL0&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/g1j-5UkZyL0/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/marmalade	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695964/babishImages/undefined-95417.png	2020-01-23	3600	4	servings
+mashed-potatoes	MASHED POTATOES	mashed-potatoes	https://www.youtube.com/watch?v=ZLnWdPPJvYg	https://www.babi.sh/recipes/mashed-potatoes	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715481/babishImages/undefined-764093.png	2020-09-03	1500	4	servings
+mayors-request-cloudy-with-a-chance-of-meatballs	Mayor's Request inspired by Cloudy with a Chance of Meatballs	mayors-request-cloudy-with-a-chance-of-meatballs	https://www.youtube.com/watch?v=dr3rMTxq3bA	https://www.babi.sh/recipes/mayors-request-cloudy-with-a-chance-of-meatballs	https://res.cloudinary.com/dd27yihoo/image/upload/v1680970729/md9l25up1e6zkppevtom.webp	2021-12-20	8400	6	servings
+mc1035-archer	Mc10:35 inspired by Archer	mc1035-archer	https://www.youtube.com/watch?v=LyagMC0bokI	https://www.babi.sh/recipes/mc1035-archer	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696157/babishImages/undefined-786898.png	2021-08-20	4800	\N	\N
+mean-girls-toaster-strudel	Homemade Toaster Strudel Inspired by Mean Girls	mean-girls-toaster-strudel	https://www.youtube.com/watch?v=t78IFIYiQ8M	https://www.babi.sh/recipes/mean-girls-toaster-strudel	https://res.cloudinary.com/dd27yihoo/image/upload/v1705545612/ovmommijdvjcueekr5bx.webp	2024-01-18	\N	4	servings
+meat-pies-sweeny-todd	Meat Pies inspired by Sweeny Todd	meat-pies-sweeny-todd	https://www.youtube.com/watch?v=hwKtoO3OmeU	https://www.babi.sh/recipes/meat-pies-sweeny-todd	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695590/babishImages/undefined-30728.png	2021-11-05	8400	2	servings
+meat-tornado-parks-and-rec	Meat Tornado inspired by Parks & Rec	meat-tornado-parks-and-rec	https://www.youtube.com/watch?v=LsNg-KrFxCA	https://www.babi.sh/recipes/meat-tornado-parks-and-rec	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696351/babishImages/undefined-220855.png	2020-08-25	6000	4	servings
+meatball-smashwich-with-babish	Meatball Smashwich With Babish	meatball-smashwich-with-babish	https://www.youtube.com/watch?v=fypEVSous_g	https://www.babi.sh/recipes/meatball-smashwich-with-babish	https://res.cloudinary.com/dd27yihoo/image/upload/v1762019441/c8sbuzgg2n73jmsphlhg.webp	2025-11-01	9600	10	servings
+meatballs-30rock	Meatballs inspired by 30 Rock	meatballs-30rock	https://www.youtube.com/watch?v=IMvffRnRO0E	https://www.babi.sh/recipes/meatballs-30rock	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695628/babishImages/undefined-273552.png	2022-12-19	2400	4	servings
+meatghetti-spagballs-american-dad	Meat-ghetti and Spag-balls Inspired by American Dad	meatghetti-spagballs-american-dad	https://www.youtube.com/watch?v=PwbgLteVwvs	https://www.babi.sh/recipes/meatghetti-spagballs-american-dad	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695888/babishImages/undefined-338550.png	2021-06-21	8400	2	servings
+meatloaf	MEATLOAF	meatloaf	https://www.youtube.com/watch?v=KgNQ6ZrT4RQ	https://www.babi.sh/recipes/meatloaf	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695173/babishImages/undefined-299972.png	2021-04-16	4800	6	servings
+mega-beef-bowl-inspired-by-persona-4	Mega Beef Bowl inspired by Persona 4	mega-beef-bowl-inspired-by-persona-4	https://www.youtube.com/watch?v=PZ-QK-16WgA	https://www.babi.sh/recipes/mega-beef-bowl-inspired-by-persona-4	https://res.cloudinary.com/dd27yihoo/image/upload/v1725892643/vbhsimmhdkl0uf49y8e3.webp	2024-09-09	\N	\N	\N
+megs-dinner-family-guy	Meg's Dinner inspired by Family Guy	megs-dinner-family-guy	https://www.youtube.com/watch?v=6NOtF4l9i9g	https://www.babi.sh/recipes/megs-dinner-family-guy	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695850/babishImages/undefined-75593.png	2021-08-12	5400	\N	\N
+michaelscottpretzel	Michael Scott’s Pretzel inspired by The Office	michaelscottpretzel	https://www.youtube.com/watch?v=NHA9Ffaal2M&amp;t=252s	https://www.babi.sh/recipes/michaelscottpretzel	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715698/babishImages/undefined-89396.png	2017-10-17	\N	\N	\N
+millionaires-shortbread	MILLIONAIRE'S SHORTBREAD	millionaires-shortbread	https://www.youtube.com/watch?v=GWAY5i3CMpo	https://www.babi.sh/recipes/millionaires-shortbread	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715701/babishImages/undefined-902446.png	2020-02-14	5400	4	servings
+minecraft-cake-inspired-by-minecraft	Minecraft Cake inspired by Minecraft	minecraft-cake-inspired-by-minecraft	https://www.youtube.com/watch?v=BhqcprmntPY&pp=ygUabWluZWNyYWZ0IGNha2UgYW5pbWUgYWx2aW4%3D	https://www.babi.sh/recipes/minecraft-cake-inspired-by-minecraft	https://res.cloudinary.com/dd27yihoo/image/upload/v1728312280/l6x0kr8zeetgqcw6x72s.webp	2024-10-07	\N	5	servings
+mirages-pork-chops	Mirage's Pork Chops inspired by Apex Legends	mirages-pork-chops	https://www.youtube.com/watch?v=SZcUJuXjCsw&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/SZcUJuXjCsw/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/mirages-pork-chops	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696398/babishImages/undefined-549648.png	2019-10-31	3600	4	servings
+miso-honey-butter-pancakes	Miso Honey Butter Pancakes	miso-honey-butter-pancakes	https://www.youtube.com/watch?v=LVaY5DAacM4&pp=ygUdY29vayBhbG5nIGJpbmdpbmcgd2l0aCBiYWJpc2g%3D	https://www.babi.sh/recipes/miso-honey-butter-pancakes	https://res.cloudinary.com/dd27yihoo/image/upload/v1754084768/rygjgkn3df0tinqzi5to.webp	2025-08-01	3600	3	servings
+mitarashi-dango-inspired-by-demon-slayer	Mitarashi Dango inspired by Demon Slayer	mitarashi-dango-inspired-by-demon-slayer	https://www.youtube.com/watch?v=X3DUkE6cgUg	https://www.babi.sh/recipes/mitarashi-dango-inspired-by-demon-slayer	https://res.cloudinary.com/dd27yihoo/image/upload/v1725477172/psa1ww7xnqmaittxlmer.webp	2024-09-04	\N	3	servings
+mochi-icecream	MOCHI ICE CREAM	mochi-icecream	https://www.youtube.com/watch?v=fM57RNUpd10	https://www.babi.sh/recipes/mochi-icecream	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715718/babishImages/undefined-778445.png	2020-07-16	\N	\N	\N
+mofongo	MOFONGO	mofongo	https://www.youtube.com/watch?v=p3ASwWUscDc	https://www.babi.sh/recipes/mofongo	https://res.cloudinary.com/dd27yihoo/image/upload/v1690353083/iru6vyj1zv4gdeydygue.webp	2023-03-02	\N	\N	\N
+moistmaker	The Moistmaker inspired by Friends	moistmaker	https://www.youtube.com/watch?v=vjZXcapkFEU	https://www.babi.sh/recipes/moistmaker	https://res.cloudinary.com/dd27yihoo/image/upload/v1689990450/undefinedundefined.jpg	2016-11-14	\N	\N	\N
+monicas-candy-friends	Monica's Candy inspired by Friends	monicas-candy-friends	https://www.youtube.com/watch?v=bK0NdaDOsG0	https://www.babi.sh/recipes/monicas-candy-friends	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696037/babishImages/undefined-162081.png	2020-12-15	6000	4	servings
+monkey-bread	MONKEY BREAD	monkey-bread	https://www.youtube.com/watch?v=JGL2m6-SLMQ	https://www.babi.sh/recipes/monkey-bread	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695272/babishImages/undefined-333425.png	2021-06-25	9000	\N	\N
+monte-cristo-american-dad	Monte Cristo inspired by American Dad	monte-cristo-american-dad	https://www.youtube.com/watch?v=IKgGVaYjzm8	https://www.babi.sh/recipes/monte-cristo-american-dad	https://res.cloudinary.com/dd27yihoo/image/upload/v1687966292/bfpvrefyotfqsoptu9d3.webp	2023-05-25	\N	\N	\N
+moonwaffles	Homer Simpson's Patented Space Age Out-Of-This-World Moon Waffles	moonwaffles	https://www.youtube.com/watch?v=27mUWs2wjPs	https://www.babi.sh/recipes/moonwaffles	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992091/prp0ieyicip45sfehspp.webp	2017-05-02	\N	\N	\N
+moroccanpasta	Moroccan Pasta inspired by Peep Show	moroccanpasta	https://www.youtube.com/watch?v=kBo7FK3NO6s	https://www.babi.sh/recipes/moroccanpasta	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715719/babishImages/undefined-684211.png	2018-01-09	\N	\N	\N
+mostexpensiveshake	$5 Milkshake inspired by Pulp Fiction	mostexpensiveshake	https://www.youtube.com/watch?v=SfNgpLkV6KE&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/SfNgpLkV6KE/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/mostexpensiveshake	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695865/babishImages/undefined-614460.png	2019-10-16	2400	4	servings
+mulancongee	Congee inspired by Mulan	mulancongee	https://www.youtube.com/watch?v=VGsIsfIyz4E	https://www.babi.sh/recipes/mulancongee	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715706/babishImages/undefined-693268.png	2018-06-26	\N	\N	\N
+mushroom-pasta-super-mario-movie	Mushroom Pasta inspired by The Super Mario Bros Movie	mushroom-pasta-super-mario-movie	https://www.youtube.com/watch?v=sf4AoqBnSKI	https://www.babi.sh/recipes/mushroom-pasta-super-mario-movie	https://res.cloudinary.com/dd27yihoo/image/upload/v1700107487/f6aogveknyuf6on0al77.webp	2023-09-29	\N	5	servings
+my-top-5-easy-sexy-dishes	My Top 5 Easy, Sexy Dishes	my-top-5-easy-sexy-dishes	https://www.youtube.com/watch?v=BAxICJRICNU&ab_channel=BabishCulinaryUniverse	https://www.babi.sh/recipes/my-top-5-easy-sexy-dishes	https://res.cloudinary.com/dd27yihoo/image/upload/v1739562469/nya8wka5lyucenir6wez.webp	2025-02-14	\N	\N	\N
+nachos	Nachos inspired by The Good Place (plus Naco Redemption)	nachos	https://www.youtube.com/watch?v=LgzudBvmd08&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/LgzudBvmd08/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/nachos	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695402/babishImages/undefined-689257.png	2019-11-07	4800	4	servings
+nipples-of-venus-amadeus	Nipples of Venus inspired by Amadeus	nipples-of-venus-amadeus	https://www.youtube.com/watch?v=fLD2WXPhUQ0	https://www.babi.sh/recipes/nipples-of-venus-amadeus	https://res.cloudinary.com/dd27yihoo/image/upload/v1695094470/qchljfm4fhws31z6q5se.webp	2023-08-09	\N	25	pieces
+nopal-katsu-sando	Nopal Katsu Sando	nopal-katsu-sando	https://www.youtube.com/shorts/_ZEgr89WBGE	https://www.babi.sh/recipes/nopal-katsu-sando	https://res.cloudinary.com/dd27yihoo/image/upload/v1746043519/gsmdrr6bp9n5hlak7gdk.webp	2025-04-30	\N	4	servings
+nypizzatmnt	New York-Style Pizza inspired by TMNT II: Secret of the Ooze	nypizzatmnt	https://www.youtube.com/watch?v=KUu2gJn1dzc	https://www.babi.sh/recipes/nypizzatmnt	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991777/ybzpyyx0ohq56s7pz5ls.webp	2016-04-30	\N	12	servings
+okonomiyaki	Okonomiyaki inspired by Sweetness & Lightning	okonomiyaki	https://www.youtube.com/watch?v=DNg7Obo-DDM	https://www.babi.sh/recipes/okonomiyaki	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715489/babishImages/undefined-265247.png	2018-07-17	\N	\N	\N
+omelette-du-fromage-dexters-laboratory	Omelette du Fromage inspired by Dexter's Laboratory	omelette-du-fromage-dexters-laboratory	https://www.youtube.com/watch?v=8q8LsYbDCmM	https://www.babi.sh/recipes/omelette-du-fromage-dexters-laboratory	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696093/babishImages/undefined-405585.png	2020-11-17	900	2	servings
+one-piece-tuna-saute	Sanji’s Tuna Saute Inspired by One Piece	one-piece-tuna-saute	https://youtu.be/_rk1Foi8E8g	https://www.babi.sh/recipes/one-piece-tuna-saute	https://res.cloudinary.com/dd27yihoo/image/upload/v1706827474/slrsvlsvfwr0lwbdtpa0.webp	2024-02-01	9000	2	servings
+onepot-pasta	ONE-POT PASTA	onepot-pasta	https://www.youtube.com/watch?v=cs8OYby6RrA	https://www.babi.sh/recipes/onepot-pasta	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715440/babishImages/undefined-99743.png	2020-06-25	1800	4	servings
+orangemochafrapp	Orange Mocha Frappuccinos inspired by Zoolander	orangemochafrapp	https://www.youtube.com/watch?v=exe_I-tnxpU&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/exe_I-tnxpU/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/orangemochafrapp	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695277/babishImages/undefined-105623.png	2019-05-29	3600	4	servings
+orangemochafrapp-fpm9l	Bacon and Eggs Breakfast inspired by Howl's Moving Castle	orangemochafrapp-fpm9l	https://www.youtube.com/watch?v=UPccIAVvQA4&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/UPccIAVvQA4/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/orangemochafrapp-fpm9l	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695364/babishImages/undefined-228159.png	2019-06-04	6000	4	servings
+ossobuco	Osso Buco inspired by The Office	ossobuco	https://www.youtube.com/watch?v=Jr9Is6NsFck&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/Jr9Is6NsFck/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/ossobuco	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695212/babishImages/undefined-393673.png	2019-12-04	6000	4	servings
+oyakodon	Oyakodon	oyakodon		https://www.babi.sh/recipes/oyakodon	https://res.cloudinary.com/dd27yihoo/image/upload/v1710441471/zelacbgsgjluo4uruhxg.webp	2024-03-14	\N	\N	\N
+pan-sauces	PAN SAUCES	pan-sauces	https://www.youtube.com/watch?v=ru4U_T83uOU	https://www.babi.sh/recipes/pan-sauces	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715742/babishImages/undefined-525730.png	2020-05-01	1200	4	servings
+pancontomate-crabcakes	PAN CON TOMATE & THAI CRAB CAKES	pancontomate-crabcakes		https://www.babi.sh/recipes/pancontomate-crabcakes	https://res.cloudinary.com/dd27yihoo/image/upload/v1679528843/xgz5yesij5scrohrl1fs.webp	2021-02-12	8400	4	servings
+panna-cotta-with-poached-pears	Panna Cotta with Poached Pears	panna-cotta-with-poached-pears	https://www.youtube.com/shorts/iCbVzWW7Cn8	https://www.babi.sh/recipes/panna-cotta-with-poached-pears	https://res.cloudinary.com/dd27yihoo/image/upload/v1745961313/icfwqz2j6s4m0u9ckux9.webp	2025-04-29	15300	4	servings
+panpizza	PAN PIZZA	panpizza	https://www.youtube.com/watch?v=J_3v7DEkjsk	https://www.babi.sh/recipes/panpizza	https://res.cloudinary.com/dd27yihoo/image/upload/v1685822945/clzbl3brlxs8oqrbxetx.webp	2019-08-29	5400	2	servings
+pantomate-crabcakes	PAN CON TOMATE & THAI CRAB CAKES	pantomate-crabcakes		https://basicswithbabish.co/basicsepisodes/pantomate-crabcakes	https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1613183842730-AERMYVZEOMJRJKWBMSN0/pasted-image.png	2021-02-12	\N	\N	\N
+parksandrecburger	Parks & Rec Burger Cookoff	parksandrecburger	https://www.youtube.com/watch?v=MP_nWuLYpJw	https://www.babi.sh/recipes/parksandrecburger	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991793/enpyd7oh6phekr5y7zps.webp	2016-02-10	\N	\N	\N
+parmhero	Parm Heros inspired by Lots of Things	parmhero	https://www.youtube.com/watch?v=DkiyT-dnmv8	https://www.babi.sh/recipes/parmhero	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715733/babishImages/undefined-3296.png	2018-03-20	\N	\N	\N
+pasta-al-limone	PASTA AL LIMONE	pasta-al-limone	https://www.youtube.com/watch?v=I2MfxX0N7dQ	https://www.babi.sh/recipes/pasta-al-limone	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715502/babishImages/undefined-961263.png	2020-11-05	1200	2	servings
+pasta-curry-inspired-by-pokemon-sword-and-shield	Pasta Curry inspired by Pokémon Sword and Shield	pasta-curry-inspired-by-pokemon-sword-and-shield	https://www.youtube.com/watch?v=6G6gDOZie_c&pp=ygUccGFzdGEgY3VycnkgYW5pbWUgd2l0aCBhbHZpbg%3D%3D	https://www.babi.sh/recipes/pasta-curry-inspired-by-pokemon-sword-and-shield	https://res.cloudinary.com/dd27yihoo/image/upload/v1728312496/cyv0xgllmxnxn7i3wxxp.webp	2024-10-07	\N	3	servings
+pasta-salad	PASTA SALAD	pasta-salad	https://www.youtube.com/watch?v=fMt2ca4jdY4	https://www.babi.sh/recipes/pasta-salad	https://res.cloudinary.com/dd27yihoo/image/upload/v1690352510/pmxflnjqlxralyksjqm6.webp	2023-06-15	\N	4	servings
+pasta2	PASTA PART II: FILLED PASTA	pasta2	https://www.youtube.com/watch?v=svPa8Rd8dsU	https://www.babi.sh/recipes/pasta2	https://res.cloudinary.com/dd27yihoo/image/upload/v1686069258/yfinru7hcksnicbenuny.webp	2019-01-10	3600	2	servings
+pastaputtanesca	Pasta Puttanesca inspired by Lemony Snicket's A Series of Unfortunate Events	pastaputtanesca	https://www.youtube.com/watch?v=uwV9cq9DRTY	https://www.babi.sh/recipes/pastaputtanesca	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715507/babishImages/undefined-537658.png	2018-06-12	\N	\N	\N
+pastrami	Pastrami inspired by When Harry Met Sally	pastrami	https://www.youtube.com/watch?v=hFeDKLt4P-Y	https://www.babi.sh/recipes/pastrami	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695604/babishImages/undefined-845385.png	2020-06-09	6000	4	servings
+patricks-briefcase-spongebob	Patrick’s Briefcase inspired by SpongeBob Squarepants	patricks-briefcase-spongebob	https://www.youtube.com/watch?v=GJ2otRI37So	https://www.babi.sh/recipes/patricks-briefcase-spongebob	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695396/babishImages/undefined-904306.png	2022-10-28	4800	12	cake donuts
+paunch-burger-parks-and-rec	Paunch Burger inspired by Parks & Rec	paunch-burger-parks-and-rec	https://www.youtube.com/watch?v=RN8uoBwRr1k	https://www.babi.sh/recipes/paunch-burger-parks-and-rec	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695544/babishImages/undefined-212669.png	2020-08-12	7200	4	servings
+peachs-cake-mario-64	Peach's Cake inspired by Mario 64	peachs-cake-mario-64	https://www.youtube.com/watch?v=NxxsbNEuil4	https://www.babi.sh/recipes/peachs-cake-mario-64	https://res.cloudinary.com/dd27yihoo/image/upload/v1687964392/mxaysncvntwuerqli236.webp	2023-04-17	\N	\N	\N
+pekingduck	Peking Duck inspired by A Christmas Story	pekingduck	https://www.youtube.com/watch?v=Hez55mhB8UA	https://www.babi.sh/recipes/pekingduck	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715494/babishImages/undefined-792662.png	2017-12-19	\N	\N	\N
+pesto	PESTO	pesto	https://www.youtube.com/watch?v=Y2cwkjOb1LE	https://www.babi.sh/recipes/pesto	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696195/babishImages/undefined-466475.png	2022-06-09	900	3	servings
+phantomthread-l42pw	Full Breakfast inspired by Phantom Thread	phantomthread-l42pw	https://www.youtube.com/watch?v=yiElOt9cI8k	https://www.babi.sh/recipes/phantomthread-l42pw	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715433/babishImages/undefined-513534.png	2018-09-04	\N	\N	\N
+pho-carnitas-with-nuoc-cham	Pho Carnitas with Nước chấm	pho-carnitas-with-nuoc-cham		https://www.babi.sh/recipes/pho-carnitas-with-nuoc-cham	https://res.cloudinary.com/dd27yihoo/image/upload/v1705075155/hrswd4asfqsgnoizrs6f.webp	2024-01-12	\N	\N	\N
+picnic-food	PICNIC FOOD	picnic-food	https://www.youtube.com/watch?v=lMAVnI-2MIA	https://www.babi.sh/recipes/picnic-food	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695917/babishImages/undefined-81738.png	2021-04-05	5400	4	servings
+pierogis	PIEROGIS	pierogis	https://www.youtube.com/watch?v=58hC3MCVwkw	https://www.babi.sh/recipes/pierogis	https://res.cloudinary.com/dd27yihoo/image/upload/v1690353185/d6hdqdddrsens6ovoe07.webp	2023-02-24	\N	4	servings
+pies	PIES	pies	https://www.youtube.com/watch?v=i7648rZpdck&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/i7648rZpdck/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/pies	https://res.cloudinary.com/dd27yihoo/image/upload/v1685738083/pavqbqcfsckezrvhlk33.webp	2019-10-31	5400	4	servings
+piesfromwaitress	Pies inspired by Waitress	piesfromwaitress	https://www.youtube.com/watch?v=NgloGi5xEa8	https://www.babi.sh/recipes/piesfromwaitress	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715732/babishImages/undefined-388068.png	2018-05-08	\N	8	servings
+pigeon-pie-with-wild-game-inspired-by-game-of-thrones	Pigeon Pie with Wild Game inspired by Game of Thrones	pigeon-pie-with-wild-game-inspired-by-game-of-thrones	https://www.youtube.com/watch?v=Y_hc07rAQlc	https://www.babi.sh/recipes/pigeon-pie-with-wild-game-inspired-by-game-of-thrones	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992055/lzkh5sqeahndjyn4d5qi.webp	2017-07-11	\N	\N	\N
+pigs-in-a-blanket-office	Pigs in a Blanket inspired by The Office	pigs-in-a-blanket-office	https://www.youtube.com/watch?v=YKgz4DbBDes	https://www.babi.sh/recipes/pigs-in-a-blanket-office	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695375/babishImages/undefined-708307.png	2023-01-05	8400	4	servings
+pineapplecurryfriedrice	Pineapple-Curry Fried Rice inspired by Food Wars!: Shokugeki no Soma	pineapplecurryfriedrice	https://www.youtube.com/watch?v=WRA3a7c4Qt4	https://www.babi.sh/recipes/pineapplecurryfriedrice	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715528/babishImages/undefined-509378.png	2018-03-13	\N	\N	\N
+pistachio-cake-with-chocolate-ganache	Pistachio Cake with Chocolate Ganache	pistachio-cake-with-chocolate-ganache		https://www.babi.sh/recipes/pistachio-cake-with-chocolate-ganache	https://res.cloudinary.com/dd27yihoo/image/upload/v1715615340/plxxs2ze6mqnwr2npn0e.webp	2024-05-13	\N	\N	\N
+pizza-balls-mom	Pizza Balls inspired by Multiverse of Madness	pizza-balls-mom	https://www.youtube.com/watch?v=4bCUULby80g	https://www.babi.sh/recipes/pizza-balls-mom	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695224/babishImages/undefined-943345.png	2022-06-22	2400	4	servings
+pizza-dough	PIZZA DOUGH	pizza-dough	https://www.youtube.com/watch?v=n1O3uHPCOLA	https://www.babi.sh/recipes/pizza-dough	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715535/babishImages/undefined-397821.png	2020-10-15	10800	2	small pizzas
+pizza-gyoza-tmnt	Pizza Gyoza inspired by Teenage Mutant Ninja Turtles	pizza-gyoza-tmnt	https://www.youtube.com/watch?v=ah5G2EXKgvA	https://www.babi.sh/recipes/pizza-gyoza-tmnt	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695679/babishImages/undefined-9410.png	2021-06-09	6000	4	servings
+pizza-in-a-cup-the-jerk	Pizza in a Cup inspired by The Jerk	pizza-in-a-cup-the-jerk	https://www.youtube.com/watch?v=8a7L0bFuE3o	https://www.babi.sh/recipes/pizza-in-a-cup-the-jerk	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695540/babishImages/undefined-444449.png	2021-02-10	4800	7	servings
+pizzaball	Pizza Ball inspired by The Eric Andre Show	pizzaball	https://www.youtube.com/watch?v=U3LFI2mI8Y0&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/U3LFI2mI8Y0/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/pizzaball	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696335/babishImages/undefined-58715.png	2019-01-08	3600	4	servings
+plum-pie-puss-in-boots	Plum Pie inspired by Puss in Boots: The Last Wish	plum-pie-puss-in-boots	https://www.youtube.com/watch?v=y0j9whLWVf4	https://www.babi.sh/recipes/plum-pie-puss-in-boots	https://res.cloudinary.com/dd27yihoo/image/upload/v1680589584/jnu05lqrsmqybsujyej5.webp	2023-03-18	\N	1	pie
+poke-bowls	POKE BOWLS	poke-bowls	https://www.youtube.com/watch?v=l7VRSINAEQo	https://www.babi.sh/recipes/poke-bowls	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695359/babishImages/undefined-263359.png	2021-10-26	2400	2	servings
+pollo-a-la-plancha	Pollo a la Plancha inspired by Moonlight	pollo-a-la-plancha	https://www.youtube.com/watch?v=ZsBWgeQHjnM	https://www.babi.sh/recipes/pollo-a-la-plancha	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991775/bxrif8wfsunofeodyoub.webp	2017-03-06	\N	\N	\N
+pollos-hermanos-breaking-bad	Pollos Hermanos inspired by Breaking Bad	pollos-hermanos-breaking-bad	https://www.youtube.com/watch?v=ndqjxhi7uZs	https://www.babi.sh/recipes/pollos-hermanos-breaking-bad	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695969/babishImages/undefined-325786.png	2020-09-15	4800	4	servings
+porchetta	PORCHETTA	porchetta	https://www.youtube.com/watch?v=YMF27Q9nLNY	https://www.babi.sh/recipes/porchetta	https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1576791197609-1V0M90TQGLJKXCG7LD5U/INSTA.jpeg	2019-12-19	28800	4	servings
+pork-katsudon-inspired-by-yuri!!!-on-ice	Pork Katsudon inspired by Yuri!!! On Ice	pork-katsudon-inspired-by-yuri!!!-on-ice	https://www.youtube.com/watch?v=eEUUlThWDE0	https://www.babi.sh/recipes/pork-katsudon-inspired-by-yuri!!!-on-ice	https://res.cloudinary.com/dd27yihoo/image/upload/v1725915612/bydgybhpb8f5pxz2jh4y.webp	2024-09-09	\N	2	servings
+pork-picnic-sandwich-regular-show	Pork Picnic Sandwich inspired by Regular Show	pork-picnic-sandwich-regular-show	https://www.youtube.com/watch?v=mMle42fPNn0	https://www.babi.sh/recipes/pork-picnic-sandwich-regular-show	https://res.cloudinary.com/dd27yihoo/image/upload/v1680286806/rtypvx8voggfuw7vtuwp.webp	2021-06-23	6000	\N	\N
+portalcake	The Cake inspired by Portal	portalcake	https://www.youtube.com/watch?v=Y9l8iu5J6rs&amp;t=10s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/Y9l8iu5J6rs/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/portalcake	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695747/babishImages/undefined-449381.png	2019-03-19	1200	4	servings
+potato-chip-omelet-the-bear	Potato Chip Omelet inspired by The Bear	potato-chip-omelet-the-bear	https://www.youtube.com/watch?v=AHiIznBNdIM	https://www.babi.sh/recipes/potato-chip-omelet-the-bear	https://res.cloudinary.com/dd27yihoo/image/upload/v1690252298/aqeflofacljeuzb8yehc.webp	2023-07-10	\N	\N	\N
+potato-hash	POTATO HASH	potato-hash	https://www.youtube.com/watch?v=R4kwxiDlKzs	https://www.babi.sh/recipes/potato-hash	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715758/babishImages/undefined-38265.png	2020-08-27	1800	4	servings
+potroast	POT ROAST	potroast	https://www.youtube.com/watch?v=RVx90rTJIzc	https://www.babi.sh/recipes/potroast	https://res.cloudinary.com/dd27yihoo/image/upload/v1686007486/twwaxdd7h2oonfc3ud9r.webp	2019-02-14	9000	6	servings
+potsticker-pizza	Potsticker Pizza	potsticker-pizza		https://www.babi.sh/recipes/potsticker-pizza	https://res.cloudinary.com/dd27yihoo/image/upload/v1725641193/sqasqquozwpu5o6c8ekr.webp	2024-09-06	\N	\N	\N
+potstickers	POTSTICKERS	potstickers	https://www.youtube.com/watch?v=iC1rvXPt_rE	https://www.babi.sh/recipes/potstickers	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715716/babishImages/undefined-441702.png	2021-01-07	3600	5	servings
+poutine	POUTINE	poutine	https://www.youtube.com/watch?v=uc-_KXfHcXQ&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/uc-_KXfHcXQ/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/poutine	https://res.cloudinary.com/dd27yihoo/image/upload/v1685737754/y2e54lfaqwd5qyvszkqq.webp	2019-09-26	3000	4	servings
+pretty-patties-spongebob	Pretty Patties inspired by SpongeBob Squarepants	pretty-patties-spongebob	https://www.youtube.com/watch?v=tDnax8d3v3k	https://www.babi.sh/recipes/pretty-patties-spongebob	https://res.cloudinary.com/dd27yihoo/image/upload/v1676600190/v4oifcobh5qcvrv5rzxr.webp	2023-01-20	2400	4	servings
+protein-pizza	PROTEIN PIZZA	protein-pizza	https://www.youtube.com/watch?v=ZYvDLT2BkQ8	https://www.babi.sh/recipes/protein-pizza	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695706/babishImages/undefined-189348.png	2021-10-05	3600	2	servings
+puerco-pibil	Puerco Pibil inspired by Once Upon a Time in Mexico	puerco-pibil	https://www.youtube.com/watch?v=5_sdhAFGmbw	https://www.babi.sh/recipes/puerco-pibil	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715523/babishImages/undefined-330169.jpg	2017-08-08	\N	5	servings
+pullednoodles	Special Ingredient Soup Inspired by Kung Fu Panda	pullednoodles	https://www.youtube.com/watch?v=cee6883w2Nk&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/cee6883w2Nk/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/pullednoodles	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696222/babishImages/undefined-791197.png	2019-10-01	6000	4	servings
+pulledpork	PULLED PORK	pulledpork	https://www.youtube.com/watch?v=_SObOsXrDRc	https://www.babi.sh/recipes/pulledpork	https://res.cloudinary.com/dd27yihoo/image/upload/v1685913479/ewsxvdz9xce9hohksnmc.webp	2019-05-31	10800	6	servings
+puppy-paw-hashbrowns	Puppy Paw Hash Browns inspired by Genshin Impact	puppy-paw-hashbrowns	https://www.youtube.com/watch?v=r4HxTcF98MU	https://www.babi.sh/recipes/puppy-paw-hashbrowns	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696185/babishImages/undefined-27552.png	2021-09-07	3600	\N	\N
+quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv	Quadruple Stacked Ham Sandwich inspired by Final Fantasy XV	quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv	https://www.youtube.com/watch?v=ouJL4FGGbuc	https://www.babi.sh/recipes/quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv	https://res.cloudinary.com/dd27yihoo/image/upload/v1755625602/nnowpvarxiludykiovik.webp	2025-08-19	6300	\N	\N
+quatroquesodosfritos	Quatro Quesos Dos Fritos inspired by Psych	quatroquesodosfritos	https://www.youtube.com/watch?v=O-H_Ybmtu_U	https://www.babi.sh/recipes/quatroquesodosfritos	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715505/babishImages/undefined-968597.png	2017-12-05	\N	\N	\N
+quesadillas	QUESADILLAS	quesadillas	https://www.youtube.com/watch?v=E0G5Y2SOW0c	https://www.babi.sh/recipes/quesadillas	https://res.cloudinary.com/dd27yihoo/image/upload/v1686006455/z8gcjrpbkglaqgld7w1k.webp	2019-04-18	\N	1	servings
+quiche	QUICHE	quiche	https://www.youtube.com/watch?v=6EuzOQOnX2A	https://www.babi.sh/recipes/quiche	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695953/babishImages/undefined-548347.png	2021-03-18	7200	6	servings
+quiet-place-bonus	A Quiet Place Bonus Episode	quiet-place-bonus	https://www.youtube.com/watch?v=0PyTpUIn4ks	https://www.youtube.com/watch?v=0PyTpUIn4ks	https://img.youtube.com/vi/0PyTpUIn4ks/mqdefault.jpg	2018-12-15	\N	\N	\N
+rabbit-last-of-us	Rabbit inspired by The Last of Us	rabbit-last-of-us	https://www.youtube.com/watch?v=RKXWW8vgbhQ&feature=youtu.be	https://www.babi.sh/recipes/rabbit-last-of-us	https://res.cloudinary.com/dd27yihoo/image/upload/v1680588592/pf5ccr3nqtd3ev05oras.webp	2023-03-07	\N	4	servings
+rabbit-sopranos	Rabbit inspired by The Sopranos	rabbit-sopranos	https://www.youtube.com/watch?v=aBMNzBhB6H0	https://www.babi.sh/recipes/rabbit-sopranos	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696077/babishImages/undefined-998530.png	2021-09-16	7200	2	servings
+racheltrifle	Rachel's Trifle inspired by Friends	racheltrifle	https://www.youtube.com/watch?v=G4BxOhJOmUw	https://www.babi.sh/recipes/racheltrifle	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715755/babishImages/undefined-571007.png	2017-11-21	\N	\N	\N
+raisinets	Movie Theater Popcorn & Raisinets inspired by Whiplash	raisinets	https://www.youtube.com/watch?v=FoztKuXEYnQ	https://www.babi.sh/recipes/raisinets	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715450/babishImages/undefined-835646.png	2017-09-19	\N	\N	\N
+ram-don-parasite	Ram-don inspired by Parasite	ram-don-parasite	https://www.youtube.com/watch?v=ge4vghXQTtQ	https://www.babi.sh/recipes/ram-don-parasite	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695924/babishImages/undefined-950613.png	2020-02-20	6000	4	servings
+ramen-hacks	RAMEN HACKS	ramen-hacks	https://www.youtube.com/watch?v=gCW1hVAebWU	https://www.babi.sh/recipes/ramen-hacks	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696368/babishImages/undefined-443575.png	2022-09-19	1200	2	servings
+raspberry-danish-ant-man-and-the-wasp	Raspberry Danish inspired by Ant Man & The Wasp	raspberry-danish-ant-man-and-the-wasp	https://www.youtube.com/watch?v=Zhq20aCSh-s	https://www.babi.sh/recipes/raspberry-danish-ant-man-and-the-wasp	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696165/babishImages/undefined-142356.png	2020-09-29	2400	4	servings
+ratatouille	Confit Byaldi inspired by Ratatouille	ratatouille	https://www.youtube.com/watch?v=roCX0AfBseQ	https://www.babi.sh/recipes/ratatouille	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992046/slqlttodtrdyc72qugsf.webp	2017-03-02	\N	6	servings
+regular-show-mississippi-queen	Mississippi Queen inspired by Regular Show	regular-show-mississippi-queen	https://www.youtube.com/watch?v=KV-SUOpW408	https://www.babi.sh/recipes/regular-show-mississippi-queen	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695753/babishImages/undefined-770920.png	2020-10-20	6000	4	servings
+remys-soup-ratatouille	Potato Leek Soup inspired by Ratatouille	remys-soup-ratatouille	https://www.youtube.com/watch?v=s_ymnJmtvMs	https://www.babi.sh/recipes/remys-soup-ratatouille	https://res.cloudinary.com/dd27yihoo/image/upload/v1676600503/v0ifeak5fzq4rrokacmc.webp	2023-01-18	1200	4	servings
+renaissance-wrap-inspired-by-shrek-2	Renaissance Wrap Inspired by Shrek 2	renaissance-wrap-inspired-by-shrek-2	https://youtu.be/BY888aujzh0	https://www.babi.sh/recipes/renaissance-wrap-inspired-by-shrek-2	https://res.cloudinary.com/dd27yihoo/image/upload/v1717605574/tkax0edrxmko4bwrzv8v.webp	2024-06-05	7200	4	servings
+restaurant-wars-steven-universe	Restaurant Wars inspired by Steven Universe	restaurant-wars-steven-universe	https://www.youtube.com/watch?v=J2eU4Ol3IDU	https://www.babi.sh/recipes/restaurant-wars-steven-universe	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695683/babishImages/undefined-956144.png	2020-10-14	3600	4	servings
+reversesearsteak	How To Reverse-Sear A Steak	reversesearsteak	https://www.youtube.com/watch?v=akO6D_tc0lo	https://www.babi.sh/recipes/reversesearsteak	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992080/orgwxidbhkpqwrhg9ogf.webp	2016-03-14	\N	\N	\N
+ribwich	Ribwich inspired by The Simpsons	ribwich	https://www.youtube.com/watch?v=Yj07347rEqo&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/Yj07347rEqo/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/ribwich	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695788/babishImages/undefined-724419.png	2019-03-12	6000	4	servings
+rick-and-morty-every-burger	The Every Burger - Inspired by Rick and Morty	rick-and-morty-every-burger	https://www.youtube.com/watch?v=2AXPSCQHiFY&t=76s	https://www.babi.sh/recipes/rick-and-morty-every-burger	https://res.cloudinary.com/dd27yihoo/image/upload/v1702316383/qmpaeofibbkukt7ee1ei.webp	2023-12-11	\N	\N	\N
+risotto	RISOTTO	risotto	https://www.youtube.com/watch?v=E_8wQsmjn0A	https://www.babi.sh/recipes/risotto	https://res.cloudinary.com/dd27yihoo/image/upload/v1686073166/jww6ccfcgiymlalk9tch.webp	2018-05-31	\N	4	servings
+risotto-tricolore-big-night	Risotto Tricolore inspired by Big Night	risotto-tricolore-big-night	https://www.youtube.com/watch?v=D8SgdOGIEyU	https://www.babi.sh/recipes/risotto-tricolore-big-night	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696293/babishImages/undefined-320043.png	2021-01-12	4800	3	servings
+roast-beef-inspired-by-attack-on-titan	Roast Beef inspired by Attack on Titan	roast-beef-inspired-by-attack-on-titan	https://www.youtube.com/watch?v=QXIqgNMQw2w&t=566s	https://www.babi.sh/recipes/roast-beef-inspired-by-attack-on-titan	https://res.cloudinary.com/dd27yihoo/image/upload/v1728311451/f3j7tmnzhcxabbmdo8dm.webp	2024-10-07	\N	5	servings
+roastbeast	Roast Beast inspired by How The Grinch Stole Christmas	roastbeast	https://www.youtube.com/watch?v=_szug5_YkD4&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/_szug5_YkD4/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/roastbeast	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695762/babishImages/undefined-631816.png	2018-12-18	8400	4	servings
+root-beer-noodles-the-simpsons	Root Beer Noodles inspired by The Simpsons	root-beer-noodles-the-simpsons	https://www.youtube.com/watch?v=TsvrUr-fmLw	https://www.babi.sh/recipes/root-beer-noodles-the-simpsons	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695530/babishImages/undefined-767883.png	2021-10-26	6000	\N	\N
+rumfrenchtoast	Rum French Toast inspired by Mad Men	rumfrenchtoast	https://www.youtube.com/watch?v=evzWEXpW1pM	https://www.babi.sh/recipes/rumfrenchtoast	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715512/babishImages/undefined-792513.png	2018-01-23	\N	\N	\N
+salad-nb7s3-3jkft	SALAD	salad-nb7s3-3jkft	https://www.youtube.com/watch?v=xHR8BCFv_JY	https://www.babi.sh/recipes/salad-nb7s3-3jkft	https://res.cloudinary.com/dd27yihoo/image/upload/v1686070795/ulipoajubm60ougfpy1j.webp	2018-09-06	1500	2	servings
+sandyfryesappetizers	Sandy Frye's Appetizers inspired by Bob's Burgers	sandyfryesappetizers	https://www.youtube.com/watch?v=3LXTGVN3ZOg&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/3LXTGVN3ZOg/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/sandyfryesappetizers	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696278/babishImages/undefined-199396.png	2019-01-29	5400	4	servings
+sanji's-seafood-risotto	Sanji's Seafood Risotto	sanji's-seafood-risotto	https://www.youtube.com/watch?v=JkSNx5psHtg	https://www.babi.sh/recipes/sanji's-seafood-risotto	https://res.cloudinary.com/dd27yihoo/image/upload/v1728002931/jjmwyvdjp37iy8ywajy6.webp	2024-10-04	7200	2	servings
+sauces	Sauces	sauces	https://www.youtube.com/watch?v=Upqp21Dm5vg	https://www.babi.sh/recipes/sauces	https://res.cloudinary.com/dd27yihoo/image/upload/v1728502460/dldepp5bjphehqdwsdyk.webp	2024-10-09	\N	4	servings
+sauces-9w5tm	STEAK	sauces-9w5tm	https://www.youtube.com/watch?v=PFDElc5sfSM	https://www.babi.sh/recipes/sauces-9w5tm	https://res.cloudinary.com/dd27yihoo/image/upload/v1686075988/qahtgobrlab7cpw7sarj.webp	2017-11-02	1800	4	servings
+sauces-9w5tm-2njph	PASTA	sauces-9w5tm-2njph	https://www.youtube.com/watch?v=HdSLKZ6LN94	https://www.babi.sh/recipes/sauces-9w5tm-2njph	https://res.cloudinary.com/dd27yihoo/image/upload/v1686075815/xiiopr2wacuvkikaxliv.webp	2017-11-17	2700	2	servings
+sauces-9w5tm-2njph-5ahwj	CHICKEN BREASTS	sauces-9w5tm-2njph-5ahwj	https://www.youtube.com/watch?v=hR6agVkRRUo	https://www.babi.sh/recipes/sauces-9w5tm-2njph-5ahwj	https://res.cloudinary.com/dd27yihoo/image/upload/v1686075367/f1r5yqjcoa9o38f0e7qg.webp	2017-12-07	1800	2	servings
+sauces-9w5tm-2njph-5ahwj-hsl7s	WHOLE CHICKEN	sauces-9w5tm-2njph-5ahwj-hsl7s	https://www.youtube.com/watch?v=ABtt5y-maO4	https://www.babi.sh/recipes/sauces-9w5tm-2njph-5ahwj-hsl7s	https://res.cloudinary.com/dd27yihoo/image/upload/v1686075140/hin6ldmwyg0f1gmglbdv.webp	2018-01-08	7200	6	servings
+sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr	STOCK & CHICKEN NOODLE SOUP	sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr	https://www.youtube.com/watch?v=74tZ-yOOPy0	https://www.babi.sh/recipes/sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr	https://res.cloudinary.com/dd27yihoo/image/upload/v1686075070/kjpphhsqqvtpdy3ahrvy.webp	2018-01-11	5400	\N	\N
+sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-6r8lw	PANTRY ESSENTIALS	sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-6r8lw	https://www.youtube.com/watch?v=NSi-MniOTqI&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/NSi-MniOTqI/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-6r8lw	https://res.cloudinary.com/dd27yihoo/image/upload/v1690415068/aomp0ue2x7eewpmfq3tt.webp	2018-01-25	\N	\N	\N
+sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-dfapr	PIZZA	sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-dfapr	https://www.youtube.com/watch?v=7cqYiUmutGI	https://www.babi.sh/recipes/sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-dfapr	https://res.cloudinary.com/dd27yihoo/image/upload/v1686074599/l9vpmxv36ticdaffckxr.webp	2018-02-08	8100	4	servings
+sausage-inspired-by-god-of-war	Sausage inspired by God of War	sausage-inspired-by-god-of-war	https://www.youtube.com/watch?v=1tU6R3ySgpE&t=4s	https://www.babi.sh/recipes/sausage-inspired-by-god-of-war	https://res.cloudinary.com/dd27yihoo/image/upload/v1758908643/hn5qmpoo3baybjk4ax2g.webp	2025-09-26	7200	1	sausage
+sausages-ragnarok	Sausages inspired by God of War: Ragnarok	sausages-ragnarok	https://www.youtube.com/watch?v=1tU6R3ySgpE	https://www.babi.sh/recipes/sausages-ragnarok	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695881/babishImages/undefined-223760.png	2022-12-12	6000	4	servings
+savory-cannoli-the-bear	Savory Cannoli inspired by The Bear	savory-cannoli-the-bear	https://www.youtube.com/watch?v=b4774h94RUk	https://www.babi.sh/recipes/savory-cannoli-the-bear	https://res.cloudinary.com/dd27yihoo/image/upload/v1690251002/xo5l2wuqetelqsjp8hqh.webp	2023-07-21	\N	\N	\N
+scallion-noodles-eeaao	Scallion Noodles inspired by Everything Everywhere All at Once	scallion-noodles-eeaao	https://www.youtube.com/watch?v=8cxaUv3OtcM	https://www.babi.sh/recipes/scallion-noodles-eeaao	https://res.cloudinary.com/dd27yihoo/image/upload/v1680589997/pspwvu6udkxcl4fqlfxh.webp	2023-03-18	\N	2	servings
+schweddy-balls-snl	Schweddy Balls inspired by Saturday Night Live	schweddy-balls-snl	https://www.youtube.com/watch?v=d3ISyzfTBAc	https://www.babi.sh/recipes/schweddy-balls-snl	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695657/babishImages/undefined-346637.png	2021-12-08	3600	6	servings
+seafood-paella-parks-and-rec	Seafood Paella inspired by Parks and Rec	seafood-paella-parks-and-rec	https://www.youtube.com/watch?v=ek5OogQFaAg	https://www.babi.sh/recipes/seafood-paella-parks-and-rec	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695231/babishImages/undefined-382673.png	2022-07-01	4800	4	servings
+seasalticecream	Sea Salt Ice Cream inspired by Kingdom Hearts	seasalticecream	https://www.youtube.com/watch?v=5fTd1aYzNHI&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/5fTd1aYzNHI/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/seasalticecream	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696363/babishImages/undefined-681883.png	2019-08-06	7200	4	servings
+seinfeldcalzone-z38zn	Calzones inspired by Seinfeld	seinfeldcalzone-z38zn	https://www.youtube.com/watch?v=zWuWrdaYMlY&quot;,&quot;height&quot;:480,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/zWuWrdaYMlY/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/seinfeldcalzone-z38zn	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695775/babishImages/undefined-739050.png	2019-11-22	1200	4	servings
+seinfeldspecial2	Seinfeld Volume II	seinfeldspecial2	https://www.youtube.com/watch?v=b5msQpny05I&amp;t=310s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/b5msQpny05I/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/seinfeldspecial2	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695995/babishImages/undefined-692086.png	2018-12-11	3600	4	servings
+seven-layer-salad-himym	Eriksen Seven Layer Salad inspired by How I Met Your Mother	seven-layer-salad-himym	https://www.youtube.com/watch?v=SFuiyGuhbQU	https://www.babi.sh/recipes/seven-layer-salad-himym	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696179/babishImages/undefined-525956.png	2022-02-17	2400	8	servings
+sf-style-vietnamese-spaghetti-with-clams	SF-Style Vietnamese Spaghetti with Clams	sf-style-vietnamese-spaghetti-with-clams	https://www.instagram.com/reel/C0cN_mRRsKC/?utm_source=ig_web_copy_link	https://www.babi.sh/recipes/sf-style-vietnamese-spaghetti-with-clams	https://res.cloudinary.com/dd27yihoo/image/upload/v1701664080/kto1etnwcxylvi1921nv.webp	2023-12-04	900	1	servings
+shakshuka	SHAKSHUKA	shakshuka	https://www.youtube.com/watch?v=SjCkW-oAFQ8	https://www.babi.sh/recipes/shakshuka	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715737/babishImages/undefined-636249.png	2020-06-11	2100	4	servings
+shawarma	Shawarma inspired by The Avengers	shawarma	https://www.youtube.com/watch?v=iErqWGwso7o	https://www.babi.sh/recipes/shawarma	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715721/babishImages/undefined-130965.png	2018-04-10	\N	\N	\N
+shepherdspie	SHEPHERD'S PIE	shepherdspie	https://www.youtube.com/watch?v=Uj8BC2kcp7A	https://www.babi.sh/recipes/shepherdspie	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715744/babishImages/undefined-552376.png	2020-03-12	7200	8	servings
+short-ribs	BRAISED SHORT RIBS	short-ribs	https://www.youtube.com/watch?v=DUTyGfwdBaY	https://www.babi.sh/recipes/short-ribs	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715478/babishImages/undefined-373512.png	2020-09-17	21600	6	servings
+shrimp-7-ways	Shrimp 7 Ways	shrimp-7-ways	https://www.youtube.com/watch?v=Uct0-gkfEsk&t=324s&ab_channel=BabishCulinaryUniverse	https://www.babi.sh/recipes/shrimp-7-ways	https://res.cloudinary.com/dd27yihoo/image/upload/v1741134166/kwu0dmfwjm9sr0h9zabd.webp	2025-03-05	1800	\N	\N
+shrimp-scampi	SHRIMP SCAMPI	shrimp-scampi	https://www.youtube.com/watch?v=3ELo1zykAGU	https://basicswithbabish.co/basicsepisodes/shrimp-scampi	https://img.youtube.com/vi/3ELo1zykAGU/mqdefault.jpg	2021-01-28	\N	\N	\N
+shrimp-scampi-basics	SHRIMP SCAMPI	shrimp-scampi-basics	https://www.youtube.com/watch?v=3ELo1zykAGU	https://www.babi.sh/recipes/shrimp-scampi-basics	https://res.cloudinary.com/dd27yihoo/image/upload/v1690484522/zjr8bsbzdipdeb62evtq.webp	2021-01-28	\N	2	servings
+skinnersstew	Skinner's Stew inspired by The Simpsons	skinnersstew	https://www.youtube.com/watch?v=y3PoXXoGVj0&amp;t=215s	https://www.babi.sh/recipes/skinnersstew	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715520/babishImages/undefined-104943.png	2018-01-09	\N	\N	\N
+sliders-three-ways	SLIDERS	sliders-three-ways	https://www.youtube.com/watch?v=NWcyBYljgkA	https://www.babi.sh/recipes/sliders-three-ways	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695931/babishImages/undefined-974725.png	2022-02-17	\N	12	sliders
+sloppy-joes-billy-madison	Sloppy Joes inspired by Billy Madison	sloppy-joes-billy-madison	https://www.youtube.com/watch?v=BsDkBaACINQ	https://www.babi.sh/recipes/sloppy-joes-billy-madison	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695189/babishImages/undefined-40874.png	2021-01-20	3600	5	servings
+sloppy-steaks-i-think-you-should-leave	Sloppy Steaks inspired by I Think You Should Leave with Tim Robinson	sloppy-steaks-i-think-you-should-leave	https://www.youtube.com/watch?v=EcGgDrS5Gto	https://www.babi.sh/recipes/sloppy-steaks-i-think-you-should-leave	https://res.cloudinary.com/dd27yihoo/image/upload/v1680365695/labv7khvacfo5ambnr83.webp	2021-07-30	6000	\N	\N
+smash-burgers	SMASH BURGERS	smash-burgers	https://www.youtube.com/watch?v=OsY85e9uIMw	https://www.babi.sh/recipes/smash-burgers	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696066/babishImages/undefined-456448.png	2021-09-03	3600	\N	\N
+smokedribs	GAS GRILL-SMOKED RIBS	smokedribs	https://www.youtube.com/watch?v=sX2fsvYkKF4	https://www.babi.sh/recipes/smokedribs	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715464/babishImages/undefined-127647.png	2020-05-21	20100	6	servings
+snl-overnight-salad	Overnight Salad inspired by Saturday Night Live	snl-overnight-salad	https://www.youtube.com/watch?v=Z5zEocd3u9w	https://www.babi.sh/recipes/snl-overnight-salad	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695645/babishImages/undefined-607760.png	2020-12-29	3600	4	servings
+souffle-pancakes-inspired-by-food-wars!	Soufflé Pancakes inspired by Food Wars!	souffle-pancakes-inspired-by-food-wars!	https://www.youtube.com/watch?v=kFr6GxEnOJQ	https://www.babi.sh/recipes/souffle-pancakes-inspired-by-food-wars!	https://res.cloudinary.com/dd27yihoo/image/upload/v1726512281/om7avimrgnuamxoytx13.webp	2024-09-16	\N	2	servings
+sourdough-bread	SOURDOUGH BREAD	sourdough-bread	https://www.youtube.com/watch?v=bSYdABrPrtM	https://www.babi.sh/recipes/sourdough-bread	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715713/babishImages/undefined-931551.png	2020-02-28	86400	2	loaves
+sourdough-broccoli-pizza-inside-out	Sourdough Broccoli Pizza inspired by Inside Out	sourdough-broccoli-pizza-inside-out	https://www.youtube.com/watch?v=8ti1quN-jKs	https://www.babi.sh/recipes/sourdough-broccoli-pizza-inside-out	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695520/babishImages/undefined-477624.png	2021-01-05	3600	5	servings
+sousvide-nb7s3	SOUS VIDE	sousvide-nb7s3	https://www.youtube.com/watch?v=NCHOyqMUj4o	https://www.babi.sh/recipes/sousvide-nb7s3	https://res.cloudinary.com/dd27yihoo/image/upload/v1686071530/zwnbawmwenc3gejgvqe9.webp	2018-09-06	3600	2	servings
+southparkspecial	South Park Special	southparkspecial	https://www.youtube.com/watch?v=KxPgrGdSHh8	https://www.babi.sh/recipes/southparkspecial	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992065/xwvykogtr2mlbbb1rhho.webp	2017-04-19	\N	\N	\N
+souvlaki	SOUVLAKI	souvlaki	https://www.youtube.com/watch?v=jeCk5e0YsF0	https://www.babi.sh/recipes/souvlaki	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695876/babishImages/undefined-636748.png	2022-07-07	5400	4	servings
+space-cake-high-maintenance	Chocolate Cardamom Space Cake inspired by High Maintenance	space-cake-high-maintenance	https://www.youtube.com/watch?v=tfn-LC254Hk	https://www.babi.sh/recipes/space-cake-high-maintenance	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696212/babishImages/undefined-120477.png	2021-04-22	7200	8	servings
+spaghetti-all'assassina-inspired-by-claudia-romeo	Spaghetti all'Assassina inspired by Claudia Romeo	spaghetti-all'assassina-inspired-by-claudia-romeo	https://www.youtube.com/watch?v=nif3ruAbUaY&ab_channel=BabishCulinaryUniverse	https://www.babi.sh/recipes/spaghetti-all'assassina-inspired-by-claudia-romeo	https://res.cloudinary.com/dd27yihoo/image/upload/v1749062828/f3fjxq7gfexxtsl1r7ve.webp	2025-06-04	\N	\N	\N
+spaghetti-carbonara-inspired-by-master-of-none	Spaghetti Carbonara inspired by Master of None	spaghetti-carbonara-inspired-by-master-of-none	https://www.youtube.com/watch?v=MbRm5s3i2ik	https://www.babi.sh/recipes/spaghetti-carbonara-inspired-by-master-of-none	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991778/lrhsidjswiraifrdr0mi.webp	2017-05-16	\N	6	servings
+spaghettitaco	Spaghetti Tacos inspired by iCarly	spaghettitaco	https://www.youtube.com/watch?v=teQmpOtjCjY&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/teQmpOtjCjY/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/spaghettitaco	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695525/babishImages/undefined-614650.png	2019-02-05	8400	4	servings
+spanakopita-galettes	Spanakopita Galettes	spanakopita-galettes		https://www.babi.sh/recipes/spanakopita-galettes	https://res.cloudinary.com/dd27yihoo/image/upload/v1712585301/u9s4zktm1yuigpjmlbbk.webp	2024-04-08	\N	\N	\N
+spanish-tortilla-with-leek	Spanish Tortilla with Leek	spanish-tortilla-with-leek	https://www.instagram.com/reel/C04LdEfL2wi/?igshid=N2ViNmM2MDRjNw==	https://www.babi.sh/recipes/spanish-tortilla-with-leek	https://res.cloudinary.com/dd27yihoo/image/upload/v1702659195/fmyaptezbc0ilfjuilhp.webp	2023-12-15	\N	\N	\N
+spiced-rum-tarte-tatin	Spiced Rum Tarte Tatin	spiced-rum-tarte-tatin	https://youtube.com/shorts/PJWEhK9VjpI?si=Ozjiqe5tEEi0Yw_w	https://www.babi.sh/recipes/spiced-rum-tarte-tatin	https://res.cloudinary.com/dd27yihoo/image/upload/v1743019371/j2nclgouqq4bjciflken.webp	2025-03-26	3000	4	servings
+spicy-rum-chicken-curry-inspired-by-super-smash-bros.	Spicy Rum Chicken Curry inspired by Super Smash Bros.	spicy-rum-chicken-curry-inspired-by-super-smash-bros.	https://www.youtube.com/watch?v=LFzKMgYpnfU&pp=ygUiYXJjYWRlIHdpdGggYWx2aW4gc3VwZXIgc21hc2ggYnJvcw%3D%3D	https://www.babi.sh/recipes/spicy-rum-chicken-curry-inspired-by-super-smash-bros.	https://res.cloudinary.com/dd27yihoo/image/upload/v1757023307/cehz14ecmygnkn3imc29.webp	2025-09-04	4500	5	servings
+spidermanbackpackrecipes	Backpack Recipes inspired by Marvel's Spider-Man	spidermanbackpackrecipes	https://www.youtube.com/watch?v=NlIiIv-XKhs&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/NlIiIv-XKhs/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/spidermanbackpackrecipes	https://res.cloudinary.com/dd27yihoo/image/upload/v1679081677/q8wg2mtuy1qpdwiq8n7c.webp	2018-10-09	6000	4	servings
+spiderverse-beef-patty	Jamaican Beef Patty - Inspired by Spider-Man: Across the Spider-Verse	spiderverse-beef-patty	https://www.youtube.com/watch?v=Yg6uZIpzHBI&pp=ygUGYmFiaXNo	https://www.babi.sh/recipes/spiderverse-beef-patty	https://res.cloudinary.com/dd27yihoo/image/upload/v1702402526/rtanhmhfoh4kpnfdqyp8.webp	2023-12-12	\N	6	servings
+spiedini-alla-romana	Spiedini alla Romana	spiedini-alla-romana	https://www.instagram.com/reel/C3iISLJMtiy/?igsh=OWozc202M2hzb3Uz	https://www.babi.sh/recipes/spiedini-alla-romana	https://res.cloudinary.com/dd27yihoo/image/upload/v1708359766/waqex7irqsbhouxortsg.webp	2024-02-19	\N	3	servings
+spinachpuffs	Spinach Puffs inspired by The Emperor's New Groove	spinachpuffs	https://www.youtube.com/watch?v=x5-QoCicNfI	https://www.babi.sh/recipes/spinachpuffs	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715538/babishImages/undefined-469060.png	2018-08-14	\N	\N	\N
+spongebob-and-patrick-ice-cream	Spongebob and Patrick Ice Cream	spongebob-and-patrick-ice-cream		https://www.babi.sh/recipes/spongebob-and-patrick-ice-cream	https://res.cloudinary.com/dd27yihoo/image/upload/v1723486657/zlm09ydcb1rlzi0a6yay.webp	2024-08-08	\N	\N	\N
+squash-and-beef-its-always-sunny-in-philadelphia	Squash and Beef inspired by It's Always Sunny in Philadelphia	squash-and-beef-its-always-sunny-in-philadelphia	https://www.youtube.com/watch?v=D2wxZjJl4ew	https://www.babi.sh/recipes/squash-and-beef-its-always-sunny-in-philadelphia	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696072/babishImages/undefined-279701.png	2021-12-03	10800	4	servings
+squid-ink-ravioli-inspired-by-stardew-valley	Squid Ink Ravioli inspired by Stardew Valley	squid-ink-ravioli-inspired-by-stardew-valley	https://www.youtube.com/watch?v=eCnBX0GlRbA&pp=0gcJCfwAo7VqN5tD	https://www.babi.sh/recipes/squid-ink-ravioli-inspired-by-stardew-valley	https://res.cloudinary.com/dd27yihoo/image/upload/v1754934516/famzr7vrmy18p8qzwvbt.webp	2025-08-11	3600	\N	\N
+squidinkpasta	Squid Ink Pasta inspired by JoJo's Bizarre Adventure	squidinkpasta	https://www.youtube.com/watch?v=rPdln-PUZuE&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/rPdln-PUZuE/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/squidinkpasta	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695291/babishImages/undefined-896813.png	2019-07-31	6000	4	servings
+steak	Steak	steak	https://www.youtube.com/watch?v=peAbYlvP6rU	https://www.babi.sh/recipes/steak	https://res.cloudinary.com/dd27yihoo/image/upload/v1759667611/ivsyx6hgxw8cwudn9brl.webp	2025-10-03	5400	\N	\N
+steak-au-poivre	Steak au Poivre inspired by Archer	steak-au-poivre	https://www.youtube.com/watch?v=tCJ_VV0FEZM&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/tCJ_VV0FEZM/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/steak-au-poivre	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696147/babishImages/undefined-20273.png	2019-02-12	6000	4	servings
+steak-eggs-gravy-twister	Steak, Eggs and Gravy inspired by Twister	steak-eggs-gravy-twister	https://www.youtube.com/watch?v=ztl0gGVFoK0	https://www.babi.sh/recipes/steak-eggs-gravy-twister	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696341/babishImages/undefined-791832.png	2020-12-08	8400	2	servings
+steak-pinwheels	STEAK PINWHEELS	steak-pinwheels	https://www.youtube.com/watch?v=02NINX8OD-A	https://www.babi.sh/recipes/steak-pinwheels	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695595/babishImages/undefined-64926.jpg	2021-05-20	3600	6	servings
+steakhouse-burgers	STEAKHOUSE BURGER	steakhouse-burgers	https://www.youtube.com/watch?v=9c_Tn4dnGIU	https://www.babi.sh/recipes/steakhouse-burgers	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695472/babishImages/undefined-381863.png	2021-07-26	7200	4	servings
+sticky-buns	STICKY BUNS	sticky-buns	https://www.youtube.com/watch?v=PAnreKf_9BE	https://www.babi.sh/recipes/sticky-buns	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715517/babishImages/undefined-795041.png	2020-12-04	3600	8	servings
+sticky-toffee-coffee-cake	Sticky Toffee Coffee Cake	sticky-toffee-coffee-cake		https://www.babi.sh/recipes/sticky-toffee-coffee-cake	https://res.cloudinary.com/dd27yihoo/image/upload/v1709570171/xjqpucc2ifxmsrkyzcao.webp	2024-03-04	\N	8	servings
+stollen	STOLLEN (GERMAN HOLIDAY BREAD)	stollen	https://www.youtube.com/watch?v=25Od-bcv6vM	https://www.babi.sh/recipes/stollen	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715445/babishImages/undefined-35277.png	2020-12-18	\N	2	servings
+strata-family-stone	Strata inspired by Family Stone	strata-family-stone	https://www.youtube.com/watch?v=MIgykdiVPZk	https://www.babi.sh/recipes/strata-family-stone	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695837/babishImages/undefined-822131.png	2021-12-22	4800	6	servings
+strawberry-shortcake-inspired-by-death-note	Strawberry Shortcake inspired by Death Note	strawberry-shortcake-inspired-by-death-note	https://www.youtube.com/watch?v=i00Wqb_bh5E	https://www.babi.sh/recipes/strawberry-shortcake-inspired-by-death-note	https://res.cloudinary.com/dd27yihoo/image/upload/v1726078919/egha5r0yit5dsgpsewga.webp	2024-09-11	\N	\N	\N
+struggle-meals	Struggle Meals	struggle-meals	https://www.youtube.com/watch?v=zcmWj6kjHfg	https://www.babi.sh/recipes/struggle-meals	https://res.cloudinary.com/dd27yihoo/image/upload/v1756493239/se65a7tbbtq3evdm2lz8.webp	2025-08-29	2700	\N	\N
+sugar-chicken-rick-and-morty	Sugar Chicken inspired by Rick & Morty	sugar-chicken-rick-and-morty	https://www.youtube.com/watch?v=8iCWUvHMPxQ	https://www.babi.sh/recipes/sugar-chicken-rick-and-morty	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696312/babishImages/undefined-998348.png	2021-02-23	4800	4	servings
+sumbitches	Sumbitches and Peanut Butter Cookies inspired by How I Met Your Mother	sumbitches	https://www.youtube.com/watch?v=i9MMCCd-MSI&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/i9MMCCd-MSI/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/sumbitches	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695338/babishImages/undefined-311604.png	2019-09-04	1200	4	servings
+sundae-spongebob	Bad Breath Sundae inspired by SpongeBob Squarepants	sundae-spongebob	https://www.youtube.com/watch?v=Ya2_Khcdwsk	https://www.babi.sh/recipes/sundae-spongebob	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696021/babishImages/undefined-630114.png	2020-07-21	2400	4	servings
+super-bowl-snacks-for-the-win-or-with-babish	Super Bowl Snacks for the Win | With Babish	super-bowl-snacks-for-the-win-or-with-babish	https://youtube.com/watch?v=YIf161LjodE	https://www.babi.sh/recipes/super-bowl-snacks-for-the-win-or-with-babish	https://res.cloudinary.com/dd27yihoo/image/upload/v1770071325/fy1ppzw7ndz0jh29hkmh.webp	2026-02-02	10800	\N	\N
+super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations	Super Hot N’ Spicy Burger inspired by Boruto: Naruto Next Generations	super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations	https://www.youtube.com/watch?v=WHRob85NXP0	https://www.babi.sh/recipes/super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations	https://res.cloudinary.com/dd27yihoo/image/upload/v1757083697/faonnzkt2wxxoa45fkae.webp	2025-09-05	14400	4	servings
+super-stretchy-nachos	Super Stretchy Nachos	super-stretchy-nachos	https://res.cloudinary.com/dd27yihoo/video/upload/v1737419518/kkfygv9xcv1ni1ppnjtw.mp4	https://www.babi.sh/recipes/super-stretchy-nachos	https://res.cloudinary.com/dd27yihoo/image/upload/v1737419521/h0aceafuundktzre2o1o.webp	2025-01-21	1800	4	servings
+swedish-meatballs	SWEDISH MEATBALLS	swedish-meatballs	https://www.youtube.com/watch?v=bTUUNZFOflw	https://www.babi.sh/recipes/swedish-meatballs	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695205/babishImages/undefined-424523.png	2021-10-08	3600	\N	\N
+sweet-and-savory-babka	BABKA	sweet-and-savory-babka	https://www.youtube.com/watch?v=PHheRDVn3e8	https://www.babi.sh/recipes/sweet-and-savory-babka	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695584/babishImages/undefined-67986.png	2022-02-09	5400	2	babka loaves
+sweet-potato-casserole-friends	Sweet Potato Casserole inspired by Friends	sweet-potato-casserole-friends	https://www.youtube.com/watch?v=yr6ts2AH04g	https://www.babi.sh/recipes/sweet-potato-casserole-friends	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695844/babishImages/undefined-200135.png	2021-11-16	3600	6	servings
+sweetrolls-skyrim	Sweetrolls inspired by Skyrim	sweetrolls-skyrim	https://www.youtube.com/watch?v=98R3fgPKmYs	https://www.babi.sh/recipes/sweetrolls-skyrim	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695689/babishImages/undefined-979539.png	2020-06-18	7200	4	servings
+szechuansauce	Rick & Morty Szechuan Sauce	szechuansauce	https://www.youtube.com/watch?v=wBhhlE92mIQ	https://www.babi.sh/recipes/szechuansauce	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992071/w9ssivutxmhyd3qxqme8.webp	2017-04-04	\N	\N	\N
+szechuansaucerevisited	Szechuan Sauce Revisited (From Real Sample!)	szechuansaucerevisited	https://www.youtube.com/watch?v=lhc_bXGvmp0	https://www.babi.sh/recipes/szechuansaucerevisited	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715749/babishImages/undefined-396765.png	2017-09-12	\N	\N	\N
+taco-town	Taco Town 15-Flavor Taco inspired by SNL	taco-town	https://www.youtube.com/watch?v=UvIkojfQDxA	https://www.babi.sh/recipes/taco-town	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992042/xrj6hxvmyuhqsouk4sfj.webp	2017-07-18	\N	\N	\N
+tacos	TACOS	tacos	https://www.youtube.com/watch?v=Zghe7SNmhOs	https://www.babi.sh/recipes/tacos	https://res.cloudinary.com/dd27yihoo/image/upload/v1686071790/nbmjxmjwzivsbi04hyjr.webp	2018-08-23	2700	4	servings
+takoyaki	Takoyaki inspired by Kill la Kill	takoyaki	https://www.youtube.com/watch?v=eD5C8ryTd1A&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/eD5C8ryTd1A/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/takoyaki	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695489/babishImages/undefined-770547.png	2018-10-30	7200	4	servings
+tamales	TAMALES	tamales	https://www.youtube.com/watch?v=r9IO8KCN_Rw	https://www.babi.sh/recipes/tamales	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695574/babishImages/undefined-338339.png	2022-01-04	14400	12	servings
+tamalesfromcoco	Tamales inspired by Coco	tamalesfromcoco	https://www.youtube.com/watch?v=akA_Z9Xmnvc	https://www.babi.sh/recipes/tamalesfromcoco	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715485/babishImages/undefined-770777.png	2018-02-27	\N	\N	\N
+tampoporamen	Tampopo Ramen	tampoporamen	https://www.youtube.com/watch?v=GXDQOSbcmv4	https://www.babi.sh/recipes/tampoporamen	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992061/ccr1etzxylurvtxgqoax.webp	2017-04-11	\N	\N	\N
+tater-tots-breaking-bad	Tater Tots inspired by Breaking Bad	tater-tots-breaking-bad	https://www.youtube.com/watch?v=2PaeU_ABK94	https://www.babi.sh/recipes/tater-tots-breaking-bad	https://res.cloudinary.com/dd27yihoo/image/upload/v1680385570/tslhiithrddekp7evkzn.webp	2023-02-22	5400	4	servings
+teamstersandwich	Teamster Sandwich inspired by 30 Rock	teamstersandwich	https://www.youtube.com/watch?v=tmUximhgYnI	https://www.babi.sh/recipes/teamstersandwich	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715710/babishImages/undefined-59499.png	2018-07-31	\N	\N	\N
+teddybrulee	Teddy Brûlée inspired by Bob's Burgers	teddybrulee	https://www.youtube.com/watch?v=6pXjR0JyV0s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/6pXjR0JyV0s/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/teddybrulee	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695386/babishImages/undefined-125645.png	2019-05-14	4800	4	servings
+tex-mex-enchiladas	TEX-MEX ENCHILADAS	tex-mex-enchiladas	https://www.youtube.com/watch?v=RcOAtrUdwmU	https://www.babi.sh/recipes/tex-mex-enchiladas	https://res.cloudinary.com/dd27yihoo/image/upload/v1695143386/sjetfjbraoyuxq6svuat.webp	2023-08-31	\N	5	servings
+thanksgiving-balls-psych	Thanksgiving Balls inspired by Psych	thanksgiving-balls-psych	https://www.youtube.com/watch?v=bpvD4UKuv5Q	https://www.babi.sh/recipes/thanksgiving-balls-psych	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695819/babishImages/undefined-64619.png	2022-12-05	8400	4	servings
+thanksgiving-stuffings	STUFFING	thanksgiving-stuffings	https://www.youtube.com/watch?v=vuxomVkJkcY	https://www.babi.sh/recipes/thanksgiving-stuffings	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696358/babishImages/undefined-373797.png	2022-12-05	5400	10	servings
+thanksgivingleftovers	THANKSGIVING LEFTOVERS	thanksgivingleftovers	https://www.youtube.com/watch?v=iTZIm0-PuUw	https://www.babi.sh/recipes/thanksgivingleftovers	https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1574795852763-5Z8H1SGEU7OKEFYO0IGP/Thanksgiving+Leftovers_v1_1.png	2019-11-28	2700	2	servings
+thanksgivingsides	THANKSGIVING SIDES	thanksgivingsides	https://www.youtube.com/watch?v=8hpD5strtzM	https://www.babi.sh/recipes/thanksgivingsides	https://res.cloudinary.com/dd27yihoo/image/upload/v1686009527/c2ftednohr4zfyusbs9u.webp	2018-11-15	9000	8	servings
+the-best-barbecue-chicken	The Best Barbecue Chicken	the-best-barbecue-chicken	https://www.youtube.com/watch?v=gfX1FYUc9-4	https://www.babi.sh/recipes/the-best-barbecue-chicken	https://res.cloudinary.com/dd27yihoo/image/upload/v1718392639/silwdiyz3vlkhcbwivhh.webp	2024-06-14	\N	10	servings
+the-coagulator-inspired-by-the-simpsons	The Coagulator inspired by The Simpsons	the-coagulator-inspired-by-the-simpsons	https://www.youtube.com/watch?v=FT-E7kA6S3o&pp=ygUhYmluZ2luIHdpdGggYmFiaXNoIHRoZSBjb2FndWxhdG9y	https://www.babi.sh/recipes/the-coagulator-inspired-by-the-simpsons	https://res.cloudinary.com/dd27yihoo/image/upload/v1749501911/txbbk4plctdewqsf8yvf.webp	2025-06-09	\N	\N	\N
+the-egg-bar-inspired-by-severance	The Egg Bar inspired by Severance	the-egg-bar-inspired-by-severance	https://www.youtube.com/watch?v=pTt4BjY34gk&t=151s&ab_channel=BabishCulinaryUniverse	https://www.babi.sh/recipes/the-egg-bar-inspired-by-severance	https://res.cloudinary.com/dd27yihoo/image/upload/v1738792005/emlcx8fw10frbl32t7lq.webp	2025-02-05	5400	4	servings
+the-liz-lemon-30-rock	The Liz Lemon inspired by 30 Rock	the-liz-lemon-30-rock	https://www.youtube.com/watch?v=XBUq8q1Vwls	https://www.babi.sh/recipes/the-liz-lemon-30-rock	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695283/babishImages/undefined-337740.png	2020-11-11	3600	4	servings
+the-naco	The Naco inspired by Kim Possible	the-naco	https://www.youtube.com/watch?v=hf5cl-AGYbg&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/hf5cl-AGYbg/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/the-naco	https://res.cloudinary.com/dd27yihoo/image/upload/v1679074597/epe5hrkmkss3lkh7c5n0.webp	2018-10-02	4800	4	servings
+the-perfect-bite	The Perfect Bite (and Duck Carbonara) inspired by YOU	the-perfect-bite	https://www.youtube.com/watch?v=7vTxUYBD0Nk	https://www.babi.sh/recipes/the-perfect-bite	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696015/babishImages/undefined-499943.png	2020-02-12	4800	4	servings
+the-sims-special	The Sims Special	the-sims-special	https://www.youtube.com/watch?v=z4Bwb8_k7yM	https://www.babi.sh/recipes/the-sims-special	https://res.cloudinary.com/dd27yihoo/image/upload/v1680347083/v6pyttpnbczp1opgeaug.webp	2021-07-26	9000	\N	\N
+the-ultimate-marry-me-meals	The Ultimate Marry-Me Meals	the-ultimate-marry-me-meals	https://www.youtube.com/watch?v=TggSdedcLJo	https://www.babi.sh/recipes/the-ultimate-marry-me-meals	https://res.cloudinary.com/dd27yihoo/image/upload/v1767735831/qh0bt5mllxrxbi4kvgsb.webp	2026-01-06	3000	3	servings
+the-ultimate-steak-sandwich	The Ultimate Steak Sandwich	the-ultimate-steak-sandwich	https://www.youtube.com/watch?v=oHEYV2rHu1Y&t=24s&ab_channel=BabishCulinaryUniverse	https://www.babi.sh/recipes/the-ultimate-steak-sandwich	https://res.cloudinary.com/dd27yihoo/image/upload/v1750701480/jlorutwp35q6pflkibej.webp	2025-06-23	7200	\N	\N
+thegodfathercannolis	Cannolis inspired by The Godfather	thegodfathercannolis	https://www.youtube.com/watch?v=44fjX-rgJ7s	https://www.babi.sh/recipes/thegodfathercannolis	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715714/babishImages/undefined-191977.png	2018-06-05	\N	\N	\N
+thegoodplace	The Good Place Special	thegoodplace	https://www.youtube.com/watch?v=f428glyXdY4	https://www.babi.sh/recipes/thegoodplace	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715475/babishImages/undefined-460532.png	2019-05-21	\N	\N	\N
+thegreystuff	The Grey Stuff; and other Hors d’Oeuvres inspired by Beauty and the Beast	thegreystuff	https://www.youtube.com/watch?v=0TvBiF9S89Q&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/0TvBiF9S89Q/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/thegreystuff	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696049/babishImages/undefined-88357.png	2019-01-03	3600	4	servings
+thesloppyjessica	The Sloppy Jessica inspired by Brooklyn Nine-Nine	thesloppyjessica	https://www.youtube.com/watch?v=KKoOIyhJwA4	https://www.babi.sh/recipes/thesloppyjessica	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715724/babishImages/undefined-34975.png	2018-05-01	\N	\N	\N
+theswanson	The Swanson inspired by Parks and Recreation	theswanson	https://www.youtube.com/watch?v=aLpPZlVsny0&ab_channel=BabishCulinaryUniverse	https://www.babi.sh/recipes/theswanson	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696306/babishImages/undefined-957001.png	2019-03-26	7200	4	servings
+thewirespecial	The Wire Special	thewirespecial	https://www.youtube.com/watch?v=mnT4MDdEazs	https://www.babi.sh/recipes/thewirespecial	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715466/babishImages/undefined-143983.png	2017-12-26	\N	\N	\N
+tiramisu	Tiramisu inspired by Superbad	tiramisu	https://www.youtube.com/watch?v=J719grjgS-I&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/J719grjgS-I/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/tiramisu	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696261/babishImages/undefined-514948.png	2019-11-12	3600	4	servings
+tiramisu-basics	TIRAMISU	tiramisu-basics	https://www.youtube.com/watch?v=C__032Z_m8g	https://www.babi.sh/recipes/tiramisu-basics	https://res.cloudinary.com/dd27yihoo/image/upload/v1690484085/n3dbplfdh2f6jhv9eqdo.webp	2022-12-05	\N	\N	\N
+together-breakfast-steven-universe	Together Breakfast inspired by Steven Universe	together-breakfast-steven-universe	https://www.youtube.com/watch?v=H1xBwVgKJe8	https://www.babi.sh/recipes/together-breakfast-steven-universe	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695504/babishImages/undefined-525295.png	2021-03-24	7200	2	servings
+tom-cruise-coconut-cake-inspired-by-hacks	Tom Cruise Coconut Cake inspired by Hacks	tom-cruise-coconut-cake-inspired-by-hacks		https://www.babi.sh/recipes/tom-cruise-coconut-cake-inspired-by-hacks	https://res.cloudinary.com/dd27yihoo/image/upload/v1724859705/ijpvshqkoitufajrejms.webp	2024-08-28	\N	12	servings
+tom-yum-tomato-cream-pasta	Tom Yum Tomato Cream Pasta	tom-yum-tomato-cream-pasta	https://youtube.com/shorts/0-okOZlKgG4?si=ptkEOGcgdLBIewVz	https://www.babi.sh/recipes/tom-yum-tomato-cream-pasta	https://res.cloudinary.com/dd27yihoo/image/upload/v1743098034/rqr3hz2uawqjlkzuatkv.webp	2025-03-27	1800	2	servings
+tomate-du-saltambique-inspired-by-the-west-wing	Tomate du Saltambique inspired by The West Wing	tomate-du-saltambique-inspired-by-the-west-wing	https://www.youtube.com/watch?v=6uIK3o32hig	https://www.babi.sh/recipes/tomate-du-saltambique-inspired-by-the-west-wing	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992059/vemb1hknhmisrccccq48.webp	2017-06-20	\N	\N	\N
+tomato-confit-(ricotta-toast-simple-salad-pasta-with-calabrian-chili)	Tomato Confit (+Ricotta Toast, Simple Salad, Pasta with Calabrian Chili)	tomato-confit-(ricotta-toast-simple-salad-pasta-with-calabrian-chili)		https://www.babi.sh/recipes/tomato-confit-(ricotta-toast-simple-salad-pasta-with-calabrian-chili)	https://res.cloudinary.com/dd27yihoo/image/upload/v1710770510/rd2vg54fwhgtyaatu7s0.webp	2024-03-18	\N	\N	\N
+tonkotsuramen	TONKOTSU RAMEN	tonkotsuramen	https://www.youtube.com/watch?v=jFM_rJ5MtYk	https://www.babi.sh/recipes/tonkotsuramen	https://res.cloudinary.com/dd27yihoo/image/upload/v1686070741/rtjwisrvi7ct1rzfesxk.webp	2018-10-04	5400	2	servings
+tortilla-sombero-despicable-me-2	Tortilla Sombrero inspired by Despicable Me 2	tortilla-sombero-despicable-me-2	https://www.youtube.com/watch?v=D_Y18GEjfNY	https://www.babi.sh/recipes/tortilla-sombero-despicable-me-2	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695255/babishImages/undefined-160946.png	2021-05-05	8400	4	servings
+transforming-furikake-gohan-inspired-by-food-wars!	Transforming Furikake Gohan inspired by Food Wars!	transforming-furikake-gohan-inspired-by-food-wars!	https://www.youtube.com/watch?v=LcMYQtVchPA	https://www.babi.sh/recipes/transforming-furikake-gohan-inspired-by-food-wars!	https://res.cloudinary.com/dd27yihoo/image/upload/v1724877203/bcpv95p0gnazhatj7qqv.webp	2024-08-26	\N	1	servings
+trenette-el-pesto-luca	Trenette al Pesto inspired by Luca	trenette-el-pesto-luca	https://www.youtube.com/watch?v=bWX0-NEjyNQ	https://www.babi.sh/recipes/trenette-el-pesto-luca	https://res.cloudinary.com/dd27yihoo/image/upload/v1676602611/hswohxek22jxiu83zhq6.webp	2021-07-07	6000	2	servings
+treslechescake	TRES LECHES CAKE	treslechescake	https://www.youtube.com/watch?v=iIDXc6xZ0X8	https://www.babi.sh/recipes/treslechescake	https://res.cloudinary.com/dd27yihoo/image/upload/v1685823768/wwoscsm601tn6ya0sbjd.webp	2019-07-08	5400	2	one layer cakes
+triple-deluxe-dog-hot-dog-detective	Triple Deluxe Dog inspired by Hot Dog Detective	triple-deluxe-dog-hot-dog-detective	https://www.youtube.com/watch?v=FTWrSPJbhpQ	https://www.babi.sh/recipes/triple-deluxe-dog-hot-dog-detective	https://res.cloudinary.com/dd27yihoo/image/upload/v1695141157/gjo2fyopc9prtgikyygf.webp	2023-08-31	\N	\N	\N
+triple-gooberberry-sunrise-spongebob-squarespace	Triple Gooberberry Sunrise inspired by Spongebob Squarepants	triple-gooberberry-sunrise-spongebob-squarespace	https://www.youtube.com/watch?v=Gso2WrBcV2Q	https://www.babi.sh/recipes/triple-gooberberry-sunrise-spongebob-squarespace	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696028/babishImages/undefined-792065.png	2020-09-22	6000	4	servings
+tripledeckereggo	Triple-Decker Eggo Extravaganza inspired by Stranger Things	tripledeckereggo	https://www.youtube.com/watch?v=L1kgO1I9NvQ	https://www.babi.sh/recipes/tripledeckereggo	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715712/babishImages/undefined-511337.png	2017-11-07	\N	\N	\N
+trollhunters-meatloaf-sandwich	Meatloaf Sandwich inspired by Trollhunters: Tales of Arcadia	trollhunters-meatloaf-sandwich	https://www.youtube.com/watch?v=7SpXCwU5AiI	https://www.babi.sh/recipes/trollhunters-meatloaf-sandwich	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695484/babishImages/undefined-91328.png	2021-07-20	6000	3	servings
+troyscasserole-community	Troy's Casserole inspired by Community	troyscasserole-community	https://www.youtube.com/watch?v=mGZcg6A6FTg	https://www.babi.sh/recipes/troyscasserole-community	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695766/babishImages/undefined-724822.png	2020-05-20	8400	4	servings
+truffle-pasta-broad-city	Truffle Pasta inspired by Broad City	truffle-pasta-broad-city	https://www.youtube.com/watch?v=7vsW0Ut4gCo	https://www.babi.sh/recipes/truffle-pasta-broad-city	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695831/babishImages/undefined-894743.png	2021-05-26	7200	2	servings
+turf-n-turf	Turf n' Turf inspired by Parks and Rec	turf-n-turf	https://www.youtube.com/watch?v=peLPVIGFaz0	https://www.babi.sh/recipes/turf-n-turf	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696299/babishImages/undefined-934733.png	2020-03-11	8400	4	servings
+turkey-5-ways	TURKEY: 5-WAYS	turkey-5-ways	https://www.youtube.com/watch?v=dWlStZlu6bY	https://www.babi.sh/recipes/turkey-5-ways	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695990/babishImages/undefined-315923.png	2021-11-30	4800	\N	\N
+turkey-and-caviar-inspired-by-star-trek:-the-next-generation	Turkey & Caviar inspired by Star Trek: The Next Generation	turkey-and-caviar-inspired-by-star-trek:-the-next-generation	https://www.youtube.com/watch?v=zI9a0WmfMN8	https://www.babi.sh/recipes/turkey-and-caviar-inspired-by-star-trek:-the-next-generation	https://res.cloudinary.com/dd27yihoo/image/upload/v1759944422/trwta1zax2jy5onpriuf.webp	2025-10-08	7200	4	servings
+turturkeykey	Turturkeykey inspired by How I Met Your Mother	turturkeykey	https://www.youtube.com/watch?v=FWQKc6idm64&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/FWQKc6idm64/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/turturkeykey	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695980/babishImages/undefined-193679.png	2019-11-26	7200	4	servings
+twinkie-weiner-sandwich	Twinkie Weiner Sandwich inspired by Weird Al's UHF	twinkie-weiner-sandwich	https://www.youtube.com/watch?v=jKslWoZXvn0	https://www.babi.sh/recipes/twinkie-weiner-sandwich	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696374/babishImages/undefined-202701.png	2020-06-24	2400	4	servings
+tylers-bull-the-menu	Tyler's Bullsh*t inspired by The Menu	tylers-bull-the-menu	https://www.youtube.com/watch?v=WAuY3FJaJak	https://www.babi.sh/recipes/tylers-bull-the-menu	https://res.cloudinary.com/dd27yihoo/image/upload/v1687964874/trtyvkekxwwgyu9fgqwi.webp	2023-05-12	\N	\N	\N
+uberollcake	Ube Roll inspired by Steven Universe	uberollcake	https://www.youtube.com/watch?v=cYRG5rkmr-s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/cYRG5rkmr-s/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/uberollcake	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695825/babishImages/undefined-629864.png	2019-06-25	6000	4	servings
+ultimate-cookie	THE ULTIMATE COOKIE	ultimate-cookie	https://www.youtube.com/watch?v=jICNW-T11bM	https://www.babi.sh/recipes/ultimate-cookie	https://res.cloudinary.com/dd27yihoo/image/upload/v1690352894/y2tduhhlrvorag9w7l3e.webp	2023-04-03	\N	24	servings
+ultimate-french-toast-or-with-babish	Ultimate French Toast | With Babish	ultimate-french-toast-or-with-babish	https://www.youtube.com/watch?v=t0nTt7Dm5Og&pp=ygUhYmluZ2luZyB3aXRoIGJhYmlzaCBmcmVuY2ggdG9hc2R0	https://www.babi.sh/recipes/ultimate-french-toast-or-with-babish	https://res.cloudinary.com/dd27yihoo/image/upload/v1769735233/hleoccmfkh4lbwvu6gzz.webp	2026-01-30	259200	\N	\N
+ultimate-pot-roast-or-with-babish	Ultimate Pot Roast | With Babish	ultimate-pot-roast-or-with-babish	https://www.youtube.com/watch?v=5_7pC4K-Y1g	https://www.babi.sh/recipes/ultimate-pot-roast-or-with-babish	https://res.cloudinary.com/dd27yihoo/image/upload/v1768506428/gryanukvd2zeutfh9ibh.webp	2026-01-15	172800	\N	\N
+ultimeatum	The Ultimeatum inspired by Regular Show	ultimeatum	https://www.youtube.com/watch?v=S7eUmZ4Sp3U	https://www.babi.sh/recipes/ultimeatum	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715472/babishImages/undefined-404565.png	2017-08-29	\N	\N	\N
+underwear-bread-inspired-by-asteroid-in-love	Underwear Bread inspired by Asteroid in Love	underwear-bread-inspired-by-asteroid-in-love	https://www.youtube.com/watch?v=oJ8bRhyJLkk	https://www.babi.sh/recipes/underwear-bread-inspired-by-asteroid-in-love	https://res.cloudinary.com/dd27yihoo/image/upload/v1727990174/bjmr9jr71u86cjijgouk.webp	2024-10-03	\N	3	servings
+vodka-pasta	VODKA PASTA	vodka-pasta	https://www.youtube.com/watch?v=VYDvTNToe3M	https://www.babi.sh/recipes/vodka-pasta	https://res.cloudinary.com/dd27yihoo/image/upload/v1690352611/ymqv7knnlfkyzfjyrgnt.webp	2023-06-15	\N	3	servings
+wasabi-buffalo-wings-the-simpsons	Wasabi Buffalo Wings inspired by The Simpsons	wasabi-buffalo-wings-the-simpsons	https://www.youtube.com/watch?v=ApHZyGZgbvA	https://www.babi.sh/recipes/wasabi-buffalo-wings-the-simpsons	https://res.cloudinary.com/dd27yihoo/image/upload/v1681696217/babishImages/undefined-743945.png	2022-09-28	3600	4	servings
+water-tribe-noodles-inspired-by-the-legend-of-korra	Water Tribe Noodles inspired by The Legend of Korra	water-tribe-noodles-inspired-by-the-legend-of-korra	https://www.youtube.com/watch?v=P98ZbqpKPl8	https://www.babi.sh/recipes/water-tribe-noodles-inspired-by-the-legend-of-korra	https://res.cloudinary.com/dd27yihoo/image/upload/v1754944831/dypiv0ern3sylt2gqpv1.webp	2025-08-11	5400	2	servings
+weeknightmeals-ahmph	WEEKNIGHT MEALS	weeknightmeals-ahmph	https://www.youtube.com/watch?v=zQm9Bk2bA_Q	https://www.babi.sh/recipes/weeknightmeals-ahmph	https://res.cloudinary.com/dd27yihoo/image/upload/v1686010430/fi08x0zu6bdk1v3akgws.webp	2018-10-18	2700	2	servings
+whimsical-parfait-inspired-by-darker-than-black	Whimsical Parfait inspired by Darker than Black	whimsical-parfait-inspired-by-darker-than-black	https://www.youtube.com/watch?v=GHwZqJYYB80	https://www.babi.sh/recipes/whimsical-parfait-inspired-by-darker-than-black	https://res.cloudinary.com/dd27yihoo/image/upload/v1727903480/ek6bh07lnnblfomgfhdy.webp	2024-10-02	\N	6	servings
+whitecastlesliders	White Castle Sliders inspired by Harold & Kumar	whitecastlesliders	https://www.youtube.com/watch?v=pTk9HnIwEYU&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/pTk9HnIwEYU/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/whitecastlesliders	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695569/babishImages/undefined-753536.png	2019-08-13	8400	4	servings
+wholeporkloin	WHOLE PORK LOIN	wholeporkloin	https://www.youtube.com/watch?v=AgFaljoriYA	https://www.babi.sh/recipes/wholeporkloin	https://res.cloudinary.com/dd27yihoo/image/upload/v1686069746/jcngjwylwb9gpujopn0z.webp	2018-10-11	5400	6	servings
+wild-mushroom-soup-inspired-by-seinfeld	Wild Mushroom Soup inspired by Seinfeld	wild-mushroom-soup-inspired-by-seinfeld	https://www.youtube.com/watch?v=pw2A03Z91FI	https://www.babi.sh/recipes/wild-mushroom-soup-inspired-by-seinfeld	https://res.cloudinary.com/dd27yihoo/image/upload/v1689992085/c368zfmo78xypowiud1f.webp	2017-05-09	\N	\N	\N
+willy-wonka-edible-teacup	Edible Flower Teacup	willy-wonka-edible-teacup	https://www.youtube.com/watch?v=JYg2PaKFMro	https://www.babi.sh/recipes/willy-wonka-edible-teacup	https://res.cloudinary.com/dd27yihoo/image/upload/v1703263485/mzpikx1bouaiciq82mv2.webp	2023-12-22	\N	\N	\N
+wings	WINGS	wings	https://www.youtube.com/watch?v=mXtKxjyfRFU	https://www.babi.sh/recipes/wings	https://res.cloudinary.com/dd27yihoo/image/upload/v1690352392/kfj7peybgqxukvxts1ot.webp	2023-07-10	\N	\N	\N
+worldsgreatestsandwich	World's Greatest Sandwich from Spanglish	worldsgreatestsandwich	https://www.youtube.com/watch?v=A_l8_C-EO38	https://www.babi.sh/recipes/worldsgreatestsandwich	https://res.cloudinary.com/dd27yihoo/image/upload/v1689991763/kxoy1bdxaaq3c1unc6vc.webp	2016-12-05	\N	\N	\N
+yorkshire-pudding	YORKSHIRE PUDDING AND ROAST BEEF	yorkshire-pudding	https://www.youtube.com/watch?v=F_YNznQ35Tc	https://www.babi.sh/recipes/yorkshire-pudding	https://res.cloudinary.com/dd27yihoo/image/upload/v1680976357/lye73ql2dp9xqunja3qb.webp	2021-12-20	8400	6	servings
+zelda-monster-cake	Monster Cake inspired by Zelda: Breath of the Wild	zelda-monster-cake	https://www.youtube.com/watch?v=VgtpaBOkvrA	https://www.babi.sh/recipes/zelda-monster-cake	https://res.cloudinary.com/dd27yihoo/image/upload/v1681715736/babishImages/undefined-391777.jpg	2017-08-01	\N	6	four inch cakes
+ziti-lasagna	Baked Ziti and Lasagna inspired by The Sopranos	ziti-lasagna	https://www.youtube.com/watch?v=c_BGPTK3GQk&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/c_BGPTK3GQk/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;	https://www.babi.sh/recipes/ziti-lasagna	https://res.cloudinary.com/dd27yihoo/image/upload/v1681695408/babishImages/undefined-405046.png	2019-09-20	3600	4	servings
 \.
 
 
@@ -692,25 +943,33 @@ ziti-lasagna	Baked Ziti and Lasagna inspired by The Sopranos	https://www.youtube
 --
 
 COPY public.episode_inspired_by (episode_id, reference_id) FROM stdin;
+3-course-dinner-inspired-by-drop	574
+324-layer-croissant-inspired-by-yakitate!!-japan	593
 3daypotatosalad	21
-3daypotatosalad	165
+4-cheese-lasagna-inspired-by-one-piece	568
 5mill-special	15
+a5-wagyu-roti-don-inspired-by-food-wars!	65
 adventure-time-sandwich	49
 adventuretimespecial	49
 aglioeolio	47
 alwayssunny	10
+amatriciana-eat-pray-love	618
 angel-food-cake-groundhog-day	537
+apple-snaps-mrfox	621
 applefritters	7
 applepie	96
 applepie	116
 applepie	117
 applepiesmoothie	115
+arc-raiders	636
 archer-margarita	23
+arepas-con-queso-encanto	627
 aristocats	25
 arresteddevelopmentspecial	57
+arroz-con-pollo-spiderman-spiderverse	530
+aunt-petunias-pudding-harry-potter	75
 avatar-fire-flakes	285
 avengersicecream	16
-avengersicecream	529
 babishpaniniwinner	45
 babka-inspired-by-seinfeld	30
 bachelor-chow-futurama	535
@@ -725,16 +984,19 @@ beetandacorncookies	94
 beetandacorncookies	95
 beignetsfromchef	47
 beignetsfromchef	48
-beignetsfromchef	218
-beignetsfromchef	527
-ben-wyatt-calzones	299
+being-with-babish-4	562
+bell-peppers-and-beef-inspired-by-cowboy-bebop	600
+ben-wyatt-calzones	19
+big-bang-burger-inspired-by-persona-5	585
 bigkahunaburger	104
 biscuits-ted-lasso	540
 black-and-white-cookies-seinfeld	30
 blood-pie-inspired-by-game-of-thrones	40
+blooming-fish-inspired-by-cinderella-chef	589
+blue-noodles-andor	620
+bobbys-cookies-king-of-the-hill	37
 bobsburgers	14
 boeufbourguignon	98
-boeufbourguignon	160
 bone-broth	140
 bop-egg-sandwich	292
 braciole	288
@@ -744,35 +1006,38 @@ brocksdonuts	18
 brocksonigiri	18
 broodwich-aqua-teen-hunger-force	323
 bubbashrimp2	17
-bubbashrimp2	252
 bubblebass	21
 bunnicorn-pizza	295
 bunnicorn-pizza	532
 butterednoodles-community	303
 buttermilk-pancakes-inspired-by-twin-peaks	96
 buttermilk-pancakes-inspired-by-twin-peaks	112
-caillesensarchophage	132
+caillesensarchophage	634
 carpanini	45
 ccourtesan-au-chocolat	85
 charliebrownthanksgiving	32
-charliebrownthanksgiving	528
 chateaubriandsteak	61
+cheeseburger-the-menu	612
+cheesecake-inspired-by-junior's-cheesecakes	577
 cheesesteak	108
 cheesyblasters	50
 chefs-choice-platter-monster-hunter-world	541
+chicago-deep-dish-the-bear	602
+chicago-style-italian-beef-inspired-by-the-bear	602
 chicken-fingers-community	303
 chicken-kiev-mad-men	68
 chickenpaprikash	60
-chickenpaprikash	205
-chickenpaprikash	526
 chileanseabass	31
 chocolate-cake-inspired-by-matilda	93
 chocolate-cake-inspired-by-matilda	114
+chocolate-cake-milkshake-inspired-by-portillo's	572
+chocolate-croissants-its-complicated	623
 chocolate-pudding-rugrats	293
+chocolate-spongebob	21
 chocolatelavacakes	47
-chocolatelavacakes	196
+christmas-turkey-inspired-by-national-lampoon's-christmas-vacation	558
+churrons-broad-city	546
 cinnamonrolls	42
-cinnamonrolls	228
 classicpancakes	76
 clayroastedthigh	79
 clayroastedthigh	113
@@ -784,29 +1049,38 @@ cocktail-special	121
 cocktail-special	122
 cocktail-special	123
 cocktail-special	124
+cocoa-krispies-oliver-and-company	628
+coconut-tres-leches-cake-(inspired-by-uncle-boon'sthai-diner)	603
 coffeejelly	133
+cola-short-ribs-the-bear	602
 cold-cure	296
 cookie-cat-steven-universe	6
+cookie-nachos-sweet-tooth	607
 coqauvin	26
+crab-bisque-seinfeld	30
 cremebrule	63
-cremebrule	202
 crepessuzette	137
-crepessuzette	275
+crispiest-sandwich-kidnapped-on-christmas	608
 croque-monsieur-brooklyn-nine-nine	59
 cubanos-inspired-by-chef	47
 curbyourenthusiasm	81
+curry-risotto-omurice-inspired-by-food-wars!	65
 dalgona-squid-games	555
 deadpoolpizza	54
 deathsandwich	7
 deepdishpizza	135
+demon-burger-inspired-by-dragon-ball-daima	576
 dessertdogs	15
 dessertpasta	105
+devil-fruit-inspired-by-one-piece	568
 dexter-key-lime-pie	311
 dinner-wandavision	539
 direwolfbread	40
-direwolfbread	225
+dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv	567
+duck-fries-john-wick	614
 dutchbaby	14
 egg-custard-tarts	285
+egg-salad-inspired-by-futurama	535
 egginanest	33
 egginanest	78
 egginanest	125
@@ -815,39 +1089,50 @@ egginanest	127
 egginanest	128
 egginanest	129
 egginanest	130
-egginanest	195
 eggscellentchallenge	7
 eggsflorentine	33
 eggswoodhouse	23
+el-burdigato-teen-titans-go	611
 enchiladas-schitts-creek	316
 everymeatburrito	7
-everymeatburrito	193
+everything-bagel-eeao	615
+fallout-fancy-lad-snack-cakes-inspired-by-fallout-76	561
 feast-from-chef	47
 fettuccine-alfredo-the-office	80
 fish-fingers-custard-doctor-who	545
 fitz-sandwich	84
-fitz-sandwich	178
 flandershotcocoa	72
+footlong-taco-dogs-bobs-burgers	14
 forrestgumpshrimp	17
-forrestgumpshrimp	214
-four-horsemeal-eggporkalypse-parks-and-rec	299
+four-horsemeal-eggporkalypse-parks-and-rec	19
 fraiserspecial	33
 freddys-ribs-inspired-by-house-of-cards	92
+fried-bear-inspired-food-wars!	65
+fried-chicken-inspired-by-legend-of-zelda:-tears-of-the-kingdom	571
 fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	90
 friedgreentomatoes	51
 garbageplate	74
-garbageplate	187
-garbageplate	524
 garlic-bread-scott-pilgrim	320
+giant-onigiri-inspired-by-cooking-from-valkyries	584
+giant-red-bean-bun-inspired-by-spirited-away	565
+glowing-popsicles-the-mandalorian	140
+golden-fried-rice-inspired-by-kaguya-sama:-love-is-war	579
 goodfellasprisonsauce	107
 goodmorningburger	15
-gotcha-pork-roast-food-wars	525
+gotcha-pork-roast-food-wars	65
+gourmet-meat-stew-inspired-by-breath-of-the-wild	87
 grilledcheesedeluxe	7
 grilledcheesevidcon	47
 grits-breakfast-my-cousin-vinny	554
 harrypotterspecial	75
-homemade-mozzarella	300
+herring-and-pumpkin-pot-pie-inspired-by-kiki's-delivery-service	595
+home-alone-special	619
+homemade-mozzarella	5
+honey-toast-inspired-by-chainsaw-man	597
+hot-dog-bowl-inspired-by-detroit's	601
 huevosrancheros	9
+ichiraku-ramen-inspired-by-naruto	598
+if-looks-could-kale	14
 il-timpano-inspired-by-big-night	111
 iloveyoumanfishtacos	103
 imaginary-pie-hook	297
@@ -856,25 +1141,37 @@ ingloriousbasterds	102
 instant-mac-cheese	289
 isotope-dog-the-simpsons	15
 itsalwayssunnyspecial	10
+japanese-style-big-mac-inspired-by-weathering-with-you	575
+jiggly-souffle-omelette-inspired-by-food-wars!	65
 johnnycakes	44
 judys-hot-cocoa-santa-clause	330
+kelp-bar-spongebob	21
 kettle-corn-community	303
+kevin's-snacks-inspired-by-the-office	80
 kevinschili	80
 kfcmeal	3
+kikufuku-mochi-inspired-by-jujutsu-kaisen	596
+kimbap-and-lunchbox-inspired-by-squid-game-season-2	560
 kingofthehillspecial	37
+korean-garlic-fried-chicken-inspired-by-korean-street-food	566
+kpop-demon-hunters-airplane-feast	637
 krabby-patty-inspired-by-spongebob-squarepants	21
-krabby-patty-inspired-by-spongebob-squarepants	165
 krabbysupreme	21
 kumandra-soup-raya-and-the-last-dragon	543
+kung-pao-chicken-seinfeld	30
 la-bombe-eclair-the-simpsons	15
+land-octopus-elden-ring	626
 larbstickyrice	8
 larbstickyrice	530
 lasagna	64
 lasagna	77
-lasagna	201
+lava-chicken-inspired-by-a-minecraft-movie	559
 lemon-cakes-inspired-by-game-of-thrones	40
 lemon-pepper-wet	88
-lilbits-rickandmorty	302
+lentil-soup-moon-knight	625
+lilbits-rickandmorty	83
+lobster-scrambled-eggs-seinfeld	30
+looney-cake-succession	610
 lotr-feast-special	308
 louiefriedchicken	110
 loversdelightsundae	50
@@ -883,109 +1180,140 @@ macarons-the-mandalorian	140
 madmen	68
 maisel-brisket	298
 marmalade	287
+mayors-request-cloudy-with-a-chance-of-meatballs	630
 mc1035-archer	23
 meat-pies-sweeny-todd	556
-meat-tornado-parks-and-rec	299
+meat-tornado-parks-and-rec	19
+meatballs-30rock	50
 meatghetti-spagballs-american-dad	548
+mega-beef-bowl-inspired-by-persona-4	592
 megs-dinner-family-guy	45
 michaelscottpretzel	80
+minecraft-cake-inspired-by-minecraft	583
 mirages-pork-chops	138
+mitarashi-dango-inspired-by-demon-slayer	594
 moistmaker	78
 monicas-candy-friends	78
+monte-cristo-american-dad	548
 moonwaffles	15
 moroccanpasta	69
 mostexpensiveshake	104
 mulancongee	53
+mushroom-pasta-super-mario-movie	605
 nachos	13
-nachos	277
-nachos	531
+nipples-of-venus-amadeus	609
 nypizzatmnt	109
-nypizzatmnt	145
-nypizzatmnt	522
 okonomiyaki	52
-okonomiyaki	216
 omelette-du-fromage-dexters-laboratory	326
 orangemochafrapp	12
 orangemochafrapp-fpm9l	11
 ossobuco	80
 parksandrecburger	19
-parksandrecburger	299
 parmhero	21
 parmhero	44
 parmhero	78
-parmhero	200
+pasta-curry-inspired-by-pokemon-sword-and-shield	580
 pastaputtanesca	55
-pastaputtanesca	211
 pastrami	305
-paunch-burger-parks-and-rec	299
+patricks-briefcase-spongebob	21
+paunch-burger-parks-and-rec	19
+peachs-cake-mario-64	613
 pekingduck	71
 phantomthread-l42pw	43
 piesfromwaitress	58
 pigeon-pie-with-wild-game-inspired-by-game-of-thrones	40
+pigs-in-a-blanket-office	80
 pineapplecurryfriedrice	65
-pineapplecurryfriedrice	199
-pineapplecurryfriedrice	525
+pizza-balls-mom	624
 pizza-gyoza-tmnt	547
 pizza-in-a-cup-the-jerk	538
 pizzaball	27
+plum-pie-puss-in-boots	616
 pollo-a-la-plancha	100
 pollos-hermanos-breaking-bad	9
+pork-katsudon-inspired-by-yuri!!!-on-ice	591
 pork-picnic-sandwich-regular-show	7
 portalcake	20
+potato-chip-omelet-the-bear	602
+pretty-patties-spongebob	21
 puerco-pibil	86
 pullednoodles	134
 puppy-paw-hashbrowns	553
+quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv	567
 quatroquesodosfritos	73
-quiet-place-bonus	131
+quiet-place-bonus	633
+rabbit-last-of-us	617
 rabbit-sopranos	44
 racheltrifle	78
 raisinets	82
 ram-don-parasite	291
 raspberry-danish-ant-man-and-the-wasp	319
 ratatouille	101
-ratatouille	156
 regular-show-mississippi-queen	7
+remys-soup-ratatouille	101
 restaurant-wars-steven-universe	6
 ribwich	15
+rick-and-morty-every-burger	83
 risotto-tricolore-big-night	111
+roast-beef-inspired-by-attack-on-titan	586
 roastbeast	29
 root-beer-noodles-the-simpsons	15
 rumfrenchtoast	68
 sandyfryesappetizers	14
+sanji's-seafood-risotto	568
+sausage-inspired-by-god-of-war	562
+sausages-ragnarok	562
+savory-cannoli-the-bear	602
+scallion-noodles-eeaao	615
+schweddy-balls-snl	89
+seafood-paella-parks-and-rec	19
 seasalticecream	4
 seinfeldcalzone-z38zn	30
 seinfeldspecial2	30
+seven-layer-salad-himym	124
 shawarma	62
-shawarma	203
 skinnersstew	15
 sloppy-joes-billy-madison	534
 sloppy-steaks-i-think-you-should-leave	552
 snl-overnight-salad	89
+souffle-pancakes-inspired-by-food-wars!	65
 sourdough-broccoli-pizza-inside-out	533
 southparkspecial	99
 space-cake-high-maintenance	542
+spaghetti-all'assassina-inspired-by-claudia-romeo	573
 spaghetti-carbonara-inspired-by-master-of-none	97
 spaghettitaco	24
+spicy-rum-chicken-curry-inspired-by-super-smash-bros.	564
 spidermanbackpackrecipes	38
+spiderverse-beef-patty	635
 spinachpuffs	46
+spongebob-and-patrick-ice-cream	21
+squash-and-beef-its-always-sunny-in-philadelphia	10
+squid-ink-ravioli-inspired-by-stardew-valley	570
 squidinkpasta	5
 steak-au-poivre	23
 steak-eggs-gravy-twister	328
-sugar-chicken-rick-and-morty	302
+strata-family-stone	629
+strawberry-shortcake-inspired-by-death-note	590
+sugar-chicken-rick-and-morty	83
 sumbitches	124
-sumbitches	269
-sundae-spongebob	310
+sundae-spongebob	21
+super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations	563
 sweet-potato-casserole-friends	78
 sweetrolls-skyrim	306
 szechuansauce	83
 szechuansaucerevisited	83
-szechuansaucerevisited	180
 taco-town	89
 taco-town	173
 takoyaki	35
 tamalesfromcoco	67
+tampoporamen	638
+tater-tots-breaking-bad	9
 teamstersandwich	50
 teddybrulee	14
+thanksgiving-balls-psych	73
+the-coagulator-inspired-by-the-simpsons	15
+the-egg-bar-inspired-by-severance	578
 the-liz-lemon-30-rock	50
 the-naco	39
 the-perfect-bite	290
@@ -993,34 +1321,2762 @@ the-sims-special	551
 thegodfathercannolis	56
 thegoodplace	13
 thegreystuff	28
-thegreystuff	236
 thesloppyjessica	59
 theswanson	19
 thewirespecial	70
 tiramisu	139
 together-breakfast-steven-universe	6
+tom-cruise-coconut-cake-inspired-by-hacks	599
 tomate-du-saltambique-inspired-by-the-west-wing	91
 tortilla-sombero-despicable-me-2	544
+transforming-furikake-gohan-inspired-by-food-wars!	65
 trenette-el-pesto-luca	549
+triple-deluxe-dog-hot-dog-detective	606
 triple-gooberberry-sunrise-spongebob-squarespace	21
 tripledeckereggo	3
 trollhunters-meatloaf-sandwich	550
 troyscasserole-community	303
 truffle-pasta-broad-city	546
-turf-n-turf	294
+turf-n-turf	19
+turkey-and-caviar-inspired-by-star-trek:-the-next-generation	532
 turturkeykey	124
-turturkeykey	269
 twinkie-weiner-sandwich	307
+tylers-bull-the-menu	612
 uberollcake	6
 ultimeatum	7
+underwear-bread-inspired-by-asteroid-in-love	587
+wasabi-buffalo-wings-the-simpsons	15
+water-tribe-noodles-inspired-by-the-legend-of-korra	569
+whimsical-parfait-inspired-by-darker-than-black	588
 whitecastlesliders	2
-whitecastlesliders	266
 wild-mushroom-soup-inspired-by-seinfeld	30
 worldsgreatestsandwich	106
 zelda-monster-cake	87
-zelda-monster-cake	175
-zelda-monster-cake	523
 ziti-lasagna	44
+\.
+
+
+--
+-- Data for Name: episode_tags; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.episode_tags (episode_id, tag_id) FROM stdin;
+10-levels-chicken-noodle-soup	6
+10-levels-chicken-noodle-soup	17
+10-levels-chicken-noodle-soup	21
+10-levels-chicken-noodle-soup	24
+10-levels-chicken-noodle-soup	26
+10-levels-chicken-noodle-soup	27
+10-levels-chicken-noodle-soup	29
+10-levels-chicken-noodle-soup	30
+10-levels-chicken-noodle-soup	31
+10-levels-of-cheesesteak	6
+10-levels-of-cheesesteak	20
+10-levels-of-cheesesteak	21
+10-levels-of-cheesesteak	31
+10-levels-of-chocolate-chip-cookies-or-with-babish	6
+10-levels-of-chocolate-chip-cookies-or-with-babish	16
+10-levels-of-chocolate-chip-cookies-or-with-babish	18
+10-levels-of-chocolate-chip-cookies-or-with-babish	31
+10-levels-of-mac-and-cheese	6
+10-levels-of-mac-and-cheese	15
+10-levels-of-mac-and-cheese	17
+10-levels-of-mac-and-cheese	22
+10-levels-of-mac-and-cheese	31
+18-pound-giant-fried-chicken-bowl	11
+18-pound-giant-fried-chicken-bowl	17
+18-pound-giant-fried-chicken-bowl	21
+18-pound-giant-fried-chicken-bowl	29
+18-pound-giant-fried-chicken-bowl	30
+18-pound-giant-fried-chicken-bowl	32
+2024oscarsspecial	12
+2024oscarsspecial	17
+2024oscarsspecial	32
+28-layer-chocolate-cake	11
+28-layer-chocolate-cake	16
+28-layer-chocolate-cake	17
+28-layer-chocolate-cake	18
+28-layer-chocolate-cake	32
+3-course-dinner-inspired-by-drop	12
+3-course-dinner-inspired-by-drop	18
+3-course-dinner-inspired-by-drop	19
+3-course-dinner-inspired-by-drop	21
+3-course-dinner-inspired-by-drop	30
+3-course-dinner-inspired-by-drop	32
+324-layer-croissant-inspired-by-yakitate!!-japan	2
+324-layer-croissant-inspired-by-yakitate!!-japan	10
+324-layer-croissant-inspired-by-yakitate!!-japan	16
+324-layer-croissant-inspired-by-yakitate!!-japan	17
+324-layer-croissant-inspired-by-yakitate!!-japan	32
+3daypotatosalad	4
+3daypotatosalad	12
+3daypotatosalad	19
+3daypotatosalad	29
+3daypotatosalad	30
+3daypotatosalad	31
+4-cheese-lasagna-inspired-by-one-piece	2
+4-cheese-lasagna-inspired-by-one-piece	10
+4-cheese-lasagna-inspired-by-one-piece	21
+4-cheese-lasagna-inspired-by-one-piece	22
+4-cheese-lasagna-inspired-by-one-piece	27
+4-cheese-lasagna-inspired-by-one-piece	29
+4-cheese-lasagna-inspired-by-one-piece	30
+4-cheese-lasagna-inspired-by-one-piece	31
+5-levels-of-spaghetti-or-with-babish	6
+5-levels-of-spaghetti-or-with-babish	17
+5-levels-of-spaghetti-or-with-babish	21
+5-levels-of-spaghetti-or-with-babish	22
+5-levels-of-spaghetti-or-with-babish	25
+5-levels-of-spaghetti-or-with-babish	29
+5-levels-of-spaghetti-or-with-babish	30
+5-levels-of-spaghetti-or-with-babish	31
+5-levels-of-spaghetti-or-with-babish	32
+5-weeknight-recipes-for-pork-tenderloin	13
+5-weeknight-recipes-for-pork-tenderloin	15
+5-weeknight-recipes-for-pork-tenderloin	30
+5-weeknight-recipes-for-pork-tenderloin	31
+a5-wagyu-roti-don-inspired-by-food-wars!	2
+a5-wagyu-roti-don-inspired-by-food-wars!	10
+advanced-grilled-cheese	13
+advanced-grilled-cheese	15
+advanced-grilled-cheese	17
+adventure-time-sandwich	4
+adventure-time-sandwich	12
+adventure-time-sandwich	17
+adventure-time-sandwich	20
+adventure-time-sandwich	21
+adventure-time-sandwich	23
+adventure-time-sandwich	29
+adventure-time-sandwich	30
+adventure-time-sandwich	32
+adventuretimespecial	4
+adventuretimespecial	12
+adventuretimespecial	20
+adventuretimespecial	29
+adventuretimespecial	30
+adventuretimespecial	32
+aglioeolio	5
+aglioeolio	12
+aglioeolio	15
+aglioeolio	22
+aglioeolio	29
+aglioeolio	30
+aglioeolio	31
+agua-de-jamaica-granita	7
+agua-de-jamaica-granita	18
+agua-de-jamaica-granita	19
+agua-de-jamaica-granita	31
+alwayssunny	4
+alwayssunny	12
+alwayssunny	32
+amatriciana-eat-pray-love	5
+amatriciana-eat-pray-love	12
+amatriciana-eat-pray-love	15
+amatriciana-eat-pray-love	22
+amatriciana-eat-pray-love	29
+amatriciana-eat-pray-love	30
+andrewsohlathanksgiving	13
+andrewsohlathanksgiving	32
+angel-food-cake-groundhog-day	5
+angel-food-cake-groundhog-day	12
+angel-food-cake-groundhog-day	16
+angel-food-cake-groundhog-day	18
+angel-food-cake-groundhog-day	32
+apple-and-brie-galette	1
+apple-and-brie-galette	7
+apple-and-brie-galette	16
+apple-and-brie-galette	18
+apple-and-brie-galette	28
+apple-and-brie-galette	29
+apple-and-brie-galette	31
+apple-cider-donuts	13
+apple-cider-donuts	16
+apple-cider-donuts	18
+apple-cider-donuts	32
+apple-snaps-mrfox	5
+apple-snaps-mrfox	12
+apple-snaps-mrfox	16
+apple-snaps-mrfox	18
+apple-snaps-mrfox	32
+applefritters	4
+applefritters	12
+applefritters	16
+applefritters	18
+applepie	12
+applepie	16
+applepie	18
+applepie	29
+applepie	30
+applepie	31
+applepiesmoothie	12
+applepiesmoothie	18
+applepiesmoothie	28
+applepiesmoothie	29
+applepiesmoothie	30
+applepiesmoothie	31
+arancini	13
+arancini	19
+arancini	31
+arc-raiders	3
+arc-raiders	12
+arc-raiders	15
+arc-raiders	17
+arc-raiders	21
+arc-raiders	22
+arc-raiders	30
+arc-raiders	31
+archer-margarita	4
+archer-margarita	12
+arepas-con-queso-encanto	5
+arepas-con-queso-encanto	12
+arepas-con-queso-encanto	19
+arepas-con-queso-encanto	31
+aristocats	5
+aristocats	12
+aristocats	18
+aristocats	32
+arresteddevelopmentspecial	4
+arresteddevelopmentspecial	12
+arresteddevelopmentspecial	32
+arroz-con-pollo-spiderman-spiderverse	5
+arroz-con-pollo-spiderman-spiderverse	12
+arroz-con-pollo-spiderman-spiderverse	21
+aunt-petunias-pudding-harry-potter	5
+aunt-petunias-pudding-harry-potter	12
+aunt-petunias-pudding-harry-potter	16
+aunt-petunias-pudding-harry-potter	18
+aunt-petunias-pudding-harry-potter	32
+avatar-fire-flakes	4
+avatar-fire-flakes	12
+avatar-fire-flakes	28
+avatar-fire-flakes	33
+avengersicecream	5
+avengersicecream	12
+avengersicecream	18
+avengersicecream	32
+babish's-ultimate-chicken-parm	13
+babish's-ultimate-chicken-parm	21
+babish's-ultimate-chicken-parm	29
+babish's-ultimate-chicken-parm	30
+babish's-ultimate-chicken-parm	31
+babish's-ultimate-fried-chicken	6
+babish's-ultimate-fried-chicken	19
+babish's-ultimate-fried-chicken	21
+babish's-ultimate-fried-chicken	29
+babish's-ultimate-fried-chicken	30
+babish's-ultimate-fried-chicken	31
+babishpaniniwinner	4
+babishpaniniwinner	12
+babka-inspired-by-seinfeld	4
+babka-inspired-by-seinfeld	12
+babka-inspired-by-seinfeld	16
+babka-inspired-by-seinfeld	28
+babka-inspired-by-seinfeld	29
+babka-inspired-by-seinfeld	32
+bachelor-chow-futurama	4
+bachelor-chow-futurama	12
+bachelor-chow-futurama	33
+back-to-school-sandwich	5
+back-to-school-sandwich	12
+back-to-school-sandwich	20
+back-to-school-sandwich	29
+back-to-school-sandwich	32
+bacon	13
+bagels	13
+bagels	16
+bagelsandwiches	4
+bagelsandwiches	12
+bagelsandwiches	20
+bagelsandwiches	28
+bagelsandwiches	31
+bagelwithlox	4
+bagelwithlox	12
+bagelwithlox	15
+bagelwithlox	16
+bagelwithlox	20
+bagelwithlox	23
+bagelwithlox	28
+bagelwithlox	29
+bagelwithlox	31
+bagelwithlox	32
+baklava	13
+baklava	16
+baklava	18
+baklava	32
+bananapuddingpizza	4
+bananapuddingpizza	12
+bananapuddingpizza	14
+bananapuddingpizza	18
+bananapuddingpizza	29
+bananapuddingpizza	30
+bananapuddingpizza	32
+banoffeepie	5
+banoffeepie	12
+banoffeepie	16
+banoffeepie	18
+banoffeepie	32
+baobuns	5
+baobuns	12
+baobuns	18
+baobuns	32
+barbacoa-de-res	13
+barbecueporkchops	13
+barbecueporkchops	21
+barbecueporkchops	29
+barbecueporkchops	30
+barbecueporkchops	31
+baressentials	13
+baressentials-7xwwz	12
+baressentials-7xwwz	13
+baressentials-7xwwz	15
+baressentials-7xwwz	16
+baressentials-7xwwz	18
+bearstew	3
+bearstew	12
+bearstew	24
+bearstew	30
+bearstew	32
+beef-wellington-or-with-babish	6
+beef-wellington-or-with-babish	21
+beef-wellington-or-with-babish	30
+beef-wellington-or-with-babish	31
+beef-wellington-or-with-babish	32
+beer-can-chicken	13
+beer-can-chicken	15
+beer-can-chicken	21
+beer-can-chicken	30
+beer-can-chicken	31
+beer-steamed-chili-dogs	5
+beer-steamed-chili-dogs	12
+beer-steamed-chili-dogs	29
+beer-steamed-chili-dogs	31
+beetandacorncookies	4
+beetandacorncookies	12
+beetandacorncookies	16
+beetandacorncookies	18
+beetandacorncookies	28
+beetandacorncookies	29
+beetandacorncookies	30
+beetandacorncookies	32
+beignetsfromchef	5
+beignetsfromchef	12
+beignetsfromchef	16
+beignetsfromchef	18
+beignetsfromchef	31
+bell-peppers-and-beef-inspired-by-cowboy-bebop	2
+bell-peppers-and-beef-inspired-by-cowboy-bebop	10
+bell-peppers-and-beef-inspired-by-cowboy-bebop	21
+bell-peppers-and-beef-inspired-by-cowboy-bebop	25
+bell-peppers-and-beef-inspired-by-cowboy-bebop	30
+bell-peppers-and-beef-inspired-by-cowboy-bebop	31
+bell-peppers-and-beef-inspired-by-cowboy-bebop	32
+ben-wyatt-calzones	4
+ben-wyatt-calzones	12
+ben-wyatt-calzones	32
+big-bang-burger-inspired-by-persona-5	2
+big-bang-burger-inspired-by-persona-5	10
+biggamesnacks	13
+biggamesnacks	31
+bigkahunaburger	5
+bigkahunaburger	12
+bigkahunaburger	15
+bigkahunaburger	20
+bigkahunaburger	21
+bigkahunaburger	29
+bigkahunaburger	30
+bigkahunaburger	31
+birria-tacos	13
+birria-tacos	29
+birria-tacos	32
+biscotti	13
+biscotti	16
+biscotti	18
+biscotti	28
+biscotti	32
+biscuits-and-gravy	13
+biscuits-and-gravy	16
+biscuits-and-gravy	19
+biscuits-ted-lasso	4
+biscuits-ted-lasso	12
+biscuits-ted-lasso	16
+biscuits-ted-lasso	18
+black-and-white-cookies-seinfeld	4
+black-and-white-cookies-seinfeld	12
+black-and-white-cookies-seinfeld	16
+black-and-white-cookies-seinfeld	18
+black-and-white-cookies-seinfeld	31
+blendersoups	13
+blendersoups	24
+blendersoups	29
+blendersoups	30
+blendersoups	31
+blood-pie-inspired-by-game-of-thrones	4
+blood-pie-inspired-by-game-of-thrones	12
+blood-pie-inspired-by-game-of-thrones	17
+blood-pie-inspired-by-game-of-thrones	21
+blood-pie-inspired-by-game-of-thrones	29
+blood-pie-inspired-by-game-of-thrones	30
+blooming-fish-inspired-by-cinderella-chef	2
+blooming-fish-inspired-by-cinderella-chef	10
+blue-noodles-andor	4
+blue-noodles-andor	12
+blue-noodles-andor	15
+blue-noodles-andor	27
+blue-noodles-andor	29
+blue-noodles-andor	30
+blue-noodles-andor	32
+bluey-duck-cake	4
+bobbys-cookies-king-of-the-hill	4
+bobbys-cookies-king-of-the-hill	12
+bobbys-cookies-king-of-the-hill	16
+bobbys-cookies-king-of-the-hill	18
+bobbys-cookies-king-of-the-hill	32
+bobsburgers	4
+bobsburgers	12
+bobsburgers	20
+bobsburgers	21
+bobsburgers	29
+bobsburgers	30
+bobsburgers	31
+bobsburgers	32
+bobsburgers-potato-lasagna	4
+bobsburgers-potato-lasagna	12
+bobsburgers-potato-lasagna	16
+bobsburgers-potato-lasagna	17
+bobsburgers-potato-lasagna	27
+bobsburgers-potato-lasagna	30
+bobsburgers-potato-lasagna	32
+boeufbourguignon	5
+boeufbourguignon	12
+boeufbourguignon	21
+boeufbourguignon	29
+boeufbourguignon	30
+boeufbourguignon	32
+bolognese	13
+bolognese	15
+bolognese	22
+bolognese	30
+bolognese	31
+bone-broth	4
+bone-broth	12
+bone-broth	24
+bone-broth	32
+bop-egg-sandwich	5
+bop-egg-sandwich	12
+bop-egg-sandwich	15
+bop-egg-sandwich	20
+bop-egg-sandwich	28
+bop-egg-sandwich	31
+braciole	4
+braciole	12
+braciole	22
+braciole	30
+braciole	32
+bread	13
+bread	16
+bread	18
+breakfast-uncrustable	1
+breakfast-uncrustable	2
+breakingbadspecial	4
+breakingbadspecial	12
+brie-butter-baguette-twin-peaks	4
+brie-butter-baguette-twin-peaks	12
+brie-butter-baguette-twin-peaks	15
+brie-butter-baguette-twin-peaks	16
+brie-butter-baguette-twin-peaks	32
+brocksdonuts	4
+brocksdonuts	12
+brocksdonuts	16
+brocksdonuts	18
+brocksdonuts	32
+brocksonigiri	4
+brocksonigiri	12
+broodwich-aqua-teen-hunger-force	4
+broodwich-aqua-teen-hunger-force	12
+broodwich-aqua-teen-hunger-force	20
+broodwich-aqua-teen-hunger-force	29
+broodwich-aqua-teen-hunger-force	33
+brownies	13
+brownies	15
+brownies	16
+brownies	18
+brownies	31
+bubbashrimp2	5
+bubbashrimp2	12
+bubblebass	4
+bubblebass	12
+bubblebass	20
+bubblebass	29
+bubblebass	30
+bubblebass	31
+bunnicorn-pizza	4
+bunnicorn-pizza	12
+bunnicorn-pizza	14
+bunnicorn-pizza	30
+bunnicorn-pizza	32
+burgers	13
+burgers	15
+burgers	18
+burgers	20
+burgers	29
+burgers	30
+burgers	31
+burgers	32
+butterednoodles-community	4
+butterednoodles-community	12
+butterednoodles-community	15
+butterednoodles-community	19
+butterednoodles-community	22
+butterednoodles-community	27
+butterednoodles-community	29
+butterednoodles-community	30
+butterednoodles-community	31
+buttermilk-pancakes-inspired-by-twin-peaks	4
+buttermilk-pancakes-inspired-by-twin-peaks	12
+buttermilk-pancakes-inspired-by-twin-peaks	15
+buttermilk-pancakes-inspired-by-twin-peaks	25
+buttermilk-pancakes-inspired-by-twin-peaks	28
+buttermilk-pancakes-inspired-by-twin-peaks	32
+cajunfood	13
+cake-pops	13
+cake-pops	16
+cake-pops	18
+cake-pops	31
+calistyle-burrito	13
+calistyle-burrito	15
+calistyle-burrito	29
+calistyle-burrito	30
+calistyle-burrito	31
+carbonara	13
+carbonara	15
+carbonara	22
+carbonara	29
+carbonara	30
+carbonara	31
+carbonara-anything	13
+carbonara-anything	15
+carnitas	13
+carnitas	21
+carpanini	4
+carpanini	12
+ccourtesan-au-chocolat	5
+ccourtesan-au-chocolat	12
+ccourtesan-au-chocolat	18
+ccourtesan-au-chocolat	29
+ccourtesan-au-chocolat	30
+ccourtesan-au-chocolat	33
+challah	13
+challah	16
+charcuterieandcheeseboards	13
+charcuterieandcheeseboards	19
+charcuterieandcheeseboards	31
+charliebrownthanksgiving	4
+charliebrownthanksgiving	12
+charliebrownthanksgiving	31
+chateaubriandsteak	5
+chateaubriandsteak	12
+chateaubriandsteak	21
+chateaubriandsteak	30
+chateaubriandsteak	32
+cheesdips	13
+cheesdips	19
+cheesdips	31
+cheese-fondue	13
+cheese-fondue	19
+cheese-fondue	32
+cheeseburger-the-menu	5
+cheeseburger-the-menu	12
+cheeseburger-the-menu	15
+cheeseburger-the-menu	21
+cheeseburger-the-menu	29
+cheeseburger-the-menu	30
+cheesecake-inspired-by-junior's-cheesecakes	11
+cheesecake-inspired-by-junior's-cheesecakes	16
+cheesecake-inspired-by-junior's-cheesecakes	18
+cheesecake-inspired-by-junior's-cheesecakes	31
+cheesesteak	5
+cheesesteak	12
+cheesesteak	15
+cheesesteak	20
+cheesesteak	21
+cheesesteak	29
+cheesesteak	30
+cheesesteak	31
+cheesyblasters	4
+cheesyblasters	12
+chefs-choice-platter-monster-hunter-world	3
+chefs-choice-platter-monster-hunter-world	12
+chefs-choice-platter-monster-hunter-world	33
+chicago-deep-dish-the-bear	4
+chicago-deep-dish-the-bear	12
+chicago-deep-dish-the-bear	14
+chicago-style-italian-beef-inspired-by-the-bear	4
+chicago-style-italian-beef-inspired-by-the-bear	12
+chicago-style-italian-beef-inspired-by-the-bear	16
+chicago-style-italian-beef-inspired-by-the-bear	20
+chicago-style-italian-beef-inspired-by-the-bear	21
+chicago-style-italian-beef-inspired-by-the-bear	29
+chicago-style-italian-beef-inspired-by-the-bear	30
+chicago-style-italian-beef-inspired-by-the-bear	32
+chicken-fingers-community	4
+chicken-fingers-community	12
+chicken-fingers-community	15
+chicken-fingers-community	21
+chicken-fingers-community	29
+chicken-fingers-community	30
+chicken-fingers-community	31
+chicken-kiev-mad-men	4
+chicken-kiev-mad-men	12
+chicken-kiev-mad-men	21
+chicken-kiev-mad-men	30
+chicken-kiev-mad-men	31
+chicken-meatball-hotpot-inspired-by-jujutsu-kaisen	2
+chicken-meatball-hotpot-inspired-by-jujutsu-kaisen	10
+chicken-parmesan	13
+chicken-parmesan	15
+chicken-parmesan	21
+chicken-parmesan	29
+chicken-parmesan	30
+chicken-parmesan	31
+chicken-piccata	13
+chicken-piccata	15
+chicken-piccata	21
+chicken-piccata	29
+chicken-piccata	30
+chicken-piccata	31
+chicken-pot-pie	13
+chickenpaprikash	5
+chickenpaprikash	12
+chickenpaprikash	32
+chickentikkamasala	13
+chickentikkamasala	21
+chickentikkamasala	29
+chickentikkamasala	30
+chickentikkamasala	31
+chickpeas	13
+chickpeas	16
+chickpeas	18
+chilaquiles-divorciados-(con-todo)	1
+chileanseabass	5
+chileanseabass	12
+chileanseabass	23
+chileanseabass	30
+chileanseabass	32
+chiles-rellenos	13
+chiles-rellenos	15
+chiles-rellenos	29
+chiles-rellenos	30
+chiles-rellenos	31
+chili-two-ways	13
+chili-two-ways	25
+chili-two-ways	29
+chili-two-ways	30
+chili-two-ways	31
+chimichangas	13
+chocolate-cake-inspired-by-matilda	4
+chocolate-cake-inspired-by-matilda	12
+chocolate-cake-inspired-by-matilda	16
+chocolate-cake-inspired-by-matilda	17
+chocolate-cake-inspired-by-matilda	18
+chocolate-cake-inspired-by-matilda	29
+chocolate-cake-inspired-by-matilda	30
+chocolate-cake-inspired-by-matilda	32
+chocolate-cake-milkshake-inspired-by-portillo's	11
+chocolate-cake-milkshake-inspired-by-portillo's	16
+chocolate-cake-milkshake-inspired-by-portillo's	17
+chocolate-cake-milkshake-inspired-by-portillo's	18
+chocolate-cake-milkshake-inspired-by-portillo's	31
+chocolate-croissants-its-complicated	4
+chocolate-croissants-its-complicated	12
+chocolate-croissants-its-complicated	16
+chocolate-croissants-its-complicated	18
+chocolate-croissants-its-complicated	28
+chocolate-croissants-its-complicated	32
+chocolate-pudding-rugrats	4
+chocolate-pudding-rugrats	12
+chocolate-pudding-rugrats	18
+chocolate-pudding-rugrats	32
+chocolate-spongebob	4
+chocolate-spongebob	12
+chocolate-spongebob	18
+chocolatelavacakes	4
+chocolatelavacakes	12
+chocolatelavacakes	16
+chocolatelavacakes	18
+chocolatelavacakes	32
+chopped-cheese	13
+chopped-cheese	15
+chopped-cheese	20
+chopped-cheese	29
+chopped-cheese	30
+chopped-cheese	31
+chopped-cheese	32
+chorizo-clam-pasta	1
+chorizo-clam-pasta	22
+chorizo-clam-pasta	23
+chorizo-clam-pasta	30
+chorizo-clam-pasta	31
+christmas-turkey-inspired-by-national-lampoon's-christmas-vacation	5
+christmas-turkey-inspired-by-national-lampoon's-christmas-vacation	6
+christmas-turkey-inspired-by-national-lampoon's-christmas-vacation	21
+christmas-turkey-inspired-by-national-lampoon's-christmas-vacation	30
+christmas-turkey-inspired-by-national-lampoon's-christmas-vacation	32
+churrons-broad-city	4
+churrons-broad-city	12
+churrons-broad-city	15
+churrons-broad-city	16
+churrons-broad-city	18
+churrons-broad-city	33
+cinnamon-rolls-3-ways-(pumpkin-spice-strawberry-nutella-classic)	13
+cinnamon-rolls-3-ways-(pumpkin-spice-strawberry-nutella-classic)	15
+cinnamon-rolls-3-ways-(pumpkin-spice-strawberry-nutella-classic)	18
+cinnamon-rolls-3-ways-(pumpkin-spice-strawberry-nutella-classic)	19
+cinnamon-rolls-3-ways-(pumpkin-spice-strawberry-nutella-classic)	31
+cinnamonrolls	4
+cinnamonrolls	12
+cinnamonrolls	16
+cinnamonrolls	18
+cinnamonrolls	31
+classic-fettucine-alfredo	11
+classic-fettucine-alfredo	15
+classic-fettucine-alfredo	22
+classic-fettucine-alfredo	27
+classic-fettucine-alfredo	30
+classic-fettucine-alfredo	31
+classicpancakes	5
+classicpancakes	12
+clayroastedthigh	4
+clayroastedthigh	12
+clayroastedthigh	21
+clayroastedthigh	29
+clayroastedthigh	30
+clayroastedthigh	33
+clementinecake	5
+clementinecake	12
+clementinecake	16
+clementinecake	18
+clementinecake	32
+cocktail-special	4
+cocktail-special	5
+cocktail-special	12
+cocktail-special	15
+cocktail-special	30
+cocktail-special	32
+cocoa-krispies-oliver-and-company	5
+cocoa-krispies-oliver-and-company	12
+cocoa-krispies-oliver-and-company	32
+coffee	13
+coffee	31
+coffeecake	13
+coffeecake	16
+coffeecake	18
+coffeejelly	2
+coffeejelly	12
+coffeejelly	18
+coffeejelly	28
+coffeejelly	32
+cola-short-ribs-the-bear	4
+cola-short-ribs-the-bear	12
+cola-short-ribs-the-bear	21
+cola-short-ribs-the-bear	30
+cola-short-ribs-the-bear	32
+cold-cure	4
+cold-cure	12
+cold-cure	31
+cookie-cat-steven-universe	4
+cookie-cat-steven-universe	12
+cookie-cat-steven-universe	16
+cookie-cat-steven-universe	18
+cookie-cat-steven-universe	32
+cookie-dough	13
+cookie-dough	15
+cookie-dough	16
+cookie-dough	18
+cookie-nachos-sweet-tooth	12
+cookie-nachos-sweet-tooth	16
+cookie-nachos-sweet-tooth	17
+cookie-nachos-sweet-tooth	18
+copy-cat-spicy-vodka-rigatoni	15
+copy-cat-spicy-vodka-rigatoni	22
+copy-cat-spicy-vodka-rigatoni	27
+copy-cat-spicy-vodka-rigatoni	29
+copy-cat-spicy-vodka-rigatoni	30
+copy-cat-spicy-vodka-rigatoni	31
+coq-au-vin	6
+coq-au-vin	21
+coq-au-vin	22
+coq-au-vin	30
+coq-au-vin	31
+coqauvin	5
+coqauvin	12
+coqauvin	24
+coqauvin	30
+coqauvin	32
+corn-dogs	13
+corn-dogs	15
+cornbread	13
+cornbread	16
+cornbread	19
+cornbread	31
+corned-beef	13
+corned-beef	21
+corned-beef	29
+corned-beef	30
+corned-beef	32
+crab-bisque-seinfeld	4
+crab-bisque-seinfeld	12
+crab-bisque-seinfeld	23
+crab-bisque-seinfeld	30
+crab-bisque-seinfeld	32
+creme-caramel	13
+creme-caramel	18
+cremebrule	5
+cremebrule	12
+cremebrule	18
+cremebrule	32
+crepessuzette	5
+crepessuzette	12
+crepessuzette	18
+crepessuzette	33
+crispiest-sandwich-kidnapped-on-christmas	12
+crispiest-sandwich-kidnapped-on-christmas	20
+crispiest-sandwich-kidnapped-on-christmas	29
+croque-monsieur-brooklyn-nine-nine	4
+croque-monsieur-brooklyn-nine-nine	12
+croquemadame	12
+croquemadame	20
+croquemadame	28
+croquemadame	31
+croquemadame	32
+cubanos-inspired-by-chef	5
+cubanos-inspired-by-chef	12
+cubanos-inspired-by-chef	20
+cubanos-inspired-by-chef	21
+cubanos-inspired-by-chef	29
+cubanos-inspired-by-chef	32
+curbyourenthusiasm	4
+curbyourenthusiasm	12
+curbyourenthusiasm	31
+curry-risotto-omurice-inspired-by-food-wars!	2
+curry-risotto-omurice-inspired-by-food-wars!	10
+curry-risotto-omurice-inspired-by-food-wars!	21
+curry-risotto-omurice-inspired-by-food-wars!	28
+curry-risotto-omurice-inspired-by-food-wars!	29
+curry-risotto-omurice-inspired-by-food-wars!	30
+curry-risotto-omurice-inspired-by-food-wars!	32
+dalgona-squid-games	4
+dalgona-squid-games	12
+dalgona-squid-games	18
+date-night	13
+date-night	31
+date-night-2	13
+date-night-2	30
+date-night-2	31
+deadpoolpizza	5
+deadpoolpizza	12
+deadpoolpizza	14
+deadpoolpizza	29
+deadpoolpizza	30
+deadpoolpizza	31
+deathsandwich	4
+deathsandwich	12
+deathsandwich	17
+deathsandwich	20
+deathsandwich	21
+deathsandwich	29
+deathsandwich	30
+deathsandwich	31
+deathsandwich	32
+deep-fried-burger-bomb	11
+deep-fried-burger-bomb	17
+deep-fried-burger-bomb	21
+deep-fried-burger-bomb	29
+deep-fried-burger-bomb	30
+deep-fried-burger-bomb	32
+deepdishpizza	4
+deepdishpizza	12
+deepdishpizza	14
+demon-burger-inspired-by-dragon-ball-daima	2
+demon-burger-inspired-by-dragon-ball-daima	10
+demon-burger-inspired-by-dragon-ball-daima	16
+demon-burger-inspired-by-dragon-ball-daima	17
+demon-burger-inspired-by-dragon-ball-daima	21
+demon-burger-inspired-by-dragon-ball-daima	30
+demon-burger-inspired-by-dragon-ball-daima	32
+dessertdogs	4
+dessertdogs	12
+dessertdogs	17
+dessertdogs	18
+dessertdogs	32
+dessertpasta	5
+dessertpasta	12
+dessertpasta	17
+dessertpasta	18
+dessertpasta	22
+dessertpasta	25
+dessertpasta	28
+dessertpasta	31
+devil-fruit-inspired-by-one-piece	2
+devil-fruit-inspired-by-one-piece	10
+devil-fruit-inspired-by-one-piece	16
+devil-fruit-inspired-by-one-piece	18
+devil-fruit-inspired-by-one-piece	31
+devil-fruit-inspired-by-one-piece	32
+dexter-key-lime-pie	4
+dexter-key-lime-pie	12
+dexter-key-lime-pie	16
+dexter-key-lime-pie	18
+dexter-key-lime-pie	32
+diablo-onigiri	4
+diablo-onigiri	12
+dinner-wandavision	4
+dinner-wandavision	12
+dinner-wandavision	17
+dinner-wandavision	32
+direwolfbread	4
+direwolfbread	12
+direwolfbread	16
+direwolfbread	32
+dobladitas-con-salsa-verde	7
+dobladitas-con-salsa-verde	15
+dobladitas-con-salsa-verde	21
+dobladitas-con-salsa-verde	29
+dobladitas-con-salsa-verde	30
+dobladitas-con-salsa-verde	31
+dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv	3
+dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv	9
+dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv	17
+dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv	20
+dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv	21
+dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv	29
+dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv	31
+donuts	13
+donuts	16
+donuts	18
+donuts	32
+duck-fries-john-wick	5
+duck-fries-john-wick	12
+duck-fries-john-wick	19
+duck-fries-john-wick	21
+duck-fries-john-wick	30
+dutchbaby	4
+dutchbaby	12
+dutchbaby	28
+dutchbaby	31
+egg-custard-tarts	4
+egg-custard-tarts	12
+egg-custard-tarts	16
+egg-custard-tarts	18
+egg-custard-tarts	28
+egg-custard-tarts	32
+egg-salad-inspired-by-futurama	4
+egg-salad-inspired-by-futurama	12
+egg-salad-inspired-by-futurama	16
+egg-salad-inspired-by-futurama	19
+egg-salad-inspired-by-futurama	20
+egg-salad-inspired-by-futurama	29
+egg-salad-inspired-by-futurama	31
+egginanest	12
+egginanest	28
+egginanest	31
+eggscellentchallenge	4
+eggscellentchallenge	12
+eggsflorentine	4
+eggsflorentine	12
+eggsflorentine	28
+eggsflorentine	31
+eggspart2	13
+eggspart2	28
+eggspart2	31
+eggswoodhouse	4
+eggswoodhouse	12
+eggswoodhouse	17
+eggswoodhouse	28
+eggswoodhouse	32
+el-burdigato-teen-titans-go	4
+el-burdigato-teen-titans-go	12
+empanadas	13
+empanadas	31
+enchiladas-schitts-creek	4
+enchiladas-schitts-creek	12
+enchiladas-schitts-creek	15
+enchiladas-schitts-creek	29
+enchiladas-schitts-creek	30
+enchiladas-schitts-creek	31
+english-muffins	13
+english-muffins	16
+english-muffins	28
+english-muffins	32
+espressodrinks	13
+espressodrinks	31
+everymeatburrito	4
+everymeatburrito	12
+everymeatburrito	32
+everything-bagel-eeao	5
+everything-bagel-eeao	12
+everything-bagel-eeao	28
+everything-bagel-eeao	32
+falafels	13
+falafels	25
+fallout-fancy-lad-snack-cakes-inspired-by-fallout-76	3
+fallout-fancy-lad-snack-cakes-inspired-by-fallout-76	15
+fallout-fancy-lad-snack-cakes-inspired-by-fallout-76	16
+fallout-fancy-lad-snack-cakes-inspired-by-fallout-76	18
+fallout-fancy-lad-snack-cakes-inspired-by-fallout-76	31
+feast-from-chef	5
+feast-from-chef	12
+fettuccine-alfredo-the-office	4
+fettuccine-alfredo-the-office	12
+fettuccine-alfredo-the-office	22
+fish	13
+fish	15
+fish	23
+fish	29
+fish	30
+fish	31
+fish-fingers-custard-doctor-who	4
+fish-fingers-custard-doctor-who	12
+fish-fingers-custard-doctor-who	18
+fish-fingers-custard-doctor-who	23
+fish-fingers-custard-doctor-who	29
+fish-fingers-custard-doctor-who	31
+fitz-sandwich	4
+fitz-sandwich	12
+fitz-sandwich	15
+fitz-sandwich	20
+fitz-sandwich	29
+fitz-sandwich	31
+flandershotcocoa	5
+flandershotcocoa	12
+flandershotcocoa	31
+flatbreads	13
+flatbreads	16
+flatbreads	32
+florentine-foccacia-sandwich-inspired-by	11
+florentine-foccacia-sandwich-inspired-by	16
+florentine-foccacia-sandwich-inspired-by	20
+florentine-foccacia-sandwich-inspired-by	21
+florentine-foccacia-sandwich-inspired-by	29
+florentine-foccacia-sandwich-inspired-by	30
+florentine-foccacia-sandwich-inspired-by	32
+footlong-taco-dogs-bobs-burgers	4
+footlong-taco-dogs-bobs-burgers	12
+footlong-taco-dogs-bobs-burgers	29
+footlong-taco-dogs-bobs-burgers	30
+footlong-taco-dogs-bobs-burgers	32
+forrestgumpshrimp	12
+four-horsemeal-eggporkalypse-parks-and-rec	4
+four-horsemeal-eggporkalypse-parks-and-rec	12
+four-horsemeal-eggporkalypse-parks-and-rec	17
+four-horsemeal-eggporkalypse-parks-and-rec	28
+four-horsemeal-eggporkalypse-parks-and-rec	32
+fraiserspecial	4
+fraiserspecial	12
+fraiserspecial	21
+fraiserspecial	23
+fraiserspecial	30
+fraiserspecial	32
+freddys-ribs-inspired-by-house-of-cards	4
+freddys-ribs-inspired-by-house-of-cards	12
+freddys-ribs-inspired-by-house-of-cards	21
+freddys-ribs-inspired-by-house-of-cards	29
+freddys-ribs-inspired-by-house-of-cards	30
+freddys-ribs-inspired-by-house-of-cards	32
+freezer-meals	13
+freezer-meals	31
+french-toast	13
+french-toast	15
+french-toast	28
+french-toast	31
+frenchonionsoup	13
+frenchonionsoup	24
+frenchonionsoup	29
+frenchonionsoup	30
+frenchonionsoup	32
+fried-bear-inspired-food-wars!	2
+fried-bear-inspired-food-wars!	10
+fried-chicken-inspired-by-legend-of-zelda:-tears-of-the-kingdom	3
+fried-chicken-inspired-by-legend-of-zelda:-tears-of-the-kingdom	9
+fried-chicken-inspired-by-legend-of-zelda:-tears-of-the-kingdom	17
+fried-chicken-inspired-by-legend-of-zelda:-tears-of-the-kingdom	21
+fried-chicken-inspired-by-legend-of-zelda:-tears-of-the-kingdom	30
+fried-chicken-inspired-by-legend-of-zelda:-tears-of-the-kingdom	33
+fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	4
+fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	12
+fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	17
+fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	21
+fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	28
+fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	32
+fried-rice-2-ways	13
+fried-rice-2-ways	15
+friedgreentomatoes	5
+friedgreentomatoes	12
+friedgreentomatoes	19
+friedgreentomatoes	30
+friedgreentomatoes	31
+friedrice	13
+friedrice	19
+friedrice	29
+friedrice	30
+friedrice	31
+futurama-shrimp-popplers	4
+futurama-shrimp-popplers	12
+futurama-shrimp-popplers	19
+futurama-shrimp-popplers	23
+futurama-shrimp-popplers	31
+game-day-snacks-part-2	13
+game-day-snacks-part-2	15
+game-day-snacks-part-2	19
+game-day-snacks-part-2	32
+garbageplate	5
+garbageplate	12
+garbageplate	29
+garbageplate	30
+garlic-bread-scott-pilgrim	5
+garlic-bread-scott-pilgrim	12
+garlic-bread-scott-pilgrim	19
+garlic-bread-scott-pilgrim	29
+garlic-bread-scott-pilgrim	30
+garlic-bread-scott-pilgrim	32
+generaltsoschicken	13
+generaltsoschicken	21
+generaltsoschicken	30
+generaltsoschicken	31
+giant-onigiri-inspired-by-cooking-from-valkyries	2
+giant-onigiri-inspired-by-cooking-from-valkyries	10
+giant-red-bean-bun-inspired-by-spirited-away	2
+giant-red-bean-bun-inspired-by-spirited-away	5
+giant-red-bean-bun-inspired-by-spirited-away	10
+giant-red-bean-bun-inspired-by-spirited-away	15
+giant-red-bean-bun-inspired-by-spirited-away	18
+giant-red-bean-bun-inspired-by-spirited-away	28
+giant-red-bean-bun-inspired-by-spirited-away	29
+giant-red-bean-bun-inspired-by-spirited-away	30
+giant-red-bean-bun-inspired-by-spirited-away	31
+glowing-popsicles-the-mandalorian	4
+glowing-popsicles-the-mandalorian	12
+glowing-popsicles-the-mandalorian	17
+glowing-popsicles-the-mandalorian	18
+gluten-free-pasta	13
+gluten-free-pasta	22
+gluten-free-pasta	26
+gluten-free-pasta	29
+gluten-free-pasta	30
+gluten-free-pasta	32
+gnocchi	13
+gnocchi	22
+go-to-pasta	13
+go-to-pasta	15
+go-to-pasta	22
+go-to-pasta	30
+go-to-pasta	31
+golden-fried-rice-inspired-by-kaguya-sama:-love-is-war	2
+golden-fried-rice-inspired-by-kaguya-sama:-love-is-war	10
+golden-fried-rice-inspired-by-kaguya-sama:-love-is-war	19
+golden-fried-rice-inspired-by-kaguya-sama:-love-is-war	29
+golden-fried-rice-inspired-by-kaguya-sama:-love-is-war	30
+goodfellasprisonsauce	5
+goodfellasprisonsauce	12
+goodfellasprisonsauce	21
+goodfellasprisonsauce	22
+goodfellasprisonsauce	31
+goodfellasprisonsauce	32
+goodmorningburger	4
+goodmorningburger	12
+goodmorningburger	28
+goodmorningburger	31
+gotcha-pork-roast-food-wars	2
+gotcha-pork-roast-food-wars	12
+gotcha-pork-roast-food-wars	21
+gotcha-pork-roast-food-wars	30
+gotcha-pork-roast-food-wars	32
+gourmet-choco-taco	1
+gourmet-choco-taco	17
+gourmet-choco-taco	18
+gourmet-choco-taco	32
+gourmet-meat-stew-inspired-by-breath-of-the-wild	3
+gourmet-meat-stew-inspired-by-breath-of-the-wild	9
+green-goddess-egg-salad	1
+green-goddess-egg-salad	25
+green-goddess-egg-salad	26
+green-goddess-egg-salad	28
+green-goddess-egg-salad	29
+green-goddess-egg-salad	30
+green-goddess-egg-salad	31
+grilled-feast	13
+grilled-feast	21
+grilled-feast	29
+grilled-feast	30
+grilled-feast	31
+grilledcheesedeluxe	4
+grilledcheesedeluxe	12
+grilling-5j345	13
+grilling-5j345	21
+grilling-5j345	29
+grilling-5j345	30
+grilling-5j345	31
+grits-breakfast-my-cousin-vinny	5
+grits-breakfast-my-cousin-vinny	12
+grits-breakfast-my-cousin-vinny	19
+grits-breakfast-my-cousin-vinny	28
+grits-breakfast-my-cousin-vinny	31
+halloumi-sandwich	1
+halloumi-sandwich	20
+halloumi-sandwich	25
+halloumi-sandwich	26
+halloumi-sandwich	29
+halloumi-sandwich	30
+halloumi-sandwich	31
+harrypotterspecial	5
+harrypotterspecial	12
+harrypotterspecial	32
+healthier-crunchwrap-supreme	13
+healthier-crunchwrap-supreme	15
+healthier-crunchwrap-supreme	26
+healthier-crunchwrap-supreme	29
+healthier-crunchwrap-supreme	30
+healthier-crunchwrap-supreme	31
+healthy-meals-brown-rice	13
+healthy-meals-brown-rice	19
+healthy-meals-brown-rice	26
+healthy-meals-brown-rice	29
+healthy-meals-brown-rice	30
+healthy-meals-brown-rice	31
+healthymeals	13
+healthymeals	26
+healthymeals	31
+healthymeals2	13
+healthymeals2	26
+healthymeals2	29
+healthymeals2	30
+healthymeals2	31
+herring-and-pumpkin-pot-pie-inspired-by-kiki's-delivery-service	2
+herring-and-pumpkin-pot-pie-inspired-by-kiki's-delivery-service	10
+herring-and-pumpkin-pot-pie-inspired-by-kiki's-delivery-service	16
+herring-and-pumpkin-pot-pie-inspired-by-kiki's-delivery-service	23
+herring-and-pumpkin-pot-pie-inspired-by-kiki's-delivery-service	30
+herring-and-pumpkin-pot-pie-inspired-by-kiki's-delivery-service	31
+holidaycocktails	13
+holidaycocktails	31
+home-alone-special	5
+home-alone-special	12
+home-alone-special	31
+homemade-mozzarella	2
+homemade-mozzarella	12
+homemade-mozzarella	19
+homemade-mozzarella	25
+homemade-mozzarella	29
+homemade-mozzarella	30
+homemade-mozzarella	31
+honey-toast-inspired-by-chainsaw-man	2
+honey-toast-inspired-by-chainsaw-man	10
+honey-toast-inspired-by-chainsaw-man	16
+honey-toast-inspired-by-chainsaw-man	18
+honey-toast-inspired-by-chainsaw-man	19
+honey-toast-inspired-by-chainsaw-man	28
+honey-toast-inspired-by-chainsaw-man	31
+hot-chicken	13
+hot-chicken	21
+hot-chicken	29
+hot-chicken	30
+hot-chicken	31
+hot-dog-bowl-inspired-by-detroit's	4
+hot-dog-bowl-inspired-by-detroit's	12
+hot-dog-bowl-inspired-by-detroit's	17
+hot-dog-bowl-inspired-by-detroit's	21
+hot-dog-bowl-inspired-by-detroit's	29
+hot-dog-bowl-inspired-by-detroit's	30
+hot-dog-bowl-inspired-by-detroit's	31
+hot-dog-bowl-inspired-by-detroit's	32
+huevosrancheros	4
+huevosrancheros	12
+huevosrancheros	15
+huevosrancheros	28
+huevosrancheros	31
+ice-cream-cake	13
+ice-cream-cake	16
+ice-cream-cake	18
+ice-cream-cake	32
+ice-cream-sandwiches	13
+ice-cream-sandwiches	18
+icecream	13
+icecream	18
+icecream	31
+ichiraku-ramen-inspired-by-naruto	2
+ichiraku-ramen-inspired-by-naruto	10
+ichiraku-ramen-inspired-by-naruto	22
+ichiraku-ramen-inspired-by-naruto	24
+if-looks-could-kale	4
+if-looks-could-kale	12
+if-looks-could-kale	29
+if-looks-could-kale	30
+if-looks-could-kale	32
+il-timpano-inspired-by-big-night	5
+il-timpano-inspired-by-big-night	12
+il-timpano-inspired-by-big-night	21
+il-timpano-inspired-by-big-night	22
+il-timpano-inspired-by-big-night	30
+il-timpano-inspired-by-big-night	33
+iloveyoumanfishtacos	5
+iloveyoumanfishtacos	12
+iloveyoumanfishtacos	15
+iloveyoumanfishtacos	23
+iloveyoumanfishtacos	26
+iloveyoumanfishtacos	29
+iloveyoumanfishtacos	30
+iloveyoumanfishtacos	31
+imaginary-pie-hook	5
+imaginary-pie-hook	12
+imaginary-pie-hook	16
+imaginary-pie-hook	18
+imaginary-pie-hook	31
+indianbreads	13
+indianbreads	19
+indianbreads	32
+infernowings	4
+infernowings	12
+infernowings	21
+infernowings	29
+infernowings	30
+infernowings	31
+ingloriousbasterds	5
+ingloriousbasterds	12
+ingloriousbasterds	16
+ingloriousbasterds	18
+ingloriousbasterds	29
+ingloriousbasterds	30
+ingloriousbasterds	32
+instant-mac-cheese	5
+instant-mac-cheese	12
+introductiontools	13
+isotope-dog-the-simpsons	4
+isotope-dog-the-simpsons	12
+itsalwayssunnyspecial	4
+itsalwayssunnyspecial	12
+itsalwayssunnyspecial	17
+itsalwayssunnyspecial	21
+itsalwayssunnyspecial	28
+itsalwayssunnyspecial	29
+itsalwayssunnyspecial	30
+itsalwayssunnyspecial	31
+jalapeno-popper-mac-and-cheese	13
+jalapeno-popper-mac-and-cheese	19
+jalapeno-popper-mac-and-cheese	29
+jalapeno-popper-mac-and-cheese	30
+jalapeno-popper-mac-and-cheese	31
+japanese-style-big-mac-inspired-by-weathering-with-you	2
+japanese-style-big-mac-inspired-by-weathering-with-you	10
+japanese-style-big-mac-inspired-by-weathering-with-you	16
+japanese-style-big-mac-inspired-by-weathering-with-you	21
+japanese-style-big-mac-inspired-by-weathering-with-you	29
+japanese-style-big-mac-inspired-by-weathering-with-you	30
+japanese-style-big-mac-inspired-by-weathering-with-you	31
+japanese-style-big-mac-inspired-by-weathering-with-you	32
+jell-o-cake-nuka-cola-and-cram-inspired-by-fallout	3
+jell-o-cake-nuka-cola-and-cram-inspired-by-fallout	17
+jell-o-cake-nuka-cola-and-cram-inspired-by-fallout	19
+jell-o-cake-nuka-cola-and-cram-inspired-by-fallout	21
+jell-o-cake-nuka-cola-and-cram-inspired-by-fallout	33
+jerk-chicken	13
+jerk-chicken	15
+jerk-chicken	21
+jerk-meat-platter-inspired-by-futurama	4
+jerk-meat-platter-inspired-by-futurama	12
+jerk-meat-platter-inspired-by-futurama	21
+jerk-meat-platter-inspired-by-futurama	29
+jerk-meat-platter-inspired-by-futurama	30
+jerk-meat-platter-inspired-by-futurama	33
+jiggly-souffle-omelette-inspired-by-food-wars!	2
+jiggly-souffle-omelette-inspired-by-food-wars!	10
+jiggly-souffle-omelette-inspired-by-food-wars!	15
+jiggly-souffle-omelette-inspired-by-food-wars!	28
+jiggly-souffle-omelette-inspired-by-food-wars!	29
+jiggly-souffle-omelette-inspired-by-food-wars!	31
+jiggly-souffle-omelette-inspired-by-food-wars!	32
+johnnycakes	4
+johnnycakes	12
+johnnycakes	28
+johnnycakes	31
+judys-hot-cocoa-santa-clause	5
+judys-hot-cocoa-santa-clause	12
+judys-hot-cocoa-santa-clause	18
+judys-hot-cocoa-santa-clause	31
+katz's-corned-beef-and-pastrami	11
+katz's-corned-beef-and-pastrami	20
+katz's-corned-beef-and-pastrami	21
+katz's-corned-beef-and-pastrami	29
+katz's-corned-beef-and-pastrami	30
+katz's-corned-beef-and-pastrami	32
+kelp-bar-spongebob	4
+kelp-bar-spongebob	12
+kelp-bar-spongebob	18
+kelp-bar-spongebob	32
+kettle-corn-community	4
+kettle-corn-community	12
+kettle-corn-community	15
+kettle-corn-community	31
+kevin's-snacks-inspired-by-the-office	4
+kevin's-snacks-inspired-by-the-office	12
+kevinschili	4
+kevinschili	12
+kevinschili	21
+kevinschili	24
+kevinschili	29
+kevinschili	30
+kevinschili	31
+kfcmeal	4
+kfcmeal	12
+kfcmeal	21
+kfcmeal	29
+kfcmeal	30
+kfcmeal	31
+kikufuku-mochi-inspired-by-jujutsu-kaisen	2
+kikufuku-mochi-inspired-by-jujutsu-kaisen	10
+kikufuku-mochi-inspired-by-jujutsu-kaisen	18
+kikufuku-mochi-inspired-by-jujutsu-kaisen	19
+kikufuku-mochi-inspired-by-jujutsu-kaisen	32
+kimbap-and-lunchbox-inspired-by-squid-game-season-2	4
+kimbap-and-lunchbox-inspired-by-squid-game-season-2	12
+kimbap-and-lunchbox-inspired-by-squid-game-season-2	23
+kimbap-and-lunchbox-inspired-by-squid-game-season-2	26
+kimbap-and-lunchbox-inspired-by-squid-game-season-2	29
+kimbap-and-lunchbox-inspired-by-squid-game-season-2	32
+kimchi	13
+kimchi	19
+kingofthehillspecial	4
+kingofthehillspecial	12
+kingofthehillspecial	32
+kitchencare	13
+korean-cheese-corn-dogs	11
+korean-cheese-corn-dogs	15
+korean-cheese-corn-dogs	18
+korean-cheese-corn-dogs	19
+korean-cheese-corn-dogs	31
+korean-garlic-fried-chicken-inspired-by-korean-street-food	11
+korean-garlic-fried-chicken-inspired-by-korean-street-food	15
+korean-garlic-fried-chicken-inspired-by-korean-street-food	19
+korean-garlic-fried-chicken-inspired-by-korean-street-food	21
+korean-garlic-fried-chicken-inspired-by-korean-street-food	29
+korean-garlic-fried-chicken-inspired-by-korean-street-food	31
+korean-pizza-toast	11
+korean-pizza-toast	14
+korean-pizza-toast	15
+korean-pizza-toast	19
+korean-pizza-toast	20
+korean-pizza-toast	29
+korean-pizza-toast	31
+korean-rice-cakes	13
+korean-rice-cakes	19
+korean-rice-cakes	31
+kpop-demon-hunters-airplane-feast	5
+kpop-demon-hunters-airplane-feast	17
+kpop-demon-hunters-airplane-feast	21
+kpop-demon-hunters-airplane-feast	22
+kpop-demon-hunters-airplane-feast	23
+kpop-demon-hunters-airplane-feast	24
+kpop-demon-hunters-airplane-feast	32
+krabby-patty-inspired-by-spongebob-squarepants	4
+krabby-patty-inspired-by-spongebob-squarepants	12
+krabby-patty-inspired-by-spongebob-squarepants	20
+krabby-patty-inspired-by-spongebob-squarepants	21
+krabby-patty-inspired-by-spongebob-squarepants	29
+krabby-patty-inspired-by-spongebob-squarepants	30
+krabby-patty-inspired-by-spongebob-squarepants	31
+krabbysupreme	4
+krabbysupreme	12
+krabbysupreme	17
+krabbysupreme	29
+krabbysupreme	30
+krabbysupreme	31
+kumandra-soup-raya-and-the-last-dragon	5
+kumandra-soup-raya-and-the-last-dragon	12
+kumandra-soup-raya-and-the-last-dragon	24
+kumandra-soup-raya-and-the-last-dragon	29
+kumandra-soup-raya-and-the-last-dragon	30
+kumandra-soup-raya-and-the-last-dragon	32
+kung-pao-chicken-seinfeld	4
+kung-pao-chicken-seinfeld	12
+kung-pao-chicken-seinfeld	15
+kung-pao-chicken-seinfeld	21
+kung-pao-chicken-seinfeld	29
+kung-pao-chicken-seinfeld	30
+kung-pao-chicken-seinfeld	31
+la-bombe-eclair-the-simpsons	4
+la-bombe-eclair-the-simpsons	12
+la-bombe-eclair-the-simpsons	16
+la-bombe-eclair-the-simpsons	18
+lamb-chops	13
+lamb-chops	21
+lamb-chops	30
+lamb-chops	32
+land-octopus-elden-ring	3
+land-octopus-elden-ring	12
+land-octopus-elden-ring	23
+land-octopus-elden-ring	30
+land-octopus-elden-ring	32
+larbstickyrice	5
+larbstickyrice	12
+lasagna	5
+lasagna	12
+lasagna	22
+lasagna	30
+lasagna	31
+last-minute-thanksgiving	13
+last-minute-thanksgiving	31
+last-minute-thanksgiving	33
+latkes	13
+latkes	19
+lava-chicken-inspired-by-a-minecraft-movie	5
+lava-chicken-inspired-by-a-minecraft-movie	6
+lava-chicken-inspired-by-a-minecraft-movie	17
+lava-chicken-inspired-by-a-minecraft-movie	21
+lava-chicken-inspired-by-a-minecraft-movie	29
+lava-chicken-inspired-by-a-minecraft-movie	30
+lava-chicken-inspired-by-a-minecraft-movie	33
+layered-butter-toast-danish-creamery	11
+layered-butter-toast-danish-creamery	16
+layered-butter-toast-danish-creamery	18
+layered-butter-toast-danish-creamery	32
+lemon-cakes-inspired-by-game-of-thrones	4
+lemon-cakes-inspired-by-game-of-thrones	12
+lemon-cakes-inspired-by-game-of-thrones	16
+lemon-cakes-inspired-by-game-of-thrones	18
+lemon-cakes-inspired-by-game-of-thrones	29
+lemon-cakes-inspired-by-game-of-thrones	30
+lemon-cakes-inspired-by-game-of-thrones	32
+lemon-meringue-pie	13
+lemon-meringue-pie	16
+lemon-meringue-pie	18
+lemon-meringue-pie	32
+lemon-pepper-wet	4
+lemon-pepper-wet	12
+lemon-pepper-wet	19
+lemon-pepper-wet	21
+lemon-pepper-wet	29
+lemon-pepper-wet	30
+lemon-pepper-wet	31
+lentil-soup-moon-knight	4
+lentil-soup-moon-knight	12
+lentil-soup-moon-knight	15
+lentil-soup-moon-knight	24
+lentil-soup-moon-knight	29
+lentil-soup-moon-knight	30
+lentil-soup-moon-knight	31
+let's-make:-french-onion-soup	8
+let's-make:-french-onion-soup	24
+let's-make:-french-onion-soup	29
+let's-make:-french-onion-soup	30
+let's-make:-french-onion-soup	32
+let's-make:-steak-and-eggs-au-poivre	8
+let's-make:-steak-and-eggs-au-poivre	21
+let's-make:-steak-and-eggs-au-poivre	28
+let's-make:-steak-and-eggs-au-poivre	29
+let's-make:-steak-and-eggs-au-poivre	30
+let's-make:-steak-and-eggs-au-poivre	31
+level-9:-babish's-pbandj	6
+level-9:-babish's-pbandj	17
+level-9:-babish's-pbandj	20
+level-9:-babish's-pbandj	28
+level-9:-babish's-pbandj	29
+level-9:-babish's-pbandj	30
+level-9:-babish's-pbandj	32
+lilbits-rickandmorty	4
+lilbits-rickandmorty	12
+lilbits-rickandmorty	32
+lobster-salad-panzanella	1
+lobster-salad-panzanella	16
+lobster-salad-panzanella	23
+lobster-salad-panzanella	30
+lobster-salad-panzanella	31
+lobster-scrambled-eggs-seinfeld	4
+lobster-scrambled-eggs-seinfeld	12
+lobster-scrambled-eggs-seinfeld	23
+lobster-scrambled-eggs-seinfeld	28
+lobster-scrambled-eggs-seinfeld	32
+looney-cake-succession	4
+looney-cake-succession	12
+looney-cake-succession	16
+looney-cake-succession	18
+lotr-feast-special	5
+lotr-feast-special	12
+louiefriedchicken	4
+louiefriedchicken	12
+louiefriedchicken	21
+louiefriedchicken	29
+louiefriedchicken	30
+louiefriedchicken	32
+lunches-the-breakfast-club	5
+lunches-the-breakfast-club	12
+lunches-the-breakfast-club	29
+lunches-the-breakfast-club	31
+macandcheese	13
+macandcheese	15
+macandcheese	19
+macarons-the-mandalorian	4
+macarons-the-mandalorian	12
+macarons-the-mandalorian	16
+macarons-the-mandalorian	18
+macarons-the-mandalorian	32
+madmen	4
+madmen	12
+madmen	21
+madmen	30
+madmen	32
+maisel-brisket	4
+maisel-brisket	12
+maisel-brisket	21
+maisel-brisket	30
+maisel-brisket	32
+marmalade	5
+marmalade	12
+marmalade	20
+marmalade	28
+marmalade	31
+mashed-potatoes	13
+mashed-potatoes	15
+mashed-potatoes	19
+mashed-potatoes	28
+mashed-potatoes	31
+mayors-request-cloudy-with-a-chance-of-meatballs	5
+mayors-request-cloudy-with-a-chance-of-meatballs	12
+mayors-request-cloudy-with-a-chance-of-meatballs	33
+mc1035-archer	4
+mc1035-archer	12
+mc1035-archer	17
+mc1035-archer	20
+mc1035-archer	29
+mc1035-archer	30
+mc1035-archer	32
+mean-girls-toaster-strudel	5
+mean-girls-toaster-strudel	12
+mean-girls-toaster-strudel	16
+mean-girls-toaster-strudel	28
+mean-girls-toaster-strudel	32
+meat-pies-sweeny-todd	5
+meat-pies-sweeny-todd	12
+meat-pies-sweeny-todd	32
+meat-tornado-parks-and-rec	4
+meat-tornado-parks-and-rec	12
+meat-tornado-parks-and-rec	17
+meatball-smashwich-with-babish	6
+meatball-smashwich-with-babish	16
+meatball-smashwich-with-babish	20
+meatball-smashwich-with-babish	21
+meatball-smashwich-with-babish	31
+meatballs-30rock	4
+meatballs-30rock	12
+meatballs-30rock	21
+meatballs-30rock	29
+meatballs-30rock	30
+meatballs-30rock	31
+meatghetti-spagballs-american-dad	4
+meatghetti-spagballs-american-dad	12
+meatghetti-spagballs-american-dad	22
+meatghetti-spagballs-american-dad	33
+meatloaf	13
+meatloaf	15
+meatloaf	21
+meatloaf	30
+meatloaf	31
+megs-dinner-family-guy	4
+megs-dinner-family-guy	12
+megs-dinner-family-guy	30
+megs-dinner-family-guy	33
+michaelscottpretzel	4
+michaelscottpretzel	12
+michaelscottpretzel	16
+millionaires-shortbread	13
+millionaires-shortbread	16
+millionaires-shortbread	18
+millionaires-shortbread	32
+minecraft-cake-inspired-by-minecraft	3
+minecraft-cake-inspired-by-minecraft	9
+mirages-pork-chops	3
+mirages-pork-chops	12
+mirages-pork-chops	21
+mirages-pork-chops	30
+mirages-pork-chops	32
+miso-honey-butter-pancakes	8
+miso-honey-butter-pancakes	16
+miso-honey-butter-pancakes	18
+miso-honey-butter-pancakes	28
+miso-honey-butter-pancakes	31
+mitarashi-dango-inspired-by-demon-slayer	2
+mitarashi-dango-inspired-by-demon-slayer	10
+mitarashi-dango-inspired-by-demon-slayer	18
+mitarashi-dango-inspired-by-demon-slayer	19
+mitarashi-dango-inspired-by-demon-slayer	32
+mitarashi-dango-inspired-by-demon-slayer	33
+mochi-icecream	13
+mochi-icecream	18
+mofongo	13
+moistmaker	4
+moistmaker	12
+moistmaker	17
+moistmaker	20
+moistmaker	21
+moistmaker	28
+moistmaker	29
+moistmaker	30
+moistmaker	32
+monicas-candy-friends	4
+monicas-candy-friends	12
+monicas-candy-friends	18
+monicas-candy-friends	33
+monkey-bread	13
+monkey-bread	15
+monkey-bread	16
+monkey-bread	18
+monkey-bread	32
+monte-cristo-american-dad	4
+monte-cristo-american-dad	12
+moonwaffles	4
+moonwaffles	12
+moonwaffles	18
+moonwaffles	25
+moonwaffles	28
+moonwaffles	31
+moroccanpasta	4
+moroccanpasta	12
+moroccanpasta	22
+moroccanpasta	30
+moroccanpasta	32
+mostexpensiveshake	5
+mostexpensiveshake	12
+mostexpensiveshake	32
+mulancongee	5
+mulancongee	12
+mulancongee	29
+mulancongee	30
+mulancongee	31
+mushroom-pasta-super-mario-movie	5
+mushroom-pasta-super-mario-movie	12
+mushroom-pasta-super-mario-movie	22
+my-top-5-easy-sexy-dishes	13
+my-top-5-easy-sexy-dishes	15
+my-top-5-easy-sexy-dishes	16
+my-top-5-easy-sexy-dishes	22
+my-top-5-easy-sexy-dishes	30
+my-top-5-easy-sexy-dishes	31
+nachos	4
+nachos	12
+nachos	19
+nipples-of-venus-amadeus	5
+nipples-of-venus-amadeus	12
+nipples-of-venus-amadeus	18
+nopal-katsu-sando	7
+nopal-katsu-sando	15
+nopal-katsu-sando	20
+nopal-katsu-sando	25
+nopal-katsu-sando	26
+nopal-katsu-sando	31
+nypizzatmnt	5
+nypizzatmnt	12
+nypizzatmnt	14
+nypizzatmnt	25
+nypizzatmnt	29
+nypizzatmnt	30
+nypizzatmnt	32
+okonomiyaki	2
+okonomiyaki	12
+okonomiyaki	32
+omelette-du-fromage-dexters-laboratory	4
+omelette-du-fromage-dexters-laboratory	12
+omelette-du-fromage-dexters-laboratory	28
+omelette-du-fromage-dexters-laboratory	32
+one-piece-tuna-saute	2
+one-piece-tuna-saute	4
+onepot-pasta	13
+onepot-pasta	15
+onepot-pasta	22
+onepot-pasta	29
+onepot-pasta	30
+onepot-pasta	31
+orangemochafrapp	5
+orangemochafrapp	12
+orangemochafrapp	18
+orangemochafrapp	31
+orangemochafrapp-fpm9l	2
+orangemochafrapp-fpm9l	5
+orangemochafrapp-fpm9l	12
+orangemochafrapp-fpm9l	28
+orangemochafrapp-fpm9l	31
+ossobuco	4
+ossobuco	12
+ossobuco	21
+ossobuco	30
+ossobuco	32
+pan-sauces	13
+pan-sauces	29
+pan-sauces	30
+pan-sauces	31
+pan-sauces	32
+pancontomate-crabcakes	13
+pancontomate-crabcakes	19
+panna-cotta-with-poached-pears	7
+panna-cotta-with-poached-pears	18
+panna-cotta-with-poached-pears	19
+panna-cotta-with-poached-pears	31
+panpizza	13
+panpizza	14
+parksandrecburger	4
+parksandrecburger	12
+parksandrecburger	20
+parksandrecburger	29
+parksandrecburger	30
+parksandrecburger	31
+parksandrecburger	32
+parmhero	12
+parmhero	20
+parmhero	29
+parmhero	30
+parmhero	31
+pasta-al-limone	13
+pasta-al-limone	15
+pasta-al-limone	22
+pasta-al-limone	29
+pasta-al-limone	30
+pasta-al-limone	31
+pasta-curry-inspired-by-pokemon-sword-and-shield	3
+pasta-curry-inspired-by-pokemon-sword-and-shield	9
+pasta-salad	13
+pasta-salad	15
+pasta-salad	19
+pasta-salad	22
+pasta2	13
+pasta2	22
+pastaputtanesca	5
+pastaputtanesca	12
+pastaputtanesca	22
+pastaputtanesca	30
+pastaputtanesca	32
+pastrami	5
+pastrami	12
+pastrami	21
+pastrami	29
+pastrami	30
+pastrami	32
+patricks-briefcase-spongebob	4
+patricks-briefcase-spongebob	12
+patricks-briefcase-spongebob	32
+paunch-burger-parks-and-rec	4
+paunch-burger-parks-and-rec	12
+paunch-burger-parks-and-rec	29
+paunch-burger-parks-and-rec	30
+paunch-burger-parks-and-rec	31
+peachs-cake-mario-64	3
+peachs-cake-mario-64	12
+peachs-cake-mario-64	16
+peachs-cake-mario-64	18
+pekingduck	5
+pekingduck	12
+pekingduck	21
+pekingduck	30
+pekingduck	32
+pesto	13
+pesto	15
+pesto	22
+pesto	29
+pesto	30
+pesto	31
+phantomthread-l42pw	5
+phantomthread-l42pw	12
+phantomthread-l42pw	28
+phantomthread-l42pw	32
+picnic-food	13
+picnic-food	31
+pierogis	13
+pierogis	19
+pies	13
+pies	16
+pies	18
+pies	32
+piesfromwaitress	5
+piesfromwaitress	12
+piesfromwaitress	16
+piesfromwaitress	18
+piesfromwaitress	32
+pigeon-pie-with-wild-game-inspired-by-game-of-thrones	4
+pigeon-pie-with-wild-game-inspired-by-game-of-thrones	12
+pigeon-pie-with-wild-game-inspired-by-game-of-thrones	17
+pigeon-pie-with-wild-game-inspired-by-game-of-thrones	21
+pigeon-pie-with-wild-game-inspired-by-game-of-thrones	29
+pigeon-pie-with-wild-game-inspired-by-game-of-thrones	30
+pigeon-pie-with-wild-game-inspired-by-game-of-thrones	32
+pigs-in-a-blanket-office	4
+pigs-in-a-blanket-office	12
+pigs-in-a-blanket-office	19
+pigs-in-a-blanket-office	31
+pineapplecurryfriedrice	2
+pineapplecurryfriedrice	12
+pineapplecurryfriedrice	30
+pineapplecurryfriedrice	32
+pistachio-cake-with-chocolate-ganache	1
+pistachio-cake-with-chocolate-ganache	18
+pistachio-cake-with-chocolate-ganache	31
+pizza-balls-mom	5
+pizza-balls-mom	12
+pizza-balls-mom	14
+pizza-balls-mom	29
+pizza-balls-mom	30
+pizza-balls-mom	32
+pizza-dough	13
+pizza-dough	14
+pizza-dough	29
+pizza-dough	30
+pizza-dough	31
+pizza-gyoza-tmnt	4
+pizza-gyoza-tmnt	12
+pizza-gyoza-tmnt	14
+pizza-in-a-cup-the-jerk	5
+pizza-in-a-cup-the-jerk	12
+pizza-in-a-cup-the-jerk	14
+pizza-in-a-cup-the-jerk	15
+pizzaball	4
+pizzaball	12
+pizzaball	14
+plum-pie-puss-in-boots	5
+plum-pie-puss-in-boots	12
+plum-pie-puss-in-boots	16
+plum-pie-puss-in-boots	18
+poke-bowls	13
+poke-bowls	15
+poke-bowls	29
+poke-bowls	30
+poke-bowls	31
+pollo-a-la-plancha	5
+pollo-a-la-plancha	12
+pollo-a-la-plancha	15
+pollo-a-la-plancha	21
+pollo-a-la-plancha	26
+pollo-a-la-plancha	29
+pollo-a-la-plancha	30
+pollo-a-la-plancha	31
+pollos-hermanos-breaking-bad	4
+pollos-hermanos-breaking-bad	12
+porchetta	13
+porchetta	21
+porchetta	32
+pork-katsudon-inspired-by-yuri!!!-on-ice	2
+pork-katsudon-inspired-by-yuri!!!-on-ice	10
+pork-picnic-sandwich-regular-show	4
+pork-picnic-sandwich-regular-show	12
+pork-picnic-sandwich-regular-show	20
+pork-picnic-sandwich-regular-show	21
+pork-picnic-sandwich-regular-show	29
+pork-picnic-sandwich-regular-show	30
+pork-picnic-sandwich-regular-show	32
+portalcake	3
+portalcake	12
+portalcake	16
+portalcake	18
+portalcake	32
+potato-chip-omelet-the-bear	4
+potato-chip-omelet-the-bear	12
+potato-hash	13
+potato-hash	19
+potato-hash	28
+potato-hash	31
+potroast	13
+potroast	24
+potroast	30
+potroast	32
+potsticker-pizza	4
+potsticker-pizza	12
+potsticker-pizza	14
+potsticker-pizza	21
+potsticker-pizza	29
+potsticker-pizza	30
+potsticker-pizza	31
+potstickers	13
+potstickers	19
+poutine	13
+poutine	29
+poutine	30
+poutine	31
+pretty-patties-spongebob	4
+pretty-patties-spongebob	12
+pretty-patties-spongebob	18
+pretty-patties-spongebob	25
+pretty-patties-spongebob	29
+pretty-patties-spongebob	30
+protein-pizza	13
+protein-pizza	14
+protein-pizza	26
+protein-pizza	29
+protein-pizza	30
+protein-pizza	32
+puerco-pibil	5
+puerco-pibil	12
+puerco-pibil	21
+puerco-pibil	29
+puerco-pibil	30
+puerco-pibil	32
+pullednoodles	5
+pullednoodles	12
+pullednoodles	24
+pullednoodles	29
+pullednoodles	30
+pullednoodles	32
+pulledpork	13
+pulledpork	21
+pulledpork	29
+pulledpork	30
+pulledpork	31
+puppy-paw-hashbrowns	3
+puppy-paw-hashbrowns	12
+puppy-paw-hashbrowns	19
+puppy-paw-hashbrowns	28
+puppy-paw-hashbrowns	32
+quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv	3
+quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv	9
+quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv	15
+quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv	17
+quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv	20
+quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv	21
+quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv	23
+quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv	29
+quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv	30
+quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv	31
+quatroquesodosfritos	4
+quatroquesodosfritos	12
+quatroquesodosfritos	31
+quesadillas	13
+quesadillas	29
+quesadillas	30
+quesadillas	31
+quiche	13
+quiche	15
+quiche	28
+quiche	31
+rabbit-last-of-us	4
+rabbit-last-of-us	12
+rabbit-last-of-us	21
+rabbit-last-of-us	30
+rabbit-sopranos	4
+rabbit-sopranos	12
+rabbit-sopranos	21
+rabbit-sopranos	32
+racheltrifle	4
+racheltrifle	12
+racheltrifle	16
+racheltrifle	18
+racheltrifle	31
+raisinets	5
+raisinets	12
+raisinets	31
+ram-don-parasite	5
+ram-don-parasite	12
+ramen-hacks	13
+ramen-hacks	15
+raspberry-danish-ant-man-and-the-wasp	5
+raspberry-danish-ant-man-and-the-wasp	12
+raspberry-danish-ant-man-and-the-wasp	16
+raspberry-danish-ant-man-and-the-wasp	18
+raspberry-danish-ant-man-and-the-wasp	32
+ratatouille	5
+ratatouille	12
+ratatouille	25
+regular-show-mississippi-queen	4
+regular-show-mississippi-queen	12
+regular-show-mississippi-queen	23
+regular-show-mississippi-queen	32
+remys-soup-ratatouille	5
+remys-soup-ratatouille	12
+remys-soup-ratatouille	15
+remys-soup-ratatouille	24
+remys-soup-ratatouille	30
+renaissance-wrap-inspired-by-shrek-2	5
+renaissance-wrap-inspired-by-shrek-2	20
+renaissance-wrap-inspired-by-shrek-2	29
+renaissance-wrap-inspired-by-shrek-2	32
+renaissance-wrap-inspired-by-shrek-2	33
+restaurant-wars-steven-universe	4
+restaurant-wars-steven-universe	12
+restaurant-wars-steven-universe	29
+restaurant-wars-steven-universe	30
+restaurant-wars-steven-universe	32
+reversesearsteak	12
+reversesearsteak	21
+reversesearsteak	30
+reversesearsteak	32
+ribwich	4
+ribwich	12
+ribwich	20
+ribwich	29
+ribwich	30
+ribwich	32
+rick-and-morty-every-burger	4
+rick-and-morty-every-burger	12
+risotto	13
+risotto	19
+risotto	22
+risotto	29
+risotto	30
+risotto	32
+risotto-tricolore-big-night	5
+risotto-tricolore-big-night	12
+risotto-tricolore-big-night	19
+risotto-tricolore-big-night	22
+risotto-tricolore-big-night	30
+risotto-tricolore-big-night	32
+roast-beef-inspired-by-attack-on-titan	2
+roast-beef-inspired-by-attack-on-titan	10
+roastbeast	5
+roastbeast	12
+roastbeast	21
+roastbeast	30
+roastbeast	32
+root-beer-noodles-the-simpsons	4
+root-beer-noodles-the-simpsons	12
+root-beer-noodles-the-simpsons	17
+root-beer-noodles-the-simpsons	27
+root-beer-noodles-the-simpsons	32
+rumfrenchtoast	4
+rumfrenchtoast	12
+rumfrenchtoast	28
+rumfrenchtoast	32
+salad-nb7s3-3jkft	13
+salad-nb7s3-3jkft	15
+salad-nb7s3-3jkft	19
+salad-nb7s3-3jkft	25
+salad-nb7s3-3jkft	29
+salad-nb7s3-3jkft	30
+salad-nb7s3-3jkft	31
+sandyfryesappetizers	4
+sandyfryesappetizers	12
+sandyfryesappetizers	32
+sanji's-seafood-risotto	2
+sauces	13
+sauces	29
+sauces	30
+sauces	31
+sauces-9w5tm	13
+sauces-9w5tm	21
+sauces-9w5tm	30
+sauces-9w5tm	31
+sauces-9w5tm-2njph	13
+sauces-9w5tm-2njph	22
+sauces-9w5tm-2njph	29
+sauces-9w5tm-2njph	30
+sauces-9w5tm-2njph	31
+sauces-9w5tm-2njph-5ahwj	13
+sauces-9w5tm-2njph-5ahwj	21
+sauces-9w5tm-2njph-5ahwj	29
+sauces-9w5tm-2njph-5ahwj	30
+sauces-9w5tm-2njph-5ahwj	31
+sauces-9w5tm-2njph-5ahwj-hsl7s	13
+sauces-9w5tm-2njph-5ahwj-hsl7s	21
+sauces-9w5tm-2njph-5ahwj-hsl7s	29
+sauces-9w5tm-2njph-5ahwj-hsl7s	30
+sauces-9w5tm-2njph-5ahwj-hsl7s	31
+sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr	13
+sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr	24
+sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr	30
+sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr	31
+sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-6r8lw	13
+sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-dfapr	13
+sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-dfapr	14
+sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-dfapr	29
+sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-dfapr	30
+sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-dfapr	31
+sausage-inspired-by-god-of-war	3
+sausage-inspired-by-god-of-war	12
+sausage-inspired-by-god-of-war	21
+sausage-inspired-by-god-of-war	32
+sausages-ragnarok	5
+sausages-ragnarok	12
+sausages-ragnarok	21
+sausages-ragnarok	29
+sausages-ragnarok	30
+sausages-ragnarok	32
+savory-cannoli-the-bear	4
+savory-cannoli-the-bear	12
+scallion-noodles-eeaao	5
+scallion-noodles-eeaao	12
+scallion-noodles-eeaao	27
+scallion-noodles-eeaao	29
+scallion-noodles-eeaao	30
+schweddy-balls-snl	4
+schweddy-balls-snl	12
+schweddy-balls-snl	16
+schweddy-balls-snl	18
+seafood-paella-parks-and-rec	4
+seafood-paella-parks-and-rec	12
+seasalticecream	3
+seasalticecream	12
+seasalticecream	18
+seinfeldcalzone-z38zn	4
+seinfeldcalzone-z38zn	12
+seinfeldcalzone-z38zn	29
+seinfeldcalzone-z38zn	30
+seinfeldcalzone-z38zn	31
+seinfeldspecial2	4
+seinfeldspecial2	12
+seinfeldspecial2	31
+seven-layer-salad-himym	4
+seven-layer-salad-himym	12
+seven-layer-salad-himym	17
+seven-layer-salad-himym	19
+seven-layer-salad-himym	31
+shakshuka	13
+shakshuka	15
+shakshuka	28
+shakshuka	31
+shawarma	5
+shawarma	12
+shepherdspie	13
+shepherdspie	30
+shepherdspie	31
+short-ribs	13
+short-ribs	21
+short-ribs	30
+short-ribs	32
+shrimp-7-ways	13
+shrimp-7-ways	19
+shrimp-7-ways	22
+shrimp-7-ways	23
+shrimp-7-ways	30
+shrimp-7-ways	31
+shrimp-scampi-basics	12
+shrimp-scampi-basics	13
+shrimp-scampi-basics	15
+skinnersstew	4
+skinnersstew	12
+skinnersstew	23
+skinnersstew	24
+skinnersstew	30
+skinnersstew	32
+sliders-three-ways	13
+sloppy-joes-billy-madison	5
+sloppy-joes-billy-madison	12
+sloppy-joes-billy-madison	20
+sloppy-joes-billy-madison	29
+sloppy-joes-billy-madison	30
+sloppy-joes-billy-madison	31
+sloppy-steaks-i-think-you-should-leave	4
+sloppy-steaks-i-think-you-should-leave	12
+sloppy-steaks-i-think-you-should-leave	21
+sloppy-steaks-i-think-you-should-leave	30
+sloppy-steaks-i-think-you-should-leave	32
+smash-burgers	13
+smash-burgers	15
+smokedribs	13
+smokedribs	21
+smokedribs	30
+smokedribs	32
+snl-overnight-salad	4
+snl-overnight-salad	12
+snl-overnight-salad	19
+souffle-pancakes-inspired-by-food-wars!	2
+souffle-pancakes-inspired-by-food-wars!	10
+sourdough-bread	13
+sourdough-bread	16
+sourdough-bread	29
+sourdough-bread	32
+sourdough-broccoli-pizza-inside-out	5
+sourdough-broccoli-pizza-inside-out	12
+sourdough-broccoli-pizza-inside-out	14
+sourdough-broccoli-pizza-inside-out	29
+sourdough-broccoli-pizza-inside-out	30
+sourdough-broccoli-pizza-inside-out	32
+sousvide-nb7s3	13
+sousvide-nb7s3	32
+southparkspecial	4
+southparkspecial	12
+southparkspecial	17
+southparkspecial	28
+southparkspecial	29
+southparkspecial	30
+southparkspecial	31
+souvlaki	13
+souvlaki	29
+souvlaki	30
+souvlaki	31
+space-cake-high-maintenance	4
+space-cake-high-maintenance	12
+space-cake-high-maintenance	16
+space-cake-high-maintenance	18
+spaghetti-all'assassina-inspired-by-claudia-romeo	11
+spaghetti-all'assassina-inspired-by-claudia-romeo	22
+spaghetti-all'assassina-inspired-by-claudia-romeo	30
+spaghetti-all'assassina-inspired-by-claudia-romeo	31
+spaghetti-carbonara-inspired-by-master-of-none	4
+spaghetti-carbonara-inspired-by-master-of-none	12
+spaghetti-carbonara-inspired-by-master-of-none	15
+spaghetti-carbonara-inspired-by-master-of-none	21
+spaghetti-carbonara-inspired-by-master-of-none	22
+spaghetti-carbonara-inspired-by-master-of-none	29
+spaghetti-carbonara-inspired-by-master-of-none	30
+spaghetti-carbonara-inspired-by-master-of-none	32
+spaghettitaco	4
+spaghettitaco	12
+spaghettitaco	17
+spanakopita-galettes	16
+spanakopita-galettes	19
+spanakopita-galettes	25
+spanakopita-galettes	28
+spanakopita-galettes	29
+spanakopita-galettes	31
+spiced-rum-tarte-tatin	7
+spiced-rum-tarte-tatin	15
+spiced-rum-tarte-tatin	18
+spiced-rum-tarte-tatin	19
+spiced-rum-tarte-tatin	31
+spicy-rum-chicken-curry-inspired-by-super-smash-bros.	3
+spicy-rum-chicken-curry-inspired-by-super-smash-bros.	9
+spicy-rum-chicken-curry-inspired-by-super-smash-bros.	17
+spicy-rum-chicken-curry-inspired-by-super-smash-bros.	21
+spicy-rum-chicken-curry-inspired-by-super-smash-bros.	30
+spicy-rum-chicken-curry-inspired-by-super-smash-bros.	32
+spidermanbackpackrecipes	5
+spidermanbackpackrecipes	12
+spidermanbackpackrecipes	32
+spiderverse-beef-patty	5
+spiderverse-beef-patty	12
+spiderverse-beef-patty	16
+spiderverse-beef-patty	28
+spiderverse-beef-patty	29
+spiderverse-beef-patty	32
+spiedini-alla-romana	20
+spiedini-alla-romana	29
+spiedini-alla-romana	30
+spiedini-alla-romana	32
+spinachpuffs	5
+spinachpuffs	12
+spinachpuffs	18
+spinachpuffs	19
+spongebob-and-patrick-ice-cream	4
+spongebob-and-patrick-ice-cream	12
+spongebob-and-patrick-ice-cream	16
+spongebob-and-patrick-ice-cream	18
+spongebob-and-patrick-ice-cream	32
+squash-and-beef-its-always-sunny-in-philadelphia	4
+squash-and-beef-its-always-sunny-in-philadelphia	12
+squash-and-beef-its-always-sunny-in-philadelphia	21
+squash-and-beef-its-always-sunny-in-philadelphia	30
+squash-and-beef-its-always-sunny-in-philadelphia	32
+squid-ink-ravioli-inspired-by-stardew-valley	3
+squid-ink-ravioli-inspired-by-stardew-valley	9
+squid-ink-ravioli-inspired-by-stardew-valley	22
+squid-ink-ravioli-inspired-by-stardew-valley	23
+squid-ink-ravioli-inspired-by-stardew-valley	30
+squid-ink-ravioli-inspired-by-stardew-valley	31
+squid-ink-ravioli-inspired-by-stardew-valley	32
+squidinkpasta	3
+squidinkpasta	12
+squidinkpasta	22
+squidinkpasta	30
+squidinkpasta	32
+steak	6
+steak	20
+steak	21
+steak	29
+steak	30
+steak-au-poivre	4
+steak-au-poivre	12
+steak-au-poivre	21
+steak-au-poivre	30
+steak-au-poivre	32
+steak-eggs-gravy-twister	5
+steak-eggs-gravy-twister	12
+steak-pinwheels	13
+steak-pinwheels	21
+steak-pinwheels	30
+steak-pinwheels	31
+steakhouse-burgers	13
+steakhouse-burgers	29
+steakhouse-burgers	30
+steakhouse-burgers	31
+sticky-buns	13
+sticky-buns	16
+sticky-buns	18
+sticky-toffee-coffee-cake	1
+stollen	13
+stollen	16
+stollen	18
+stollen	32
+strata-family-stone	5
+strata-family-stone	12
+strata-family-stone	29
+strata-family-stone	30
+strata-family-stone	31
+strawberry-shortcake-inspired-by-death-note	2
+strawberry-shortcake-inspired-by-death-note	10
+struggle-meals	31
+sugar-chicken-rick-and-morty	4
+sugar-chicken-rick-and-morty	12
+sugar-chicken-rick-and-morty	29
+sugar-chicken-rick-and-morty	30
+sugar-chicken-rick-and-morty	31
+sumbitches	4
+sumbitches	12
+sumbitches	16
+sumbitches	18
+sumbitches	32
+sundae-spongebob	4
+sundae-spongebob	12
+sundae-spongebob	18
+sundae-spongebob	32
+super-bowl-snacks-for-the-win-or-with-babish	6
+super-bowl-snacks-for-the-win-or-with-babish	15
+super-bowl-snacks-for-the-win-or-with-babish	16
+super-bowl-snacks-for-the-win-or-with-babish	19
+super-bowl-snacks-for-the-win-or-with-babish	21
+super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations	2
+super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations	10
+super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations	16
+super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations	17
+super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations	21
+super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations	29
+super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations	30
+super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations	31
+super-stretchy-nachos	1
+super-stretchy-nachos	7
+super-stretchy-nachos	15
+super-stretchy-nachos	19
+super-stretchy-nachos	29
+super-stretchy-nachos	30
+super-stretchy-nachos	31
+swedish-meatballs	13
+swedish-meatballs	15
+swedish-meatballs	29
+swedish-meatballs	30
+swedish-meatballs	31
+sweet-and-savory-babka	13
+sweet-and-savory-babka	16
+sweet-and-savory-babka	18
+sweet-potato-casserole-friends	4
+sweet-potato-casserole-friends	12
+sweet-potato-casserole-friends	18
+sweet-potato-casserole-friends	31
+sweetrolls-skyrim	3
+sweetrolls-skyrim	12
+sweetrolls-skyrim	18
+sweetrolls-skyrim	32
+szechuansauce	4
+szechuansauce	12
+szechuansauce	25
+szechuansauce	29
+szechuansauce	30
+szechuansauce	31
+szechuansaucerevisited	12
+taco-town	4
+taco-town	12
+taco-town	21
+tacos	13
+tacos	15
+tacos	29
+tacos	30
+tacos	31
+takoyaki	4
+takoyaki	12
+takoyaki	23
+takoyaki	29
+takoyaki	30
+takoyaki	31
+tamales	13
+tamalesfromcoco	5
+tamalesfromcoco	12
+tampoporamen	5
+tampoporamen	12
+tampoporamen	24
+tampoporamen	27
+tampoporamen	29
+tampoporamen	30
+tampoporamen	32
+tater-tots-breaking-bad	4
+tater-tots-breaking-bad	12
+tater-tots-breaking-bad	19
+teamstersandwich	4
+teamstersandwich	12
+teamstersandwich	20
+teamstersandwich	29
+teamstersandwich	31
+teddybrulee	4
+teddybrulee	12
+teddybrulee	18
+teddybrulee	32
+tex-mex-enchiladas	13
+thanksgiving-balls-psych	4
+thanksgiving-balls-psych	12
+thanksgiving-balls-psych	17
+thanksgiving-balls-psych	19
+thanksgiving-balls-psych	29
+thanksgiving-balls-psych	30
+thanksgiving-balls-psych	32
+thanksgiving-stuffings	13
+thanksgiving-stuffings	19
+thanksgivingleftovers	13
+thanksgivingleftovers	31
+thanksgivingsides	13
+thanksgivingsides	19
+thanksgivingsides	21
+thanksgivingsides	29
+thanksgivingsides	30
+thanksgivingsides	31
+the-best-barbecue-chicken	13
+the-best-barbecue-chicken	21
+the-best-barbecue-chicken	29
+the-best-barbecue-chicken	30
+the-best-barbecue-chicken	31
+the-best-barbecue-chicken	32
+the-coagulator-inspired-by-the-simpsons	4
+the-coagulator-inspired-by-the-simpsons	12
+the-coagulator-inspired-by-the-simpsons	17
+the-coagulator-inspired-by-the-simpsons	20
+the-coagulator-inspired-by-the-simpsons	21
+the-coagulator-inspired-by-the-simpsons	29
+the-coagulator-inspired-by-the-simpsons	31
+the-coagulator-inspired-by-the-simpsons	32
+the-egg-bar-inspired-by-severance	4
+the-egg-bar-inspired-by-severance	12
+the-egg-bar-inspired-by-severance	19
+the-egg-bar-inspired-by-severance	29
+the-egg-bar-inspired-by-severance	30
+the-egg-bar-inspired-by-severance	32
+the-liz-lemon-30-rock	4
+the-liz-lemon-30-rock	12
+the-liz-lemon-30-rock	20
+the-liz-lemon-30-rock	29
+the-liz-lemon-30-rock	32
+the-naco	4
+the-naco	12
+the-naco	15
+the-naco	29
+the-naco	30
+the-naco	32
+the-perfect-bite	4
+the-perfect-bite	12
+the-sims-special	3
+the-sims-special	12
+the-sims-special	32
+the-ultimate-marry-me-meals	6
+the-ultimate-marry-me-meals	15
+the-ultimate-marry-me-meals	21
+the-ultimate-marry-me-meals	22
+the-ultimate-marry-me-meals	27
+the-ultimate-marry-me-meals	30
+the-ultimate-marry-me-meals	31
+the-ultimate-steak-sandwich	8
+the-ultimate-steak-sandwich	20
+the-ultimate-steak-sandwich	21
+the-ultimate-steak-sandwich	29
+the-ultimate-steak-sandwich	30
+the-ultimate-steak-sandwich	31
+thegodfathercannolis	5
+thegodfathercannolis	12
+thegodfathercannolis	16
+thegodfathercannolis	18
+thegodfathercannolis	32
+thegoodplace	4
+thegoodplace	12
+thegreystuff	5
+thegreystuff	12
+thegreystuff	32
+thesloppyjessica	4
+thesloppyjessica	12
+theswanson	4
+theswanson	12
+thewirespecial	4
+thewirespecial	12
+thewirespecial	21
+thewirespecial	23
+thewirespecial	29
+thewirespecial	30
+thewirespecial	31
+tiramisu	5
+tiramisu	12
+tiramisu	18
+tiramisu	32
+tiramisu-basics	13
+tiramisu-basics	16
+tiramisu-basics	18
+together-breakfast-steven-universe	4
+together-breakfast-steven-universe	12
+together-breakfast-steven-universe	28
+together-breakfast-steven-universe	31
+tom-cruise-coconut-cake-inspired-by-hacks	4
+tom-cruise-coconut-cake-inspired-by-hacks	12
+tom-cruise-coconut-cake-inspired-by-hacks	16
+tom-cruise-coconut-cake-inspired-by-hacks	18
+tom-cruise-coconut-cake-inspired-by-hacks	32
+tom-yum-tomato-cream-pasta	7
+tom-yum-tomato-cream-pasta	15
+tom-yum-tomato-cream-pasta	22
+tom-yum-tomato-cream-pasta	23
+tom-yum-tomato-cream-pasta	27
+tom-yum-tomato-cream-pasta	29
+tom-yum-tomato-cream-pasta	30
+tom-yum-tomato-cream-pasta	31
+tomate-du-saltambique-inspired-by-the-west-wing	4
+tomate-du-saltambique-inspired-by-the-west-wing	12
+tomate-du-saltambique-inspired-by-the-west-wing	17
+tomate-du-saltambique-inspired-by-the-west-wing	29
+tomate-du-saltambique-inspired-by-the-west-wing	30
+tomate-du-saltambique-inspired-by-the-west-wing	32
+tomato-confit-(ricotta-toast-simple-salad-pasta-with-calabrian-chili)	15
+tomato-confit-(ricotta-toast-simple-salad-pasta-with-calabrian-chili)	19
+tomato-confit-(ricotta-toast-simple-salad-pasta-with-calabrian-chili)	22
+tomato-confit-(ricotta-toast-simple-salad-pasta-with-calabrian-chili)	26
+tomato-confit-(ricotta-toast-simple-salad-pasta-with-calabrian-chili)	29
+tomato-confit-(ricotta-toast-simple-salad-pasta-with-calabrian-chili)	30
+tomato-confit-(ricotta-toast-simple-salad-pasta-with-calabrian-chili)	31
+tomato-confit-(ricotta-toast-simple-salad-pasta-with-calabrian-chili)	32
+tonkotsuramen	13
+tonkotsuramen	24
+tonkotsuramen	30
+tonkotsuramen	32
+tortilla-sombero-despicable-me-2	5
+tortilla-sombero-despicable-me-2	12
+transforming-furikake-gohan-inspired-by-food-wars!	2
+transforming-furikake-gohan-inspired-by-food-wars!	10
+transforming-furikake-gohan-inspired-by-food-wars!	29
+transforming-furikake-gohan-inspired-by-food-wars!	32
+trenette-el-pesto-luca	5
+trenette-el-pesto-luca	12
+trenette-el-pesto-luca	22
+trenette-el-pesto-luca	30
+trenette-el-pesto-luca	32
+treslechescake	13
+treslechescake	16
+treslechescake	18
+treslechescake	31
+triple-deluxe-dog-hot-dog-detective	12
+triple-deluxe-dog-hot-dog-detective	17
+triple-deluxe-dog-hot-dog-detective	21
+triple-gooberberry-sunrise-spongebob-squarespace	4
+triple-gooberberry-sunrise-spongebob-squarespace	12
+triple-gooberberry-sunrise-spongebob-squarespace	17
+triple-gooberberry-sunrise-spongebob-squarespace	18
+triple-gooberberry-sunrise-spongebob-squarespace	32
+tripledeckereggo	4
+tripledeckereggo	12
+tripledeckereggo	31
+trollhunters-meatloaf-sandwich	4
+trollhunters-meatloaf-sandwich	12
+trollhunters-meatloaf-sandwich	20
+trollhunters-meatloaf-sandwich	29
+trollhunters-meatloaf-sandwich	30
+trollhunters-meatloaf-sandwich	32
+troyscasserole-community	4
+troyscasserole-community	12
+troyscasserole-community	32
+truffle-pasta-broad-city	4
+truffle-pasta-broad-city	12
+truffle-pasta-broad-city	22
+turf-n-turf	4
+turf-n-turf	12
+turkey-5-ways	13
+turkey-and-caviar-inspired-by-star-trek:-the-next-generation	4
+turkey-and-caviar-inspired-by-star-trek:-the-next-generation	12
+turkey-and-caviar-inspired-by-star-trek:-the-next-generation	17
+turkey-and-caviar-inspired-by-star-trek:-the-next-generation	21
+turkey-and-caviar-inspired-by-star-trek:-the-next-generation	30
+turkey-and-caviar-inspired-by-star-trek:-the-next-generation	33
+turturkeykey	4
+turturkeykey	12
+turturkeykey	30
+turturkeykey	32
+twinkie-weiner-sandwich	5
+twinkie-weiner-sandwich	12
+twinkie-weiner-sandwich	17
+twinkie-weiner-sandwich	18
+twinkie-weiner-sandwich	20
+twinkie-weiner-sandwich	32
+tylers-bull-the-menu	5
+tylers-bull-the-menu	12
+tylers-bull-the-menu	21
+uberollcake	4
+uberollcake	12
+uberollcake	16
+uberollcake	18
+ultimate-cookie	13
+ultimate-cookie	16
+ultimate-cookie	18
+ultimate-french-toast-or-with-babish	6
+ultimate-french-toast-or-with-babish	16
+ultimate-french-toast-or-with-babish	18
+ultimate-french-toast-or-with-babish	19
+ultimate-french-toast-or-with-babish	28
+ultimate-french-toast-or-with-babish	31
+ultimate-pot-roast-or-with-babish	6
+ultimate-pot-roast-or-with-babish	21
+ultimate-pot-roast-or-with-babish	30
+ultimate-pot-roast-or-with-babish	31
+ultimate-pot-roast-or-with-babish	32
+ultimeatum	4
+ultimeatum	12
+underwear-bread-inspired-by-asteroid-in-love	2
+underwear-bread-inspired-by-asteroid-in-love	10
+vodka-pasta	13
+vodka-pasta	15
+vodka-pasta	22
+wasabi-buffalo-wings-the-simpsons	4
+wasabi-buffalo-wings-the-simpsons	12
+wasabi-buffalo-wings-the-simpsons	21
+wasabi-buffalo-wings-the-simpsons	29
+wasabi-buffalo-wings-the-simpsons	30
+wasabi-buffalo-wings-the-simpsons	32
+water-tribe-noodles-inspired-by-the-legend-of-korra	2
+water-tribe-noodles-inspired-by-the-legend-of-korra	10
+water-tribe-noodles-inspired-by-the-legend-of-korra	19
+water-tribe-noodles-inspired-by-the-legend-of-korra	22
+water-tribe-noodles-inspired-by-the-legend-of-korra	23
+water-tribe-noodles-inspired-by-the-legend-of-korra	24
+water-tribe-noodles-inspired-by-the-legend-of-korra	26
+water-tribe-noodles-inspired-by-the-legend-of-korra	27
+water-tribe-noodles-inspired-by-the-legend-of-korra	29
+water-tribe-noodles-inspired-by-the-legend-of-korra	30
+water-tribe-noodles-inspired-by-the-legend-of-korra	31
+weeknightmeals-ahmph	13
+weeknightmeals-ahmph	31
+whimsical-parfait-inspired-by-darker-than-black	2
+whimsical-parfait-inspired-by-darker-than-black	10
+whitecastlesliders	5
+whitecastlesliders	12
+wholeporkloin	13
+wholeporkloin	21
+wholeporkloin	29
+wholeporkloin	30
+wholeporkloin	32
+wild-mushroom-soup-inspired-by-seinfeld	4
+wild-mushroom-soup-inspired-by-seinfeld	12
+wild-mushroom-soup-inspired-by-seinfeld	24
+wild-mushroom-soup-inspired-by-seinfeld	25
+wild-mushroom-soup-inspired-by-seinfeld	26
+wild-mushroom-soup-inspired-by-seinfeld	29
+wild-mushroom-soup-inspired-by-seinfeld	30
+wild-mushroom-soup-inspired-by-seinfeld	31
+willy-wonka-edible-teacup	5
+willy-wonka-edible-teacup	12
+willy-wonka-edible-teacup	17
+willy-wonka-edible-teacup	18
+willy-wonka-edible-teacup	33
+wings	13
+wings	15
+wings	21
+worldsgreatestsandwich	5
+worldsgreatestsandwich	12
+worldsgreatestsandwich	20
+worldsgreatestsandwich	23
+worldsgreatestsandwich	29
+worldsgreatestsandwich	30
+worldsgreatestsandwich	31
+yorkshire-pudding	13
+yorkshire-pudding	29
+yorkshire-pudding	30
+yorkshire-pudding	31
+zelda-monster-cake	3
+zelda-monster-cake	12
+zelda-monster-cake	16
+zelda-monster-cake	18
+zelda-monster-cake	29
+zelda-monster-cake	30
+zelda-monster-cake	32
+ziti-lasagna	4
+ziti-lasagna	12
+ziti-lasagna	22
 \.
 
 
@@ -1029,38 +4085,31 @@ ziti-lasagna	44
 --
 
 COPY public.guest (id, name, image_link) FROM stdin;
-3	Sean Evans	\N
-4	Dan Souza	\N
-5	Giant Robot	\N
-6	Brad Leone	\N
-7	Vincent "Vinny" Cross	\N
-8	Jon Favreau	\N
-9	Roy Choi	\N
-10	Maisie Williams	\N
-11	Ashwin Ramdas	\N
-12	Nick Fisher	\N
-13	Masaharu Morimoto	\N
-14	Mel	\N
-15	Dan Pashman	\N
-16	David Wasman	\N
-17	Sawyer Jacobs	\N
-18	Sukki Hufford	\N
-19	Gabrielle Hufford	\N
-20	The Rae Family	\N
-21	Rashid Duroseau	\N
-22	Sean Conley	\N
-23	Sarah and Stefan	\N
-24	Greg Johnson	\N
-25	Erika Vonie	\N
-26	Steve (buddy)	\N
-27	Dadish	\N
-28	Isaac Toups	\N
-29	Floyd Cardoz	\N
-30	Jess	\N
-31	David (Brother)	
-32	Ashwin Enjoys Nature	\N
-33	Brad	\N
-34	Tim Robinson	\N
+48	Tim Robinson	\N
+49	Maisie Williams	\N
+50	Sean Evans	\N
+52	Jon Favreau	\N
+53	Roy Choi	\N
+55	Ashwin Ramdas	\N
+56	Brad Leone	\N
+57	Dan Pashman	\N
+58	Dan Souza	\N
+59	David Wasman	\N
+60	Erika Vonie	\N
+61	Floyd Cardoz	\N
+62	Gabrielle Hufford	\N
+63	Greg Johnson	\N
+64	Isaac Toups	\N
+65	Masaharu Morimoto	\N
+66	Nick Fisher	\N
+67	Rashid Duroseau	\N
+68	Sawyer Jacobs	\N
+69	Sean Conley	\N
+70	Sukki Hufford	\N
+71	Vincent "Vinny" Cross	\N
+72	David (Brother)	\N
+73	Sarah and Stefan	\N
+74	The Rae Family	\N
 \.
 
 
@@ -1069,51 +4118,42 @@ COPY public.guest (id, name, image_link) FROM stdin;
 --
 
 COPY public.guest_appearances (episode_id, guest_id) FROM stdin;
-5mill-special	17
-5mill-special	21
-arresteddevelopmentspecial	3
-bagels	4
-beetandacorncookies	11
-beetandacorncookies	32
-being-with-babish-1	16
-being-with-babish-1	17
-being-with-babish-2	9
-being-with-babish-2	17
-being-with-babish-2	18
-being-with-babish-2	19
-being-with-babish-2	20
-being-with-babish-3	7
-being-with-babish-3	17
-being-with-babish-3	21
-being-with-babish-3	22
-being-with-babish-4	17
-being-with-babish-4	23
-being-with-babish-5	24
-being-with-babish-6	17
-being-with-babish-6	31
-buttermilk-pancakes-inspired-by-twin-peaks	12
-cajunfood	28
-chocolate-cake-inspired-by-matilda	15
-chocolatelavacakes	8
-chocolatelavacakes	9
-classicpancakes	4
-classicpancakes	5
-clayroastedthigh	14
-coffee	25
-deathsandwich	13
-direwolfbread	10
-fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks	3
-friedgreentomatoes	17
-friedgreentomatoes	27
-indianbreads	29
-infernowings	3
-lasagna	6
-lasagna	7
-lasagna	33
-mostexpensiveshake	30
-quiet-place-bonus	17
-sloppy-steaks-i-think-you-should-leave	34
-theswanson	26
+5mill-special	67
+5mill-special	68
+arresteddevelopmentspecial	50
+bagels	58
+beetandacorncookies	55
+being-with-babish-1	59
+being-with-babish-1	68
+being-with-babish-2	53
+being-with-babish-2	62
+being-with-babish-2	68
+being-with-babish-2	70
+being-with-babish-2	74
+being-with-babish-3	67
+being-with-babish-3	68
+being-with-babish-3	69
+being-with-babish-3	71
+being-with-babish-4	68
+being-with-babish-4	73
+being-with-babish-5	63
+being-with-babish-6	68
+being-with-babish-6	72
+buttermilk-pancakes-inspired-by-twin-peaks	66
+cajunfood	64
+chocolate-cake-inspired-by-matilda	57
+chocolatelavacakes	52
+chocolatelavacakes	53
+classicpancakes	58
+coffee	60
+deathsandwich	65
+direwolfbread	49
+friedgreentomatoes	68
+indianbreads	61
+lasagna	56
+lasagna	71
+quiet-place-bonus	68
+sloppy-steaks-i-think-you-should-leave	48
 \.
 
 
@@ -1425,10 +4465,6 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 306	Pineapple-Curry Fried Rice	\N	Dried Chinese chilis\n1 tsp coriander seeds\n1 tsp cardamom\n2 tsp cumin seed\n1 tsp mustard seeds\n1 tsp peppercorns\n1 crushed cinnamon stick\n1 Tbsp grated ginger\n1 Tbsp grated turmeric\n2 cups short grain rice\n1 Pineapple\n2 eggs\nVegetable oil\n1 red pepper\n1 carrot\n1 bird’s eye chili (optional)\n1 crushed clove of garlic\nKosher salt\n1 Tbsp rice wine vinegar\n1 Tbsp fish sauce\n1 Tbsp sesame oil\n1 Tbsp soy sauce\nGreen onions\nChopped cashews	First we are going to toast and grind our spice mixture. In a saucepan, combine a few chinese chilis, 1 tsp coriander seed, 1 tsp cardamom, 2 tsp cumin seed, 1 tsp mustard seeds, 1 crushed cinnamon stick, and 1 tsp peppercorns. Cook over high heat until fragrant and slightly smoking, and then add to spice grinder, grind, and set aside.\nNext add 2 cups of short grain rice and 4 cups of water to a pan that you’re going to cover tightly and place in a 325°F for 5 minutes longer than the specified boiling time. Once cooked, spread rice on a baking sheet to cool for an hour.\nPrep all of your accoutrements. Chop your red peppers, carrots, green onions, chopped cashews, and bird’s eye chili.\nSlice pineapple in half. Place a cut skin deep around the pineapple and score at 2 cm wide intervals, and scoop out into a bowl and set aside.\nIn a wok, heat 3 Tbsp of vegetable oil over maximum heat. Add 2 beaten eggs to the wok and cook until just barely set and then add your chopped red pepper, carrot, and bird’s eye chili. Add 1 Tbsp grated ginger, 1 Tbsp grated turmeric, and 1 crushed clove of garlic. Give it a good mix before adding all of the rice.\nNext add a little bit of our spice powder, some kosher salt, 1 Tbsp each of rice wine vinegar, fish sauce, sesame oil, and soy sauce.\nStir and continue to cook over a high heat before adding pineapple. Add some chopped green onions and some chopped cashews.\nMake sure that you slightly undercook the rice because we’re going to steam cook it a little bit more in our hollowed out pineapple.\nSalt both sides of your pineapple.\nFill one half of the pineapple with all of the rice, and form it into a mound. Cover with the other side of the pineapple and place in a 375°F oven for 30 minutes.\nGenerously butter a bowl.\nTake the pineapple out of the oven and scoop rice into buttered bowl. Place a plate upside down on top of the bowl, and while holding the bowl and plate, flip over so the plate is on the bottom and the bowl is on top. Lay the Pineapple stem at the top for aesthetics. Dig in and enjoy!	pineapplecurryfriedrice
 307	Clementine Cake	\N	Clementines\n3 cups of sugar\n450g of cake flour\n1 ½ tsp salt\n¾ tsp of baking powder\n¾ tsp baking soda\n1 ½ cup of butter\n487.5g of sugar\n6 large eggs\n3 tsp vanilla extract\n¾ cup clementine juice\nZest of 4 clementines\n1 ¼ cup buttermilk\nNonstick spray\nParchment paper	Start by slicing 3 clementines for candying. Make sure you slice them very thin.\nPoach the clementines in boiling water for 1 minute, and then shock them by transferring them to a bowl of ice water.\nCombine 3 cups of sugar and 1 ½ cups of water in a large saucepan. Add a little squeeze of clementine juice and bring to a sweet gentle simmer. Add clementines in a single layer and simmer for 90 minutes, flipping every 30 minutes.\nOnce soft and translucent, cool on a wire rack and pour clementine syrup into a measuring cup for later. Set aside.\nWeigh out 450g of cake flour to which you’re going to add 1 ½ tsp of salt, ¾ tsp of baking powder, and ¾ tsp of baking soda. Whisk to combine.\nIn the bowl of a stand mixer, mix 1 ½ cups of butter until creamy\nScrape down the sides of the bowl and add 487.5g of sugar and mix that as well.\nScrape down the sides again, and add 6 large eggs and 3 tsp of vanilla extract. Mix again.\nAdd ¾ cup of clementine juice and the zest of 4 clementines and mix to combine.\nFinally add the dry ingredients and 1 ¼ cups of buttermilk and mix just enough to combine.\nCoat a cake pan with nonstick spray and parchment paper. Add the cake batter and cook at 350°F for 45 minutes.\nUse a cake tester or a knife to make sure the cake is completely done.\nGenerously brush down the cake with clementine syrup.\nPour glaze over the top and add candied clementines.\nSlice yourself a piece and enjoy.	clementinecake
 308	Clementine Glaze	\N	150g sifted powdered sugar\n30-45 ml of clementine juice\nZest of 1 clementine	Combine 150g of sifted powdered sugar, 30-45 ml of clementine juice, and the zest of one clementine. Whisk to combine. (You can use milk instead of juice to look more accurate to the movie, but the juice is better)	clementinecake
-309	Sunny-Side Up Eggs	\N	1 Egg	?	eggs
-310	Scrambled Eggs on Toast	\N	Eggs\nGoat Cheese\nChives\nBread	?	eggs
-311	American Omelette	\N	3 Eggs\nMushrooms\nSpinach	?	eggs
-312	Classic French Omelette	\N	3 Eggs\n1 1/2 Tbsp Butter\nSalt\nPepper\nChives	?	eggs
 313	Tamales	\N	Corn husks\n6 guajillo chiles\n6 pasilla chiles\n4 cloves of garlic\n2 tomatillos, quartered\nJuice of ½ an orange\n2 tsp of cumin\nJuice of 1 lime\nA pinch of Mexican oregano\nSalt\nPepper\nWater\nSmall Pork Shoulder (appetizing pork), cubed\n560g of masa harina\n700ml hot water\n375g of lard\n1 ½ tsp baking powder\n1 cup of chicken stock\n2 poblano peppers\nOaxaca cheese	Begin by soaking the corn husks in room temperature water for at least 3 hours.\nBring some water to a boil, and boil your guajillo and pasilla chiles until they are nice and soft.\nOnce they are cooked, remove the stem and add them to a blender along with 1 ½ cups of the water that the peppers were boiled in, 4 cloves of garlic, 2 quartered tomatillos, juice of ½ an orange, the juice of 1 lime, 2 tsp of cumin, a pinch of Mexican oregano, salt, and pepper. Blitz into a smooth paste and set aside.\nNext we are going to clean the pork from the bone, removing the skin, and cut it into 2 inch cubes.\nIn a large Ziploc bag, combine your pork and chili mixture. Massage the bag to make sure all the pork is coated, and place in fridge for at least 3 hours. If you leave it to marinate overnight, be sure not to use foil. After at least 3 hours place the pork in a dish and cook in the oven at 275° for 3 hours.\nIn a bowl combine 560g of masa harina with 700ml of hot water. Give a good mix with a wooden spoon until a crumbly dough forms. Set aside and let it rest for 15 minutes.\nIn a stand mixer, whip 375g of lard for 2 minutes until it’s light and fluffy. Add 1 ½ tsp of baking powder and 1 tsp of kosher salt. Mix to combine before adding our soaked masa. Slowly add while scraping down the sides with a spoon, and then slowly add 1 cup of warm chicken stock. Mix to combine. Let the tamale dough rest in the fridge for at least one hour.\nTake pork mixture out of the oven and shred it with a fork, and add some of the marinade back to the pork.\nRoast some poblano peppers on your stovetop, wrap them in foil, and let them steam in there before we peel them.\nOnce they’ve steamed, peel the blackened char off the peppers and slice them into strips.\nTake your corn husk, open it up, and spread your tamale dough in a relatively thin and even layer over the top half of the corn husk leaving a 2 inch border on each side. Stuff with your fillings, and roll together so that the two sides of the tamale dough meet in the middle. Fold up the tapered end of the corn husk, and with 2 small strips of corn husks, tie together in the center. Repeat for however many tamales you would like to make. This recipe calls for two kinds of tamales, one with peppers and cheese, the other with your pork.\nPlace all the tamales standing up in the steam basket of a large pot. Cover the top of the tamales with some corn husks to help concentrate the steam in the steamer. Add about 2 cups of water, and cook for about 45 minutes.\nOnce you remove the tamales from the pot, let them rest for 30 minutes before digging in.\nRemove the corn husk and enjoy!	tamalesfromcoco
 314	Chocolate Lava Cake	\N	14 ounces dark chocolate\n½ cup heavy cream\n12 Tbsp butter\n6 large eggs\n½ cup of light brown sugar\n1 tsp vanilla extract\n2 Tbsp Grand Marnier\n6 Tbsp all purpose flour\nRaw Sugar\nStrawberries\nBlueberries\nPowdered sugar\nCocoa powder	We’re going to start by melting chocolate in a double boiler. Boil some water in a pot and place a large glass bowl on top to melt the chocolate in. Place 4 ounces of dark chocolate in the glass bowl and use a rubber spatula to mix. Be sure to keep the water at a simmer, and melt until nice and smooth. Slowly drizzle in ½ cup of heavy cream and stir.\nOnce mixture is fully combined and smooth, place in freezer for 1 hour or until frozen.\nUsing the double boiler again, melt 10 ounces of dark chocolate and 1 ½ sticks of butter (12 Tbsp), mixing until smooth.\nIn a separate bowl combine 6 large eggs and ½ a cup of light brown sugar. Beat the eggs together until they are light and frothy, and then add 1 tsp of vanilla extract and 2 Tbsp of Grand Marnier.\nOnce that’s combined, SLOWLY add the chocolate mixture to egg and brown sugar mixture, and whisk to combine.\nNow add 6 Tbsp of all purpose flour and stir to combine.\nButter some ramekins and coat the inside with raw sugar. This will help get the cakes out of the ramekins.\nFill each ramekin a little under halfway with your cake mixture.\nRemove the chocolate ganache from the freezer and place 1-2 Tbsp into the center of the cake mixture. Fill ramekins the rest of the cake batter.\nPreheat your oven to 425° F and bake for 11 minutes.\nWhile that’s baking quarter some strawberries and set aside.\nRemove cake ramekins from oven and place on a cooling rack. Run a knife around the edge of each cake to help release them from their ramekin.\nPlace a plate on top of the ramekin, flip over so the ramekin is on top, and slowly lift up to make sure the cake is in tact.\nPlate with some whipped cream, powdered sugar, cocoa powder, strawberries and blueberries.\nServe and enjoy!	chocolatelavacakes
 315	Cornish Game Hens	\N	Cornish Game Hens\n3-4 Tbsp Kosher Salt\n1 tsp Baking Powder\n1 carrot\nOnions\n1 stalk of celery\nSprigs of thyme\nSprigs of rosemary\nFresh parsley\nClove of garlic	Butterflying the Cornish Game Hens: Remove their backbones and cut them in half. Reserve the backbones for later to make the sauce.\nLightly season the underside of the Hen with Kosher Salt.\nCombine 3 or 4 Tbsp of Kosher Salt w/ a tsp of baking powder which will lower the temp at which the hens get a brown skin. Rub this butter mixture on the other side of the chicken.\nRefrigerate uncovered for 4 hours or overnight.\nMake the Cornish game hen stock: Combine a carrot, half an onion, a stalk of celery, fresh herbs like a few sprigs of thyme, rosemary, fresh parsley, and a clove of garlic in a bowl. Cut up the spines into manageable pieces and brown them in a stock pot before adding all additional aromatics.\nAdd cold water and bring to a bare simmer and let cook for a solid 2-3 hours until a very flavorful stock forms. Strain into a separate container.\nSpray down the hens with nonstick spray on both sides.\nPreheat oven to 500° Fahrenheit with an aluminum sheet pan inside it. Once preheated, place the birds skin side down on the pan. This will help the skin get crispy.\nBake for 10 minutes.\nFlip the hens and place them under the broiler for 5-8 minutes or until the hens register a temperature of 160° Fahrenheit in the breast.	fraiserspecial
@@ -1635,10 +4671,6 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 516	Chris Traeger's East Meets West Turkey Burger	\N	1 small eggplant\nOlive oil\nKosher salt\nGround black pepper\n1 large papaya\n⅓ cup apple cider vinegar\n⅓ cup golden raisins\nSaffron threads\n4 egg yolks\n2 squeezes of lemon\n¼ cup black truffle oil\n1 cup canola oil\n3 ounces fontina cheese\n3 ounces parmesan cheese\n3 pounds turkey breast\n2 Tbsp soy sauce\n¼ tsp marmite\n1 small squeeze of anchovy paste\n2 Tbsp of safflower oil\nRadish sprouts\nGluten free brioche buns\nSilk pad	Cut the top off of the eggplant and halve lengthwise.\nDrizzle with olive oil and salt and pepper to taste.\nScore the eggplant and bake in the oven at 400°F for 30-40 minutes.\nPeel papaya and halve papaya lengthwise, spoon out the seeds and cut into 1 inch chunks.\nAdd papaya chunks to small saucepan with apple cider vinegar, golden raisins, salt, pepper and saffron threads. Simmer over medium heat until it resembles a chutney. Let cool.\nCombine 4 egg yolks and two squeezes of lemon in immersion blender cup.\nTake black truffle oil and add to a cup of canola oil then drizzle the mixture slowly into immersion blender cup and blend until you have a thick aioli.\nGrate fontina and parmesan cheese and combine, plate in 3-ounce mounds on a baking sheet covered with a silicone baking mat.\nPlace in oven at 400°F for 8 minutes or until golden brown.\nCut turkey breast into one inch cubes and put in freezer with food processor blade for 15 minutes to firm.\nAdd roasted eggplant, turkey chunks, and a small squeeze of anchovy paste into food processor. Pulse until you get halfway to the consistency you want then add the soy sauce and marmite and a small squeeze of anchovy paste. Pulse until the mixture feels like ground turkey.\nForm ground turkey into ⅓ pound pucks and make a divot in the middle to prevent rounding, season with salt and pepper, and sear for 3-5 minutes in medium-high heat pan with safflower oil.\nPut a tablespoon of papaya chutney on the bottom bun topped with truffle aioli and radish sprouts.\nOn top place seared turkey burger and cheese crisp to finish.	parksandrecburger
 517	Ron Swanson's Burger	\N	Meat\nBuns	Cook the meat.\nPut it on a bun.\nDone.	parksandrecburger
 518	Double-Glazed Apple Fritters	\N	1 ¾ cup milk (heated to 110°F)\n2 ¼  tsp active dry yeast\n¼ cup sugar\n2 Tbsp honey\n3 eggs\n22 ⅓ ounces all purpose flour\n1 ½ sticks unsalted butter (room temperature), plus an additional ½ stick\n4 large Granny Smith apples\n½ cup brown sugar\n¼ tsp cloves\n½ tsp ground ginger\n1 tsp cinnamon\n¼ tsp allspice\n1 tsp cornstarch\n1 ½ quarts vegetable oil\n2 ½ cups powdered sugar (or more, if you want an extra thick glaze)\n¼ cup milk	In the bowl of a stand mixer, combine warmed milk, active dry yeast, sugar, and honey. Whisk and let sit for 10 minutes.\nLightly beat 3 eggs and add to the stand mixer bowl along with the flour.\nCut butter into cubes and add to the stand mixer.\nUsing the dough hook, slowly beat the dough for a minute or two, then increase the speed to medium high and let it mix for 6 minutes. Scrape down sides of bowl halfway through the 6 minutes.\nScrape down the sides one last time and cover the bowl with plastic wrap. Let it rise at room temperature for one hour.\nWhile the dough is rising, prepare your apples. Peel all 4 apples and then dice into half-inch, bite sized cubes.\nToss the apple cubes in a bowl with the juice of one lemon.\nIn a large nonstick pan, melt ½ stick of unsalted butter over medium heat to lightly brown it.\nOnce you see the milk fats start to separate and change colors, add the cubed apples. Stir. Add the brown sugar and stir again.\nAdd the spices (cloves, ginger, cinnamon, and allspice) and stir to combine. Simmer, tossing occasionally, for 4-5 minutes.\nMix ¼ cup warm water with 1 tsp cornstarch. Pour the slurry into the apples to thicken up. Stir and cook for an additional minute and then set aside.\nGenerously flour your work surface. Scrape every last bit of dough out of the bowl and onto your floured counter.\nCoax the dough into a rectangle, stretching and patting it. Dump the cooled (yes, cooled) apples onto the top of the rectangle. Spread them across the dough evenly.\nFold the dough on top of itself into thirds, like a pamphlet. This laminates the dough and apples.\nCoax the dough back into a ball, making sure the apples are evenly distributed throughout. Put back in the bowl, cover with plastic wrap, and let rest for 1 hour at room temperature again.\nRe-flour your work surface and dump the dough back out. Apples will spill out but that’s okay! Liberally flour the top of the dough and then roll it out with a rolling pin to a 1-inch thickness.\nUsing a biscuit cutter, cut rounds out of the dough.\nPlace the cutout fritters onto a well floured baking sheet. Pull out the scraps and re-roll to make another round of dough.\nHeat 1 ½ quarts vegetable oil to 375°F. Pat each donut a little and stretch them before dropping into oil.\nCook for 90 seconds, then flip each donut. Cook for 90 seconds more, until golden brown and crisp. Remove and let dry on a wire rimmed baking sheet.\nDo this in batches until all of your fritters are cooked.\nTime to make the glaze! Combine a lot of powdered sugar (about 2 ½ cups) and a little bit of milk (about ¼ cup) and whisk until smooth.\nDunk each fritter into the glaze and let rest back on the rack. Once the first coat has hardened, go in and dunk each fritter again for a double glaze.\nIf you want to make a thicker glaze, double the amount of powdered sugar and use the same amount of milk for an extra thick honey bun-esque glaze.\nServe and enjoy!	applefritters
-519	Lovers' Delight Sundae	\N			loversdelightsundae
-520	Chef Carl Casper's Grilled Cheese	\N	Gruyere Cheese\nCheddar Cheese\nParmesan Cheese\nButter\nSourdough Bread\nPatience	See https://www.youtube.com/watch?v=hwjdXBxeWsc	grilledcheesevidcon
-521	Rainbow Trout & Tomato Salad	\N			quiet-place-bonus
-522	Cailles en Sarchophage	\N			caillesensarchophage
 523	Pizza Dough	\N	16 ounces flour, plus more for work surface\n2 tsp kosher salt\n2 1/4 tsp active dry yeast\n11 ounces room temperature water\nOlive oil	Combine flour, kosher salt, and active dry yeast in a big bowl.\nAdd room temperature water and mix with a wooden spoon until a shaggy dough forms and no dry clumps remain.\nGenerously oil a medium bowl with olive oil. Put the ball of dough into the bowl and cover with plastic wrap. Let rest for 18-24 hours.	panpizza
 524	Tomato Pizza Sauce	\N	1 28-ounce can of peeled San Marzano tomatoes\n2-3 cloves garlic\nDried oregano and basil\nRed pepper flakes\nKosher salt\nFreshly ground pepper\nOlive oil (optional)	Combine tomatoes, garlic cloves, oregano, basil, red pepper flakes, salt, and pepper in a food processor or large cup for an immersion blender. Pulse a few times until smooth. Optionally, add a dash of olive oil for extra flavor.	panpizza
 525	Pan Pizza - Glass Pie Plate Method	\N	For the pizza dough (makes two 10-inch crusts or one baking sheet crust):\n16 ounces flour, plus more for work surface\n2 tsp kosher salt\n2 1/4 tsp active dry yeast\n11 ounces room temperature water\nOlive oil\nFor the tomato sauce\n1 28-ounce can of peeled San Marzano tomatoes\n2-3 cloves garlic\nDried oregano and basil\nRed pepper flakes\nKosher salt\nFreshly ground pepper\nOlive oil (optional)\nAdditional toppings:\nNatural casing pepperoni, thinly sliced\nLow moisture, full fat mozzarella\nFresh basil\nFreshly grated parmesan, for serving	Start by making your pizza dough. Combine flour, kosher salt, and active dry yeast in a big bowl.\nAdd room temperature water and mix with a wooden spoon until a shaggy dough forms and no dry clumps remain.\nGenerously oil a medium bowl with olive oil. Put the ball of dough into the bowl and cover with plastic wrap. Let rest for 18-24 hours.\nOnce rested, turn the dough out onto a well-floured work surface. Cut the dough in half, as this will make 2 crusts for the glass pie plate.\nOil the pie plate with olive oil. Place the dough in the plate and gently coax the it to the edges using your fingers.\nCover the pan with plastic wrap and let rest for at least one hour or until doubled in size. Now is also the time to preheat your oven - turn it on to its max heat setting and put a pizza stone in the oven as well.\nWhile your dough rises, make tomato sauce. Combine tomatoes, garlic cloves, oregano, basil, red pepper flakes, salt, and pepper in a food processor or large cup for an immersion blender. Pulse a few times until smooth. Optionally, add a dash of olive oil for extra flavor.\nPrepare your other toppings - I love to use natural casing pepperoni, thinly sliced, as well as low moisture (full fat) mozzarella and fresh basil.\nNow that the dough is ready, top it with sauce edge to edge, then add the shredded mozzarella. Top with pepperoni and basil.\nBake for about 15 minutes.\nTop with freshly grated parmesan and let rest for at least 5 minutes so you don’t burn your mouth. Serve and enjoy!	panpizza
@@ -1976,8 +5008,6 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 858	Fried Rice	\N	As needed vegetable oil\n1 cup mushrooms of choice (we used cremini and enoki), washed and sliced\n1 clove garlic, minced\n1.5 tsp freshly grated ginger\n1 carrot, finely chopped\n1 small onion or ½ large onion, finely chopped\n½ cup frozen peas\n1 green onion, finely sliced\n2 halved bunches Baby Bok choy\n2 tsp sesame oil\n1 Tbsp soy sauce\n1.5 tsp mirin\n1 Tbsp rice vinegar\n1 egg\nTo taste kosher salt\nTo taste freshly ground black pepper\nOptional: garnish with spicy chili crisp		healthy-meals-brown-rice
 859	Larb	\N	1 cup (or as needed) dry brown rice\n1.5 Tbsp vegetable oil\n1 pound ground pork\n1 tsp lemongrass, grated\n1 tsp Thai chili powder (or to taste)\n½ tsp brown sugar, packed\n½ Tbsp fish sauce\nJuice of 2 limes (or to taste)\n1 shallot, finely chopped\n3 scallion, finely sliced\nAbout 10 mint leaves, torn\n1 Tbsp cilantro, chopped\n1 cup cooked brown rice\nTo garnish: 3-6 large lettuce leaves (we used butter lettuce)		healthy-meals-brown-rice
 860	Avgolemono	\N	4 cups chicken stock\n1 cup leftover chicken, shredded (poached, rotisserie, grilled, etc.)\n1 cup leftover brown rice\n2 eggs\n⅓ cup lemon juice\n2 tsp dill, chopped\n2 tsp parsley, finely chopped\nTo taste kosher salt\nTo taste freshly ground black pepper		healthy-meals-brown-rice
-861	Simple Shrimp Scampi	\N	2 tsp kosher salt (+ more to taste)\n½ lb linguine pasta\n3 Tbsp unsalted butter\n2 Tbsp olive oil\n3 garlic cloves, crushed\n¼ tsp crushed red pepper flakes\n½ cup dry white wine\n1 lb frozen shrimp, defrosted and peeled\n1 tsp freshly ground black pepper\nJuice of 1 large lemon\n2 Tbsp parsley, chopped		shrimp-scampi
-862	Complex Shrimp Scampi	\N	1 tsp + 1 Tbsp kosher salt (+ more to taste)\n1 tsp baking soda\n1 lb fresh shrimp, peeled (shells reserved) and deveined\n1 cup dry white wine\n1 bay leaf\n½ tsp black peppercorns\n½  cup panko bread crumbs\n8 Tbsp butter (1 stick), divided\n½ lb fresh fettuccine pasta\n3 Tbsp olive oil\n6-8 garlic cloves, thinly sliced\n½ tsp crushed red pepper flakes\n1 large shallot, minced\nTo taste freshly ground black pepper\nJuice  of 2 lemons\n2 tsp fresh tarragon, chopped\n1 Tbsp fresh marjoram, chopped\n3 Tbsp parsley, chopped\nZest of 1 lemon		shrimp-scampi
 863	Deviled Egg	\N	Eggs\n2 Tbsp mayonnaise\n1 Tbsp white vinegar\n1 tsp grain mustard\nOnion powder\nCelery salt\nPaprika		back-to-school-sandwich
 864	Meatball	\N	Ground beef\nBreadcrumbs\nEggs\nSpices		back-to-school-sandwich
 865	Spanakopita Filling	\N	Spinach\n2-3 Garlic cloves, crushed\n2 Tbsp Dill, chopped\n½ cup Feta\nFilo dough (or store bought puff pastry)		back-to-school-sandwich
@@ -2015,9 +5045,6 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 897	Easy Vanilla Ice Cream	\N	8 oz heavy cream, cold\n2 oz clotted cream*\n7 oz sweetened condensed milk (about half the can)\n½ tsp salt\n1 tsp vanilla extract		cookie-cat-steven-universe
 898	No-Churn Strawberry Ice Cream	\N	6 oz heavy cream\n2 oz clotted cream*\n6 oz sweetened condensed milk\n½ tsp salt\n1 tsp vanilla extract\n6.5 oz strawberry puree (see below)		cookie-cat-steven-universe
 899	Strawberry Puree	\N	8 oz strawberries		cookie-cat-steven-universe
-900	For the Dipping Sauce	\N	1-2 small Thai Chili (or 1/2 half Serrano pepper), seeded removed + finely chopped\n2 garlic cloves, finely minced or crushed\n1 Tbsp ginger, grated\n1 tsp lemongrass, grated\n1/3 cup sugar\n2 Tbsp water\n3 Tbsp rice vinegar\n1.5 Tbsp lime juice\n2 tsp fish sauce\noptional: 1 tbsp. cilantro, finely chopped		pantomate-crabcakes
-901	For the Crab Cakes	\N	8 oz lump crab meat, picked through (cartilage and shells fragments discarded)\n1 Thai chili (or 1/2 half Serrano pepper), seeds removed + thinly sliced\n2 scallions (greens only), finely sliced\n1 tbsp ginger, grated\n1 tbsp cilantro\n1 large egg, beaten\n1 tbsp lime juice\n1 tsp lime zest\n1 tsp fish sauce\n1 tsp kosher salt\n1 tsp freshly ground black pepper\n1 cup panko breadcrumbs\n2 Tbsp vegetable oil		pantomate-crabcakes
-902	Pan con Tomate	\N	1 loaf ciabatta bread (or another thick-crust loaf of bread)\n2 large tomatoes (heirloom if possible)\n1 tsp kosher salt\n2 tbsp extra virgin olive oil + more for finishing\n3 large garlic cloves, halved\nas needed flaky salt		pantomate-crabcakes
 903	Basic American Grilled Cheese	\N	8 slices hearty white bread\n3 Tbsp unsalted butter, very soft\nOptional: 4 oz cheddar cheese, finely grated\n16 slices American cheese		advanced-grilled-cheese
 904	Advanced Grilled Cheese	\N	7 oz white cheddar, cubed\n2 oz brie cheese, rind removed\n2 Tbsp dry white wine\n½ large shallot, roughly chopped\n3 Tbsp unsalted butter, very soft\n1 tsp Dijon mustard\n8 slices country white bread		advanced-grilled-cheese
 905	Jalapeño Popper Grilled Cheese	\N	2 oz white cheddar, cubed\n6 oz Monterey Jack cheese, cubed\n1 oz cream cheese\n2 Tbsp Mexican beer\n½ large jalapeño, sliced\n3 Tbsp unsalted butter, very soft\n8 slices heart white bread		advanced-grilled-cheese
@@ -2313,6 +5340,285 @@ COPY public.recipe (id, name, image_link, raw_ingredient_list, raw_procedure, ep
 1195	Minestrone Soup	\N	As needed neutral oil\n1 yellow onion, diced\n1 large carrot, diced\n2 celery ribs, thinly sliced\n3 garlic cloves, minced\n6 Cups chicken stock, preferably homemade\n1 (28 oz) can crushed tomatoes\n1 Cup green cabbaged, chopped\n1 (15 oz) can cannellini beans, drained + rinsed\n1 small zucchini, diced\n1 Tbsp fresh parsley, chopped\n1 Tbsp fresh basil, chopped\n2 tsp fresh oregano, chopped\nOptional: 1 parmesan rind\nTo taste kosher salt\nTo taste freshly ground black pepper\n⅔ Cup ditalini pasta		lunches-the-breakfast-club
 1196	Allison’s Lunch	\N	1 slice white bread\n2 Tbsp unsalted butter\n1 slice wheat bread\n5 pixie sticks or 2 Tbsp granulated sugar\n1 Cup captain crunch cereal\n1 small coke		lunches-the-breakfast-club
 1197	Cereal French Toast	\N	4 slices white bread\n4 slices wheat bread\n3 large eggs\n1 Cup whole milk\n1 Tbsp vanilla paste\n½ tsp cinnamon\n½ tsp kosher salt\n¼ tsp freshly grated nutmeg\n3 Tbsp granulated sugar\n2 Cup captain crunch cereal, ground\n2 Tbsp unsalted butter + more for serving\nAs needed maple syrup		lunches-the-breakfast-club
+1198	serving	\N	frying oil\nlager beer\ndried marrowfat peas		friday-night-fish-fry
+1199	aromatics	\N	oyster mushrooms\nchicken stock		arc-raiders
+1200	serving	\N	chicken stock		the-ultimate-marry-me-meals
+1201	assembly	\N	flour\nmilk\nprocessed or unsalted peanuts\nsugar		level-9:-babish's-pbandj
+1202	movie accurate turkey	\N	turkey stock		christmas-turkey-inspired-by-national-lampoon's-christmas-vacation
+1203	sauce	\N	chicken\nflour\nbuttermilk\nwhite rice flour		lava-chicken-inspired-by-a-minecraft-movie
+1204	assembly	\N	can san marzano tomatoes\ncalabrian chilis seeds removed\nflour		meatball-smashwich-with-babish
+1205	10 Levels of Chocolate Chip Cookies | With Babish	\N	flour\nbrown butter with\ndark brown sugar\nwhite sugar\nwhite chocolate caramelized\nchocolate fèves\neggs\nspelt\nice\ndark chocolate chips		10-levels-of-chocolate-chip-cookies-or-with-babish
+1206	batter dredge	\N	flour\nchicken broken down into ten pieces\nbuttermilk\nsalt\npotato starch\nwhite rice flour\nliquid egg whites		babish's-ultimate-fried-chicken
+1207	beans	\N	short grain rice\ndried black soybeans\nspinach\nsoy sauce\nanchovies\nsheets gim\nvegetable oil		kimbap-and-lunchbox-inspired-by-squid-game-season-2
+1208	beurre blanc	\N	unsalted danish creamery european style butter\nchicken patted completely dry\ndry white wine\nhigh quality white sturgeon caviar\nsalt\nwhite wine vinegar		turkey-and-caviar-inspired-by-star-trek:-the-next-generation
+1209	sausage	\N	fat back or pork belly cut into half inch cubes\nchicken stock more\nsalt\nblack pepper\nwild boar meat cut into one inch cubes\nhog casings\nmeat		sausage-inspired-by-god-of-war
+1210	spicy burger assembly	\N	flour\nketchup\nmilk warm\nwhite vinegar		super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations
+1211	serving	\N	dark rum\nginger\ngarlic\nvegetable or mustard oil\ngreen chilies slit		spicy-rum-chicken-curry-inspired-by-super-smash-bros.
+1212	bun dough	\N	plain flour\nadzuki beans\nbrown sugar\nmilk		giant-red-bean-bun-inspired-by-spirited-away
+1213	lentil sloppy joes	\N	baby bella mushrooms\nbacon\nspaghetti\nlentils		struggle-meals
+1214	Korean Garlic Fried Chicken inspired by Korean Street Food	\N	garlic cloves		korean-garlic-fried-chicken-inspired-by-korean-street-food
+1215	korean fried chicken powder mix	\N	flour\nsoy sauce\nbrown sugar\nhoney\nrice wine\ncorn starch		korean-garlic-fried-chicken-inspired-by-korean-street-food
+1216	assembly	\N	hot italian sausage casings removed\nsweet italian sausage casings removed\nmilk ricotta cheese\nno boil lasagna noodles for flat layers\nlow moisture mozzarella thinly\npecorino cheese\nparmesan		4-cheese-lasagna-inspired-by-one-piece
+1217	Water Tribe Noodles inspired by The Legend of Korra	\N	spinach		water-tribe-noodles-inspired-by-the-legend-of-korra
+1218	spinach noodles	\N	flour\nshaoxing wine\ngreen onions cut into pieces		water-tribe-noodles-inspired-by-the-legend-of-korra
+1219	stir fry	\N	grain white rice\nthinly pork shoulder\npotato starch\nsoy sauce\ngarlic cloves microplaned\nsake\nsugar		18-pound-giant-fried-chicken-bowl
+1220	serving	\N	cherry tomatoes\nflour\neggs\nparmesan cheese		squid-ink-ravioli-inspired-by-stardew-valley
+1221	pancakes	\N	butter\nbuttermilk\nflour\nmaple syrup\nhoney\ndark brown sugar		miso-honey-butter-pancakes
+1222	Let's Make: French Onion Soup	\N	beef stock or bone broth		let's-make:-french-onion-soup
+1223	bouquet garni	\N	yellow onions thinly\nbutter\n–6 marrow bones cut lengthwise or crosswise		let's-make:-french-onion-soup
+1224	charred scallion gremolata	\N	russet potatoes\nparsley\nmixed peppercorns\neggs\nunsalted butter melted,\npotato flour\nscallions roots removed		let's-make:-steak-and-eggs-au-poivre
+1225	sandwich assembly	\N	half & half\napple cider vinegar		the-ultimate-steak-sandwich
+1226	wet ingredients	\N	chickpea flour		the-coagulator-inspired-by-the-simpsons
+1227	serving	\N	chicken\nflour\nsalt		fried-chicken-inspired-by-legend-of-zelda:-tears-of-the-kingdom
+1228	Korean Cheese Corn Dogs	\N	flour		korean-cheese-corn-dogs
+1229	assembly	\N	milk mozzarella cut into hot dog sized sticks\nsugar\nhot dogs\npanko breadcrumbs		korean-cheese-corn-dogs
+1230	steak-egg wagyu sandwich	\N	a5 grade wagyu sirloin\njapanese milk bread\njapanese sandwich bread\nspam cut into thick slices		dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv
+1231	variations	\N	low moisture mozzarella cheese\npesto\nhoney\neggs well		korean-pizza-toast
+1232	chocolate ganache	\N	sugar\nmilk\nheavy cream\ncake flour\neggs		28-layer-chocolate-cake
+1233	pistachio pesto	\N	flour\nbasil		florentine-foccacia-sandwich-inspired-by
+1234	rigatoni	\N	mezzi rigatoni\nheavy cream\nvodka\nbutter\ngarlic cloves\na few basil\nsalt		copy-cat-spicy-vodka-rigatoni
+1235	fettucine alfredo	\N	eggs\ndouble zero flour\nsemolina flour\ntwenty four month aged parmigiano reggiano\nunsalted high quality butter		classic-fettucine-alfredo
+1236	pastrami on rye	\N	ice\nsalt		katz's-corned-beef-and-pastrami
+1237	chocolate cake milkshake assembly	\N	cake flour\nunsweetened cocoa powder\ndutch processed cocoa powder\nmayonnaise		chocolate-cake-milkshake-inspired-by-portillo's
+1238	spaghetti all'assassina	\N	sauce\ngarlic cloves brown stem removed\nspaghettoni spaghetti, linguine\ngarlic oil\nolive oil\ncan passata preferably san marzano		spaghetti-all'assassina-inspired-by-claudia-romeo
+1239	assembly	\N	flour\npurple cabbage\npanko breadcrumbs\nmayonnaise\neggs\ngarlic		nopal-katsu-sando
+1240	assembly	\N	tomatillos husked\ncilantro\nblack beans\nblack beans drained\ngarlic		dobladitas-con-salsa-verde
+1241	serving	\N	sweet sherry\nheavy cream\nmilk\nbrown sugar\nsugar\npears peeled, halved, cored		panna-cotta-with-poached-pears
+1242	serving	\N	dried sorrel\ncinnamon orange peel, or a few cloves,\nheavy cream\nsweetened condensed milk		agua-de-jamaica-granita
+1243	tom yum tomato cream pasta	\N	shrimp stock\ngarlic cloves\nshrimp shells\nsundried tomatoes\ngalangal root\nmakrut lime		tom-yum-tomato-cream-pasta
+1244	Spiced Rum Tarte Tatin	\N	sugar		spiced-rum-tarte-tatin
+1245	assembly	\N	heavy cream\ngranny smith apples & quartered		spiced-rum-tarte-tatin
+1246	the pastry scraps	\N	flour		layered-butter-toast-danish-creamery
+1247	burgers	\N	flour		demon-burger-inspired-by-dragon-ball-daima
+1248	assembly	\N	milk\noaxaca\njalapenos\nbutter\nflour\nred tomatoes		super-stretchy-nachos
+1249	assembly	\N	3 flour\nflour\nfrozen danish creamery butter\nbrown sugar\npink lady apples cut into 1 or 4 inch thick slices\negg		apple-and-brie-galette
+1250	cinnamon sugar mixture	\N	flour\nsugar		cinnamon-rolls-3-ways-(pumpkin-spice-strawberry-nutella-classic)
+1251	Golden Fried Rice inspired by Kaguya-Sama: Love is War	\N	rice		golden-fried-rice-inspired-by-kaguya-sama:-love-is-war
+1252	golden fried rice with egg threads scallions	\N	eggs\neggs into yolks whites\nscallions		golden-fried-rice-inspired-by-kaguya-sama:-love-is-war
+1253	pasta	\N	japanese short grain rice\nbeef stock\nribeye steak thinly\npasta		pasta-curry-inspired-by-pokemon-sword-and-shield
+1254	Gourmet Meat Stew inspired by Breath of the Wild	\N	homemade or store bought beef stock\nusda prime ribeye cut into chunks\ngoat butter\nmilk\nflour		gourmet-meat-stew-inspired-by-breath-of-the-wild
+1255	buttercream frosting	\N	sugar\ncake flour\nbutter\nmilk\nrasberries\negg yolks\nwhite chocolate		minecraft-cake-inspired-by-minecraft
+1256	breading	\N	bear ribs bear kebab meat\nbear new york steak pounded\nbear short rib brisket cut into chunks		fried-bear-inspired-food-wars!
+1257	Giant Onigiri inspired by Cooking from Valkyries	\N	short grain rice		giant-onigiri-inspired-by-cooking-from-valkyries
+1258	assembly	\N	kewpie mayonnaise\n2 oz cans of tuna, drained\numeboshi\nsheets of nori\nsake\nsalt		giant-onigiri-inspired-by-cooking-from-valkyries
+1259	Big Bang Burger inspired by Persona 5	\N	flour		big-bang-burger-inspired-by-persona-5
+1260	condiments & toppings	\N	milk warm\nbeef\nbutter\nsugar\negg\ntomatoes thinly		big-bang-burger-inspired-by-persona-5
+1261	Roast Beef inspired by Attack on Titan	\N	beef tallow\n~4 lb boneless dry aged ribeye roast\nsalt\npepper\nmirepoix\nbed of lettuce for garnish		roast-beef-inspired-by-attack-on-titan
+1262	assembly	\N	octopus\nfish stock or homemade seafood stock\nshrimp & deveined\narborio rice\nsquid tubes cut into rings\ndry white wine\nparsley stems		sanji's-seafood-risotto
+1263	assembly	\N	flour\ncake flour\nalmond flour\nmilk\nsugar\nbutter		underwear-bread-inspired-by-asteroid-in-love
+1264	garnish	\N	corn starch\npotato starch\nblack sea bass\nneutral oil\nshaoxing cooking wine\nsalt\n40g white vinegar		blooming-fish-inspired-by-cinderella-chef
+1265	ramen in hotpot broth	\N	rice\nchrysanthemum\neggs\nboneless skinless chicken thighs		chicken-meatball-hotpot-inspired-by-jujutsu-kaisen
+1266	Diablo Onigiri	\N	short grain rice\ngarlic\nchipotles in adobo with 1 of sauce\nshichimi togarashi\nbone in skin on chicken breasts\ncarrots\ncelery stalks\nroma tomatoes\nnori		diablo-onigiri
+1267	garnish	\N	azuki beans\nbrown sugar\nsugar\nblack sesame seeds toasted\nflour\nbutter		souffle-pancakes-inspired-by-food-wars!
+1268	Breakfast Uncrustable	\N	chicken\neggs\ncheese\ncottage cheese\nunsalted butter more for toasting		breakfast-uncrustable
+1269	A5 Wagyu Roti Don inspired by Food Wars!	\N	day old rice		a5-wagyu-roti-don-inspired-by-food-wars!
+1270	alvin's version	\N	garlic thinly\nparsley\nbeef tallow butter\nbutter\nsalt		a5-wagyu-roti-don-inspired-by-food-wars!
+1271	assembly	\N	heavy cream\nstrawberries or as desired\neggs\nsugar\ncake flour\nbutter		strawberry-shortcake-inspired-by-death-note
+1272	shokupan crusts snack	\N	dashi\npanko or 2 cups dry panko\nshokupan crusts removed		pork-katsudon-inspired-by-yuri!!!-on-ice
+1273	Mega Beef Bowl inspired by Persona 4	\N	ribeye thinly		mega-beef-bowl-inspired-by-persona-4
+1274	assembly	\N	mirin\nsoy sauce		mega-beef-bowl-inspired-by-persona-4
+1275	Potsticker Pizza	\N	pizza dough\npork\nlow moisture mozzarella cheese\ncabbage\ngarlic\ndark soy sauce		potsticker-pizza
+1276	ham cheese croissants	\N	croissant dough scraps\ncroissant dough\nlayer croissant dough		324-layer-croissant-inspired-by-yakitate!!-japan
+1277	mitarashi sauce	\N	silken tofu\njoshinko\nshiratamako\nmirin\nsoy sauce\nsugar\npotato starch		mitarashi-dango-inspired-by-demon-slayer
+1278	omelet	\N	eggs\nsugar\nbeef\narborio rice\nparmesan cheese		curry-risotto-omurice-inspired-by-food-wars!
+1279	Herring and Pumpkin Pot Pie inspired by Kiki's Delivery Service	\N	2 g unsalted butter blocks,		herring-and-pumpkin-pot-pie-inspired-by-kiki's-delivery-service
+1280	assembly	\N	flour\nmilk\nbutter\nfish stock\nsmoked herring torn into chunks		herring-and-pumpkin-pot-pie-inspired-by-kiki's-delivery-service
+1281	mochi dough	\N	edamame shelled\nheavy cream\nsugar\nshiratamako		kikufuku-mochi-inspired-by-jujutsu-kaisen
+1282	assembly	\N	flour\nmilk\nbutter		honey-toast-inspired-by-chainsaw-man
+1283	toppings	\N	1.4 kg pork belly\nshoyu\nsake\nred miso		ichiraku-ramen-inspired-by-naruto
+1284	coconut cream cheese frosting	\N	sugar\neggs\nflour\nbutter\nunsweetened coconut milk		tom-cruise-coconut-cake-inspired-by-hacks
+1285	eggs	\N	steamed rice\neggs\nchicken wings\nsake\nmirin\nbonito flakes\nsesame oil\nsoy sauce		transforming-furikake-gohan-inspired-by-food-wars!
+1286	souffle omelette	\N	eggs\nripe plum tomatoes\nheavy cream\ngarlic\nvegetable oil\nbutter\nice for ice bath\nsplash of red wine		jiggly-souffle-omelette-inspired-by-food-wars!
+1287	chun jiao rou	\N	flank steak thinly\nmushrooms\nvegetable oil\noyster sauce\ngarlic\nbell peppers thinly\nsoy sauce		bell-peppers-and-beef-inspired-by-cowboy-bebop
+1288	devil fruit decoration	\N	heavy cream\neggs\npurple fondant\nsugar\ncake flour\negg yolks\nmilk		devil-fruit-inspired-by-one-piece
+1289	marinated tomatoes	\N	cherry tomatoes cleaned\nyellow mustard\nsweet paprika\nblack peppercorns crushed\nhot dogs boiled\ngarlic cloves lightly smashed		hot-dog-bowl-inspired-by-detroit's
+1290	ganache topping	\N	heavy cream\ndark chocolate\nmilk\nsugar\neggs\ncake flour		spongebob-and-patrick-ice-cream
+1291	Chorizo Clam Pasta	\N	littleneck clams could substitute part or with cockles if desired\ndried linguine\nspanish chorizo\nparsley\nwhite wine\ngarlic smashed		chorizo-clam-pasta
+1292	Lobster Salad Panzanella	\N	lobster tails\ncrusty sourdough bread cut into 1 inch thick slices\nbutter\nmayonnaise\nlemon juice\ncapers		lobster-salad-panzanella
+1293	halloumi sandwich ingredients:	\N	jarred roasted red peppers drained\nhalloumi cut into 1 or 2 inch\nunsalted almonds roasted\nsundried tomatoes drained\nparsley\nbasil\ngarlic\nsherry vinegar		halloumi-sandwich
+1294	beef	\N	top sirloin butt		chicago-style-italian-beef-inspired-by-the-bear
+1295	coleslaw	\N	chicken\nhomemade mayo\nketchup\nvegetable oil\negg		the-best-barbecue-chicken
+1296	cram ingredients:	\N	sugar\nprepared strawberry kool aid or fruit juice		jell-o-cake-nuka-cola-and-cram-inspired-by-fallout
+1297	assembly	\N	lard\neinkorn stone wheat flour\ngreen cabbage thinly\nsquab		renaissance-wrap-inspired-by-shrek-2
+1298	citrus soak	\N	dark chocolate\nheavy cream\nsugar\npistachios ideally sicilian or iranian\ncake flour\nbutter\nmilk		pistachio-cake-with-chocolate-ganache
+1299	chilaquiles	\N	skirt flank, or bavette steak\ncilantro stems included,\ntomatillos husks removed, rinsed,\nsour cream\nfeta cheese\ngarlic\nfull handfuls of tortilla chips		chilaquiles-divorciados-(con-todo)
+1300	Green Goddess Egg Salad	\N	eggs\npacked herbs\nlemon juice\nmayonnaise or greek yogurt\nwhite vinegar\nscallion or ramp\nanchovy filet\ndijon mustard\navocado scooped\nsalt		green-goddess-egg-salad
+1301	béchamel sauce	\N	milk\neggs\nflour\nbuttermilk\ngarlic\ncornstarch\nitalian breadcrumbs\ncorn flakes\npanko breadcrumbs		babish's-ultimate-chicken-parm
+1302	waffle shells:	\N	milk\nsugar\nheavy cream\ndark chocolate\nuncooked white rice\negg yolks		gourmet-choco-taco
+1303	jerk barbecue sauce ingredients:	\N	lean beef\nlong grain white rice\nflour\nlard		jerk-meat-platter-inspired-by-futurama
+1304	egg wash:	\N	flour\nricotta cheese\ngreek feta\negg\neggs\ncooking olive oil		spanakopita-galettes
+1305	slaw:	\N	chicken breast\nghee or clarified butter (or enough reach 1" high in pan\nbreadcrumbs\nflour\neggs\nred radishes\nmint\ntarragon		chicken-schnitzel-with-kohlrabi-slaw
+1306	everything bagel ingredients:	\N	milk\nflour\nsalt\nsugar\nwhite vinegar\nwhite sesame seeds		bagelwithlox
+1307	candied cinnamon peanuts:	\N	sugar\ncream of coconut\nevaporated coconut milk\ncoconut milk\nheavy cream\nflour		coconut-tres-leches-cake-(inspired-by-uncle-boon'sthai-diner)
+1308	calabrian chili pasta	\N	pasta\nricotta\ngarlic\ncalabrian chili\na few thinly sheets of parmesan\ncherry tomatoes		tomato-confit-(ricotta-toast-simple-salad-pasta-with-calabrian-chili)
+1309	short cut pastéis de nata ingredients:	\N	milk\nsweet cherries\nsugar\nflour\negg yolks\nbrown sugar or sugar\ncognac or grand marnier		2024oscarsspecial
+1310	dashi	\N	eggs\nscallions whites in rounds greens for garnish\nmirin\nsoy sauce\nsake\nsugar\nchicken thigh\nrice for serving		oyakodon
+1311	cake	\N	dark brown sugar\ncake flour\nsour cream\nbutter\nmedjool date pitted &\nflour		sticky-toffee-coffee-cake
+1312	buttermilk bacon fat bechamel ingredients:	\N	flour rolling\nfrozen hashbrowns according package instructions\nthick cut bacon\nbeef\ncheddar cheese		bobsburgers-potato-lasagna
+1313	Spiedini alla Romana	\N	crusty bread\ntomato puree\nmozzarella cheese\nchicken stock\ncapers drained & dried\ndry white wine\nparsley chopped, more for garnish\ncooking olive oil		spiedini-alla-romana
+1314	duck cake:	\N	butter\nsugar\nflour\nmilk\nbuttermilk\neggs		bluey-duck-cake
+1315	tuna sauté	\N	slab bluefin tuna loin\nbasil packed\nparsley stems packed\nchive stems packed\nmirin		one-piece-tuna-saute
+1316	Leftover Caviar Pasta	\N	butter\nthin long pasta\nleftover champagne or dry white wine\ncreme fraiche\nchampagne vinegar or white wine vinegar\nlemon juice		leftover-caviar-pasta
+1317	icing:	\N	ripe strawberries washed +\nbutter\nflour\nsugar		mean-girls-toaster-strudel
+1318	Pho Carnitas with Nước chấm	\N	pork shoulder pork butt		pho-carnitas-with-nuoc-cham
+1319	nước chấm	\N	lemongrass\ncinnamon\nfish sauce\nbrown sugar		pho-carnitas-with-nuoc-cham
+1320	dutch baby	\N	sugar\neggs\nflour\nmilk\ngoat milk\nsumac		dutch-baby-with-cajeta-blueberry-sumac-compote
+1321	popplers:	\N	shrimp shelled deveined\nflour\nmild lager\nsugar\nmayonnaise preferably kewpie\nprocessed walnuts toasted		futurama-shrimp-popplers
+1322	Edible Flower Teacup	\N	sugar		willy-wonka-edible-teacup
+1323	tea nectar:	\N	gum paste\nfood grade beeswax\nchamomile flowers		willy-wonka-edible-teacup
+1324	spiced rum	\N	milk\nheavy cream\ncloves\negg yolks\nsugar\nsegment lemongrass\npacked light brown sugar		eggnog-with-spiced-rum
+1325	sichuan chili aioli:	\N	eggs\nlight olive oil\ngarlic\nbutter\negg\nsichuan chili oil\npotatoes thinly\nleeks washed		spanish-tortilla-with-leek
+1326	beef patty filling	\N	beef\nflour\nbeef suet very cold,\nbeef stock more\nbreadcrumbs\nscallion thinly		spiderverse-beef-patty
+1327	babish every burger:	\N	fry oil\nflour\nboneless dry aged ribeye\nlean brisket		rick-and-morty-every-burger
+1328	rice krispie treats	\N	butter\nchocolate\nhojicha powder\nbags mini marshmallows\nbox rice krispies\nfinishing salt		browned-butter-hojicha-rice-krispies-treats
+1329	Elote Risotto with Sautéed Octopus	\N	vegetable stock\noctopus\narborio rice\ncorn\nparmesan cheese\ngarlic		elote-risotto-with-sauteed-octopus
+1330	SF-Style Vietnamese Spaghetti with Clams	\N	clams\nspaghetti\ngarlic\ncilantro\nscallions\ntobiko\noyster sauce		sf-style-vietnamese-spaghetti-with-clams
+1331	assembly	\N	unsalted butter chilled\nmilk\ndeli ham\nflour\nsour cream		croque-madame-kringle
+1332	norcina pasta	\N	heavy cream\ndried spaghetti\ndried bucatini\ndried mezze rigatoni\npork\ndry white wine\nwhite button mushrooms washed, dried		mushroom-pasta-super-mario-movie
+1333	garnish	\N	beef stock more\nboneless chuck roast cut into two inch pieces\nbeef chicken, or vegetable stock		tex-mex-enchiladas
+1334	egg wash	\N	pork shoulder\nbread flour more\nhot dog buns\nfat back\nmilk\negg\neggs		triple-deluxe-dog-hot-dog-detective
+1335	cookie nachos	\N	strawberries washed hulled +\nflour\nrolled oats\nsugar		cookie-nachos-sweet-tooth
+1336	The Crispiest Sandwich inspired by They Kidnapped my Son on Christmas	\N	fry oil		crispiest-sandwich-kidnapped-on-christmas
+1337	baked bacon	\N	boneless skinless chicken breast butterfied\nbuttermilk\nflour		crispiest-sandwich-kidnapped-on-christmas
+1338	Nipples of Venus inspired by Amadeus	\N	chestnuts drained\nwhite chocolate wafers or bars\nbittersweet chocolate\ndark chocolate\nsugar\nbutter\nbrandy		nipples-of-venus-amadeus
+1339	basil gel	\N	gelatin sheets\nflour\ndeli style low moisture mozzarella cheese\ntomatoes on the vine\ntomato paste\nvegetable oil more for greasing\nbasil		chicago-deep-dish-the-bear
+1340	savory cannoli	\N	pitted oil packed cerignola black olives\nmortadella\npistachios\nmilk\nparmesan cheese		savory-cannoli-the-bear
+1341	potato chip tortilla	\N	eggs\nrusset potatoes\nfry oil\nchives\nbutter		potato-chip-omelet-the-bear
+1342	WINGS	\N	chicken wings		wings
+1343	ricotta	\N	high quality milk\nvegetable oil\nbasil\norecchiette ,		pasta-salad
+1344	advanced alla vodka	\N	tomato puree\nheavy cream\ndried pasta\ndried mezzi rigatoni\ntomato paste\npancetta\nvodka\nsundried tomato paste		vodka-pasta
+1345	arroz con pollo	\N	grain rice drained\nboneless skinless chicken thighs\ncilantro stems\npitted green olives\ntomato sauce\ngandules\nculantro		arroz-con-pollo-spiderman-spiderverse
+1346	stabilized whipped cream icing	\N	sugar\nheavy cream\neggs\nstrawberries\nmascarpone cheese\nself rising flour		looney-cake-succession
+1347	monte cristo patty melt	\N	flour\nmilk\negg		monte-cristo-american-dad
+1348	el burdigato hot dog	\N	pepperoni\nbeef\nlean beef		el-burdigato-teen-titans-go
+1349	carnitas cuban sliders	\N	pork shoulder cut into two three inch pieces\nlard\ncoca cola preferably mexican\ncorn tortillas\nevaporated milk		carnitas
+1350	sorbet popsicle	\N	frozen blueberries\nsugar\ncoconut cream chilled\nraspberries\nsweetened condensed milk\nlemon juice		glowing-popsicles-the-mandalorian
+1351	pistachio crusted lamb chops	\N	butter\nthick preserved lemons\nwhite wine vinegar\npanko breadcrumbs\ntarragon\negg yolks\ncooking olive oil		tylers-bull-the-menu
+1352	BARBACOA DE RES CON CONSOMÉ	\N	g or 1 masa		barbacoa-de-res
+1353	serving	\N	cloves\ncilantro tender stems\nunflavored pulque\ndried garbanzo beans , dried		barbacoa-de-res
+1354	peach’s cake	\N	sugar\nripe peaches or 1 frozen peaches\nflour\nmilk\nbutter		peachs-cake-mario-64
+1355	superfine sugar	\N	milk\ndried short grain rice or 3 cups rice\ncinnamon\nbrown sugar\nheavy cream\nwhite sugar		kevin's-snacks-inspired-by-the-office
+1356	bordelaise sauce	\N	filet mignon steaks\nyukon gold potatoes\nbutter\nkoji\nasparagus\nduck fat		duck-fries-john-wick
+1357	suggested inclusions	\N	inclusions of your\nflour\nlight brown sugar\nbrowned butter\nwhite sugar\nsourdough discard\neggs		ultimate-cookie
+1358	assembly	\N	wheat noodles\nflour\nneutral oil\nscallions cut into two inch segments more garnish		scallion-noodles-eeaao
+1359	Plum Pie inspired by Puss in Boots: The Last Wish	\N	plums		plum-pie-puss-in-boots
+1360	plum pie	\N	flour\nlight brown sugar\ncornstarch		plum-pie-puss-in-boots
+1361	salad	\N	rabbit rack\ncarrots		rabbit-last-of-us
+1362	babish amatriciana	\N	dried spaghetti\nsemolina flour\npureed tomatoes\ncrushed tomatoes\nspaghetti\neggs		amatriciana-eat-pray-love
+1363	mofongo ingredients:	\N	fry oil\nbone in skin on chicken thighs\nsweet chili peppers halves\ncilantro\nculantro\ngarlic\n~2 sofrito		mofongo
+1364	Chocolate inspired by SpongeBob SquarePants	\N	fermented dried cocoa beans\nwhite sugar preferably superfine\n70% tempered dark chocolate\ncacao butter ~100f		chocolate-spongebob
+1365	tater tots	\N	plum tomatoes		tater-tots-breaking-bad
+1366	cheeseburger	\N	lean brisket\nrusset potatoes\ncheese\ndry aged beef\nboneless short rib		cheeseburger-the-menu
+1367	vegan ‘cheese’	\N	flour\nvegetables\nlegumes or potato\ncashews\nrefined coconut oil\nbrown rice\nsauerkraut or pickle brine		pretty-patties-spongebob
+1368	potato leek soup	\N	homemade vegetable stock\nrusset potatoes\nvegetable or chicken stock\ncelery\nheavy cream\ndry white wine\nheavy cream more finish		remys-soup-ratatouille
+1369	pigs a blanket	\N	store bought puff pastry\ncocktail franks\nfull size precooked sausage\negg		pigs-in-a-blanket-office
+1370	Home Alone Special	\N	heavy cream		home-alone-special
+1371	no churn ice cream sundae	\N	milk\nshort pasta\nmild yellow cheddar\nsan marzano tomatoes		home-alone-special
+1372	beer chicken	\N	chicken\nbaby potatoes\nbrussels sprouts\nbeer\nhen of the wood or maitake mushrooms\nchicken stock\ngarlic cloves smashed		beer-can-chicken
+1373	meatballs	\N	beef\npork\nveal\nwhite bread crusts removed, torn into pieces\nbuttermilk\npacked parsley\negg\nuncured pancetta\ngarlic		meatballs-30rock
+1374	Sausages inspired by God of War: Ragnarok	\N	wild boar meat		sausages-ragnarok
+1375	boar sausage	\N	yellow onion\nfat back or pork belly\npork or chicken stock\nsalt		sausages-ragnarok
+1376	poblanos	\N	icelandic or greek yogurt\nlean beef\nmilk		healthier-crunchwrap-supreme
+1377	tiramisu assembly	\N	eggs\nmascarpone cheese\nvery strong coffee or espresso\nsugar\nheavy cream whipped\ncake flour		tiramisu-basics
+1378	cheddar bacon stuffing	\N	turkey broth preferably homemade\nturkey broth\nturkey stock\neggs\nslab bacon into lardons\nsharp cheddar\nbreakfast sausage		thanksgiving-stuffings
+1379	thanksgiving	\N	lager beer very\ncornstarch\ngreen beans\npumpkin puree\nbutter\nevaporated milk		thanksgiving-balls-psych
+1380	al burro filling	\N	vegetable or chicken stock\nflour\nplain breadcrumbs\ncarnaroli roma, or arborio rice\ncrushed tomatoes		arancini
+1381	whipped cream cheese icing	\N	sugar\nmilk\nheavy cream\ncream cheese\neggs\negg whites		aunt-petunias-pudding-harry-potter
+1382	Blue Noodles inspired by Andor	\N	potato starch		blue-noodles-andor
+1383	blue noodle stir fry	\N	shiitake mushrooms\ngarlic\nmirin\nsoy sauce\nsesame oil\ntoasted white sesame seeds		blue-noodles-andor
+1384	glaze formula	\N	flour\nsugar\nmilk\nbrown sugar\neggs\nvegetable oil		patricks-briefcase-spongebob
+1385	Nutmeg Ginger Apple Snaps inspired by Fantastic Mr. Fox	\N	sugar		apple-snaps-mrfox
+1386	candied apple	\N	flour\nunsulfured molasses\ndark brown sugar		apple-snaps-mrfox
+1387	cola braised short ribs	\N	english cut short ribs\nveal stock\nveal bones\ndry white wine\ndry red wine\ncoca cola\nthyme sprigs\nparsley sprigs		cola-short-ribs-the-bear
+1388	wasabi buffalo wings	\N	chicken wings\nshishito peppers\nbutter\nsushi rice vinegar more as necessary\ngarlic\njalapeño peppers\nwasabi paste		wasabi-buffalo-wings-the-simpsons
+1389	EVERYTHING Bagel inspired by Everything Everywhere All At Once	\N	flour		everything-bagel-eeao
+1390	everything bagel	\N	every spice available\nbarley malt syrup		everything-bagel-eeao
+1391	maconara	\N	dried spaghetti\npanko breadcrumbs\naged yellow cheddar cheese\nguanciale\nhen of the woods or maitake mushrooms cut/torn into bite size pieces\nthick cut bacon\ndried macaroni or cavatappi		carbonara-anything
+1392	choodles	\N	milk\ninstant chicken ramen\nmeat\nscallions\nfrozen shrimp\nthick cut bacon		ramen-hacks
+1393	hot dog chili	\N	lean beef\nprocessed american cheese\nbeef\ntomato sauce\ncheddar cheese\nbeef suet\ntomatoes green chilies		footlong-taco-dogs-bobs-burgers
+1394	late night pasta	\N	dried pasta\ncherry tomatoes washed\nmozzarella cheese\nparmesan cheese more garnish\ngarlic thinly\nbutter\ntomato paste\nbasil\nparsley more garnish		go-to-pasta
+1395	cheese guava filling:	\N	flour\nbeef\nboneless skinless chicken breast\nqueso blanco\nguava paste\ncooking olive oil		empanadas
+1396	cinnamon orange churros	\N	sugar\nbutter\neggs\nmilk\nflour		churrons-broad-city
+1397	herb butter	\N	lobster\neggs\nbutter\nblack pepper\nparsley\ndill\ngarlic\nmarjoram		lobster-scrambled-eggs-seinfeld
+1398	egg wash	\N	flour\nmilk\nunsalted european style butter\nchocolate\nsugar\nbutter		chocolate-croissants-its-complicated
+1399	souvlaki	\N	~2 pork neck or or boneless skinless chicken breast\nfull fat plain greek yogurt\nfrozen french fries\nwooden skewers		souvlaki
+1400	babish’s double butter cookies	\N	butter\nflour\nbrown sugar\nwhite sugar\neggs\nsemi sweet chocolate\ndark chocolate\nsemi sweet chocolate chips		bobbys-cookies-king-of-the-hill
+1401	fortified fish stock	\N	fortified fish stock\nfish stock\nhead on prawns\nspanish paella rice\nprawn heads or shells\nclams\ncuttlefish or squid cleaned		seafood-paella-parks-and-rec
+1402	pizza pinwheels	\N	flour\nlow moisture mozzarella cheese\nsan marzano tomatoes\npepperoni\npizza sauce		pizza-balls-mom
+1403	carrot top pesto	\N	basil packed\n1 or 2 olive oil\ngarlic\nparmesan reggiano\nsalt		pesto
+1404	meringue topping	\N	sugar\nbutter\nmeyer lemon juice\negg whites\nflour\negg yolks\ncornstarch		lemon-meringue-pie
+1405	crab bisque	\N	seafood stock\nchicken wings\ndry white wine\ncarrots cut into 3 segments\nfrozen shrimp\ncrab claws\nlump crab\nsteamed lump crab meat		crab-bisque-seinfeld
+1406	rye bread chili crisp	\N	leftover rice\neggs\npastrami cut into 1 or 2” pieces\npurple cabbage\nscallions\npickle brine\npieces rye bread		fried-rice-2-ways
+1407	vegan sopa de lima	\N	fry oil\nred lentils\ncanela or cinnamon stick\ncloves\ngreen or brown lentils thoroughly\nmushrooms		lentil-soup-moon-knight
+1408	kelp nougat crunch bar	\N	glucose syrup\nwhite chocolate\nsugar\nmarshmallows\npuffed rice cereal		kelp-bar-spongebob
+1409	beer braised corned beef	\N	beef brisket\nred white baby potatoes\ncinnamon\nsour cream\nsalt\ncardamom pods		corned-beef
+1410	crimson tears tea	\N	octopus\ngarlic\ndried lily flowers\nchili flakes\ndried nettles\nhibiscus flowers\nginger		land-octopus-elden-ring
+1411	“if looks could kale” burger	\N	beef or veggie burger mix\nroast chuck\nchard stems\nblack beans drained\nshort grain brown rice\ncurly kale washed dried +\ngruyere cheese		if-looks-could-kale
+1412	babish chicken picatta	\N	flour\nchicken stock preferably homemade\ncapellini spaghetti, or angel hair pasta,\nlinguini\nunsalted butter &\ndry white wine\ncapers\ncapers drained		chicken-piccata
+1413	ranch aioli	\N	beef\namerican cheese\ndinner rolls horizontally toasted\nflour\nbreadcrumbs\nvegetable oil		sliders-three-ways
+1414	crema mayonnaise	\N	funyuns\ncarrots\npurple cabbage\ngummy bears		seven-layer-salad-himym
+1415	everything bagel filling	\N	flour\nbutter\nbrown sugar		sweet-and-savory-babka
+1416	kung pao chicken	\N	boneless skinless chicken thighs or breasts cut into 1 or 2” cubes\nraw peanuts shelled skin removed\nsichuan peppercorns\ntien tsin peppers chile japones, or chiles de árbol, stem seeds removed +\ngreen onions cut into 1” segments\ngarlic cloves\nsoy sauce preferably dark		kung-pao-chicken-seinfeld
+1417	JALAPENO POPPER MAC AND CHEESE	\N	dried rigatoni pasta\nfrozen bacon\namerican cheese\nmilk\nlow moisture mozzarella cheese cut into cubes\ngruyere or cheddar\npanko bread crumbs\ncream cheese\npickled jalapenos		jalapeno-popper-mac-and-cheese
+1418	Arepas con Queso inspired by Encanto	\N	pre white corn flour or masarepa		arepas-con-queso-encanto
+1419	arepas con queso	\N	low moisture mozzarella\nunsalted butter more for cooking\ndeli mozzarella cheese\nsalt		arepas-con-queso-encanto
+1420	oeufs a la babish	\N	heavy cream\nwhipped cream\nlong grain white rice\neggs\ndark chocolate\nsweetened cocoa powder\nbutter\ngranuted sugar		cocoa-krispies-oliver-and-company
+1421	tamales	\N	boneless chuck roast\nchicken breasts\ncorn husks\nmasa harina\nlard\ncilantro stems		tamales
+1422	strata	\N	milk\nwhite bread\ntomatoes thinly\nmushrooms\neggs\nmozzarella cheese\nbutter\nblack olive drained		strata-family-stone
+1423	advanced roast beef	\N	eye round roast\noxtails\n~4 bone ribeye roast\ncarrots into 1 or 2”\nparsnips into 1 or 2”		yorkshire-pudding
+1424	deep fried turkey	\N	turkey or chicken stock preferably homemade\nturkey broth\ntomato stock\npork\ncloves\ncrushed tomatoes		mayors-request-cloudy-with-a-chance-of-meatballs
+1425	rum	\N	pecans toasted\nvanilla wafer cookies\nlight corn syrup\nsugar\npeanuts\nsharp cheddar cheese\npopcorn kernels		schweddy-balls-snl
+1426	creme anglaise	\N	flour\nheavy cream\nmilk\negg yolks\negg\nhoney		challah
+1427	babish squash beef	\N	short ribs\ndry red wine\nchicken stock preferably homemade\nbrowned butter\nsoy sauce\nworcestershire sauce\nheavy cream		squash-and-beef-its-always-sunny-in-philadelphia
+1428	TURKEY: 5-WAYS	\N	turkey thawed neck or giblets removed		turkey-5-ways
+1429	complex shrimp scampi	\N	frozen shrimp defrosted\nshrimp deveined\ndry white wine\nlinguine pasta\nfettuccine pasta\nbutter\nparsley\ngarlic cloves thinly		shrimp-scampi-basics
+1430	pappardelle pasta	\N	chicken stock\nbeef\npork\nlamb\nflour\npancetta\ndry white wine		bolognese
+1431	hazelnuts baklava	\N	phyllo dough\nhazelnuts\npistachio de shelled\nbutter\nsugar\ndark chocolate\nhoney		baklava
+1432	PIZZA DOUGH	\N	flour		pizza-dough
+1433	new york style pizza	\N	low moisture mozzarella		pizza-dough
+1434	BRAISED SHORT RIBS	\N	short ribs\nchicken stock\namber ale\ncarrots into pieces\ngarlic\nprune juice		short-ribs
+1435	mint gremolata	\N	lamb loin chops\nvegetable oil\nsalt\npepper\ngarlic crushed\nblack pepper\nroast rack of lamb		lamb-chops
+1436	loaded mashed potatoes	\N	fingerling potatoes\nyukon gold potatoes\nheavy cream\nrusset potatoes\nbutter\nswiss cheese\ncrispy bacon		mashed-potatoes
+1437	POTATO HASH	\N	russet or yukon gold potatoes		potato-hash
+1438	sweet potato hash	\N	eggs\nbacon\nvegetable oil		potato-hash
+1439	kimchi	\N	garlic\ngochugaru\nonion\nginger\nfish sauce\nsalt\nsugar\nrice vinegar		kimchi
+1440	fonduta	\N	desired cheese\nyellow & white cheddar\nfontina cheese\ndry white wine\nbeer\nmilk\nbutter		cheese-fondue
+1441	mochi dough	\N	heavy cream\nmilk\nsugar\negg yolks		mochi-icecream
+1442	beef stroganoff pasta	\N	chicken stock\ncan san marzano tomatoes crushed\nmild or spicy italian sausage casings removed\ndry white wine\nsour cream		onepot-pasta
+1443	tangy butter for chocolate babka toast	\N	milk\nhalf & half or heavy cream\ncream cheese\nwhite sugar		french-toast
+1444	mexican shakshuka	\N	can crushed tomatoes\ngarlic cloves crushed\neggs\ncan fire roasted tomatoes\nspicy italian sausage\nonion\nroasted red peppers		shakshuka
+1445	blender mac & cheese	\N	milk\ncheese any makeup of the following:		macandcheese
+1446	homemade bbq sauce	\N	ketchup\ndark brown sugar\nsweet paprika\ndry rub aside from recipe above\nworcestershire sauce\nchili powder		smokedribs
+1447	cake	\N	flour\nbutter\nsour cream\nsugar\ndark brown sugar\neggs\nturbinado sugar		coffeecake
+1448	gorgonzola cream sauce	\N	full fat ricotta\nbasil\nheavy cream\nflour\nparmesan cheese		gnocchi
+1449	pork chop pan sauce	\N	chicken\nchicken stock\nshallots\nstock\ndry white wine\nparsley		pan-sauces
+1450	deep frying	\N	chicken		chimichangas
+1451	semifreddo	\N	flour\nheavy cream\nbuttermilk\ncarrots\nlight brown sugar\neggs		ice-cream-sandwiches
+1452	NASHVILLE HOT CHICKEN	\N	chicken		hot-chicken
+1453	nashville hot chicken	\N	flour\nmilk\nlard\nvegetable oil\neggs\ncayenne pepper		hot-chicken
+1454	LATKES (POTATO PANCAKES)	\N	russet potatoes		latkes
+1455	toppings	\N	eggs\npanko breadcrumbs		latkes
+1456	chocolate chip cookies	\N	chickpeas\nflour\ncan crushed tomatoes\ngarbanzo beans\nliquid from chickpeas		chickpeas
+1457	meat stew peas	\N	yukon gold potatoes\nlamb\ndark irish stout\nbeef or bone broth\npeas\nbutter\nchives\nmilk		shepherdspie
+1458	SOURDOUGH BREAD	\N	flour		sourdough-bread
+1459	estimated schedule	\N	wheat flour\nmature starter		sourdough-bread
+1460	chocolate	\N	flour\nbutter\nsweetened condensed milk\nlight brown sugar\nbrown sugar		millionaires-shortbread
+1461	homemade vegetable stock	\N	chicken stock\nhomemade chili paste\nvegetable stock\ngarlic crushed\ncan tomatoes\ncan fire roasted tomatoes\nparsley		chili-two-ways
+1462	amped up store bought stock	\N	spanish onions\nhigh quality beef stock\ndry sherry\nparsley		frenchonionsoup
+1463	PANTRY ESSENTIALS	\N	tomatoes		sauces-9w5tm-2njph-5ahwj-hsl7s-fh6cr-6r8lw
+1464	American Omelette	\N	3 Eggs\nMushrooms\nSpinach	?	eggs
+1465	Cailles en Sarchophage	\N			caillesensarchophage
+1466	Chef Carl Casper's Grilled Cheese	\N	Gruyere Cheese\nCheddar Cheese\nParmesan Cheese\nButter\nSourdough Bread\nPatience	See https://www.youtube.com/watch?v=hwjdXBxeWsc	grilledcheesevidcon
+1467	Classic French Omelette	\N	3 Eggs\n1 1/2 Tbsp Butter\nSalt\nPepper\nChives	?	eggs
+1468	Complex Shrimp Scampi	\N	1 tsp + 1 Tbsp kosher salt (+ more to taste)\n1 tsp baking soda\n1 lb fresh shrimp, peeled (shells reserved) and deveined\n1 cup dry white wine\n1 bay leaf\n½ tsp black peppercorns\n½  cup panko bread crumbs\n8 Tbsp butter (1 stick), divided\n½ lb fresh fettuccine pasta\n3 Tbsp olive oil\n6-8 garlic cloves, thinly sliced\n½ tsp crushed red pepper flakes\n1 large shallot, minced\nTo taste freshly ground black pepper\nJuice  of 2 lemons\n2 tsp fresh tarragon, chopped\n1 Tbsp fresh marjoram, chopped\n3 Tbsp parsley, chopped\nZest of 1 lemon		shrimp-scampi
+1469	For the Crab Cakes	\N	8 oz lump crab meat, picked through (cartilage and shells fragments discarded)\n1 Thai chili (or 1/2 half Serrano pepper), seeds removed + thinly sliced\n2 scallions (greens only), finely sliced\n1 tbsp ginger, grated\n1 tbsp cilantro\n1 large egg, beaten\n1 tbsp lime juice\n1 tsp lime zest\n1 tsp fish sauce\n1 tsp kosher salt\n1 tsp freshly ground black pepper\n1 cup panko breadcrumbs\n2 Tbsp vegetable oil		pantomate-crabcakes
+1470	For the Dipping Sauce	\N	1-2 small Thai Chili (or 1/2 half Serrano pepper), seeded removed + finely chopped\n2 garlic cloves, finely minced or crushed\n1 Tbsp ginger, grated\n1 tsp lemongrass, grated\n1/3 cup sugar\n2 Tbsp water\n3 Tbsp rice vinegar\n1.5 Tbsp lime juice\n2 tsp fish sauce\noptional: 1 tbsp. cilantro, finely chopped		pantomate-crabcakes
+1471	Lovers' Delight Sundae	\N			loversdelightsundae
+1472	Pan con Tomate	\N	1 loaf ciabatta bread (or another thick-crust loaf of bread)\n2 large tomatoes (heirloom if possible)\n1 tsp kosher salt\n2 tbsp extra virgin olive oil + more for finishing\n3 large garlic cloves, halved\nas needed flaky salt		pantomate-crabcakes
+1473	Rainbow Trout & Tomato Salad	\N			quiet-place-bonus
+1474	Scrambled Eggs on Toast	\N	Eggs\nGoat Cheese\nChives\nBread	?	eggs
+1475	Simple Shrimp Scampi	\N	2 tsp kosher salt (+ more to taste)\n½ lb linguine pasta\n3 Tbsp unsalted butter\n2 Tbsp olive oil\n3 garlic cloves, crushed\n¼ tsp crushed red pepper flakes\n½ cup dry white wine\n1 lb frozen shrimp, defrosted and peeled\n1 tsp freshly ground black pepper\nJuice of 1 large lemon\n2 Tbsp parsley, chopped		shrimp-scampi
+1476	Sunny-Side Up Eggs	\N	1 Egg	?	eggs
 \.
 
 
@@ -2449,8 +5755,6 @@ COPY public.reference (id, type, name, description, external_link, image_link) F
 128	movie	Moon over Miami	Sisters Kay and Barbara arrive in Miami from Texas looking for rich husbands. IMDb.	https://www.imdb.com/title/tt0033918/	https://m.media-amazon.com/images/M/MV5BMjEzNjE0ODA1OV5BMl5BanBnXkFtZTgwNDE1Mjg2MjE@._V1_UX182_CR0,0,182,268_AL_.jpg
 129	movie	The Meddler	An aging widow from New York City follows her daughter to Los Angeles in hopes of starting a new life after her husband passes away. IMDb.	https://www.imdb.com/title/tt4501454/	https://img.youtube.com/vi/6Oy15TO8voQ/mqdefault.jpg
 130	tv_show	Lucifer	Lucifer Morningstar has decided he's had enough of being the dutiful servant in Hell and decides to spend some time on Earth to better understand humanity. He settles in Los Angeles - the City of Angels. IMDb.	https://www.imdb.com/title/tt4052886/	https://i.ytimg.com/sh/S0b_FdZo4vIzVd4qhf8Hfg/market.jpg
-131	movie	A Quiet Place	In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing. IMDb.	https://www.imdb.com/title/tt6644200/	https://img.youtube.com/vi/mHmzq7cCRW4/mqdefault.jpg
-132	movie	Babette's Feast	refugee from the Franco-Prussian War as a servant to the late pastor's daughters. IMDb.	https://www.imdb.com/title/tt0092603/	https://img.youtube.com/vi/vgO9v_7DaB4/mqdefault.jpg
 133	tv_show	The Disastrous Life of Saiki K.	Saiki Kusuo is a powerful psychic who hates attracting attention, yet he is surrounded by colorful characters who always find a way to remove him from his everyday life. IMDb.	https://www.imdb.com/title/tt6354518/	https://i.ytimg.com/sh/gewcH4tkqpWDZWHuLbdEAw/market.jpg
 134	movie	Kung Fu Panda	The Dragon Warrior has to clash against the savage Tai Lung as China's fate hangs in the balance. However, the Dragon Warrior mantle is supposedly mistaken to be bestowed upon an obese panda who is a novice in martial arts. IMDb.	https://www.imdb.com/title/tt0441773/	https://img.youtube.com/vi/tuOA5WZVQRQ/mqdefault.jpg
 135	tv_show	The Daily Show	Providing comedy/news in the tradition of TV Nation and SNL's Weekend Update, Comedy Central's Daily Show reports on the foibles and of the real world with a satirical edge. Sam Hayes, IMDb.	https://www.imdb.com/title/tt0115147/	https://img.youtube.com/vi/lPgZfhnCAdI/mqdefault.jpg
@@ -2459,115 +5763,176 @@ COPY public.reference (id, type, name, description, external_link, image_link) F
 139	movie	Superbad	Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.	https://www.imdb.com/title/tt0829482/	https://img.youtube.com/vi/4qnGIr3dvHk/mqdefault.jpg
 140	tv_show	The Mandalorian	The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic. IMBb.	https://www.imdb.com/title/tt8111088/	https://img.youtube.com/vi/aOC8E8z_ifw/mqdefault.jpg
 141	movie	The Irishman	A mob hitman recalls his possible involvement with the slaying of Jimmy Hoffa. IMBb.	https://www.imdb.com/title/tt1302006/	https://img.youtube.com/vi/WHXxVmeGQUc/mqdefault.jpg
-145	\N	TMNT II: Secret of the Ooze	\N	\N	\N
-156	\N	Ratatouille	\N	\N	\N
-160	\N	Julie & Julia	\N	\N	\N
-165	\N	SpongeBob SquarePants	\N	\N	\N
-173	\N	SNL	\N	\N	\N
-175	\N	Zelda: Breath of the Wild	\N	\N	\N
-178	\N	Agents of S.H.I.E.L.D.	\N	\N	\N
-180	\N	Real Sample!)	\N	\N	\N
-187	\N	The Place Beyond The Pines (sort of)	\N	\N	\N
-193	\N	Regular Show: 2 Million Subscriber Special	\N	\N	\N
-195	\N	Lots of Stuff	\N	\N	\N
-196	\N	Chef with Jon Favreau and Roy Choi	\N	\N	\N
-199	\N	Food Wars!: Shokugeki no Soma	\N	\N	\N
-200	\N	Lots of Things	\N	\N	\N
-201	\N	Garfield (feat. It's Alive with Brad)	\N	\N	\N
-202	\N	Amelie	\N	\N	\N
-203	\N	The Avengers	\N	\N	\N
-205	\N	Captain America: Civil War	\N	\N	\N
-211	\N	Lemony Snicket's A Series of Unfortunate Events	\N	\N	\N
-214	\N	Forrest Gump | Part 1	\N	\N	\N
-216	\N	Sweetness & Lightning	\N	\N	\N
-218	\N	Chef (and Princess and the Frog)	\N	\N	\N
-225	\N	Game of Thrones (feat. Maisie Williams)	\N	\N	\N
-228	\N	Jim Gaffigan's Stand Up (sort of)	\N	\N	\N
-236	\N	Beauty & the Beast	\N	\N	\N
-252	\N	Forrest Gump Part II	\N	\N	\N
-266	\N	Harold & Kumar	\N	\N	\N
-269	\N	How I Met Your Mother	\N	\N	\N
-275	\N	Talladega Nights	\N	\N	\N
-277	\N	The Good Place (plus Naco Redemption)	\N	\N	\N
-284	\N	Love, Actually	\N	\N	\N
-285	\N	Avatar the Last Airbender	\N	\N	\N
-287	\N	Paddington	\N	\N	\N
-288	\N	Everybody Loves Raymond	\N	\N	\N
-289	\N	Once Upon a Time in Hollywood	\N	\N	\N
-290	\N	YOU	\N	\N	\N
-291	\N	Parasite	\N	\N	\N
-292	\N	Birds of Prey	\N	\N	\N
-293	\N	Rugrats	\N	\N	\N
-294	\N	Parks and Rec	\N	\N	\N
-295	\N	Star Trek: Picard	\N	\N	\N
-296	\N	Kenan & Kel	\N	\N	\N
-297	\N	Hook	\N	\N	\N
-298	\N	The Marvelous Mrs. Maisel	\N	\N	\N
-299	\N	Parks & Rec	\N	\N	\N
-300	\N	Jojo's Bizarre Adventure	\N	\N	\N
-302	\N	Rick & Morty	\N	\N	\N
-303	\N	Community	\N	\N	\N
-305	\N	When Harry Met Sally	\N	\N	\N
-306	\N	Skyrim	\N	\N	\N
-307	\N	Weird Al's UHF	\N	\N	\N
-308	\N	Lord of the Rings	\N	\N	\N
-310	\N	SpongeBob Squarepants	\N	\N	\N
-311	\N	Dexter	\N	\N	\N
-316	\N	Schitt's Creek	\N	\N	\N
-319	\N	Ant Man & The Wasp	\N	\N	\N
-320	\N	Scott Pilgrim vs the World	\N	\N	\N
-323	\N	Aqua Teen Hunger Force	\N	\N	\N
-326	\N	Dexter's Laboratory	\N	\N	\N
-328	\N	Twister	\N	\N	\N
-330	\N	the Santa Clause	\N	\N	\N
-522	\N	TMNT II	\N	\N	\N
-523	\N	Zelda	\N	\N	\N
-524	\N	The Place Beyond The Pines	\N	\N	\N
-525	\N	Food Wars	\N	\N	\N
-526	\N	Captain America	\N	\N	\N
-527	\N	Princess and the Frog	\N	\N	\N
-528	\N	Charlie Brown	\N	\N	\N
-529	\N	Avengers	\N	\N	\N
+173	tv_show	SNL	NBC's long-running late-night sketch comedy 'Saturday Night Live'.	\N	\N
+284	movie	Love, Actually	Richard Curtis's 2003 ensemble Christmas romantic comedy set in London.	\N	\N
+285	tv_show	Avatar the Last Airbender	Nickelodeon animated series about a young Avatar mastering the four elements to defeat the Fire Nation.	\N	\N
+287	movie	Paddington	2014 Paul King family film adapting Michael Bond's stories about a marmalade-loving Peruvian bear in London.	\N	\N
+288	tv_show	Everybody Loves Raymond	CBS sitcom (1996-2005) starring Ray Romano as a sportswriter living across the street from his parents.	\N	\N
+289	movie	Once Upon a Time in Hollywood	Quentin Tarantino's 2019 film set in 1969 Los Angeles, starring Leonardo DiCaprio and Brad Pitt.	\N	\N
+290	tv_show	YOU	Netflix psychological thriller starring Penn Badgley as a charming bookstore manager turned stalker.	\N	\N
+291	movie	Parasite	Bong Joon-ho's 2019 South Korean black-comedy thriller about class conflict; Best Picture winner.	\N	\N
+292	movie	Birds of Prey	2020 DC superhero film starring Margot Robbie as Harley Quinn.	\N	\N
+293	tv_show	Rugrats	Nickelodeon animated series about the adventures of a group of toddlers, premiered 1991.	\N	\N
+295	tv_show	Star Trek: Picard	Paramount+ 2020 series following Patrick Stewart's Jean-Luc Picard in retirement.	\N	\N
+296	tv_show	Kenan & Kel	1996-2000 Nickelodeon sitcom starring Kenan Thompson and Kel Mitchell.	\N	\N
+297	movie	Hook	Steven Spielberg's 1991 Peter Pan continuation starring Robin Williams and Dustin Hoffman.	\N	\N
+298	tv_show	The Marvelous Mrs. Maisel	Amy Sherman-Palladino's Amazon series about a 1950s housewife turned stand-up comedian.	\N	\N
+303	tv_show	Community	NBC sitcom by Dan Harmon about a study group at the fictional Greendale Community College.	\N	\N
+305	movie	When Harry Met Sally	Rob Reiner's 1989 Nora Ephron-written romantic comedy starring Billy Crystal and Meg Ryan.	\N	\N
+306	video_game	Skyrim	Bethesda's 2011 open-world fantasy RPG 'The Elder Scrolls V: Skyrim'.	\N	\N
+307	movie	Weird Al's UHF	1989 comedy starring 'Weird Al' Yankovic as a UHF television station manager.	\N	\N
+308	movie	Lord of the Rings	Peter Jackson's film trilogy adapting J.R.R. Tolkien's fantasy epic.	\N	\N
+311	tv_show	Dexter	Showtime drama about a Miami forensic blood-spatter analyst who moonlights as a vigilante serial killer.	\N	\N
+316	tv_show	Schitt's Creek	CBC/Pop sitcom (2015-2020) about a wealthy family who lose their fortune and move to a motel in a small town.	\N	\N
+319	movie	Ant Man & The Wasp	2018 Marvel sequel pairing Paul Rudd's Ant-Man with Evangeline Lilly's Wasp.	\N	\N
+320	movie	Scott Pilgrim vs the World	Edgar Wright's 2010 film adapting Bryan Lee O'Malley's graphic novels, starring Michael Cera.	\N	\N
+323	tv_show	Aqua Teen Hunger Force	Adult Swim animated series about anthropomorphic fast-food items in suburban New Jersey.	\N	\N
+326	tv_show	Dexter's Laboratory	Cartoon Network animated series (1996-2003) about a boy genius and his secret laboratory.	\N	\N
+328	movie	Twister	1996 disaster film starring Helen Hunt and Bill Paxton as storm-chasing meteorologists.	\N	\N
+330	movie	the Santa Clause	1994 Disney comedy starring Tim Allen as a man who inherits the Santa Claus role.	\N	\N
 530	\N	Spider-Man	\N	\N	\N
-531	\N	Naco Redemption	\N	\N	\N
-532	\N	Star Trek	\N	\N	\N
-533	\N	Inside Out	\N	\N	\N
-534	\N	Billy Madison	\N	\N	\N
-535	\N	Futurama	\N	\N	\N
-536	\N	Back to School	\N	\N	\N
-537	\N	Groundhog Day	\N	\N	\N
-538	\N	The Jerk	\N	\N	\N
-539	\N	WandaVision	\N	\N	\N
-540	\N	Ted Lasso	\N	\N	\N
-541	\N	Monster Hunter	\N	\N	\N
-542	\N	High Maintenance	\N	\N	\N
-543	\N	Raya and the Last Dragon	\N	\N	\N
-544	\N	Despicable Me 2	\N	\N	\N
-545	\N	Doctor Who	\N	\N	\N
-546	\N	Broad City	\N	\N	\N
-547	\N	Teenage Mutant Ninja Turtles	\N	\N	\N
-548	\N	American Dad	\N	\N	\N
-549	\N	Luca	\N	\N	\N
-550	\N	Trollhunters	\N	\N	\N
-551	\N	The Sims	\N	\N	\N
-552	\N	I Think You Should Leave	\N	\N	\N
-553	\N	Genshin Impact	\N	\N	\N
-554	\N	My Cousin Vinny	\N	\N	\N
-555	\N	Squid Games	\N	\N	\N
-556	\N	Sweeny Todd	\N	\N	\N
-557	\N	The Breakfast Club	\N	\N	\N
+532	tv_show	Star Trek	Long-running science-fiction franchise originated by Gene Roddenberry, spanning multiple TV series and films.	\N	\N
+533	movie	Inside Out	Pixar's 2015 Pete Docter film personifying emotions inside a young girl's mind.	\N	\N
+534	movie	Billy Madison	1995 Adam Sandler comedy about a wealthy slacker repeating grades 1-12 to inherit his father's empire.	\N	\N
+535	tv_show	Futurama	Matt Groening's animated sci-fi sitcom about a 20th-century delivery boy cryogenically frozen until the year 3000.	\N	\N
+536	movie	Back to School	1986 Rodney Dangerfield comedy about a millionaire who enrolls in college with his son.	\N	\N
+537	movie	Groundhog Day	Harold Ramis's 1993 Bill Murray comedy about a weatherman trapped reliving February 2nd.	\N	\N
+538	movie	The Jerk	Carl Reiner's 1979 Steve Martin comedy about a clueless man who believes he was raised in a Black sharecropper family.	\N	\N
+539	tv_show	WandaVision	2021 Disney+ Marvel limited series starring Elizabeth Olsen and Paul Bettany.	\N	\N
+540	tv_show	Ted Lasso	Apple TV+ comedy starring Jason Sudeikis as an American football coach hired to manage a Premier League soccer club.	\N	\N
+541	video_game	Monster Hunter	Capcom's action RPG series about hunters tracking and defeating massive monsters.	\N	\N
+542	tv_show	High Maintenance	HBO comedy following an unnamed weed delivery man visiting a rotating cast of New York City clients.	\N	\N
+543	movie	Raya and the Last Dragon	Disney's 2021 animated fantasy about a warrior hunting the last dragon in the divided land of Kumandra.	\N	\N
+544	movie	Despicable Me 2	2013 Illumination animated sequel to Despicable Me, with Steve Carell as Gru.	\N	\N
+545	tv_show	Doctor Who	Long-running BBC science-fiction series about a time-traveling alien known as the Doctor.	\N	\N
+546	tv_show	Broad City	Comedy Central series following two best friends navigating life and work in New York City.	\N	\N
+547	tv_show	Teenage Mutant Ninja Turtles	Long-running multimedia franchise (since 1984) spanning Mirage comics, animated series, and live-action films about four mutated turtle martial artists.	\N	\N
+548	tv_show	American Dad	Animated Fox/TBS sitcom about a CIA agent and his eccentric family in Virginia.	\N	\N
+549	movie	Luca	Pixar's 2021 Enrico Casarosa film about sea-monster boys spending a summer on the Italian Riviera.	\N	\N
+550	tv_show	Trollhunters	Guillermo del Toro-produced Netflix animated series about troll-fighting teenagers in the town of Arcadia.	\N	\N
+551	video_game	The Sims	Maxis/EA life-simulation game franchise where players control characters in a virtual suburban world.	\N	\N
+552	tv_show	I Think You Should Leave	Netflix sketch comedy created by and starring Tim Robinson.	\N	\N
+553	video_game	Genshin Impact	miHoYo open-world action RPG with gacha mechanics, set in the fantasy world of Teyvat.	\N	\N
+554	movie	My Cousin Vinny	1992 Jonathan Lynn legal comedy starring Joe Pesci and Marisa Tomei.	\N	\N
+555	tv_show	Squid Games	Netflix Korean survival drama where contestants compete in deadly children's games for cash.	\N	\N
+556	movie	Sweeny Todd	Tim Burton's 2007 musical adapting Sondheim's stage show, starring Johnny Depp as the demon barber of Fleet Street.	\N	\N
+557	movie	The Breakfast Club	John Hughes's 1985 high-school detention coming-of-age drama.	\N	\N
+558	movie	National Lampoon's Christmas Vacation	1989 holiday comedy starring Chevy Chase as Clark Griswold preparing for Christmas.	\N	\N
+559	movie	A Minecraft Movie	2025 live-action/animated film adapting the Mojang sandbox video game, starring Jack Black.	\N	\N
+560	tv_show	Squid Game Season 2	2024 second season of the Korean Netflix survival drama 'Squid Game'.	\N	\N
+561	video_game	Fallout 76	Bethesda's 2018 multiplayer entry in the Fallout post-apocalyptic RPG series.	\N	\N
+562	video_game	God of War	Sony Santa Monica's PlayStation action-adventure series following Spartan-turned-Norse-demigod Kratos.	\N	\N
+563	tv_show	Boruto	Anime sequel to Naruto following Naruto's son Boruto Uzumaki.	\N	\N
+564	video_game	Super Smash Bros.	Nintendo's crossover fighting-game series featuring characters from across video-game franchises.	\N	\N
+565	movie	Spirited Away	Hayao Miyazaki's 2001 Studio Ghibli film about a girl trapped in a spirit world bathhouse.	\N	\N
+566	other	Korean Street Food	Cuisine category — street vendor food traditionally found in Korean markets and pojangmacha tents.	\N	\N
+567	video_game	Final Fantasy XV	Square Enix action role-playing game following Prince Noctis and his companions on a road-trip-style quest.	\N	\N
+568	tv_show	One Piece	Long-running Japanese anime adapting Eiichiro Oda's manga about Monkey D. Luffy's pirate crew searching for the One Piece treasure.	\N	\N
+569	tv_show	The Legend of Korra	Nickelodeon animated 'Avatar' sequel set 70 years later, following the next Avatar in a steampunk-influenced world.	\N	\N
+570	video_game	Stardew Valley	ConcernedApe's 2016 farming-simulation RPG inspired by Harvest Moon.	\N	\N
+571	video_game	Legend of Zelda	Nintendo's long-running action-adventure video game franchise starring the hero Link.	\N	\N
+572	other	Portillo's	Chicago-area fast-food chain founded 1963, known for Chicago-style hot dogs, Italian beef, and chocolate cake shakes.	\N	\N
+573	other	Claudia Romeo	Italian food creator and YouTuber based in Milan, known for traditional regional Italian recipes.	\N	\N
+574	\N	Drop	\N	\N	\N
+575	movie	Weathering with You	Makoto Shinkai's 2019 anime film about a runaway boy who meets a Tokyo girl with the power to control the weather.	\N	\N
+576	tv_show	Dragon Ball Daima	2024 Toei Animation series in the Dragon Ball franchise where Goku and friends are turned into children.	\N	\N
+577	other	Junior's Cheesecakes	Restaurant and bakery on Flatbush Avenue Extension in Downtown Brooklyn, famous for its cheesecake since 1950.	\N	\N
+578	tv_show	Severance	Apple TV+ science-fiction thriller about office workers whose work and personal memories are surgically separated.	\N	\N
+579	tv_show	Kaguya-Sama	Anime adapting Aka Akasaka's romantic-comedy manga 'Kaguya-sama: Love Is War'.	\N	\N
+580	video_game	Pokémon Sword	Game Freak's 2019 Pokémon entry for Nintendo Switch (paired with Pokémon Shield).	\N	\N
+583	video_game	Minecraft	Mojang's 2011 sandbox game where players gather, craft, and build in a procedurally generated blocky world.	\N	\N
+584	\N	Valkyries	\N	\N	\N
+585	video_game	Persona 5	Atlus's 2016 JRPG 'Persona 5', following high-school 'Phantom Thieves' in modern Tokyo.	\N	\N
+586	tv_show	Attack on Titan	Anime adapting Hajime Isayama's manga about humanity's war with man-eating Titans.	\N	\N
+587	tv_show	Asteroid in Love	2020 anime adapting Quro's manga about high-school astronomy and earth-science club members.	\N	\N
+588	tv_show	Darker than Black	Anime about contractors with supernatural abilities in a Tokyo where reality has been altered by a phenomenon called Hell's Gate.	\N	\N
+589	tv_show	Cinderella Chef	Chinese donghua adapting Zhuixiu's web novel about a girl who travels back in time to Ming-era China.	\N	\N
+590	tv_show	Death Note	Anime adapting Tsugumi Ohba's manga about a student who finds a notebook that kills anyone whose name is written in it.	\N	\N
+591	tv_show	Yuri!!! on Ice	MAPPA anime about a Japanese figure skater making a comeback under the coaching of his Russian idol.	\N	\N
+592	video_game	Persona 4	Atlus's 2008 JRPG 'Persona 4', set in the rural Japanese town of Inaba.	\N	\N
+593	tv_show	Yakitate	Anime 'Yakitate!! Japan' adapting Takashi Hashiguchi's manga about a young baker pursuing the perfect bread.	\N	\N
+594	tv_show	Demon Slayer	Ufotable anime adapting Koyoharu Gotouge's manga about demon-hunters in Taishō-era Japan.	\N	\N
+595	movie	Kiki's Delivery Service	Hayao Miyazaki's 1989 Studio Ghibli film about a young witch establishing herself in a new town.	\N	\N
+596	tv_show	Jujutsu Kaisen	MAPPA anime adapting Gege Akutami's manga about teenage sorcerers fighting curses.	\N	\N
+597	tv_show	Chainsaw Man	MAPPA anime adapting Tatsuki Fujimoto's manga about a young man bonded with a chainsaw devil.	\N	\N
+598	tv_show	Naruto	Pierrot anime adapting Masashi Kishimoto's long-running manga about a ninja village's most loud-mouthed orphan.	\N	\N
+599	tv_show	Hacks	HBO Max comedy starring Jean Smart as a veteran Las Vegas comedian paired with a young writer.	\N	\N
+600	tv_show	Cowboy Bebop	1998 Sunrise space-western anime by Shinichirō Watanabe.	\N	\N
+601	\N	Detroit's	\N	\N	\N
+602	tv_show	The Bear	FX/Hulu comedy-drama about a fine-dining chef returning home to run his late brother's Italian beef sandwich shop in Chicago.	\N	\N
+603	\N	Uncle Boon's/Thai Diner)	\N	\N	\N
+605	movie	The Super Mario Bros Movie	2023 Illumination animated film adapting Nintendo's Mario franchise, starring Chris Pratt.	\N	\N
+606	\N	Hot Dog Detective	\N	\N	\N
+607	\N	Sweet Tooth Goes Euro	\N	\N	\N
+608	\N	They Kidnapped my Son on Christmas	\N	\N	\N
+609	movie	Amadeus	Miloš Forman's 1984 biographical drama about Wolfgang Amadeus Mozart, told from Salieri's perspective.	\N	\N
+610	tv_show	Succession	HBO drama about a wealthy family fighting over control of a global media conglomerate.	\N	\N
+611	tv_show	Teen Titans Go	Cartoon Network animated comedy reimagining the Teen Titans superhero team.	\N	\N
+612	movie	The Menu	2022 black-comedy thriller starring Ralph Fiennes as a celebrity chef serving a sinister tasting menu to wealthy patrons.	\N	\N
+613	video_game	Mario 64	Nintendo's 1996 launch title 'Super Mario 64', the franchise's first 3D platformer.	\N	\N
+614	movie	John Wick	Action film series starring Keanu Reeves as a retired hitman returning to the underworld.	\N	\N
+615	movie	Everything Everywhere All at Once	Daniels' 2022 A24 multiverse-spanning film starring Michelle Yeoh; Best Picture winner.	\N	\N
+616	movie	Puss in Boots	DreamWorks animated Shrek-spinoff franchise about the swashbuckling cat starring Antonio Banderas.	\N	\N
+617	tv_show	The Last of Us	HBO 2023 series adapting Naughty Dog's post-apocalyptic video game, starring Pedro Pascal.	\N	\N
+618	movie	Eat Pray Love	2010 Ryan Murphy adaptation of Elizabeth Gilbert's memoir, starring Julia Roberts.	\N	\N
+619	movie	Home Alone	1990 Chris Columbus holiday comedy starring Macaulay Culkin as a boy left behind on Christmas vacation.	\N	\N
+620	tv_show	Andor	Disney+ Star Wars series following Cassian Andor's transformation into a Rebel Alliance spy.	\N	\N
+621	movie	Fantastic Mr. Fox	Wes Anderson's 2009 stop-motion adaptation of Roald Dahl's novel.	\N	\N
+623	movie	It's Complicated	Nancy Meyers's 2009 romantic comedy starring Meryl Streep, Alec Baldwin, and Steve Martin.	\N	\N
+624	movie	Multiverse of Madness	2022 Marvel film 'Doctor Strange in the Multiverse of Madness', directed by Sam Raimi.	\N	\N
+625	tv_show	Moon Knight	2022 Disney+ Marvel limited series starring Oscar Isaac as Steven Grant/Marc Spector.	\N	\N
+626	video_game	Elden Ring	FromSoftware's 2022 open-world action RPG 'Elden Ring', co-written by George R. R. Martin.	\N	\N
+627	movie	Encanto	Disney's 2021 animated musical about a magical Colombian family, with songs by Lin-Manuel Miranda.	\N	\N
+628	movie	Oliver & Company	Disney's 1988 animated reimagining of Oliver Twist set in 1980s New York City.	\N	\N
+629	movie	Family Stone	Thomas Bezucha's 2005 ensemble holiday comedy 'The Family Stone'.	\N	\N
+630	movie	Cloudy with a Chance of Meatballs	Sony Pictures Animation's 2009 film adapting Judi and Ron Barrett's children's book about a town where it rains food.	\N	\N
+633	movie	A Quiet Place	John Krasinski's 2018 horror film about a family hiding in silence from sound-hunting creatures.	\N	\N
+634	movie	Babette's Feast	Gabriel Axel's 1987 Danish film adapting Karen Blixen's story about a French refugee preparing a feast in a Jutland village; Best Foreign Language Film winner.	\N	\N
+635	movie	Spider-Man: Across the Spider-Verse	2023 Sony animated sequel to 'Into the Spider-Verse' following Miles Morales across the multiverse.	\N	\N
+636	video_game	ARC Raiders	Embark Studios' free-to-play third-person extraction shooter set on a hostile alien-attacked Earth.	\N	\N
+637	movie	KPop Demon Hunters	2025 Sony Pictures Animation/Netflix film about a K-pop girl group who moonlight as demon hunters.	\N	\N
+638	movie	Tampopo	Juzo Itami's 1985 Japanese 'ramen western' about a widowed noodle-shop owner perfecting her recipe.	\N	\N
 \.
 
 
 --
--- Data for Name: show; Type: TABLE DATA; Schema: public; Owner: postgres
+-- Data for Name: tag; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.show (id, name, image_link) FROM stdin;
-1	Binging with Babish	\N
-2	Basics with Babish	\N
-3	Bedtime with Babish	\N
-4	Being with Babish	\N
+COPY public.tag (id, axis, name, external_id) FROM stdin;
+1	Source	Website Exclusive	8d8e7346-fe9b-4656-a613-bc245bef2a5b
+2	Source	Anime	8f3b3f81-6aed-4b9d-8b19-3b4288486168
+3	Source	Video Game	93547ef4-26d0-459b-97b3-016e8c756473
+4	Source	TV Show	beccea42-6659-4870-b053-d0776e90df59
+5	Source	Movie	923348a4-f245-46af-bdbd-fcb22c911870
+6	Series	With Babish	f56c60b0-e39d-45ed-a724-fd062d63ad8e
+7	Series	Shorts	c845bdfd-1b3e-48dc-8203-b01487c24942
+8	Series	Cook Along	0ca6be77-83f8-4049-bad9-07ef438bca77
+9	Series	Arcade	848807a6-b599-4b13-9b18-ebfbd2160502
+10	Series	Anime	8768ba0f-2bc1-42a1-ba8a-43d440c2c681
+11	Series	Anything	9a8bfc15-769e-4da8-9c57-2b9a3934e26b
+12	Series	Binging	e383439f-3ee3-4789-a362-484148efca32
+13	Series	Basics	94381b24-9a2d-4295-adc1-214822385411
+14	Category	Pizza	8dc7c828-58a7-4f7d-a71f-f9b4051821eb
+15	Category	Quick	4cfae1e7-52a2-4781-abae-43532f046694
+16	Category	Baking	6fc139a9-cedb-47ef-b2df-dd28ae91e684
+17	Category	Outrageous	8a87c64d-c1f9-4642-8236-003b96308222
+18	Category	Dessert	632d3f76-6a09-4cb9-857b-6cae648f83c0
+19	Category	Side Dish	c25aa57b-f80a-48b9-b502-b543d5b5d25c
+20	Category	Sandwiches	17f616b0-92e2-45c2-87fc-09bc4dc50a5f
+21	Category	Meat	e29255ff-98d6-423f-ac89-f599417ca5e1
+22	Category	Pasta	ac6b337a-e742-4463-8b3f-0227882b9eb4
+23	Category	Seafood	7e51f23e-33ff-4531-8e90-c57d081dc124
+24	Category	Soup	79f8f75b-9d4c-4f58-9cdb-21c6e4c397a6
+25	Category	Vegetarian	5f6498a2-6e45-40e6-95a2-ff3ba1607584
+26	Category	Healthy	122f8bce-6b39-497a-a07c-7b0973fc156f
+27	Category	Noodles	6c1a8fa2-b38a-4393-82bf-e04c5d6787e3
+28	Meal	Breakfast	c5505dc3-aad1-4657-babc-de58228a6f71
+29	Meal	Lunch	3ca20cec-08fa-494d-97cd-1375bb4575b0
+30	Meal	Dinner	5915c4c4-4bda-4b79-b935-703949f00910
+31	Difficulty	Beginner	9d7f32f6-7558-4f01-b65e-7f2d1ffa1021
+32	Difficulty	Experienced	8f2dcebd-0845-4e8a-b652-ca67d6fe390f
+33	Difficulty	Difficult	226a0614-b273-48b5-b8c5-852eb1d8affb
 \.
 
 
@@ -2575,28 +5940,28 @@ COPY public.show (id, name, image_link) FROM stdin;
 -- Name: guest_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.guest_id_seq', 34, true);
+SELECT pg_catalog.setval('public.guest_id_seq', 74, true);
 
 
 --
 -- Name: recipe_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.recipe_id_seq', 1197, true);
+SELECT pg_catalog.setval('public.recipe_id_seq', 1476, true);
 
 
 --
 -- Name: reference_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.reference_id_seq', 557, true);
+SELECT pg_catalog.setval('public.reference_id_seq', 638, true);
 
 
 --
--- Name: show_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+-- Name: tag_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.show_id_seq', 4, true);
+SELECT pg_catalog.setval('public.tag_id_seq', 33, true);
 
 
 --
@@ -2616,19 +5981,19 @@ ALTER TABLE ONLY public.episode_inspired_by
 
 
 --
--- Name: episode episode_name_show_uindex; Type: CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.episode
-    ADD CONSTRAINT episode_name_show_uindex UNIQUE (name, show_id);
-
-
---
 -- Name: episode episode_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.episode
     ADD CONSTRAINT episode_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: episode_tags episode_tags_pk; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.episode_tags
+    ADD CONSTRAINT episode_tags_pk PRIMARY KEY (episode_id, tag_id);
 
 
 --
@@ -2680,19 +6045,19 @@ ALTER TABLE ONLY public.reference
 
 
 --
--- Name: show show_name_key; Type: CONSTRAINT; Schema: public; Owner: postgres
+-- Name: tag tag_axis_name_uindex; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY public.show
-    ADD CONSTRAINT show_name_key UNIQUE (name);
+ALTER TABLE ONLY public.tag
+    ADD CONSTRAINT tag_axis_name_uindex UNIQUE (axis, name);
 
 
 --
--- Name: show show_pk; Type: CONSTRAINT; Schema: public; Owner: postgres
+-- Name: tag tag_pk; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY public.show
-    ADD CONSTRAINT show_pk PRIMARY KEY (id);
+ALTER TABLE ONLY public.tag
+    ADD CONSTRAINT tag_pk PRIMARY KEY (id);
 
 
 --
@@ -2712,11 +6077,19 @@ ALTER TABLE ONLY public.episode_inspired_by
 
 
 --
--- Name: episode episode_show_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+-- Name: episode_tags episode_tags_episode_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY public.episode
-    ADD CONSTRAINT episode_show_id_fk FOREIGN KEY (show_id) REFERENCES public.show(id);
+ALTER TABLE ONLY public.episode_tags
+    ADD CONSTRAINT episode_tags_episode_id_fk FOREIGN KEY (episode_id) REFERENCES public.episode(id);
+
+
+--
+-- Name: episode_tags episode_tags_tag_id_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.episode_tags
+    ADD CONSTRAINT episode_tags_tag_id_fk FOREIGN KEY (tag_id) REFERENCES public.tag(id);
 
 
 --

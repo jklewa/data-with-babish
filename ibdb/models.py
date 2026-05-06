@@ -2,7 +2,6 @@
 from sqlalchemy import Column, ForeignKey, Integer, String, Table, Text, text, Date, UniqueConstraint
 from sqlalchemy.orm import relationship, backref
 from flask_sqlalchemy import SQLAlchemy
-from flask import request
 
 from ibdb.recipe_parser import RecipeParser
 
@@ -20,7 +19,6 @@ class Guest(Base):
 
     def serialize(self, related=True):
         return {
-            'self': f'{request.host_url[:-1]}/guest/{self.id}',
             'guest_id': self.id,
             'name': self.name,
             'image_link': self.image_link,
@@ -45,7 +43,6 @@ class Reference(Base):
 
     def serialize(self, related=True):
         return {
-            'self': f'{request.host_url[:-1]}/reference/{self.id}',
             'reference_id': self.id,
             'type': self.type,
             'name': self.name,
@@ -61,19 +58,22 @@ class Reference(Base):
         }
 
 
-class Show(Base):
-    __tablename__ = 'show'
+class Tag(Base):
+    __tablename__ = 'tag'
+    __table_args__ = (
+        UniqueConstraint('axis', 'name', name='tag_axis_name_uindex'),
+    )
 
-    id = Column(Integer, primary_key=True, server_default=text("nextval('show_id_seq'::regclass)"))
-    name = Column(String, nullable=False, unique=True)
-    image_link = Column(String)
+    id = Column(Integer, primary_key=True, server_default=text("nextval('tag_id_seq'::regclass)"))
+    axis = Column(String, nullable=False)
+    name = Column(String, nullable=False)
+    external_id = Column(String)
 
     def serialize(self, related=True):
         return {
-            'self': f'{request.host_url[:-1]}/show/{self.id}',
-            'show_id': self.id,
+            'tag_id': self.id,
+            'axis': self.axis,
             'name': self.name,
-            'image_link': self.image_link,
             **({
                 'episodes': [
                     e.serialize(False)
@@ -85,25 +85,20 @@ class Show(Base):
 
 class Episode(Base):
     __tablename__ = 'episode'
-    __table_args__ = (
-        UniqueConstraint('name', 'show_id', name='episode_name_show_uindex'),
-    )
 
     id = Column(String, primary_key=True)
     name = Column(String, nullable=False)
+    slug = Column(String)
     youtube_link = Column(String, nullable=False)
     official_link = Column(String, nullable=False)
     image_link = Column(String)
     published_date = Column(Date())
-    show_id = Column(ForeignKey('show.id'), nullable=False)
+    time_to_cook = Column(Integer)
+    yield_qty = Column(Integer)
+    yield_unit = Column(String)
 
     _backref_order_by = 'Episode.published_date.desc(),Episode.id'
 
-    show = relationship('Show',
-                        uselist=False,
-                        order_by='Show.id',
-                        backref=backref('episodes',
-                                        order_by=_backref_order_by))
     guests = relationship('Guest',
                           secondary='guest_appearances',
                           order_by='Guest.name,Guest.id',
@@ -114,6 +109,11 @@ class Episode(Base):
                                order_by='Reference.name,Reference.id',
                                backref=backref('episodes_inspired',
                                                order_by=_backref_order_by))
+    tags = relationship('Tag',
+                        secondary='episode_tags',
+                        order_by='Tag.axis,Tag.name,Tag.id',
+                        backref=backref('episodes',
+                                        order_by=_backref_order_by))
     recipes = relationship('Recipe', order_by='Recipe.name,Recipe.id',
                            backref=backref('episode',
                                            uselist=False,
@@ -121,16 +121,18 @@ class Episode(Base):
 
     def serialize(self, related=True):
         return {
-            'self': f'{request.host_url[:-1]}/episode/{self.id}',
             'episode_id': self.id,
             'name': self.name,
-            'published_date': self.published_date.isoformat(),
+            'published_date': self.published_date.isoformat() if self.published_date else None,
             'youtube_link': self.youtube_link,
             'official_link': self.official_link,
             'image_link': self.image_link,
             **({
                 'related': {
-                    'show': self.show.serialize(False),
+                    'tags': [
+                        t.serialize(False)
+                        for t in self.tags
+                    ],
                     'guests': [
                         g.serialize(False)
                         for g in self.guests
@@ -162,6 +164,13 @@ t_guest_appearances = Table(
 )
 
 
+t_episode_tags = Table(
+    'episode_tags', metadata,
+    Column('episode_id', ForeignKey('episode.id'), primary_key=True, nullable=False),
+    Column('tag_id', ForeignKey('tag.id'), primary_key=True, nullable=False),
+)
+
+
 class Recipe(Base):
     __tablename__ = 'recipe'
 
@@ -174,13 +183,11 @@ class Recipe(Base):
 
     def serialize(self, related=True):
         return {
-            'self': f'{request.host_url[:-1]}/recipe/{self.id}',
             'recipe_id': self.id,
             'name': self.name,
             'image_link': self.image_link,
             'raw_ingredient_list': self.raw_ingredient_list,
             'raw_procedure': self.raw_procedure,
-            'ingredient_list': self.ingredient_list(),
             **({
                 'source': self.episode.serialize(False),
             } if related else {})
@@ -200,28 +207,38 @@ Helper methods for models
 # TODO: refactor to use ORM
 
 
+EPISODE_COLUMNS = (
+    'id', 'name', 'slug', 'youtube_link', 'official_link', 'image_link',
+    'published_date', 'time_to_cook', 'yield_qty', 'yield_unit',
+)
+
+
 def upsert_episode(session, episode):
-    # test if we will be creating this
     result = session.execute(
         """
             SELECT id FROM episode WHERE id = :id
         """,
-        {k: episode[k] for k in ('id',)}
+        {'id': episode['id']}
     )
-    created = True
-    if result.rowcount > 0:
-        created = False
+    created = result.rowcount == 0
 
-    # upsert
     session.execute(
         """
-            INSERT INTO episode (id, name, youtube_link, official_link, image_link, published_date, show_id)
-            VALUES (:id, :name, :youtube_link, :official_link, :image_link, :published_date, :show_id)
+            INSERT INTO episode (id, name, slug, youtube_link, official_link, image_link,
+                                 published_date, time_to_cook, yield_qty,
+                                 yield_unit)
+            VALUES (:id, :name, :slug, :youtube_link, :official_link, :image_link,
+                    :published_date, :time_to_cook, :yield_qty,
+                    :yield_unit)
             ON CONFLICT (id)
-            DO UPDATE SET (name, youtube_link, official_link, image_link, published_date, show_id)
-            = (EXCLUDED.name, EXCLUDED.youtube_link, EXCLUDED.official_link, EXCLUDED.image_link, EXCLUDED.published_date, EXCLUDED.show_id)
+            DO UPDATE SET (name, slug, youtube_link, official_link, image_link,
+                           published_date, time_to_cook, yield_qty,
+                           yield_unit)
+            = (EXCLUDED.name, EXCLUDED.slug, EXCLUDED.youtube_link, EXCLUDED.official_link,
+               EXCLUDED.image_link, EXCLUDED.published_date, EXCLUDED.time_to_cook,
+               EXCLUDED.yield_qty, EXCLUDED.yield_unit)
         """,
-        {k: episode[k] for k in ('id', 'name', 'youtube_link', 'official_link', 'image_link', 'published_date', 'show_id')})
+        {k: episode.get(k) for k in EPISODE_COLUMNS})
     return episode['id'], created
 
 
@@ -286,6 +303,38 @@ def upsert_guest_appearance(session, episode_id, guest_id):
             DO NOTHING
         """,
         {'episode_id': episode_id, 'guest_id': guest_id}
+    )
+
+
+def upsert_tag(session, tag):
+    result = session.execute(
+        """
+            SELECT id FROM tag WHERE axis = :axis AND name = :name
+        """,
+        {k: tag[k] for k in ('axis', 'name')}
+    )
+    if result.rowcount == 0:
+        result = session.execute(
+            """
+                INSERT INTO tag (axis, name, external_id)
+                VALUES (:axis, :name, :external_id)
+                RETURNING id
+            """,
+            {'axis': tag['axis'], 'name': tag['name'], 'external_id': tag.get('external_id')}
+        )
+    tag_id = result.fetchone()[0]
+    return tag_id
+
+
+def upsert_episode_tag(session, episode_id, tag_id):
+    session.execute(
+        """
+            INSERT INTO episode_tags (episode_id, tag_id)
+            VALUES (:episode_id, :tag_id)
+            ON CONFLICT (episode_id, tag_id)
+            DO NOTHING
+        """,
+        {'episode_id': episode_id, 'tag_id': tag_id}
     )
 
 

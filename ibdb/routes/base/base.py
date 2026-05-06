@@ -7,10 +7,9 @@ base_bp = Blueprint('base_bp', __name__, template_folder='templates')
 def index():
     return jsonify({
         'description': 'Internet Babish DataBase (IBDB) API',
-        'routes': sorted(
-            set(
-                f'{request.base_url[:-1]}{rule}'
-                for rule in current_app.url_map.iter_rules()
-            )
-        )[:-1],
+        'routes': sorted({
+            f'{request.base_url[:-1]}{rule}'
+            for rule in current_app.url_map.iter_rules()
+            if not str(rule).startswith('/static')
+        }),
     })

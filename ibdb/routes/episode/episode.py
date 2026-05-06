@@ -1,6 +1,6 @@
 from flask import current_app, Blueprint, jsonify, request, redirect, render_template
 
-from ibdb.models import Episode, Reference, Show
+from ibdb.models import Episode, Reference
 
 episode_bp = Blueprint('episode_bp', __name__, template_folder='templates')
 
@@ -19,8 +19,7 @@ def episodes():
         return jsonify([e.serialize() for e in episodes])
     else:
         references = Reference.query.order_by(Reference.name, Reference.id).all()
-        shows = Show.query.order_by(Show.id).all()
-        return render_template('episode/list_edit.html', episodes=episodes, references=references, shows=shows)
+        return render_template('episode/list_edit.html', episodes=episodes, references=references)
 
 
 @episode_bp.route('/episodes', methods=['POST'])
@@ -32,7 +31,6 @@ def episode_new():
         official_link=request.form.get("official_link"),
         image_link=request.form.get("image_link"),
         published_date=request.form.get("published_date"),
-        show_id=request.form.get("show_id"),
     )
     db = current_app.config['db']
     db.session.add(new)
