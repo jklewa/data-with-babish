@@ -13,7 +13,6 @@ This project publishes structured data derived from the recipes of the popular Y
  * [ibdb.recipes.json](datasets/ibdb.recipes.json) ([docs](#ibdbrecipesjson)) Recipes and their origin episode
  * [ibdb.references.json](datasets/ibdb.references.json) ([docs](#ibdbreferencesjson)) TV Shows, Movies, etc. and when they were referenced
  * [ibdb.tags.json](datasets/ibdb.tags.json) ([docs](#ibdbtagsjson)) Tags applied to episodes (Source / Series / Category / Meal / Difficulty)
- * [babish.json](datasets/babish.json) ([docs](#babishjson)) Parsed recipe ingredients, grouped by episode (Deprecated)
 
 The same data is also available as a tree of YAML files under [`data/`](data/), one directory per entity. Each entity has a `data.yml` (the canonical fields) and a `meta.yml` sidecar with field-level provenance.
 
@@ -161,39 +160,6 @@ The same data is also available as a tree of YAML files under [`data/`](data/), 
           "official_link": "https://www.babi.sh/recipes/...",
           "image_link": "https://preview.image.host/image.png"
         }
-      ]
-    },
-    # ...
-  ]
-  ```
-
-### [babish.json](datasets/babish.json)
-
-  **(Deprecated)**
-
-  Contains parsed ingredients in the format:
-
-  ```python
-  [
-    {
-      "episode_name": "Episode Name",
-      "episode_link": "https://www.babi.sh/recipes/...",
-      "youtube_link": "https://www.youtube.com/watch?v=...",
-      "published": "YYYY-MM-DD",
-      "recipes": [
-        {
-          "method": "Method Name (from Episode Name)",
-          "ingredients": [
-            [
-              1.0,                   # quantity
-              "tablespoon",          # unit
-              "Butter",              # name
-              "1 tablespoon butter"  # raw text from recipe
-            ],
-            # ...
-          ]
-        },
-        # ...
       ]
     },
     # ...
