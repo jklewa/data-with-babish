@@ -7,6 +7,11 @@ on:
     # The branches below must be a subset of the branches above
     branches: [master]
 
+permissions:
+  contents: read
+  checks: write
+  pull-requests: write
+
 jobs:
   flake8:
     name: Flake8
