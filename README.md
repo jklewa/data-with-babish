@@ -184,11 +184,6 @@ Required tools: **Docker, Docker Compose**
 
 The Postgres container is initialized from [ibdb/db_dump.sql](ibdb/db_dump.sql), so the API is queryable as soon as the stack is up. [export.py](ibdb/export.py) regenerates [datasets/](datasets) from the DB's contents.
 
-You can also explore the [Jupyter Notebook](http://ipython.org/notebook.html) under [`notebooks/`](notebooks/):
-1. `cd notebooks/`
-2. Start Jupyter on [http://localhost:8888](http://localhost:8888) `jupyter notebook`
-3. Open `Babish Data Analysis.ipynb`
-
 ### Tests
 Tests covering [recipe_parser.py](ibdb/recipe_parser.py) are located in the [tests/](tests/) directory and can be run using [pytest](https://docs.pytest.org/en/latest/).
 
