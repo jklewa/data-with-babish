@@ -3,8 +3,6 @@ import os
 import click
 
 from ibdb.api import app
-from ibdb.populate_babish_json import populate_babish_json
-from ibdb.populate_db import populate_db
 from ibdb.export import export as sync_export
 
 
@@ -18,18 +16,11 @@ def sync():
     pass
 
 
-@sync.command('update')
-def update():
-    populate_db()
-
-
 @sync.command('export')
-@click.option('--format', '-f', multiple=True, default=["json", "sql"], type=click.Choice(['json', 'sql', 'babish-json']),
+@click.option('--format', '-f', multiple=True, default=["json", "sql"], type=click.Choice(['json', 'sql']),
               help='Output formats (default: json,sql)')
 def export(format):
     sync_export(json_='json' in format, sql='sql' in format)
-    if 'babish-json' in format:
-        populate_babish_json()
 
 
 def main():

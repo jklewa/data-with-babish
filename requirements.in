@@ -4,4 +4,3 @@ flake8
 pip-tools
 pytest
 pytest-cov
-requests-mock

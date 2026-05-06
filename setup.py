@@ -4,17 +4,12 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 install_requires = [
-    "beautifulsoup4",
     "click",
     "flask",
     "flask-migrate",
     "flask-sqlalchemy",
-    "furl",
-    "html5lib",
     "measurement",
     "psycopg2-binary",
-    "pyfunctional",
-    "requests",
 ]
 
 setuptools.setup(
