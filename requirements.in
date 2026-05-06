@@ -1,5 +1,4 @@
 -e file:.
-callee
 flake8
 pip-tools
 pytest

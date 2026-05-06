@@ -8,7 +8,6 @@ install_requires = [
     "flask",
     "flask-migrate",
     "flask-sqlalchemy",
-    "measurement",
     "psycopg2-binary",
 ]
 
