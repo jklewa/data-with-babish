@@ -1,0 +1,11 @@
+babish_id: reference-0031
+type: tv_show
+name: Charlie Brown Thanksgiving
+description: Peppermint Patty invites herself and her friends over to Charlie Brown's for Thanksgiving, and with Linus, Snoopy, and Woodstock, he attempts to throw together a Thanksgiving dinner. IMDb.
+external_link: https://www.imdb.com/title/tt0068359/
+image_link: https://img.youtube.com/vi/-VIx1y5YTsc/mqdefault.jpg
+_lookup:
+  canonical_name: Charlie Brown Thanksgiving
+  db_id: 32
+  aliases:
+  - Charlie Brown

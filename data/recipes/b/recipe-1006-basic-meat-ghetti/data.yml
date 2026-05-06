@@ -1,0 +1,27 @@
+babish_id: recipe-1006
+name: Basic Meat-ghetti
+image_link: null
+raw_ingredient_list: '1 ½ oz breadcrumbs
+
+  1 ½ oz milk
+
+  ¾ tsp garlic powder
+
+  ½ tsp onion powder
+
+  ¾ tsp dried basil
+
+  1 tsp dried oregano
+
+  ¾ tsp freshly ground black pepper
+
+  ¾ tsp kosher salt
+
+  1 lb ground beef
+
+  1 large egg'
+raw_procedure: ''
+episode: episode-0369
+_lookup:
+  episode_and_section: episode-0369::Basic Meat-ghetti
+  db_id: 1025

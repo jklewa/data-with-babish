@@ -1,0 +1,26 @@
+babish_id: episode-0019
+name: Pasta Aglio e Olio inspired by Chef
+slug: aglioeolio
+published_date: 2016-03-26
+youtube_link: https://www.youtube.com/watch?v=bJUiWdM__Qw
+official_link: https://www.babi.sh/recipes/aglioeolio
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689991767/akppdskvenkgmu1djweh.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0015
+- tag-0022
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0045
+recipes:
+- recipe-0499
+_lookup:
+  slug: aglioeolio
+  babish_internal_id: 1k1HvjWJt7rawnSoAIlM

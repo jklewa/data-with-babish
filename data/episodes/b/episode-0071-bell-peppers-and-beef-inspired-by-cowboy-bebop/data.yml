@@ -1,0 +1,26 @@
+babish_id: episode-0071
+name: Bell Peppers and Beef inspired by Cowboy Bebop
+slug: bell-peppers-and-beef-inspired-by-cowboy-bebop
+published_date: 2024-08-20
+youtube_link: https://www.youtube.com/watch?v=2cAUXitY1Wg
+official_link: https://www.babi.sh/recipes/bell-peppers-and-beef-inspired-by-cowboy-bebop
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1724877351/hawouiv2bqsgxzhglqox.webp
+time_to_cook: null
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+- tag-0021
+- tag-0025
+- tag-0030
+- tag-0031
+- tag-0032
+guests: []
+inspired_by:
+- reference-0276
+recipes:
+- recipe-1268
+_lookup:
+  slug: bell-peppers-and-beef-inspired-by-cowboy-bebop
+  babish_internal_id: mcFb1DRZjicQUqQ8zKeh

@@ -1,0 +1,21 @@
+babish_id: episode-0083
+name: Blooming Fish inspired by Cinderella Chef
+slug: blooming-fish-inspired-by-cinderella-chef
+published_date: 2024-10-02
+youtube_link: https://www.youtube.com/watch?v=DAwamRa8m9Y
+official_link: https://www.babi.sh/recipes/blooming-fish-inspired-by-cinderella-chef
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1727902497/v0e6pzds2idrfzg2dqbj.webp
+time_to_cook: 5400
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+guests: []
+inspired_by:
+- reference-0265
+recipes:
+- recipe-1245
+_lookup:
+  slug: blooming-fish-inspired-by-cinderella-chef
+  babish_internal_id: yjuMGDvQMT1onSdz9xgi

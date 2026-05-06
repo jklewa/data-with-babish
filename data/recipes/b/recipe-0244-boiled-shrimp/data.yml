@@ -1,0 +1,25 @@
+babish_id: recipe-0244
+name: Boiled Shrimp
+image_link: null
+raw_ingredient_list: 'Prepared Shrimp
+
+  Bay Leaves
+
+  Lemon
+
+  Salt
+
+  Peppercorns'
+raw_procedure: 'Throw a couple bay leaves and a big hunk of lemon into some water with a few generous pinches of kosher salt and whole peppercorns.
+
+  Cover the pot of water and bring it to a boil.
+
+  Add the shrimp and immediately cut the heat, covering it with a lid. Let it sit for 8-10 minutes or until the shrimp are fully cooked.
+
+  If your recipe calls for cold shrimp, immediately shock them in an ice bath.
+
+  After sitting in the ice bath for a few minutes, drain them and you are ready to go. This is ideal for shrimp cocktail.'
+episode: episode-0239
+_lookup:
+  episode_and_section: episode-0239::Boiled Shrimp
+  db_id: 249

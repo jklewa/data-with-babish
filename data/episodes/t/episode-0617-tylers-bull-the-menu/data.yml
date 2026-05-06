@@ -1,0 +1,22 @@
+babish_id: episode-0617
+name: Tyler's Bullsh*t inspired by The Menu
+slug: tylers-bull-the-menu
+published_date: 2023-05-12
+youtube_link: https://www.youtube.com/watch?v=WAuY3FJaJak
+official_link: https://www.babi.sh/recipes/tylers-bull-the-menu
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1687964874/trtyvkekxwwgyu9fgqwi.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0021
+guests: []
+inspired_by:
+- reference-0288
+recipes:
+- recipe-1332
+_lookup:
+  slug: tylers-bull-the-menu
+  babish_internal_id: yJVgYB9pWn9wMpDgN9Js

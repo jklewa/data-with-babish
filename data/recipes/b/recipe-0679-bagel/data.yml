@@ -1,0 +1,23 @@
+babish_id: recipe-0679
+name: Bagel
+image_link: null
+raw_ingredient_list: '350 grams all-purpose flour
+
+  1 Tbsp kosher salt
+
+  1 ½ tsp instant yeast
+
+  1 tsp cornmeal
+
+  4 oz parmesan cheese, grated
+
+  ¾ cup buttermilk
+
+  2 Tbsp unsalted butter, melted
+
+  1 large egg'
+raw_procedure: ''
+episode: episode-0610
+_lookup:
+  episode_and_section: episode-0610::Bagel
+  db_id: 693

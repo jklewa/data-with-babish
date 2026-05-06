@@ -1,0 +1,25 @@
+babish_id: episode-0380
+name: Mitarashi Dango inspired by Demon Slayer
+slug: mitarashi-dango-inspired-by-demon-slayer
+published_date: 2024-09-04
+youtube_link: https://www.youtube.com/watch?v=X3DUkE6cgUg
+official_link: https://www.babi.sh/recipes/mitarashi-dango-inspired-by-demon-slayer
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1725477172/psa1ww7xnqmaittxlmer.webp
+time_to_cook: null
+yield_qty: 3
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+- tag-0018
+- tag-0019
+- tag-0032
+- tag-0033
+guests: []
+inspired_by:
+- reference-0270
+recipes:
+- recipe-1258
+_lookup:
+  slug: mitarashi-dango-inspired-by-demon-slayer
+  babish_internal_id: XAI2CHsZE9iSKOIstlZM

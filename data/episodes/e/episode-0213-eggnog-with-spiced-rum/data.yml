@@ -1,0 +1,18 @@
+babish_id: episode-0213
+name: Eggnog with Spiced Rum
+slug: eggnog-with-spiced-rum
+published_date: 2023-12-22
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/eggnog-with-spiced-rum
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1703261892/wv5ekv0oych664wuqzem.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags: []
+guests: []
+inspired_by: []
+recipes:
+- recipe-1305
+_lookup:
+  slug: eggnog-with-spiced-rum
+  babish_internal_id: obdhnGenhGnH6fG5GucI

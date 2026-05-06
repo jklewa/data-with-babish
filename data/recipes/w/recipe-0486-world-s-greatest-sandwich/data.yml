@@ -1,0 +1,29 @@
+babish_id: recipe-0486
+name: World's Greatest Sandwich
+image_link: null
+raw_ingredient_list: 'Bread
+
+  2 slices Monterey Jack cheese
+
+  A heaping spoonful of mayo
+
+  4 slices of bacon
+
+  4 slices of tomato
+
+  1 fried egg, sunny side up
+
+  3 leaves of butter leaf lettuce'
+raw_procedure: 'Preheat oven to 400°.
+
+  Line a baking sheet with aluminum foil and place a wire rack on top. Lay bacon slices on wire rack. Place baking sheet with bacon into preheated oven for 15-20 minutes or until crispy.
+
+  Hack off 2 slices of bread and toast. Place monterey jack cheese on one slice and a healthy smear of mayo on the other.
+
+  Top the mayo slice with 4 slices of tomatoes. Salt the tomatoes. Top the tomatoes with the bacon. Then, place the fried egg on top. Place some butter leaf lettuce on top of the egg. Place the cheese slice down.
+
+  Slice in half and take at least 20 minutes to stop and stare at that cross section in wonderment. Enjoy with a tall cold beer.'
+episode: episode-0634
+_lookup:
+  episode_and_section: episode-0634::World's Greatest Sandwich
+  db_id: 495

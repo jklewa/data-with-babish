@@ -1,0 +1,28 @@
+babish_id: episode-0010
+name: 3-Day Potato Salad inspired by SpongeBob SquarePants
+slug: 3daypotatosalad
+published_date: 2018-12-04
+youtube_link: https://www.youtube.com/watch?v=5Ugrgl9tB2s&amp;t=138s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/5Ugrgl9tB2s/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/3daypotatosalad
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695320/babishImages/undefined-635034.png
+time_to_cook: 8400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0019
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0020
+recipes:
+- recipe-0148
+- recipe-0149
+- recipe-0150
+- recipe-0151
+_lookup:
+  slug: 3daypotatosalad
+  babish_internal_id: 8LtrhkF2vixvReMqHeHf

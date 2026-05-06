@@ -1,0 +1,15 @@
+babish_id: recipe-1352
+name: no churn ice cream sundae
+image_link: null
+raw_ingredient_list: 'milk
+
+  short pasta
+
+  mild yellow cheddar
+
+  san marzano tomatoes'
+raw_procedure: ''
+episode: episode-0284
+_lookup:
+  episode_and_section: episode-0284::no churn ice cream sundae
+  db_id: 1371

@@ -1,0 +1,26 @@
+babish_id: episode-0637
+name: Baked Ziti and Lasagna inspired by The Sopranos
+slug: ziti-lasagna
+published_date: 2019-09-20
+youtube_link: https://www.youtube.com/watch?v=c_BGPTK3GQk&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/c_BGPTK3GQk/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/ziti-lasagna
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695408/babishImages/undefined-405046.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0022
+guests: []
+inspired_by:
+- reference-0042
+recipes:
+- recipe-0530
+- recipe-0531
+- recipe-0532
+- recipe-0533
+- recipe-0534
+_lookup:
+  slug: ziti-lasagna
+  babish_internal_id: BrXRgWPwnv3RbDoUr4pv

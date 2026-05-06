@@ -1,0 +1,21 @@
+babish_id: recipe-1392
+name: “if looks could kale” burger
+image_link: null
+raw_ingredient_list: 'beef or veggie burger mix
+
+  roast chuck
+
+  chard stems
+
+  black beans drained
+
+  short grain brown rice
+
+  curly kale washed dried +
+
+  gruyere cheese'
+raw_procedure: ''
+episode: episode-0294
+_lookup:
+  episode_and_section: episode-0294::“if looks could kale” burger
+  db_id: 1411

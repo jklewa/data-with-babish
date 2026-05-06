@@ -1,0 +1,26 @@
+babish_id: episode-0299
+name: Inferno Wings inspired by Regular Show
+slug: infernowings
+published_date: 2019-07-16
+youtube_link: https://www.youtube.com/watch?v=dRLCZqEfJFA&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/dRLCZqEfJFA/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/infernowings
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695609/babishImages/undefined-759877.png
+time_to_cook: 2400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0006
+recipes:
+- recipe-0021
+- recipe-0022
+_lookup:
+  slug: infernowings
+  babish_internal_id: MNHkSHdOFMXWKHFpB6sS

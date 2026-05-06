@@ -1,0 +1,9 @@
+babish_id: reference-0106
+type: movie
+name: Creed
+description: The former World Heavyweight Champion Rocky Balboa serves as a trainer and mentor to Adonis Johnson, the son of his late friend and former rival Apollo Creed. IMDb.
+external_link: https://www.imdb.com/title/tt3076658/
+image_link: https://img.youtube.com/vi/vhIZcWdX_mk/mqdefault.jpg
+_lookup:
+  canonical_name: Creed
+  db_id: 108

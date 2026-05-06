@@ -1,0 +1,29 @@
+babish_id: episode-0240
+name: Four Horsemeals of the Eggporkalypse inspired by Parks & Rec
+slug: four-horsemeal-eggporkalypse-parks-and-rec
+published_date: 2020-08-18
+youtube_link: https://www.youtube.com/watch?v=NWGVFi-213w
+official_link: https://www.babi.sh/recipes/four-horsemeal-eggporkalypse-parks-and-rec
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695798/babishImages/undefined-854167.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0017
+- tag-0028
+- tag-0032
+guests: []
+inspired_by:
+- reference-0018
+recipes:
+- recipe-0725
+- recipe-0726
+- recipe-0727
+- recipe-0728
+- recipe-0729
+- recipe-0730
+_lookup:
+  slug: four-horsemeal-eggporkalypse-parks-and-rec
+  babish_internal_id: W02vE79x6BKszSEO5lZU

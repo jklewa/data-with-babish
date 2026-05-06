@@ -1,0 +1,19 @@
+babish_id: recipe-1175
+name: 'Brian’s Lunch : (apple juice, PB&J with crust cut off, soup)'
+image_link: null
+raw_ingredient_list: '2 slices white bread
+
+  ¼ Cup peanut butter
+
+  ¼ Cup grape jelly
+
+  Minestrone Soup (see recipe below)
+
+  1 apple juice box
+
+  1 coke'
+raw_procedure: ''
+episode: episode-0357
+_lookup:
+  episode_and_section: 'episode-0357::Brian’s Lunch : (apple juice, PB&J with crust cut off, soup)'
+  db_id: 1194

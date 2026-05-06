@@ -1,0 +1,31 @@
+babish_id: recipe-0500
+name: Fried Chicken
+image_link: null
+raw_ingredient_list: '1 whole chicken, broken down into 10 pieces
+
+  3 cups flour
+
+  1 tsp baking powder
+
+  1 Tbsp garlic powder
+
+  2 tsp cayenne
+
+  1 Tbsp paprika
+
+  2 cups cornflakes, crushed
+
+  Salt & pepper to taste
+
+  5 eggs
+
+  Juice of 1 lemon
+
+  4 cups lard or shortening'
+raw_procedure: 'Preheat oven to 300°F.  Begin heating lard to 350°F - don’t exceed 350°F or lard will smoke.  Set aside 1 cup flour.  In a large bowl, whisk together remaining flour, baking powder, garlic powder, cayenne, paprika, and cornflakes.  Whisk together eggs and lemon juice, and dip chicken in plain flour, then in eggs, then in seasoned flour.  Continue until all chicken pieces are coated.
+
+  Once lard reaches 350°F, gently lower in chicken pieces in batches, so they aren’t overcrowded.  Fry for 7-10 minutes, flipping as necessary, until evenly brown.  Place on a wire rack in a rimmed baking sheet, and keep warm in the oven until all the chicken is cooked.  Ensure the white meat is heated to 155°F internally, and the dark meat to 170°F.'
+episode: episode-0355
+_lookup:
+  episode_and_section: episode-0355::Fried Chicken
+  db_id: 509

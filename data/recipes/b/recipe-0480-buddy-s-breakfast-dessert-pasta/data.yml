@@ -1,0 +1,29 @@
+babish_id: recipe-0480
+name: Buddy's Breakfast Dessert Pasta
+image_link: null
+raw_ingredient_list: 'Spaghetti
+
+  Tomato sauce
+
+  Chocolate chips
+
+  M&Ms
+
+  1 fudge Pop-Tart
+
+  Marshmallows
+
+  Maple syrup
+
+  Caramel sauce
+
+  Chocolate sauce'
+raw_procedure: 'Boil water and cook spaghetti according to package.
+
+  Toss pasta in tomato sauce.
+
+  Top pasta with a handful of chocolate chips and a handful of M&Ms. Crumble the fudge poptart on top. Top the pasta with a handful of marshmallows, a glug of syrup, some caramel sauce, and some chocolate sauce.'
+episode: episode-0199
+_lookup:
+  episode_and_section: episode-0199::Buddy's Breakfast Dessert Pasta
+  db_id: 489

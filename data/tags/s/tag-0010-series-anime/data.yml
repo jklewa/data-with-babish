@@ -1,0 +1,7 @@
+babish_id: tag-0010
+axis: Series
+name: Anime
+_lookup:
+  babish_external_id: 8768ba0f-2bc1-42a1-ba8a-43d440c2c681
+  axis_and_name: Series::Anime
+  db_id: 10

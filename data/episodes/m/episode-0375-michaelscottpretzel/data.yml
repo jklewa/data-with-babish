@@ -1,0 +1,26 @@
+babish_id: episode-0375
+name: Michael Scott’s Pretzel inspired by The Office
+slug: michaelscottpretzel
+published_date: 2017-10-17
+youtube_link: https://www.youtube.com/watch?v=NHA9Ffaal2M&amp;t=252s
+official_link: https://www.babi.sh/recipes/michaelscottpretzel
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715698/babishImages/undefined-89396.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+guests: []
+inspired_by:
+- reference-0078
+recipes:
+- recipe-0369
+- recipe-0370
+- recipe-0371
+- recipe-0372
+- recipe-0373
+_lookup:
+  slug: michaelscottpretzel
+  babish_internal_id: jhnb90tCRc38Mbo7sPvl

@@ -1,0 +1,24 @@
+babish_id: episode-0435
+name: PIZZA DOUGH
+slug: pizza-dough
+published_date: 2020-10-15
+youtube_link: https://www.youtube.com/watch?v=n1O3uHPCOLA
+official_link: https://www.babi.sh/recipes/pizza-dough
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715535/babishImages/undefined-397821.png
+time_to_cook: 10800
+yield_qty: 2
+yield_unit: small pizzas
+tags:
+- tag-0013
+- tag-0014
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1413
+- recipe-1414
+_lookup:
+  slug: pizza-dough
+  babish_internal_id: c1lUB0BEWNikt0U5fRDL

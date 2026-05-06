@@ -1,0 +1,15 @@
+babish_id: recipe-1234
+name: pasta
+image_link: null
+raw_ingredient_list: 'japanese short grain rice
+
+  beef stock
+
+  ribeye steak thinly
+
+  pasta'
+raw_procedure: ''
+episode: episode-0414
+_lookup:
+  episode_and_section: episode-0414::pasta
+  db_id: 1253

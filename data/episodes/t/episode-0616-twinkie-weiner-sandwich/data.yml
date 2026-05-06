@@ -1,0 +1,29 @@
+babish_id: episode-0616
+name: Twinkie Weiner Sandwich inspired by Weird Al's UHF
+slug: twinkie-weiner-sandwich
+published_date: 2020-06-24
+youtube_link: https://www.youtube.com/watch?v=jKslWoZXvn0
+official_link: https://www.babi.sh/recipes/twinkie-weiner-sandwich
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696374/babishImages/undefined-202701.png
+time_to_cook: 2400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0017
+- tag-0018
+- tag-0020
+- tag-0032
+guests: []
+inspired_by:
+- reference-0187
+recipes:
+- recipe-0694
+- recipe-0695
+- recipe-0696
+- recipe-0697
+- recipe-0698
+_lookup:
+  slug: twinkie-weiner-sandwich
+  babish_internal_id: yYL1bgVlcfszzVPPm87U

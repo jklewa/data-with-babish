@@ -1,0 +1,9 @@
+babish_id: recipe-1433
+name: NASHVILLE HOT CHICKEN
+image_link: null
+raw_ingredient_list: chicken
+raw_procedure: ''
+episode: episode-0287
+_lookup:
+  episode_and_section: episode-0287::NASHVILLE HOT CHICKEN
+  db_id: 1452

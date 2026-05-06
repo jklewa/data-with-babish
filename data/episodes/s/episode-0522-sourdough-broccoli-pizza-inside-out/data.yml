@@ -1,0 +1,28 @@
+babish_id: episode-0522
+name: Sourdough Broccoli Pizza inspired by Inside Out
+slug: sourdough-broccoli-pizza-inside-out
+published_date: 2021-01-05
+youtube_link: https://www.youtube.com/watch?v=8ti1quN-jKs
+official_link: https://www.babi.sh/recipes/sourdough-broccoli-pizza-inside-out
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695520/babishImages/undefined-477624.png
+time_to_cook: 3600
+yield_qty: 5
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0014
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0209
+recipes:
+- recipe-0782
+- recipe-0783
+- recipe-0784
+- recipe-0785
+_lookup:
+  slug: sourdough-broccoli-pizza-inside-out
+  babish_internal_id: GjkQPBnQ31nYA0AsIcBr

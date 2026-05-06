@@ -1,0 +1,21 @@
+babish_id: recipe-1100
+name: Salsa
+image_link: null
+raw_ingredient_list: '4-5 plum tomatoes
+
+  1 small yellow onion, peeled + halved
+
+  1 jalapeno pepper, stem removed
+
+  4 cloves garlic, smashed
+
+  1 tsp Mexican oregano
+
+  To taste kosher salt
+
+  To taste freshly ground black pepper'
+raw_procedure: ''
+episode: episode-0143
+_lookup:
+  episode_and_section: episode-0143::Salsa
+  db_id: 1119

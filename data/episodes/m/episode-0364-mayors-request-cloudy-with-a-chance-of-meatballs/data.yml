@@ -1,0 +1,22 @@
+babish_id: episode-0364
+name: Mayor's Request inspired by Cloudy with a Chance of Meatballs
+slug: mayors-request-cloudy-with-a-chance-of-meatballs
+published_date: 2021-12-20
+youtube_link: https://www.youtube.com/watch?v=dr3rMTxq3bA
+official_link: https://www.babi.sh/recipes/mayors-request-cloudy-with-a-chance-of-meatballs
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1680970729/md9l25up1e6zkppevtom.webp
+time_to_cook: 8400
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0033
+guests: []
+inspired_by:
+- reference-0306
+recipes:
+- recipe-1405
+_lookup:
+  slug: mayors-request-cloudy-with-a-chance-of-meatballs
+  babish_internal_id: tcCaahAzzD1zff7w5kqJ

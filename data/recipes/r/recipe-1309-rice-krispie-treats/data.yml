@@ -1,0 +1,19 @@
+babish_id: recipe-1309
+name: rice krispie treats
+image_link: null
+raw_ingredient_list: 'butter
+
+  chocolate
+
+  hojicha powder
+
+  bags mini marshmallows
+
+  box rice krispies
+
+  finishing salt'
+raw_procedure: ''
+episode: episode-0101
+_lookup:
+  episode_and_section: episode-0101::rice krispie treats
+  db_id: 1328

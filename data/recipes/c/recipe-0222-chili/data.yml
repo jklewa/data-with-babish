@@ -1,0 +1,37 @@
+babish_id: recipe-0222
+name: Chili
+image_link: null
+raw_ingredient_list: '1 spanish onion, diced
+
+  1 green pepper, diced
+
+  4 cloves garlic, minced
+
+  1 lb ground chuck
+
+  2 Tbsp chili powder
+
+  1 Tbsp white pepper
+
+  1 Tbsp cumin
+
+  1 14.5 ounce can crushed tomatoes
+
+  14.5 ounces of water
+
+  1 can of kidney beans
+
+  1 can of chipotles in adobo, peppers removed (we’ll be using the sauce)
+
+  1 tsp smoked paprika
+
+  1 tsp oregano'
+raw_procedure: 'Start by dicing 1 spanish onion and 1 green pepper along with mincing 4 cloves of garlic. In a large saucepan, add 1 pound of ground round chuck and cook until browned. Remove from pan and drain off all but a little of the beef fat, then add onion and pepper.
+
+  Once everything is nice and soft, add garlic, 2 Tbsp chili powder, 1 Tbsp white pepper, and 1 Tbsp cumin. Stir to combine for 1 minute.
+
+  Next add one 14.5 ounce can of crushed tomatoes, 14.5 ounces of water, the browned beef, 1 can of kidney beans, the adobo sauce from the can of chipotle peppers, 1 tsp smoked paprika, and 1 tsp oregano. Stir to combine over a medium-low heat for about an hour.'
+episode: episode-0216
+_lookup:
+  episode_and_section: episode-0216::Chili
+  db_id: 227

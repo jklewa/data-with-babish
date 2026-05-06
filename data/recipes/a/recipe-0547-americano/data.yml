@@ -1,0 +1,11 @@
+babish_id: recipe-0547
+name: Americano
+image_link: ''
+raw_ingredient_list: 'Espresso (double shot)
+
+  Hot water'
+raw_procedure: This is an approximation of American-style drip coffee by adding hot water to a double shot of espresso.
+episode: episode-0225
+_lookup:
+  episode_and_section: episode-0225::Americano
+  db_id: 560

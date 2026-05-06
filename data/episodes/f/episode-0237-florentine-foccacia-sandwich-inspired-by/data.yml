@@ -1,0 +1,25 @@
+babish_id: episode-0237
+name: Florentine Foccacia Sandwich inspired by
+slug: florentine-foccacia-sandwich-inspired-by
+published_date: 2025-06-06
+youtube_link: https://www.youtube.com/watch?v=DlKffFjjnwQ&pp=ygUeYW55dGhpbmcgd2l0aCBhbHZpbiBzYW5kaXdjaGVz0gcJCbIJAYcqIYzv
+official_link: https://www.babi.sh/recipes/florentine-foccacia-sandwich-inspired-by
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1749224610/kmsn8873t2bzvgidy9bl.webp
+time_to_cook: 172800
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0011
+- tag-0016
+- tag-0020
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1214
+_lookup:
+  slug: florentine-foccacia-sandwich-inspired-by
+  babish_internal_id: ujUpC6M03njhjsb2yxzU

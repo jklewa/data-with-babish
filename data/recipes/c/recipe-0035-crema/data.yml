@@ -1,0 +1,11 @@
+babish_id: recipe-0035
+name: Crema
+image_link: null
+raw_ingredient_list: '½ cup sour cream
+
+  1 lime'
+raw_procedure: To make the crema, in a small bowl, mix half a cup of sour cream and the juice of one lime.
+episode: episode-0289
+_lookup:
+  episode_and_section: episode-0289::Crema
+  db_id: 39

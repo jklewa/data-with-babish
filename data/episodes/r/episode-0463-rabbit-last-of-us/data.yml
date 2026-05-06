@@ -1,0 +1,23 @@
+babish_id: episode-0463
+name: Rabbit inspired by The Last of Us
+slug: rabbit-last-of-us
+published_date: 2023-03-07
+youtube_link: https://www.youtube.com/watch?v=RKXWW8vgbhQ&feature=youtu.be
+official_link: https://www.babi.sh/recipes/rabbit-last-of-us
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1680588592/pf5ccr3nqtd3ev05oras.webp
+time_to_cook: null
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0021
+- tag-0030
+guests: []
+inspired_by:
+- reference-0293
+recipes:
+- recipe-1342
+_lookup:
+  slug: rabbit-last-of-us
+  babish_internal_id: qLaaroGmcgxgzKf0WJm0

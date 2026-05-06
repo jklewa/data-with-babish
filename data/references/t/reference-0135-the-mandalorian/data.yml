@@ -1,0 +1,9 @@
+babish_id: reference-0135
+type: tv_show
+name: The Mandalorian
+description: The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic. IMBb.
+external_link: https://www.imdb.com/title/tt8111088/
+image_link: https://img.youtube.com/vi/aOC8E8z_ifw/mqdefault.jpg
+_lookup:
+  canonical_name: The Mandalorian
+  db_id: 140

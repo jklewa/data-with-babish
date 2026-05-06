@@ -1,0 +1,18 @@
+babish_id: episode-0356
+name: Lovers' Delight Sundae from 30 Rock
+slug: loversdelightsundae
+published_date: 2017-02-06
+youtube_link: https://www.youtube.com/watch?v=iX7Dzr2whWQ
+official_link: https://www.youtube.com/watch?v=iX7Dzr2whWQ
+image_link: https://img.youtube.com/vi/iX7Dzr2whWQ/mqdefault.jpg
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags: []
+guests: []
+inspired_by:
+- reference-0048
+recipes:
+- recipe-1452
+_lookup:
+  slug: loversdelightsundae

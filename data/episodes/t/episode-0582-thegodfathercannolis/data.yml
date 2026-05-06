@@ -1,0 +1,24 @@
+babish_id: episode-0582
+name: Cannolis inspired by The Godfather
+slug: thegodfathercannolis
+published_date: 2018-06-05
+youtube_link: https://www.youtube.com/watch?v=44fjX-rgJ7s
+official_link: https://www.babi.sh/recipes/thegodfathercannolis
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715714/babishImages/undefined-191977.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0054
+recipes:
+- recipe-0255
+_lookup:
+  slug: thegodfathercannolis
+  babish_internal_id: obHRQzM2jkNpoUStkxk4

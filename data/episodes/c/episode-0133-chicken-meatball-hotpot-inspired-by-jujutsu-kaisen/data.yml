@@ -1,0 +1,20 @@
+babish_id: episode-0133
+name: Chicken Meatball Hotpot inspired By Jujutsu Kaisen
+slug: chicken-meatball-hotpot-inspired-by-jujutsu-kaisen
+published_date: 2024-10-02
+youtube_link: https://www.youtube.com/watch?v=GymqadVYSXk&t=34s
+official_link: https://www.babi.sh/recipes/chicken-meatball-hotpot-inspired-by-jujutsu-kaisen
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1727887830/cnkxewktxghxefrnq6xa.webp
+time_to_cook: null
+yield_qty: 3
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+guests: []
+inspired_by: []
+recipes:
+- recipe-1246
+_lookup:
+  slug: chicken-meatball-hotpot-inspired-by-jujutsu-kaisen
+  babish_internal_id: W300St91ljTJkqHKeLbM

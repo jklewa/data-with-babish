@@ -1,0 +1,27 @@
+babish_id: episode-0557
+name: 'Super Hot N’ Spicy Burger inspired by Boruto: Naruto Next Generations'
+slug: super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations
+published_date: 2025-09-05
+youtube_link: https://www.youtube.com/watch?v=WHRob85NXP0
+official_link: https://www.babi.sh/recipes/super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1757083697/faonnzkt2wxxoa45fkae.webp
+time_to_cook: 14400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+- tag-0016
+- tag-0017
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0239
+recipes:
+- recipe-1191
+_lookup:
+  slug: super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations
+  babish_internal_id: GBlAMQ1Ip9t5lLdUZs06

@@ -1,0 +1,9 @@
+babish_id: reference-0087
+type: tv_show
+name: Saturday Night Live
+description: A famous guest host stars in parodies and sketches created by the cast of this witty show. IMDb.
+external_link: https://www.imdb.com/title/tt0072562/
+image_link: https://i.ytimg.com/sh/t5sPe62DPS-vj8-cYU12hQ/market.jpg
+_lookup:
+  canonical_name: Saturday Night Live
+  db_id: 89

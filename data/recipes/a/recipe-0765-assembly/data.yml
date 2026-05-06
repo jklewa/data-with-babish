@@ -1,0 +1,21 @@
+babish_id: recipe-0765
+name: Assembly
+image_link: null
+raw_ingredient_list: 'Bread
+
+  Swiss cheese
+
+  Russian dressing
+
+  Coleslaw
+
+  Pastrami
+
+  Turkey
+
+  Potato Chips'
+raw_procedure: ''
+episode: episode-0585
+_lookup:
+  episode_and_section: episode-0585::Assembly
+  db_id: 779

@@ -1,0 +1,25 @@
+babish_id: recipe-0723
+name: Assembly
+image_link: null
+raw_ingredient_list: 'Ketchup
+
+  Lettuce
+
+  Burger buns
+
+  3 beef patties
+
+  3 onion rings
+
+  Fried egg
+
+  Chili
+
+  Cheese sauce
+
+  Fries'
+raw_procedure: ''
+episode: episode-0419
+_lookup:
+  episode_and_section: episode-0419::Assembly
+  db_id: 737

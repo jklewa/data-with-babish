@@ -1,0 +1,15 @@
+babish_id: recipe-0298
+name: The Old Fashioned
+image_link: null
+raw_ingredient_list: '2 oz Bourbon
+
+  Angostura bitters
+
+  Orange peel
+
+  Simple syrup'
+raw_procedure: Mix and serve.
+episode: episode-0057
+_lookup:
+  episode_and_section: episode-0057::The Old Fashioned
+  db_id: 303

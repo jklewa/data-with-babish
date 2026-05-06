@@ -1,0 +1,23 @@
+babish_id: recipe-0374
+name: The Larry David Sandwich
+image_link: null
+raw_ingredient_list: '1 bagel
+
+  Whitefish salad
+
+  Smoked sable
+
+  Sliced white onions
+
+  Cream cheese
+
+  Capers'
+raw_procedure: 'Toast the bagel.
+
+  Spread Whitefish salad on one half of the toasted bagel. Then top with smoked sable, sliced white onions, and capers.
+
+  Spread cream cheese on other half of the bagel and join the two together to form a sandwich.'
+episode: episode-0188
+_lookup:
+  episode_and_section: episode-0188::The Larry David Sandwich
+  db_id: 383

@@ -1,0 +1,23 @@
+babish_id: recipe-0086
+name: Guacamole
+image_link: null
+raw_ingredient_list: '2 avocados
+
+  1/2 small red onion, finely chopped
+
+  1 large jalapeno, seeded and diced
+
+  2 cloves garlic, grated
+
+  1 lime, juiced
+
+  Cumin, to taste
+
+  Salt and pepper, to taste'
+raw_procedure: 'In a bowl combine 2 ripe avocados, ½ a finely chopped small red onion, 1 chopped jalapeno (remove seeds if you don’t want it too hot), 2 cloves of grated garlic, the juice of 1 lime, 1 tsp cumin, salt and pepper.
+
+  Mix to combine.'
+episode: episode-0460
+_lookup:
+  episode_and_section: episode-0460::Guacamole
+  db_id: 91

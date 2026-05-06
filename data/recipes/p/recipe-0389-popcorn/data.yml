@@ -1,0 +1,17 @@
+babish_id: recipe-0389
+name: Popcorn
+image_link: null
+raw_ingredient_list: '1 heaping teaspoon Flavacol (You can get this on Amazon. It lasts forever)
+
+  3 Tbsp coconut oil
+
+  ⅓ cup popcorn kernels'
+raw_procedure: 'In a large stock pot, heat the coconut oil over medium-high heat. Use a few popcorn kernels as temperature indicators. When one pops, take the oil off of the heat.
+
+  Add the rest of the popcorn kernels and the flavacol. Give it a good mix, cover, and let rest off the heat for 30 seconds.
+
+  Return the pot to the heat and shake gently until every kernel is popped. Pour into a bowl and butter as desired.'
+episode: episode-0466
+_lookup:
+  episode_and_section: episode-0466::Popcorn
+  db_id: 398

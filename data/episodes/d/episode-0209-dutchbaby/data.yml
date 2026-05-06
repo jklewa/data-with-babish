@@ -1,0 +1,23 @@
+babish_id: episode-0209
+name: Dutch Baby inspired by Bob's Burgers
+slug: dutchbaby
+published_date: 2019-01-03
+youtube_link: https://www.youtube.com/watch?v=RwlYqnO9DSE&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/RwlYqnO9DSE/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/dutchbaby
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695007/babishImages/undefined-738086.png
+time_to_cook: 1200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0028
+- tag-0031
+guests: []
+inspired_by:
+- reference-0013
+recipes:
+- recipe-0137
+_lookup:
+  slug: dutchbaby
+  babish_internal_id: 0gtzuP8NXXXjKc9MdoEH

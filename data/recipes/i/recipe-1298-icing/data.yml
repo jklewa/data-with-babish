@@ -1,0 +1,15 @@
+babish_id: recipe-1298
+name: 'icing:'
+image_link: null
+raw_ingredient_list: 'ripe strawberries washed +
+
+  butter
+
+  flour
+
+  sugar'
+raw_procedure: ''
+episode: episode-0366
+_lookup:
+  episode_and_section: 'episode-0366::icing:'
+  db_id: 1317

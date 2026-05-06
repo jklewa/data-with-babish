@@ -1,0 +1,11 @@
+babish_id: recipe-1217
+name: pastrami on rye
+image_link: null
+raw_ingredient_list: 'ice
+
+  salt'
+raw_procedure: ''
+episode: episode-0313
+_lookup:
+  episode_and_section: episode-0313::pastrami on rye
+  db_id: 1236

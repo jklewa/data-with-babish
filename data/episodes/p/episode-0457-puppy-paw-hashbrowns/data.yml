@@ -1,0 +1,27 @@
+babish_id: episode-0457
+name: Puppy Paw Hash Browns inspired by Genshin Impact
+slug: puppy-paw-hashbrowns
+published_date: 2021-09-07
+youtube_link: https://www.youtube.com/watch?v=r4HxTcF98MU
+official_link: https://www.babi.sh/recipes/puppy-paw-hashbrowns
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696185/babishImages/undefined-27552.png
+time_to_cook: 3600
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0003
+- tag-0012
+- tag-0019
+- tag-0028
+- tag-0032
+guests: []
+inspired_by:
+- reference-0229
+recipes:
+- recipe-1086
+- recipe-1087
+- recipe-1088
+- recipe-1089
+_lookup:
+  slug: puppy-paw-hashbrowns
+  babish_internal_id: r1b0wh1d6VYaCuOJwpCA

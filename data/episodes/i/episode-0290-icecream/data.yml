@@ -1,0 +1,23 @@
+babish_id: episode-0290
+name: ICE CREAM
+slug: icecream
+published_date: 2018-07-12
+youtube_link: https://www.youtube.com/watch?v=MdirPsiHnCA
+official_link: https://www.babi.sh/recipes/icecream
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686072341/ujov0llfgnf2etxpkw0o.webp
+time_to_cook: 2700
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0018
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0235
+- recipe-0236
+- recipe-0237
+_lookup:
+  slug: icecream
+  babish_internal_id: vy9ohmc0OSzklzNqlOGg

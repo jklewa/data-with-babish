@@ -1,0 +1,9 @@
+babish_id: reference-0131
+type: tv_show
+name: The Daily Show
+description: Providing comedy/news in the tradition of TV Nation and SNL's Weekend Update, Comedy Central's Daily Show reports on the foibles and of the real world with a satirical edge. Sam Hayes, IMDb.
+external_link: https://www.imdb.com/title/tt0115147/
+image_link: https://img.youtube.com/vi/lPgZfhnCAdI/mqdefault.jpg
+_lookup:
+  canonical_name: The Daily Show
+  db_id: 135

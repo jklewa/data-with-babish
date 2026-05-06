@@ -1,0 +1,15 @@
+babish_id: recipe-0328
+name: Rice
+image_link: null
+raw_ingredient_list: '3 cups water
+
+  2 limes
+
+  2 cups long grain white rice
+
+  cumin'
+raw_procedure: Take 3 cups of boiling water, adding 2 squeezed limes and a shake of cumin along with 2 cups of long grain white rice in a casserole tightly covered with aluminum foil and bake for 20-25 minutes at 400°.
+episode: episode-0226
+_lookup:
+  episode_and_section: episode-0226::Rice
+  db_id: 337

@@ -1,0 +1,7 @@
+babish_id: tag-0026
+axis: Category
+name: Healthy
+_lookup:
+  babish_external_id: 122f8bce-6b39-497a-a07c-7b0973fc156f
+  axis_and_name: Category::Healthy
+  db_id: 26

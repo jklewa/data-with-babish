@@ -1,0 +1,9 @@
+babish_id: reference-0017
+type: tv_show
+name: Pokémon
+description: Follows the adventure of Satoshi with his Pokemon, Pikachu and his friends to become the Pokemon master. IMDb.
+external_link: https://www.imdb.com/title/tt0168366/
+image_link: https://i.ytimg.com/sh/4bgqxQYF1YfDZQfSfcg98Q/market.jpg
+_lookup:
+  canonical_name: Pokémon
+  db_id: 18

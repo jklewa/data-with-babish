@@ -1,0 +1,24 @@
+babish_id: episode-0503
+name: Seinfeld Volume II
+slug: seinfeldspecial2
+published_date: 2018-12-11
+youtube_link: https://www.youtube.com/watch?v=b5msQpny05I&amp;t=310s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/b5msQpny05I/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/seinfeldspecial2
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695995/babishImages/undefined-692086.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0031
+guests: []
+inspired_by:
+- reference-0029
+recipes:
+- recipe-0144
+- recipe-0145
+- recipe-0146
+_lookup:
+  slug: seinfeldspecial2
+  babish_internal_id: hX3Bv8dHcnq0wbpt786f

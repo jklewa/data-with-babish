@@ -1,0 +1,13 @@
+babish_id: reference-0085
+type: video_game
+name: 'The Legend of Zelda: Breath of the Wild'
+description: After a century of hibernation, Link reawakens to once again save a ruined Hyrule from a great evil. IMDb.
+external_link: https://www.imdb.com/title/tt3253986/
+image_link: https://img.youtube.com/vi/2As_DjNkwiI/mqdefault.jpg
+_lookup:
+  canonical_name: 'The Legend of Zelda: Breath of the Wild'
+  db_id: 87
+  aliases:
+  - Breath of the Wild
+  - Zelda
+  - 'Zelda: Breath of the Wild'

@@ -1,0 +1,15 @@
+babish_id: recipe-0232
+name: Okonomiyaki Sauce
+image_link: null
+raw_ingredient_list: '1 Tbsp white sugar
+
+  2 Tbsp oyster sauce
+
+  4 Tbsp ketchup
+
+  3 ½ Tbsp worcestershire sauce'
+raw_procedure: Mix.
+episode: episode-0397
+_lookup:
+  episode_and_section: episode-0397::Okonomiyaki Sauce
+  db_id: 237

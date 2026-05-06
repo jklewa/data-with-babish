@@ -1,0 +1,21 @@
+babish_id: recipe-0352
+name: Custard
+image_link: null
+raw_ingredient_list: '4 Tbsp butter
+
+  4 Tbsp flour
+
+  2 ½ cups whole milk
+
+  Nutmeg
+
+  Salt
+
+  Eggs'
+raw_procedure: 'Combine 4 Tbsp each of butter and flour, while drizzling in 2 - 2 ½ cups of whole milk and whisking until a thick bechamel forms.
+
+  Grate in some whole nutmeg and season with salt until a custard forms.'
+episode: episode-0465
+_lookup:
+  episode_and_section: episode-0465::Custard
+  db_id: 361

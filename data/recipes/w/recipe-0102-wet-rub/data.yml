@@ -1,0 +1,13 @@
+babish_id: recipe-0102
+name: Wet Rub
+image_link: null
+raw_ingredient_list: '1 cup mustard
+
+  ¼ cup ketchup
+
+  ¼ cup liquid smoke'
+raw_procedure: Prepare your wet rub by combining 4 parts mustard to 1 part ketchup along with 1 part liquid smoke. Whisk to combine.
+episode: episode-0476
+_lookup:
+  episode_and_section: episode-0476::Wet Rub
+  db_id: 107

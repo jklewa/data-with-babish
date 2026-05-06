@@ -1,0 +1,21 @@
+babish_id: recipe-0689
+name: Seasoning
+image_link: null
+raw_ingredient_list: '3 Tbsp coriander seeds
+
+  3 Tbsp black peppercorns
+
+  1 Tbsp white sugar
+
+  1 Tbsp sweet paprika
+
+  1 Tbsp garlic powder
+
+  1 Tbsp onion powder
+
+  1 tsp mustard powder'
+raw_procedure: ''
+episode: episode-0417
+_lookup:
+  episode_and_section: episode-0417::Seasoning
+  db_id: 703

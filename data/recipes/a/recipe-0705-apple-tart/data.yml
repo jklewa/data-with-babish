@@ -1,0 +1,23 @@
+babish_id: recipe-0705
+name: Apple Tart
+image_link: null
+raw_ingredient_list: '180g all-purpose flour
+
+  65g sugar
+
+  ½ tsp kosher salt
+
+  280g salted butter, melted
+
+  10 large honeycrisp apples, cored, peeled, and chopped
+
+  3 Tbsp butter, melted
+
+  ½ cup apricot preserves
+
+  2 Tbsp apricot preserves (for the syrup)'
+raw_procedure: ''
+episode: episode-0354
+_lookup:
+  episode_and_section: episode-0354::Apple Tart
+  db_id: 719

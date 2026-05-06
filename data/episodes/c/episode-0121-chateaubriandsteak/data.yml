@@ -1,0 +1,26 @@
+babish_id: episode-0121
+name: Chateaubriand Steak inspired by The Matrix
+slug: chateaubriandsteak
+published_date: 2018-04-17
+youtube_link: https://www.youtube.com/watch?v=eA6uLMsl9w0
+official_link: https://www.babi.sh/recipes/chateaubriandsteak
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715539/babishImages/undefined-131890.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0021
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0059
+recipes:
+- recipe-0279
+- recipe-0280
+- recipe-0281
+_lookup:
+  slug: chateaubriandsteak
+  babish_internal_id: fOUCX5sYpzEWXL6cMYO5

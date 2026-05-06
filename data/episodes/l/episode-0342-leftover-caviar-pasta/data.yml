@@ -1,0 +1,18 @@
+babish_id: episode-0342
+name: Leftover Caviar Pasta
+slug: leftover-caviar-pasta
+published_date: 2024-01-18
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/leftover-caviar-pasta
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1705678993/uujrfmfphucrmddxcsdv.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags: []
+guests: []
+inspired_by: []
+recipes:
+- recipe-1297
+_lookup:
+  slug: leftover-caviar-pasta
+  babish_internal_id: d2H4VYaPPIbVGA17tA3u

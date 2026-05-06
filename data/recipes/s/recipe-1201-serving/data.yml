@@ -1,0 +1,15 @@
+babish_id: recipe-1201
+name: serving
+image_link: null
+raw_ingredient_list: 'cherry tomatoes
+
+  flour
+
+  eggs
+
+  parmesan cheese'
+raw_procedure: ''
+episode: episode-0541
+_lookup:
+  episode_and_section: episode-0541::serving
+  db_id: 1220

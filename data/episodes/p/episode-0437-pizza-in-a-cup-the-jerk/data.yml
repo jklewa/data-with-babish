@@ -1,0 +1,24 @@
+babish_id: episode-0437
+name: Pizza in a Cup inspired by The Jerk
+slug: pizza-in-a-cup-the-jerk
+published_date: 2021-02-10
+youtube_link: https://www.youtube.com/watch?v=8a7L0bFuE3o
+official_link: https://www.babi.sh/recipes/pizza-in-a-cup-the-jerk
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695540/babishImages/undefined-444449.png
+time_to_cook: 4800
+yield_qty: 7
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0014
+- tag-0015
+guests: []
+inspired_by:
+- reference-0214
+recipes:
+- recipe-0860
+- recipe-0861
+_lookup:
+  slug: pizza-in-a-cup-the-jerk
+  babish_internal_id: I8gZpdvwDgc4DpAl6ojR

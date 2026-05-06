@@ -1,0 +1,19 @@
+babish_id: episode-0552
+name: Struggle Meals
+slug: struggle-meals
+published_date: 2025-08-29
+youtube_link: https://www.youtube.com/watch?v=zcmWj6kjHfg
+official_link: https://www.babi.sh/recipes/struggle-meals
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1756493239/se65a7tbbtq3evdm2lz8.webp
+time_to_cook: 2700
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1194
+_lookup:
+  slug: struggle-meals
+  babish_internal_id: 0RP7GdnKPaBDSd3NARn8

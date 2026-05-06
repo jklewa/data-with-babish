@@ -1,0 +1,25 @@
+babish_id: episode-0263
+name: 'Golden Fried Rice inspired by Kaguya-Sama: Love is War'
+slug: golden-fried-rice-inspired-by-kaguya-sama:-love-is-war
+published_date: 2024-10-07
+youtube_link: https://www.youtube.com/watch?v=IxFmWHjcdYM
+official_link: https://www.babi.sh/recipes/golden-fried-rice-inspired-by-kaguya-sama:-love-is-war
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1728312761/g66lbk8mpo8sxybo0c0w.webp
+time_to_cook: null
+yield_qty: 3
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+- tag-0019
+- tag-0029
+- tag-0030
+guests: []
+inspired_by:
+- reference-0255
+recipes:
+- recipe-1232
+- recipe-1233
+_lookup:
+  slug: golden-fried-rice-inspired-by-kaguya-sama:-love-is-war
+  babish_internal_id: dLxVMunYUgCkBw8AE4Pl

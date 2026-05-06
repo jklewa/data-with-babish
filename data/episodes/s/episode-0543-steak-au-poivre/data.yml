@@ -1,0 +1,24 @@
+babish_id: episode-0543
+name: Steak au Poivre inspired by Archer
+slug: steak-au-poivre
+published_date: 2019-02-12
+youtube_link: https://www.youtube.com/watch?v=tCJ_VV0FEZM&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/tCJ_VV0FEZM/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/steak-au-poivre
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696147/babishImages/undefined-20273.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0021
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0022
+recipes:
+- recipe-0111
+_lookup:
+  slug: steak-au-poivre
+  babish_internal_id: pgImVHpiYKSgYxD2yYMX

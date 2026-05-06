@@ -1,0 +1,18 @@
+babish_id: episode-0221
+name: Elote Risotto with Sautéed Octopus
+slug: elote-risotto-with-sauteed-octopus
+published_date: 2023-12-08
+youtube_link: https://www.instagram.com/reel/C0mS4_SLQps/
+official_link: https://www.babi.sh/recipes/elote-risotto-with-sauteed-octopus
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1702051716/v98zzrnsfms1t3h95ywv.webp
+time_to_cook: 2400
+yield_qty: 2
+yield_unit: servings
+tags: []
+guests: []
+inspired_by: []
+recipes:
+- recipe-1310
+_lookup:
+  slug: elote-risotto-with-sauteed-octopus
+  babish_internal_id: RqN6NFA6AC7EHG72Azch

@@ -1,0 +1,9 @@
+babish_id: recipe-0883
+name: Strawberry Puree
+image_link: null
+raw_ingredient_list: 8 oz strawberries
+raw_procedure: ''
+episode: episode-0170
+_lookup:
+  episode_and_section: episode-0170::Strawberry Puree
+  db_id: 899

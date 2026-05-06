@@ -1,0 +1,26 @@
+babish_id: episode-0417
+name: Pastrami inspired by When Harry Met Sally
+slug: pastrami
+published_date: 2020-06-09
+youtube_link: https://www.youtube.com/watch?v=hFeDKLt4P-Y
+official_link: https://www.babi.sh/recipes/pastrami
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695604/babishImages/undefined-845385.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0185
+recipes:
+- recipe-0688
+- recipe-0689
+_lookup:
+  slug: pastrami
+  babish_internal_id: M8CT5DQa8ajjEvkcfUQ4

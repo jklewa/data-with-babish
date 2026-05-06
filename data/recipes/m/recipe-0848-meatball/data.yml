@@ -1,0 +1,15 @@
+babish_id: recipe-0848
+name: Meatball
+image_link: null
+raw_ingredient_list: 'Ground beef
+
+  Breadcrumbs
+
+  Eggs
+
+  Spices'
+raw_procedure: ''
+episode: episode-0046
+_lookup:
+  episode_and_section: episode-0046::Meatball
+  db_id: 864

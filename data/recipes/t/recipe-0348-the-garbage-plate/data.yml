@@ -1,0 +1,25 @@
+babish_id: recipe-0348
+name: The Garbage Plate
+image_link: null
+raw_ingredient_list: 'Hot dogs
+
+  Ketchup
+
+  Yellow mustard
+
+  Mysterious Meat Sauce
+
+  Diner Style Home Fries
+
+  Macaroni Salad'
+raw_procedure: 'Cut two hot dogs in half. Place them in a pan and place another pan on top. Cook throughly.
+
+  Place hot dogs on top of the plate of home fries and macaroni salad.
+
+  Cover everything in the meat sauce you set aside earlier.
+
+  (Optional) Slather with ketchup and yellow mustard.'
+episode: episode-0255
+_lookup:
+  episode_and_section: episode-0255::The Garbage Plate
+  db_id: 357

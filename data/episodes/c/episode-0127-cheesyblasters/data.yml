@@ -1,0 +1,21 @@
+babish_id: episode-0127
+name: Cheesy Blasters inspired by 30 Rock
+slug: cheesyblasters
+published_date: 2018-05-15
+youtube_link: https://www.youtube.com/watch?v=atLL2Yzi3bg
+official_link: https://www.babi.sh/recipes/cheesyblasters
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715459/babishImages/undefined-717173.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+guests: []
+inspired_by:
+- reference-0048
+recipes:
+- recipe-0265
+_lookup:
+  slug: cheesyblasters
+  babish_internal_id: 6sE08BRLWFJkiazL7NkC

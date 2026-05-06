@@ -1,0 +1,23 @@
+babish_id: recipe-1386
+name: crab bisque
+image_link: null
+raw_ingredient_list: 'seafood stock
+
+  chicken wings
+
+  dry white wine
+
+  carrots cut into 3 segments
+
+  frozen shrimp
+
+  crab claws
+
+  lump crab
+
+  steamed lump crab meat'
+raw_procedure: ''
+episode: episode-0179
+_lookup:
+  episode_and_section: episode-0179::crab bisque
+  db_id: 1405

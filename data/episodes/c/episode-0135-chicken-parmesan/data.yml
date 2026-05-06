@@ -1,0 +1,26 @@
+babish_id: episode-0135
+name: CHICKEN PARMESAN
+slug: chicken-parmesan
+published_date: 2020-12-10
+youtube_link: https://www.youtube.com/watch?v=ZrR0VbqNdW8
+official_link: https://www.babi.sh/recipes/chicken-parmesan
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715495/babishImages/undefined-30590.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0816
+- recipe-0817
+- recipe-0818
+_lookup:
+  slug: chicken-parmesan
+  babish_internal_id: MtvBjaftO5oD57ADGezg

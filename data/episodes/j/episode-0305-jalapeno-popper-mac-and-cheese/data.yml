@@ -1,0 +1,23 @@
+babish_id: episode-0305
+name: JALAPENO POPPER MAC AND CHEESE
+slug: jalapeno-popper-mac-and-cheese
+published_date: 2022-01-14
+youtube_link: https://www.youtube.com/watch?v=GH8Vdk0aAew
+official_link: https://www.babi.sh/recipes/jalapeno-popper-mac-and-cheese
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1680985911/a8qqusitdeawq4eclvpi.webp
+time_to_cook: 2400
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0019
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1398
+_lookup:
+  slug: jalapeno-popper-mac-and-cheese
+  babish_internal_id: Fug0vdYRXI2enEfgyxIt

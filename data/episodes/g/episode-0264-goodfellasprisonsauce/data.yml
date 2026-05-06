@@ -1,0 +1,25 @@
+babish_id: episode-0264
+name: Prison Sauce inspired by Goodfellas
+slug: goodfellasprisonsauce
+published_date: 2016-12-01
+youtube_link: https://www.youtube.com/watch?v=uEjMyHccX8U
+official_link: https://www.babi.sh/recipes/goodfellasprisonsauce
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689991796/ud4i1lcbbaxffztsziey.webp
+time_to_cook: null
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0021
+- tag-0022
+- tag-0031
+- tag-0032
+guests: []
+inspired_by:
+- reference-0105
+recipes:
+- recipe-0487
+_lookup:
+  slug: goodfellasprisonsauce
+  babish_internal_id: FzVPDkNfgGDxtEX3lTnP

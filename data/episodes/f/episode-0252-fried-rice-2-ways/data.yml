@@ -1,0 +1,20 @@
+babish_id: episode-0252
+name: FRIED RICE 2 WAYS
+slug: fried-rice-2-ways
+published_date: 2022-05-17
+youtube_link: https://www.youtube.com/watch?v=TYNPLyxpmw4
+official_link: https://www.babi.sh/recipes/fried-rice-2-ways
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695218/babishImages/undefined-286946.png
+time_to_cook: 1800
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+guests: []
+inspired_by: []
+recipes:
+- recipe-1387
+_lookup:
+  slug: fried-rice-2-ways
+  babish_internal_id: 3xBR8BH52uDoyId3saLB

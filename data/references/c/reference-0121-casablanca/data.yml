@@ -1,0 +1,9 @@
+babish_id: reference-0121
+type: movie
+name: Casablanca
+description: A cynical American expatriate struggles to decide whether or not he should help his former lover and her fugitive husband escape French Morocco. IMDb.
+external_link: https://www.imdb.com/title/tt0034583/
+image_link: https://img.youtube.com/vi/0KGOB1WIjRs/mqdefault.jpg
+_lookup:
+  canonical_name: Casablanca
+  db_id: 123

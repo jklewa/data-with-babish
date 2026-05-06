@@ -1,0 +1,13 @@
+babish_id: recipe-0700
+name: Lembas Bread
+image_link: null
+raw_ingredient_list: '840g all-purpose flour
+
+  240ml water
+
+  1 tsp kosher salt'
+raw_procedure: ''
+episode: episode-0354
+_lookup:
+  episode_and_section: episode-0354::Lembas Bread
+  db_id: 714

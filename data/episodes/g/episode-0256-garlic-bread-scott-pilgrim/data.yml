@@ -1,0 +1,27 @@
+babish_id: episode-0256
+name: Garlic Bread inspired by Scott Pilgrim vs the World
+slug: garlic-bread-scott-pilgrim
+published_date: 2020-10-06
+youtube_link: https://www.youtube.com/watch?v=jBnWZijMbMY
+official_link: https://www.babi.sh/recipes/garlic-bread-scott-pilgrim
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695782/babishImages/undefined-832596.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0019
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0193
+recipes:
+- recipe-0746
+- recipe-0747
+- recipe-0748
+_lookup:
+  slug: garlic-bread-scott-pilgrim
+  babish_internal_id: Ucph4F45LFc2yDB3PFyt

@@ -1,0 +1,31 @@
+babish_id: recipe-1174
+name: Andrew’s Lunch
+image_link: null
+raw_ingredient_list: '6 slices white bread
+
+  2 Tbsp mayonnaise
+
+  2 Tbsp mustard
+
+  ½ lb deli turkey
+
+  3 pieces romaine or butter lettuce
+
+  6 slices american cheese
+
+  1 apple
+
+  1 banana
+
+  1 quart whole milk
+
+  1 family size bag potato chips
+
+  1 bag Matt’s chocolate chip cookies
+
+  1 small coke'
+raw_procedure: ''
+episode: episode-0357
+_lookup:
+  episode_and_section: episode-0357::Andrew’s Lunch
+  db_id: 1193

@@ -1,0 +1,11 @@
+babish_id: reference-0045
+type: movie
+name: Chef
+description: A head chef quits his restaurant job and buys a food truck in an effort to reclaim his creative promise, while piecing back together his estranged family. IMDb.
+external_link: https://www.imdb.com/title/tt2883512/
+image_link: https://img.youtube.com/vi/c_8GlcxdemA/mqdefault.jpg
+_lookup:
+  canonical_name: Chef
+  db_id: 47
+  aliases:
+  - Chef with Jon Favreau and Roy Choi

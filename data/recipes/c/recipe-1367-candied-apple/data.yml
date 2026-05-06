@@ -1,0 +1,13 @@
+babish_id: recipe-1367
+name: candied apple
+image_link: null
+raw_ingredient_list: 'flour
+
+  unsulfured molasses
+
+  dark brown sugar'
+raw_procedure: ''
+episode: episode-0030
+_lookup:
+  episode_and_section: episode-0030::candied apple
+  db_id: 1386

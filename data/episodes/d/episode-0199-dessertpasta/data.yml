@@ -1,0 +1,28 @@
+babish_id: episode-0199
+name: Breakfast Dessert Pasta from Elf
+slug: dessertpasta
+published_date: 2016-12-20
+youtube_link: https://www.youtube.com/watch?v=PsuoXi2D6tM
+official_link: https://www.babi.sh/recipes/dessertpasta
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992093/jenvmmmekchagd5w1b2r.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0017
+- tag-0018
+- tag-0022
+- tag-0025
+- tag-0028
+- tag-0031
+guests: []
+inspired_by:
+- reference-0103
+recipes:
+- recipe-0480
+- recipe-0481
+_lookup:
+  slug: dessertpasta
+  babish_internal_id: yAc4FUaa32EFFdzsd0T7

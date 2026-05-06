@@ -1,0 +1,23 @@
+babish_id: episode-0612
+name: Turf n' Turf inspired by Parks and Rec
+slug: turf-n-turf
+published_date: 2020-03-11
+youtube_link: https://www.youtube.com/watch?v=peLPVIGFaz0
+official_link: https://www.babi.sh/recipes/turf-n-turf
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696299/babishImages/undefined-934733.png
+time_to_cook: 8400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+guests: []
+inspired_by:
+- reference-0018
+recipes:
+- recipe-0654
+- recipe-0655
+- recipe-0656
+_lookup:
+  slug: turf-n-turf
+  babish_internal_id: vd3zm0oXRRgAsxi6QTJ6

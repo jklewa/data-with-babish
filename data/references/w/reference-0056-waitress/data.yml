@@ -1,0 +1,9 @@
+babish_id: reference-0056
+type: movie
+name: Waitress
+description: Jenna is a pregnant, unhappily married waitress in the deep south. She meets a newcomer to her town and falls into an unlikely relationship as a last attempt at happiness. IMDb.
+external_link: https://www.imdb.com/title/tt0473308/
+image_link: https://img.youtube.com/vi/TTHznuN-DOI/mqdefault.jpg
+_lookup:
+  canonical_name: Waitress
+  db_id: 58

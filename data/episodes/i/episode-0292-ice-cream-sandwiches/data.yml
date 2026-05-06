@@ -1,0 +1,20 @@
+babish_id: episode-0292
+name: ICE CREAM SANDWICHES
+slug: ice-cream-sandwiches
+published_date: 2020-04-24
+youtube_link: https://www.youtube.com/watch?v=m6fnJ6rQPok
+official_link: https://www.babi.sh/recipes/ice-cream-sandwiches
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715534/babishImages/undefined-148725.png
+time_to_cook: 2700
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0018
+guests: []
+inspired_by: []
+recipes:
+- recipe-1432
+_lookup:
+  slug: ice-cream-sandwiches
+  babish_internal_id: c1BlUDvcrdTEy5dobZkb

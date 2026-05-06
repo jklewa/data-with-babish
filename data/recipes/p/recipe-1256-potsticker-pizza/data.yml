@@ -1,0 +1,19 @@
+babish_id: recipe-1256
+name: Potsticker Pizza
+image_link: null
+raw_ingredient_list: 'pizza dough
+
+  pork
+
+  low moisture mozzarella cheese
+
+  cabbage
+
+  garlic
+
+  dark soy sauce'
+raw_procedure: ''
+episode: episode-0449
+_lookup:
+  episode_and_section: episode-0449::Potsticker Pizza
+  db_id: 1275

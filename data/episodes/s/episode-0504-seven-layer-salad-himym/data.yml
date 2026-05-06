@@ -1,0 +1,24 @@
+babish_id: episode-0504
+name: Eriksen Seven Layer Salad inspired by How I Met Your Mother
+slug: seven-layer-salad-himym
+published_date: 2022-02-17
+youtube_link: https://www.youtube.com/watch?v=SFuiyGuhbQU
+official_link: https://www.babi.sh/recipes/seven-layer-salad-himym
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696179/babishImages/undefined-525956.png
+time_to_cook: 2400
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0017
+- tag-0019
+- tag-0031
+guests: []
+inspired_by:
+- reference-0122
+recipes:
+- recipe-1395
+_lookup:
+  slug: seven-layer-salad-himym
+  babish_internal_id: r1QAJbwBGUHFLwZyOeg6

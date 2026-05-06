@@ -1,0 +1,39 @@
+babish_id: recipe-0001
+name: Classic Pancakes
+image_link: null
+raw_ingredient_list: '10 ounces flour
+
+  3 Tbsp sugar
+
+  4 tsp baking powder
+
+  ½ tsp baking soda
+
+  1 tsp salt
+
+  2 large eggs
+
+  ¼ cup vegetable oil, plus more for the pan
+
+  1 ½ cups whole milk
+
+  ½ tsp vanilla extract (optional)
+
+  Butter and syrup for serving'
+raw_procedure: 'In one bowl, combine dry ingredients: flour, sugar, baking powder, baking soda, and salt. Whisk to combine.
+
+  In another bowl, combine eggs, vegetable oil, and whole milk. Optional: you can also add ½ teaspoon of vanilla extract here. Whisk to combine.
+
+  Combine the two bowls and mix together gently with a rubber spatula. The batter should still be lumpy with a few dry streaks of flour. Don’t overmix the pancakes!
+
+  Cover the batter and let it rest at room temperature for 10 minutes.
+
+  Heat 1 teaspoon of vegetable oil in a nonstick skillet.
+
+  Ladle one scoop of batter into the skillet and cook for a few minutes. Once bubbles appear on the surface and around the edge of the pancake, cook and flip for a few minutes more.
+
+  Stack your pancakes up and serve with syrup and butter if desired. Enjoy!'
+episode: episode-0159
+_lookup:
+  episode_and_section: episode-0159::Classic Pancakes
+  db_id: 5

@@ -1,0 +1,27 @@
+babish_id: episode-0300
+name: Strudel inspired by Inglourious Basterds
+slug: ingloriousbasterds
+published_date: 2017-01-23
+youtube_link: https://www.youtube.com/watch?v=7H3z3J50XCs
+official_link: https://www.babi.sh/recipes/ingloriousbasterds
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992057/jjrzsbkskbutgjcld7u2.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0100
+recipes:
+- recipe-0470
+- recipe-0471
+_lookup:
+  slug: ingloriousbasterds
+  babish_internal_id: Z5fBFq1AM7ZCADmCWek6

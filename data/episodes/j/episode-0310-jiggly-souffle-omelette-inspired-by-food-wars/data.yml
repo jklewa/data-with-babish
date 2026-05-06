@@ -1,0 +1,26 @@
+babish_id: episode-0310
+name: Jiggly Souffle Omelette inspired by Food Wars!
+slug: jiggly-souffle-omelette-inspired-by-food-wars!
+published_date: 2024-08-26
+youtube_link: https://www.youtube.com/watch?v=JcLTe8MoAV4
+official_link: https://www.babi.sh/recipes/jiggly-souffle-omelette-inspired-by-food-wars!
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1724877413/iljktvuobyynqseesqqt.webp
+time_to_cook: null
+yield_qty: 1
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+- tag-0015
+- tag-0028
+- tag-0029
+- tag-0031
+- tag-0032
+guests: []
+inspired_by:
+- reference-0063
+recipes:
+- recipe-1267
+_lookup:
+  slug: jiggly-souffle-omelette-inspired-by-food-wars!
+  babish_internal_id: 848IciLlPYlLcKD6ytEi

@@ -1,0 +1,22 @@
+babish_id: episode-0129
+name: Chicago Deep Dish Pizza inspired by The Bear
+slug: chicago-deep-dish-the-bear
+published_date: 2023-07-21
+youtube_link: https://www.youtube.com/watch?v=Ris0udk2C84
+official_link: https://www.babi.sh/recipes/chicago-deep-dish-the-bear
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1690249416/oxrjvgjzaljdvfvtinpj.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0014
+guests: []
+inspired_by:
+- reference-0278
+recipes:
+- recipe-1320
+_lookup:
+  slug: chicago-deep-dish-the-bear
+  babish_internal_id: uYa9TYVSIVas74baREVu

@@ -1,0 +1,19 @@
+babish_id: recipe-0984
+name: Lasagna
+image_link: null
+raw_ingredient_list: '1 package lasagna noodles
+
+  1 Tbsp kosher salt
+
+  As needed olive oil
+
+  Reserved ragu
+
+  32 oz low moisture mozzarella, grated
+
+  12 oz Parmesan cheese, grated'
+raw_procedure: ''
+episode: episode-0243
+_lookup:
+  episode_and_section: episode-0243::Lasagna
+  db_id: 1003

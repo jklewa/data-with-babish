@@ -1,0 +1,23 @@
+babish_id: episode-0442
+name: PORCHETTA
+slug: porchetta
+published_date: 2019-12-19
+youtube_link: https://www.youtube.com/watch?v=YMF27Q9nLNY
+official_link: https://www.babi.sh/recipes/porchetta
+image_link: https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1576791197609-1V0M90TQGLJKXCG7LD5U/INSTA.jpeg
+time_to_cook: 28800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0021
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-0613
+- recipe-0614
+- recipe-0615
+_lookup:
+  slug: porchetta
+  babish_internal_id: nJfn8oRn9fRMYwpRQBDz

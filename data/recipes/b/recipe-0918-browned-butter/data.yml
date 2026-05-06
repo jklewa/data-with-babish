@@ -1,0 +1,9 @@
+babish_id: recipe-0918
+name: Browned Butter
+image_link: null
+raw_ingredient_list: 1 stick unsalted butter
+raw_procedure: ''
+episode: episode-0079
+_lookup:
+  episode_and_section: episode-0079::Browned Butter
+  db_id: 937

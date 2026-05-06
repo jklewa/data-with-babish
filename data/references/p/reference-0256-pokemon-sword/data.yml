@@ -1,0 +1,11 @@
+babish_id: reference-0256
+type: video_game
+name: Pokémon Sword
+description: Game Freak's 2019 Pokémon entry for Nintendo Switch (paired with Pokémon Shield).
+external_link: null
+image_link: null
+_lookup:
+  canonical_name: Pokémon Sword
+  db_id: 580
+  aliases:
+  - Shield

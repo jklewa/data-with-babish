@@ -1,0 +1,9 @@
+babish_id: reference-0113
+type: movie
+name: American Pie
+description: Four teenage boys enter a pact to lose their virginity by prom night. IMDb.
+external_link: https://www.imdb.com/title/tt0163651/
+image_link: https://img.youtube.com/vi/0WRQFUwEpDY/mqdefault.jpg
+_lookup:
+  canonical_name: American Pie
+  db_id: 115

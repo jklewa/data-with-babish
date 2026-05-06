@@ -1,0 +1,19 @@
+babish_id: recipe-1270
+name: marinated tomatoes
+image_link: null
+raw_ingredient_list: 'cherry tomatoes cleaned
+
+  yellow mustard
+
+  sweet paprika
+
+  black peppercorns crushed
+
+  hot dogs boiled
+
+  garlic cloves lightly smashed'
+raw_procedure: ''
+episode: episode-0288
+_lookup:
+  episode_and_section: episode-0288::marinated tomatoes
+  db_id: 1289

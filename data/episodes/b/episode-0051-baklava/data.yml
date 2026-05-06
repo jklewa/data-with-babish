@@ -1,0 +1,22 @@
+babish_id: episode-0051
+name: BAKLAVA
+slug: baklava
+published_date: 2020-10-15
+youtube_link: https://www.youtube.com/watch?v=OkzpwHodaAs
+official_link: https://www.babi.sh/recipes/baklava
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715500/babishImages/undefined-703057.png
+time_to_cook: 2700
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1412
+_lookup:
+  slug: baklava
+  babish_internal_id: ONOVNzL9Nv5ZJyDPKN6F

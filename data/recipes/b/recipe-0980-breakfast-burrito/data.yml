@@ -1,0 +1,27 @@
+babish_id: recipe-0980
+name: Breakfast Burrito
+image_link: null
+raw_ingredient_list: '3 Tbsp butter
+
+  15 eggs
+
+  To taste kosher salt
+
+  To taste freshly ground black pepper
+
+  1 Tbsp neutral oil
+
+  1 onion, diced
+
+  1 bunch Swiss chard, stems removed + leaves chopped
+
+  4 chicken sausages (pre-cooked), chopped
+
+  6 large flour tortilla
+
+  12 oz gruyere or cheddar cheese, grated'
+raw_procedure: ''
+episode: episode-0243
+_lookup:
+  episode_and_section: episode-0243::Breakfast Burrito
+  db_id: 999

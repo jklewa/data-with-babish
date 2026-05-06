@@ -1,0 +1,27 @@
+babish_id: recipe-0856
+name: Waffle
+image_link: null
+raw_ingredient_list: '100 g all-purpose flour
+
+  1 Tbsp sugar
+
+  1 tsp baking powder
+
+  ½ tsp baking soda
+
+  ½ tsp kosher salt
+
+  1 Tbsp corn meal
+
+  200 g buttermilk, room temperature
+
+  1 tsp vanilla extract
+
+  4 Tbsp unsalted butter, melted and cooled (75-85°F)
+
+  1 egg, room temperature'
+raw_procedure: ''
+episode: episode-0254
+_lookup:
+  episode_and_section: episode-0254::Waffle
+  db_id: 872

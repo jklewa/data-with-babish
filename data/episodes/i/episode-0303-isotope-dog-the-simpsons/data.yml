@@ -1,0 +1,24 @@
+babish_id: episode-0303
+name: Isotope Dogs inspired by The Simpsons
+slug: isotope-dog-the-simpsons
+published_date: 2021-09-21
+youtube_link: https://www.youtube.com/watch?v=w5K2ZoPVD5E
+official_link: https://www.babi.sh/recipes/isotope-dog-the-simpsons
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695959/babishImages/undefined-581985.png
+time_to_cook: 4800
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+guests: []
+inspired_by:
+- reference-0014
+recipes:
+- recipe-1092
+- recipe-1093
+- recipe-1094
+- recipe-1095
+_lookup:
+  slug: isotope-dog-the-simpsons
+  babish_internal_id: gIUIbAgrsTme9enf0Etu

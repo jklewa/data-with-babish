@@ -1,0 +1,25 @@
+babish_id: episode-0591
+name: The Ultimate Marry-Me Meals
+slug: the-ultimate-marry-me-meals
+published_date: 2026-01-06
+youtube_link: https://www.youtube.com/watch?v=TggSdedcLJo
+official_link: https://www.babi.sh/recipes/the-ultimate-marry-me-meals
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1767735831/qh0bt5mllxrxbi4kvgsb.webp
+time_to_cook: 3000
+yield_qty: 3
+yield_unit: servings
+tags:
+- tag-0006
+- tag-0015
+- tag-0021
+- tag-0022
+- tag-0027
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1181
+_lookup:
+  slug: the-ultimate-marry-me-meals
+  babish_internal_id: X7PQBaTlmOiJgodl0Q6D

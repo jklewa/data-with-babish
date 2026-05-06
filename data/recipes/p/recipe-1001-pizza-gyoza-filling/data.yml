@@ -1,0 +1,15 @@
+babish_id: recipe-1001
+name: Pizza Gyoza Filling
+image_link: null
+raw_ingredient_list: '150 g pepperoni, cubed
+
+  275 g low moisture mozzarella cheese, cubed
+
+  3-4 leaves basil, torn
+
+  ¼ tsp dried oregano'
+raw_procedure: ''
+episode: episode-0436
+_lookup:
+  episode_and_section: episode-0436::Pizza Gyoza Filling
+  db_id: 1020

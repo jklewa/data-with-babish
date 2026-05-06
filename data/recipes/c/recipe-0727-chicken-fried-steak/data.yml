@@ -1,0 +1,23 @@
+babish_id: recipe-0727
+name: Chicken Fried Steak
+image_link: null
+raw_ingredient_list: 'Top sirloin steaks
+
+  1 cup all-purpose flour
+
+  1 tsp kosher salt
+
+  1 tsp cayenne pepper
+
+  1 large egg
+
+  1 tsp baking powder
+
+  ½ tsp baking soda
+
+  1 cup buttermilk'
+raw_procedure: ''
+episode: episode-0240
+_lookup:
+  episode_and_section: episode-0240::Chicken Fried Steak
+  db_id: 741

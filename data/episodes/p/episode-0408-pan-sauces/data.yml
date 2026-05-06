@@ -1,0 +1,23 @@
+babish_id: episode-0408
+name: PAN SAUCES
+slug: pan-sauces
+published_date: 2020-05-01
+youtube_link: https://www.youtube.com/watch?v=ru4U_T83uOU
+official_link: https://www.babi.sh/recipes/pan-sauces
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715742/babishImages/undefined-525730.png
+time_to_cook: 1200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0029
+- tag-0030
+- tag-0031
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1430
+_lookup:
+  slug: pan-sauces
+  babish_internal_id: vwcBcVSxvW6ztSXXKbmf

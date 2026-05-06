@@ -1,0 +1,29 @@
+babish_id: episode-0360
+name: Room Service inspired by Mad Men
+slug: madmen
+published_date: 2017-09-26
+youtube_link: https://www.youtube.com/watch?v=BagY2Mnz-TU&amp;t=278s
+official_link: https://www.babi.sh/recipes/madmen
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715463/babishImages/undefined-566441.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0021
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0066
+recipes:
+- recipe-0382
+- recipe-0383
+- recipe-0384
+- recipe-0385
+- recipe-0386
+- recipe-0387
+_lookup:
+  slug: madmen
+  babish_internal_id: 8y0JFnok8yVrnLVUuYID

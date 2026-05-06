@@ -1,0 +1,19 @@
+babish_id: recipe-1295
+name: 'duck cake:'
+image_link: null
+raw_ingredient_list: 'butter
+
+  sugar
+
+  flour
+
+  milk
+
+  buttermilk
+
+  eggs'
+raw_procedure: ''
+episode: episode-0085
+_lookup:
+  episode_and_section: 'episode-0085::duck cake:'
+  db_id: 1314

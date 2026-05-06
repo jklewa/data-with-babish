@@ -1,0 +1,27 @@
+babish_id: recipe-0457
+name: Fried Pickles
+image_link: null
+raw_ingredient_list: '1 egg
+
+  Flour
+
+  Cajun seasoning
+
+  Peanut Oil
+
+  1 Pickle'
+raw_procedure: 'Cut your pickle up into even slices.
+
+  Bread pickles in a beaten egg and flour mixed with cajun seasoning.
+
+  Starting with the flour, dip your pickle in the flour, then in the egg, then back in the flour.
+
+  Make sure your oil is heated to 350°F.
+
+  Gently drop your pickles into the oil, agitating them so they don’t stick together.
+
+  Take pickles out and lay them on a plate lined with paper towels.'
+episode: episode-0087
+_lookup:
+  episode_and_section: episode-0087::Fried Pickles
+  db_id: 466

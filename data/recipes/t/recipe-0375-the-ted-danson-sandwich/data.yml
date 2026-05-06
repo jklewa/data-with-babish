@@ -1,0 +1,19 @@
+babish_id: recipe-0375
+name: The Ted Danson Sandwich
+image_link: null
+raw_ingredient_list: '2 slices of bread
+
+  Mayo
+
+  Turkey
+
+  Swiss cheese'
+raw_procedure: 'Spread mayo on one side of each slice of bread. In a pan over medium heat, place the bread mayo-side down and toast until golden brown. Remove from pan and set aside.
+
+  Over low heat, place several slices of turkey to warm and place slices of Swiss on top to melt.
+
+  Place turkey and Swiss on a slice of the toasted bread. Top with a generous helping of coleslaw. Smear the opposing bread slice with Russian dressing and stack it up.'
+episode: episode-0188
+_lookup:
+  episode_and_section: episode-0188::The Ted Danson Sandwich
+  db_id: 384

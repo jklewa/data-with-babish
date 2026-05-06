@@ -1,0 +1,9 @@
+babish_id: reference-0221
+type: tv_show
+name: Doctor Who
+description: Long-running BBC science-fiction series about a time-traveling alien known as the Doctor.
+external_link: null
+image_link: null
+_lookup:
+  canonical_name: Doctor Who
+  db_id: 545

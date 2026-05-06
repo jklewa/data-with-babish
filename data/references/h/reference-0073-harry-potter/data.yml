@@ -1,0 +1,9 @@
+babish_id: reference-0073
+type: movie
+name: Harry Potter
+description: An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world. IMDb.
+external_link: https://www.imdb.com/find?q=Harry%20Potter&s=tt&ttype=ft
+image_link: https://img.youtube.com/vi/RzCjI3Jy7E8/mqdefault.jpg
+_lookup:
+  canonical_name: Harry Potter
+  db_id: 75

@@ -1,0 +1,13 @@
+babish_id: recipe-1445
+name: American Omelette
+image_link: null
+raw_ingredient_list: '3 Eggs
+
+  Mushrooms
+
+  Spinach'
+raw_procedure: '?'
+episode: episode-0214
+_lookup:
+  episode_and_section: episode-0214::American Omelette
+  db_id: 1464

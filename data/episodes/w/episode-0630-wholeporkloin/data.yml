@@ -1,0 +1,24 @@
+babish_id: episode-0630
+name: WHOLE PORK LOIN
+slug: wholeporkloin
+published_date: 2018-10-11
+youtube_link: https://www.youtube.com/watch?v=AgFaljoriYA
+official_link: https://www.babi.sh/recipes/wholeporkloin
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686069746/jcngjwylwb9gpujopn0z.webp
+time_to_cook: 5400
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-0181
+- recipe-0182
+_lookup:
+  slug: wholeporkloin
+  babish_internal_id: iDx47opqmlXltfl9m5Tu

@@ -1,0 +1,17 @@
+babish_id: recipe-0409
+name: Southwestern Sauce
+image_link: null
+raw_ingredient_list: '1 Tbsp sour cream
+
+  1 Tbsp mayo
+
+  1 tsp paprika
+
+  1 tsp cayenne pepper
+
+  1 tsp chili powder'
+raw_procedure: To make the Southwestern sauce, whisk together sour cream, mayo, paprika, cayenne, and chili powder.
+episode: episode-0566
+_lookup:
+  episode_and_section: episode-0566::Southwestern Sauce
+  db_id: 418

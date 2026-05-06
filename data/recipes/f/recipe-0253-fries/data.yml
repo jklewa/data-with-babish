@@ -1,0 +1,19 @@
+babish_id: recipe-0253
+name: Fries
+image_link: null
+raw_ingredient_list: 'Russet potatoes
+
+  Peanut oil (or preferred frying oil)
+
+  Salt'
+raw_procedure: 'Start by peeling your potatoes. Slice into planks and then slice the planks into french fry-like shapes as thick or as thin as you’d like.
+
+  Once your fries are cut, immediately put them into peanut oil (or vegetable oil) at 375°F and par-fry them for about 8 minutes. Lay them on a paper towel lined baking sheet and place in freezer for 30 minutes.
+
+  Remove from freezer and place back in fryer for 4-6 minutes. Cook until golden brown. Drain for 30 seconds.
+
+  Place in a bowl with kosher salt and mix until coated.'
+episode: episode-0106
+_lookup:
+  episode_and_section: episode-0106::Fries
+  db_id: 258

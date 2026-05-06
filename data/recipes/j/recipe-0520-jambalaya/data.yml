@@ -1,0 +1,17 @@
+babish_id: recipe-0520
+name: Jambalaya
+image_link: null
+raw_ingredient_list: 'Dirty rice (see ingredients above)
+
+  1 pound andouille sausage, sliced into coins
+
+  4 boneless chicken thighs
+
+  Scallions, for garnish'
+raw_procedure: 'Reheat the leftover dirty rice and add 1 lb of andouille sausage (sliced into coins) as well as 4 boneless chicken thighs (whole or cut up).
+
+  Garnish with scallions and enjoy!'
+episode: episode-0110
+_lookup:
+  episode_and_section: episode-0110::Jambalaya
+  db_id: 533

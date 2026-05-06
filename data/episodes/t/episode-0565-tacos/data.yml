@@ -1,0 +1,29 @@
+babish_id: episode-0565
+name: TACOS
+slug: tacos
+published_date: 2018-08-23
+youtube_link: https://www.youtube.com/watch?v=Zghe7SNmhOs
+official_link: https://www.babi.sh/recipes/tacos
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686071790/nbmjxmjwzivsbi04hyjr.webp
+time_to_cook: 2700
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0214
+- recipe-0215
+- recipe-0216
+- recipe-0217
+- recipe-0218
+- recipe-0219
+- recipe-0220
+_lookup:
+  slug: tacos
+  babish_internal_id: PgvDO6GInr9jH6vjCeCy

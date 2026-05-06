@@ -1,0 +1,27 @@
+babish_id: episode-0273
+name: GRILLED FEAST
+slug: grilled-feast
+published_date: 2021-07-07
+youtube_link: https://www.youtube.com/watch?v=m6X5I_FI04A
+official_link: https://www.babi.sh/recipes/grilled-feast
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695579/babishImages/undefined-86844.png
+time_to_cook: 8400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1042
+- recipe-1043
+- recipe-1044
+- recipe-1045
+- recipe-1046
+_lookup:
+  slug: grilled-feast
+  babish_internal_id: KS3OFTbVY53pyvwtJj9x

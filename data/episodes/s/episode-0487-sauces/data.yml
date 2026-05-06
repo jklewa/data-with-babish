@@ -1,0 +1,24 @@
+babish_id: episode-0487
+name: Sauces
+slug: sauces
+published_date: 2024-10-09
+youtube_link: https://www.youtube.com/watch?v=Upqp21Dm5vg
+official_link: https://www.babi.sh/recipes/sauces
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1728502460/dldepp5bjphehqdwsdyk.webp
+time_to_cook: null
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0366
+- recipe-0367
+- recipe-0368
+_lookup:
+  slug: sauces
+  babish_internal_id: aJspevEISWF99O5B3ZDt

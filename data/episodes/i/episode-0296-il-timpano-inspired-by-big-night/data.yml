@@ -1,0 +1,27 @@
+babish_id: episode-0296
+name: Il Timpano inspired by Big Night
+slug: il-timpano-inspired-by-big-night
+published_date: 2016-02-21
+youtube_link: https://www.youtube.com/watch?v=PIsIE0oHGgo
+official_link: https://www.babi.sh/recipes/il-timpano-inspired-by-big-night
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689991791/nb4yzbw4lcbaiv1tu7n3.webp
+time_to_cook: null
+yield_qty: 10
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0021
+- tag-0022
+- tag-0030
+- tag-0033
+guests: []
+inspired_by:
+- reference-0109
+recipes:
+- recipe-0504
+- recipe-0505
+- recipe-0506
+_lookup:
+  slug: il-timpano-inspired-by-big-night
+  babish_internal_id: Dd4AnJFdY7WSAlgvnMHy

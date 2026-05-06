@@ -1,0 +1,23 @@
+babish_id: recipe-0489
+name: Turkey Gravy
+image_link: null
+raw_ingredient_list: '3 Tbsp butter
+
+  3 Tbsp flour
+
+  2 cups turkey stock
+
+  Salt & freshly ground pepper
+
+  1 Tbsp soy sauce'
+raw_procedure: 'In a medium saucepan, heat the butter over medium heat until foaming.
+
+  Add the flour and whisk together, cooking for about a minute, until the raw flour smell dissipates.
+
+  Slowly stream in the turkey stock, whisking constantly, until completely combined.
+
+  Cook at a bare simmer until desired thickness is reached - season with salt and pepper.'
+episode: episode-0383
+_lookup:
+  episode_and_section: episode-0383::Turkey Gravy
+  db_id: 498

@@ -1,0 +1,29 @@
+babish_id: recipe-0376
+name: Coleslaw
+image_link: null
+raw_ingredient_list: '½ cup mayo
+
+  2-3 Tbsp cream
+
+  3-4 Tbsp white wine vinegar
+
+  1-2 Tbsp lemon juice
+
+  1-2 tsp white sugar
+
+  2-3 Tbsp greek yogurt
+
+  1 crushed garlic clove
+
+  A generous sprinkle of paprika, mustard powder, and celery seed
+
+  Salt and pepper to taste
+
+  Bag of coleslaw mix (shredded cabbage)'
+raw_procedure: 'In a medium sized mixing bowl, combine mayo, cream, white wine vinegar, lemon juice, sugar, yogurt, and garlic. Season with paprika, mustard powder, and celery seed.
+
+  Add coleslaw mix and combine.'
+episode: episode-0188
+_lookup:
+  episode_and_section: episode-0188::Coleslaw
+  db_id: 385

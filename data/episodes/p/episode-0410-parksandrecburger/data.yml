@@ -1,0 +1,27 @@
+babish_id: episode-0410
+name: Parks & Rec Burger Cookoff
+slug: parksandrecburger
+published_date: 2016-02-10
+youtube_link: https://www.youtube.com/watch?v=MP_nWuLYpJw
+official_link: https://www.babi.sh/recipes/parksandrecburger
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689991793/enpyd7oh6phekr5y7zps.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0020
+- tag-0029
+- tag-0030
+- tag-0031
+- tag-0032
+guests: []
+inspired_by:
+- reference-0018
+recipes:
+- recipe-0507
+- recipe-0508
+_lookup:
+  slug: parksandrecburger
+  babish_internal_id: FTVQnqRflNGJjiujKwcR

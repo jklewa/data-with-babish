@@ -1,0 +1,24 @@
+babish_id: episode-0205
+name: Dobladitas con Salsa Verde
+slug: dobladitas-con-salsa-verde
+published_date: 2025-04-29
+youtube_link: https://www.youtube.com/shorts/6Fuua78gZa0
+official_link: https://www.babi.sh/recipes/dobladitas-con-salsa-verde
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1745962116/aqs5oebohnvlzxs5lxtn.webp
+time_to_cook: null
+yield_qty: 3
+yield_unit: servings
+tags:
+- tag-0007
+- tag-0015
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1221
+_lookup:
+  slug: dobladitas-con-salsa-verde
+  babish_internal_id: hyHCNcwpt2zJ9Oa7C5ZR

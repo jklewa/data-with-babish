@@ -1,0 +1,25 @@
+babish_id: episode-0587
+name: The Perfect Bite (and Duck Carbonara) inspired by YOU
+slug: the-perfect-bite
+published_date: 2020-02-12
+youtube_link: https://www.youtube.com/watch?v=7vTxUYBD0Nk
+official_link: https://www.babi.sh/recipes/the-perfect-bite
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696015/babishImages/undefined-499943.png
+time_to_cook: 4800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+guests: []
+inspired_by:
+- reference-0172
+recipes:
+- recipe-0636
+- recipe-0637
+- recipe-0638
+- recipe-0639
+- recipe-0640
+_lookup:
+  slug: the-perfect-bite
+  babish_internal_id: ij9bRXkXw0MszTWq1Bp7

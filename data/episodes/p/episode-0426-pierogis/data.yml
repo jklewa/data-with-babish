@@ -1,0 +1,19 @@
+babish_id: episode-0426
+name: PIEROGIS
+slug: pierogis
+published_date: 2023-02-24
+youtube_link: https://www.youtube.com/watch?v=58hC3MCVwkw
+official_link: https://www.babi.sh/recipes/pierogis
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1690353185/d6hdqdddrsens6ovoe07.webp
+time_to_cook: null
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0019
+guests: []
+inspired_by: []
+recipes: []
+_lookup:
+  slug: pierogis
+  babish_internal_id: xaB9P5JjxOEMtv39AkH8

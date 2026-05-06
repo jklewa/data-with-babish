@@ -1,0 +1,24 @@
+babish_id: episode-0179
+name: Crab Bisque inspired by Seinfeld
+slug: crab-bisque-seinfeld
+published_date: 2022-05-27
+youtube_link: https://www.youtube.com/watch?v=5kKMB890ABc
+official_link: https://www.babi.sh/recipes/crab-bisque-seinfeld
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695634/babishImages/undefined-585834.png
+time_to_cook: 2400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0023
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0029
+recipes:
+- recipe-1386
+_lookup:
+  slug: crab-bisque-seinfeld
+  babish_internal_id: O151hKtoQqtetE1M7swY

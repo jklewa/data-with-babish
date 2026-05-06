@@ -1,0 +1,24 @@
+babish_id: episode-0538
+name: Spongebob and Patrick Ice Cream
+slug: spongebob-and-patrick-ice-cream
+published_date: 2024-08-08
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/spongebob-and-patrick-ice-cream
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1723486657/zlm09ydcb1rlzi0a6yay.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0020
+recipes:
+- recipe-1271
+_lookup:
+  slug: spongebob-and-patrick-ice-cream
+  babish_internal_id: Otu9amKCUOkZXrJNym4Z

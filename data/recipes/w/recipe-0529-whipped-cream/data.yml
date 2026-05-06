@@ -1,0 +1,11 @@
+babish_id: recipe-0529
+name: Whipped Cream
+image_link: null
+raw_ingredient_list: '1 cup cream
+
+  1-2 Tbsp sugar'
+raw_procedure: Make whipped cream by mixing about a cup of cream with a tablespoon or two of sugar. Mix until you see stiff peaks or big chunks.
+episode: episode-0167
+_lookup:
+  episode_and_section: episode-0167::Whipped Cream
+  db_id: 542

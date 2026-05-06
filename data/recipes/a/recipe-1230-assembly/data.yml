@@ -1,0 +1,19 @@
+babish_id: recipe-1230
+name: assembly
+image_link: null
+raw_ingredient_list: '3 flour
+
+  flour
+
+  frozen danish creamery butter
+
+  brown sugar
+
+  pink lady apples cut into 1 or 4 inch thick slices
+
+  egg'
+raw_procedure: ''
+episode: episode-0025
+_lookup:
+  episode_and_section: episode-0025::assembly
+  db_id: 1249

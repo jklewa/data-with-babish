@@ -1,0 +1,20 @@
+babish_id: episode-0399
+name: Sanji’s Tuna Saute Inspired by One Piece
+slug: one-piece-tuna-saute
+published_date: 2024-02-01
+youtube_link: https://youtu.be/_rk1Foi8E8g
+official_link: https://www.babi.sh/recipes/one-piece-tuna-saute
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1706827474/slrsvlsvfwr0lwbdtpa0.webp
+time_to_cook: 9000
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0004
+guests: []
+inspired_by: []
+recipes:
+- recipe-1296
+_lookup:
+  slug: one-piece-tuna-saute
+  babish_internal_id: lQGAbcUAvOSW5xfZEFHo

@@ -1,0 +1,22 @@
+babish_id: episode-0611
+name: Truffle Pasta inspired by Broad City
+slug: truffle-pasta-broad-city
+published_date: 2021-05-26
+youtube_link: https://www.youtube.com/watch?v=7vsW0Ut4gCo
+official_link: https://www.babi.sh/recipes/truffle-pasta-broad-city
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695831/babishImages/undefined-894743.png
+time_to_cook: 7200
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0022
+guests: []
+inspired_by:
+- reference-0222
+recipes:
+- recipe-0988
+_lookup:
+  slug: truffle-pasta-broad-city
+  babish_internal_id: Y0igNRBWBu7LVJ2kPhfW

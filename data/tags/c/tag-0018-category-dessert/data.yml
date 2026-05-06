@@ -1,0 +1,7 @@
+babish_id: tag-0018
+axis: Category
+name: Dessert
+_lookup:
+  babish_external_id: 632d3f76-6a09-4cb9-857b-6cae648f83c0
+  axis_and_name: Category::Dessert
+  db_id: 18

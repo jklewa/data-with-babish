@@ -1,0 +1,13 @@
+babish_id: recipe-0224
+name: Fruit
+image_link: null
+raw_ingredient_list: '1 watermelon
+
+  1 cantaloupe
+
+  1 honeydew melon'
+raw_procedure: Cut up 1 watermelon, 1 cantaloupe, and 1 honeydew melon into 1-inch cubes. Place in a bowl and mix to combine. The sum total should be 5 pounds.
+episode: episode-0216
+_lookup:
+  episode_and_section: episode-0216::Fruit
+  db_id: 229

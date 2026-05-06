@@ -1,0 +1,23 @@
+babish_id: recipe-0309
+name: Carpaccio
+image_link: null
+raw_ingredient_list: 'Sushi Grade Yellow Tail
+
+  Scallions
+
+  Radishes
+
+  Jalapenos
+
+  1 lemon
+
+  1 Blood Orange'
+raw_procedure: 'Thinly slice scallions, radishes, jalapenos, a lemon and a blood orange.
+
+  Thinly cut sushi grade Yellow Tail (make sure it is actually sushi graded since you will be eating this raw) while decoratively layering the scallions, radishes, jalapenos, blood orange on top.
+
+  Generously drizzle everything with the Blood Orange Vinaigrette.'
+episode: episode-0241
+_lookup:
+  episode_and_section: episode-0241::Carpaccio
+  db_id: 318

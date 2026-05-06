@@ -1,0 +1,26 @@
+babish_id: episode-0219
+name: Eggs Woodhouse For Good from Archer
+slug: eggswoodhouse
+published_date: 2016-12-13
+youtube_link: https://www.youtube.com/watch?v=eVgmI-YF16g
+official_link: https://www.babi.sh/recipes/eggswoodhouse
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992048/t5qwumucsgcfpxvoaenz.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0017
+- tag-0028
+- tag-0032
+guests: []
+inspired_by:
+- reference-0022
+recipes:
+- recipe-0482
+- recipe-0483
+- recipe-0484
+_lookup:
+  slug: eggswoodhouse
+  babish_internal_id: St7BCKTtIlRGHE5Uy68b

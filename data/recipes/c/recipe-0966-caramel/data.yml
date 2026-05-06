@@ -1,0 +1,13 @@
+babish_id: recipe-0966
+name: Caramel
+image_link: null
+raw_ingredient_list: '200g (1 cup) sugar
+
+  50g (1/4 cup) water
+
+  1 tsp vanilla extract (or 1/2 vanilla bean, split lengthwise, seeds scraped)'
+raw_procedure: ''
+episode: episode-0181
+_lookup:
+  episode_and_section: episode-0181::Caramel
+  db_id: 985

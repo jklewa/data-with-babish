@@ -1,0 +1,15 @@
+babish_id: recipe-0805
+name: For the crust
+image_link: null
+raw_ingredient_list: '10 oz flour
+
+  4 oz sugar
+
+  1 tsp salt
+
+  15 tbsp butter, melted'
+raw_procedure: ''
+episode: episode-0338
+_lookup:
+  episode_and_section: episode-0338::For the crust
+  db_id: 819

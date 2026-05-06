@@ -1,0 +1,9 @@
+babish_id: reference-0032
+type: tv_show
+name: Frasier
+description: Dr. Frasier Crane moves back to his hometown of Seattle, where he lives with his father, and works as a radio psychiatrist. IMDb.
+external_link: https://www.imdb.com/title/tt0106004/
+image_link: https://i.ytimg.com/sh/koCmZ_N11DfbyKki37fJSA/market.jpg
+_lookup:
+  canonical_name: Frasier
+  db_id: 33

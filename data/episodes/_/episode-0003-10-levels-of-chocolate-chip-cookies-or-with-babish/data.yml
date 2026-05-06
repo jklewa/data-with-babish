@@ -1,0 +1,22 @@
+babish_id: episode-0003
+name: 10 Levels of Chocolate Chip Cookies | With Babish
+slug: 10-levels-of-chocolate-chip-cookies-or-with-babish
+published_date: 2025-10-25
+youtube_link: https://www.youtube.com/watch?v=dzw6JO-yz34&pp=ygUTYmluZ2luZyB3aXRoIGJhYmlzaA%3D%3D
+official_link: https://www.babi.sh/recipes/10-levels-of-chocolate-chip-cookies-or-with-babish
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1761497423/go8m6uokvxy6qiayhnst.webp
+time_to_cook: 172800
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0006
+- tag-0016
+- tag-0018
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1186
+_lookup:
+  slug: 10-levels-of-chocolate-chip-cookies-or-with-babish
+  babish_internal_id: zREUjgCDo9dlyOJHSZWB

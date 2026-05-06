@@ -1,0 +1,23 @@
+babish_id: episode-0547
+name: STICKY BUNS
+slug: sticky-buns
+published_date: 2020-12-04
+youtube_link: https://www.youtube.com/watch?v=PAnreKf_9BE
+official_link: https://www.babi.sh/recipes/sticky-buns
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715517/babishImages/undefined-795041.png
+time_to_cook: 3600
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0016
+- tag-0018
+guests: []
+inspired_by: []
+recipes:
+- recipe-0813
+- recipe-0814
+- recipe-0815
+_lookup:
+  slug: sticky-buns
+  babish_internal_id: VSosfLO7wrGj4CjqX2VB

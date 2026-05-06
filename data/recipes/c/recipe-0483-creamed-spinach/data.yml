@@ -1,0 +1,23 @@
+babish_id: recipe-0483
+name: Creamed Spinach
+image_link: null
+raw_ingredient_list: 'A drizzle of olive oil
+
+  1 cup spinach
+
+  3 Tbsp butter
+
+  3 Tbsp flour
+
+  ½ cup milk
+
+  Salt and pepper'
+raw_procedure: 'In a pan, heat olive oil over medium-high heat. Cook spinach until bright green and wilted.
+
+  In a saucepan, melt butter over medium-high heat. Add flour and whisk until combined. Slowly whisk in the milk. Continue whisking until the bechamel sauce thickens.
+
+  Season the spinach with salt and pepper. Then, add the bechamel sauce and give it a good mix.'
+episode: episode-0219
+_lookup:
+  episode_and_section: episode-0219::Creamed Spinach
+  db_id: 492

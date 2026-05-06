@@ -1,0 +1,21 @@
+babish_id: recipe-0314
+name: Calzone
+image_link: null
+raw_ingredient_list: 'Pizza Dough
+
+  Pizza Sauce
+
+  Cheese
+
+  Toppings of your choice'
+raw_procedure: 'Spread sauce on half of your pizza and top with cheese and toppings of your choice.
+
+  Fold the dough over on itself and crimp closed with a fork.
+
+  Brush down with a little olive oil and place in a 500°F oven for 10-15 minutes.
+
+  Let cool, serve and enjoy.'
+episode: episode-0494
+_lookup:
+  episode_and_section: episode-0494::Calzone
+  db_id: 323

@@ -1,0 +1,15 @@
+babish_id: recipe-0791
+name: Pie Crust
+image_link: null
+raw_ingredient_list: '150 g of all-purpose flour
+
+  1 tsp kosher salt
+
+  1 stick (113 g) refrigerator cold butter
+
+  50 g ice cold water'
+raw_procedure: ''
+episode: episode-0137
+_lookup:
+  episode_and_section: episode-0137::Pie Crust
+  db_id: 805

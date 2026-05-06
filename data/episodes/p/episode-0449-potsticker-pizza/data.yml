@@ -1,0 +1,25 @@
+babish_id: episode-0449
+name: Potsticker Pizza
+slug: potsticker-pizza
+published_date: 2024-09-06
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/potsticker-pizza
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1725641193/sqasqquozwpu5o6c8ekr.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0014
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1256
+_lookup:
+  slug: potsticker-pizza
+  babish_internal_id: tE9oogBP9Zg5ViEdBVxI

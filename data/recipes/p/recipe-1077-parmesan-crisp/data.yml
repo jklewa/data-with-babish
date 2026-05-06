@@ -1,0 +1,9 @@
+babish_id: recipe-1077
+name: Parmesan Crisp
+image_link: null
+raw_ingredient_list: 3 oz parmesan, grated
+raw_procedure: ''
+episode: episode-0365
+_lookup:
+  episode_and_section: episode-0365::Parmesan Crisp
+  db_id: 1096

@@ -1,0 +1,22 @@
+babish_id: episode-0174
+name: Coq au Vin
+slug: coq-au-vin
+published_date: 2025-10-11
+youtube_link: https://www.youtube.com/watch?v=cf1H6ylUFH4
+official_link: https://www.babi.sh/recipes/coq-au-vin
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1760217634/qggynlnkmhze8roieemn.webp
+time_to_cook: 7200
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0006
+- tag-0021
+- tag-0022
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes: []
+_lookup:
+  slug: coq-au-vin
+  babish_internal_id: HsGfP7x5CgUvgbSKAbBJ

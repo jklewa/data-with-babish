@@ -1,0 +1,15 @@
+babish_id: recipe-0818
+name: Final Assembly
+image_link: null
+raw_ingredient_list: 'Pasta
+
+  Fresh basil, chopped
+
+  Parmesan cheese, grated
+
+  2 Tbsp unsalted butter'
+raw_procedure: ''
+episode: episode-0135
+_lookup:
+  episode_and_section: episode-0135::Final Assembly
+  db_id: 832

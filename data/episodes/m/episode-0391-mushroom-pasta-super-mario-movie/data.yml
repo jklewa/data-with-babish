@@ -1,0 +1,22 @@
+babish_id: episode-0391
+name: Mushroom Pasta inspired by The Super Mario Bros Movie
+slug: mushroom-pasta-super-mario-movie
+published_date: 2023-09-29
+youtube_link: https://www.youtube.com/watch?v=sf4AoqBnSKI
+official_link: https://www.babi.sh/recipes/mushroom-pasta-super-mario-movie
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1700107487/f6aogveknyuf6on0al77.webp
+time_to_cook: null
+yield_qty: 5
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0022
+guests: []
+inspired_by:
+- reference-0281
+recipes:
+- recipe-1313
+_lookup:
+  slug: mushroom-pasta-super-mario-movie
+  babish_internal_id: PMmdL2ok9ZF42ifjGjlM

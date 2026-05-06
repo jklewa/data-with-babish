@@ -1,0 +1,27 @@
+babish_id: episode-0092
+name: Egg Sandwich (with Homemade Ciabatta) inspired by Birds of Prey
+slug: bop-egg-sandwich
+published_date: 2020-02-25
+youtube_link: https://www.youtube.com/watch?v=6JFVKnrE_d8
+official_link: https://www.babi.sh/recipes/bop-egg-sandwich
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696111/babishImages/undefined-691801.png
+time_to_cook: 1200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0015
+- tag-0020
+- tag-0028
+- tag-0031
+guests: []
+inspired_by:
+- reference-0174
+recipes:
+- recipe-0647
+- recipe-0648
+- recipe-0649
+_lookup:
+  slug: bop-egg-sandwich
+  babish_internal_id: oy8TQU0Nu3wpp3O2EcRg

@@ -1,0 +1,24 @@
+babish_id: episode-0283
+name: HOLIDAY COCKTAILS
+slug: holidaycocktails
+published_date: 2018-12-13
+youtube_link: https://www.youtube.com/watch?v=LftLcYM6Fzw
+official_link: https://www.babi.sh/recipes/holidaycocktails
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686008739/oj4ipprew3lqr7q9fuju.webp
+time_to_cook: 1200
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0139
+- recipe-0140
+- recipe-0141
+- recipe-0142
+- recipe-0143
+_lookup:
+  slug: holidaycocktails
+  babish_internal_id: ar2bkkzPrmVvMm2EHr9H

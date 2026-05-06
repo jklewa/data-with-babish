@@ -1,0 +1,32 @@
+babish_id: episode-0295
+name: Fish Tacos from I Love You, Man
+slug: iloveyoumanfishtacos
+published_date: 2017-01-12
+youtube_link: https://www.youtube.com/watch?v=Izvd-iztaQk
+official_link: https://www.babi.sh/recipes/iloveyoumanfishtacos
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992053/i2v9bvcwkfxgilag83vt.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0015
+- tag-0023
+- tag-0026
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0101
+recipes:
+- recipe-0473
+- recipe-0474
+- recipe-0475
+- recipe-0476
+- recipe-0477
+- recipe-0478
+_lookup:
+  slug: iloveyoumanfishtacos
+  babish_internal_id: Yv7BGXWfjD14TthG6hh1

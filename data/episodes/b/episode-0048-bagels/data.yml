@@ -1,0 +1,21 @@
+babish_id: episode-0048
+name: BAGELS
+slug: bagels
+published_date: 2019-01-24
+youtube_link: https://www.youtube.com/watch?v=ZrJtpCTZk38
+official_link: https://www.babi.sh/recipes/bagels
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686008218/li4kbj7e5pcj5xvhujqo.webp
+time_to_cook: 5400
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0016
+guests:
+- guest-0009
+inspired_by: []
+recipes:
+- recipe-0121
+_lookup:
+  slug: bagels
+  babish_internal_id: Y1WkDPqHRaaCRrYSqz8z

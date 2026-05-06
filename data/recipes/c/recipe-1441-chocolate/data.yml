@@ -1,0 +1,17 @@
+babish_id: recipe-1441
+name: chocolate
+image_link: null
+raw_ingredient_list: 'flour
+
+  butter
+
+  sweetened condensed milk
+
+  light brown sugar
+
+  brown sugar'
+raw_procedure: ''
+episode: episode-0376
+_lookup:
+  episode_and_section: episode-0376::chocolate
+  db_id: 1460

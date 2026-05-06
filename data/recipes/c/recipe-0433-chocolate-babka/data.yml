@@ -1,0 +1,17 @@
+babish_id: recipe-0433
+name: Chocolate Babka
+image_link: null
+raw_ingredient_list: '1/2 cup butter
+
+  9 ounces chocolate
+
+  2 tsp espresso powder
+
+  2/3 cup cocoa powder
+
+  2/3 cup powdered sugar'
+raw_procedure: See Babka recipe.
+episode: episode-0044
+_lookup:
+  episode_and_section: episode-0044::Chocolate Babka
+  db_id: 442

@@ -1,0 +1,25 @@
+babish_id: episode-0097
+name: Brie & Butter Baguette inspired by Twin Peaks
+slug: brie-butter-baguette-twin-peaks
+published_date: 2020-11-03
+youtube_link: https://www.youtube.com/watch?v=vWdjqdmFHxw
+official_link: https://www.babi.sh/recipes/brie-butter-baguette-twin-peaks
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1679419541/mjnsfwsylba6umemgi38.webp
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0015
+- tag-0016
+- tag-0032
+guests: []
+inspired_by:
+- reference-0094
+recipes:
+- recipe-0759
+- recipe-0760
+_lookup:
+  slug: brie-butter-baguette-twin-peaks
+  babish_internal_id: tdji3mh1CGxHEJMnrLbj

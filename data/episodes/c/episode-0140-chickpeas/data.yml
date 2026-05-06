@@ -1,0 +1,21 @@
+babish_id: episode-0140
+name: CHICKPEAS (HUMMUS, CHANA MASALA, MERINGUES, COOKIES)
+slug: chickpeas
+published_date: 2020-03-19
+youtube_link: https://www.youtube.com/watch?v=LfzKfD_WuDM
+official_link: https://www.babi.sh/recipes/chickpeas
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715488/babishImages/undefined-317396.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0016
+- tag-0018
+guests: []
+inspired_by: []
+recipes:
+- recipe-1437
+_lookup:
+  slug: chickpeas
+  babish_internal_id: IJPIMBnb0eNW8OOAdKRB

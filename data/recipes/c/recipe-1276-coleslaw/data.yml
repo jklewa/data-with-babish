@@ -1,0 +1,17 @@
+babish_id: recipe-1276
+name: coleslaw
+image_link: null
+raw_ingredient_list: 'chicken
+
+  homemade mayo
+
+  ketchup
+
+  vegetable oil
+
+  egg'
+raw_procedure: ''
+episode: episode-0579
+_lookup:
+  episode_and_section: episode-0579::coleslaw
+  db_id: 1295

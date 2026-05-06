@@ -1,0 +1,9 @@
+babish_id: recipe-1355
+name: 'Sausages inspired by God of War: Ragnarok'
+image_link: null
+raw_ingredient_list: wild boar meat
+raw_procedure: ''
+episode: episode-0496
+_lookup:
+  episode_and_section: 'episode-0496::Sausages inspired by God of War: Ragnarok'
+  db_id: 1374

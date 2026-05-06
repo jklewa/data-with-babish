@@ -1,0 +1,27 @@
+babish_id: episode-0084
+name: Blue Noodles inspired by Andor
+slug: blue-noodles-andor
+published_date: 2022-11-04
+youtube_link: https://www.youtube.com/watch?v=tpz4S18l5LM
+official_link: https://www.babi.sh/recipes/blue-noodles-andor
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696246/babishImages/undefined-786955.png
+time_to_cook: 4800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0015
+- tag-0027
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0296
+recipes:
+- recipe-1363
+- recipe-1364
+_lookup:
+  slug: blue-noodles-andor
+  babish_internal_id: tSbfkuDSyWaZtANI2qvC

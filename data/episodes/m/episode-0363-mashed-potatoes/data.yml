@@ -1,0 +1,23 @@
+babish_id: episode-0363
+name: MASHED POTATOES
+slug: mashed-potatoes
+published_date: 2020-09-03
+youtube_link: https://www.youtube.com/watch?v=ZLnWdPPJvYg
+official_link: https://www.babi.sh/recipes/mashed-potatoes
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715481/babishImages/undefined-764093.png
+time_to_cook: 1500
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0019
+- tag-0028
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1417
+_lookup:
+  slug: mashed-potatoes
+  babish_internal_id: FsOHD2HSqA6Ibigi4phN

@@ -1,0 +1,21 @@
+babish_id: recipe-1200
+name: stir fry
+image_link: null
+raw_ingredient_list: 'grain white rice
+
+  thinly pork shoulder
+
+  potato starch
+
+  soy sauce
+
+  garlic cloves microplaned
+
+  sake
+
+  sugar'
+raw_procedure: ''
+episode: episode-0005
+_lookup:
+  episode_and_section: episode-0005::stir fry
+  db_id: 1219

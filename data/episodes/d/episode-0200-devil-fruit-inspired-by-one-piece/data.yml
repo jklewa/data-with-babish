@@ -1,0 +1,25 @@
+babish_id: episode-0200
+name: Devil Fruit inspired by One Piece
+slug: devil-fruit-inspired-by-one-piece
+published_date: 2024-08-19
+youtube_link: https://www.youtube.com/watch?v=J16qIo_BrZI
+official_link: https://www.babi.sh/recipes/devil-fruit-inspired-by-one-piece
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1724877134/yezhzbhda6kzcfjslvfr.webp
+time_to_cook: null
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+- tag-0016
+- tag-0018
+- tag-0031
+- tag-0032
+guests: []
+inspired_by:
+- reference-0244
+recipes:
+- recipe-1269
+_lookup:
+  slug: devil-fruit-inspired-by-one-piece
+  babish_internal_id: D68tnk2OMdyfIzeDvhlp

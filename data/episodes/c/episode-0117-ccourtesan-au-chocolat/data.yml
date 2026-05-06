@@ -1,0 +1,25 @@
+babish_id: episode-0117
+name: Courtesan au Chocolat inspired by Grand Budapest Hotel
+slug: ccourtesan-au-chocolat
+published_date: 2017-08-15
+youtube_link: https://www.youtube.com/watch?v=GO5P3fLTwA0
+official_link: https://www.babi.sh/recipes/ccourtesan-au-chocolat
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715490/babishImages/undefined-759763.jpg
+time_to_cook: null
+yield_qty: 12
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0018
+- tag-0029
+- tag-0030
+- tag-0033
+guests: []
+inspired_by:
+- reference-0083
+recipes:
+- recipe-0399
+_lookup:
+  slug: ccourtesan-au-chocolat
+  babish_internal_id: IqQaUDN2vnTNckY6GCBD

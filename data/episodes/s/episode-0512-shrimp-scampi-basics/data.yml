@@ -1,0 +1,21 @@
+babish_id: episode-0512
+name: SHRIMP SCAMPI
+slug: shrimp-scampi-basics
+published_date: 2021-01-28
+youtube_link: https://www.youtube.com/watch?v=3ELo1zykAGU
+official_link: https://www.babi.sh/recipes/shrimp-scampi-basics
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1690484522/zjr8bsbzdipdeb62evtq.webp
+time_to_cook: null
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0012
+- tag-0013
+- tag-0015
+guests: []
+inspired_by: []
+recipes:
+- recipe-1410
+_lookup:
+  slug: shrimp-scampi-basics
+  babish_internal_id: SmSTD8bc14QU7wCPoXhs

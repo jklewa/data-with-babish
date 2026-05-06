@@ -1,0 +1,17 @@
+babish_id: recipe-0525
+name: Poutine
+image_link: null
+raw_ingredient_list: 'Fries
+
+  Cheese Curds
+
+  Gravy'
+raw_procedure: 'Place fries onto plate.
+
+  Top fries with cheese curds (or tear off little chunks of mozzarella and roll into balls if cheese curds are not available).
+
+  Pour gravy over the fries and cheese. Enjoy!'
+episode: episode-0451
+_lookup:
+  episode_and_section: episode-0451::Poutine
+  db_id: 538

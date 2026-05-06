@@ -1,0 +1,24 @@
+babish_id: episode-0618
+name: Ube Roll inspired by Steven Universe
+slug: uberollcake
+published_date: 2019-06-25
+youtube_link: https://www.youtube.com/watch?v=cYRG5rkmr-s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/cYRG5rkmr-s/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/uberollcake
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695825/babishImages/undefined-629864.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0018
+guests: []
+inspired_by:
+- reference-0005
+recipes:
+- recipe-0032
+- recipe-0033
+_lookup:
+  slug: uberollcake
+  babish_internal_id: XflTc4O5syfsvsgxtmh7

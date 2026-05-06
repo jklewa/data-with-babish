@@ -1,0 +1,27 @@
+babish_id: episode-0275
+name: Grits inspired by My Cousin Vinny
+slug: grits-breakfast-my-cousin-vinny
+published_date: 2021-10-08
+youtube_link: https://www.youtube.com/watch?v=GbfUeneG0s8
+official_link: https://www.babi.sh/recipes/grits-breakfast-my-cousin-vinny
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695700/babishImages/undefined-418180.png
+time_to_cook: 1200
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0019
+- tag-0028
+- tag-0031
+guests: []
+inspired_by:
+- reference-0230
+recipes:
+- recipe-1130
+- recipe-1131
+- recipe-1132
+- recipe-1133
+_lookup:
+  slug: grits-breakfast-my-cousin-vinny
+  babish_internal_id: QCv3Hf3CoJ3UyttmTtrk

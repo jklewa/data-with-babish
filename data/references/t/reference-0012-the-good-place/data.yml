@@ -1,0 +1,12 @@
+babish_id: reference-0012
+type: tv_show
+name: The Good Place
+description: Four people and their otherworldly frienemy struggle in the afterlife to define what it means to be good. IMDb.
+external_link: https://www.imdb.com/title/tt4955642/
+image_link: https://i.ytimg.com/sh/cPYWudB6IMGItbGzBsO5mA/market.jpg
+_lookup:
+  canonical_name: The Good Place
+  db_id: 13
+  aliases:
+  - Naco Redemption
+  - The Good Place (plus Naco Redemption)

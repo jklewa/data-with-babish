@@ -1,0 +1,24 @@
+babish_id: episode-0147
+name: Chocolate Cake Milkshake inspired by Portillo's
+slug: chocolate-cake-milkshake-inspired-by-portillo's
+published_date: 2025-06-04
+youtube_link: https://www.youtube.com/watch?v=NqEqOQZSXOE&pp=ygUoY2hvY29sYXRlIGNha2Ugc2hha2UgYmluZ2luZyB3aXRoIGJhYmlzaA%3D%3D
+official_link: https://www.babi.sh/recipes/chocolate-cake-milkshake-inspired-by-portillo's
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1749064072/hstkkvyg9ja8s6vazkgi.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0011
+- tag-0016
+- tag-0017
+- tag-0018
+- tag-0031
+guests: []
+inspired_by:
+- reference-0248
+recipes:
+- recipe-1218
+_lookup:
+  slug: chocolate-cake-milkshake-inspired-by-portillo's
+  babish_internal_id: kJEFNtFAH95Y1j2jq19Y

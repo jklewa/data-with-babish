@@ -1,0 +1,29 @@
+babish_id: episode-0566
+name: Taco Town 15-Flavor Taco inspired by SNL
+slug: taco-town
+published_date: 2017-07-18
+youtube_link: https://www.youtube.com/watch?v=UvIkojfQDxA
+official_link: https://www.babi.sh/recipes/taco-town
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992042/xrj6hxvmyuhqsouk4sfj.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0021
+guests: []
+inspired_by:
+- reference-0087
+- reference-0141
+recipes:
+- recipe-0405
+- recipe-0406
+- recipe-0407
+- recipe-0408
+- recipe-0409
+- recipe-0410
+- recipe-0411
+_lookup:
+  slug: taco-town
+  babish_internal_id: K9MSXMB3fOQYGvimuft6

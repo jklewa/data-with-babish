@@ -1,0 +1,11 @@
+babish_id: recipe-1031
+name: Kitchen Sink Cookies
+image_link: null
+raw_ingredient_list: '1 batch base cookie dough
+
+  12 oz inclusion of your choice (M&Ms, pretzels, kettle corn, caramel morsel, etc)'
+raw_procedure: ''
+episode: episode-0171
+_lookup:
+  episode_and_section: episode-0171::Kitchen Sink Cookies
+  db_id: 1050

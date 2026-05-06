@@ -1,0 +1,15 @@
+babish_id: recipe-0157
+name: Whipped Cream
+image_link: null
+raw_ingredient_list: 'Sugar
+
+  Heavy Whipping Cream
+
+  Vanilla extract (optional)'
+raw_procedure: 'Combine 1 cup of heavy cream with 2 Tbsp of sugar.
+
+  Whisk to combine (or use a hand mixer).'
+episode: episode-0120
+_lookup:
+  episode_and_section: episode-0120::Whipped Cream
+  db_id: 162

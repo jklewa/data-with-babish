@@ -1,0 +1,17 @@
+babish_id: recipe-0474
+name: Pico de Gallo
+image_link: null
+raw_ingredient_list: '4 tomatoes, diced
+
+  ½ an onion, diced
+
+  ¼ cup fresh minced cilantro
+
+  ½ jalapeno, diced (take out seeds if you don’t want it to be too spicy)
+
+  Juice of 1 lime'
+raw_procedure: 'Combine tomatoes, onion, cilantro, jalapeno, and lime. Season with salt and pepper to taste. Note: The jalapeno seeds add heat. Remove jalapeno seeds if a less spicy pico de gallo is desired.'
+episode: episode-0295
+_lookup:
+  episode_and_section: episode-0295::Pico de Gallo
+  db_id: 483

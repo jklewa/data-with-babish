@@ -1,0 +1,9 @@
+babish_id: recipe-1275
+name: beef
+image_link: null
+raw_ingredient_list: top sirloin butt
+raw_procedure: ''
+episode: episode-0130
+_lookup:
+  episode_and_section: episode-0130::beef
+  db_id: 1294

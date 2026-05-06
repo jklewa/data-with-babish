@@ -1,0 +1,23 @@
+babish_id: episode-0379
+name: Miso Honey Butter Pancakes
+slug: miso-honey-butter-pancakes
+published_date: 2025-08-01
+youtube_link: https://www.youtube.com/watch?v=LVaY5DAacM4&pp=ygUdY29vayBhbG5nIGJpbmdpbmcgd2l0aCBiYWJpc2g%3D
+official_link: https://www.babi.sh/recipes/miso-honey-butter-pancakes
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1754084768/rygjgkn3df0tinqzi5to.webp
+time_to_cook: 3600
+yield_qty: 3
+yield_unit: servings
+tags:
+- tag-0008
+- tag-0016
+- tag-0018
+- tag-0028
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1202
+_lookup:
+  slug: miso-honey-butter-pancakes
+  babish_internal_id: 7VjT3WuWzhSHZZkhcHKX

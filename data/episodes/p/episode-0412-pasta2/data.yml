@@ -1,0 +1,21 @@
+babish_id: episode-0412
+name: 'PASTA PART II: FILLED PASTA'
+slug: pasta2
+published_date: 2019-01-10
+youtube_link: https://www.youtube.com/watch?v=svPa8Rd8dsU
+official_link: https://www.babi.sh/recipes/pasta2
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686069258/yfinru7hcksnicbenuny.webp
+time_to_cook: 3600
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0022
+guests: []
+inspired_by: []
+recipes:
+- recipe-0125
+- recipe-0126
+_lookup:
+  slug: pasta2
+  babish_internal_id: 2cpGv3XK4dLWSC58siBk

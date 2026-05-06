@@ -1,0 +1,27 @@
+babish_id: episode-0580
+name: The Coagulator inspired by The Simpsons
+slug: the-coagulator-inspired-by-the-simpsons
+published_date: 2025-06-09
+youtube_link: https://www.youtube.com/watch?v=FT-E7kA6S3o&pp=ygUhYmluZ2luIHdpdGggYmFiaXNoIHRoZSBjb2FndWxhdG9y
+official_link: https://www.babi.sh/recipes/the-coagulator-inspired-by-the-simpsons
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1749501911/txbbk4plctdewqsf8yvf.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0017
+- tag-0020
+- tag-0021
+- tag-0029
+- tag-0031
+- tag-0032
+guests: []
+inspired_by:
+- reference-0014
+recipes:
+- recipe-1207
+_lookup:
+  slug: the-coagulator-inspired-by-the-simpsons
+  babish_internal_id: lNyZx7yvEIsvFGFUc2kz

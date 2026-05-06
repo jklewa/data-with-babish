@@ -1,0 +1,30 @@
+babish_id: episode-0570
+name: Tampopo Ramen
+slug: tampoporamen
+published_date: 2017-04-11
+youtube_link: https://www.youtube.com/watch?v=GXDQOSbcmv4
+official_link: https://www.babi.sh/recipes/tampoporamen
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992061/ccr1etzxylurvtxgqoax.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0024
+- tag-0027
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0314
+recipes:
+- recipe-0445
+- recipe-0446
+- recipe-0447
+- recipe-0448
+- recipe-0449
+_lookup:
+  slug: tampoporamen
+  babish_internal_id: cRQFyWjVuZYlz9a0uUPq

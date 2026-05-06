@@ -1,0 +1,29 @@
+babish_id: episode-0146
+name: Chocolate Cake inspired by Matilda
+slug: chocolate-cake-inspired-by-matilda
+published_date: 2017-06-06
+youtube_link: https://www.youtube.com/watch?v=exQ6oGefSiA
+official_link: https://www.babi.sh/recipes/chocolate-cake-inspired-by-matilda
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689991787/cxpb3rjiwrvezbgpjfej.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0017
+- tag-0018
+- tag-0029
+- tag-0030
+- tag-0032
+guests:
+- guest-0008
+inspired_by:
+- reference-0091
+- reference-0112
+recipes:
+- recipe-0425
+_lookup:
+  slug: chocolate-cake-inspired-by-matilda
+  babish_internal_id: CKbT8cQnYeD2syK2htj3

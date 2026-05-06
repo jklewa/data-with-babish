@@ -1,0 +1,23 @@
+babish_id: episode-0007
+name: 28 Layer Chocolate Cake
+slug: 28-layer-chocolate-cake
+published_date: 2025-06-06
+youtube_link: https://www.youtube.com/watch?v=ouK26QCvC9U&ab_channel=BabishCulinaryUniverse
+official_link: https://www.babi.sh/recipes/28-layer-chocolate-cake
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1749225920/k1yvoateks4tp7wbhjhm.webp
+time_to_cook: 43200
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0011
+- tag-0016
+- tag-0017
+- tag-0018
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1213
+_lookup:
+  slug: 28-layer-chocolate-cake
+  babish_internal_id: otDbbX9ajJNnT2XIDa5n

@@ -1,0 +1,17 @@
+babish_id: recipe-0670
+name: Plate
+image_link: null
+raw_ingredient_list: 'Lettuce
+
+  Bread
+
+  1 tomato, sliced
+
+  2 basil leaves
+
+  1 mozzarella ball, sliced'
+raw_procedure: ''
+episode: episode-0285
+_lookup:
+  episode_and_section: episode-0285::Plate
+  db_id: 684

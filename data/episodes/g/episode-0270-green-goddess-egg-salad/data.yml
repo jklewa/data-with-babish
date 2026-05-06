@@ -1,0 +1,25 @@
+babish_id: episode-0270
+name: Green Goddess Egg Salad
+slug: green-goddess-egg-salad
+published_date: 2024-05-06
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/green-goddess-egg-salad
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1715001281/r743prsgpblqvioefhtm.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0001
+- tag-0025
+- tag-0026
+- tag-0028
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1281
+_lookup:
+  slug: green-goddess-egg-salad
+  babish_internal_id: b2eYg4kAdEPNCupIvGlM

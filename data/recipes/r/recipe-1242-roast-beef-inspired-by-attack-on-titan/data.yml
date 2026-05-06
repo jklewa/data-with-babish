@@ -1,0 +1,19 @@
+babish_id: recipe-1242
+name: Roast Beef inspired by Attack on Titan
+image_link: null
+raw_ingredient_list: 'beef tallow
+
+  ~4 lb boneless dry aged ribeye roast
+
+  salt
+
+  pepper
+
+  mirepoix
+
+  bed of lettuce for garnish'
+raw_procedure: ''
+episode: episode-0481
+_lookup:
+  episode_and_section: episode-0481::Roast Beef inspired by Attack on Titan
+  db_id: 1261

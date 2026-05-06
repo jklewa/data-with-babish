@@ -1,0 +1,19 @@
+babish_id: recipe-1447
+name: Chef Carl Casper's Grilled Cheese
+image_link: null
+raw_ingredient_list: 'Gruyere Cheese
+
+  Cheddar Cheese
+
+  Parmesan Cheese
+
+  Butter
+
+  Sourdough Bread
+
+  Patience'
+raw_procedure: See https://www.youtube.com/watch?v=hwjdXBxeWsc
+episode: episode-0272
+_lookup:
+  episode_and_section: episode-0272::Chef Carl Casper's Grilled Cheese
+  db_id: 1466

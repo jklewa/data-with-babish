@@ -1,0 +1,26 @@
+babish_id: episode-0160
+name: Clay-Roasted Thigh inspired by Hannibal
+slug: clayroastedthigh
+published_date: 2017-10-31
+youtube_link: https://www.youtube.com/watch?v=lnB7svFAZBs&amp;t=2s
+official_link: https://www.babi.sh/recipes/clayroastedthigh
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715438/babishImages/undefined-943571.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0033
+guests: []
+inspired_by:
+- reference-0077
+- reference-0111
+recipes:
+- recipe-0365
+_lookup:
+  slug: clayroastedthigh
+  babish_internal_id: 1NZD5RR8GcQItLXaS5bw

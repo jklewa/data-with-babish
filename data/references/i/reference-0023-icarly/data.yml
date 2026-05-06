@@ -1,0 +1,9 @@
+babish_id: reference-0023
+type: tv_show
+name: iCarly
+description: Carly hosts her own home-grown web show, iCarly, Carly and sidekick Sam's regular Web casts ultimately feature everything from comedy sketches and talent contests to interviews, recipes, and problem-solving. IMDb.
+external_link: https://www.imdb.com/title/tt0972534/
+image_link: https://i.ytimg.com/sh/xM-7BHFpypu1T5rFi1egVg/market.jpg
+_lookup:
+  canonical_name: iCarly
+  db_id: 24

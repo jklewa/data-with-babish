@@ -1,0 +1,21 @@
+babish_id: episode-0500
+name: Seafood Paella inspired by Parks and Rec
+slug: seafood-paella-parks-and-rec
+published_date: 2022-07-01
+youtube_link: https://www.youtube.com/watch?v=ek5OogQFaAg
+official_link: https://www.babi.sh/recipes/seafood-paella-parks-and-rec
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695231/babishImages/undefined-382673.png
+time_to_cook: 4800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+guests: []
+inspired_by:
+- reference-0018
+recipes:
+- recipe-1382
+_lookup:
+  slug: seafood-paella-parks-and-rec
+  babish_internal_id: 4Yq1lHpvGq3C89k7kXuO

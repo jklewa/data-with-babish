@@ -1,0 +1,19 @@
+babish_id: recipe-1229
+name: assembly
+image_link: null
+raw_ingredient_list: 'milk
+
+  oaxaca
+
+  jalapenos
+
+  butter
+
+  flour
+
+  red tomatoes'
+raw_procedure: ''
+episode: episode-0558
+_lookup:
+  episode_and_section: episode-0558::assembly
+  db_id: 1248

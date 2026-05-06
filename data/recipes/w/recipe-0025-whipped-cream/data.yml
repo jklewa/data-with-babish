@@ -1,0 +1,15 @@
+babish_id: recipe-0025
+name: Whipped Cream
+image_link: null
+raw_ingredient_list: '8 ounces heavy whipping cream
+
+  2 Tbsp sugar
+
+  1 tsp vanilla extract'
+raw_procedure: 'In the bowl of a stand mixer with the whisk attachment, combine heavy whipping cream, sugar, and vanilla extract.
+
+  Beat over medium speed until stiff peaks form.'
+episode: episode-0605
+_lookup:
+  episode_and_section: episode-0605::Whipped Cream
+  db_id: 29

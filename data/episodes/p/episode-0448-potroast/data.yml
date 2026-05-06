@@ -1,0 +1,23 @@
+babish_id: episode-0448
+name: POT ROAST
+slug: potroast
+published_date: 2019-02-14
+youtube_link: https://www.youtube.com/watch?v=RVx90rTJIzc
+official_link: https://www.babi.sh/recipes/potroast
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686007486/twwaxdd7h2oonfc3ud9r.webp
+time_to_cook: 9000
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0024
+- tag-0030
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-0109
+- recipe-0110
+_lookup:
+  slug: potroast
+  babish_internal_id: 8AVPOMze82MW1tFzaseb

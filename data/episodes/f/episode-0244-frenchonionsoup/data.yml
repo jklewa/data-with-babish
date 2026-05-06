@@ -1,0 +1,23 @@
+babish_id: episode-0244
+name: FRENCH ONION SOUP
+slug: frenchonionsoup
+published_date: 2020-01-09
+youtube_link: https://www.youtube.com/watch?v=1qRir364aNk
+official_link: https://www.babi.sh/recipes/frenchonionsoup
+image_link: https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1578610611101-B5SDCZAZQDKO8LS4EF59/French+Onion+Soup_v4_1.png
+time_to_cook: 9000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0024
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1443
+_lookup:
+  slug: frenchonionsoup
+  babish_internal_id: b27TMjzVr82rZnTUOIzs

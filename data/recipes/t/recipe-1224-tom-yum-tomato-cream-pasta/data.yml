@@ -1,0 +1,19 @@
+babish_id: recipe-1224
+name: tom yum tomato cream pasta
+image_link: null
+raw_ingredient_list: 'shrimp stock
+
+  garlic cloves
+
+  shrimp shells
+
+  sundried tomatoes
+
+  galangal root
+
+  makrut lime'
+raw_procedure: ''
+episode: episode-0600
+_lookup:
+  episode_and_section: episode-0600::tom yum tomato cream pasta
+  db_id: 1243

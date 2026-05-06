@@ -1,0 +1,11 @@
+babish_id: reference-0004
+type: tv_show
+name: JoJo's Bizarre Adventure
+description: The story of the Joestar family, who are possessed with intense psychic strength, and the adventures each member encounters throughout their lives. IMDb.
+external_link: https://www.imdb.com/title/tt2359704/
+image_link: https://i.ytimg.com/sh/PAI47-HSKtGki5BTEpKz8g/market.jpg
+_lookup:
+  canonical_name: JoJo's Bizarre Adventure
+  db_id: 5
+  aliases:
+  - Jojo's Bizarre Adventure

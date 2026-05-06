@@ -1,0 +1,28 @@
+babish_id: episode-0387
+name: Homer Simpson's Patented Space Age Out-Of-This-World Moon Waffles
+slug: moonwaffles
+published_date: 2017-05-02
+youtube_link: https://www.youtube.com/watch?v=27mUWs2wjPs
+official_link: https://www.babi.sh/recipes/moonwaffles
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992091/prp0ieyicip45sfehspp.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0018
+- tag-0025
+- tag-0028
+- tag-0031
+guests: []
+inspired_by:
+- reference-0014
+recipes:
+- recipe-0436
+- recipe-0437
+- recipe-0438
+- recipe-0439
+_lookup:
+  slug: moonwaffles
+  babish_internal_id: wNBcK1P9Ju1qD6E3WIKe

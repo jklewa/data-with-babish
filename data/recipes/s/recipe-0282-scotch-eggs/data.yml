@@ -1,0 +1,41 @@
+babish_id: recipe-0282
+name: Scotch eggs
+image_link: null
+raw_ingredient_list: 'Eggs
+
+  Fresh sage
+
+  Fresh thyme
+
+  Fresh rosemary
+
+  Ground pork
+
+  Salt
+
+  Black pepper
+
+  Flour
+
+  Panko bread crumbs
+
+  Mayonnaise
+
+  Whole grain mustard
+
+  Paprika
+
+  Dijon mustard
+
+  Lemon juice
+
+  Unsalted butter
+
+  Canadian bacon or ham
+
+  English muffins'
+raw_procedure: '?'
+episode: episode-0218
+_lookup:
+  episode_and_section: episode-0218::Scotch eggs
+  db_id: 287

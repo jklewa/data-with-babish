@@ -1,0 +1,24 @@
+babish_id: episode-0572
+name: Teamster Sandwich inspired by 30 Rock
+slug: teamstersandwich
+published_date: 2018-07-31
+youtube_link: https://www.youtube.com/watch?v=tmUximhgYnI
+official_link: https://www.babi.sh/recipes/teamstersandwich
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715710/babishImages/undefined-59499.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0020
+- tag-0029
+- tag-0031
+guests: []
+inspired_by:
+- reference-0048
+recipes:
+- recipe-0228
+_lookup:
+  slug: teamstersandwich
+  babish_internal_id: ndEQ9OsY5fY3tJIPqyje

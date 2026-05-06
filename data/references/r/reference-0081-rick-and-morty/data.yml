@@ -1,0 +1,12 @@
+babish_id: reference-0081
+type: tv_show
+name: Rick and Morty
+description: An animated series that follows the exploits of a super scientist and his not-so-bright grandson. IMDb.
+external_link: https://www.imdb.com/title/tt2861424/
+image_link: https://i.ytimg.com/sh/qLtmSUCkl5zI2sjyNj7uig/market.jpg
+_lookup:
+  canonical_name: Rick and Morty
+  db_id: 83
+  aliases:
+  - Rick  Morty
+  - Rick & Morty

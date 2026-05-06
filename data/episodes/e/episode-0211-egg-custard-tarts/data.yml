@@ -1,0 +1,26 @@
+babish_id: episode-0211
+name: Egg Custard Tarts inspired by Avatar the Last Airbender
+slug: egg-custard-tarts
+published_date: 2020-01-08
+youtube_link: https://www.youtube.com/watch?v=F2ENkOF3fMQ
+official_link: https://www.babi.sh/recipes/egg-custard-tarts
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695435/babishImages/undefined-63167.png
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0028
+- tag-0032
+guests: []
+inspired_by:
+- reference-0168
+recipes:
+- recipe-0623
+- recipe-0624
+_lookup:
+  slug: egg-custard-tarts
+  babish_internal_id: CmOeSGPr6SPavm3WbXTF

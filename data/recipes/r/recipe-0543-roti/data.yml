@@ -1,0 +1,21 @@
+babish_id: recipe-0543
+name: Roti
+image_link: null
+raw_ingredient_list: 'Whole wheat flour
+
+  Salt
+
+  Oil or ghee
+
+  Water'
+raw_procedure: 'Add water to a heap of flour. Knead and add more water until dough reaches a hydrated, smooth consistency. To further soften the dough, add a tablespoon of oil or ghee.
+
+  Pour a little bit of oil into a bowl. Place the dough in the bowl and cover with plastic wrap for about 30 minutes.
+
+  Divide dough into balls that are slightly larger than a golf ball and place onto a baking sheet that is dusted with flour. Let the dough rest.
+
+  Thinly roll out the dough and place over an open stove. Remove once lightly browned and puffy. Brush with ghee, dust with a little bit of salt, and enjoy!'
+episode: episode-0298
+_lookup:
+  episode_and_section: episode-0298::Roti
+  db_id: 556

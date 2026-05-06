@@ -1,0 +1,25 @@
+babish_id: episode-0328
+name: KPop Demon Hunters Airplane Feast
+slug: kpop-demon-hunters-airplane-feast
+published_date: 2026-04-11
+youtube_link: https://youtube.com/watch?v=W8kIAgoqDAI&si=65fH6Fh3e8T6yGu_
+official_link: https://www.babi.sh/recipes/kpop-demon-hunters-airplane-feast
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1775873571/sifq1hxehqudhjdfchik.webp
+time_to_cook: 10800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0017
+- tag-0021
+- tag-0022
+- tag-0023
+- tag-0024
+- tag-0032
+guests: []
+inspired_by:
+- reference-0313
+recipes: []
+_lookup:
+  slug: kpop-demon-hunters-airplane-feast
+  babish_internal_id: BjVXG6rVceZAPCPdwZGN

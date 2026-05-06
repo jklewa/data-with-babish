@@ -1,0 +1,23 @@
+babish_id: episode-0368
+name: Meatball Smashwich With Babish
+slug: meatball-smashwich-with-babish
+published_date: 2025-11-01
+youtube_link: https://www.youtube.com/watch?v=fypEVSous_g
+official_link: https://www.babi.sh/recipes/meatball-smashwich-with-babish
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1762019441/c8sbuzgg2n73jmsphlhg.webp
+time_to_cook: 9600
+yield_qty: 10
+yield_unit: servings
+tags:
+- tag-0006
+- tag-0016
+- tag-0020
+- tag-0021
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1185
+_lookup:
+  slug: meatball-smashwich-with-babish
+  babish_internal_id: 0XHhNEBKTAlSiVtx6zuy

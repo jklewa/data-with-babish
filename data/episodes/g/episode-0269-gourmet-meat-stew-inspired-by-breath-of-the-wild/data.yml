@@ -1,0 +1,21 @@
+babish_id: episode-0269
+name: Gourmet Meat Stew inspired by Breath of the Wild
+slug: gourmet-meat-stew-inspired-by-breath-of-the-wild
+published_date: 2024-10-07
+youtube_link: https://www.youtube.com/watch?v=sRO4dsOEItY&pp=ygUVbWVhdCBzdGV3IGFuaW1lIGFsdmlu
+official_link: https://www.babi.sh/recipes/gourmet-meat-stew-inspired-by-breath-of-the-wild
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1728312407/pcecazl5gsoudqmvzxnr.webp
+time_to_cook: null
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0003
+- tag-0009
+guests: []
+inspired_by:
+- reference-0085
+recipes:
+- recipe-1235
+_lookup:
+  slug: gourmet-meat-stew-inspired-by-breath-of-the-wild
+  babish_internal_id: 0m3AWPeljFzAGYT4EAtC

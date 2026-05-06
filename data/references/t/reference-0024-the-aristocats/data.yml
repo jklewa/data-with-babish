@@ -1,0 +1,9 @@
+babish_id: reference-0024
+type: movie
+name: The Aristocats
+description: With the help of a smooth talking tomcat, a family of Parisian felines set to inherit a fortune from their owner try to make it back home after a jealous butler kidnaps them and leaves them in the country. IMDb.
+external_link: https://www.imdb.com/title/tt0065421/
+image_link: https://img.youtube.com/vi/G2DWoc4PdvE/mqdefault.jpg
+_lookup:
+  canonical_name: The Aristocats
+  db_id: 25

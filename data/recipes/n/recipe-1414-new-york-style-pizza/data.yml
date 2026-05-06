@@ -1,0 +1,9 @@
+babish_id: recipe-1414
+name: new york style pizza
+image_link: null
+raw_ingredient_list: low moisture mozzarella
+raw_procedure: ''
+episode: episode-0435
+_lookup:
+  episode_and_section: episode-0435::new york style pizza
+  db_id: 1433

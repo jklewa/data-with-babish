@@ -1,0 +1,25 @@
+babish_id: episode-0113
+name: CARBONARA
+slug: carbonara
+published_date: 2019-08-15
+youtube_link: https://www.youtube.com/watch?v=qoHnwOHLiMk
+official_link: https://www.babi.sh/recipes/carbonara
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1685823362/wfj3v6zecpgzotkpwpow.webp
+time_to_cook: 1500
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0022
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0004
+- recipe-0005
+_lookup:
+  slug: carbonara
+  babish_internal_id: s4PwVTg7xdPjX9aXsKJg

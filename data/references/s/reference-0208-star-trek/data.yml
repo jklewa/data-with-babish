@@ -1,0 +1,9 @@
+babish_id: reference-0208
+type: tv_show
+name: Star Trek
+description: Long-running science-fiction franchise originated by Gene Roddenberry, spanning multiple TV series and films.
+external_link: null
+image_link: null
+_lookup:
+  canonical_name: Star Trek
+  db_id: 532

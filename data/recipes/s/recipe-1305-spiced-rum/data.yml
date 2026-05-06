@@ -1,0 +1,21 @@
+babish_id: recipe-1305
+name: spiced rum
+image_link: null
+raw_ingredient_list: 'milk
+
+  heavy cream
+
+  cloves
+
+  egg yolks
+
+  sugar
+
+  segment lemongrass
+
+  packed light brown sugar'
+raw_procedure: ''
+episode: episode-0213
+_lookup:
+  episode_and_section: episode-0213::spiced rum
+  db_id: 1324

@@ -1,0 +1,21 @@
+babish_id: episode-0443
+name: Pork Katsudon inspired by Yuri!!! On Ice
+slug: pork-katsudon-inspired-by-yuri!!!-on-ice
+published_date: 2024-09-09
+youtube_link: https://www.youtube.com/watch?v=eEUUlThWDE0
+official_link: https://www.babi.sh/recipes/pork-katsudon-inspired-by-yuri!!!-on-ice
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1725915612/bydgybhpb8f5pxz2jh4y.webp
+time_to_cook: null
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+guests: []
+inspired_by:
+- reference-0267
+recipes:
+- recipe-1253
+_lookup:
+  slug: pork-katsudon-inspired-by-yuri!!!-on-ice
+  babish_internal_id: VrXTzo0AfJNhUrr3SXEP

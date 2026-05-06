@@ -1,0 +1,9 @@
+babish_id: reference-0076
+type: tv_show
+name: Friends
+description: Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan. IMDb.
+external_link: https://www.imdb.com/title/tt0108778/
+image_link: https://i.ytimg.com/sh/SnTDhFDmcbB3lkFWrIi8MA/market.jpg
+_lookup:
+  canonical_name: Friends
+  db_id: 78

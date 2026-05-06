@@ -1,0 +1,23 @@
+babish_id: recipe-0398
+name: The Fitz Sandwich
+image_link: null
+raw_ingredient_list: 'Biga
+
+  Pesto Aioli
+
+  1 pound San Daniele prosciutto
+
+  2 six-ounce balls of buffalo mozzarella, sliced
+
+  1 beefsteak tomato, sliced
+
+  4 ounces baby arugula (rocket)'
+raw_procedure: 'Make the biga.
+
+  Make the pesto aioli.
+
+  Assemble the sandwich: slice two loaves in half lengthwise, and generously spread pesto aioli on the top half.  On the bottom half, begin shingling slices of prosciutto folded in half, until you have at least two layers of prosciutto.  Top the meat with slices of buffalo mozzarella, followed by tomatoes, then arugula.  Place the top on the sandwich, slice in half, and serve, repeating with second sandwich.'
+episode: episode-0234
+_lookup:
+  episode_and_section: episode-0234::The Fitz Sandwich
+  db_id: 407

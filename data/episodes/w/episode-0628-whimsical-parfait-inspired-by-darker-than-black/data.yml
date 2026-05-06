@@ -1,0 +1,20 @@
+babish_id: episode-0628
+name: Whimsical Parfait inspired by Darker than Black
+slug: whimsical-parfait-inspired-by-darker-than-black
+published_date: 2024-10-02
+youtube_link: https://www.youtube.com/watch?v=GHwZqJYYB80
+official_link: https://www.babi.sh/recipes/whimsical-parfait-inspired-by-darker-than-black
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1727903480/ek6bh07lnnblfomgfhdy.webp
+time_to_cook: null
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+guests: []
+inspired_by:
+- reference-0264
+recipes: []
+_lookup:
+  slug: whimsical-parfait-inspired-by-darker-than-black
+  babish_internal_id: e9SBLKW0jcJr1mQ1tBcJ

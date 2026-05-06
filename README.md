@@ -1,6 +1,6 @@
 # _Data with Babish_
 
-This project aims to analyze the recipes of the popular YouTube channel [Binging with Babish](http://bingingwithbabish.com) and convert them into beautiful data.
+This project publishes structured data derived from the recipes of the popular YouTube channel [Binging with Babish](https://www.babi.sh). The committed YAML and JSON datasets are the source of truth for downstream consumers.
 
 ## Visualizations
 
@@ -12,8 +12,10 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
  * [ibdb.guests.json](datasets/ibdb.guests.json) ([docs](#ibdbguestsjson)) Guests and their appearances
  * [ibdb.recipes.json](datasets/ibdb.recipes.json) ([docs](#ibdbrecipesjson)) Recipes and their origin episode
  * [ibdb.references.json](datasets/ibdb.references.json) ([docs](#ibdbreferencesjson)) TV Shows, Movies, etc. and when they were referenced
- * [ibdb.shows.json](datasets/ibdb.shows.json) ([docs](#ibdbshowsjson)) Babish's Shows and their episode lists
+ * [ibdb.tags.json](datasets/ibdb.tags.json) ([docs](#ibdbtagsjson)) Tags applied to episodes (Source / Series / Category / Meal / Difficulty)
  * [babish.json](datasets/babish.json) ([docs](#babishjson)) Parsed recipe ingredients, grouped by episode (Deprecated)
+
+The same data is also available as a tree of YAML files under [`data/`](data/), one directory per entity. Each entity has a `data.yml` (the canonical fields) and a `meta.yml` sidecar with field-level provenance.
 
 ### [ibdb.episodes.json](datasets/ibdb.episodes.json)
 
@@ -26,13 +28,16 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
       "name": "Episode Name",
       "published_date": "YYYY-MM-DD",
       "youtube_link": "https://www.youtube.com/watch?v=...",
-      "official_link": "https://www.bingingwithbabish.com/recipes/...",
+      "official_link": "https://www.babi.sh/recipes/...",
       "image_link": "https://preview.image.host/image.png",
       "related": {
-        "show": {
-          "show_id": 1,
-          "name": "Binging with Babish"
-        },
+        "tags": [
+          {
+            "tag_id": 1,
+            "axis": "Meal",
+            "name": "Dinner"
+          }
+        ],
         "guests": [
           {
             "guest_id": 1,
@@ -53,16 +58,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
             "recipe_id": 1,
             "name": "Recipe Name",
             "raw_ingredient_list": "Ingedient 1\nIngredient 2\n...",
-            "raw_procedure": "Step 1.\nStep 2.\n...",
-            "ingredient_list": [
-              [
-                1.0,                   # quantity
-                "tablespoon",          # unit
-                "Butter",              # name
-                "1 tablespoon butter"  # raw text from recipe
-              ],
-              # ...
-            ]
+            "raw_procedure": "Step 1.\nStep 2.\n..."
           }
         ]
       }
@@ -86,7 +82,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
           "name": "Episode Name",
           "published_date": "YYYY-MM-DD",
           "youtube_link": "https://www.youtube.com/watch?v=...",
-          "official_link": "https://www.bingingwithbabish.com/recipes/...",
+          "official_link": "https://www.babi.sh/recipes/...",
           "image_link": "https://preview.image.host/image.png"
         }
       ]
@@ -111,18 +107,9 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
         "name": "Episode Name",
         "published_date": "YYYY-MM-DD",
         "youtube_link": "https://www.youtube.com/watch?v=...",
-        "official_link": "https://www.bingingwithbabish.com/recipes/...",
+        "official_link": "https://www.babi.sh/recipes/...",
         "image_link": "https://preview.image.host/image.png"
-      },
-      "ingredient_list": [
-        [
-          1.0,                   # quantity
-          "tablespoon",          # unit
-          "Butter",              # name
-          "1 tablespoon butter"  # raw text from recipe
-        ],
-        # ...
-      ]
+      }
     },
     # ...
   ]
@@ -146,7 +133,7 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
           "name": "Episode Name",
           "published_date": "YYYY-MM-DD",
           "youtube_link": "https://www.youtube.com/watch?v=...",
-          "official_link": "https://www.bingingwithbabish.com/recipes/...",
+          "official_link": "https://www.babi.sh/recipes/...",
           "image_link": "https://preview.image.host/image.png"
         }
       ]
@@ -155,22 +142,23 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
   ]
   ```
 
-### [ibdb.shows.json](datasets/ibdb.shows.json)
+### [ibdb.tags.json](datasets/ibdb.tags.json)
 
-  **Babish's Shows** and their episode lists in the format:
+  **Tags** applied to episodes. Each tag belongs to one of five `axis` values: `Source`, `Series`, `Category`, `Meal`, or `Difficulty`.
 
   ```python
   [
     {
-      "show_id": 1,
-      "name": "Binging with Babish",
+      "tag_id": 1,
+      "axis": "Meal",
+      "name": "Dinner",
       "episodes": [
         {
           "episode_id": "epid",
           "name": "Episode Name",
           "published_date": "YYYY-MM-DD",
           "youtube_link": "https://www.youtube.com/watch?v=...",
-          "official_link": "https://www.bingingwithbabish.com/recipes/...",
+          "official_link": "https://www.babi.sh/recipes/...",
           "image_link": "https://preview.image.host/image.png"
         }
       ]
@@ -183,13 +171,13 @@ This project aims to analyze the recipes of the popular YouTube channel [Binging
 
   **(Deprecated)**
 
-  Contains ingredients from [BWB Recipes](http://bingingwithbabish.com/recipes) in the format:
+  Contains parsed ingredients in the format:
 
   ```python
   [
     {
       "episode_name": "Episode Name",
-      "episode_link": "https://www.bingingwithbabish.com/recipes/...",
+      "episode_link": "https://www.babi.sh/recipes/...",
       "youtube_link": "https://www.youtube.com/watch?v=...",
       "published": "YYYY-MM-DD",
       "recipes": [
@@ -225,17 +213,15 @@ Required tools: **Docker, Docker Compose**
 1. Build `docker-compose build`
 2. Run DB and API `docker-compose up -d`
 3. Browse http://localhost:5000/
-4. Update DB and datasets `docker-compose exec ibdb sync update export`
+4. Re-export datasets from the DB `docker-compose exec ibdb sync export`
 5. See other commands `docker-compose exec ibdb --help`
 
-This will use [populate_db.py](ibdb/populate_db.py) to scrape and upsert episodes into the DB and [export.py](ibdb/export.py) to generate new [datasets/](datasets) from the DB's contents.
+The Postgres container is initialized from [ibdb/db_dump.sql](ibdb/db_dump.sql), so the API is queryable as soon as the stack is up. [export.py](ibdb/export.py) regenerates [datasets/](datasets) from the DB's contents.
 
-You can also explore the original [populate_babish_json.py](ibdb/populate_babish_json.py) and [Jupyter Notebooks](http://ipython.org/notebook.html)
+You can also explore the [Jupyter Notebook](http://ipython.org/notebook.html) under [`notebooks/`](notebooks/):
 1. `cd notebooks/`
 2. Start Jupyter on [http://localhost:8888](http://localhost:8888) `jupyter notebook`
-3. Open `Babish Recipe Extract.ipynb` or `Babish Data Analysis.ipynb`
-
-**NOTE:** Be aware that `Babish Recipe Extract.ipynb` will make **LOTS** of network calls to the official bingingwithbabish.com website. Calls are cached and rate limited but please be very considerate and only run them if absolutely necessary.
+3. Open `Babish Data Analysis.ipynb`
 
 ### Tests
 Tests covering [recipe_parser.py](ibdb/recipe_parser.py) are located in the [tests/](tests/) directory and can be run using [pytest](https://docs.pytest.org/en/latest/).

@@ -1,0 +1,25 @@
+babish_id: recipe-0238
+name: Car Panini
+image_link: null
+raw_ingredient_list: 'White bread
+
+  Butter
+
+  1 small can of vienna sausages
+
+  1 bag of Doritos
+
+  1 Cadbury Egg
+
+  4 Reese’s Peanut Butter Cups'
+raw_procedure: 'Start by draining your can of vienna sausages and setting them aside. Butter each slice of bread on 1 side and then start layering.
+
+  Start with 1 layer of sausage, followed by 4 Reese’s Peanut Butter Cups, some crushed Doritos and 1 Cadbury Egg.
+
+  Cover with the non buttered side of bread, and place on your panini press. Cook until golden brown and the chocolate has melted inside.
+
+  Serve and enjoy!'
+episode: episode-0116
+_lookup:
+  episode_and_section: episode-0116::Car Panini
+  db_id: 243

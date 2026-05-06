@@ -1,0 +1,22 @@
+babish_id: episode-0542
+name: Steak
+slug: steak
+published_date: 2025-10-03
+youtube_link: https://www.youtube.com/watch?v=peAbYlvP6rU
+official_link: https://www.babi.sh/recipes/steak
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1759667611/ivsyx6hgxw8cwudn9brl.webp
+time_to_cook: 5400
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0006
+- tag-0020
+- tag-0021
+- tag-0029
+- tag-0030
+guests: []
+inspired_by: []
+recipes: []
+_lookup:
+  slug: steak
+  babish_internal_id: ATlcqrasg8ceDCOT6zvu

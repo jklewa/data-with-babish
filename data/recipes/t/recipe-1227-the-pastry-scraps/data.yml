@@ -1,0 +1,9 @@
+babish_id: recipe-1227
+name: the pastry scraps
+image_link: null
+raw_ingredient_list: flour
+raw_procedure: ''
+episode: episode-0341
+_lookup:
+  episode_and_section: episode-0341::the pastry scraps
+  db_id: 1246

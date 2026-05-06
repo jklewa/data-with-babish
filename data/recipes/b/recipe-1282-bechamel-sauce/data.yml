@@ -1,0 +1,25 @@
+babish_id: recipe-1282
+name: béchamel sauce
+image_link: null
+raw_ingredient_list: 'milk
+
+  eggs
+
+  flour
+
+  buttermilk
+
+  garlic
+
+  cornstarch
+
+  italian breadcrumbs
+
+  corn flakes
+
+  panko breadcrumbs'
+raw_procedure: ''
+episode: episode-0042
+_lookup:
+  episode_and_section: episode-0042::béchamel sauce
+  db_id: 1301

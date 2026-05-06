@@ -1,0 +1,17 @@
+babish_id: recipe-0052
+name: AeroPress Coffee
+image_link: null
+raw_ingredient_list: Coffee, finer ground
+raw_procedure: 'Caution: the AeroPress method is much easier to follow by watching the video above!
+
+  Wet the AeroPress filter and then place in the filter holder and screw into place.
+
+  Grind your coffee to a fine texture and heat your water to 200°F. You should have twice as much water than you do grounds (i.e. for 15 grams coffee, 30 grams of water). Put the coffee grounds into the AeroPress chamber.
+
+  Then pour water into the AeroPress. Let it steep for 20-40 seconds.
+
+  Flip the entire AeroPress over onto the coffee mug and push the plunger down until you have pushed all the air out.'
+episode: episode-0165
+_lookup:
+  episode_and_section: episode-0165::AeroPress Coffee
+  db_id: 56

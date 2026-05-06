@@ -1,0 +1,21 @@
+babish_id: episode-0119
+name: CHARCUTERIE & CHEESE BOARDS
+slug: charcuterieandcheeseboards
+published_date: 2018-12-06
+youtube_link: https://www.youtube.com/watch?v=VnrScNQDcEQ
+official_link: https://www.babi.sh/recipes/charcuterieandcheeseboards
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686009296/mwxfpmkv2kqhubhm4xqu.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0013
+- tag-0019
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0147
+_lookup:
+  slug: charcuterieandcheeseboards
+  babish_internal_id: BRMaJUiMdtb8myM2FTUV

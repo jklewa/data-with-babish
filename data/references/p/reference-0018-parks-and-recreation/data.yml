@@ -1,0 +1,12 @@
+babish_id: reference-0018
+type: tv_show
+name: Parks and Recreation
+description: The absurd antics of an Indiana town's public officials as they pursue sundry projects to make their city a better place. IMDb.
+external_link: https://www.imdb.com/title/tt1266020/
+image_link: https://i.ytimg.com/sh/nUzFbxsSUUJSKlrWTyN0pg/market.jpg
+_lookup:
+  canonical_name: Parks and Recreation
+  db_id: 19
+  aliases:
+  - Parks & Rec
+  - Parks and Rec

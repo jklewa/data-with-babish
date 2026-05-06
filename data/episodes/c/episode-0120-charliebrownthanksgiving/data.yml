@@ -1,0 +1,27 @@
+babish_id: episode-0120
+name: Charlie Brown Thanksgiving
+slug: charliebrownthanksgiving
+published_date: 2018-11-20
+youtube_link: https://www.youtube.com/watch?v=5FyKxVJmsdE&amp;t=1s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/5FyKxVJmsdE/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/charliebrownthanksgiving
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696206/babishImages/undefined-812990.jpg
+time_to_cook: 4800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0031
+guests: []
+inspired_by:
+- reference-0031
+recipes:
+- recipe-0153
+- recipe-0154
+- recipe-0155
+- recipe-0156
+- recipe-0157
+- recipe-0158
+_lookup:
+  slug: charliebrownthanksgiving
+  babish_internal_id: rctCjWQYq3HvSr1KPiWy

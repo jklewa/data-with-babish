@@ -1,0 +1,19 @@
+babish_id: recipe-0404
+name: Lemon Pepper Seasoning
+image_link: null
+raw_ingredient_list: '3 lemons, zested
+
+  2 Tbsp pepper
+
+  1 tsp sugar
+
+  1 tsp garlic powder
+
+  1 tsp onion powder
+
+  1 tsp celery salt'
+raw_procedure: Set oven to lowest possible temperature. Spread lemon zest out on a parchment-lined baking sheet, and bake for 45-75 minutes, until completely dried.  Pulse in a food processor until ground to granules, and whisk together with remaining ingredients.
+episode: episode-0345
+_lookup:
+  episode_and_section: episode-0345::Lemon Pepper Seasoning
+  db_id: 413

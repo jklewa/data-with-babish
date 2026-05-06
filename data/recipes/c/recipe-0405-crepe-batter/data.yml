@@ -1,0 +1,17 @@
+babish_id: recipe-0405
+name: Crepe Batter
+image_link: null
+raw_ingredient_list: '2 large eggs
+
+  1 cup milk
+
+  1 cup all purpose flour
+
+  2 Tbsp vegetable oil
+
+  1 tsp kosher salt'
+raw_procedure: To make crepe batter, combine eggs, milk, flour, vegetable oil, and salt in the jar of a blender.  Blend on high speed for 1-2 minutes, until completely smooth.  Pour onto a preheated crepe griddle, and use a wooden dowel to spread into a thin layer.  Cook according to manufacturer’s directions, and stack crepes on a plate covered with aluminum foil to keep warm.
+episode: episode-0566
+_lookup:
+  episode_and_section: episode-0566::Crepe Batter
+  db_id: 414

@@ -1,0 +1,23 @@
+babish_id: recipe-1267
+name: souffle omelette
+image_link: null
+raw_ingredient_list: 'eggs
+
+  ripe plum tomatoes
+
+  heavy cream
+
+  garlic
+
+  vegetable oil
+
+  butter
+
+  ice for ice bath
+
+  splash of red wine'
+raw_procedure: ''
+episode: episode-0310
+_lookup:
+  episode_and_section: episode-0310::souffle omelette
+  db_id: 1286

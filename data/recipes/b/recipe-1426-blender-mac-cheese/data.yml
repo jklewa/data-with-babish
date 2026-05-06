@@ -1,0 +1,11 @@
+babish_id: recipe-1426
+name: blender mac & cheese
+image_link: null
+raw_ingredient_list: 'milk
+
+  cheese any makeup of the following:'
+raw_procedure: ''
+episode: episode-0358
+_lookup:
+  episode_and_section: episode-0358::blender mac & cheese
+  db_id: 1445

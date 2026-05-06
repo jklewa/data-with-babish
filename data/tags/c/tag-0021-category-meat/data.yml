@@ -1,0 +1,7 @@
+babish_id: tag-0021
+axis: Category
+name: Meat
+_lookup:
+  babish_external_id: e29255ff-98d6-423f-ac89-f599417ca5e1
+  axis_and_name: Category::Meat
+  db_id: 21

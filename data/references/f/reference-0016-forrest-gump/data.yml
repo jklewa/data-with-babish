@@ -1,0 +1,12 @@
+babish_id: reference-0016
+type: movie
+name: Forrest Gump
+description: The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75. IMDb.
+external_link: https://www.imdb.com/title/tt0109830/
+image_link: https://img.youtube.com/vi/EtYNngO7eq4/mqdefault.jpg
+_lookup:
+  canonical_name: Forrest Gump
+  db_id: 17
+  aliases:
+  - Forrest Gump Part II
+  - Forrest Gump | Part 1

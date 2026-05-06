@@ -1,0 +1,23 @@
+babish_id: recipe-1291
+name: dashi
+image_link: null
+raw_ingredient_list: 'eggs
+
+  scallions whites in rounds greens for garnish
+
+  mirin
+
+  soy sauce
+
+  sake
+
+  sugar
+
+  chicken thigh
+
+  rice for serving'
+raw_procedure: ''
+episode: episode-0404
+_lookup:
+  episode_and_section: episode-0404::dashi
+  db_id: 1310

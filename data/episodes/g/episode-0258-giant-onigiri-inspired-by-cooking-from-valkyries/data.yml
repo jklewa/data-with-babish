@@ -1,0 +1,22 @@
+babish_id: episode-0258
+name: Giant Onigiri inspired by Cooking from Valkyries
+slug: giant-onigiri-inspired-by-cooking-from-valkyries
+published_date: 2024-10-07
+youtube_link: https://www.youtube.com/watch?v=D1sZtLbZhMA&t=1s
+official_link: https://www.babi.sh/recipes/giant-onigiri-inspired-by-cooking-from-valkyries
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1728311822/ewvbv28ma72qcygpzrol.webp
+time_to_cook: null
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+guests: []
+inspired_by:
+- reference-0260
+recipes:
+- recipe-1238
+- recipe-1239
+_lookup:
+  slug: giant-onigiri-inspired-by-cooking-from-valkyries
+  babish_internal_id: yoj15GmkP7EGRQW4qGkW

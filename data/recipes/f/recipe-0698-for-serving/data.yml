@@ -1,0 +1,9 @@
+babish_id: recipe-0698
+name: For serving
+image_link: null
+raw_ingredient_list: Hot dog or chorizo sausage
+raw_procedure: ''
+episode: episode-0616
+_lookup:
+  episode_and_section: episode-0616::For serving
+  db_id: 712

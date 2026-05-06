@@ -1,0 +1,13 @@
+babish_id: recipe-0671
+name: Archer’s Margarita
+image_link: null
+raw_ingredient_list: 'Pre-made Margarita Sour Mix
+
+  Tequila
+
+  Ice'
+raw_procedure: ''
+episode: episode-0032
+_lookup:
+  episode_and_section: episode-0032::Archer’s Margarita
+  db_id: 685

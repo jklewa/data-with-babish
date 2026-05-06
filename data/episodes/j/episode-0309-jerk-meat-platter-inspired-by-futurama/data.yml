@@ -1,0 +1,24 @@
+babish_id: episode-0309
+name: Jerk Meat Platter Inspired by Futurama
+slug: jerk-meat-platter-inspired-by-futurama
+published_date: 2024-04-12
+youtube_link: https://www.youtube.com/watch?v=EoVha2o6Ldk
+official_link: https://www.babi.sh/recipes/jerk-meat-platter-inspired-by-futurama
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1712937205/n5fptxykxklglcfoo9xd.webp
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0033
+guests: []
+inspired_by: []
+recipes:
+- recipe-1284
+_lookup:
+  slug: jerk-meat-platter-inspired-by-futurama
+  babish_internal_id: gIXRTApftDtGZEzspAB2

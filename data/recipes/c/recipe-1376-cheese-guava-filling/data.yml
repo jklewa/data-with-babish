@@ -1,0 +1,19 @@
+babish_id: recipe-1376
+name: 'cheese guava filling:'
+image_link: null
+raw_ingredient_list: 'flour
+
+  beef
+
+  boneless skinless chicken breast
+
+  queso blanco
+
+  guava paste
+
+  cooking olive oil'
+raw_procedure: ''
+episode: episode-0222
+_lookup:
+  episode_and_section: 'episode-0222::cheese guava filling:'
+  db_id: 1395

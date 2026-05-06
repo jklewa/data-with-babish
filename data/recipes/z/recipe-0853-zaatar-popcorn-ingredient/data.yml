@@ -1,0 +1,15 @@
+babish_id: recipe-0853
+name: Za’atar Popcorn Ingredient
+image_link: null
+raw_ingredient_list: '1 tbsp za’atar
+
+  1 tbsp kosher salt
+
+  3 tbsp coconut oil
+
+  ⅓ cup popcorn kernels'
+raw_procedure: ''
+episode: episode-0254
+_lookup:
+  episode_and_section: episode-0254::Za’atar Popcorn Ingredient
+  db_id: 869

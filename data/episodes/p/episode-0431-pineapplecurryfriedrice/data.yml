@@ -1,0 +1,23 @@
+babish_id: episode-0431
+name: 'Pineapple-Curry Fried Rice inspired by Food Wars!: Shokugeki no Soma'
+slug: pineapplecurryfriedrice
+published_date: 2018-03-13
+youtube_link: https://www.youtube.com/watch?v=WRA3a7c4Qt4
+official_link: https://www.babi.sh/recipes/pineapplecurryfriedrice
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715528/babishImages/undefined-509378.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0002
+- tag-0012
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0063
+recipes:
+- recipe-0301
+_lookup:
+  slug: pineapplecurryfriedrice
+  babish_internal_id: ZxZ4DDSSz53Mo2qSChe3

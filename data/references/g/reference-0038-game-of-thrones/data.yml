@@ -1,0 +1,11 @@
+babish_id: reference-0038
+type: tv_show
+name: Game of Thrones
+description: Nine noble families fight for control over the mythical lands of Westeros, while an ancient enemy returns after being dormant for thousands of years. IMDb.
+external_link: https://www.imdb.com/title/tt0944947/
+image_link: https://i.ytimg.com/sh/ow8-ZftRoZelY710tvO45Q/market.jpg
+_lookup:
+  canonical_name: Game of Thrones
+  db_id: 40
+  aliases:
+  - Game of Thrones (feat. Maisie Williams)

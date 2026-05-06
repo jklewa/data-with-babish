@@ -1,0 +1,15 @@
+babish_id: recipe-0018
+name: Bagel Sandwich - Lox & Cream Cheese
+image_link: null
+raw_ingredient_list: 'Smoked scottish salmon
+
+  1 egg
+
+  Cream cheese
+
+  Bagel'
+raw_procedure: Refer to second sandwich method to make an egg patty. Place egg patty on bottom of bagel, then slice of salmon (cut with a ring mold), then cream cheese. Top with the other bagel half. Enjoy!
+episode: episode-0049
+_lookup:
+  episode_and_section: episode-0049::Bagel Sandwich - Lox & Cream Cheese
+  db_id: 22

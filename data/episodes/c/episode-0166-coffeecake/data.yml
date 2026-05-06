@@ -1,0 +1,21 @@
+babish_id: episode-0166
+name: COFFEE CAKE
+slug: coffeecake
+published_date: 2020-05-14
+youtube_link: https://www.youtube.com/watch?v=ds0jskRIeRI
+official_link: https://www.babi.sh/recipes/coffeecake
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715476/babishImages/undefined-63787.png
+time_to_cook: 5400
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0016
+- tag-0018
+guests: []
+inspired_by: []
+recipes:
+- recipe-1428
+_lookup:
+  slug: coffeecake
+  babish_internal_id: Dglh44zaq8cgwIJfi4kd

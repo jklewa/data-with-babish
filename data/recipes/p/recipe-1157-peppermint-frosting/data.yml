@@ -1,0 +1,15 @@
+babish_id: recipe-1157
+name: Peppermint Frosting
+image_link: null
+raw_ingredient_list: '60 g unsalted butter, room temperature
+
+  180 g powdered sugar
+
+  30 g whole milk
+
+  ⅛ tsp peppermint extract'
+raw_procedure: ''
+episode: episode-0111
+_lookup:
+  episode_and_section: episode-0111::Peppermint Frosting
+  db_id: 1176

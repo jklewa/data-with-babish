@@ -1,0 +1,23 @@
+babish_id: episode-0042
+name: Babish's Ultimate Chicken Parm
+slug: babish's-ultimate-chicken-parm
+published_date: 2024-04-22
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/babish's-ultimate-chicken-parm
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1713808776/fig1ofuidrluzdmve8gs.webp
+time_to_cook: null
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1282
+_lookup:
+  slug: babish's-ultimate-chicken-parm
+  babish_internal_id: w7HdEj0veVWfZZrRbi27

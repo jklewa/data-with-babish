@@ -1,0 +1,18 @@
+babish_id: episode-0404
+name: Oyakodon
+slug: oyakodon
+published_date: 2024-03-14
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/oyakodon
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1710441471/zelacbgsgjluo4uruhxg.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags: []
+guests: []
+inspired_by: []
+recipes:
+- recipe-1291
+_lookup:
+  slug: oyakodon
+  babish_internal_id: KvxxwhfrlHMxEU7iA0iC

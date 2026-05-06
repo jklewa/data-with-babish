@@ -1,0 +1,9 @@
+babish_id: reference-0043
+type: tv_show
+name: Family Guy
+description: In a wacky Rhode Island town, a dysfunctional family strive to cope with everyday life as they are thrown from one crazy scenario to another. IMDb.
+external_link: https://www.imdb.com/title/tt0182576/
+image_link: https://i.ytimg.com/sh/Pps0J6WLq4_-2FbnpEEFVw/market.jpg
+_lookup:
+  canonical_name: Family Guy
+  db_id: 45

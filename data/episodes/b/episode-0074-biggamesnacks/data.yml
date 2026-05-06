@@ -1,0 +1,22 @@
+babish_id: episode-0074
+name: BIG GAME SNACKS
+slug: biggamesnacks
+published_date: 2019-01-31
+youtube_link: https://www.youtube.com/watch?v=8ckxhlDFNkg
+official_link: https://www.babi.sh/recipes/biggamesnacks
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686007959/eyt2lwmqnjme9flte5ai.webp
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0113
+- recipe-0114
+- recipe-0115
+_lookup:
+  slug: biggamesnacks
+  babish_internal_id: oS3RqgD9UsiuizHT5VvB

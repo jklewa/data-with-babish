@@ -1,0 +1,13 @@
+babish_id: recipe-0163
+name: Green Beans
+image_link: null
+raw_ingredient_list: 4 cups fresh green beans (ends trimmed)
+raw_procedure: 'Cut the stems off your green beans and then slice into 1 inch pieces.
+
+  Par-boil for about 2 minutes until bright green and then add to an ice bath.
+
+  After mixing them around to cool, drain the water.'
+episode: episode-0577
+_lookup:
+  episode_and_section: episode-0577::Green Beans
+  db_id: 168

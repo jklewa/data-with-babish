@@ -1,0 +1,24 @@
+babish_id: episode-0464
+name: Rabbit inspired by The Sopranos
+slug: rabbit-sopranos
+published_date: 2021-09-16
+youtube_link: https://www.youtube.com/watch?v=aBMNzBhB6H0
+official_link: https://www.babi.sh/recipes/rabbit-sopranos
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696077/babishImages/undefined-998530.png
+time_to_cook: 7200
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0021
+- tag-0032
+guests: []
+inspired_by:
+- reference-0042
+recipes:
+- recipe-1090
+- recipe-1091
+_lookup:
+  slug: rabbit-sopranos
+  babish_internal_id: mrgMstkaOr4VO9zUbEO5

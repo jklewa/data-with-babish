@@ -1,0 +1,9 @@
+babish_id: recipe-1089
+name: Steamed Broccoli
+image_link: null
+raw_ingredient_list: 1 head broccoli, rinsed
+raw_procedure: ''
+episode: episode-0457
+_lookup:
+  episode_and_section: episode-0457::Steamed Broccoli
+  db_id: 1108

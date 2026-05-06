@@ -1,0 +1,25 @@
+babish_id: recipe-0898
+name: Chicken Kiev
+image_link: null
+raw_ingredient_list: '2 chicken breasts, trimmed of excess fat
+
+  2 tsp kosher salt, divided
+
+  2 tsp freshly ground black pepper, divided
+
+  6 oz compound butter, chilled
+
+  8 oz all-purpose flour
+
+  3 oz cornstarch
+
+  4 eggs, beaten
+
+  12 oz cups breadcrumbs, divided
+
+  72 oz peanut oil'
+raw_procedure: ''
+episode: episode-0132
+_lookup:
+  episode_and_section: episode-0132::Chicken Kiev
+  db_id: 917

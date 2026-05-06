@@ -1,0 +1,9 @@
+babish_id: reference-0120
+type: movie
+name: Casino Royale
+description: Armed with a license to kill, Secret Agent James Bond sets out on his first mission as 007, and must defeat a private banker to terrorists in a high stakes game of poker at Casino Royale, Montenegro, but things are not what they seem. IMDb.
+external_link: https://www.imdb.com/title/tt0381061/
+image_link: https://img.youtube.com/vi/deA2fR9iFZw/mqdefault.jpg
+_lookup:
+  canonical_name: Casino Royale
+  db_id: 122

@@ -1,0 +1,19 @@
+babish_id: recipe-0334
+name: Sautéed Spinach
+image_link: null
+raw_ingredient_list: 'Olive Oil
+
+  1 clove of garlic, crushed
+
+  Spinach
+
+  Salt
+
+  Pepper'
+raw_procedure: 'Add olive oil and crushed garlic to a saucepan.
+
+  Add spinach, salt and pepper, and cook to desired tenderness.'
+episode: episode-0388
+_lookup:
+  episode_and_section: episode-0388::Sautéed Spinach
+  db_id: 343

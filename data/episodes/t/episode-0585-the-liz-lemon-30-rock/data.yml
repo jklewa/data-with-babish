@@ -1,0 +1,28 @@
+babish_id: episode-0585
+name: The Liz Lemon inspired by 30 Rock
+slug: the-liz-lemon-30-rock
+published_date: 2020-11-11
+youtube_link: https://www.youtube.com/watch?v=XBUq8q1Vwls
+official_link: https://www.babi.sh/recipes/the-liz-lemon-30-rock
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695283/babishImages/undefined-337740.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0020
+- tag-0029
+- tag-0032
+guests: []
+inspired_by:
+- reference-0048
+recipes:
+- recipe-0761
+- recipe-0762
+- recipe-0763
+- recipe-0764
+- recipe-0765
+_lookup:
+  slug: the-liz-lemon-30-rock
+  babish_internal_id: 6a4cmLfqS1BiFUDs0JRp

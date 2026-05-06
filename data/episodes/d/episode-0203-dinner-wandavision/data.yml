@@ -1,0 +1,31 @@
+babish_id: episode-0203
+name: Dinner inspired by WandaVision
+slug: dinner-wandavision
+published_date: 2021-03-09
+youtube_link: https://www.youtube.com/watch?v=4e7iksx-Zig
+official_link: https://www.babi.sh/recipes/dinner-wandavision
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695343/babishImages/undefined-661246.png
+time_to_cook: 1200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0017
+- tag-0032
+guests: []
+inspired_by:
+- reference-0215
+recipes:
+- recipe-0899
+- recipe-0900
+- recipe-0901
+- recipe-0902
+- recipe-0903
+- recipe-0904
+- recipe-0905
+- recipe-0906
+- recipe-0907
+_lookup:
+  slug: dinner-wandavision
+  babish_internal_id: 8wMcG273kfDiIvwviild

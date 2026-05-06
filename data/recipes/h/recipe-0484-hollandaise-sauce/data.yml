@@ -1,0 +1,15 @@
+babish_id: recipe-0484
+name: Hollandaise Sauce
+image_link: null
+raw_ingredient_list: '2 egg yolks
+
+  Squeeze of lemon juice
+
+  1 stick melted butter'
+raw_procedure: 'In the bottom of an immersion blender cup, place egg yolks and squeeze lemon on top. Blend together.
+
+  Slowly drizzle in melted butter and continue to blend until sauce formed.'
+episode: episode-0219
+_lookup:
+  episode_and_section: episode-0219::Hollandaise Sauce
+  db_id: 493

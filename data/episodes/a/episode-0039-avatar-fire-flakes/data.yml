@@ -1,0 +1,23 @@
+babish_id: episode-0039
+name: Fire Flakes inspired by Avatar the Last Airbender
+slug: avatar-fire-flakes
+published_date: 2020-08-04
+youtube_link: https://www.youtube.com/watch?v=RhUMA3bCvAY
+official_link: https://www.babi.sh/recipes/avatar-fire-flakes
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695535/babishImages/undefined-243692.png
+time_to_cook: 2400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0028
+- tag-0033
+guests: []
+inspired_by:
+- reference-0168
+recipes:
+- recipe-0718
+_lookup:
+  slug: avatar-fire-flakes
+  babish_internal_id: HtwduHxl1n6mVzcNOUFq

@@ -1,0 +1,19 @@
+babish_id: recipe-0973
+name: Mayonnaise
+image_link: null
+raw_ingredient_list: '2 whole eggs
+
+  1 tsp dijon mustard
+
+  2 Tbsp freshly squeezed lemon juice
+
+  1 garlic clove, crushed
+
+  ½ tsp kosher salt
+
+  2 Cups vegetable oil'
+raw_procedure: ''
+episode: episode-0047
+_lookup:
+  episode_and_section: episode-0047::Mayonnaise
+  db_id: 992

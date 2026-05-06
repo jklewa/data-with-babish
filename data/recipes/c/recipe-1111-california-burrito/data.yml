@@ -1,0 +1,23 @@
+babish_id: recipe-1111
+name: California Burrito
+image_link: null
+raw_ingredient_list: 'Large flour tortillas (~12” diameter)
+
+  Guacamole
+
+  Sour cream
+
+  French fries
+
+  Carne asada
+
+  Monterey jack cheese, shredded
+
+  Salsa verde
+
+  Salsa roja'
+raw_procedure: ''
+episode: episode-0112
+_lookup:
+  episode_and_section: episode-0112::California Burrito
+  db_id: 1130

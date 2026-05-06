@@ -1,0 +1,15 @@
+babish_id: recipe-0295
+name: Negroni
+image_link: null
+raw_ingredient_list: '1 oz Sweet vermouth
+
+  1 oz Gin
+
+  1 oz Compari
+
+  Orange peel'
+raw_procedure: Mix and serve.
+episode: episode-0057
+_lookup:
+  episode_and_section: episode-0057::Negroni
+  db_id: 300

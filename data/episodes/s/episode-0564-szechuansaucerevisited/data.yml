@@ -1,0 +1,23 @@
+babish_id: episode-0564
+name: Szechuan Sauce Revisited (From Real Sample!)
+slug: szechuansaucerevisited
+published_date: 2017-09-12
+youtube_link: https://www.youtube.com/watch?v=lhc_bXGvmp0
+official_link: https://www.babi.sh/recipes/szechuansaucerevisited
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715749/babishImages/undefined-396765.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0012
+guests: []
+inspired_by:
+- reference-0081
+recipes:
+- recipe-0390
+- recipe-0391
+- recipe-0392
+- recipe-0393
+_lookup:
+  slug: szechuansaucerevisited
+  babish_internal_id: yKGjDK3pDqLyyP9BV9Fe

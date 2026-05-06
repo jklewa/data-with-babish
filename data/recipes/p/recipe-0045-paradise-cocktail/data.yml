@@ -1,0 +1,23 @@
+babish_id: recipe-0045
+name: Paradise Cocktail
+image_link: null
+raw_ingredient_list: '3 ounces gin
+
+  1 ½ ounces apricot brandy
+
+  1 ½ ounces orange juice
+
+  Ice
+
+  Lemon juice (optional)
+
+  Lemon twist (optional)'
+raw_procedure: 'Chill a martini glass in freezer.
+
+  In a cocktail shaker add 3 ounces of gin, 1 ½ ounces of apricot brandy, and 1 ½ ounces of orange juice, and shake over ice.
+
+  Strain into chilled martini glass. Add optional splash of lemon juice and an optional lemon twist. Enjoy!'
+episode: episode-0021
+_lookup:
+  episode_and_section: episode-0021::Paradise Cocktail
+  db_id: 49

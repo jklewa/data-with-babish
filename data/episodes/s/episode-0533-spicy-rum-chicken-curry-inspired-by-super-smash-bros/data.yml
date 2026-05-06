@@ -1,0 +1,25 @@
+babish_id: episode-0533
+name: Spicy Rum Chicken Curry inspired by Super Smash Bros.
+slug: spicy-rum-chicken-curry-inspired-by-super-smash-bros.
+published_date: 2025-09-04
+youtube_link: https://www.youtube.com/watch?v=LFzKMgYpnfU&pp=ygUiYXJjYWRlIHdpdGggYWx2aW4gc3VwZXIgc21hc2ggYnJvcw%3D%3D
+official_link: https://www.babi.sh/recipes/spicy-rum-chicken-curry-inspired-by-super-smash-bros.
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1757023307/cehz14ecmygnkn3imc29.webp
+time_to_cook: 4500
+yield_qty: 5
+yield_unit: servings
+tags:
+- tag-0003
+- tag-0009
+- tag-0017
+- tag-0021
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0240
+recipes:
+- recipe-1192
+_lookup:
+  slug: spicy-rum-chicken-curry-inspired-by-super-smash-bros.
+  babish_internal_id: C5mdPZwHYH3EprRa15Jz

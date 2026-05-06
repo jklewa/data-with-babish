@@ -1,0 +1,11 @@
+babish_id: reference-0062
+type: movie
+name: Garfield
+description: Jon Arbuckle buys a second pet, a dog named Odie. However, Odie is then abducted and it is up to Jon's cat, Garfield, to find and rescue the canine. IMDb.
+external_link: https://www.imdb.com/title/tt0356634/
+image_link: https://img.youtube.com/vi/ggBf8_YhQVU/mqdefault.jpg
+_lookup:
+  canonical_name: Garfield
+  db_id: 64
+  aliases:
+  - Garfield (feat. It's Alive with Brad)

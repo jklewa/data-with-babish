@@ -1,0 +1,17 @@
+babish_id: recipe-0051
+name: Chemex Coffee
+image_link: null
+raw_ingredient_list: Coffee, finer ground
+raw_procedure: 'Put the filter into your Chemex, making a cone with 3 layers on one side and 1 layer on the other side. Align the side with 3 layers with the side of the Chemex with the spout.
+
+  Pour hot water onto the filter and into the Chemex to preheat the Chemex and also moisten the filter.
+
+  Grind coffee beans to a fine texture. You want 37 grams of coffee for 500 grams of water.
+
+  Add ground coffee to the filter. Pour the first 250 grams of 200°F water on top of the grounds. Wait until it drains and then add the second 250 grams of water.
+
+  Once the water has gone through the grounds, remove the filter. Pour and serve!'
+episode: episode-0165
+_lookup:
+  episode_and_section: episode-0165::Chemex Coffee
+  db_id: 55

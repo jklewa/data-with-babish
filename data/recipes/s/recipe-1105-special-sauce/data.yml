@@ -1,0 +1,21 @@
+babish_id: recipe-1105
+name: Special Sauce
+image_link: null
+raw_ingredient_list: '½ cup mayo
+
+  ½ cup ketchup
+
+  ⅓ cup mustard
+
+  ¼ onion, grated
+
+  1 garlic clove, grated
+
+  ½ tsp hot paprika
+
+  1 Tbsp relish'
+raw_procedure: ''
+episode: episode-0517
+_lookup:
+  episode_and_section: episode-0517::Special Sauce
+  db_id: 1124

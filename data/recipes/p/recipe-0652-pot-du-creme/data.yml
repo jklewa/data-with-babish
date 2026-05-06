@@ -1,0 +1,21 @@
+babish_id: recipe-0652
+name: Pot du Creme
+image_link: null
+raw_ingredient_list: '1 cup heavy cream
+
+  ¼ cup whole milk
+
+  4 oz chopped chocolate
+
+  ¼ tsp espresso powder
+
+  ¼ tsp kosher salt
+
+  3 egg yolks
+
+  2 Tbsp sugar'
+raw_procedure: ''
+episode: episode-0150
+_lookup:
+  episode_and_section: episode-0150::Pot du Creme
+  db_id: 666

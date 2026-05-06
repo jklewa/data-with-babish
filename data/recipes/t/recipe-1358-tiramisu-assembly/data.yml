@@ -1,0 +1,19 @@
+babish_id: recipe-1358
+name: tiramisu assembly
+image_link: null
+raw_ingredient_list: 'eggs
+
+  mascarpone cheese
+
+  very strong coffee or espresso
+
+  sugar
+
+  heavy cream whipped
+
+  cake flour'
+raw_procedure: ''
+episode: episode-0595
+_lookup:
+  episode_and_section: episode-0595::tiramisu assembly
+  db_id: 1377

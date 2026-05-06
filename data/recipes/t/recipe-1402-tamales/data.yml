@@ -1,0 +1,19 @@
+babish_id: recipe-1402
+name: tamales
+image_link: null
+raw_ingredient_list: 'boneless chuck roast
+
+  chicken breasts
+
+  corn husks
+
+  masa harina
+
+  lard
+
+  cilantro stems'
+raw_procedure: ''
+episode: episode-0568
+_lookup:
+  episode_and_section: episode-0568::tamales
+  db_id: 1421

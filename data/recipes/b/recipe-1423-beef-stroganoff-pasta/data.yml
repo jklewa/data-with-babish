@@ -1,0 +1,17 @@
+babish_id: recipe-1423
+name: beef stroganoff pasta
+image_link: null
+raw_ingredient_list: 'chicken stock
+
+  can san marzano tomatoes crushed
+
+  mild or spicy italian sausage casings removed
+
+  dry white wine
+
+  sour cream'
+raw_procedure: ''
+episode: episode-0400
+_lookup:
+  episode_and_section: episode-0400::beef stroganoff pasta
+  db_id: 1442

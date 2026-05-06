@@ -1,0 +1,23 @@
+babish_id: episode-0229
+name: Fallout Fancy Lad Snack Cakes inspired by Fallout 76
+slug: fallout-fancy-lad-snack-cakes-inspired-by-fallout-76
+published_date: 2025-10-01
+youtube_link: https://www.youtube.com/watch?v=v1f835eNhUc
+official_link: https://www.babi.sh/recipes/fallout-fancy-lad-snack-cakes-inspired-by-fallout-76
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1759334763/qv57em4y8nloxgzztjrs.webp
+time_to_cook: 9900
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0003
+- tag-0015
+- tag-0016
+- tag-0018
+- tag-0031
+guests: []
+inspired_by:
+- reference-0237
+recipes: []
+_lookup:
+  slug: fallout-fancy-lad-snack-cakes-inspired-by-fallout-76
+  babish_internal_id: muwK2fn5SpJJMVRFNq0I

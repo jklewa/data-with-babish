@@ -1,0 +1,13 @@
+babish_id: recipe-0551
+name: Cortado
+image_link: ''
+raw_ingredient_list: 'Espresso
+
+  Steamed milk
+
+  Dollop of foam'
+raw_procedure: This is a single shot of espresso to which you will add an equal amount or more of steamed milk and topped with a little dollop of foam.
+episode: episode-0225
+_lookup:
+  episode_and_section: episode-0225::Cortado
+  db_id: 564

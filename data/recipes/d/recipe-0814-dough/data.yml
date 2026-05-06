@@ -1,0 +1,25 @@
+babish_id: recipe-0814
+name: Dough
+image_link: null
+raw_ingredient_list: '150 g tap water
+
+  37 g all-purpose flour
+
+  165 ml whole milk, room temperature
+
+  2 eggs
+
+  430 g all-purpose flour (separate)
+
+  2 ¼ tsp (1 packet) instant yeast
+
+  2 tsp kosher salt
+
+  50 g toasted sugar
+
+  85 g unsalted butter'
+raw_procedure: ''
+episode: episode-0547
+_lookup:
+  episode_and_section: episode-0547::Dough
+  db_id: 828

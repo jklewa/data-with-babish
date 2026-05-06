@@ -1,0 +1,29 @@
+babish_id: episode-0188
+name: Curb Your Enthusiasm Special
+slug: curbyourenthusiasm
+published_date: 2017-10-10
+youtube_link: https://www.youtube.com/watch?v=XIZxT7iI-QI
+official_link: https://www.babi.sh/recipes/curbyourenthusiasm
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715468/babishImages/undefined-615321.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0031
+guests: []
+inspired_by:
+- reference-0079
+recipes:
+- recipe-0374
+- recipe-0375
+- recipe-0376
+- recipe-0377
+- recipe-0378
+- recipe-0379
+- recipe-0380
+- recipe-0381
+_lookup:
+  slug: curbyourenthusiasm
+  babish_internal_id: BP5nCHanpM3Mg1774RRl

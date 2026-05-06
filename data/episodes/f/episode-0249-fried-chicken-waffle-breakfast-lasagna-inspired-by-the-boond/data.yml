@@ -1,0 +1,25 @@
+babish_id: episode-0249
+name: Fried Chicken & Waffle Breakfast Lasagna inspired by The Boondocks
+slug: fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks
+published_date: 2017-07-04
+youtube_link: https://www.youtube.com/watch?v=VnXu22HZBNQ
+official_link: https://www.babi.sh/recipes/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689991769/kai50kksobmuufoxunvj.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0017
+- tag-0021
+- tag-0028
+- tag-0032
+guests: []
+inspired_by:
+- reference-0088
+recipes:
+- recipe-0415
+_lookup:
+  slug: fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks
+  babish_internal_id: 1vVBm1mGwnhRqcCrMmEX

@@ -1,0 +1,25 @@
+babish_id: episode-0139
+name: CHICKEN TIKKA MASALA
+slug: chickentikkamasala
+published_date: 2019-03-28
+youtube_link: https://www.youtube.com/watch?v=Bkd0LxBd2L8
+official_link: https://www.babi.sh/recipes/chickentikkamasala
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686006735/dk1zntqnkdzyf26vol0o.webp
+time_to_cook: 2700
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0096
+- recipe-0097
+- recipe-0098
+_lookup:
+  slug: chickentikkamasala
+  babish_internal_id: NNEphZrh7qzsMME4No3r

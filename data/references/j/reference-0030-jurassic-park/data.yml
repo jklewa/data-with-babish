@@ -1,0 +1,9 @@
+babish_id: reference-0030
+type: movie
+name: Jurassic Park
+description: During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok. IMDb.
+external_link: https://www.imdb.com/title/tt0107290/
+image_link: https://img.youtube.com/vi/f5C7dqrAItM/mqdefault.jpg
+_lookup:
+  canonical_name: Jurassic Park
+  db_id: 31

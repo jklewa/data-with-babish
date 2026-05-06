@@ -1,0 +1,21 @@
+babish_id: episode-0181
+name: CRÈME CARAMEL
+slug: creme-caramel
+published_date: 2021-04-08
+youtube_link: https://www.youtube.com/watch?v=ihS8__strtM
+official_link: https://www.babi.sh/recipes/creme-caramel
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695974/babishImages/undefined-25052.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0018
+guests: []
+inspired_by: []
+recipes:
+- recipe-0966
+- recipe-0967
+_lookup:
+  slug: creme-caramel
+  babish_internal_id: gvJ9m4ZnGkZHh9R0sw8s

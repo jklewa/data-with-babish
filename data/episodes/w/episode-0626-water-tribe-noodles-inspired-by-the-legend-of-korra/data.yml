@@ -1,0 +1,31 @@
+babish_id: episode-0626
+name: Water Tribe Noodles inspired by The Legend of Korra
+slug: water-tribe-noodles-inspired-by-the-legend-of-korra
+published_date: 2025-08-11
+youtube_link: https://www.youtube.com/watch?v=P98ZbqpKPl8
+official_link: https://www.babi.sh/recipes/water-tribe-noodles-inspired-by-the-legend-of-korra
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1754944831/dypiv0ern3sylt2gqpv1.webp
+time_to_cook: 5400
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+- tag-0019
+- tag-0022
+- tag-0023
+- tag-0024
+- tag-0026
+- tag-0027
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0245
+recipes:
+- recipe-1198
+- recipe-1199
+_lookup:
+  slug: water-tribe-noodles-inspired-by-the-legend-of-korra
+  babish_internal_id: kRLfPn5nPDXfy8XuV6kF

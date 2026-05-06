@@ -1,0 +1,26 @@
+babish_id: episode-0255
+name: The Garbage Plate inspired by The Place Beyond The Pines (sort of)
+slug: garbageplate
+published_date: 2017-11-28
+youtube_link: https://www.youtube.com/watch?v=wjoeVwJTUTA
+official_link: https://www.babi.sh/recipes/garbageplate
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715723/babishImages/undefined-117479.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0029
+- tag-0030
+guests: []
+inspired_by:
+- reference-0072
+recipes:
+- recipe-0345
+- recipe-0346
+- recipe-0347
+- recipe-0348
+_lookup:
+  slug: garbageplate
+  babish_internal_id: sU2W0X2EpeWWn340ckDz

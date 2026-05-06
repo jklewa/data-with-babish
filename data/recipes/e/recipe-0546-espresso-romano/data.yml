@@ -1,0 +1,13 @@
+babish_id: recipe-0546
+name: Espresso Romano
+image_link: ''
+raw_ingredient_list: 'Lemon
+
+  Espresso
+
+  Sugar'
+raw_procedure: Take your pre-made shot of espresso served with a little squeeze of lemon and a lemon wedge. This significantly increases the acidity of the coffee, so add a ½ tsp of sugar if needed.
+episode: episode-0225
+_lookup:
+  episode_and_section: episode-0225::Espresso Romano
+  db_id: 559

@@ -1,0 +1,9 @@
+babish_id: reference-0003
+type: video_game
+name: Kingdom Hearts
+description: KINGDOM HEARTS is a series of action role-playing games developed and published by Square Enix under the direction of Tetsuya Nomura. The series is a collaboration between Square Enix and Disney.
+external_link: https://www.kingdomhearts.com/home/us/
+image_link: https://img.youtube.com/vi/LMph2hAGj7k/mqdefault.jpg
+_lookup:
+  canonical_name: Kingdom Hearts
+  db_id: 4

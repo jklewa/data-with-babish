@@ -1,0 +1,21 @@
+babish_id: recipe-1236
+name: buttercream frosting
+image_link: null
+raw_ingredient_list: 'sugar
+
+  cake flour
+
+  butter
+
+  milk
+
+  rasberries
+
+  egg yolks
+
+  white chocolate'
+raw_procedure: ''
+episode: episode-0377
+_lookup:
+  episode_and_section: episode-0377::buttercream frosting
+  db_id: 1255

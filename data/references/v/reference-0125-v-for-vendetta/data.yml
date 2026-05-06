@@ -1,0 +1,9 @@
+babish_id: reference-0125
+type: movie
+name: V for Vendetta
+description: In a future British tyranny, a shadowy freedom fighter, known only by the alias of "V", plots to overthrow it with the help of a young woman. IMDb.
+external_link: https://www.imdb.com/title/tt0434409/
+image_link: https://img.youtube.com/vi/Et6M2r3yTAw/mqdefault.jpg
+_lookup:
+  canonical_name: V for Vendetta
+  db_id: 127

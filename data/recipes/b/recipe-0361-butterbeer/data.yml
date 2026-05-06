@@ -1,0 +1,27 @@
+babish_id: recipe-0361
+name: Butterbeer
+image_link: null
+raw_ingredient_list: '1 egg white
+
+  2 ounces butterscotch schnapps
+
+  1 ounce heavy cream
+
+  1 pinch vanilla extract
+
+  ½ ounces simple syrup
+
+  Ice
+
+  Cream soda'
+raw_procedure: 'Combine egg white, butterscotch schnapps, heavy cream, vanilla extract, simple syrup, and ice into a shaker.
+
+  Shake until frothy.
+
+  Add half of mixture to a glass with some cream soda.
+
+  Serve and enjoy!'
+episode: episode-0277
+_lookup:
+  episode_and_section: episode-0277::Butterbeer
+  db_id: 370

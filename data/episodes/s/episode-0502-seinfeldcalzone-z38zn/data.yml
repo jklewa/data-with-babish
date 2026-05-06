@@ -1,0 +1,26 @@
+babish_id: episode-0502
+name: Calzones inspired by Seinfeld
+slug: seinfeldcalzone-z38zn
+published_date: 2019-11-22
+youtube_link: https://www.youtube.com/watch?v=zWuWrdaYMlY&quot;,&quot;height&quot;:480,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/zWuWrdaYMlY/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/seinfeldcalzone-z38zn
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695775/babishImages/undefined-739050.png
+time_to_cook: 1200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0029
+recipes:
+- recipe-0589
+- recipe-0590
+- recipe-0591
+_lookup:
+  slug: seinfeldcalzone-z38zn
+  babish_internal_id: UHYl7fG7xicdxgX7lhg9

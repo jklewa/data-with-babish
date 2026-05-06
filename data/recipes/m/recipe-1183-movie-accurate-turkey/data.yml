@@ -1,0 +1,9 @@
+babish_id: recipe-1183
+name: movie accurate turkey
+image_link: null
+raw_ingredient_list: turkey stock
+raw_procedure: ''
+episode: episode-0154
+_lookup:
+  episode_and_section: episode-0154::movie accurate turkey
+  db_id: 1202

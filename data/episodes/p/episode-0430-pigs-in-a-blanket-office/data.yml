@@ -1,0 +1,23 @@
+babish_id: episode-0430
+name: Pigs in a Blanket inspired by The Office
+slug: pigs-in-a-blanket-office
+published_date: 2023-01-05
+youtube_link: https://www.youtube.com/watch?v=YKgz4DbBDes
+official_link: https://www.babi.sh/recipes/pigs-in-a-blanket-office
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695375/babishImages/undefined-708307.png
+time_to_cook: 8400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0019
+- tag-0031
+guests: []
+inspired_by:
+- reference-0078
+recipes:
+- recipe-1350
+_lookup:
+  slug: pigs-in-a-blanket-office
+  babish_internal_id: AVqGEMJCOlYFe3g5FP9b

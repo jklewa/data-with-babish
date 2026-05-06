@@ -1,0 +1,28 @@
+babish_id: episode-0345
+name: Lemon Pepper Wet inspired by Atlanta
+slug: lemon-pepper-wet
+published_date: 2017-07-25
+youtube_link: https://www.youtube.com/watch?v=Enan6eEmtqM
+official_link: https://www.babi.sh/recipes/lemon-pepper-wet
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715518/babishImages/undefined-431756.jpg
+time_to_cook: null
+yield_qty: 2
+yield_unit: pounds
+tags:
+- tag-0004
+- tag-0012
+- tag-0019
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0086
+recipes:
+- recipe-0402
+- recipe-0403
+- recipe-0404
+_lookup:
+  slug: lemon-pepper-wet
+  babish_internal_id: WTpCUfnyppfNwRwnmD1g

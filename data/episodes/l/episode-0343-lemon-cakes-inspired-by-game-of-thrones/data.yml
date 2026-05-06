@@ -1,0 +1,26 @@
+babish_id: episode-0343
+name: Lemon Cakes inspired by Game of Thrones
+slug: lemon-cakes-inspired-by-game-of-thrones
+published_date: 2017-07-11
+youtube_link: https://www.youtube.com/watch?v=Y_hc07rAQlc
+official_link: https://www.babi.sh/recipes/lemon-cakes-inspired-by-game-of-thrones
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992052/luzmgrdxsulbwjcdiefp.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0038
+recipes:
+- recipe-0412
+_lookup:
+  slug: lemon-cakes-inspired-by-game-of-thrones
+  babish_internal_id: X0nu48YFCxkoqmM3blG4

@@ -1,0 +1,22 @@
+babish_id: episode-0073
+name: Big Bang Burger inspired by Persona 5
+slug: big-bang-burger-inspired-by-persona-5
+published_date: 2024-10-07
+youtube_link: https://www.youtube.com/watch?v=dUxzbnKKzf8&pp=ygUVYmlnIGJhbmcgYnVyZ2VyIGFsdmlu
+official_link: https://www.babi.sh/recipes/big-bang-burger-inspired-by-persona-5
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1728311555/laq2mbbfwx2xlzw3ucrw.webp
+time_to_cook: null
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+guests: []
+inspired_by:
+- reference-0261
+recipes:
+- recipe-1240
+- recipe-1241
+_lookup:
+  slug: big-bang-burger-inspired-by-persona-5
+  babish_internal_id: koAintx3LEXF2JGATbx6

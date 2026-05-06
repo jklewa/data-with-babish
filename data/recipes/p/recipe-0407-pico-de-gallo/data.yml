@@ -1,0 +1,17 @@
+babish_id: recipe-0407
+name: Pico de Gallo
+image_link: null
+raw_ingredient_list: '1/4 cup chopped tomatoes
+
+  1/4 cup chopped onion
+
+  1/2 tsp salt
+
+  1 tsp lime juice
+
+  1 Tbsp chopped cilantro'
+raw_procedure: To make the pico de gallo, combine tomatoes, onion, salt, lime juice, and cilantro.
+episode: episode-0566
+_lookup:
+  episode_and_section: episode-0566::Pico de Gallo
+  db_id: 416

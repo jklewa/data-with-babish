@@ -1,0 +1,41 @@
+babish_id: recipe-0347
+name: Macaroni Salad
+image_link: null
+raw_ingredient_list: 'Cooked and rinsed pasta
+
+  1 cup cut carrots
+
+  ½ cup cut celery
+
+  ½ cup chopped green onion
+
+  1 cup parsley
+
+  ½ cup peppadew peppers
+
+  ½ tsp garlic powder
+
+  1 pinch kosher salt
+
+  1 pinch freshly ground pepper
+
+  Two spoonfuls mayonnaise
+
+  1 spoonful sour cream
+
+  1 Tbsp Dijon mustard'
+raw_procedure: 'Cook and rinse chosen pasta.
+
+  In a mixing bowl, add cut carrots, celery, green onion, parsley, peppadew peppers, garlic powder, a pinch of salt, ground pepper, and toss together.
+
+  Add 2 spoonfuls of mayonnaise to pasta.
+
+  Add 1 spoonful of sour cream.
+
+  Add 1 Tbsp of Dijon mustard to pasta.
+
+  Fill half a plate with your home fries and the other half with your fresh pasta salad. Continue on to make toppings!'
+episode: episode-0255
+_lookup:
+  episode_and_section: episode-0255::Macaroni Salad
+  db_id: 356

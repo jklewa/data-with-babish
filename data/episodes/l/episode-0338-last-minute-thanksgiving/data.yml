@@ -1,0 +1,31 @@
+babish_id: episode-0338
+name: LAST-MINUTE THANKSGIVING
+slug: last-minute-thanksgiving
+published_date: 2020-11-25
+youtube_link: https://www.youtube.com/watch?v=HLY-7ZkhhLE
+official_link: https://www.babi.sh/recipes/last-minute-thanksgiving
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715709/babishImages/undefined-86960.png
+time_to_cook: 14400
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0031
+- tag-0033
+guests: []
+inspired_by: []
+recipes:
+- recipe-0802
+- recipe-0803
+- recipe-0804
+- recipe-0805
+- recipe-0806
+- recipe-0807
+- recipe-0808
+- recipe-0809
+- recipe-0810
+- recipe-0811
+- recipe-0812
+_lookup:
+  slug: last-minute-thanksgiving
+  babish_internal_id: mjgTMGkWdIwZyrYHIFaj

@@ -1,0 +1,21 @@
+babish_id: episode-0508
+name: SHEPHERD'S PIE
+slug: shepherdspie
+published_date: 2020-03-12
+youtube_link: https://www.youtube.com/watch?v=Uj8BC2kcp7A
+official_link: https://www.babi.sh/recipes/shepherdspie
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715744/babishImages/undefined-552376.png
+time_to_cook: 7200
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1438
+_lookup:
+  slug: shepherdspie
+  babish_internal_id: xZHOp9O7JzcFpWbjcJFE

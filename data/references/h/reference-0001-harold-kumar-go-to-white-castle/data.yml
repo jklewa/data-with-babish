@@ -1,0 +1,11 @@
+babish_id: reference-0001
+type: movie
+name: Harold & Kumar Go to White Castle
+description: A Korean-American office worker and his Indian-American stoner friend embark on a quest to satisfy their desire for White Castle burgers. IMDb.
+external_link: https://www.imdb.com/title/tt0366551/
+image_link: https://img.youtube.com/vi/vauN2wA5pFw/mqdefault.jpg
+_lookup:
+  canonical_name: Harold & Kumar Go to White Castle
+  db_id: 2
+  aliases:
+  - Harold & Kumar

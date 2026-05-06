@@ -1,0 +1,13 @@
+babish_id: recipe-1149
+name: Sushi Rice
+image_link: null
+raw_ingredient_list: '½ Cup rice
+
+  ¾ Cup water
+
+  1 tsp rice wine vinegar'
+raw_procedure: ''
+episode: episode-0439
+_lookup:
+  episode_and_section: episode-0439::Sushi Rice
+  db_id: 1168

@@ -1,0 +1,22 @@
+babish_id: episode-0459
+name: Quatro Quesos Dos Fritos inspired by Psych
+slug: quatroquesodosfritos
+published_date: 2017-12-05
+youtube_link: https://www.youtube.com/watch?v=O-H_Ybmtu_U
+official_link: https://www.babi.sh/recipes/quatroquesodosfritos
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715505/babishImages/undefined-968597.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0031
+guests: []
+inspired_by:
+- reference-0071
+recipes:
+- recipe-0344
+_lookup:
+  slug: quatroquesodosfritos
+  babish_internal_id: OksfNC8QBircPkW5OWbe

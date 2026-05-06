@@ -1,0 +1,11 @@
+babish_id: recipe-0552
+name: Macchiato
+image_link: ''
+raw_ingredient_list: 'Espresso (double shot)
+
+  Foam'
+raw_procedure: This is a double shot of espresso with a big dot of foam on top.
+episode: episode-0225
+_lookup:
+  episode_and_section: episode-0225::Macchiato
+  db_id: 565

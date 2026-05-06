@@ -1,0 +1,29 @@
+babish_id: episode-0419
+name: Paunch Burger inspired by Parks & Rec
+slug: paunch-burger-parks-and-rec
+published_date: 2020-08-12
+youtube_link: https://www.youtube.com/watch?v=RN8uoBwRr1k
+official_link: https://www.babi.sh/recipes/paunch-burger-parks-and-rec
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695544/babishImages/undefined-212669.png
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0018
+recipes:
+- recipe-0719
+- recipe-0720
+- recipe-0721
+- recipe-0722
+- recipe-0723
+- recipe-0724
+_lookup:
+  slug: paunch-burger-parks-and-rec
+  babish_internal_id: Ic0x4FzXmv4t3dZuRbPG

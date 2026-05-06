@@ -1,0 +1,15 @@
+babish_id: recipe-1395
+name: crema mayonnaise
+image_link: null
+raw_ingredient_list: 'funyuns
+
+  carrots
+
+  purple cabbage
+
+  gummy bears'
+raw_procedure: ''
+episode: episode-0504
+_lookup:
+  episode_and_section: episode-0504::crema mayonnaise
+  db_id: 1414

@@ -1,0 +1,19 @@
+babish_id: episode-0013
+name: '5 Million Subscriber Special: Recreating Homer Simpson''s NOLA Food Tour'
+slug: 5mill-special
+published_date: 2019-09-10
+youtube_link: https://www.youtube.com/watch?v=oM8c31ru92A
+official_link: https://www.youtube.com/watch?v=oM8c31ru92A
+image_link: https://img.youtube.com/vi/oM8c31ru92A/mqdefault.jpg
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags: []
+guests:
+- guest-0018
+- guest-0019
+inspired_by:
+- reference-0014
+recipes: []
+_lookup:
+  slug: 5mill-special

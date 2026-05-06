@@ -1,0 +1,23 @@
+babish_id: episode-0351
+name: Lobster Salad Panzanella
+slug: lobster-salad-panzanella
+published_date: 2024-08-08
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/lobster-salad-panzanella
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1723129401/myx3qlkt8pyap7bufwyc.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0001
+- tag-0016
+- tag-0023
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1273
+_lookup:
+  slug: lobster-salad-panzanella
+  babish_internal_id: 1pBQXRV0cbpfzDJKq2XS

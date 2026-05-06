@@ -1,0 +1,24 @@
+babish_id: episode-0335
+name: Land Octopus inspired by Elden Ring
+slug: land-octopus-elden-ring
+published_date: 2022-03-10
+youtube_link: https://www.youtube.com/watch?v=KxJOGezJlF8
+official_link: https://www.babi.sh/recipes/land-octopus-elden-ring
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695911/babishImages/undefined-54605.png
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0003
+- tag-0012
+- tag-0023
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0302
+recipes:
+- recipe-1391
+_lookup:
+  slug: land-octopus-elden-ring
+  babish_internal_id: eck8jZPzIKi8HSLxqdfa

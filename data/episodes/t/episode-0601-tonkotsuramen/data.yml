@@ -1,0 +1,27 @@
+babish_id: episode-0601
+name: TONKOTSU RAMEN
+slug: tonkotsuramen
+published_date: 2018-10-04
+youtube_link: https://www.youtube.com/watch?v=jFM_rJ5MtYk
+official_link: https://www.babi.sh/recipes/tonkotsuramen
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686070741/rtjwisrvi7ct1rzfesxk.webp
+time_to_cook: 5400
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0024
+- tag-0030
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-0186
+- recipe-0187
+- recipe-0188
+- recipe-0189
+- recipe-0190
+- recipe-0191
+_lookup:
+  slug: tonkotsuramen
+  babish_internal_id: 6sSWyM08Q1lBHYivhXAx

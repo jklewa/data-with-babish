@@ -1,0 +1,22 @@
+babish_id: episode-0602
+name: Tortilla Sombrero inspired by Despicable Me 2
+slug: tortilla-sombero-despicable-me-2
+published_date: 2021-05-05
+youtube_link: https://www.youtube.com/watch?v=D_Y18GEjfNY
+official_link: https://www.babi.sh/recipes/tortilla-sombero-despicable-me-2
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695255/babishImages/undefined-160946.png
+time_to_cook: 8400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+guests: []
+inspired_by:
+- reference-0220
+recipes:
+- recipe-0957
+- recipe-0958
+_lookup:
+  slug: tortilla-sombero-despicable-me-2
+  babish_internal_id: 6I9kNJLwL7DESH7JdppL

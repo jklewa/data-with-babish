@@ -1,0 +1,11 @@
+babish_id: recipe-0659
+name: Tomato Sauce
+image_link: null
+raw_ingredient_list: '28 oz can San Marzano tomatoes
+
+  Kosher salt'
+raw_procedure: ''
+episode: episode-0105
+_lookup:
+  episode_and_section: episode-0105::Tomato Sauce
+  db_id: 673

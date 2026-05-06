@@ -1,0 +1,25 @@
+babish_id: episode-0320
+name: Kimbap & Lunchbox inspired by Squid Game Season 2
+slug: kimbap-and-lunchbox-inspired-by-squid-game-season-2
+published_date: 2025-10-08
+youtube_link: https://www.youtube.com/watch?v=yN001XyoSas
+official_link: https://www.babi.sh/recipes/kimbap-and-lunchbox-inspired-by-squid-game-season-2
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1759949495/oa91th95ozohctfdqaml.webp
+time_to_cook: 4500
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0023
+- tag-0026
+- tag-0029
+- tag-0032
+guests: []
+inspired_by:
+- reference-0236
+recipes:
+- recipe-1188
+_lookup:
+  slug: kimbap-and-lunchbox-inspired-by-squid-game-season-2
+  babish_internal_id: XiTtAeY0yb6WPe2ZM03m

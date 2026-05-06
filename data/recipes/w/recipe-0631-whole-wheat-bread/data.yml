@@ -1,0 +1,21 @@
+babish_id: recipe-0631
+name: Whole Wheat Bread
+image_link: null
+raw_ingredient_list: '250g whole wheat flour
+
+  2 Tbsp honey
+
+  325g water
+
+  250g all purpose flour
+
+  ½ tsp instant yeast
+
+  1 tsp kosher salt
+
+  1 Tbsp olive oil'
+raw_procedure: ''
+episode: episode-0362
+_lookup:
+  episode_and_section: episode-0362::Whole Wheat Bread
+  db_id: 645

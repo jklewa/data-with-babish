@@ -1,0 +1,30 @@
+babish_id: episode-0111
+name: CAKE POPS
+slug: cake-pops
+published_date: 2021-11-02
+youtube_link: https://www.youtube.com/watch?v=C_hz9wzeBbY
+official_link: https://www.babi.sh/recipes/cake-pops
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695195/babishImages/undefined-881481.png
+time_to_cook: 7200
+yield_qty: 10
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0016
+- tag-0018
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1156
+- recipe-1157
+- recipe-1158
+- recipe-1159
+- recipe-1160
+- recipe-1161
+- recipe-1162
+- recipe-1163
+- recipe-1164
+_lookup:
+  slug: cake-pops
+  babish_internal_id: 3VSwp3vGX2ZGXGUG2iBX

@@ -1,0 +1,9 @@
+babish_id: reference-0103
+type: movie
+name: Elf
+description: After discovering he is a human, a man raised as an elf at the North Pole decides to travel to New York City to locate his real father. IMDb.
+external_link: https://www.imdb.com/title/tt0319343/
+image_link: https://img.youtube.com/vi/VrSdH0jsMnM/mqdefault.jpg
+_lookup:
+  canonical_name: Elf
+  db_id: 105

@@ -1,0 +1,21 @@
+babish_id: episode-0031
+name: ARANCINI
+slug: arancini
+published_date: 2022-12-02
+youtube_link: https://www.youtube.com/watch?v=VChpbmhH9kk
+official_link: https://www.babi.sh/recipes/arancini
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696032/babishImages/undefined-461034.png
+time_to_cook: 2700
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0019
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1361
+_lookup:
+  slug: arancini
+  babish_internal_id: khFtRWHGaKJLAfhkfzLu

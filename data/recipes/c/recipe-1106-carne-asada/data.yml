@@ -1,0 +1,35 @@
+babish_id: recipe-1106
+name: Carne Asada
+image_link: null
+raw_ingredient_list: '2 lb flank steak, trimmed
+
+  ½ Cup orange juice, freshly squeezed
+
+  ¼ Cup lime juice, freshly squeezed
+
+  ¼ Cup vegetable oil + more for cooking
+
+  2 Tbsp soy sauce
+
+  4 cloves garlic, smashed
+
+  ¼ tsp cayenne pepper
+
+  ½ tsp paprika
+
+  1 tsp Mexican oregano
+
+  2 tsp ground cumin
+
+  2 Tbsp (packed) brown sugar
+
+  ½ Cup (loosely packed) cilantro leaves, chopped
+
+  1 Tbsp kosher salt
+
+  2 tsp freshly ground black pepper'
+raw_procedure: ''
+episode: episode-0112
+_lookup:
+  episode_and_section: episode-0112::Carne Asada
+  db_id: 1125

@@ -1,0 +1,21 @@
+babish_id: recipe-0981
+name: Breakfast Sandwich
+image_link: null
+raw_ingredient_list: '2 Tbsp unsalted butter, divided
+
+  6 eggs, beaten individually
+
+  To taste kosher salt
+
+  To taste freshly ground black pepper
+
+  6 slices Canadian bacon
+
+  12 slices cheddar or swiss cheese
+
+  6 English muffins, halved, toasted, + cooled'
+raw_procedure: ''
+episode: episode-0243
+_lookup:
+  episode_and_section: episode-0243::Breakfast Sandwich
+  db_id: 1000

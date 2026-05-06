@@ -1,0 +1,26 @@
+babish_id: episode-0057
+name: BAR ESSENTIALS
+slug: baressentials
+published_date: 2018-03-15
+youtube_link: https://www.youtube.com/watch?v=iZUfPIKbgUM&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/iZUfPIKbgUM/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/baressentials
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1690416607/jlnnbuig1g2nrqafs58x.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0013
+guests: []
+inspired_by: []
+recipes:
+- recipe-0293
+- recipe-0294
+- recipe-0295
+- recipe-0296
+- recipe-0297
+- recipe-0298
+- recipe-0299
+- recipe-0300
+_lookup:
+  slug: baressentials
+  babish_internal_id: 8ww0NhSzoJjxn7wMuvMt

@@ -1,0 +1,21 @@
+babish_id: recipe-0616
+name: Special Sauce
+image_link: null
+raw_ingredient_list: '⅓ cup mayo
+
+  ⅓ cup ketchup
+
+  1 pickle, finely chopped
+
+  1 tsp paprika
+
+  1 tsp garlic powder
+
+  ¼ small onion, finely minced
+
+  1-2 Tbsp yellow mustard'
+raw_procedure: ''
+episode: episode-0330
+_lookup:
+  episode_and_section: episode-0330::Special Sauce
+  db_id: 630

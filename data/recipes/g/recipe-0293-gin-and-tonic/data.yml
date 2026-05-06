@@ -1,0 +1,11 @@
+babish_id: recipe-0293
+name: Gin and Tonic
+image_link: null
+raw_ingredient_list: '2 oz Gin
+
+  Tonic water'
+raw_procedure: Mix and serve.
+episode: episode-0057
+_lookup:
+  episode_and_section: episode-0057::Gin and Tonic
+  db_id: 298

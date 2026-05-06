@@ -1,0 +1,24 @@
+babish_id: episode-0227
+name: EVERYTHING Bagel inspired by Everything Everywhere All At Once
+slug: everything-bagel-eeao
+published_date: 2022-09-20
+youtube_link: https://www.youtube.com/watch?v=1vOBpRmp8v8
+official_link: https://www.babi.sh/recipes/everything-bagel-eeao
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695667/babishImages/undefined-717015.png
+time_to_cook: 2400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0028
+- tag-0032
+guests: []
+inspired_by:
+- reference-0291
+recipes:
+- recipe-1370
+- recipe-1371
+_lookup:
+  slug: everything-bagel-eeao
+  babish_internal_id: PpU9vEE9WbK0DpUJvWtN

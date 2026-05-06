@@ -1,0 +1,22 @@
+babish_id: episode-0622
+name: The Ultimeatum inspired by Regular Show
+slug: ultimeatum
+published_date: 2017-08-29
+youtube_link: https://www.youtube.com/watch?v=S7eUmZ4Sp3U
+official_link: https://www.babi.sh/recipes/ultimeatum
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715472/babishImages/undefined-404565.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+guests: []
+inspired_by:
+- reference-0006
+recipes:
+- recipe-0394
+- recipe-0395
+_lookup:
+  slug: ultimeatum
+  babish_internal_id: DKC5OLf1NpUFdS6gckBV

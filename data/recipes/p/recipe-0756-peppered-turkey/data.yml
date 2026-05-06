@@ -1,0 +1,13 @@
+babish_id: recipe-0756
+name: Peppered Turkey
+image_link: null
+raw_ingredient_list: 'Turkey breast
+
+  Kosher salt
+
+  Freshly ground black pepper'
+raw_procedure: ''
+episode: episode-0100
+_lookup:
+  episode_and_section: episode-0100::Peppered Turkey
+  db_id: 770

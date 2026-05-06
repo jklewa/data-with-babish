@@ -1,0 +1,25 @@
+babish_id: episode-0545
+name: STEAKHOUSE BURGER
+slug: steakhouse-burgers
+published_date: 2021-07-26
+youtube_link: https://www.youtube.com/watch?v=9c_Tn4dnGIU
+official_link: https://www.babi.sh/recipes/steakhouse-burgers
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695472/babishImages/undefined-381863.png
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1057
+- recipe-1058
+- recipe-1059
+- recipe-1060
+_lookup:
+  slug: steakhouse-burgers
+  babish_internal_id: EFnd5pnugmOieeKhdKqx

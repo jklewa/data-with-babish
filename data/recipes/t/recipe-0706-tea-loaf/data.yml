@@ -1,0 +1,35 @@
+babish_id: recipe-0706
+name: Tea Loaf
+image_link: null
+raw_ingredient_list: '400g bread flour
+
+  40g granulated sugar
+
+  10g instant yeast
+
+  1 ½ tsp kosher salt
+
+  60g unsalted butter, room temperature
+
+  120ml whole milk
+
+  120ml water
+
+  25g cranberries
+
+  25g raisins
+
+  60g glazed cherries
+
+  1 tsp ground cinnamon
+
+  3 oranges, zested
+
+  200g confectioners sugar
+
+  45g low fat milk'
+raw_procedure: ''
+episode: episode-0354
+_lookup:
+  episode_and_section: episode-0354::Tea Loaf
+  db_id: 720

@@ -1,0 +1,22 @@
+babish_id: episode-0536
+name: Spiedini alla Romana
+slug: spiedini-alla-romana
+published_date: 2024-02-19
+youtube_link: https://www.instagram.com/reel/C3iISLJMtiy/?igsh=OWozc202M2hzb3Uz
+official_link: https://www.babi.sh/recipes/spiedini-alla-romana
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1708359766/waqex7irqsbhouxortsg.webp
+time_to_cook: null
+yield_qty: 3
+yield_unit: servings
+tags:
+- tag-0020
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1294
+_lookup:
+  slug: spiedini-alla-romana
+  babish_internal_id: Lb0FtxfVGSvfW2IN0xjh

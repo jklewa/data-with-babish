@@ -1,0 +1,17 @@
+babish_id: recipe-0072
+name: Queso Fundido
+image_link: null
+raw_ingredient_list: '8 ounces jack cheese, grated
+
+  8 ounces sharp cheddar cheese, grated
+
+  Tortilla chips (for serving)'
+raw_procedure: 'Shred 8 ounces each of monterrey jack and sharp cheddar cheese. Place it all in a broiler safe serving dish.
+
+  Place in the oven at 425°F for about 12 minutes until it becomes bubbly, brown, and melted.
+
+  Serve and enjoy!'
+episode: episode-0122
+_lookup:
+  episode_and_section: episode-0122::Queso Fundido
+  db_id: 77

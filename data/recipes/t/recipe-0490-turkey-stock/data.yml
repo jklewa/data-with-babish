@@ -1,0 +1,39 @@
+babish_id: recipe-0490
+name: Turkey Stock
+image_link: null
+raw_ingredient_list: '1 Tbsp vegetable oil
+
+  Turkey spine (see above), cut into 2-inch lengths
+
+  2 large carrots, peeled and cut into 3-inch segments
+
+  1 onion, peeled and quartered
+
+  2 stalks celery, cut into 3-inch segments
+
+  5-10 sprigs fresh thyme
+
+  1 parsnip, peeled and halved
+
+  1 turnip, peeled and quartered
+
+  1 Tbsp whole black peppercorns
+
+  Handful of fresh parsley
+
+  1 head garlic, cut in half widthwise
+
+  1 bay leaf'
+raw_procedure: 'In a large saucepan, heat vegetable oil until nearly smoking.
+
+  Brown the turkey spine pieces until well-browned on both sides.
+
+  Add remaining ingredients to the saucepan, and cover with cold water.  Bring to a gentle boil, and lower heat until barely simmering.
+
+  Skim the scum from the surface of the stock as it rises for the first 30 minutes, and continue to cook for at least 4 hours, up to 12, at a bare simmer.
+
+  Strain through cheesecloth, and keep warm for use in gravy and stuffing below.'
+episode: episode-0383
+_lookup:
+  episode_and_section: episode-0383::Turkey Stock
+  db_id: 499

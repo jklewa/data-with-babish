@@ -1,0 +1,26 @@
+babish_id: episode-0636
+name: 'Monster Cake inspired by Zelda: Breath of the Wild'
+slug: zelda-monster-cake
+published_date: 2017-08-01
+youtube_link: https://www.youtube.com/watch?v=VgtpaBOkvrA
+official_link: https://www.babi.sh/recipes/zelda-monster-cake
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715736/babishImages/undefined-391777.jpg
+time_to_cook: null
+yield_qty: 6
+yield_unit: four inch cakes
+tags:
+- tag-0003
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0085
+recipes:
+- recipe-0401
+_lookup:
+  slug: zelda-monster-cake
+  babish_internal_id: ugXkQohZnq0BHR3SUkso

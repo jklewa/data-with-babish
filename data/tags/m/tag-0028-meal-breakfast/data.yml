@@ -1,0 +1,7 @@
+babish_id: tag-0028
+axis: Meal
+name: Breakfast
+_lookup:
+  babish_external_id: c5505dc3-aad1-4657-babc-de58228a6f71
+  axis_and_name: Meal::Breakfast
+  db_id: 28

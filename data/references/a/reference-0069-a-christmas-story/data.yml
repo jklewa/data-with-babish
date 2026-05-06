@@ -1,0 +1,9 @@
+babish_id: reference-0069
+type: movie
+name: A Christmas Story
+description: In the 1940s, a young boy named Ralphie attempts to convince his parents, his teacher and Santa that a Red Ryder BB gun really is the perfect Christmas gift. IMDb.
+external_link: https://www.imdb.com/title/tt0085334/
+image_link: https://img.youtube.com/vi/s-e18bQOZUw/mqdefault.jpg
+_lookup:
+  canonical_name: A Christmas Story
+  db_id: 71

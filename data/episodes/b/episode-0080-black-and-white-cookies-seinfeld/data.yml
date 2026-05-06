@@ -1,0 +1,26 @@
+babish_id: episode-0080
+name: Black and White Cookies inspired by Seinfeld
+slug: black-and-white-cookies-seinfeld
+published_date: 2021-09-01
+youtube_link: https://www.youtube.com/watch?v=9Z7s35n3a5I
+official_link: https://www.babi.sh/recipes/black-and-white-cookies-seinfeld
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695369/babishImages/undefined-373274.png
+time_to_cook: 6000
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0031
+guests: []
+inspired_by:
+- reference-0029
+recipes:
+- recipe-1083
+- recipe-1084
+- recipe-1085
+_lookup:
+  slug: black-and-white-cookies-seinfeld
+  babish_internal_id: APnNgPSxYfW6d8Ha6cmt

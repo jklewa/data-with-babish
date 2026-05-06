@@ -1,0 +1,11 @@
+babish_id: recipe-0557
+name: Frothed Milk - Automatic Milk Frother
+image_link: ''
+raw_ingredient_list: Milk
+raw_procedure: 'Add milk, hit the button, and in a few minutes, you will have some nice and hot foamy milk.
+
+  The machine produces a lot of foam and not that much steamed milk. This is great for some drinks like cappuccinos, but not great for others.'
+episode: episode-0225
+_lookup:
+  episode_and_section: episode-0225::Frothed Milk - Automatic Milk Frother
+  db_id: 570

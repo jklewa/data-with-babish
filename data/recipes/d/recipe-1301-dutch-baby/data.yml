@@ -1,0 +1,19 @@
+babish_id: recipe-1301
+name: dutch baby
+image_link: null
+raw_ingredient_list: 'sugar
+
+  eggs
+
+  flour
+
+  milk
+
+  goat milk
+
+  sumac'
+raw_procedure: ''
+episode: episode-0210
+_lookup:
+  episode_and_section: episode-0210::dutch baby
+  db_id: 1320

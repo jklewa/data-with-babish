@@ -1,0 +1,25 @@
+babish_id: episode-0558
+name: Super Stretchy Nachos
+slug: super-stretchy-nachos
+published_date: 2025-01-21
+youtube_link: https://res.cloudinary.com/dd27yihoo/video/upload/v1737419518/kkfygv9xcv1ni1ppnjtw.mp4
+official_link: https://www.babi.sh/recipes/super-stretchy-nachos
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1737419521/h0aceafuundktzre2o1o.webp
+time_to_cook: 1800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0001
+- tag-0007
+- tag-0015
+- tag-0019
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1229
+_lookup:
+  slug: super-stretchy-nachos
+  babish_internal_id: 6o7aDpAcpexPsI9CK1OJ

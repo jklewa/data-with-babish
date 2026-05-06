@@ -1,0 +1,17 @@
+babish_id: recipe-1162
+name: Vanilla Frosting
+image_link: null
+raw_ingredient_list: '60 g unsalted butter, room temperature
+
+  180 g powdered sugar
+
+  30 g whole milk
+
+  1 tsp vanilla paste or ½ tsp vanilla extract
+
+  2 Tbsp rainbow sprinkles'
+raw_procedure: ''
+episode: episode-0111
+_lookup:
+  episode_and_section: episode-0111::Vanilla Frosting
+  db_id: 1181

@@ -1,0 +1,11 @@
+babish_id: recipe-1180
+name: aromatics
+image_link: null
+raw_ingredient_list: 'oyster mushrooms
+
+  chicken stock'
+raw_procedure: ''
+episode: episode-0033
+_lookup:
+  episode_and_section: episode-0033::aromatics
+  db_id: 1199

@@ -1,0 +1,23 @@
+babish_id: episode-0196
+name: Deep Fried Burger Bomb
+slug: deep-fried-burger-bomb
+published_date: 2025-06-06
+youtube_link: https://www.youtube.com/watch?v=dhRkD9u0C48&pp=ygUYZnJpZWQgYnVyZ2VyIGJvbWIgYmFiaXNo
+official_link: https://www.babi.sh/recipes/deep-fried-burger-bomb
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1749219273/tfuzfxhkivkjrmtvcjam.webp
+time_to_cook: null
+yield_qty: 5
+yield_unit: servings
+tags:
+- tag-0011
+- tag-0017
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by: []
+recipes: []
+_lookup:
+  slug: deep-fried-burger-bomb
+  babish_internal_id: TWiioMDwLgLG8b7gm7v8

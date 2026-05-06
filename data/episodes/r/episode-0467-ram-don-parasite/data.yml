@@ -1,0 +1,26 @@
+babish_id: episode-0467
+name: Ram-don inspired by Parasite
+slug: ram-don-parasite
+published_date: 2020-02-20
+youtube_link: https://www.youtube.com/watch?v=ge4vghXQTtQ
+official_link: https://www.babi.sh/recipes/ram-don-parasite
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695924/babishImages/undefined-950613.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+guests: []
+inspired_by:
+- reference-0173
+recipes:
+- recipe-0641
+- recipe-0642
+- recipe-0643
+- recipe-0644
+- recipe-0645
+- recipe-0646
+_lookup:
+  slug: ram-don-parasite
+  babish_internal_id: fFB5Vgvb3zJKupeBrUuQ

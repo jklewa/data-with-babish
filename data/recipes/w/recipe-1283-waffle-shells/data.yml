@@ -1,0 +1,19 @@
+babish_id: recipe-1283
+name: 'waffle shells:'
+image_link: null
+raw_ingredient_list: 'milk
+
+  sugar
+
+  heavy cream
+
+  dark chocolate
+
+  uncooked white rice
+
+  egg yolks'
+raw_procedure: ''
+episode: episode-0268
+_lookup:
+  episode_and_section: 'episode-0268::waffle shells:'
+  db_id: 1302

@@ -1,0 +1,13 @@
+babish_id: recipe-0831
+name: Manwich
+image_link: null
+raw_ingredient_list: '1 Manwich can
+
+  1 lb ground beef
+
+  1 package hamburger buns'
+raw_procedure: ''
+episode: episode-0515
+_lookup:
+  episode_and_section: episode-0515::Manwich
+  db_id: 845

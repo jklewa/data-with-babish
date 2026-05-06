@@ -1,0 +1,31 @@
+babish_id: recipe-0754
+name: Pastrami
+image_link: null
+raw_ingredient_list: 'Brisket
+
+  2 Tbsp pickling spices
+
+  2 tsp pink curing salt
+
+  1 cup brown sugar
+
+  100 g kosher salt
+
+  2 gallons distilled water
+
+  3 Tbsp coriander seeds, crushed
+
+  3 Tbsp freshly ground black pepper
+
+  1 tsp mustard powder
+
+  1 tsp paprika
+
+  1 tsp garlic powder
+
+  1 tsp onion powder'
+raw_procedure: ''
+episode: episode-0100
+_lookup:
+  episode_and_section: episode-0100::Pastrami
+  db_id: 768

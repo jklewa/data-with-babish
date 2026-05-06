@@ -1,0 +1,20 @@
+babish_id: episode-0118
+name: CHALLAH
+slug: challah
+published_date: 2021-12-07
+youtube_link: https://www.youtube.com/watch?v=M558453kb9g
+official_link: https://www.babi.sh/recipes/challah
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695737/babishImages/undefined-872033.png
+time_to_cook: 8400
+yield_qty: 1
+yield_unit: loaf
+tags:
+- tag-0013
+- tag-0016
+guests: []
+inspired_by: []
+recipes:
+- recipe-1407
+_lookup:
+  slug: challah
+  babish_internal_id: RjjccxLclHdysC4YT92x

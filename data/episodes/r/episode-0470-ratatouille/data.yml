@@ -1,0 +1,22 @@
+babish_id: episode-0470
+name: Confit Byaldi inspired by Ratatouille
+slug: ratatouille
+published_date: 2017-03-02
+youtube_link: https://www.youtube.com/watch?v=roCX0AfBseQ
+official_link: https://www.babi.sh/recipes/ratatouille
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992046/slqlttodtrdyc72qugsf.webp
+time_to_cook: null
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0025
+guests: []
+inspired_by:
+- reference-0099
+recipes:
+- recipe-0463
+_lookup:
+  slug: ratatouille
+  babish_internal_id: OZT3UyXoe3zoayeBlO21

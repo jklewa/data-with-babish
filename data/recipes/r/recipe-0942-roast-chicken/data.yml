@@ -1,0 +1,29 @@
+babish_id: recipe-0942
+name: Roast Chicken
+image_link: null
+raw_ingredient_list: '1 tsp salt per lb of chicken
+
+  ¼ tsp baking powder per lb of chicken
+
+  ½ tsp pepper per lb of chicken
+
+  1 (3-4 lb) chicken
+
+  1 large onion, roughly chopped
+
+  6 carrots, peeled + roughly chopped
+
+  4 celery ribs, roughly chopped
+
+  3 garlic cloves
+
+  4-6 sprigs fresh rosemary
+
+  4-6 sprig fresh thyme
+
+  3-5 sprigs fresh sage'
+raw_procedure: ''
+episode: episode-0128
+_lookup:
+  episode_and_section: episode-0128::Roast Chicken
+  db_id: 961

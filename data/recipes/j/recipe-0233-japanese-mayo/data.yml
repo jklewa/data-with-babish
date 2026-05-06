@@ -1,0 +1,13 @@
+babish_id: recipe-0233
+name: Japanese Mayo
+image_link: null
+raw_ingredient_list: '1 cup mayo
+
+  1 Tbsp sugar
+
+  1 Tbsp rice wine vinegar'
+raw_procedure: Mix.
+episode: episode-0397
+_lookup:
+  episode_and_section: episode-0397::Japanese Mayo
+  db_id: 238

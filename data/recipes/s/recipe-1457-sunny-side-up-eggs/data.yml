@@ -1,0 +1,9 @@
+babish_id: recipe-1457
+name: Sunny-Side Up Eggs
+image_link: null
+raw_ingredient_list: 1 Egg
+raw_procedure: '?'
+episode: episode-0214
+_lookup:
+  episode_and_section: episode-0214::Sunny-Side Up Eggs
+  db_id: 1476

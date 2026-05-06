@@ -1,0 +1,9 @@
+babish_id: reference-0089
+type: tv_show
+name: The West Wing
+description: Inside the lives of staffers in the West Wing of the White House. IMDb.
+external_link: https://www.imdb.com/title/tt0200276/
+image_link: https://i.ytimg.com/sh/bkPkh7QAf_b-brmM75uDIA/market.jpg
+_lookup:
+  canonical_name: The West Wing
+  db_id: 91

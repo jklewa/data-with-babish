@@ -1,0 +1,27 @@
+babish_id: episode-0427
+name: PIES
+slug: pies
+published_date: 2019-10-31
+youtube_link: https://www.youtube.com/watch?v=i7648rZpdck&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/i7648rZpdck/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/pies
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1685738083/pavqbqcfsckezrvhlk33.webp
+time_to_cook: 5400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-0566
+- recipe-0567
+- recipe-0568
+- recipe-0569
+- recipe-0570
+- recipe-0571
+_lookup:
+  slug: pies
+  babish_internal_id: fqKU78DmLxjqYs4Bs92B

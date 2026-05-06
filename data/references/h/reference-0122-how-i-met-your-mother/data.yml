@@ -1,0 +1,11 @@
+babish_id: reference-0122
+type: tv_show
+name: ' How I Met Your Mother'
+description: A father recounts to his children, through a series of flashbacks, the journey he and his four best friends took leading up to him meeting their mother. IMDb.
+external_link: https://www.imdb.com/title/tt0460649/
+image_link: https://i.ytimg.com/sh/nS5ZZknwMNMvpBoMbhVkHQ/market.jpg
+_lookup:
+  canonical_name: ' How I Met Your Mother'
+  db_id: 124
+  aliases:
+  - How I Met Your Mother

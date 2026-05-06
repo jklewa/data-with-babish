@@ -1,0 +1,34 @@
+babish_id: episode-0230
+name: Feast inspired by Chef
+slug: feast-from-chef
+published_date: 2021-10-04
+youtube_link: https://www.youtube.com/watch?v=ghnXKzE4z7o
+official_link: https://www.babi.sh/recipes/feast-from-chef
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696140/babishImages/undefined-657693.png
+time_to_cook: 10800
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+guests: []
+inspired_by:
+- reference-0045
+recipes:
+- recipe-1116
+- recipe-1117
+- recipe-1118
+- recipe-1119
+- recipe-1120
+- recipe-1121
+- recipe-1122
+- recipe-1123
+- recipe-1124
+- recipe-1125
+- recipe-1126
+- recipe-1127
+- recipe-1128
+- recipe-1129
+_lookup:
+  slug: feast-from-chef
+  babish_internal_id: pZApBC2sMMz0PUrnfAA5

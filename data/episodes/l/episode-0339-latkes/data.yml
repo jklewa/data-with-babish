@@ -1,0 +1,21 @@
+babish_id: episode-0339
+name: LATKES (POTATO PANCAKES)
+slug: latkes
+published_date: 2020-04-02
+youtube_link: https://www.youtube.com/watch?v=AwOoMG3J4h8
+official_link: https://www.babi.sh/recipes/latkes
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715530/babishImages/undefined-299757.png
+time_to_cook: 2700
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0019
+guests: []
+inspired_by: []
+recipes:
+- recipe-1435
+- recipe-1436
+_lookup:
+  slug: latkes
+  babish_internal_id: aKObI89IubiyRIVXjkUb

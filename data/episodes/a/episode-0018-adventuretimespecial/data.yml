@@ -1,0 +1,27 @@
+babish_id: episode-0018
+name: Adventure Time Special
+slug: adventuretimespecial
+published_date: 2018-09-11
+youtube_link: https://www.youtube.com/watch?v=SjeS6gtPq8E
+official_link: https://www.babi.sh/recipes/adventuretimespecial
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715699/babishImages/undefined-467797.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0020
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0047
+recipes:
+- recipe-0197
+- recipe-0198
+- recipe-0199
+_lookup:
+  slug: adventuretimespecial
+  babish_internal_id: jkrgPE5vnu8oHcfFlbmR

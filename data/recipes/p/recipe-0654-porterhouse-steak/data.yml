@@ -1,0 +1,13 @@
+babish_id: recipe-0654
+name: PorterHouse Steak
+image_link: null
+raw_ingredient_list: '24oz PorterHouse steak
+
+  Kosher salt
+
+  Vegetable oil'
+raw_procedure: ''
+episode: episode-0612
+_lookup:
+  episode_and_section: episode-0612::PorterHouse Steak
+  db_id: 668

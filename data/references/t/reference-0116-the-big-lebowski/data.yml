@@ -1,0 +1,9 @@
+babish_id: reference-0116
+type: movie
+name: The Big Lebowski
+description: Jeff "The Dude" Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and enlists his bowling buddies to help get it. IMDb.
+external_link: https://www.imdb.com/title/tt0118715/
+image_link: https://img.youtube.com/vi/tgKhPObZeaw/mqdefault.jpg
+_lookup:
+  canonical_name: The Big Lebowski
+  db_id: 118

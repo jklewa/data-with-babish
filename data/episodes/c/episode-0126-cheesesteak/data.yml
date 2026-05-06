@@ -1,0 +1,27 @@
+babish_id: episode-0126
+name: Philly Cheesesteaks inspired by Creed
+slug: cheesesteak
+published_date: 2016-08-21
+youtube_link: https://www.youtube.com/watch?v=Zru1yk--rGQ
+official_link: https://www.babi.sh/recipes/cheesesteak
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992082/xlhovdhhw4afkquqaobt.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0015
+- tag-0020
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0106
+recipes:
+- recipe-0496
+_lookup:
+  slug: cheesesteak
+  babish_internal_id: opWPUUKAS09xy3zimKAY

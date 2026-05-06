@@ -1,0 +1,19 @@
+babish_id: episode-0141
+name: Chilaquiles Divorciados (Con Todo)
+slug: chilaquiles-divorciados-(con-todo)
+published_date: 2024-05-06
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/chilaquiles-divorciados-(con-todo)
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1715004133/jasux88sbxvtoi3eawdi.webp
+time_to_cook: null
+yield_qty: 3
+yield_unit: servings
+tags:
+- tag-0001
+guests: []
+inspired_by: []
+recipes:
+- recipe-1280
+_lookup:
+  slug: chilaquiles-divorciados-(con-todo)
+  babish_internal_id: jf9lF8zP9kviFpnmm7E1

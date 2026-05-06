@@ -1,0 +1,28 @@
+babish_id: episode-0131
+name: Chicken Fingers inspired by Community
+slug: chicken-fingers-community
+published_date: 2021-04-02
+youtube_link: https://www.youtube.com/watch?v=MJoSs4BGaHI
+official_link: https://www.babi.sh/recipes/chicken-fingers-community
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695499/babishImages/undefined-134001.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0015
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0184
+recipes:
+- recipe-0945
+- recipe-0946
+- recipe-0947
+_lookup:
+  slug: chicken-fingers-community
+  babish_internal_id: FYh4qRcZsIYFxsAcrAGb

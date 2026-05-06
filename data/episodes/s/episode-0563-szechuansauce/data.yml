@@ -1,0 +1,27 @@
+babish_id: episode-0563
+name: Rick & Morty Szechuan Sauce
+slug: szechuansauce
+published_date: 2017-04-04
+youtube_link: https://www.youtube.com/watch?v=wBhhlE92mIQ
+official_link: https://www.babi.sh/recipes/szechuansauce
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992071/w9ssivutxmhyd3qxqme8.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0025
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0081
+recipes:
+- recipe-0450
+- recipe-0451
+- recipe-0452
+_lookup:
+  slug: szechuansauce
+  babish_internal_id: m6eUG7o2Wl0eOU75F5dd

@@ -1,0 +1,23 @@
+babish_id: episode-0473
+name: Renaissance Wrap Inspired by Shrek 2
+slug: renaissance-wrap-inspired-by-shrek-2
+published_date: 2024-06-05
+youtube_link: https://youtu.be/BY888aujzh0
+official_link: https://www.babi.sh/recipes/renaissance-wrap-inspired-by-shrek-2
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1717605574/tkax0edrxmko4bwrzv8v.webp
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0020
+- tag-0029
+- tag-0032
+- tag-0033
+guests: []
+inspired_by: []
+recipes:
+- recipe-1278
+_lookup:
+  slug: renaissance-wrap-inspired-by-shrek-2
+  babish_internal_id: o4iD2FDri3qc3RBuf23D

@@ -1,0 +1,22 @@
+babish_id: episode-0607
+name: Triple Deluxe Dog inspired by Hot Dog Detective
+slug: triple-deluxe-dog-hot-dog-detective
+published_date: 2023-08-31
+youtube_link: https://www.youtube.com/watch?v=FTWrSPJbhpQ
+official_link: https://www.babi.sh/recipes/triple-deluxe-dog-hot-dog-detective
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1695141157/gjo2fyopc9prtgikyygf.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0012
+- tag-0017
+- tag-0021
+guests: []
+inspired_by:
+- reference-0282
+recipes:
+- recipe-1315
+_lookup:
+  slug: triple-deluxe-dog-hot-dog-detective
+  babish_internal_id: h7BbvsjG0Y9BZzSbKbQZ

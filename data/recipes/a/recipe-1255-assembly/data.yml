@@ -1,0 +1,11 @@
+babish_id: recipe-1255
+name: assembly
+image_link: null
+raw_ingredient_list: 'mirin
+
+  soy sauce'
+raw_procedure: ''
+episode: episode-0373
+_lookup:
+  episode_and_section: episode-0373::assembly
+  db_id: 1274

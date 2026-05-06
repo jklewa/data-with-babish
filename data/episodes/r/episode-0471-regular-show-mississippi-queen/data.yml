@@ -1,0 +1,23 @@
+babish_id: episode-0471
+name: Mississippi Queen inspired by Regular Show
+slug: regular-show-mississippi-queen
+published_date: 2020-10-20
+youtube_link: https://www.youtube.com/watch?v=KV-SUOpW408
+official_link: https://www.babi.sh/recipes/regular-show-mississippi-queen
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695753/babishImages/undefined-770920.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0023
+- tag-0032
+guests: []
+inspired_by:
+- reference-0006
+recipes:
+- recipe-0751
+_lookup:
+  slug: regular-show-mississippi-queen
+  babish_internal_id: TC1NVkGo8QwhsMyQ0vSk

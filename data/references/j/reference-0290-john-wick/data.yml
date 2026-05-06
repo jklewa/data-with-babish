@@ -1,0 +1,9 @@
+babish_id: reference-0290
+type: movie
+name: John Wick
+description: Action film series starring Keanu Reeves as a retired hitman returning to the underworld.
+external_link: null
+image_link: null
+_lookup:
+  canonical_name: John Wick
+  db_id: 614

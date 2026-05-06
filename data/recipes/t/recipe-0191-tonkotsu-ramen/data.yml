@@ -1,0 +1,31 @@
+babish_id: recipe-0191
+name: Tonkotsu Ramen
+image_link: null
+raw_ingredient_list: 'Sliced chashu pork
+
+  Cooked ramen noodles
+
+  Tare
+
+  Tonkotsu broth
+
+  Nori (dried seaweed)
+
+  Scallions
+
+  Menma'
+raw_procedure: 'In the bottom of a bowl place a few Tbsp of the tare along with a few ladle-fulls of hot broth.
+
+  Remove noodles from water and vigorously shake them and then place them in the broth.
+
+  Into the back of the bowl goes 1-2 slices of the chashu pork, and along the side goes a single sheet of nori.
+
+  Cut in half one of the marinated soft boiled eggs and place on the opposite side of the nori.
+
+  Add a handful of scallions and some spicy menma if you’d like, but it’s not necessary.
+
+  Serve and enjoy!'
+episode: episode-0601
+_lookup:
+  episode_and_section: episode-0601::Tonkotsu Ramen
+  db_id: 196

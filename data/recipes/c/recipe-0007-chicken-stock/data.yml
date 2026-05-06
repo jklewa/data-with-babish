@@ -1,0 +1,27 @@
+babish_id: recipe-0007
+name: Chicken Stock
+image_link: null
+raw_ingredient_list: 'Chicken wings and spine pieces
+
+  Vegetable oil
+
+  Onion
+
+  Carrots
+
+  Celery
+
+  Fresh thyme
+
+  Halved head of garlic
+
+  8 cups cold water'
+raw_procedure: 'Add chicken bones and vegetables to a large saucepan with oil. Brown all of the pieces.
+
+  Once the chicken has some color on it, deglaze the pot with 8 cups of cold water.
+
+  Bring the whole thing to simmer lower heat until it reaches a bare simmer, and keep it there for about 4 hours.'
+episode: episode-0318
+_lookup:
+  episode_and_section: episode-0318::Chicken Stock
+  db_id: 11

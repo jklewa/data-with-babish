@@ -1,0 +1,9 @@
+babish_id: reference-0070
+type: movie
+name: The Simpsons Movie
+description: After Homer accidentally pollutes the town's water supply, Springfield is encased in a gigantic dome by the EPA and the family are declared fugitives. IMDb.
+external_link: https://www.imdb.com/title/tt0462538/
+image_link: https://img.youtube.com/vi/kgOLxXx0KUw/mqdefault.jpg
+_lookup:
+  canonical_name: The Simpsons Movie
+  db_id: 72

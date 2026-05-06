@@ -1,0 +1,11 @@
+babish_id: recipe-1436
+name: toppings
+image_link: null
+raw_ingredient_list: 'eggs
+
+  panko breadcrumbs'
+raw_procedure: ''
+episode: episode-0339
+_lookup:
+  episode_and_section: episode-0339::toppings
+  db_id: 1455

@@ -1,0 +1,23 @@
+babish_id: episode-0165
+name: COFFEE
+slug: coffee
+published_date: 2019-05-31
+youtube_link: https://www.youtube.com/watch?v=6yItCQB4V9A
+official_link: https://www.babi.sh/recipes/coffee
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1685913686/jkj0usgdv3og2qcwbn95.webp
+time_to_cook: 600
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0013
+- tag-0031
+guests:
+- guest-0011
+inspired_by: []
+recipes:
+- recipe-0050
+- recipe-0051
+- recipe-0052
+_lookup:
+  slug: coffee
+  babish_internal_id: tzgoOR9yHUf5Eq1m9eNR

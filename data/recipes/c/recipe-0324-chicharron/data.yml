@@ -1,0 +1,15 @@
+babish_id: recipe-0324
+name: Chicharron
+image_link: null
+raw_ingredient_list: ''
+raw_procedure: 'Cover meat in baking soda and salt and refrigerate on a rack for 2-24 hours.
+
+  Once removed from the fridge, cut the pork belly into half inch pieces.
+
+  Place the meat in a wok and barely cover with water, bring to a boil, and skim off any scum that comes to the surface for the next 2-4 hours.
+
+  Cook down until pork belly is rendering in its own fat.'
+episode: episode-0226
+_lookup:
+  episode_and_section: episode-0226::Chicharron
+  db_id: 333

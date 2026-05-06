@@ -1,0 +1,24 @@
+babish_id: episode-0407
+name: PAN PIZZA
+slug: panpizza
+published_date: 2019-08-29
+youtube_link: https://www.youtube.com/watch?v=J_3v7DEkjsk
+official_link: https://www.babi.sh/recipes/panpizza
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1685822945/clzbl3brlxs8oqrbxetx.webp
+time_to_cook: 5400
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0014
+guests: []
+inspired_by: []
+recipes:
+- recipe-0510
+- recipe-0511
+- recipe-0512
+- recipe-0513
+- recipe-0514
+_lookup:
+  slug: panpizza
+  babish_internal_id: Psbc3vTskU2QhjpHNyyM

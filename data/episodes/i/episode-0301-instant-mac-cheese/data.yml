@@ -1,0 +1,22 @@
+babish_id: episode-0301
+name: Instant Mac and Cheese inspired by Once Upon a Time in Hollywood
+slug: instant-mac-cheese
+published_date: 2020-02-04
+youtube_link: https://www.youtube.com/watch?v=EuU_uUb_3nQ
+official_link: https://www.babi.sh/recipes/instant-mac-cheese
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695494/babishImages/undefined-716568.jpg
+time_to_cook: 4800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+guests: []
+inspired_by:
+- reference-0171
+recipes:
+- recipe-0634
+- recipe-0635
+_lookup:
+  slug: instant-mac-cheese
+  babish_internal_id: FY57llxnD1igbKnZDj4V

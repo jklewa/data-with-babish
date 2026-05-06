@@ -1,0 +1,26 @@
+babish_id: episode-0388
+name: Moroccan Pasta inspired by Peep Show
+slug: moroccanpasta
+published_date: 2018-01-09
+youtube_link: https://www.youtube.com/watch?v=kBo7FK3NO6s
+official_link: https://www.babi.sh/recipes/moroccanpasta
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715719/babishImages/undefined-684211.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0022
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0067
+recipes:
+- recipe-0332
+- recipe-0333
+- recipe-0334
+_lookup:
+  slug: moroccanpasta
+  babish_internal_id: qCAHQKgCy9oleReF7naj

@@ -1,0 +1,24 @@
+babish_id: episode-0592
+name: The Ultimate Steak Sandwich
+slug: the-ultimate-steak-sandwich
+published_date: 2025-06-23
+youtube_link: https://www.youtube.com/watch?v=oHEYV2rHu1Y&t=24s&ab_channel=BabishCulinaryUniverse
+official_link: https://www.babi.sh/recipes/the-ultimate-steak-sandwich
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1750701480/jlorutwp35q6pflkibej.webp
+time_to_cook: 7200
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0008
+- tag-0020
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1206
+_lookup:
+  slug: the-ultimate-steak-sandwich
+  babish_internal_id: cHsicy6M8kCJUOSXxt53

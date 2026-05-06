@@ -1,0 +1,27 @@
+babish_id: episode-0075
+name: Big Kahuna Burger inspired by Pulp Fiction
+slug: bigkahunaburger
+published_date: 2017-01-03
+youtube_link: https://www.youtube.com/watch?v=OmwE0aJqkdA
+official_link: https://www.babi.sh/recipes/bigkahunaburger
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992063/svmbfnvcgcixlk4husak.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0015
+- tag-0020
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0102
+recipes:
+- recipe-0479
+_lookup:
+  slug: bigkahunaburger
+  babish_internal_id: dl5jxz3dKOFQBcFGr4Rp

@@ -1,0 +1,21 @@
+babish_id: recipe-1348
+name: vegan ‘cheese’
+image_link: null
+raw_ingredient_list: 'flour
+
+  vegetables
+
+  legumes or potato
+
+  cashews
+
+  refined coconut oil
+
+  brown rice
+
+  sauerkraut or pickle brine'
+raw_procedure: ''
+episode: episode-0452
+_lookup:
+  episode_and_section: episode-0452::vegan ‘cheese’
+  db_id: 1367

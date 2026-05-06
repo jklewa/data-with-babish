@@ -1,0 +1,26 @@
+babish_id: episode-0062
+name: Chili Dogs inspired by The Irishman
+slug: beer-steamed-chili-dogs
+published_date: 2019-12-17
+youtube_link: https://www.youtube.com/watch?v=c0A1bkF4mKM&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/c0A1bkF4mKM/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/beer-steamed-chili-dogs
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695792/babishImages/undefined-202970.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0029
+- tag-0031
+guests: []
+inspired_by:
+- reference-0136
+recipes:
+- recipe-0604
+- recipe-0605
+- recipe-0606
+- recipe-0607
+_lookup:
+  slug: beer-steamed-chili-dogs
+  babish_internal_id: UlGeWkslFPzyqVWnKZi0

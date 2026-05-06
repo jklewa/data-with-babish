@@ -1,0 +1,27 @@
+babish_id: episode-0234
+name: The Fitz Sandwich inspired by Agents of S.H.I.E.L.D.
+slug: fitz-sandwich
+published_date: 2017-08-22
+youtube_link: https://www.youtube.com/watch?v=xugufifsB4s
+official_link: https://www.babi.sh/recipes/fitz-sandwich
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715497/babishImages/undefined-530115.jpg
+time_to_cook: null
+yield_qty: 2
+yield_unit: twelve inch sandwiches
+tags:
+- tag-0004
+- tag-0012
+- tag-0015
+- tag-0020
+- tag-0029
+- tag-0031
+guests: []
+inspired_by:
+- reference-0082
+recipes:
+- recipe-0396
+- recipe-0397
+- recipe-0398
+_lookup:
+  slug: fitz-sandwich
+  babish_internal_id: NCFWHme8ZPnRttz5JaRB

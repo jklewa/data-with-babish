@@ -1,0 +1,25 @@
+babish_id: episode-0280
+name: HEALTHIER VERSIONS OF UNHEALTHY FOOD
+slug: healthymeals2
+published_date: 2019-11-14
+youtube_link: https://www.youtube.com/watch?v=yYUUobrsFDs
+official_link: https://www.babi.sh/recipes/healthymeals2
+image_link: https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1573758694626-P6IPLSVAPBA8AOHLCU5G/Screen+Shot+2019-11-14+at+1.06.35+PM.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0026
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0586
+- recipe-0587
+- recipe-0588
+_lookup:
+  slug: healthymeals2
+  babish_internal_id: FCXi6GGfQF4a5yufRzm9

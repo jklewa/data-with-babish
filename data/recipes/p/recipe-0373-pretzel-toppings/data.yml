@@ -1,0 +1,37 @@
+babish_id: recipe-0373
+name: Pretzel Toppings
+image_link: null
+raw_ingredient_list: 'Cinnamon sugar
+
+  Melted chocolate
+
+  Melted white chocolate
+
+  M&Ms
+
+  Mint chips
+
+  Chocolate chips
+
+  Miniature marshmallows
+
+  Nuts (peanuts)
+
+  Toffee Nuts (candied pecans)
+
+  Sweetened coconut flakes
+
+  Crushed Oreos
+
+  Multi-colored sprinkles
+
+  Cotton candy bits
+
+  Powdered sugar'
+raw_procedure: 'After the pretzels have slightly cooled, brush them with melted butter.
+
+  Top with sweet glaze, cinnamon sugar, chocolate drizzle, white chocolate drizzle, a smearing of hot fudge, M&Ms, caramel sauce, mint chips, chocolate chips, miniature marshmallows, nuts (peanuts), toffee nuts (candied pecans), coconut, peanut butter drizzle, crushed Oreos, multi-colored jimmies (sprinkles), cotton candy bits, and a gentle snowfall of powdered sugar.'
+episode: episode-0375
+_lookup:
+  episode_and_section: episode-0375::Pretzel Toppings
+  db_id: 382

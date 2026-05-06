@@ -1,0 +1,30 @@
+babish_id: episode-0100
+name: The Broodwich inspired by Aqua Teen Hunger Force
+slug: broodwich-aqua-teen-hunger-force
+published_date: 2020-10-27
+youtube_link: https://www.youtube.com/watch?v=0vZvPtI5Uk8
+official_link: https://www.babi.sh/recipes/broodwich-aqua-teen-hunger-force
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695861/babishImages/undefined-804479.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0020
+- tag-0029
+- tag-0033
+guests: []
+inspired_by:
+- reference-0194
+recipes:
+- recipe-0752
+- recipe-0753
+- recipe-0754
+- recipe-0755
+- recipe-0756
+- recipe-0757
+- recipe-0758
+_lookup:
+  slug: broodwich-aqua-teen-hunger-force
+  babish_internal_id: bvK3O7Wy7Nmm3DNRMQ5u

@@ -1,0 +1,13 @@
+babish_id: recipe-1199
+name: spinach noodles
+image_link: null
+raw_ingredient_list: 'flour
+
+  shaoxing wine
+
+  green onions cut into pieces'
+raw_procedure: ''
+episode: episode-0626
+_lookup:
+  episode_and_section: episode-0626::spinach noodles
+  db_id: 1218

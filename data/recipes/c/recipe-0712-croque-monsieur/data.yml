@@ -1,0 +1,15 @@
+babish_id: recipe-0712
+name: Croque Monsieur
+image_link: null
+raw_ingredient_list: 'Pain de Mie bread
+
+  3-4 oz gruyere cheese, shredded
+
+  Bechamel
+
+  6 slices ham'
+raw_procedure: ''
+episode: episode-0186
+_lookup:
+  episode_and_section: episode-0186::Croque Monsieur
+  db_id: 726

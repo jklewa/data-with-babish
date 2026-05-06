@@ -1,0 +1,33 @@
+babish_id: episode-0444
+name: Pork Picnic Sandwich inspired by Regular Show
+slug: pork-picnic-sandwich-regular-show
+published_date: 2021-06-23
+youtube_link: https://www.youtube.com/watch?v=mMle42fPNn0
+official_link: https://www.babi.sh/recipes/pork-picnic-sandwich-regular-show
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1680286806/rtypvx8voggfuw7vtuwp.webp
+time_to_cook: 6000
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0020
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0006
+recipes:
+- recipe-1009
+- recipe-1010
+- recipe-1011
+- recipe-1012
+- recipe-1013
+- recipe-1014
+- recipe-1015
+- recipe-1016
+_lookup:
+  slug: pork-picnic-sandwich-regular-show
+  babish_internal_id: Z7l23eqSXJYSDyKUh7fU

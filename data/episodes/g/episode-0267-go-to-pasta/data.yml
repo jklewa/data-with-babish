@@ -1,0 +1,23 @@
+babish_id: episode-0267
+name: LATE NIGHT PASTA
+slug: go-to-pasta
+published_date: 2022-08-17
+youtube_link: https://www.youtube.com/watch?v=Tj26Na3q2d8
+official_link: https://www.babi.sh/recipes/go-to-pasta
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715436/babishImages/undefined-603225.png
+time_to_cook: 1800
+yield_qty: 2
+yield_unit: 'serves:'
+tags:
+- tag-0013
+- tag-0015
+- tag-0022
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1375
+_lookup:
+  slug: go-to-pasta
+  babish_internal_id: 1INoWcjSGinGrAYactui

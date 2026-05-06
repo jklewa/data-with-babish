@@ -1,0 +1,22 @@
+babish_id: episode-0506
+name: SHAKSHUKA
+slug: shakshuka
+published_date: 2020-06-11
+youtube_link: https://www.youtube.com/watch?v=SjCkW-oAFQ8
+official_link: https://www.babi.sh/recipes/shakshuka
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715737/babishImages/undefined-636249.png
+time_to_cook: 2100
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0028
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1425
+_lookup:
+  slug: shakshuka
+  babish_internal_id: v5BgTYX9u38MI20tgAH1

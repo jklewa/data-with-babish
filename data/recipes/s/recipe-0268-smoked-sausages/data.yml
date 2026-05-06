@@ -1,0 +1,13 @@
+babish_id: recipe-0268
+name: Smoked Sausages
+image_link: null
+raw_ingredient_list: Sausages or bratwursts
+raw_procedure: 'Preheat your smoker to 225°F.
+
+  Place the sausages in the smoker and smoke for 30-60 minutes depending on size.
+
+  The sausages are done when they reach an internal temperature of 160°F.'
+episode: episode-0274
+_lookup:
+  episode_and_section: episode-0274::Smoked Sausages
+  db_id: 273

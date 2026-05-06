@@ -1,0 +1,22 @@
+babish_id: episode-0032
+name: Margaritas inspired by Archer
+slug: archer-margarita
+published_date: 2020-05-05
+youtube_link: https://www.youtube.com/watch?v=hsPXh3yna1U
+official_link: https://www.babi.sh/recipes/archer-margarita
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695554/babishImages/undefined-521982.png
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+guests: []
+inspired_by:
+- reference-0022
+recipes:
+- recipe-0671
+- recipe-0672
+_lookup:
+  slug: archer-margarita
+  babish_internal_id: J4bRN3PkUalYtpKeW4bQ

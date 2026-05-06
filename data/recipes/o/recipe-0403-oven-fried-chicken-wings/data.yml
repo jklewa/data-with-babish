@@ -1,0 +1,19 @@
+babish_id: recipe-0403
+name: Oven Fried Chicken Wings
+image_link: null
+raw_ingredient_list: '2 pounds chicken wings, separated into pieces
+
+  2 tsp kosher salt
+
+  2 tsp baking powder
+
+  1 Tbsp lemon-pepper seasoning (see below to make seasoning from scratch)
+
+  1/4 cup buffalo sauce (for JR Crickets version)
+
+  1/4 cup clarified butter (for American Deli version)'
+raw_procedure: Combine kosher salt and baking powder, and sprinkle over wings.  Toss until thoroughly coated, and place wings, far apart enough so that they’re not touching, on a wire rack in a rimmed baking sheet.  Refrigerate overnight, uncovered, and allow to stand at room temperature for 30 minutes before baking at 450°F for 35-45 minutes, until brown and crisp.  For JR Crickets version, toss with lemon pepper seasoning, followed by buffalo sauce.  For American Deli version, toss with lemon pepper seasoning, followed by clarified butter.
+episode: episode-0345
+_lookup:
+  episode_and_section: episode-0345::Oven Fried Chicken Wings
+  db_id: 412

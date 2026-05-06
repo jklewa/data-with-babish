@@ -1,0 +1,23 @@
+babish_id: recipe-1274
+name: 'halloumi sandwich ingredients:'
+image_link: null
+raw_ingredient_list: 'jarred roasted red peppers drained
+
+  halloumi cut into 1 or 2 inch
+
+  unsalted almonds roasted
+
+  sundried tomatoes drained
+
+  parsley
+
+  basil
+
+  garlic
+
+  sherry vinegar'
+raw_procedure: ''
+episode: episode-0276
+_lookup:
+  episode_and_section: 'episode-0276::halloumi sandwich ingredients:'
+  db_id: 1293

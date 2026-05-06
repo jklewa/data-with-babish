@@ -1,0 +1,7 @@
+babish_id: tag-0003
+axis: Source
+name: Video Game
+_lookup:
+  babish_external_id: 93547ef4-26d0-459b-97b3-016e8c756473
+  axis_and_name: Source::Video Game
+  db_id: 3

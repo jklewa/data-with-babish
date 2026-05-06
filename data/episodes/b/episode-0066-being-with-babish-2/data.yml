@@ -1,0 +1,21 @@
+babish_id: episode-0066
+name: Surprising a Fan with a Vegas Hotel Suite
+slug: being-with-babish-2
+published_date: 2019-04-05
+youtube_link: https://www.youtube.com/watch?v=QphHaVaAeG4
+official_link: https://www.youtube.com/watch?v=QphHaVaAeG4
+image_link: https://img.youtube.com/vi/QphHaVaAeG4/mqdefault.jpg
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags: []
+guests:
+- guest-0005
+- guest-0013
+- guest-0019
+- guest-0021
+- guest-0025
+inspired_by: []
+recipes: []
+_lookup:
+  slug: being-with-babish-2

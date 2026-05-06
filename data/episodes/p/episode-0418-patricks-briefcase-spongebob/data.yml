@@ -1,0 +1,22 @@
+babish_id: episode-0418
+name: Patrick’s Briefcase inspired by SpongeBob Squarepants
+slug: patricks-briefcase-spongebob
+published_date: 2022-10-28
+youtube_link: https://www.youtube.com/watch?v=GJ2otRI37So
+official_link: https://www.babi.sh/recipes/patricks-briefcase-spongebob
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695396/babishImages/undefined-904306.png
+time_to_cook: 4800
+yield_qty: 12
+yield_unit: cake donuts
+tags:
+- tag-0004
+- tag-0012
+- tag-0032
+guests: []
+inspired_by:
+- reference-0020
+recipes:
+- recipe-1365
+_lookup:
+  slug: patricks-briefcase-spongebob
+  babish_internal_id: BUEDRtZVguGOgPL8CcBk

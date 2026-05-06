@@ -1,0 +1,29 @@
+babish_id: recipe-1156
+name: Chocolate Cake
+image_link: null
+raw_ingredient_list: '100 g cocoa powder + more for coating
+
+  180 g water, boiling
+
+  210 g whole milk, cold
+
+  190 g unsalted butter, room temperature
+
+  450 g sugar
+
+  3 large eggs
+
+  1 tsp vanilla extract
+
+  270 g all-purpose flour
+
+  1 ½ tsp baking powder
+
+  ¾ tsp baking soda
+
+  1 tsp kosher salt'
+raw_procedure: ''
+episode: episode-0111
+_lookup:
+  episode_and_section: episode-0111::Chocolate Cake
+  db_id: 1175

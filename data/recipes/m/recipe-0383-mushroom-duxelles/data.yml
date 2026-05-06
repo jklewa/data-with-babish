@@ -1,0 +1,25 @@
+babish_id: recipe-0383
+name: Mushroom Duxelles
+image_link: null
+raw_ingredient_list: '10 mushrooms (chopped in food processor)
+
+  1 clove freshly crushed garlic
+
+  1 Tbsp thyme
+
+  2 Tbsp butter
+
+  Cognac
+
+  Heavy cream
+
+  Salt and pepper'
+raw_procedure: 'In a food processor, pulse the mushrooms until finely chopped. Then, finely chop the thyme.
+
+  Over medium heat, melt butter in a skillet. Add mushrooms and combine with butter. Add thyme. Using a garlic crusher, crush garlic and add to mushroom mixture. Continue to combine over medium heat for about 10-15 minutes or until the mushrooms are caramelized.
+
+  Once the mushrooms are caramelized, add a generous splash of Cognac and stir to deglaze the pan. Add heavy cream and cook for several minutes or until all the moisture is gone. You should be left with a paté-like mixture. Set aside.'
+episode: episode-0360
+_lookup:
+  episode_and_section: episode-0360::Mushroom Duxelles
+  db_id: 392

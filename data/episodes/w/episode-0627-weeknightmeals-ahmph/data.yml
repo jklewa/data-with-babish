@@ -1,0 +1,22 @@
+babish_id: episode-0627
+name: WEEKNIGHT MEALS
+slug: weeknightmeals-ahmph
+published_date: 2018-10-18
+youtube_link: https://www.youtube.com/watch?v=zQm9Bk2bA_Q
+official_link: https://www.babi.sh/recipes/weeknightmeals-ahmph
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686010430/fi08x0zu6bdk1v3akgws.webp
+time_to_cook: 2700
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0175
+- recipe-0176
+- recipe-0177
+_lookup:
+  slug: weeknightmeals-ahmph
+  babish_internal_id: jKL1cN2i0Dm7uVFA4JOl

@@ -1,0 +1,27 @@
+babish_id: episode-0329
+name: Krabby Patty inspired by SpongeBob SquarePants
+slug: krabby-patty-inspired-by-spongebob-squarepants
+published_date: 2017-05-31
+youtube_link: https://www.youtube.com/watch?v=7EnWiGYT1g4
+official_link: https://www.babi.sh/recipes/krabby-patty-inspired-by-spongebob-squarepants
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992095/bs95zkj5j4ghhipdz1qy.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0020
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0020
+recipes:
+- recipe-0426
+- recipe-0427
+_lookup:
+  slug: krabby-patty-inspired-by-spongebob-squarepants
+  babish_internal_id: yBWEsGIrTFiInKQiOM7Y

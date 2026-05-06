@@ -1,0 +1,27 @@
+babish_id: episode-0337
+name: Lasagna inspired by Garfield (feat. It's Alive with Brad)
+slug: lasagna
+published_date: 2018-03-27
+youtube_link: https://www.youtube.com/watch?v=TkWmK-cplV4
+official_link: https://www.babi.sh/recipes/lasagna
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715729/babishImages/undefined-269836.png
+time_to_cook: null
+yield_qty: 10
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0022
+- tag-0030
+- tag-0031
+guests:
+- guest-0007
+- guest-0022
+inspired_by:
+- reference-0062
+- reference-0075
+recipes:
+- recipe-0291
+_lookup:
+  slug: lasagna
+  babish_internal_id: u5T4NP9E6BIouk8LN6wK

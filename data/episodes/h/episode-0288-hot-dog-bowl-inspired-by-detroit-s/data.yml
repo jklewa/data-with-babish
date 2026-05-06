@@ -1,0 +1,27 @@
+babish_id: episode-0288
+name: Hot Dog Bowl inspired by Detroit's
+slug: hot-dog-bowl-inspired-by-detroit's
+published_date: 2024-08-15
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/hot-dog-bowl-inspired-by-detroit's
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1723731301/k0wms2xccvdn88hir5g7.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0017
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+- tag-0032
+guests: []
+inspired_by:
+- reference-0277
+recipes:
+- recipe-1270
+_lookup:
+  slug: hot-dog-bowl-inspired-by-detroit's
+  babish_internal_id: zR7WxgLe8TjGbHfguwEn

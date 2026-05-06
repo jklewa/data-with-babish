@@ -1,0 +1,23 @@
+babish_id: episode-0308
+name: JERK CHICKEN
+slug: jerk-chicken
+published_date: 2021-08-03
+youtube_link: https://www.youtube.com/watch?v=WOMOVA9UMic
+official_link: https://www.babi.sh/recipes/jerk-chicken
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696323/babishImages/undefined-904189.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0021
+guests: []
+inspired_by: []
+recipes:
+- recipe-1096
+- recipe-1097
+- recipe-1098
+_lookup:
+  slug: jerk-chicken
+  babish_internal_id: wI4XgtwycfsSpFH7kpyt

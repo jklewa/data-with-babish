@@ -1,0 +1,11 @@
+babish_id: recipe-1371
+name: everything bagel
+image_link: null
+raw_ingredient_list: 'every spice available
+
+  barley malt syrup'
+raw_procedure: ''
+episode: episode-0227
+_lookup:
+  episode_and_section: episode-0227::everything bagel
+  db_id: 1390

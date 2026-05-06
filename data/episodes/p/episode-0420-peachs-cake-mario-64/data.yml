@@ -1,0 +1,23 @@
+babish_id: episode-0420
+name: Peach's Cake inspired by Mario 64
+slug: peachs-cake-mario-64
+published_date: 2023-04-17
+youtube_link: https://www.youtube.com/watch?v=NxxsbNEuil4
+official_link: https://www.babi.sh/recipes/peachs-cake-mario-64
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1687964392/mxaysncvntwuerqli236.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0003
+- tag-0012
+- tag-0016
+- tag-0018
+guests: []
+inspired_by:
+- reference-0289
+recipes:
+- recipe-1335
+_lookup:
+  slug: peachs-cake-mario-64
+  babish_internal_id: 5jKmI2J8a2Bw9Hd7BD83

@@ -1,0 +1,24 @@
+babish_id: episode-0350
+name: Lil' Bits inspired by Rick  Morty
+slug: lilbits-rickandmorty
+published_date: 2020-05-12
+youtube_link: https://www.youtube.com/watch?v=BxEDztBWdbc
+official_link: https://www.babi.sh/recipes/lilbits-rickandmorty
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695716/babishImages/undefined-600464.png
+time_to_cook: 4800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0032
+guests: []
+inspired_by:
+- reference-0081
+recipes:
+- recipe-0673
+- recipe-0674
+- recipe-0675
+_lookup:
+  slug: lilbits-rickandmorty
+  babish_internal_id: QRfMvqCVuCxzMsCW5qJM

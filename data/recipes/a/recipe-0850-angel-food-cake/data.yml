@@ -1,0 +1,19 @@
+babish_id: recipe-0850
+name: Angel Food Cake
+image_link: null
+raw_ingredient_list: '350 g egg whites, room temperature
+
+  1 tsp cream of tartar
+
+  2 tsp vanilla extract
+
+  360 g sugar, divided
+
+  ½ tsp kosher salt
+
+  125 g cake flour'
+raw_procedure: ''
+episode: episode-0024
+_lookup:
+  episode_and_section: episode-0024::Angel Food Cake
+  db_id: 866

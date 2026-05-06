@@ -1,0 +1,20 @@
+babish_id: episode-0321
+name: KIMCHI
+slug: kimchi
+published_date: 2020-08-14
+youtube_link: https://www.youtube.com/watch?v=R0x7ECje-lY
+official_link: https://www.babi.sh/recipes/kimchi
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715734/babishImages/undefined-20670.png
+time_to_cook: 2700
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0019
+guests: []
+inspired_by: []
+recipes:
+- recipe-1420
+_lookup:
+  slug: kimchi
+  babish_internal_id: ue4mUe7FtqAQzAc4VjTs

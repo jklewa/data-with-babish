@@ -1,0 +1,24 @@
+babish_id: episode-0534
+name: Backpack Recipes inspired by Marvel's Spider-Man
+slug: spidermanbackpackrecipes
+published_date: 2018-10-09
+youtube_link: https://www.youtube.com/watch?v=NlIiIv-XKhs&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/NlIiIv-XKhs/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/spidermanbackpackrecipes
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1679081677/q8wg2mtuy1qpdwiq8n7c.webp
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0032
+guests: []
+inspired_by:
+- reference-0036
+recipes:
+- recipe-0183
+- recipe-0184
+- recipe-0185
+_lookup:
+  slug: spidermanbackpackrecipes
+  babish_internal_id: mOVVtthDSOviKicwZHOn

@@ -1,0 +1,24 @@
+babish_id: episode-0298
+name: INDIAN BREADS
+slug: indianbreads
+published_date: 2019-10-10
+youtube_link: https://www.youtube.com/watch?v=RnApthldLPY
+official_link: https://www.babi.sh/recipes/indianbreads
+image_link: https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1573758840271-LHH4HQAWF50Z34RJILZM/Basics%2BIndian%2BBeards2.png
+time_to_cook: 1800
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0019
+- tag-0032
+guests:
+- guest-0012
+inspired_by: []
+recipes:
+- recipe-0541
+- recipe-0542
+- recipe-0543
+_lookup:
+  slug: indianbreads
+  babish_internal_id: Xwf9zjZ3Q4z7tPhMhu5T

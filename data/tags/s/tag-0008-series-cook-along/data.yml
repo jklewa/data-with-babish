@@ -1,0 +1,7 @@
+babish_id: tag-0008
+axis: Series
+name: Cook Along
+_lookup:
+  babish_external_id: 0ca6be77-83f8-4049-bad9-07ef438bca77
+  axis_and_name: Series::Cook Along
+  db_id: 8

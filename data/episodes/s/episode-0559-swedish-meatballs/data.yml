@@ -1,0 +1,28 @@
+babish_id: episode-0559
+name: SWEDISH MEATBALLS
+slug: swedish-meatballs
+published_date: 2021-10-08
+youtube_link: https://www.youtube.com/watch?v=bTUUNZFOflw
+official_link: https://www.babi.sh/recipes/swedish-meatballs
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695205/babishImages/undefined-424523.png
+time_to_cook: 3600
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0013
+- tag-0015
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1143
+- recipe-1144
+- recipe-1145
+- recipe-1146
+- recipe-1147
+- recipe-1148
+_lookup:
+  slug: swedish-meatballs
+  babish_internal_id: 3oLQO4X8jq1bAvTPHFp7

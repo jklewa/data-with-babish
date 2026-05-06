@@ -1,0 +1,12 @@
+babish_id: reference-0020
+type: tv_show
+name: Spongebob Squarepants
+description: The misadventures of a talking sea sponge who works at a fast food restaurant, attends a boating school, and lives in an underwater pineapple. IMDb.
+external_link: https://www.imdb.com/title/tt0206512/
+image_link: https://i.ytimg.com/sh/xB1Tyy4zaK76gp2bG6-WKw/market.jpg
+_lookup:
+  canonical_name: Spongebob Squarepants
+  db_id: 21
+  aliases:
+  - SpongeBob SquarePants
+  - SpongeBob Squarepants

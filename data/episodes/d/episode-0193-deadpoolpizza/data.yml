@@ -1,0 +1,25 @@
+babish_id: episode-0193
+name: Pizza inspired by Deadpool
+slug: deadpoolpizza
+published_date: 2018-06-19
+youtube_link: https://www.youtube.com/watch?v=95M8W1JgH_0
+official_link: https://www.babi.sh/recipes/deadpoolpizza
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715447/babishImages/undefined-263803.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0014
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0052
+recipes:
+- recipe-0251
+_lookup:
+  slug: deadpoolpizza
+  babish_internal_id: 2Pl0iK9aP5aVu3I62EWs

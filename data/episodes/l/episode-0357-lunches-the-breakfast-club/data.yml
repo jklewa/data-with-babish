@@ -1,0 +1,28 @@
+babish_id: episode-0357
+name: Lunches inspired by The Breakfast Club
+slug: lunches-the-breakfast-club
+published_date: 2021-11-19
+youtube_link: https://www.youtube.com/watch?v=PzZ7K0qJvTQ
+official_link: https://www.babi.sh/recipes/lunches-the-breakfast-club
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695871/babishImages/undefined-592203.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0029
+- tag-0031
+guests: []
+inspired_by:
+- reference-0233
+recipes:
+- recipe-1173
+- recipe-1174
+- recipe-1175
+- recipe-1176
+- recipe-1177
+- recipe-1178
+_lookup:
+  slug: lunches-the-breakfast-club
+  babish_internal_id: cddeeFNTJnwZCO4XBl6Z

@@ -1,0 +1,7 @@
+babish_id: tag-0006
+axis: Series
+name: With Babish
+_lookup:
+  babish_external_id: f56c60b0-e39d-45ed-a724-fd062d63ad8e
+  axis_and_name: Series::With Babish
+  db_id: 6

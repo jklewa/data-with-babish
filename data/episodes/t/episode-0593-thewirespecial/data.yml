@@ -1,0 +1,28 @@
+babish_id: episode-0593
+name: The Wire Special
+slug: thewirespecial
+published_date: 2017-12-26
+youtube_link: https://www.youtube.com/watch?v=mnT4MDdEazs
+official_link: https://www.babi.sh/recipes/thewirespecial
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715466/babishImages/undefined-143983.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0021
+- tag-0023
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0068
+recipes:
+- recipe-0338
+- recipe-0339
+- recipe-0340
+_lookup:
+  slug: thewirespecial
+  babish_internal_id: AW0wg9WWZPMBCoScvLoE

@@ -1,0 +1,21 @@
+babish_id: recipe-1344
+name: 'mofongo ingredients:'
+image_link: null
+raw_ingredient_list: 'fry oil
+
+  bone in skin on chicken thighs
+
+  sweet chili peppers halves
+
+  cilantro
+
+  culantro
+
+  garlic
+
+  ~2 sofrito'
+raw_procedure: ''
+episode: episode-0382
+_lookup:
+  episode_and_section: 'episode-0382::mofongo ingredients:'
+  db_id: 1363

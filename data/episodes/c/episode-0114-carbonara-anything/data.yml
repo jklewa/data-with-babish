@@ -1,0 +1,20 @@
+babish_id: episode-0114
+name: CARBONARA ANYTHING
+slug: carbonara-anything
+published_date: 2022-09-19
+youtube_link: https://www.youtube.com/watch?v=wrweyL0YS8Y
+official_link: https://www.babi.sh/recipes/carbonara-anything
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695332/babishImages/undefined-714411.png
+time_to_cook: null
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+guests: []
+inspired_by: []
+recipes:
+- recipe-1372
+_lookup:
+  slug: carbonara-anything
+  babish_internal_id: 8iLUVXpXjIjzuBb0H84m

@@ -1,0 +1,25 @@
+babish_id: episode-0029
+name: Apple Pie Smoothie
+slug: applepiesmoothie
+published_date: 2016-03-13
+youtube_link: https://www.youtube.com/watch?v=mv1z2p3to0U
+official_link: https://www.babi.sh/recipes/applepiesmoothie
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689991771/oz6gen69krvy3tfzijvm.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0012
+- tag-0018
+- tag-0028
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0113
+recipes:
+- recipe-0503
+_lookup:
+  slug: applepiesmoothie
+  babish_internal_id: 3HoTLi6JPEEBa8eCzPwl

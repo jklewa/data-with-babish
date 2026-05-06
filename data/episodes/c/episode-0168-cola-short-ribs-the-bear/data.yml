@@ -1,0 +1,24 @@
+babish_id: episode-0168
+name: Cola-Braised Short Ribs inspired by The Bear
+slug: cola-short-ribs-the-bear
+published_date: 2022-10-28
+youtube_link: https://www.youtube.com/watch?v=6GZDBmQsaw0
+official_link: https://www.babi.sh/recipes/cola-short-ribs-the-bear
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695757/babishImages/undefined-202545.png
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0021
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0278
+recipes:
+- recipe-1368
+_lookup:
+  slug: cola-short-ribs-the-bear
+  babish_internal_id: TCicVRzcukxUBT7hPlKC

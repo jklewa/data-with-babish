@@ -1,0 +1,11 @@
+babish_id: reference-0027
+type: movie
+name: Beauty and the Beast
+description: A prince cursed to spend his days as a hideous monster sets out to regain his humanity by earning a young woman's love. IMDb.
+external_link: https://www.imdb.com/title/tt0101414/
+image_link: https://img.youtube.com/vi/f0VnGIjAtZo/mqdefault.jpg
+_lookup:
+  canonical_name: Beauty and the Beast
+  db_id: 28
+  aliases:
+  - Beauty & the Beast

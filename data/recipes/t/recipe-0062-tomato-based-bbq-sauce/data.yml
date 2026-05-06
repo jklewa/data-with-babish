@@ -1,0 +1,27 @@
+babish_id: recipe-0062
+name: Tomato Based BBQ Sauce
+image_link: null
+raw_ingredient_list: '1 cup ketchup
+
+  1 cup brown sugar, packed
+
+  Juice of ½ a lemon
+
+  3 Tbsp butter
+
+  1 Tbsp hot sauce
+
+  1 Tbsp Worcestershire sauce
+
+  ¼ onion, grated
+
+  1 Tbsp spice rub
+
+  ½ cup water'
+raw_procedure: 'Combine all the ingredients into a pan and cook over medium low heat for 30 minutes, stirring constantly.
+
+  Transfer to a squeeze bottle for easy distribution.'
+episode: episode-0456
+_lookup:
+  episode_and_section: episode-0456::Tomato Based BBQ Sauce
+  db_id: 67

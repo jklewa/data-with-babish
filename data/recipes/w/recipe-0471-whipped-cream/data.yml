@@ -1,0 +1,13 @@
+babish_id: recipe-0471
+name: Whipped Cream
+image_link: null
+raw_ingredient_list: '1 cup heavy cream
+
+  1 Tbsp sugar'
+raw_procedure: 'Place heavy cream and sugar into a bowl. Using a hand mixer, whip the cream and sugar together.
+
+  If you desire, place the whipped cream into a piping bag and pipe into a bowl, making a nice little mountain of cream. Spoon on top of the pastry.'
+episode: episode-0300
+_lookup:
+  episode_and_section: episode-0300::Whipped Cream
+  db_id: 480

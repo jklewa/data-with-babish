@@ -1,0 +1,28 @@
+babish_id: episode-0254
+name: GAME DAY SNACKS PART II
+slug: game-day-snacks-part-2
+published_date: 2021-02-04
+youtube_link: https://www.youtube.com/watch?v=rR4t9LRy-6o
+official_link: https://www.babi.sh/recipes/game-day-snacks-part-2
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715492/babishImages/undefined-20149.png
+time_to_cook: null
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0019
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-0853
+- recipe-0854
+- recipe-0855
+- recipe-0856
+- recipe-0857
+- recipe-0858
+- recipe-0859
+_lookup:
+  slug: game-day-snacks-part-2
+  babish_internal_id: JjEWVsQECCTTRxPJhDXR

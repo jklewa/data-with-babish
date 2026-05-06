@@ -1,0 +1,24 @@
+babish_id: episode-0438
+name: 'Plum Pie inspired by Puss in Boots: The Last Wish'
+slug: plum-pie-puss-in-boots
+published_date: 2023-03-18
+youtube_link: https://www.youtube.com/watch?v=y0j9whLWVf4
+official_link: https://www.babi.sh/recipes/plum-pie-puss-in-boots
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1680589584/jnu05lqrsmqybsujyej5.webp
+time_to_cook: null
+yield_qty: 1
+yield_unit: pie
+tags:
+- tag-0005
+- tag-0012
+- tag-0016
+- tag-0018
+guests: []
+inspired_by:
+- reference-0292
+recipes:
+- recipe-1340
+- recipe-1341
+_lookup:
+  slug: plum-pie-puss-in-boots
+  babish_internal_id: GcfRIl9jwW7NWY3yT2el

@@ -1,0 +1,19 @@
+babish_id: recipe-1177
+name: Allison’s Lunch
+image_link: null
+raw_ingredient_list: '1 slice white bread
+
+  2 Tbsp unsalted butter
+
+  1 slice wheat bread
+
+  5 pixie sticks or 2 Tbsp granulated sugar
+
+  1 Cup captain crunch cereal
+
+  1 small coke'
+raw_procedure: ''
+episode: episode-0357
+_lookup:
+  episode_and_section: episode-0357::Allison’s Lunch
+  db_id: 1196

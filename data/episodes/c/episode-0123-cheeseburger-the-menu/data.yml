@@ -1,0 +1,25 @@
+babish_id: episode-0123
+name: Cheeseburger inspired by The Menu
+slug: cheeseburger-the-menu
+published_date: 2023-02-22
+youtube_link: https://www.youtube.com/watch?v=ep6k3Ofcf2s
+official_link: https://www.babi.sh/recipes/cheeseburger-the-menu
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1677044221/nldmt4l5dra69ov0dof0.webp
+time_to_cook: 7200
+yield_qty: 6
+yield_unit: burgers
+tags:
+- tag-0005
+- tag-0012
+- tag-0015
+- tag-0021
+- tag-0029
+- tag-0030
+guests: []
+inspired_by:
+- reference-0288
+recipes:
+- recipe-1347
+_lookup:
+  slug: cheeseburger-the-menu
+  babish_internal_id: 3iZdNMHFHEtn5QcfFB5B

@@ -1,0 +1,23 @@
+babish_id: episode-0180
+name: Crème Brûlée inspired by Amelie
+slug: cremebrule
+published_date: 2018-04-03
+youtube_link: https://www.youtube.com/watch?v=dn_aaxZIA2o
+official_link: https://www.babi.sh/recipes/cremebrule
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715756/babishImages/undefined-451881.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0061
+recipes:
+- recipe-0289
+_lookup:
+  slug: cremebrule
+  babish_internal_id: zLqJPvEMdhzIXGO3cJ1e

@@ -1,0 +1,9 @@
+babish_id: reference-0026
+type: tv_show
+name: The Eric Andre Show
+description: Eric Andre tries to host a talk show in a bizarre environment, where he is sometimes the player of pranks and sometimes the victim. IMDb.
+external_link: https://www.imdb.com/title/tt2244495/
+image_link: https://i.ytimg.com/sh/Sh_L6ZYYlioTzyqSmp59_w/market.jpg
+_lookup:
+  canonical_name: The Eric Andre Show
+  db_id: 27

@@ -1,0 +1,27 @@
+babish_id: episode-0634
+name: World's Greatest Sandwich from Spanglish
+slug: worldsgreatestsandwich
+published_date: 2016-12-05
+youtube_link: https://www.youtube.com/watch?v=A_l8_C-EO38
+official_link: https://www.babi.sh/recipes/worldsgreatestsandwich
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689991763/kxoy1bdxaaq3c1unc6vc.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0020
+- tag-0023
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0104
+recipes:
+- recipe-0485
+- recipe-0486
+_lookup:
+  slug: worldsgreatestsandwich
+  babish_internal_id: 09DNKYUEsTJVI7IcYZmu

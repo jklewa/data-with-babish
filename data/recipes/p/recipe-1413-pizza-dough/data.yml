@@ -1,0 +1,9 @@
+babish_id: recipe-1413
+name: PIZZA DOUGH
+image_link: null
+raw_ingredient_list: flour
+raw_procedure: ''
+episode: episode-0435
+_lookup:
+  episode_and_section: episode-0435::PIZZA DOUGH
+  db_id: 1432

@@ -1,0 +1,25 @@
+babish_id: recipe-0213
+name: Johnny Cakes
+image_link: null
+raw_ingredient_list: '1 cup cornmeal
+
+  1 cup water, boiling
+
+  ⅓ cup milk, room temperature
+
+  Bacon fat
+
+  Maple syrup and butter, for serving'
+raw_procedure: 'In a mixing bowl combine 1 cup of cornmeal along with 1 cup of boiling water. Stir to combine before adding ⅓ cup of room temperature milk. If needed, add more milk until you get a thick pancake batter consistency.
+
+  Add some bacon fat to a pan over medium-high heat and then add your desired amount of batter for perfect pancakes.
+
+  Don’t flip until the bottoms have turned a golden brown. Flip and cook for an additional 3-4 minutes (these take longer to cook than pancakes).
+
+  Once they’re done, plate them up with some butter on top, some maple syrup, and some of your homemade sausages.
+
+  Serve and enjoy!'
+episode: episode-0311
+_lookup:
+  episode_and_section: episode-0311::Johnny Cakes
+  db_id: 218

@@ -1,0 +1,19 @@
+babish_id: recipe-0351
+name: Raspberry Jam Surrogate
+image_link: null
+raw_ingredient_list: '½ pint raspberries
+
+  ½ cup of wine
+
+  Splash of balsamic vinegar
+
+  Pinch of sugar
+
+  Pinch of salt'
+raw_procedure: 'Heat ½ pint of raspberries, ½ a cup of wine, and a splash of balsamic vinegar with a pinch of sugar and a pinch of salt in a sauce pan.
+
+  Crush up raspberries and cook over medium heat for 30-40 minutes or until thick and jam-like.'
+episode: episode-0465
+_lookup:
+  episode_and_section: episode-0465::Raspberry Jam Surrogate
+  db_id: 360

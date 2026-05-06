@@ -1,0 +1,17 @@
+babish_id: recipe-0158
+name: Pumpkin Pie (Assembly)
+image_link: null
+raw_ingredient_list: 'Pie Crust
+
+  Pumkin Pie Filling
+
+  Whipped Cream'
+raw_procedure: 'Add filling to par baked pie crust and bake for 25 minutes or until crust is brown.
+
+  Top with whipped cream (recipe below).
+
+  Serve and enjoy.'
+episode: episode-0120
+_lookup:
+  episode_and_section: episode-0120::Pumpkin Pie (Assembly)
+  db_id: 163

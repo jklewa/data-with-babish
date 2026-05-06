@@ -1,0 +1,27 @@
+babish_id: recipe-0385
+name: Custard (aka Creme Patisserie)
+image_link: null
+raw_ingredient_list: '4 egg yolks
+
+  ½ cup cornstarch
+
+  2 cups milk
+
+  ½ cup sugar
+
+  2 tsp vanilla paste (or vanilla extract)
+
+  2 Tbsp crumbled butter'
+raw_procedure: 'In a mixing bowl, whisk together the eggs and cornstarch into a light, ribbony mixture.
+
+  In a large saucepan, combine milk, sugar, and vanilla paste. Whisk together and bring to a bare simmer.
+
+  1/2 cup at a time, add the milk mixture very slowly into the egg mixture. Be careful not to cook the eggs. Whisk continuously while doing this. After half the milk is added, you may dump the rest of the milk mixture into the egg mixture. Combine completely and return to the saucepan.
+
+  Over medium heat, whisk constantly until a thick custard forms. Kill the heat and add crumbled butter. Whisk in the butter until it is completely melted.
+
+  Pour custard into metal bowl and cover with plastic wrap. Make sure to press the plastic wrap down onto the surface of the custard. Place in the fridge.'
+episode: episode-0360
+_lookup:
+  episode_and_section: episode-0360::Custard (aka Creme Patisserie)
+  db_id: 394

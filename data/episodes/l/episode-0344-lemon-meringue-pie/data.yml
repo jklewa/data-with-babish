@@ -1,0 +1,22 @@
+babish_id: episode-0344
+name: LEMON MERINGUE PIE
+slug: lemon-meringue-pie
+published_date: 2022-05-27
+youtube_link: https://www.youtube.com/watch?v=f0fmS1WEm3s
+official_link: https://www.babi.sh/recipes/lemon-meringue-pie
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696099/babishImages/undefined-443317.png
+time_to_cook: 7200
+yield_qty: 1
+yield_unit: pie
+tags:
+- tag-0013
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1385
+_lookup:
+  slug: lemon-meringue-pie
+  babish_internal_id: npNPbsaxdRUDzc5VFF0p

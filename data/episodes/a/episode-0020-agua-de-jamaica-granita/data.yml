@@ -1,0 +1,22 @@
+babish_id: episode-0020
+name: Agua de Jamaica Granita
+slug: agua-de-jamaica-granita
+published_date: 2025-04-29
+youtube_link: https://www.youtube.com/shorts/NYPxT4K-jEw
+official_link: https://www.babi.sh/recipes/agua-de-jamaica-granita
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1745960432/nlcsou9whnpdevviupw4.webp
+time_to_cook: 14400
+yield_qty: 7
+yield_unit: servings
+tags:
+- tag-0007
+- tag-0018
+- tag-0019
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1223
+_lookup:
+  slug: agua-de-jamaica-granita
+  babish_internal_id: kbZOHM3pgpzEuEo6rY3b

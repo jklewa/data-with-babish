@@ -1,0 +1,23 @@
+babish_id: episode-0293
+name: Ichiraku Ramen inspired by Naruto
+slug: ichiraku-ramen-inspired-by-naruto
+published_date: 2024-08-30
+youtube_link: https://www.youtube.com/watch?v=7fOY40FvF9Q
+official_link: https://www.babi.sh/recipes/ichiraku-ramen-inspired-by-naruto
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1725038292/jvyyoy6l2kfennl34ql8.webp
+time_to_cook: 0
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+- tag-0022
+- tag-0024
+guests: []
+inspired_by:
+- reference-0274
+recipes:
+- recipe-1264
+_lookup:
+  slug: ichiraku-ramen-inspired-by-naruto
+  babish_internal_id: pvdygscvJDLZ8TfAmyBp

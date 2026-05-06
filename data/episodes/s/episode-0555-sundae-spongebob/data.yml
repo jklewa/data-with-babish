@@ -1,0 +1,24 @@
+babish_id: episode-0555
+name: Bad Breath Sundae inspired by SpongeBob Squarepants
+slug: sundae-spongebob
+published_date: 2020-07-21
+youtube_link: https://www.youtube.com/watch?v=Ya2_Khcdwsk
+official_link: https://www.babi.sh/recipes/sundae-spongebob
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696021/babishImages/undefined-630114.png
+time_to_cook: 2400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0020
+recipes:
+- recipe-0715
+- recipe-0716
+_lookup:
+  slug: sundae-spongebob
+  babish_internal_id: jW5QM33dq958Ca6G5TKL

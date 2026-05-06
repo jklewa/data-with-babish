@@ -1,0 +1,21 @@
+babish_id: recipe-0481
+name: Babish's Pasta
+image_link: null
+raw_ingredient_list: 'A pinch of salt
+
+  Spaghetti
+
+  Tomato sauce
+
+  1 Tbsp butter
+
+  A drizzle of olive oil'
+raw_procedure: 'Salt and boil water. Add pasta to water. Cook the pasta so it is slightly underdone.
+
+  In a pan, heat tomato sauce over medium-high heat until bubbling.
+
+  Drain pasta and add to sauce. Give it a good flip and add butter. Melt and incorporate butter. Drizzle in some olive oil and toss to combine. Plate and enjoy.'
+episode: episode-0199
+_lookup:
+  episode_and_section: episode-0199::Babish's Pasta
+  db_id: 490

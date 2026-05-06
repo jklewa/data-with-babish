@@ -1,0 +1,22 @@
+babish_id: episode-0228
+name: FALAFEL
+slug: falafels
+published_date: 2021-05-14
+youtube_link: https://www.youtube.com/watch?v=-98r0kpLbIM
+official_link: https://www.babi.sh/recipes/falafels
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696117/babishImages/undefined-734573.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0025
+guests: []
+inspired_by: []
+recipes:
+- recipe-0985
+- recipe-0986
+- recipe-0987
+_lookup:
+  slug: falafels
+  babish_internal_id: p18pQznaDbQtWqUpIJhf

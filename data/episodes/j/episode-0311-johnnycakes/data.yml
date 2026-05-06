@@ -1,0 +1,24 @@
+babish_id: episode-0311
+name: Johnny Cakes inspired by The Sopranos
+slug: johnnycakes
+published_date: 2018-08-28
+youtube_link: https://www.youtube.com/watch?v=DdFKKZe73Pk
+official_link: https://www.babi.sh/recipes/johnnycakes
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715696/babishImages/undefined-651139.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0028
+- tag-0031
+guests: []
+inspired_by:
+- reference-0042
+recipes:
+- recipe-0212
+- recipe-0213
+_lookup:
+  slug: johnnycakes
+  babish_internal_id: iTTkCuIjY6iwgZ0tSQM0

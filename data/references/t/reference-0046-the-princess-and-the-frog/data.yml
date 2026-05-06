@@ -1,0 +1,11 @@
+babish_id: reference-0046
+type: movie
+name: The Princess and the Frog
+description: A waitress, desperate to fulfill her dreams as a restaurant owner, is set on a journey to turn a frog prince back into a human being, but she has to face the same problem after she kisses him. IMDb.
+external_link: https://www.imdb.com/title/tt0780521/
+image_link: https://img.youtube.com/vi/80xxB0FrmWY/mqdefault.jpg
+_lookup:
+  canonical_name: The Princess and the Frog
+  db_id: 48
+  aliases:
+  - Princess and the Frog

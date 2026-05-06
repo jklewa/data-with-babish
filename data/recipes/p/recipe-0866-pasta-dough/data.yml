@@ -1,0 +1,11 @@
+babish_id: recipe-0866
+name: Pasta Dough
+image_link: null
+raw_ingredient_list: '7.5 oz all purpose flour
+
+  5 oz eggs'
+raw_procedure: ''
+episode: episode-0191
+_lookup:
+  episode_and_section: episode-0191::Pasta Dough
+  db_id: 882

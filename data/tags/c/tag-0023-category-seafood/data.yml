@@ -1,0 +1,7 @@
+babish_id: tag-0023
+axis: Category
+name: Seafood
+_lookup:
+  babish_external_id: 7e51f23e-33ff-4531-8e90-c57d081dc124
+  axis_and_name: Category::Seafood
+  db_id: 23

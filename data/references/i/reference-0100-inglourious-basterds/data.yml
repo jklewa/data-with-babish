@@ -1,0 +1,9 @@
+babish_id: reference-0100
+type: movie
+name: Inglourious Basterds
+description: In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same. IMDb.
+external_link: https://www.imdb.com/title/tt0361748/
+image_link: https://img.youtube.com/vi/GoCwsMoQW1I/mqdefault.jpg
+_lookup:
+  canonical_name: Inglourious Basterds
+  db_id: 102

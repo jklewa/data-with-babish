@@ -1,0 +1,26 @@
+babish_id: episode-0600
+name: Tom Yum Tomato Cream Pasta
+slug: tom-yum-tomato-cream-pasta
+published_date: 2025-03-27
+youtube_link: https://youtube.com/shorts/0-okOZlKgG4?si=ptkEOGcgdLBIewVz
+official_link: https://www.babi.sh/recipes/tom-yum-tomato-cream-pasta
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1743098034/rqr3hz2uawqjlkzuatkv.webp
+time_to_cook: 1800
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0007
+- tag-0015
+- tag-0022
+- tag-0023
+- tag-0027
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1224
+_lookup:
+  slug: tom-yum-tomato-cream-pasta
+  babish_internal_id: ZcM3evhydALmdSVmzAdl

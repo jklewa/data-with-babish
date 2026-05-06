@@ -1,0 +1,25 @@
+babish_id: recipe-1354
+name: meatballs
+image_link: null
+raw_ingredient_list: 'beef
+
+  pork
+
+  veal
+
+  white bread crusts removed, torn into pieces
+
+  buttermilk
+
+  packed parsley
+
+  egg
+
+  uncured pancetta
+
+  garlic'
+raw_procedure: ''
+episode: episode-0367
+_lookup:
+  episode_and_section: episode-0367::meatballs
+  db_id: 1373

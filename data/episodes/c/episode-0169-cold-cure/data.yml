@@ -1,0 +1,22 @@
+babish_id: episode-0169
+name: Cold Cure inspired by Kenan & Kel
+slug: cold-cure
+published_date: 2020-03-24
+youtube_link: https://www.youtube.com/watch?v=M-7t9FBecoU
+official_link: https://www.babi.sh/recipes/cold-cure
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695640/babishImages/undefined-577796.png
+time_to_cook: 1200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0031
+guests: []
+inspired_by:
+- reference-0178
+recipes:
+- recipe-0660
+_lookup:
+  slug: cold-cure
+  babish_internal_id: OW8KHjqLVTMLDbal11aY

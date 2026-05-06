@@ -1,0 +1,21 @@
+babish_id: recipe-1280
+name: chilaquiles
+image_link: null
+raw_ingredient_list: 'skirt flank, or bavette steak
+
+  cilantro stems included,
+
+  tomatillos husks removed, rinsed,
+
+  sour cream
+
+  feta cheese
+
+  garlic
+
+  full handfuls of tortilla chips'
+raw_procedure: ''
+episode: episode-0141
+_lookup:
+  episode_and_section: episode-0141::chilaquiles
+  db_id: 1299

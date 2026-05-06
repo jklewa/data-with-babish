@@ -1,0 +1,18 @@
+babish_id: episode-0109
+name: Cailles en Sarchophage inspired by Babette's Feast
+slug: caillesensarchophage
+published_date: 2017-10-03
+youtube_link: https://www.youtube.com/watch?v=Bz1IXK6ahu0
+official_link: https://www.youtube.com/watch?v=Bz1IXK6ahu0
+image_link: https://img.youtube.com/vi/Bz1IXK6ahu0/mqdefault.jpg
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags: []
+guests: []
+inspired_by:
+- reference-0310
+recipes:
+- recipe-1446
+_lookup:
+  slug: caillesensarchophage

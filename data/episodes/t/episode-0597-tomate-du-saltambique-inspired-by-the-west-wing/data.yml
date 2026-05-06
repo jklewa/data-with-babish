@@ -1,0 +1,25 @@
+babish_id: episode-0597
+name: Tomate du Saltambique inspired by The West Wing
+slug: tomate-du-saltambique-inspired-by-the-west-wing
+published_date: 2017-06-20
+youtube_link: https://www.youtube.com/watch?v=6uIK3o32hig
+official_link: https://www.babi.sh/recipes/tomate-du-saltambique-inspired-by-the-west-wing
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992059/vemb1hknhmisrccccq48.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0017
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0089
+recipes:
+- recipe-0423
+_lookup:
+  slug: tomate-du-saltambique-inspired-by-the-west-wing
+  babish_internal_id: a0wnyedvvseyQMjtL3n8

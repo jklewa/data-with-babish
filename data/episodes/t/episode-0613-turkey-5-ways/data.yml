@@ -1,0 +1,19 @@
+babish_id: episode-0613
+name: 'TURKEY: 5-WAYS'
+slug: turkey-5-ways
+published_date: 2021-11-30
+youtube_link: https://www.youtube.com/watch?v=dWlStZlu6bY
+official_link: https://www.babi.sh/recipes/turkey-5-ways
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695990/babishImages/undefined-315923.png
+time_to_cook: 4800
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0013
+guests: []
+inspired_by: []
+recipes:
+- recipe-1409
+_lookup:
+  slug: turkey-5-ways
+  babish_internal_id: hQFo6lwJ8TJWbyxHLKUw

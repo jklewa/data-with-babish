@@ -1,0 +1,23 @@
+babish_id: episode-0537
+name: Spinach Puffs inspired by The Emperor's New Groove
+slug: spinachpuffs
+published_date: 2018-08-14
+youtube_link: https://www.youtube.com/watch?v=x5-QoCicNfI
+official_link: https://www.babi.sh/recipes/spinachpuffs
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715538/babishImages/undefined-469060.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0018
+- tag-0019
+guests: []
+inspired_by:
+- reference-0044
+recipes:
+- recipe-0226
+_lookup:
+  slug: spinachpuffs
+  babish_internal_id: ethX3Z55ffIvLJTjauhN

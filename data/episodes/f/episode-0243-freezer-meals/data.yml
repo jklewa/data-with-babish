@@ -1,0 +1,24 @@
+babish_id: episode-0243
+name: FREEZER MEALS
+slug: freezer-meals
+published_date: 2021-05-07
+youtube_link: https://www.youtube.com/watch?v=-XUzpAiYuVA
+official_link: https://www.babi.sh/recipes/freezer-meals
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696241/babishImages/undefined-487919.png
+time_to_cook: 8400
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0980
+- recipe-0981
+- recipe-0982
+- recipe-0983
+- recipe-0984
+_lookup:
+  slug: freezer-meals
+  babish_internal_id: t5AiR5JQHkicVQKbt9Ry

@@ -1,0 +1,26 @@
+babish_id: episode-0541
+name: Squid Ink Ravioli inspired by Stardew Valley
+slug: squid-ink-ravioli-inspired-by-stardew-valley
+published_date: 2025-08-11
+youtube_link: https://www.youtube.com/watch?v=eCnBX0GlRbA&pp=0gcJCfwAo7VqN5tD
+official_link: https://www.babi.sh/recipes/squid-ink-ravioli-inspired-by-stardew-valley
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1754934516/famzr7vrmy18p8qzwvbt.webp
+time_to_cook: 3600
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0003
+- tag-0009
+- tag-0022
+- tag-0023
+- tag-0030
+- tag-0031
+- tag-0032
+guests: []
+inspired_by:
+- reference-0246
+recipes:
+- recipe-1201
+_lookup:
+  slug: squid-ink-ravioli-inspired-by-stardew-valley
+  babish_internal_id: zs4YaaD0H0OHmcCKGQSt

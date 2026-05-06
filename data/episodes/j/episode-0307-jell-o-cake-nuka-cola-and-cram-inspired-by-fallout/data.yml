@@ -1,0 +1,23 @@
+babish_id: episode-0307
+name: Jell-O Cake, Nuka Cola & Cram Inspired by Fallout
+slug: jell-o-cake-nuka-cola-and-cram-inspired-by-fallout
+published_date: 2024-06-05
+youtube_link: https://www.youtube.com/watch?v=yiR1wqF6IM4
+official_link: https://www.babi.sh/recipes/jell-o-cake-nuka-cola-and-cram-inspired-by-fallout
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1717609250/oj6zbs3b6k4mxq84duyp.webp
+time_to_cook: 14400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0003
+- tag-0017
+- tag-0019
+- tag-0021
+- tag-0033
+guests: []
+inspired_by: []
+recipes:
+- recipe-1277
+_lookup:
+  slug: jell-o-cake-nuka-cola-and-cram-inspired-by-fallout
+  babish_internal_id: dwpxt9o3bvp0cVz8wBaT

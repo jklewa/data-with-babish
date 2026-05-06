@@ -1,0 +1,22 @@
+babish_id: episode-0037
+name: 'Arroz con Pollo inspired by Spider-Man: Into the Spiderverse'
+slug: arroz-con-pollo-spiderman-spiderverse
+published_date: 2023-06-08
+youtube_link: https://www.youtube.com/watch?v=CFkVS9vhIQY
+official_link: https://www.babi.sh/recipes/arroz-con-pollo-spiderman-spiderverse
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1687966614/sgzjuqlbuzd8tzonz7pz.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0021
+guests: []
+inspired_by:
+- reference-0206
+recipes:
+- recipe-1326
+_lookup:
+  slug: arroz-con-pollo-spiderman-spiderverse
+  babish_internal_id: H2jjAxghHHBEycbaTA28

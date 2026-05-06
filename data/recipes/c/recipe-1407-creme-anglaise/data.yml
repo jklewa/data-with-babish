@@ -1,0 +1,19 @@
+babish_id: recipe-1407
+name: creme anglaise
+image_link: null
+raw_ingredient_list: 'flour
+
+  heavy cream
+
+  milk
+
+  egg yolks
+
+  egg
+
+  honey'
+raw_procedure: ''
+episode: episode-0118
+_lookup:
+  episode_and_section: episode-0118::creme anglaise
+  db_id: 1426

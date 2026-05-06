@@ -1,0 +1,25 @@
+babish_id: episode-0187
+name: Cubanos inspired by Chef
+slug: cubanos-inspired-by-chef
+published_date: 2017-03-29
+youtube_link: https://www.youtube.com/watch?v=hXYoduN0kWs
+official_link: https://www.babi.sh/recipes/cubanos-inspired-by-chef
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992067/etfzgspqjiwp3janr32z.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0020
+- tag-0021
+- tag-0029
+- tag-0032
+guests: []
+inspired_by:
+- reference-0045
+recipes:
+- recipe-0453
+_lookup:
+  slug: cubanos-inspired-by-chef
+  babish_internal_id: j06p6omLMTZoubvOmsYC

@@ -1,0 +1,15 @@
+babish_id: recipe-0294
+name: Moscow Mule
+image_link: null
+raw_ingredient_list: 'Juice of 1/2 a lime
+
+  4 oz Vodka
+
+  Ice
+
+  Ginger beer'
+raw_procedure: Mix and serve.
+episode: episode-0057
+_lookup:
+  episode_and_section: episode-0057::Moscow Mule
+  db_id: 299

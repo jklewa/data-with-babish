@@ -1,0 +1,7 @@
+babish_id: tag-0032
+axis: Difficulty
+name: Experienced
+_lookup:
+  babish_external_id: 8f2dcebd-0845-4e8a-b652-ca67d6fe390f
+  axis_and_name: Difficulty::Experienced
+  db_id: 32

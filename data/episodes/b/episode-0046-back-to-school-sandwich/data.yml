@@ -1,0 +1,26 @@
+babish_id: episode-0046
+name: Hors D'oeuvres Sandwich inspired by Back to School
+slug: back-to-school-sandwich
+published_date: 2017-09-05
+youtube_link: https://www.youtube.com/watch?v=A7afwIxo5lE
+official_link: https://www.babi.sh/recipes/back-to-school-sandwich
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715748/babishImages/undefined-681777.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0020
+- tag-0029
+- tag-0032
+guests: []
+inspired_by:
+- reference-0212
+recipes:
+- recipe-0847
+- recipe-0848
+- recipe-0849
+_lookup:
+  slug: back-to-school-sandwich
+  babish_internal_id: y5TbekCdlXXjZ9WQTA2S

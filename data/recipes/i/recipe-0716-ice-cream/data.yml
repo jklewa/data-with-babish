@@ -1,0 +1,17 @@
+babish_id: recipe-0716
+name: Ice Cream
+image_link: null
+raw_ingredient_list: '4 cups heavy cream
+
+  2 cup milk
+
+  1 cup granulated sugar
+
+  Kosher salt
+
+  8 egg yolks'
+raw_procedure: ''
+episode: episode-0555
+_lookup:
+  episode_and_section: episode-0555::Ice Cream
+  db_id: 730

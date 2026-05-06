@@ -1,0 +1,27 @@
+babish_id: episode-0106
+name: BURGERS
+slug: burgers
+published_date: 2018-06-14
+youtube_link: https://www.youtube.com/watch?v=nbCgfiqq-5c
+official_link: https://www.babi.sh/recipes/burgers
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686072856/hopwyczgnd5layejyvpe.webp
+time_to_cook: 3600
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0018
+- tag-0020
+- tag-0029
+- tag-0030
+- tag-0031
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-0252
+- recipe-0253
+_lookup:
+  slug: burgers
+  babish_internal_id: 7XWBFY9JI7OKeS0QIWU4

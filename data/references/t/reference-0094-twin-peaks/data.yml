@@ -1,0 +1,9 @@
+babish_id: reference-0094
+type: tv_show
+name: Twin Peaks
+description: An idiosyncratic FBI agent investigates the murder of a young woman in the even more idiosyncratic town of Twin Peaks. IMDb.
+external_link: https://www.imdb.com/title/tt0098936/
+image_link: https://i.ytimg.com/sh/U33rt1ck1Pvgm2dv5g-2dw/market.jpg
+_lookup:
+  canonical_name: Twin Peaks
+  db_id: 96

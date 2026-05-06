@@ -1,0 +1,31 @@
+babish_id: recipe-0823
+name: Filling
+image_link: null
+raw_ingredient_list: '1 pound ground pork
+
+  1 carrot, coarsely grated
+
+  2 scallions, thinly sliced
+
+  1 cup Napa cabbage, thinly sliced
+
+  1 garlic clove, grated
+
+  1-inch ginger, peeled and grated
+
+  1 egg
+
+  1 Tbsp dark soy sauce
+
+  1 Tbsp toasted sesame oil
+
+  1 Tbsp mirin
+
+  1.5 tsp kosher salt
+
+  1 tsp freshly ground black pepper'
+raw_procedure: ''
+episode: episode-0450
+_lookup:
+  episode_and_section: episode-0450::Filling
+  db_id: 837

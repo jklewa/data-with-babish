@@ -1,0 +1,22 @@
+babish_id: episode-0606
+name: Triple-Decker Eggo Extravaganza inspired by Stranger Things
+slug: tripledeckereggo
+published_date: 2017-11-07
+youtube_link: https://www.youtube.com/watch?v=L1kgO1I9NvQ
+official_link: https://www.babi.sh/recipes/tripledeckereggo
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715712/babishImages/undefined-511337.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0031
+guests: []
+inspired_by:
+- reference-0002
+recipes:
+- recipe-0362
+_lookup:
+  slug: tripledeckereggo
+  babish_internal_id: niATdsLEctI8U3SBxoFx

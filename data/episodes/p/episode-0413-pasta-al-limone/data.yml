@@ -1,0 +1,27 @@
+babish_id: episode-0413
+name: PASTA AL LIMONE
+slug: pasta-al-limone
+published_date: 2020-11-05
+youtube_link: https://www.youtube.com/watch?v=I2MfxX0N7dQ
+official_link: https://www.babi.sh/recipes/pasta-al-limone
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715502/babishImages/undefined-961263.png
+time_to_cook: 1200
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0022
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0786
+- recipe-0787
+- recipe-0788
+- recipe-0789
+_lookup:
+  slug: pasta-al-limone
+  babish_internal_id: OdOwUXROHT4uNAPAWos0

@@ -1,0 +1,13 @@
+babish_id: recipe-1128
+name: Whipped Cream
+image_link: null
+raw_ingredient_list: '½ Cup good quality heavy cream, cold
+
+  2 Tbsp powdered sugar
+
+  1 tsp vanilla paste (or ½ tsp vanilla extract)'
+raw_procedure: ''
+episode: episode-0230
+_lookup:
+  episode_and_section: episode-0230::Whipped Cream
+  db_id: 1147

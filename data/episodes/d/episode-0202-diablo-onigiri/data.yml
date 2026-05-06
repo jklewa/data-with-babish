@@ -1,0 +1,20 @@
+babish_id: episode-0202
+name: Diablo Onigiri
+slug: diablo-onigiri
+published_date: 2024-09-25
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/diablo-onigiri
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1727275504/mob2vuycwcyhcn9hzve7.webp
+time_to_cook: 5400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+guests: []
+inspired_by: []
+recipes:
+- recipe-1247
+_lookup:
+  slug: diablo-onigiri
+  babish_internal_id: z7ER3oNWoxfwlKWGok7N

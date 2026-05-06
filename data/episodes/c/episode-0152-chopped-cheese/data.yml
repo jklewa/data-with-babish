@@ -1,0 +1,26 @@
+babish_id: episode-0152
+name: CHOPPED CHEESE
+slug: chopped-cheese
+published_date: 2021-07-13
+youtube_link: https://www.youtube.com/watch?v=E1z55dYHv8c
+official_link: https://www.babi.sh/recipes/chopped-cheese
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1680343867/ersvctalsr97j0gpoa1p.webp
+time_to_cook: 8400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0020
+- tag-0029
+- tag-0030
+- tag-0031
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1047
+- recipe-1048
+_lookup:
+  slug: chopped-cheese
+  babish_internal_id: fKkBVZSqxg3MpE7vNUiz

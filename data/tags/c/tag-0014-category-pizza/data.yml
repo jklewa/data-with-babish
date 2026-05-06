@@ -1,0 +1,7 @@
+babish_id: tag-0014
+axis: Category
+name: Pizza
+_lookup:
+  babish_external_id: 8dc7c828-58a7-4f7d-a71f-f9b4051821eb
+  axis_and_name: Category::Pizza
+  db_id: 14

@@ -1,0 +1,9 @@
+babish_id: recipe-1435
+name: LATKES (POTATO PANCAKES)
+image_link: null
+raw_ingredient_list: russet potatoes
+raw_procedure: ''
+episode: episode-0339
+_lookup:
+  episode_and_section: episode-0339::LATKES (POTATO PANCAKES)
+  db_id: 1454

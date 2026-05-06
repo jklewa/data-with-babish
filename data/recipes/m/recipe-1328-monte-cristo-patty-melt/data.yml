@@ -1,0 +1,13 @@
+babish_id: recipe-1328
+name: monte cristo patty melt
+image_link: null
+raw_ingredient_list: 'flour
+
+  milk
+
+  egg'
+raw_procedure: ''
+episode: episode-0386
+_lookup:
+  episode_and_section: episode-0386::monte cristo patty melt
+  db_id: 1347

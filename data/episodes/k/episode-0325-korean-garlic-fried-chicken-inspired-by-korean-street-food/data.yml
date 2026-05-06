@@ -1,0 +1,26 @@
+babish_id: episode-0325
+name: Korean Garlic Fried Chicken inspired by Korean Street Food
+slug: korean-garlic-fried-chicken-inspired-by-korean-street-food
+published_date: 2025-08-19
+youtube_link: https://www.youtube.com/watch?v=8XhbDcxkLLI
+official_link: https://www.babi.sh/recipes/korean-garlic-fried-chicken-inspired-by-korean-street-food
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1755639101/wyqiqccvlksqcakrqk7q.webp
+time_to_cook: 4500
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0011
+- tag-0015
+- tag-0019
+- tag-0021
+- tag-0029
+- tag-0031
+guests: []
+inspired_by:
+- reference-0242
+recipes:
+- recipe-1195
+- recipe-1196
+_lookup:
+  slug: korean-garlic-fried-chicken-inspired-by-korean-street-food
+  babish_internal_id: vJxfdo2q6s86A2afyJrk

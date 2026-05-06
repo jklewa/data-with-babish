@@ -1,0 +1,17 @@
+babish_id: recipe-1448
+name: Classic French Omelette
+image_link: null
+raw_ingredient_list: '3 Eggs
+
+  1 1/2 Tbsp Butter
+
+  Salt
+
+  Pepper
+
+  Chives'
+raw_procedure: '?'
+episode: episode-0214
+_lookup:
+  episode_and_section: episode-0214::Classic French Omelette
+  db_id: 1467

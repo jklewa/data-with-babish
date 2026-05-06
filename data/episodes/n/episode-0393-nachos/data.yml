@@ -1,0 +1,29 @@
+babish_id: episode-0393
+name: Nachos inspired by The Good Place (plus Naco Redemption)
+slug: nachos
+published_date: 2019-11-07
+youtube_link: https://www.youtube.com/watch?v=LgzudBvmd08&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/LgzudBvmd08/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/nachos
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695402/babishImages/undefined-689257.png
+time_to_cook: 4800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0019
+guests: []
+inspired_by:
+- reference-0012
+recipes:
+- recipe-0575
+- recipe-0576
+- recipe-0577
+- recipe-0578
+- recipe-0579
+- recipe-0580
+- recipe-0581
+- recipe-0582
+_lookup:
+  slug: nachos
+  babish_internal_id: BmWpeDySjsvsZPmtN1O3

@@ -1,0 +1,25 @@
+babish_id: episode-0021
+name: It's Always Sunny in Philadelphia Special (Part II)
+slug: alwayssunny
+published_date: 2019-06-12
+youtube_link: https://www.youtube.com/watch?v=_fnhy5xO9vQ&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/_fnhy5xO9vQ/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/alwayssunny
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696347/babishImages/undefined-129032.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0032
+guests: []
+inspired_by:
+- reference-0009
+recipes:
+- recipe-0044
+- recipe-0045
+- recipe-0046
+- recipe-0047
+_lookup:
+  slug: alwayssunny
+  babish_internal_id: xY8IvJjB1ceEQCvRdB9i

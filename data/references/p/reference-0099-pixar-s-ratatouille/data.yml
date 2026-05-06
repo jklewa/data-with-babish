@@ -1,0 +1,11 @@
+babish_id: reference-0099
+type: movie
+name: Pixar's Ratatouille
+description: A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant. IMDb.
+external_link: https://www.imdb.com/title/tt0382932/
+image_link: https://img.youtube.com/vi/eh62Ri60lXI/mqdefault.jpg
+_lookup:
+  canonical_name: Pixar's Ratatouille
+  db_id: 101
+  aliases:
+  - Ratatouille

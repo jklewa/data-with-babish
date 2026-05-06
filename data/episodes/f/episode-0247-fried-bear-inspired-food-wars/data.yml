@@ -1,0 +1,21 @@
+babish_id: episode-0247
+name: Fried Bear inspired Food Wars!
+slug: fried-bear-inspired-food-wars!
+published_date: 2024-10-07
+youtube_link: https://www.youtube.com/watch?v=zWDWd2GswvE
+official_link: https://www.babi.sh/recipes/fried-bear-inspired-food-wars!
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1728312012/gkcf4g8cjyqcsebfa3gh.webp
+time_to_cook: null
+yield_qty: 5
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+guests: []
+inspired_by:
+- reference-0063
+recipes:
+- recipe-1237
+_lookup:
+  slug: fried-bear-inspired-food-wars!
+  babish_internal_id: kFLRq7dNIlDs6bBXijYX

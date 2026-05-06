@@ -1,0 +1,25 @@
+babish_id: episode-0089
+name: Boeuf Bourguignon from Julie & Julia
+slug: boeufbourguignon
+published_date: 2017-04-27
+youtube_link: https://www.youtube.com/watch?v=8DCw_eR_iPA
+official_link: https://www.babi.sh/recipes/boeufbourguignon
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689991783/u4pz3me67e18f7lowovc.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0096
+recipes:
+- recipe-0440
+_lookup:
+  slug: boeufbourguignon
+  babish_internal_id: ASqMS0WhkLC28gPoJofR

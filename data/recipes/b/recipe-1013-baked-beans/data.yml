@@ -1,0 +1,27 @@
+babish_id: recipe-1013
+name: Baked Beans
+image_link: null
+raw_ingredient_list: '1 package thick-cut bacon, cubed
+
+  1 large onion, diced
+
+  2 Cups water, warm
+
+  2 (15 oz) can navy beans
+
+  1 bay leaf
+
+  2 Tbsp brown sugar
+
+  2 Tbsp molasses
+
+  1 tsp dried mustard powder
+
+  To taste kosher salt
+
+  To taste freshly ground black pepper'
+raw_procedure: ''
+episode: episode-0444
+_lookup:
+  episode_and_section: episode-0444::Baked Beans
+  db_id: 1032

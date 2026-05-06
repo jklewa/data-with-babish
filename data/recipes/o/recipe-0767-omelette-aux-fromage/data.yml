@@ -1,0 +1,23 @@
+babish_id: recipe-0767
+name: Omelette aux Fromage
+image_link: null
+raw_ingredient_list: '4 eggs
+
+  Kosher salt
+
+  Gruyere cheese, shredded
+
+  1 Tbsp unsalted butter
+
+  Butter, for finishing
+
+  Flaky Salt
+
+  Freshly ground black pepper
+
+  Chives, chopped'
+raw_procedure: ''
+episode: episode-0398
+_lookup:
+  episode_and_section: episode-0398::Omelette aux Fromage
+  db_id: 781

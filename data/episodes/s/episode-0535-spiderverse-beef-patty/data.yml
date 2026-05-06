@@ -1,0 +1,25 @@
+babish_id: episode-0535
+name: 'Jamaican Beef Patty - Inspired by Spider-Man: Across the Spider-Verse'
+slug: spiderverse-beef-patty
+published_date: 2023-12-12
+youtube_link: https://www.youtube.com/watch?v=Yg6uZIpzHBI&pp=ygUGYmFiaXNo
+official_link: https://www.babi.sh/recipes/spiderverse-beef-patty
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1702402526/rtanhmhfoh4kpnfdqyp8.webp
+time_to_cook: null
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0016
+- tag-0028
+- tag-0029
+- tag-0032
+guests: []
+inspired_by:
+- reference-0311
+recipes:
+- recipe-1307
+_lookup:
+  slug: spiderverse-beef-patty
+  babish_internal_id: X8uOXz90f5W1L8Svmdtz

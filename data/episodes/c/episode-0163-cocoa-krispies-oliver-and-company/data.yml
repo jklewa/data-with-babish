@@ -1,0 +1,22 @@
+babish_id: episode-0163
+name: Oeufs a la Jenny avec Cocoa Krispies inspired by Oliver & Company
+slug: cocoa-krispies-oliver-and-company
+published_date: 2022-01-11
+youtube_link: https://www.youtube.com/watch?v=YPsRQ6O1gjA
+official_link: https://www.babi.sh/recipes/cocoa-krispies-oliver-and-company
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696134/babishImages/undefined-989706.png
+time_to_cook: 9000
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0032
+guests: []
+inspired_by:
+- reference-0304
+recipes:
+- recipe-1401
+_lookup:
+  slug: cocoa-krispies-oliver-and-company
+  babish_internal_id: pVsbHazwciq9cO1Yi2aM

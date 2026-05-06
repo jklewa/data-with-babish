@@ -1,0 +1,13 @@
+babish_id: recipe-0676
+name: Troy’s
+image_link: null
+raw_ingredient_list: 'Hot Pockets
+
+  Pepperoni Pizza Bagel Bites
+
+  Doritos'
+raw_procedure: ''
+episode: episode-0610
+_lookup:
+  episode_and_section: episode-0610::Troy’s
+  db_id: 690

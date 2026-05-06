@@ -1,0 +1,28 @@
+babish_id: episode-0289
+name: Huevos Rancheros inspired by Breaking Bad
+slug: huevosrancheros
+published_date: 2019-06-20
+youtube_link: https://www.youtube.com/watch?v=pdNm4ug9PpE
+official_link: https://www.babi.sh/recipes/huevosrancheros
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695243/babishImages/undefined-884981.png
+time_to_cook: 2400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0015
+- tag-0028
+- tag-0031
+guests: []
+inspired_by:
+- reference-0008
+recipes:
+- recipe-0034
+- recipe-0035
+- recipe-0036
+- recipe-0037
+- recipe-0038
+_lookup:
+  slug: huevosrancheros
+  babish_internal_id: 5fCy0IgSym2akYB84OMv

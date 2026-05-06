@@ -1,0 +1,25 @@
+babish_id: episode-0078
+name: BISCUITS AND GRAVY
+slug: biscuits-and-gravy
+published_date: 2021-02-25
+youtube_link: https://www.youtube.com/watch?v=NMbMT9tY8-Q
+official_link: https://www.babi.sh/recipes/biscuits-and-gravy
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695440/babishImages/undefined-307049.png
+time_to_cook: 3600
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0016
+- tag-0019
+guests: []
+inspired_by: []
+recipes:
+- recipe-0908
+- recipe-0909
+- recipe-0910
+- recipe-0911
+- recipe-0912
+_lookup:
+  slug: biscuits-and-gravy
+  babish_internal_id: CrEqzIBpocON9x185muG

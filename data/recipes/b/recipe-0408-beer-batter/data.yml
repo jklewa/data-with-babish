@@ -1,0 +1,17 @@
+babish_id: recipe-0408
+name: Beer Batter
+image_link: null
+raw_ingredient_list: '3 cups all purpose flour
+
+  3 cups corn starch
+
+  3 cans light beer
+
+  3 Tbsp salt
+
+  4 eggs'
+raw_procedure: To make the beer batter, combine flour, corn starch, beer, salt, and eggs.  Whisk until smooth.
+episode: episode-0566
+_lookup:
+  episode_and_section: episode-0566::Beer Batter
+  db_id: 417

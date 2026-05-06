@@ -1,0 +1,27 @@
+babish_id: episode-0033
+name: ARC Raiders
+slug: arc-raiders
+published_date: 2026-02-20
+youtube_link: https://youtube.com/watch?v=kII9xxDdQeM&si=jO5AyfwVip1cv24e
+official_link: https://www.babi.sh/recipes/arc-raiders
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1771616573/olepmhmsubpyhh3trl0h.webp
+time_to_cook: 2100
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0003
+- tag-0012
+- tag-0015
+- tag-0017
+- tag-0021
+- tag-0022
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0312
+recipes:
+- recipe-1180
+_lookup:
+  slug: arc-raiders
+  babish_internal_id: UK8KRRw2sEx57Rtfwdfd

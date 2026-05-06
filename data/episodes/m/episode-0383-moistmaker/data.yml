@@ -1,0 +1,33 @@
+babish_id: episode-0383
+name: The Moistmaker inspired by Friends
+slug: moistmaker
+published_date: 2016-11-14
+youtube_link: https://www.youtube.com/watch?v=vjZXcapkFEU
+official_link: https://www.babi.sh/recipes/moistmaker
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689990450/undefinedundefined.jpg
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0017
+- tag-0020
+- tag-0021
+- tag-0028
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0076
+recipes:
+- recipe-0488
+- recipe-0489
+- recipe-0490
+- recipe-0491
+- recipe-0492
+- recipe-0493
+_lookup:
+  slug: moistmaker
+  babish_internal_id: p5YOntU6KEPrQqGAG5LZ

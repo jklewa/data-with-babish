@@ -1,0 +1,27 @@
+babish_id: episode-0239
+name: Shrimp inspired by Forrest Gump | Part 1
+slug: forrestgumpshrimp
+published_date: 2018-07-03
+youtube_link: https://www.youtube.com/watch?v=6HBPHRDEt_Q
+official_link: https://www.babi.sh/recipes/forrestgumpshrimp
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715510/babishImages/undefined-452012.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0012
+guests: []
+inspired_by:
+- reference-0016
+recipes:
+- recipe-0239
+- recipe-0240
+- recipe-0241
+- recipe-0242
+- recipe-0243
+- recipe-0244
+- recipe-0245
+- recipe-0246
+_lookup:
+  slug: forrestgumpshrimp
+  babish_internal_id: RyAbANleBC5J7xjAiQgg

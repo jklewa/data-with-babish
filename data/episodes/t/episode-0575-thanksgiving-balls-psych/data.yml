@@ -1,0 +1,26 @@
+babish_id: episode-0575
+name: Thanksgiving Balls inspired by Psych
+slug: thanksgiving-balls-psych
+published_date: 2022-12-05
+youtube_link: https://www.youtube.com/watch?v=bpvD4UKuv5Q
+official_link: https://www.babi.sh/recipes/thanksgiving-balls-psych
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695819/babishImages/undefined-64619.png
+time_to_cook: 8400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0017
+- tag-0019
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0071
+recipes:
+- recipe-1360
+_lookup:
+  slug: thanksgiving-balls-psych
+  babish_internal_id: XevdJ2ubezgOLb6GshyG

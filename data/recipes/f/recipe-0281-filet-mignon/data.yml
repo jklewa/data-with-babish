@@ -1,0 +1,39 @@
+babish_id: recipe-0281
+name: Filet Mignon
+image_link: null
+raw_ingredient_list: '1 filet mignon steak
+
+  Kosher salt
+
+  Ground pepper
+
+  Vegetable oil
+
+  Whole garlic clove
+
+  Thyme
+
+  Chicken stock
+
+  Parsley
+
+  Capers
+
+  Lemon zest
+
+  Olive oil'
+raw_procedure: 'Season your filet with salt and ground pepper.
+
+  Add vegetable oil to a hot pan and then add your filet mignon. Sear on all sides evenly to form a good crust.
+
+  Add in 2 cloves of garlic, a sprig of thyme, and a little bit of chicken stock. Reduce the heat and let the steak come up to temperature (115°F). Remove from pan and let rest.
+
+  Make the gremolata: Mix together equal parts parsley, capers, and lemon zest.
+
+  Slice across the grain, top with gremolata, and spoon some sauce from the pan around the plate along with some olive oil.
+
+  Serve and enjoy!'
+episode: episode-0121
+_lookup:
+  episode_and_section: episode-0121::Filet Mignon
+  db_id: 286

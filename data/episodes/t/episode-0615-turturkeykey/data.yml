@@ -1,0 +1,24 @@
+babish_id: episode-0615
+name: Turturkeykey inspired by How I Met Your Mother
+slug: turturkeykey
+published_date: 2019-11-26
+youtube_link: https://www.youtube.com/watch?v=FWQKc6idm64&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/FWQKc6idm64/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/turturkeykey
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695980/babishImages/undefined-193679.png
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0122
+recipes:
+- recipe-0592
+- recipe-0593
+_lookup:
+  slug: turturkeykey
+  babish_internal_id: h3WbAO279xbVLvVxrjdp

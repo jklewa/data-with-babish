@@ -1,0 +1,13 @@
+babish_id: recipe-0903
+name: Vol-au-Vent
+image_link: null
+raw_ingredient_list: '1 egg
+
+  ⅛ tsp salt
+
+  Puff dough'
+raw_procedure: ''
+episode: episode-0203
+_lookup:
+  episode_and_section: episode-0203::Vol-au-Vent
+  db_id: 922

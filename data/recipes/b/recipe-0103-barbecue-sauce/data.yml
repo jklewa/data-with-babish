@@ -1,0 +1,33 @@
+babish_id: recipe-0103
+name: Barbecue Sauce
+image_link: null
+raw_ingredient_list: '½ onion, grated
+
+  3 cloves garlic, crushed
+
+  Vegetable oil
+
+  1 Tbsp chili powder
+
+  1 cup ketchup
+
+  2-3 Tbsp molasses
+
+  2 Tbsp dijon mustard
+
+  1 tsp Worcestershire sauce
+
+  1 tsp cayenne pepper
+
+  2 Tbsp apple cider vinegar
+
+  2 tsp smoked paprika'
+raw_procedure: 'Saute onions and garlic in a saucepan with a squirt of vegetable oil.
+
+  Add remaining ingredients, whisk and simmer for 20 minutes.
+
+  Remove from heat and cool until ready.'
+episode: episode-0476
+_lookup:
+  episode_and_section: episode-0476::Barbecue Sauce
+  db_id: 108

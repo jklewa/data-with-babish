@@ -1,0 +1,9 @@
+babish_id: reference-0010
+type: movie
+name: Howl's Moving Castle
+description: When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle. IMDb.
+external_link: https://www.imdb.com/title/tt0347149/
+image_link: https://img.youtube.com/vi/HMGetv40FkI/mqdefault.jpg
+_lookup:
+  canonical_name: Howl's Moving Castle
+  db_id: 11

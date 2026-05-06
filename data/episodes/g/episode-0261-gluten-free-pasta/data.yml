@@ -1,0 +1,25 @@
+babish_id: episode-0261
+name: GLUTEN-FREE PASTA
+slug: gluten-free-pasta
+published_date: 2021-06-14
+youtube_link: https://www.youtube.com/watch?v=MVdu-DYcfTA
+official_link: https://www.babi.sh/recipes/gluten-free-pasta
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695462/babishImages/undefined-367098.png
+time_to_cook: 1800
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0022
+- tag-0026
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1034
+- recipe-1035
+_lookup:
+  slug: gluten-free-pasta
+  babish_internal_id: E5KEEIQfCZSYLBM9hRtb

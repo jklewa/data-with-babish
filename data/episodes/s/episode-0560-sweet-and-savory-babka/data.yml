@@ -1,0 +1,21 @@
+babish_id: episode-0560
+name: BABKA
+slug: sweet-and-savory-babka
+published_date: 2022-02-09
+youtube_link: https://www.youtube.com/watch?v=PHheRDVn3e8
+official_link: https://www.babi.sh/recipes/sweet-and-savory-babka
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695584/babishImages/undefined-67986.png
+time_to_cook: 5400
+yield_qty: 2
+yield_unit: babka loaves
+tags:
+- tag-0013
+- tag-0016
+- tag-0018
+guests: []
+inspired_by: []
+recipes:
+- recipe-1396
+_lookup:
+  slug: sweet-and-savory-babka
+  babish_internal_id: KgzRTjVjEFofNqkxVLey

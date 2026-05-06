@@ -1,0 +1,27 @@
+babish_id: episode-0440
+name: Pollo a la Plancha inspired by Moonlight
+slug: pollo-a-la-plancha
+published_date: 2017-03-06
+youtube_link: https://www.youtube.com/watch?v=ZsBWgeQHjnM
+official_link: https://www.babi.sh/recipes/pollo-a-la-plancha
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689991775/bxrif8wfsunofeodyoub.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0015
+- tag-0021
+- tag-0026
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0098
+recipes:
+- recipe-0462
+_lookup:
+  slug: pollo-a-la-plancha
+  babish_internal_id: 3vanwsjMBr2VwAAq98iF

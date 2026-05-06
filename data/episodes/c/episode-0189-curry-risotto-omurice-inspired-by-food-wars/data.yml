@@ -1,0 +1,26 @@
+babish_id: episode-0189
+name: Curry Risotto Omurice inspired by Food Wars!
+slug: curry-risotto-omurice-inspired-by-food-wars!
+published_date: 2024-09-04
+youtube_link: https://www.youtube.com/watch?v=LPo8_trCP8M
+official_link: https://www.babi.sh/recipes/curry-risotto-omurice-inspired-by-food-wars!
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1725472664/o1xkl6c29o1zkbk7ckni.webp
+time_to_cook: null
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+- tag-0021
+- tag-0028
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0063
+recipes:
+- recipe-1259
+_lookup:
+  slug: curry-risotto-omurice-inspired-by-food-wars!
+  babish_internal_id: f20WmxtUsodJBqA9PDdc

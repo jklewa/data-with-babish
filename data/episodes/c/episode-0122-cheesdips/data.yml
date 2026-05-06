@@ -1,0 +1,24 @@
+babish_id: episode-0122
+name: CHEESE DIPS
+slug: cheesdips
+published_date: 2019-05-02
+youtube_link: https://www.youtube.com/watch?v=9toK5UUGeok
+official_link: https://www.babi.sh/recipes/cheesdips
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686005952/sgzpqqlxhdnjser57r5j.webp
+time_to_cook: 2700
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0019
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0070
+- recipe-0071
+- recipe-0072
+- recipe-0073
+_lookup:
+  slug: cheesdips
+  babish_internal_id: llgBWvesP2UOd6u9eqFN

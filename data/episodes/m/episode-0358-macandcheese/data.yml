@@ -1,0 +1,21 @@
+babish_id: episode-0358
+name: MAC AND CHEESE
+slug: macandcheese
+published_date: 2020-06-05
+youtube_link: https://www.youtube.com/watch?v=FUeyrEN14Rk
+official_link: https://www.babi.sh/recipes/macandcheese
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715431/babishImages/undefined-753175.png
+time_to_cook: 2700
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0019
+guests: []
+inspired_by: []
+recipes:
+- recipe-1426
+_lookup:
+  slug: macandcheese
+  babish_internal_id: 0PmkbFnQWVzcgn6fHhX2

@@ -1,0 +1,23 @@
+babish_id: recipe-1038
+name: Roti
+image_link: null
+raw_ingredient_list: '240 g whole wheat flour
+
+  6 g kosher salt
+
+  170 g water, hot (~160 °F)
+
+  Eggs, scrambled
+
+  Spinach, sauteed
+
+  Turkey bacon, cooked + sliced
+
+  Swiss cheese, grated
+
+  Mushrooms (of choice), sauteed'
+raw_procedure: ''
+episode: episode-0236
+_lookup:
+  episode_and_section: episode-0236::Roti
+  db_id: 1057

@@ -1,0 +1,9 @@
+babish_id: reference-0091
+type: movie
+name: Matilda
+description: Story of a wonderful little girl, who happens to be a genius, and her wonderful teacher vs. the worst parents ever and the worst school principal imaginable. IMDb.
+external_link: https://www.imdb.com/title/tt0117008/
+image_link: https://img.youtube.com/vi/dFBYH6GHNzE/mqdefault.jpg
+_lookup:
+  canonical_name: Matilda
+  db_id: 93

@@ -1,0 +1,23 @@
+babish_id: episode-0441
+name: Pollos Hermanos inspired by Breaking Bad
+slug: pollos-hermanos-breaking-bad
+published_date: 2020-09-15
+youtube_link: https://www.youtube.com/watch?v=ndqjxhi7uZs
+official_link: https://www.babi.sh/recipes/pollos-hermanos-breaking-bad
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695969/babishImages/undefined-325786.png
+time_to_cook: 4800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+guests: []
+inspired_by:
+- reference-0008
+recipes:
+- recipe-0737
+- recipe-0738
+- recipe-0739
+_lookup:
+  slug: pollos-hermanos-breaking-bad
+  babish_internal_id: gZ6KBClMTGHskaef6cx3

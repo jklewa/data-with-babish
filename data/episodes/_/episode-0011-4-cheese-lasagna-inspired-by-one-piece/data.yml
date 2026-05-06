@@ -1,0 +1,27 @@
+babish_id: episode-0011
+name: 4-Cheese Lasagna inspired by One Piece
+slug: 4-cheese-lasagna-inspired-by-one-piece
+published_date: 2025-08-12
+youtube_link: https://www.youtube.com/watch?v=5LNNcu-t5kE
+official_link: https://www.babi.sh/recipes/4-cheese-lasagna-inspired-by-one-piece
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1755010442/kum7nnwdyimfrjrzeslp.webp
+time_to_cook: 10500
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+- tag-0021
+- tag-0022
+- tag-0027
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0244
+recipes:
+- recipe-1197
+_lookup:
+  slug: 4-cheese-lasagna-inspired-by-one-piece
+  babish_internal_id: yjmIUJf4fHE16ySjpFkY

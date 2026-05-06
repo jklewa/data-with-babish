@@ -1,0 +1,23 @@
+babish_id: episode-0499
+name: Schweddy Balls inspired by Saturday Night Live
+slug: schweddy-balls-snl
+published_date: 2021-12-08
+youtube_link: https://www.youtube.com/watch?v=d3ISyzfTBAc
+official_link: https://www.babi.sh/recipes/schweddy-balls-snl
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695657/babishImages/undefined-346637.png
+time_to_cook: 3600
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0018
+guests: []
+inspired_by:
+- reference-0087
+recipes:
+- recipe-1406
+_lookup:
+  slug: schweddy-balls-snl
+  babish_internal_id: PZ8beb2eREsUyMNKePNZ

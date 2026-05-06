@@ -1,0 +1,15 @@
+babish_id: recipe-0419
+name: Mint Julep
+image_link: null
+raw_ingredient_list: '4 mint leaves, plus a sprig for garnish
+
+  1 sugar cube
+
+  2 ounces bourbon
+
+  1/2 ounce seltzer'
+raw_procedure: Grind the mint leaves into the palm of your hand with your thumb to release the menthol.  Place in a silver-plated cup with the sugar cube, and thoroughly muddle together.  Add crushed ice until cup is 3/4 full - add bourbon, and stir to combine.  Add seltzer, and top with enough crushed ice so it overflows out of the cup.
+episode: episode-0162
+_lookup:
+  episode_and_section: episode-0162::Mint Julep
+  db_id: 428

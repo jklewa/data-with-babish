@@ -1,0 +1,26 @@
+babish_id: episode-0411
+name: Parm Heros inspired by Lots of Things
+slug: parmhero
+published_date: 2018-03-20
+youtube_link: https://www.youtube.com/watch?v=DkiyT-dnmv8
+official_link: https://www.babi.sh/recipes/parmhero
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715733/babishImages/undefined-3296.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0012
+- tag-0020
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0020
+- reference-0042
+- reference-0076
+recipes:
+- recipe-0292
+_lookup:
+  slug: parmhero
+  babish_internal_id: uWsWgaCaD89VMHBjUXOw

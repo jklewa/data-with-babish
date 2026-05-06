@@ -1,0 +1,15 @@
+babish_id: recipe-0825
+name: (Optional) Skirt
+image_link: null
+raw_ingredient_list: '1 tsp cornstarch
+
+  ½ tsp all-purpose flour
+
+  ½ cup water
+
+  ¼ tsp rice vinegar'
+raw_procedure: ''
+episode: episode-0450
+_lookup:
+  episode_and_section: episode-0450::(Optional) Skirt
+  db_id: 839

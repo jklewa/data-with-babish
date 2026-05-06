@@ -1,0 +1,22 @@
+babish_id: episode-0045
+name: Bachelor Chow inspired by Futurama
+slug: bachelor-chow-futurama
+published_date: 2021-01-26
+youtube_link: https://www.youtube.com/watch?v=nowFI0WRpO0
+official_link: https://www.babi.sh/recipes/bachelor-chow-futurama
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696129/babishImages/undefined-898773.png
+time_to_cook: 2400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0033
+guests: []
+inspired_by:
+- reference-0211
+recipes:
+- recipe-0838
+_lookup:
+  slug: bachelor-chow-futurama
+  babish_internal_id: pDgGGO11RuPAgnk0zsAF

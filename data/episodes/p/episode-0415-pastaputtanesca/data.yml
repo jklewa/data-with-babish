@@ -1,0 +1,24 @@
+babish_id: episode-0415
+name: Pasta Puttanesca inspired by Lemony Snicket's A Series of Unfortunate Events
+slug: pastaputtanesca
+published_date: 2018-06-12
+youtube_link: https://www.youtube.com/watch?v=uwV9cq9DRTY
+official_link: https://www.babi.sh/recipes/pastaputtanesca
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715507/babishImages/undefined-537658.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0022
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0053
+recipes:
+- recipe-0254
+_lookup:
+  slug: pastaputtanesca
+  babish_internal_id: PLx4PyQLMDN2R4zKAe8V

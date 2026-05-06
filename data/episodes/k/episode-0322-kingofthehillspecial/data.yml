@@ -1,0 +1,24 @@
+babish_id: episode-0322
+name: King of The Hill Special
+slug: kingofthehillspecial
+published_date: 2018-10-16
+youtube_link: https://www.youtube.com/watch?v=iq6_iUhLHo4&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/iq6_iUhLHo4/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/kingofthehillspecial
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695948/babishImages/undefined-883755.png
+time_to_cook: 3000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0032
+guests: []
+inspired_by:
+- reference-0035
+recipes:
+- recipe-0178
+- recipe-0179
+- recipe-0180
+_lookup:
+  slug: kingofthehillspecial
+  babish_internal_id: fzdHKNJaZ6lqlIYpOywh

@@ -1,0 +1,31 @@
+babish_id: episode-0107
+name: Buttered Noodles inspired by Community
+slug: butterednoodles-community
+published_date: 2020-05-26
+youtube_link: https://www.youtube.com/watch?v=xGHTj4y_bd8
+official_link: https://www.babi.sh/recipes/butterednoodles-community
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695894/babishImages/undefined-831336.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0015
+- tag-0019
+- tag-0022
+- tag-0027
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0184
+recipes:
+- recipe-0684
+- recipe-0685
+- recipe-0686
+- recipe-0687
+_lookup:
+  slug: butterednoodles-community
+  babish_internal_id: db0RoKCgQMrdWqYVM25S

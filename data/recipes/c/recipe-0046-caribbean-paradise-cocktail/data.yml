@@ -1,0 +1,23 @@
+babish_id: recipe-0046
+name: Caribbean Paradise Cocktail
+image_link: null
+raw_ingredient_list: '½ ounce grenadine
+
+  Ice
+
+  3 ounces fresh pineapple juice
+
+  1 ½ ounces coconut flavored rum
+
+  1 ounce blue curacao
+
+  1 ounce water'
+raw_procedure: 'Start with a tall festive cocktail glass and add a ½ ounce of grenadine at the bottom, and top with ice to the brim.
+
+  In a cocktail shaker add 3 ounces of fresh pineapple juice, 1 ½ ounces of coconut flavored rum, and shake over ice. Strain into cocktail glass over the grenadine and ice.
+
+  Combine 1 ounce of blue curacao and 1 ounce of water in separate glass, stir, then slowly pour on top of the drink to create the desired layering effect. Enjoy!'
+episode: episode-0021
+_lookup:
+  episode_and_section: episode-0021::Caribbean Paradise Cocktail
+  db_id: 50

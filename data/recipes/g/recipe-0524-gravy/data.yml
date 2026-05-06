@@ -1,0 +1,17 @@
+babish_id: recipe-0524
+name: Gravy
+image_link: null
+raw_ingredient_list: '3 Tbsp unsalted butter
+
+  3 Tbsp all purpose flour
+
+  2-3 cups homemade stock'
+raw_procedure: 'Put 3 tbsp of unsalted butter into a clean saucepan and bring to a bubble before adding 3 tbsp of all purpose flour. Whisk and cook for about a minute until a light-blonde roux is formed.
+
+  Slowly stream stock into the roux, whisking constantly to make sure no lumps or clumps can form. Once all of the stock is in the saucepan, add in a few splashes of soy sauce and Worcestershire sauce. Season with salt and pepper to taste.
+
+  Simmer and cook down until a gravy-like consistency is reached.'
+episode: episode-0451
+_lookup:
+  episode_and_section: episode-0451::Gravy
+  db_id: 537

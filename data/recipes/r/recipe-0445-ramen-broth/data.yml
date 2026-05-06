@@ -1,0 +1,37 @@
+babish_id: recipe-0445
+name: Ramen Broth
+image_link: null
+raw_ingredient_list: '1 pound chicken feet
+
+  ¼ pound pork spare ribs
+
+  2 pounds chicken wings
+
+  1 whole head of garlic, halved
+
+  1 large scallion, cut into 6-inch pieces
+
+  1 whole onion, halved
+
+  4 quarts of water (note: kombu leaves must soak in water for 24 hours)
+
+  4 kombu leaves
+
+  1 cup bonito
+
+  1 cup dried anchovies'
+raw_procedure: 'Soak 4 large kombu leaves in the water for 24 hours.
+
+  Cut nails off of chicken feet.
+
+  In a large stockpot, add pork spare ribs, chicken wings, chicken feet, garlic, scallion, onion, and kombu water.
+
+  Place over low heat and keep broth below 200°F. Skim any scum off the top of the surface and dispose of it.
+
+  After 4 hours, add bonito and dried anchovies. Allow to continue to simmer for 1 hour.
+
+  Pour broth through strainer into large glass bowl. Chill overnight.'
+episode: episode-0570
+_lookup:
+  episode_and_section: episode-0570::Ramen Broth
+  db_id: 454

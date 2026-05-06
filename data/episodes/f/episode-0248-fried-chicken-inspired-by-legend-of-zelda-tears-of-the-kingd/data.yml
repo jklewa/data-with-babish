@@ -1,0 +1,25 @@
+babish_id: episode-0248
+name: 'Fried Chicken inspired by Legend of Zelda: Tears of the Kingdom'
+slug: fried-chicken-inspired-by-legend-of-zelda:-tears-of-the-kingdom
+published_date: 2025-06-09
+youtube_link: https://www.youtube.com/watch?v=v-uQOBC3IOY&pp=ygUnYmluZ2luZyB3aXRoIGJhYmlzaCB6ZWxkYSBmcmllZCBjaGlja2Vu
+official_link: https://www.babi.sh/recipes/fried-chicken-inspired-by-legend-of-zelda:-tears-of-the-kingdom
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1749500704/p0rmeudmqzwhvnkjyo9c.webp
+time_to_cook: null
+yield_qty: 5
+yield_unit: servings
+tags:
+- tag-0003
+- tag-0009
+- tag-0017
+- tag-0021
+- tag-0030
+- tag-0033
+guests: []
+inspired_by:
+- reference-0247
+recipes:
+- recipe-1208
+_lookup:
+  slug: fried-chicken-inspired-by-legend-of-zelda:-tears-of-the-kingdom
+  babish_internal_id: ViMctWA5oXUcidtK6TP2

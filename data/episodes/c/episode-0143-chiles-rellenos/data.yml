@@ -1,0 +1,24 @@
+babish_id: episode-0143
+name: CHILES RELLENOS
+slug: chiles-rellenos
+published_date: 2021-08-26
+youtube_link: https://www.youtube.com/watch?v=gAKW8RB6aeU
+official_link: https://www.babi.sh/recipes/chiles-rellenos
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695355/babishImages/undefined-627603.png
+time_to_cook: 3600
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0013
+- tag-0015
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1100
+- recipe-1101
+_lookup:
+  slug: chiles-rellenos
+  babish_internal_id: 9hizyLpgah1XXtHLjTMP

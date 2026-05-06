@@ -1,0 +1,15 @@
+babish_id: recipe-0421
+name: French 75
+image_link: null
+raw_ingredient_list: '1 ounce gin
+
+  1/2 ounce fresh lemon juice
+
+  2 ounces champagne (or sparkling white wine)
+
+  1 lemon peel'
+raw_procedure: In a cocktail shaker filled with ice, combine gin and lemon juice. Shake thoroughly.  Strain into a chilled champagne coupe glass, top with champagne, and garnish with lemon peel.
+episode: episode-0162
+_lookup:
+  episode_and_section: episode-0162::French 75
+  db_id: 430

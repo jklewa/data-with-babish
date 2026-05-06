@@ -1,0 +1,22 @@
+babish_id: episode-0341
+name: Layered Butter Toast - Danish Creamery
+slug: layered-butter-toast-danish-creamery
+published_date: 2025-03-19
+youtube_link: https://www.youtube.com/watch?v=Gr1RIaYVywM&ab_channel=BabishCulinaryUniverse
+official_link: https://www.babi.sh/recipes/layered-butter-toast-danish-creamery
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1742394232/gyyukk3qokkaa39hcbtk.webp
+time_to_cook: 172800
+yield_qty: 2
+yield_unit: loaves
+tags:
+- tag-0011
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1227
+_lookup:
+  slug: layered-butter-toast-danish-creamery
+  babish_internal_id: IXm6wjU0dUf6f9KBYsOd

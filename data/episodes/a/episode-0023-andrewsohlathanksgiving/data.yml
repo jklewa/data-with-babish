@@ -1,0 +1,27 @@
+babish_id: episode-0023
+name: ANDREW & SOHLA THANKSGIVING RECIPES
+slug: andrewsohlathanksgiving
+published_date: 2020-11-20
+youtube_link: https://www.youtube.com/watch?v=tXNuz8nXYGk
+official_link: https://www.babi.sh/recipes/andrewsohlathanksgiving
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715526/babishImages/undefined-665559.jpg
+time_to_cook: 7200
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-0794
+- recipe-0795
+- recipe-0796
+- recipe-0797
+- recipe-0798
+- recipe-0799
+- recipe-0800
+- recipe-0801
+_lookup:
+  slug: andrewsohlathanksgiving
+  babish_internal_id: ZnKuxItx8S2iLAnpoAoA

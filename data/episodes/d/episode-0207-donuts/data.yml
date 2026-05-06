@@ -1,0 +1,26 @@
+babish_id: episode-0207
+name: DONUTS
+slug: donuts
+published_date: 2018-11-01
+youtube_link: https://www.youtube.com/watch?v=9PWomdbZi2U
+official_link: https://www.babi.sh/recipes/donuts
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686009926/fywiebobsgyzvnbikdjo.webp
+time_to_cook: 5400
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-0167
+- recipe-0168
+- recipe-0169
+- recipe-0170
+- recipe-0171
+_lookup:
+  slug: donuts
+  babish_internal_id: 4pCZk0P68z40l1PNGkxj

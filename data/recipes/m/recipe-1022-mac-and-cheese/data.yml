@@ -1,0 +1,17 @@
+babish_id: recipe-1022
+name: Mac and Cheese
+image_link: null
+raw_ingredient_list: '1 ½ Cups water
+
+  1 Cup whole milk
+
+  8 oz dried macaroni
+
+  4 oz american yellow cheese, shredded
+
+  6 oz sharp cheddar cheese, shredded'
+raw_procedure: ''
+episode: episode-0588
+_lookup:
+  episode_and_section: episode-0588::Mac and Cheese
+  db_id: 1041

@@ -1,0 +1,17 @@
+babish_id: recipe-1249
+name: Breakfast Uncrustable
+image_link: null
+raw_ingredient_list: 'chicken
+
+  eggs
+
+  cheese
+
+  cottage cheese
+
+  unsalted butter more for toasting'
+raw_procedure: ''
+episode: episode-0095
+_lookup:
+  episode_and_section: episode-0095::Breakfast Uncrustable
+  db_id: 1268

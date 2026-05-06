@@ -1,0 +1,21 @@
+babish_id: episode-0125
+name: CHEEESE FONDUE
+slug: cheese-fondue
+published_date: 2020-07-23
+youtube_link: https://www.youtube.com/watch?v=_X-Mm8h1AHM
+official_link: https://www.babi.sh/recipes/cheese-fondue
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715730/babishImages/undefined-469596.png
+time_to_cook: 1800
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0019
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1421
+_lookup:
+  slug: cheese-fondue
+  babish_internal_id: uBJiLqmT3FVfThFqKNZ3

@@ -1,0 +1,23 @@
+babish_id: recipe-0478
+name: Fish Tacos
+image_link: null
+raw_ingredient_list: 'Mahi mahi fish fillets
+
+  Juice of 1 lime
+
+  Salt and pepper
+
+  Olive oil
+
+  Freshly ground toasted cumin'
+raw_procedure: 'Place fillets in a plastic bag with lime juice, salt and pepper, olive oil, and cumin. Allow to marinate for at least 15 minutes. This is a good time to finish making the black beans. See the recipe above!
+
+  Preheat oven to 350°F.
+
+  Remove fillets from bag and place into a large pan over high heat. Sear both sides before placing pan in oven for about 30 minutes or until the internal temperature is 135°.
+
+  Remove fish from skin and place on taco. Top with desired toppings and enjoy.'
+episode: episode-0295
+_lookup:
+  episode_and_section: episode-0295::Fish Tacos
+  db_id: 487

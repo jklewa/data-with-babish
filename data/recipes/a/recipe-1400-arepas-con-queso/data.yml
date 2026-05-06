@@ -1,0 +1,15 @@
+babish_id: recipe-1400
+name: arepas con queso
+image_link: null
+raw_ingredient_list: 'low moisture mozzarella
+
+  unsalted butter more for cooking
+
+  deli mozzarella cheese
+
+  salt'
+raw_procedure: ''
+episode: episode-0034
+_lookup:
+  episode_and_section: episode-0034::arepas con queso
+  db_id: 1419

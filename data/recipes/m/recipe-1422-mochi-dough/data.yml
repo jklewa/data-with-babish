@@ -1,0 +1,15 @@
+babish_id: recipe-1422
+name: mochi dough
+image_link: null
+raw_ingredient_list: 'heavy cream
+
+  milk
+
+  sugar
+
+  egg yolks'
+raw_procedure: ''
+episode: episode-0381
+_lookup:
+  episode_and_section: episode-0381::mochi dough
+  db_id: 1441

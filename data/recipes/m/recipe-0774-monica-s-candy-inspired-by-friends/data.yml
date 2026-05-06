@@ -1,0 +1,21 @@
+babish_id: recipe-0774
+name: Monica's Candy inspired by Friends
+image_link: null
+raw_ingredient_list: '226 g butter, unsalted
+
+  230 g heavy cream
+
+  60 g water
+
+  155 g light corn syrup
+
+  400 g sugar
+
+  Vanilla extract
+
+  Kosher salt'
+raw_procedure: ''
+episode: episode-0384
+_lookup:
+  episode_and_section: episode-0384::Monica's Candy inspired by Friends
+  db_id: 788

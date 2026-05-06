@@ -1,0 +1,24 @@
+babish_id: episode-0599
+name: Tom Cruise Coconut Cake inspired by Hacks
+slug: tom-cruise-coconut-cake-inspired-by-hacks
+published_date: 2024-08-28
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/tom-cruise-coconut-cake-inspired-by-hacks
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1724859705/ijpvshqkoitufajrejms.webp
+time_to_cook: null
+yield_qty: 12
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0275
+recipes:
+- recipe-1265
+_lookup:
+  slug: tom-cruise-coconut-cake-inspired-by-hacks
+  babish_internal_id: GZxooe0s4ie4ICbM25Hy

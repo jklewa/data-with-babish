@@ -1,0 +1,39 @@
+babish_id: recipe-0265
+name: Cheesy Blasters
+image_link: null
+raw_ingredient_list: 'Pizza dough
+
+  Flour
+
+  Spicy Italian Sausage
+
+  Pepperoni
+
+  Genoa salami
+
+  Hard salami
+
+  Low moisture mozzarella
+
+  Pizza sauce
+
+  Ricotta cheese
+
+  Eggs'
+raw_procedure: 'Make some pizza dough.
+
+  Cut dough into 4 equal pieces. Roll out one piece on a floured surface until it’s a circle.
+
+  Once your dough is rolled out, cook some spicy italian sausage in a pan, and be sure to crumble it up.
+
+  While your sausage is cooking, dice up some pepperoni, genoa salami, and some hard salami (any 3 salamis will do).
+
+  Add some pizza sauce to your dough and top with some low moisture mozzarella followed by your 3 salamis, spicy Italian sausage, and some ricotta cheese.
+
+  Fold dough over and turn in the edges similar to an empanada. Cut three slits for steam in the top. Cover with an egg wash and place in a 500°F oven for about 20 minutes.
+
+  Let sit for 10-15 minutes to cool. Serve and enjoy!'
+episode: episode-0127
+_lookup:
+  episode_and_section: episode-0127::Cheesy Blasters
+  db_id: 270

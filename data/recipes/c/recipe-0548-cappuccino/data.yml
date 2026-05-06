@@ -1,0 +1,13 @@
+babish_id: recipe-0548
+name: Cappuccino
+image_link: ''
+raw_ingredient_list: 'Espresso (double shot)
+
+  Steamed milk
+
+  Foam (large layer)'
+raw_procedure: This is a double shot of espresso and equal parts steamed milk and very frothy foam. Pour from up high to allow the steamed milk to mix with the coffee and then move closer while you get to the foam, which allows it to settle on top. The foam should be thick and form a clearly defined layer on top of the coffee.
+episode: episode-0225
+_lookup:
+  episode_and_section: episode-0225::Cappuccino
+  db_id: 561

@@ -1,0 +1,27 @@
+babish_id: episode-0588
+name: The Sims Special
+slug: the-sims-special
+published_date: 2021-07-26
+youtube_link: https://www.youtube.com/watch?v=z4Bwb8_k7yM
+official_link: https://www.babi.sh/recipes/the-sims-special
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1680347083/v6pyttpnbczp1opgeaug.webp
+time_to_cook: 9000
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0003
+- tag-0012
+- tag-0032
+guests: []
+inspired_by:
+- reference-0227
+recipes:
+- recipe-1022
+- recipe-1023
+- recipe-1024
+- recipe-1025
+- recipe-1026
+- recipe-1027
+_lookup:
+  slug: the-sims-special
+  babish_internal_id: k7KYcV9km5HUgY6hTiZG

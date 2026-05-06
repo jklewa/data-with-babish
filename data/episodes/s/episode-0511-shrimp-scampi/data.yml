@@ -1,0 +1,18 @@
+babish_id: episode-0511
+name: SHRIMP SCAMPI
+slug: shrimp-scampi
+published_date: 2021-01-28
+youtube_link: https://www.youtube.com/watch?v=3ELo1zykAGU
+official_link: https://basicswithbabish.co/basicsepisodes/shrimp-scampi
+image_link: https://img.youtube.com/vi/3ELo1zykAGU/mqdefault.jpg
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags: []
+guests: []
+inspired_by: []
+recipes:
+- recipe-1449
+- recipe-1456
+_lookup:
+  slug: shrimp-scampi

@@ -1,0 +1,22 @@
+babish_id: episode-0405
+name: PAN CON TOMATE & THAI CRAB CAKES
+slug: pancontomate-crabcakes
+published_date: 2021-02-12
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/pancontomate-crabcakes
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1679528843/xgz5yesij5scrohrl1fs.webp
+time_to_cook: 8400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0019
+guests: []
+inspired_by: []
+recipes:
+- recipe-0877
+- recipe-0878
+- recipe-0879
+_lookup:
+  slug: pancontomate-crabcakes
+  babish_internal_id: OMIMhsBUrdKIiyYMxCg2

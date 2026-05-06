@@ -1,0 +1,17 @@
+babish_id: recipe-1261
+name: assembly
+image_link: null
+raw_ingredient_list: 'flour
+
+  milk
+
+  butter
+
+  fish stock
+
+  smoked herring torn into chunks'
+raw_procedure: ''
+episode: episode-0282
+_lookup:
+  episode_and_section: episode-0282::assembly
+  db_id: 1280

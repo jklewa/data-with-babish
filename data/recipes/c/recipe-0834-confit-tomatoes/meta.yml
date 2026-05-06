@@ -1,0 +1,17 @@
+fields:
+  name:
+    state: scraped
+    last_seen: '2026-05-05'
+  image_link:
+    state: scraped
+    last_seen: '2026-05-05'
+  raw_ingredient_list:
+    state: scraped
+    last_seen: '2026-05-05'
+  raw_procedure:
+    state: scraped
+    last_seen: '2026-05-05'
+  episode:
+    state: scraped
+    last_seen: '2026-05-05'
+rejected: {}

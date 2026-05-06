@@ -1,0 +1,35 @@
+babish_id: recipe-0127
+name: Pizza Ball
+image_link: null
+raw_ingredient_list: 'Prepared pizza dough (homemade or store bought)
+
+  Flour (for work surface)
+
+  Pepperoni
+
+  Mozzarella cheese, cubed
+
+  Vegetable Oil
+
+  Parmesan cheese (the powdered kind in the jar)
+
+  Oregano
+
+  Red pepper flakes
+
+  Marinara sauce'
+raw_procedure: 'Start by rolling out your pizza dough on a liberally floured work surface. Cut into 1 inch squares.
+
+  Add some pepperoni and one cube of mozzarella cheese to the square of dough. Wrap each corner up and around the mozzarella clockwise, being sure to pinch all gaps closed.
+
+  In a cast iron skillet, heat 1 inch of vegetable oil to 350°F and add your pizza balls. Flip and fry for about 5 minutes until they are deeply golden brown.
+
+  In a separate bowl combine: parmesan cheese, a few healthy dashes of oregano, and red pepper flakes.
+
+  Remove pizza balls from the cast iron and toss them in the parmesan mixture.
+
+  Serve with a side of warm marinara sauce and enjoy!'
+episode: episode-0433
+_lookup:
+  episode_and_section: episode-0433::Pizza Ball
+  db_id: 132

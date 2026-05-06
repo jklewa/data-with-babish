@@ -1,0 +1,18 @@
+babish_id: episode-0138
+name: Chicken Schnitzel with Kohlrabi Slaw
+slug: chicken-schnitzel-with-kohlrabi-slaw
+published_date: 2024-04-03
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/chicken-schnitzel-with-kohlrabi-slaw
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1712164085/zevoznd2i1yfyqnxouis.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags: []
+guests: []
+inspired_by: []
+recipes:
+- recipe-1286
+_lookup:
+  slug: chicken-schnitzel-with-kohlrabi-slaw
+  babish_internal_id: K96K3ophlyjh5WJIhOJT

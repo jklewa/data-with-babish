@@ -1,0 +1,22 @@
+babish_id: episode-0518
+name: GAS GRILL-SMOKED RIBS
+slug: smokedribs
+published_date: 2020-05-21
+youtube_link: https://www.youtube.com/watch?v=sX2fsvYkKF4
+official_link: https://www.babi.sh/recipes/smokedribs
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715464/babishImages/undefined-127647.png
+time_to_cook: 20100
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0021
+- tag-0030
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1427
+_lookup:
+  slug: smokedribs
+  babish_internal_id: 9aVehKBepnWHcX8r2k1E

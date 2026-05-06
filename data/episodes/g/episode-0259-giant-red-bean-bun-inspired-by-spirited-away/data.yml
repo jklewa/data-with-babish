@@ -1,0 +1,28 @@
+babish_id: episode-0259
+name: Giant Red Bean Bun inspired by Spirited Away
+slug: giant-red-bean-bun-inspired-by-spirited-away
+published_date: 2025-09-04
+youtube_link: https://www.youtube.com/watch?v=Ct9PksHLGKQ
+official_link: https://www.babi.sh/recipes/giant-red-bean-bun-inspired-by-spirited-away
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1757016609/q3spztehxzun7e6bslkn.webp
+time_to_cook: 7200
+yield_qty: 3
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0005
+- tag-0010
+- tag-0015
+- tag-0018
+- tag-0028
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0241
+recipes:
+- recipe-1193
+_lookup:
+  slug: giant-red-bean-bun-inspired-by-spirited-away
+  babish_internal_id: FoRAFGoRn8AY46hCjPHA

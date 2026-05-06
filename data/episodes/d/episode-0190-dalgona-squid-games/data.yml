@@ -1,0 +1,23 @@
+babish_id: episode-0190
+name: Dalgona inspired by Squid Games
+slug: dalgona-squid-games
+published_date: 2021-10-13
+youtube_link: https://www.youtube.com/watch?v=s5SqsNPWYA4
+official_link: https://www.babi.sh/recipes/dalgona-squid-games
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695349/babishImages/undefined-152769.png
+time_to_cook: 1200
+yield_qty: 1
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0018
+guests: []
+inspired_by:
+- reference-0231
+recipes:
+- recipe-1134
+- recipe-1135
+_lookup:
+  slug: dalgona-squid-games
+  babish_internal_id: 9ewnUOUdzU99oNV2BsU9

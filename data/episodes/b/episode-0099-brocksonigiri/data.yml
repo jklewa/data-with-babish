@@ -1,0 +1,21 @@
+babish_id: episode-0099
+name: Brock's Onigiri inspired by Pokémon
+slug: brocksonigiri
+published_date: 2019-04-02
+youtube_link: https://www.youtube.com/watch?v=gW4PCfLzTYA&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/gW4PCfLzTYA/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/brocksonigiri
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696152/babishImages/undefined-105913.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+guests: []
+inspired_by:
+- reference-0017
+recipes:
+- recipe-0092
+_lookup:
+  slug: brocksonigiri
+  babish_internal_id: q54Ad5nsnteZgpylxqVK

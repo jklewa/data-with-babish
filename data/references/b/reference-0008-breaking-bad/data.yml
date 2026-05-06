@@ -1,0 +1,9 @@
+babish_id: reference-0008
+type: tv_show
+name: Breaking Bad
+description: A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future. IMDb.
+external_link: https://www.imdb.com/title/tt0903747/
+image_link: https://i.ytimg.com/sh/n4iyyrLWFRgZ-Hnzllkmhg/market.jpg
+_lookup:
+  canonical_name: Breaking Bad
+  db_id: 9

@@ -1,0 +1,20 @@
+babish_id: episode-0578
+name: STUFFING
+slug: thanksgiving-stuffings
+published_date: 2022-12-05
+youtube_link: https://www.youtube.com/watch?v=vuxomVkJkcY
+official_link: https://www.babi.sh/recipes/thanksgiving-stuffings
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696358/babishImages/undefined-373797.png
+time_to_cook: 5400
+yield_qty: 10
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0019
+guests: []
+inspired_by: []
+recipes:
+- recipe-1359
+_lookup:
+  slug: thanksgiving-stuffings
+  babish_internal_id: y1B4kRYhTrSlKBOXc3MO

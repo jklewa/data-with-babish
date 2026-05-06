@@ -1,0 +1,24 @@
+babish_id: episode-0450
+name: POTSTICKERS
+slug: potstickers
+published_date: 2021-01-07
+youtube_link: https://www.youtube.com/watch?v=iC1rvXPt_rE
+official_link: https://www.babi.sh/recipes/potstickers
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715716/babishImages/undefined-441702.png
+time_to_cook: 3600
+yield_qty: 5
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0019
+guests: []
+inspired_by: []
+recipes:
+- recipe-0822
+- recipe-0823
+- recipe-0824
+- recipe-0825
+- recipe-0826
+_lookup:
+  slug: potstickers
+  babish_internal_id: q2gdS1WXUXN5APMbWDlW

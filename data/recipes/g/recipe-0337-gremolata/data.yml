@@ -1,0 +1,19 @@
+babish_id: recipe-0337
+name: Gremolata
+image_link: null
+raw_ingredient_list: 'Olive oil
+
+  Lemon
+
+  Garlic
+
+  Parsley'
+raw_procedure: 'Start by rinsing, drying, and chopping a handful of parsley and adding it to a bowl.
+
+  Add two minced cloves of garlic along with the zest and juice of one whole lemon.
+
+  Season with salt and pepper and add some olive oil.'
+episode: episode-0491
+_lookup:
+  episode_and_section: episode-0491::Gremolata
+  db_id: 346

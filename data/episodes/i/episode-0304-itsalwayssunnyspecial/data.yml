@@ -1,0 +1,32 @@
+babish_id: episode-0304
+name: It's Always Sunny in Philadelphia Special
+slug: itsalwayssunnyspecial
+published_date: 2017-02-20
+youtube_link: https://www.youtube.com/watch?v=Q2ezpExQ_k0
+official_link: https://www.babi.sh/recipes/itsalwayssunnyspecial
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992050/vganhazfptuo0aqxbyfm.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0017
+- tag-0021
+- tag-0028
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0009
+recipes:
+- recipe-0464
+- recipe-0465
+- recipe-0466
+- recipe-0467
+- recipe-0468
+- recipe-0469
+_lookup:
+  slug: itsalwayssunnyspecial
+  babish_internal_id: Wsy0eHzsCooVYp32A6o9

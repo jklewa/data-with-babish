@@ -1,0 +1,27 @@
+babish_id: episode-0170
+name: Cookie Cat inspired by Steven Universe
+slug: cookie-cat-steven-universe
+published_date: 2021-02-16
+youtube_link: https://www.youtube.com/watch?v=KbNRvWfndjA
+official_link: https://www.babi.sh/recipes/cookie-cat-steven-universe
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696201/babishImages/undefined-799954.png
+time_to_cook: 4800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0005
+recipes:
+- recipe-0880
+- recipe-0881
+- recipe-0882
+- recipe-0883
+_lookup:
+  slug: cookie-cat-steven-universe
+  babish_internal_id: rcql4cWj8PmpYCoIZcy3

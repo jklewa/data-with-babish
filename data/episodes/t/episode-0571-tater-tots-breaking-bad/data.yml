@@ -1,0 +1,22 @@
+babish_id: episode-0571
+name: Tater Tots inspired by Breaking Bad
+slug: tater-tots-breaking-bad
+published_date: 2023-02-22
+youtube_link: https://www.youtube.com/watch?v=2PaeU_ABK94
+official_link: https://www.babi.sh/recipes/tater-tots-breaking-bad
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1680385570/tslhiithrddekp7evkzn.webp
+time_to_cook: 5400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0019
+guests: []
+inspired_by:
+- reference-0008
+recipes:
+- recipe-1346
+_lookup:
+  slug: tater-tots-breaking-bad
+  babish_internal_id: qTsW7XEE4G6GqvaOaI1p

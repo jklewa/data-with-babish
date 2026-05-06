@@ -1,0 +1,26 @@
+babish_id: episode-0362
+name: Marmalade Sandwiches inspired by Paddington
+slug: marmalade
+published_date: 2020-01-23
+youtube_link: https://www.youtube.com/watch?v=g1j-5UkZyL0&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/g1j-5UkZyL0/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/marmalade
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695964/babishImages/undefined-95417.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0020
+- tag-0028
+- tag-0031
+guests: []
+inspired_by:
+- reference-0169
+recipes:
+- recipe-0630
+- recipe-0631
+- recipe-0632
+_lookup:
+  slug: marmalade
+  babish_internal_id: gRL6CpZUkDVqvpDmQdN7

@@ -1,0 +1,13 @@
+babish_id: recipe-0628
+name: Cherry “Ketchup”
+image_link: null
+raw_ingredient_list: '1 cup cherries
+
+  2-3 Tbsp sugar (depending on how sweet your cherries are)
+
+  1 Tbsp cornstarch'
+raw_procedure: ''
+episode: episode-0198
+_lookup:
+  episode_and_section: episode-0198::Cherry “Ketchup”
+  db_id: 642

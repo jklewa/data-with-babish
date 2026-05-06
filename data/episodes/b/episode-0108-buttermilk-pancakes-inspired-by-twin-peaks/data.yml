@@ -1,0 +1,27 @@
+babish_id: episode-0108
+name: Buttermilk Pancakes inspired by Twin Peaks
+slug: buttermilk-pancakes-inspired-by-twin-peaks
+published_date: 2017-05-18
+youtube_link: https://www.youtube.com/watch?v=nEoSBL25RO4
+official_link: https://www.babi.sh/recipes/buttermilk-pancakes-inspired-by-twin-peaks
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992075/k6lh85gi9qv44sgwuezx.webp
+time_to_cook: null
+yield_qty: 5
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0015
+- tag-0025
+- tag-0028
+- tag-0032
+guests:
+- guest-0017
+inspired_by:
+- reference-0094
+- reference-0110
+recipes:
+- recipe-0429
+_lookup:
+  slug: buttermilk-pancakes-inspired-by-twin-peaks
+  babish_internal_id: njM8xxHCqI2hjPzeULNu

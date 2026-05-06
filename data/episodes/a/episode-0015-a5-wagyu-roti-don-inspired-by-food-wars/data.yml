@@ -1,0 +1,22 @@
+babish_id: episode-0015
+name: A5 Wagyu Roti Don inspired by Food Wars!
+slug: a5-wagyu-roti-don-inspired-by-food-wars!
+published_date: 2024-09-12
+youtube_link: https://www.youtube.com/watch?v=VzPJE4LUxC4
+official_link: https://www.babi.sh/recipes/a5-wagyu-roti-don-inspired-by-food-wars!
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1726150996/cqreovarq8cekj22lfnt.webp
+time_to_cook: null
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+guests: []
+inspired_by:
+- reference-0063
+recipes:
+- recipe-1250
+- recipe-1251
+_lookup:
+  slug: a5-wagyu-roti-don-inspired-by-food-wars!
+  babish_internal_id: xGUC63pPaJZcrTDzrP7c

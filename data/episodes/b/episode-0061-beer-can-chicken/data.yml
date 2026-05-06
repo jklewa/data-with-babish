@@ -1,0 +1,23 @@
+babish_id: episode-0061
+name: BEER CAN CHICKEN
+slug: beer-can-chicken
+published_date: 2022-12-19
+youtube_link: https://www.youtube.com/watch?v=Xo0v7ZuA9C0
+official_link: https://www.babi.sh/recipes/beer-can-chicken
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696392/babishImages/undefined-504592.png
+time_to_cook: 3600
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0021
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1353
+_lookup:
+  slug: beer-can-chicken
+  babish_internal_id: zPD4FuqoTXMpRPkkoZQ6

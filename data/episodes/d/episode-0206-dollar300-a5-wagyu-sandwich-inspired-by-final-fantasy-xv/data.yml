@@ -1,0 +1,26 @@
+babish_id: episode-0206
+name: $300 A5 Wagyu Sandwich inspired by Final Fantasy XV
+slug: dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv
+published_date: 2025-06-06
+youtube_link: https://www.youtube.com/watch?v=--8vhFlsL0E
+official_link: https://www.babi.sh/recipes/dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1749234440/zllf0ro2q8sagtw2kdij.webp
+time_to_cook: 1800
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0003
+- tag-0009
+- tag-0017
+- tag-0020
+- tag-0021
+- tag-0029
+- tag-0031
+guests: []
+inspired_by:
+- reference-0243
+recipes:
+- recipe-1211
+_lookup:
+  slug: dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv
+  babish_internal_id: OZ5Hb0jqwoCBjgb31EN9

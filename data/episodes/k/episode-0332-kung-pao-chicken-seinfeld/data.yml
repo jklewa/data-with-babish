@@ -1,0 +1,26 @@
+babish_id: episode-0332
+name: Kung Pao Chicken inspired by Seinfeld
+slug: kung-pao-chicken-seinfeld
+published_date: 2022-01-26
+youtube_link: https://www.youtube.com/watch?v=tQfKTsh5ycs
+official_link: https://www.babi.sh/recipes/kung-pao-chicken-seinfeld
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696273/babishImages/undefined-527507.png
+time_to_cook: 2400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0015
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0029
+recipes:
+- recipe-1397
+_lookup:
+  slug: kung-pao-chicken-seinfeld
+  babish_internal_id: vIWySNQu6gtuA42xL9rj

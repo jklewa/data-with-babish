@@ -1,0 +1,17 @@
+babish_id: recipe-0402
+name: Deep Fried Chicken Wings
+image_link: null
+raw_ingredient_list: '2 pounds chicken wings, separated into pieces
+
+  1 Tbsp lemon-pepper seasoning (see below to make seasoning from scratch)
+
+  1/4 cup buffalo sauce (for JR Crickets version)
+
+  1/4 cup clarified butter (for American Deli version)
+
+  2 quarts vegetable oil'
+raw_procedure: Preheat frying oil to 350°F.  Fry wings for 7-10 minutes, until golden brown and crisp.  For JR Crickets version, toss with lemon pepper seasoning, followed by buffalo sauce.  For American Deli version, toss with lemon pepper seasoning, followed by clarified butter.
+episode: episode-0345
+_lookup:
+  episode_and_section: episode-0345::Deep Fried Chicken Wings
+  db_id: 411

@@ -1,0 +1,31 @@
+babish_id: recipe-0449
+name: Tampopo Ramen
+image_link: null
+raw_ingredient_list: 'Ramen Broth
+
+  Ramen Pork
+
+  Tare Sauce
+
+  Homemade Ramen Noodles
+
+  Sesame oil
+
+  Kamaboko (Japanese fish cake)
+
+  Chopped scallions
+
+  Menma (braised bamboo shoots)
+
+  1 sheet of nori (dried seaweed)'
+raw_procedure: 'Boil noodles for no more than 30 seconds.
+
+  Place 2 Tbsp of Tare into a bowl. Add a few ladlefuls of the boiling broth, followed by the noodles.
+
+  Slice the pork and place on top. Garnish with a kamaboko, scallions, menma, and nori.
+
+  Slurp your noodles.'
+episode: episode-0570
+_lookup:
+  episode_and_section: episode-0570::Tampopo Ramen
+  db_id: 458

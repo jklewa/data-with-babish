@@ -1,0 +1,26 @@
+babish_id: episode-0562
+name: Sweetrolls inspired by Skyrim
+slug: sweetrolls-skyrim
+published_date: 2020-06-18
+youtube_link: https://www.youtube.com/watch?v=98R3fgPKmYs
+official_link: https://www.babi.sh/recipes/sweetrolls-skyrim
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695689/babishImages/undefined-979539.png
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0003
+- tag-0012
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0186
+recipes:
+- recipe-0690
+- recipe-0691
+- recipe-0692
+- recipe-0693
+_lookup:
+  slug: sweetrolls-skyrim
+  babish_internal_id: Q4F24fVFYMpIzR3N55Y4

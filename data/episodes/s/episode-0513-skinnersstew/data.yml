@@ -1,0 +1,25 @@
+babish_id: episode-0513
+name: Skinner's Stew inspired by The Simpsons
+slug: skinnersstew
+published_date: 2018-01-09
+youtube_link: https://www.youtube.com/watch?v=y3PoXXoGVj0&amp;t=215s
+official_link: https://www.babi.sh/recipes/skinnersstew
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715520/babishImages/undefined-104943.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0023
+- tag-0024
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0014
+recipes:
+- recipe-0335
+_lookup:
+  slug: skinnersstew
+  babish_internal_id: XQsHOm4E7MfdkVlOd1oO

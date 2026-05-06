@@ -1,0 +1,24 @@
+babish_id: episode-0043
+name: Babish’s Ultimate Fried Chicken
+slug: babish's-ultimate-fried-chicken
+published_date: 2025-10-23
+youtube_link: https://www.youtube.com/watch?v=yvKf6aDxBLk
+official_link: https://www.babi.sh/recipes/babish's-ultimate-fried-chicken
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1761246372/oljov21inpdw2zrpqypy.webp
+time_to_cook: 6000
+yield_qty: 10
+yield_unit: chicken pieces
+tags:
+- tag-0006
+- tag-0019
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1187
+_lookup:
+  slug: babish's-ultimate-fried-chicken
+  babish_internal_id: oeDMTHuV6qts6fSk0aDy

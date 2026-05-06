@@ -1,0 +1,11 @@
+babish_id: recipe-0417
+name: Sweet Vermouth, Rocks, with a Twist
+image_link: null
+raw_ingredient_list: '3 ounces sweet vermouth
+
+  1 lemon peel'
+raw_procedure: Pour sweet vermouth over ice in an old fashioned glass.  Twist lemon peel to release oils, and rub around the rim of the glass, adding the peel to the drink before serving.
+episode: episode-0162
+_lookup:
+  episode_and_section: episode-0162::Sweet Vermouth, Rocks, with a Twist
+  db_id: 426

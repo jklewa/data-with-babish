@@ -1,0 +1,23 @@
+babish_id: episode-0217
+name: Eggs Florentine inspired by Frasier
+slug: eggsflorentine
+published_date: 2018-11-13
+youtube_link: https://www.youtube.com/watch?v=CFatEWNx5RQ
+official_link: https://www.babi.sh/recipes/eggsflorentine
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695942/babishImages/undefined-121585.png
+time_to_cook: 8400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0028
+- tag-0031
+guests: []
+inspired_by:
+- reference-0032
+recipes:
+- recipe-0165
+_lookup:
+  slug: eggsflorentine
+  babish_internal_id: fZarIrWPbyQfeE6cNXQz

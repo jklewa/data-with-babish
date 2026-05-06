@@ -1,0 +1,21 @@
+babish_id: recipe-0885
+name: Advanced Grilled Cheese
+image_link: null
+raw_ingredient_list: '7 oz white cheddar, cubed
+
+  2 oz brie cheese, rind removed
+
+  2 Tbsp dry white wine
+
+  ½ large shallot, roughly chopped
+
+  3 Tbsp unsalted butter, very soft
+
+  1 tsp Dijon mustard
+
+  8 slices country white bread'
+raw_procedure: ''
+episode: episode-0016
+_lookup:
+  episode_and_section: episode-0016::Advanced Grilled Cheese
+  db_id: 904

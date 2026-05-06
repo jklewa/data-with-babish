@@ -1,0 +1,9 @@
+babish_id: reference-0078
+type: tv_show
+name: The Office
+description: A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium. IMDb.
+external_link: https://www.imdb.com/title/tt0386676/
+image_link: https://i.ytimg.com/sh/VCVm3mKpo1XgvNdO5ruXXQ/market.jpg
+_lookup:
+  canonical_name: The Office
+  db_id: 80

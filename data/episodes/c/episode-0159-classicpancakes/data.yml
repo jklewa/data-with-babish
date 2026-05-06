@@ -1,0 +1,22 @@
+babish_id: episode-0159
+name: Classic Pancakes inspired by Uncle Buck
+slug: classicpancakes
+published_date: 2019-08-20
+youtube_link: https://www.youtube.com/watch?v=WMj7G-U3LW8
+official_link: https://www.babi.sh/recipes/classicpancakes
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695456/babishImages/undefined-606334.png
+time_to_cook: 2400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+guests:
+- guest-0009
+inspired_by:
+- reference-0074
+recipes:
+- recipe-0001
+_lookup:
+  slug: classicpancakes
+  babish_internal_id: E4KUELHuWrFLfmcN3dj9

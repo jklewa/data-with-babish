@@ -1,0 +1,17 @@
+babish_id: recipe-0133
+name: Meat & Cheese Rolls
+image_link: null
+raw_ingredient_list: 'Mortadella, thinly sliced (or your preferred meat)
+
+  Gruyere cheese (or your preferred cheese)
+
+  Roasted red peppers'
+raw_procedure: 'Thinly slice your gruyere cheese lengthwise. Roll your mortadella into a roll, and then wrap it around the cheese.
+
+  Trim off the edges of the mortadella.
+
+  Add two small slices of roasted red peppers in an “x” shape on top of the cheese and then place a toothpick in the middle to hold the whole thing together.'
+episode: episode-0584
+_lookup:
+  episode_and_section: episode-0584::Meat & Cheese Rolls
+  db_id: 138

@@ -1,0 +1,28 @@
+babish_id: episode-0476
+name: Ribwich inspired by The Simpsons
+slug: ribwich
+published_date: 2019-03-12
+youtube_link: https://www.youtube.com/watch?v=Yj07347rEqo&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/Yj07347rEqo/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/ribwich
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695788/babishImages/undefined-724419.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0020
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0014
+recipes:
+- recipe-0101
+- recipe-0102
+- recipe-0103
+- recipe-0104
+_lookup:
+  slug: ribwich
+  babish_internal_id: UiPiqVMYxJzxH624yjPJ

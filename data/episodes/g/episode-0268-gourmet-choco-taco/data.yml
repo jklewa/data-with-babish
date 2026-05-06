@@ -1,0 +1,22 @@
+babish_id: episode-0268
+name: Gourmet Choco Taco
+slug: gourmet-choco-taco
+published_date: 2024-04-18
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/gourmet-choco-taco
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1713458126/owkpuy7kmrnqo2a3h1kg.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0001
+- tag-0017
+- tag-0018
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1283
+_lookup:
+  slug: gourmet-choco-taco
+  babish_internal_id: fy7t5QA803Z4qg121tBi

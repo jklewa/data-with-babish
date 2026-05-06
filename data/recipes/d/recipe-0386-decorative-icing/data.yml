@@ -1,0 +1,19 @@
+babish_id: recipe-0386
+name: Decorative Icing
+image_link: null
+raw_ingredient_list: '1 cup powder sugar
+
+  2 tsp corn syrup
+
+  2 Tbsp whole milk
+
+  2 Tbsp of melted butter
+
+  Melted chocolate or cocoa powder'
+raw_procedure: 'In a bowl, whisk together sugar, corn syrup, milk, and butter.
+
+  Set aside a few tablespoons in another bowl. Add molten chocolate or cocoa powder to this icing.'
+episode: episode-0360
+_lookup:
+  episode_and_section: episode-0360::Decorative Icing
+  db_id: 395

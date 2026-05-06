@@ -1,0 +1,9 @@
+babish_id: reference-0022
+type: tv_show
+name: Archer
+description: Covert black ops and espionage take a back seat to zany personalities and relationships between secret agents and drones. IMDb.
+external_link: https://www.imdb.com/title/tt1486217/
+image_link: https://i.ytimg.com/sh/9pN22G6plt4DRzxbbhHy-g/market.jpg
+_lookup:
+  canonical_name: Archer
+  db_id: 23

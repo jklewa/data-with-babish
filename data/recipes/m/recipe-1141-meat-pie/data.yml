@@ -1,0 +1,15 @@
+babish_id: recipe-1141
+name: Meat Pie
+image_link: null
+raw_ingredient_list: 'As needed all-purpose flour
+
+  Reserved Hot Crust Pastry (see recipe above)
+
+  Reserved Meat Pie Filling (see recipe above)
+
+  1 egg, beaten'
+raw_procedure: ''
+episode: episode-0371
+_lookup:
+  episode_and_section: episode-0371::Meat Pie
+  db_id: 1160

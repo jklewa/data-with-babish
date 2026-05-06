@@ -1,0 +1,27 @@
+babish_id: episode-0130
+name: Chicago-Style Italian Beef inspired by The Bear
+slug: chicago-style-italian-beef-inspired-by-the-bear
+published_date: 2024-07-08
+youtube_link: https://www.youtube.com/watch?v=xrXDdlrcuKs
+official_link: https://www.babi.sh/recipes/chicago-style-italian-beef-inspired-by-the-bear
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1720451211/caje3wf74d8gwuq8hbjn.webp
+time_to_cook: null
+yield_qty: 5
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0020
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0278
+recipes:
+- recipe-1275
+_lookup:
+  slug: chicago-style-italian-beef-inspired-by-the-bear
+  babish_internal_id: aEm8JdGRBZh6KIsdBuKD

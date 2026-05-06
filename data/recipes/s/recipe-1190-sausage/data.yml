@@ -1,0 +1,21 @@
+babish_id: recipe-1190
+name: sausage
+image_link: null
+raw_ingredient_list: 'fat back or pork belly cut into half inch cubes
+
+  chicken stock more
+
+  salt
+
+  black pepper
+
+  wild boar meat cut into one inch cubes
+
+  hog casings
+
+  meat'
+raw_procedure: ''
+episode: episode-0495
+_lookup:
+  episode_and_section: episode-0495::sausage
+  db_id: 1209

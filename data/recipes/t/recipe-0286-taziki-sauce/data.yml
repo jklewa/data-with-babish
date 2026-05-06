@@ -1,0 +1,21 @@
+babish_id: recipe-0286
+name: Taziki Sauce
+image_link: null
+raw_ingredient_list: '1 cup of greek yogurt
+
+  1 cucumber, seeded
+
+  2 cloves of garlic
+
+  Juice of one lemon
+
+  ¼ cup finely minced dill
+
+  Salt
+
+  Pepper'
+raw_procedure: In a medium bowl, whisk together the yogurt, chopped cucumber, minced garlic, juice of one lemon, and dill. Season with salt and pepper. Chill.
+episode: episode-0507
+_lookup:
+  episode_and_section: episode-0507::Taziki Sauce
+  db_id: 291

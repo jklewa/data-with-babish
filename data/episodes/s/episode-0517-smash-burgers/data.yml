@@ -1,0 +1,23 @@
+babish_id: episode-0517
+name: SMASH BURGERS
+slug: smash-burgers
+published_date: 2021-09-03
+youtube_link: https://www.youtube.com/watch?v=OsY85e9uIMw
+official_link: https://www.babi.sh/recipes/smash-burgers
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696066/babishImages/undefined-456448.png
+time_to_cook: 3600
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0013
+- tag-0015
+guests: []
+inspired_by: []
+recipes:
+- recipe-1102
+- recipe-1103
+- recipe-1104
+- recipe-1105
+_lookup:
+  slug: smash-burgers
+  babish_internal_id: m6qTOcJr11XpAm6MIg7x

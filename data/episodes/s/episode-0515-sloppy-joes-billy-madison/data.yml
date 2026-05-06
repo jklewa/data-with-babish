@@ -1,0 +1,31 @@
+babish_id: episode-0515
+name: Sloppy Joes inspired by Billy Madison
+slug: sloppy-joes-billy-madison
+published_date: 2021-01-20
+youtube_link: https://www.youtube.com/watch?v=BsDkBaACINQ
+official_link: https://www.babi.sh/recipes/sloppy-joes-billy-madison
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695189/babishImages/undefined-40874.png
+time_to_cook: 3600
+yield_qty: 5
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0020
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0210
+recipes:
+- recipe-0831
+- recipe-0832
+- recipe-0833
+- recipe-0834
+- recipe-0835
+- recipe-0836
+- recipe-0837
+_lookup:
+  slug: sloppy-joes-billy-madison
+  babish_internal_id: 3Dq0Mp1Gl2m1JSs5a29c

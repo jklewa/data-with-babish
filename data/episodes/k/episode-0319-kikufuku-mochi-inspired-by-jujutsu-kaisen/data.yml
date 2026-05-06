@@ -1,0 +1,24 @@
+babish_id: episode-0319
+name: Kikufuku Mochi inspired by Jujutsu Kaisen
+slug: kikufuku-mochi-inspired-by-jujutsu-kaisen
+published_date: 2024-09-04
+youtube_link: https://www.youtube.com/watch?v=iUT99TWDLnU
+official_link: https://www.babi.sh/recipes/kikufuku-mochi-inspired-by-jujutsu-kaisen
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1725461942/jdbeidjv54jsn9mkgru6.webp
+time_to_cook: null
+yield_qty: 6
+yield_unit: mochi
+tags:
+- tag-0002
+- tag-0010
+- tag-0018
+- tag-0019
+- tag-0032
+guests: []
+inspired_by:
+- reference-0272
+recipes:
+- recipe-1262
+_lookup:
+  slug: kikufuku-mochi-inspired-by-jujutsu-kaisen
+  babish_internal_id: pdZxur3clGwi3QWMsHAh

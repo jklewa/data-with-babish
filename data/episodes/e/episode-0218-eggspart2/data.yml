@@ -1,0 +1,22 @@
+babish_id: episode-0218
+name: EGGS PART II
+slug: eggspart2
+published_date: 2018-04-12
+youtube_link: https://www.youtube.com/watch?v=CFatEWNx5RQ
+official_link: https://www.babi.sh/recipes/eggspart2
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686074543/y0n6ry14llqshvz8cfwu.webp
+time_to_cook: 1500
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0028
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0282
+- recipe-0283
+_lookup:
+  slug: eggspart2
+  babish_internal_id: A2jIjhrlq2eNtgM6vfOJ

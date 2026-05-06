@@ -1,0 +1,11 @@
+babish_id: recipe-0054
+name: Homemade Cold Brew Coffee
+image_link: null
+raw_ingredient_list: '5 ounces coarsely ground dark roast coffee
+
+  24 ounces water'
+raw_procedure: To make the cold brew, combine 5 ounces coarsely ground dark roast coffee with 24 ounces of water in a french press. Cover with plastic wrap and put in the fridge for 12-18 hours. After it has steeped, push the plunger down of the french press. You can strain the coffee again through a filter or cheese cloth.
+episode: episode-0401
+_lookup:
+  episode_and_section: episode-0401::Homemade Cold Brew Coffee
+  db_id: 58

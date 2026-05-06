@@ -1,0 +1,21 @@
+babish_id: episode-0446
+name: Potato Chip Omelet inspired by The Bear
+slug: potato-chip-omelet-the-bear
+published_date: 2023-07-10
+youtube_link: https://www.youtube.com/watch?v=AHiIznBNdIM
+official_link: https://www.babi.sh/recipes/potato-chip-omelet-the-bear
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1690252298/aqeflofacljeuzb8yehc.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+guests: []
+inspired_by:
+- reference-0278
+recipes:
+- recipe-1322
+_lookup:
+  slug: potato-chip-omelet-the-bear
+  babish_internal_id: mV1wxlD5YGzGmMXfsKJK

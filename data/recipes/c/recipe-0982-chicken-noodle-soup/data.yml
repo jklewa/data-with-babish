@@ -1,0 +1,31 @@
+babish_id: recipe-0982
+name: Chicken Noodle Soup
+image_link: null
+raw_ingredient_list: '2 boneless skinless chicken thighs
+
+  1 tsp kosher salt + more to taste
+
+  1 tsp freshly ground black pepper + more to taste
+
+  1 Cup frozen mirepoix*
+
+  3 cloves garlic, minced
+
+  1 Tbsp fresh ginger, grated
+
+  3 sprigs fresh dill
+
+  2 stems fresh parsley
+
+  ¼ Cup fresh parsnips, chopped
+
+  ¼ Cup fresh fennel, chopped
+
+  4 cups chicken stock (preferably homemade)
+
+  4 oz dried whole wheat fusilli pasta (or pasta of your choice)'
+raw_procedure: ''
+episode: episode-0243
+_lookup:
+  episode_and_section: episode-0243::Chicken Noodle Soup
+  db_id: 1001

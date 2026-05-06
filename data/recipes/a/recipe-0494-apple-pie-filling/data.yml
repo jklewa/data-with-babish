@@ -1,0 +1,25 @@
+babish_id: recipe-0494
+name: Apple Pie Filling
+image_link: null
+raw_ingredient_list: '2½ pounds apples
+
+  ¾ cup sugar
+
+  ¼ tsp cinnamon
+
+  ¼ tsp allspice
+
+  ¼ tsp nutmeg
+
+  ¼ tsp ginger
+
+  2 Tbsp flour'
+raw_procedure: 'Peel and chop 2½ pounds of good baking apples.
+
+  Add ¾ cup of sugar and ¼ tsp each of cinnamon allspice nutmeg and ginger.
+
+  Add 2 Tbsp of flour and give it a good mix.'
+episode: episode-0028
+_lookup:
+  episode_and_section: episode-0028::Apple Pie Filling
+  db_id: 503

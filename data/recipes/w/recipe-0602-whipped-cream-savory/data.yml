@@ -1,0 +1,17 @@
+babish_id: recipe-0602
+name: Whipped Cream - Savory
+image_link: ''
+raw_ingredient_list: '1 cup heavy cream
+
+  2 Tbsp chopped dill
+
+  2 pinches Kosher salt'
+raw_procedure: 'Combine heavy cream, dill, and salt in a cup or bowl. Whisk to combine.
+
+  If you don’t have a CO2 whipped cream dispenser, you can whip the cream using a whisk or hand mixer.
+
+  Or you can pour into a CO2 dispenser, shake a couple of times and dispense.'
+episode: episode-0091
+_lookup:
+  episode_and_section: episode-0091::Whipped Cream - Savory
+  db_id: 616

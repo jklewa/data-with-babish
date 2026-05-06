@@ -1,0 +1,24 @@
+babish_id: episode-0550
+name: Strata inspired by Family Stone
+slug: strata-family-stone
+published_date: 2021-12-22
+youtube_link: https://www.youtube.com/watch?v=MIgykdiVPZk
+official_link: https://www.babi.sh/recipes/strata-family-stone
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695837/babishImages/undefined-822131.png
+time_to_cook: 4800
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0305
+recipes:
+- recipe-1403
+_lookup:
+  slug: strata-family-stone
+  babish_internal_id: ZKKwPlybbicV7290bJV4

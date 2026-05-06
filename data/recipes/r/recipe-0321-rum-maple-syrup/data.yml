@@ -1,0 +1,15 @@
+babish_id: recipe-0321
+name: Rum Maple Syrup
+image_link: null
+raw_ingredient_list: '½ cup maple syrup
+
+  1 Tbsp butter
+
+  ¼ cup dark rum'
+raw_procedure: 'Add ½ cup maple syrup to a pot along with 1 tbsp of butter and ¼ cup of dark rum.
+
+  Simmer until reduced and syrupy.'
+episode: episode-0483
+_lookup:
+  episode_and_section: episode-0483::Rum Maple Syrup
+  db_id: 330

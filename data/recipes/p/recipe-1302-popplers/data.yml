@@ -1,0 +1,19 @@
+babish_id: recipe-1302
+name: 'popplers:'
+image_link: null
+raw_ingredient_list: 'shrimp shelled deveined
+
+  flour
+
+  mild lager
+
+  sugar
+
+  mayonnaise preferably kewpie
+
+  processed walnuts toasted'
+raw_procedure: ''
+episode: episode-0253
+_lookup:
+  episode_and_section: 'episode-0253::popplers:'
+  db_id: 1321

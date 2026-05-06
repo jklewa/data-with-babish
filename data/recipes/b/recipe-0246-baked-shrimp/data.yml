@@ -1,0 +1,21 @@
+babish_id: recipe-0246
+name: Baked Shrimp
+image_link: null
+raw_ingredient_list: 'Prepared Shrimp
+
+  Salt
+
+  Pepper
+
+  Baking powder'
+raw_procedure: 'Mix Kosher salt and freshly ground pepper with a teaspoon of baking powder.
+
+  Toss the shrimp with a little bit of the spiced mixture.
+
+  Lay the shrimp out on a greased rack on a parchment lined baking sheet.
+
+  Pop them in a 400°F oven for 6-8 minutes until they are pink and cooked through.'
+episode: episode-0239
+_lookup:
+  episode_and_section: episode-0239::Baked Shrimp
+  db_id: 251

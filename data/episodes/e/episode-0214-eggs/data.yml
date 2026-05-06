@@ -1,0 +1,20 @@
+babish_id: episode-0214
+name: EGGS
+slug: eggs
+published_date: 2018-03-01
+youtube_link: https://www.youtube.com/watch?v=xBGoJUxxRqU
+official_link: https://basicswithbabish.co/basicsepisodes/2017/10/23/eggs
+image_link: https://img.youtube.com/vi/xBGoJUxxRqU/mqdefault.jpg
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags: []
+guests: []
+inspired_by: []
+recipes:
+- recipe-1445
+- recipe-1448
+- recipe-1455
+- recipe-1457
+_lookup:
+  slug: eggs

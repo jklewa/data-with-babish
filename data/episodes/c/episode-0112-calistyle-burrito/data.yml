@@ -1,0 +1,28 @@
+babish_id: episode-0112
+name: CALI-STYLE BURRITO
+slug: calistyle-burrito
+published_date: 2021-09-13
+youtube_link: https://www.youtube.com/watch?v=55YUKZK7BXg
+official_link: https://www.babi.sh/recipes/calistyle-burrito
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695451/babishImages/undefined-566187.png
+time_to_cook: 4800
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0013
+- tag-0015
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1106
+- recipe-1107
+- recipe-1108
+- recipe-1109
+- recipe-1110
+- recipe-1111
+_lookup:
+  slug: calistyle-burrito
+  babish_internal_id: DugtPTXKzgJWg24VFPiy

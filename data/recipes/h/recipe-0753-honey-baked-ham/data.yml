@@ -1,0 +1,19 @@
+babish_id: recipe-0753
+name: Honey Baked Ham
+image_link: null
+raw_ingredient_list: '3 lb boneless pork shoulder
+
+  10 g pink curing salt
+
+  50 g kosher salt
+
+  1 cup brown sugar
+
+  1 Tbsp honey
+
+  1 gallon distilled water'
+raw_procedure: ''
+episode: episode-0100
+_lookup:
+  episode_and_section: episode-0100::Honey Baked Ham
+  db_id: 767

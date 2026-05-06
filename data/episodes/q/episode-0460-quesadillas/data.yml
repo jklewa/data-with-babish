@@ -1,0 +1,27 @@
+babish_id: episode-0460
+name: QUESADILLAS
+slug: quesadillas
+published_date: 2019-04-18
+youtube_link: https://www.youtube.com/watch?v=E0G5Y2SOW0c
+official_link: https://www.babi.sh/recipes/quesadillas
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686006455/z8gcjrpbkglaqgld7w1k.webp
+time_to_cook: null
+yield_qty: 1
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0082
+- recipe-0083
+- recipe-0084
+- recipe-0085
+- recipe-0086
+- recipe-0087
+_lookup:
+  slug: quesadillas
+  babish_internal_id: LOJe2rxZTX9QKoh1z7hO

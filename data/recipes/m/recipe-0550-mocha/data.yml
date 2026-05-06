@@ -1,0 +1,13 @@
+babish_id: recipe-0550
+name: Mocha
+image_link: ''
+raw_ingredient_list: 'Espresso (double shot)
+
+  Steamed milk
+
+  Chocolate sauce'
+raw_procedure: Start with a double shot of espresso and add to it an equal amount of chocolate sauce. This is a similar deal to the latte with a whole lot of steamed milk and a little bit of foam. Top the drink off with some whipped cream, cocoa powder, chocolate drizzle, a cinnamon stick if desired.
+episode: episode-0225
+_lookup:
+  episode_and_section: episode-0225::Mocha
+  db_id: 563

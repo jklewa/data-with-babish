@@ -1,0 +1,19 @@
+babish_id: recipe-0840
+name: '*Optional'
+image_link: null
+raw_ingredient_list: '½ tsp fresh thyme
+
+  1 Tbsp olive oil
+
+  Juice of ½ lime
+
+  2 Tbsp parsley
+
+  To taste salt
+
+  Taste pepper'
+raw_procedure: ''
+episode: episode-0281
+_lookup:
+  episode_and_section: episode-0281::*Optional
+  db_id: 854

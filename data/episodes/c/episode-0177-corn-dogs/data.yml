@@ -1,0 +1,23 @@
+babish_id: episode-0177
+name: CORN DOGS
+slug: corn-dogs
+published_date: 2021-05-27
+youtube_link: https://www.youtube.com/watch?v=zGT45vVJNso
+official_link: https://www.babi.sh/recipes/corn-dogs
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695001/babishImages/undefined-765280.png
+time_to_cook: null
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+guests: []
+inspired_by: []
+recipes:
+- recipe-0994
+- recipe-0995
+- recipe-0996
+- recipe-0997
+_lookup:
+  slug: corn-dogs
+  babish_internal_id: 04qefzYO5SwzpNa9chmn

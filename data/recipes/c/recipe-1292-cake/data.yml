@@ -1,0 +1,19 @@
+babish_id: recipe-1292
+name: cake
+image_link: null
+raw_ingredient_list: 'dark brown sugar
+
+  cake flour
+
+  sour cream
+
+  butter
+
+  medjool date pitted &
+
+  flour'
+raw_procedure: ''
+episode: episode-0548
+_lookup:
+  episode_and_section: episode-0548::cake
+  db_id: 1311

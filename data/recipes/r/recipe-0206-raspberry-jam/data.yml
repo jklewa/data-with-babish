@@ -1,0 +1,17 @@
+babish_id: recipe-0206
+name: Raspberry Jam
+image_link: null
+raw_ingredient_list: '2 cups raspberries
+
+  2 cups sugar'
+raw_procedure: 'Measure out 2 cups each of mashed raspberry and sugar.
+
+  Place into a small saucepan, mix together and apply medium heat.
+
+  Simmer gently 5-10 minutes and scrape the foam off the top once the heat is discontinued.
+
+  Let cool for a bit, and pour into a mason jar then refrigerate (should last for 3 weeks).'
+episode: episode-0423
+_lookup:
+  episode_and_section: episode-0423::Raspberry Jam
+  db_id: 211

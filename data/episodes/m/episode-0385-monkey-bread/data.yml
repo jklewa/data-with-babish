@@ -1,0 +1,25 @@
+babish_id: episode-0385
+name: MONKEY BREAD
+slug: monkey-bread
+published_date: 2021-06-25
+youtube_link: https://www.youtube.com/watch?v=JGL2m6-SLMQ
+official_link: https://www.babi.sh/recipes/monkey-bread
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695272/babishImages/undefined-333425.png
+time_to_cook: 9000
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0013
+- tag-0015
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1039
+- recipe-1040
+- recipe-1041
+_lookup:
+  slug: monkey-bread
+  babish_internal_id: 6RSIh11GGNods7B2njPU

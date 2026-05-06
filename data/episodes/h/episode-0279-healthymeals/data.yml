@@ -1,0 +1,25 @@
+babish_id: episode-0279
+name: HEALTHY MEALS
+slug: healthymeals
+published_date: 2019-06-13
+youtube_link: https://www.youtube.com/watch?v=APwwGy4GzK8
+official_link: https://www.babi.sh/recipes/healthymeals
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1685912869/icxavj8aogbk6ggjueq8.webp
+time_to_cook: 2100
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0026
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0039
+- recipe-0040
+- recipe-0041
+- recipe-0042
+- recipe-0043
+_lookup:
+  slug: healthymeals
+  babish_internal_id: bN6VTSO12Pjwh1S6YiXe

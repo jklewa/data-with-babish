@@ -1,0 +1,15 @@
+babish_id: recipe-0169
+name: Chocolate Glaze
+image_link: null
+raw_ingredient_list: '4 ounces chopped chocolate
+
+  1/4 cup whole milk
+
+  Dash of instant espresso powder
+
+  2 Tbsp corn syrup'
+raw_procedure: Combine 4 ounces of chopped chocolate with ¼ cup of steaming whole milk, a little instant espresso powder, and a couple tablespoons of corn syrup. Whisk to combine.
+episode: episode-0207
+_lookup:
+  episode_and_section: episode-0207::Chocolate Glaze
+  db_id: 174

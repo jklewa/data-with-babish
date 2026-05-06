@@ -1,0 +1,22 @@
+babish_id: episode-0094
+name: BREAD
+slug: bread
+published_date: 2018-07-27
+youtube_link: https://www.youtube.com/watch?v=Jizr6LR83Kk
+official_link: https://www.babi.sh/recipes/bread
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1726172192/lyapiyi76tmqk0vfjaez.webp
+time_to_cook: 9000
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0016
+- tag-0018
+guests: []
+inspired_by: []
+recipes:
+- recipe-0229
+- recipe-0230
+_lookup:
+  slug: bread
+  babish_internal_id: Aw5ZJE1kKoO8X6Xa3zML

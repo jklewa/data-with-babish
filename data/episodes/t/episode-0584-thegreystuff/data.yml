@@ -1,0 +1,29 @@
+babish_id: episode-0584
+name: The Grey Stuff; and other Hors d’Oeuvres inspired by Beauty and the Beast
+slug: thegreystuff
+published_date: 2019-01-03
+youtube_link: https://www.youtube.com/watch?v=0TvBiF9S89Q&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/0TvBiF9S89Q/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/thegreystuff
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696049/babishImages/undefined-88357.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0032
+guests: []
+inspired_by:
+- reference-0027
+recipes:
+- recipe-0129
+- recipe-0130
+- recipe-0131
+- recipe-0132
+- recipe-0133
+- recipe-0134
+- recipe-0135
+- recipe-0136
+_lookup:
+  slug: thegreystuff
+  babish_internal_id: lb0QLyLC0B2QY3Tw7vjz

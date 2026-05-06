@@ -1,0 +1,24 @@
+babish_id: episode-0038
+name: Aunt Petunia's Pudding Inspired by Harry Potter
+slug: aunt-petunias-pudding-harry-potter
+published_date: 2022-11-04
+youtube_link: https://www.youtube.com/watch?v=AxM17SyPdCk
+official_link: https://www.babi.sh/recipes/aunt-petunias-pudding-harry-potter
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696008/babishImages/undefined-784864.png
+time_to_cook: 4800
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0073
+recipes:
+- recipe-1362
+_lookup:
+  slug: aunt-petunias-pudding-harry-potter
+  babish_internal_id: hrExKNR9GvRokb7s5oxM

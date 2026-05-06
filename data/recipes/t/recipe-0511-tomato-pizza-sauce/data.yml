@@ -1,0 +1,21 @@
+babish_id: recipe-0511
+name: Tomato Pizza Sauce
+image_link: null
+raw_ingredient_list: '1 28-ounce can of peeled San Marzano tomatoes
+
+  2-3 cloves garlic
+
+  Dried oregano and basil
+
+  Red pepper flakes
+
+  Kosher salt
+
+  Freshly ground pepper
+
+  Olive oil (optional)'
+raw_procedure: Combine tomatoes, garlic cloves, oregano, basil, red pepper flakes, salt, and pepper in a food processor or large cup for an immersion blender. Pulse a few times until smooth. Optionally, add a dash of olive oil for extra flavor.
+episode: episode-0407
+_lookup:
+  episode_and_section: episode-0407::Tomato Pizza Sauce
+  db_id: 524

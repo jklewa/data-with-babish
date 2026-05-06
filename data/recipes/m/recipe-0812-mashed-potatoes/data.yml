@@ -1,0 +1,17 @@
+babish_id: recipe-0812
+name: Mashed Potatoes
+image_link: null
+raw_ingredient_list: 'Yukon gold potatoes
+
+  1 cup cream
+
+  2 cloves garlic, minced
+
+  1 stick (8 tbsp.) butter
+
+  As needed kosher salt'
+raw_procedure: ''
+episode: episode-0338
+_lookup:
+  episode_and_section: episode-0338::Mashed Potatoes
+  db_id: 826

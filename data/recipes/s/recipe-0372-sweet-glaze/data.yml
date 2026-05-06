@@ -1,0 +1,13 @@
+babish_id: recipe-0372
+name: Sweet Glaze
+image_link: null
+raw_ingredient_list: '1 ½ cups powdered sugar, sifted to remove lumps
+
+  3-4 Tbsp milk
+
+  2 tsp vanilla extract (optional)'
+raw_procedure: Place sifted sugar into bowl and combine milk slowly until the mixture is a pourable glaze. Add vanilla extract, if you desire.
+episode: episode-0375
+_lookup:
+  episode_and_section: episode-0375::Sweet Glaze
+  db_id: 381

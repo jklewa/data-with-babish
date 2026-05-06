@@ -1,0 +1,21 @@
+babish_id: episode-0569
+name: Tamales inspired by Coco
+slug: tamalesfromcoco
+published_date: 2018-02-27
+youtube_link: https://www.youtube.com/watch?v=akA_Z9Xmnvc
+official_link: https://www.babi.sh/recipes/tamalesfromcoco
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715485/babishImages/undefined-770777.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+guests: []
+inspired_by:
+- reference-0065
+recipes:
+- recipe-0304
+_lookup:
+  slug: tamalesfromcoco
+  babish_internal_id: HKdfcpw3ma8SB8E8y7H0

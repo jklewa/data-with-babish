@@ -1,0 +1,11 @@
+babish_id: recipe-0839
+name: Stovetop Rice
+image_link: null
+raw_ingredient_list: '1 cup dried brown rice, basmati
+
+  2 ¼ cups water'
+raw_procedure: ''
+episode: episode-0281
+_lookup:
+  episode_and_section: episode-0281::Stovetop Rice
+  db_id: 853

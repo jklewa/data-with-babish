@@ -1,0 +1,24 @@
+babish_id: episode-0287
+name: NASHVILLE HOT CHICKEN
+slug: hot-chicken
+published_date: 2020-04-10
+youtube_link: https://www.youtube.com/watch?v=FPx7X7k0HuM
+official_link: https://www.babi.sh/recipes/hot-chicken
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715525/babishImages/undefined-998003.png
+time_to_cook: 5400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1433
+- recipe-1434
+_lookup:
+  slug: hot-chicken
+  babish_internal_id: ZWaf1LPVdk172RJdxdHK

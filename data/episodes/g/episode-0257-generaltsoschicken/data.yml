@@ -1,0 +1,22 @@
+babish_id: episode-0257
+name: GENERAL TSO'S CHICKEN
+slug: generaltsoschicken
+published_date: 2019-07-18
+youtube_link: https://www.youtube.com/watch?v=6UnRHtwHGSE
+official_link: https://www.babi.sh/recipes/generaltsoschicken
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1685823415/isirdoocipk9pnhap60e.webp
+time_to_cook: 2700
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0021
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0020
+_lookup:
+  slug: generaltsoschicken
+  babish_internal_id: v5yhOOtMP4jLmvZBwCOi

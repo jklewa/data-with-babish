@@ -1,0 +1,24 @@
+babish_id: episode-0110
+name: CAJUN FOOD
+slug: cajunfood
+published_date: 2019-09-13
+youtube_link: https://www.youtube.com/watch?v=nORg_aXMsmA
+official_link: https://www.babi.sh/recipes/cajunfood
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1685738278/bdfgvfer8ydjozwjsvmf.webp
+time_to_cook: 5400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+guests:
+- guest-0015
+inspired_by: []
+recipes:
+- recipe-0517
+- recipe-0518
+- recipe-0519
+- recipe-0520
+- recipe-0521
+_lookup:
+  slug: cajunfood
+  babish_internal_id: nnNhDBO5WiUbB8niHKJi

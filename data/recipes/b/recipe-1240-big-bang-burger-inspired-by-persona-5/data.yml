@@ -1,0 +1,9 @@
+babish_id: recipe-1240
+name: Big Bang Burger inspired by Persona 5
+image_link: null
+raw_ingredient_list: flour
+raw_procedure: ''
+episode: episode-0073
+_lookup:
+  episode_and_section: episode-0073::Big Bang Burger inspired by Persona 5
+  db_id: 1259

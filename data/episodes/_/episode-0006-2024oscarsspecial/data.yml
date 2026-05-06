@@ -1,0 +1,21 @@
+babish_id: episode-0006
+name: 2024 Oscars Special
+slug: 2024oscarsspecial
+published_date: 2024-03-15
+youtube_link: https://youtu.be/NVwgZhjspxo
+official_link: https://www.babi.sh/recipes/2024oscarsspecial
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1710510271/ny7ovkakrtfei4odwnfd.webp
+time_to_cook: null
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0012
+- tag-0017
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1290
+_lookup:
+  slug: 2024oscarsspecial
+  babish_internal_id: fAUTyY0c10YAWEhJlBjM

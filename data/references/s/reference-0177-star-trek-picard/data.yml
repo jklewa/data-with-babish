@@ -1,0 +1,9 @@
+babish_id: reference-0177
+type: tv_show
+name: 'Star Trek: Picard'
+description: Paramount+ 2020 series following Patrick Stewart's Jean-Luc Picard in retirement.
+external_link: null
+image_link: null
+_lookup:
+  canonical_name: 'Star Trek: Picard'
+  db_id: 295

@@ -1,0 +1,23 @@
+babish_id: episode-0583
+name: The Good Place Special
+slug: thegoodplace
+published_date: 2019-05-21
+youtube_link: https://www.youtube.com/watch?v=f428glyXdY4
+official_link: https://www.babi.sh/recipes/thegoodplace
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715475/babishImages/undefined-460532.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+guests: []
+inspired_by:
+- reference-0012
+recipes:
+- recipe-0058
+- recipe-0059
+- recipe-0060
+_lookup:
+  slug: thegoodplace
+  babish_internal_id: DYc5HLwvZHgytWOXEY5J

@@ -1,0 +1,8 @@
+fields:
+  name:
+    state: scraped
+    last_seen: '2026-05-05'
+  image_link:
+    state: scraped
+    last_seen: '2026-05-05'
+rejected: {}

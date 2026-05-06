@@ -1,0 +1,25 @@
+babish_id: episode-0161
+name: Clementine Cake inspired by The Secret Life of Walter Mitty
+slug: clementinecake
+published_date: 2018-03-06
+youtube_link: https://www.youtube.com/watch?v=cr2wUlNSFg0
+official_link: https://www.babi.sh/recipes/clementinecake
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715728/babishImages/undefined-306069.png
+time_to_cook: 11400
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0064
+recipes:
+- recipe-0302
+- recipe-0303
+_lookup:
+  slug: clementinecake
+  babish_internal_id: u2zcsjpl4bVesRNMC5Eu

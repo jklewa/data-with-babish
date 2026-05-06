@@ -1,0 +1,15 @@
+babish_id: recipe-0220
+name: Other Taco Garnishes
+image_link: null
+raw_ingredient_list: 'Half of one white onion, diced
+
+  Cilantro or parsley to taste
+
+  One lime, juiced
+
+  Cotija or feta cheese'
+raw_procedure: Chop one onion and mix with cilantro (or parsley) along with the juice of one lime. Let sit for 15 minutes.
+episode: episode-0565
+_lookup:
+  episode_and_section: episode-0565::Other Taco Garnishes
+  db_id: 225

@@ -1,0 +1,29 @@
+babish_id: episode-0182
+name: Crêpes Suzette inspired by Talladega Nights
+slug: crepessuzette
+published_date: 2019-10-24
+youtube_link: https://www.youtube.com/watch?v=Z1kR6SIr1XA&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/Z1kR6SIr1XA/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/crepessuzette
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695392/babishImages/undefined-957845.png
+time_to_cook: 4800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0018
+- tag-0033
+guests: []
+inspired_by:
+- reference-0132
+recipes:
+- recipe-0559
+- recipe-0560
+- recipe-0561
+- recipe-0562
+- recipe-0563
+- recipe-0564
+- recipe-0565
+_lookup:
+  slug: crepessuzette
+  babish_internal_id: BTbu6Cp7yALT3uXRjf2v

@@ -1,0 +1,19 @@
+babish_id: episode-0164
+name: Coconut Tres Leches Cake (inspired by Uncle Boon's/Thai Diner)
+slug: coconut-tres-leches-cake-(inspired-by-uncle-boon'sthai-diner)
+published_date: 2024-03-25
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/coconut-tres-leches-cake-(inspired-by-uncle-boon'sthai-diner)
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1711376222/qzxptjovrunyeh6a7gxv.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags: []
+guests: []
+inspired_by:
+- reference-0279
+recipes:
+- recipe-1288
+_lookup:
+  slug: coconut-tres-leches-cake-(inspired-by-uncle-boon'sthai-diner)
+  babish_internal_id: kk47PfBKeImRWbDLHxqz

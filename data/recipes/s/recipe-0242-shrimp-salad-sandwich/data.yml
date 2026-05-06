@@ -1,0 +1,33 @@
+babish_id: recipe-0242
+name: Shrimp Salad Sandwich
+image_link: null
+raw_ingredient_list: 'Shrimp (boiled/poached and tailless)
+
+  1/4 cup mayonnaise
+
+  Lemon juice
+
+  Dill, chopped
+
+  Parsley, chopped
+
+  Celery, chopped
+
+  Green onions, chopped
+
+  Salt
+
+  Sandwich bread
+
+  Butter lettuce
+
+  Tomatoes'
+raw_procedure: 'Start by using some tailless boiled, or poached, shrimp that has been chilled. Mix with a quarter cup of mayonnaise, a generous squeeze of lemon juice, fresh chopped parsley, fresh chopped dill, fresh chopped celery, and some fresh chopped green onions.
+
+  Add a little salt, and mix all the ingredients together until you have a nice consistency.
+
+  Once it has been completely mixed together, place onto a toasted bun with butter lettuce and optional tomatoes, and enjoy!'
+episode: episode-0239
+_lookup:
+  episode_and_section: episode-0239::Shrimp Salad Sandwich
+  db_id: 247

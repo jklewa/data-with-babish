@@ -1,0 +1,17 @@
+babish_id: recipe-1383
+name: pizza pinwheels
+image_link: null
+raw_ingredient_list: 'flour
+
+  low moisture mozzarella cheese
+
+  san marzano tomatoes
+
+  pepperoni
+
+  pizza sauce'
+raw_procedure: ''
+episode: episode-0434
+_lookup:
+  episode_and_section: episode-0434::pizza pinwheels
+  db_id: 1402

@@ -1,0 +1,26 @@
+babish_id: episode-0102
+name: BROWNIES
+slug: brownies
+published_date: 2019-06-27
+youtube_link: https://www.youtube.com/watch?v=kDdUdvNQndo
+official_link: https://www.babi.sh/recipes/brownies
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1685911967/gx79ngetgymhmlrzqa0h.webp
+time_to_cook: 4500
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0016
+- tag-0018
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0028
+- recipe-0029
+- recipe-0030
+- recipe-0031
+_lookup:
+  slug: brownies
+  babish_internal_id: ZmwptuTTubA450q8w85P

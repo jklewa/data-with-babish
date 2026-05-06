@@ -1,0 +1,9 @@
+babish_id: reference-0090
+type: tv_show
+name: House of Cards
+description: A Congressman works with his equally conniving wife to exact revenge on the people who betrayed him. IMDb.
+external_link: https://www.imdb.com/title/tt1856010/
+image_link: https://i.ytimg.com/sh/k1GFjpYrYOEIvrE2aQyTdA/market.jpg
+_lookup:
+  canonical_name: House of Cards
+  db_id: 92

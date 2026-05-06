@@ -1,0 +1,31 @@
+babish_id: episode-0354
+name: LOTR 7 Million Subscriber Special inspired by Lord of the Rings
+slug: lotr-feast-special
+published_date: 2020-07-13
+youtube_link: https://www.youtube.com/watch?v=-aFrFsn998o
+official_link: https://www.babi.sh/recipes/lotr-feast-special
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696106/babishImages/undefined-637175.png
+time_to_cook: 8400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+guests: []
+inspired_by:
+- reference-0188
+recipes:
+- recipe-0699
+- recipe-0700
+- recipe-0701
+- recipe-0702
+- recipe-0703
+- recipe-0704
+- recipe-0705
+- recipe-0706
+- recipe-0707
+- recipe-0708
+- recipe-0709
+_lookup:
+  slug: lotr-feast-special
+  babish_internal_id: okxyRYqTqqiXR9MYT9jh

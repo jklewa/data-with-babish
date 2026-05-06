@@ -1,0 +1,19 @@
+babish_id: recipe-1002
+name: Pizza Dipping Sauce
+image_link: null
+raw_ingredient_list: '1 (28 oz) can San Marzano tomatoes (whole or chopped)
+
+  1 small basil stem (with leaves)
+
+  1 tsp dried oregano
+
+  1 large garlic cloves, halved
+
+  1 tsp kosher salt
+
+  ½ tsp freshly ground black pepper'
+raw_procedure: ''
+episode: episode-0436
+_lookup:
+  episode_and_section: episode-0436::Pizza Dipping Sauce
+  db_id: 1021

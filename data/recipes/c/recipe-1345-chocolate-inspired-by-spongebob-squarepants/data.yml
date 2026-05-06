@@ -1,0 +1,15 @@
+babish_id: recipe-1345
+name: Chocolate inspired by SpongeBob SquarePants
+image_link: null
+raw_ingredient_list: 'fermented dried cocoa beans
+
+  white sugar preferably superfine
+
+  70% tempered dark chocolate
+
+  cacao butter ~100f'
+raw_procedure: ''
+episode: episode-0151
+_lookup:
+  episode_and_section: episode-0151::Chocolate inspired by SpongeBob SquarePants
+  db_id: 1364

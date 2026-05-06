@@ -1,0 +1,17 @@
+babish_id: recipe-0469
+name: Bacon Gravy
+image_link: null
+raw_ingredient_list: '¼ pound of bacon
+
+  1-2 tbs of flour
+
+  Milk
+
+  Salt
+
+  Pepper'
+raw_procedure: Add ¼ pound of bacon and 1-2 Tbsp of flour to a pan. Cook briefly then add your milk to make your gravy. Add a little bit at a time and season accordingly.
+episode: episode-0304
+_lookup:
+  episode_and_section: episode-0304::Bacon Gravy
+  db_id: 478

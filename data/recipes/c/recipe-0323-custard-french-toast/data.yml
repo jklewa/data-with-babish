@@ -1,0 +1,23 @@
+babish_id: recipe-0323
+name: Custard French Toast
+image_link: null
+raw_ingredient_list: '3 eggs
+
+  ½ cup of heavy cream
+
+  Pinch of salt
+
+  ¼ tsp of nutmeg
+
+  ¼ tsp of cinnamon
+
+  ¼ tsp of vanilla
+
+  3 Tbsp sugar
+
+  Splash of dark rum'
+raw_procedure: Mix all ingredients together in a bowl and use that to coat the bread.
+episode: episode-0483
+_lookup:
+  episode_and_section: episode-0483::Custard French Toast
+  db_id: 332

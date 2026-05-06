@@ -1,0 +1,27 @@
+babish_id: recipe-0944
+name: Shrimp Stock
+image_link: null
+raw_ingredient_list: '3 lb jumbo shrimp
+
+  1 Tbsp vegetable oil
+
+  3 carrots, cut into 3 inch portions
+
+  4 celery stalks, cut into 3 inch portions
+
+  2 large yellow onions, quartered
+
+  5 cloves garlic, smashed
+
+  4-5 parsley stems
+
+  1 tsp black peppercorns
+
+  1 bay leaf
+
+  3 Liters water'
+raw_procedure: ''
+episode: episode-0128
+_lookup:
+  episode_and_section: episode-0128::Shrimp Stock
+  db_id: 963

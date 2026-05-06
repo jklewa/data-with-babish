@@ -1,0 +1,23 @@
+babish_id: recipe-0556
+name: Espresso - The Flair
+image_link: ''
+raw_ingredient_list: 'Espresso beans
+
+  Water'
+raw_procedure: 'This method uses a great illustration of how espresso is made with heat and pressure. In addition, it is a great example of how important grind size is and why you cannot use a blade grinder instead of a conical bur.
+
+  The grinds need to be consistent and a very specific size. If the grind is too coarse, all the extra space between the grinds lets the water pass through too quickly, which will leave you with a semi-strong cup of coffee instead of espresso.
+
+  Grind the coffee a little finer, but not too fine. If there is too little space between the grinds makes it almost impossible to press the coffee through and you’ll most likely break your machine before pulling a single decent shot. It will have the crema you are looking for, but not quite enough coffee.
+
+  This will be a matter of trial and error until you find the sweet spot. For Babish’s favorite method, take 16g of coffee that is ground between levels one and 1 and 2 on your grinder and tamped with about 20lbs of force.
+
+  Fill up the cylinder with 60mL of 200 degree Fahrenheit water and extract with about 35lbs of force.
+
+  For knowing how much pressure you are putting on the machine, you can use a bathroom scale. Press down on it without putting your entire body weight on it and the extraction should take about 35 seconds.
+
+  A good espresso shot will separate into three parts with a thick creamy crema on top, a  mysterious dark orange body below that that slowly disappears into the crema, and finally, the deep chocolate-y brown coffee underneath it all.'
+episode: episode-0225
+_lookup:
+  episode_and_section: episode-0225::Espresso - The Flair
+  db_id: 569

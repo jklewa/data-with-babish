@@ -1,0 +1,23 @@
+babish_id: episode-0384
+name: Monica's Candy inspired by Friends
+slug: monicas-candy-friends
+published_date: 2020-12-15
+youtube_link: https://www.youtube.com/watch?v=bK0NdaDOsG0
+official_link: https://www.babi.sh/recipes/monicas-candy-friends
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696037/babishImages/undefined-162081.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0018
+- tag-0033
+guests: []
+inspired_by:
+- reference-0076
+recipes:
+- recipe-0774
+_lookup:
+  slug: monicas-candy-friends
+  babish_internal_id: lAVejhpqJE5bLE4UQIZC

@@ -1,0 +1,17 @@
+babish_id: recipe-1347
+name: cheeseburger
+image_link: null
+raw_ingredient_list: 'lean brisket
+
+  russet potatoes
+
+  cheese
+
+  dry aged beef
+
+  boneless short rib'
+raw_procedure: ''
+episode: episode-0123
+_lookup:
+  episode_and_section: episode-0123::cheeseburger
+  db_id: 1366

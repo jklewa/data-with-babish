@@ -1,0 +1,27 @@
+babish_id: episode-0484
+name: SALAD
+slug: salad-nb7s3-3jkft
+published_date: 2018-09-06
+youtube_link: https://www.youtube.com/watch?v=xHR8BCFv_JY
+official_link: https://www.babi.sh/recipes/salad-nb7s3-3jkft
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686070795/ulipoajubm60ougfpy1j.webp
+time_to_cook: 1500
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0019
+- tag-0025
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0200
+- recipe-0201
+- recipe-0202
+_lookup:
+  slug: salad-nb7s3-3jkft
+  babish_internal_id: UwovZP1AGrVUnymaEk1n

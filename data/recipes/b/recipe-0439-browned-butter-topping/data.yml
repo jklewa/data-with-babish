@@ -1,0 +1,9 @@
+babish_id: recipe-0439
+name: Browned Butter Topping
+image_link: null
+raw_ingredient_list: 1 stick of butter
+raw_procedure: In a small pan, melt butter over medium-low heat. Swirl and shake constantly until milk fats begin to brown. You should see some little brown particles in the butter. Pour into a small ramekin. Set aside so it can solidify for ideal waffle application.
+episode: episode-0387
+_lookup:
+  episode_and_section: episode-0387::Browned Butter Topping
+  db_id: 448

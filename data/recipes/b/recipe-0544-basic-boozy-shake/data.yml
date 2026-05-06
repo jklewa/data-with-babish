@@ -1,0 +1,19 @@
+babish_id: recipe-0544
+name: Basic Boozy Shake
+image_link: null
+raw_ingredient_list: '12 ounces ice cream
+
+  6 ounces milk
+
+  Bourbon of choice
+
+  Cherry (for garnish)
+
+  Whipped cream (for garnish)
+
+  Chocolate shavings (for garnish)'
+raw_procedure: Combine 12 ounces ice cream, a shot of bourbon, and 6 ounces milk in a blender. Blend until desired consistency. Top with whipped cream, chocolate shavings, and a cherry.
+episode: episode-0389
+_lookup:
+  episode_and_section: episode-0389::Basic Boozy Shake
+  db_id: 557

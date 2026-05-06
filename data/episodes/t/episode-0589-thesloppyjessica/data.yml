@@ -1,0 +1,24 @@
+babish_id: episode-0589
+name: The Sloppy Jessica inspired by Brooklyn Nine-Nine
+slug: thesloppyjessica
+published_date: 2018-05-01
+youtube_link: https://www.youtube.com/watch?v=KKoOIyhJwA4
+official_link: https://www.babi.sh/recipes/thesloppyjessica
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715724/babishImages/undefined-34975.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+guests: []
+inspired_by:
+- reference-0057
+recipes:
+- recipe-0273
+- recipe-0274
+- recipe-0275
+- recipe-0276
+_lookup:
+  slug: thesloppyjessica
+  babish_internal_id: sUST5hFc73mwrcqOrEjy

@@ -1,0 +1,20 @@
+babish_id: episode-0381
+name: MOCHI ICE CREAM
+slug: mochi-icecream
+published_date: 2020-07-16
+youtube_link: https://www.youtube.com/watch?v=fM57RNUpd10
+official_link: https://www.babi.sh/recipes/mochi-icecream
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715718/babishImages/undefined-778445.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0013
+- tag-0018
+guests: []
+inspired_by: []
+recipes:
+- recipe-1422
+_lookup:
+  slug: mochi-icecream
+  babish_internal_id: q8m2UBp89vw8BsgNBLO8

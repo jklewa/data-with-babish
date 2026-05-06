@@ -1,0 +1,9 @@
+babish_id: recipe-1351
+name: Home Alone Special
+image_link: null
+raw_ingredient_list: heavy cream
+raw_procedure: ''
+episode: episode-0284
+_lookup:
+  episode_and_section: episode-0284::Home Alone Special
+  db_id: 1370

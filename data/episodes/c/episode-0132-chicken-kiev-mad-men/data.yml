@@ -1,0 +1,25 @@
+babish_id: episode-0132
+name: Chicken Kiev inspired by Mad Men
+slug: chicken-kiev-mad-men
+published_date: 2021-03-02
+youtube_link: https://www.youtube.com/watch?v=kf8XzD-xVGc
+official_link: https://www.babi.sh/recipes/chicken-kiev-mad-men
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695711/babishImages/undefined-516619.png
+time_to_cook: 2400
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0021
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0066
+recipes:
+- recipe-0897
+- recipe-0898
+_lookup:
+  slug: chicken-kiev-mad-men
+  babish_internal_id: QNwsyvJNXjEgY2VbWx6e

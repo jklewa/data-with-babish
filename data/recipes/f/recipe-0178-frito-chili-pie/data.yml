@@ -1,0 +1,27 @@
+babish_id: recipe-0178
+name: Frito Chili Pie
+image_link: null
+raw_ingredient_list: '2 cans chili
+
+  1 bag of Fritos
+
+  Shredded cheese'
+raw_procedure: 'Start by putting 2 cans of chili into a pot, covering and bringing to a bare simmer.
+
+  Butter up a large glass pie plate.
+
+  Add a layer of chili to the bottom of the pie plate followed by a layer of Fritos, a layer of cheese, and another layer of chili.
+
+  Place in the oven at 375°F for 20 minutes.
+
+  Remove from oven and top with another layer of cheese followed by a layer of Fritos.
+
+  Place back in the oven for 5 minutes.
+
+  Remove and let cool for 5 minutes.
+
+  Serve and enjoy!'
+episode: episode-0322
+_lookup:
+  episode_and_section: episode-0322::Frito Chili Pie
+  db_id: 183

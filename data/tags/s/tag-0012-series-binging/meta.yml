@@ -1,0 +1,8 @@
+fields:
+  axis:
+    state: scraped
+    last_seen: '2026-05-05'
+  name:
+    state: scraped
+    last_seen: '2026-05-05'
+rejected: {}

@@ -1,0 +1,29 @@
+babish_id: recipe-0740
+name: Custard
+image_link: null
+raw_ingredient_list: '1 cup whole milk
+
+  15 g non diastatic malt powder
+
+  2 cups heavy cream
+
+  15 g carrageenan
+
+  1 cup sugar
+
+  5 large egg yolks
+
+  2 oz whiskey
+
+  1 vanilla bean pod, sliced and scraped
+
+  Ice
+
+  Salt
+
+  Water'
+raw_procedure: ''
+episode: episode-0608
+_lookup:
+  episode_and_section: episode-0608::Custard
+  db_id: 754

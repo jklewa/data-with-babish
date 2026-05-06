@@ -1,0 +1,26 @@
+babish_id: episode-0359
+name: Macarons inspired by The Mandalorian
+slug: macarons-the-mandalorian
+published_date: 2020-12-01
+youtube_link: https://www.youtube.com/watch?v=IGS0JouUgjM
+official_link: https://www.babi.sh/recipes/macarons-the-mandalorian
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696123/babishImages/undefined-123465.png
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0135
+recipes:
+- recipe-0768
+- recipe-0769
+- recipe-0770
+_lookup:
+  slug: macarons-the-mandalorian
+  babish_internal_id: p5EAkSnk10rU6xrDqi4N

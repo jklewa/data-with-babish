@@ -1,0 +1,37 @@
+babish_id: episode-0162
+name: Cocktail Special
+slug: cocktail-special
+published_date: 2017-06-28
+youtube_link: https://www.youtube.com/watch?v=v5tJBLfeurU
+official_link: https://www.babi.sh/recipes/cocktail-special
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689991773/frvdqes62h3gdapclpxo.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0005
+- tag-0012
+- tag-0015
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0116
+- reference-0117
+- reference-0118
+- reference-0119
+- reference-0120
+- reference-0121
+- reference-0122
+recipes:
+- recipe-0416
+- recipe-0417
+- recipe-0418
+- recipe-0419
+- recipe-0420
+- recipe-0421
+- recipe-0422
+_lookup:
+  slug: cocktail-special
+  babish_internal_id: 3REefnDDXx38cYstueAo

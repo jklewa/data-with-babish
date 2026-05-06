@@ -1,0 +1,27 @@
+babish_id: recipe-0300
+name: Mojito
+image_link: null
+raw_ingredient_list: 'Sugar Cubes
+
+  Limes
+
+  Mint
+
+  Ice
+
+  2 oz White rum
+
+  Club soda'
+raw_procedure: 'Muddle sugar and limes in the bottom of a glass.
+
+  Add ice and rum and mix with a spoon.
+
+  Top with ice and club soda.
+
+  Garnish with a lime.
+
+  Metal straw recommended.'
+episode: episode-0057
+_lookup:
+  episode_and_section: episode-0057::Mojito
+  db_id: 305

@@ -1,0 +1,26 @@
+babish_id: episode-0047
+name: HOMEMADE BACON
+slug: bacon
+published_date: 2021-04-30
+youtube_link: https://www.youtube.com/watch?v=TUh4Z2li1UM
+official_link: https://www.babi.sh/recipes/bacon
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715746/babishImages/undefined-294937.png
+time_to_cook: null
+yield_qty: 5
+yield_unit: serves
+tags:
+- tag-0013
+guests: []
+inspired_by: []
+recipes:
+- recipe-0970
+- recipe-0971
+- recipe-0972
+- recipe-0973
+- recipe-0974
+- recipe-0975
+- recipe-0976
+- recipe-0977
+_lookup:
+  slug: bacon
+  babish_internal_id: xbRivBY51ZrJw0owclGQ

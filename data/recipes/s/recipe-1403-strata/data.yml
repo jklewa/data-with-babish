@@ -1,0 +1,23 @@
+babish_id: recipe-1403
+name: strata
+image_link: null
+raw_ingredient_list: 'milk
+
+  white bread
+
+  tomatoes thinly
+
+  mushrooms
+
+  eggs
+
+  mozzarella cheese
+
+  butter
+
+  black olive drained'
+raw_procedure: ''
+episode: episode-0550
+_lookup:
+  episode_and_section: episode-0550::strata
+  db_id: 1422

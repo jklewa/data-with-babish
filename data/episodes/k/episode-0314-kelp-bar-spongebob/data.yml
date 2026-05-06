@@ -1,0 +1,23 @@
+babish_id: episode-0314
+name: Kelp Nougat Crunch Bars inspired by Spongebob Squarepants
+slug: kelp-bar-spongebob
+published_date: 2022-05-17
+youtube_link: https://www.youtube.com/watch?v=HWfxj3KzA8o
+official_link: https://www.babi.sh/recipes/kelp-bar-spongebob
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695662/babishImages/undefined-173727.png
+time_to_cook: 4800
+yield_qty: 10
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0020
+recipes:
+- recipe-1389
+_lookup:
+  slug: kelp-bar-spongebob
+  babish_internal_id: PbtS46HNjmKLFYTvpuDX

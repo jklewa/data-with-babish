@@ -1,0 +1,27 @@
+babish_id: recipe-0451
+name: Szechuan Sauce - Fan Recipe
+image_link: null
+raw_ingredient_list: 'Garlic
+
+  Balsamic vinegar
+
+  Soy sauce
+
+  A few Tbsp of plum sake
+
+  Sriracha sauce
+
+  4 Tbsp of brown sugar
+
+  Gresh ginger
+
+  Chili paste (if you’re looking for heat)'
+raw_procedure: 'Sweat some garlic and oil in a pan until fragrant.
+
+  Add balsamic vinegar, soy sauce, a few Tbsp of plum sake, a good helping of sriracha sauce, 4 Tbsp of brown sugar, and if you want some heat, add chili paste from previous episode. Also we are going to crush a knob of fresh ginger in there.
+
+  Sauté for about 5 minutes until everything is soft and syrupy.'
+episode: episode-0563
+_lookup:
+  episode_and_section: episode-0563::Szechuan Sauce - Fan Recipe
+  db_id: 460

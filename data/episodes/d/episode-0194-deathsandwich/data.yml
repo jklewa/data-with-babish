@@ -1,0 +1,29 @@
+babish_id: episode-0194
+name: 'Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show'
+slug: deathsandwich
+published_date: 2019-04-09
+youtube_link: https://www.youtube.com/watch?v=o5XNzsf78KE&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/o5XNzsf78KE/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/deathsandwich
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695267/babishImages/undefined-363929.png
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0017
+- tag-0020
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+- tag-0032
+guests:
+- guest-0016
+inspired_by:
+- reference-0006
+recipes:
+- recipe-0091
+_lookup:
+  slug: deathsandwich
+  babish_internal_id: 6QvtFA6zfkrJ2n1WGVsq

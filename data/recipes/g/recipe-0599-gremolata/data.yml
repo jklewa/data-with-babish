@@ -1,0 +1,13 @@
+babish_id: recipe-0599
+name: Gremolata
+image_link: ''
+raw_ingredient_list: 'Finely chopped parsley
+
+  Grated lemon zest
+
+  Grated garlic'
+raw_procedure: Combine some freshly chopped parsley, grated lemon zest, and grated garlic. Mix all of it up and add enough fresh parsley to make sure that it is easy to sprinkle.
+episode: episode-0403
+_lookup:
+  episode_and_section: episode-0403::Gremolata
+  db_id: 613

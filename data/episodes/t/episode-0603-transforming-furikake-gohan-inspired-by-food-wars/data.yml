@@ -1,0 +1,23 @@
+babish_id: episode-0603
+name: Transforming Furikake Gohan inspired by Food Wars!
+slug: transforming-furikake-gohan-inspired-by-food-wars!
+published_date: 2024-08-26
+youtube_link: https://www.youtube.com/watch?v=LcMYQtVchPA
+official_link: https://www.babi.sh/recipes/transforming-furikake-gohan-inspired-by-food-wars!
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1724877203/bcpv95p0gnazhatj7qqv.webp
+time_to_cook: null
+yield_qty: 1
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+- tag-0029
+- tag-0032
+guests: []
+inspired_by:
+- reference-0063
+recipes:
+- recipe-1266
+_lookup:
+  slug: transforming-furikake-gohan-inspired-by-food-wars!
+  babish_internal_id: oqYSb6wc4tRiASJo2VBL

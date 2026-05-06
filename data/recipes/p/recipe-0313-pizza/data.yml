@@ -1,0 +1,23 @@
+babish_id: recipe-0313
+name: Pizza
+image_link: null
+raw_ingredient_list: 'Pizza Dough
+
+  Pizza Sauce
+
+  Low-moisture mozzarella cheese (shredded)
+
+  Fresh basil
+
+  Spicy soppressata (optional)
+
+  Fresh burrata cheese (optional)'
+raw_procedure: 'Slowly start to pat the dough down into the general shape of a pizza. Don’t roll it out with a rolling pin. Once the dough had grown in size, pass over your knuckles and slowly start to spread it out until a pizza pie shape is formed.
+
+  Add your sauce and low moisture mozzarella along with whatever toppings you’d like and place on your pizza stone in your preheated 500°F oven (pre-heat for 1 hour). Bake for 7-9 minutes.
+
+  Let cool for a few minutes. Serve and enjoy.'
+episode: episode-0494
+_lookup:
+  episode_and_section: episode-0494::Pizza
+  db_id: 322

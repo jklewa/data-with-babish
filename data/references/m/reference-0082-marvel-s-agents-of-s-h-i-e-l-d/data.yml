@@ -1,0 +1,11 @@
+babish_id: reference-0082
+type: tv_show
+name: Marvel's Agents of S.H.I.E.L.D.
+description: The missions of the Strategic Homeland Intervention, Enforcement and Logistics Division. IMDb.
+external_link: https://www.imdb.com/title/tt2364582/
+image_link: https://i.ytimg.com/sh/5rIh4K2rdv-MsocEuB4oqQ/market.jpg
+_lookup:
+  canonical_name: Marvel's Agents of S.H.I.E.L.D.
+  db_id: 84
+  aliases:
+  - Agents of S.H.I.E.L.D.

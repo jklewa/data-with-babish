@@ -1,0 +1,9 @@
+babish_id: reference-0013
+type: tv_show
+name: Bob's Burgers
+description: Bob Belcher, along with his wife and 3 children, try to run their last hope of holding the family together, which is running Bob's dream restaurant. IMDb.
+external_link: https://www.imdb.com/title/tt1561755/
+image_link: https://i.ytimg.com/sh/YFIqnn7YyVe01H23BBPlyA/market.jpg
+_lookup:
+  canonical_name: Bob's Burgers
+  db_id: 14

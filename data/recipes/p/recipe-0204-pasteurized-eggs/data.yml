@@ -1,0 +1,11 @@
+babish_id: recipe-0204
+name: Pasteurized Eggs
+image_link: null
+raw_ingredient_list: Eggs
+raw_procedure: 'Place the eggs into the sous vide with a temperature of 135 degrees fahrenheit for 2 hours.
+
+  After 2 hours, take the eggs out and place into ice cold water'
+episode: episode-0523
+_lookup:
+  episode_and_section: episode-0523::Pasteurized Eggs
+  db_id: 209

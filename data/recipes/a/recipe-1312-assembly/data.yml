@@ -1,0 +1,17 @@
+babish_id: recipe-1312
+name: assembly
+image_link: null
+raw_ingredient_list: 'unsalted butter chilled
+
+  milk
+
+  deli ham
+
+  flour
+
+  sour cream'
+raw_procedure: ''
+episode: episode-0185
+_lookup:
+  episode_and_section: episode-0185::assembly
+  db_id: 1331

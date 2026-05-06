@@ -1,0 +1,24 @@
+babish_id: episode-0081
+name: BLENDER SOUPS
+slug: blendersoups
+published_date: 2019-03-05
+youtube_link: https://www.youtube.com/watch?v=S-gUFvpRQoU
+official_link: https://www.babi.sh/recipes/blendersoups
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686007069/ibhjyui89v1zkxbgpjgd.webp
+time_to_cook: 2100
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0024
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0105
+- recipe-0106
+_lookup:
+  slug: blendersoups
+  babish_internal_id: 6mrshuBe9p89XzlBmIV0

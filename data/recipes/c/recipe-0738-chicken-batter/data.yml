@@ -1,0 +1,19 @@
+babish_id: recipe-0738
+name: Chicken Batter
+image_link: null
+raw_ingredient_list: '100 g all-purpose flour
+
+  100 g cornstarch
+
+  Sprinkle spice mixture
+
+  250 g water
+
+  30 g vodka
+
+  2 large eggs'
+raw_procedure: ''
+episode: episode-0441
+_lookup:
+  episode_and_section: episode-0441::Chicken Batter
+  db_id: 752

@@ -1,0 +1,18 @@
+babish_id: episode-0272
+name: National Grilled Cheese Day + VidCon Announcement
+slug: grilledcheesevidcon
+published_date: 2018-04-11
+youtube_link: https://www.youtube.com/watch?v=hwjdXBxeWsc
+official_link: https://www.youtube.com/watch?v=hwjdXBxeWsc
+image_link: https://img.youtube.com/vi/hwjdXBxeWsc/mqdefault.jpg
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags: []
+guests: []
+inspired_by:
+- reference-0045
+recipes:
+- recipe-1447
+_lookup:
+  slug: grilledcheesevidcon

@@ -1,0 +1,19 @@
+babish_id: episode-0462
+name: A Quiet Place Bonus Episode
+slug: quiet-place-bonus
+published_date: 2018-12-15
+youtube_link: https://www.youtube.com/watch?v=0PyTpUIn4ks
+official_link: https://www.youtube.com/watch?v=0PyTpUIn4ks
+image_link: https://img.youtube.com/vi/0PyTpUIn4ks/mqdefault.jpg
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags: []
+guests:
+- guest-0019
+inspired_by:
+- reference-0309
+recipes:
+- recipe-1454
+_lookup:
+  slug: quiet-place-bonus

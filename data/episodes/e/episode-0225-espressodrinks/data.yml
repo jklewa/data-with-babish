@@ -1,0 +1,32 @@
+babish_id: episode-0225
+name: ESPRESSO DRINKS
+slug: espressodrinks
+published_date: 2019-10-24
+youtube_link: https://www.youtube.com/watch?v=W-osWU1WJuM
+official_link: https://www.babi.sh/recipes/espressodrinks
+image_link: https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1573758950016-WYT3RP0XKV4525EF4Y3I/Screen%2BShot%2B2019-10-24%2Bat%2B5.38.01%2BPM.png
+time_to_cook: 900
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0013
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0546
+- recipe-0547
+- recipe-0548
+- recipe-0549
+- recipe-0550
+- recipe-0551
+- recipe-0552
+- recipe-0553
+- recipe-0554
+- recipe-0555
+- recipe-0556
+- recipe-0557
+- recipe-0558
+_lookup:
+  slug: espressodrinks
+  babish_internal_id: 5FPHBP4dPMOZIZN09AJI

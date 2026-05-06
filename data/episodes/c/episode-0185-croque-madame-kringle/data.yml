@@ -1,0 +1,18 @@
+babish_id: episode-0185
+name: Croque Madame Kringle
+slug: croque-madame-kringle
+published_date: 2023-12-01
+youtube_link: https://www.instagram.com/reel/C0UhkHDxwq8/?igshid=N2ViNmM2MDRjNw==
+official_link: https://www.babi.sh/recipes/croque-madame-kringle
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1701447710/snzltuylalzupksxlua9.webp
+time_to_cook: null
+yield_qty: 2
+yield_unit: servings
+tags: []
+guests: []
+inspired_by: []
+recipes:
+- recipe-1312
+_lookup:
+  slug: croque-madame-kringle
+  babish_internal_id: 0GLH9qLvCwMdvL0WMRoR

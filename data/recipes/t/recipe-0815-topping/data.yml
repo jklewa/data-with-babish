@@ -1,0 +1,23 @@
+babish_id: recipe-0815
+name: Topping
+image_link: null
+raw_ingredient_list: '1 ½ cups (225 g) halved pecans
+
+  100 g (⅕ cup) dark brown sugar,
+
+  100 g of toasted sugar
+
+  6 Tbsp (85 g) melted butter
+
+  ¼ cup (60 ml) dark corn syrup
+
+  ½ tsp of kosher salt
+
+  1 Tbsp cinnamon
+
+  ¾ cup (150 g) dark brown sugar'
+raw_procedure: ''
+episode: episode-0547
+_lookup:
+  episode_and_section: episode-0547::Topping
+  db_id: 829

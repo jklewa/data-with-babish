@@ -1,0 +1,26 @@
+babish_id: episode-0483
+name: Rum French Toast inspired by Mad Men
+slug: rumfrenchtoast
+published_date: 2018-01-23
+youtube_link: https://www.youtube.com/watch?v=evzWEXpW1pM
+official_link: https://www.babi.sh/recipes/rumfrenchtoast
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715512/babishImages/undefined-792513.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0028
+- tag-0032
+guests: []
+inspired_by:
+- reference-0066
+recipes:
+- recipe-0320
+- recipe-0321
+- recipe-0322
+- recipe-0323
+_lookup:
+  slug: rumfrenchtoast
+  babish_internal_id: SKthsqnX39P3B71qOQGK

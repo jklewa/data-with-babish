@@ -1,0 +1,19 @@
+babish_id: recipe-0085
+name: Vegetarian Quesadilla
+image_link: null
+raw_ingredient_list: '1 zucchini, finely chopped
+
+  1 can corn, drained and rinsed
+
+  Vegetable oil
+
+  Monterey jack cheese, grated
+
+  Sharp cheddar cheese, grated
+
+  Flour tortillas'
+raw_procedure: Start by finely chopping your zucchini. Add to a large nonstick skillet with a little bit of olive oil. Cook for a minute before adding your corn and then cook both over a high heat. Set aside.
+episode: episode-0460
+_lookup:
+  episode_and_section: episode-0460::Vegetarian Quesadilla
+  db_id: 90

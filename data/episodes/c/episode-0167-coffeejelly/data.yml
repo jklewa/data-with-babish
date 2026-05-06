@@ -1,0 +1,27 @@
+babish_id: episode-0167
+name: Coffee Jelly inspired by The Disastrous Life of Saiki K.
+slug: coffeejelly
+published_date: 2019-09-24
+youtube_link: https://www.youtube.com/watch?v=YxEcd_wTf5c&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/YxEcd_wTf5c/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/coffeejelly
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695184/babishImages/undefined-73008.png
+time_to_cook: 4800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0012
+- tag-0018
+- tag-0028
+- tag-0032
+guests: []
+inspired_by:
+- reference-0129
+recipes:
+- recipe-0526
+- recipe-0527
+- recipe-0528
+- recipe-0529
+_lookup:
+  slug: coffeejelly
+  babish_internal_id: 33EYeP32LeqXrz6B1fX9

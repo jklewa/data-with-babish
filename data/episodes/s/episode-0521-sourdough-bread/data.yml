@@ -1,0 +1,23 @@
+babish_id: episode-0521
+name: SOURDOUGH BREAD
+slug: sourdough-bread
+published_date: 2020-02-28
+youtube_link: https://www.youtube.com/watch?v=bSYdABrPrtM
+official_link: https://www.babi.sh/recipes/sourdough-bread
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715713/babishImages/undefined-931551.png
+time_to_cook: 86400
+yield_qty: 2
+yield_unit: loaves
+tags:
+- tag-0013
+- tag-0016
+- tag-0029
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1439
+- recipe-1440
+_lookup:
+  slug: sourdough-bread
+  babish_internal_id: nkalYgxFkZc7uG00ty6p

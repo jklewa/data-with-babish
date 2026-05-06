@@ -1,0 +1,23 @@
+babish_id: recipe-0771
+name: Stock
+image_link: null
+raw_ingredient_list: '3lbs oxtail
+
+  1 Spanish onion, roughly chopped
+
+  Kosher salt
+
+  3-4 Tbsp tomato paste
+
+  Celery, roughly chopped
+
+  Carrots, roughly chopped
+
+  Vegetable oil
+
+  Handful garlic cloves, cut in half'
+raw_procedure: ''
+episode: episode-0544
+_lookup:
+  episode_and_section: episode-0544::Stock
+  db_id: 785

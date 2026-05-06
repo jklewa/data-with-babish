@@ -1,0 +1,19 @@
+babish_id: episode-0085
+name: Duck Cake Inspired by Bluey
+slug: bluey-duck-cake
+published_date: 2024-02-08
+youtube_link: https://www.youtube.com/watch?v=w7B-BGWixm0
+official_link: https://www.babi.sh/recipes/bluey-duck-cake
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1707408991/nyvglzkdwqrlkvu7qwnb.webp
+time_to_cook: 10800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+guests: []
+inspired_by: []
+recipes:
+- recipe-1295
+_lookup:
+  slug: bluey-duck-cake
+  babish_internal_id: kIw6LyxDs9qFqHAPhTh7

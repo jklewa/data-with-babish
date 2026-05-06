@@ -1,0 +1,19 @@
+babish_id: recipe-1337
+name: bordelaise sauce
+image_link: null
+raw_ingredient_list: 'filet mignon steaks
+
+  yukon gold potatoes
+
+  butter
+
+  koji
+
+  asparagus
+
+  duck fat'
+raw_procedure: ''
+episode: episode-0208
+_lookup:
+  episode_and_section: episode-0208::bordelaise sauce
+  db_id: 1356

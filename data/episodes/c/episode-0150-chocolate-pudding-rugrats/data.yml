@@ -1,0 +1,26 @@
+babish_id: episode-0150
+name: Chocolate Pudding (4 Ways) inspired by Rugrats
+slug: chocolate-pudding-rugrats
+published_date: 2020-03-03
+youtube_link: https://www.youtube.com/watch?v=1lPU4CwSnTc
+official_link: https://www.babi.sh/recipes/chocolate-pudding-rugrats
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696061/babishImages/undefined-143561.png
+time_to_cook: 4800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0175
+recipes:
+- recipe-0650
+- recipe-0651
+- recipe-0652
+- recipe-0653
+_lookup:
+  slug: chocolate-pudding-rugrats
+  babish_internal_id: m3THDtSIkfeEMNqDvgiA

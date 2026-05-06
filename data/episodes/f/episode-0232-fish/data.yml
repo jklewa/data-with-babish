@@ -1,0 +1,25 @@
+babish_id: episode-0232
+name: FISH
+slug: fish
+published_date: 2018-05-17
+youtube_link: https://www.youtube.com/watch?v=KObL442PWhQ
+official_link: https://www.babi.sh/recipes/fish
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686073589/lr3hrtq5q7dumkimhsnd.webp
+time_to_cook: 2700
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0023
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0263
+- recipe-0264
+_lookup:
+  slug: fish
+  babish_internal_id: SsCBMR8I6TLpZqJVOOYy

@@ -1,0 +1,24 @@
+babish_id: episode-0173
+name: Copy Cat Spicy Vodka Rigatoni
+slug: copy-cat-spicy-vodka-rigatoni
+published_date: 2025-06-06
+youtube_link: https://www.youtube.com/watch?v=KMUvINcrpzM
+official_link: https://www.babi.sh/recipes/copy-cat-spicy-vodka-rigatoni
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1749222937/h0akjerb4dvfjjofwtkj.webp
+time_to_cook: 3600
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0015
+- tag-0022
+- tag-0027
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1215
+_lookup:
+  slug: copy-cat-spicy-vodka-rigatoni
+  babish_internal_id: PeosTUKb3UUJEGQAEEBZ

@@ -1,0 +1,23 @@
+babish_id: episode-0488
+name: STEAK
+slug: sauces-9w5tm
+published_date: 2017-11-02
+youtube_link: https://www.youtube.com/watch?v=PFDElc5sfSM
+official_link: https://www.babi.sh/recipes/sauces-9w5tm
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686075988/qahtgobrlab7cpw7sarj.webp
+time_to_cook: 1800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0021
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0363
+- recipe-0364
+_lookup:
+  slug: sauces-9w5tm
+  babish_internal_id: OsYzIxPqOs8aXOkGC8P7

@@ -1,0 +1,9 @@
+babish_id: recipe-1323
+name: WINGS
+image_link: null
+raw_ingredient_list: chicken wings
+raw_procedure: ''
+episode: episode-0633
+_lookup:
+  episode_and_section: episode-0633::WINGS
+  db_id: 1342

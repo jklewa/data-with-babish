@@ -1,0 +1,27 @@
+babish_id: episode-0312
+name: Judy's Hot Cocoa inspired by the Santa Clause
+slug: judys-hot-cocoa-santa-clause
+published_date: 2020-12-22
+youtube_link: https://www.youtube.com/watch?v=rBYd_O38Ncw
+official_link: https://www.babi.sh/recipes/judys-hot-cocoa-santa-clause
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696414/babishImages/undefined-315386.png
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0018
+- tag-0031
+guests: []
+inspired_by:
+- reference-0197
+recipes:
+- recipe-0775
+- recipe-0776
+- recipe-0777
+- recipe-0778
+- recipe-0779
+_lookup:
+  slug: judys-hot-cocoa-santa-clause
+  babish_internal_id: zn35uxBmprhrCmZXNecr

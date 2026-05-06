@@ -1,0 +1,9 @@
+babish_id: reference-0048
+type: tv_show
+name: 30 Rock
+description: Liz Lemon, head writer of the sketch comedy show "TGS with Tracy Jordan", must deal with an arrogant new boss and a crazy new star, all while trying to run a successful television show without losing her mind. IMDb.
+external_link: https://www.imdb.com/title/tt0496424/
+image_link: https://i.ytimg.com/sh/CPflFO2qVR_gELM7EMnlSQ/market.jpg
+_lookup:
+  canonical_name: 30 Rock
+  db_id: 50

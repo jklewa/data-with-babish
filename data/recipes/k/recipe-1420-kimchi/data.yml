@@ -1,0 +1,23 @@
+babish_id: recipe-1420
+name: kimchi
+image_link: null
+raw_ingredient_list: 'garlic
+
+  gochugaru
+
+  onion
+
+  ginger
+
+  fish sauce
+
+  salt
+
+  sugar
+
+  rice vinegar'
+raw_procedure: ''
+episode: episode-0321
+_lookup:
+  episode_and_section: episode-0321::kimchi
+  db_id: 1439

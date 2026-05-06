@@ -1,0 +1,9 @@
+babish_id: reference-0059
+type: movie
+name: The Matrix
+description: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers. IMDb.
+external_link: https://www.imdb.com/title/tt0133093/
+image_link: https://img.youtube.com/vi/qEXv-rVWAu8/mqdefault.jpg
+_lookup:
+  canonical_name: The Matrix
+  db_id: 61

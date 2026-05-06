@@ -1,0 +1,11 @@
+babish_id: recipe-1214
+name: pistachio pesto
+image_link: null
+raw_ingredient_list: 'flour
+
+  basil'
+raw_procedure: ''
+episode: episode-0237
+_lookup:
+  episode_and_section: episode-0237::pistachio pesto
+  db_id: 1233

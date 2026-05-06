@@ -1,0 +1,25 @@
+babish_id: episode-0454
+name: Puerco Pibil inspired by Once Upon a Time in Mexico
+slug: puerco-pibil
+published_date: 2017-08-08
+youtube_link: https://www.youtube.com/watch?v=5_sdhAFGmbw
+official_link: https://www.babi.sh/recipes/puerco-pibil
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715523/babishImages/undefined-330169.jpg
+time_to_cook: null
+yield_qty: 5
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0084
+recipes:
+- recipe-0400
+_lookup:
+  slug: puerco-pibil
+  babish_internal_id: Yyj8yzDJHdzSiKq26ysz

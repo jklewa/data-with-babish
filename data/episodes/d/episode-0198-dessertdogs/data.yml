@@ -1,0 +1,28 @@
+babish_id: episode-0198
+name: Dessert Dogs inspired by The Simpsons
+slug: dessertdogs
+published_date: 2020-01-15
+youtube_link: https://www.youtube.com/watch?v=chil75Ip-3w&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/chil75Ip-3w/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/dessertdogs
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696386/babishImages/undefined-530680.png
+time_to_cook: 4800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0017
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0014
+recipes:
+- recipe-0625
+- recipe-0626
+- recipe-0627
+- recipe-0628
+- recipe-0629
+_lookup:
+  slug: dessertdogs
+  babish_internal_id: yv8gBe0B91KvPMRbtEui

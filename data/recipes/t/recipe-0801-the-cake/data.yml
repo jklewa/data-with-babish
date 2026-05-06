@@ -1,0 +1,27 @@
+babish_id: recipe-0801
+name: The Cake
+image_link: null
+raw_ingredient_list: '½ cup (112g) unsalted butter, at room temperature
+
+  1 cup (200g) granulated sugar
+
+  4 tsp finely grated orange zest
+
+  1 tsp baking powder
+
+  ½ tsp baking soda
+
+  1 tsp kosher salt
+
+  3 large eggs, at room temperature
+
+  1 tsp pure vanilla extract
+
+  2 cups (250g) all-purpose flour
+
+  1 cup Blue Moon Belgian White Wheat Ale, at room temperature'
+raw_procedure: ''
+episode: episode-0023
+_lookup:
+  episode_and_section: episode-0023::The Cake
+  db_id: 815

@@ -1,0 +1,23 @@
+babish_id: episode-0447
+name: POTATO HASH
+slug: potato-hash
+published_date: 2020-08-27
+youtube_link: https://www.youtube.com/watch?v=R4kwxiDlKzs
+official_link: https://www.babi.sh/recipes/potato-hash
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715758/babishImages/undefined-38265.png
+time_to_cook: 1800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0019
+- tag-0028
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1418
+- recipe-1419
+_lookup:
+  slug: potato-hash
+  babish_internal_id: zrafQDsQmE0PFFcFtDe0

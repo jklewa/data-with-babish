@@ -1,0 +1,33 @@
+babish_id: recipe-0755
+name: Mortadella
+image_link: null
+raw_ingredient_list: '2lbs pork belly
+
+  3lbs lean pork
+
+  1 tsp star anise
+
+  1 tsp caraway seeds.
+
+  1 tsp garlic powder
+
+  1 tsp mace
+
+  1 tsp white pepper
+
+  1 tsp pink curing salt
+
+  1 tsp ground coriander
+
+  3 tsp kosher salt
+
+  ¾ cup shelled unsalted roasted pistachios
+
+  2 Tbsp black peppercorns.
+
+  Boiling water'
+raw_procedure: ''
+episode: episode-0100
+_lookup:
+  episode_and_section: episode-0100::Mortadella
+  db_id: 769

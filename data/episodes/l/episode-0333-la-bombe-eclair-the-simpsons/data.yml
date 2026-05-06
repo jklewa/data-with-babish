@@ -1,0 +1,27 @@
+babish_id: episode-0333
+name: La Bombe Eclair inspired by The Simpsons
+slug: la-bombe-eclair-the-simpsons
+published_date: 2021-08-03
+youtube_link: https://www.youtube.com/watch?v=M73XCOzZAU0
+official_link: https://www.babi.sh/recipes/la-bombe-eclair-the-simpsons
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696283/babishImages/undefined-81496.png
+time_to_cook: 7200
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0018
+guests: []
+inspired_by:
+- reference-0014
+recipes:
+- recipe-1067
+- recipe-1068
+- recipe-1069
+- recipe-1070
+- recipe-1071
+_lookup:
+  slug: la-bombe-eclair-the-simpsons
+  babish_internal_id: vT90esYzjFhilJvWunas

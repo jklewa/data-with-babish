@@ -1,0 +1,29 @@
+babish_id: episode-0577
+name: THANKSGIVING SIDES
+slug: thanksgivingsides
+published_date: 2018-11-15
+youtube_link: https://www.youtube.com/watch?v=8hpD5strtzM
+official_link: https://www.babi.sh/recipes/thanksgivingsides
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686009527/c2ftednohr4zfyusbs9u.webp
+time_to_cook: 9000
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0019
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0159
+- recipe-0160
+- recipe-0161
+- recipe-0162
+- recipe-0163
+- recipe-0164
+_lookup:
+  slug: thanksgivingsides
+  babish_internal_id: O7hud5zADfEI0s9rgpWH

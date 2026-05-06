@@ -1,0 +1,24 @@
+babish_id: episode-0421
+name: Peking Duck inspired by A Christmas Story
+slug: pekingduck
+published_date: 2017-12-19
+youtube_link: https://www.youtube.com/watch?v=Hez55mhB8UA
+official_link: https://www.babi.sh/recipes/pekingduck
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715494/babishImages/undefined-792662.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0021
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0069
+recipes:
+- recipe-0341
+_lookup:
+  slug: pekingduck
+  babish_internal_id: MQK8Ya9XJlDZtHHHdzZK

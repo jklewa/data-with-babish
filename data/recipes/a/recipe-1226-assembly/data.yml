@@ -1,0 +1,11 @@
+babish_id: recipe-1226
+name: assembly
+image_link: null
+raw_ingredient_list: 'heavy cream
+
+  granny smith apples & quartered'
+raw_procedure: ''
+episode: episode-0532
+_lookup:
+  episode_and_section: episode-0532::assembly
+  db_id: 1245

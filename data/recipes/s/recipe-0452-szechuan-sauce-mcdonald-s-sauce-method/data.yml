@@ -1,0 +1,11 @@
+babish_id: recipe-0452
+name: Szechuan Sauce - McDonald's Sauce Method
+image_link: null
+raw_ingredient_list: 'McDonald’s Sweet and Sour Sauce
+
+  McDonald’s Tangy Barbeque Sauce'
+raw_procedure: Combine 2 parts Sweet and Sour sauce to 1 part Tangy Barbeque sauce.
+episode: episode-0563
+_lookup:
+  episode_and_section: episode-0563::Szechuan Sauce - McDonald's Sauce Method
+  db_id: 461

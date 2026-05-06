@@ -1,0 +1,27 @@
+babish_id: recipe-0123
+name: Crème de la Crème à la Edgar
+image_link: null
+raw_ingredient_list: '1 pint heavy cream
+
+  1 pint whole milk
+
+  1 vanilla bean
+
+  ⅓ cup sugar
+
+  ¼ tsp ground cinnamon
+
+  ¼ tsp ground nutmeg
+
+  Pinch of salt'
+raw_procedure: 'In a pot add 1 pint of heavy cream and 1 pint of whole milk. Stir to combine.
+
+  Scrape one vanilla bean and then add the beans and the pod to the milk mixture along with ⅓ cup of sugar, ¼ tsp ground cinnamon, ¼ tsp ground nutmeg and a pinch of salt.
+
+  Just bring to a boil and stir to combine.
+
+  Serve with crackers and enjoy!'
+episode: episode-0035
+_lookup:
+  episode_and_section: episode-0035::Crème de la Crème à la Edgar
+  db_id: 128

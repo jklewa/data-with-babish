@@ -1,0 +1,21 @@
+babish_id: recipe-0008
+name: Gravy for Mashed Potatoes
+image_link: null
+raw_ingredient_list: '6 tbsps butter
+
+  ⅓ cup all purpose flour
+
+  Soy sauce
+
+  3 cups chicken stock'
+raw_procedure: 'In a small saucepan, melt 6 tablespoons of butter until foaming and add ⅓ cup all purpose flour, and whisk to cook for an additional minute.
+
+  Slowly stream in 3 cups chicken stock, and whisk constantly to prevent clumping.
+
+  Add a good glug of soy sauce.
+
+  Simmer for 3-4 minutes until it gets nice and thick. Taste for seasoning.'
+episode: episode-0318
+_lookup:
+  episode_and_section: episode-0318::Gravy for Mashed Potatoes
+  db_id: 12

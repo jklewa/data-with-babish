@@ -1,0 +1,11 @@
+babish_id: recipe-0650
+name: Snack Pack
+image_link: null
+raw_ingredient_list: '1 box My-T-Fine Pudding
+
+  2 cups milk'
+raw_procedure: ''
+episode: episode-0150
+_lookup:
+  episode_and_section: episode-0150::Snack Pack
+  db_id: 664

@@ -1,0 +1,17 @@
+babish_id: recipe-0134
+name: Cucumber Tea Sandwich
+image_link: null
+raw_ingredient_list: 'Sliced bread of your choice
+
+  Neufchatel Cheese
+
+  Fresh Dill
+
+  Salt'
+raw_procedure: 'Thinly slice your cucumbers and chop up your dill.
+
+  Add cucumbers and dill to the bread with a good smear of neufchâtel cheese and a sprinkling of salt. Slice off the crust and then cut into 4 small sandwiches.'
+episode: episode-0584
+_lookup:
+  episode_and_section: episode-0584::Cucumber Tea Sandwich
+  db_id: 139

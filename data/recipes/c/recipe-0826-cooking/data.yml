@@ -1,0 +1,17 @@
+babish_id: recipe-0826
+name: Cooking
+image_link: null
+raw_ingredient_list: 'Dumpling wrappers
+
+  Pork filling
+
+  As needed vegetable oil
+
+  As needed water
+
+  Optional: Skirt mixture'
+raw_procedure: ''
+episode: episode-0450
+_lookup:
+  episode_and_section: episode-0450::Cooking
+  db_id: 840

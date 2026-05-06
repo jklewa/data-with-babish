@@ -1,0 +1,19 @@
+babish_id: recipe-1373
+name: choodles
+image_link: null
+raw_ingredient_list: 'milk
+
+  instant chicken ramen
+
+  meat
+
+  scallions
+
+  frozen shrimp
+
+  thick cut bacon'
+raw_procedure: ''
+episode: episode-0468
+_lookup:
+  episode_and_section: episode-0468::choodles
+  db_id: 1392

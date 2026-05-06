@@ -1,0 +1,28 @@
+babish_id: episode-0285
+name: Caprese Salad inspired by Jojo's Bizarre Adventure
+slug: homemade-mozzarella
+published_date: 2020-04-21
+youtube_link: https://www.youtube.com/watch?v=Ao7RQj8sxuo
+official_link: https://www.babi.sh/recipes/homemade-mozzarella
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695237/babishImages/undefined-3701.png
+time_to_cook: 2400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0012
+- tag-0019
+- tag-0025
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0004
+recipes:
+- recipe-0668
+- recipe-0669
+- recipe-0670
+_lookup:
+  slug: homemade-mozzarella
+  babish_internal_id: 4n4PJTsmeutzCv1bj0Gv

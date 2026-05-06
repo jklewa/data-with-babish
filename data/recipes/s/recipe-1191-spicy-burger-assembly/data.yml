@@ -1,0 +1,15 @@
+babish_id: recipe-1191
+name: spicy burger assembly
+image_link: null
+raw_ingredient_list: 'flour
+
+  ketchup
+
+  milk warm
+
+  white vinegar'
+raw_procedure: ''
+episode: episode-0557
+_lookup:
+  episode_and_section: episode-0557::spicy burger assembly
+  db_id: 1210

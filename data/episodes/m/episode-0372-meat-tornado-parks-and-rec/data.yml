@@ -1,0 +1,25 @@
+babish_id: episode-0372
+name: Meat Tornado inspired by Parks & Rec
+slug: meat-tornado-parks-and-rec
+published_date: 2020-08-25
+youtube_link: https://www.youtube.com/watch?v=LsNg-KrFxCA
+official_link: https://www.babi.sh/recipes/meat-tornado-parks-and-rec
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696351/babishImages/undefined-220855.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0017
+guests: []
+inspired_by:
+- reference-0018
+recipes:
+- recipe-0731
+- recipe-0732
+- recipe-0733
+- recipe-0734
+_lookup:
+  slug: meat-tornado-parks-and-rec
+  babish_internal_id: xeYUE7EAupHAVyC8PXct

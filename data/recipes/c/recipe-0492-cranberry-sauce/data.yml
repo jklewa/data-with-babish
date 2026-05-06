@@ -1,0 +1,25 @@
+babish_id: recipe-0492
+name: Cranberry Sauce
+image_link: null
+raw_ingredient_list: '1 pound cranberries
+
+  1 cup sugar
+
+  1/4 cup red wine
+
+  1 1/2 cups water
+
+  1 cinnamon stick
+
+  1/2 tsp freshly grated nutmeg
+
+  Juice of 1/2 orange
+
+  3-inch segment of orange peel'
+raw_procedure: 'Combine all ingredients in a medium saucepan - bring to a simmer, and cook until it reaches a thick, syrupy consistency.
+
+  Remove the cinnamon stick and orange peel, and serve.'
+episode: episode-0383
+_lookup:
+  episode_and_section: episode-0383::Cranberry Sauce
+  db_id: 501

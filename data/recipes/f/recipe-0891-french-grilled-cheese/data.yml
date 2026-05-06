@@ -1,0 +1,23 @@
+babish_id: recipe-0891
+name: French Grilled Cheese
+image_link: null
+raw_ingredient_list: '7 oz comte cheese, chopped
+
+  2 oz brie cheese, rind removed
+
+  2 Tbsp dry white wine or sherry
+
+  2 Tbsp caramelized onions
+
+  4 Tbsp fig jam
+
+  3 Tbsp unsalted butter, very soft
+
+  8 slices brioche bread
+
+  Bechamel sauce'
+raw_procedure: ''
+episode: episode-0016
+_lookup:
+  episode_and_section: episode-0016::French Grilled Cheese
+  db_id: 910

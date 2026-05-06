@@ -1,0 +1,25 @@
+babish_id: episode-0025
+name: Apple and Brie Galette
+slug: apple-and-brie-galette
+published_date: 2024-12-13
+youtube_link: https://www.instagram.com/reel/DDxGLEJuMPd/?utm_source=ig_web_copy_link
+official_link: https://www.babi.sh/recipes/apple-and-brie-galette
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1734127645/lqkxpmzhdc9fruj6rwpf.webp
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0001
+- tag-0007
+- tag-0016
+- tag-0018
+- tag-0028
+- tag-0029
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1230
+_lookup:
+  slug: apple-and-brie-galette
+  babish_internal_id: 1IqrxBScmEUJ2vD53OPr

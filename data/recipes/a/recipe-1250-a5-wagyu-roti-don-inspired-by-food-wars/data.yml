@@ -1,0 +1,9 @@
+babish_id: recipe-1250
+name: A5 Wagyu Roti Don inspired by Food Wars!
+image_link: null
+raw_ingredient_list: day old rice
+raw_procedure: ''
+episode: episode-0015
+_lookup:
+  episode_and_section: episode-0015::A5 Wagyu Roti Don inspired by Food Wars!
+  db_id: 1269

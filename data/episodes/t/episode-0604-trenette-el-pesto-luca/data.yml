@@ -1,0 +1,25 @@
+babish_id: episode-0604
+name: Trenette al Pesto inspired by Luca
+slug: trenette-el-pesto-luca
+published_date: 2021-07-07
+youtube_link: https://www.youtube.com/watch?v=bWX0-NEjyNQ
+official_link: https://www.babi.sh/recipes/trenette-el-pesto-luca
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1676602611/hswohxek22jxiu83zhq6.webp
+time_to_cook: 6000
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0022
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0225
+recipes:
+- recipe-1017
+- recipe-1018
+_lookup:
+  slug: trenette-el-pesto-luca
+  babish_internal_id: 7ltiDCDCArA4nZ8hATja

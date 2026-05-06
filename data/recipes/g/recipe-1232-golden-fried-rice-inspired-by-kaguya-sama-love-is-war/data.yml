@@ -1,0 +1,9 @@
+babish_id: recipe-1232
+name: 'Golden Fried Rice inspired by Kaguya-Sama: Love is War'
+image_link: null
+raw_ingredient_list: rice
+raw_procedure: ''
+episode: episode-0263
+_lookup:
+  episode_and_section: 'episode-0263::Golden Fried Rice inspired by Kaguya-Sama: Love is War'
+  db_id: 1251

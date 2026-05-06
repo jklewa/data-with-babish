@@ -1,0 +1,23 @@
+babish_id: episode-0144
+name: CHILI (MEAT & VEGETARIAN)
+slug: chili-two-ways
+published_date: 2020-01-30
+youtube_link: https://www.youtube.com/watch?v=4BTm1Ezl6XE
+official_link: https://www.babi.sh/recipes/chili-two-ways
+image_link: https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1580394251048-E9PK1EUOJW3TS4QI6DYT/BWB+Meatiest+Chili.jpg
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0025
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1442
+_lookup:
+  slug: chili-two-ways
+  babish_internal_id: IindjNf8kcCCURiRxMJX

@@ -1,0 +1,23 @@
+babish_id: episode-0253
+name: Popplers Inspired by Futurama
+slug: futurama-shrimp-popplers
+published_date: 2024-01-03
+youtube_link: https://www.youtube.com/watch?v=BtGsjkj9DgM
+official_link: https://www.babi.sh/recipes/futurama-shrimp-popplers
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1704299223/grzo0n3a4v5gakutgodq.webp
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0019
+- tag-0023
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1302
+_lookup:
+  slug: futurama-shrimp-popplers
+  babish_internal_id: THFJC9QCfP3NwMSGunaI

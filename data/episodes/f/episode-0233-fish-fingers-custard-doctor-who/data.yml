@@ -1,0 +1,26 @@
+babish_id: episode-0233
+name: Fish Fingers and Custard inspired by Doctor Who
+slug: fish-fingers-custard-doctor-who
+published_date: 2021-05-11
+youtube_link: https://www.youtube.com/watch?v=aTBhpS570JE
+official_link: https://www.babi.sh/recipes/fish-fingers-custard-doctor-who
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696380/babishImages/undefined-22897.png
+time_to_cook: 8400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0018
+- tag-0023
+- tag-0029
+- tag-0031
+guests: []
+inspired_by:
+- reference-0221
+recipes:
+- recipe-0978
+- recipe-0979
+_lookup:
+  slug: fish-fingers-custard-doctor-who
+  babish_internal_id: ykyfKOmNEP65hN3CYAjy

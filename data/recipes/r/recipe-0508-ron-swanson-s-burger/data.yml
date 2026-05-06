@@ -1,0 +1,15 @@
+babish_id: recipe-0508
+name: Ron Swanson's Burger
+image_link: null
+raw_ingredient_list: 'Meat
+
+  Buns'
+raw_procedure: 'Cook the meat.
+
+  Put it on a bun.
+
+  Done.'
+episode: episode-0410
+_lookup:
+  episode_and_section: episode-0410::Ron Swanson's Burger
+  db_id: 517

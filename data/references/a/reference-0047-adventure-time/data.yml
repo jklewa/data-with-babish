@@ -1,0 +1,9 @@
+babish_id: reference-0047
+type: tv_show
+name: Adventure Time
+description: A 12-year-old boy and his best friend, wise 28-year-old dog with magical powers, go on a series of surreal adventures with each other. IMDb.
+external_link: https://www.imdb.com/title/tt1305826/
+image_link: https://i.ytimg.com/sh/Ah2GBgnPk0jlfMmNQogcbw/market.jpg
+_lookup:
+  canonical_name: Adventure Time
+  db_id: 49

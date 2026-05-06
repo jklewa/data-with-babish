@@ -1,0 +1,28 @@
+babish_id: episode-0016
+name: ADVANCED GRILLED CHEESE
+slug: advanced-grilled-cheese
+published_date: 2021-02-19
+youtube_link: https://www.youtube.com/watch?v=Zo7sRijXG00
+official_link: https://www.babi.sh/recipes/advanced-grilled-cheese
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695856/babishImages/undefined-814327.png
+time_to_cook: 1200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0017
+guests: []
+inspired_by: []
+recipes:
+- recipe-0884
+- recipe-0885
+- recipe-0886
+- recipe-0887
+- recipe-0888
+- recipe-0889
+- recipe-0890
+- recipe-0891
+_lookup:
+  slug: advanced-grilled-cheese
+  babish_internal_id: brTId9fw82r3xe4tUdHK

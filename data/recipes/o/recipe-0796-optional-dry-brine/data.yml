@@ -1,0 +1,9 @@
+babish_id: recipe-0796
+name: Optional Dry Brine
+image_link: null
+raw_ingredient_list: 1 tsp salt per pound of turkey
+raw_procedure: ''
+episode: episode-0023
+_lookup:
+  episode_and_section: episode-0023::Optional Dry Brine
+  db_id: 810

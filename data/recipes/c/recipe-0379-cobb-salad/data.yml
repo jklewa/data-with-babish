@@ -1,0 +1,33 @@
+babish_id: recipe-0379
+name: Cobb Salad
+image_link: null
+raw_ingredient_list: 'Cobb Salad Dressing
+
+  ½ head iceberg lettuce, chopped
+
+  ½ bunch watercress, chopped
+
+  1 small bunch endive, chopped
+
+  Cooked bacon, chopped
+
+  Hard boiled eggs
+
+  Poached chicken, chopped
+
+  Diced tomatoes
+
+  Crumbled roquefort cheese
+
+  Diced avocado
+
+  Minced chives'
+raw_procedure: 'Chop lettuce, watercress, and endive. Toss together in a medium bowl and set aside.
+
+  Chop bacon, hard boiled eggs, and chicken. Dice avocado and tomatoes and mince chives. Keep all of these ingredients separate.
+
+  Place a bed of the lettuce mixture on a plate. Stripe the top with bacon bits, chopped hard boiled eggs, chopped chicken, diced tomatoes, and avocado. Top with the minced chives and drizzle the dressing on.'
+episode: episode-0188
+_lookup:
+  episode_and_section: episode-0188::Cobb Salad
+  db_id: 388

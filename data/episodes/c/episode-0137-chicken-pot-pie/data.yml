@@ -1,0 +1,22 @@
+babish_id: episode-0137
+name: CHICKEN POT PIE
+slug: chicken-pot-pie
+published_date: 2020-11-13
+youtube_link: https://www.youtube.com/watch?v=Sv7NP9LMU4Q
+official_link: https://www.babi.sh/recipes/chicken-pot-pie
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715703/babishImages/undefined-597597.png
+time_to_cook: null
+yield_qty: 5
+yield_unit: servings
+tags:
+- tag-0013
+guests: []
+inspired_by: []
+recipes:
+- recipe-0790
+- recipe-0791
+- recipe-0792
+- recipe-0793
+_lookup:
+  slug: chicken-pot-pie
+  babish_internal_id: l4xclMRpbA4tPBy5WNDV

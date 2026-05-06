@@ -1,0 +1,19 @@
+babish_id: recipe-0798
+name: The Turkey
+image_link: null
+raw_ingredient_list: '2 onions, quartered (optional)
+
+  6 stalks celery, chopped into 4 inch pieces (optional)
+
+  4 carrots,  chopped into 4 inch piece (optional)
+
+  1 turkey, preferably 12-15 lbs.
+
+  As needed, kosher salt
+
+  As needed, pepper'
+raw_procedure: ''
+episode: episode-0023
+_lookup:
+  episode_and_section: episode-0023::The Turkey
+  db_id: 812

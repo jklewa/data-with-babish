@@ -1,0 +1,22 @@
+babish_id: episode-0629
+name: White Castle Sliders inspired by Harold & Kumar
+slug: whitecastlesliders
+published_date: 2019-08-13
+youtube_link: https://www.youtube.com/watch?v=pTk9HnIwEYU&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/pTk9HnIwEYU/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/whitecastlesliders
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695569/babishImages/undefined-753536.png
+time_to_cook: 8400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+guests: []
+inspired_by:
+- reference-0001
+recipes:
+- recipe-0002
+- recipe-0003
+_lookup:
+  slug: whitecastlesliders
+  babish_internal_id: JZFGyOnzahCfBqhnFDpe

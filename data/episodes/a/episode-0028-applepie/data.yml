@@ -1,0 +1,28 @@
+babish_id: episode-0028
+name: How To Make Apple Pie
+slug: applepie
+published_date: 2016-09-23
+youtube_link: https://www.youtube.com/watch?v=-Vy12e0LjX4
+official_link: https://www.babi.sh/recipes/applepie
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689991798/w3xv26lktz0rhousz1aq.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0094
+- reference-0114
+- reference-0115
+recipes:
+- recipe-0494
+- recipe-0495
+_lookup:
+  slug: applepie
+  babish_internal_id: IDVonlx8eRear0oKZcHZ

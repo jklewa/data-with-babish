@@ -1,0 +1,28 @@
+babish_id: episode-0479
+name: Risotto Tricolore inspired by Big Night
+slug: risotto-tricolore-big-night
+published_date: 2021-01-12
+youtube_link: https://www.youtube.com/watch?v=D8SgdOGIEyU
+official_link: https://www.babi.sh/recipes/risotto-tricolore-big-night
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696293/babishImages/undefined-320043.png
+time_to_cook: 4800
+yield_qty: 3
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0019
+- tag-0022
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0109
+recipes:
+- recipe-0827
+- recipe-0828
+- recipe-0829
+- recipe-0830
+_lookup:
+  slug: risotto-tricolore-big-night
+  babish_internal_id: vcLXerz3AyYAfVen4Izl

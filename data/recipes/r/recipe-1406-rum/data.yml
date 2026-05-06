@@ -1,0 +1,21 @@
+babish_id: recipe-1406
+name: rum
+image_link: null
+raw_ingredient_list: 'pecans toasted
+
+  vanilla wafer cookies
+
+  light corn syrup
+
+  sugar
+
+  peanuts
+
+  sharp cheddar cheese
+
+  popcorn kernels'
+raw_procedure: ''
+episode: episode-0499
+_lookup:
+  episode_and_section: episode-0499::rum
+  db_id: 1425

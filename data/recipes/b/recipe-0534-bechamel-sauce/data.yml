@@ -1,0 +1,15 @@
+babish_id: recipe-0534
+name: Bechamel Sauce
+image_link: null
+raw_ingredient_list: '3 Tbsp butter (melted)
+
+  3 Tbsp flour
+
+  2 cups milk'
+raw_procedure: 'Into a medium saucepan, add 3 tablespoons of melted butter and 3 tablespoons of flour. Whisk together and cook for 1 minute before slowly streaming in 2 cups of milk.
+
+  Whisk constantly and cook for an additional 1-2 minutes until you end up with a thick and creamy Béchamel sauce.'
+episode: episode-0637
+_lookup:
+  episode_and_section: episode-0637::Bechamel Sauce
+  db_id: 547

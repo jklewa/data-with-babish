@@ -1,0 +1,17 @@
+babish_id: recipe-0722
+name: Burger
+image_link: null
+raw_ingredient_list: 'Buns
+
+  3 beef patties, ⅓ lb each
+
+  3 slices yellow American cheese
+
+  Kosher salt
+
+  Freshly ground pepper'
+raw_procedure: ''
+episode: episode-0419
+_lookup:
+  episode_and_section: episode-0419::Burger
+  db_id: 736

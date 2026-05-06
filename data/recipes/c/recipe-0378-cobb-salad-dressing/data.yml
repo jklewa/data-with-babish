@@ -1,0 +1,27 @@
+babish_id: recipe-0378
+name: Cobb Salad Dressing
+image_link: null
+raw_ingredient_list: '2 Tbsp water
+
+  2 Tbsp red wine vinegar
+
+  Juice of 1 lemon
+
+  1 tsp of “I don’t want to say it” (Worcestershire) sauce
+
+  ½ tsp ground mustard
+
+  2 tsp sugar (optional)
+
+  Salt and pepper to taste
+
+  1 clove minced (not pressed) garlic
+
+  ¾ cup canola oil'
+raw_procedure: 'In a medium bowl, combine the water, red wine vinegar, lemon juice, worcestershire sauce, ground mustard, sugar, salt, pepper, and garlic with a whisk.
+
+  After the above ingredients are fully combined, slowly drizzle in the canola oil while still mixing with a whisk.'
+episode: episode-0188
+_lookup:
+  episode_and_section: episode-0188::Cobb Salad Dressing
+  db_id: 387

@@ -1,0 +1,24 @@
+babish_id: episode-0453
+name: PROTEIN PIZZA
+slug: protein-pizza
+published_date: 2021-10-05
+youtube_link: https://www.youtube.com/watch?v=ZYvDLT2BkQ8
+official_link: https://www.babi.sh/recipes/protein-pizza
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695706/babishImages/undefined-189348.png
+time_to_cook: 3600
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0014
+- tag-0026
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1142
+_lookup:
+  slug: protein-pizza
+  babish_internal_id: QLzaatCqHOXaJsWQkDgM

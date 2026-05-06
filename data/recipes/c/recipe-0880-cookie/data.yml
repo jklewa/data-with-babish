@@ -1,0 +1,25 @@
+babish_id: recipe-0880
+name: Cookie
+image_link: null
+raw_ingredient_list: '160 g flour
+
+  80 g cocoa powder
+
+  75 g butter, soft
+
+  50 g light brown sugar
+
+  100 g white sugar
+
+  ½ tsp baking soda
+
+  ½ tsp salt
+
+  ¾ tsp vanilla
+
+  110 g milk'
+raw_procedure: ''
+episode: episode-0170
+_lookup:
+  episode_and_section: episode-0170::Cookie
+  db_id: 896

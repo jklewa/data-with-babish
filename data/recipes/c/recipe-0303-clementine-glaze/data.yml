@@ -1,0 +1,13 @@
+babish_id: recipe-0303
+name: Clementine Glaze
+image_link: null
+raw_ingredient_list: '150g sifted powdered sugar
+
+  30-45 ml of clementine juice
+
+  Zest of 1 clementine'
+raw_procedure: Combine 150g of sifted powdered sugar, 30-45 ml of clementine juice, and the zest of one clementine. Whisk to combine. (You can use milk instead of juice to look more accurate to the movie, but the juice is better)
+episode: episode-0161
+_lookup:
+  episode_and_section: episode-0161::Clementine Glaze
+  db_id: 308

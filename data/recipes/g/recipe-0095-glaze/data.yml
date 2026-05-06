@@ -1,0 +1,11 @@
+babish_id: recipe-0095
+name: Glaze
+image_link: null
+raw_ingredient_list: '2 cups powdered sugar
+
+  ¼ cup skim milk (add more if needed)'
+raw_procedure: Whisk to combine.
+episode: episode-0098
+_lookup:
+  episode_and_section: episode-0098::Glaze
+  db_id: 100

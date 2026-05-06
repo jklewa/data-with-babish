@@ -1,0 +1,27 @@
+babish_id: episode-0401
+name: Orange Mocha Frappuccinos inspired by Zoolander
+slug: orangemochafrapp
+published_date: 2019-05-29
+youtube_link: https://www.youtube.com/watch?v=exe_I-tnxpU&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/exe_I-tnxpU/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/orangemochafrapp
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695277/babishImages/undefined-105623.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0018
+- tag-0031
+guests: []
+inspired_by:
+- reference-0011
+recipes:
+- recipe-0053
+- recipe-0054
+- recipe-0055
+- recipe-0056
+- recipe-0057
+_lookup:
+  slug: orangemochafrapp
+  babish_internal_id: 6WofSNGAKR3KIwMP3TRF

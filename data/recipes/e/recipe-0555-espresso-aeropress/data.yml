@@ -1,0 +1,13 @@
+babish_id: recipe-0555
+name: Espresso - AeroPress
+image_link: ''
+raw_ingredient_list: 'Espresso beans
+
+  Water'
+raw_procedure: 'The brewing ratio should be 20g of finely ground coffee and 55g of nearly boiling water at about 205 degrees Fahrenheit.
+
+  Again, there is no distinctive layer of crema floating over the coffee, but it is a decent shot of espresso.'
+episode: episode-0225
+_lookup:
+  episode_and_section: episode-0225::Espresso - AeroPress
+  db_id: 568

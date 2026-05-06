@@ -1,0 +1,15 @@
+babish_id: recipe-0420
+name: Vesper
+image_link: null
+raw_ingredient_list: '3 ounces Gordon’s gin
+
+  1 ounce vodka
+
+  1/2 ounce Kina Lillet
+
+  1 lemon peel'
+raw_procedure: In a cocktail shaker filled with ice, combine gin, vodka, and lillet.  Shake thoroughly, and double-strain into a chilled martini glass.  Twist the lemon peel to release its oils, rub around the rim of the glass, and place in the drink.
+episode: episode-0162
+_lookup:
+  episode_and_section: episode-0162::Vesper
+  db_id: 429

@@ -1,0 +1,22 @@
+babish_id: episode-0509
+name: BRAISED SHORT RIBS
+slug: short-ribs
+published_date: 2020-09-17
+youtube_link: https://www.youtube.com/watch?v=DUTyGfwdBaY
+official_link: https://www.babi.sh/recipes/short-ribs
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715478/babishImages/undefined-373512.png
+time_to_cook: 21600
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0021
+- tag-0030
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1415
+_lookup:
+  slug: short-ribs
+  babish_internal_id: EK2SgpWzOZj3Oez694yL

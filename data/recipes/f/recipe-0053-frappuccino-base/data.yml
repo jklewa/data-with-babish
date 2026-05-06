@@ -1,0 +1,15 @@
+babish_id: recipe-0053
+name: Frappuccino Base
+image_link: null
+raw_ingredient_list: '1 cup white sugar
+
+  1 cup water
+
+  1 Tbsp xanthan gum'
+raw_procedure: 'Start by making simple syrup. Combine 1 cup water and 1 cup sugar and bring to a simmer. Stir to make sure all of the sugar is dissolved. Remove from heat and allow to cool completely.
+
+  In a blender, combine 1 Tbsp xanthan gum with 2 cups of simple syrup. Blend on high speed until completely incorporated and relatively thick. This makes the syrup for the frappuccino base.'
+episode: episode-0401
+_lookup:
+  episode_and_section: episode-0401::Frappuccino Base
+  db_id: 57

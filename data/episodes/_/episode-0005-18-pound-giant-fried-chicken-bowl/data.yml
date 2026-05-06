@@ -1,0 +1,24 @@
+babish_id: episode-0005
+name: 18 Pound Giant Fried Chicken Bowl
+slug: 18-pound-giant-fried-chicken-bowl
+published_date: 2025-08-11
+youtube_link: https://www.youtube.com/watch?v=WM2d4JGynXc
+official_link: https://www.babi.sh/recipes/18-pound-giant-fried-chicken-bowl
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1754941912/nm2jss7wgfnfnv7bs3oo.webp
+time_to_cook: 5400
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0011
+- tag-0017
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1200
+_lookup:
+  slug: 18-pound-giant-fried-chicken-bowl
+  babish_internal_id: J1RatLbdKCcfyv5F5f6m

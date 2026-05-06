@@ -1,0 +1,25 @@
+babish_id: recipe-0009
+name: Mashed Potatoes
+image_link: null
+raw_ingredient_list: '4 lbs russet potatoes
+
+  1 stick unsalted butter, cut into 1-inch pieces
+
+  2 cups warm milk
+
+  Kosher salt
+
+  White pepper'
+raw_procedure: 'Peel 4 pounds of russet potatoes and chop into 1 inch cubes. Place into a pot of cold water.
+
+  Bring the pot to a boil. Once a boil is reached, cook for 12-16 minutes, or until the potatoes are cooked through.
+
+  Rinse the potatoes with hot tap water.
+
+  Place a few chunks of potato in a potato ricer and press them through. Repeat with remaining potatoes. Add 1 stick of unsalted butter at room temperature (cut into 1 inch pieces) 2 cups of warm milk, some kosher salt and white pepper.
+
+  Mix together.'
+episode: episode-0318
+_lookup:
+  episode_and_section: episode-0318::Mashed Potatoes
+  db_id: 13

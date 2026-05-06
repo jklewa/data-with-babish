@@ -1,0 +1,21 @@
+babish_id: recipe-0090
+name: Grilled Cheese Deluxe
+image_link: null
+raw_ingredient_list: 'Sliced bread
+
+  Butter
+
+  Sliced cheese
+
+  Olives'
+raw_procedure: 'Slice your bread into two slices and butter one side of each slice.
+
+  In a skillet over medium heat place one slice of bread butter down and top with your cheese. Cover it with the other bread slice and cook until cheese is melted and each side is golden brown.
+
+  Remove from pan and place on a plate. Cut in half and add an olive to the top.
+
+  Serve and enjoy!'
+episode: episode-0271
+_lookup:
+  episode_and_section: episode-0271::Grilled Cheese Deluxe
+  db_id: 95

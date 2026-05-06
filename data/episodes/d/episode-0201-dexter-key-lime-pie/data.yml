@@ -1,0 +1,24 @@
+babish_id: episode-0201
+name: Perfect Key Lime Pie inspired by Dexter
+slug: dexter-key-lime-pie
+published_date: 2020-07-29
+youtube_link: https://www.youtube.com/watch?v=UOztOU4T-_c
+official_link: https://www.babi.sh/recipes/dexter-key-lime-pie
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695559/babishImages/undefined-208606.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0190
+recipes:
+- recipe-0717
+_lookup:
+  slug: dexter-key-lime-pie
+  babish_internal_id: JTpc6Rd3bhcWS8gkrjJa

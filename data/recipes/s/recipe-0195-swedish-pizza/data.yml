@@ -1,0 +1,21 @@
+babish_id: recipe-0195
+name: Swedish Pizza
+image_link: null
+raw_ingredient_list: 'Bananas
+
+  Peanuts
+
+  Ham
+
+  Curry powder'
+raw_procedure: 'Preheat your oven to 500°F.
+
+  Make your pizza dough, and top with sauce, mozzarella cheese, sliced banana, a handful of peanuts, some slices of ham and a generous sprinkling of curry powder.
+
+  Cook until crust is golden brown.
+
+  Serve and enjoy!'
+episode: episode-0052
+_lookup:
+  episode_and_section: episode-0052::Swedish Pizza
+  db_id: 200

@@ -1,0 +1,15 @@
+babish_id: recipe-0418
+name: Old Fashioned
+image_link: null
+raw_ingredient_list: '1 sugar cube
+
+  3-4 dashes aromatic bitters
+
+  2 ounces bourbon
+
+  1 orange peel'
+raw_procedure: Place sugar cube in the bottom of an old fashioned glass, top with 3-4 dashes of aromatic bitters, and muddle together.  Add bourbon, and twist orange peel over top to release oils.  Add to the drink, and stir until sugar is mostly absorbed.
+episode: episode-0162
+_lookup:
+  episode_and_section: episode-0162::Old Fashioned
+  db_id: 427

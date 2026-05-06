@@ -1,0 +1,29 @@
+babish_id: episode-0439
+name: POKE BOWLS
+slug: poke-bowls
+published_date: 2021-10-26
+youtube_link: https://www.youtube.com/watch?v=l7VRSINAEQo
+official_link: https://www.babi.sh/recipes/poke-bowls
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695359/babishImages/undefined-263359.png
+time_to_cook: 2400
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1149
+- recipe-1150
+- recipe-1151
+- recipe-1152
+- recipe-1153
+- recipe-1154
+- recipe-1155
+_lookup:
+  slug: poke-bowls
+  babish_internal_id: 9kZHLMf9gqw1FyKaEv10

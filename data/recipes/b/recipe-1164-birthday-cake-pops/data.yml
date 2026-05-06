@@ -1,0 +1,17 @@
+babish_id: recipe-1164
+name: Birthday Cake Pops
+image_link: null
+raw_ingredient_list: 'Vanilla Cake, crumbled (see recipe above)
+
+  Vanilla Frosting (see recipe above)
+
+  200 g white chocolate, melted
+
+  Cookie Crumbles (see recipe above)
+
+  Food-safe decorative popsicle sticks'
+raw_procedure: ''
+episode: episode-0111
+_lookup:
+  episode_and_section: episode-0111::Birthday Cake Pops
+  db_id: 1183

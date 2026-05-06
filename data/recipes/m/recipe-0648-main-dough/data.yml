@@ -1,0 +1,19 @@
+babish_id: recipe-0648
+name: Main Dough
+image_link: null
+raw_ingredient_list: '361 grams all-purpose flour
+
+  1 packet (7 grams) instant yeast
+
+  2 tsp (12 grams) kosher salt
+
+  2 Tbsp (14 grams) instant non-fat milk
+
+  152 grams water
+
+  3 Tbsp (35 grams) olive oil'
+raw_procedure: ''
+episode: episode-0092
+_lookup:
+  episode_and_section: episode-0092::Main Dough
+  db_id: 662

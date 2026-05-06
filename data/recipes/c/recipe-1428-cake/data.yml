@@ -1,0 +1,21 @@
+babish_id: recipe-1428
+name: cake
+image_link: null
+raw_ingredient_list: 'flour
+
+  butter
+
+  sour cream
+
+  sugar
+
+  dark brown sugar
+
+  eggs
+
+  turbinado sugar'
+raw_procedure: ''
+episode: episode-0166
+_lookup:
+  episode_and_section: episode-0166::cake
+  db_id: 1447

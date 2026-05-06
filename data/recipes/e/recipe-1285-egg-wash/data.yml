@@ -1,0 +1,19 @@
+babish_id: recipe-1285
+name: 'egg wash:'
+image_link: null
+raw_ingredient_list: 'flour
+
+  ricotta cheese
+
+  greek feta
+
+  egg
+
+  eggs
+
+  cooking olive oil'
+raw_procedure: ''
+episode: episode-0530
+_lookup:
+  episode_and_section: 'episode-0530::egg wash:'
+  db_id: 1304

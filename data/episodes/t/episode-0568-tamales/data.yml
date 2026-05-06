@@ -1,0 +1,19 @@
+babish_id: episode-0568
+name: TAMALES
+slug: tamales
+published_date: 2022-01-04
+youtube_link: https://www.youtube.com/watch?v=r9IO8KCN_Rw
+official_link: https://www.babi.sh/recipes/tamales
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695574/babishImages/undefined-338339.png
+time_to_cook: 14400
+yield_qty: 12
+yield_unit: servings
+tags:
+- tag-0013
+guests: []
+inspired_by: []
+recipes:
+- recipe-1402
+_lookup:
+  slug: tamales
+  babish_internal_id: K0A9CtQq7hbu549D2Itr

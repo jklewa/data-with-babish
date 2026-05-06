@@ -1,0 +1,25 @@
+babish_id: episode-0036
+name: Arrested Development Special (feat. Sean Evans)
+slug: arresteddevelopmentspecial
+published_date: 2018-05-29
+youtube_link: https://www.youtube.com/watch?v=2U_0OlCizx0
+official_link: https://www.babi.sh/recipes/arresteddevelopmentspecial
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715504/babishImages/undefined-955688.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0032
+guests:
+- guest-0003
+inspired_by:
+- reference-0055
+recipes:
+- recipe-0259
+- recipe-0260
+- recipe-0261
+_lookup:
+  slug: arresteddevelopmentspecial
+  babish_internal_id: OeIaBJKIri2cuSESO3oT

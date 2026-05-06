@@ -1,0 +1,9 @@
+babish_id: reference-0095
+type: tv_show
+name: Master of None
+description: The personal and professional life of Dev, a 30-year-old actor in New York. IMDb.
+external_link: https://www.imdb.com/title/tt4635276/
+image_link: https://img.youtube.com/vi/8JCBvAb240I/mqdefault.jpg
+_lookup:
+  canonical_name: Master of None
+  db_id: 97

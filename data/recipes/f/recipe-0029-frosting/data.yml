@@ -1,0 +1,17 @@
+babish_id: recipe-0029
+name: Frosting
+image_link: null
+raw_ingredient_list: '1 stick unsalted butter, softened
+
+  2 ½ cups sifted powdered sugar
+
+  ½ cup cocoa powder
+
+  ⅓ - ⅔ cup milk
+
+  Sprinkles (optional)'
+raw_procedure: In the bowl of a stand mixer, combine softened butter, powdered sugar, cocoa powder, and milk. Mix on high speed for about a minute, or until completely combined.
+episode: episode-0102
+_lookup:
+  episode_and_section: episode-0102::Frosting
+  db_id: 33

@@ -1,0 +1,24 @@
+babish_id: episode-0313
+name: Katz's Corned Beef and Pastrami
+slug: katz's-corned-beef-and-pastrami
+published_date: 2025-06-04
+youtube_link: https://www.youtube.com/watch?v=uyjq9wJCaGE&pp=ygUjYmluZ2luZyB3aXRoIGJhYmlzaCBkZWxpIHNhbmR3aWNoZXM%3D
+official_link: https://www.babi.sh/recipes/katz's-corned-beef-and-pastrami
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1749065565/t20xd8xbngcehg55xfwh.webp
+time_to_cook: 14400
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0011
+- tag-0020
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1217
+_lookup:
+  slug: katz's-corned-beef-and-pastrami
+  babish_internal_id: aRxWTSPCStwvUfwJUW9t

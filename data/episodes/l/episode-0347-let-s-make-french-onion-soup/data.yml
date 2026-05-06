@@ -1,0 +1,24 @@
+babish_id: episode-0347
+name: 'Let''s Make: French Onion Soup'
+slug: let's-make:-french-onion-soup
+published_date: 2025-08-01
+youtube_link: https://www.youtube.com/watch?v=he2SdezMpes&pp=ygUdY29vayBhbG5nIGJpbmdpbmcgd2l0aCBiYWJpc2g%3D
+official_link: https://www.babi.sh/recipes/let's-make:-french-onion-soup
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1754080789/bjbklkf4vfwkcjrpusp5.webp
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0008
+- tag-0024
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1203
+- recipe-1204
+_lookup:
+  slug: let's-make:-french-onion-soup
+  babish_internal_id: 2iIo4W4Euu2b4yzZgpRo

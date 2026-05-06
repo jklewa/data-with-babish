@@ -1,0 +1,9 @@
+babish_id: reference-0066
+type: tv_show
+name: Mad Men
+description: A drama about one of New York's most prestigious ad agencies at the beginning of the 1960s, focusing on one of the firm's most mysterious but extremely talented ad executives, Donald Draper. IMDb.
+external_link: https://www.imdb.com/title/tt0804503/
+image_link: https://i.ytimg.com/sh/JtH-rbXuIWCffTt5FKWMhA/market.jpg
+_lookup:
+  canonical_name: Mad Men
+  db_id: 68

@@ -1,0 +1,25 @@
+babish_id: episode-0064
+name: Beignets inspired by Chef (and Princess and the Frog)
+slug: beignetsfromchef
+published_date: 2018-08-07
+youtube_link: https://www.youtube.com/watch?v=DnuHzHHwqAw&amp;t=142s
+official_link: https://www.babi.sh/recipes/beignetsfromchef
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715498/babishImages/undefined-178544.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0031
+guests: []
+inspired_by:
+- reference-0045
+- reference-0046
+recipes:
+- recipe-0227
+_lookup:
+  slug: beignetsfromchef
+  babish_internal_id: NuGxl6lJ3tWKhzwBMf5c

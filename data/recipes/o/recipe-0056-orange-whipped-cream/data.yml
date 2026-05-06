@@ -1,0 +1,15 @@
+babish_id: recipe-0056
+name: Orange Whipped Cream
+image_link: null
+raw_ingredient_list: '2 cups heavy cream
+
+  2 Tbsp powdered sugar
+
+  1 vanilla bean pod, insides scraped
+
+  Dash of orange extract'
+raw_procedure: To make the whipped cream, combine 2 cups heavy cream, 2 Tbsp powdered sugar, and a dash of orange extract in a medium bowl. Scrape the inside out of 1 vanilla bean pod and add to bowl. Whip your cream by hand, with a stand mixer, or whipped cream dispenser.
+episode: episode-0401
+_lookup:
+  episode_and_section: episode-0401::Orange Whipped Cream
+  db_id: 60

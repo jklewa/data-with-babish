@@ -1,0 +1,21 @@
+babish_id: episode-0623
+name: Underwear Bread inspired by Asteroid in Love
+slug: underwear-bread-inspired-by-asteroid-in-love
+published_date: 2024-10-03
+youtube_link: https://www.youtube.com/watch?v=oJ8bRhyJLkk
+official_link: https://www.babi.sh/recipes/underwear-bread-inspired-by-asteroid-in-love
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1727990174/bjmr9jr71u86cjijgouk.webp
+time_to_cook: null
+yield_qty: 3
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+guests: []
+inspired_by:
+- reference-0263
+recipes:
+- recipe-1244
+_lookup:
+  slug: underwear-bread-inspired-by-asteroid-in-love
+  babish_internal_id: I2yY2M08yghnMZmUXCje

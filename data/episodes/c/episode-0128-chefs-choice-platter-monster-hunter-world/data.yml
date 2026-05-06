@@ -1,0 +1,29 @@
+babish_id: episode-0128
+name: 'The Chef''s Choice Platter inspired by Monster Hunter: World'
+slug: chefs-choice-platter-monster-hunter-world
+published_date: 2021-03-31
+youtube_link: https://www.youtube.com/watch?v=__qtH1ly2Sg
+official_link: https://www.babi.sh/recipes/chefs-choice-platter-monster-hunter-world
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696043/babishImages/undefined-419307.png
+time_to_cook: 7200
+yield_qty: 9
+yield_unit: servings
+tags:
+- tag-0003
+- tag-0012
+- tag-0033
+guests: []
+inspired_by:
+- reference-0217
+recipes:
+- recipe-0937
+- recipe-0938
+- recipe-0939
+- recipe-0940
+- recipe-0941
+- recipe-0942
+- recipe-0943
+- recipe-0944
+_lookup:
+  slug: chefs-choice-platter-monster-hunter-world
+  babish_internal_id: lW6IviO9vNbchRLgu46B

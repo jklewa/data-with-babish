@@ -1,0 +1,24 @@
+babish_id: episode-0009
+name: 3 Course Dinner inspired by Drop
+slug: 3-course-dinner-inspired-by-drop
+published_date: 2025-05-03
+youtube_link: https://www.youtube.com/watch?v=23lKOTVYRGc&t=673s&ab_channel=BabishCulinaryUniverse
+official_link: https://www.babi.sh/recipes/3-course-dinner-inspired-by-drop
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1746310289/sxhsw0jiihdjo9tibmw5.webp
+time_to_cook: 7200
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0012
+- tag-0018
+- tag-0019
+- tag-0021
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0250
+recipes: []
+_lookup:
+  slug: 3-course-dinner-inspired-by-drop
+  babish_internal_id: esYnxlp9rOSO9OFN5UH6

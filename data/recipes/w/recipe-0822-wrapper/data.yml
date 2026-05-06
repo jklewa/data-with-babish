@@ -1,0 +1,11 @@
+babish_id: recipe-0822
+name: Wrapper
+image_link: null
+raw_ingredient_list: '250 grams all-purpose flour
+
+  130 ml water'
+raw_procedure: ''
+episode: episode-0450
+_lookup:
+  episode_and_section: episode-0450::Wrapper
+  db_id: 836

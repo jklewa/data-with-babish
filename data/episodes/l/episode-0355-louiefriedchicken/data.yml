@@ -1,0 +1,25 @@
+babish_id: episode-0355
+name: Fried Chicken inspired by Louie
+slug: louiefriedchicken
+published_date: 2016-03-16
+youtube_link: https://www.youtube.com/watch?v=7UEIBdMyj9g
+official_link: https://www.babi.sh/recipes/louiefriedchicken
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992069/rfmqo2xowthde940bzld.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0108
+recipes:
+- recipe-0500
+_lookup:
+  slug: louiefriedchicken
+  babish_internal_id: m6Qayg1HnvIYlKQEJfLh

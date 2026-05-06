@@ -1,0 +1,13 @@
+babish_id: recipe-1314
+name: garnish
+image_link: null
+raw_ingredient_list: 'beef stock more
+
+  boneless chuck roast cut into two inch pieces
+
+  beef chicken, or vegetable stock'
+raw_procedure: ''
+episode: episode-0574
+_lookup:
+  episode_and_section: episode-0574::garnish
+  db_id: 1333

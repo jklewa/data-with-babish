@@ -1,0 +1,24 @@
+babish_id: episode-0093
+name: Braciole inspired by Everybody Loves Raymond
+slug: braciole
+published_date: 2020-01-30
+youtube_link: https://www.youtube.com/watch?v=1inpwA-_PzQ
+official_link: https://www.babi.sh/recipes/braciole
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695622/babishImages/undefined-399612.png
+time_to_cook: 8400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0022
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0170
+recipes:
+- recipe-0633
+_lookup:
+  slug: braciole
+  babish_internal_id: Ny1ZdY8iVQjPkZjPSLRq

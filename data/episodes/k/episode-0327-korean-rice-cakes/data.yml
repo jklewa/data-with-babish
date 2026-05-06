@@ -1,0 +1,25 @@
+babish_id: episode-0327
+name: SPICY KOREAN RICE CAKES (TTEOKBOKKI)
+slug: korean-rice-cakes
+published_date: 2021-03-26
+youtube_link: https://www.youtube.com/watch?v=XJ79FPwav4g
+official_link: https://www.babi.sh/recipes/korean-rice-cakes
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695152/babishImages/undefined-865302.png
+time_to_cook: 5400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0019
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0932
+- recipe-0933
+- recipe-0934
+- recipe-0935
+- recipe-0936
+_lookup:
+  slug: korean-rice-cakes
+  babish_internal_id: 18rfxZzwGvvYckSeBfkG

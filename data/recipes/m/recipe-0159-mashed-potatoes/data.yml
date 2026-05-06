@@ -1,0 +1,21 @@
+babish_id: recipe-0159
+name: Mashed Potatoes
+image_link: null
+raw_ingredient_list: '3 large russet potatoes (peeled and sliced)
+
+  12 Tbsp butter
+
+  Salt and white pepper
+
+  1 cup heavy cream'
+raw_procedure: 'Peel and slice 3 large russet potatoes. Add them to a vacuum seal bag along with 12 Tbsp of butter, 1 cup of heavy cream, salt and white pepper. Vacuum seal the bag closed. Place in a 194°F sous vide bath for 30-40 minutes.
+
+  Remove the bag from sous vide bath, open and pour into a fine mesh sieve into a bowl. Using a wooden spoon, push the potatoes through sieve.
+
+  Whisk minimally, just until potatoes and butter are combined.
+
+  Serve and enjoy.'
+episode: episode-0577
+_lookup:
+  episode_and_section: episode-0577::Mashed Potatoes
+  db_id: 164

@@ -1,0 +1,25 @@
+babish_id: episode-0608
+name: Triple Gooberberry Sunrise inspired by Spongebob Squarepants
+slug: triple-gooberberry-sunrise-spongebob-squarespace
+published_date: 2020-09-22
+youtube_link: https://www.youtube.com/watch?v=Gso2WrBcV2Q
+official_link: https://www.babi.sh/recipes/triple-gooberberry-sunrise-spongebob-squarespace
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696028/babishImages/undefined-792065.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0017
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0020
+recipes:
+- recipe-0740
+- recipe-0741
+_lookup:
+  slug: triple-gooberberry-sunrise-spongebob-squarespace
+  babish_internal_id: kJPa1BnrIw27QoHobxEy

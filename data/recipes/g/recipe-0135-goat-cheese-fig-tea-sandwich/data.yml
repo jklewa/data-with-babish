@@ -1,0 +1,15 @@
+babish_id: recipe-0135
+name: Goat Cheese & Fig Tea Sandwich
+image_link: null
+raw_ingredient_list: 'Sliced bread of your choice
+
+  Goat cheese
+
+  Fig jam'
+raw_procedure: 'Add goat cheese and fig jam to the bread.
+
+  Slice off the crust and then slice into 4 small sandwiches.'
+episode: episode-0584
+_lookup:
+  episode_and_section: episode-0584::Goat Cheese & Fig Tea Sandwich
+  db_id: 140

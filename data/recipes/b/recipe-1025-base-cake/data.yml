@@ -1,0 +1,21 @@
+babish_id: recipe-1025
+name: Base Cake
+image_link: null
+raw_ingredient_list: '2 large eggs
+
+  50 g granulated sugar
+
+  30 g all purpose flour
+
+  20 g cocoa powder
+
+  ½ tsp baking powder
+
+  ¼ tsp kosher salt
+
+  20 g unsalted butter, melted + cooled'
+raw_procedure: ''
+episode: episode-0588
+_lookup:
+  episode_and_section: episode-0588::Base Cake
+  db_id: 1044

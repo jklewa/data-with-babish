@@ -1,0 +1,9 @@
+babish_id: reference-0028
+type: tv_show
+name: How The Grinch Stole Christmas
+description: A grumpy hermit hatches a plan to steal Christmas from the Whos of Whoville. IMDb.
+external_link: https://www.imdb.com/title/tt0060345/
+image_link: https://img.youtube.com/vi/rSiT8bGhI68/mqdefault.jpg
+_lookup:
+  canonical_name: How The Grinch Stole Christmas
+  db_id: 29

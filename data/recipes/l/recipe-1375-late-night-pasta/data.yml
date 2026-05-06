@@ -1,0 +1,25 @@
+babish_id: recipe-1375
+name: late night pasta
+image_link: null
+raw_ingredient_list: 'dried pasta
+
+  cherry tomatoes washed
+
+  mozzarella cheese
+
+  parmesan cheese more garnish
+
+  garlic thinly
+
+  butter
+
+  tomato paste
+
+  basil
+
+  parsley more garnish'
+raw_procedure: ''
+episode: episode-0267
+_lookup:
+  episode_and_section: episode-0267::late night pasta
+  db_id: 1394

@@ -1,0 +1,21 @@
+babish_id: recipe-0049
+name: Bacon and Eggs Breakfast
+image_link: null
+raw_ingredient_list: 'Homemade Bacon
+
+  4 eggs
+
+  Sliced bread
+
+  Cheese
+
+  Salt and pepper'
+raw_procedure: 'Fry strips of bacon in a cast iron skillet over medium low heat. This keeps the bacon from burning while the fat renders out.
+
+  Once the fat has rendered out, add 4 cracked eggs to the pan. Cook until the eggs have a good crust on them. If the whites need to cook more, kill the heat to the pan and cover with a lid to steam the tops of the egg whites.
+
+  Serve the eggs and bacon with some sliced bread and cheese and a good sprinkle of salt and pepper. Enjoy!'
+episode: episode-0402
+_lookup:
+  episode_and_section: episode-0402::Bacon and Eggs Breakfast
+  db_id: 53

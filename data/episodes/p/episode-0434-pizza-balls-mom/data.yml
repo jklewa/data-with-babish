@@ -1,0 +1,25 @@
+babish_id: episode-0434
+name: Pizza Balls inspired by Multiverse of Madness
+slug: pizza-balls-mom
+published_date: 2022-06-22
+youtube_link: https://www.youtube.com/watch?v=4bCUULby80g
+official_link: https://www.babi.sh/recipes/pizza-balls-mom
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695224/babishImages/undefined-943345.png
+time_to_cook: 2400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0014
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0300
+recipes:
+- recipe-1383
+_lookup:
+  slug: pizza-balls-mom
+  babish_internal_id: 4FKlrmsevzs299P9zoed

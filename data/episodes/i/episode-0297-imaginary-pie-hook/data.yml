@@ -1,0 +1,26 @@
+babish_id: episode-0297
+name: Imaginary Pie inspired by Hook
+slug: imaginary-pie-hook
+published_date: 2020-03-31
+youtube_link: https://www.youtube.com/watch?v=lZsun7ppDeQ
+official_link: https://www.babi.sh/recipes/imaginary-pie-hook
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695811/babishImages/undefined-676260.png
+time_to_cook: 2400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0031
+guests: []
+inspired_by:
+- reference-0179
+recipes:
+- recipe-0661
+- recipe-0662
+- recipe-0663
+_lookup:
+  slug: imaginary-pie-hook
+  babish_internal_id: X7t5LDtbD1Rsgit8pnDm

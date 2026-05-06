@@ -1,0 +1,17 @@
+babish_id: recipe-0967
+name: Custard
+image_link: null
+raw_ingredient_list: '200g (1 cup) sugar
+
+  6 large eggs
+
+  2 large egg yolks
+
+  1000g (4 1/4 cups) cups milk
+
+  Water (to boil for bain-marie)'
+raw_procedure: ''
+episode: episode-0181
+_lookup:
+  episode_and_section: episode-0181::Custard
+  db_id: 986

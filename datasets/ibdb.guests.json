@@ -1,140 +1,78 @@
 [
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/32",
-    "guest_id": 32,
-    "name": "Ashwin Enjoys Nature",
-    "image_link": null,
-    "appearances": [
-      {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/beetandacorncookies",
-        "episode_id": "beetandacorncookies",
-        "name": "Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)",
-        "published_date": "2017-05-23",
-        "youtube_link": "https://www.youtube.com/watch?v=6PTuUMJ2Uh8",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/beetandacorncookies",
-        "image_link": "https://img.youtube.com/vi/6PTuUMJ2Uh8/mqdefault.jpg"
-      }
-    ]
-  },
-  {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/11",
-    "guest_id": 11,
+    "guest_id": 55,
     "name": "Ashwin Ramdas",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/beetandacorncookies",
         "episode_id": "beetandacorncookies",
         "name": "Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)",
         "published_date": "2017-05-23",
         "youtube_link": "https://www.youtube.com/watch?v=6PTuUMJ2Uh8",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/beetandacorncookies",
-        "image_link": "https://img.youtube.com/vi/6PTuUMJ2Uh8/mqdefault.jpg"
+        "official_link": "https://www.babi.sh/recipes/beetandacorncookies",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689991765/h4mfwyugmu5erlh5yc8e.webp"
       }
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/33",
-    "guest_id": 33,
-    "name": "Brad",
-    "image_link": null,
-    "appearances": [
-      {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/lasagna",
-        "episode_id": "lasagna",
-        "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)",
-        "published_date": "2018-03-27",
-        "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna",
-        "image_link": "https://img.youtube.com/vi/TkWmK-cplV4/mqdefault.jpg"
-      }
-    ]
-  },
-  {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/6",
-    "guest_id": 6,
+    "guest_id": 56,
     "name": "Brad Leone",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/lasagna",
         "episode_id": "lasagna",
         "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)",
         "published_date": "2018-03-27",
         "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna",
-        "image_link": "https://img.youtube.com/vi/TkWmK-cplV4/mqdefault.jpg"
+        "official_link": "https://www.babi.sh/recipes/lasagna",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715729/babishImages/undefined-269836.png"
       }
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/27",
-    "guest_id": 27,
-    "name": "Dadish",
-    "image_link": null,
-    "appearances": [
-      {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/friedgreentomatoes",
-        "episode_id": "friedgreentomatoes",
-        "name": "Fried Green Tomatoes inspired by...Fried Green Tomatoes",
-        "published_date": "2018-07-24",
-        "youtube_link": "https://www.youtube.com/watch?v=KKBkY-7TCw0",
-        "official_link": "https://www.bingingwithbabish.com/recipes/friedgreentomatoes",
-        "image_link": "https://img.youtube.com/vi/KKBkY-7TCw0/mqdefault.jpg"
-      }
-    ]
-  },
-  {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/15",
-    "guest_id": 15,
+    "guest_id": 57,
     "name": "Dan Pashman",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/chocolate-cake-inspired-by-matilda",
         "episode_id": "chocolate-cake-inspired-by-matilda",
         "name": "Chocolate Cake inspired by Matilda",
         "published_date": "2017-06-06",
         "youtube_link": "https://www.youtube.com/watch?v=exQ6oGefSiA",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/6/chocolate-cake-inspired-by-matilda",
-        "image_link": "https://img.youtube.com/vi/exQ6oGefSiA/mqdefault.jpg"
+        "official_link": "https://www.babi.sh/recipes/chocolate-cake-inspired-by-matilda",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689991787/cxpb3rjiwrvezbgpjfej.webp"
       }
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/4",
-    "guest_id": 4,
+    "guest_id": 58,
     "name": "Dan Souza",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/classicpancakes",
         "episode_id": "classicpancakes",
         "name": "Classic Pancakes inspired by Uncle Buck",
         "published_date": "2019-08-20",
         "youtube_link": "https://www.youtube.com/watch?v=WMj7G-U3LW8",
-        "official_link": "https://www.bingingwithbabish.com/recipes/classicpancakes",
-        "image_link": "https://img.youtube.com/vi/WMj7G-U3LW8/mqdefault.jpg"
+        "official_link": "https://www.babi.sh/recipes/classicpancakes",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695456/babishImages/undefined-606334.png"
       },
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/bagels",
         "episode_id": "bagels",
         "name": "BAGELS",
         "published_date": "2019-01-24",
         "youtube_link": "https://www.youtube.com/watch?v=ZrJtpCTZk38",
-        "official_link": "https://basicswithbabish.co/basicsepisodes/bagels",
-        "image_link": "https://img.youtube.com/vi/ZrJtpCTZk38/mqdefault.jpg"
+        "official_link": "https://www.babi.sh/recipes/bagels",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1686008218/li4kbj7e5pcj5xvhujqo.webp"
       }
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/31",
-    "guest_id": 31,
+    "guest_id": 72,
     "name": "David (Brother)",
-    "image_link": "",
+    "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-6",
         "episode_id": "being-with-babish-6",
         "name": "I Surprised My Brother with a Tesla",
         "published_date": "2019-10-26",
@@ -145,13 +83,11 @@
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/16",
-    "guest_id": 16,
+    "guest_id": 59,
     "name": "David Wasman",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-1",
         "episode_id": "being-with-babish-1",
         "name": "Giving Back to a Fan in Need",
         "published_date": "2019-03-22",
@@ -162,47 +98,41 @@
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/25",
-    "guest_id": 25,
+    "guest_id": 60,
     "name": "Erika Vonie",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/coffee",
         "episode_id": "coffee",
         "name": "COFFEE",
         "published_date": "2019-05-31",
         "youtube_link": "https://www.youtube.com/watch?v=6yItCQB4V9A",
-        "official_link": "https://basicswithbabish.co/basicsepisodes/coffee",
-        "image_link": "https://img.youtube.com/vi/6yItCQB4V9A/mqdefault.jpg"
+        "official_link": "https://www.babi.sh/recipes/coffee",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1685913686/jkj0usgdv3og2qcwbn95.webp"
       }
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/29",
-    "guest_id": 29,
+    "guest_id": 61,
     "name": "Floyd Cardoz",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/indianbreads",
         "episode_id": "indianbreads",
         "name": "INDIAN BREADS",
         "published_date": "2019-10-10",
         "youtube_link": "https://www.youtube.com/watch?v=RnApthldLPY",
-        "official_link": "https://basicswithbabish.co/basicsepisodes/indianbreads",
-        "image_link": "https://img.youtube.com/vi/RnApthldLPY/mqdefault.jpg"
+        "official_link": "https://www.babi.sh/recipes/indianbreads",
+        "image_link": "https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1573758840271-LHH4HQAWF50Z34RJILZM/Basics%2BIndian%2BBeards2.png"
       }
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/19",
-    "guest_id": 19,
+    "guest_id": 62,
     "name": "Gabrielle Hufford",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-2",
         "episode_id": "being-with-babish-2",
         "name": "Surprising a Fan with a Vegas Hotel Suite",
         "published_date": "2019-04-05",
@@ -213,30 +143,11 @@
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/5",
-    "guest_id": 5,
-    "name": "Giant Robot",
-    "image_link": null,
-    "appearances": [
-      {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/classicpancakes",
-        "episode_id": "classicpancakes",
-        "name": "Classic Pancakes inspired by Uncle Buck",
-        "published_date": "2019-08-20",
-        "youtube_link": "https://www.youtube.com/watch?v=WMj7G-U3LW8",
-        "official_link": "https://www.bingingwithbabish.com/recipes/classicpancakes",
-        "image_link": "https://img.youtube.com/vi/WMj7G-U3LW8/mqdefault.jpg"
-      }
-    ]
-  },
-  {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/24",
-    "guest_id": 24,
+    "guest_id": 63,
     "name": "Greg Johnson",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-5",
         "episode_id": "being-with-babish-5",
         "name": "Whiskey Basics | Being with Babish Double Feature",
         "published_date": "2019-07-12",
@@ -247,132 +158,86 @@
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/28",
-    "guest_id": 28,
+    "guest_id": 64,
     "name": "Isaac Toups",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/cajunfood",
         "episode_id": "cajunfood",
         "name": "CAJUN FOOD",
         "published_date": "2019-09-13",
         "youtube_link": "https://www.youtube.com/watch?v=nORg_aXMsmA",
-        "official_link": "https://basicswithbabish.co/basicsepisodes/cajunfood",
-        "image_link": "https://img.youtube.com/vi/nORg_aXMsmA/mqdefault.jpg"
+        "official_link": "https://www.babi.sh/recipes/cajunfood",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1685738278/bdfgvfer8ydjozwjsvmf.webp"
       }
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/30",
-    "guest_id": 30,
-    "name": "Jess",
-    "image_link": null,
-    "appearances": [
-      {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/mostexpensiveshake",
-        "episode_id": "mostexpensiveshake",
-        "name": "$5 Milkshake inspired by Pulp Fiction",
-        "published_date": "2019-10-16",
-        "youtube_link": "https://www.youtube.com/watch?v=SfNgpLkV6KE",
-        "official_link": "https://www.bingingwithbabish.com/recipes/mostexpensiveshake",
-        "image_link": "https://img.youtube.com/vi/SfNgpLkV6KE/mqdefault.jpg"
-      }
-    ]
-  },
-  {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/8",
-    "guest_id": 8,
+    "guest_id": 52,
     "name": "Jon Favreau",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/chocolatelavacakes",
         "episode_id": "chocolatelavacakes",
         "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi",
         "published_date": "2018-02-20",
         "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/chocolatelavacakes",
-        "image_link": "https://img.youtube.com/vi/qbMTukAJskQ/mqdefault.jpg"
+        "official_link": "https://www.babi.sh/recipes/chocolatelavacakes",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715705/babishImages/undefined-478519.png"
       }
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/10",
-    "guest_id": 10,
+    "guest_id": 49,
     "name": "Maisie Williams",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/direwolfbread",
         "episode_id": "direwolfbread",
         "name": "Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)",
         "published_date": "2018-09-25",
-        "youtube_link": "https://www.youtube.com/watch?v=6nuEgc2RVWo",
-        "official_link": "https://www.bingingwithbabish.com/recipes/direwolfbread",
-        "image_link": "https://img.youtube.com/vi/6nuEgc2RVWo/mqdefault.jpg"
+        "youtube_link": "https://www.youtube.com/watch?v=6nuEgc2RVWo&amp;t=336s",
+        "official_link": "https://www.babi.sh/recipes/direwolfbread",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715486/babishImages/undefined-265303.png"
       }
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/13",
-    "guest_id": 13,
+    "guest_id": 65,
     "name": "Masaharu Morimoto",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/deathsandwich",
         "episode_id": "deathsandwich",
         "name": "Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show",
         "published_date": "2019-04-09",
-        "youtube_link": "https://www.youtube.com/watch?v=o5XNzsf78KE",
-        "official_link": "https://www.bingingwithbabish.com/recipes/deathsandwich",
-        "image_link": "https://img.youtube.com/vi/o5XNzsf78KE/mqdefault.jpg"
+        "youtube_link": "https://www.youtube.com/watch?v=o5XNzsf78KE&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/o5XNzsf78KE/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "official_link": "https://www.babi.sh/recipes/deathsandwich",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695267/babishImages/undefined-363929.png"
       }
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/14",
-    "guest_id": 14,
-    "name": "Mel",
-    "image_link": null,
-    "appearances": [
-      {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/clayroastedthigh",
-        "episode_id": "clayroastedthigh",
-        "name": "Clay-Roasted Thigh inspired by Hannibal",
-        "published_date": "2017-10-31",
-        "youtube_link": "https://www.youtube.com/watch?v=lnB7svFAZBs",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/clayroastedthigh",
-        "image_link": "https://img.youtube.com/vi/lnB7svFAZBs/mqdefault.jpg"
-      }
-    ]
-  },
-  {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/12",
-    "guest_id": 12,
+    "guest_id": 66,
     "name": "Nick Fisher",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/buttermilk-pancakes-inspired-by-twin-peaks",
         "episode_id": "buttermilk-pancakes-inspired-by-twin-peaks",
         "name": "Buttermilk Pancakes inspired by Twin Peaks",
         "published_date": "2017-05-18",
         "youtube_link": "https://www.youtube.com/watch?v=nEoSBL25RO4",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/5/18/buttermilk-pancakes-inspired-by-twin-peaks",
-        "image_link": "https://img.youtube.com/vi/nEoSBL25RO4/mqdefault.jpg"
+        "official_link": "https://www.babi.sh/recipes/buttermilk-pancakes-inspired-by-twin-peaks",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689992075/k6lh85gi9qv44sgwuezx.webp"
       }
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/21",
-    "guest_id": 21,
+    "guest_id": 67,
     "name": "Rashid Duroseau",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/5mill-special",
         "episode_id": "5mill-special",
         "name": "5 Million Subscriber Special: Recreating Homer Simpson's NOLA Food Tour",
         "published_date": "2019-09-10",
@@ -381,7 +246,6 @@
         "image_link": "https://img.youtube.com/vi/oM8c31ru92A/mqdefault.jpg"
       },
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-3",
         "episode_id": "being-with-babish-3",
         "name": "Surprising Rashid",
         "published_date": "2019-04-26",
@@ -392,13 +256,11 @@
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/9",
-    "guest_id": 9,
+    "guest_id": 53,
     "name": "Roy Choi",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-2",
         "episode_id": "being-with-babish-2",
         "name": "Surprising a Fan with a Vegas Hotel Suite",
         "published_date": "2019-04-05",
@@ -407,24 +269,21 @@
         "image_link": "https://img.youtube.com/vi/QphHaVaAeG4/mqdefault.jpg"
       },
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/chocolatelavacakes",
         "episode_id": "chocolatelavacakes",
         "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi",
         "published_date": "2018-02-20",
         "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/chocolatelavacakes",
-        "image_link": "https://img.youtube.com/vi/qbMTukAJskQ/mqdefault.jpg"
+        "official_link": "https://www.babi.sh/recipes/chocolatelavacakes",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715705/babishImages/undefined-478519.png"
       }
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/23",
-    "guest_id": 23,
+    "guest_id": 73,
     "name": "Sarah and Stefan",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-4",
         "episode_id": "being-with-babish-4",
         "name": "Training like Kratos for 30 Days | Body by Babish",
         "published_date": "2019-06-07",
@@ -435,13 +294,11 @@
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/17",
-    "guest_id": 17,
+    "guest_id": 68,
     "name": "Sawyer Jacobs",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-6",
         "episode_id": "being-with-babish-6",
         "name": "I Surprised My Brother with a Tesla",
         "published_date": "2019-10-26",
@@ -450,7 +307,6 @@
         "image_link": "https://img.youtube.com/vi/N44XgSRE-gY/mqdefault.jpg"
       },
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/5mill-special",
         "episode_id": "5mill-special",
         "name": "5 Million Subscriber Special: Recreating Homer Simpson's NOLA Food Tour",
         "published_date": "2019-09-10",
@@ -459,7 +315,6 @@
         "image_link": "https://img.youtube.com/vi/oM8c31ru92A/mqdefault.jpg"
       },
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-4",
         "episode_id": "being-with-babish-4",
         "name": "Training like Kratos for 30 Days | Body by Babish",
         "published_date": "2019-06-07",
@@ -468,7 +323,6 @@
         "image_link": "https://img.youtube.com/vi/n_aq5TVb0HA/mqdefault.jpg"
       },
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-3",
         "episode_id": "being-with-babish-3",
         "name": "Surprising Rashid",
         "published_date": "2019-04-26",
@@ -477,7 +331,6 @@
         "image_link": "https://img.youtube.com/vi/DApDGZ1AkFw/mqdefault.jpg"
       },
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-2",
         "episode_id": "being-with-babish-2",
         "name": "Surprising a Fan with a Vegas Hotel Suite",
         "published_date": "2019-04-05",
@@ -486,7 +339,6 @@
         "image_link": "https://img.youtube.com/vi/QphHaVaAeG4/mqdefault.jpg"
       },
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-1",
         "episode_id": "being-with-babish-1",
         "name": "Giving Back to a Fan in Need",
         "published_date": "2019-03-22",
@@ -495,7 +347,6 @@
         "image_link": "https://img.youtube.com/vi/YUDogDKMJbE/mqdefault.jpg"
       },
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/quiet-place-bonus",
         "episode_id": "quiet-place-bonus",
         "name": "A Quiet Place Bonus Episode",
         "published_date": "2018-12-15",
@@ -504,24 +355,21 @@
         "image_link": "https://img.youtube.com/vi/0PyTpUIn4ks/mqdefault.jpg"
       },
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/friedgreentomatoes",
         "episode_id": "friedgreentomatoes",
         "name": "Fried Green Tomatoes inspired by...Fried Green Tomatoes",
         "published_date": "2018-07-24",
         "youtube_link": "https://www.youtube.com/watch?v=KKBkY-7TCw0",
-        "official_link": "https://www.bingingwithbabish.com/recipes/friedgreentomatoes",
-        "image_link": "https://img.youtube.com/vi/KKBkY-7TCw0/mqdefault.jpg"
+        "official_link": "https://www.babi.sh/recipes/friedgreentomatoes",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715441/babishImages/undefined-365795.png"
       }
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/22",
-    "guest_id": 22,
+    "guest_id": 69,
     "name": "Sean Conley",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-3",
         "episode_id": "being-with-babish-3",
         "name": "Surprising Rashid",
         "published_date": "2019-04-26",
@@ -532,65 +380,26 @@
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/3",
-    "guest_id": 3,
+    "guest_id": 50,
     "name": "Sean Evans",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/infernowings",
-        "episode_id": "infernowings",
-        "name": "Inferno Wings inspired by Regular Show",
-        "published_date": "2019-07-16",
-        "youtube_link": "https://www.youtube.com/watch?v=dRLCZqEfJFA",
-        "official_link": "https://www.bingingwithbabish.com/recipes/infernowings",
-        "image_link": "https://img.youtube.com/vi/dRLCZqEfJFA/mqdefault.jpg"
-      },
-      {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/arresteddevelopmentspecial",
         "episode_id": "arresteddevelopmentspecial",
         "name": "Arrested Development Special (feat. Sean Evans)",
         "published_date": "2018-05-29",
         "youtube_link": "https://www.youtube.com/watch?v=2U_0OlCizx0",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/6/27/arresteddevelopmentspecial",
-        "image_link": "https://img.youtube.com/vi/2U_0OlCizx0/mqdefault.jpg"
-      },
-      {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks",
-        "episode_id": "fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks",
-        "name": "Fried Chicken & Waffle Breakfast Lasagna inspired by The Boondocks",
-        "published_date": "2017-07-04",
-        "youtube_link": "https://www.youtube.com/watch?v=VnXu22HZBNQ",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/7/4/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks",
-        "image_link": "https://img.youtube.com/vi/VnXu22HZBNQ/mqdefault.jpg"
+        "official_link": "https://www.babi.sh/recipes/arresteddevelopmentspecial",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715504/babishImages/undefined-955688.png"
       }
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/26",
-    "guest_id": 26,
-    "name": "Steve (buddy)",
-    "image_link": null,
-    "appearances": [
-      {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/theswanson",
-        "episode_id": "theswanson",
-        "name": "The Swanson inspired by Parks and Recreation",
-        "published_date": "2019-03-26",
-        "youtube_link": "https://www.youtube.com/watch?v=aLpPZlVsny0",
-        "official_link": "https://www.bingingwithbabish.com/recipes/theswanson",
-        "image_link": "https://img.youtube.com/vi/aLpPZlVsny0/mqdefault.jpg"
-      }
-    ]
-  },
-  {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/18",
-    "guest_id": 18,
+    "guest_id": 70,
     "name": "Sukki Hufford",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-2",
         "episode_id": "being-with-babish-2",
         "name": "Surprising a Fan with a Vegas Hotel Suite",
         "published_date": "2019-04-05",
@@ -601,13 +410,11 @@
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/20",
-    "guest_id": 20,
+    "guest_id": 74,
     "name": "The Rae Family",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-2",
         "episode_id": "being-with-babish-2",
         "name": "Surprising a Fan with a Vegas Hotel Suite",
         "published_date": "2019-04-05",
@@ -618,30 +425,26 @@
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/34",
-    "guest_id": 34,
+    "guest_id": 48,
     "name": "Tim Robinson",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/sloppy-steaks-i-think-you-should-leave",
         "episode_id": "sloppy-steaks-i-think-you-should-leave",
         "name": "Sloppy Steaks inspired by I Think You Should Leave with Tim Robinson",
         "published_date": "2021-07-30",
         "youtube_link": "https://www.youtube.com/watch?v=EcGgDrS5Gto",
-        "official_link": "https://www.bingingwithbabish.com/recipes/sloppy-steaks-i-think-you-should-leave",
-        "image_link": "https://img.youtube.com/vi/EcGgDrS5Gto/mqdefault.jpg"
+        "official_link": "https://www.babi.sh/recipes/sloppy-steaks-i-think-you-should-leave",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1680365695/labv7khvacfo5ambnr83.webp"
       }
     ]
   },
   {
-    "self": "ibdb://data-with-babish.jklewa.github.com/guest/7",
-    "guest_id": 7,
+    "guest_id": 71,
     "name": "Vincent \"Vinny\" Cross",
     "image_link": null,
     "appearances": [
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/being-with-babish-3",
         "episode_id": "being-with-babish-3",
         "name": "Surprising Rashid",
         "published_date": "2019-04-26",
@@ -650,13 +453,12 @@
         "image_link": "https://img.youtube.com/vi/DApDGZ1AkFw/mqdefault.jpg"
       },
       {
-        "self": "ibdb://data-with-babish.jklewa.github.com/episode/lasagna",
         "episode_id": "lasagna",
         "name": "Lasagna inspired by Garfield (feat. It's Alive with Brad)",
         "published_date": "2018-03-27",
         "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
-        "official_link": "https://www.bingingwithbabish.com/recipes/2017/8/22/lasagna",
-        "image_link": "https://img.youtube.com/vi/TkWmK-cplV4/mqdefault.jpg"
+        "official_link": "https://www.babi.sh/recipes/lasagna",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715729/babishImages/undefined-269836.png"
       }
     ]
   }

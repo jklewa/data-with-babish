@@ -1,0 +1,27 @@
+babish_id: recipe-0817
+name: Fried Chicken
+image_link: null
+raw_ingredient_list: '4 large chicken breasts
+
+  4 eggs
+
+  All-purpose flour
+
+  Freshly ground black pepper
+
+  Garlic powder
+
+  Dried oregano
+
+  Dried basil
+
+  Panko breadcrumbs
+
+  Fresh mozzarella, sliced
+
+  Fresh parmesan cheese, grated'
+raw_procedure: ''
+episode: episode-0135
+_lookup:
+  episode_and_section: episode-0135::Fried Chicken
+  db_id: 831

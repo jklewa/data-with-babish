@@ -1,0 +1,7 @@
+babish_id: tag-0030
+axis: Meal
+name: Dinner
+_lookup:
+  babish_external_id: 5915c4c4-4bda-4b79-b935-703949f00910
+  axis_and_name: Meal::Dinner
+  db_id: 30

@@ -1,0 +1,22 @@
+babish_id: episode-0433
+name: Pizza Ball inspired by The Eric Andre Show
+slug: pizzaball
+published_date: 2019-01-08
+youtube_link: https://www.youtube.com/watch?v=U3LFI2mI8Y0&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/U3LFI2mI8Y0/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/pizzaball
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696335/babishImages/undefined-58715.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0014
+guests: []
+inspired_by:
+- reference-0026
+recipes:
+- recipe-0127
+_lookup:
+  slug: pizzaball
+  babish_internal_id: wroA127smnSC8qEFbeCX

@@ -1,0 +1,24 @@
+babish_id: episode-0348
+name: 'Let''s Make: Steak and Eggs au Poivre'
+slug: let's-make:-steak-and-eggs-au-poivre
+published_date: 2025-07-31
+youtube_link: https://www.youtube.com/watch?v=W4hi6oVe4LQ
+official_link: https://www.babi.sh/recipes/let's-make:-steak-and-eggs-au-poivre
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1753996142/af5nphp88avhfgygsztx.webp
+time_to_cook: 5400
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0008
+- tag-0021
+- tag-0028
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1205
+_lookup:
+  slug: let's-make:-steak-and-eggs-au-poivre
+  babish_internal_id: nkqGJ4fZHZMYPThisxke

@@ -1,0 +1,17 @@
+babish_id: recipe-0174
+name: Cinnamon Roll Frosting
+image_link: null
+raw_ingredient_list: '2 cups powdered sugar, sifted
+
+  8 ounces of cream cheese, room temperature
+
+  4 ounces of butter, room temperature
+
+  Heavy cream (if needed to thin out frosting)'
+raw_procedure: 'In a mixer combine 2 cups of sifted powdered sugar, 8 ounces of room temperature cream cheese, and 4 ounces of room temperature butter. Mix to combine.
+
+  If it’s too thick add some heavy cream or whole milk to the mixture to thin it out.'
+episode: episode-0156
+_lookup:
+  episode_and_section: episode-0156::Cinnamon Roll Frosting
+  db_id: 179

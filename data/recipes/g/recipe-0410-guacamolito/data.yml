@@ -1,0 +1,11 @@
+babish_id: recipe-0410
+name: Guacamolito
+image_link: null
+raw_ingredient_list: '1/4 cup smooth guacamole
+
+  1/4 cup sour cream'
+raw_procedure: To make the guacamolito sauce, combine guacamole and sour cream.
+episode: episode-0566
+_lookup:
+  episode_and_section: episode-0566::Guacamolito
+  db_id: 419

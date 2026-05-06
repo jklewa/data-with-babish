@@ -1,0 +1,25 @@
+babish_id: episode-0276
+name: Halloumi Sandwich
+slug: halloumi-sandwich
+published_date: 2024-07-25
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/halloumi-sandwich
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1721920030/m167r4mkoadm1puktlo6.webp
+time_to_cook: null
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0001
+- tag-0020
+- tag-0025
+- tag-0026
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1274
+_lookup:
+  slug: halloumi-sandwich
+  babish_internal_id: OHgnGdxNXwLMfzrWqahP

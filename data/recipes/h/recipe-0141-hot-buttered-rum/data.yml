@@ -1,0 +1,23 @@
+babish_id: recipe-0141
+name: Hot Buttered Rum
+image_link: null
+raw_ingredient_list: '1 cup brown sugar
+
+  1 Tbsp cinnamon
+
+  2-3 tsp grated nutmeg
+
+  1 whole stick butter, melted
+
+  ¼ cup dark rum (per glass)
+
+  ¾ cup boiling water (per glass)'
+raw_procedure: 'Start by combining 1 cup of brown sugar with 1 Tbsp of cinnamon, 2-3 tsp of grated nutmeg, and 1 whole stick of melted butter. Stir to combine.
+
+  Add 1 Tbsp of mixture to a mug along with ¼ cup of dark rum and ¾ cup boiling water.
+
+  Mix to combine, serve and enjoy!'
+episode: episode-0283
+_lookup:
+  episode_and_section: episode-0283::Hot Buttered Rum
+  db_id: 146

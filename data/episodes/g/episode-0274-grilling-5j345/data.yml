@@ -1,0 +1,26 @@
+babish_id: episode-0274
+name: GRILLING BASICS
+slug: grilling-5j345
+published_date: 2018-05-11
+youtube_link: https://www.youtube.com/watch?v=u0feM_2mLvo
+official_link: https://www.babi.sh/recipes/grilling-5j345
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686073939/o21wxzwrcrnwthw8iw4j.webp
+time_to_cook: 5400
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0266
+- recipe-0267
+- recipe-0268
+- recipe-0269
+_lookup:
+  slug: grilling-5j345
+  babish_internal_id: IjAqVBzjl5gknHyH1ay4

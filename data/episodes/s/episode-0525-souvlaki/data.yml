@@ -1,0 +1,22 @@
+babish_id: episode-0525
+name: SOUVLAKI
+slug: souvlaki
+published_date: 2022-07-07
+youtube_link: https://www.youtube.com/watch?v=jeCk5e0YsF0
+official_link: https://www.babi.sh/recipes/souvlaki
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695876/babishImages/undefined-636748.png
+time_to_cook: 5400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1380
+_lookup:
+  slug: souvlaki
+  babish_internal_id: cs6YTGsLDNmkiH1lhiJp

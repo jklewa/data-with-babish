@@ -1,0 +1,23 @@
+babish_id: recipe-0614
+name: Porchetta Sandwich
+image_link: ''
+raw_ingredient_list: 'Leftover porchetta (recipe above)
+
+  Focaccia or another sturdy bread
+
+  Salsa verde (recipe below)
+
+  Arugula'
+raw_procedure: 'Slice porchetta as thinly as you can.
+
+  Stack sliced porchetta on top of a piece of focaccia or another robust bread.
+
+  Spread salsa verde (recipe below) on top.
+
+  Top with a big handful of arugula.
+
+  Secure with skewers, slice and serve!'
+episode: episode-0442
+_lookup:
+  episode_and_section: episode-0442::Porchetta Sandwich
+  db_id: 628

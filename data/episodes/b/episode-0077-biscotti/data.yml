@@ -1,0 +1,26 @@
+babish_id: episode-0077
+name: BISCOTTI
+slug: biscotti
+published_date: 2021-09-24
+youtube_link: https://www.youtube.com/watch?v=g4EkzEKlGOA
+official_link: https://www.babi.sh/recipes/biscotti
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695295/babishImages/undefined-256401.png
+time_to_cook: 3600
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0013
+- tag-0016
+- tag-0018
+- tag-0028
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1112
+- recipe-1113
+- recipe-1114
+- recipe-1115
+_lookup:
+  slug: biscotti
+  babish_internal_id: 7MJrKqOlnBbhiqaj6N6B

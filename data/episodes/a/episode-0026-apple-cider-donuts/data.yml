@@ -1,0 +1,25 @@
+babish_id: episode-0026
+name: APPLE CIDER DONUTS
+slug: apple-cider-donuts
+published_date: 2021-11-09
+youtube_link: https://www.youtube.com/watch?v=baZoJYAQjfI
+official_link: https://www.babi.sh/recipes/apple-cider-donuts
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695695/babishImages/undefined-628666.png
+time_to_cook: 8400
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1165
+- recipe-1166
+- recipe-1167
+- recipe-1168
+_lookup:
+  slug: apple-cider-donuts
+  babish_internal_id: QAnjYciubHvCwr383pzB

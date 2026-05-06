@@ -1,0 +1,23 @@
+babish_id: episode-0134
+name: 'Chicken Paprikash inspired by Captain America: Civil War'
+slug: chickenpaprikash
+published_date: 2018-04-24
+youtube_link: https://www.youtube.com/watch?v=baG767jr8c8
+official_link: https://www.babi.sh/recipes/chickenpaprikash
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715753/babishImages/undefined-326225.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0032
+guests: []
+inspired_by:
+- reference-0058
+recipes:
+- recipe-0277
+- recipe-0278
+_lookup:
+  slug: chickenpaprikash
+  babish_internal_id: yf2yFHyFlwlTACLB5uvW

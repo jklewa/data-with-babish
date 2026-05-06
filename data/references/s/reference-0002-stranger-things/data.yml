@@ -1,0 +1,9 @@
+babish_id: reference-0002
+type: tv_show
+name: Stranger Things
+description: When a young boy disappears, his mother, a police chief, and his friends must confront terrifying supernatural forces in order to get him back. IMDb.
+external_link: https://www.imdb.com/title/tt4574334/
+image_link: https://img.youtube.com/vi/aXWG_kKDZlY/mqdefault.jpg
+_lookup:
+  canonical_name: Stranger Things
+  db_id: 3

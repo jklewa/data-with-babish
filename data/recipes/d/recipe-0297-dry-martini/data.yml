@@ -1,0 +1,11 @@
+babish_id: recipe-0297
+name: Dry Martini
+image_link: null
+raw_ingredient_list: '3 1/2 oz Vodka
+
+  1/2 oz Sweet Vermouth'
+raw_procedure: Shake and strain into a chilled martini glass. Serve neat.
+episode: episode-0057
+_lookup:
+  episode_and_section: episode-0057::Dry Martini
+  db_id: 302

@@ -1,0 +1,21 @@
+babish_id: recipe-0975
+name: Classic BLT
+image_link: null
+raw_ingredient_list: '2 classic bacon slices
+
+  2 tomato slices
+
+  As needed kosher salt
+
+  1 Tbsp unsalted butter, soft
+
+  2 slices hearty white bread
+
+  1 Tbsp mayonnaise, preferably homemade
+
+  2 iceberg lettuce leaves'
+raw_procedure: ''
+episode: episode-0047
+_lookup:
+  episode_and_section: episode-0047::Classic BLT
+  db_id: 994

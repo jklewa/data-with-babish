@@ -1,0 +1,15 @@
+babish_id: recipe-1278
+name: assembly
+image_link: null
+raw_ingredient_list: 'lard
+
+  einkorn stone wheat flour
+
+  green cabbage thinly
+
+  squab'
+raw_procedure: ''
+episode: episode-0473
+_lookup:
+  episode_and_section: episode-0473::assembly
+  db_id: 1297

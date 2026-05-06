@@ -1,0 +1,15 @@
+babish_id: recipe-0658
+name: Neapolitan Pizza Dough
+image_link: null
+raw_ingredient_list: '500 grams bread flour
+
+  8 grams kosher salt
+
+  350 grams tepid tap water
+
+  2 grams fresh compressed yeast (or ½ tsp dried instant yeast)'
+raw_procedure: ''
+episode: episode-0105
+_lookup:
+  episode_and_section: episode-0105::Neapolitan Pizza Dough
+  db_id: 672

@@ -1,0 +1,22 @@
+babish_id: episode-0635
+name: YORKSHIRE PUDDING AND ROAST BEEF
+slug: yorkshire-pudding
+published_date: 2021-12-20
+youtube_link: https://www.youtube.com/watch?v=F_YNznQ35Tc
+official_link: https://www.babi.sh/recipes/yorkshire-pudding
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1680976357/lye73ql2dp9xqunja3qb.webp
+time_to_cook: 8400
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1404
+_lookup:
+  slug: yorkshire-pudding
+  babish_internal_id: CYwvc1Aho0duC1CJNDoP

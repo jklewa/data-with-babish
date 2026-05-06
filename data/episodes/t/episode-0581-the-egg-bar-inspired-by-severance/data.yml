@@ -1,0 +1,24 @@
+babish_id: episode-0581
+name: The Egg Bar inspired by Severance
+slug: the-egg-bar-inspired-by-severance
+published_date: 2025-02-05
+youtube_link: https://www.youtube.com/watch?v=pTt4BjY34gk&t=151s&ab_channel=BabishCulinaryUniverse
+official_link: https://www.babi.sh/recipes/the-egg-bar-inspired-by-severance
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1738792005/emlcx8fw10frbl32t7lq.webp
+time_to_cook: 5400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0019
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0254
+recipes: []
+_lookup:
+  slug: the-egg-bar-inspired-by-severance
+  babish_internal_id: iGAkSr7a3TTrM7agkoVI

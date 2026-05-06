@@ -1,0 +1,15 @@
+babish_id: recipe-1063
+name: ‘Sloppy’ Broth
+image_link: null
+raw_ingredient_list: '8 oz dashi broth
+
+  3 Tbsp mirin
+
+  3 Tbsp soy sauce
+
+  2 tsp granulated sugar'
+raw_procedure: ''
+episode: episode-0516
+_lookup:
+  episode_and_section: episode-0516::‘Sloppy’ Broth
+  db_id: 1082

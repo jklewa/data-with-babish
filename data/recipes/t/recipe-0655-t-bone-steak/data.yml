@@ -1,0 +1,19 @@
+babish_id: recipe-0655
+name: T-Bone Steak
+image_link: null
+raw_ingredient_list: '16oz T-Bone steak
+
+  3 cloves crushed garlic
+
+  Vegetable oil
+
+  5 Tbsp unsalted butter
+
+  Rosemary sprigs
+
+  Thyme sprigs'
+raw_procedure: ''
+episode: episode-0612
+_lookup:
+  episode_and_section: episode-0612::T-Bone Steak
+  db_id: 669

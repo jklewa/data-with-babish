@@ -1,0 +1,20 @@
+babish_id: episode-0192
+name: DATE NIGHT II
+slug: date-night-2
+published_date: 2022-01-11
+youtube_link: https://www.youtube.com/watch?v=dlATzLk8Nh8
+official_link: https://www.babi.sh/recipes/date-night-2
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1680979695/cbadjt8l6pkrdiadhks1.webp
+time_to_cook: 12000
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes: []
+_lookup:
+  slug: date-night-2
+  babish_internal_id: wilrDSyBptiqkEoakxNU

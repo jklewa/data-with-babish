@@ -1,0 +1,21 @@
+babish_id: episode-0386
+name: Monte Cristo inspired by American Dad
+slug: monte-cristo-american-dad
+published_date: 2023-05-25
+youtube_link: https://www.youtube.com/watch?v=IKgGVaYjzm8
+official_link: https://www.babi.sh/recipes/monte-cristo-american-dad
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1687966292/bfpvrefyotfqsoptu9d3.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+guests: []
+inspired_by:
+- reference-0224
+recipes:
+- recipe-1328
+_lookup:
+  slug: monte-cristo-american-dad
+  babish_internal_id: nZpkC8jxq9OGAaIfHVrp

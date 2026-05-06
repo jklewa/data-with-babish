@@ -1,0 +1,9 @@
+babish_id: reference-0039
+type: tv_show
+name: Doug
+description: The life of a young boy as he meets friends, falls in love, maneuvers his way through grade 6 and writes all about it in his journal. IMDb.
+external_link: https://www.imdb.com/title/tt0101084/
+image_link: https://i.ytimg.com/sh/mZO1JKbEM88RHM6xvGrc4w/market.jpg
+_lookup:
+  canonical_name: Doug
+  db_id: 41

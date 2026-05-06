@@ -1,0 +1,31 @@
+babish_id: episode-0281
+name: 'HEALTHY MEALS: BROWN RICE'
+slug: healthy-meals-brown-rice
+published_date: 2021-01-21
+youtube_link: https://www.youtube.com/watch?v=hMDwYiYIeRw
+official_link: https://www.babi.sh/recipes/healthy-meals-brown-rice
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715453/babishImages/undefined-346622.png
+time_to_cook: 2400
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0019
+- tag-0026
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0839
+- recipe-0840
+- recipe-0841
+- recipe-0842
+- recipe-0843
+- recipe-0844
+- recipe-0845
+- recipe-0846
+_lookup:
+  slug: healthy-meals-brown-rice
+  babish_internal_id: 587NbkrDbw0sn6Fp0hrG

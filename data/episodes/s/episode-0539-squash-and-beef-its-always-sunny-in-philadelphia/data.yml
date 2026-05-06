@@ -1,0 +1,24 @@
+babish_id: episode-0539
+name: Squash and Beef inspired by It's Always Sunny in Philadelphia
+slug: squash-and-beef-its-always-sunny-in-philadelphia
+published_date: 2021-12-03
+youtube_link: https://www.youtube.com/watch?v=D2wxZjJl4ew
+official_link: https://www.babi.sh/recipes/squash-and-beef-its-always-sunny-in-philadelphia
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696072/babishImages/undefined-279701.png
+time_to_cook: 10800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0021
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0009
+recipes:
+- recipe-1408
+_lookup:
+  slug: squash-and-beef-its-always-sunny-in-philadelphia
+  babish_internal_id: miaNaHBIiXLGEbPA1epW

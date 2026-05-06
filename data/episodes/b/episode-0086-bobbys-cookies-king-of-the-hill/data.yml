@@ -1,0 +1,24 @@
+babish_id: episode-0086
+name: Bobby's Double Butter Cookies inspired by King of the Hill
+slug: bobbys-cookies-king-of-the-hill
+published_date: 2022-07-07
+youtube_link: https://www.youtube.com/watch?v=u4SpZxD0RIw
+official_link: https://www.babi.sh/recipes/bobbys-cookies-king-of-the-hill
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695899/babishImages/undefined-639013.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0035
+recipes:
+- recipe-1381
+_lookup:
+  slug: bobbys-cookies-king-of-the-hill
+  babish_internal_id: e67s9pb0nLdOUqYw34JG

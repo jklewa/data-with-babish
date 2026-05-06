@@ -1,0 +1,21 @@
+babish_id: recipe-1060
+name: Steakhouse Burger
+image_link: null
+raw_ingredient_list: '20 oz dry-aged ribeye steak, ground
+
+  20 oz brisket, ground
+
+  As needed kosher salt
+
+  As needed freshly ground black pepper
+
+  4 sliced Muenster cheese
+
+  Reserved caramelized onions
+
+  4 homemade hamburger buns, sliced'
+raw_procedure: ''
+episode: episode-0545
+_lookup:
+  episode_and_section: episode-0545::Steakhouse Burger
+  db_id: 1079

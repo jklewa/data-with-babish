@@ -1,0 +1,23 @@
+babish_id: episode-0284
+name: Home Alone Special
+slug: home-alone-special
+published_date: 2023-01-05
+youtube_link: https://www.youtube.com/watch?v=Tx5R3C9dyMM
+official_link: https://www.babi.sh/recipes/home-alone-special
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696234/babishImages/undefined-625735.png
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0031
+guests: []
+inspired_by:
+- reference-0295
+recipes:
+- recipe-1351
+- recipe-1352
+_lookup:
+  slug: home-alone-special
+  babish_internal_id: seeF1NUHx4xu2jcTxxcf

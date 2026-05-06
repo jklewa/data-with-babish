@@ -1,0 +1,11 @@
+babish_id: recipe-1277
+name: 'cram ingredients:'
+image_link: null
+raw_ingredient_list: 'sugar
+
+  prepared strawberry kool aid or fruit juice'
+raw_procedure: ''
+episode: episode-0307
+_lookup:
+  episode_and_section: 'episode-0307::cram ingredients:'
+  db_id: 1296

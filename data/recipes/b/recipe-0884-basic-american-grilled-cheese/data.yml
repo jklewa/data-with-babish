@@ -1,0 +1,15 @@
+babish_id: recipe-0884
+name: Basic American Grilled Cheese
+image_link: null
+raw_ingredient_list: '8 slices hearty white bread
+
+  3 Tbsp unsalted butter, very soft
+
+  Optional: 4 oz cheddar cheese, finely grated
+
+  16 slices American cheese'
+raw_procedure: ''
+episode: episode-0016
+_lookup:
+  episode_and_section: episode-0016::Basic American Grilled Cheese
+  db_id: 903

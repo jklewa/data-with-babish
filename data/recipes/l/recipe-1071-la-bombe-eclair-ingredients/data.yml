@@ -1,0 +1,15 @@
+babish_id: recipe-1071
+name: La Bombe Éclair Ingrédients
+image_link: null
+raw_ingredient_list: 'Eclair shells, cooled
+
+  Pastry cream
+
+  Chocolate glaze
+
+  Chantilly cream'
+raw_procedure: ''
+episode: episode-0333
+_lookup:
+  episode_and_section: episode-0333::La Bombe Éclair Ingrédients
+  db_id: 1090

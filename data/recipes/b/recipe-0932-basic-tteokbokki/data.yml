@@ -1,0 +1,9 @@
+babish_id: recipe-0932
+name: Basic Tteokbokki
+image_link: null
+raw_ingredient_list: 1 Tbsp dashi flakes
+raw_procedure: ''
+episode: episode-0327
+_lookup:
+  episode_and_section: episode-0327::Basic Tteokbokki
+  db_id: 951

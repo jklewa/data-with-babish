@@ -1,0 +1,22 @@
+babish_id: episode-0235
+name: Flanders' Hot Chocolate inspired by The Simpsons Movie
+slug: flandershotcocoa
+published_date: 2017-12-12
+youtube_link: https://www.youtube.com/watch?v=UCZVSr2Xt2k
+official_link: https://www.babi.sh/recipes/flandershotcocoa
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715541/babishImages/undefined-180672.png
+time_to_cook: 900
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0031
+guests: []
+inspired_by:
+- reference-0070
+recipes:
+- recipe-0342
+_lookup:
+  slug: flandershotcocoa
+  babish_internal_id: gibcra2oRFacMxVlgux7

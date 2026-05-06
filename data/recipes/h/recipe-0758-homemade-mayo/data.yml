@@ -1,0 +1,19 @@
+babish_id: recipe-0758
+name: Homemade Mayo
+image_link: null
+raw_ingredient_list: '2 whole eggs
+
+  1 tsp dijon mustard
+
+  2 Tbsp lemon juice
+
+  1 garlic clove, crushed
+
+  Pinch kosher salt
+
+  2 cups neutral flavored oil (like vegetable oil)'
+raw_procedure: ''
+episode: episode-0100
+_lookup:
+  episode_and_section: episode-0100::Homemade Mayo
+  db_id: 772

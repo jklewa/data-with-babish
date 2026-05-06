@@ -1,0 +1,25 @@
+babish_id: episode-0056
+name: BARBECUE PORK CHOPS
+slug: barbecueporkchops
+published_date: 2018-06-28
+youtube_link: https://www.youtube.com/watch?v=YV9XuvfIudY
+official_link: https://www.babi.sh/recipes/barbecueporkchops
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686072562/oedhsfjnim7duljy7y19.webp
+time_to_cook: 2700
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0247
+- recipe-0248
+- recipe-0249
+_lookup:
+  slug: barbecueporkchops
+  babish_internal_id: DIxXVVTgKSFAfoQrk8Ms

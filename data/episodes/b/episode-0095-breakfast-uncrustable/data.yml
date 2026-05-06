@@ -1,0 +1,20 @@
+babish_id: episode-0095
+name: Breakfast Uncrustable
+slug: breakfast-uncrustable
+published_date: 2024-09-12
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/breakfast-uncrustable
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1726165637/jmgh94llro228evbeodw.webp
+time_to_cook: null
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0001
+- tag-0002
+guests: []
+inspired_by: []
+recipes:
+- recipe-1249
+_lookup:
+  slug: breakfast-uncrustable
+  babish_internal_id: u4SckzBJMSVOgjG6HUbm

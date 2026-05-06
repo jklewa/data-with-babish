@@ -1,0 +1,23 @@
+babish_id: episode-0490
+name: CHICKEN BREASTS
+slug: sauces-9w5tm-2njph-5ahwj
+published_date: 2017-12-07
+youtube_link: https://www.youtube.com/watch?v=hR6agVkRRUo
+official_link: https://www.babi.sh/recipes/sauces-9w5tm-2njph-5ahwj
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1686075367/f1r5yqjcoa9o38f0e7qg.webp
+time_to_cook: 1800
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0343
+_lookup:
+  slug: sauces-9w5tm-2njph-5ahwj
+  babish_internal_id: sCaB9F8jwmIu1Y3wHKXJ

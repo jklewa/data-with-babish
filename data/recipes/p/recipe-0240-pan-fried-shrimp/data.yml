@@ -1,0 +1,25 @@
+babish_id: recipe-0240
+name: Pan Fried Shrimp
+image_link: null
+raw_ingredient_list: 'Prepared shrimp
+
+  Baking powder
+
+  Salt Pepper
+
+  Compound butter (butter mixed with parsley and garlic)
+
+  Vegetable oil'
+raw_procedure: 'Heat a few tablespoons of vegetable oil until it is smoking and then add the shrimp.
+
+  Let the shrimp cook for 2 minutes on one side before flipping (make sure to use the baking soda mix for this method to get the extra caramelization on the outside of the shrimp).
+
+  Once the shrimp have been flipped, lower the heat and add some compound butter (butter mixed with parsley and fresh garlic) and a generous squeeze of lemon.
+
+  Turn the heat up one last time to melt the butter, and to make sure all of the shrimp is cooked through.
+
+  Plate with a crusty bread or pasta, and enjoy.'
+episode: episode-0239
+_lookup:
+  episode_and_section: episode-0239::Pan Fried Shrimp
+  db_id: 245

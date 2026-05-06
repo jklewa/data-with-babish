@@ -1,0 +1,9 @@
+babish_id: reference-0052
+type: movie
+name: Deadpool
+description: A wisecracking mercenary gets experimented on and becomes immortal but ugly, and sets out to track down the man who ruined his looks. IMDb.
+external_link: https://www.imdb.com/title/tt1431045/
+image_link: https://img.youtube.com/vi/AEIKS4IbfNk/mqdefault.jpg
+_lookup:
+  canonical_name: Deadpool
+  db_id: 54

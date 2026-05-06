@@ -1,0 +1,26 @@
+babish_id: episode-0436
+name: Pizza Gyoza inspired by Teenage Mutant Ninja Turtles
+slug: pizza-gyoza-tmnt
+published_date: 2021-06-09
+youtube_link: https://www.youtube.com/watch?v=ah5G2EXKgvA
+official_link: https://www.babi.sh/recipes/pizza-gyoza-tmnt
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695679/babishImages/undefined-9410.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0014
+guests: []
+inspired_by:
+- reference-0223
+recipes:
+- recipe-1001
+- recipe-1002
+- recipe-1003
+- recipe-1004
+- recipe-1005
+_lookup:
+  slug: pizza-gyoza-tmnt
+  babish_internal_id: PuyW50xzTOGjSyK4eSsh

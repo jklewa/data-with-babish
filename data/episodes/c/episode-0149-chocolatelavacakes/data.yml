@@ -1,0 +1,26 @@
+babish_id: episode-0149
+name: Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi
+slug: chocolatelavacakes
+published_date: 2018-02-20
+youtube_link: https://www.youtube.com/watch?v=qbMTukAJskQ
+official_link: https://www.babi.sh/recipes/chocolatelavacakes
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715705/babishImages/undefined-478519.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0032
+guests:
+- guest-0004
+- guest-0005
+inspired_by:
+- reference-0045
+recipes:
+- recipe-0305
+_lookup:
+  slug: chocolatelavacakes
+  babish_internal_id: lKIXti7TDN7NKs3xqBfq

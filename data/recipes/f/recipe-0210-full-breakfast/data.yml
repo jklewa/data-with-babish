@@ -1,0 +1,17 @@
+babish_id: recipe-0210
+name: Full Breakfast
+image_link: null
+raw_ingredient_list: 'Sliced bread
+
+  Sausage links
+
+  Slices of bacon
+
+  Poached eggs
+
+  Lapsang tea'
+raw_procedure: Place a poached egg on top of the bread with some sausage, bacon, and scones on the side. Serve with the cultured butter and raspberry jam, pour yourself some Lapsang tea and enjoy!
+episode: episode-0423
+_lookup:
+  episode_and_section: episode-0423::Full Breakfast
+  db_id: 215

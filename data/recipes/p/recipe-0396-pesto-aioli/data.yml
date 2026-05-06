@@ -1,0 +1,23 @@
+babish_id: recipe-0396
+name: Pesto Aioli
+image_link: null
+raw_ingredient_list: '1/4 cup toasted pine nuts
+
+  1 cup packed basil leaves
+
+  1 garlic clove
+
+  3-4 Tbsp olive oil
+
+  Salt & pepper to taste
+
+  1 egg yolk
+
+  3 cloves garlic, grated
+
+  1/4-1/2 cup extra virgin olive oil'
+raw_procedure: In a small food processor or blender, combine pine nuts, basil, and olive oil.  Process until smooth, adding olive oil as necessary until a smooth pesto forms.  In a medium bowl, combine egg yolk and grated garlic.  Whisking vigorously and constantly, slowly stream olive oil down the side of the bowl.  Whisk the oil in until a thick aioli forms, and whisk in the pesto, seasoning with salt and pepper to taste.
+episode: episode-0234
+_lookup:
+  episode_and_section: episode-0234::Pesto Aioli
+  db_id: 405

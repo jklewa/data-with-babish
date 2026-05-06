@@ -1,0 +1,15 @@
+babish_id: recipe-0026
+name: Dulce de Leche
+image_link: null
+raw_ingredient_list: '1 ¼ cup white sugar
+
+  4 cups milk
+
+  ¼ tsp baking soda'
+raw_procedure: 'To make the dulce de leche, combine 1 ¼ cup sugar, 4 cups milk, and ¼ tsp baking soda into a saucepan. Stir gently to combine over a medium heat until it comes to a rolling boil.
+
+  Once boiling, lower the heat and simmer for 90 minutes, whisking frequently to prevent scorching. It should reach a deep golden brown color. Once it is finished, strain through a fine mesh sieve and allow to cool at room temperature for at least one hour.'
+episode: episode-0605
+_lookup:
+  episode_and_section: episode-0605::Dulce de Leche
+  db_id: 30

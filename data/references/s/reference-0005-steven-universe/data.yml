@@ -1,0 +1,9 @@
+babish_id: reference-0005
+type: tv_show
+name: Steven Universe
+description: A team of intergalactic warriors fights to protect the universe, but the combination of three highly trained beings and one quirky young boy leaves the team struggling to overcome the dangerous scenarios that are put in front of them. IMDb.
+external_link: https://www.imdb.com/title/tt3061046/
+image_link: https://i.ytimg.com/sh/ofmKD13ObSYXEV-HkjVTGQ/market.jpg
+_lookup:
+  canonical_name: Steven Universe
+  db_id: 6

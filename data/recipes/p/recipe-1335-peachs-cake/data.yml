@@ -1,0 +1,17 @@
+babish_id: recipe-1335
+name: peach’s cake
+image_link: null
+raw_ingredient_list: 'sugar
+
+  ripe peaches or 1 frozen peaches
+
+  flour
+
+  milk
+
+  butter'
+raw_procedure: ''
+episode: episode-0420
+_lookup:
+  episode_and_section: episode-0420::peach’s cake
+  db_id: 1354

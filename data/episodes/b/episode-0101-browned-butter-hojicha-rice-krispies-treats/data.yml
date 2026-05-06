@@ -1,0 +1,18 @@
+babish_id: episode-0101
+name: Browned Butter Hojicha Rice Krispies Treats
+slug: browned-butter-hojicha-rice-krispies-treats
+published_date: 2023-12-11
+youtube_link: https://www.instagram.com/reel/C0t0TBPrEah/
+official_link: https://www.babi.sh/recipes/browned-butter-hojicha-rice-krispies-treats
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1702313696/qkcaee5tnamr2aq8q1ag.webp
+time_to_cook: null
+yield_qty: 6
+yield_unit: servings
+tags: []
+guests: []
+inspired_by: []
+recipes:
+- recipe-1309
+_lookup:
+  slug: browned-butter-hojicha-rice-krispies-treats
+  babish_internal_id: 3oSLGitiNj5WNE2VY7x5

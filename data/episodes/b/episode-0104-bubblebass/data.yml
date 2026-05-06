@@ -1,0 +1,25 @@
+babish_id: episode-0104
+name: Bubble Bass' Order inspired by Spongebob Squarepants
+slug: bubblebass
+published_date: 2018-05-22
+youtube_link: https://www.youtube.com/watch?v=Y8hi6A5MPVY
+official_link: https://www.babi.sh/recipes/bubblebass
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715461/babishImages/undefined-746523.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0020
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0020
+recipes:
+- recipe-0262
+_lookup:
+  slug: bubblebass
+  babish_internal_id: 7TGDXNCxhFje825L0DXf

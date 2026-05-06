@@ -1,0 +1,14 @@
+fields:
+  type:
+    state: overridden
+    by: enrich-agent
+    at: '2026-05-05'
+  name:
+    state: overridden
+    by: enrich-agent
+    at: '2026-05-05'
+  description:
+    state: overridden
+    by: enrich-agent
+    at: '2026-05-05'
+rejected: {}

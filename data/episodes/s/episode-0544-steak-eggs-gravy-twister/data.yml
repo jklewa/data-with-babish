@@ -1,0 +1,23 @@
+babish_id: episode-0544
+name: Steak, Eggs and Gravy inspired by Twister
+slug: steak-eggs-gravy-twister
+published_date: 2020-12-08
+youtube_link: https://www.youtube.com/watch?v=ztl0gGVFoK0
+official_link: https://www.babi.sh/recipes/steak-eggs-gravy-twister
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696341/babishImages/undefined-791832.png
+time_to_cook: 8400
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+guests: []
+inspired_by:
+- reference-0196
+recipes:
+- recipe-0771
+- recipe-0772
+- recipe-0773
+_lookup:
+  slug: steak-eggs-gravy-twister
+  babish_internal_id: xP2BjwApJtzL1zh1kuny

@@ -1,0 +1,9 @@
+babish_id: recipe-0618
+name: Dulce de Leche
+image_link: null
+raw_ingredient_list: 1 can sweetened condensed milk
+raw_procedure: ''
+episode: episode-0053
+_lookup:
+  episode_and_section: episode-0053::Dulce de Leche
+  db_id: 632

@@ -1,0 +1,28 @@
+babish_id: episode-0596
+name: Together Breakfast inspired by Steven Universe
+slug: together-breakfast-steven-universe
+published_date: 2021-03-24
+youtube_link: https://www.youtube.com/watch?v=H1xBwVgKJe8
+official_link: https://www.babi.sh/recipes/together-breakfast-steven-universe
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695504/babishImages/undefined-525295.png
+time_to_cook: 7200
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0028
+- tag-0031
+guests: []
+inspired_by:
+- reference-0005
+recipes:
+- recipe-0926
+- recipe-0927
+- recipe-0928
+- recipe-0929
+- recipe-0930
+- recipe-0931
+_lookup:
+  slug: together-breakfast-steven-universe
+  babish_internal_id: FoOQ9tQQzCkyG93oRaS4

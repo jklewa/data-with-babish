@@ -1,0 +1,22 @@
+babish_id: episode-0416
+name: PASTA SALAD
+slug: pasta-salad
+published_date: 2023-06-15
+youtube_link: https://www.youtube.com/watch?v=fMt2ca4jdY4
+official_link: https://www.babi.sh/recipes/pasta-salad
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1690352510/pmxflnjqlxralyksjqm6.webp
+time_to_cook: null
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0019
+- tag-0022
+guests: []
+inspired_by: []
+recipes:
+- recipe-1324
+_lookup:
+  slug: pasta-salad
+  babish_internal_id: bc2bWr6hVyMxI94tIoaW

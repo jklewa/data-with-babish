@@ -1,0 +1,27 @@
+babish_id: episode-0469
+name: Raspberry Danish inspired by Ant Man & The Wasp
+slug: raspberry-danish-ant-man-and-the-wasp
+published_date: 2020-09-29
+youtube_link: https://www.youtube.com/watch?v=Zhq20aCSh-s
+official_link: https://www.babi.sh/recipes/raspberry-danish-ant-man-and-the-wasp
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696165/babishImages/undefined-142356.png
+time_to_cook: 2400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0192
+recipes:
+- recipe-0742
+- recipe-0743
+- recipe-0744
+- recipe-0745
+_lookup:
+  slug: raspberry-danish-ant-man-and-the-wasp
+  babish_internal_id: qHxGYwDTdbtpK2TuSRD9

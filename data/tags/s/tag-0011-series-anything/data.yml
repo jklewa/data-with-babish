@@ -1,0 +1,7 @@
+babish_id: tag-0011
+axis: Series
+name: Anything
+_lookup:
+  babish_external_id: 9a8bfc15-769e-4da8-9c57-2b9a3934e26b
+  axis_and_name: Series::Anything
+  db_id: 11

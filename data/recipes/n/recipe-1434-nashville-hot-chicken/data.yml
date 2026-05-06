@@ -1,0 +1,19 @@
+babish_id: recipe-1434
+name: nashville hot chicken
+image_link: null
+raw_ingredient_list: 'flour
+
+  milk
+
+  lard
+
+  vegetable oil
+
+  eggs
+
+  cayenne pepper'
+raw_procedure: ''
+episode: episode-0287
+_lookup:
+  episode_and_section: episode-0287::nashville hot chicken
+  db_id: 1453

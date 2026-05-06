@@ -1,0 +1,23 @@
+babish_id: recipe-0187
+name: Tare
+image_link: null
+raw_ingredient_list: 'Vegetable oil
+
+  Dried anchovies
+
+  Soy sauce
+
+  Mirin
+
+  Bonito flakes
+
+  Sake'
+raw_procedure: 'Heat some vegetable oil over medium high heat and add 1 ½ cups of dried anchovies. Let them cook for about 3-4 minutes without stirring. You want to create a nice fond on the bottom of the pan.
+
+  Add ½ a cup of soy sauce and ½ a cup of mirin. Stir to combine before adding some bonito flakes. Stir to combine and let it heat up for a second before removing from the heat to let the bonito dried fish flakes steep for a little bit. Place back on heat.
+
+  Add 3-4 Tbsp of sake and cook off alcohol. Strain and set aside.'
+episode: episode-0601
+_lookup:
+  episode_and_section: episode-0601::Tare
+  db_id: 192

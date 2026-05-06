@@ -1,0 +1,30 @@
+babish_id: episode-0212
+name: Eggs in a Nest inspired by Lots of Stuff
+slug: egginanest
+published_date: 2018-01-30
+youtube_link: https://www.youtube.com/watch?v=4QDDxmtbUsw
+official_link: https://www.babi.sh/recipes/egginanest
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715428/babishImages/undefined-266153.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0012
+- tag-0028
+- tag-0031
+guests: []
+inspired_by:
+- reference-0032
+- reference-0076
+- reference-0123
+- reference-0124
+- reference-0125
+- reference-0126
+- reference-0127
+- reference-0128
+recipes:
+- recipe-0318
+- recipe-0319
+_lookup:
+  slug: egginanest
+  babish_internal_id: 0OuQkc0QBdzKjzLeJwX3

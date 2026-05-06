@@ -1,0 +1,21 @@
+babish_id: episode-0116
+name: Car Panini inspired by Family Guy
+slug: carpanini
+published_date: 2018-07-10
+youtube_link: https://www.youtube.com/watch?v=4Rz8BPRFeiA
+official_link: https://www.babi.sh/recipes/carpanini
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715473/babishImages/undefined-402999.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+guests: []
+inspired_by:
+- reference-0043
+recipes:
+- recipe-0238
+_lookup:
+  slug: carpanini
+  babish_internal_id: DSXlbsyRKVxCVZS4NJb9

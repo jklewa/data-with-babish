@@ -1,0 +1,19 @@
+babish_id: episode-0548
+name: Sticky Toffee Coffee Cake
+slug: sticky-toffee-coffee-cake
+published_date: 2024-03-04
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/sticky-toffee-coffee-cake
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1709570171/xjqpucc2ifxmsrkyzcao.webp
+time_to_cook: null
+yield_qty: 8
+yield_unit: servings
+tags:
+- tag-0001
+guests: []
+inspired_by: []
+recipes:
+- recipe-1292
+_lookup:
+  slug: sticky-toffee-coffee-cake
+  babish_internal_id: phvehVAyNl7nK6qUrXrZ

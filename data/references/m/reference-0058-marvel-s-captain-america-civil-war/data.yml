@@ -1,0 +1,12 @@
+babish_id: reference-0058
+type: movie
+name: 'Marvel''s Captain America: Civil War'
+description: Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man. IMDb.
+external_link: https://www.imdb.com/title/tt3498820/
+image_link: https://img.youtube.com/vi/efBgXjbd2uQ/mqdefault.jpg
+_lookup:
+  canonical_name: 'Marvel''s Captain America: Civil War'
+  db_id: 60
+  aliases:
+  - Captain America
+  - 'Captain America: Civil War'

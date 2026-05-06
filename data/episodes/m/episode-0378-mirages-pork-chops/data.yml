@@ -1,0 +1,26 @@
+babish_id: episode-0378
+name: Mirage's Pork Chops inspired by Apex Legends
+slug: mirages-pork-chops
+published_date: 2019-10-31
+youtube_link: https://www.youtube.com/watch?v=SZcUJuXjCsw&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/SZcUJuXjCsw/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/mirages-pork-chops
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696398/babishImages/undefined-549648.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0003
+- tag-0012
+- tag-0021
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0133
+recipes:
+- recipe-0572
+- recipe-0573
+- recipe-0574
+_lookup:
+  slug: mirages-pork-chops
+  babish_internal_id: zdzM9u22jBGBSfEf10IH

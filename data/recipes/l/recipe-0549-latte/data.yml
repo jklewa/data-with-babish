@@ -1,0 +1,13 @@
+babish_id: recipe-0549
+name: Latte
+image_link: ''
+raw_ingredient_list: 'Espresso
+
+  Steamed milk
+
+  Foam (small layer)'
+raw_procedure: Similar to the cappuccino, pour from up high to allow the steamed milk to mix with the coffee and then move closer while you get to the foam, which allows it to settle on top. The foam should be very light and creamy and not too bubbly and frothy. There is a much less defined layer than with the cappuccino.
+episode: episode-0225
+_lookup:
+  episode_and_section: episode-0225::Latte
+  db_id: 562

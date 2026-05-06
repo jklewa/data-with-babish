@@ -1,0 +1,24 @@
+babish_id: episode-0400
+name: ONE-POT PASTA
+slug: onepot-pasta
+published_date: 2020-06-25
+youtube_link: https://www.youtube.com/watch?v=cs8OYby6RrA
+official_link: https://www.babi.sh/recipes/onepot-pasta
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715440/babishImages/undefined-99743.png
+time_to_cook: 1800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0022
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1423
+_lookup:
+  slug: onepot-pasta
+  babish_internal_id: 1w886dkYgzDSaOQE3Fgd

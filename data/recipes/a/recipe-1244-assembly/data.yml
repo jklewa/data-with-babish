@@ -1,0 +1,19 @@
+babish_id: recipe-1244
+name: assembly
+image_link: null
+raw_ingredient_list: 'flour
+
+  cake flour
+
+  almond flour
+
+  milk
+
+  sugar
+
+  butter'
+raw_procedure: ''
+episode: episode-0623
+_lookup:
+  episode_and_section: episode-0623::assembly
+  db_id: 1263

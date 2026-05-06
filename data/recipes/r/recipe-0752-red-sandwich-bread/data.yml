@@ -1,0 +1,23 @@
+babish_id: recipe-0752
+name: Red Sandwich Bread
+image_link: null
+raw_ingredient_list: '510 g bread flour
+
+  10 g instant yeast
+
+  30 g sugar
+
+  1 cup whole milk
+
+  1 egg
+
+  3 Tbsp oil
+
+  2 tsp salt
+
+  Red coloring, 3 big squirts'
+raw_procedure: ''
+episode: episode-0100
+_lookup:
+  episode_and_section: episode-0100::Red Sandwich Bread
+  db_id: 766

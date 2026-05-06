@@ -1,0 +1,19 @@
+babish_id: recipe-1222
+name: serving
+image_link: null
+raw_ingredient_list: 'sweet sherry
+
+  heavy cream
+
+  milk
+
+  brown sugar
+
+  sugar
+
+  pears peeled, halved, cored'
+raw_procedure: ''
+episode: episode-0406
+_lookup:
+  episode_and_section: episode-0406::serving
+  db_id: 1241

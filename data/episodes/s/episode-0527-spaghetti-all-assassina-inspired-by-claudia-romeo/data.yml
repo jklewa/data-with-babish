@@ -1,0 +1,23 @@
+babish_id: episode-0527
+name: Spaghetti all'Assassina inspired by Claudia Romeo
+slug: spaghetti-all'assassina-inspired-by-claudia-romeo
+published_date: 2025-06-04
+youtube_link: https://www.youtube.com/watch?v=nif3ruAbUaY&ab_channel=BabishCulinaryUniverse
+official_link: https://www.babi.sh/recipes/spaghetti-all'assassina-inspired-by-claudia-romeo
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1749062828/f3fjxq7gfexxtsl1r7ve.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0011
+- tag-0022
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0249
+recipes:
+- recipe-1219
+_lookup:
+  slug: spaghetti-all'assassina-inspired-by-claudia-romeo
+  babish_internal_id: pG4BPv3bGlx7SW0BVMNa

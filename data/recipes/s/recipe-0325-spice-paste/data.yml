@@ -1,0 +1,31 @@
+babish_id: recipe-0325
+name: Spice Paste
+image_link: null
+raw_ingredient_list: '5 guajillo chiles
+
+  5 pasilla chiles
+
+  Onion powder
+
+  A few cloves of garlic
+
+  Shake of cumin
+
+  Mexican oregano
+
+  Ground annatto seeds'
+raw_procedure: 'Boil the guajillo and pasilla chiles for about 15 minutes or until they''re nice and soft.
+
+  Strain them and reserve their boiling liquids.
+
+  Remove the seeds from each pepper.
+
+  Return the peppers to the liquid once they’ve been deemed seedless.
+
+  Add peppers to a high powered blender with a shake of onion powder, a few cloves of fresh garlic, a little shake of cumin powder, a generous pinch of Mexican oregano, and a spirited sprinkling of freshly ground annatto seeds
+
+  Blend on high for about 1 minute.'
+episode: episode-0226
+_lookup:
+  episode_and_section: episode-0226::Spice Paste
+  db_id: 334

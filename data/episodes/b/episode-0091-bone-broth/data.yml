@@ -1,0 +1,26 @@
+babish_id: episode-0091
+name: Bone Broth inspired by The Mandalorian
+slug: bone-broth
+published_date: 2019-12-11
+youtube_link: https://www.youtube.com/watch?v=6GHwG1y-NE0
+official_link: https://www.babi.sh/recipes/bone-broth
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695419/babishImages/undefined-803691.png
+time_to_cook: 2400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0024
+- tag-0032
+guests: []
+inspired_by:
+- reference-0135
+recipes:
+- recipe-0600
+- recipe-0601
+- recipe-0602
+- recipe-0603
+_lookup:
+  slug: bone-broth
+  babish_internal_id: CJaLWIkKEssSEYsC6JWL

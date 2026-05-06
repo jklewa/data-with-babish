@@ -1,0 +1,15 @@
+babish_id: recipe-1324
+name: ricotta
+image_link: null
+raw_ingredient_list: 'high quality milk
+
+  vegetable oil
+
+  basil
+
+  orecchiette ,'
+raw_procedure: ''
+episode: episode-0416
+_lookup:
+  episode_and_section: episode-0416::ricotta
+  db_id: 1343

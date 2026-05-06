@@ -1,0 +1,19 @@
+babish_id: recipe-1343
+name: babish amatriciana
+image_link: null
+raw_ingredient_list: 'dried spaghetti
+
+  semolina flour
+
+  pureed tomatoes
+
+  crushed tomatoes
+
+  spaghetti
+
+  eggs'
+raw_procedure: ''
+episode: episode-0022
+_lookup:
+  episode_and_section: episode-0022::babish amatriciana
+  db_id: 1362

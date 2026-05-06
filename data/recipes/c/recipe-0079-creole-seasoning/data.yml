@@ -1,0 +1,23 @@
+babish_id: recipe-0079
+name: Creole Seasoning
+image_link: null
+raw_ingredient_list: '2 tsp paprika
+
+  2 tsp kosher salt
+
+  1 tsp pepper
+
+  1 tsp garlic powder
+
+  1 tsp onion powder
+
+  1 tsp cayenne pepper
+
+  1 tsp thyme
+
+  1 tsp dried oregano'
+raw_procedure: Combine all seasoning ingredients into a small bowl and whisk to combine.
+episode: episode-0103
+_lookup:
+  episode_and_section: episode-0103::Creole Seasoning
+  db_id: 84

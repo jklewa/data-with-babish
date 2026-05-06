@@ -1,0 +1,13 @@
+babish_id: recipe-0680
+name: Cheese Crisp
+image_link: null
+raw_ingredient_list: 'Parmesan, grated
+
+  Provolone, grated
+
+  Cheddar, grated'
+raw_procedure: ''
+episode: episode-0610
+_lookup:
+  episode_and_section: episode-0610::Cheese Crisp
+  db_id: 694

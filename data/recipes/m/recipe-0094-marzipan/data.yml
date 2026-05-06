@@ -1,0 +1,19 @@
+babish_id: recipe-0094
+name: Marzipan
+image_link: null
+raw_ingredient_list: '100g almond flour
+
+  150g powdered sugar
+
+  1 Tbsp corn syrup
+
+  A little bit of green and black food coloring
+
+  2 Tbsp water'
+raw_procedure: 'add 100g of almond flour to a food processor along with 150g of powdered sugar, 1 Tbsp of corn syrup and a little bit of green and black food coloring. Turn the food processor on and slowly add 2 Tbsp of water. Add more if needed.
+
+  Knead until the color is uniform and then wrap and place in the fridge for 1 hour.'
+episode: episode-0098
+_lookup:
+  episode_and_section: episode-0098::Marzipan
+  db_id: 99

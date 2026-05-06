@@ -1,0 +1,21 @@
+babish_id: recipe-0510
+name: Pizza Dough
+image_link: null
+raw_ingredient_list: '16 ounces flour, plus more for work surface
+
+  2 tsp kosher salt
+
+  2 1/4 tsp active dry yeast
+
+  11 ounces room temperature water
+
+  Olive oil'
+raw_procedure: 'Combine flour, kosher salt, and active dry yeast in a big bowl.
+
+  Add room temperature water and mix with a wooden spoon until a shaggy dough forms and no dry clumps remain.
+
+  Generously oil a medium bowl with olive oil. Put the ball of dough into the bowl and cover with plastic wrap. Let rest for 18-24 hours.'
+episode: episode-0407
+_lookup:
+  episode_and_section: episode-0407::Pizza Dough
+  db_id: 523

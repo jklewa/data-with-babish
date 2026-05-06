@@ -1,0 +1,20 @@
+babish_id: episode-0468
+name: RAMEN HACKS
+slug: ramen-hacks
+published_date: 2022-09-19
+youtube_link: https://www.youtube.com/watch?v=gCW1hVAebWU
+official_link: https://www.babi.sh/recipes/ramen-hacks
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696368/babishImages/undefined-443575.png
+time_to_cook: 1200
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+guests: []
+inspired_by: []
+recipes:
+- recipe-1373
+_lookup:
+  slug: ramen-hacks
+  babish_internal_id: yPwFmoeVeJXgyGPeiYog

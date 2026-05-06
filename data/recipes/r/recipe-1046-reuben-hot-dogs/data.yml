@@ -1,0 +1,17 @@
+babish_id: recipe-1046
+name: Reuben Hot Dogs
+image_link: null
+raw_ingredient_list: '4 Hotdogs of choice
+
+  4 hot dog buns, toasted or grilled
+
+  Sauerkraut
+
+  Pastrami, deli-sliced
+
+  Yellow mustard'
+raw_procedure: ''
+episode: episode-0273
+_lookup:
+  episode_and_section: episode-0273::Reuben Hot Dogs
+  db_id: 1065

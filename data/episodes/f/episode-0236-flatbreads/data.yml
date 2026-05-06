@@ -1,0 +1,23 @@
+babish_id: episode-0236
+name: FLATBREADS
+slug: flatbreads
+published_date: 2021-06-22
+youtube_link: https://www.youtube.com/watch?v=3e-f8iK5QLs
+official_link: https://www.babi.sh/recipes/flatbreads
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1680082686/bciek6rvi4x7hoz96gih.webp
+time_to_cook: 12000
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0013
+- tag-0016
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1036
+- recipe-1037
+- recipe-1038
+_lookup:
+  slug: flatbreads
+  babish_internal_id: aCWoZXqiUfAS61fCaKV7

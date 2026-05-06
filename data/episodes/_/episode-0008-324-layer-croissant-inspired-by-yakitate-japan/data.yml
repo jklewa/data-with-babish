@@ -1,0 +1,24 @@
+babish_id: episode-0008
+name: 324 Layer Croissant inspired by Yakitate!! Japan
+slug: 324-layer-croissant-inspired-by-yakitate!!-japan
+published_date: 2024-09-04
+youtube_link: https://www.youtube.com/watch?v=Ni8BsXyln_Q
+official_link: https://www.babi.sh/recipes/324-layer-croissant-inspired-by-yakitate!!-japan
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1725483449/qdfiijvciz0hlmgz6qrs.webp
+time_to_cook: null
+yield_qty: 1
+yield_unit: servings
+tags:
+- tag-0002
+- tag-0010
+- tag-0016
+- tag-0017
+- tag-0032
+guests: []
+inspired_by:
+- reference-0269
+recipes:
+- recipe-1257
+_lookup:
+  slug: 324-layer-croissant-inspired-by-yakitate!!-japan
+  babish_internal_id: WkWHhtulEu6236ESjrmc

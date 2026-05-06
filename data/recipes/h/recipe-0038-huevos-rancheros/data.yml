@@ -1,0 +1,31 @@
+babish_id: recipe-0038
+name: Huevos Rancheros
+image_link: null
+raw_ingredient_list: '2 eggs
+
+  Avocado
+
+  Extra onion
+
+  Cilantro
+
+  ¼ cup Vegetable Oil
+
+  Corn Tortillas
+
+  Crema
+
+  Fancy Tomato Sauce
+
+  Beans'
+raw_procedure: 'In ¼ cup of vegetable oil, fry corn tortillas enough to be crisp but still flexible, then drain on paper towels.
+
+  Cook two eggs sunny side up in a hot non-stick pan and baste the whites with the hot oil to ensure nice crispy edges and fully cooked egg whites.
+
+  On serving plate, place corn tortillas and add sauce, then beans, then fried egg. Top with extra sauce and crema as desired. From here you can top with sliced avocado, chopped onion, cilantro, or anything you want.
+
+  Enjoy!'
+episode: episode-0289
+_lookup:
+  episode_and_section: episode-0289::Huevos Rancheros
+  db_id: 42

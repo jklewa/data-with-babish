@@ -1,0 +1,19 @@
+babish_id: episode-0145
+name: CHIMICHANGAS
+slug: chimichangas
+published_date: 2020-04-28
+youtube_link: https://www.youtube.com/watch?v=szFLA4_pwew
+official_link: https://www.babi.sh/recipes/chimichangas
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715751/babishImages/undefined-916823.png
+time_to_cook: 3600
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+guests: []
+inspired_by: []
+recipes:
+- recipe-1431
+_lookup:
+  slug: chimichangas
+  babish_internal_id: yKygYdZua1A4bP7jVNtd

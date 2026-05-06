@@ -1,0 +1,17 @@
+babish_id: recipe-0849
+name: Spanakopita Filling
+image_link: null
+raw_ingredient_list: 'Spinach
+
+  2-3 Garlic cloves, crushed
+
+  2 Tbsp Dill, chopped
+
+  ½ cup Feta
+
+  Filo dough (or store bought puff pastry)'
+raw_procedure: ''
+episode: episode-0046
+_lookup:
+  episode_and_section: episode-0046::Spanakopita Filling
+  db_id: 865

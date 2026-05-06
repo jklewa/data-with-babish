@@ -1,0 +1,25 @@
+babish_id: recipe-0503
+name: Apple Pie Smoothie
+image_link: null
+raw_ingredient_list: '2 crisp apples (like Gala or McIntosh)
+
+  Approximately ½ cup of nonfat greek yogurt
+
+  A sprinkle of ground clove
+
+  A sprinkle of allspice
+
+  A sprinkle of nutmeg
+
+  A sprinkle of cinnamon
+
+  Half a tray of ice cubes (about half a dozen)'
+raw_procedure: 'Peel and core the apples. Take apple slices and place in blender.
+
+  Add yogurt, spices, and ice cubes to blender. Place lid on blender and blend until smooth.
+
+  Pour into a tall glass and drink with a straw.'
+episode: episode-0029
+_lookup:
+  episode_and_section: episode-0029::Apple Pie Smoothie
+  db_id: 512

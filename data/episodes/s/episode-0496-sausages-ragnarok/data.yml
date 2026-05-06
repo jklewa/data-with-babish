@@ -1,0 +1,26 @@
+babish_id: episode-0496
+name: 'Sausages inspired by God of War: Ragnarok'
+slug: sausages-ragnarok
+published_date: 2022-12-12
+youtube_link: https://www.youtube.com/watch?v=1tU6R3ySgpE
+official_link: https://www.babi.sh/recipes/sausages-ragnarok
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695881/babishImages/undefined-223760.png
+time_to_cook: 6000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0238
+recipes:
+- recipe-1355
+- recipe-1356
+_lookup:
+  slug: sausages-ragnarok
+  babish_internal_id: dFZMn7OPZaBFBe2AORe1

@@ -1,0 +1,21 @@
+babish_id: recipe-1215
+name: rigatoni
+image_link: null
+raw_ingredient_list: 'mezzi rigatoni
+
+  heavy cream
+
+  vodka
+
+  butter
+
+  garlic cloves
+
+  a few basil
+
+  salt'
+raw_procedure: ''
+episode: episode-0173
+_lookup:
+  episode_and_section: episode-0173::rigatoni
+  db_id: 1234

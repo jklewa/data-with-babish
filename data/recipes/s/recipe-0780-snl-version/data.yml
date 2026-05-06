@@ -1,0 +1,31 @@
+babish_id: recipe-0780
+name: SNL Version
+image_link: null
+raw_ingredient_list: 'Shredded lettuce
+
+  Cheddar cheese, cubed
+
+  1 lemon
+
+  Mayonnaise
+
+  25 Hot Dogs, halved
+
+  2 handfuls raisins
+
+  Freshly ground black pepper
+
+  Fritos
+
+  Root Beer
+
+  Cookies
+
+  Pizza
+
+  Maraschino cherry, for garnish'
+raw_procedure: ''
+episode: episode-0519
+_lookup:
+  episode_and_section: episode-0519::SNL Version
+  db_id: 794

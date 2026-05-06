@@ -1,0 +1,9 @@
+babish_id: reference-0093
+type: tv_show
+name: The Walking Dead
+description: Sheriff Deputy Rick Grimes wakes up from a coma to learn the world is in ruins, and must lead a group of survivors to stay alive. IMDb.
+external_link: https://www.imdb.com/title/tt1520211/
+image_link: https://i.ytimg.com/sh/_cK0nmWFWWgWejxGvKfQ-A/market.jpg
+_lookup:
+  canonical_name: The Walking Dead
+  db_id: 95

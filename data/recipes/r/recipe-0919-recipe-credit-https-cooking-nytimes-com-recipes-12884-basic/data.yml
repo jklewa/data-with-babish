@@ -1,0 +1,15 @@
+babish_id: recipe-0919
+name: 'Recipe Credit: https://cooking.nytimes.com/recipes/12884-basic-short-crust-pastry'
+image_link: null
+raw_ingredient_list: '145 g all-purpose flour
+
+  ½ tsp kosher salt
+
+  1 stick unsalted butter, cold + cubed
+
+  3-4 Tbsp water, cold'
+raw_procedure: ''
+episode: episode-0461
+_lookup:
+  episode_and_section: 'episode-0461::Recipe Credit: https://cooking.nytimes.com/recipes/12884-basic-short-crust-pastry'
+  db_id: 938

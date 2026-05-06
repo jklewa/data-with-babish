@@ -1,0 +1,19 @@
+babish_id: episode-0514
+name: SLIDERS
+slug: sliders-three-ways
+published_date: 2022-02-17
+youtube_link: https://www.youtube.com/watch?v=NWcyBYljgkA
+official_link: https://www.babi.sh/recipes/sliders-three-ways
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695931/babishImages/undefined-974725.png
+time_to_cook: null
+yield_qty: 12
+yield_unit: sliders
+tags:
+- tag-0013
+guests: []
+inspired_by: []
+recipes:
+- recipe-1394
+_lookup:
+  slug: sliders-three-ways
+  babish_internal_id: fMlxPdLnTzkp6pWqwuZe

@@ -1,0 +1,21 @@
+babish_id: recipe-1411
+name: pappardelle pasta
+image_link: null
+raw_ingredient_list: 'chicken stock
+
+  beef
+
+  pork
+
+  lamb
+
+  flour
+
+  pancetta
+
+  dry white wine'
+raw_procedure: ''
+episode: episode-0090
+_lookup:
+  episode_and_section: episode-0090::pappardelle pasta
+  db_id: 1430

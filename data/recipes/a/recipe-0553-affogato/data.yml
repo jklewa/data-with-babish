@@ -1,0 +1,11 @@
+babish_id: recipe-0553
+name: Affogato
+image_link: ''
+raw_ingredient_list: 'Espresso (double shot)
+
+  Vanilla ice cream'
+raw_procedure: Take a single scoop or a few scoops of vanilla ice cream topped with a double shot of espresso.
+episode: episode-0225
+_lookup:
+  episode_and_section: episode-0225::Affogato
+  db_id: 566

@@ -1,0 +1,23 @@
+babish_id: episode-0466
+name: Movie Theater Popcorn & Raisinets inspired by Whiplash
+slug: raisinets
+published_date: 2017-09-19
+youtube_link: https://www.youtube.com/watch?v=FoztKuXEYnQ
+official_link: https://www.babi.sh/recipes/raisinets
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715450/babishImages/undefined-835646.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0031
+guests: []
+inspired_by:
+- reference-0080
+recipes:
+- recipe-0388
+- recipe-0389
+_lookup:
+  slug: raisinets
+  babish_internal_id: 419hyE3Ih54T5EuEFa0F

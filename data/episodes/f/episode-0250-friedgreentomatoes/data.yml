@@ -1,0 +1,25 @@
+babish_id: episode-0250
+name: Fried Green Tomatoes inspired by...Fried Green Tomatoes
+slug: friedgreentomatoes
+published_date: 2018-07-24
+youtube_link: https://www.youtube.com/watch?v=KKBkY-7TCw0
+official_link: https://www.babi.sh/recipes/friedgreentomatoes
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715441/babishImages/undefined-365795.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0019
+- tag-0030
+- tag-0031
+guests:
+- guest-0019
+inspired_by:
+- reference-0049
+recipes:
+- recipe-0231
+_lookup:
+  slug: friedgreentomatoes
+  babish_internal_id: 2Bm9YJKvaF6ek0HwdZ4w

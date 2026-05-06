@@ -1,0 +1,28 @@
+babish_id: episode-0461
+name: QUICHE
+slug: quiche
+published_date: 2021-03-18
+youtube_link: https://www.youtube.com/watch?v=6EuzOQOnX2A
+official_link: https://www.babi.sh/recipes/quiche
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695953/babishImages/undefined-548347.png
+time_to_cook: 7200
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0028
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0919
+- recipe-0920
+- recipe-0921
+- recipe-0922
+- recipe-0923
+- recipe-0924
+- recipe-0925
+_lookup:
+  slug: quiche
+  babish_internal_id: g3Pcqd4m1VGnjPJsm3ic

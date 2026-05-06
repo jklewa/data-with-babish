@@ -1,0 +1,11 @@
+babish_id: recipe-1231
+name: cinnamon sugar mixture
+image_link: null
+raw_ingredient_list: 'flour
+
+  sugar'
+raw_procedure: ''
+episode: episode-0157
+_lookup:
+  episode_and_section: episode-0157::cinnamon sugar mixture
+  db_id: 1250

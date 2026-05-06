@@ -1,0 +1,25 @@
+babish_id: episode-0215
+name: Egg Salad inspired by Futurama
+slug: egg-salad-inspired-by-futurama
+published_date: 2025-03-07
+youtube_link: https://www.youtube.com/watch?v=cgLi9t6w9Qc&ab_channel=BabishCulinaryUniverse
+official_link: https://www.babi.sh/recipes/egg-salad-inspired-by-futurama
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1741383035/fhpr01pnfwh4o1lpeje9.webp
+time_to_cook: 5400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0019
+- tag-0020
+- tag-0029
+- tag-0031
+guests: []
+inspired_by:
+- reference-0211
+recipes: []
+_lookup:
+  slug: egg-salad-inspired-by-futurama
+  babish_internal_id: C74tZp8HsAs2NNKhl7XE

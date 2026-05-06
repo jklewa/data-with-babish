@@ -1,0 +1,22 @@
+babish_id: episode-0151
+name: Chocolate inspired by SpongeBob SquarePants
+slug: chocolate-spongebob
+published_date: 2023-02-22
+youtube_link: https://www.youtube.com/watch?v=KB0kltHtnBA
+official_link: https://www.babi.sh/recipes/chocolate-spongebob
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1677047143/hqv73vmgjwxyv5364bph.webp
+time_to_cook: 14400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0018
+guests: []
+inspired_by:
+- reference-0020
+recipes:
+- recipe-1345
+_lookup:
+  slug: chocolate-spongebob
+  babish_internal_id: MqQ53lu3cz2OwWnFuKdl

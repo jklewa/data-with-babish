@@ -1,0 +1,9 @@
+babish_id: recipe-1007
+name: Basic Spag-balls
+image_link: null
+raw_ingredient_list: 8 oz fresh spaghetti pasta
+raw_procedure: ''
+episode: episode-0369
+_lookup:
+  episode_and_section: episode-0369::Basic Spag-balls
+  db_id: 1026

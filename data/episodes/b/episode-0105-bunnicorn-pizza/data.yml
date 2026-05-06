@@ -1,0 +1,27 @@
+babish_id: episode-0105
+name: 'Bunnicorn Pizza inspired by Star Trek: Picard'
+slug: bunnicorn-pizza
+published_date: 2020-03-17
+youtube_link: https://www.youtube.com/watch?v=2a8Uz3pYTh4
+official_link: https://www.babi.sh/recipes/bunnicorn-pizza
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696254/babishImages/undefined-826177.png
+time_to_cook: 4800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0014
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0177
+- reference-0208
+recipes:
+- recipe-0657
+- recipe-0658
+- recipe-0659
+_lookup:
+  slug: bunnicorn-pizza
+  babish_internal_id: tpFdXpscjqaQQbW4B951

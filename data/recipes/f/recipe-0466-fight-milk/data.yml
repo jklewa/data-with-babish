@@ -1,0 +1,23 @@
+babish_id: recipe-0466
+name: Fight Milk
+image_link: null
+raw_ingredient_list: '1 shot vodka
+
+  2 quail eggs
+
+  1 cup milk
+
+  ½ teaspoon allspice
+
+  ½ teaspoon cinnamon
+
+  ½ teaspoon nutmeg
+
+  3 ounces simple syrup'
+raw_procedure: 'Combine all all ingredients in a cocktail shaker and shake vigorously to emulsify the eggs.
+
+  Pour and enjoy.'
+episode: episode-0304
+_lookup:
+  episode_and_section: episode-0304::Fight Milk
+  db_id: 475

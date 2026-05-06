@@ -1,0 +1,29 @@
+babish_id: episode-0049
+name: Bagel Sandwiches inspired by Steven Universe
+slug: bagelsandwiches
+published_date: 2019-07-23
+youtube_link: https://www.youtube.com/watch?v=wv43IN_cnyw&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/wv43IN_cnyw/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/bagelsandwiches
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695325/babishImages/undefined-259410.png
+time_to_cook: 4800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0020
+- tag-0028
+- tag-0031
+guests: []
+inspired_by:
+- reference-0005
+recipes:
+- recipe-0014
+- recipe-0015
+- recipe-0016
+- recipe-0017
+- recipe-0018
+- recipe-0019
+_lookup:
+  slug: bagelsandwiches
+  babish_internal_id: 8g7ZwEQkmwWO1toXZYX4

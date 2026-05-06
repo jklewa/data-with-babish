@@ -1,0 +1,13 @@
+babish_id: recipe-0416
+name: White Russian
+image_link: null
+raw_ingredient_list: '2 ounces vodka
+
+  1 1/2 ounces Kahlúa
+
+  1 ounce heavy cream'
+raw_procedure: In an old fashioned glass filled with large ice cubes, add all three ingredients, and stir to combine.
+episode: episode-0162
+_lookup:
+  episode_and_section: episode-0162::White Russian
+  db_id: 425

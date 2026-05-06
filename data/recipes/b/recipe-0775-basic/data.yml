@@ -1,0 +1,23 @@
+babish_id: recipe-0775
+name: Basic
+image_link: null
+raw_ingredient_list: '3 Tbsp cocoa powder
+
+  3 Tbsp sugar
+
+  2 Tbsp heavy cream
+
+  1 cup milk
+
+  1 cup heavy cream
+
+  4 oz chocolate
+
+  1 tsp vanilla extract (optional)
+
+  1 tsp instant espresso powder (optional)'
+raw_procedure: ''
+episode: episode-0312
+_lookup:
+  episode_and_section: episode-0312::Basic
+  db_id: 789

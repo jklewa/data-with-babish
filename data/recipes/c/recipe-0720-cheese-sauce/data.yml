@@ -1,0 +1,13 @@
+babish_id: recipe-0720
+name: Cheese Sauce
+image_link: null
+raw_ingredient_list: '1 5oz can evaporated milk
+
+  8 oz sharp cheddar cheese, grated
+
+  1 Tbsp cornstarch'
+raw_procedure: ''
+episode: episode-0419
+_lookup:
+  episode_and_section: episode-0419::Cheese Sauce
+  db_id: 734

@@ -1,0 +1,27 @@
+babish_id: episode-0171
+name: COOKIE DOUGH
+slug: cookie-dough
+published_date: 2021-06-04
+youtube_link: https://www.youtube.com/watch?v=Il1Cy4tQCkk
+official_link: https://www.babi.sh/recipes/cookie-dough
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696088/babishImages/undefined-264841.png
+time_to_cook: 2400
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0016
+- tag-0018
+guests: []
+inspired_by: []
+recipes:
+- recipe-1028
+- recipe-1029
+- recipe-1030
+- recipe-1031
+- recipe-1032
+- recipe-1033
+_lookup:
+  slug: cookie-dough
+  babish_internal_id: nfVNATHAL2fMrbR9Upwz

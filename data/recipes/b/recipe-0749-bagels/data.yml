@@ -1,0 +1,25 @@
+babish_id: recipe-0749
+name: Bagels
+image_link: null
+raw_ingredient_list: '250 g bread flour
+
+  1 tsp active dry yeast
+
+  350 g room temperature water
+
+  25 g barley malt syrup
+
+  450 g bread flour (separate)
+
+  10 g kosher salt
+
+  San Marzano tomato sauce
+
+  Mozzarella cheese
+
+  Cream cheese'
+raw_procedure: ''
+episode: episode-0474
+_lookup:
+  episode_and_section: episode-0474::Bagels
+  db_id: 763

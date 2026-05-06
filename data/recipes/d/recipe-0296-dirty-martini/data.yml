@@ -1,0 +1,15 @@
+babish_id: recipe-0296
+name: Dirty Martini
+image_link: null
+raw_ingredient_list: '2 oz Vodka
+
+  1 oz Sweet vermouth
+
+  1 oz Olive juice
+
+  1 Olive, for garnish'
+raw_procedure: Mix and pour into a chilled martini glass. Add an olive on a toothpick. Serve.
+episode: episode-0057
+_lookup:
+  episode_and_section: episode-0057::Dirty Martini
+  db_id: 301

@@ -1,0 +1,7 @@
+babish_id: tag-0020
+axis: Category
+name: Sandwiches
+_lookup:
+  babish_external_id: 17f616b0-92e2-45c2-87fc-09bc4dc50a5f
+  axis_and_name: Category::Sandwiches
+  db_id: 20

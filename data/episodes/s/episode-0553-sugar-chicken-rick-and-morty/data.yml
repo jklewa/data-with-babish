@@ -1,0 +1,28 @@
+babish_id: episode-0553
+name: Sugar Chicken inspired by Rick & Morty
+slug: sugar-chicken-rick-and-morty
+published_date: 2021-02-23
+youtube_link: https://www.youtube.com/watch?v=8iCWUvHMPxQ
+official_link: https://www.babi.sh/recipes/sugar-chicken-rick-and-morty
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696312/babishImages/undefined-998348.png
+time_to_cook: 4800
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0081
+recipes:
+- recipe-0892
+- recipe-0893
+- recipe-0894
+- recipe-0895
+- recipe-0896
+_lookup:
+  slug: sugar-chicken-rick-and-morty
+  babish_internal_id: vkVAJTjL1uStBvKKgG4Y

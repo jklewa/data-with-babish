@@ -1,0 +1,26 @@
+babish_id: episode-0374
+name: Meg's Dinner inspired by Family Guy
+slug: megs-dinner-family-guy
+published_date: 2021-08-12
+youtube_link: https://www.youtube.com/watch?v=6NOtF4l9i9g
+official_link: https://www.babi.sh/recipes/megs-dinner-family-guy
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695850/babishImages/undefined-75593.png
+time_to_cook: 5400
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0030
+- tag-0033
+guests: []
+inspired_by:
+- reference-0043
+recipes:
+- recipe-1072
+- recipe-1073
+- recipe-1074
+- recipe-1075
+_lookup:
+  slug: megs-dinner-family-guy
+  babish_internal_id: bi6qh0wHP3E3L5Oqz0O9

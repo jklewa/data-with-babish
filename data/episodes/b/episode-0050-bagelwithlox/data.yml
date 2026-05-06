@@ -1,0 +1,28 @@
+babish_id: episode-0050
+name: Everything Bagel with Lox Inspired By Mr. & Mrs. Smith
+slug: bagelwithlox
+published_date: 2024-03-27
+youtube_link: https://youtu.be/ZOZ2qkcfWe0
+official_link: https://www.babi.sh/recipes/bagelwithlox
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1711553048/yyeo9skkrkvuloahw7lm.webp
+time_to_cook: 18000
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0015
+- tag-0016
+- tag-0020
+- tag-0023
+- tag-0028
+- tag-0029
+- tag-0031
+- tag-0032
+guests: []
+inspired_by: []
+recipes:
+- recipe-1287
+_lookup:
+  slug: bagelwithlox
+  babish_internal_id: 1RkzcmCSTaEjQRtbaS7C

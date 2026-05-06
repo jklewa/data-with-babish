@@ -1,0 +1,19 @@
+babish_id: recipe-0809
+name: For the sausage
+image_link: null
+raw_ingredient_list: '1 lb pork
+
+  1/2 tsp. Garlic
+
+  1/2 onion
+
+  1 tbsp. Minced sage
+
+  1 tsp. kosher salt
+
+  1 tsp. Freshly ground pepper'
+raw_procedure: ''
+episode: episode-0338
+_lookup:
+  episode_and_section: episode-0338::For the sausage
+  db_id: 823

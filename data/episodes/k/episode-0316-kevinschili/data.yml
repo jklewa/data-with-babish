@@ -1,0 +1,26 @@
+babish_id: episode-0316
+name: Kevin's Famous Chili inspired by The Office
+slug: kevinschili
+published_date: 2017-01-18
+youtube_link: https://www.youtube.com/watch?v=eQ9eY0_DoEk
+official_link: https://www.babi.sh/recipes/kevinschili
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992089/gz0y75rtwc5ksppeofkr.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0021
+- tag-0024
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0078
+recipes:
+- recipe-0472
+_lookup:
+  slug: kevinschili
+  babish_internal_id: tvB5aYr6bFTdOYCWr4GF

@@ -1,0 +1,7 @@
+babish_id: tag-0022
+axis: Category
+name: Pasta
+_lookup:
+  babish_external_id: ac6b337a-e742-4463-8b3f-0227882b9eb4
+  axis_and_name: Category::Pasta
+  db_id: 22

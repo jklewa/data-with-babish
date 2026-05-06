@@ -1,0 +1,9 @@
+babish_id: reference-0029
+type: tv_show
+name: Seinfeld
+description: The continuing misadventures of neurotic New York City stand-up comedian Jerry Seinfeld and his equally neurotic New York City friends. IMDb.
+external_link: https://www.imdb.com/title/tt0098904/
+image_link: https://i.ytimg.com/sh/jFHEp6oZxSb5mUWzTVlzDQ/market.jpg
+_lookup:
+  canonical_name: Seinfeld
+  db_id: 30

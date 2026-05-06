@@ -1,0 +1,21 @@
+babish_id: recipe-1326
+name: arroz con pollo
+image_link: null
+raw_ingredient_list: 'grain rice drained
+
+  boneless skinless chicken thighs
+
+  cilantro stems
+
+  pitted green olives
+
+  tomato sauce
+
+  gandules
+
+  culantro'
+raw_procedure: ''
+episode: episode-0037
+_lookup:
+  episode_and_section: episode-0037::arroz con pollo
+  db_id: 1345

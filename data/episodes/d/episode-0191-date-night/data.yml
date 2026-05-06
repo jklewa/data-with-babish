@@ -1,0 +1,34 @@
+babish_id: episode-0191
+name: DATE NIGHT
+slug: date-night
+published_date: 2021-02-12
+youtube_link: https://www.youtube.com/watch?v=dFh7tZoGYA4
+official_link: https://www.babi.sh/recipes/date-night
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715470/babishImages/undefined-416418.png
+time_to_cook: 5400
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0862
+- recipe-0863
+- recipe-0864
+- recipe-0865
+- recipe-0866
+- recipe-0867
+- recipe-0868
+- recipe-0869
+- recipe-0870
+- recipe-0871
+- recipe-0872
+- recipe-0873
+- recipe-0874
+- recipe-0875
+- recipe-0876
+_lookup:
+  slug: date-night
+  babish_internal_id: CY6dJ7KUD8LrzAcnyoG2

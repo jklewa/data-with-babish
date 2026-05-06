@@ -1,0 +1,21 @@
+babish_id: episode-0002
+name: 10 Levels of Cheesesteak
+slug: 10-levels-of-cheesesteak
+published_date: 2026-04-30
+youtube_link: https://www.youtube.com/watch?v=jNan4FWeQEE
+official_link: https://www.babi.sh/recipes/10-levels-of-cheesesteak
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1777507861/icg9k8c02j1h9nfo5qb7.webp
+time_to_cook: 5400
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0006
+- tag-0020
+- tag-0021
+- tag-0031
+guests: []
+inspired_by: []
+recipes: []
+_lookup:
+  slug: 10-levels-of-cheesesteak
+  babish_internal_id: X7BNzvl0C2ztjszyVnTr

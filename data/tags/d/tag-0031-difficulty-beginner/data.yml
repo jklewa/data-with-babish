@@ -1,0 +1,7 @@
+babish_id: tag-0031
+axis: Difficulty
+name: Beginner
+_lookup:
+  babish_external_id: 9d7f32f6-7558-4f01-b65e-7f2d1ffa1021
+  axis_and_name: Difficulty::Beginner
+  db_id: 31

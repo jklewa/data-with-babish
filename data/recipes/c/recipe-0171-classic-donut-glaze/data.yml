@@ -1,0 +1,13 @@
+babish_id: recipe-0171
+name: Classic Donut Glaze
+image_link: null
+raw_ingredient_list: '400g powdered sugar
+
+  2 tsp light corn syrup
+
+  1/4 cup boiling water'
+raw_procedure: In a bowl sift 400 grams of powdered sugar along with 2 tsp of corn syrup and ¼ cup of boiling water. Whisk until smooth.
+episode: episode-0207
+_lookup:
+  episode_and_section: episode-0207::Classic Donut Glaze
+  db_id: 176

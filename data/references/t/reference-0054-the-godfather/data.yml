@@ -1,0 +1,9 @@
+babish_id: reference-0054
+type: movie
+name: The Godfather
+description: The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son. IMDb.
+external_link: https://www.imdb.com/title/tt0068646/
+image_link: https://img.youtube.com/vi/vdQi6Ebjm8c/mqdefault.jpg
+_lookup:
+  canonical_name: The Godfather
+  db_id: 56

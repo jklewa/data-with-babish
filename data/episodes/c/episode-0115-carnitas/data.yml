@@ -1,0 +1,20 @@
+babish_id: episode-0115
+name: CARNITAS
+slug: carnitas
+published_date: 2023-05-12
+youtube_link: https://www.youtube.com/watch?v=FEZioC-qMd4
+official_link: https://www.babi.sh/recipes/carnitas
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1690352698/ldnpp7ukrrvaiormf4ux.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0013
+- tag-0021
+guests: []
+inspired_by: []
+recipes:
+- recipe-1330
+_lookup:
+  slug: carnitas
+  babish_internal_id: 8RGvqL1010G3W4wb9wy7

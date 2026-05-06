@@ -1,0 +1,23 @@
+babish_id: recipe-0467
+name: Grilled Charlie
+image_link: null
+raw_ingredient_list: '2 slices of brioche
+
+  Butter
+
+  1 Chocolate bar
+
+  1 slice of brie
+
+  Peanut butter'
+raw_procedure: 'Place brioche in a hot pan with melted butter.
+
+  Top with chocolate, then a slice of brie.
+
+  Smear peanut butter on the other slice of brioche and place of top.
+
+  Toast like any other grilled cheese sandwich, slice and enjoy.'
+episode: episode-0304
+_lookup:
+  episode_and_section: episode-0304::Grilled Charlie
+  db_id: 476

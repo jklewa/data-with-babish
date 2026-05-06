@@ -1,0 +1,33 @@
+babish_id: episode-0087
+name: Bob's Burgers
+slug: bobsburgers
+published_date: 2017-03-14
+youtube_link: https://www.youtube.com/watch?v=basFyoMSjds
+official_link: https://www.babi.sh/recipes/bobsburgers
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992045/htwpdlxcj4iomemedrez.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0020
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+- tag-0032
+guests: []
+inspired_by:
+- reference-0013
+recipes:
+- recipe-0455
+- recipe-0456
+- recipe-0457
+- recipe-0458
+- recipe-0459
+- recipe-0460
+- recipe-0461
+_lookup:
+  slug: bobsburgers
+  babish_internal_id: MzFSX1qClKqrgeCmmQss

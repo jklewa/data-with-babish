@@ -1,0 +1,21 @@
+babish_id: episode-0624
+name: VODKA PASTA
+slug: vodka-pasta
+published_date: 2023-06-15
+youtube_link: https://www.youtube.com/watch?v=VYDvTNToe3M
+official_link: https://www.babi.sh/recipes/vodka-pasta
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1690352611/ymqv7knnlfkyzfjyrgnt.webp
+time_to_cook: null
+yield_qty: 3
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0015
+- tag-0022
+guests: []
+inspired_by: []
+recipes:
+- recipe-1325
+_lookup:
+  slug: vodka-pasta
+  babish_internal_id: tcpRyYwbhFZO7NrzW32X

@@ -1,0 +1,26 @@
+babish_id: episode-0425
+name: PICNIC FOOD
+slug: picnic-food
+published_date: 2021-04-05
+youtube_link: https://www.youtube.com/watch?v=lMAVnI-2MIA
+official_link: https://www.babi.sh/recipes/picnic-food
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695917/babishImages/undefined-81738.png
+time_to_cook: 5400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0959
+- recipe-0960
+- recipe-0961
+- recipe-0962
+- recipe-0963
+- recipe-0964
+- recipe-0965
+_lookup:
+  slug: picnic-food
+  babish_internal_id: f21rtzRKsf2ilNBb5c8c

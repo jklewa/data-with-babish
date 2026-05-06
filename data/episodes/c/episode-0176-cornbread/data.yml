@@ -1,0 +1,26 @@
+babish_id: episode-0176
+name: CORNBREAD
+slug: cornbread
+published_date: 2019-12-12
+youtube_link: https://www.youtube.com/watch?v=nAtCqHJofJk
+official_link: https://www.babi.sh/recipes/cornbread
+image_link: https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1575566267341-AZ6STDKJCOS6J4VVLMCJ/Screen+Shot+2019-12-05+at+10.45.40+AM+%282%29.png
+time_to_cook: 2700
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0016
+- tag-0019
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0608
+- recipe-0609
+- recipe-0610
+- recipe-0611
+- recipe-0612
+_lookup:
+  slug: cornbread
+  babish_internal_id: ZfO0DPlJafs66Og4Bc6q

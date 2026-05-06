@@ -1,0 +1,21 @@
+babish_id: episode-0551
+name: Strawberry Shortcake inspired by Death Note
+slug: strawberry-shortcake-inspired-by-death-note
+published_date: 2024-09-11
+youtube_link: https://www.youtube.com/watch?v=i00Wqb_bh5E
+official_link: https://www.babi.sh/recipes/strawberry-shortcake-inspired-by-death-note
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1726078919/egha5r0yit5dsgpsewga.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0002
+- tag-0010
+guests: []
+inspired_by:
+- reference-0266
+recipes:
+- recipe-1252
+_lookup:
+  slug: strawberry-shortcake-inspired-by-death-note
+  babish_internal_id: v0NzjN0BfzPip4ywr2yJ

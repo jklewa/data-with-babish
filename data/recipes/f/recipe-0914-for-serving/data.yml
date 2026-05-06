@@ -1,0 +1,15 @@
+babish_id: recipe-0914
+name: For Serving
+image_link: null
+raw_ingredient_list: 'White onion, diced
+
+  Jalapeno peppers, thinly sliced
+
+  Limes, quartered
+
+  Cilantro'
+raw_procedure: ''
+episode: episode-0076
+_lookup:
+  episode_and_section: episode-0076::For Serving
+  db_id: 933

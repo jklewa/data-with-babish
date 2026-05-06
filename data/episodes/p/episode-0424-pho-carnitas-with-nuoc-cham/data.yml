@@ -1,0 +1,19 @@
+babish_id: episode-0424
+name: Pho Carnitas with Nước chấm
+slug: pho-carnitas-with-nuoc-cham
+published_date: 2024-01-12
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/pho-carnitas-with-nuoc-cham
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1705075155/hrswd4asfqsgnoizrs6f.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags: []
+guests: []
+inspired_by: []
+recipes:
+- recipe-1299
+- recipe-1300
+_lookup:
+  slug: pho-carnitas-with-nuoc-cham
+  babish_internal_id: D3G7ujTFUXcdIKcWfAWT

@@ -1,0 +1,11 @@
+babish_id: recipe-0444
+name: Creme Fraiche
+image_link: null
+raw_ingredient_list: '1 pint heavy cream
+
+  2 Tbsp buttermilk'
+raw_procedure: Combine 1 pint of heavy cream with 2 Tbsp of buttermilk. Stirring well to combine, covering, and letting sit out overnight.
+episode: episode-0524
+_lookup:
+  episode_and_section: episode-0524::Creme Fraiche
+  db_id: 453

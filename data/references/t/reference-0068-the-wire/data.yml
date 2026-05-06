@@ -1,0 +1,9 @@
+babish_id: reference-0068
+type: tv_show
+name: The Wire
+description: Baltimore drug scene, seen through the eyes of drug dealers and law enforcement. IMDb.
+external_link: https://www.imdb.com/title/tt0306414/
+image_link: https://i.ytimg.com/sh/jsmtb8CxQeRwqJsMtDqplQ/market.jpg
+_lookup:
+  canonical_name: The Wire
+  db_id: 70

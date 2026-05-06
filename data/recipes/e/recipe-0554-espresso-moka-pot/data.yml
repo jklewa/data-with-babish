@@ -1,0 +1,17 @@
+babish_id: recipe-0554
+name: Espresso - Moka Pot
+image_link: ''
+raw_ingredient_list: 'Espresso beans
+
+  Water'
+raw_procedure: 'Unscrew the top chamber of the mocha pot and remove the brewing basket. Fill the basket to the top without pressing it down with a medium to fine grind of coffee.
+
+  Fill the chamber below with hot water up to the valve and replace the filter basket over the top. Screw the brewing chamber on and you are ready to make some espresso.
+
+  Place the mocha pot directly on a stovetop or induction burner on medium to high heat. In 1-2 minutes the pressure and heat should build up in the chamber below and press its way up through the coffee, which will brew a single shot of espresso.
+
+  While it does not have the distinctive crema floating over the coffee, the mocha pot is the least expensive and most accessible way to make a cup of espresso at home.'
+episode: episode-0225
+_lookup:
+  episode_and_section: episode-0225::Espresso - Moka Pot
+  db_id: 567

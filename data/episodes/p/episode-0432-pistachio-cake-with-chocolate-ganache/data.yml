@@ -1,0 +1,21 @@
+babish_id: episode-0432
+name: Pistachio Cake with Chocolate Ganache
+slug: pistachio-cake-with-chocolate-ganache
+published_date: 2024-05-13
+youtube_link: ''
+official_link: https://www.babi.sh/recipes/pistachio-cake-with-chocolate-ganache
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1715615340/plxxs2ze6mqnwr2npn0e.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0001
+- tag-0018
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-1279
+_lookup:
+  slug: pistachio-cake-with-chocolate-ganache
+  babish_internal_id: ioQpsuKapllBdAenXihH

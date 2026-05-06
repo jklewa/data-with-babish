@@ -1,0 +1,7 @@
+babish_id: tag-0025
+axis: Category
+name: Vegetarian
+_lookup:
+  babish_external_id: 5f6498a2-6e45-40e6-95a2-ff3ba1607584
+  axis_and_name: Category::Vegetarian
+  db_id: 25

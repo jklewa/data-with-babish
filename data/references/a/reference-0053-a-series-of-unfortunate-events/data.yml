@@ -1,0 +1,11 @@
+babish_id: reference-0053
+type: tv_show
+name: A Series of Unfortunate Events
+description: After the loss of their parents in a mysterious fire, the three Baudelaire children face trials and tribulations attempting to uncover dark family secrets. IMDb.
+external_link: https://www.imdb.com/title/tt4834206/
+image_link: https://img.youtube.com/vi/Tup-5yOcJuM/mqdefault.jpg
+_lookup:
+  canonical_name: A Series of Unfortunate Events
+  db_id: 55
+  aliases:
+  - Lemony Snicket's A Series of Unfortunate Events

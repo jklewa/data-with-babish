@@ -1,0 +1,21 @@
+babish_id: episode-0590
+name: The Swanson inspired by Parks and Recreation
+slug: theswanson
+published_date: 2019-03-26
+youtube_link: https://www.youtube.com/watch?v=aLpPZlVsny0&ab_channel=BabishCulinaryUniverse
+official_link: https://www.babi.sh/recipes/theswanson
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696306/babishImages/undefined-957001.png
+time_to_cook: 7200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+guests: []
+inspired_by:
+- reference-0018
+recipes:
+- recipe-0099
+_lookup:
+  slug: theswanson
+  babish_internal_id: vgXBwPDJs2lV3QqRgNOM

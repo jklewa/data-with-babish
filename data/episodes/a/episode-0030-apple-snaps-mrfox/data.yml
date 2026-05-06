@@ -1,0 +1,25 @@
+babish_id: episode-0030
+name: Nutmeg Ginger Apple Snaps inspired by Fantastic Mr. Fox
+slug: apple-snaps-mrfox
+published_date: 2022-10-28
+youtube_link: https://www.youtube.com/watch?v=PGxk4oVcKQE
+official_link: https://www.babi.sh/recipes/apple-snaps-mrfox
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695673/babishImages/undefined-436418.png
+time_to_cook: 3600
+yield_qty: 24
+yield_unit: cookies
+tags:
+- tag-0005
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0032
+guests: []
+inspired_by:
+- reference-0297
+recipes:
+- recipe-1366
+- recipe-1367
+_lookup:
+  slug: apple-snaps-mrfox
+  babish_internal_id: PsH1FK1iz6XXDaN6QL3J

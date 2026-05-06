@@ -1,0 +1,53 @@
+babish_id: recipe-0316
+name: Paella Marina
+image_link: null
+raw_ingredient_list: 'Stock From Skinner’s Stew Episode
+
+  2 Tbsp vegetable oil
+
+  1 small chopped onion
+
+  Garlic
+
+  ½ cup dry white wine
+
+  Cod
+
+  Shrimp
+
+  Sea scallops
+
+  Squid
+
+  Mussels
+
+  Manilla clams
+
+  2 cups of water
+
+  Cilantro
+
+  Salt
+
+  Pepper'
+raw_procedure: 'Make the stock from the Skinner Stew Episode.
+
+  After you’ve made the stock and strained the pot, wipe the pot clean and add 2 Tbsp of vegetable oil to which you will add 1 small chopped onion.
+
+  Let the onion sweat a little bit before adding thinly sliced garlic and sauteé for 1-2 minutes.
+
+  Deglaze with ½ cup of dry white wine and the seafood stock.
+
+  Add up to 2 cups of water if necessary.
+
+  Add your seafood: cod, shrimp, sea scallops, squid, mussels and manilla clams (or whatever combination you desire).
+
+  Cover with the lid of your pot and let cook for 5-8 minutes or until the clams and mussels have opened.
+
+  Season liberally with salt and pepper.
+
+  Ladle some generous portions, making sure to include a little bit of everything, and garnish with cilantro.'
+episode: episode-0096
+_lookup:
+  episode_and_section: episode-0096::Paella Marina
+  db_id: 325

@@ -1,0 +1,27 @@
+babish_id: episode-0277
+name: Harry Potter Special
+slug: harrypotterspecial
+published_date: 2017-11-14
+youtube_link: https://www.youtube.com/watch?v=LXDAu8DnALw
+official_link: https://www.babi.sh/recipes/harrypotterspecial
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715458/babishImages/undefined-107622.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0032
+guests: []
+inspired_by:
+- reference-0073
+recipes:
+- recipe-0356
+- recipe-0357
+- recipe-0358
+- recipe-0359
+- recipe-0360
+- recipe-0361
+_lookup:
+  slug: harrypotterspecial
+  babish_internal_id: 6nDBZLlh1jl55sWk9EZD

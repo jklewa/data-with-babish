@@ -1,0 +1,25 @@
+babish_id: episode-0452
+name: Pretty Patties inspired by SpongeBob Squarepants
+slug: pretty-patties-spongebob
+published_date: 2023-01-20
+youtube_link: https://www.youtube.com/watch?v=tDnax8d3v3k
+official_link: https://www.babi.sh/recipes/pretty-patties-spongebob
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1676600190/v4oifcobh5qcvrv5rzxr.webp
+time_to_cook: 2400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0018
+- tag-0025
+- tag-0029
+- tag-0030
+guests: []
+inspired_by:
+- reference-0020
+recipes:
+- recipe-1348
+_lookup:
+  slug: pretty-patties-spongebob
+  babish_internal_id: Njbz23QQHiq9diSEzWqF

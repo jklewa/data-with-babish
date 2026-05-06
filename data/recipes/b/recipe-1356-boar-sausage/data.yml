@@ -1,0 +1,15 @@
+babish_id: recipe-1356
+name: boar sausage
+image_link: null
+raw_ingredient_list: 'yellow onion
+
+  fat back or pork belly
+
+  pork or chicken stock
+
+  salt'
+raw_procedure: ''
+episode: episode-0496
+_lookup:
+  episode_and_section: episode-0496::boar sausage
+  db_id: 1375

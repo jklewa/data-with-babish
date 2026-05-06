@@ -1,0 +1,9 @@
+babish_id: reference-0014
+type: tv_show
+name: The Simpsons
+description: The satiric adventures of a working-class family in the misfit city of Springfield. IMDb.
+external_link: https://www.imdb.com/title/tt0096697/
+image_link: https://i.ytimg.com/sh/g0CHYnadWiJf0SZUHuk7Eg/market.jpg
+_lookup:
+  canonical_name: The Simpsons
+  db_id: 15

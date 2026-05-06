@@ -1,0 +1,24 @@
+babish_id: episode-0480
+name: Roast Beast inspired by How The Grinch Stole Christmas
+slug: roastbeast
+published_date: 2018-12-18
+youtube_link: https://www.youtube.com/watch?v=_szug5_YkD4&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/_szug5_YkD4/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+official_link: https://www.babi.sh/recipes/roastbeast
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695762/babishImages/undefined-631816.png
+time_to_cook: 8400
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0005
+- tag-0012
+- tag-0021
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0028
+recipes:
+- recipe-0138
+_lookup:
+  slug: roastbeast
+  babish_internal_id: TEgJoXldn3KU71712E13

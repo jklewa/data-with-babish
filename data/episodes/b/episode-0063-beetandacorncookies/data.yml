@@ -1,0 +1,29 @@
+babish_id: episode-0063
+name: Carol's Beet & Acorn Cookies (feat. Ashwin Enjoys Nature)
+slug: beetandacorncookies
+published_date: 2017-05-23
+youtube_link: https://www.youtube.com/watch?v=6PTuUMJ2Uh8
+official_link: https://www.babi.sh/recipes/beetandacorncookies
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689991765/h4mfwyugmu5erlh5yc8e.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0016
+- tag-0018
+- tag-0028
+- tag-0029
+- tag-0030
+- tag-0032
+guests:
+- guest-0006
+inspired_by:
+- reference-0092
+- reference-0093
+recipes:
+- recipe-0428
+_lookup:
+  slug: beetandacorncookies
+  babish_internal_id: 1X47cEwoc0k3z6XVjqpB

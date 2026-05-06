@@ -1,0 +1,29 @@
+babish_id: recipe-0274
+name: Red Sauce
+image_link: null
+raw_ingredient_list: '1 small diced onion
+
+  Olive oil
+
+  1-2 cloves of garlic
+
+  1 can pureed tomatoes
+
+  1 can diced tomatoes
+
+  Dried oregano
+
+  1 sprig of basil
+
+  Salt
+
+  Pepper'
+raw_procedure: 'In a pan, heat some olive oil before adding 1 small chopped onion and cook for a few minutes until soft and translucent. Add 1-2 cloves of garlic and cook briefly.
+
+  Add a 50:50 mix of diced and pureed tomatoes along with a few pinches of dried oregano and 1 sprig of basil. Simmer for 45 minutes to an hour or until mixture has slightly thickened.
+
+  Season with salt and pepper, and set aside.'
+episode: episode-0589
+_lookup:
+  episode_and_section: episode-0589::Red Sauce
+  db_id: 279

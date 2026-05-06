@@ -1,0 +1,22 @@
+babish_id: episode-0576
+name: THANKSGIVING LEFTOVERS
+slug: thanksgivingleftovers
+published_date: 2019-11-28
+youtube_link: https://www.youtube.com/watch?v=iTZIm0-PuUw
+official_link: https://www.babi.sh/recipes/thanksgivingleftovers
+image_link: https://images.squarespace-cdn.com/content/v1/59d40133017db2fd8a60b3fe/1574795852763-5Z8H1SGEU7OKEFYO0IGP/Thanksgiving+Leftovers_v1_1.png
+time_to_cook: 2700
+yield_qty: 2
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0594
+- recipe-0595
+- recipe-0596
+_lookup:
+  slug: thanksgivingleftovers
+  babish_internal_id: kZFqHjaImGiVrfiIMRam

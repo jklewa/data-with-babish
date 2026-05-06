@@ -1,0 +1,9 @@
+babish_id: recipe-1409
+name: 'TURKEY: 5-WAYS'
+image_link: null
+raw_ingredient_list: turkey thawed neck or giblets removed
+raw_procedure: ''
+episode: episode-0613
+_lookup:
+  episode_and_section: 'episode-0613::TURKEY: 5-WAYS'
+  db_id: 1428

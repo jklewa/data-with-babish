@@ -1,0 +1,23 @@
+babish_id: recipe-1401
+name: oeufs a la babish
+image_link: null
+raw_ingredient_list: 'heavy cream
+
+  whipped cream
+
+  long grain white rice
+
+  eggs
+
+  dark chocolate
+
+  sweetened cocoa powder
+
+  butter
+
+  granuted sugar'
+raw_procedure: ''
+episode: episode-0163
+_lookup:
+  episode_and_section: episode-0163::oeufs a la babish
+  db_id: 1420

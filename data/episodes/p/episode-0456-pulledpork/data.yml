@@ -1,0 +1,26 @@
+babish_id: episode-0456
+name: PULLED PORK
+slug: pulledpork
+published_date: 2019-05-31
+youtube_link: https://www.youtube.com/watch?v=_SObOsXrDRc
+official_link: https://www.babi.sh/recipes/pulledpork
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1685913479/ewsxvdz9xce9hohksnmc.webp
+time_to_cook: 10800
+yield_qty: 6
+yield_unit: servings
+tags:
+- tag-0013
+- tag-0021
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by: []
+recipes:
+- recipe-0061
+- recipe-0062
+- recipe-0063
+- recipe-0064
+_lookup:
+  slug: pulledpork
+  babish_internal_id: TwPeKPVzDAeyR71nfsUm

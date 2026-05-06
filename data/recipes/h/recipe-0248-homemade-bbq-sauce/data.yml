@@ -1,0 +1,21 @@
+babish_id: recipe-0248
+name: Homemade BBQ Sauce
+image_link: null
+raw_ingredient_list: '½ cup ketchup
+
+  ½ onion, finely grated
+
+  1-2 Tbsp worcestershire sauce
+
+  ½ tsp smoked paprika
+
+  1 Tbsp apple cider vinegar
+
+  2 Tbsp of dijon mustard
+
+  1-2 Tbsp dark brown sugar'
+raw_procedure: Combine ½ cup ketchup, ½ a small onion finely grated, 1-2 Tbsp of worcestershire sauce, ½ tsp smoked paprika, 1 Tbsp of apple cider vinegar, 2 Tbsp of dijon mustard, and 1-2 Tbsp of dark brown sugar. Whisk to combine. Simmer for 30 minutes on low heat.
+episode: episode-0056
+_lookup:
+  episode_and_section: episode-0056::Homemade BBQ Sauce
+  db_id: 253

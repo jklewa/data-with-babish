@@ -1,0 +1,25 @@
+babish_id: episode-0474
+name: Restaurant Wars inspired by Steven Universe
+slug: restaurant-wars-steven-universe
+published_date: 2020-10-14
+youtube_link: https://www.youtube.com/watch?v=J2eU4Ol3IDU
+official_link: https://www.babi.sh/recipes/restaurant-wars-steven-universe
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695683/babishImages/undefined-956144.png
+time_to_cook: 3600
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0029
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0005
+recipes:
+- recipe-0749
+- recipe-0750
+_lookup:
+  slug: restaurant-wars-steven-universe
+  babish_internal_id: Q2eBXmZbvKAte1r7jYWm

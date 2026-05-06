@@ -1,0 +1,28 @@
+babish_id: episode-0423
+name: Full Breakfast inspired by Phantom Thread
+slug: phantomthread-l42pw
+published_date: 2018-09-04
+youtube_link: https://www.youtube.com/watch?v=yiElOt9cI8k
+official_link: https://www.babi.sh/recipes/phantomthread-l42pw
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715433/babishImages/undefined-513534.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0005
+- tag-0012
+- tag-0028
+- tag-0032
+guests: []
+inspired_by:
+- reference-0041
+recipes:
+- recipe-0206
+- recipe-0207
+- recipe-0208
+- recipe-0209
+- recipe-0210
+- recipe-0211
+_lookup:
+  slug: phantomthread-l42pw
+  babish_internal_id: 0gkHB3gKteIFyRrwNhRG

@@ -1,0 +1,21 @@
+babish_id: recipe-1017
+name: Pesto
+image_link: null
+raw_ingredient_list: '30 g pine nuts, lightly toasted + cooled
+
+  1 tsp kosher salt
+
+  1 garlic clove, roughly chopped
+
+  30 g basil leaves, washed + dried
+
+  20 grams Parmesan Reggiano, finely grated
+
+  10 grams Pecorino Romano, finely grated
+
+  80 ml extra virgin olive oil'
+raw_procedure: ''
+episode: episode-0604
+_lookup:
+  episode_and_section: episode-0604::Pesto
+  db_id: 1036

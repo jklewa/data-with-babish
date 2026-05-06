@@ -1,0 +1,29 @@
+babish_id: episode-0241
+name: Frasier Special
+slug: fraiserspecial
+published_date: 2018-02-13
+youtube_link: https://www.youtube.com/watch?v=AwS_DIMeVoM&amp;t=7s
+official_link: https://www.babi.sh/recipes/fraiserspecial
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715531/babishImages/undefined-291594.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0021
+- tag-0023
+- tag-0030
+- tag-0032
+guests: []
+inspired_by:
+- reference-0032
+recipes:
+- recipe-0306
+- recipe-0307
+- recipe-0308
+- recipe-0309
+- recipe-0310
+_lookup:
+  slug: fraiserspecial
+  babish_internal_id: amBhMthzPhmdEnYP0Qx5

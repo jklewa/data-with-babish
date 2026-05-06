@@ -1,0 +1,9 @@
+babish_id: reference-0105
+type: movie
+name: Goodfellas
+description: The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate. IMDb.
+external_link: https://www.imdb.com/title/tt0099685/
+image_link: https://img.youtube.com/vi/iAJUzPIIvGs/mqdefault.jpg
+_lookup:
+  canonical_name: Goodfellas
+  db_id: 107

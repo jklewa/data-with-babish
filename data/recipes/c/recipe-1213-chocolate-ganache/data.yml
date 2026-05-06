@@ -1,0 +1,17 @@
+babish_id: recipe-1213
+name: chocolate ganache
+image_link: null
+raw_ingredient_list: 'sugar
+
+  milk
+
+  heavy cream
+
+  cake flour
+
+  eggs'
+raw_procedure: ''
+episode: episode-0007
+_lookup:
+  episode_and_section: episode-0007::chocolate ganache
+  db_id: 1232

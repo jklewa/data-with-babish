@@ -1,0 +1,24 @@
+babish_id: episode-0352
+name: Lobster Scrambled Eggs inspired by Seinfeld (Copy)
+slug: lobster-scrambled-eggs-seinfeld
+published_date: 2022-08-01
+youtube_link: https://www.youtube.com/watch?v=71jrAWaRc3E
+official_link: https://www.babi.sh/recipes/lobster-scrambled-eggs-seinfeld
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695727/babishImages/undefined-436056.png
+time_to_cook: 1200
+yield_qty: 4
+yield_unit: servings
+tags:
+- tag-0004
+- tag-0012
+- tag-0023
+- tag-0028
+- tag-0032
+guests: []
+inspired_by:
+- reference-0029
+recipes:
+- recipe-1378
+_lookup:
+  slug: lobster-scrambled-eggs-seinfeld
+  babish_internal_id: QlWv1QHhIOrgokEYEmXH

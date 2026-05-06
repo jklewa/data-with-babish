@@ -1,0 +1,29 @@
+babish_id: episode-0524
+name: South Park Special
+slug: southparkspecial
+published_date: 2017-04-19
+youtube_link: https://www.youtube.com/watch?v=KxPgrGdSHh8
+official_link: https://www.babi.sh/recipes/southparkspecial
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1689992065/xwvykogtr2mlbbb1rhho.webp
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0017
+- tag-0028
+- tag-0029
+- tag-0030
+- tag-0031
+guests: []
+inspired_by:
+- reference-0097
+recipes:
+- recipe-0441
+- recipe-0442
+- recipe-0443
+- recipe-0444
+_lookup:
+  slug: southparkspecial
+  babish_internal_id: gelXyaQdVmJV8thoJJ4z

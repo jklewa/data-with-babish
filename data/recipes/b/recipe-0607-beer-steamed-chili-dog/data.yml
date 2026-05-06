@@ -1,0 +1,39 @@
+babish_id: recipe-0607
+name: Beer Steamed Chili Dog
+image_link: ''
+raw_ingredient_list: 'Hot dog (recipe above)
+
+  Beer (lager or something similar)
+
+  Chili (recipe above)
+
+  Hot dog buns (recipe above)
+
+  1 yellow onion, diced
+
+  4 cloves garlic, minced
+
+  1 Tbsp salt
+
+  1 28-ounce can crushed tomatoes
+
+  2 Tbsp chili powder
+
+  1 Tbsp cumin
+
+  ½ Tbsp brown sugar
+
+  1 cup beef broth
+
+  1 can kidney beans, drained and rinsed (optional)
+
+  1 drop Tough Sauce (optional)'
+raw_procedure: 'Add your hot dogs to a hot cast iron skillet. Lightly pour beer over the hot dogs, and cook until desired temperature is reached and hot dogs have a nice color.
+
+  Add hot dogs to hot dog bun, and top with a generous serving of chili.
+
+  Serve and enjoy!'
+episode: episode-0062
+_lookup:
+  episode_and_section: episode-0062::Beer Steamed Chili Dog
+  db_id: 621

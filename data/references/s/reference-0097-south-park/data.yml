@@ -1,0 +1,9 @@
+babish_id: reference-0097
+type: tv_show
+name: South Park
+description: Follows the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado. IMDb.
+external_link: https://www.imdb.com/title/tt0121955/
+image_link: https://i.ytimg.com/sh/n4ixrTeRoCHD8fyAW6_nlQ/market.jpg
+_lookup:
+  canonical_name: South Park
+  db_id: 99

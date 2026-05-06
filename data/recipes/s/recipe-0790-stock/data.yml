@@ -1,0 +1,37 @@
+babish_id: recipe-0790
+name: Stock
+image_link: null
+raw_ingredient_list: 'Chicken bones & skin, roasted
+
+  Vegetable or canola oil
+
+  Celery, chopped
+
+  Carrots, peeled and chopped
+
+  Onion, chopped in half
+
+  Parsnips, peeled and chopped
+
+  Turnips, peeled and chopped
+
+  Leeks, chopped
+
+  Lemon grass, chopped
+
+  Head garlic, chopped in half
+
+  Fennel fronds (optional), chopped
+
+  1 tbsp peppercorn
+
+  Few sprigs of fresh parsley
+
+  Few sprigs of thyme
+
+  2 bay leaves'
+raw_procedure: ''
+episode: episode-0137
+_lookup:
+  episode_and_section: episode-0137::Stock
+  db_id: 804

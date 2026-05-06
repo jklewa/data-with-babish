@@ -1,0 +1,27 @@
+babish_id: episode-0226
+name: 'The Every-Meat Burrito inspired by Regular Show: 2 Million Subscriber Special'
+slug: everymeatburrito
+published_date: 2018-01-16
+youtube_link: https://www.youtube.com/watch?v=Mf4wwXM2o_M
+official_link: https://www.babi.sh/recipes/everymeatburrito
+image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715513/babishImages/undefined-6335.png
+time_to_cook: null
+yield_qty: null
+yield_unit: null
+tags:
+- tag-0004
+- tag-0012
+- tag-0032
+guests: []
+inspired_by:
+- reference-0006
+recipes:
+- recipe-0324
+- recipe-0325
+- recipe-0326
+- recipe-0327
+- recipe-0328
+- recipe-0329
+_lookup:
+  slug: everymeatburrito
+  babish_internal_id: TAwuAhzII66gYpIGKbfP

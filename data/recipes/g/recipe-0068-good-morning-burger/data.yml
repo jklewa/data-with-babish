@@ -1,0 +1,31 @@
+babish_id: recipe-0068
+name: Good Morning Burger
+image_link: null
+raw_ingredient_list: '18 ounces ground beef
+
+  1 slice of ham
+
+  1 egg
+
+  3 slices of bacon, cooked
+
+  Vegetable oil
+
+  Butter
+
+  Salt
+
+  Pepper
+
+  Hamburger buns'
+raw_procedure: 'Start by measuring out 18 ounces of beef and then form that into a hamburger shape. Season with salt and pepper. Place in a skillet and cook for 6-7 minutes each side. Once cooked add 4 Tbsp of butter to the top of the burger.
+
+  In a separate skillet, heat up your slice of ham so it’s not cold when you add it to the burger. Remove the ham and then cook your egg in the same pan to your desired doneness.
+
+  Place your burger on a bun and top with 3 slices of bacon, ham, and your fried egg.
+
+  Serve and enjoy!'
+episode: episode-0265
+_lookup:
+  episode_and_section: episode-0265::Good Morning Burger
+  db_id: 73
