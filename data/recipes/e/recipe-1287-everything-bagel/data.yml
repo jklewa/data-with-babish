@@ -1,0 +1,19 @@
+babish_id: recipe-1287
+name: Everything Bagel
+image_link: null
+raw_ingredient_list: 'milk
+
+  flour
+
+  salt
+
+  sugar
+
+  white vinegar
+
+  white sesame seeds'
+raw_procedure: ''
+episode: episode-0050
+_lookup:
+  episode_and_section: 'episode-0050::everything bagel ingredients:'
+  db_id: 1306

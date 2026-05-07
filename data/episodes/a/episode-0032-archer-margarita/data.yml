@@ -11,7 +11,8 @@ yield_unit: servings
 tags:
 - tag-0004
 - tag-0012
-guests: []
+guests:
+- guest-0026
 inspired_by:
 - reference-0022
 recipes:
