@@ -1,9 +1,0 @@
-babish_id: recipe-1431
-name: deep frying
-image_link: null
-raw_ingredient_list: chicken
-raw_procedure: ''
-episode: episode-0145
-_lookup:
-  episode_and_section: episode-0145::deep frying
-  db_id: 1450
