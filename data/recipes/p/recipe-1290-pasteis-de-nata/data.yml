@@ -1,0 +1,21 @@
+babish_id: recipe-1290
+name: Pastéis de Nata
+image_link: null
+raw_ingredient_list: 'milk
+
+  sweet cherries
+
+  sugar
+
+  flour
+
+  egg yolks
+
+  brown sugar or sugar
+
+  cognac or grand marnier'
+raw_procedure: ''
+episode: episode-0006
+_lookup:
+  episode_and_section: 'episode-0006::short cut pastéis de nata ingredients:'
+  db_id: 1309

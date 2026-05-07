@@ -14,7 +14,9 @@ tags:
 - tag-0016
 - tag-0017
 - tag-0032
-guests: []
+guests:
+- guest-0027
+- guest-0028
 inspired_by:
 - reference-0269
 recipes:
