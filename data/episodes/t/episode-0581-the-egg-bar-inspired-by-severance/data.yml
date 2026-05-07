@@ -18,7 +18,15 @@ tags:
 guests: []
 inspired_by:
 - reference-0254
-recipes: []
+recipes:
+- recipe-1607
+- recipe-1608
+- recipe-1609
+- recipe-1610
+- recipe-1611
+- recipe-1612
+- recipe-1613
+- recipe-1614
 _lookup:
   slug: the-egg-bar-inspired-by-severance
   babish_internal_id: iGAkSr7a3TTrM7agkoVI

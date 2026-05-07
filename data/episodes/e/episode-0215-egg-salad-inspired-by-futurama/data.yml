@@ -19,7 +19,16 @@ tags:
 guests: []
 inspired_by:
 - reference-0211
-recipes: []
+recipes:
+- recipe-1585
+- recipe-1586
+- recipe-1587
+- recipe-1588
+- recipe-1589
+- recipe-1590
+- recipe-1591
+- recipe-1592
+- recipe-1593
 _lookup:
   slug: egg-salad-inspired-by-futurama
   babish_internal_id: C74tZp8HsAs2NNKhl7XE

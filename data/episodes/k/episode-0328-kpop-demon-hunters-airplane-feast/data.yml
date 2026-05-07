@@ -19,7 +19,11 @@ tags:
 guests: []
 inspired_by:
 - reference-0313
-recipes: []
+recipes:
+- recipe-1463
+- recipe-1464
+- recipe-1465
+- recipe-1466
 _lookup:
   slug: kpop-demon-hunters-airplane-feast
   babish_internal_id: BjVXG6rVceZAPCPdwZGN

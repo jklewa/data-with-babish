@@ -22,7 +22,13 @@ tags:
 guests: []
 inspired_by:
 - reference-0243
-recipes: []
+recipes:
+- recipe-1545
+- recipe-1546
+- recipe-1547
+- recipe-1548
+- recipe-1549
+- recipe-1550
 _lookup:
   slug: quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv
   babish_internal_id: 5LHvJD6Zg8CpDl1eqs9Z

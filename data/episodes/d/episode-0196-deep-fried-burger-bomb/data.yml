@@ -17,7 +17,13 @@ tags:
 - tag-0032
 guests: []
 inspired_by: []
-recipes: []
+recipes:
+- recipe-1551
+- recipe-1552
+- recipe-1553
+- recipe-1554
+- recipe-1555
+- recipe-1556
 _lookup:
   slug: deep-fried-burger-bomb
   babish_internal_id: TWiioMDwLgLG8b7gm7v8

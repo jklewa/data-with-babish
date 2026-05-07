@@ -18,7 +18,13 @@ tags:
 guests: []
 inspired_by:
 - reference-0250
-recipes: []
+recipes:
+- recipe-1557
+- recipe-1558
+- recipe-1559
+- recipe-1560
+- recipe-1561
+- recipe-1562
 _lookup:
   slug: 3-course-dinner-inspired-by-drop
   babish_internal_id: esYnxlp9rOSO9OFN5UH6

@@ -13,7 +13,14 @@ tags:
 - tag-0019
 guests: []
 inspired_by: []
-recipes: []
+recipes:
+- recipe-1625
+- recipe-1626
+- recipe-1627
+- recipe-1628
+- recipe-1629
+- recipe-1630
+- recipe-1631
 _lookup:
   slug: pierogis
   babish_internal_id: xaB9P5JjxOEMtv39AkH8

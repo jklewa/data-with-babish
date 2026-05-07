@@ -20,7 +20,13 @@ tags:
 guests: []
 inspired_by:
 - reference-0251
-recipes: []
+recipes:
+- recipe-1569
+- recipe-1570
+- recipe-1571
+- recipe-1572
+- recipe-1573
+- recipe-1574
 _lookup:
   slug: japanese-style-big-mac-inspired-by-weathering-with-you
   babish_internal_id: lOS91tCjwsGh091l7cOv

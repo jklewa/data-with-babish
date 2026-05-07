@@ -15,7 +15,13 @@ tags:
 - tag-0031
 guests: []
 inspired_by: []
-recipes: []
+recipes:
+- recipe-1563
+- recipe-1564
+- recipe-1565
+- recipe-1566
+- recipe-1567
+- recipe-1568
 _lookup:
   slug: 5-weeknight-recipes-for-pork-tenderloin
   babish_internal_id: pSL1iT88rxsiFUadxlvv
