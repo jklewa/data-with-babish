@@ -16,7 +16,16 @@ tags:
 - tag-0030
 guests: []
 inspired_by: []
-recipes: []
+recipes:
+- recipe-1518
+- recipe-1519
+- recipe-1520
+- recipe-1521
+- recipe-1522
+- recipe-1523
+- recipe-1524
+- recipe-1525
+- recipe-1526
 _lookup:
   slug: steak
   babish_internal_id: ATlcqrasg8ceDCOT6zvu

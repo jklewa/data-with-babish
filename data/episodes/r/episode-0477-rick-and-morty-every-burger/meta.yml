@@ -1,43 +1,46 @@
 fields:
   name:
     state: scraped
-    last_seen: '2026-05-05'
+    last_seen: '2026-05-06'
   slug:
     state: scraped
-    last_seen: '2026-05-05'
+    last_seen: '2026-05-06'
   published_date:
     state: scraped
-    last_seen: '2026-05-05'
+    last_seen: '2026-05-06'
   youtube_link:
     state: scraped
-    last_seen: '2026-05-05'
+    last_seen: '2026-05-06'
   official_link:
     state: scraped
-    last_seen: '2026-05-05'
+    last_seen: '2026-05-06'
   image_link:
     state: scraped
-    last_seen: '2026-05-05'
+    last_seen: '2026-05-06'
   time_to_cook:
     state: scraped
-    last_seen: '2026-05-05'
+    last_seen: '2026-05-06'
   yield_qty:
     state: scraped
-    last_seen: '2026-05-05'
+    last_seen: '2026-05-06'
   yield_unit:
     state: scraped
-    last_seen: '2026-05-05'
+    last_seen: '2026-05-06'
   tags:
     state: scraped
-    last_seen: '2026-05-05'
+    last_seen: '2026-05-06'
   guests:
     state: scraped
-    last_seen: '2026-05-05'
+    last_seen: '2026-05-06'
   inspired_by:
     state: overridden
     by: enrich-agent
     at: '2026-05-05'
-    scraper_proposed: []
+    scraper_proposed:
+    - reference-0081
+    - reference-0321
+    - reference-0322
   recipes:
     state: scraped
-    last_seen: '2026-05-05'
+    last_seen: '2026-05-06'
 rejected: {}

@@ -17,7 +17,14 @@ tags:
 - tag-0031
 guests: []
 inspired_by: []
-recipes: []
+recipes:
+- recipe-1491
+- recipe-1492
+- recipe-1493
+- recipe-1494
+- recipe-1495
+- recipe-1496
+- recipe-1497
 _lookup:
   slug: ultimate-french-toast-or-with-babish
   babish_internal_id: T5Nm7dK86bxu3jyhr2Vb

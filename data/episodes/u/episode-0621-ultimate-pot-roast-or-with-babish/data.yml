@@ -16,7 +16,12 @@ tags:
 - tag-0032
 guests: []
 inspired_by: []
-recipes: []
+recipes:
+- recipe-1498
+- recipe-1499
+- recipe-1500
+- recipe-1501
+- recipe-1502
 _lookup:
   slug: ultimate-pot-roast-or-with-babish
   babish_internal_id: PSBfG70SuI6ykYc1GOTX

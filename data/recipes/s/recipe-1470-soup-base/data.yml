@@ -1,0 +1,6 @@
+babish_id: recipe-1470
+name: soup base
+raw_ingredient_list: ''
+episode: episode-0001
+_lookup:
+  episode_and_section: episode-0001::soup base

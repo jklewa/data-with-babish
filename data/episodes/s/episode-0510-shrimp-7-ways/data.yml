@@ -17,7 +17,12 @@ tags:
 - tag-0031
 guests: []
 inspired_by: []
-recipes: []
+recipes:
+- recipe-1594
+- recipe-1595
+- recipe-1596
+- recipe-1597
+- recipe-1598
 _lookup:
   slug: shrimp-7-ways
   babish_internal_id: mY1OCiuvecLrTae1Ebwk

@@ -20,7 +20,15 @@ tags:
 - tag-0031
 guests: []
 inspired_by: []
-recipes: []
+recipes:
+- recipe-1467
+- recipe-1468
+- recipe-1469
+- recipe-1470
+- recipe-1471
+- recipe-1472
+- recipe-1473
+- recipe-1474
 _lookup:
   slug: 10-levels-chicken-noodle-soup
   babish_internal_id: 0en4gcpRl2JqIbk96XNh

@@ -16,7 +16,15 @@ tags:
 - tag-0031
 guests: []
 inspired_by: []
-recipes: []
+recipes:
+- recipe-1510
+- recipe-1511
+- recipe-1512
+- recipe-1513
+- recipe-1514
+- recipe-1515
+- recipe-1516
+- recipe-1517
 _lookup:
   slug: coq-au-vin
   babish_internal_id: HsGfP7x5CgUvgbSKAbBJ

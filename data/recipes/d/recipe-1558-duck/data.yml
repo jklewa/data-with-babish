@@ -1,0 +1,6 @@
+babish_id: recipe-1558
+name: duck
+raw_ingredient_list: ''
+episode: episode-0009
+_lookup:
+  episode_and_section: episode-0009::duck

@@ -16,7 +16,14 @@ tags:
 - tag-0032
 guests: []
 inspired_by: []
-recipes: []
+recipes:
+- recipe-1503
+- recipe-1504
+- recipe-1505
+- recipe-1506
+- recipe-1507
+- recipe-1508
+- recipe-1509
 _lookup:
   slug: beef-wellington-or-with-babish
   babish_internal_id: IwKsR7cgq05GSJd6V1bj
