@@ -1,0 +1,15 @@
+babish_id: recipe-1223
+name: Agua de Jamaica Granita
+image_link: null
+raw_ingredient_list: 'dried sorrel
+
+  cinnamon orange peel, or a few cloves,
+
+  heavy cream
+
+  sweetened condensed milk'
+raw_procedure: ''
+episode: episode-0020
+_lookup:
+  episode_and_section: episode-0020::serving
+  db_id: 1242

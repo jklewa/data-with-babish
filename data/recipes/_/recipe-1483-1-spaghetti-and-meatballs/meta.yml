@@ -1,0 +1,13 @@
+fields:
+  name:
+    state: overridden
+    by: curate-agent
+    at: '2026-05-06'
+    scraper_proposed: level 1
+  raw_ingredient_list:
+    state: scraped
+    last_seen: '2026-05-06'
+  episode:
+    state: scraped
+    last_seen: '2026-05-06'
+rejected: {}

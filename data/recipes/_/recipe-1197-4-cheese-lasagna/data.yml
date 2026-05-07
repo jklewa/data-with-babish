@@ -1,0 +1,21 @@
+babish_id: recipe-1197
+name: 4-Cheese Lasagna
+image_link: null
+raw_ingredient_list: 'hot italian sausage casings removed
+
+  sweet italian sausage casings removed
+
+  milk ricotta cheese
+
+  no boil lasagna noodles for flat layers
+
+  low moisture mozzarella thinly
+
+  pecorino cheese
+
+  parmesan'
+raw_procedure: ''
+episode: episode-0011
+_lookup:
+  episode_and_section: episode-0011::assembly
+  db_id: 1216
