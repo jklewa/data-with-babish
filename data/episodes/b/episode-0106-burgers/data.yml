@@ -1,5 +1,5 @@
 babish_id: episode-0106
-name: BURGERS
+name: Burgers
 slug: burgers
 published_date: 2018-06-14
 youtube_link: https://www.youtube.com/watch?v=nbCgfiqq-5c
@@ -11,7 +11,6 @@ yield_unit: servings
 tags:
 - tag-0013
 - tag-0015
-- tag-0018
 - tag-0020
 - tag-0029
 - tag-0030
