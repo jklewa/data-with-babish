@@ -3,7 +3,7 @@ fields:
     state: overridden
     by: curate-agent
     at: '2026-05-06'
-    scraper_proposed: 'duck cake:'
+    scraper_proposed: garnish
   image_link:
     state: scraped
     last_seen: '2026-05-05'
