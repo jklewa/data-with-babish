@@ -21,7 +21,6 @@ guests:
 - guest-0008
 inspired_by:
 - reference-0091
-- reference-0112
 recipes:
 - recipe-0425
 _lookup:

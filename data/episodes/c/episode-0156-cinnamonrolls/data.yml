@@ -2,12 +2,12 @@ babish_id: episode-0156
 name: Cinnamon Rolls inspired by Jim Gaffigan's Stand Up (sort of)
 slug: cinnamonrolls
 published_date: 2018-10-23
-youtube_link: https://www.youtube.com/watch?v=jFYi2QRVFOc&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/jFYi2QRVFOc/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+youtube_link: https://www.youtube.com/watch?v=jFYi2QRVFOc
 official_link: https://www.babi.sh/recipes/cinnamonrolls
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1679245506/gyb4qsztcyrv4kjnvwug.webp
 time_to_cook: 3600
-yield_qty: 4
-yield_unit: servings
+yield_qty: 12
+yield_unit: rolls
 tags:
 - tag-0004
 - tag-0012
