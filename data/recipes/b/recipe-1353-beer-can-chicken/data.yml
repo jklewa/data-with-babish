@@ -1,0 +1,21 @@
+babish_id: recipe-1353
+name: beer can chicken
+image_link: null
+raw_ingredient_list: 'chicken
+
+  baby potatoes
+
+  brussels sprouts
+
+  beer
+
+  hen of the wood or maitake mushrooms
+
+  chicken stock
+
+  garlic cloves smashed'
+raw_procedure: ''
+episode: episode-0061
+_lookup:
+  episode_and_section: episode-0061::beer chicken
+  db_id: 1372

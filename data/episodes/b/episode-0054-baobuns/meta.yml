@@ -3,17 +3,22 @@ fields:
     state: scraped
     last_seen: '2026-05-06'
   slug:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-06'
   published_date:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-06'
   youtube_link:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: overridden
+    by: curate-agent
+    at: '2026-05-06'
+    scraper_proposed: https://www.youtube.com/watch?v=OFt3SThGi7M&amp;t=46s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/OFt3SThGi7M/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
   official_link:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-06'
   image_link:
     state: scraped
     last_seen: '2026-05-06'
@@ -38,4 +43,8 @@ fields:
   recipes:
     state: scraped
     last_seen: '2026-05-06'
-rejected: {}
+rejected:
+  tags:
+  - tag-0018
+  recipes:
+  - recipe-0108
