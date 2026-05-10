@@ -1,5 +1,92 @@
 [
   {
+    "guest_id": 76,
+    "name": "Alvin Zhou",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "4-cheese-lasagna-inspired-by-one-piece",
+        "name": "4-Cheese Lasagna inspired by One Piece",
+        "published_date": "2025-08-12",
+        "youtube_link": "https://www.youtube.com/watch?v=5LNNcu-t5kE",
+        "official_link": "https://www.babi.sh/recipes/4-cheese-lasagna-inspired-by-one-piece",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1755010442/kum7nnwdyimfrjrzeslp.webp"
+      },
+      {
+        "episode_id": "18-pound-giant-fried-chicken-bowl",
+        "name": "18 Pound Giant Fried Chicken Bowl",
+        "published_date": "2025-08-11",
+        "youtube_link": "https://www.youtube.com/watch?v=WM2d4JGynXc",
+        "official_link": "https://www.babi.sh/recipes/18-pound-giant-fried-chicken-bowl",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1754941912/nm2jss7wgfnfnv7bs3oo.webp"
+      },
+      {
+        "episode_id": "28-layer-chocolate-cake",
+        "name": "28 Layer Chocolate Cake",
+        "published_date": "2025-06-06",
+        "youtube_link": "https://www.youtube.com/watch?v=ouK26QCvC9U&ab_channel=BabishCulinaryUniverse",
+        "official_link": "https://www.babi.sh/recipes/28-layer-chocolate-cake",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1749225920/k1yvoateks4tp7wbhjhm.webp"
+      },
+      {
+        "episode_id": "classic-fettucine-alfredo",
+        "name": "Classic Fettuccine Alfredo",
+        "published_date": "2025-06-06",
+        "youtube_link": "https://www.youtube.com/watch?v=2Xx1QY_WVs0&pp=ygUhY2xhc3NpYyBmZXR0dWNjaW5lIGFsZnJlZG8gYmFiaXNo",
+        "official_link": "https://www.babi.sh/recipes/classic-fettucine-alfredo",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1749216590/llpz2sobgkra4ttgl9kx.webp"
+      },
+      {
+        "episode_id": "copy-cat-spicy-vodka-rigatoni",
+        "name": "Copy Cat Spicy Vodka Rigatoni",
+        "published_date": "2025-06-06",
+        "youtube_link": "https://www.youtube.com/watch?v=KMUvINcrpzM",
+        "official_link": "https://www.babi.sh/recipes/copy-cat-spicy-vodka-rigatoni",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1749222937/h0akjerb4dvfjjofwtkj.webp"
+      },
+      {
+        "episode_id": "chocolate-cake-milkshake-inspired-by-portillo's",
+        "name": "Chocolate Cake Milkshake inspired by Portillo's",
+        "published_date": "2025-06-04",
+        "youtube_link": "https://www.youtube.com/watch?v=NqEqOQZSXOE&pp=ygUoY2hvY29sYXRlIGNha2Ugc2hha2UgYmluZ2luZyB3aXRoIGJhYmlzaA%3D%3D",
+        "official_link": "https://www.babi.sh/recipes/chocolate-cake-milkshake-inspired-by-portillo's",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1749064072/hstkkvyg9ja8s6vazkgi.webp"
+      },
+      {
+        "episode_id": "cheesecake-inspired-by-junior's-cheesecakes",
+        "name": "Cheesecake inspired by Junior's Cheesecakes",
+        "published_date": "2025-03-11",
+        "youtube_link": "https://www.youtube.com/watch?v=gQeY_wx9bsI&t=26s&ab_channel=BabishCulinaryUniverse",
+        "official_link": "https://www.babi.sh/recipes/cheesecake-inspired-by-junior's-cheesecakes",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1741657095/qjrimy3opynb08w9zudl.webp"
+      },
+      {
+        "episode_id": "chicken-meatball-hotpot-inspired-by-jujutsu-kaisen",
+        "name": "Chicken Meatball Hotpot inspired By Jujutsu Kaisen",
+        "published_date": "2024-10-02",
+        "youtube_link": "https://www.youtube.com/watch?v=GymqadVYSXk&t=34s",
+        "official_link": "https://www.babi.sh/recipes/chicken-meatball-hotpot-inspired-by-jujutsu-kaisen",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1727887830/cnkxewktxghxefrnq6xa.webp"
+      },
+      {
+        "episode_id": "a5-wagyu-roti-don-inspired-by-food-wars!",
+        "name": "A5 Wagyu Roti Don inspired by Food Wars!",
+        "published_date": "2024-09-12",
+        "youtube_link": "https://www.youtube.com/watch?v=VzPJE4LUxC4",
+        "official_link": "https://www.babi.sh/recipes/a5-wagyu-roti-don-inspired-by-food-wars!",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1726150996/cqreovarq8cekj22lfnt.webp"
+      },
+      {
+        "episode_id": "324-layer-croissant-inspired-by-yakitate!!-japan",
+        "name": "324 Layer Croissant inspired by Yakitate!! Japan",
+        "published_date": "2024-09-04",
+        "youtube_link": "https://www.youtube.com/watch?v=Ni8BsXyln_Q",
+        "official_link": "https://www.babi.sh/recipes/324-layer-croissant-inspired-by-yakitate!!-japan",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1725483449/qdfiijvciz0hlmgz6qrs.webp"
+      }
+    ]
+  },
+  {
     "guest_id": 55,
     "name": "Ashwin Ramdas",
     "image_link": null,
@@ -26,6 +113,36 @@
         "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
         "official_link": "https://www.babi.sh/recipes/lasagna",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715729/babishImages/undefined-269836.png"
+      }
+    ]
+  },
+  {
+    "guest_id": 75,
+    "name": "Brian Sa",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "10-levels-of-cheesesteak",
+        "name": "10 Levels of Philly Cheesesteak",
+        "published_date": "2026-04-30",
+        "youtube_link": "https://www.youtube.com/watch?v=jNan4FWeQEE",
+        "official_link": "https://www.babi.sh/recipes/10-levels-of-cheesesteak",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1777507861/icg9k8c02j1h9nfo5qb7.webp"
+      }
+    ]
+  },
+  {
+    "guest_id": 79,
+    "name": "Chris Parnell",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "being-with-babish-4",
+        "name": "Training like Kratos for 30 Days | Being with Babish",
+        "published_date": "2019-06-07",
+        "youtube_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA",
+        "official_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA",
+        "image_link": "https://img.youtube.com/vi/n_aq5TVb0HA/mqdefault.jpg"
       }
     ]
   },
@@ -59,7 +176,7 @@
       },
       {
         "episode_id": "bagels",
-        "name": "BAGELS",
+        "name": "Bagels",
         "published_date": "2019-01-24",
         "youtube_link": "https://www.youtube.com/watch?v=ZrJtpCTZk38",
         "official_link": "https://www.babi.sh/recipes/bagels",
@@ -94,6 +211,21 @@
         "youtube_link": "https://www.youtube.com/watch?v=YUDogDKMJbE",
         "official_link": "https://www.youtube.com/watch?v=YUDogDKMJbE",
         "image_link": "https://img.youtube.com/vi/YUDogDKMJbE/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "guest_id": 84,
+    "name": "Dominique Ansel",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "creme-caramel",
+        "name": "Cr\u00e8me Caramel",
+        "published_date": "2021-04-08",
+        "youtube_link": "https://www.youtube.com/watch?v=ihS8__strtM",
+        "official_link": "https://www.babi.sh/recipes/creme-caramel",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695974/babishImages/undefined-25052.png"
       }
     ]
   },
@@ -158,17 +290,47 @@
     ]
   },
   {
+    "guest_id": 80,
+    "name": "H. Jon Benjamin",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "archer-margarita",
+        "name": "Margaritas inspired by Archer",
+        "published_date": "2020-05-05",
+        "youtube_link": "https://www.youtube.com/watch?v=hsPXh3yna1U",
+        "official_link": "https://www.babi.sh/recipes/archer-margarita",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695554/babishImages/undefined-521982.png"
+      }
+    ]
+  },
+  {
     "guest_id": 64,
     "name": "Isaac Toups",
     "image_link": null,
     "appearances": [
       {
         "episode_id": "cajunfood",
-        "name": "CAJUN FOOD",
+        "name": "Cajun Food",
         "published_date": "2019-09-13",
         "youtube_link": "https://www.youtube.com/watch?v=nORg_aXMsmA",
         "official_link": "https://www.babi.sh/recipes/cajunfood",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1685738278/bdfgvfer8ydjozwjsvmf.webp"
+      }
+    ]
+  },
+  {
+    "guest_id": 81,
+    "name": "Jess",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "calistyle-burrito",
+        "name": "California Style Burritos",
+        "published_date": "2021-09-13",
+        "youtube_link": "https://www.youtube.com/watch?v=55YUKZK7BXg",
+        "official_link": "https://www.babi.sh/recipes/calistyle-burrito",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695451/babishImages/undefined-566187.png"
       }
     ]
   },
@@ -184,6 +346,21 @@
         "youtube_link": "https://www.youtube.com/watch?v=qbMTukAJskQ",
         "official_link": "https://www.babi.sh/recipes/chocolatelavacakes",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715705/babishImages/undefined-478519.png"
+      }
+    ]
+  },
+  {
+    "guest_id": 77,
+    "name": "Kendall Beach",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "324-layer-croissant-inspired-by-yakitate!!-japan",
+        "name": "324 Layer Croissant inspired by Yakitate!! Japan",
+        "published_date": "2024-09-04",
+        "youtube_link": "https://www.youtube.com/watch?v=Ni8BsXyln_Q",
+        "official_link": "https://www.babi.sh/recipes/324-layer-croissant-inspired-by-yakitate!!-japan",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1725483449/qdfiijvciz0hlmgz6qrs.webp"
       }
     ]
   },
@@ -229,6 +406,21 @@
         "youtube_link": "https://www.youtube.com/watch?v=nEoSBL25RO4",
         "official_link": "https://www.babi.sh/recipes/buttermilk-pancakes-inspired-by-twin-peaks",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689992075/k6lh85gi9qv44sgwuezx.webp"
+      }
+    ]
+  },
+  {
+    "guest_id": 82,
+    "name": "Olivia Tiedemann",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "christmas-turkey-inspired-by-national-lampoon's-christmas-vacation",
+        "name": "Christmas Turkey inspired by National Lampoon's Christmas Vacation",
+        "published_date": "2025-11-29",
+        "youtube_link": "https://youtube.com/watch?v=w0pZ7MWajW8&si=r2TmnS9oJhDHIbp5",
+        "official_link": "https://www.babi.sh/recipes/christmas-turkey-inspired-by-national-lampoon's-christmas-vacation",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1764189007/giyklwlgdj7x3nwbi38c.webp"
       }
     ]
   },
@@ -285,7 +477,7 @@
     "appearances": [
       {
         "episode_id": "being-with-babish-4",
-        "name": "Training like Kratos for 30 Days | Body by Babish",
+        "name": "Training like Kratos for 30 Days | Being with Babish",
         "published_date": "2019-06-07",
         "youtube_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA",
         "official_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA",
@@ -313,14 +505,6 @@
         "youtube_link": "https://www.youtube.com/watch?v=oM8c31ru92A",
         "official_link": "https://www.youtube.com/watch?v=oM8c31ru92A",
         "image_link": "https://img.youtube.com/vi/oM8c31ru92A/mqdefault.jpg"
-      },
-      {
-        "episode_id": "being-with-babish-4",
-        "name": "Training like Kratos for 30 Days | Body by Babish",
-        "published_date": "2019-06-07",
-        "youtube_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA",
-        "official_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA",
-        "image_link": "https://img.youtube.com/vi/n_aq5TVb0HA/mqdefault.jpg"
       },
       {
         "episode_id": "being-with-babish-3",
@@ -395,6 +579,21 @@
     ]
   },
   {
+    "guest_id": 78,
+    "name": "Sohla El-Waylly",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "andrewsohlathanksgiving",
+        "name": "Thanksgiving Recipe Livestream with Sohla El-Waylly",
+        "published_date": "2020-11-20",
+        "youtube_link": "https://www.youtube.com/watch?v=tXNuz8nXYGk",
+        "official_link": "https://www.babi.sh/recipes/andrewsohlathanksgiving",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715526/babishImages/undefined-665559.jpg"
+      }
+    ]
+  },
+  {
     "guest_id": 70,
     "name": "Sukki Hufford",
     "image_link": null,
@@ -459,6 +658,21 @@
         "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
         "official_link": "https://www.babi.sh/recipes/lasagna",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715729/babishImages/undefined-269836.png"
+      }
+    ]
+  },
+  {
+    "guest_id": 83,
+    "name": "You Suck at Cooking",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "clayroastedthigh",
+        "name": "Clay-Roasted Thigh inspired by Hannibal",
+        "published_date": "2017-10-31",
+        "youtube_link": "https://www.youtube.com/watch?v=lnB7svFAZBs&amp;t=2s",
+        "official_link": "https://www.babi.sh/recipes/clayroastedthigh",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715438/babishImages/undefined-943571.png"
       }
     ]
   }

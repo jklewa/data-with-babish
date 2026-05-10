@@ -1,7 +1,7 @@
 [
   {
     "episode_id": "10-levels-of-cheesesteak",
-    "name": "10 Levels of Cheesesteak",
+    "name": "10 Levels of Philly Cheesesteak",
     "published_date": "2026-04-30",
     "youtube_link": "https://www.youtube.com/watch?v=jNan4FWeQEE",
     "official_link": "https://www.babi.sh/recipes/10-levels-of-cheesesteak",
@@ -19,19 +19,56 @@
           "name": "Sandwiches"
         },
         {
-          "tag_id": 31,
-          "axis": "Difficulty",
-          "name": "Beginner"
-        },
-        {
           "tag_id": 6,
           "axis": "Series",
           "name": "With Babish"
         }
       ],
-      "guests": [],
+      "guests": [
+        {
+          "guest_id": 75,
+          "name": "Brian Sa",
+          "image_link": null
+        }
+      ],
       "inspired_by": [],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1477,
+          "name": "level 4: cheesesteak kit style",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1478,
+          "name": "level 5: classic homemade cheesesteak",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1479,
+          "name": "level 6: chicken cheesesteak",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1480,
+          "name": "level 7: proper homemade cheesesteak",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1481,
+          "name": "level 8: shop-style ribeye cheesesteak",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -90,12 +127,41 @@
           "image_link": null
         }
       ],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1484,
+          "name": "dipping sauce",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1482,
+          "name": "eomuk guk",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1485,
+          "name": "gimbap",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1483,
+          "name": "skewers",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
     "episode_id": "10-levels-chicken-noodle-soup",
-    "name": "10 Levels Chicken Noodle Soup",
+    "name": "10 Levels of Chicken Noodle Soup",
     "published_date": "2026-03-28",
     "youtube_link": "https://www.youtube.com/watch?v=EM_ptn24MUs&t=83s",
     "official_link": "https://www.babi.sh/recipes/10-levels-chicken-noodle-soup",
@@ -150,7 +216,64 @@
       ],
       "guests": [],
       "inspired_by": [],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1492,
+          "name": "level 10: fine dining chicken noodle soup",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1486,
+          "name": "level 6: no prep chicken noodle soup",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1487,
+          "name": "level 7: simple from-scratch",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1490,
+          "name": "level 8: matzo ball soup",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1491,
+          "name": "level 9: avgolemono",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1493,
+          "name": "pasta dough",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1489,
+          "name": "soup base",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1488,
+          "name": "stock",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -284,12 +407,69 @@
       ],
       "guests": [],
       "inspired_by": [],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1496,
+          "name": "garlic butter",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1498,
+          "name": "homemade mayo",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1501,
+          "name": "million dollar deviled eggs",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1495,
+          "name": "monkey bread",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1500,
+          "name": "potato cups",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1499,
+          "name": "poutine bites",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1497,
+          "name": "spinach artichoke dip",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1494,
+          "name": "spinach artichoke dip monkey bread",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
     "episode_id": "5-levels-of-spaghetti-or-with-babish",
-    "name": "5 Levels of Spaghetti | With Babish",
+    "name": "$1 to $100 Spaghetti (5 Levels) | With Babish",
     "published_date": "2026-01-30",
     "youtube_link": "https://www.youtube.com/watch?v=FeWVA2tp9YI",
     "official_link": "https://www.babi.sh/recipes/5-levels-of-spaghetti-or-with-babish",
@@ -344,7 +524,64 @@
       ],
       "guests": [],
       "inspired_by": [],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1507,
+          "name": "$10 meatballs",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1506,
+          "name": "$10 spaghetti and meatballs",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1502,
+          "name": "$1 spaghetti and meatballs",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1508,
+          "name": "$25 spaghetti and meatballs",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1509,
+          "name": "$50 spaghetti and meatballs",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1503,
+          "name": "lentil meatball mixture",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1505,
+          "name": "lentil meatballs",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1504,
+          "name": "panade",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -389,7 +626,57 @@
       ],
       "guests": [],
       "inspired_by": [],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1515,
+          "name": "cr\u00e8me fra\u00eeche chantilly",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1516,
+          "name": "french toast custard",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1511,
+          "name": "pain de mie",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1512,
+          "name": "poolish",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1513,
+          "name": "preserved lemon blueberry compote",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1514,
+          "name": "red miso maple syrup",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1510,
+          "name": "toast",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -429,47 +716,43 @@
       ],
       "guests": [],
       "inspired_by": [],
-      "recipes": []
-    }
-  },
-  {
-    "episode_id": "beef-wellington-or-with-babish",
-    "name": "Beef Wellington | With Babish",
-    "published_date": "2026-01-14",
-    "youtube_link": "https://www.youtube.com/watch?v=A-Qb0ExQc-I",
-    "official_link": "https://www.babi.sh/recipes/beef-wellington-or-with-babish",
-    "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1768353563/az6m41jbqphdkgosvot0.webp",
-    "related": {
-      "tags": [
+      "recipes": [
         {
-          "tag_id": 21,
-          "axis": "Category",
-          "name": "Meat"
+          "recipe_id": 1517,
+          "name": "beef prep",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
         },
         {
-          "tag_id": 31,
-          "axis": "Difficulty",
-          "name": "Beginner"
+          "recipe_id": 1519,
+          "name": "bouquet garni",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
         },
         {
-          "tag_id": 32,
-          "axis": "Difficulty",
-          "name": "Experienced"
+          "recipe_id": 1518,
+          "name": "braised vegetable prep",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
         },
         {
-          "tag_id": 30,
-          "axis": "Meal",
-          "name": "Dinner"
+          "recipe_id": 1520,
+          "name": "mashed potatoes",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
         },
         {
-          "tag_id": 6,
-          "axis": "Series",
-          "name": "With Babish"
+          "recipe_id": 1521,
+          "name": "roasted vegetables",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
         }
-      ],
-      "guests": [],
-      "inspired_by": [],
-      "recipes": []
+      ]
     }
   },
   {
@@ -525,6 +808,96 @@
           "name": "serving",
           "image_link": null,
           "raw_ingredient_list": "chicken stock",
+          "raw_procedure": ""
+        }
+      ]
+    }
+  },
+  {
+    "episode_id": "beef-wellington-or-with-babish",
+    "name": "$20 vs $200 Beef Wellington | With Babish",
+    "published_date": "2025-12-23",
+    "youtube_link": "https://www.youtube.com/watch?v=A-Qb0ExQc-I",
+    "official_link": "https://www.babi.sh/recipes/beef-wellington-or-with-babish",
+    "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1768353563/az6m41jbqphdkgosvot0.webp",
+    "related": {
+      "tags": [
+        {
+          "tag_id": 21,
+          "axis": "Category",
+          "name": "Meat"
+        },
+        {
+          "tag_id": 31,
+          "axis": "Difficulty",
+          "name": "Beginner"
+        },
+        {
+          "tag_id": 32,
+          "axis": "Difficulty",
+          "name": "Experienced"
+        },
+        {
+          "tag_id": 30,
+          "axis": "Meal",
+          "name": "Dinner"
+        },
+        {
+          "tag_id": 6,
+          "axis": "Series",
+          "name": "With Babish"
+        }
+      ],
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "recipe_id": 1522,
+          "name": "$200 beef wellington",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1524,
+          "name": "$20 beef wellington",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1525,
+          "name": "beef prep ($20 wellington)",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1527,
+          "name": "butter block",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1526,
+          "name": "mushroom duxelle",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1523,
+          "name": "mushroom duxelles",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1528,
+          "name": "red miso puff pastry",
+          "image_link": null,
+          "raw_ingredient_list": "",
           "raw_procedure": ""
         }
       ]
@@ -591,7 +964,7 @@
   {
     "episode_id": "christmas-turkey-inspired-by-national-lampoon's-christmas-vacation",
     "name": "Christmas Turkey inspired by National Lampoon's Christmas Vacation",
-    "published_date": "2025-11-26",
+    "published_date": "2025-11-29",
     "youtube_link": "https://youtube.com/watch?v=w0pZ7MWajW8&si=r2TmnS9oJhDHIbp5",
     "official_link": "https://www.babi.sh/recipes/christmas-turkey-inspired-by-national-lampoon's-christmas-vacation",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1764189007/giyklwlgdj7x3nwbi38c.webp",
@@ -623,7 +996,13 @@
           "name": "Movie"
         }
       ],
-      "guests": [],
+      "guests": [
+        {
+          "guest_id": 82,
+          "name": "Olivia Tiedemann",
+          "image_link": null
+        }
+      ],
       "inspired_by": [
         {
           "reference_id": 558,
@@ -818,16 +1197,6 @@
           "name": "Meat"
         },
         {
-          "tag_id": 19,
-          "axis": "Category",
-          "name": "Side Dish"
-        },
-        {
-          "tag_id": 31,
-          "axis": "Difficulty",
-          "name": "Beginner"
-        },
-        {
           "tag_id": 30,
           "axis": "Meal",
           "name": "Dinner"
@@ -848,7 +1217,7 @@
       "recipes": [
         {
           "recipe_id": 1206,
-          "name": "batter dredge",
+          "name": "Babish's Ultimate Fried Chicken",
           "image_link": null,
           "raw_ingredient_list": "flour\nchicken broken down into ten pieces\nbuttermilk\nsalt\npotato starch\nwhite rice flour\nliquid egg whites",
           "raw_procedure": ""
@@ -893,7 +1262,64 @@
       ],
       "guests": [],
       "inspired_by": [],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1529,
+          "name": "bacon",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1536,
+          "name": "beurre mont\u00e9 sauce",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1531,
+          "name": "bouquet garni",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1535,
+          "name": "buttered noodles",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1533,
+          "name": "butter mushrooms",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1532,
+          "name": "coq au vin sauce",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1534,
+          "name": "pearl onions",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1530,
+          "name": "vegetables",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -1057,7 +1483,71 @@
       ],
       "guests": [],
       "inspired_by": [],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1539,
+          "name": "boneless short ribs",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1544,
+          "name": "filet mignon: steak tartare",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1543,
+          "name": "hanger steak",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1540,
+          "name": "hot jus",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1541,
+          "name": "london broil",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1538,
+          "name": "new york strip steak",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1542,
+          "name": "ribeye",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1545,
+          "name": "steak",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1537,
+          "name": "steak cuts: technique",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -1106,7 +1596,71 @@
           "image_link": null
         }
       ],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1550,
+          "name": "babish version",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1547,
+          "name": "cake",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1546,
+          "name": "fallout: the vault dweller's official cookbook",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1554,
+          "name": "fondant coating",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1548,
+          "name": "marshmallow cream cheese frosting",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1553,
+          "name": "spiced cake soak",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1551,
+          "name": "sponge cake batter",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1552,
+          "name": "whipped white chocolate ganache",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1549,
+          "name": "white chocolate fondant coating",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -1198,7 +1752,71 @@
       ],
       "guests": [],
       "inspired_by": [],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1557,
+          "name": "cheese sauce",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1555,
+          "name": "level 3: blue box",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1558,
+          "name": "level 4: evaporated milk",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1559,
+          "name": "level 5: one pot inspired by america's test kitchen",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1560,
+          "name": "level 6: deep fried mac & cheese",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1561,
+          "name": "level 7: classic mornay",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1562,
+          "name": "level 8: molecular gastronomy - sodium citrate",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1563,
+          "name": "level 9: sparing no expense",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1556,
+          "name": "mac",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -1580,7 +2198,50 @@
           "image_link": null
         }
       ],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1566,
+          "name": "eggplant sandwich",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1567,
+          "name": "ham & sweet potato sandwich",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1568,
+          "name": "lettuce & honey ham sandwich",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1564,
+          "name": "quadruple stacked ham sandwich",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1565,
+          "name": "scampi shrimp",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1569,
+          "name": "shrimp & avocado sandwich",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -1633,7 +2294,13 @@
           "name": "Anime"
         }
       ],
-      "guests": [],
+      "guests": [
+        {
+          "guest_id": 76,
+          "name": "Alvin Zhou",
+          "image_link": null
+        }
+      ],
       "inspired_by": [
         {
           "reference_id": 568,
@@ -1647,7 +2314,7 @@
       "recipes": [
         {
           "recipe_id": 1216,
-          "name": "assembly",
+          "name": "4-Cheese Lasagna",
           "image_link": null,
           "raw_ingredient_list": "hot italian sausage casings removed\nsweet italian sausage casings removed\nmilk ricotta cheese\nno boil lasagna noodles for flat layers\nlow moisture mozzarella thinly\npecorino cheese\nparmesan",
           "raw_procedure": ""
@@ -1695,7 +2362,13 @@
           "name": "Anything"
         }
       ],
-      "guests": [],
+      "guests": [
+        {
+          "guest_id": 76,
+          "name": "Alvin Zhou",
+          "image_link": null
+        }
+      ],
       "inspired_by": [],
       "recipes": [
         {
@@ -2302,7 +2975,13 @@
           "name": "Anything"
         }
       ],
-      "guests": [],
+      "guests": [
+        {
+          "guest_id": 76,
+          "name": "Alvin Zhou",
+          "image_link": null
+        }
+      ],
       "inspired_by": [],
       "recipes": [
         {
@@ -2317,7 +2996,7 @@
   },
   {
     "episode_id": "classic-fettucine-alfredo",
-    "name": "Classic Fettucine Alfredo",
+    "name": "Classic Fettuccine Alfredo",
     "published_date": "2025-06-06",
     "youtube_link": "https://www.youtube.com/watch?v=2Xx1QY_WVs0&pp=ygUhY2xhc3NpYyBmZXR0dWNjaW5lIGFsZnJlZG8gYmFiaXNo",
     "official_link": "https://www.babi.sh/recipes/classic-fettucine-alfredo",
@@ -2355,12 +3034,27 @@
           "name": "Anything"
         }
       ],
-      "guests": [],
-      "inspired_by": [],
+      "guests": [
+        {
+          "guest_id": 76,
+          "name": "Alvin Zhou",
+          "image_link": null
+        }
+      ],
+      "inspired_by": [
+        {
+          "reference_id": 649,
+          "type": null,
+          "name": "Alfredo alla Scrofa",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
       "recipes": [
         {
           "recipe_id": 1235,
-          "name": "fettucine alfredo",
+          "name": "fettuccine alfredo",
           "image_link": null,
           "raw_ingredient_list": "eggs\ndouble zero flour\nsemolina flour\ntwenty four month aged parmigiano reggiano\nunsalted high quality butter",
           "raw_procedure": ""
@@ -2408,7 +3102,13 @@
           "name": "Lunch"
         }
       ],
-      "guests": [],
+      "guests": [
+        {
+          "guest_id": 76,
+          "name": "Alvin Zhou",
+          "image_link": null
+        }
+      ],
       "inspired_by": [],
       "recipes": [
         {
@@ -2463,7 +3163,50 @@
       ],
       "guests": [],
       "inspired_by": [],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1571,
+          "name": "burger patties",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1573,
+          "name": "burgers",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1575,
+          "name": "cheese dough balls",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1572,
+          "name": "cheese sauce",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1570,
+          "name": "deep fried burger bomb",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1574,
+          "name": "short rib bones snack",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -2684,7 +3427,13 @@
           "name": "Anything"
         }
       ],
-      "guests": [],
+      "guests": [
+        {
+          "guest_id": 76,
+          "name": "Alvin Zhou",
+          "image_link": null
+        }
+      ],
       "inspired_by": [
         {
           "reference_id": 572,
@@ -2862,7 +3611,50 @@
           "image_link": null
         }
       ],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1577,
+          "name": "duck",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1576,
+          "name": "duck breast salad",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1579,
+          "name": "mango ginger sauce",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1578,
+          "name": "pickled red onion",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1580,
+          "name": "pomegranate sauce",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1581,
+          "name": "salad",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -2933,11 +3725,6 @@
           "name": "Dessert"
         },
         {
-          "tag_id": 19,
-          "axis": "Category",
-          "name": "Side Dish"
-        },
-        {
           "tag_id": 31,
           "axis": "Difficulty",
           "name": "Beginner"
@@ -2953,7 +3740,7 @@
       "recipes": [
         {
           "recipe_id": 1242,
-          "name": "serving",
+          "name": "Agua de Jamaica Granita",
           "image_link": null,
           "raw_ingredient_list": "dried sorrel\ncinnamon orange peel, or a few cloves,\nheavy cream\nsweetened condensed milk",
           "raw_procedure": ""
@@ -3089,7 +3876,50 @@
       ],
       "guests": [],
       "inspired_by": [],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1584,
+          "name": "bourbon pan sauce",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1583,
+          "name": "medallions",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1585,
+          "name": "pork schnitzel",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1586,
+          "name": "pork souvlaki",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1582,
+          "name": "pork tenderloin medallions with bourbon sauce",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1587,
+          "name": "souvlaki spice mix",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -3271,7 +4101,50 @@
           "image_link": null
         }
       ],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1591,
+          "name": "beef patties",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1589,
+          "name": "bun",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1593,
+          "name": "buns",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1588,
+          "name": "japanese-style big mac",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1590,
+          "name": "tangzhong",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1592,
+          "name": "teriyaki sauce",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -3414,7 +4287,13 @@
           "name": "Anything"
         }
       ],
-      "guests": [],
+      "guests": [
+        {
+          "guest_id": 76,
+          "name": "Alvin Zhou",
+          "image_link": null
+        }
+      ],
       "inspired_by": [
         {
           "reference_id": 577,
@@ -3425,7 +4304,78 @@
           "image_link": null
         }
       ],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1599,
+          "name": "cheesecake",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1595,
+          "name": "cheesecake batter",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1598,
+          "name": "egg whites mixture",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1603,
+          "name": "nilla wafer crumble",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1601,
+          "name": "nilla wafer crust",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1596,
+          "name": "sponge cake",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1597,
+          "name": "sponge cake batter",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1600,
+          "name": "strawberry cheesecake",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1602,
+          "name": "strawberry topping",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1594,
+          "name": "traditional cheesecake",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -3484,7 +4434,71 @@
           "image_link": null
         }
       ],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1604,
+          "name": "basic egg salad sandwich",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1606,
+          "name": "egg salad",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1611,
+          "name": "gourmet egg salad",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1610,
+          "name": "homemade yolk mayo",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1607,
+          "name": "japanese-inspired egg salad sandwich",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1605,
+          "name": "sandwich",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1612,
+          "name": "sandwich assembly",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1608,
+          "name": "shokupan dough",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1609,
+          "name": "tangzhong",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -3529,7 +4543,43 @@
       ],
       "guests": [],
       "inspired_by": [],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1616,
+          "name": "cocktail sauce",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1615,
+          "name": "shrimp",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1614,
+          "name": "shrimp cocktail",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1613,
+          "name": "shrimp stock",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1617,
+          "name": "thai coconut curry",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -3574,7 +4624,64 @@
       ],
       "guests": [],
       "inspired_by": [],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1624,
+          "name": "fennel salad",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1625,
+          "name": "filet mignon with chimichurri",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1619,
+          "name": "pasta puttanesca",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1623,
+          "name": "pork tenderloin",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1621,
+          "name": "pork tenderloin with romesco saucerom",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1620,
+          "name": "puttanesca",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1622,
+          "name": "romesco sauce",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1618,
+          "name": "tomato confit",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -3628,7 +4735,64 @@
           "image_link": null
         }
       ],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1632,
+          "name": "boiled eggs",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1626,
+          "name": "deviled eggs",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1627,
+          "name": "hard boiled eggs",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1628,
+          "name": "homemade mayo",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1630,
+          "name": "purple deviled eggs",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1629,
+          "name": "regular deviled eggs",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1633,
+          "name": "scotch eggs",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1631,
+          "name": "waffle soldiers",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -3787,7 +4951,7 @@
       "recipes": [
         {
           "recipe_id": 1250,
-          "name": "cinnamon sugar mixture",
+          "name": "classic cinnamon sugar filling",
           "image_link": null,
           "raw_ingredient_list": "flour\nsugar",
           "raw_procedure": ""
@@ -3893,7 +5057,7 @@
         },
         {
           "recipe_id": 1260,
-          "name": "condiments & toppings",
+          "name": "Burger Sauce",
           "image_link": null,
           "raw_ingredient_list": "milk warm\nbeef\nbutter\nsugar\negg\ntomatoes thinly",
           "raw_procedure": ""
@@ -4337,7 +5501,7 @@
       "recipes": [
         {
           "recipe_id": 1264,
-          "name": "garnish",
+          "name": "Blooming Fish",
           "image_link": null,
           "raw_ingredient_list": "corn starch\npotato starch\nblack sea bass\nneutral oil\nshaoxing cooking wine\nsalt\n40g white vinegar",
           "raw_procedure": ""
@@ -4365,12 +5529,27 @@
           "name": "Anime"
         }
       ],
-      "guests": [],
-      "inspired_by": [],
+      "guests": [
+        {
+          "guest_id": 76,
+          "name": "Alvin Zhou",
+          "image_link": null
+        }
+      ],
+      "inspired_by": [
+        {
+          "reference_id": 596,
+          "type": "tv_show",
+          "name": "Jujutsu Kaisen",
+          "description": "MAPPA anime adapting Gege Akutami's manga about teenage sorcerers fighting curses.",
+          "external_link": null,
+          "image_link": null
+        }
+      ],
       "recipes": [
         {
           "recipe_id": 1265,
-          "name": "ramen in hotpot broth",
+          "name": "chicken meatball hotpot",
           "image_link": null,
           "raw_ingredient_list": "rice\nchrysanthemum\neggs\nboneless skinless chicken thighs",
           "raw_procedure": ""
@@ -4409,7 +5588,78 @@
           "image_link": null
         }
       ],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1636,
+          "name": "chocolate flavor",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1641,
+          "name": "choux pastry :",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1634,
+          "name": "cr\u00e8me anglaise",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1640,
+          "name": "hot fudge sauce",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1635,
+          "name": "ice cream flavors:",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1638,
+          "name": "matcha flavor",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1643,
+          "name": "milk mixture",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1642,
+          "name": "pastry cream",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1639,
+          "name": "strawberry flavor",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1637,
+          "name": "vanilla flavor",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -4507,7 +5757,13 @@
           "name": "Anime"
         }
       ],
-      "guests": [],
+      "guests": [
+        {
+          "guest_id": 76,
+          "name": "Alvin Zhou",
+          "image_link": null
+        }
+      ],
       "inspired_by": [
         {
           "reference_id": 65,
@@ -4528,7 +5784,7 @@
         },
         {
           "recipe_id": 1270,
-          "name": "alvin's version",
+          "name": "Garlic Fried Rice",
           "image_link": null,
           "raw_ingredient_list": "garlic thinly\nparsley\nbeef tallow butter\nbutter\nsalt",
           "raw_procedure": ""
@@ -4784,7 +6040,18 @@
           "name": "Anime"
         }
       ],
-      "guests": [],
+      "guests": [
+        {
+          "guest_id": 76,
+          "name": "Alvin Zhou",
+          "image_link": null
+        },
+        {
+          "guest_id": 77,
+          "name": "Kendall Beach",
+          "image_link": null
+        }
+      ],
       "inspired_by": [
         {
           "reference_id": 593,
@@ -4798,7 +6065,7 @@
       "recipes": [
         {
           "recipe_id": 1276,
-          "name": "ham cheese croissants",
+          "name": "324 layer croissant",
           "image_link": null,
           "raw_ingredient_list": "croissant dough scraps\ncroissant dough\nlayer croissant dough",
           "raw_procedure": ""
@@ -5832,7 +7099,7 @@
       "recipes": [
         {
           "recipe_id": 1294,
-          "name": "beef",
+          "name": "Italian beef (Al's-style top sirloin)",
           "image_link": null,
           "raw_ingredient_list": "top sirloin butt",
           "raw_procedure": ""
@@ -5929,7 +7196,16 @@
         }
       ],
       "guests": [],
-      "inspired_by": [],
+      "inspired_by": [
+        {
+          "reference_id": 639,
+          "type": null,
+          "name": "Fallout",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
       "recipes": [
         {
           "recipe_id": 1296,
@@ -5977,7 +7253,16 @@
         }
       ],
       "guests": [],
-      "inspired_by": [],
+      "inspired_by": [
+        {
+          "reference_id": 640,
+          "type": null,
+          "name": "Shrek 2",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
       "recipes": [
         {
           "recipe_id": 1297,
@@ -6245,7 +7530,16 @@
         }
       ],
       "guests": [],
-      "inspired_by": [],
+      "inspired_by": [
+        {
+          "reference_id": 535,
+          "type": "tv_show",
+          "name": "Futurama",
+          "description": "Matt Groening's animated sci-fi sitcom about a 20th-century delivery boy cryogenically frozen until the year 3000.",
+          "external_link": null,
+          "image_link": null
+        }
+      ],
       "recipes": [
         {
           "recipe_id": 1303,
@@ -6347,11 +7641,6 @@
           "name": "Baking"
         },
         {
-          "tag_id": 15,
-          "axis": "Category",
-          "name": "Quick"
-        },
-        {
           "tag_id": 20,
           "axis": "Category",
           "name": "Sandwiches"
@@ -6393,11 +7682,20 @@
         }
       ],
       "guests": [],
-      "inspired_by": [],
+      "inspired_by": [
+        {
+          "reference_id": 641,
+          "type": null,
+          "name": "Mr. & Mrs. Smith",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
       "recipes": [
         {
           "recipe_id": 1306,
-          "name": "everything bagel ingredients:",
+          "name": "Everything Bagel",
           "image_link": null,
           "raw_ingredient_list": "milk\nflour\nsalt\nsugar\nwhite vinegar\nwhite sesame seeds",
           "raw_procedure": ""
@@ -6525,11 +7823,20 @@
         }
       ],
       "guests": [],
-      "inspired_by": [],
+      "inspired_by": [
+        {
+          "reference_id": 642,
+          "type": null,
+          "name": "2024 Oscars",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
       "recipes": [
         {
           "recipe_id": 1309,
-          "name": "short cut past\u00e9is de nata ingredients:",
+          "name": "Past\u00e9is de Nata",
           "image_link": null,
           "raw_ingredient_list": "milk\nsweet cherries\nsugar\nflour\negg yolks\nbrown sugar or sugar\ncognac or grand marnier",
           "raw_procedure": ""
@@ -6633,11 +7940,20 @@
         }
       ],
       "guests": [],
-      "inspired_by": [],
+      "inspired_by": [
+        {
+          "reference_id": 14,
+          "type": "tv_show",
+          "name": "Bob's Burgers",
+          "description": "Bob Belcher, along with his wife and 3 children, try to run their last hope of holding the family together, which is running Bob's dream restaurant. IMDb.",
+          "external_link": "https://www.imdb.com/title/tt1561755/",
+          "image_link": "https://i.ytimg.com/sh/YFIqnn7YyVe01H23BBPlyA/market.jpg"
+        }
+      ],
       "recipes": [
         {
           "recipe_id": 1312,
-          "name": "buttermilk bacon fat bechamel ingredients:",
+          "name": "Loaded Baked Potato Lasagna",
           "image_link": null,
           "raw_ingredient_list": "flour rolling\nfrozen hashbrowns according package instructions\nthick cut bacon\nbeef\ncheddar cheese",
           "raw_procedure": ""
@@ -6704,11 +8020,20 @@
         }
       ],
       "guests": [],
-      "inspired_by": [],
+      "inspired_by": [
+        {
+          "reference_id": 643,
+          "type": null,
+          "name": "Bluey",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
       "recipes": [
         {
           "recipe_id": 1314,
-          "name": "duck cake:",
+          "name": "Duck Cake",
           "image_link": null,
           "raw_ingredient_list": "butter\nsugar\nflour\nmilk\nbuttermilk\neggs",
           "raw_procedure": ""
@@ -6737,7 +8062,16 @@
         }
       ],
       "guests": [],
-      "inspired_by": [],
+      "inspired_by": [
+        {
+          "reference_id": 568,
+          "type": "tv_show",
+          "name": "One Piece",
+          "description": "Long-running Japanese anime adapting Eiichiro Oda's manga about Monkey D. Luffy's pirate crew searching for the One Piece treasure.",
+          "external_link": null,
+          "image_link": null
+        }
+      ],
       "recipes": [
         {
           "recipe_id": 1315,
@@ -6807,7 +8141,16 @@
         }
       ],
       "guests": [],
-      "inspired_by": [],
+      "inspired_by": [
+        {
+          "reference_id": 644,
+          "type": null,
+          "name": "Mean Girls",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        }
+      ],
       "recipes": [
         {
           "recipe_id": 1317,
@@ -6906,7 +8249,16 @@
         }
       ],
       "guests": [],
-      "inspired_by": [],
+      "inspired_by": [
+        {
+          "reference_id": 535,
+          "type": "tv_show",
+          "name": "Futurama",
+          "description": "Matt Groening's animated sci-fi sitcom about a 20th-century delivery boy cryogenically frozen until the year 3000.",
+          "external_link": null,
+          "image_link": null
+        }
+      ],
       "recipes": [
         {
           "recipe_id": 1321,
@@ -7422,7 +8774,7 @@
       "recipes": [
         {
           "recipe_id": 1337,
-          "name": "baked bacon",
+          "name": "fried chicken cutlets",
           "image_link": null,
           "raw_ingredient_list": "boneless skinless chicken breast butterfied\nbuttermilk\nflour",
           "raw_procedure": ""
@@ -7523,7 +8875,7 @@
       "recipes": [
         {
           "recipe_id": 1339,
-          "name": "basil gel",
+          "name": "Chicago Deep-Dish Pizza",
           "image_link": null,
           "raw_ingredient_list": "gelatin sheets\nflour\ndeli style low moisture mozzarella cheese\ntomatoes on the vine\ntomato paste\nvegetable oil more for greasing\nbasil",
           "raw_procedure": ""
@@ -7918,39 +9270,6 @@
     }
   },
   {
-    "episode_id": "carnitas",
-    "name": "CARNITAS",
-    "published_date": "2023-05-12",
-    "youtube_link": "https://www.youtube.com/watch?v=FEZioC-qMd4",
-    "official_link": "https://www.babi.sh/recipes/carnitas",
-    "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1690352698/ldnpp7ukrrvaiormf4ux.webp",
-    "related": {
-      "tags": [
-        {
-          "tag_id": 21,
-          "axis": "Category",
-          "name": "Meat"
-        },
-        {
-          "tag_id": 13,
-          "axis": "Series",
-          "name": "Basics"
-        }
-      ],
-      "guests": [],
-      "inspired_by": [],
-      "recipes": [
-        {
-          "recipe_id": 1349,
-          "name": "carnitas cuban sliders",
-          "image_link": null,
-          "raw_ingredient_list": "pork shoulder cut into two three inch pieces\nlard\ncoca cola preferably mexican\ncorn tortillas\nevaporated milk",
-          "raw_procedure": ""
-        }
-      ]
-    }
-  },
-  {
     "episode_id": "glowing-popsicles-the-mandalorian",
     "name": "Glowing Popsicles inspired by The Mandalorian",
     "published_date": "2023-05-12",
@@ -8051,7 +9370,7 @@
   },
   {
     "episode_id": "barbacoa-de-res",
-    "name": "BARBACOA DE RES CON CONSOM\u00c9",
+    "name": "Barbacoa Tacos and Gringas de Barbacoa with Consom\u00e9 | Pru\u00e9balo with Rick Martinez",
     "published_date": "2023-05-05",
     "youtube_link": "https://www.youtube.com/watch?v=Ya5u2uC3d2U",
     "official_link": "https://www.babi.sh/recipes/barbacoa-de-res",
@@ -8079,6 +9398,39 @@
           "name": "serving",
           "image_link": null,
           "raw_ingredient_list": "cloves\ncilantro tender stems\nunflavored pulque\ndried garbanzo beans , dried",
+          "raw_procedure": ""
+        }
+      ]
+    }
+  },
+  {
+    "episode_id": "carnitas",
+    "name": "Easy Carnitas",
+    "published_date": "2023-05-02",
+    "youtube_link": "https://www.youtube.com/watch?v=FEZioC-qMd4",
+    "official_link": "https://www.babi.sh/recipes/carnitas",
+    "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1690352698/ldnpp7ukrrvaiormf4ux.webp",
+    "related": {
+      "tags": [
+        {
+          "tag_id": 21,
+          "axis": "Category",
+          "name": "Meat"
+        },
+        {
+          "tag_id": 13,
+          "axis": "Series",
+          "name": "Basics"
+        }
+      ],
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "recipe_id": 1349,
+          "name": "carnitas",
+          "image_link": null,
+          "raw_ingredient_list": "pork shoulder cut into two three inch pieces\nlard\ncoca cola preferably mexican\ncorn tortillas\nevaporated milk",
           "raw_procedure": ""
         }
       ]
@@ -8553,7 +9905,57 @@
       ],
       "guests": [],
       "inspired_by": [],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1649,
+          "name": "applesauce",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1647,
+          "name": "beef filling",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1650,
+          "name": "homemade sour cream",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1648,
+          "name": "mushroom sauerkraut filling",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1645,
+          "name": "pierogoi dough",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1644,
+          "name": "pierogoi dough & assembly",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1646,
+          "name": "potato filling",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -8938,54 +10340,6 @@
     }
   },
   {
-    "episode_id": "beer-can-chicken",
-    "name": "BEER CAN CHICKEN",
-    "published_date": "2022-12-19",
-    "youtube_link": "https://www.youtube.com/watch?v=Xo0v7ZuA9C0",
-    "official_link": "https://www.babi.sh/recipes/beer-can-chicken",
-    "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696392/babishImages/undefined-504592.png",
-    "related": {
-      "tags": [
-        {
-          "tag_id": 21,
-          "axis": "Category",
-          "name": "Meat"
-        },
-        {
-          "tag_id": 15,
-          "axis": "Category",
-          "name": "Quick"
-        },
-        {
-          "tag_id": 31,
-          "axis": "Difficulty",
-          "name": "Beginner"
-        },
-        {
-          "tag_id": 30,
-          "axis": "Meal",
-          "name": "Dinner"
-        },
-        {
-          "tag_id": 13,
-          "axis": "Series",
-          "name": "Basics"
-        }
-      ],
-      "guests": [],
-      "inspired_by": [],
-      "recipes": [
-        {
-          "recipe_id": 1372,
-          "name": "beer chicken",
-          "image_link": null,
-          "raw_ingredient_list": "chicken\nbaby potatoes\nbrussels sprouts\nbeer\nhen of the wood or maitake mushrooms\nchicken stock\ngarlic cloves smashed",
-          "raw_procedure": ""
-        }
-      ]
-    }
-  },
-  {
     "episode_id": "meatballs-30rock",
     "name": "Meatballs inspired by 30 Rock",
     "published_date": "2022-12-19",
@@ -9042,6 +10396,54 @@
           "name": "meatballs",
           "image_link": null,
           "raw_ingredient_list": "beef\npork\nveal\nwhite bread crusts removed, torn into pieces\nbuttermilk\npacked parsley\negg\nuncured pancetta\ngarlic",
+          "raw_procedure": ""
+        }
+      ]
+    }
+  },
+  {
+    "episode_id": "beer-can-chicken",
+    "name": "BEER CAN CHICKEN",
+    "published_date": "2022-12-18",
+    "youtube_link": "https://www.youtube.com/watch?v=Xo0v7ZuA9C0",
+    "official_link": "https://www.babi.sh/recipes/beer-can-chicken",
+    "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696392/babishImages/undefined-504592.png",
+    "related": {
+      "tags": [
+        {
+          "tag_id": 21,
+          "axis": "Category",
+          "name": "Meat"
+        },
+        {
+          "tag_id": 15,
+          "axis": "Category",
+          "name": "Quick"
+        },
+        {
+          "tag_id": 31,
+          "axis": "Difficulty",
+          "name": "Beginner"
+        },
+        {
+          "tag_id": 30,
+          "axis": "Meal",
+          "name": "Dinner"
+        },
+        {
+          "tag_id": 13,
+          "axis": "Series",
+          "name": "Basics"
+        }
+      ],
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "recipe_id": 1372,
+          "name": "beer can chicken",
+          "image_link": null,
+          "raw_ingredient_list": "chicken\nbaby potatoes\nbrussels sprouts\nbeer\nhen of the wood or maitake mushrooms\nchicken stock\ngarlic cloves smashed",
           "raw_procedure": ""
         }
       ]
@@ -9790,7 +11192,7 @@
       "recipes": [
         {
           "recipe_id": 1391,
-          "name": "maconara",
+          "name": "Carbonara Anything",
           "image_link": null,
           "raw_ingredient_list": "dried spaghetti\npanko breadcrumbs\naged yellow cheddar cheese\nguanciale\nhen of the woods or maitake mushrooms cut/torn into bite size pieces\nthick cut bacon\ndried macaroni or cavatappi",
           "raw_procedure": ""
@@ -9889,68 +11291,6 @@
     }
   },
   {
-    "episode_id": "churrons-broad-city",
-    "name": "Churrons inspired by Broad City",
-    "published_date": "2022-08-17",
-    "youtube_link": "https://www.youtube.com/watch?v=JiUsCTy8nEY",
-    "official_link": "https://www.babi.sh/recipes/churrons-broad-city",
-    "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695905/babishImages/undefined-290140.png",
-    "related": {
-      "tags": [
-        {
-          "tag_id": 16,
-          "axis": "Category",
-          "name": "Baking"
-        },
-        {
-          "tag_id": 18,
-          "axis": "Category",
-          "name": "Dessert"
-        },
-        {
-          "tag_id": 15,
-          "axis": "Category",
-          "name": "Quick"
-        },
-        {
-          "tag_id": 33,
-          "axis": "Difficulty",
-          "name": "Difficult"
-        },
-        {
-          "tag_id": 12,
-          "axis": "Series",
-          "name": "Binging"
-        },
-        {
-          "tag_id": 4,
-          "axis": "Source",
-          "name": "TV Show"
-        }
-      ],
-      "guests": [],
-      "inspired_by": [
-        {
-          "reference_id": 546,
-          "type": "tv_show",
-          "name": "Broad City",
-          "description": "Comedy Central series following two best friends navigating life and work in New York City.",
-          "external_link": null,
-          "image_link": null
-        }
-      ],
-      "recipes": [
-        {
-          "recipe_id": 1396,
-          "name": "cinnamon orange churros",
-          "image_link": null,
-          "raw_ingredient_list": "sugar\nbutter\neggs\nmilk\nflour",
-          "raw_procedure": ""
-        }
-      ]
-    }
-  },
-  {
     "episode_id": "empanadas",
     "name": "EMPANADAS",
     "published_date": "2022-08-17",
@@ -10032,12 +11372,12 @@
     }
   },
   {
-    "episode_id": "chocolate-croissants-its-complicated",
-    "name": "Chocolate Croissants inspired by It's Complicated",
-    "published_date": "2022-08-01",
-    "youtube_link": "https://www.youtube.com/watch?v=qvNXPn4ptJM",
-    "official_link": "https://www.babi.sh/recipes/chocolate-croissants-its-complicated",
-    "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696083/babishImages/undefined-824297.png",
+    "episode_id": "churrons-broad-city",
+    "name": "Churrons inspired by Broad City",
+    "published_date": "2022-08-03",
+    "youtube_link": "https://www.youtube.com/watch?v=JiUsCTy8nEY",
+    "official_link": "https://www.babi.sh/recipes/churrons-broad-city",
+    "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695905/babishImages/undefined-290140.png",
     "related": {
       "tags": [
         {
@@ -10051,14 +11391,9 @@
           "name": "Dessert"
         },
         {
-          "tag_id": 32,
+          "tag_id": 33,
           "axis": "Difficulty",
-          "name": "Experienced"
-        },
-        {
-          "tag_id": 28,
-          "axis": "Meal",
-          "name": "Breakfast"
+          "name": "Difficult"
         },
         {
           "tag_id": 12,
@@ -10074,20 +11409,20 @@
       "guests": [],
       "inspired_by": [
         {
-          "reference_id": 623,
-          "type": "movie",
-          "name": "It's Complicated",
-          "description": "Nancy Meyers's 2009 romantic comedy starring Meryl Streep, Alec Baldwin, and Steve Martin.",
+          "reference_id": 546,
+          "type": "tv_show",
+          "name": "Broad City",
+          "description": "Comedy Central series following two best friends navigating life and work in New York City.",
           "external_link": null,
           "image_link": null
         }
       ],
       "recipes": [
         {
-          "recipe_id": 1398,
-          "name": "egg wash",
+          "recipe_id": 1396,
+          "name": "cinnamon orange churros",
           "image_link": null,
-          "raw_ingredient_list": "flour\nmilk\nunsalted european style butter\nchocolate\nsugar\nbutter",
+          "raw_ingredient_list": "sugar\nbutter\neggs\nmilk\nflour",
           "raw_procedure": ""
         }
       ]
@@ -10145,6 +11480,63 @@
           "name": "herb butter",
           "image_link": null,
           "raw_ingredient_list": "lobster\neggs\nbutter\nblack pepper\nparsley\ndill\ngarlic\nmarjoram",
+          "raw_procedure": ""
+        }
+      ]
+    }
+  },
+  {
+    "episode_id": "chocolate-croissants-its-complicated",
+    "name": "Chocolate Croissants inspired by It's Complicated",
+    "published_date": "2022-07-13",
+    "youtube_link": "https://www.youtube.com/watch?v=qvNXPn4ptJM",
+    "official_link": "https://www.babi.sh/recipes/chocolate-croissants-its-complicated",
+    "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696083/babishImages/undefined-824297.png",
+    "related": {
+      "tags": [
+        {
+          "tag_id": 16,
+          "axis": "Category",
+          "name": "Baking"
+        },
+        {
+          "tag_id": 18,
+          "axis": "Category",
+          "name": "Dessert"
+        },
+        {
+          "tag_id": 32,
+          "axis": "Difficulty",
+          "name": "Experienced"
+        },
+        {
+          "tag_id": 28,
+          "axis": "Meal",
+          "name": "Breakfast"
+        },
+        {
+          "tag_id": 12,
+          "axis": "Series",
+          "name": "Binging"
+        }
+      ],
+      "guests": [],
+      "inspired_by": [
+        {
+          "reference_id": 623,
+          "type": "movie",
+          "name": "It's Complicated",
+          "description": "Nancy Meyers's 2009 romantic comedy starring Meryl Streep, Alec Baldwin, and Steve Martin.",
+          "external_link": null,
+          "image_link": null
+        }
+      ],
+      "recipes": [
+        {
+          "recipe_id": 1398,
+          "name": "Chocolate Croissants",
+          "image_link": null,
+          "raw_ingredient_list": "flour\nmilk\nunsalted european style butter\nchocolate\nsugar\nbutter",
           "raw_procedure": ""
         }
       ]
@@ -10408,9 +11800,52 @@
     }
   },
   {
+    "episode_id": "lemon-meringue-pie",
+    "name": "LEMON MERINGUE PIE",
+    "published_date": "2022-05-27",
+    "youtube_link": "https://www.youtube.com/watch?v=f0fmS1WEm3s",
+    "official_link": "https://www.babi.sh/recipes/lemon-meringue-pie",
+    "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696099/babishImages/undefined-443317.png",
+    "related": {
+      "tags": [
+        {
+          "tag_id": 16,
+          "axis": "Category",
+          "name": "Baking"
+        },
+        {
+          "tag_id": 18,
+          "axis": "Category",
+          "name": "Dessert"
+        },
+        {
+          "tag_id": 32,
+          "axis": "Difficulty",
+          "name": "Experienced"
+        },
+        {
+          "tag_id": 13,
+          "axis": "Series",
+          "name": "Basics"
+        }
+      ],
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "recipe_id": 1404,
+          "name": "meringue topping",
+          "image_link": null,
+          "raw_ingredient_list": "sugar\nbutter\nmeyer lemon juice\negg whites\nflour\negg yolks\ncornstarch",
+          "raw_procedure": ""
+        }
+      ]
+    }
+  },
+  {
     "episode_id": "crab-bisque-seinfeld",
     "name": "Crab Bisque inspired by Seinfeld",
-    "published_date": "2022-05-27",
+    "published_date": "2022-05-24",
     "youtube_link": "https://www.youtube.com/watch?v=5kKMB890ABc",
     "official_link": "https://www.babi.sh/recipes/crab-bisque-seinfeld",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695634/babishImages/undefined-585834.png",
@@ -10459,49 +11894,6 @@
           "name": "crab bisque",
           "image_link": null,
           "raw_ingredient_list": "seafood stock\nchicken wings\ndry white wine\ncarrots cut into 3 segments\nfrozen shrimp\ncrab claws\nlump crab\nsteamed lump crab meat",
-          "raw_procedure": ""
-        }
-      ]
-    }
-  },
-  {
-    "episode_id": "lemon-meringue-pie",
-    "name": "LEMON MERINGUE PIE",
-    "published_date": "2022-05-27",
-    "youtube_link": "https://www.youtube.com/watch?v=f0fmS1WEm3s",
-    "official_link": "https://www.babi.sh/recipes/lemon-meringue-pie",
-    "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696099/babishImages/undefined-443317.png",
-    "related": {
-      "tags": [
-        {
-          "tag_id": 16,
-          "axis": "Category",
-          "name": "Baking"
-        },
-        {
-          "tag_id": 18,
-          "axis": "Category",
-          "name": "Dessert"
-        },
-        {
-          "tag_id": 32,
-          "axis": "Difficulty",
-          "name": "Experienced"
-        },
-        {
-          "tag_id": 13,
-          "axis": "Series",
-          "name": "Basics"
-        }
-      ],
-      "guests": [],
-      "inspired_by": [],
-      "recipes": [
-        {
-          "recipe_id": 1404,
-          "name": "meringue topping",
-          "image_link": null,
-          "raw_ingredient_list": "sugar\nbutter\nmeyer lemon juice\negg whites\nflour\negg yolks\ncornstarch",
           "raw_procedure": ""
         }
       ]
@@ -10661,7 +12053,7 @@
   },
   {
     "episode_id": "corned-beef",
-    "name": "CORNED BEEF",
+    "name": "Corned Beef",
     "published_date": "2022-03-17",
     "youtube_link": "https://www.youtube.com/watch?v=IDkuwVvZpWM",
     "official_link": "https://www.babi.sh/recipes/corned-beef",
@@ -10823,7 +12215,7 @@
   },
   {
     "episode_id": "chicken-piccata",
-    "name": "CHICKEN PICCATA",
+    "name": "Chicken Piccata",
     "published_date": "2022-02-18",
     "youtube_link": "https://www.youtube.com/watch?v=ZqEqtmMY1M0",
     "official_link": "https://www.babi.sh/recipes/chicken-piccata",
@@ -10866,7 +12258,7 @@
       "recipes": [
         {
           "recipe_id": 1412,
-          "name": "babish chicken picatta",
+          "name": "Chicken Piccata",
           "image_link": null,
           "raw_ingredient_list": "flour\nchicken stock preferably homemade\ncapellini spaghetti, or angel hair pasta,\nlinguini\nunsalted butter &\ndry white wine\ncapers\ncapers drained",
           "raw_procedure": ""
@@ -11245,7 +12637,78 @@
       ],
       "guests": [],
       "inspired_by": [],
-      "recipes": []
+      "recipes": [
+        {
+          "recipe_id": 1654,
+          "name": "basil oil",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1656,
+          "name": "browned butter sage",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1653,
+          "name": "confit tomatoes",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1658,
+          "name": "cornish hen",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1657,
+          "name": "cornish hen & sauces",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1655,
+          "name": "deconstructed pesto",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1660,
+          "name": "gremolata",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1659,
+          "name": "simple mustard pan sauce",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1652,
+          "name": "whipped ricotta",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1651,
+          "name": "whipped ricotta & toppings",
+          "image_link": null,
+          "raw_ingredient_list": "",
+          "raw_procedure": ""
+        }
+      ]
     }
   },
   {
@@ -11755,7 +13218,7 @@
   },
   {
     "episode_id": "apple-cider-donuts",
-    "name": "APPLE CIDER DONUTS",
+    "name": "Apple Cider Donuts",
     "published_date": "2021-11-09",
     "youtube_link": "https://www.youtube.com/watch?v=baZoJYAQjfI",
     "official_link": "https://www.babi.sh/recipes/apple-cider-donuts",
@@ -11873,105 +13336,6 @@
           "name": "Meat Pie Filling",
           "image_link": null,
           "raw_ingredient_list": "~2 lb chuck roast, trimmed + cut into 1-inch cubes\n\u00bd white onion, diced\n2 tsp fresh thyme leaves\nTo taste kosher salt\nTo taste freshly ground black pepper",
-          "raw_procedure": ""
-        }
-      ]
-    }
-  },
-  {
-    "episode_id": "cake-pops",
-    "name": "CAKE POPS",
-    "published_date": "2021-11-02",
-    "youtube_link": "https://www.youtube.com/watch?v=C_hz9wzeBbY",
-    "official_link": "https://www.babi.sh/recipes/cake-pops",
-    "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695195/babishImages/undefined-881481.png",
-    "related": {
-      "tags": [
-        {
-          "tag_id": 16,
-          "axis": "Category",
-          "name": "Baking"
-        },
-        {
-          "tag_id": 18,
-          "axis": "Category",
-          "name": "Dessert"
-        },
-        {
-          "tag_id": 31,
-          "axis": "Difficulty",
-          "name": "Beginner"
-        },
-        {
-          "tag_id": 13,
-          "axis": "Series",
-          "name": "Basics"
-        }
-      ],
-      "guests": [],
-      "inspired_by": [],
-      "recipes": [
-        {
-          "recipe_id": 1183,
-          "name": "Birthday Cake Pops",
-          "image_link": null,
-          "raw_ingredient_list": "Vanilla Cake, crumbled (see recipe above)\nVanilla Frosting (see recipe above)\n200 g white chocolate, melted\nCookie Crumbles (see recipe above)\nFood-safe decorative popsicle sticks",
-          "raw_procedure": ""
-        },
-        {
-          "recipe_id": 1175,
-          "name": "Chocolate Cake",
-          "image_link": null,
-          "raw_ingredient_list": "100 g cocoa powder + more for coating\n180 g water, boiling\n210 g whole milk, cold\n190 g unsalted butter, room temperature\n450 g sugar\n3 large eggs\n1 tsp vanilla extract\n270 g all-purpose flour\n1 \u00bd tsp baking powder\n\u00be tsp baking soda\n1 tsp kosher salt",
-          "raw_procedure": ""
-        },
-        {
-          "recipe_id": 1177,
-          "name": "Chocolate Peppermint Cake Pops",
-          "image_link": null,
-          "raw_ingredient_list": "500 g dark chocolate, chopped\nChocolate Cake, crumbled (see recipe above)\nPeppermint Frosting (see recipe above)\nFood-safe decorative popsicle sticks\nAs needed peppermint candy, crushed",
-          "raw_procedure": ""
-        },
-        {
-          "recipe_id": 1182,
-          "name": "Cookie Crumbles",
-          "image_link": null,
-          "raw_ingredient_list": "100 g sugar\n25 g brown sugar\n90 g cake flour\n\u00bd tsp baking powder\n\u00bd tsp kosher salt\n20 g rainbow sprinkles\n40 g vegetable oil\n1 Tbsp vanilla extract",
-          "raw_procedure": ""
-        },
-        {
-          "recipe_id": 1176,
-          "name": "Peppermint Frosting",
-          "image_link": null,
-          "raw_ingredient_list": "60 g unsalted butter, room temperature\n180 g powdered sugar\n30 g whole milk\n\u215b tsp peppermint extract",
-          "raw_procedure": ""
-        },
-        {
-          "recipe_id": 1180,
-          "name": "Pumpkin Spice Cake Pops",
-          "image_link": null,
-          "raw_ingredient_list": "Vanilla Cake, crumbled (see recipe above)\nPumpkin Spice Cream Cheese Icing (see recipe above)\n500 g white chocolate, melted\nFood-safe decorative popsicle sticks\nAs needed orange food coloring\nAs needed green food coloring",
-          "raw_procedure": ""
-        },
-        {
-          "recipe_id": 1179,
-          "name": "Pumpkin Spice Cream Cheese Icing",
-          "image_link": null,
-          "raw_ingredient_list": "60 g unsalted butter, room temperature\n120 g cream cheese, room temperature\n120 g powdered sugar\n1 tsp ground cinnamon\n\u00bd tsp ground ginger\n\u00bc tsp ground nutmeg\n\u215b tsp ground allspice\n\u215b tsp ground cloves",
-          "raw_procedure": ""
-        },
-        {
-          "recipe_id": 1178,
-          "name": "Vanilla Cake",
-          "image_link": null,
-          "raw_ingredient_list": "215 g unsalted butter, room temperature\n415 g granulated sugar\n4 large eggs, room temperature\n2 \u00bd Tbsp vanilla paste\n350 g all-purpose flour\n2 \u00bd tsp baking powder\n1 tsp kosher salt\n300 ml buttermilk, room temperature",
-          "raw_procedure": ""
-        },
-        {
-          "recipe_id": 1181,
-          "name": "Vanilla Frosting",
-          "image_link": null,
-          "raw_ingredient_list": "60 g unsalted butter, room temperature\n180 g powdered sugar\n30 g whole milk\n1 tsp vanilla paste or \u00bd tsp vanilla extract\n2 Tbsp rainbow sprinkles",
           "raw_procedure": ""
         }
       ]
@@ -12133,6 +13497,105 @@
           "name": "Root Beer-Braised Short Ribs",
           "image_link": null,
           "raw_ingredient_list": "5-6 bone-in short ribs\nAs needed kosher salt\nAs needed freshly ground black pepper\n1 Tbsp vegetable oil\n1 large yellow onion, chopped\n3 medium carrots, peeled + chopped\n2 celery stalks, chopped\n3 Tbsp tomato paste\n4 cloves garlic, crushed\n\u00bc Cup soy sauce\n1 \u00bd Cups root beer\n3-4 Cup chicken stock\n5-6 sprigs fresh thyme\n3 stems parsley (leaves included)",
+          "raw_procedure": ""
+        }
+      ]
+    }
+  },
+  {
+    "episode_id": "cake-pops",
+    "name": "Cake Pops",
+    "published_date": "2021-10-21",
+    "youtube_link": "https://www.youtube.com/watch?v=C_hz9wzeBbY",
+    "official_link": "https://www.babi.sh/recipes/cake-pops",
+    "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695195/babishImages/undefined-881481.png",
+    "related": {
+      "tags": [
+        {
+          "tag_id": 16,
+          "axis": "Category",
+          "name": "Baking"
+        },
+        {
+          "tag_id": 18,
+          "axis": "Category",
+          "name": "Dessert"
+        },
+        {
+          "tag_id": 31,
+          "axis": "Difficulty",
+          "name": "Beginner"
+        },
+        {
+          "tag_id": 13,
+          "axis": "Series",
+          "name": "Basics"
+        }
+      ],
+      "guests": [],
+      "inspired_by": [],
+      "recipes": [
+        {
+          "recipe_id": 1183,
+          "name": "Birthday Cake Pops",
+          "image_link": null,
+          "raw_ingredient_list": "Vanilla Cake, crumbled (see recipe above)\nVanilla Frosting (see recipe above)\n200 g white chocolate, melted\nCookie Crumbles (see recipe above)\nFood-safe decorative popsicle sticks",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1175,
+          "name": "Chocolate Cake",
+          "image_link": null,
+          "raw_ingredient_list": "100 g cocoa powder + more for coating\n180 g water, boiling\n210 g whole milk, cold\n190 g unsalted butter, room temperature\n450 g sugar\n3 large eggs\n1 tsp vanilla extract\n270 g all-purpose flour\n1 \u00bd tsp baking powder\n\u00be tsp baking soda\n1 tsp kosher salt",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1177,
+          "name": "Chocolate Peppermint Cake Pops",
+          "image_link": null,
+          "raw_ingredient_list": "500 g dark chocolate, chopped\nChocolate Cake, crumbled (see recipe above)\nPeppermint Frosting (see recipe above)\nFood-safe decorative popsicle sticks\nAs needed peppermint candy, crushed",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1182,
+          "name": "Cookie Crumbles",
+          "image_link": null,
+          "raw_ingredient_list": "100 g sugar\n25 g brown sugar\n90 g cake flour\n\u00bd tsp baking powder\n\u00bd tsp kosher salt\n20 g rainbow sprinkles\n40 g vegetable oil\n1 Tbsp vanilla extract",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1176,
+          "name": "Peppermint Frosting",
+          "image_link": null,
+          "raw_ingredient_list": "60 g unsalted butter, room temperature\n180 g powdered sugar\n30 g whole milk\n\u215b tsp peppermint extract",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1180,
+          "name": "Pumpkin Spice Cake Pops",
+          "image_link": null,
+          "raw_ingredient_list": "Vanilla Cake, crumbled (see recipe above)\nPumpkin Spice Cream Cheese Icing (see recipe above)\n500 g white chocolate, melted\nFood-safe decorative popsicle sticks\nAs needed orange food coloring\nAs needed green food coloring",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1179,
+          "name": "Pumpkin Spice Cream Cheese Icing",
+          "image_link": null,
+          "raw_ingredient_list": "60 g unsalted butter, room temperature\n120 g cream cheese, room temperature\n120 g powdered sugar\n1 tsp ground cinnamon\n\u00bd tsp ground ginger\n\u00bc tsp ground nutmeg\n\u215b tsp ground allspice\n\u215b tsp ground cloves",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1178,
+          "name": "Vanilla Cake",
+          "image_link": null,
+          "raw_ingredient_list": "215 g unsalted butter, room temperature\n415 g granulated sugar\n4 large eggs, room temperature\n2 \u00bd Tbsp vanilla paste\n350 g all-purpose flour\n2 \u00bd tsp baking powder\n1 tsp kosher salt\n300 ml buttermilk, room temperature",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 1181,
+          "name": "Vanilla Frosting",
+          "image_link": null,
+          "raw_ingredient_list": "60 g unsalted butter, room temperature\n180 g powdered sugar\n30 g whole milk\n1 tsp vanilla paste or \u00bd tsp vanilla extract\n2 Tbsp rainbow sprinkles",
           "raw_procedure": ""
         }
       ]
@@ -12541,7 +14004,7 @@
   },
   {
     "episode_id": "biscotti",
-    "name": "BISCOTTI",
+    "name": "Biscotti",
     "published_date": "2021-09-24",
     "youtube_link": "https://www.youtube.com/watch?v=g4EkzEKlGOA",
     "official_link": "https://www.babi.sh/recipes/biscotti",
@@ -12579,7 +14042,7 @@
       "recipes": [
         {
           "recipe_id": 1132,
-          "name": "Orange Chocolate Biscotti",
+          "name": "Double Chocolate Orange Biscotti",
           "image_link": null,
           "raw_ingredient_list": "As needed nonstick spray\n200 g all purpose flour\n50 g cocoa powder\n1 tsp baking powder\n\u00bc tsp baking soda\n\u00bd tsp kosher salt\n120 g dark chocolate\n3 large eggs\n175 g granulated sugar\nZest of 1 large orange\nOptional: \u00bc tsp orange extract\n1 tsp vanilla extract\nOrange glaze (see recipe below)",
           "raw_procedure": ""
@@ -12732,7 +14195,7 @@
   },
   {
     "episode_id": "calistyle-burrito",
-    "name": "CALI-STYLE BURRITO",
+    "name": "California Style Burritos",
     "published_date": "2021-09-13",
     "youtube_link": "https://www.youtube.com/watch?v=55YUKZK7BXg",
     "official_link": "https://www.babi.sh/recipes/calistyle-burrito",
@@ -12765,7 +14228,13 @@
           "name": "Basics"
         }
       ],
-      "guests": [],
+      "guests": [
+        {
+          "guest_id": 81,
+          "name": "Jess",
+          "image_link": null
+        }
+      ],
       "inspired_by": [],
       "recipes": [
         {
@@ -13018,7 +14487,7 @@
   },
   {
     "episode_id": "chiles-rellenos",
-    "name": "CHILES RELLENOS",
+    "name": "Chiles Rellenos",
     "published_date": "2021-08-26",
     "youtube_link": "https://www.youtube.com/watch?v=gAKW8RB6aeU",
     "official_link": "https://www.babi.sh/recipes/chiles-rellenos",
@@ -14622,7 +16091,7 @@
   },
   {
     "episode_id": "corn-dogs",
-    "name": "CORN DOGS",
+    "name": "Corn Dogs",
     "published_date": "2021-05-27",
     "youtube_link": "https://www.youtube.com/watch?v=zGT45vVJNso",
     "official_link": "https://www.babi.sh/recipes/corn-dogs",
@@ -15020,7 +16489,7 @@
   },
   {
     "episode_id": "bacon",
-    "name": "HOMEMADE BACON",
+    "name": "Homemade Bacon",
     "published_date": "2021-04-30",
     "youtube_link": "https://www.youtube.com/watch?v=TUh4Z2li1UM",
     "official_link": "https://www.babi.sh/recipes/bacon",
@@ -15073,7 +16542,7 @@
         },
         {
           "recipe_id": 996,
-          "name": "Healthy-esque BLT ingredients",
+          "name": "Healthy-esque BLT",
           "image_link": null,
           "raw_ingredient_list": "2 classic bacon slices\n2 slices tomato\nAs needed kosher salt\n2 slices seeded whole wheat bread\n1 Tbsp unsalted butter\n1 Tbsp avocado mayonnaise\n\u00bc cup (loosely packed) alfalfa sprouts\nTo taste kosher salt\nTo taste freshly ground black pepper",
           "raw_procedure": ""
@@ -15405,7 +16874,7 @@
   },
   {
     "episode_id": "creme-caramel",
-    "name": "CR\u00c8ME CARAMEL",
+    "name": "Cr\u00e8me Caramel",
     "published_date": "2021-04-08",
     "youtube_link": "https://www.youtube.com/watch?v=ihS8__strtM",
     "official_link": "https://www.babi.sh/recipes/creme-caramel",
@@ -15423,7 +16892,13 @@
           "name": "Basics"
         }
       ],
-      "guests": [],
+      "guests": [
+        {
+          "guest_id": 84,
+          "name": "Dominique Ansel",
+          "image_link": null
+        }
+      ],
       "inspired_by": [],
       "recipes": [
         {
@@ -15602,7 +17077,7 @@
   {
     "episode_id": "chefs-choice-platter-monster-hunter-world",
     "name": "The Chef's Choice Platter inspired by Monster Hunter: World",
-    "published_date": "2021-03-31",
+    "published_date": "2021-03-30",
     "youtube_link": "https://www.youtube.com/watch?v=__qtH1ly2Sg",
     "official_link": "https://www.babi.sh/recipes/chefs-choice-platter-monster-hunter-world",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696043/babishImages/undefined-419307.png",
@@ -15990,17 +17465,17 @@
           "raw_procedure": ""
         },
         {
-          "recipe_id": 936,
-          "name": "https://www.seriouseats.com/recipes/2016/05/dry-toasted-sugar-granulated-caramel-recipe.html",
-          "image_link": null,
-          "raw_ingredient_list": "4 cups white granulated sugar",
-          "raw_procedure": ""
-        },
-        {
           "recipe_id": 935,
           "name": "Improved Shortbread Biscuit",
           "image_link": null,
           "raw_ingredient_list": "5 oz unsalted butter, very soft + more for greasing\nAs needed demerara sugar\n2 oz browned butter, soft (see recipe below)\n\u00be tsp kosher salt\n5 oz toasted sugar (see recipe below)\n9.5 oz all purpose flour\n2 oz cornstarch",
+          "raw_procedure": ""
+        },
+        {
+          "recipe_id": 936,
+          "name": "Toasted Sugar",
+          "image_link": null,
+          "raw_ingredient_list": "4 cups white granulated sugar",
           "raw_procedure": ""
         }
       ]
@@ -16008,7 +17483,7 @@
   },
   {
     "episode_id": "birria-tacos",
-    "name": "BIRRIA TACOS",
+    "name": "Birria Tacos",
     "published_date": "2021-03-11",
     "youtube_link": "https://www.youtube.com/watch?v=pQmSrlIbULk",
     "official_link": "https://www.babi.sh/recipes/birria-tacos",
@@ -16225,7 +17700,7 @@
   },
   {
     "episode_id": "biscuits-and-gravy",
-    "name": "BISCUITS AND GRAVY",
+    "name": "Biscuits & Gravy",
     "published_date": "2021-02-25",
     "youtube_link": "https://www.youtube.com/watch?v=NMbMT9tY8-Q",
     "official_link": "https://www.babi.sh/recipes/biscuits-and-gravy",
@@ -16376,7 +17851,7 @@
   },
   {
     "episode_id": "advanced-grilled-cheese",
-    "name": "ADVANCED GRILLED CHEESE",
+    "name": "Advanced Grilled Cheese",
     "published_date": "2021-02-19",
     "youtube_link": "https://www.youtube.com/watch?v=Zo7sRijXG00",
     "official_link": "https://www.babi.sh/recipes/advanced-grilled-cheese",
@@ -17760,7 +19235,7 @@
   },
   {
     "episode_id": "chicken-parmesan",
-    "name": "CHICKEN PARMESAN",
+    "name": "Chicken Parmesan",
     "published_date": "2020-12-10",
     "youtube_link": "https://www.youtube.com/watch?v=ZrR0VbqNdW8",
     "official_link": "https://www.babi.sh/recipes/chicken-parmesan",
@@ -18114,7 +19589,7 @@
   },
   {
     "episode_id": "andrewsohlathanksgiving",
-    "name": "ANDREW & SOHLA THANKSGIVING RECIPES",
+    "name": "Thanksgiving Recipe Livestream with Sohla El-Waylly",
     "published_date": "2020-11-20",
     "youtube_link": "https://www.youtube.com/watch?v=tXNuz8nXYGk",
     "official_link": "https://www.babi.sh/recipes/andrewsohlathanksgiving",
@@ -18132,12 +19607,25 @@
           "name": "Basics"
         }
       ],
-      "guests": [],
+      "guests": [
+        {
+          "guest_id": 78,
+          "name": "Sohla El-Waylly",
+          "image_link": null
+        }
+      ],
       "inspired_by": [],
       "recipes": [
         {
+          "recipe_id": 809,
+          "name": "Elote Spoon Bread",
+          "image_link": null,
+          "raw_ingredient_list": "1 \u2154 cups fresh or frozen corn kernels",
+          "raw_procedure": ""
+        },
+        {
           "recipe_id": 808,
-          "name": "Casserole Dish Prep",
+          "name": "Elote Spoon Bread Pan Prep",
           "image_link": null,
           "raw_ingredient_list": "2 tbsp mayonnaise\n\u00bc cup finely crumbled cotija cheese",
           "raw_procedure": ""
@@ -18175,13 +19663,6 @@
           "name": "The Caramel Topping",
           "image_link": null,
           "raw_ingredient_list": "5 tbsp (70 grams) unsalted butter, divided\n1 \u00bc cup plus 2 tbsp (250g plus 28g) granulated sugar\n2 medium oranges, scrubbed\n1 cup Blue Moon Belgian White Wheat Ale\n\u00bc tsp Diamond Crystal kosher salt",
-          "raw_procedure": ""
-        },
-        {
-          "recipe_id": 809,
-          "name": "The Casserole",
-          "image_link": null,
-          "raw_ingredient_list": "1 \u2154 cups fresh or frozen corn kernels",
           "raw_procedure": ""
         },
         {
@@ -18759,7 +20240,7 @@
       "recipes": [
         {
           "recipe_id": 1431,
-          "name": "hazelnuts baklava",
+          "name": "chocolate hazelnut baklava",
           "image_link": null,
           "raw_ingredient_list": "phyllo dough\nhazelnuts\npistachio de shelled\nbutter\nsugar\ndark chocolate\nhoney",
           "raw_procedure": ""
@@ -19713,11 +21194,6 @@
           "name": "Difficult"
         },
         {
-          "tag_id": 28,
-          "axis": "Meal",
-          "name": "Breakfast"
-        },
-        {
           "tag_id": 12,
           "axis": "Series",
           "name": "Binging"
@@ -19809,7 +21285,7 @@
   },
   {
     "episode_id": "cheese-fondue",
-    "name": "CHEEESE FONDUE",
+    "name": "Cheese Fondue",
     "published_date": "2020-07-23",
     "youtube_link": "https://www.youtube.com/watch?v=_X-Mm8h1AHM",
     "official_link": "https://www.babi.sh/recipes/cheese-fondue",
@@ -19837,7 +21313,7 @@
       "recipes": [
         {
           "recipe_id": 1440,
-          "name": "fonduta",
+          "name": "Cheese Fondue",
           "image_link": null,
           "raw_ingredient_list": "desired cheese\nyellow & white cheddar\nfontina cheese\ndry white wine\nbeer\nmilk\nbutter",
           "raw_procedure": ""
@@ -20917,7 +22393,13 @@
           "name": "TV Show"
         }
       ],
-      "guests": [],
+      "guests": [
+        {
+          "guest_id": 80,
+          "name": "H. Jon Benjamin",
+          "image_link": null
+        }
+      ],
       "inspired_by": [
         {
           "reference_id": 23,
@@ -20996,7 +22478,7 @@
   },
   {
     "episode_id": "chimichangas",
-    "name": "CHIMICHANGAS",
+    "name": "Deadpool's Chimichangas",
     "published_date": "2020-04-28",
     "youtube_link": "https://www.youtube.com/watch?v=szFLA4_pwew",
     "official_link": "https://www.babi.sh/recipes/chimichangas",
@@ -21010,11 +22492,20 @@
         }
       ],
       "guests": [],
-      "inspired_by": [],
+      "inspired_by": [
+        {
+          "reference_id": 54,
+          "type": "movie",
+          "name": "Deadpool",
+          "description": "A wisecracking mercenary gets experimented on and becomes immortal but ugly, and sets out to track down the man who ruined his looks. IMDb.",
+          "external_link": "https://www.imdb.com/title/tt1431045/",
+          "image_link": "https://img.youtube.com/vi/AEIKS4IbfNk/mqdefault.jpg"
+        }
+      ],
       "recipes": [
         {
           "recipe_id": 1450,
-          "name": "deep frying",
+          "name": "Chimichangas",
           "image_link": null,
           "raw_ingredient_list": "chicken",
           "raw_procedure": ""
@@ -21138,7 +22629,7 @@
   },
   {
     "episode_id": "ben-wyatt-calzones",
-    "name": "Calzones inspired by Parks & Rec",
+    "name": "Ben Wyatt's Calzones",
     "published_date": "2020-04-15",
     "youtube_link": "https://www.youtube.com/watch?v=PvgCEifW7Jo",
     "official_link": "https://www.babi.sh/recipes/ben-wyatt-calzones",
@@ -21174,17 +22665,17 @@
       ],
       "recipes": [
         {
-          "recipe_id": 679,
-          "name": "Crust",
+          "recipe_id": 680,
+          "name": "Apple Pie Filling",
           "image_link": null,
-          "raw_ingredient_list": "300 grams all-purpose flour\n2 Tbsp sugar\n1 tsp kosher salt\n225 grams unsalted butter, cold & cubed\n6-8 Tbsp ice water",
+          "raw_ingredient_list": "2lbs honey crisp apples, peeled and sliced\n1 lemon, juiced\n\u00be cup sugar\n1 \u00bd Tbsp cornstarch\n\u00bc cup brown sugar\n2 tsp cinnamon\n\u00bd tsp ground ginger\n\u00bd tsp allspice\n\u00bc tsp ground clove\nZest of 1 lemon\n1 tsp kosher salt\n1 egg white\nDemerara sugar",
           "raw_procedure": ""
         },
         {
-          "recipe_id": 680,
-          "name": "Filling",
+          "recipe_id": 679,
+          "name": "Pie Dough Crust",
           "image_link": null,
-          "raw_ingredient_list": "2lbs honey crisp apples, peeled and sliced\n1 lemon, juiced\n\u00be cup sugar\n1 \u00bd Tbsp cornstarch\n\u00bc cup brown sugar\n2 tsp cinnamon\n\u00bd tsp ground ginger\n\u00bd tsp allspice\n\u00bc tsp ground clove\nZest of 1 lemon\n1 tsp kosher salt\n1 egg white\nDemerara sugar",
+          "raw_ingredient_list": "300 grams all-purpose flour\n2 Tbsp sugar\n1 tsp kosher salt\n225 grams unsalted butter, cold & cubed\n6-8 Tbsp ice water",
           "raw_procedure": ""
         },
         {
@@ -21497,7 +22988,7 @@
       "recipes": [
         {
           "recipe_id": 1456,
-          "name": "chocolate chip cookies",
+          "name": "chickpea (aquafaba) chocolate chip cookies",
           "image_link": null,
           "raw_ingredient_list": "chickpeas\nflour\ncan crushed tomatoes\ngarbanzo beans\nliquid from chickpeas",
           "raw_procedure": ""
@@ -22635,7 +24126,7 @@
     "episode_id": "beer-steamed-chili-dogs",
     "name": "Chili Dogs inspired by The Irishman",
     "published_date": "2019-12-17",
-    "youtube_link": "https://www.youtube.com/watch?v=c0A1bkF4mKM&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/c0A1bkF4mKM/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=c0A1bkF4mKM",
     "official_link": "https://www.babi.sh/recipes/beer-steamed-chili-dogs",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695792/babishImages/undefined-202970.png",
     "related": {
@@ -23495,100 +24986,6 @@
     }
   },
   {
-    "episode_id": "crepessuzette",
-    "name": "Cr\u00eapes Suzette inspired by Talladega Nights",
-    "published_date": "2019-10-24",
-    "youtube_link": "https://www.youtube.com/watch?v=Z1kR6SIr1XA&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/Z1kR6SIr1XA/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
-    "official_link": "https://www.babi.sh/recipes/crepessuzette",
-    "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695392/babishImages/undefined-957845.png",
-    "related": {
-      "tags": [
-        {
-          "tag_id": 18,
-          "axis": "Category",
-          "name": "Dessert"
-        },
-        {
-          "tag_id": 33,
-          "axis": "Difficulty",
-          "name": "Difficult"
-        },
-        {
-          "tag_id": 12,
-          "axis": "Series",
-          "name": "Binging"
-        },
-        {
-          "tag_id": 5,
-          "axis": "Source",
-          "name": "Movie"
-        }
-      ],
-      "guests": [],
-      "inspired_by": [
-        {
-          "reference_id": 137,
-          "type": "movie",
-          "name": "Talladega Nights: The Ballad of Ricky Bobby",
-          "description": "Number one NASCAR driver Ricky Bobby stays atop the heap thanks to a pact with his best friend and teammate, Cal Naughton, Jr. But when a French Formula One driver, makes his way up the ladder, Ricky Bobby's talent and devotion are put to the test.",
-          "external_link": "https://www.imdb.com/title/tt0415306/",
-          "image_link": "https://img.youtube.com/vi/8cWRHcl5GFI/mqdefault.jpg"
-        }
-      ],
-      "recipes": [
-        {
-          "recipe_id": 575,
-          "name": "Breakfast Cr\u00eapes",
-          "image_link": "",
-          "raw_ingredient_list": "1 egg\nSwiss cheese, grated\nKosher salt\nFreshly ground pepper\nFreshly minced chives\nHomemade chili oil (ingredients below)",
-          "raw_procedure": "For making the actual cr\u00eapes, follow either the classic cr\u00eape recipe or the buckwheat cr\u00eape recipe, which are both listed above.\nOnce you flip the cr\u00eape, add a generous grating of swiss cheese to the top of the cr\u00eape.\nCoat a pan with butter and fry one egg sunny-side up. Once the egg is fried, add it on top center of the cr\u00eape.\nFold four edges up around the center to make a square. Season with kosher salt, freshly ground pepper, and freshly minced chives.\nIf desired, add some homemade chili oil (recipe listed below) to top everything off."
-        },
-        {
-          "recipe_id": 574,
-          "name": "Buckwheat Cr\u00eapes",
-          "image_link": "",
-          "raw_ingredient_list": "2 large eggs\n\u00bd cup water\n\u00be cup milk\n3 Tbsp melted butter\nSalt\n1 cup buckwheat flour",
-          "raw_procedure": "In a blender, combine 2 large eggs, \u00bd cup of water. \u00be cup of milk, 3 Tbsp of melted butter, a pinch of salt, and 1 cup of buckwheat flour.\nPulse the mixture 10-12 times on low power until combined and then scrape down the sides for any loose bits of flour. Pulse a couple more times until you have a thin pancake batter. Let the mixture sit in the refrigerator for one hour to get rid of any bubbles.\nUsing a non-stick skillet or a cr\u00eape maker that is coated with butter, pour your batter in and slowly rotate the pan until the entire surface is covered with batter and it is nice and thin.\nLet cook for 30-60 seconds over medium high heat until it is dappled brown. Flip the cr\u00eape and let cook for an additional 15-30 seconds until it is cooked through."
-        },
-        {
-          "recipe_id": 576,
-          "name": "Chili Oil",
-          "image_link": "",
-          "raw_ingredient_list": "Szechuan peppercorns\nStar anise pods\nCassia bark\nKnob of peeled ginger\n3 lightly crushed cloves of garlic\nCanola oil (or any neutral flavored oil)\nSichuan chili",
-          "raw_procedure": "In a small saucepan, throw a handful of Szechuan peppercorns, star anise pods, cassia bark, a knob of peeled ginger, and 3 lightly crushed cloves of garlic.\nPour 2-3 cups of canola oil over the top and gently swirl over medium heat until the oil reaches about 325 degrees Fahrenheit. Strain and pour over about a cup of Sichuan chili flakes into a heat-proof bowl. Give a little mix and set aside for about 30 minutes to cool."
-        },
-        {
-          "recipe_id": 573,
-          "name": "Cr\u00eapes",
-          "image_link": "",
-          "raw_ingredient_list": "2 large eggs\n\u00bd cup water\n\u00be cup milk\n3 Tbsp melted butter\nSalt\n1 cup flour",
-          "raw_procedure": "In a blender, combine 2 large eggs, \u00bd cup of water. \u00be cup of milk, 3 Tbsp of melted butter, a pinch of salt, and 1 cup of flour.\nPulse the mixture 10-12 times on low power until combined and then scrape down the sides for any loose bits of flour. Pulse a couple more times until you have a thin pancake batter. Let the mixture sit in the refrigerator for one hour to get rid of any bubbles.\nUsing a non-stick skillet or a cr\u00eape maker that is coated with butter, pour your batter in and slowly rotate the pan until the entire surface is covered with batter and it is nice and thin.\nLet cook for 30-60 seconds over medium high heat until it is dappled brown. Flip the cr\u00eape and let cook for an additional 15-30 seconds until it is cooked through."
-        },
-        {
-          "recipe_id": 579,
-          "name": "Cr\u00eapes Suzette",
-          "image_link": "",
-          "raw_ingredient_list": "3 Tbsp butter\nSugar\n1 orange\nDry sherry or cognac\nVanilla ice cream",
-          "raw_procedure": "For making the actual cr\u00eapes, follow either the classic cr\u00eape recipe or the buckwheat cr\u00eape recipe, which are both listed above.\nMelt 3 tablespoons of butter in a large saut\u00e9 pan and add at least 2 tablespoons of sugar. Then, add the zest and juice from any type of orange of your choice.\nBring the mixture to a simmer and gently swirl to incorporate all of the sugar.\nBegin dunking your pre-prepared cr\u00eapes into the liquid and make sure that it is nicely coated on both sides of the bottom half of the cr\u00eape.\nLay the cr\u00eape down in the liquid and fold it in half double quesadilla style.\nRinse and repeat with two additional cr\u00eapes and arrange them into a quadrant. Cook for about one minute on the first side before flipping to make sure that they are nice and evenly coated.\nLet the cr\u00eapes sit in the pan for 3-5 minutes over medium heat until they are nice and caramelized on one side. Arrange the cr\u00eapes on a plate.\nFlambe over the stovetop with either dry sherry or cognac.\nGently pour over the cr\u00eapes or add one scoop of vanilla ice cream to top everything off."
-        },
-        {
-          "recipe_id": 577,
-          "name": "Mushroom and Gruyere Cr\u00eapes",
-          "image_link": "",
-          "raw_ingredient_list": "5-6 oz mushrooms\n\u00bc small Spanish onion, diced\n1 single garlic clove\n1 Tbsp butter\nDry sherry or cognac\nGruyere cheese\nFreshly picked thyme",
-          "raw_procedure": "Finely chop up \u00bc of a small Spanish onion as well as 1 single clove of garlic.\nOn the stovetop, coat a pan with 1 tablespoon of butter and let melt over medium heat. Then, add the onion and mushrooms and let them saut\u00e9 for 5-7 minutes. Toss occasionally and add salt to draw any excess moisture out of the mushrooms and cook until brown and soft.\nAdd the garlic and saut\u00e9 for an additional 30 seconds. Season with freshly ground pepper and optionally flambe with a bit of dry sherry or cognac.\nFor making the actual cr\u00eapes, follow either the classic cr\u00eape recipe or the buckwheat cr\u00eape recipe, which are both listed above.\nTop off your cr\u00eape with a generous amount of grated Gruyere cheese as well as your mushroom mixture. Fold the cr\u00eape and roll it up like a flat wide open-ended burrito.\nGrate a little bit of extra cheese on top and garnish with freshly picked thyme."
-        },
-        {
-          "recipe_id": 578,
-          "name": "Nutella and Strawberry Cr\u00eapes",
-          "image_link": "",
-          "raw_ingredient_list": "Strawberries\nNutella\nWhipped cream\nChocolate syrup",
-          "raw_procedure": "For making the actual cr\u00eapes, follow either the classic cr\u00eape recipe or the buckwheat cr\u00eape recipe, which are both listed above.\nSlice up some fresh strawberries and set aside for later. To the top of your cr\u00eape, add a generous dollop of Nutella and evenly spread it out to the edges.\nAdd the strawberries to the top of the cr\u00eape. Fold the cr\u00eape in half like a quesadilla and then fold in half one more time. Add some whipped cream and chocolate syrup to top everything off."
-        }
-      ]
-    }
-  },
-  {
     "episode_id": "espressodrinks",
     "name": "ESPRESSO DRINKS",
     "published_date": "2019-10-24",
@@ -23701,6 +25098,100 @@
           "image_link": "",
           "raw_ingredient_list": "Espresso (double shot)\nSteamed milk\nChocolate sauce",
           "raw_procedure": "Start with a double shot of espresso and add to it an equal amount of chocolate sauce. This is a similar deal to the latte with a whole lot of steamed milk and a little bit of foam. Top the drink off with some whipped cream, cocoa powder, chocolate drizzle, a cinnamon stick if desired."
+        }
+      ]
+    }
+  },
+  {
+    "episode_id": "crepessuzette",
+    "name": "Cr\u00eapes Suzette inspired by Talladega Nights",
+    "published_date": "2019-10-22",
+    "youtube_link": "https://www.youtube.com/watch?v=Z1kR6SIr1XA",
+    "official_link": "https://www.babi.sh/recipes/crepessuzette",
+    "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695392/babishImages/undefined-957845.png",
+    "related": {
+      "tags": [
+        {
+          "tag_id": 18,
+          "axis": "Category",
+          "name": "Dessert"
+        },
+        {
+          "tag_id": 33,
+          "axis": "Difficulty",
+          "name": "Difficult"
+        },
+        {
+          "tag_id": 12,
+          "axis": "Series",
+          "name": "Binging"
+        },
+        {
+          "tag_id": 5,
+          "axis": "Source",
+          "name": "Movie"
+        }
+      ],
+      "guests": [],
+      "inspired_by": [
+        {
+          "reference_id": 137,
+          "type": "movie",
+          "name": "Talladega Nights: The Ballad of Ricky Bobby",
+          "description": "Number one NASCAR driver Ricky Bobby stays atop the heap thanks to a pact with his best friend and teammate, Cal Naughton, Jr. But when a French Formula One driver, makes his way up the ladder, Ricky Bobby's talent and devotion are put to the test.",
+          "external_link": "https://www.imdb.com/title/tt0415306/",
+          "image_link": "https://img.youtube.com/vi/8cWRHcl5GFI/mqdefault.jpg"
+        }
+      ],
+      "recipes": [
+        {
+          "recipe_id": 575,
+          "name": "Breakfast Cr\u00eapes",
+          "image_link": "",
+          "raw_ingredient_list": "1 egg\nSwiss cheese, grated\nKosher salt\nFreshly ground pepper\nFreshly minced chives\nHomemade chili oil (ingredients below)",
+          "raw_procedure": "For making the actual cr\u00eapes, follow either the classic cr\u00eape recipe or the buckwheat cr\u00eape recipe, which are both listed above.\nOnce you flip the cr\u00eape, add a generous grating of swiss cheese to the top of the cr\u00eape.\nCoat a pan with butter and fry one egg sunny-side up. Once the egg is fried, add it on top center of the cr\u00eape.\nFold four edges up around the center to make a square. Season with kosher salt, freshly ground pepper, and freshly minced chives.\nIf desired, add some homemade chili oil (recipe listed below) to top everything off."
+        },
+        {
+          "recipe_id": 574,
+          "name": "Buckwheat Cr\u00eapes",
+          "image_link": "",
+          "raw_ingredient_list": "2 large eggs\n\u00bd cup water\n\u00be cup milk\n3 Tbsp melted butter\nSalt\n1 cup buckwheat flour",
+          "raw_procedure": "In a blender, combine 2 large eggs, \u00bd cup of water. \u00be cup of milk, 3 Tbsp of melted butter, a pinch of salt, and 1 cup of buckwheat flour.\nPulse the mixture 10-12 times on low power until combined and then scrape down the sides for any loose bits of flour. Pulse a couple more times until you have a thin pancake batter. Let the mixture sit in the refrigerator for one hour to get rid of any bubbles.\nUsing a non-stick skillet or a cr\u00eape maker that is coated with butter, pour your batter in and slowly rotate the pan until the entire surface is covered with batter and it is nice and thin.\nLet cook for 30-60 seconds over medium high heat until it is dappled brown. Flip the cr\u00eape and let cook for an additional 15-30 seconds until it is cooked through."
+        },
+        {
+          "recipe_id": 576,
+          "name": "Chili Oil",
+          "image_link": "",
+          "raw_ingredient_list": "Szechuan peppercorns\nStar anise pods\nCassia bark\nKnob of peeled ginger\n3 lightly crushed cloves of garlic\nCanola oil (or any neutral flavored oil)\nSichuan chili",
+          "raw_procedure": "In a small saucepan, throw a handful of Szechuan peppercorns, star anise pods, cassia bark, a knob of peeled ginger, and 3 lightly crushed cloves of garlic.\nPour 2-3 cups of canola oil over the top and gently swirl over medium heat until the oil reaches about 325 degrees Fahrenheit. Strain and pour over about a cup of Sichuan chili flakes into a heat-proof bowl. Give a little mix and set aside for about 30 minutes to cool."
+        },
+        {
+          "recipe_id": 573,
+          "name": "Cr\u00eapes",
+          "image_link": "",
+          "raw_ingredient_list": "2 large eggs\n\u00bd cup water\n\u00be cup milk\n3 Tbsp melted butter\nSalt\n1 cup flour",
+          "raw_procedure": "In a blender, combine 2 large eggs, \u00bd cup of water. \u00be cup of milk, 3 Tbsp of melted butter, a pinch of salt, and 1 cup of flour.\nPulse the mixture 10-12 times on low power until combined and then scrape down the sides for any loose bits of flour. Pulse a couple more times until you have a thin pancake batter. Let the mixture sit in the refrigerator for one hour to get rid of any bubbles.\nUsing a non-stick skillet or a cr\u00eape maker that is coated with butter, pour your batter in and slowly rotate the pan until the entire surface is covered with batter and it is nice and thin.\nLet cook for 30-60 seconds over medium high heat until it is dappled brown. Flip the cr\u00eape and let cook for an additional 15-30 seconds until it is cooked through."
+        },
+        {
+          "recipe_id": 579,
+          "name": "Cr\u00eapes Suzette",
+          "image_link": "",
+          "raw_ingredient_list": "3 Tbsp butter\nSugar\n1 orange\nDry sherry or cognac\nVanilla ice cream",
+          "raw_procedure": "For making the actual cr\u00eapes, follow either the classic cr\u00eape recipe or the buckwheat cr\u00eape recipe, which are both listed above.\nMelt 3 tablespoons of butter in a large saut\u00e9 pan and add at least 2 tablespoons of sugar. Then, add the zest and juice from any type of orange of your choice.\nBring the mixture to a simmer and gently swirl to incorporate all of the sugar.\nBegin dunking your pre-prepared cr\u00eapes into the liquid and make sure that it is nicely coated on both sides of the bottom half of the cr\u00eape.\nLay the cr\u00eape down in the liquid and fold it in half double quesadilla style.\nRinse and repeat with two additional cr\u00eapes and arrange them into a quadrant. Cook for about one minute on the first side before flipping to make sure that they are nice and evenly coated.\nLet the cr\u00eapes sit in the pan for 3-5 minutes over medium heat until they are nice and caramelized on one side. Arrange the cr\u00eapes on a plate.\nFlambe over the stovetop with either dry sherry or cognac.\nGently pour over the cr\u00eapes or add one scoop of vanilla ice cream to top everything off."
+        },
+        {
+          "recipe_id": 577,
+          "name": "Mushroom and Gruyere Cr\u00eapes",
+          "image_link": "",
+          "raw_ingredient_list": "5-6 oz mushrooms\n\u00bc small Spanish onion, diced\n1 single garlic clove\n1 Tbsp butter\nDry sherry or cognac\nGruyere cheese\nFreshly picked thyme",
+          "raw_procedure": "Finely chop up \u00bc of a small Spanish onion as well as 1 single clove of garlic.\nOn the stovetop, coat a pan with 1 tablespoon of butter and let melt over medium heat. Then, add the onion and mushrooms and let them saut\u00e9 for 5-7 minutes. Toss occasionally and add salt to draw any excess moisture out of the mushrooms and cook until brown and soft.\nAdd the garlic and saut\u00e9 for an additional 30 seconds. Season with freshly ground pepper and optionally flambe with a bit of dry sherry or cognac.\nFor making the actual cr\u00eapes, follow either the classic cr\u00eape recipe or the buckwheat cr\u00eape recipe, which are both listed above.\nTop off your cr\u00eape with a generous amount of grated Gruyere cheese as well as your mushroom mixture. Fold the cr\u00eape and roll it up like a flat wide open-ended burrito.\nGrate a little bit of extra cheese on top and garnish with freshly picked thyme."
+        },
+        {
+          "recipe_id": 578,
+          "name": "Nutella and Strawberry Cr\u00eapes",
+          "image_link": "",
+          "raw_ingredient_list": "Strawberries\nNutella\nWhipped cream\nChocolate syrup",
+          "raw_procedure": "For making the actual cr\u00eapes, follow either the classic cr\u00eape recipe or the buckwheat cr\u00eape recipe, which are both listed above.\nSlice up some fresh strawberries and set aside for later. To the top of your cr\u00eape, add a generous dollop of Nutella and evenly spread it out to the edges.\nAdd the strawberries to the top of the cr\u00eape. Fold the cr\u00eape in half like a quesadilla and then fold in half one more time. Add some whipped cream and chocolate syrup to top everything off."
         }
       ]
     }
@@ -24022,7 +25513,7 @@
     "episode_id": "coffeejelly",
     "name": "Coffee Jelly inspired by The Disastrous Life of Saiki K.",
     "published_date": "2019-09-24",
-    "youtube_link": "https://www.youtube.com/watch?v=YxEcd_wTf5c&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/YxEcd_wTf5c/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=YxEcd_wTf5c",
     "official_link": "https://www.babi.sh/recipes/coffeejelly",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695184/babishImages/undefined-73008.png",
     "related": {
@@ -24173,7 +25664,7 @@
   },
   {
     "episode_id": "cajunfood",
-    "name": "CAJUN FOOD",
+    "name": "Cajun Food",
     "published_date": "2019-09-13",
     "youtube_link": "https://www.youtube.com/watch?v=nORg_aXMsmA",
     "official_link": "https://www.babi.sh/recipes/cajunfood",
@@ -24396,7 +25887,7 @@
     "episode_id": "applefritters",
     "name": "Double-Glazed Apple Fritters inspired by Regular Show",
     "published_date": "2019-08-27",
-    "youtube_link": "https://www.youtube.com/watch?v=YYSP1D6GJ30&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/YYSP1D6GJ30/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=YYSP1D6GJ30",
     "official_link": "https://www.babi.sh/recipes/applefritters",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695467/babishImages/undefined-689012.png",
     "related": {
@@ -24806,7 +26297,7 @@
     "episode_id": "bagelsandwiches",
     "name": "Bagel Sandwiches inspired by Steven Universe",
     "published_date": "2019-07-23",
-    "youtube_link": "https://www.youtube.com/watch?v=wv43IN_cnyw&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/wv43IN_cnyw/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=wv43IN_cnyw",
     "official_link": "https://www.babi.sh/recipes/bagelsandwiches",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695325/babishImages/undefined-259410.png",
     "related": {
@@ -25423,7 +26914,7 @@
     "episode_id": "alwayssunny",
     "name": "It's Always Sunny in Philadelphia Special (Part II)",
     "published_date": "2019-06-12",
-    "youtube_link": "https://www.youtube.com/watch?v=_fnhy5xO9vQ&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/_fnhy5xO9vQ/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=_fnhy5xO9vQ",
     "official_link": "https://www.babi.sh/recipes/alwayssunny",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696347/babishImages/undefined-129032.png",
     "related": {
@@ -25489,7 +26980,7 @@
   },
   {
     "episode_id": "being-with-babish-4",
-    "name": "Training like Kratos for 30 Days | Body by Babish",
+    "name": "Training like Kratos for 30 Days | Being with Babish",
     "published_date": "2019-06-07",
     "youtube_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA",
     "official_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA",
@@ -25498,13 +26989,13 @@
       "tags": [],
       "guests": [
         {
-          "guest_id": 73,
-          "name": "Sarah and Stefan",
+          "guest_id": 79,
+          "name": "Chris Parnell",
           "image_link": null
         },
         {
-          "guest_id": 68,
-          "name": "Sawyer Jacobs",
+          "guest_id": 73,
+          "name": "Sarah and Stefan",
           "image_link": null
         }
       ],
@@ -25970,7 +27461,7 @@
   },
   {
     "episode_id": "cheesdips",
-    "name": "CHEESE DIPS",
+    "name": "Cheese Dips",
     "published_date": "2019-05-02",
     "youtube_link": "https://www.youtube.com/watch?v=9toK5UUGeok",
     "official_link": "https://www.babi.sh/recipes/cheesdips",
@@ -26031,7 +27522,7 @@
     "episode_id": "avengersicecream",
     "name": "Ice Cream Flavors inspired by Avengers: Infinity War",
     "published_date": "2019-04-30",
-    "youtube_link": "https://www.youtube.com/watch?v=Ukjat70Iyt4&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/Ukjat70Iyt4/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=Ukjat70Iyt4",
     "official_link": "https://www.babi.sh/recipes/avengersicecream",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695805/babishImages/undefined-987247.png",
     "related": {
@@ -26139,7 +27630,7 @@
     "episode_id": "bubbashrimp2",
     "name": "Shrimp inspired by Forrest Gump Part II",
     "published_date": "2019-04-23",
-    "youtube_link": "https://www.youtube.com/watch?v=mF6JUfczaO8&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/mF6JUfczaO8/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=mF6JUfczaO8",
     "official_link": "https://www.babi.sh/recipes/bubbashrimp2",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696055/babishImages/undefined-252668.png",
     "related": {
@@ -26459,7 +27950,7 @@
     "episode_id": "brocksdonuts",
     "name": "Brock's Donuts inspired by Pok\u00e9mon",
     "published_date": "2019-04-02",
-    "youtube_link": "https://www.youtube.com/watch?v=RentKWlhUXc&amp;t=1s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/RentKWlhUXc/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=RentKWlhUXc",
     "official_link": "https://www.babi.sh/recipes/brocksdonuts",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695178/babishImages/undefined-56205.png",
     "related": {
@@ -26570,7 +28061,7 @@
   },
   {
     "episode_id": "chickentikkamasala",
-    "name": "CHICKEN TIKKA MASALA",
+    "name": "Chicken Tikka Masala",
     "published_date": "2019-03-28",
     "youtube_link": "https://www.youtube.com/watch?v=Bkd0LxBd2L8",
     "official_link": "https://www.babi.sh/recipes/chickentikkamasala",
@@ -26839,7 +28330,7 @@
   },
   {
     "episode_id": "blendersoups",
-    "name": "BLENDER SOUPS",
+    "name": "Blender Soups",
     "published_date": "2019-03-05",
     "youtube_link": "https://www.youtube.com/watch?v=S-gUFvpRQoU",
     "official_link": "https://www.babi.sh/recipes/blendersoups",
@@ -26965,16 +28456,11 @@
     "episode_id": "baobuns",
     "name": "Bao inspired by Pixar's Bao",
     "published_date": "2019-02-19",
-    "youtube_link": "https://www.youtube.com/watch?v=OFt3SThGi7M&amp;t=46s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/OFt3SThGi7M/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=OFt3SThGi7M",
     "official_link": "https://www.babi.sh/recipes/baobuns",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695380/babishImages/undefined-293013.png",
     "related": {
       "tags": [
-        {
-          "tag_id": 18,
-          "axis": "Category",
-          "name": "Dessert"
-        },
         {
           "tag_id": 32,
           "axis": "Difficulty",
@@ -27176,7 +28662,7 @@
   },
   {
     "episode_id": "biggamesnacks",
-    "name": "BIG GAME SNACKS",
+    "name": "Big Game Snacks",
     "published_date": "2019-01-31",
     "youtube_link": "https://www.youtube.com/watch?v=8ckxhlDFNkg",
     "official_link": "https://www.babi.sh/recipes/biggamesnacks",
@@ -27298,7 +28784,7 @@
   },
   {
     "episode_id": "bagels",
-    "name": "BAGELS",
+    "name": "Bagels",
     "published_date": "2019-01-24",
     "youtube_link": "https://www.youtube.com/watch?v=ZrJtpCTZk38",
     "official_link": "https://www.babi.sh/recipes/bagels",
@@ -27339,7 +28825,7 @@
     "episode_id": "aristocats",
     "name": "Cr\u00e8me de la Cr\u00e8me \u00e0 la Edgar inspired by The Aristocats",
     "published_date": "2019-01-23",
-    "youtube_link": "https://www.youtube.com/watch?v=zNY-qzp7pD0&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/zNY-qzp7pD0/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=zNY-qzp7pD0",
     "official_link": "https://www.babi.sh/recipes/aristocats",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696317/babishImages/undefined-541474.png",
     "related": {
@@ -27378,18 +28864,18 @@
       ],
       "recipes": [
         {
-          "recipe_id": 127,
-          "name": "Big Cracker",
-          "image_link": null,
-          "raw_ingredient_list": "10 ounces all purpose flour\n3 tsp baking powder\n\u00bd tsp kosher salt\n1 Tbsp granulated sugar\n6 Tbsp cold butter\n2 Tbsp vegetable oil\n\u2154 cup ice water",
-          "raw_procedure": "In a food processor add 10 ounces of all purpose flour along with 3 tsp of baking powder, \u00bd tsp of kosher salt, and 1 Tbsp of granulated sugar. Pulse to combine.\nNext add 6 Tbsp of sliced cold butter along with 2 Tbsp of vegetable oil and mix to combine before drizzling \u2154 cup of ice cold water into the food processor while it\u2019s processing. When a ball of dough forms, remove and immediately wrap in plastic wrap and place in the fridge for 10-15 minutes.\nRemove dough from the fridge and liberally flour your work surface. Roll out your dough as thin as possible. Using a fluted biscuit cutter, cut out cracker shapes and place them on a parchment lined baking sheet. Using a toothpick add the signature Ritz Cracker 7 holes and then brush all of them down with some melted butter. Place in a 400\u00b0F oven for 10-15 minutes.\nOnce they are golden brown in the oven, remove and brush with butter and immediately sprinkle with some salt."
-        },
-        {
           "recipe_id": 128,
           "name": "Cr\u00e8me de la Cr\u00e8me \u00e0 la Edgar",
           "image_link": null,
           "raw_ingredient_list": "1 pint heavy cream\n1 pint whole milk\n1 vanilla bean\n\u2153 cup sugar\n\u00bc tsp ground cinnamon\n\u00bc tsp ground nutmeg\nPinch of salt",
           "raw_procedure": "In a pot add 1 pint of heavy cream and 1 pint of whole milk. Stir to combine.\nScrape one vanilla bean and then add the beans and the pod to the milk mixture along with \u2153 cup of sugar, \u00bc tsp ground cinnamon, \u00bc tsp ground nutmeg and a pinch of salt.\nJust bring to a boil and stir to combine.\nServe with crackers and enjoy!"
+        },
+        {
+          "recipe_id": 127,
+          "name": "Homemade Ritz Crackers",
+          "image_link": null,
+          "raw_ingredient_list": "10 ounces all purpose flour\n3 tsp baking powder\n\u00bd tsp kosher salt\n1 Tbsp granulated sugar\n6 Tbsp cold butter\n2 Tbsp vegetable oil\n\u2154 cup ice water",
+          "raw_procedure": "In a food processor add 10 ounces of all purpose flour along with 3 tsp of baking powder, \u00bd tsp of kosher salt, and 1 Tbsp of granulated sugar. Pulse to combine.\nNext add 6 Tbsp of sliced cold butter along with 2 Tbsp of vegetable oil and mix to combine before drizzling \u2154 cup of ice cold water into the food processor while it\u2019s processing. When a ball of dough forms, remove and immediately wrap in plastic wrap and place in the fridge for 10-15 minutes.\nRemove dough from the fridge and liberally flour your work surface. Roll out your dough as thin as possible. Using a fluted biscuit cutter, cut out cracker shapes and place them on a parchment lined baking sheet. Using a toothpick add the signature Ritz Cracker 7 holes and then brush all of them down with some melted butter. Place in a 400\u00b0F oven for 10-15 minutes.\nOnce they are golden brown in the oven, remove and brush with butter and immediately sprinkle with some salt."
         }
       ]
     }
@@ -27398,7 +28884,7 @@
     "episode_id": "coqauvin",
     "name": "Coq au Vin inspired by Donnie Brasco",
     "published_date": "2019-01-15",
-    "youtube_link": "https://www.youtube.com/watch?v=VP1uTgikarU&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/VP1uTgikarU/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=VP1uTgikarU",
     "official_link": "https://www.babi.sh/recipes/coqauvin",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695986/babishImages/undefined-867897.png",
     "related": {
@@ -28075,7 +29561,7 @@
     "episode_id": "chileanseabass",
     "name": "Chilean Sea Bass inspired by Jurassic Park",
     "published_date": "2018-11-27",
-    "youtube_link": "https://www.youtube.com/watch?v=p73kqpqGqqQ&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/p73kqpqGqqQ/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=p73kqpqGqqQ",
     "official_link": "https://www.babi.sh/recipes/chileanseabass",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695721/babishImages/undefined-408439.png",
     "related": {
@@ -28132,7 +29618,7 @@
     "episode_id": "charliebrownthanksgiving",
     "name": "Charlie Brown Thanksgiving",
     "published_date": "2018-11-20",
-    "youtube_link": "https://www.youtube.com/watch?v=5FyKxVJmsdE&amp;t=1s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/5FyKxVJmsdE/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=5FyKxVJmsdE",
     "official_link": "https://www.babi.sh/recipes/charliebrownthanksgiving",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696206/babishImages/undefined-812990.jpg",
     "related": {
@@ -28354,7 +29840,7 @@
     "episode_id": "bearstew",
     "name": "Bear Stew inspired by Red Dead Redemption 2",
     "published_date": "2018-11-06",
-    "youtube_link": "https://www.youtube.com/watch?v=wMxKbkWrvDc&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/wMxKbkWrvDc/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=wMxKbkWrvDc",
     "official_link": "https://www.babi.sh/recipes/bearstew",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1679263840/iyxpvkao4lwi6xqkcwd1.webp",
     "related": {
@@ -28544,7 +30030,7 @@
     "episode_id": "cinnamonrolls",
     "name": "Cinnamon Rolls inspired by Jim Gaffigan's Stand Up (sort of)",
     "published_date": "2018-10-23",
-    "youtube_link": "https://www.youtube.com/watch?v=jFYi2QRVFOc&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/jFYi2QRVFOc/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=jFYi2QRVFOc",
     "official_link": "https://www.babi.sh/recipes/cinnamonrolls",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1679245506/gyb4qsztcyrv4kjnvwug.webp",
     "related": {
@@ -29592,7 +31078,7 @@
       "recipes": [
         {
           "recipe_id": 226,
-          "name": "Car Panini",
+          "name": "Winning #BabishPanini Car Panini",
           "image_link": null,
           "raw_ingredient_list": "Mole Sauce\nPasilla dried chilis\nGuajillo dried chilis\nAncho dried chilis\n1 tsp whole cloves\n1 tsp peppercorn\n3 bay leaves, crumbled\n1 cinnamon stick\n1 corn tortilla\n1 slice of white bread\n\u2153 cup peanuts\n\u2153 cup pumpkin seeds\n\u2153 cup almonds\n\u2153 cup raisins\n\u00bc cup sesame seeds\n1 large tomato, quartered\n1 large onion\n4 cloves of garlic\n\u00bc tsp dried thyme\n\u00bc tsp marjoram\n\u00bc tsp aniseed\n4 cups chicken stock, hot\n4 ounces bittersweet chocolate, chopped\nSugar (if necessary)\nTomatillos (optional)\nCheddar Crisps\nShredded mild cheddar cheese\nGoat Cheese Cream\n5 ounces goat cheese\n1 Tbsp honey\n2 Tbsp heavy cream\nSandwich Stuff\n2 slices of white bread\nChorizo",
           "raw_procedure": "Start by stemming and seeding some dried pasilla, guajillo, and ancho chilis. Save a few tablespoons of the seeds.\nHeat a cast iron skillet to a medium heat and add chilis. Dry roast them for about 2 minutes. Place about 12 chilis into a blender and set aside. Remove any extra chilis from skillet.\nIn the same skillet add 1 tsp whole cloves, 1 tsp peppercorns, 3 crumbled bay leaves, 1 cinnamon stick broken into a few pieces, and some of our reserved chili seeds. Dry roast for about 2 minutes or until the seeds darken. Remove from skillet and add to the blender.\nAdd one corn tortilla that has been torn into smaller pieces to the skillet cook with a little bit of oil until they turn brown. Add them to the blender.\nToast 1 piece of white bread and add that to the blender.\nAdd some vegetable oil to the pan along with \u2153 cup each of peanuts, pumpkin seeds, almonds and raisins. Roast for about one minute before adding \u00bc cup of sesame seeds. Let it go for one more minute before placing all of it into the blender.\nAdd some oil to the skillet and turn to a medium high heat. Add 1 large quartered tomato, 1 large chopped onion, and 4 cloves of garlic (If you have tomatillos this is the time to add them). Let them sit undisturbed for about a minute, letting them get nice and brown. Add \u00bc tsp each of dried thyme, marjoram, and aniseed. Cook for about a minute and then add to the blender.\nHeat up 4 cups of chicken stock and add that to the blender. Let everything sit in the blender for 10 minutes. Blend on medium for about 2 minutes or until smooth.\nAdd blended sauce to a large saucepan and cook on medium-low heat for about an hour.\nRun the sauce through a mesh sieve until you have a thick paste in the sieve and a smooth puree below.\nAdd the puree back to saucepan on a medium heat and add 4 ounces of chopped bittersweet chocolate. Taste and add sugar if necessary.\nPreheat oven to 425\u00b0F. Place a small handful of cheddar cheese in six piles on a cookie sheet lined with a silicon mat or parchment paper. Bake the cheese for about 10 minutes, checking constantly just until all cheese is melted and edges begin to brown. Remove from oven and let cool slightly. Transfer crisps to a wire rack to cool.\nIn a blender combine 5 ounces of goat cheese with 1 Tbsp of honey and 2 Tbsp of heavy cream. Blend on high speed until you have a thick spreadable cream.\nIn a skillet cook up one piece of chorizo until your preferred doneness. Cut into 4 pieces.\nButter both slices of bread on the outside. On one piece of bread, slather some mole, top with cooked chorizo sausages, cheese crisps, and goat cheese cream. Top with other piece of bread. Place into your panini press/George Foreman grill. Serve and enjoy!"
@@ -29850,11 +31336,6 @@
           "tag_id": 16,
           "axis": "Category",
           "name": "Baking"
-        },
-        {
-          "tag_id": 18,
-          "axis": "Category",
-          "name": "Dessert"
         },
         {
           "tag_id": 13,
@@ -30188,7 +31669,7 @@
   },
   {
     "episode_id": "barbecueporkchops",
-    "name": "BARBECUE PORK CHOPS",
+    "name": "Barbecue Pork Chops",
     "published_date": "2018-06-28",
     "youtube_link": "https://www.youtube.com/watch?v=YV9XuvfIudY",
     "official_link": "https://www.babi.sh/recipes/barbecueporkchops",
@@ -30369,18 +31850,13 @@
   },
   {
     "episode_id": "burgers",
-    "name": "BURGERS",
+    "name": "Burgers",
     "published_date": "2018-06-14",
     "youtube_link": "https://www.youtube.com/watch?v=nbCgfiqq-5c",
     "official_link": "https://www.babi.sh/recipes/burgers",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1686072856/hopwyczgnd5layejyvpe.webp",
     "related": {
       "tags": [
-        {
-          "tag_id": 18,
-          "axis": "Category",
-          "name": "Dessert"
-        },
         {
           "tag_id": 15,
           "axis": "Category",
@@ -31379,7 +32855,7 @@
     "episode_id": "baressentials-7xwwz",
     "name": "CHOCOLATE CHIP COOKIES",
     "published_date": "2018-03-29",
-    "youtube_link": "https://www.youtube.com/watch?v=ylxzfecackM&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/ylxzfecackM/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=ylxzfecackM",
     "official_link": "https://www.babi.sh/recipes/baressentials-7xwwz",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1690485488/p72d0navvupz8bsaur3g.webp",
     "related": {
@@ -31403,11 +32879,6 @@
           "tag_id": 13,
           "axis": "Series",
           "name": "Basics"
-        },
-        {
-          "tag_id": 12,
-          "axis": "Series",
-          "name": "Binging"
         }
       ],
       "guests": [],
@@ -31545,6 +33016,14 @@
           "image_link": "https://i.ytimg.com/sh/SnTDhFDmcbB3lkFWrIi8MA/market.jpg"
         },
         {
+          "reference_id": 648,
+          "type": null,
+          "name": "Lots of Things",
+          "description": null,
+          "external_link": null,
+          "image_link": null
+        },
+        {
           "reference_id": 21,
           "type": "tv_show",
           "name": "Spongebob Squarepants",
@@ -31574,9 +33053,9 @@
   },
   {
     "episode_id": "baressentials",
-    "name": "BAR ESSENTIALS",
+    "name": "Bar Essentials",
     "published_date": "2018-03-15",
-    "youtube_link": "https://www.youtube.com/watch?v=iZUfPIKbgUM&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/iZUfPIKbgUM/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+    "youtube_link": "https://www.youtube.com/watch?v=iZUfPIKbgUM",
     "official_link": "https://www.babi.sh/recipes/baressentials",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1690416607/jlnnbuig1g2nrqafs58x.webp",
     "related": {
@@ -31613,7 +33092,7 @@
         },
         {
           "recipe_id": 304,
-          "name": "Margaretta",
+          "name": "Margarita",
           "image_link": null,
           "raw_ingredient_list": "4 oz Tequila\n1 oz Triple Sec\nLime juice\nSalt",
           "raw_procedure": "Salt the rim of a glass using lime juice.\nMix and serve."
@@ -33376,7 +34855,13 @@
           "name": "TV Show"
         }
       ],
-      "guests": [],
+      "guests": [
+        {
+          "guest_id": 83,
+          "name": "You Suck at Cooking",
+          "image_link": null
+        }
+      ],
       "inspired_by": [
         {
           "reference_id": 79,
@@ -33385,14 +34870,6 @@
           "description": "Explores the early relationship between the renowned psychiatrist and his patient, a young FBI criminal profiler, who is haunted by his ability to empathize with serial killers. IMDb.",
           "external_link": "https://www.imdb.com/title/tt2243973/",
           "image_link": "https://img.youtube.com/vi/uBl48Y-3tI8/mqdefault.jpg"
-        },
-        {
-          "reference_id": 113,
-          "type": "youtube_channel",
-          "name": "You Suck at Cooking",
-          "description": "Being taught to cook by a professional chef is everybody's dream. And if not everybody's dream, mostlybody's dream. But chasing your dreams is overrated and often leads to heartbreak. That's why you should throw your dreams in the garbage and learn to cook here, instead. In these cooking tutorial videos youre learn next to nothing, and you'll like it.",
-          "external_link": "https://www.youtube.com/channel/UCekQr9znsk2vWxBo3YiLq2w",
-          "image_link": "https://yt3.ggpht.com/a/AGF-l7_wVfJ2wHSX9nB-fMjIS7X4nX76KP0oSn3YrQ=s288-c-k-c0xffffffff-no-rj-mo"
         }
       ],
       "recipes": [
@@ -34658,7 +36135,7 @@
   {
     "episode_id": "cocktail-special",
     "name": "Cocktail Special",
-    "published_date": "2017-06-28",
+    "published_date": "2017-06-27",
     "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
     "official_link": "https://www.babi.sh/recipes/cocktail-special",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689991773/frvdqes62h3gdapclpxo.webp",
@@ -34996,14 +36473,6 @@
           "description": "Story of a wonderful little girl, who happens to be a genius, and her wonderful teacher vs. the worst parents ever and the worst school principal imaginable. IMDb.",
           "external_link": "https://www.imdb.com/title/tt0117008/",
           "image_link": "https://img.youtube.com/vi/dFBYH6GHNzE/mqdefault.jpg"
-        },
-        {
-          "reference_id": 114,
-          "type": "tv_show",
-          "name": "You're Eating It Wrong",
-          "description": "This is a web series from Cooking Channel. They also combined episodes and broadcast on TV. IMDb.",
-          "external_link": "https://www.imdb.com/title/tt5195594/",
-          "image_link": "https://img.youtube.com/vi/--B_ENKrG-8/mqdefault.jpg"
         }
       ],
       "recipes": [
@@ -35335,7 +36804,7 @@
   {
     "episode_id": "babka-inspired-by-seinfeld",
     "name": "Babka inspired by Seinfeld",
-    "published_date": "2017-05-10",
+    "published_date": "2017-05-09",
     "youtube_link": "https://www.youtube.com/watch?v=pw2A03Z91FI",
     "official_link": "https://www.babi.sh/recipes/babka-inspired-by-seinfeld",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689991794/caokjjp73hvi3tpco5ld.webp",
@@ -35887,7 +37356,7 @@
   {
     "episode_id": "cubanos-inspired-by-chef",
     "name": "Cubanos inspired by Chef",
-    "published_date": "2017-03-29",
+    "published_date": "2017-03-28",
     "youtube_link": "https://www.youtube.com/watch?v=hXYoduN0kWs",
     "official_link": "https://www.babi.sh/recipes/cubanos-inspired-by-chef",
     "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689992067/etfzgspqjiwp3janr32z.webp",
@@ -37556,16 +39025,7 @@
         }
       ],
       "guests": [],
-      "inspired_by": [
-        {
-          "reference_id": 115,
-          "type": "movie",
-          "name": "American Pie",
-          "description": "Four teenage boys enter a pact to lose their virginity by prom night. IMDb.",
-          "external_link": "https://www.imdb.com/title/tt0163651/",
-          "image_link": "https://img.youtube.com/vi/0WRQFUwEpDY/mqdefault.jpg"
-        }
-      ],
+      "inspired_by": [],
       "recipes": [
         {
           "recipe_id": 512,
@@ -37595,11 +39055,6 @@
           "tag_id": 31,
           "axis": "Difficulty",
           "name": "Beginner"
-        },
-        {
-          "tag_id": 32,
-          "axis": "Difficulty",
-          "name": "Experienced"
         },
         {
           "tag_id": 28,

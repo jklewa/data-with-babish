@@ -1,5 +1,23 @@
 [
   {
+    "reference_id": 642,
+    "type": null,
+    "name": "2024 Oscars",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "episode_id": "2024oscarsspecial",
+        "name": "2024 Oscars Special",
+        "published_date": "2024-03-15",
+        "youtube_link": "https://youtu.be/NVwgZhjspxo",
+        "official_link": "https://www.babi.sh/recipes/2024oscarsspecial",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1710510271/ny7ovkakrtfei4odwnfd.webp"
+      }
+    ]
+  },
+  {
     "reference_id": 50,
     "type": "tv_show",
     "name": "30 Rock",
@@ -94,6 +112,24 @@
     ]
   },
   {
+    "reference_id": 649,
+    "type": null,
+    "name": "Alfredo alla Scrofa",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "episode_id": "classic-fettucine-alfredo",
+        "name": "Classic Fettuccine Alfredo",
+        "published_date": "2025-06-06",
+        "youtube_link": "https://www.youtube.com/watch?v=2Xx1QY_WVs0&pp=ygUhY2xhc3NpYyBmZXR0dWNjaW5lIGFsZnJlZG8gYmFiaXNo",
+        "official_link": "https://www.babi.sh/recipes/classic-fettucine-alfredo",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1749216590/llpz2sobgkra4ttgl9kx.webp"
+      }
+    ]
+  },
+  {
     "reference_id": 609,
     "type": "movie",
     "name": "Amadeus",
@@ -162,16 +198,7 @@
     "description": "Four teenage boys enter a pact to lose their virginity by prom night. IMDb.",
     "external_link": "https://www.imdb.com/title/tt0163651/",
     "image_link": "https://img.youtube.com/vi/0WRQFUwEpDY/mqdefault.jpg",
-    "episodes_inspired": [
-      {
-        "episode_id": "applepiesmoothie",
-        "name": "Apple Pie Smoothie",
-        "published_date": "2016-03-13",
-        "youtube_link": "https://www.youtube.com/watch?v=mv1z2p3to0U",
-        "official_link": "https://www.babi.sh/recipes/applepiesmoothie",
-        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689991771/oz6gen69krvy3tfzijvm.webp"
-      }
-    ]
+    "episodes_inspired": []
   },
   {
     "reference_id": 559,
@@ -487,7 +514,7 @@
         "episode_id": "avengersicecream",
         "name": "Ice Cream Flavors inspired by Avengers: Infinity War",
         "published_date": "2019-04-30",
-        "youtube_link": "https://www.youtube.com/watch?v=Ukjat70Iyt4&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/Ukjat70Iyt4/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "youtube_link": "https://www.youtube.com/watch?v=Ukjat70Iyt4",
         "official_link": "https://www.babi.sh/recipes/avengersicecream",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695805/babishImages/undefined-987247.png"
       }
@@ -610,6 +637,24 @@
     ]
   },
   {
+    "reference_id": 643,
+    "type": null,
+    "name": "Bluey",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "episode_id": "bluey-duck-cake",
+        "name": "Duck Cake Inspired by Bluey",
+        "published_date": "2024-02-08",
+        "youtube_link": "https://www.youtube.com/watch?v=w7B-BGWixm0",
+        "official_link": "https://www.babi.sh/recipes/bluey-duck-cake",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1707408991/nyvglzkdwqrlkvu7qwnb.webp"
+      }
+    ]
+  },
+  {
     "reference_id": 14,
     "type": "tv_show",
     "name": "Bob's Burgers",
@@ -617,6 +662,14 @@
     "external_link": "https://www.imdb.com/title/tt1561755/",
     "image_link": "https://i.ytimg.com/sh/YFIqnn7YyVe01H23BBPlyA/market.jpg",
     "episodes_inspired": [
+      {
+        "episode_id": "bobsburgers-potato-lasagna",
+        "name": "Loaded Baked Potato Lasagna Inspired by Bob's Burgers",
+        "published_date": "2024-03-01",
+        "youtube_link": "youtube.com/watch?v=jts_NfZu2vY",
+        "official_link": "https://www.babi.sh/recipes/bobsburgers-potato-lasagna",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1709308712/bfjgjzbwq9dstzpukvxo.webp"
+      },
       {
         "episode_id": "footlong-taco-dogs-bobs-burgers",
         "name": "Footlong Taco Dog inspired by Bob's Burgers",
@@ -756,7 +809,7 @@
       {
         "episode_id": "churrons-broad-city",
         "name": "Churrons inspired by Broad City",
-        "published_date": "2022-08-17",
+        "published_date": "2022-08-03",
         "youtube_link": "https://www.youtube.com/watch?v=JiUsCTy8nEY",
         "official_link": "https://www.babi.sh/recipes/churrons-broad-city",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695905/babishImages/undefined-290140.png"
@@ -808,7 +861,7 @@
       {
         "episode_id": "cocktail-special",
         "name": "Cocktail Special",
-        "published_date": "2017-06-28",
+        "published_date": "2017-06-27",
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.babi.sh/recipes/cocktail-special",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689991773/frvdqes62h3gdapclpxo.webp"
@@ -826,7 +879,7 @@
       {
         "episode_id": "cocktail-special",
         "name": "Cocktail Special",
-        "published_date": "2017-06-28",
+        "published_date": "2017-06-27",
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.babi.sh/recipes/cocktail-special",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689991773/frvdqes62h3gdapclpxo.webp"
@@ -863,7 +916,7 @@
         "episode_id": "charliebrownthanksgiving",
         "name": "Charlie Brown Thanksgiving",
         "published_date": "2018-11-20",
-        "youtube_link": "https://www.youtube.com/watch?v=5FyKxVJmsdE&amp;t=1s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/5FyKxVJmsdE/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "youtube_link": "https://www.youtube.com/watch?v=5FyKxVJmsdE",
         "official_link": "https://www.babi.sh/recipes/charliebrownthanksgiving",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696206/babishImages/undefined-812990.jpg"
       }
@@ -912,7 +965,7 @@
       {
         "episode_id": "cubanos-inspired-by-chef",
         "name": "Cubanos inspired by Chef",
-        "published_date": "2017-03-29",
+        "published_date": "2017-03-28",
         "youtube_link": "https://www.youtube.com/watch?v=hXYoduN0kWs",
         "official_link": "https://www.babi.sh/recipes/cubanos-inspired-by-chef",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689992067/etfzgspqjiwp3janr32z.webp"
@@ -1088,7 +1141,7 @@
       {
         "episode_id": "cocktail-special",
         "name": "Cocktail Special",
-        "published_date": "2017-06-28",
+        "published_date": "2017-06-27",
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.babi.sh/recipes/cocktail-special",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689991773/frvdqes62h3gdapclpxo.webp"
@@ -1157,6 +1210,14 @@
     "external_link": "https://www.imdb.com/title/tt1431045/",
     "image_link": "https://img.youtube.com/vi/AEIKS4IbfNk/mqdefault.jpg",
     "episodes_inspired": [
+      {
+        "episode_id": "chimichangas",
+        "name": "Deadpool's Chimichangas",
+        "published_date": "2020-04-28",
+        "youtube_link": "https://www.youtube.com/watch?v=szFLA4_pwew",
+        "official_link": "https://www.babi.sh/recipes/chimichangas",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715751/babishImages/undefined-916823.png"
+      },
       {
         "episode_id": "deadpoolpizza",
         "name": "Pizza inspired by Deadpool",
@@ -1305,7 +1366,7 @@
         "episode_id": "coqauvin",
         "name": "Coq au Vin inspired by Donnie Brasco",
         "published_date": "2019-01-15",
-        "youtube_link": "https://www.youtube.com/watch?v=VP1uTgikarU&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/VP1uTgikarU/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "youtube_link": "https://www.youtube.com/watch?v=VP1uTgikarU",
         "official_link": "https://www.babi.sh/recipes/coqauvin",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695986/babishImages/undefined-867897.png"
       }
@@ -1478,6 +1539,24 @@
         "youtube_link": "https://www.youtube.com/watch?v=1vOBpRmp8v8",
         "official_link": "https://www.babi.sh/recipes/everything-bagel-eeao",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695667/babishImages/undefined-717015.png"
+      }
+    ]
+  },
+  {
+    "reference_id": 639,
+    "type": null,
+    "name": "Fallout",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "episode_id": "jell-o-cake-nuka-cola-and-cram-inspired-by-fallout",
+        "name": "Jell-O Cake, Nuka Cola & Cram Inspired by Fallout",
+        "published_date": "2024-06-05",
+        "youtube_link": "https://www.youtube.com/watch?v=yiR1wqF6IM4",
+        "official_link": "https://www.babi.sh/recipes/jell-o-cake-nuka-cola-and-cram-inspired-by-fallout",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1717609250/oj6zbs3b6k4mxq84duyp.webp"
       }
     ]
   },
@@ -1681,7 +1760,7 @@
         "episode_id": "bubbashrimp2",
         "name": "Shrimp inspired by Forrest Gump Part II",
         "published_date": "2019-04-23",
-        "youtube_link": "https://www.youtube.com/watch?v=mF6JUfczaO8&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/mF6JUfczaO8/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "youtube_link": "https://www.youtube.com/watch?v=mF6JUfczaO8",
         "official_link": "https://www.babi.sh/recipes/bubbashrimp2",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696055/babishImages/undefined-252668.png"
       },
@@ -1822,6 +1901,22 @@
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1741383035/fhpr01pnfwh4o1lpeje9.webp"
       },
       {
+        "episode_id": "jerk-meat-platter-inspired-by-futurama",
+        "name": "Jerk Meat Platter Inspired by Futurama",
+        "published_date": "2024-04-12",
+        "youtube_link": "https://www.youtube.com/watch?v=EoVha2o6Ldk",
+        "official_link": "https://www.babi.sh/recipes/jerk-meat-platter-inspired-by-futurama",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1712937205/n5fptxykxklglcfoo9xd.webp"
+      },
+      {
+        "episode_id": "futurama-shrimp-popplers",
+        "name": "Popplers Inspired by Futurama",
+        "published_date": "2024-01-03",
+        "youtube_link": "https://www.youtube.com/watch?v=BtGsjkj9DgM",
+        "official_link": "https://www.babi.sh/recipes/futurama-shrimp-popplers",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1704299223/grzo0n3a4v5gakutgodq.webp"
+      },
+      {
         "episode_id": "bachelor-chow-futurama",
         "name": "Bachelor Chow inspired by Futurama",
         "published_date": "2021-01-26",
@@ -1935,7 +2030,7 @@
       },
       {
         "episode_id": "being-with-babish-4",
-        "name": "Training like Kratos for 30 Days | Body by Babish",
+        "name": "Training like Kratos for 30 Days | Being with Babish",
         "published_date": "2019-06-07",
         "youtube_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA",
         "official_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA",
@@ -1990,7 +2085,7 @@
       {
         "episode_id": "cocktail-special",
         "name": "Cocktail Special",
-        "published_date": "2017-06-28",
+        "published_date": "2017-06-27",
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.babi.sh/recipes/cocktail-special",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689991773/frvdqes62h3gdapclpxo.webp"
@@ -2220,7 +2315,7 @@
       {
         "episode_id": "cocktail-special",
         "name": "Cocktail Special",
-        "published_date": "2017-06-28",
+        "published_date": "2017-06-27",
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.babi.sh/recipes/cocktail-special",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689991773/frvdqes62h3gdapclpxo.webp"
@@ -2373,7 +2468,7 @@
         "episode_id": "alwayssunny",
         "name": "It's Always Sunny in Philadelphia Special (Part II)",
         "published_date": "2019-06-12",
-        "youtube_link": "https://www.youtube.com/watch?v=_fnhy5xO9vQ&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/_fnhy5xO9vQ/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "youtube_link": "https://www.youtube.com/watch?v=_fnhy5xO9vQ",
         "official_link": "https://www.babi.sh/recipes/alwayssunny",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696347/babishImages/undefined-129032.png"
       },
@@ -2398,7 +2493,7 @@
       {
         "episode_id": "chocolate-croissants-its-complicated",
         "name": "Chocolate Croissants inspired by It's Complicated",
-        "published_date": "2022-08-01",
+        "published_date": "2022-07-13",
         "youtube_link": "https://www.youtube.com/watch?v=qvNXPn4ptJM",
         "official_link": "https://www.babi.sh/recipes/chocolate-croissants-its-complicated",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696083/babishImages/undefined-824297.png"
@@ -2417,7 +2512,7 @@
         "episode_id": "cinnamonrolls",
         "name": "Cinnamon Rolls inspired by Jim Gaffigan's Stand Up (sort of)",
         "published_date": "2018-10-23",
-        "youtube_link": "https://www.youtube.com/watch?v=jFYi2QRVFOc&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/jFYi2QRVFOc/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "youtube_link": "https://www.youtube.com/watch?v=jFYi2QRVFOc",
         "official_link": "https://www.babi.sh/recipes/cinnamonrolls",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1679245506/gyb4qsztcyrv4kjnvwug.webp"
       }
@@ -2476,6 +2571,14 @@
     "image_link": null,
     "episodes_inspired": [
       {
+        "episode_id": "chicken-meatball-hotpot-inspired-by-jujutsu-kaisen",
+        "name": "Chicken Meatball Hotpot inspired By Jujutsu Kaisen",
+        "published_date": "2024-10-02",
+        "youtube_link": "https://www.youtube.com/watch?v=GymqadVYSXk&t=34s",
+        "official_link": "https://www.babi.sh/recipes/chicken-meatball-hotpot-inspired-by-jujutsu-kaisen",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1727887830/cnkxewktxghxefrnq6xa.webp"
+      },
+      {
         "episode_id": "kikufuku-mochi-inspired-by-jujutsu-kaisen",
         "name": "Kikufuku Mochi inspired by Jujutsu Kaisen",
         "published_date": "2024-09-04",
@@ -2533,7 +2636,7 @@
         "episode_id": "chileanseabass",
         "name": "Chilean Sea Bass inspired by Jurassic Park",
         "published_date": "2018-11-27",
-        "youtube_link": "https://www.youtube.com/watch?v=p73kqpqGqqQ&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/p73kqpqGqqQ/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "youtube_link": "https://www.youtube.com/watch?v=p73kqpqGqqQ",
         "official_link": "https://www.babi.sh/recipes/chileanseabass",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695721/babishImages/undefined-408439.png"
       }
@@ -2728,6 +2831,15 @@
     ]
   },
   {
+    "reference_id": 647,
+    "type": null,
+    "name": "LAST-MINUTE",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": []
+  },
+  {
     "reference_id": 571,
     "type": "video_game",
     "name": "Legend of Zelda",
@@ -2760,6 +2872,24 @@
         "youtube_link": "https://www.youtube.com/watch?v=-aFrFsn998o",
         "official_link": "https://www.babi.sh/recipes/lotr-feast-special",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696106/babishImages/undefined-637175.png"
+      }
+    ]
+  },
+  {
+    "reference_id": 648,
+    "type": null,
+    "name": "Lots of Things",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "episode_id": "parmhero",
+        "name": "Parm Heros inspired by Lots of Things",
+        "published_date": "2018-03-20",
+        "youtube_link": "https://www.youtube.com/watch?v=DkiyT-dnmv8",
+        "official_link": "https://www.babi.sh/recipes/parmhero",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715733/babishImages/undefined-3296.png"
       }
     ]
   },
@@ -3014,6 +3144,24 @@
     ]
   },
   {
+    "reference_id": 644,
+    "type": null,
+    "name": "Mean Girls",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "episode_id": "mean-girls-toaster-strudel",
+        "name": "Homemade Toaster Strudel Inspired by Mean Girls",
+        "published_date": "2024-01-18",
+        "youtube_link": "https://www.youtube.com/watch?v=t78IFIYiQ8M",
+        "official_link": "https://www.babi.sh/recipes/mean-girls-toaster-strudel",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1705545612/ovmommijdvjcueekr5bx.webp"
+      }
+    ]
+  },
+  {
     "reference_id": 583,
     "type": "video_game",
     "name": "Minecraft",
@@ -3042,7 +3190,7 @@
       {
         "episode_id": "chefs-choice-platter-monster-hunter-world",
         "name": "The Chef's Choice Platter inspired by Monster Hunter: World",
-        "published_date": "2021-03-31",
+        "published_date": "2021-03-30",
         "youtube_link": "https://www.youtube.com/watch?v=__qtH1ly2Sg",
         "official_link": "https://www.babi.sh/recipes/chefs-choice-platter-monster-hunter-world",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696043/babishImages/undefined-419307.png"
@@ -3118,6 +3266,33 @@
         "youtube_link": "https://www.youtube.com/watch?v=4QDDxmtbUsw",
         "official_link": "https://www.babi.sh/recipes/egginanest",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715428/babishImages/undefined-266153.png"
+      }
+    ]
+  },
+  {
+    "reference_id": 646,
+    "type": null,
+    "name": "Morty",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": []
+  },
+  {
+    "reference_id": 641,
+    "type": null,
+    "name": "Mr. & Mrs. Smith",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "episode_id": "bagelwithlox",
+        "name": "Everything Bagel with Lox Inspired By Mr. & Mrs. Smith",
+        "published_date": "2024-03-27",
+        "youtube_link": "https://youtu.be/ZOZ2qkcfWe0",
+        "official_link": "https://www.babi.sh/recipes/bagelwithlox",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1711553048/yyeo9skkrkvuloahw7lm.webp"
       }
     ]
   },
@@ -3204,7 +3379,7 @@
       {
         "episode_id": "christmas-turkey-inspired-by-national-lampoon's-christmas-vacation",
         "name": "Christmas Turkey inspired by National Lampoon's Christmas Vacation",
-        "published_date": "2025-11-26",
+        "published_date": "2025-11-29",
         "youtube_link": "https://youtube.com/watch?v=w0pZ7MWajW8&si=r2TmnS9oJhDHIbp5",
         "official_link": "https://www.babi.sh/recipes/christmas-turkey-inspired-by-national-lampoon's-christmas-vacation",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1764189007/giyklwlgdj7x3nwbi38c.webp"
@@ -3296,6 +3471,14 @@
         "youtube_link": "https://www.youtube.com/watch?v=J16qIo_BrZI",
         "official_link": "https://www.babi.sh/recipes/devil-fruit-inspired-by-one-piece",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1724877134/yezhzbhda6kzcfjslvfr.webp"
+      },
+      {
+        "episode_id": "one-piece-tuna-saute",
+        "name": "Sanji\u2019s Tuna Saute Inspired by One Piece",
+        "published_date": "2024-02-01",
+        "youtube_link": "https://youtu.be/_rk1Foi8E8g",
+        "official_link": "https://www.babi.sh/recipes/one-piece-tuna-saute",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1706827474/slrsvlsvfwr0lwbdtpa0.webp"
       }
     ]
   },
@@ -3377,7 +3560,7 @@
       },
       {
         "episode_id": "ben-wyatt-calzones",
-        "name": "Calzones inspired by Parks & Rec",
+        "name": "Ben Wyatt's Calzones",
         "published_date": "2020-04-15",
         "youtube_link": "https://www.youtube.com/watch?v=PvgCEifW7Jo",
         "official_link": "https://www.babi.sh/recipes/ben-wyatt-calzones",
@@ -3493,7 +3676,7 @@
         "episode_id": "baobuns",
         "name": "Bao inspired by Pixar's Bao",
         "published_date": "2019-02-19",
-        "youtube_link": "https://www.youtube.com/watch?v=OFt3SThGi7M&amp;t=46s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/OFt3SThGi7M/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "youtube_link": "https://www.youtube.com/watch?v=OFt3SThGi7M",
         "official_link": "https://www.babi.sh/recipes/baobuns",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695380/babishImages/undefined-293013.png"
       }
@@ -3537,7 +3720,7 @@
         "episode_id": "brocksdonuts",
         "name": "Brock's Donuts inspired by Pok\u00e9mon",
         "published_date": "2019-04-02",
-        "youtube_link": "https://www.youtube.com/watch?v=RentKWlhUXc&amp;t=1s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/RentKWlhUXc/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "youtube_link": "https://www.youtube.com/watch?v=RentKWlhUXc",
         "official_link": "https://www.babi.sh/recipes/brocksdonuts",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695178/babishImages/undefined-56205.png"
       },
@@ -3705,7 +3888,7 @@
         "episode_id": "bearstew",
         "name": "Bear Stew inspired by Red Dead Redemption 2",
         "published_date": "2018-11-06",
-        "youtube_link": "https://www.youtube.com/watch?v=wMxKbkWrvDc&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/wMxKbkWrvDc/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "youtube_link": "https://www.youtube.com/watch?v=wMxKbkWrvDc",
         "official_link": "https://www.babi.sh/recipes/bearstew",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1679263840/iyxpvkao4lwi6xqkcwd1.webp"
       }
@@ -3739,7 +3922,7 @@
         "episode_id": "applefritters",
         "name": "Double-Glazed Apple Fritters inspired by Regular Show",
         "published_date": "2019-08-27",
-        "youtube_link": "https://www.youtube.com/watch?v=YYSP1D6GJ30&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/YYSP1D6GJ30/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "youtube_link": "https://www.youtube.com/watch?v=YYSP1D6GJ30",
         "official_link": "https://www.babi.sh/recipes/applefritters",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695467/babishImages/undefined-689012.png"
       },
@@ -3792,6 +3975,15 @@
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715472/babishImages/undefined-404565.png"
       }
     ]
+  },
+  {
+    "reference_id": 645,
+    "type": null,
+    "name": "Rick",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": []
   },
   {
     "reference_id": 83,
@@ -3950,7 +4142,7 @@
       {
         "episode_id": "crab-bisque-seinfeld",
         "name": "Crab Bisque inspired by Seinfeld",
-        "published_date": "2022-05-27",
+        "published_date": "2022-05-24",
         "youtube_link": "https://www.youtube.com/watch?v=5kKMB890ABc",
         "official_link": "https://www.babi.sh/recipes/crab-bisque-seinfeld",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695634/babishImages/undefined-585834.png"
@@ -3990,7 +4182,7 @@
       {
         "episode_id": "babka-inspired-by-seinfeld",
         "name": "Babka inspired by Seinfeld",
-        "published_date": "2017-05-10",
+        "published_date": "2017-05-09",
         "youtube_link": "https://www.youtube.com/watch?v=pw2A03Z91FI",
         "official_link": "https://www.babi.sh/recipes/babka-inspired-by-seinfeld",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689991794/caokjjp73hvi3tpco5ld.webp"
@@ -4020,6 +4212,24 @@
         "youtube_link": "https://www.youtube.com/watch?v=pTt4BjY34gk&t=151s&ab_channel=BabishCulinaryUniverse",
         "official_link": "https://www.babi.sh/recipes/the-egg-bar-inspired-by-severance",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1738792005/emlcx8fw10frbl32t7lq.webp"
+      }
+    ]
+  },
+  {
+    "reference_id": 640,
+    "type": null,
+    "name": "Shrek 2",
+    "description": null,
+    "external_link": null,
+    "image_link": null,
+    "episodes_inspired": [
+      {
+        "episode_id": "renaissance-wrap-inspired-by-shrek-2",
+        "name": "Renaissance Wrap Inspired by Shrek 2",
+        "published_date": "2024-06-05",
+        "youtube_link": "https://youtu.be/BY888aujzh0",
+        "official_link": "https://www.babi.sh/recipes/renaissance-wrap-inspired-by-shrek-2",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1717605574/tkax0edrxmko4bwrzv8v.webp"
       }
     ]
   },
@@ -4433,7 +4643,7 @@
         "episode_id": "bagelsandwiches",
         "name": "Bagel Sandwiches inspired by Steven Universe",
         "published_date": "2019-07-23",
-        "youtube_link": "https://www.youtube.com/watch?v=wv43IN_cnyw&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/wv43IN_cnyw/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "youtube_link": "https://www.youtube.com/watch?v=wv43IN_cnyw",
         "official_link": "https://www.babi.sh/recipes/bagelsandwiches",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695325/babishImages/undefined-259410.png"
       },
@@ -4592,8 +4802,8 @@
       {
         "episode_id": "crepessuzette",
         "name": "Cr\u00eapes Suzette inspired by Talladega Nights",
-        "published_date": "2019-10-24",
-        "youtube_link": "https://www.youtube.com/watch?v=Z1kR6SIr1XA&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/Z1kR6SIr1XA/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "published_date": "2019-10-22",
+        "youtube_link": "https://www.youtube.com/watch?v=Z1kR6SIr1XA",
         "official_link": "https://www.babi.sh/recipes/crepessuzette",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695392/babishImages/undefined-957845.png"
       }
@@ -4700,7 +4910,7 @@
       {
         "episode_id": "cocktail-special",
         "name": "Cocktail Special",
-        "published_date": "2017-06-28",
+        "published_date": "2017-06-27",
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.babi.sh/recipes/cocktail-special",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689991773/frvdqes62h3gdapclpxo.webp"
@@ -4719,7 +4929,7 @@
         "episode_id": "aristocats",
         "name": "Cr\u00e8me de la Cr\u00e8me \u00e0 la Edgar inspired by The Aristocats",
         "published_date": "2019-01-23",
-        "youtube_link": "https://www.youtube.com/watch?v=zNY-qzp7pD0&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/zNY-qzp7pD0/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "youtube_link": "https://www.youtube.com/watch?v=zNY-qzp7pD0",
         "official_link": "https://www.babi.sh/recipes/aristocats",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696317/babishImages/undefined-541474.png"
       }
@@ -4786,7 +4996,7 @@
       {
         "episode_id": "cocktail-special",
         "name": "Cocktail Special",
-        "published_date": "2017-06-28",
+        "published_date": "2017-06-27",
         "youtube_link": "https://www.youtube.com/watch?v=v5tJBLfeurU",
         "official_link": "https://www.babi.sh/recipes/cocktail-special",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689991773/frvdqes62h3gdapclpxo.webp"
@@ -4859,7 +5069,7 @@
         "episode_id": "coffeejelly",
         "name": "Coffee Jelly inspired by The Disastrous Life of Saiki K.",
         "published_date": "2019-09-24",
-        "youtube_link": "https://www.youtube.com/watch?v=YxEcd_wTf5c&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/YxEcd_wTf5c/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "youtube_link": "https://www.youtube.com/watch?v=YxEcd_wTf5c",
         "official_link": "https://www.babi.sh/recipes/coffeejelly",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695184/babishImages/undefined-73008.png"
       }
@@ -4957,7 +5167,7 @@
         "episode_id": "beer-steamed-chili-dogs",
         "name": "Chili Dogs inspired by The Irishman",
         "published_date": "2019-12-17",
-        "youtube_link": "https://www.youtube.com/watch?v=c0A1bkF4mKM&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/c0A1bkF4mKM/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "youtube_link": "https://www.youtube.com/watch?v=c0A1bkF4mKM",
         "official_link": "https://www.babi.sh/recipes/beer-steamed-chili-dogs",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695792/babishImages/undefined-202970.png"
       }
@@ -5864,16 +6074,7 @@
     "description": "This is a web series from Cooking Channel. They also combined episodes and broadcast on TV. IMDb.",
     "external_link": "https://www.imdb.com/title/tt5195594/",
     "image_link": "https://img.youtube.com/vi/--B_ENKrG-8/mqdefault.jpg",
-    "episodes_inspired": [
-      {
-        "episode_id": "chocolate-cake-inspired-by-matilda",
-        "name": "Chocolate Cake inspired by Matilda",
-        "published_date": "2017-06-06",
-        "youtube_link": "https://www.youtube.com/watch?v=exQ6oGefSiA",
-        "official_link": "https://www.babi.sh/recipes/chocolate-cake-inspired-by-matilda",
-        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689991787/cxpb3rjiwrvezbgpjfej.webp"
-      }
-    ]
+    "episodes_inspired": []
   },
   {
     "reference_id": 113,
@@ -5882,16 +6083,7 @@
     "description": "Being taught to cook by a professional chef is everybody's dream. And if not everybody's dream, mostlybody's dream. But chasing your dreams is overrated and often leads to heartbreak. That's why you should throw your dreams in the garbage and learn to cook here, instead. In these cooking tutorial videos youre learn next to nothing, and you'll like it.",
     "external_link": "https://www.youtube.com/channel/UCekQr9znsk2vWxBo3YiLq2w",
     "image_link": "https://yt3.ggpht.com/a/AGF-l7_wVfJ2wHSX9nB-fMjIS7X4nX76KP0oSn3YrQ=s288-c-k-c0xffffffff-no-rj-mo",
-    "episodes_inspired": [
-      {
-        "episode_id": "clayroastedthigh",
-        "name": "Clay-Roasted Thigh inspired by Hannibal",
-        "published_date": "2017-10-31",
-        "youtube_link": "https://www.youtube.com/watch?v=lnB7svFAZBs&amp;t=2s",
-        "official_link": "https://www.babi.sh/recipes/clayroastedthigh",
-        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715438/babishImages/undefined-943571.png"
-      }
-    ]
+    "episodes_inspired": []
   },
   {
     "reference_id": 591,
