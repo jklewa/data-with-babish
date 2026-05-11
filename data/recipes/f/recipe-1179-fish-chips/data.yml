@@ -1,0 +1,13 @@
+babish_id: recipe-1179
+name: Fish & Chips
+image_link: null
+raw_ingredient_list: 'frying oil
+
+  lager beer
+
+  dried marrowfat peas'
+raw_procedure: ''
+episode: episode-0246
+_lookup:
+  episode_and_section: episode-0246::serving
+  db_id: 1198

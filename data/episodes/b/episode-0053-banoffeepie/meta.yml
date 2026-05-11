@@ -1,23 +1,19 @@
 fields:
   name:
-    state: confirmed
-    by: curate-agent
-    at: '2026-05-06'
+    state: scraped
+    last_seen: '2026-05-06'
   slug:
-    state: confirmed
-    by: curate-agent
-    at: '2026-05-06'
+    state: scraped
+    last_seen: '2026-05-06'
   published_date:
     state: scraped
     last_seen: '2026-05-06'
   youtube_link:
-    state: confirmed
-    by: curate-agent
-    at: '2026-05-06'
+    state: scraped
+    last_seen: '2026-05-06'
   official_link:
-    state: confirmed
-    by: curate-agent
-    at: '2026-05-06'
+    state: scraped
+    last_seen: '2026-05-06'
   image_link:
     state: scraped
     last_seen: '2026-05-06'
@@ -28,9 +24,8 @@ fields:
     state: scraped
     last_seen: '2026-05-06'
   yield_unit:
-    state: confirmed
-    by: curate-agent
-    at: '2026-05-06'
+    state: scraped
+    last_seen: '2026-05-06'
   tags:
     state: scraped
     last_seen: '2026-05-06'

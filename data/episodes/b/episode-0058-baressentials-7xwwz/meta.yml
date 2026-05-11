@@ -6,14 +6,11 @@ fields:
     state: scraped
     last_seen: '2026-05-06'
   published_date:
-    state: confirmed
-    by: curate-agent
-    at: '2026-05-06'
+    state: scraped
+    last_seen: '2026-05-06'
   youtube_link:
-    state: overridden
-    by: curate-agent
-    at: '2026-05-06'
-    scraper_proposed: https://www.youtube.com/watch?v=ylxzfecackM&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/ylxzfecackM/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+    state: scraped
+    last_seen: '2026-05-06'
   official_link:
     state: scraped
     last_seen: '2026-05-06'
@@ -41,6 +38,4 @@ fields:
   recipes:
     state: scraped
     last_seen: '2026-05-06'
-rejected:
-  tags:
-  - tag-0012
+rejected: {}

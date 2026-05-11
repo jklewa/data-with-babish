@@ -1,7 +1,7 @@
 babish_id: episode-0373
-name: Mega Beef Bowl inspired by Persona 4
+name: Mega Beef Bowl from Persona 4 | Anime with Alvin
 slug: mega-beef-bowl-inspired-by-persona-4
-published_date: 2024-09-09
+published_date: '2022-04-05'
 youtube_link: https://www.youtube.com/watch?v=PZ-QK-16WgA
 official_link: https://www.babi.sh/recipes/mega-beef-bowl-inspired-by-persona-4
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1725892643/vbhsimmhdkl0uf49y8e3.webp
@@ -9,12 +9,12 @@ time_to_cook: null
 yield_qty: null
 yield_unit: null
 tags: []
-guests: []
+guests:
+- guest-0026
 inspired_by:
 - reference-0268
 recipes:
 - recipe-1254
-- recipe-1255
 _lookup:
   slug: mega-beef-bowl-inspired-by-persona-4
   babish_internal_id: W9MVHGpDNdQlreX0t9F6

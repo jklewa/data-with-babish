@@ -1,5 +1,5 @@
 babish_id: episode-0303
-name: Isotope Dogs inspired by The Simpsons
+name: Isotope Dog from The Simpsons
 slug: isotope-dog-the-simpsons
 published_date: 2021-09-21
 youtube_link: https://www.youtube.com/watch?v=w5K2ZoPVD5E
@@ -11,7 +11,8 @@ yield_unit: null
 tags:
 - tag-0004
 - tag-0012
-guests: []
+guests:
+- guest-0036
 inspired_by:
 - reference-0014
 recipes:

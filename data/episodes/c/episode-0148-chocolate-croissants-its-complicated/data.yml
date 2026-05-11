@@ -1,7 +1,7 @@
 babish_id: episode-0148
 name: Chocolate Croissants inspired by It's Complicated
 slug: chocolate-croissants-its-complicated
-published_date: '2022-07-13'
+published_date: 2022-08-01
 youtube_link: https://www.youtube.com/watch?v=qvNXPn4ptJM
 official_link: https://www.babi.sh/recipes/chocolate-croissants-its-complicated
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696083/babishImages/undefined-824297.png
@@ -9,6 +9,7 @@ time_to_cook: 4800
 yield_qty: 4
 yield_unit: servings
 tags:
+- tag-0004
 - tag-0012
 - tag-0016
 - tag-0018

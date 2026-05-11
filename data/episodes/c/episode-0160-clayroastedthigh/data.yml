@@ -15,10 +15,10 @@ tags:
 - tag-0029
 - tag-0030
 - tag-0033
-guests:
-- guest-0034
+guests: []
 inspired_by:
 - reference-0077
+- reference-0111
 recipes:
 - recipe-0365
 _lookup:

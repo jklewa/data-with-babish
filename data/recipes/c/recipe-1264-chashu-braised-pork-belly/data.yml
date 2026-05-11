@@ -1,0 +1,15 @@
+babish_id: recipe-1264
+name: Chashu (Braised Pork Belly)
+image_link: null
+raw_ingredient_list: '1.4 kg pork belly
+
+  shoyu
+
+  sake
+
+  red miso'
+raw_procedure: ''
+episode: episode-0293
+_lookup:
+  episode_and_section: episode-0293::toppings
+  db_id: 1283

@@ -1,19 +1,27 @@
 fields:
   name:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: overridden
+    by: curate-agent
+    at: '2026-05-10'
+    scraper_proposed: Nachos inspired by The Good Place (plus Naco Redemption)
   slug:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-10'
   published_date:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: overridden
+    by: curate-agent
+    at: '2026-05-10'
+    scraper_proposed: 2019-11-07
   youtube_link:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: overridden
+    by: curate-agent
+    at: '2026-05-10'
+    scraper_proposed: https://www.youtube.com/watch?v=LgzudBvmd08&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/LgzudBvmd08/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
   official_link:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-10'
   image_link:
     state: scraped
     last_seen: '2026-05-06'
@@ -24,8 +32,9 @@ fields:
     state: scraped
     last_seen: '2026-05-06'
   yield_unit:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-10'
   tags:
     state: scraped
     last_seen: '2026-05-06'
@@ -33,8 +42,11 @@ fields:
     state: scraped
     last_seen: '2026-05-06'
   inspired_by:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: overridden
+    by: curate-agent
+    at: '2026-05-10'
+    scraper_proposed:
+    - reference-0012
   recipes:
     state: scraped
     last_seen: '2026-05-06'

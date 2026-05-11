@@ -1,7 +1,7 @@
 babish_id: episode-0261
-name: GLUTEN-FREE PASTA
+name: Gluten-Free Pasta
 slug: gluten-free-pasta
-published_date: 2021-06-14
+published_date: '2021-06-10'
 youtube_link: https://www.youtube.com/watch?v=MVdu-DYcfTA
 official_link: https://www.babi.sh/recipes/gluten-free-pasta
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695462/babishImages/undefined-367098.png
@@ -15,7 +15,8 @@ tags:
 - tag-0029
 - tag-0030
 - tag-0032
-guests: []
+guests:
+- guest-0030
 inspired_by: []
 recipes:
 - recipe-1034

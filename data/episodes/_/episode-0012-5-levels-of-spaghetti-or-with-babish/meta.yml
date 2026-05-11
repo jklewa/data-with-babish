@@ -1,9 +1,7 @@
 fields:
   name:
-    state: overridden
-    by: curate-agent
-    at: '2026-05-06'
-    scraper_proposed: 5 Levels of Spaghetti | With Babish
+    state: scraped
+    last_seen: '2026-05-06'
   slug:
     state: scraped
     last_seen: '2026-05-06'
@@ -11,9 +9,8 @@ fields:
     state: scraped
     last_seen: '2026-05-06'
   youtube_link:
-    state: confirmed
-    by: curate-agent
-    at: '2026-05-06'
+    state: scraped
+    last_seen: '2026-05-06'
   official_link:
     state: scraped
     last_seen: '2026-05-06'

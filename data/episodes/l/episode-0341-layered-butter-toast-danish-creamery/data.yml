@@ -1,7 +1,7 @@
 babish_id: episode-0341
-name: Layered Butter Toast - Danish Creamery
+name: 243 Layer Butter Toast | Anything With Alvin
 slug: layered-butter-toast-danish-creamery
-published_date: 2025-03-19
+published_date: '2024-03-21'
 youtube_link: https://www.youtube.com/watch?v=Gr1RIaYVywM&ab_channel=BabishCulinaryUniverse
 official_link: https://www.babi.sh/recipes/layered-butter-toast-danish-creamery
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1742394232/gyyukk3qokkaa39hcbtk.webp
@@ -13,7 +13,8 @@ tags:
 - tag-0016
 - tag-0018
 - tag-0032
-guests: []
+guests:
+- guest-0026
 inspired_by: []
 recipes:
 - recipe-1227

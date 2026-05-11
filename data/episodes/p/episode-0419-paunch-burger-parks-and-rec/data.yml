@@ -1,5 +1,5 @@
 babish_id: episode-0419
-name: Paunch Burger inspired by Parks & Rec
+name: Paunch Burger from Parks & Rec
 slug: paunch-burger-parks-and-rec
 published_date: 2020-08-12
 youtube_link: https://www.youtube.com/watch?v=RN8uoBwRr1k
@@ -22,7 +22,6 @@ recipes:
 - recipe-0720
 - recipe-0721
 - recipe-0722
-- recipe-0723
 - recipe-0724
 _lookup:
   slug: paunch-burger-parks-and-rec

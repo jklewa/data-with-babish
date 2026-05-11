@@ -1,0 +1,11 @@
+babish_id: recipe-0794
+name: Casserole Dish Prep
+image_link: null
+raw_ingredient_list: '2 tbsp mayonnaise
+
+  ¼ cup finely crumbled cotija cheese'
+raw_procedure: ''
+episode: episode-0023
+_lookup:
+  episode_and_section: episode-0023::Casserole Dish Prep
+  db_id: 808

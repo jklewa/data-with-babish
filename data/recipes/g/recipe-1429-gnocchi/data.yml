@@ -1,0 +1,17 @@
+babish_id: recipe-1429
+name: Gnocchi
+image_link: null
+raw_ingredient_list: 'full fat ricotta
+
+  basil
+
+  heavy cream
+
+  flour
+
+  parmesan cheese'
+raw_procedure: ''
+episode: episode-0262
+_lookup:
+  episode_and_section: episode-0262::gorgonzola cream sauce
+  db_id: 1448

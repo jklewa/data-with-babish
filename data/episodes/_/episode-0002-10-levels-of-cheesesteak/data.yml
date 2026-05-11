@@ -1,5 +1,5 @@
 babish_id: episode-0002
-name: 10 Levels of Philly Cheesesteak
+name: 10 Levels of Cheesesteak
 slug: 10-levels-of-cheesesteak
 published_date: 2026-04-30
 youtube_link: https://www.youtube.com/watch?v=jNan4FWeQEE
@@ -12,8 +12,8 @@ tags:
 - tag-0006
 - tag-0020
 - tag-0021
-guests:
-- guest-0026
+- tag-0031
+guests: []
 inspired_by: []
 recipes:
 - recipe-1458

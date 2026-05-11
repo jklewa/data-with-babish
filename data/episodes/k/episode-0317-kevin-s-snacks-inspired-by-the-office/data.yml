@@ -1,7 +1,7 @@
 babish_id: episode-0317
 name: Kevin's Snacks inspired by The Office
 slug: kevin's-snacks-inspired-by-the-office
-published_date: 2023-04-17
+published_date: '2023-04-04'
 youtube_link: https://www.youtube.com/watch?v=sjXFncyzu_0
 official_link: https://www.babi.sh/recipes/kevin's-snacks-inspired-by-the-office
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1687962309/mflkwhhki032s2mvtrf7.webp
@@ -11,7 +11,8 @@ yield_unit: null
 tags:
 - tag-0004
 - tag-0012
-guests: []
+guests:
+- guest-0038
 inspired_by:
 - reference-0078
 recipes:

@@ -1,19 +1,25 @@
 fields:
   name:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: overridden
+    by: curate-agent
+    at: '2026-05-10'
+    scraper_proposed: 'Lettuce Wraps & Mango Sticky Rice inspired by Spider-Man: Homecoming'
   slug:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-10'
   published_date:
     state: scraped
     last_seen: '2026-05-06'
   youtube_link:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: overridden
+    by: curate-agent
+    at: '2026-05-10'
+    scraper_proposed: https://www.youtube.com/watch?v=VweTeaGwiXQ&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/VweTeaGwiXQ/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
   official_link:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-10'
   image_link:
     state: scraped
     last_seen: '2026-05-06'
@@ -38,4 +44,6 @@ fields:
   recipes:
     state: scraped
     last_seen: '2026-05-06'
-rejected: {}
+rejected:
+  inspired_by:
+  - reference-0206

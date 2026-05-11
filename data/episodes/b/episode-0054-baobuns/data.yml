@@ -2,7 +2,7 @@ babish_id: episode-0054
 name: Bao inspired by Pixar's Bao
 slug: baobuns
 published_date: 2019-02-19
-youtube_link: https://www.youtube.com/watch?v=OFt3SThGi7M
+youtube_link: https://www.youtube.com/watch?v=OFt3SThGi7M&amp;t=46s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/OFt3SThGi7M/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
 official_link: https://www.babi.sh/recipes/baobuns
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695380/babishImages/undefined-293013.png
 time_to_cook: 4800
@@ -11,12 +11,14 @@ yield_unit: servings
 tags:
 - tag-0005
 - tag-0012
+- tag-0018
 - tag-0032
 guests: []
 inspired_by:
 - reference-0021
 recipes:
 - recipe-0107
+- recipe-0108
 _lookup:
   slug: baobuns
   babish_internal_id: AcUbXtzC3jTD5PsGZprG

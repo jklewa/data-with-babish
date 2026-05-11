@@ -1,5 +1,5 @@
 babish_id: episode-0112
-name: California Style Burritos
+name: CALI-STYLE BURRITO
 slug: calistyle-burrito
 published_date: 2021-09-13
 youtube_link: https://www.youtube.com/watch?v=55YUKZK7BXg
@@ -14,8 +14,7 @@ tags:
 - tag-0029
 - tag-0030
 - tag-0031
-guests:
-- guest-0032
+guests: []
 inspired_by: []
 recipes:
 - recipe-1106

@@ -1,0 +1,9 @@
+babish_id: recipe-1203
+name: French Onion Soup with Bone Marrow Toasts
+image_link: null
+raw_ingredient_list: beef stock or bone broth
+raw_procedure: ''
+episode: episode-0347
+_lookup:
+  episode_and_section: 'episode-0347::Let''s Make: French Onion Soup'
+  db_id: 1222

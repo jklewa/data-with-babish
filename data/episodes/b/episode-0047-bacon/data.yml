@@ -1,5 +1,5 @@
 babish_id: episode-0047
-name: Homemade Bacon
+name: HOMEMADE BACON
 slug: bacon
 published_date: 2021-04-30
 youtube_link: https://www.youtube.com/watch?v=TUh4Z2li1UM
@@ -17,7 +17,9 @@ recipes:
 - recipe-0971
 - recipe-0972
 - recipe-0973
+- recipe-0974
 - recipe-0975
+- recipe-0976
 - recipe-0977
 _lookup:
   slug: bacon

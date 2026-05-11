@@ -1,0 +1,19 @@
+babish_id: recipe-1241
+name: condiments & toppings
+image_link: null
+raw_ingredient_list: 'milk warm
+
+  beef
+
+  butter
+
+  sugar
+
+  egg
+
+  tomatoes thinly'
+raw_procedure: ''
+episode: episode-0073
+_lookup:
+  episode_and_section: episode-0073::condiments & toppings
+  db_id: 1260

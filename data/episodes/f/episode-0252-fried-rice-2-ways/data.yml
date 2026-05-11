@@ -1,7 +1,7 @@
 babish_id: episode-0252
-name: FRIED RICE 2 WAYS
+name: 'Fried Rice 2 Ways: "Basics" with Alvin & Kendall'
 slug: fried-rice-2-ways
-published_date: 2022-05-17
+published_date: '2022-04-28'
 youtube_link: https://www.youtube.com/watch?v=TYNPLyxpmw4
 official_link: https://www.babi.sh/recipes/fried-rice-2-ways
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695218/babishImages/undefined-286946.png
@@ -11,7 +11,9 @@ yield_unit: servings
 tags:
 - tag-0013
 - tag-0015
-guests: []
+guests:
+- guest-0026
+- guest-0030
 inspired_by: []
 recipes:
 - recipe-1387

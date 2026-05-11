@@ -1,24 +1,19 @@
 fields:
   name:
-    state: confirmed
-    by: curate-agent
-    at: '2026-05-06'
+    state: scraped
+    last_seen: '2026-05-06'
   slug:
-    state: confirmed
-    by: curate-agent
-    at: '2026-05-06'
+    state: scraped
+    last_seen: '2026-05-06'
   published_date:
-    state: confirmed
-    by: curate-agent
-    at: '2026-05-06'
+    state: scraped
+    last_seen: '2026-05-06'
   youtube_link:
-    state: confirmed
-    by: curate-agent
-    at: '2026-05-06'
+    state: scraped
+    last_seen: '2026-05-06'
   official_link:
-    state: confirmed
-    by: curate-agent
-    at: '2026-05-06'
+    state: scraped
+    last_seen: '2026-05-06'
   image_link:
     state: scraped
     last_seen: '2026-05-06'
@@ -43,6 +38,4 @@ fields:
   recipes:
     state: scraped
     last_seen: '2026-05-06'
-rejected:
-  tags:
-  - tag-0028
+rejected: {}

@@ -1,5 +1,5 @@
 babish_id: episode-0255
-name: The Garbage Plate inspired by The Place Beyond The Pines (sort of)
+name: The Garbage Plate from The Place Beyond The Pines (sort of)
 slug: garbageplate
 published_date: 2017-11-28
 youtube_link: https://www.youtube.com/watch?v=wjoeVwJTUTA
@@ -13,7 +13,8 @@ tags:
 - tag-0012
 - tag-0029
 - tag-0030
-guests: []
+guests:
+- guest-0031
 inspired_by:
 - reference-0072
 recipes:

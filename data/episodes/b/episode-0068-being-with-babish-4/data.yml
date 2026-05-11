@@ -1,5 +1,5 @@
 babish_id: episode-0068
-name: Training like Kratos for 30 Days | Being with Babish
+name: Training like Kratos for 30 Days | Body by Babish
 slug: being-with-babish-4
 published_date: 2019-06-07
 youtube_link: https://www.youtube.com/watch?v=n_aq5TVb0HA
@@ -10,8 +10,8 @@ yield_qty: null
 yield_unit: null
 tags: []
 guests:
+- guest-0019
 - guest-0024
-- guest-0030
 inspired_by:
 - reference-0238
 recipes: []

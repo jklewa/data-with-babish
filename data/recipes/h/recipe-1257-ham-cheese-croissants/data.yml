@@ -1,0 +1,13 @@
+babish_id: recipe-1257
+name: ham cheese croissants
+image_link: null
+raw_ingredient_list: 'croissant dough scraps
+
+  croissant dough
+
+  layer croissant dough'
+raw_procedure: ''
+episode: episode-0008
+_lookup:
+  episode_and_section: episode-0008::ham cheese croissants
+  db_id: 1276

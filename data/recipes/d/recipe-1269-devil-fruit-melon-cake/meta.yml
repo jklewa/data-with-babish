@@ -1,0 +1,19 @@
+fields:
+  name:
+    state: overridden
+    by: curate-agent
+    at: '2026-05-10'
+    scraper_proposed: devil fruit decoration
+  image_link:
+    state: scraped
+    last_seen: '2026-05-05'
+  raw_ingredient_list:
+    state: scraped
+    last_seen: '2026-05-05'
+  raw_procedure:
+    state: scraped
+    last_seen: '2026-05-05'
+  episode:
+    state: scraped
+    last_seen: '2026-05-05'
+rejected: {}

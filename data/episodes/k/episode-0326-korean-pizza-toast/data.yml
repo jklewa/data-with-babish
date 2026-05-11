@@ -1,7 +1,7 @@
 babish_id: episode-0326
 name: Korean Pizza Toast
 slug: korean-pizza-toast
-published_date: 2025-06-06
+published_date: '2024-03-28'
 youtube_link: https://www.youtube.com/watch?v=95f6tkiNspM
 official_link: https://www.babi.sh/recipes/korean-pizza-toast
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1749232941/jpxmrkezfage5ozo2he5.webp
@@ -16,7 +16,8 @@ tags:
 - tag-0020
 - tag-0029
 - tag-0031
-guests: []
+guests:
+- guest-0026
 inspired_by: []
 recipes:
 - recipe-1212

@@ -1,0 +1,19 @@
+babish_id: recipe-1196
+name: Korean Fried Chicken Soy Garlic Sauce
+image_link: null
+raw_ingredient_list: 'flour
+
+  soy sauce
+
+  brown sugar
+
+  honey
+
+  rice wine
+
+  corn starch'
+raw_procedure: ''
+episode: episode-0325
+_lookup:
+  episode_and_section: episode-0325::korean fried chicken powder mix
+  db_id: 1215

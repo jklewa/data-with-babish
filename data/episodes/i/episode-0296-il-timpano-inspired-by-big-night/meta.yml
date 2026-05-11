@@ -1,16 +1,21 @@
 fields:
   name:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-10'
   slug:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-10'
   published_date:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: overridden
+    by: curate-agent
+    at: '2026-05-10'
+    scraper_proposed: 2016-02-21
   youtube_link:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-10'
   official_link:
     state: scraped
     last_seen: '2026-05-06'

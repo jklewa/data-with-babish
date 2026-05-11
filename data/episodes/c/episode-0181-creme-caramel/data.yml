@@ -1,5 +1,5 @@
 babish_id: episode-0181
-name: Crème Caramel
+name: CRÈME CARAMEL
 slug: creme-caramel
 published_date: 2021-04-08
 youtube_link: https://www.youtube.com/watch?v=ihS8__strtM
@@ -11,8 +11,7 @@ yield_unit: servings
 tags:
 - tag-0013
 - tag-0018
-guests:
-- guest-0035
+guests: []
 inspired_by: []
 recipes:
 - recipe-0966

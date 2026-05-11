@@ -1,0 +1,13 @@
+babish_id: recipe-1329
+name: El Burdigato Supreme
+image_link: null
+raw_ingredient_list: 'pepperoni
+
+  beef
+
+  lean beef'
+raw_procedure: ''
+episode: episode-0220
+_lookup:
+  episode_and_section: episode-0220::el burdigato hot dog
+  db_id: 1348

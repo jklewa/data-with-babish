@@ -1,5 +1,5 @@
 babish_id: episode-0145
-name: Deadpool's Chimichangas
+name: CHIMICHANGAS
 slug: chimichangas
 published_date: 2020-04-28
 youtube_link: https://www.youtube.com/watch?v=szFLA4_pwew
@@ -11,8 +11,7 @@ yield_unit: servings
 tags:
 - tag-0013
 guests: []
-inspired_by:
-- reference-0052
+inspired_by: []
 recipes:
 - recipe-1431
 _lookup:

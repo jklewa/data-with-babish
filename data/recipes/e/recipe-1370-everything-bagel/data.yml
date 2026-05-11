@@ -1,0 +1,9 @@
+babish_id: recipe-1370
+name: Everything Bagel
+image_link: null
+raw_ingredient_list: flour
+raw_procedure: ''
+episode: episode-0227
+_lookup:
+  episode_and_section: episode-0227::EVERYTHING Bagel inspired by Everything Everywhere All At Once
+  db_id: 1389

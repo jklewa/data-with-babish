@@ -1,8 +1,8 @@
 babish_id: episode-0336
-name: 'Lettuce Wraps & Mango Sticky Rice inspired by Spider-Man: Homecoming'
+name: 'Larb from Spider-Man: Homecoming'
 slug: larbstickyrice
 published_date: 2019-07-10
-youtube_link: https://www.youtube.com/watch?v=VweTeaGwiXQ&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/VweTeaGwiXQ/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+youtube_link: https://www.youtube.com/watch?v=VweTeaGwiXQ
 official_link: https://www.babi.sh/recipes/larbstickyrice
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695424/babishImages/undefined-405036.png
 time_to_cook: 4800
@@ -14,7 +14,6 @@ tags:
 guests: []
 inspired_by:
 - reference-0007
-- reference-0206
 recipes:
 - recipe-0023
 - recipe-0024

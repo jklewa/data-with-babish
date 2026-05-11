@@ -1,0 +1,15 @@
+babish_id: recipe-1350
+name: Pigs in a Blanket
+image_link: null
+raw_ingredient_list: 'store bought puff pastry
+
+  cocktail franks
+
+  full size precooked sausage
+
+  egg'
+raw_procedure: ''
+episode: episode-0430
+_lookup:
+  episode_and_section: episode-0430::pigs a blanket
+  db_id: 1369

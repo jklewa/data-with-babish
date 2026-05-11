@@ -1,7 +1,7 @@
 babish_id: episode-0414
-name: Pasta Curry inspired by Pokémon Sword and Shield
+name: Pasta Curry from Pokémon Sword and Shield
 slug: pasta-curry-inspired-by-pokemon-sword-and-shield
-published_date: 2024-10-07
+published_date: '2022-09-29'
 youtube_link: https://www.youtube.com/watch?v=6G6gDOZie_c&pp=ygUccGFzdGEgY3VycnkgYW5pbWUgd2l0aCBhbHZpbg%3D%3D
 official_link: https://www.babi.sh/recipes/pasta-curry-inspired-by-pokemon-sword-and-shield
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1728312496/cyv0xgllmxnxn7i3wxxp.webp
@@ -11,7 +11,8 @@ yield_unit: servings
 tags:
 - tag-0003
 - tag-0009
-guests: []
+guests:
+- guest-0026
 inspired_by:
 - reference-0256
 recipes:

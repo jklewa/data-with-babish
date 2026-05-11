@@ -1,0 +1,21 @@
+babish_id: recipe-1245
+name: garnish
+image_link: null
+raw_ingredient_list: 'corn starch
+
+  potato starch
+
+  black sea bass
+
+  neutral oil
+
+  shaoxing cooking wine
+
+  salt
+
+  40g white vinegar'
+raw_procedure: ''
+episode: episode-0083
+_lookup:
+  episode_and_section: episode-0083::garnish
+  db_id: 1264

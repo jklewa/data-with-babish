@@ -10,9 +10,11 @@ yield_qty: 10
 yield_unit: chicken pieces
 tags:
 - tag-0006
+- tag-0019
 - tag-0021
 - tag-0029
 - tag-0030
+- tag-0031
 guests: []
 inspired_by: []
 recipes:

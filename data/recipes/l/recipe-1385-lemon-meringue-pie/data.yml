@@ -1,0 +1,21 @@
+babish_id: recipe-1385
+name: Lemon Meringue Pie
+image_link: null
+raw_ingredient_list: 'sugar
+
+  butter
+
+  meyer lemon juice
+
+  egg whites
+
+  flour
+
+  egg yolks
+
+  cornstarch'
+raw_procedure: ''
+episode: episode-0344
+_lookup:
+  episode_and_section: episode-0344::meringue topping
+  db_id: 1404

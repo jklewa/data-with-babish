@@ -1,7 +1,7 @@
 babish_id: episode-0154
 name: Christmas Turkey inspired by National Lampoon's Christmas Vacation
 slug: christmas-turkey-inspired-by-national-lampoon's-christmas-vacation
-published_date: '2025-11-29'
+published_date: 2025-11-26
 youtube_link: https://youtube.com/watch?v=w0pZ7MWajW8&si=r2TmnS9oJhDHIbp5
 official_link: https://www.babi.sh/recipes/christmas-turkey-inspired-by-national-lampoon's-christmas-vacation
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1764189007/giyklwlgdj7x3nwbi38c.webp
@@ -14,8 +14,7 @@ tags:
 - tag-0021
 - tag-0030
 - tag-0032
-guests:
-- guest-0033
+guests: []
 inspired_by:
 - reference-0234
 recipes:

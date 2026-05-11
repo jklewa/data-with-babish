@@ -1,7 +1,7 @@
 babish_id: episode-0155
 name: Churrons inspired by Broad City
 slug: churrons-broad-city
-published_date: '2022-08-03'
+published_date: 2022-08-17
 youtube_link: https://www.youtube.com/watch?v=JiUsCTy8nEY
 official_link: https://www.babi.sh/recipes/churrons-broad-city
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695905/babishImages/undefined-290140.png
@@ -11,6 +11,7 @@ yield_unit: servings
 tags:
 - tag-0004
 - tag-0012
+- tag-0015
 - tag-0016
 - tag-0018
 - tag-0033

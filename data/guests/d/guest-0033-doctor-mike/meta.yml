@@ -1,0 +1,6 @@
+fields:
+  name:
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-10'
+rejected: {}

@@ -1,0 +1,15 @@
+babish_id: recipe-1212
+name: Korean Pizza Toast (Variations)
+image_link: null
+raw_ingredient_list: 'low moisture mozzarella cheese
+
+  pesto
+
+  honey
+
+  eggs well'
+raw_procedure: ''
+episode: episode-0326
+_lookup:
+  episode_and_section: episode-0326::variations
+  db_id: 1231

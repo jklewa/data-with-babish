@@ -1,21 +1,16 @@
 fields:
   name:
-    state: overridden
-    by: curate-agent
-    at: '2026-05-06'
-    scraper_proposed: HOMEMADE BACON
+    state: scraped
+    last_seen: '2026-05-06'
   slug:
-    state: confirmed
-    by: curate-agent
-    at: '2026-05-06'
+    state: scraped
+    last_seen: '2026-05-06'
   published_date:
-    state: confirmed
-    by: curate-agent
-    at: '2026-05-06'
+    state: scraped
+    last_seen: '2026-05-06'
   youtube_link:
-    state: confirmed
-    by: curate-agent
-    at: '2026-05-06'
+    state: scraped
+    last_seen: '2026-05-06'
   official_link:
     state: scraped
     last_seen: '2026-05-06'
@@ -43,7 +38,4 @@ fields:
   recipes:
     state: scraped
     last_seen: '2026-05-06'
-rejected:
-  recipes:
-  - recipe-0974
-  - recipe-0976
+rejected: {}

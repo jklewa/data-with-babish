@@ -1,5 +1,5 @@
 babish_id: episode-0246
-name: Friday Night Fish Fry
+name: British Chefs Judge My Fish & Chips (ft. Fallow)
 slug: friday-night-fish-fry
 published_date: 2026-03-07
 youtube_link: https://youtube.com/watch?v=N81JPU65qqk&si=IPnE4_g2NqVyLKKS
@@ -9,7 +9,9 @@ time_to_cook: 10800
 yield_qty: 4
 yield_unit: servings
 tags: []
-guests: []
+guests:
+- guest-0028
+- guest-0029
 inspired_by: []
 recipes:
 - recipe-1179

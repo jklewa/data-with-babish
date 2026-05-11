@@ -1,5 +1,5 @@
 babish_id: episode-0023
-name: Thanksgiving Recipe Livestream with Sohla El-Waylly
+name: ANDREW & SOHLA THANKSGIVING RECIPES
 slug: andrewsohlathanksgiving
 published_date: 2020-11-20
 youtube_link: https://www.youtube.com/watch?v=tXNuz8nXYGk
@@ -11,8 +11,7 @@ yield_unit: servings
 tags:
 - tag-0013
 - tag-0032
-guests:
-- guest-0029
+guests: []
 inspired_by: []
 recipes:
 - recipe-0794

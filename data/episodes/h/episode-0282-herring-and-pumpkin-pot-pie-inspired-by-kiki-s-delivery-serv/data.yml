@@ -1,7 +1,7 @@
 babish_id: episode-0282
 name: Herring and Pumpkin Pot Pie inspired by Kiki's Delivery Service
 slug: herring-and-pumpkin-pot-pie-inspired-by-kiki's-delivery-service
-published_date: 2024-09-04
+published_date: '2021-10-10'
 youtube_link: https://www.youtube.com/watch?v=c7tMpaSOuz8
 official_link: https://www.babi.sh/recipes/herring-and-pumpkin-pot-pie-inspired-by-kiki's-delivery-service
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1725466216/whyojk2iqq3ayolmx5tc.webp
@@ -15,7 +15,8 @@ tags:
 - tag-0023
 - tag-0030
 - tag-0031
-guests: []
+guests:
+- guest-0026
 inspired_by:
 - reference-0271
 recipes:

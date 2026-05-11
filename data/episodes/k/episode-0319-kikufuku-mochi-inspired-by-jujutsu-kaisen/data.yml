@@ -1,7 +1,7 @@
 babish_id: episode-0319
 name: Kikufuku Mochi inspired by Jujutsu Kaisen
 slug: kikufuku-mochi-inspired-by-jujutsu-kaisen
-published_date: 2024-09-04
+published_date: '2022-02-01'
 youtube_link: https://www.youtube.com/watch?v=iUT99TWDLnU
 official_link: https://www.babi.sh/recipes/kikufuku-mochi-inspired-by-jujutsu-kaisen
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1725461942/jdbeidjv54jsn9mkgru6.webp
@@ -14,7 +14,8 @@ tags:
 - tag-0018
 - tag-0019
 - tag-0032
-guests: []
+guests:
+- guest-0026
 inspired_by:
 - reference-0272
 recipes:

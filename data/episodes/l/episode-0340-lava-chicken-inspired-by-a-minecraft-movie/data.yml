@@ -1,7 +1,7 @@
 babish_id: episode-0340
 name: Lava Chicken inspired by A Minecraft Movie
 slug: lava-chicken-inspired-by-a-minecraft-movie
-published_date: 2025-11-21
+published_date: '2025-11-22'
 youtube_link: https://youtube.com/watch?v=CIlClQZAgRI&si=pLXbh-oEGBhgb80g
 official_link: https://www.babi.sh/recipes/lava-chicken-inspired-by-a-minecraft-movie
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1763763253/dm8sfsv0mrbzpovapxax.webp
@@ -16,7 +16,8 @@ tags:
 - tag-0029
 - tag-0030
 - tag-0033
-guests: []
+guests:
+- guest-0040
 inspired_by:
 - reference-0235
 recipes:

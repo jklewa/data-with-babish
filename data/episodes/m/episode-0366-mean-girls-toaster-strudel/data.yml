@@ -1,7 +1,7 @@
 babish_id: episode-0366
 name: Homemade Toaster Strudel Inspired by Mean Girls
 slug: mean-girls-toaster-strudel
-published_date: 2024-01-18
+published_date: '2024-01-16'
 youtube_link: https://www.youtube.com/watch?v=t78IFIYiQ8M
 official_link: https://www.babi.sh/recipes/mean-girls-toaster-strudel
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1705545612/ovmommijdvjcueekr5bx.webp
@@ -14,7 +14,8 @@ tags:
 - tag-0016
 - tag-0028
 - tag-0032
-guests: []
+guests:
+- guest-0043
 inspired_by:
 - reference-0320
 recipes:

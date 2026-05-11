@@ -1,5 +1,5 @@
 babish_id: episode-0158
-name: Classic Fettuccine Alfredo
+name: Classic Fettucine Alfredo
 slug: classic-fettucine-alfredo
 published_date: 2025-06-06
 youtube_link: https://www.youtube.com/watch?v=2Xx1QY_WVs0&pp=ygUhY2xhc3NpYyBmZXR0dWNjaW5lIGFsZnJlZG8gYmFiaXNo
@@ -15,10 +15,8 @@ tags:
 - tag-0027
 - tag-0030
 - tag-0031
-guests:
-- guest-0027
-inspired_by:
-- reference-0325
+guests: []
+inspired_by: []
 recipes:
 - recipe-1216
 _lookup:

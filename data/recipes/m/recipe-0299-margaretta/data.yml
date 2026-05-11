@@ -1,0 +1,17 @@
+babish_id: recipe-0299
+name: Margaretta
+image_link: null
+raw_ingredient_list: '4 oz Tequila
+
+  1 oz Triple Sec
+
+  Lime juice
+
+  Salt'
+raw_procedure: 'Salt the rim of a glass using lime juice.
+
+  Mix and serve.'
+episode: episode-0057
+_lookup:
+  episode_and_section: episode-0057::Margaretta
+  db_id: 304
