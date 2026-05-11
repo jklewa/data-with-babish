@@ -1,0 +1,19 @@
+babish_id: recipe-1327
+name: Victoria Sponge Cake
+image_link: null
+raw_ingredient_list: 'sugar
+
+  heavy cream
+
+  eggs
+
+  strawberries
+
+  mascarpone cheese
+
+  self rising flour'
+raw_procedure: ''
+episode: episode-0353
+_lookup:
+  episode_and_section: episode-0353::stabilized whipped cream icing
+  db_id: 1346

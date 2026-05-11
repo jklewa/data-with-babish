@@ -1,7 +1,7 @@
 babish_id: episode-0315
 name: Kettle Corn inspired by Community
 slug: kettle-corn-community
-published_date: 2021-06-02
+published_date: '2021-06-01'
 youtube_link: https://www.youtube.com/watch?v=aGPqK_hHA28
 official_link: https://www.babi.sh/recipes/kettle-corn-community
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696001/babishImages/undefined-674983.png
@@ -13,7 +13,8 @@ tags:
 - tag-0012
 - tag-0015
 - tag-0031
-guests: []
+guests:
+- guest-0043
 inspired_by:
 - reference-0184
 recipes:

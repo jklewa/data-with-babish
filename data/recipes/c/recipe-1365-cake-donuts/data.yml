@@ -1,0 +1,19 @@
+babish_id: recipe-1365
+name: Cake Donuts
+image_link: null
+raw_ingredient_list: 'flour
+
+  sugar
+
+  milk
+
+  brown sugar
+
+  eggs
+
+  vegetable oil'
+raw_procedure: ''
+episode: episode-0418
+_lookup:
+  episode_and_section: episode-0418::glaze formula
+  db_id: 1384

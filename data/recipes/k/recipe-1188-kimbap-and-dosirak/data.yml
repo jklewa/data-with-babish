@@ -1,0 +1,21 @@
+babish_id: recipe-1188
+name: Kimbap and Dosirak
+image_link: null
+raw_ingredient_list: 'short grain rice
+
+  dried black soybeans
+
+  spinach
+
+  soy sauce
+
+  anchovies
+
+  sheets gim
+
+  vegetable oil'
+raw_procedure: ''
+episode: episode-0320
+_lookup:
+  episode_and_section: episode-0320::beans
+  db_id: 1207

@@ -1,0 +1,19 @@
+babish_id: recipe-1336
+name: Rice Pudding Brulée
+image_link: null
+raw_ingredient_list: 'milk
+
+  dried short grain rice or 3 cups rice
+
+  cinnamon
+
+  brown sugar
+
+  heavy cream
+
+  white sugar'
+raw_procedure: ''
+episode: episode-0317
+_lookup:
+  episode_and_section: episode-0317::superfine sugar
+  db_id: 1355

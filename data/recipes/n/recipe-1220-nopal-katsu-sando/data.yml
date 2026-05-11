@@ -1,0 +1,19 @@
+babish_id: recipe-1220
+name: Nopal Katsu Sando
+image_link: null
+raw_ingredient_list: 'flour
+
+  purple cabbage
+
+  panko breadcrumbs
+
+  mayonnaise
+
+  eggs
+
+  garlic'
+raw_procedure: ''
+episode: episode-0395
+_lookup:
+  episode_and_section: episode-0395::assembly
+  db_id: 1239

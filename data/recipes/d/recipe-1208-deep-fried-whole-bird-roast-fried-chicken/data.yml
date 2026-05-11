@@ -1,0 +1,13 @@
+babish_id: recipe-1208
+name: Deep Fried Whole Bird Roast (Fried Chicken)
+image_link: null
+raw_ingredient_list: 'chicken
+
+  flour
+
+  salt'
+raw_procedure: ''
+episode: episode-0248
+_lookup:
+  episode_and_section: episode-0248::serving
+  db_id: 1227

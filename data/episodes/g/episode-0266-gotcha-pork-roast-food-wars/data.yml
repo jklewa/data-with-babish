@@ -1,7 +1,7 @@
 babish_id: episode-0266
 name: Gotcha Pork Roast inspired by Food Wars (Shokugeki no Soma)
 slug: gotcha-pork-roast-food-wars
-published_date: 2021-04-12
+published_date: '2021-04-01'
 youtube_link: https://www.youtube.com/watch?v=NfrLH0T0rdU
 official_link: https://www.babi.sh/recipes/gotcha-pork-roast-food-wars
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696172/babishImages/undefined-313821.png
@@ -14,7 +14,8 @@ tags:
 - tag-0021
 - tag-0030
 - tag-0032
-guests: []
+guests:
+- guest-0027
 inspired_by:
 - reference-0063
 recipes:

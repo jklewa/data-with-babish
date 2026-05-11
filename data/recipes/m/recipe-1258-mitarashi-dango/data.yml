@@ -1,0 +1,21 @@
+babish_id: recipe-1258
+name: Mitarashi Dango
+image_link: null
+raw_ingredient_list: 'silken tofu
+
+  joshinko
+
+  shiratamako
+
+  mirin
+
+  soy sauce
+
+  sugar
+
+  potato starch'
+raw_procedure: ''
+episode: episode-0380
+_lookup:
+  episode_and_section: episode-0380::mitarashi sauce
+  db_id: 1277

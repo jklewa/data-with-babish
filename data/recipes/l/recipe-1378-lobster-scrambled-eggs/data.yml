@@ -1,0 +1,23 @@
+babish_id: recipe-1378
+name: Lobster Scrambled Eggs
+image_link: null
+raw_ingredient_list: 'lobster
+
+  eggs
+
+  butter
+
+  black pepper
+
+  parsley
+
+  dill
+
+  garlic
+
+  marjoram'
+raw_procedure: ''
+episode: episode-0352
+_lookup:
+  episode_and_section: episode-0352::herb butter
+  db_id: 1397

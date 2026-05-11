@@ -1,7 +1,7 @@
 babish_id: episode-0376
 name: MILLIONAIRE'S SHORTBREAD
 slug: millionaires-shortbread
-published_date: 2020-02-14
+published_date: '2020-02-13'
 youtube_link: https://www.youtube.com/watch?v=GWAY5i3CMpo
 official_link: https://www.babi.sh/recipes/millionaires-shortbread
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715701/babishImages/undefined-902446.png
@@ -14,7 +14,8 @@ tags:
 - tag-0018
 - tag-0032
 guests: []
-inspired_by: []
+inspired_by:
+- reference-0328
 recipes:
 - recipe-1441
 _lookup:

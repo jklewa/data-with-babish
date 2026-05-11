@@ -1,7 +1,7 @@
 babish_id: episode-0382
 name: MOFONGO
 slug: mofongo
-published_date: 2023-03-02
+published_date: '2023-03-23'
 youtube_link: https://www.youtube.com/watch?v=p3ASwWUscDc
 official_link: https://www.babi.sh/recipes/mofongo
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1690353083/iru6vyj1zv4gdeydygue.webp
@@ -10,7 +10,8 @@ yield_qty: null
 yield_unit: null
 tags:
 - tag-0013
-guests: []
+guests:
+- guest-0051
 inspired_by: []
 recipes:
 - recipe-1344

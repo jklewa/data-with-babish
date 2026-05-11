@@ -1,7 +1,7 @@
 babish_id: episode-0267
-name: LATE NIGHT PASTA
+name: My Go-To Late-Night Pasta
 slug: go-to-pasta
-published_date: 2022-08-17
+published_date: '2022-07-31'
 youtube_link: https://www.youtube.com/watch?v=Tj26Na3q2d8
 official_link: https://www.babi.sh/recipes/go-to-pasta
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715436/babishImages/undefined-603225.png
@@ -15,7 +15,8 @@ tags:
 - tag-0030
 - tag-0031
 guests: []
-inspired_by: []
+inspired_by:
+- reference-0045
 recipes:
 - recipe-1375
 _lookup:

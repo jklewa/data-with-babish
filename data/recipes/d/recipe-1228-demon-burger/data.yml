@@ -1,0 +1,9 @@
+babish_id: recipe-1228
+name: Demon Burger
+image_link: null
+raw_ingredient_list: flour
+raw_procedure: ''
+episode: episode-0197
+_lookup:
+  episode_and_section: episode-0197::burgers
+  db_id: 1247

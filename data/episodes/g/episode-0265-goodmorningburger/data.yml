@@ -2,7 +2,7 @@ babish_id: episode-0265
 name: Good Morning Burger inspired by The Simpsons
 slug: goodmorningburger
 published_date: 2019-05-07
-youtube_link: https://www.youtube.com/watch?v=hzAgFNh4vRY&amp;t=153s&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/hzAgFNh4vRY/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+youtube_link: https://www.youtube.com/watch?v=hzAgFNh4vRY
 official_link: https://www.babi.sh/recipes/goodmorningburger
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695446/babishImages/undefined-916498.png
 time_to_cook: 3600
@@ -13,7 +13,8 @@ tags:
 - tag-0012
 - tag-0028
 - tag-0031
-guests: []
+guests:
+- guest-0030
 inspired_by:
 - reference-0014
 recipes:

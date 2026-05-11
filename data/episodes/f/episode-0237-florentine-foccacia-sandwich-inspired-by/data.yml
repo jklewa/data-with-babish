@@ -1,8 +1,8 @@
 babish_id: episode-0237
-name: Florentine Foccacia Sandwich inspired by
+name: Italy's Most Iconic Sandwich | Anything With Alvin
 slug: florentine-foccacia-sandwich-inspired-by
-published_date: 2025-06-06
-youtube_link: https://www.youtube.com/watch?v=DlKffFjjnwQ&pp=ygUeYW55dGhpbmcgd2l0aCBhbHZpbiBzYW5kaXdjaGVz0gcJCbIJAYcqIYzv
+published_date: '2024-05-24'
+youtube_link: https://www.youtube.com/watch?v=DlKffFjjnwQ
 official_link: https://www.babi.sh/recipes/florentine-foccacia-sandwich-inspired-by
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1749224610/kmsn8873t2bzvgidy9bl.webp
 time_to_cook: 172800
@@ -16,7 +16,8 @@ tags:
 - tag-0029
 - tag-0030
 - tag-0032
-guests: []
+guests:
+- guest-0027
 inspired_by: []
 recipes:
 - recipe-1214

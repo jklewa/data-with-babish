@@ -2,7 +2,7 @@ babish_id: episode-0377
 name: Minecraft Cake inspired by Minecraft
 slug: minecraft-cake-inspired-by-minecraft
 published_date: 2024-10-07
-youtube_link: https://www.youtube.com/watch?v=BhqcprmntPY&pp=ygUabWluZWNyYWZ0IGNha2UgYW5pbWUgYWx2aW4%3D
+youtube_link: https://www.youtube.com/watch?v=BhqcprmntPY
 official_link: https://www.babi.sh/recipes/minecraft-cake-inspired-by-minecraft
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1728312280/l6x0kr8zeetgqcw6x72s.webp
 time_to_cook: null
@@ -11,7 +11,8 @@ yield_unit: servings
 tags:
 - tag-0003
 - tag-0009
-guests: []
+guests:
+- guest-0027
 inspired_by:
 - reference-0259
 recipes:

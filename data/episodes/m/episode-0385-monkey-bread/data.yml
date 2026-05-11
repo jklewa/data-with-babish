@@ -1,5 +1,5 @@
 babish_id: episode-0385
-name: MONKEY BREAD
+name: Sweet & Savory Monkey Breads
 slug: monkey-bread
 published_date: 2021-06-25
 youtube_link: https://www.youtube.com/watch?v=JGL2m6-SLMQ
@@ -10,7 +10,6 @@ yield_qty: null
 yield_unit: null
 tags:
 - tag-0013
-- tag-0015
 - tag-0016
 - tag-0018
 - tag-0032
