@@ -1,9 +1,32 @@
 [
   {
+    "guest_id": 93,
+    "name": "Alton Brown",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "kpop-demon-hunters-airplane-feast",
+        "name": "KPop Demon Hunters Airplane Feast",
+        "published_date": "2026-04-11",
+        "youtube_link": "https://youtube.com/watch?v=W8kIAgoqDAI&si=65fH6Fh3e8T6yGu_",
+        "official_link": "https://www.babi.sh/recipes/kpop-demon-hunters-airplane-feast",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1775873571/sifq1hxehqudhjdfchik.webp"
+      }
+    ]
+  },
+  {
     "guest_id": 76,
     "name": "Alvin Zhou",
     "image_link": null,
     "appearances": [
+      {
+        "episode_id": "spicy-rum-chicken-curry-inspired-by-super-smash-bros.",
+        "name": "Spicy Rum Chicken Curry inspired by Super Smash Bros.",
+        "published_date": "2025-09-04",
+        "youtube_link": "https://www.youtube.com/watch?v=LFzKMgYpnfU&pp=ygUiYXJjYWRlIHdpdGggYWx2aW4gc3VwZXIgc21hc2ggYnJvcw%3D%3D",
+        "official_link": "https://www.babi.sh/recipes/spicy-rum-chicken-curry-inspired-by-super-smash-bros.",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1757023307/cehz14ecmygnkn3imc29.webp"
+      },
       {
         "episode_id": "4-cheese-lasagna-inspired-by-one-piece",
         "name": "4-Cheese Lasagna inspired by One Piece",
@@ -19,6 +42,14 @@
         "youtube_link": "https://www.youtube.com/watch?v=WM2d4JGynXc",
         "official_link": "https://www.babi.sh/recipes/18-pound-giant-fried-chicken-bowl",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1754941912/nm2jss7wgfnfnv7bs3oo.webp"
+      },
+      {
+        "episode_id": "water-tribe-noodles-inspired-by-the-legend-of-korra",
+        "name": "Water Tribe Noodles inspired by The Legend of Korra",
+        "published_date": "2025-08-11",
+        "youtube_link": "https://www.youtube.com/watch?v=P98ZbqpKPl8",
+        "official_link": "https://www.babi.sh/recipes/water-tribe-noodles-inspired-by-the-legend-of-korra",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1754944831/dypiv0ern3sylt2gqpv1.webp"
       },
       {
         "episode_id": "28-layer-chocolate-cake",
@@ -45,6 +76,14 @@
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1749222937/h0akjerb4dvfjjofwtkj.webp"
       },
       {
+        "episode_id": "deep-fried-burger-bomb",
+        "name": "Deep Fried Burger Bomb",
+        "published_date": "2025-06-06",
+        "youtube_link": "https://www.youtube.com/watch?v=dhRkD9u0C48",
+        "official_link": "https://www.babi.sh/recipes/deep-fried-burger-bomb",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1749219273/tfuzfxhkivkjrmtvcjam.webp"
+      },
+      {
         "episode_id": "chocolate-cake-milkshake-inspired-by-portillo's",
         "name": "Chocolate Cake Milkshake inspired by Portillo's",
         "published_date": "2025-06-04",
@@ -53,12 +92,52 @@
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1749064072/hstkkvyg9ja8s6vazkgi.webp"
       },
       {
+        "episode_id": "japanese-style-big-mac-inspired-by-weathering-with-you",
+        "name": "Japanese-Style Big Mac inspired by Weathering with You",
+        "published_date": "2025-03-19",
+        "youtube_link": "https://www.youtube.com/watch?v=BzKBag59duU&pp=ygUTYWx2aW4gamFwYW4gYmlnIG1hYw%3D%3D",
+        "official_link": "https://www.babi.sh/recipes/japanese-style-big-mac-inspired-by-weathering-with-you",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1742407838/ofwjdoqrkbbijmlqiu7e.webp"
+      },
+      {
+        "episode_id": "demon-burger-inspired-by-dragon-ball-daima",
+        "name": "Demon Burger inspired by Dragon Ball Daima",
+        "published_date": "2025-03-12",
+        "youtube_link": "https://www.youtube.com/watch?v=VB4u7Ix_DyU&ab_channel=BabishCulinaryUniverse",
+        "official_link": "https://www.babi.sh/recipes/demon-burger-inspired-by-dragon-ball-daima",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1741816286/ocl7weafskz6wdv9tjhw.webp"
+      },
+      {
         "episode_id": "cheesecake-inspired-by-junior's-cheesecakes",
         "name": "Cheesecake inspired by Junior's Cheesecakes",
         "published_date": "2025-03-11",
         "youtube_link": "https://www.youtube.com/watch?v=gQeY_wx9bsI&t=26s&ab_channel=BabishCulinaryUniverse",
         "official_link": "https://www.babi.sh/recipes/cheesecake-inspired-by-junior's-cheesecakes",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1741657095/qjrimy3opynb08w9zudl.webp"
+      },
+      {
+        "episode_id": "gourmet-meat-stew-inspired-by-breath-of-the-wild",
+        "name": "Gourmet Meat Stew inspired by Breath of the Wild",
+        "published_date": "2024-10-07",
+        "youtube_link": "https://www.youtube.com/watch?v=sRO4dsOEItY&pp=ygUVbWVhdCBzdGV3IGFuaW1lIGFsdmlu",
+        "official_link": "https://www.babi.sh/recipes/gourmet-meat-stew-inspired-by-breath-of-the-wild",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1728312407/pcecazl5gsoudqmvzxnr.webp"
+      },
+      {
+        "episode_id": "minecraft-cake-inspired-by-minecraft",
+        "name": "Minecraft Cake inspired by Minecraft",
+        "published_date": "2024-10-07",
+        "youtube_link": "https://www.youtube.com/watch?v=BhqcprmntPY",
+        "official_link": "https://www.babi.sh/recipes/minecraft-cake-inspired-by-minecraft",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1728312280/l6x0kr8zeetgqcw6x72s.webp"
+      },
+      {
+        "episode_id": "underwear-bread-inspired-by-asteroid-in-love",
+        "name": "Underwear Bread inspired by Asteroid in Love",
+        "published_date": "2024-10-03",
+        "youtube_link": "https://www.youtube.com/watch?v=oJ8bRhyJLkk",
+        "official_link": "https://www.babi.sh/recipes/underwear-bread-inspired-by-asteroid-in-love",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1727990174/bjmr9jr71u86cjijgouk.webp"
       },
       {
         "episode_id": "chicken-meatball-hotpot-inspired-by-jujutsu-kaisen",
@@ -77,12 +156,300 @@
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1726150996/cqreovarq8cekj22lfnt.webp"
       },
       {
+        "episode_id": "strawberry-shortcake-inspired-by-death-note",
+        "name": "Strawberry Shortcake inspired by Death Note",
+        "published_date": "2024-09-11",
+        "youtube_link": "https://www.youtube.com/watch?v=i00Wqb_bh5E",
+        "official_link": "https://www.babi.sh/recipes/strawberry-shortcake-inspired-by-death-note",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1726078919/egha5r0yit5dsgpsewga.webp"
+      },
+      {
         "episode_id": "324-layer-croissant-inspired-by-yakitate!!-japan",
         "name": "324 Layer Croissant inspired by Yakitate!! Japan",
         "published_date": "2024-09-04",
         "youtube_link": "https://www.youtube.com/watch?v=Ni8BsXyln_Q",
         "official_link": "https://www.babi.sh/recipes/324-layer-croissant-inspired-by-yakitate!!-japan",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1725483449/qdfiijvciz0hlmgz6qrs.webp"
+      },
+      {
+        "episode_id": "curry-risotto-omurice-inspired-by-food-wars!",
+        "name": "Curry Risotto Omurice inspired by Food Wars!",
+        "published_date": "2024-09-04",
+        "youtube_link": "https://www.youtube.com/watch?v=LPo8_trCP8M",
+        "official_link": "https://www.babi.sh/recipes/curry-risotto-omurice-inspired-by-food-wars!",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1725472664/o1xkl6c29o1zkbk7ckni.webp"
+      },
+      {
+        "episode_id": "mitarashi-dango-inspired-by-demon-slayer",
+        "name": "Mitarashi Dango inspired by Demon Slayer",
+        "published_date": "2024-09-04",
+        "youtube_link": "https://www.youtube.com/watch?v=X3DUkE6cgUg",
+        "official_link": "https://www.babi.sh/recipes/mitarashi-dango-inspired-by-demon-slayer",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1725477172/psa1ww7xnqmaittxlmer.webp"
+      },
+      {
+        "episode_id": "ichiraku-ramen-inspired-by-naruto",
+        "name": "Ichiraku Ramen inspired by Naruto",
+        "published_date": "2024-08-30",
+        "youtube_link": "https://www.youtube.com/watch?v=7fOY40FvF9Q",
+        "official_link": "https://www.babi.sh/recipes/ichiraku-ramen-inspired-by-naruto",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1725038292/jvyyoy6l2kfennl34ql8.webp"
+      },
+      {
+        "episode_id": "jiggly-souffle-omelette-inspired-by-food-wars!",
+        "name": "Jiggly Souffle Omelette inspired by Food Wars!",
+        "published_date": "2024-08-26",
+        "youtube_link": "https://www.youtube.com/watch?v=JcLTe8MoAV4",
+        "official_link": "https://www.babi.sh/recipes/jiggly-souffle-omelette-inspired-by-food-wars!",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1724877413/iljktvuobyynqseesqqt.webp"
+      },
+      {
+        "episode_id": "katz's-corned-beef-and-pastrami",
+        "name": "Katz's Corned Beef and Pastrami",
+        "published_date": "2024-06-25",
+        "youtube_link": "https://www.youtube.com/watch?v=uyjq9wJCaGE&pp=ygUjYmluZ2luZyB3aXRoIGJhYmlzaCBkZWxpIHNhbmR3aWNoZXM%3D",
+        "official_link": "https://www.babi.sh/recipes/katz's-corned-beef-and-pastrami",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1749065565/t20xd8xbngcehg55xfwh.webp"
+      },
+      {
+        "episode_id": "spaghetti-all'assassina-inspired-by-claudia-romeo",
+        "name": "Spaghetti all'Assassina inspired by Claudia Romeo",
+        "published_date": "2024-06-04",
+        "youtube_link": "https://www.youtube.com/watch?v=nif3ruAbUaY&ab_channel=BabishCulinaryUniverse",
+        "official_link": "https://www.babi.sh/recipes/spaghetti-all'assassina-inspired-by-claudia-romeo",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1749062828/f3fjxq7gfexxtsl1r7ve.webp"
+      },
+      {
+        "episode_id": "florentine-foccacia-sandwich-inspired-by",
+        "name": "Italy's Most Iconic Sandwich | Anything With Alvin",
+        "published_date": "2024-05-24",
+        "youtube_link": "https://www.youtube.com/watch?v=DlKffFjjnwQ",
+        "official_link": "https://www.babi.sh/recipes/florentine-foccacia-sandwich-inspired-by",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1749224610/kmsn8873t2bzvgidy9bl.webp"
+      },
+      {
+        "episode_id": "korean-pizza-toast",
+        "name": "Korean Pizza Toast",
+        "published_date": "2024-03-28",
+        "youtube_link": "https://www.youtube.com/watch?v=95f6tkiNspM",
+        "official_link": "https://www.babi.sh/recipes/korean-pizza-toast",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1749232941/jpxmrkezfage5ozo2he5.webp"
+      },
+      {
+        "episode_id": "layered-butter-toast-danish-creamery",
+        "name": "243 Layer Butter Toast | Anything With Alvin",
+        "published_date": "2024-03-21",
+        "youtube_link": "https://www.youtube.com/watch?v=Gr1RIaYVywM&ab_channel=BabishCulinaryUniverse",
+        "official_link": "https://www.babi.sh/recipes/layered-butter-toast-danish-creamery",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1742394232/gyyukk3qokkaa39hcbtk.webp"
+      },
+      {
+        "episode_id": "korean-cheese-corn-dogs",
+        "name": "Korean Cheese Corn Dogs",
+        "published_date": "2024-03-14",
+        "youtube_link": "https://www.youtube.com/watch?v=YEZY08ibFrs",
+        "official_link": "https://www.babi.sh/recipes/korean-cheese-corn-dogs",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1749496990/ykb37a3lpjkqdonek6om.webp"
+      },
+      {
+        "episode_id": "quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv",
+        "name": "Quadruple Stacked Ham Sandwich inspired by Final Fantasy XV",
+        "published_date": "2023-11-23",
+        "youtube_link": "https://www.youtube.com/watch?v=ouJL4FGGbuc",
+        "official_link": "https://www.babi.sh/recipes/quadruple-stacked-ham-sandwich-inspired-by-final-fantasy-xv",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1755625602/nnowpvarxiludykiovik.webp"
+      },
+      {
+        "episode_id": "korean-garlic-fried-chicken-inspired-by-korean-street-food",
+        "name": "Korean Garlic Fried Chicken inspired by Korean Street Food",
+        "published_date": "2023-11-16",
+        "youtube_link": "https://www.youtube.com/watch?v=8XhbDcxkLLI",
+        "official_link": "https://www.babi.sh/recipes/korean-garlic-fried-chicken-inspired-by-korean-street-food",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1755639101/wyqiqccvlksqcakrqk7q.webp"
+      },
+      {
+        "episode_id": "dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv",
+        "name": "$300 A5 Wagyu Sandwich inspired by Final Fantasy XV",
+        "published_date": "2023-11-03",
+        "youtube_link": "https://www.youtube.com/watch?v=--8vhFlsL0E",
+        "official_link": "https://www.babi.sh/recipes/dollar300-a5-wagyu-sandwich-inspired-by-final-fantasy-xv",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1749234440/zllf0ro2q8sagtw2kdij.webp"
+      },
+      {
+        "episode_id": "fried-chicken-inspired-by-legend-of-zelda:-tears-of-the-kingdom",
+        "name": "Fried Chicken inspired by Legend of Zelda: Tears of the Kingdom",
+        "published_date": "2023-08-17",
+        "youtube_link": "https://www.youtube.com/watch?v=v-uQOBC3IOY&pp=ygUnYmluZ2luZyB3aXRoIGJhYmlzaCB6ZWxkYSBmcmllZCBjaGlja2Vu",
+        "official_link": "https://www.babi.sh/recipes/fried-chicken-inspired-by-legend-of-zelda:-tears-of-the-kingdom",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1749500704/p0rmeudmqzwhvnkjyo9c.webp"
+      },
+      {
+        "episode_id": "squid-ink-ravioli-inspired-by-stardew-valley",
+        "name": "Squid Ink Ravioli inspired by Stardew Valley",
+        "published_date": "2023-05-28",
+        "youtube_link": "https://www.youtube.com/watch?v=eCnBX0GlRbA&pp=0gcJCfwAo7VqN5tD",
+        "official_link": "https://www.babi.sh/recipes/squid-ink-ravioli-inspired-by-stardew-valley",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1754934516/famzr7vrmy18p8qzwvbt.webp"
+      },
+      {
+        "episode_id": "super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations",
+        "name": "Super Hot N\u2019 Spicy Burger inspired by Boruto: Naruto Next Generations",
+        "published_date": "2023-04-06",
+        "youtube_link": "https://www.youtube.com/watch?v=WHRob85NXP0",
+        "official_link": "https://www.babi.sh/recipes/super-hot-n'-spicy-burger-inspired-by-boruto:-naruto-next-generations",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1757083697/faonnzkt2wxxoa45fkae.webp"
+      },
+      {
+        "episode_id": "giant-red-bean-bun-inspired-by-spirited-away",
+        "name": "Giant Red Bean Bun inspired by Spirited Away",
+        "published_date": "2023-02-21",
+        "youtube_link": "https://www.youtube.com/watch?v=Ct9PksHLGKQ",
+        "official_link": "https://www.babi.sh/recipes/giant-red-bean-bun-inspired-by-spirited-away",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1757016609/q3spztehxzun7e6bslkn.webp"
+      },
+      {
+        "episode_id": "honey-toast-inspired-by-chainsaw-man",
+        "name": "Honey Toast inspired by Chainsaw Man",
+        "published_date": "2022-12-15",
+        "youtube_link": "https://www.youtube.com/watch?v=P7dD7LPVPkA",
+        "official_link": "https://www.babi.sh/recipes/honey-toast-inspired-by-chainsaw-man",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1725048058/bgtohmj6horifolobdnp.webp"
+      },
+      {
+        "episode_id": "golden-fried-rice-inspired-by-kaguya-sama:-love-is-war",
+        "name": "Golden Fried Rice inspired by Kaguya-Sama: Love is War",
+        "published_date": "2022-10-09",
+        "youtube_link": "https://www.youtube.com/watch?v=IxFmWHjcdYM",
+        "official_link": "https://www.babi.sh/recipes/golden-fried-rice-inspired-by-kaguya-sama:-love-is-war",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1728312761/g66lbk8mpo8sxybo0c0w.webp"
+      },
+      {
+        "episode_id": "pasta-curry-inspired-by-pokemon-sword-and-shield",
+        "name": "Pasta Curry from Pok\u00e9mon Sword and Shield",
+        "published_date": "2022-09-29",
+        "youtube_link": "https://www.youtube.com/watch?v=6G6gDOZie_c&pp=ygUccGFzdGEgY3VycnkgYW5pbWUgd2l0aCBhbHZpbg%3D%3D",
+        "official_link": "https://www.babi.sh/recipes/pasta-curry-inspired-by-pokemon-sword-and-shield",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1728312496/cyv0xgllmxnxn7i3wxxp.webp"
+      },
+      {
+        "episode_id": "sanji's-seafood-risotto",
+        "name": "Sanji's Seafood Risotto",
+        "published_date": "2022-09-22",
+        "youtube_link": "https://www.youtube.com/watch?v=JkSNx5psHtg",
+        "official_link": "https://www.babi.sh/recipes/sanji's-seafood-risotto",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1728002931/jjmwyvdjp37iy8ywajy6.webp"
+      },
+      {
+        "episode_id": "devil-fruit-inspired-by-one-piece",
+        "name": "Devil Fruit inspired by One Piece",
+        "published_date": "2022-08-09",
+        "youtube_link": "https://www.youtube.com/watch?v=J16qIo_BrZI",
+        "official_link": "https://www.babi.sh/recipes/devil-fruit-inspired-by-one-piece",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1724877134/yezhzbhda6kzcfjslvfr.webp"
+      },
+      {
+        "episode_id": "fried-bear-inspired-food-wars!",
+        "name": "Fried Bear from Food Wars!",
+        "published_date": "2022-06-28",
+        "youtube_link": "https://www.youtube.com/watch?v=zWDWd2GswvE",
+        "official_link": "https://www.babi.sh/recipes/fried-bear-inspired-food-wars!",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1728312012/gkcf4g8cjyqcsebfa3gh.webp"
+      },
+      {
+        "episode_id": "giant-onigiri-inspired-by-cooking-from-valkyries",
+        "name": "Giant Onigiri from Cooking with Valkyries | Anime with Alvin",
+        "published_date": "2022-06-23",
+        "youtube_link": "https://www.youtube.com/watch?v=D1sZtLbZhMA&t=1s",
+        "official_link": "https://www.babi.sh/recipes/giant-onigiri-inspired-by-cooking-from-valkyries",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1728311822/ewvbv28ma72qcygpzrol.webp"
+      },
+      {
+        "episode_id": "whimsical-parfait-inspired-by-darker-than-black",
+        "name": "Whimsical Parfait inspired by Darker than Black",
+        "published_date": "2022-06-16",
+        "youtube_link": "https://www.youtube.com/watch?v=GHwZqJYYB80",
+        "official_link": "https://www.babi.sh/recipes/whimsical-parfait-inspired-by-darker-than-black",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1727903480/ek6bh07lnnblfomgfhdy.webp"
+      },
+      {
+        "episode_id": "lemon-meringue-pie",
+        "name": "LEMON MERINGUE PIE",
+        "published_date": "2022-05-26",
+        "youtube_link": "https://www.youtube.com/watch?v=f0fmS1WEm3s",
+        "official_link": "https://www.babi.sh/recipes/lemon-meringue-pie",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696099/babishImages/undefined-443317.png"
+      },
+      {
+        "episode_id": "souffle-pancakes-inspired-by-food-wars!",
+        "name": "Souffl\u00e9 Pancakes inspired by Food Wars!",
+        "published_date": "2022-05-12",
+        "youtube_link": "https://www.youtube.com/watch?v=kFr6GxEnOJQ",
+        "official_link": "https://www.babi.sh/recipes/souffle-pancakes-inspired-by-food-wars!",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1726512281/om7avimrgnuamxoytx13.webp"
+      },
+      {
+        "episode_id": "fried-rice-2-ways",
+        "name": "Fried Rice 2 Ways: \"Basics\" with Alvin & Kendall",
+        "published_date": "2022-04-28",
+        "youtube_link": "https://www.youtube.com/watch?v=TYNPLyxpmw4",
+        "official_link": "https://www.babi.sh/recipes/fried-rice-2-ways",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695218/babishImages/undefined-286946.png"
+      },
+      {
+        "episode_id": "pork-katsudon-inspired-by-yuri!!!-on-ice",
+        "name": "Pork Katsudon inspired by Yuri!!! On Ice",
+        "published_date": "2022-04-26",
+        "youtube_link": "https://www.youtube.com/watch?v=eEUUlThWDE0",
+        "official_link": "https://www.babi.sh/recipes/pork-katsudon-inspired-by-yuri!!!-on-ice",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1725915612/bydgybhpb8f5pxz2jh4y.webp"
+      },
+      {
+        "episode_id": "mega-beef-bowl-inspired-by-persona-4",
+        "name": "Mega Beef Bowl from Persona 4 | Anime with Alvin",
+        "published_date": "2022-04-05",
+        "youtube_link": "https://www.youtube.com/watch?v=PZ-QK-16WgA",
+        "official_link": "https://www.babi.sh/recipes/mega-beef-bowl-inspired-by-persona-4",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1725892643/vbhsimmhdkl0uf49y8e3.webp"
+      },
+      {
+        "episode_id": "roast-beef-inspired-by-attack-on-titan",
+        "name": "Roast Beef inspired by Attack on Titan",
+        "published_date": "2022-03-29",
+        "youtube_link": "https://www.youtube.com/watch?v=QXIqgNMQw2w&t=566s",
+        "official_link": "https://www.babi.sh/recipes/roast-beef-inspired-by-attack-on-titan",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1728311451/f3j7tmnzhcxabbmdo8dm.webp"
+      },
+      {
+        "episode_id": "kikufuku-mochi-inspired-by-jujutsu-kaisen",
+        "name": "Kikufuku Mochi inspired by Jujutsu Kaisen",
+        "published_date": "2022-02-01",
+        "youtube_link": "https://www.youtube.com/watch?v=iUT99TWDLnU",
+        "official_link": "https://www.babi.sh/recipes/kikufuku-mochi-inspired-by-jujutsu-kaisen",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1725461942/jdbeidjv54jsn9mkgru6.webp"
+      },
+      {
+        "episode_id": "herring-and-pumpkin-pot-pie-inspired-by-kiki's-delivery-service",
+        "name": "Herring and Pumpkin Pot Pie inspired by Kiki's Delivery Service",
+        "published_date": "2021-10-10",
+        "youtube_link": "https://www.youtube.com/watch?v=c7tMpaSOuz8",
+        "official_link": "https://www.babi.sh/recipes/herring-and-pumpkin-pot-pie-inspired-by-kiki's-delivery-service",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1725466216/whyojk2iqq3ayolmx5tc.webp"
+      },
+      {
+        "episode_id": "transforming-furikake-gohan-inspired-by-food-wars!",
+        "name": "Transforming Furikake Gohan from Food Wars! | Anime with Alvin Zhou",
+        "published_date": "2021-07-25",
+        "youtube_link": "https://www.youtube.com/watch?v=LcMYQtVchPA",
+        "official_link": "https://www.babi.sh/recipes/transforming-furikake-gohan-inspired-by-food-wars!",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1724877203/bcpv95p0gnazhatj7qqv.webp"
+      },
+      {
+        "episode_id": "gotcha-pork-roast-food-wars",
+        "name": "Gotcha Pork Roast inspired by Food Wars (Shokugeki no Soma)",
+        "published_date": "2021-04-01",
+        "youtube_link": "https://www.youtube.com/watch?v=NfrLH0T0rdU",
+        "official_link": "https://www.babi.sh/recipes/gotcha-pork-roast-food-wars",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696172/babishImages/undefined-313821.png"
       }
     ]
   },
@@ -102,6 +469,21 @@
     ]
   },
   {
+    "guest_id": 95,
+    "name": "Brad (Babish Production)",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "lentil-soup-moon-knight",
+        "name": "Lentil Soup from Moon Knight: \"Binging\" with Brad-bish",
+        "published_date": "2022-04-19",
+        "youtube_link": "https://www.youtube.com/watch?v=wq1gxK9m5hM",
+        "official_link": "https://www.babi.sh/recipes/lentil-soup-moon-knight",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695430/babishImages/undefined-376232.png"
+      }
+    ]
+  },
+  {
     "guest_id": 56,
     "name": "Brad Leone",
     "image_link": null,
@@ -113,6 +495,21 @@
         "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
         "official_link": "https://www.babi.sh/recipes/lasagna",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715729/babishImages/undefined-269836.png"
+      }
+    ]
+  },
+  {
+    "guest_id": 92,
+    "name": "Brian Baumgartner",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "kevin's-snacks-inspired-by-the-office",
+        "name": "Kevin's Snacks inspired by The Office",
+        "published_date": "2023-04-04",
+        "youtube_link": "https://www.youtube.com/watch?v=sjXFncyzu_0",
+        "official_link": "https://www.babi.sh/recipes/kevin's-snacks-inspired-by-the-office",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1687962309/mflkwhhki032s2mvtrf7.webp"
       }
     ]
   },
@@ -143,6 +540,14 @@
         "youtube_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA",
         "official_link": "https://www.youtube.com/watch?v=n_aq5TVb0HA",
         "image_link": "https://img.youtube.com/vi/n_aq5TVb0HA/mqdefault.jpg"
+      },
+      {
+        "episode_id": "goodmorningburger",
+        "name": "Good Morning Burger inspired by The Simpsons",
+        "published_date": "2019-05-07",
+        "youtube_link": "https://www.youtube.com/watch?v=hzAgFNh4vRY",
+        "official_link": "https://www.babi.sh/recipes/goodmorningburger",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695446/babishImages/undefined-916498.png"
       }
     ]
   },
@@ -215,6 +620,21 @@
     ]
   },
   {
+    "guest_id": 88,
+    "name": "Doctor Mike",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "healthier-crunchwrap-supreme",
+        "name": "HEALTHIER CRUNCHWRAP SUPREME",
+        "published_date": "2022-12-10",
+        "youtube_link": "https://www.youtube.com/watch?v=MTfyvch_0RI",
+        "official_link": "https://www.babi.sh/recipes/healthier-crunchwrap-supreme",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696228/babishImages/undefined-95368.jpg"
+      }
+    ]
+  },
+  {
     "guest_id": 84,
     "name": "Dominique Ansel",
     "image_link": null,
@@ -230,6 +650,36 @@
     ]
   },
   {
+    "guest_id": 98,
+    "name": "Dr. Rothkopf",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "meat-tornado-parks-and-rec",
+        "name": "Meat Tornado inspired by Parks & Rec",
+        "published_date": "2020-08-25",
+        "youtube_link": "https://www.youtube.com/watch?v=LsNg-KrFxCA",
+        "official_link": "https://www.babi.sh/recipes/meat-tornado-parks-and-rec",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696351/babishImages/undefined-220855.png"
+      }
+    ]
+  },
+  {
+    "guest_id": 97,
+    "name": "Eddie Luo",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "mean-girls-toaster-strudel",
+        "name": "Homemade Toaster Strudel Inspired by Mean Girls",
+        "published_date": "2024-01-16",
+        "youtube_link": "https://www.youtube.com/watch?v=t78IFIYiQ8M",
+        "official_link": "https://www.babi.sh/recipes/mean-girls-toaster-strudel",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1705545612/ovmommijdvjcueekr5bx.webp"
+      }
+    ]
+  },
+  {
     "guest_id": 60,
     "name": "Erika Vonie",
     "image_link": null,
@@ -241,6 +691,21 @@
         "youtube_link": "https://www.youtube.com/watch?v=6yItCQB4V9A",
         "official_link": "https://www.babi.sh/recipes/coffee",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1685913686/jkj0usgdv3og2qcwbn95.webp"
+      }
+    ]
+  },
+  {
+    "guest_id": 101,
+    "name": "Ethan Chlebowski",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "protein-pizza",
+        "name": "PROTEIN PIZZA",
+        "published_date": "2021-09-30",
+        "youtube_link": "https://www.youtube.com/watch?v=ZYvDLT2BkQ8",
+        "official_link": "https://www.babi.sh/recipes/protein-pizza",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695706/babishImages/undefined-189348.png"
       }
     ]
   },
@@ -275,6 +740,21 @@
     ]
   },
   {
+    "guest_id": 89,
+    "name": "Greg from How to Drink",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "holidaycocktails",
+        "name": "HOLIDAY COCKTAILS",
+        "published_date": "2018-12-13",
+        "youtube_link": "https://www.youtube.com/watch?v=LftLcYM6Fzw",
+        "official_link": "https://www.babi.sh/recipes/holidaycocktails",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1686008739/oj4ipprew3lqr7q9fuju.webp"
+      }
+    ]
+  },
+  {
     "guest_id": 63,
     "name": "Greg Johnson",
     "image_link": null,
@@ -286,6 +766,21 @@
         "youtube_link": "https://www.youtube.com/watch?v=32Qlof81vcM",
         "official_link": "https://www.youtube.com/watch?v=32Qlof81vcM",
         "image_link": "https://img.youtube.com/vi/32Qlof81vcM/mqdefault.jpg"
+      }
+    ]
+  },
+  {
+    "guest_id": 94,
+    "name": "Guga Foods",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "lava-chicken-inspired-by-a-minecraft-movie",
+        "name": "Lava Chicken inspired by A Minecraft Movie",
+        "published_date": "2025-11-22",
+        "youtube_link": "https://youtube.com/watch?v=CIlClQZAgRI&si=pLXbh-oEGBhgb80g",
+        "official_link": "https://www.babi.sh/recipes/lava-chicken-inspired-by-a-minecraft-movie",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1763763253/dm8sfsv0mrbzpovapxax.webp"
       }
     ]
   },
@@ -320,6 +815,36 @@
     ]
   },
   {
+    "guest_id": 85,
+    "name": "Jack Croft",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "friday-night-fish-fry",
+        "name": "British Chefs Judge My Fish & Chips (ft. Fallow)",
+        "published_date": "2026-03-07",
+        "youtube_link": "https://youtube.com/watch?v=N81JPU65qqk&si=IPnE4_g2NqVyLKKS",
+        "official_link": "https://www.babi.sh/recipes/friday-night-fish-fry",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1772899588/y1t4x05nbzmfgpyvgetq.webp"
+      }
+    ]
+  },
+  {
+    "guest_id": 105,
+    "name": "Jamie Wax",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "whitecastlesliders",
+        "name": "White Castle Order from Harold & Kumar",
+        "published_date": "2019-08-13",
+        "youtube_link": "https://www.youtube.com/watch?v=pTk9HnIwEYU",
+        "official_link": "https://www.babi.sh/recipes/whitecastlesliders",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695569/babishImages/undefined-753536.png"
+      }
+    ]
+  },
+  {
     "guest_id": 81,
     "name": "Jess",
     "image_link": null,
@@ -331,6 +856,52 @@
         "youtube_link": "https://www.youtube.com/watch?v=55YUKZK7BXg",
         "official_link": "https://www.babi.sh/recipes/calistyle-burrito",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695451/babishImages/undefined-566187.png"
+      },
+      {
+        "episode_id": "date-night",
+        "name": "Date Night Dinner",
+        "published_date": "2021-02-12",
+        "youtube_link": "https://www.youtube.com/watch?v=dFh7tZoGYA4",
+        "official_link": "https://www.babi.sh/recipes/date-night",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715470/babishImages/undefined-416418.png"
+      },
+      {
+        "episode_id": "the-perfect-bite",
+        "name": "The Perfect Bite (and Duck Carbonara) inspired by YOU",
+        "published_date": "2020-02-11",
+        "youtube_link": "https://www.youtube.com/watch?v=7vTxUYBD0Nk",
+        "official_link": "https://www.babi.sh/recipes/the-perfect-bite",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696015/babishImages/undefined-499943.png"
+      }
+    ]
+  },
+  {
+    "guest_id": 90,
+    "name": "Jesse Mendoza",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "imaginary-pie-hook",
+        "name": "Imaginary Pie inspired by Hook",
+        "published_date": "2020-03-31",
+        "youtube_link": "https://www.youtube.com/watch?v=lZsun7ppDeQ",
+        "official_link": "https://www.babi.sh/recipes/imaginary-pie-hook",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695811/babishImages/undefined-676260.png"
+      }
+    ]
+  },
+  {
+    "guest_id": 91,
+    "name": "Joel McHale",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "kettle-corn-community",
+        "name": "Kettle Corn inspired by Community",
+        "published_date": "2021-06-01",
+        "youtube_link": "https://www.youtube.com/watch?v=aGPqK_hHA28",
+        "official_link": "https://www.babi.sh/recipes/kettle-corn-community",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696001/babishImages/undefined-674983.png"
       }
     ]
   },
@@ -339,6 +910,14 @@
     "name": "Jon Favreau",
     "image_link": null,
     "appearances": [
+      {
+        "episode_id": "macarons-the-mandalorian",
+        "name": "Macarons inspired by The Mandalorian",
+        "published_date": "2020-12-01",
+        "youtube_link": "https://www.youtube.com/watch?v=IGS0JouUgjM",
+        "official_link": "https://www.babi.sh/recipes/macarons-the-mandalorian",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696123/babishImages/undefined-123465.png"
+      },
       {
         "episode_id": "chocolatelavacakes",
         "name": "Chocolate Lava Cakes inspired by Chef with Jon Favreau and Roy Choi",
@@ -350,10 +929,41 @@
     ]
   },
   {
+    "guest_id": 103,
+    "name": "Joshua Weissman",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "tortilla-sombero-despicable-me-2",
+        "name": "Tortilla Chip Sombrero inspired by Despicable Me 2",
+        "published_date": "2021-05-05",
+        "youtube_link": "https://www.youtube.com/watch?v=D_Y18GEjfNY",
+        "official_link": "https://www.babi.sh/recipes/tortilla-sombero-despicable-me-2",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695255/babishImages/undefined-160946.png"
+      },
+      {
+        "episode_id": "sourdough-bread",
+        "name": "SOURDOUGH BREAD",
+        "published_date": "2020-02-28",
+        "youtube_link": "https://www.youtube.com/watch?v=bSYdABrPrtM",
+        "official_link": "https://www.babi.sh/recipes/sourdough-bread",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715713/babishImages/undefined-931551.png"
+      }
+    ]
+  },
+  {
     "guest_id": 77,
     "name": "Kendall Beach",
     "image_link": null,
     "appearances": [
+      {
+        "episode_id": "turkey-and-caviar-inspired-by-star-trek:-the-next-generation",
+        "name": "Turkey & Caviar inspired by Star Trek: The Next Generation",
+        "published_date": "2024-11-21",
+        "youtube_link": "https://www.youtube.com/watch?v=zI9a0WmfMN8",
+        "official_link": "https://www.babi.sh/recipes/turkey-and-caviar-inspired-by-star-trek:-the-next-generation",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1759944422/trwta1zax2jy5onpriuf.webp"
+      },
       {
         "episode_id": "324-layer-croissant-inspired-by-yakitate!!-japan",
         "name": "324 Layer Croissant inspired by Yakitate!! Japan",
@@ -361,6 +971,38 @@
         "youtube_link": "https://www.youtube.com/watch?v=Ni8BsXyln_Q",
         "official_link": "https://www.babi.sh/recipes/324-layer-croissant-inspired-by-yakitate!!-japan",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1725483449/qdfiijvciz0hlmgz6qrs.webp"
+      },
+      {
+        "episode_id": "lemon-meringue-pie",
+        "name": "LEMON MERINGUE PIE",
+        "published_date": "2022-05-26",
+        "youtube_link": "https://www.youtube.com/watch?v=f0fmS1WEm3s",
+        "official_link": "https://www.babi.sh/recipes/lemon-meringue-pie",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696099/babishImages/undefined-443317.png"
+      },
+      {
+        "episode_id": "fried-rice-2-ways",
+        "name": "Fried Rice 2 Ways: \"Basics\" with Alvin & Kendall",
+        "published_date": "2022-04-28",
+        "youtube_link": "https://www.youtube.com/watch?v=TYNPLyxpmw4",
+        "official_link": "https://www.babi.sh/recipes/fried-rice-2-ways",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695218/babishImages/undefined-286946.png"
+      },
+      {
+        "episode_id": "gluten-free-pasta",
+        "name": "Gluten-Free Pasta",
+        "published_date": "2021-06-10",
+        "youtube_link": "https://www.youtube.com/watch?v=MVdu-DYcfTA",
+        "official_link": "https://www.babi.sh/recipes/gluten-free-pasta",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695462/babishImages/undefined-367098.png"
+      },
+      {
+        "episode_id": "restaurant-wars-steven-universe",
+        "name": "Restaurant Wars from Steven Universe",
+        "published_date": "2020-10-14",
+        "youtube_link": "https://www.youtube.com/watch?v=J2eU4Ol3IDU",
+        "official_link": "https://www.babi.sh/recipes/restaurant-wars-steven-universe",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695683/babishImages/undefined-956144.png"
       }
     ]
   },
@@ -371,9 +1013,9 @@
     "appearances": [
       {
         "episode_id": "direwolfbread",
-        "name": "Direwolf Bread inspired by Game of Thrones (feat. Maisie Williams)",
+        "name": "Direwolf Bread from Game of Thrones (feat. Maisie Williams)",
         "published_date": "2018-09-25",
-        "youtube_link": "https://www.youtube.com/watch?v=6nuEgc2RVWo&amp;t=336s",
+        "youtube_link": "https://www.youtube.com/watch?v=6nuEgc2RVWo&t=336s",
         "official_link": "https://www.babi.sh/recipes/direwolfbread",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715486/babishImages/undefined-265303.png"
       }
@@ -388,9 +1030,39 @@
         "episode_id": "deathsandwich",
         "name": "Binging with Babish 4 Million Subscriber Special: Death Sandwich from Regular Show",
         "published_date": "2019-04-09",
-        "youtube_link": "https://www.youtube.com/watch?v=o5XNzsf78KE&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/o5XNzsf78KE/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;",
+        "youtube_link": "https://www.youtube.com/watch?v=o5XNzsf78KE",
         "official_link": "https://www.babi.sh/recipes/deathsandwich",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695267/babishImages/undefined-363929.png"
+      }
+    ]
+  },
+  {
+    "guest_id": 100,
+    "name": "Max Miller",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "nipples-of-venus-amadeus",
+        "name": "Nipples of Venus inspired by Amadeus",
+        "published_date": "2023-07-25",
+        "youtube_link": "https://www.youtube.com/watch?v=fLD2WXPhUQ0",
+        "official_link": "https://www.babi.sh/recipes/nipples-of-venus-amadeus",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1695094470/qchljfm4fhws31z6q5se.webp"
+      }
+    ]
+  },
+  {
+    "guest_id": 102,
+    "name": "Michael Gandolfini",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "rabbit-sopranos",
+        "name": "Rabbit inspired by The Sopranos",
+        "published_date": "2021-09-16",
+        "youtube_link": "https://www.youtube.com/watch?v=aBMNzBhB6H0",
+        "official_link": "https://www.babi.sh/recipes/rabbit-sopranos",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681696077/babishImages/undefined-998530.png"
       }
     ]
   },
@@ -425,6 +1097,51 @@
     ]
   },
   {
+    "guest_id": 99,
+    "name": "Omi Hopper",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "mofongo",
+        "name": "MOFONGO",
+        "published_date": "2023-03-23",
+        "youtube_link": "https://www.youtube.com/watch?v=p3ASwWUscDc",
+        "official_link": "https://www.babi.sh/recipes/mofongo",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1690353083/iru6vyj1zv4gdeydygue.webp"
+      }
+    ]
+  },
+  {
+    "guest_id": 104,
+    "name": "Rachel Dolphy",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "the-coagulator-inspired-by-the-simpsons",
+        "name": "The Coagulator inspired by The Simpsons",
+        "published_date": "2024-11-14",
+        "youtube_link": "https://www.youtube.com/watch?v=FT-E7kA6S3o&pp=ygUhYmluZ2luIHdpdGggYmFiaXNoIHRoZSBjb2FndWxhdG9y",
+        "official_link": "https://www.babi.sh/recipes/the-coagulator-inspired-by-the-simpsons",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1749501911/txbbk4plctdewqsf8yvf.webp"
+      }
+    ]
+  },
+  {
+    "guest_id": 87,
+    "name": "Rasheed",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "garbageplate",
+        "name": "The Garbage Plate from The Place Beyond The Pines (sort of)",
+        "published_date": "2017-11-28",
+        "youtube_link": "https://www.youtube.com/watch?v=wjoeVwJTUTA",
+        "official_link": "https://www.babi.sh/recipes/garbageplate",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715723/babishImages/undefined-117479.png"
+      }
+    ]
+  },
+  {
     "guest_id": 67,
     "name": "Rashid Duroseau",
     "image_link": null,
@@ -452,6 +1169,14 @@
     "name": "Roy Choi",
     "image_link": null,
     "appearances": [
+      {
+        "episode_id": "kimchi",
+        "name": "KIMCHI",
+        "published_date": "2020-08-14",
+        "youtube_link": "https://www.youtube.com/watch?v=R0x7ECje-lY",
+        "official_link": "https://www.babi.sh/recipes/kimchi",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715734/babishImages/undefined-20670.png"
+      },
       {
         "episode_id": "being-with-babish-2",
         "name": "Surprising a Fan with a Vegas Hotel Suite",
@@ -490,6 +1215,14 @@
     "name": "Sawyer Jacobs",
     "image_link": null,
     "appearances": [
+      {
+        "episode_id": "isotope-dog-the-simpsons",
+        "name": "Isotope Dog from The Simpsons",
+        "published_date": "2021-09-21",
+        "youtube_link": "https://www.youtube.com/watch?v=w5K2ZoPVD5E",
+        "official_link": "https://www.babi.sh/recipes/isotope-dog-the-simpsons",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695959/babishImages/undefined-581985.png"
+      },
       {
         "episode_id": "being-with-babish-6",
         "name": "I Surprised My Brother with a Tesla",
@@ -532,7 +1265,7 @@
       },
       {
         "episode_id": "quiet-place-bonus",
-        "name": "A Quiet Place Bonus Episode",
+        "name": "Bonus Binging with Babish: A Quiet Place",
         "published_date": "2018-12-15",
         "youtube_link": "https://www.youtube.com/watch?v=0PyTpUIn4ks",
         "official_link": "https://www.youtube.com/watch?v=0PyTpUIn4ks",
@@ -569,12 +1302,28 @@
     "image_link": null,
     "appearances": [
       {
+        "episode_id": "infernowings",
+        "name": "Inferno Wing Challenge inspired by Regular Show",
+        "published_date": "2019-07-16",
+        "youtube_link": "https://www.youtube.com/watch?v=dRLCZqEfJFA",
+        "official_link": "https://www.babi.sh/recipes/infernowings",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695609/babishImages/undefined-759877.png"
+      },
+      {
         "episode_id": "arresteddevelopmentspecial",
         "name": "Arrested Development Special (feat. Sean Evans)",
         "published_date": "2018-05-29",
         "youtube_link": "https://www.youtube.com/watch?v=2U_0OlCizx0",
         "official_link": "https://www.babi.sh/recipes/arresteddevelopmentspecial",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715504/babishImages/undefined-955688.png"
+      },
+      {
+        "episode_id": "fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks",
+        "name": "Fried Chicken & Waffle Breakfast Lasagna inspired by The Boondocks",
+        "published_date": "2017-07-04",
+        "youtube_link": "https://www.youtube.com/watch?v=VnXu22HZBNQ",
+        "official_link": "https://www.babi.sh/recipes/fried-chicken-waffle-breakfast-lasagna-inspired-by-the-boondocks",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1689991769/kai50kksobmuufoxunvj.webp"
       }
     ]
   },
@@ -590,6 +1339,29 @@
         "youtube_link": "https://www.youtube.com/watch?v=tXNuz8nXYGk",
         "official_link": "https://www.babi.sh/recipes/andrewsohlathanksgiving",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715526/babishImages/undefined-665559.jpg"
+      },
+      {
+        "episode_id": "pizza-dough",
+        "name": "PIZZA DOUGH",
+        "published_date": "2020-10-08",
+        "youtube_link": "https://www.youtube.com/watch?v=n1O3uHPCOLA",
+        "official_link": "https://www.babi.sh/recipes/pizza-dough",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715535/babishImages/undefined-397821.png"
+      }
+    ]
+  },
+  {
+    "guest_id": 96,
+    "name": "Soy Boy Chris",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "lentil-soup-moon-knight",
+        "name": "Lentil Soup from Moon Knight: \"Binging\" with Brad-bish",
+        "published_date": "2022-04-19",
+        "youtube_link": "https://www.youtube.com/watch?v=wq1gxK9m5hM",
+        "official_link": "https://www.babi.sh/recipes/lentil-soup-moon-knight",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681695430/babishImages/undefined-376232.png"
       }
     ]
   },
@@ -627,16 +1399,7 @@
     "guest_id": 48,
     "name": "Tim Robinson",
     "image_link": null,
-    "appearances": [
-      {
-        "episode_id": "sloppy-steaks-i-think-you-should-leave",
-        "name": "Sloppy Steaks inspired by I Think You Should Leave with Tim Robinson",
-        "published_date": "2021-07-30",
-        "youtube_link": "https://www.youtube.com/watch?v=EcGgDrS5Gto",
-        "official_link": "https://www.babi.sh/recipes/sloppy-steaks-i-think-you-should-leave",
-        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1680365695/labv7khvacfo5ambnr83.webp"
-      }
-    ]
+    "appearances": []
   },
   {
     "guest_id": 71,
@@ -658,6 +1421,21 @@
         "youtube_link": "https://www.youtube.com/watch?v=TkWmK-cplV4",
         "official_link": "https://www.babi.sh/recipes/lasagna",
         "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1681715729/babishImages/undefined-269836.png"
+      }
+    ]
+  },
+  {
+    "guest_id": 86,
+    "name": "Will Murray",
+    "image_link": null,
+    "appearances": [
+      {
+        "episode_id": "friday-night-fish-fry",
+        "name": "British Chefs Judge My Fish & Chips (ft. Fallow)",
+        "published_date": "2026-03-07",
+        "youtube_link": "https://youtube.com/watch?v=N81JPU65qqk&si=IPnE4_g2NqVyLKKS",
+        "official_link": "https://www.babi.sh/recipes/friday-night-fish-fry",
+        "image_link": "https://res.cloudinary.com/dd27yihoo/image/upload/v1772899588/y1t4x05nbzmfgpyvgetq.webp"
       }
     ]
   },
