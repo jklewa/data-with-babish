@@ -11,7 +11,8 @@ yield_unit: null
 tags:
 - tag-0002
 - tag-0010
-guests: []
+guests:
+- guest-0027
 inspired_by:
 - reference-0266
 recipes:

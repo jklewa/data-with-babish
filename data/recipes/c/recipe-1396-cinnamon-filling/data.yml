@@ -1,0 +1,13 @@
+babish_id: recipe-1396
+name: cinnamon filling
+image_link: null
+raw_ingredient_list: 'flour
+
+  butter
+
+  brown sugar'
+raw_procedure: ''
+episode: episode-0560
+_lookup:
+  episode_and_section: episode-0560::everything bagel filling
+  db_id: 1415

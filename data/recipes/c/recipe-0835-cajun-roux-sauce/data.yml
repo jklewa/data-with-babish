@@ -1,0 +1,35 @@
+babish_id: recipe-0835
+name: Cajun Roux Sauce
+image_link: null
+raw_ingredient_list: '1/2 cup vegetable oil
+
+  1/2 cup all-purpose flour
+
+  1/2 cup green bell pepper, chopped
+
+  1/2 cup red bell pepper, chopped
+
+  1/2 cup onion, chopped
+
+  3 Tbsp tomato paste
+
+  1 cup homemade beef stock
+
+  2 Tbsp ketchup
+
+  1 Tbsp red wine vinegar
+
+  2 Tbsp brown sugar, packed
+
+  1 tsp chili powder
+
+  1 tsp paprika
+
+  1/2 tsp mustard powder
+
+  1 tsp kosher salt'
+raw_procedure: ''
+episode: episode-0515
+_lookup:
+  episode_and_section: episode-0515::Sauce Ingredient
+  db_id: 849

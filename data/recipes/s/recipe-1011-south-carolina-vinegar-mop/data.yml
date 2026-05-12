@@ -1,0 +1,19 @@
+babish_id: recipe-1011
+name: South Carolina Vinegar Mop
+image_link: null
+raw_ingredient_list: '1½ Cups white vinegar
+
+  2-3 dashes hot sauce (of choice)
+
+  2 Tbsp brown sugar
+
+  1 Tbsp kosher salt
+
+  2 tsp crushed red pepper flakes
+
+  2 tsp freshly ground black pepper'
+raw_procedure: ''
+episode: episode-0444
+_lookup:
+  episode_and_section: episode-0444::North Carolina Vinegar Mop
+  db_id: 1030

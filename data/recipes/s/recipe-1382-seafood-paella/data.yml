@@ -1,0 +1,21 @@
+babish_id: recipe-1382
+name: Seafood Paella
+image_link: null
+raw_ingredient_list: 'fortified fish stock
+
+  fish stock
+
+  head on prawns
+
+  spanish paella rice
+
+  prawn heads or shells
+
+  clams
+
+  cuttlefish or squid cleaned'
+raw_procedure: ''
+episode: episode-0500
+_lookup:
+  episode_and_section: episode-0500::fortified fish stock
+  db_id: 1401

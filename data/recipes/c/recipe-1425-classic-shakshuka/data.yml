@@ -1,0 +1,21 @@
+babish_id: recipe-1425
+name: Classic Shakshuka
+image_link: null
+raw_ingredient_list: 'can crushed tomatoes
+
+  garlic cloves crushed
+
+  eggs
+
+  can fire roasted tomatoes
+
+  spicy italian sausage
+
+  onion
+
+  roasted red peppers'
+raw_procedure: ''
+episode: episode-0506
+_lookup:
+  episode_and_section: episode-0506::mexican shakshuka
+  db_id: 1444

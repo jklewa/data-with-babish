@@ -2,12 +2,12 @@ babish_id: episode-0501
 name: Sea Salt Ice Cream inspired by Kingdom Hearts
 slug: seasalticecream
 published_date: 2019-08-06
-youtube_link: https://www.youtube.com/watch?v=5fTd1aYzNHI&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/5fTd1aYzNHI/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+youtube_link: https://www.youtube.com/watch?v=5fTd1aYzNHI
 official_link: https://www.babi.sh/recipes/seasalticecream
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681696363/babishImages/undefined-681883.png
 time_to_cook: 7200
-yield_qty: 4
-yield_unit: servings
+yield_qty: 6
+yield_unit: popsicles
 tags:
 - tag-0003
 - tag-0012

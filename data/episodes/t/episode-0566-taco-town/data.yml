@@ -1,5 +1,5 @@
 babish_id: episode-0566
-name: Taco Town 15-Flavor Taco inspired by SNL
+name: 'Binging with Babish 1 Million Subscriber Special: Taco Town & Behind the Scenes'
 slug: taco-town
 published_date: 2017-07-18
 youtube_link: https://www.youtube.com/watch?v=UvIkojfQDxA
@@ -15,7 +15,6 @@ tags:
 guests: []
 inspired_by:
 - reference-0087
-- reference-0141
 recipes:
 - recipe-0405
 - recipe-0406

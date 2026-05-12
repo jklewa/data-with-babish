@@ -1,7 +1,7 @@
 babish_id: episode-0520
 name: Soufflé Pancakes inspired by Food Wars!
 slug: souffle-pancakes-inspired-by-food-wars!
-published_date: 2024-09-16
+published_date: '2022-05-12'
 youtube_link: https://www.youtube.com/watch?v=kFr6GxEnOJQ
 official_link: https://www.babi.sh/recipes/souffle-pancakes-inspired-by-food-wars!
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1726512281/om7avimrgnuamxoytx13.webp
@@ -11,7 +11,8 @@ yield_unit: servings
 tags:
 - tag-0002
 - tag-0010
-guests: []
+guests:
+- guest-0027
 inspired_by:
 - reference-0063
 recipes:

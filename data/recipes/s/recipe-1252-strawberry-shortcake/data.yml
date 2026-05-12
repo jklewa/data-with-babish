@@ -1,0 +1,19 @@
+babish_id: recipe-1252
+name: Strawberry Shortcake
+image_link: null
+raw_ingredient_list: 'heavy cream
+
+  strawberries or as desired
+
+  eggs
+
+  sugar
+
+  cake flour
+
+  butter'
+raw_procedure: ''
+episode: episode-0551
+_lookup:
+  episode_and_section: episode-0551::assembly
+  db_id: 1271

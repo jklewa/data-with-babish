@@ -1,0 +1,21 @@
+babish_id: recipe-1315
+name: Triple Deluxe Dog
+image_link: null
+raw_ingredient_list: 'pork shoulder
+
+  bread flour more
+
+  hot dog buns
+
+  fat back
+
+  milk
+
+  egg
+
+  eggs'
+raw_procedure: ''
+episode: episode-0607
+_lookup:
+  episode_and_section: episode-0607::egg wash
+  db_id: 1334

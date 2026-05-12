@@ -1,15 +1,14 @@
 babish_id: episode-0540
-name: Squid Ink Pasta inspired by JoJo's Bizarre Adventure
+name: Squid Ink Pasta from JoJo's Bizarre Adventure
 slug: squidinkpasta
 published_date: 2019-07-31
-youtube_link: https://www.youtube.com/watch?v=rPdln-PUZuE&quot;,&quot;width&quot;:854,&quot;height&quot;:480,&quot;providerName&quot;:&quot;YouTube&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.ytimg.com/vi/rPdln-PUZuE/hqdefault.jpg&quot;,&quot;resolvedBy&quot;:&quot;youtube&quot;&#125;
+youtube_link: https://www.youtube.com/watch?v=rPdln-PUZuE
 official_link: https://www.babi.sh/recipes/squidinkpasta
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695291/babishImages/undefined-896813.png
 time_to_cook: 6000
 yield_qty: 4
 yield_unit: servings
 tags:
-- tag-0003
 - tag-0012
 - tag-0022
 - tag-0030

@@ -1,7 +1,7 @@
 babish_id: episode-0481
 name: Roast Beef inspired by Attack on Titan
 slug: roast-beef-inspired-by-attack-on-titan
-published_date: 2024-10-07
+published_date: '2022-03-29'
 youtube_link: https://www.youtube.com/watch?v=QXIqgNMQw2w&t=566s
 official_link: https://www.babi.sh/recipes/roast-beef-inspired-by-attack-on-titan
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1728311451/f3j7tmnzhcxabbmdo8dm.webp
@@ -11,7 +11,8 @@ yield_unit: servings
 tags:
 - tag-0002
 - tag-0010
-guests: []
+guests:
+- guest-0027
 inspired_by:
 - reference-0262
 recipes:

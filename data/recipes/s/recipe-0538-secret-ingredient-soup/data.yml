@@ -1,0 +1,23 @@
+babish_id: recipe-0538
+name: Secret Ingredient Soup
+image_link: null
+raw_ingredient_list: 'Water
+
+  Hand pulled noodles
+
+  Daikon radish
+
+  Pork broth
+
+  Chinese chives or scallions
+
+  Homemade chili oil'
+raw_procedure: 'In a pot of water, cook noodles quickly and gently for no more than 90 seconds.
+
+  Add peeled and sliced Daikon radish to the broth as it is being heated up. Let simmer for about 20 minutes until soft. Check the broth for taste and add seasoning as necessary.
+
+  Scoop out the noodles with a sieve, dump into an empty bowl, and ladle broth over the top. Make sure there’s a radish slice and add a handful of Chinese chives or scallions with a dollop of chili oil on top. Enjoy!'
+episode: episode-0455
+_lookup:
+  episode_and_section: episode-0455::Special Ingredient Soup
+  db_id: 551

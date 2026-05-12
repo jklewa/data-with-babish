@@ -1,7 +1,7 @@
 babish_id: episode-0571
-name: Tater Tots inspired by Breaking Bad
+name: Tater Tots from Breaking Bad
 slug: tater-tots-breaking-bad
-published_date: 2023-02-22
+published_date: '2023-01-31'
 youtube_link: https://www.youtube.com/watch?v=2PaeU_ABK94
 official_link: https://www.babi.sh/recipes/tater-tots-breaking-bad
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1680385570/tslhiithrddekp7evkzn.webp
@@ -15,6 +15,7 @@ tags:
 guests: []
 inspired_by:
 - reference-0008
+- reference-0332
 recipes:
 - recipe-1346
 _lookup:

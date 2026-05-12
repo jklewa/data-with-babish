@@ -1,5 +1,5 @@
 babish_id: episode-0512
-name: SHRIMP SCAMPI
+name: Shrimp Scampi Pasta
 slug: shrimp-scampi-basics
 published_date: 2021-01-28
 youtube_link: https://www.youtube.com/watch?v=3ELo1zykAGU
@@ -9,7 +9,6 @@ time_to_cook: null
 yield_qty: 2
 yield_unit: servings
 tags:
-- tag-0012
 - tag-0013
 - tag-0015
 guests: []

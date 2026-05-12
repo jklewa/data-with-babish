@@ -1,7 +1,7 @@
 babish_id: episode-0516
 name: Sloppy Steaks inspired by I Think You Should Leave with Tim Robinson
 slug: sloppy-steaks-i-think-you-should-leave
-published_date: 2021-07-30
+published_date: '2021-07-27'
 youtube_link: https://www.youtube.com/watch?v=EcGgDrS5Gto
 official_link: https://www.babi.sh/recipes/sloppy-steaks-i-think-you-should-leave
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1680365695/labv7khvacfo5ambnr83.webp
@@ -14,8 +14,7 @@ tags:
 - tag-0021
 - tag-0030
 - tag-0032
-guests:
-- guest-0001
+guests: []
 inspired_by:
 - reference-0228
 recipes:

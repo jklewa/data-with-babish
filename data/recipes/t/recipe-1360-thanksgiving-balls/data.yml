@@ -1,0 +1,19 @@
+babish_id: recipe-1360
+name: Thanksgiving Balls
+image_link: null
+raw_ingredient_list: 'lager beer very
+
+  cornstarch
+
+  green beans
+
+  pumpkin puree
+
+  butter
+
+  evaporated milk'
+raw_procedure: ''
+episode: episode-0575
+_lookup:
+  episode_and_section: episode-0575::thanksgiving
+  db_id: 1379

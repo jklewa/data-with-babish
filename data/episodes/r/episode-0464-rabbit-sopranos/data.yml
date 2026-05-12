@@ -13,7 +13,8 @@ tags:
 - tag-0012
 - tag-0021
 - tag-0032
-guests: []
+guests:
+- guest-0054
 inspired_by:
 - reference-0042
 recipes:
