@@ -1,20 +1,21 @@
 babish_id: episode-0549
 name: STOLLEN (GERMAN HOLIDAY BREAD)
 slug: stollen
-published_date: 2020-12-18
+published_date: '2020-12-17'
 youtube_link: https://www.youtube.com/watch?v=25Od-bcv6vM
 official_link: https://www.babi.sh/recipes/stollen
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715445/babishImages/undefined-35277.png
 time_to_cook: null
 yield_qty: 2
-yield_unit: servings
+yield_unit: loaves
 tags:
 - tag-0013
 - tag-0016
 - tag-0018
 - tag-0032
 guests: []
-inspired_by: []
+inspired_by:
+- reference-0330
 recipes:
 - recipe-0819
 - recipe-0820

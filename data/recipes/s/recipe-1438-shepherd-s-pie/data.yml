@@ -1,0 +1,23 @@
+babish_id: recipe-1438
+name: Shepherd's Pie
+image_link: null
+raw_ingredient_list: 'yukon gold potatoes
+
+  lamb
+
+  dark irish stout
+
+  beef or bone broth
+
+  peas
+
+  butter
+
+  chives
+
+  milk'
+raw_procedure: ''
+episode: episode-0508
+_lookup:
+  episode_and_section: episode-0508::meat stew peas
+  db_id: 1457

@@ -1,0 +1,11 @@
+babish_id: recipe-1342
+name: Bill's Rabbit
+image_link: null
+raw_ingredient_list: 'rabbit rack
+
+  carrots'
+raw_procedure: ''
+episode: episode-0463
+_lookup:
+  episode_and_section: episode-0463::salad
+  db_id: 1361

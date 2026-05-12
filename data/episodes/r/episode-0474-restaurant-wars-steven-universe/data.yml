@@ -1,5 +1,5 @@
 babish_id: episode-0474
-name: Restaurant Wars inspired by Steven Universe
+name: Restaurant Wars from Steven Universe
 slug: restaurant-wars-steven-universe
 published_date: 2020-10-14
 youtube_link: https://www.youtube.com/watch?v=J2eU4Ol3IDU
@@ -14,7 +14,8 @@ tags:
 - tag-0029
 - tag-0030
 - tag-0032
-guests: []
+guests:
+- guest-0028
 inspired_by:
 - reference-0005
 recipes:

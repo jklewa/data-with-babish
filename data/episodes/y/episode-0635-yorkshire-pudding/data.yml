@@ -1,7 +1,7 @@
 babish_id: episode-0635
-name: YORKSHIRE PUDDING AND ROAST BEEF
+name: Yorkshire Pudding & Beef Roast
 slug: yorkshire-pudding
-published_date: 2021-12-20
+published_date: '2021-12-16'
 youtube_link: https://www.youtube.com/watch?v=F_YNznQ35Tc
 official_link: https://www.babi.sh/recipes/yorkshire-pudding
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1680976357/lye73ql2dp9xqunja3qb.webp
@@ -14,7 +14,8 @@ tags:
 - tag-0030
 - tag-0031
 guests: []
-inspired_by: []
+inspired_by:
+- reference-0334
 recipes:
 - recipe-1404
 _lookup:

@@ -1,16 +1,22 @@
 fields:
   name:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: overridden
+    by: curate-agent
+    at: '2026-05-11'
+    scraper_proposed: Tater Tots inspired by Breaking Bad
   slug:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-11'
   published_date:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: overridden
+    by: curate-agent
+    at: '2026-05-11'
+    scraper_proposed: 2023-02-22
   youtube_link:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-11'
   official_link:
     state: scraped
     last_seen: '2026-05-06'
@@ -33,8 +39,11 @@ fields:
     state: scraped
     last_seen: '2026-05-06'
   inspired_by:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: overridden
+    by: curate-agent
+    at: '2026-05-11'
+    scraper_proposed:
+    - reference-0008
   recipes:
     state: scraped
     last_seen: '2026-05-06'

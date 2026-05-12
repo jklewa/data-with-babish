@@ -1,0 +1,23 @@
+babish_id: recipe-1266
+name: Transforming Furikake Gohan
+image_link: null
+raw_ingredient_list: 'steamed rice
+
+  eggs
+
+  chicken wings
+
+  sake
+
+  mirin
+
+  bonito flakes
+
+  sesame oil
+
+  soy sauce'
+raw_procedure: ''
+episode: episode-0603
+_lookup:
+  episode_and_section: episode-0603::eggs
+  db_id: 1285

@@ -1,7 +1,7 @@
 babish_id: episode-0614
 name: 'Turkey & Caviar inspired by Star Trek: The Next Generation'
 slug: turkey-and-caviar-inspired-by-star-trek:-the-next-generation
-published_date: 2025-10-08
+published_date: '2024-11-21'
 youtube_link: https://www.youtube.com/watch?v=zI9a0WmfMN8
 official_link: https://www.babi.sh/recipes/turkey-and-caviar-inspired-by-star-trek:-the-next-generation
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1759944422/trwta1zax2jy5onpriuf.webp
@@ -15,7 +15,8 @@ tags:
 - tag-0021
 - tag-0030
 - tag-0033
-guests: []
+guests:
+- guest-0028
 inspired_by:
 - reference-0208
 recipes:

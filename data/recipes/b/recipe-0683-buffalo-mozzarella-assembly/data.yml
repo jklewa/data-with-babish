@@ -1,0 +1,9 @@
+babish_id: recipe-0683
+name: Buffalo Mozzarella (Assembly)
+image_link: null
+raw_ingredient_list: Buffalo mozzarella, sliced
+raw_procedure: ''
+episode: episode-0610
+_lookup:
+  episode_and_section: episode-0610::For Assembly
+  db_id: 697

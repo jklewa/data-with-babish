@@ -1,0 +1,9 @@
+babish_id: recipe-1181
+name: Marry Me Chicken
+image_link: null
+raw_ingredient_list: chicken stock
+raw_procedure: ''
+episode: episode-0591
+_lookup:
+  episode_and_section: episode-0591::serving
+  db_id: 1200
