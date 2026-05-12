@@ -1,7 +1,7 @@
 babish_id: episode-0286
 name: Honey Toast inspired by Chainsaw Man
 slug: honey-toast-inspired-by-chainsaw-man
-published_date: 2024-08-30
+published_date: '2022-12-15'
 youtube_link: https://www.youtube.com/watch?v=P7dD7LPVPkA
 official_link: https://www.babi.sh/recipes/honey-toast-inspired-by-chainsaw-man
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1725048058/bgtohmj6horifolobdnp.webp
@@ -16,7 +16,8 @@ tags:
 - tag-0019
 - tag-0028
 - tag-0031
-guests: []
+guests:
+- guest-0027
 inspired_by:
 - reference-0273
 recipes:

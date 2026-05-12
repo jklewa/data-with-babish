@@ -1,0 +1,29 @@
+babish_id: recipe-0329
+name: The Every-Pork Burrito
+image_link: null
+raw_ingredient_list: 'Big tortillas
+
+  Chicharron
+
+  Carnitas
+
+  Chorizo
+
+  Al pastor
+
+  Salsa
+
+  Sour cream
+
+  Monterey jack cheese'
+raw_procedure: 'Cook some bacon in a pan. Remove bacon and use the fat to crisp up Chicharron and carnitas.
+
+  Take a large tortilla and spread down a base layer of white lime rice and a few slices of our chorizo sausage.
+
+  Next add the crispy chicharron and carnitas. Then comes the al pastor. Top that with some monterey jack cheese, salsa, sour cream and bacon.
+
+  Roll up and enjoy!'
+episode: episode-0226
+_lookup:
+  episode_and_section: episode-0226::The Every-Meat Burrito
+  db_id: 338

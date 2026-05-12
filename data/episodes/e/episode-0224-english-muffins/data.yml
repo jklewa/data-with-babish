@@ -1,13 +1,13 @@
 babish_id: episode-0224
 name: ENGLISH MUFFINS
 slug: english-muffins
-published_date: 2021-08-06
+published_date: '2021-08-05'
 youtube_link: https://www.youtube.com/watch?v=5E_DIPttHuE
 official_link: https://www.babi.sh/recipes/english-muffins
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695771/babishImages/undefined-417014.png
 time_to_cook: 3600
-yield_qty: null
-yield_unit: null
+yield_qty: 12
+yield_unit: muffins
 tags:
 - tag-0013
 - tag-0016

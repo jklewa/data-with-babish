@@ -1,19 +1,24 @@
 fields:
   name:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-11'
   slug:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-11'
   published_date:
     state: scraped
     last_seen: '2026-05-06'
   youtube_link:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: overridden
+    by: curate-agent
+    at: '2026-05-11'
+    scraper_proposed: https://www.youtube.com/watch?v=BhqcprmntPY&pp=ygUabWluZWNyYWZ0IGNha2UgYW5pbWUgYWx2aW4%3D
   official_link:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: confirmed
+    by: curate-agent
+    at: '2026-05-11'
   image_link:
     state: scraped
     last_seen: '2026-05-06'
@@ -30,8 +35,10 @@ fields:
     state: scraped
     last_seen: '2026-05-06'
   guests:
-    state: scraped
-    last_seen: '2026-05-06'
+    state: overridden
+    by: curate-agent
+    at: '2026-05-11'
+    scraper_proposed: []
   inspired_by:
     state: scraped
     last_seen: '2026-05-06'

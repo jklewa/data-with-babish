@@ -1,0 +1,15 @@
+babish_id: recipe-1211
+name: A5 wagyu katsu sando
+image_link: null
+raw_ingredient_list: 'a5 grade wagyu sirloin
+
+  japanese milk bread
+
+  japanese sandwich bread
+
+  spam cut into thick slices'
+raw_procedure: ''
+episode: episode-0206
+_lookup:
+  episode_and_section: episode-0206::steak-egg wagyu sandwich
+  db_id: 1230

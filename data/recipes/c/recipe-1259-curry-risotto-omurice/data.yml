@@ -1,0 +1,17 @@
+babish_id: recipe-1259
+name: curry risotto omurice
+image_link: null
+raw_ingredient_list: 'eggs
+
+  sugar
+
+  beef
+
+  arborio rice
+
+  parmesan cheese'
+raw_procedure: ''
+episode: episode-0189
+_lookup:
+  episode_and_section: episode-0189::omelet
+  db_id: 1278

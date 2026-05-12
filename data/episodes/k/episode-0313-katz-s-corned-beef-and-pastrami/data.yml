@@ -1,7 +1,7 @@
 babish_id: episode-0313
 name: Katz's Corned Beef and Pastrami
 slug: katz's-corned-beef-and-pastrami
-published_date: 2025-06-04
+published_date: '2024-06-25'
 youtube_link: https://www.youtube.com/watch?v=uyjq9wJCaGE&pp=ygUjYmluZ2luZyB3aXRoIGJhYmlzaCBkZWxpIHNhbmR3aWNoZXM%3D
 official_link: https://www.babi.sh/recipes/katz's-corned-beef-and-pastrami
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1749065565/t20xd8xbngcehg55xfwh.webp
@@ -15,7 +15,8 @@ tags:
 - tag-0029
 - tag-0030
 - tag-0032
-guests: []
+guests:
+- guest-0027
 inspired_by: []
 recipes:
 - recipe-1217

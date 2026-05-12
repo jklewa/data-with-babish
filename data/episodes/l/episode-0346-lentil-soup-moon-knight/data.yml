@@ -1,7 +1,7 @@
 babish_id: episode-0346
-name: Lentil Soup inspired by Moon Knight
+name: 'Lentil Soup from Moon Knight: "Binging" with Brad-bish'
 slug: lentil-soup-moon-knight
-published_date: 2022-05-17
+published_date: '2022-04-19'
 youtube_link: https://www.youtube.com/watch?v=wq1gxK9m5hM
 official_link: https://www.babi.sh/recipes/lentil-soup-moon-knight
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681695430/babishImages/undefined-376232.png
@@ -16,7 +16,9 @@ tags:
 - tag-0029
 - tag-0030
 - tag-0031
-guests: []
+guests:
+- guest-0047
+- guest-0048
 inspired_by:
 - reference-0301
 recipes:

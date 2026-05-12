@@ -1,7 +1,7 @@
 babish_id: episode-0435
 name: PIZZA DOUGH
 slug: pizza-dough
-published_date: 2020-10-15
+published_date: '2020-10-08'
 youtube_link: https://www.youtube.com/watch?v=n1O3uHPCOLA
 official_link: https://www.babi.sh/recipes/pizza-dough
 image_link: https://res.cloudinary.com/dd27yihoo/image/upload/v1681715535/babishImages/undefined-397821.png
@@ -14,7 +14,8 @@ tags:
 - tag-0029
 - tag-0030
 - tag-0031
-guests: []
+guests:
+- guest-0029
 inspired_by: []
 recipes:
 - recipe-1413

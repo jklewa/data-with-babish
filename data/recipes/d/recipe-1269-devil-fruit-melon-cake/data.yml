@@ -1,0 +1,21 @@
+babish_id: recipe-1269
+name: Devil Fruit Melon Cake
+image_link: null
+raw_ingredient_list: 'heavy cream
+
+  eggs
+
+  purple fondant
+
+  sugar
+
+  cake flour
+
+  egg yolks
+
+  milk'
+raw_procedure: ''
+episode: episode-0200
+_lookup:
+  episode_and_section: episode-0200::devil fruit decoration
+  db_id: 1288

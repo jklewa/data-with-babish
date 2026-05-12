@@ -1,5 +1,5 @@
 babish_id: episode-0191
-name: DATE NIGHT
+name: Date Night Dinner
 slug: date-night
 published_date: 2021-02-12
 youtube_link: https://www.youtube.com/watch?v=dFh7tZoGYA4
@@ -11,7 +11,8 @@ yield_unit: servings
 tags:
 - tag-0013
 - tag-0031
-guests: []
+guests:
+- guest-0032
 inspired_by: []
 recipes:
 - recipe-0862
