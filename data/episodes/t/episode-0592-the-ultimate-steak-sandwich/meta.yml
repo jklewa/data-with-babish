@@ -13,9 +13,10 @@ fields:
     at: '2026-05-11'
     scraper_proposed: 2025-06-23
   youtube_link:
-    state: confirmed
+    state: overridden
     by: curate-agent
-    at: '2026-05-11'
+    at: '2026-05-24'
+    scraper_proposed: https://www.youtube.com/watch?v=oHEYV2rHu1Y&t=24s&ab_channel=BabishCulinaryUniverse
   official_link:
     state: confirmed
     by: curate-agent
