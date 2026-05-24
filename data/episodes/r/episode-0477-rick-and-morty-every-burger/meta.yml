@@ -14,9 +14,10 @@ fields:
     at: '2026-05-11'
     scraper_proposed: 2023-12-11
   youtube_link:
-    state: confirmed
+    state: overridden
     by: curate-agent
-    at: '2026-05-11'
+    at: '2026-05-24'
+    scraper_proposed: https://www.youtube.com/watch?v=2AXPSCQHiFY&t=76s
   official_link:
     state: scraped
     last_seen: '2026-05-06'

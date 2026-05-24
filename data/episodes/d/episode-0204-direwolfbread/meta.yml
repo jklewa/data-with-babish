@@ -15,8 +15,8 @@ fields:
   youtube_link:
     state: overridden
     by: curate-agent
-    at: '2026-05-11'
-    scraper_proposed: https://www.youtube.com/watch?v=6nuEgc2RVWo&amp;t=336s
+    at: '2026-05-24'
+    scraper_proposed: https://www.youtube.com/watch?v=6nuEgc2RVWo&t=336s
   official_link:
     state: confirmed
     by: curate-agent
